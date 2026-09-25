@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence } from "@/content/load";
 import { StepFooter } from "@/features/lesson/StepFooter";
+import { PlayAll } from "@/features/audio/PlayAll";
 import { SentenceCard } from "@/features/sentences/SentenceCard";
 
 export const dynamicParams = false;
@@ -28,9 +29,14 @@ export default async function LessonExamplesPage({ params }: { params: Promise<{
         Câu ví dụ ({sentences.length})
       </h2>
       <p className="mb-4 mt-1 text-sm text-stone-500">Bấm vào một từ để xem chi tiết. Nghe audio thường rồi nghe chậm để bắt chước thanh điệu.</p>
+      <PlayAll sentences={sentences.map((s) => ({ key: s.key, audio: s.audio }))} />
       <ol className="space-y-3">
         {sentences.map((s, i) => (
-          <li key={s.key} className="flex gap-3 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm sm:p-5">
+          <li
+            key={s.key}
+            id={`sentence-${s.key}`}
+            className="flex scroll-mt-40 gap-3 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm transition-colors data-[playing=true]:border-brand-300 data-[playing=true]:bg-brand-50 data-[playing=true]:ring-2 data-[playing=true]:ring-brand-300 sm:p-5"
+          >
             <span className="mt-1 grid size-7 shrink-0 place-items-center rounded-full bg-stone-100 text-xs font-semibold text-stone-500">{i + 1}</span>
             <div className="min-w-0 flex-1">
               <SentenceCard sentence={s} wordHref={wordHref} />

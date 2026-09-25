@@ -4,6 +4,7 @@ import type { SentenceData, WordData } from "@/content/types";
 import { joinSinoViet } from "@/domain/display";
 import { LearnedToggle } from "@/features/progress/ProgressWidgets";
 import { AudioButtons } from "@/features/audio/AudioButtons";
+import { SpeakButtons } from "@/features/audio/SpeakButtons";
 
 const MAX_MEANINGS = 3;
 
@@ -19,7 +20,10 @@ export function WordCard({ word, example, href }: { word: WordData; example: Sen
           <p lang="zh-CN" className="font-han text-4xl leading-tight text-stone-900 group-hover:text-brand-700">{word.simplified}</p>
           <p className="mt-1 text-lg font-medium text-brand-700">{word.pinyin}</p>
         </Link>
-        <HskBadge level={word.hskLevel} />
+        <div className="flex flex-col items-end gap-2">
+          <HskBadge level={word.hskLevel} />
+          <SpeakButtons text={word.simplified} compact />
+        </div>
       </div>
 
       <dl className="mt-2 space-y-1 text-sm">

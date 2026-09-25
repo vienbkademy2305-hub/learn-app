@@ -146,6 +146,16 @@ async function main() {
     const res = await audioResponse;
     checks.push(`${res && res.status() < 400 ? "PASS" : "FAIL"} bấm "Nghe" tải audio (${res ? `${res.status()} ${new URL(res.url()).pathname}` : "không có request"})`);
 
+    current = "play-all";
+    await page.goto(url(`/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
+    const firstClip = page.waitForResponse((r) => r.url().endsWith(".mp3"), { timeout: 10_000 }).catch(() => null);
+    await page.getByRole("button", { name: "▶ Nghe cả bài" }).click();
+    const clip = await firstClip;
+    const nowPlaying = await page.getByText(/Đang phát câu 1\//).count();
+    const highlighted = await page.locator('li[data-playing="true"]').count();
+    checks.push(`${clip && nowPlaying > 0 && highlighted === 1 ? "PASS" : "FAIL"} "Nghe cả bài" phát câu 1 và tô sáng câu đang đọc`);
+    await page.getByRole("button", { name: "■ Dừng" }).click();
+
     current = "writing";
     const strokeResponse = page.waitForResponse((r) => r.url().includes("/assets/strokes/"), { timeout: 10_000 }).catch(() => null);
     await page.goto(url(`/lesson/${LESSON}/writing/`), { waitUntil: "networkidle" });
@@ -177,6 +187,38 @@ async function main() {
     for (let i = problems.length - 1; i >= 0; i--) if (problems[i]!.page === "404") problems.splice(i, 1);
     checks.push(`${notFoundOk ? "PASS" : "FAIL"} trang không tồn tại hiện 404 tiếng Việt`);
     await context.close();
+
+    // Word/character pronunciation uses the device voice. Headless Chromium has
+    // no Mandarin voice, so a fake one records what would be spoken.
+    const ttsContext = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    // Plain-JS string: a function would be transpiled with helpers (__name) that do not exist in the page.
+    await ttsContext.addInitScript(`
+      window.__spoken = [];
+      const voice = { lang: "zh-CN", name: "Test Mandarin" };
+      class FakeUtterance {
+        constructor(text) { this.text = text; this.voice = null; this.lang = ""; this.rate = 1; this.onend = null; this.onerror = null; }
+      }
+      Object.defineProperty(window, "SpeechSynthesisUtterance", { value: FakeUtterance });
+      Object.defineProperty(window, "speechSynthesis", {
+        value: {
+          getVoices: () => [voice],
+          speak: (u) => { window.__spoken.push(u.text + "@" + u.rate); setTimeout(() => u.onend && u.onend(), 50); },
+          cancel: () => {},
+          addEventListener: () => {},
+          removeEventListener: () => {},
+        },
+      });
+    `);
+    const tts = await ttsContext.newPage();
+    current = "tts";
+    watch(tts, problems, () => ({ viewport: "desktop", page: current }));
+    await tts.goto(url(`/lesson/${LESSON}/word/lao3shi1-8001-5e08/`), { waitUntil: "networkidle" });
+    await tts.getByRole("button", { name: "Nghe lǎo shī" }).click();
+    await tts.getByRole("button", { name: "Nghe chậm lǎo shī" }).click();
+    await tts.getByRole("button", { name: "Nghe 老" }).first().click();
+    const spoken = await tts.evaluate(() => (window as unknown as { __spoken: string[] }).__spoken);
+    checks.push(`${JSON.stringify(spoken) === JSON.stringify(["老师@0.85", "老师@0.5", "老@0.85"]) ? "PASS" : "FAIL"} nút nghe từ/chữ đọc đúng nội dung và tốc độ (${spoken.join(", ")})`);
+    await ttsContext.close();
   } finally {
     await browser.close();
     server.close();

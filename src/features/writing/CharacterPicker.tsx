@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import type { LessonCharacter } from "@/domain/display";
+import { SpeakButtons } from "@/features/audio/SpeakButtons";
 import { StrokeWriter } from "./StrokeWriter";
 
 /**
@@ -47,6 +48,9 @@ export function CharacterPicker({
           <p>
             <span lang="zh-CN" className="font-han mr-2 text-3xl">{current.hanzi}</span>
             <span className="text-brand-700">{current.pinyin ?? ""}</span>
+            <span className="ml-2 inline-block align-middle">
+              <SpeakButtons text={current.hanzi} compact />
+            </span>
           </p>
           <p className={current.sinoViet.length ? "text-sm font-semibold uppercase text-stone-700" : "text-xs italic text-stone-400"}>
             {current.sinoViet.length ? current.sinoViet[0] : "chưa có Hán Việt"}

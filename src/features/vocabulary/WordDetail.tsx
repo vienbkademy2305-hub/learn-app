@@ -4,6 +4,7 @@ import { getLesson, getSentence } from "@/content/load";
 import type { WordData } from "@/content/types";
 import { joinSinoViet, lessonCharacters } from "@/domain/display";
 import { CharacterPicker } from "@/features/writing/CharacterPicker";
+import { SpeakButtons } from "@/features/audio/SpeakButtons";
 import { LearnedToggle } from "@/features/progress/ProgressWidgets";
 import { SentenceCard } from "@/features/sentences/SentenceCard";
 
@@ -42,8 +43,11 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
             <dd className={sinoViet ? "text-lg font-semibold uppercase tracking-wide text-stone-900" : "italic text-stone-400"}>{sinoViet ?? "chưa có đủ dữ liệu"}</dd>
           </div>
           <div>
-            <dt className="text-sm text-stone-500">Audio</dt>
-            <dd className="text-sm text-stone-500">Chưa có audio riêng cho từ — nghe trong các câu ví dụ bên dưới.</dd>
+            <dt className="text-sm text-stone-500">Phát âm</dt>
+            <dd className="mt-1 space-y-1">
+              <SpeakButtons text={word.simplified} label={word.pinyin} />
+              <p className="text-xs text-stone-400">Giọng đọc của thiết bị. Câu ví dụ bên dưới có giọng thu sẵn.</p>
+            </dd>
           </div>
         </dl>
       </section>
@@ -88,6 +92,9 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
           {word.chars.map((c, i) => (
             <li key={`${c.hanzi}-${i}`} className="rounded-xl bg-stone-50 p-3 text-center">
               <p lang="zh-CN" className="font-han text-3xl text-stone-900">{c.hanzi}</p>
+              <div className="my-1 flex justify-center">
+                <SpeakButtons text={c.hanzi} compact />
+              </div>
               <p className="text-sm text-brand-700">{c.pinyin ?? "—"}</p>
               <p className={c.sinoViet.length ? "text-sm font-medium uppercase text-stone-700" : "text-xs italic text-stone-400"}>
                 {c.sinoViet.length ? c.sinoViet.join(" / ") : "chưa có Hán Việt"}
