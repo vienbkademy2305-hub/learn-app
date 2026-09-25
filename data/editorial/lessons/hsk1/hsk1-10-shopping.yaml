@@ -1,0 +1,54 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-10-shopping
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Mua sắm
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:衣服|yi1fu5
+      - word:太|tai4
+      - word:贵|gui4
+      - word:多少|duo1shao3
+      - word:八|ba1
+      - word:钱包|qian2bao1
+      - word:包|bao1
+      - word:花|hua1
+      - word:一些|yi1xie1
+      - word:门票|men2piao4
+      - word:别的|bie2de5
+      - word:身上|shen1shang5
+      - word:常|chang2
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0123
+      - sentence:hsk-sentences-audio/hsk1-0124
+      - sentence:hsk-sentences-audio/hsk1-0125
+      - sentence:hsk-sentences-audio/hsk1-0126
+      - sentence:hsk-sentences-audio/hsk1-0127
+      - sentence:hsk-sentences-audio/hsk1-0128
+      - sentence:hsk-sentences-audio/hsk1-0129
+      - sentence:hsk-sentences-audio/hsk1-0130
+      - sentence:hsk-sentences-audio/hsk1-0131
+      - sentence:hsk-sentences-audio/hsk1-0132
+      - sentence:hsk-sentences-audio/hsk1-0227
+      - sentence:hsk-sentences-audio/hsk1-0273
+      - sentence:hsk-sentences-audio/hsk1-0280
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0123
+      - sentence:hsk-sentences-audio/hsk1-0124
+      - sentence:hsk-sentences-audio/hsk1-0125
+      - sentence:hsk-sentences-audio/hsk1-0126
+      - sentence:hsk-sentences-audio/hsk1-0127
+      - sentence:hsk-sentences-audio/hsk1-0128
+      - sentence:hsk-sentences-audio/hsk1-0129
+      - sentence:hsk-sentences-audio/hsk1-0130
+      - sentence:hsk-sentences-audio/hsk1-0131
+      - sentence:hsk-sentences-audio/hsk1-0132
+      - sentence:hsk-sentences-audio/hsk1-0227
+      - sentence:hsk-sentences-audio/hsk1-0273
+      - sentence:hsk-sentences-audio/hsk1-0280

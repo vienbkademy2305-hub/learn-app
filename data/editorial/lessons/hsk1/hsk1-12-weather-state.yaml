@@ -1,0 +1,48 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-12-weather-state
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Thời tiết và trạng thái
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:天气|tian1qi4
+      - word:风|feng1
+      - word:忙|mang2
+      - word:生气|sheng1qi4
+      - word:干净|gan1jing4
+      - word:生病|sheng1bing4
+      - word:看病|kan4bing4
+      - word:病人|bing4ren2
+      - word:真|zhen1
+      - word:穿|chuan1
+      - word:病|bing4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0141
+      - sentence:hsk-sentences-audio/hsk1-0142
+      - sentence:hsk-sentences-audio/hsk1-0143
+      - sentence:hsk-sentences-audio/hsk1-0144
+      - sentence:hsk-sentences-audio/hsk1-0145
+      - sentence:hsk-sentences-audio/hsk1-0146
+      - sentence:hsk-sentences-audio/hsk1-0147
+      - sentence:hsk-sentences-audio/hsk1-0148
+      - sentence:hsk-sentences-audio/hsk1-0149
+      - sentence:hsk-sentences-audio/hsk1-0150
+      - sentence:hsk-sentences-audio/hsk1-0255
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0141
+      - sentence:hsk-sentences-audio/hsk1-0142
+      - sentence:hsk-sentences-audio/hsk1-0143
+      - sentence:hsk-sentences-audio/hsk1-0144
+      - sentence:hsk-sentences-audio/hsk1-0145
+      - sentence:hsk-sentences-audio/hsk1-0146
+      - sentence:hsk-sentences-audio/hsk1-0147
+      - sentence:hsk-sentences-audio/hsk1-0148
+      - sentence:hsk-sentences-audio/hsk1-0149
+      - sentence:hsk-sentences-audio/hsk1-0150
+      - sentence:hsk-sentences-audio/hsk1-0255

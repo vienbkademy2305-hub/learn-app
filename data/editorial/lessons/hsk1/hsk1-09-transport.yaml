@@ -1,0 +1,64 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-09-transport
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Đi lại
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:火车|huo3che1
+      - word:打车|da3che1
+      - word:机场|ji1chang3
+      - word:飞机|fei1ji1
+      - word:外国|wai4guo2
+      - word:上车|shang4che1
+      - word:了|liao3
+      - word:下车|xia4che1
+      - word:汽车|qi4che1
+      - word:马路|ma3lu4
+      - word:车票|che1piao4
+      - word:机票|ji1piao4
+      - word:路口|lu4kou3
+      - word:车|che1
+      - word:车上|che1shang4
+      - word:路上|lu4shang5
+      - word:面包|mian4bao1
+      - word:飞|fei1
+      - word:从|cong2
+      - word:过|guo4
+      - word:票|piao4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0112
+      - sentence:hsk-sentences-audio/hsk1-0113
+      - sentence:hsk-sentences-audio/hsk1-0114
+      - sentence:hsk-sentences-audio/hsk1-0115
+      - sentence:hsk-sentences-audio/hsk1-0116
+      - sentence:hsk-sentences-audio/hsk1-0117
+      - sentence:hsk-sentences-audio/hsk1-0118
+      - sentence:hsk-sentences-audio/hsk1-0119
+      - sentence:hsk-sentences-audio/hsk1-0120
+      - sentence:hsk-sentences-audio/hsk1-0121
+      - sentence:hsk-sentences-audio/hsk1-0122
+      - sentence:hsk-sentences-audio/hsk1-0207
+      - sentence:hsk-sentences-audio/hsk1-0223
+      - sentence:hsk-sentences-audio/hsk1-0256
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0112
+      - sentence:hsk-sentences-audio/hsk1-0113
+      - sentence:hsk-sentences-audio/hsk1-0114
+      - sentence:hsk-sentences-audio/hsk1-0115
+      - sentence:hsk-sentences-audio/hsk1-0116
+      - sentence:hsk-sentences-audio/hsk1-0117
+      - sentence:hsk-sentences-audio/hsk1-0118
+      - sentence:hsk-sentences-audio/hsk1-0119
+      - sentence:hsk-sentences-audio/hsk1-0120
+      - sentence:hsk-sentences-audio/hsk1-0121
+      - sentence:hsk-sentences-audio/hsk1-0122
+      - sentence:hsk-sentences-audio/hsk1-0207
+      - sentence:hsk-sentences-audio/hsk1-0223
+      - sentence:hsk-sentences-audio/hsk1-0256

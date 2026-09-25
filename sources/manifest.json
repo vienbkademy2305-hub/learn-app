@@ -1,0 +1,48 @@
+{
+  "$comment": "Pinned source versions (docs/ARCHITECTURE.md §21). Importers refuse to run when a commit or sha256 differs. reposDir can be overridden with SOURCE_REPOS_DIR.",
+  "reposDir": "C:/Users/Admin/hoc-tieng-trung/repos",
+  "repos": {
+    "xue-hanzi": {
+      "url": "https://github.com/phucbm/xue-hanzi",
+      "commit": "c1e7610546454e32db2b3332435902bf78181152",
+      "files": {
+        "src/data/CVDICT.u8": "c213512231b5db253e65a8314c5c504fa6b10d03275290416877a267d84c7ca6",
+        "src/data/kVietnamese.json": "88232861f206295bbf9f4c9c7c5876857a0aed7c7f3afebd06f795f724feb0c0",
+        "src/data/sinoViet-overrides.json": "d162ea25c932e54bfea2a68dcba90051ea44da302e4bfbc67f9590e5d570f00a",
+        "src/data/makemeahanzi-dictionary.txt": "c2aa0666703a2f7e4f7a8811ba2498e5528a0a34bb1f2812f079131a9a1fca1c"
+      }
+    },
+    "hsk-sentences-audio": {
+      "url": "https://github.com/no7z/hsk-sentences-audio",
+      "commit": "857dfbab91027ebd97df01260e91b817cb6b4854",
+      "files": {
+        "dist/sentences.json": "883252d6bde235d98115f6205c19983c1bfb722e35fa708484f0ddafa7f61beb",
+        "data/grammar_points.json": "57b9bb5f4b87e6c2c15be2bb711e225e7d9001704c48d2023a86cbeb3c656d78",
+        "dist/review_flags.txt": "322bfe575fa4231068bbbcb322e559a9a86d7bf26f7c2345db141cc4db139ed7"
+      }
+    },
+    "hsk1-chinese-learning": {
+      "url": "https://github.com/ALiangPang/hsk1-chinese-learning",
+      "commit": "8d635bdbe3267f65bda1d1fee29e44cc8735ed3e",
+      "files": {
+        "js/vocabulary.js": "b491e5a137d96dd0ac5fe2122a4aba912c9776539fd48238cfdda01f8d11b46b",
+        "js/sentences.js": "7cfc4eb1acc99e98eb752dc72d2572e05ced5fb4a64f4b39cfdce9df37f49153"
+      }
+    }
+  },
+  "downloads": {
+    "complete-hsk-vocabulary": {
+      "url": "https://github.com/drkameleon/complete-hsk-vocabulary",
+      "rawBase": "https://raw.githubusercontent.com/drkameleon/complete-hsk-vocabulary",
+      "commit": "7ac65bf1a6387d35f1ade478906172a19311c7f9",
+      "files": {
+        "wordlists/exclusive/new/1.json": "7ebcdbd2548ebdcf2413713d975ce095065f0f3447a5967e9caa4f4bf3d82c26",
+        "wordlists/exclusive/new/2.json": "77f325f8a664a6179e664a94e810c36c134963a8cc575cc2b6a8e3eed2342997",
+        "wordlists/exclusive/new/3.json": "ee322faf86bab14d719f356748b3adb4f07000d8dfa6e73d3ba60cefa938f0d5",
+        "wordlists/exclusive/new/4.json": "7e0695b3e62174f646b9dd588424b7c2c0a38d2d33e7368e52fbc93ca770c9b3",
+        "wordlists/exclusive/new/5.json": "4e76a8ff6cd8755c6be61268bd102d08b4182f52d49202a8dea37fcc2dd0e5bf",
+        "wordlists/exclusive/new/6.json": "03cac80f1bee6433dddbc1d83c77c582ea6f5ba5b47bcd83ff266b03d2ac2ee7"
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-07-school-work
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Trường học và công việc
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:大学|da4xue2
+      - word:大学生|da4xue2sheng1
+      - word:小学生|xiao3xue2sheng1
+      - word:上课|shang4ke4
+      - word:下课|xia4ke4
+      - word:上班|shang4ban1
+      - word:上学|shang4xue2
+      - word:下班|xia4ban1
+      - word:去|qu4
+      - word:商店|shang1dian4
+      - word:放假|fang4jia4
+      - word:不用|bu4yong4
+      - word:考试|kao3shi4
+      - word:图书馆|tu2shu1guan3
+      - word:教学楼|jiao4xue2lou2
+      - word:旁边|pang2bian1
+      - word:学校|xue2xiao4
+      - word:工作|gong1zuo4
+      - word:上网|shang4wang3
+      - word:网上|wang3shang4
+      - word:多|duo1
+      - word:网友|wang3you3
+      - word:中学生|zhong1xue2sheng1
+      - word:听写|ting1xie3
+      - word:学|xue2
+      - word:外语|wai4yu3
+      - word:新|xin1
+      - word:知识|zhi1shi5
+      - word:考|kao3
+      - word:书包|shu1bao1
+      - word:里|li3
+      - word:课本|ke4ben3
+      - word:国外|guo2wai4
+      - word:来到|lai2dao4
+      - word:读|du2
+      - word:开会|kai1hui4
+      - word:中学|zhong1xue2
+      - word:小学|xiao3xue2
+      - word:半年|ban4nian2
+      - word:放学|fang4xue2
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0085
+      - sentence:hsk-sentences-audio/hsk1-0086
+      - sentence:hsk-sentences-audio/hsk1-0087
+      - sentence:hsk-sentences-audio/hsk1-0088
+      - sentence:hsk-sentences-audio/hsk1-0089
+      - sentence:hsk-sentences-audio/hsk1-0090
+      - sentence:hsk-sentences-audio/hsk1-0091
+      - sentence:hsk-sentences-audio/hsk1-0092
+      - sentence:hsk-sentences-audio/hsk1-0093
+      - sentence:hsk-sentences-audio/hsk1-0094
+      - sentence:hsk-sentences-audio/hsk1-0095
+      - sentence:hsk-sentences-audio/hsk1-0096
+      - sentence:hsk-sentences-audio/hsk1-0201
+      - sentence:hsk-sentences-audio/hsk1-0205
+      - sentence:hsk-sentences-audio/hsk1-0206
+      - sentence:hsk-sentences-audio/hsk1-0209
+      - sentence:hsk-sentences-audio/hsk1-0232
+      - sentence:hsk-sentences-audio/hsk1-0234
+      - sentence:hsk-sentences-audio/hsk1-0242
+      - sentence:hsk-sentences-audio/hsk1-0246
+      - sentence:hsk-sentences-audio/hsk1-0248
+      - sentence:hsk-sentences-audio/hsk1-0251
+      - sentence:hsk-sentences-audio/hsk1-0264
+      - sentence:hsk-sentences-audio/hsk1-0272
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0085
+      - sentence:hsk-sentences-audio/hsk1-0086
+      - sentence:hsk-sentences-audio/hsk1-0087
+      - sentence:hsk-sentences-audio/hsk1-0088
+      - sentence:hsk-sentences-audio/hsk1-0089
+      - sentence:hsk-sentences-audio/hsk1-0090
+      - sentence:hsk-sentences-audio/hsk1-0091
+      - sentence:hsk-sentences-audio/hsk1-0092
+      - sentence:hsk-sentences-audio/hsk1-0093
+      - sentence:hsk-sentences-audio/hsk1-0094
+      - sentence:hsk-sentences-audio/hsk1-0095
+      - sentence:hsk-sentences-audio/hsk1-0096
+      - sentence:hsk-sentences-audio/hsk1-0201
+      - sentence:hsk-sentences-audio/hsk1-0205
+      - sentence:hsk-sentences-audio/hsk1-0206
+      - sentence:hsk-sentences-audio/hsk1-0209
+      - sentence:hsk-sentences-audio/hsk1-0232
+      - sentence:hsk-sentences-audio/hsk1-0234
+      - sentence:hsk-sentences-audio/hsk1-0242
+      - sentence:hsk-sentences-audio/hsk1-0246
+      - sentence:hsk-sentences-audio/hsk1-0248
+      - sentence:hsk-sentences-audio/hsk1-0251
+      - sentence:hsk-sentences-audio/hsk1-0264
+      - sentence:hsk-sentences-audio/hsk1-0272

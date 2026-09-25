@@ -1,0 +1,5 @@
+node_modules/
+# Local database and imported binary assets (rebuildable from sources/manifest.json)
+.data/
+# Downloaded source snapshots (pinned in sources/manifest.json)
+sources/raw/

@@ -1,0 +1,65 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-01-greetings
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Chào hỏi
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:老师|lao3shi1
+      - word:您|nin2
+      - word:好|hao3
+      - word:你|ni3
+      - word:很|hen3
+      - word:高兴|gao1xing4
+      - word:认识|ren4shi5
+      - word:谢谢|xie4xie5
+      - word:不|bu4
+      - word:对不起|dui4bu5qi3
+      - word:没关系|mei2guan1xi5
+      - word:请问|qing3wen4
+      - word:叫|jiao4
+      - word:什么|shen2me5
+      - word:名字|ming2zi5
+      - word:请|qing3
+      - word:进|jin4
+      - word:坐|zuo4
+      - word:再见|zai4jian4
+      - word:我|wo3
+      - word:来|lai2
+      - word:介绍|jie4shao4
+      - word:一|yi1
+      - word:下|xia4
+      - word:的|de5
+      - word:朋友|peng2you5
+      - word:没事儿|mei2shi4r5
+      - word:没什么|mei2shen2me5
+      - word:明天|ming2tian1
+      - word:见|jian4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0001
+      - sentence:hsk-sentences-audio/hsk1-0002
+      - sentence:hsk-sentences-audio/hsk1-0003
+      - sentence:hsk-sentences-audio/hsk1-0004
+      - sentence:hsk-sentences-audio/hsk1-0005
+      - sentence:hsk-sentences-audio/hsk1-0006
+      - sentence:hsk-sentences-audio/hsk1-0007
+      - sentence:hsk-sentences-audio/hsk1-0008
+      - sentence:hsk-sentences-audio/hsk1-0244
+      - sentence:hsk-sentences-audio/hsk1-0245
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0001
+      - sentence:hsk-sentences-audio/hsk1-0002
+      - sentence:hsk-sentences-audio/hsk1-0003
+      - sentence:hsk-sentences-audio/hsk1-0004
+      - sentence:hsk-sentences-audio/hsk1-0005
+      - sentence:hsk-sentences-audio/hsk1-0006
+      - sentence:hsk-sentences-audio/hsk1-0007
+      - sentence:hsk-sentences-audio/hsk1-0008
+      - sentence:hsk-sentences-audio/hsk1-0244
+      - sentence:hsk-sentences-audio/hsk1-0245

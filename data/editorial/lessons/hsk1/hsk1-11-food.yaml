@@ -1,0 +1,52 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-11-food
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Ăn uống
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:米饭|mi3fan4
+      - word:早饭|zao3fan4
+      - word:牛奶|niu2nai3
+      - word:好吃|hao3chi1
+      - word:鸡蛋|ji1dan4
+      - word:肉|rou4
+      - word:饿|e4
+      - word:渴|ke3
+      - word:水果|shui3guo3
+      - word:晚饭|wan3fan4
+      - word:面条儿|mian4tiao2r5
+      - word:包子|bao1zi5
+      - word:有些|you3xie1
+      - word:一点儿|yi1dian3r5
+      - word:饭|fan4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0133
+      - sentence:hsk-sentences-audio/hsk1-0134
+      - sentence:hsk-sentences-audio/hsk1-0135
+      - sentence:hsk-sentences-audio/hsk1-0136
+      - sentence:hsk-sentences-audio/hsk1-0137
+      - sentence:hsk-sentences-audio/hsk1-0138
+      - sentence:hsk-sentences-audio/hsk1-0139
+      - sentence:hsk-sentences-audio/hsk1-0140
+      - sentence:hsk-sentences-audio/hsk1-0225
+      - sentence:hsk-sentences-audio/hsk1-0226
+      - sentence:hsk-sentences-audio/hsk1-0260
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0133
+      - sentence:hsk-sentences-audio/hsk1-0134
+      - sentence:hsk-sentences-audio/hsk1-0135
+      - sentence:hsk-sentences-audio/hsk1-0136
+      - sentence:hsk-sentences-audio/hsk1-0137
+      - sentence:hsk-sentences-audio/hsk1-0138
+      - sentence:hsk-sentences-audio/hsk1-0139
+      - sentence:hsk-sentences-audio/hsk1-0140
+      - sentence:hsk-sentences-audio/hsk1-0225
+      - sentence:hsk-sentences-audio/hsk1-0226
+      - sentence:hsk-sentences-audio/hsk1-0260

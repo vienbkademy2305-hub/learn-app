@@ -1,0 +1,57 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-03-family
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Gia đình
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:家|jia1
+      - word:有|you3
+      - word:五|wu3
+      - word:口|kou3
+      - word:爸爸|ba4ba5
+      - word:和|he2
+      - word:妈妈|ma1ma5
+      - word:哥哥|ge1ge5
+      - word:妹妹|mei4mei5
+      - word:弟弟|di4di5
+      - word:姐姐|jie3jie5
+      - word:爷爷|ye2ye5
+      - word:奶奶|nai3nai5
+      - word:身体|shen1ti3
+      - word:儿子|er2zi5
+      - word:女儿|nv3er2
+      - word:女朋友|nv3peng2you5
+      - word:男朋友|nan2peng2you5
+      - word:老|lao3
+      - word:在家|zai4jia1
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0020
+      - sentence:hsk-sentences-audio/hsk1-0021
+      - sentence:hsk-sentences-audio/hsk1-0022
+      - sentence:hsk-sentences-audio/hsk1-0023
+      - sentence:hsk-sentences-audio/hsk1-0024
+      - sentence:hsk-sentences-audio/hsk1-0025
+      - sentence:hsk-sentences-audio/hsk1-0026
+      - sentence:hsk-sentences-audio/hsk1-0027
+      - sentence:hsk-sentences-audio/hsk1-0028
+      - sentence:hsk-sentences-audio/hsk1-0257
+      - sentence:hsk-sentences-audio/hsk1-0267
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0020
+      - sentence:hsk-sentences-audio/hsk1-0021
+      - sentence:hsk-sentences-audio/hsk1-0022
+      - sentence:hsk-sentences-audio/hsk1-0023
+      - sentence:hsk-sentences-audio/hsk1-0024
+      - sentence:hsk-sentences-audio/hsk1-0025
+      - sentence:hsk-sentences-audio/hsk1-0026
+      - sentence:hsk-sentences-audio/hsk1-0027
+      - sentence:hsk-sentences-audio/hsk1-0028
+      - sentence:hsk-sentences-audio/hsk1-0257
+      - sentence:hsk-sentences-audio/hsk1-0267

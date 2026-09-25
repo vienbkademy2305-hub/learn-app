@@ -1,0 +1,50 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-13-questions
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Đặt câu hỏi
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:能|neng2
+      - word:进来|jin4lai2
+      - word:开车|kai1che1
+      - word:谁|shei2
+      - word:怎么|zen3me5
+      - word:哪|na3
+      - word:是不是|shi4bu4shi4
+      - word:时间|shi2jian1
+      - word:还是|hai2shi5
+      - word:这些|zhe4xie1
+      - word:哪些|na3xie1
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0151
+      - sentence:hsk-sentences-audio/hsk1-0152
+      - sentence:hsk-sentences-audio/hsk1-0153
+      - sentence:hsk-sentences-audio/hsk1-0154
+      - sentence:hsk-sentences-audio/hsk1-0155
+      - sentence:hsk-sentences-audio/hsk1-0156
+      - sentence:hsk-sentences-audio/hsk1-0157
+      - sentence:hsk-sentences-audio/hsk1-0158
+      - sentence:hsk-sentences-audio/hsk1-0159
+      - sentence:hsk-sentences-audio/hsk1-0160
+      - sentence:hsk-sentences-audio/hsk1-0161
+      - sentence:hsk-sentences-audio/hsk1-0162
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0151
+      - sentence:hsk-sentences-audio/hsk1-0152
+      - sentence:hsk-sentences-audio/hsk1-0153
+      - sentence:hsk-sentences-audio/hsk1-0154
+      - sentence:hsk-sentences-audio/hsk1-0155
+      - sentence:hsk-sentences-audio/hsk1-0156
+      - sentence:hsk-sentences-audio/hsk1-0157
+      - sentence:hsk-sentences-audio/hsk1-0158
+      - sentence:hsk-sentences-audio/hsk1-0159
+      - sentence:hsk-sentences-audio/hsk1-0160
+      - sentence:hsk-sentences-audio/hsk1-0161
+      - sentence:hsk-sentences-audio/hsk1-0162

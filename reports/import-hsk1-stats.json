@@ -1,0 +1,40 @@
+{
+  "hsk1_list_items": 506,
+  "hsk_readings_resolved_by_sentences": 51,
+  "hsk_readings_ambiguous": 9,
+  "hsk_words_not_in_cvdict": 1,
+  "sentences_imported_hsk_sentences_audio": 281,
+  "token_resolution": {
+    "matched": 1412,
+    "unresolved": 2,
+    "matched_toneless": 46
+  },
+  "unresolved_token_types": 1,
+  "hsk1_chinese_learning": {
+    "word_mapped_to_hsk_word": 137,
+    "word_mapped_toneless": 4,
+    "word_mapped_outside_hsk_list": 13,
+    "sentence_new": 70,
+    "sentence_merged_with_existing": 5
+  },
+  "words_total": 541,
+  "words_in_curriculum": 518,
+  "characters_total": 322,
+  "sentences_total": 351,
+  "grammar_points": 62,
+  "audio_assets": 562,
+  "cvdict_lines": 122596,
+  "cvdict_unparsed_lines": 1,
+  "hsk1_cl_excluded_personal_names": [
+    "庞立亮",
+    "卢氏芳"
+  ],
+  "lesson_drafts_written": 14,
+  "lesson_files_kept": 0,
+  "lessons": 14,
+  "lesson_items": 1029,
+  "lesson_unresolved_refs": [],
+  "audio_files_copied": 0,
+  "review_queue": 60,
+  "provenance_conflicts": []
+}

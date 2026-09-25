@@ -1,0 +1,72 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-04-numbers
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Số đếm
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:今年|jin1nian2
+      - word:二|er4
+      - word:十|shi2
+      - word:岁|sui4
+      - word:年|nian2
+      - word:月|yue4
+      - word:星期|xing1qi1
+      - word:七|qi1
+      - word:天|tian1
+      - word:两|liang3
+      - word:孩子|hai2zi5
+      - word:买|mai3
+      - word:三|san1
+      - word:本|ben3
+      - word:书|shu1
+      - word:班|ban1
+      - word:四|si4
+      - word:第二|di4er4
+      - word:次|ci4
+      - word:一半|yi1ban4
+      - word:百|bai3
+      - word:块|kuai4
+      - word:钱|qian2
+      - word:六|liu4
+      - word:南边|nan2bian5
+      - word:比|bi3
+      - word:北边|bei3bian1
+      - word:热|re4
+      - word:元|yuan2
+      - word:毛|mao2
+      - word:第|di4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0029
+      - sentence:hsk-sentences-audio/hsk1-0030
+      - sentence:hsk-sentences-audio/hsk1-0031
+      - sentence:hsk-sentences-audio/hsk1-0032
+      - sentence:hsk-sentences-audio/hsk1-0033
+      - sentence:hsk-sentences-audio/hsk1-0034
+      - sentence:hsk-sentences-audio/hsk1-0035
+      - sentence:hsk-sentences-audio/hsk1-0036
+      - sentence:hsk-sentences-audio/hsk1-0037
+      - sentence:hsk-sentences-audio/hsk1-0038
+      - sentence:hsk-sentences-audio/hsk1-0039
+      - sentence:hsk-sentences-audio/hsk1-0239
+      - sentence:hsk-sentences-audio/hsk1-0271
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0029
+      - sentence:hsk-sentences-audio/hsk1-0030
+      - sentence:hsk-sentences-audio/hsk1-0031
+      - sentence:hsk-sentences-audio/hsk1-0032
+      - sentence:hsk-sentences-audio/hsk1-0033
+      - sentence:hsk-sentences-audio/hsk1-0034
+      - sentence:hsk-sentences-audio/hsk1-0035
+      - sentence:hsk-sentences-audio/hsk1-0036
+      - sentence:hsk-sentences-audio/hsk1-0037
+      - sentence:hsk-sentences-audio/hsk1-0038
+      - sentence:hsk-sentences-audio/hsk1-0039
+      - sentence:hsk-sentences-audio/hsk1-0239
+      - sentence:hsk-sentences-audio/hsk1-0271

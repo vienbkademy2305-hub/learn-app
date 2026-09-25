@@ -1,0 +1,113 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk1-05-time
+status: draft
+source: derived
+hsk_level: "1"
+title_vi: Thời gian
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:现在|xian4zai4
+      - word:几|ji3
+      - word:点|dian3
+      - word:上午|shang4wu3
+      - word:九|jiu3
+      - word:半|ban4
+      - word:今天|jin1tian1
+      - word:星期天|xing1qi1tian1
+      - word:昨天|zuo2tian1
+      - word:星期日|xing1qi1ri4
+      - word:课|ke4
+      - word:下午|xia4wu3
+      - word:没有|mei2you3
+      - word:中午|zhong1wu3
+      - word:一起|yi1qi3
+      - word:吃|chi1
+      - word:午饭|wu3fan4
+      - word:晚上|wan3shang5
+      - word:常常|chang2chang2
+      - word:学习|xue2xi2
+      - word:明年|ming2nian2
+      - word:新年|xin1nian2
+      - word:去年|qu4nian2
+      - word:在|zai4
+      - word:北京|bei3jing1
+      - word:白天|bai2tian1
+      - word:前天|qian2tian1
+      - word:下雨|xia4yu3
+      - word:雨|yu3
+      - word:后天|hou4tian1
+      - word:回家|hui2jia1
+      - word:有时候|you3shi2hou5
+      - word:早上|zao3shang5
+      - word:跑|pao3
+      - word:走路|zou3lu4
+      - word:日|ri4
+      - word:还|hai2
+      - word:早|zao3
+      - word:晚|wan3
+      - word:等|deng3
+      - word:半天|ban4tian1
+      - word:小时|xiao3shi2
+      - word:时候|shi2hou5
+      - word:日期|ri4qi1
+      - word:号|hao4
+      - word:零|ling2
+      - word:上次|shang4ci4
+      - word:下次|xia4ci4
+      - word:要|yao4
+      - word:小姐|xiao3jie5
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0040
+      - sentence:hsk-sentences-audio/hsk1-0041
+      - sentence:hsk-sentences-audio/hsk1-0042
+      - sentence:hsk-sentences-audio/hsk1-0043
+      - sentence:hsk-sentences-audio/hsk1-0044
+      - sentence:hsk-sentences-audio/hsk1-0045
+      - sentence:hsk-sentences-audio/hsk1-0046
+      - sentence:hsk-sentences-audio/hsk1-0047
+      - sentence:hsk-sentences-audio/hsk1-0048
+      - sentence:hsk-sentences-audio/hsk1-0049
+      - sentence:hsk-sentences-audio/hsk1-0050
+      - sentence:hsk-sentences-audio/hsk1-0051
+      - sentence:hsk-sentences-audio/hsk1-0052
+      - sentence:hsk-sentences-audio/hsk1-0053
+      - sentence:hsk-sentences-audio/hsk1-0216
+      - sentence:hsk-sentences-audio/hsk1-0217
+      - sentence:hsk-sentences-audio/hsk1-0218
+      - sentence:hsk-sentences-audio/hsk1-0252
+      - sentence:hsk-sentences-audio/hsk1-0253
+      - sentence:hsk-sentences-audio/hsk1-0254
+      - sentence:hsk-sentences-audio/hsk1-0259
+      - sentence:hsk-sentences-audio/hsk1-0265
+      - sentence:hsk-sentences-audio/hsk1-0269
+      - sentence:hsk-sentences-audio/hsk1-0278
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0040
+      - sentence:hsk-sentences-audio/hsk1-0041
+      - sentence:hsk-sentences-audio/hsk1-0042
+      - sentence:hsk-sentences-audio/hsk1-0043
+      - sentence:hsk-sentences-audio/hsk1-0044
+      - sentence:hsk-sentences-audio/hsk1-0045
+      - sentence:hsk-sentences-audio/hsk1-0046
+      - sentence:hsk-sentences-audio/hsk1-0047
+      - sentence:hsk-sentences-audio/hsk1-0048
+      - sentence:hsk-sentences-audio/hsk1-0049
+      - sentence:hsk-sentences-audio/hsk1-0050
+      - sentence:hsk-sentences-audio/hsk1-0051
+      - sentence:hsk-sentences-audio/hsk1-0052
+      - sentence:hsk-sentences-audio/hsk1-0053
+      - sentence:hsk-sentences-audio/hsk1-0216
+      - sentence:hsk-sentences-audio/hsk1-0217
+      - sentence:hsk-sentences-audio/hsk1-0218
+      - sentence:hsk-sentences-audio/hsk1-0252
+      - sentence:hsk-sentences-audio/hsk1-0253
+      - sentence:hsk-sentences-audio/hsk1-0254
+      - sentence:hsk-sentences-audio/hsk1-0259
+      - sentence:hsk-sentences-audio/hsk1-0265
+      - sentence:hsk-sentences-audio/hsk1-0269
+      - sentence:hsk-sentences-audio/hsk1-0278
