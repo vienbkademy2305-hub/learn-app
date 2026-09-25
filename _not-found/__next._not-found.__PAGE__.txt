@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[19044,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],""]
+3:I[80094,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[80094,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"ViewportBoundary"]
+9:I[80094,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"MetadataBoundary"]
+a:I[45127,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"IconMark"]
+c:I[81334,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"default"]
+d:I[20966,["/learn-app/_next/static/chunks/1mzgdelr4hsce.js"],"default"]
+:HL["/learn-app/_next/static/chunks/2jitqqjrv5xkv.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"M8USPbXtJBNyu_ZyfE3PS","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"py-16 text-center","children":[["$","p",null,{"lang":"zh-CN","className":"font-han text-6xl text-stone-300","children":"没有"}],["$","h1",null,{"className":"mt-4 text-2xl font-bold text-stone-900","children":"Không tìm thấy trang"}],["$","p",null,{"className":"mt-2 text-stone-500","children":"Trang bạn tìm không tồn tại hoặc đã được đổi địa chỉ."}],["$","$L2",null,{"href":"/hsk/1","className":"mt-6 inline-block rounded-xl bg-brand-600 px-5 py-2.5 font-semibold text-white hover:bg-brand-700","children":"Về lộ trình HSK1"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#c73c27"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Học tiếng Trung HSK1"}],["$","meta","1",{"name":"description","content":"Học tiếng Trung HSK1 cho người Việt: từ vựng, pinyin, Hán Việt, câu ví dụ có audio."}],["$","link","2",{"rel":"icon","href":"/learn-app/icon.svg?icon.0zu_1vxx8qx4t.svg","sizes":"any","type":"image/svg+xml"}],["$","$La","3",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/learn-app/_next/static/chunks/2jitqqjrv5xkv.css","precedence":"next"}],["$","script","script-0",{"src":"/learn-app/_next/static/chunks/1mzgdelr4hsce.js","async":true}]],["$","html",null,{"lang":"vi","children":["$","body",null,{"className":"min-h-dvh font-sans antialiased","children":[["$","header",null,{"className":"sticky top-0 z-30 border-b border-stone-200 bg-white/90 backdrop-blur","children":["$","div",null,{"className":"mx-auto flex h-14 max-w-5xl items-center gap-3 px-4","children":[["$","$L2",null,{"href":"/","className":"flex items-center gap-2 font-semibold text-stone-900","children":[["$","span",null,{"className":"font-han grid size-8 place-items-center rounded-lg bg-brand-600 text-lg text-white","children":"学"}],["$","span",null,{"className":"hidden sm:inline","children":"Học tiếng Trung"}]]}],["$","nav",null,{"className":"ml-auto flex items-center gap-1 text-sm","children":[["$","$L2",null,{"href":"/hsk/1","className":"rounded-md px-3 py-2 font-medium text-stone-700 hover:bg-stone-100","children":"Lộ trình HSK1"}],["$","$L2",null,{"href":"/sources","className":"rounded-md px-3 py-2 text-stone-500 hover:bg-stone-100","children":"Nguồn dữ liệu"}]]}]]}]}],["$","main",null,{"className":"mx-auto max-w-5xl px-4 pb-24 pt-6 sm:pt-8","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","div",null,{"className":"py-16 text-center","children":[["$","p",null,{"lang":"zh-CN","className":"font-han text-6xl text-stone-300","children":"没有"}],["$","h1",null,{"className":"mt-4 text-2xl font-bold text-stone-900","children":"Không tìm thấy trang"}],["$","p",null,{"className":"mt-2 text-stone-500","children":"Trang bạn tìm không tồn tại hoặc đã được đổi địa chỉ."}],["$","$L2",null,{"href":"/hsk/1","className":"mt-6 inline-block rounded-xl bg-brand-600 px-5 py-2.5 font-semibold text-white hover:bg-brand-700","children":"Về lộ trình HSK1"}]]}],[]]}]}]]}]}]]}],"isPartial":"$@10","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@11","rootVaryParams":null,"needsRuntimeRequest":"$@12"}
+5:null
+7:300
+12:true
+7:C
+11:0
+b:"$undefined"
+e:"$undefined"
+10:"$undefined"
+6:"$undefined"
