@@ -154,6 +154,15 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
               kind: /^[A-Z]/.test(r.numeric) ? "name" : "word",
             }).row;
         if (!group) count("hsk_words_not_in_cvdict");
+        // English meanings of every form with this reading (complete-hsk-vocabulary, from CC-CEDICT).
+        const recordId = `new/${level}|${item.simplified}|${pinyinKey(r.numeric)}`;
+        const isProper = (n: string) => /^[A-Z]/.test(n);
+        const sameReading = item.forms.filter(
+          (f) => pinyinKey(f.transcriptions.numeric) === pinyinKey(r.numeric) && isProper(f.transcriptions.numeric) === isProper(r.numeric),
+        );
+        for (const f of sameReading) {
+          for (const meaning of f.meanings) g.addSense(word.id, "en", meaning, "complete-hsk-vocabulary", recordId);
+        }
         word.inCurriculum = true;
         g.setHsk("word", word.id, String(level), "complete-hsk-vocabulary");
         g.addSource("word", word.id, "complete-hsk-vocabulary", `new/${level}|${item.simplified}|${pinyinKey(r.numeric)}`, group ? "attribute" : "primary");
@@ -312,6 +321,15 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
     g.translations.push({ id: g.nextId("sentence_translations"), sentenceId: row.id, lang: "vi", text: s.translation, status: "imported", sourceId: "hsk1-chinese-learning", sourceRecordId: s.recordId });
   }
   stats.hsk1_chinese_learning = hsk1Stats;
+
+  // English fallback for words outside the HSK list: the token gloss of hsk-sentences-audio (CC-CEDICT).
+  const hasEnglish = new Set(g.wordSenses.filter((s) => s.lang === "en").map((s) => s.wordId));
+  for (const t of g.tokens) {
+    if (t.wordId === null || !t.glossEn || hasEnglish.has(t.wordId)) continue;
+    g.addSense(t.wordId, "en", t.glossEn, "hsk-sentences-audio", `token:${t.sentenceId}:${t.position}`);
+    hasEnglish.add(t.wordId);
+    count("words_en_from_token_gloss");
+  }
 
   // ── 5. Characters (Word → Character, Sentence → Character) ────────────────
   const cvdictTraditional = (char: string): string | undefined => {

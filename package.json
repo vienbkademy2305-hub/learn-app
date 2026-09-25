@@ -9,18 +9,34 @@
     "import:hsk1": "tsx importers/run.ts --level 1",
     "validate": "tsx importers/validate/run.ts",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "db:studio": "drizzle-kit studio",
+    "content:export": "tsx importers/export-content.ts",
+    "dev": "next dev",
+    "build": "next build && tsx scripts/postbuild.ts",
+    "start": "serve out",
+    "smoke": "tsx scripts/smoke.ts",
+    "deploy:pages": "tsx scripts/deploy-pages.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",
     "drizzle-orm": "^0.45.3",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "yaml": "^2.9.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.6.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "drizzle-kit": "^0.31.11",
+    "playwright": "^1.63.0",
+    "serve": "^14.2.6",
+    "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2",
+    "typescript": "^5.9.3",
     "vitest": "^5.0.1"
   }
 }

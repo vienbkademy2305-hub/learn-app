@@ -10,6 +10,7 @@ import { HSK_LIST_FILE, readHskList } from "./adapters/complete-hsk-vocabulary";
 import { HSK_SENTENCES_FILES, readGrammarPoints, readReviewFlags, readSentences } from "./adapters/hsk-sentences-audio";
 import { HSK1_CL_FILES, readSentenceCourses, readVocabulary } from "./adapters/hsk1-chinese-learning";
 import { readCvdict, readMakemeahanzi, readSinoVietMap, XUE_HANZI_FILES } from "./adapters/xue-hanzi";
+import { loadSentenceTranslations } from "./build/editorial";
 import { generateLessonDrafts, loadLessons } from "./build/lessons";
 import { buildGraph, type PipelineInputs } from "./build/pipeline";
 import { copyAudio, writeGraph } from "./build/write";
@@ -58,6 +59,16 @@ async function main() {
   stats.cvdict_lines = inputs.cvdict.length;
   stats.cvdict_unparsed_lines = inputs.cvdictUnparsed;
   stats.hsk1_cl_excluded_personal_names = inputs.excludedNames;
+
+  const translations = loadSentenceTranslations(
+    graph,
+    path.join(PROJECT_ROOT, "data", "editorial", "sentences-vi", `hsk${level}.yaml`),
+    `sentences-vi/hsk${level}.yaml`,
+  );
+  stats.editorial_sentence_translations = translations.loaded;
+  stats.editorial_missing_sentence = translations.missingSentence;
+  stats.editorial_text_mismatch = translations.textMismatch;
+  stats.editorial_duplicate_ids = translations.duplicateIds;
 
   const lessonDir = path.join(PROJECT_ROOT, "data", "editorial", "lessons", `hsk${level}`);
   const drafts = generateLessonDrafts(graph, level, lessonDir);

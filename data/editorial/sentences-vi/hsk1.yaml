@@ -1,0 +1,288 @@
+# Bản dịch tiếng Việt cho câu HSK1 của hsk-sentences-audio (docs/PHASE2_PLAN.md §3).
+# BẢN NHÁP do Claude (AI) dịch ngày 2026-09-25 — CẦN NGƯỜI DUYỆT.
+# Khi đã duyệt một câu, đổi `status` của câu đó thành `reviewed` (UI sẽ bỏ nhãn "Bản dịch nháp").
+# `zh` là câu gốc để importer phát hiện khi dữ liệu nguồn thay đổi.
+source: editorial
+default_status: draft
+sentences:
+  - { id: hsk1-0001, zh: "老师，您好！", vi: "Em chào thầy/cô ạ!" }
+  - { id: hsk1-0002, zh: "你好，很高兴认识你。", vi: "Chào bạn, rất vui được làm quen với bạn." }
+  - { id: hsk1-0003, zh: "谢谢你！不客气。", vi: "Cảm ơn bạn! Không có gì." }
+  - { id: hsk1-0004, zh: "对不起。没关系。", vi: "Xin lỗi. Không sao đâu." }
+  - { id: hsk1-0005, zh: "请问，你叫什么名字？", vi: "Cho hỏi, bạn tên là gì?" }
+  - { id: hsk1-0006, zh: "请进，请坐。", vi: "Mời vào, mời ngồi." }
+  - { id: hsk1-0007, zh: "老师再见！", vi: "Em chào thầy/cô, tạm biệt thầy/cô ạ!" }
+  - { id: hsk1-0008, zh: "我来介绍一下我的朋友。", vi: "Để tôi giới thiệu bạn của tôi một chút." }
+  - { id: hsk1-0009, zh: "他是谁？", vi: "Anh ấy là ai?" }
+  - { id: hsk1-0010, zh: "他是我的老师。", vi: "Anh ấy là thầy giáo của tôi." }
+  - { id: hsk1-0011, zh: "你们都是学生吗？", vi: "Các bạn đều là học sinh à?" }
+  - { id: hsk1-0012, zh: "我们是同学。", vi: "Chúng tôi là bạn cùng lớp." }
+  - { id: hsk1-0013, zh: "她也是医生。", vi: "Cô ấy cũng là bác sĩ." }
+  - { id: hsk1-0014, zh: "他们是工人。", vi: "Họ là công nhân." }
+  - { id: hsk1-0015, zh: "我是中国人，你呢？", vi: "Tôi là người Trung Quốc, còn bạn?" }
+  - { id: hsk1-0016, zh: "那个男生是我朋友。", vi: "Bạn nam kia là bạn của tôi." }
+  - { id: hsk1-0017, zh: "这个女生很认真。", vi: "Bạn nữ này rất chăm chỉ." }
+  - { id: hsk1-0018, zh: "先生，您找谁？", vi: "Thưa ông, ông tìm ai ạ?" }
+  - { id: hsk1-0019, zh: "别人都来了，就他没来。", vi: "Mọi người đều đến rồi, chỉ có anh ấy là không đến." }
+  - { id: hsk1-0020, zh: "我家有五口人。", vi: "Nhà tôi có năm người." }
+  - { id: hsk1-0021, zh: "这是我爸爸和妈妈。", vi: "Đây là bố và mẹ tôi." }
+  - { id: hsk1-0022, zh: "我有一个哥哥和一个妹妹。", vi: "Tôi có một anh trai và một em gái." }
+  - { id: hsk1-0023, zh: "他是我弟弟，她是我姐姐。", vi: "Cậu ấy là em trai tôi, cô ấy là chị gái tôi." }
+  - { id: hsk1-0024, zh: "爷爷和奶奶身体都很好。", vi: "Ông nội và bà nội đều rất khỏe." }
+  - { id: hsk1-0025, zh: "这是我儿子，那是我女儿。", vi: "Đây là con trai tôi, kia là con gái tôi." }
+  - { id: hsk1-0026, zh: "她是我女朋友，他是我男朋友。", vi: "Cô ấy là bạn gái tôi, anh ấy là bạn trai tôi." }
+  - { id: hsk1-0027, zh: "我妈妈是老师，我爸爸是工人。", vi: "Mẹ tôi là giáo viên, bố tôi là công nhân." }
+  - { id: hsk1-0028, zh: "我们是一家人。", vi: "Chúng ta là người một nhà." }
+  - { id: hsk1-0029, zh: "我今年二十岁。", vi: "Năm nay tôi hai mươi tuổi." }
+  - { id: hsk1-0030, zh: "一年有十二个月。", vi: "Một năm có mười hai tháng." }
+  - { id: hsk1-0031, zh: "一个星期有七天。", vi: "Một tuần có bảy ngày." }
+  - { id: hsk1-0032, zh: "他有两个孩子。", vi: "Anh ấy có hai đứa con." }
+  - { id: hsk1-0033, zh: "我买了三本书。", vi: "Tôi đã mua ba quyển sách." }
+  - { id: hsk1-0034, zh: "我们班有四十个学生。", vi: "Lớp chúng tôi có bốn mươi học sinh." }
+  - { id: hsk1-0035, zh: "这是第二次。", vi: "Đây là lần thứ hai." }
+  - { id: hsk1-0036, zh: "一半是我的，一半是你的。", vi: "Một nửa là của tôi, một nửa là của bạn." }
+  - { id: hsk1-0037, zh: "这本书一百块钱。", vi: "Quyển sách này một trăm tệ." }
+  - { id: hsk1-0038, zh: "弟弟六岁，妹妹三岁。", vi: "Em trai sáu tuổi, em gái ba tuổi." }
+  - { id: hsk1-0039, zh: "南边比北边热。", vi: "Phía nam nóng hơn phía bắc." }
+  - { id: hsk1-0040, zh: "现在几点？", vi: "Bây giờ là mấy giờ?" }
+  - { id: hsk1-0041, zh: "现在是上午九点半。", vi: "Bây giờ là chín giờ rưỡi sáng." }
+  - { id: hsk1-0042, zh: "今天是星期几？", vi: "Hôm nay là thứ mấy?" }
+  - { id: hsk1-0043, zh: "明天是星期天。", vi: "Ngày mai là chủ nhật." }
+  - { id: hsk1-0044, zh: "昨天是星期日。", vi: "Hôm qua là chủ nhật." }
+  - { id: hsk1-0045, zh: "我上午有课，下午没有。", vi: "Buổi sáng tôi có tiết học, buổi chiều thì không." }
+  - { id: hsk1-0046, zh: "我们中午一起吃午饭。", vi: "Buổi trưa chúng ta cùng ăn cơm trưa." }
+  - { id: hsk1-0047, zh: "他晚上常常学习。", vi: "Buổi tối anh ấy thường học bài." }
+  - { id: hsk1-0048, zh: "明年是新年。", vi: "Sang năm là năm mới." }
+  - { id: hsk1-0049, zh: "去年我在北京。", vi: "Năm ngoái tôi ở Bắc Kinh." }
+  - { id: hsk1-0050, zh: "现在是白天，不是晚上。", vi: "Bây giờ là ban ngày, không phải buổi tối." }
+  - { id: hsk1-0051, zh: "前天下雨了，今天没雨。", vi: "Hôm kia trời mưa, hôm nay không mưa." }
+  - { id: hsk1-0052, zh: "他后天回家。", vi: "Ngày kia anh ấy về nhà." }
+  - { id: hsk1-0053, zh: "有时候我早上跑，有时候走路。", vi: "Có lúc buổi sáng tôi chạy bộ, có lúc đi bộ." }
+  - { id: hsk1-0054, zh: "我早上七点起床。", vi: "Tôi dậy lúc bảy giờ sáng." }
+  - { id: hsk1-0055, zh: "我很累，想睡觉。", vi: "Tôi mệt quá, muốn đi ngủ." }
+  - { id: hsk1-0056, zh: "你想喝水吗？", vi: "Bạn có muốn uống nước không?" }
+  - { id: hsk1-0057, zh: "我想喝一杯茶。", vi: "Tôi muốn uống một cốc trà." }
+  - { id: hsk1-0058, zh: "我们一起吃饭吧。", vi: "Chúng ta cùng ăn cơm nhé." }
+  - { id: hsk1-0059, zh: "他在看电视。", vi: "Anh ấy đang xem tivi." }
+  - { id: hsk1-0060, zh: "我正在学习写字。", vi: "Tôi đang học viết chữ." }
+  - { id: hsk1-0061, zh: "请说汉语。", vi: "Hãy nói tiếng Trung." }
+  - { id: hsk1-0062, zh: "你会说中文吗？", vi: "Bạn có biết nói tiếng Trung không?" }
+  - { id: hsk1-0063, zh: "我会做菜。", vi: "Tôi biết nấu ăn." }
+  - { id: hsk1-0064, zh: "他喜欢读书。", vi: "Anh ấy thích đọc sách." }
+  - { id: hsk1-0065, zh: "我给你打电话。", vi: "Tôi sẽ gọi điện cho bạn." }
+  - { id: hsk1-0066, zh: "请打开门。", vi: "Làm ơn mở cửa ra." }
+  - { id: hsk1-0067, zh: "请关上门。", vi: "Làm ơn đóng cửa lại." }
+  - { id: hsk1-0068, zh: "他唱歌很好听。", vi: "Anh ấy hát rất hay." }
+  - { id: hsk1-0069, zh: "我们出去玩儿吧。", vi: "Chúng ta ra ngoài chơi đi." }
+  - { id: hsk1-0070, zh: "小朋友在外边跑。", vi: "Các bạn nhỏ đang chạy ở bên ngoài." }
+  - { id: hsk1-0071, zh: "他走路很快，我很慢。", vi: "Anh ấy đi bộ rất nhanh, tôi thì rất chậm." }
+  - { id: hsk1-0072, zh: "我要洗手。", vi: "Tôi muốn rửa tay." }
+  - { id: hsk1-0073, zh: "请坐下，休息一会儿。", vi: "Mời ngồi xuống, nghỉ một lát." }
+  - { id: hsk1-0074, zh: "老师教我们汉字。", vi: "Thầy giáo dạy chúng tôi chữ Hán." }
+  - { id: hsk1-0075, zh: "我忘记他的名字了。", vi: "Tôi quên tên anh ấy rồi." }
+  - { id: hsk1-0076, zh: "我记得你，也记住了你的话。", vi: "Tôi nhớ bạn, và cũng đã ghi nhớ lời bạn nói." }
+  - { id: hsk1-0077, zh: "你知道他家在哪儿吗？", vi: "Bạn có biết nhà anh ấy ở đâu không?" }
+  - { id: hsk1-0078, zh: "我明白了。", vi: "Tôi hiểu rồi." }
+  - { id: hsk1-0079, zh: "请告诉我你的电话。", vi: "Hãy cho tôi biết số điện thoại của bạn." }
+  - { id: hsk1-0080, zh: "我们准备一下就走。", vi: "Chúng ta chuẩn bị một chút rồi đi." }
+  - { id: hsk1-0081, zh: "他还没起来。", vi: "Anh ấy vẫn chưa dậy." }
+  - { id: hsk1-0082, zh: "请等一下，我马上来。", vi: "Chờ một chút, tôi đến ngay." }
+  - { id: hsk1-0083, zh: "他帮我拿东西。", vi: "Anh ấy giúp tôi cầm đồ." }
+  - { id: hsk1-0084, zh: "谢谢你帮忙。", vi: "Cảm ơn bạn đã giúp đỡ." }
+  - { id: hsk1-0085, zh: "我在大学学习。", vi: "Tôi học ở trường đại học." }
+  - { id: hsk1-0086, zh: "他是大学生，我是小学生。", vi: "Anh ấy là sinh viên đại học, tôi là học sinh tiểu học." }
+  - { id: hsk1-0087, zh: "我上课，下课就回家。", vi: "Tôi đi học, tan học là về nhà ngay." }
+  - { id: hsk1-0088, zh: "他上班，我上学。", vi: "Anh ấy đi làm, tôi đi học." }
+  - { id: hsk1-0089, zh: "下班以后我去商店。", vi: "Sau khi tan làm tôi đi cửa hàng." }
+  - { id: hsk1-0090, zh: "明天放假，不用上学。", vi: "Ngày mai được nghỉ, không phải đi học." }
+  - { id: hsk1-0091, zh: "明天考试，我要准备。", vi: "Ngày mai thi, tôi phải chuẩn bị." }
+  - { id: hsk1-0092, zh: "这次考试很难。", vi: "Kỳ thi lần này rất khó." }
+  - { id: hsk1-0093, zh: "图书馆在教学楼旁边。", vi: "Thư viện ở bên cạnh tòa nhà giảng đường." }
+  - { id: hsk1-0094, zh: "我在学校工作。", vi: "Tôi làm việc ở trường học." }
+  - { id: hsk1-0095, zh: "他常常上网。", vi: "Anh ấy thường lên mạng." }
+  - { id: hsk1-0096, zh: "我在网上有很多网友。", vi: "Tôi có rất nhiều bạn trên mạng." }
+  - { id: hsk1-0097, zh: "他在北京工作。", vi: "Anh ấy làm việc ở Bắc Kinh." }
+  - { id: hsk1-0098, zh: "书在桌子上。", vi: "Sách ở trên bàn." }
+  - { id: hsk1-0099, zh: "书在桌子下。", vi: "Sách ở dưới gầm bàn." }
+  - { id: hsk1-0100, zh: "商店在医院旁边。", vi: "Cửa hàng ở bên cạnh bệnh viện." }
+  - { id: hsk1-0101, zh: "图书馆在学校里边。", vi: "Thư viện ở bên trong trường." }
+  - { id: hsk1-0102, zh: "外边下雨了。", vi: "Bên ngoài trời mưa rồi." }
+  - { id: hsk1-0103, zh: "医院在前边，饭店在后边。", vi: "Bệnh viện ở phía trước, nhà hàng ở phía sau." }
+  - { id: hsk1-0104, zh: "请走左边，不要走右边。", vi: "Hãy đi bên trái, đừng đi bên phải." }
+  - { id: hsk1-0105, zh: "我家在学校东边。", vi: "Nhà tôi ở phía đông trường học." }
+  - { id: hsk1-0106, zh: "商场在西边，学院在北边。", vi: "Trung tâm thương mại ở phía tây, học viện ở phía bắc." }
+  - { id: hsk1-0107, zh: "他站在门口。", vi: "Anh ấy đứng ở cửa." }
+  - { id: hsk1-0108, zh: "东西在房间中间。", vi: "Đồ đạc ở giữa phòng." }
+  - { id: hsk1-0109, zh: "书在床上，不在地上。", vi: "Sách ở trên giường, không ở dưới đất." }
+  - { id: hsk1-0110, zh: "他在楼上，我在楼下。", vi: "Anh ấy ở tầng trên, tôi ở tầng dưới." }
+  - { id: hsk1-0111, zh: "山上有很多树。", vi: "Trên núi có rất nhiều cây." }
+  - { id: hsk1-0112, zh: "我要去火车站。", vi: "Tôi muốn đi ga tàu hỏa." }
+  - { id: hsk1-0113, zh: "我们打车去机场。", vi: "Chúng ta bắt taxi ra sân bay." }
+  - { id: hsk1-0114, zh: "他坐飞机去外国。", vi: "Anh ấy đi máy bay ra nước ngoài." }
+  - { id: hsk1-0115, zh: "请上车，我们走。", vi: "Mời lên xe, chúng ta đi thôi." }
+  - { id: hsk1-0116, zh: "到了，请下车。", vi: "Đến nơi rồi, mời xuống xe." }
+  - { id: hsk1-0117, zh: "汽车在马路上。", vi: "Ô tô ở trên đường." }
+  - { id: hsk1-0118, zh: "我买车票，你买机票。", vi: "Tôi mua vé xe, bạn mua vé máy bay." }
+  - { id: hsk1-0119, zh: "火车快到站了。", vi: "Tàu hỏa sắp đến ga rồi." }
+  - { id: hsk1-0120, zh: "路口有很多人和车。", vi: "Ở ngã tư có rất nhiều người và xe." }
+  - { id: hsk1-0121, zh: "他坐在车上看书。", vi: "Anh ấy ngồi trên xe đọc sách." }
+  - { id: hsk1-0122, zh: "回家的路上，我买了面包。", vi: "Trên đường về nhà, tôi đã mua bánh mì." }
+  - { id: hsk1-0123, zh: "我想买新衣服。", vi: "Tôi muốn mua quần áo mới." }
+  - { id: hsk1-0124, zh: "这个太贵了。", vi: "Cái này đắt quá." }
+  - { id: hsk1-0125, zh: "那个不贵，我要买。", vi: "Cái kia không đắt, tôi sẽ mua." }
+  - { id: hsk1-0126, zh: "这本书多少钱？", vi: "Quyển sách này bao nhiêu tiền?" }
+  - { id: hsk1-0127, zh: "这个八块钱。", vi: "Cái này tám tệ." }
+  - { id: hsk1-0128, zh: "我的钱包在包里。", vi: "Ví tiền của tôi ở trong túi." }
+  - { id: hsk1-0129, zh: "商场里人很多。", vi: "Trong trung tâm thương mại rất đông người." }
+  - { id: hsk1-0130, zh: "书店在商店后边。", vi: "Hiệu sách ở phía sau cửa hàng." }
+  - { id: hsk1-0131, zh: "花不贵，我买一些。", vi: "Hoa không đắt, tôi mua một ít." }
+  - { id: hsk1-0132, zh: "门票多少钱？", vi: "Vé vào cửa bao nhiêu tiền?" }
+  - { id: hsk1-0133, zh: "我喜欢吃米饭和菜。", vi: "Tôi thích ăn cơm và rau." }
+  - { id: hsk1-0134, zh: "早饭我吃面包，喝牛奶。", vi: "Bữa sáng tôi ăn bánh mì, uống sữa bò." }
+  - { id: hsk1-0135, zh: "这个菜很好吃。", vi: "Món này rất ngon." }
+  - { id: hsk1-0136, zh: "我想吃鸡蛋和肉。", vi: "Tôi muốn ăn trứng gà và thịt." }
+  - { id: hsk1-0137, zh: "我饿了，也渴了。", vi: "Tôi đói rồi, cũng khát nữa." }
+  - { id: hsk1-0138, zh: "水果很好吃，我买一些。", vi: "Hoa quả rất ngon, tôi mua một ít." }
+  - { id: hsk1-0139, zh: "请给我一杯茶。", vi: "Cho tôi một cốc trà." }
+  - { id: hsk1-0140, zh: "我们晚饭吃面条儿和包子。", vi: "Bữa tối chúng tôi ăn mì và bánh bao." }
+  - { id: hsk1-0141, zh: "今天天气很好。", vi: "Hôm nay thời tiết rất đẹp." }
+  - { id: hsk1-0142, zh: "今天很冷，昨天很热。", vi: "Hôm nay rất lạnh, hôm qua rất nóng." }
+  - { id: hsk1-0143, zh: "明天有雨。", vi: "Ngày mai có mưa." }
+  - { id: hsk1-0144, zh: "外边风很大。", vi: "Bên ngoài gió rất to." }
+  - { id: hsk1-0145, zh: "他很忙，我不忙。", vi: "Anh ấy rất bận, tôi không bận." }
+  - { id: hsk1-0146, zh: "我很高兴，他很生气。", vi: "Tôi rất vui, anh ấy rất tức giận." }
+  - { id: hsk1-0147, zh: "房间很干净。", vi: "Căn phòng rất sạch sẽ." }
+  - { id: hsk1-0148, zh: "他生病了，去医院看病。", vi: "Anh ấy bị ốm, đi bệnh viện khám bệnh." }
+  - { id: hsk1-0149, zh: "病人在医院休息。", vi: "Người bệnh nghỉ ngơi ở bệnh viện." }
+  - { id: hsk1-0150, zh: "今天真冷，我穿新衣服。", vi: "Hôm nay lạnh thật, tôi mặc quần áo mới." }
+  - { id: hsk1-0151, zh: "我能进来吗？", vi: "Tôi vào được không?" }
+  - { id: hsk1-0152, zh: "你会开车吗？", vi: "Bạn có biết lái xe không?" }
+  - { id: hsk1-0153, zh: "这是什么？", vi: "Đây là cái gì?" }
+  - { id: hsk1-0154, zh: "那是谁的书？", vi: "Kia là sách của ai?" }
+  - { id: hsk1-0155, zh: "你怎么了？", vi: "Bạn làm sao vậy?" }
+  - { id: hsk1-0156, zh: "你喜欢哪个？", vi: "Bạn thích cái nào?" }
+  - { id: hsk1-0157, zh: "他是不是学生？", vi: "Anh ấy có phải là học sinh không?" }
+  - { id: hsk1-0158, zh: "你有时间吗？", vi: "Bạn có thời gian không?" }
+  - { id: hsk1-0159, zh: "这个字怎么写？", vi: "Chữ này viết thế nào?" }
+  - { id: hsk1-0160, zh: "今天几月几号？", vi: "Hôm nay là ngày mấy tháng mấy?" }
+  - { id: hsk1-0161, zh: "你想吃什么？还是喝茶？", vi: "Bạn muốn ăn gì? Hay là uống trà?" }
+  - { id: hsk1-0162, zh: "这些书里，哪些是你的？", vi: "Trong số những quyển sách này, những quyển nào là của bạn?" }
+  - { id: hsk1-0163, zh: "这是我的手机。", vi: "Đây là điện thoại của tôi." }
+  - { id: hsk1-0164, zh: "我的电脑很新。", vi: "Máy tính của tôi rất mới." }
+  - { id: hsk1-0165, zh: "桌子上有一本书和一个本子。", vi: "Trên bàn có một quyển sách và một quyển vở." }
+  - { id: hsk1-0166, zh: "我喜欢这本课本和课文。", vi: "Tôi thích quyển sách giáo khoa này và các bài khóa trong đó." }
+  - { id: hsk1-0167, zh: "请给我地图。", vi: "Làm ơn đưa tôi tấm bản đồ." }
+  - { id: hsk1-0168, zh: "房间里有很多桌子。", vi: "Trong phòng có rất nhiều cái bàn." }
+  - { id: hsk1-0169, zh: "我的书放在桌子上。", vi: "Sách của tôi để trên bàn." }
+  - { id: hsk1-0170, zh: "洗手间在哪里？", vi: "Nhà vệ sinh ở đâu?" }
+  - { id: hsk1-0171, zh: "我们都爱我们的国家。", vi: "Chúng tôi đều yêu đất nước của mình." }
+  - { id: hsk1-0172, zh: "今天外边很热。", vi: "Hôm nay bên ngoài rất nóng." }
+  - { id: hsk1-0173, zh: "这本书很有名，也很有用。", vi: "Quyển sách này rất nổi tiếng, cũng rất hữu ích." }
+  - { id: hsk1-0174, zh: "学校很远，我坐车去。", vi: "Trường học rất xa, tôi đi xe đến." }
+  - { id: hsk1-0175, zh: "这个东西太重了。", vi: "Món đồ này nặng quá." }
+  - { id: hsk1-0176, zh: "这个事很重要。", vi: "Việc này rất quan trọng." }
+  - { id: hsk1-0177, zh: "他的爱好是唱歌和打球。", vi: "Sở thích của anh ấy là hát và chơi bóng." }
+  - { id: hsk1-0178, zh: "这个电影很有名，非常好看。", vi: "Bộ phim này rất nổi tiếng, cực kỳ hay." }
+  - { id: hsk1-0179, zh: "电影院在商场旁边。", vi: "Rạp chiếu phim ở bên cạnh trung tâm thương mại." }
+  - { id: hsk1-0180, zh: "我觉得这本书很好。", vi: "Tôi thấy quyển sách này rất hay." }
+  - { id: hsk1-0181, zh: "老人在家里唱歌。", vi: "Người già hát ở trong nhà." }
+  - { id: hsk1-0182, zh: "他在门口笑着看我。", vi: "Anh ấy đứng ở cửa, cười nhìn tôi." }
+  - { id: hsk1-0183, zh: "他跟朋友一起去看电影。", vi: "Anh ấy cùng bạn bè đi xem phim." }
+  - { id: hsk1-0184, zh: "我看见他了，他也看到我了。", vi: "Tôi nhìn thấy anh ấy rồi, anh ấy cũng thấy tôi rồi." }
+  - { id: hsk1-0185, zh: "我听见了，也听到你的话了。", vi: "Tôi nghe thấy rồi, tôi cũng đã nghe được lời bạn nói." }
+  - { id: hsk1-0186, zh: "老师问，学生回答。", vi: "Thầy giáo hỏi, học sinh trả lời." }
+  - { id: hsk1-0187, zh: "我要请假，去看病。", vi: "Tôi muốn xin nghỉ để đi khám bệnh." }
+  - { id: hsk1-0188, zh: "最后一页有很多字。", vi: "Trang cuối cùng có rất nhiều chữ." }
+  - { id: hsk1-0189, zh: "这是最好的水果。", vi: "Đây là loại hoa quả ngon nhất." }
+  - { id: hsk1-0190, zh: "今天是我的生日。", vi: "Hôm nay là sinh nhật của tôi." }
+  - { id: hsk1-0191, zh: "我看到那个人回来了。", vi: "Tôi thấy người đó quay về rồi." }
+  - { id: hsk1-0192, zh: "他出来了，我们进去吧。", vi: "Anh ấy ra rồi, chúng ta vào thôi." }
+  - { id: hsk1-0193, zh: "他送我回家。", vi: "Anh ấy đưa tôi về nhà." }
+  - { id: hsk1-0194, zh: "对，这是对的，那个是错的。", vi: "Đúng, cái này là đúng, cái kia là sai." }
+  - { id: hsk1-0195, zh: "请到这儿来，别去那儿。", vi: "Hãy đến đây, đừng đi đến đó." }
+  - { id: hsk1-0196, zh: "这边是书店，那边是饭店。", vi: "Bên này là hiệu sách, bên kia là nhà hàng." }
+  - { id: hsk1-0197, zh: "这里冷，那里热。", vi: "Ở đây lạnh, ở đó nóng." }
+  - { id: hsk1-0198, zh: "左边是门，右边是路。", vi: "Bên trái là cửa, bên phải là đường." }
+  - { id: hsk1-0199, zh: "楼上边有房间，下边有商店。", vi: "Tầng trên có phòng ở, tầng dưới có cửa hàng." }
+  - { id: hsk1-0200, zh: "北边有山，西边有树。", vi: "Phía bắc có núi, phía tây có cây." }
+  - { id: hsk1-0201, zh: "我姐姐是中学生。", vi: "Chị gái tôi là học sinh trung học." }
+  - { id: hsk1-0202, zh: "那个女人是老师，那个男人是医生。", vi: "Người phụ nữ kia là giáo viên, người đàn ông kia là bác sĩ." }
+  - { id: hsk1-0203, zh: "小女孩儿和小男孩儿一起玩儿。", vi: "Bé gái và bé trai chơi cùng nhau." }
+  - { id: hsk1-0204, zh: "请听我说话。", vi: "Hãy nghe tôi nói." }
+  - { id: hsk1-0205, zh: "老师说话，学生听写。", vi: "Thầy giáo đọc, học sinh nghe viết chính tả." }
+  - { id: hsk1-0206, zh: "我想学外语，也想学新知识。", vi: "Tôi muốn học ngoại ngữ, cũng muốn học kiến thức mới." }
+  - { id: hsk1-0207, zh: "飞机在天上飞。", vi: "Máy bay bay trên trời." }
+  - { id: hsk1-0208, zh: "我忘了，你记得吗？", vi: "Tôi quên mất rồi, bạn có nhớ không?" }
+  - { id: hsk1-0209, zh: "明天考试，我想考好。", vi: "Ngày mai thi, tôi muốn thi thật tốt." }
+  - { id: hsk1-0210, zh: "请你试一下这个。", vi: "Bạn thử cái này xem." }
+  - { id: hsk1-0211, zh: "他住在学校里。", vi: "Anh ấy sống ở trong trường." }
+  - { id: hsk1-0212, zh: "我不知道干什么好。", vi: "Tôi không biết nên làm gì." }
+  - { id: hsk1-0213, zh: "回到家，我很高兴。", vi: "Về đến nhà, tôi rất vui." }
+  - { id: hsk1-0214, zh: "他回去了，我也回去。", vi: "Anh ấy về rồi, tôi cũng về." }
+  - { id: hsk1-0215, zh: "我很累，想睡了。", vi: "Tôi mệt lắm, muốn ngủ rồi." }
+  - { id: hsk1-0216, zh: "今天是几月几日？", vi: "Hôm nay là ngày mấy tháng mấy?" }
+  - { id: hsk1-0217, zh: "现在还很早，不晚。", vi: "Bây giờ vẫn còn sớm, không muộn." }
+  - { id: hsk1-0218, zh: "我等了半天。", vi: "Tôi đã đợi rất lâu." }
+  - { id: hsk1-0219, zh: "这个球最大。", vi: "Quả bóng này to nhất." }
+  - { id: hsk1-0220, zh: "别走，再等一下儿。", vi: "Đừng đi, đợi thêm một chút nữa." }
+  - { id: hsk1-0221, zh: "你先走，我们一块儿来。", vi: "Bạn đi trước đi, chúng tôi sẽ cùng đến sau." }
+  - { id: hsk1-0222, zh: "这个和那个一样。", vi: "Cái này và cái kia giống nhau." }
+  - { id: hsk1-0223, zh: "我从家来，去过北京。", vi: "Tôi từ nhà đến, đã từng đi Bắc Kinh." }
+  - { id: hsk1-0224, zh: "还有一个人没来。", vi: "Còn một người nữa chưa đến." }
+  - { id: hsk1-0225, zh: "有些人喝茶，有的人喝水。", vi: "Có người uống trà, có người uống nước." }
+  - { id: hsk1-0226, zh: "请给我一点儿水。", vi: "Cho tôi một chút nước." }
+  - { id: hsk1-0227, zh: "别的东西我不要。", vi: "Những thứ khác tôi không cần." }
+  - { id: hsk1-0228, zh: "他的房子很大。", vi: "Nhà của anh ấy rất to." }
+  - { id: hsk1-0229, zh: "车站在楼下。", vi: "Bến xe ở dưới tòa nhà." }
+  - { id: hsk1-0230, zh: "请给我一个杯子。", vi: "Cho tôi một cái cốc." }
+  - { id: hsk1-0231, zh: "电视机要用电。", vi: "Tivi cần dùng điện." }
+  - { id: hsk1-0232, zh: "我的书包里有课本。", vi: "Trong cặp sách của tôi có sách giáo khoa." }
+  - { id: hsk1-0233, zh: "这是什么地方？我们在这个地点见面。", vi: "Đây là nơi nào? Chúng ta gặp nhau ở địa điểm này." }
+  - { id: hsk1-0234, zh: "他在国外学习。", vi: "Anh ấy du học ở nước ngoài." }
+  - { id: hsk1-0235, zh: "我的电脑坏了。", vi: "Máy tính của tôi hỏng rồi." }
+  - { id: hsk1-0236, zh: "这个不对。", vi: "Cái này không đúng." }
+  - { id: hsk1-0237, zh: "他不大高。", vi: "Anh ấy không cao lắm." }
+  - { id: hsk1-0238, zh: "这个杯子是白的。", vi: "Cái cốc này màu trắng." }
+  - { id: hsk1-0239, zh: "一元有十毛。", vi: "Một tệ bằng mười hào." }
+  - { id: hsk1-0240, zh: "我找到了书包。", vi: "Tôi đã tìm thấy cặp sách." }
+  - { id: hsk1-0241, zh: "他得到了一个球。", vi: "Anh ấy được một quả bóng." }
+  - { id: hsk1-0242, zh: "老师来到学校。", vi: "Thầy giáo đến trường." }
+  - { id: hsk1-0243, zh: "这个真的很好玩儿。", vi: "Cái này thật sự rất vui." }
+  - { id: hsk1-0244, zh: "没事儿，没什么。", vi: "Không sao đâu, không có gì." }
+  - { id: hsk1-0245, zh: "明天见！", vi: "Mai gặp lại nhé!" }
+  - { id: hsk1-0246, zh: "请读这个字。", vi: "Hãy đọc chữ này." }
+  - { id: hsk1-0247, zh: "他进了房间。", vi: "Anh ấy đã vào phòng." }
+  - { id: hsk1-0248, zh: "老师在开会。", vi: "Thầy giáo đang họp." }
+  - { id: hsk1-0249, zh: "他喜欢开玩笑。", vi: "Anh ấy thích nói đùa." }
+  - { id: hsk1-0250, zh: "请关门。", vi: "Làm ơn đóng cửa." }
+  - { id: hsk1-0251, zh: "我在中学学习，弟弟在小学。", vi: "Tôi học trung học, em trai tôi học tiểu học." }
+  - { id: hsk1-0252, zh: "我等了一个小时。", vi: "Tôi đã đợi một tiếng đồng hồ." }
+  - { id: hsk1-0253, zh: "你什么时候来？", vi: "Khi nào bạn đến?" }
+  - { id: hsk1-0254, zh: "今天的日期是几号？", vi: "Hôm nay là ngày bao nhiêu?" }
+  - { id: hsk1-0255, zh: "他有病，要去看病。", vi: "Anh ấy bị bệnh, phải đi khám." }
+  - { id: hsk1-0256, zh: "请给我票。", vi: "Làm ơn đưa vé cho tôi." }
+  - { id: hsk1-0257, zh: "爷爷很老了。", vi: "Ông nội đã già lắm rồi." }
+  - { id: hsk1-0258, zh: "行，我们走吧。", vi: "Được, chúng ta đi thôi." }
+  - { id: hsk1-0259, zh: "现在是零点。", vi: "Bây giờ là không giờ (nửa đêm)." }
+  - { id: hsk1-0260, zh: "这个饭很好吃。", vi: "Cơm này rất ngon." }
+  - { id: hsk1-0261, zh: "这里人很少。", vi: "Ở đây rất ít người." }
+  - { id: hsk1-0262, zh: "别动！", vi: "Đừng động đậy!" }
+  - { id: hsk1-0263, zh: "这个动作很难。", vi: "Động tác này rất khó." }
+  - { id: hsk1-0264, zh: "我学了半年汉语。", vi: "Tôi đã học tiếng Trung được nửa năm." }
+  - { id: hsk1-0265, zh: "上次你没来，下次要来。", vi: "Lần trước bạn không đến, lần sau phải đến nhé." }
+  - { id: hsk1-0266, zh: "他一边走一边唱。", vi: "Anh ấy vừa đi vừa hát." }
+  - { id: hsk1-0267, zh: "妈妈在家，爸爸不在家。", vi: "Mẹ ở nhà, bố không ở nhà." }
+  - { id: hsk1-0268, zh: "她们都是学生。", vi: "Các cô ấy đều là học sinh." }
+  - { id: hsk1-0269, zh: "小姐，请问现在几点？", vi: "Chị ơi, cho hỏi bây giờ là mấy giờ?" }
+  - { id: hsk1-0270, zh: "小孩儿在门口玩儿。", vi: "Đứa trẻ đang chơi ở cửa." }
+  - { id: hsk1-0271, zh: "这是我第一次来。", vi: "Đây là lần đầu tiên tôi đến." }
+  - { id: hsk1-0272, zh: "放学了，我们回家吧。", vi: "Tan học rồi, chúng ta về nhà thôi." }
+  - { id: hsk1-0273, zh: "我身上没有钱。", vi: "Trên người tôi không có tiền." }
+  - { id: hsk1-0274, zh: "那些书是我的。", vi: "Những quyển sách kia là của tôi." }
+  - { id: hsk1-0275, zh: "这间房子很大。", vi: "Căn nhà này rất rộng." }
+  - { id: hsk1-0276, zh: "这个歌很好听。", vi: "Bài hát này rất hay." }
+  - { id: hsk1-0277, zh: "东、南、西、北都有山。", vi: "Phía đông, nam, tây, bắc đều có núi." }
+  - { id: hsk1-0278, zh: "现在是九点十分。", vi: "Bây giờ là chín giờ mười phút." }
+  - { id: hsk1-0279, zh: "这个是女的，那个是男的。", vi: "Người này là nữ, người kia là nam." }
+  - { id: hsk1-0280, zh: "我常去那个商店。", vi: "Tôi hay đến cửa hàng đó." }
+  - { id: hsk1-0281, zh: "差一点儿就好了。", vi: "Chỉ còn một chút nữa là xong." }

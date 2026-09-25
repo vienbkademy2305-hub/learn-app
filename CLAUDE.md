@@ -248,6 +248,7 @@ README CLAIM — NOT VERIFIED
 - Ngôn ngữ lập trình duy nhất: **TypeScript**. Không đưa Python vào dự án; dữ liệu hsk-sentences-audio dùng bản đã build sẵn (`dist/`).
 - Repo nguồn hiện nằm ở `C:\Users\Admin\hoc-tieng-trung\repos\` (xue-hanzi, hsk-sentences-audio, hsk1-chinese-learning). Chỉ đọc, không sửa.
 - Tài liệu: [docs/REPO_AUDIT.md](docs/REPO_AUDIT.md) · [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DATA_MAPPING.md](docs/DATA_MAPPING.md) (Claude tạo 2026-09-25, chờ duyệt).
+- PHASE 2 — HSK1 LEARNING UI đã xong (kế hoạch: [docs/PHASE2_PLAN.md](docs/PHASE2_PLAN.md)). Site tĩnh Next.js (`output: "export"`) đọc snapshot `.data/content/hsk1.json` từ `pnpm content:export`; tiến độ học lưu localStorage. Kiểm tra: `pnpm build` → `pnpm smoke` (`reports/phase2-smoke.md`). Đăng GitHub Pages: `pnpm deploy:pages` (chỉ khi người dùng đồng ý). Bản dịch câu HSK1 trong `data/editorial/sentences-vi/hsk1.yaml` là bản nháp AI, chờ duyệt.
 - PHASE 1 — DATA FOUNDATION (HSK1) đã xong: `pnpm sources:fetch` → `pnpm import:hsk1` → `pnpm validate`; `pnpm test`. DB cục bộ PGlite ở `.data/pglite`, audio ở `.data/assets` (gitignored, dựng lại được). Báo cáo: `reports/phase1-validation.md`. Chưa có UI.
 - License (chi tiết ở mục 10 của audit):
   - xue-hanzi và hsk1-chinese-learning **không có LICENSE** → không copy code/nội dung khi chưa có cho phép; "tái sử dụng" ở mục 2 được hiểu là: tham khảo cách làm + import dữ liệu từ **nguồn gốc** (CVDICT, Unihan kVietnamese, makemeahanzi, hanzi-writer-data, hanzi_lookup), ghi `source` là nguồn gốc đó.

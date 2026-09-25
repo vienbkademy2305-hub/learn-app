@@ -3,3 +3,9 @@ node_modules/
 .data/
 # Downloaded source snapshots (pinned in sources/manifest.json)
 sources/raw/
+# Static site: audio copied by `pnpm content:export`, build output
+public/assets/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo

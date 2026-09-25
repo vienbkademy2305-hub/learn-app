@@ -17,6 +17,7 @@
     "sentence_new": 70,
     "sentence_merged_with_existing": 5
   },
+  "words_en_from_token_gloss": 9,
   "words_total": 541,
   "words_in_curriculum": 518,
   "characters_total": 322,
@@ -29,6 +30,10 @@
     "庞立亮",
     "卢氏芳"
   ],
+  "editorial_sentence_translations": 281,
+  "editorial_missing_sentence": [],
+  "editorial_text_mismatch": [],
+  "editorial_duplicate_ids": [],
   "lesson_drafts_written": 14,
   "lesson_files_kept": 0,
   "lessons": 14,

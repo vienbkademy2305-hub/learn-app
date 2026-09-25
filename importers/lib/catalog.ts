@@ -10,6 +10,7 @@ export type SourceId =
   | "hsk-sentences-audio"
   | "hsk-grammar-krmanik"
   | "hsk1-chinese-learning"
+  | "editorial"
   | "derived";
 
 export interface SourceInfo {
@@ -90,8 +91,19 @@ export const SOURCES: SourceInfo[] = [
     name: "hsk1-chinese-learning",
     url: "https://github.com/ALiangPang/hsk1-chinese-learning",
     license: "NONE (repository has no license)",
-    publishable: false,
+    // Shown in the app by the user's decision (2026-09-25) despite the missing
+    // license — re-confirm before any public deployment (DATA_MAPPING.md §1).
+    publishable: true,
+    notes: "Displayed by user decision 2026-09-25; repository has no license.",
     input: { kind: "repos", name: "hsk1-chinese-learning", files: ["js/vocabulary.js", "js/sentences.js"] },
+  },
+  {
+    id: "editorial",
+    name: "chinese-app editorial content (data/editorial)",
+    url: "https://github.com/vienbkademy2305-hub/learn-app/tree/master/data/editorial",
+    license: "project",
+    publishable: true,
+    notes: "Vietnamese content written for this app; each row carries its own review status.",
   },
   {
     id: "derived",
@@ -105,7 +117,7 @@ export const SOURCES: SourceInfo[] = [
 
 /** Version string + file hashes recorded in content.source_versions. */
 export function sourceVersion(info: SourceInfo, manifest: Manifest): { version: string; files: Record<string, string> } {
-  if (!info.input) return { version: "phase1", files: {} };
+  if (!info.input) return { version: "working-tree", files: {} };
   const pin = info.input.kind === "repos" ? manifest.repos[info.input.name] : manifest.downloads[info.input.name];
   if (!pin) throw new Error(`manifest has no ${info.input.kind}.${info.input.name}`);
   const names = info.input.files.length > 0 ? info.input.files : Object.keys(pin.files);

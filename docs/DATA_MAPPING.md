@@ -15,7 +15,8 @@
 | `complete-hsk-vocabulary` | `sources/raw/complete-hsk-vocabulary/<sha>/new/{1..6}.json` (tải về) | `7ac65bf1a6387d35f1ade478906172a19311c7f9` | MIT [ĐO qua GitHub API] | ✅ |
 | `hsk-sentences-audio` | `repos/hsk-sentences-audio/dist/sentences.json`, `dist/audio/*` | `857dfba` | data CC-BY-SA 4.0, code MIT [ĐO] | ✅ |
 | `hsk-grammar-krmanik` | `repos/hsk-sentences-audio/data/grammar_points.json` | `857dfba` | **UNKNOWN** (nguồn krmanik/HSK-3.0) | ❌ (chờ xác minh) |
-| `hsk1-chinese-learning` | `repos/hsk1-chinese-learning/js/vocabulary.js`, `js/sentences.js` | `8d635bd` | **Không có license** [ĐO] | ❌ |
+| `hsk1-chinese-learning` | `repos/hsk1-chinese-learning/js/vocabulary.js`, `js/sentences.js` | `8d635bd` | **Không có license** [ĐO] | ✅ **theo quyết định người dùng 2026-09-25** ("lấy cả tiếng Anh tiếng Việt"); phải xác nhận lại trước khi đăng công khai |
+| `editorial` | `data/editorial/**` (VD `sentences-vi/hsk1.yaml` — bản dịch nháp AI, thêm ở PHASE 2) | theo git | project | ✅ (mỗi dòng có `status`: `draft`/`reviewed`) |
 | `derived` | sinh bởi importer (VD cấp HSK của chữ, bản nháp lesson) | theo lần chạy | — | ✅ |
 
 - `publishable = false`: dữ liệu vẫn được import để **mapping/đối chiếu**, nhưng tầng hiển thị không được dùng. Đây là cột bổ sung vào bảng `sources` so với ARCHITECTURE §18.1; lý do: người dùng yêu cầu adapter cho repo không có license.

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Be Vietnam Pro", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  /* System CJK fonts: no multi-megabyte font download for a static site. */
+  --font-han: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", sans-serif;
+
+  --color-brand-50: #fef4f2;
+  --color-brand-100: #fde6e1;
+  --color-brand-200: #fbcfc6;
+  --color-brand-300: #f6a797;
+  --color-brand-500: #e0513b;
+  --color-brand-600: #c73c27;
+  --color-brand-700: #a6301f;
+  --color-brand-800: #87291d;
+  --color-jade-50: #effaf5;
+  --color-jade-100: #d8f2e5;
+  --color-jade-600: #1f8a5b;
+  --color-jade-700: #19704a;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-stone-50);
+  color: var(--color-stone-900);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-han {
+  font-family: var(--font-han);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
