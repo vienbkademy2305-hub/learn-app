@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Badge, HskBadge } from "@/components/Badge";
 import { getLesson, getSentence } from "@/content/load";
 import type { WordData } from "@/content/types";
-import { joinSinoViet } from "@/domain/display";
+import { joinSinoViet, lessonCharacters } from "@/domain/display";
+import { CharacterPicker } from "@/features/writing/CharacterPicker";
 import { LearnedToggle } from "@/features/progress/ProgressWidgets";
 import { SentenceCard } from "@/features/sentences/SentenceCard";
 
@@ -94,6 +95,12 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="rounded-2xl border border-stone-200 bg-stone-50/60 p-5">
+        <h2 className="font-semibold text-stone-900">Cách viết</h2>
+        <p className="mb-4 mt-1 text-sm text-stone-500">Xem thứ tự nét rồi tự viết thử — máy chấm từng nét.</p>
+        <CharacterPicker characters={lessonCharacters([word])} />
       </section>
 
       <section>

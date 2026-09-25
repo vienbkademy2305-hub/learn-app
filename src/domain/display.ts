@@ -44,6 +44,33 @@ export function splitSenses(senses: RawSense[]): { meanings: string[]; measureWo
   return { meanings, measureWords };
 }
 
+export interface LessonCharacter {
+  hanzi: string;
+  pinyin: string | null;
+  sinoViet: string[];
+  stroke: string | null;
+  /** slugs of the lesson words containing the character */
+  words: string[];
+}
+
+/** Unique Han characters of a lesson's words, in order of first appearance (writing practice). */
+export function lessonCharacters(
+  words: Array<{ slug: string; chars: Array<{ hanzi: string; pinyin: string | null; sinoViet: string[]; stroke: string | null }> }>,
+): LessonCharacter[] {
+  const byHanzi = new Map<string, LessonCharacter>();
+  for (const w of words) {
+    for (const c of w.chars) {
+      const entry = byHanzi.get(c.hanzi);
+      if (entry) {
+        if (!entry.words.includes(w.slug)) entry.words.push(w.slug);
+      } else {
+        byHanzi.set(c.hanzi, { hanzi: c.hanzi, pinyin: c.pinyin, sinoViet: c.sinoViet, stroke: c.stroke, words: [w.slug] });
+      }
+    }
+  }
+  return [...byHanzi.values()];
+}
+
 /**
  * Aligns tokens (which omit punctuation) with the original sentence text so it
  * can be rendered completely, with each token linkable to its word.

@@ -32,7 +32,8 @@ export interface WordData {
   pinyin: string;
   hskLevel: string | null;
   inCurriculum: boolean;
-  chars: Array<{ hanzi: string; pinyin: string | null; sinoViet: string[] }>;
+  /** `stroke`: storage key of the hanzi-writer stroke data, null when the character has none. */
+  chars: Array<{ hanzi: string; pinyin: string | null; sinoViet: string[]; stroke: string | null }>;
   /** Vietnamese meanings, hand-written glosses (hsk1-chinese-learning) first, then CVDICT. */
   meanings: string[];
   measureWords: string[];

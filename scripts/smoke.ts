@@ -58,6 +58,7 @@ const PAGES = [
   ["lesson-vocab", `/lesson/${LESSON}/`],
   ["lesson-word", `/lesson/${LESSON}/word/lao3shi1-8001-5e08/`],
   ["lesson-examples", `/lesson/${LESSON}/examples/`],
+  ["lesson-writing", `/lesson/${LESSON}/writing/`],
   ["lesson-summary", `/lesson/${LESSON}/summary/`],
   ["word", "/word/ai4-7231/"],
   ["sources", "/sources/"],
@@ -144,6 +145,19 @@ async function main() {
     await page.getByRole("button", { name: "Nghe câu với tốc độ bình thường" }).first().click();
     const res = await audioResponse;
     checks.push(`${res && res.status() < 400 ? "PASS" : "FAIL"} bấm "Nghe" tải audio (${res ? `${res.status()} ${new URL(res.url()).pathname}` : "không có request"})`);
+
+    current = "writing";
+    const strokeResponse = page.waitForResponse((r) => r.url().includes("/assets/strokes/"), { timeout: 10_000 }).catch(() => null);
+    await page.goto(url(`/lesson/${LESSON}/writing/`), { waitUntil: "networkidle" });
+    const strokeRes = await strokeResponse;
+    checks.push(`${strokeRes && strokeRes.status() < 400 ? "PASS" : "FAIL"} tải dữ liệu nét chữ (${strokeRes ? `${strokeRes.status()} ${new URL(strokeRes.url()).pathname}` : "không có request"})`);
+    await page.getByRole("button", { name: "▶ Xem viết mẫu" }).click();
+    await page.waitForTimeout(1500);
+    const strokePaths = await page.locator('[aria-label^="Khung viết chữ"] svg path').count();
+    checks.push(`${strokePaths > 0 ? "PASS" : "FAIL"} hoạt ảnh viết mẫu vẽ các nét (${strokePaths} path SVG)`);
+    await page.getByRole("button", { name: /Tự viết thử/ }).click();
+    const prompt = await page.getByText(/Hãy viết nét 1\//).count();
+    checks.push(`${prompt > 0 ? "PASS" : "FAIL"} chế độ tự viết hiện hướng dẫn "Hãy viết nét 1/…"`);
 
     current = "summary";
     await page.goto(url(`/lesson/${LESSON}/summary/`), { waitUntil: "networkidle" });

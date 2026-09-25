@@ -38,7 +38,7 @@ export default async function LessonExamplesPage({ params }: { params: Promise<{
           </li>
         ))}
       </ol>
-      <StepFooter back={{ href: `/lesson/${slug}`, label: "Từ vựng" }} next={{ href: `/lesson/${slug}/summary`, label: "Tổng kết" }} />
+      <StepFooter back={{ href: `/lesson/${slug}`, label: "Từ vựng" }} next={{ href: `/lesson/${slug}/writing`, label: "Luyện viết" }} />
     </section>
   );
 }

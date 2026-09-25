@@ -11,6 +11,7 @@ export type SourceId =
   | "hsk-grammar-krmanik"
   | "hsk1-chinese-learning"
   | "editorial"
+  | "hanzi-writer-data"
   | "derived";
 
 export interface SourceInfo {
@@ -96,6 +97,14 @@ export const SOURCES: SourceInfo[] = [
     publishable: true,
     notes: "Displayed by user decision 2026-09-25; repository has no license.",
     input: { kind: "repos", name: "hsk1-chinese-learning", files: ["js/vocabulary.js", "js/sentences.js"] },
+  },
+  {
+    id: "hanzi-writer-data",
+    name: "Hanzi Writer Data (stroke order, from Make Me a Hanzi)",
+    url: "https://github.com/chanind/hanzi-writer-data",
+    license: "Arphic Public License (ARPHICPL.TXT)",
+    publishable: true,
+    notes: "npm hanzi-writer-data@2.0.1; stroke files are copied by `pnpm content:export` together with ARPHICPL.TXT.",
   },
   {
     id: "editorial",

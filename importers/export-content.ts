@@ -14,6 +14,13 @@ import { ASSETS_DIR } from "./build/write";
 export const CONTENT_DIR = path.join(PROJECT_ROOT, ".data", "content");
 const PUBLIC_ASSETS = path.join(PROJECT_ROOT, "public", "assets");
 const MAX_EXAMPLES = 6;
+/** hanzi-writer-data (Arphic Public License): one JSON per character, named by the character. */
+const STROKE_DATA_DIR = path.join(PROJECT_ROOT, "node_modules", "hanzi-writer-data");
+
+/** ASCII storage key for a character's stroke data, or null when hanzi-writer-data has none. */
+function strokeKey(hanzi: string): string | null {
+  return existsSync(path.join(STROKE_DATA_DIR, `${hanzi}.json`)) ? `strokes/${hanzi.codePointAt(0)!.toString(16)}.json` : null;
+}
 
 type Row = Record<string, unknown>;
 const rows = async <T = Row>(client: PGlite, sql: string, params: unknown[] = []) => (await client.query<T>(sql, params)).rows;
@@ -62,7 +69,7 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
   const charsByWord = new Map<number, WordData["chars"]>();
   for (const c of charRows) {
     if (!charsByWord.has(c.word_id)) charsByWord.set(c.word_id, []);
-    charsByWord.get(c.word_id)!.push({ hanzi: c.hanzi, pinyin: c.pinyin, sinoViet: c.readings ?? [] });
+    charsByWord.get(c.word_id)!.push({ hanzi: c.hanzi, pinyin: c.pinyin, sinoViet: c.readings ?? [], stroke: strokeKey(c.hanzi) });
   }
 
   // ── Sentences (publishable provenance only) ──────────────────────────────
@@ -185,6 +192,29 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
   return { version: 1, generatedAt: new Date().toISOString(), level, sources, lessons, words, sentences };
 }
 
+/** Copies stroke files for every character in the snapshot, plus the Arphic license they require. */
+export function copyStrokeData(snapshot: ContentSnapshot): { copied: number; withoutStrokes: string[] } {
+  let copied = 0;
+  const withoutStrokes = new Set<string>();
+  const dir = path.join(PUBLIC_ASSETS, "strokes");
+  mkdirSync(dir, { recursive: true });
+  copyFileSync(path.join(STROKE_DATA_DIR, "ARPHICPL.TXT"), path.join(dir, "ARPHICPL.TXT"));
+  for (const w of Object.values(snapshot.words)) {
+    for (const c of w.chars) {
+      if (!c.stroke) {
+        withoutStrokes.add(c.hanzi);
+        continue;
+      }
+      const to = path.join(PUBLIC_ASSETS, c.stroke);
+      if (!existsSync(to)) {
+        copyFileSync(path.join(STROKE_DATA_DIR, `${c.hanzi}.json`), to);
+        copied++;
+      }
+    }
+  }
+  return { copied, withoutStrokes: [...withoutStrokes] };
+}
+
 export function copySnapshotAudio(snapshot: ContentSnapshot): { copied: number; missing: string[] } {
   let copied = 0;
   const missing: string[] = [];
@@ -215,12 +245,15 @@ async function main() {
     mkdirSync(CONTENT_DIR, { recursive: true });
     writeFileSync(path.join(CONTENT_DIR, `hsk${level}.json`), JSON.stringify(snapshot));
     const audio = copySnapshotAudio(snapshot);
+    const strokes = copyStrokeData(snapshot);
     console.log({
       lessons: snapshot.lessons.length,
       words: Object.keys(snapshot.words).length,
       sentences: Object.keys(snapshot.sentences).length,
       audioCopied: audio.copied,
       audioMissing: audio.missing.length,
+      strokeFilesCopied: strokes.copied,
+      charactersWithoutStrokeData: strokes.withoutStrokes,
     });
     if (audio.missing.length > 0) process.exitCode = 1;
   } finally {

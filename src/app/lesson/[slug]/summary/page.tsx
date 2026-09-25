@@ -27,7 +27,7 @@ export default async function LessonSummaryPage({ params }: { params: Promise<{ 
   return (
     <section aria-label="Tổng kết bài học">
       <LessonSummaryPanel slug={slug} words={words} next={next ? { slug: next.slug, number: next.number, title: next.title } : null} />
-      <StepFooter back={{ href: `/lesson/${slug}/examples`, label: "Câu ví dụ" }} next={next ? { href: `/lesson/${next.slug}`, label: `Bài ${next.number}` } : { href: "/hsk/1", label: "Về lộ trình" }} />
+      <StepFooter back={{ href: `/lesson/${slug}/writing`, label: "Luyện viết" }} next={next ? { href: `/lesson/${next.slug}`, label: `Bài ${next.number}` } : { href: "/hsk/1", label: "Về lộ trình" }} />
     </section>
   );
 }

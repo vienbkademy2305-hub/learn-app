@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { joinSinoViet, segmentSentence, splitSenses, wordSlug } from "../src/domain/display";
+import { joinSinoViet, lessonCharacters, segmentSentence, splitSenses, wordSlug } from "../src/domain/display";
 import {
   EMPTY_PROGRESS,
   lessonPercent,
@@ -52,6 +52,19 @@ describe("segmentSentence", () => {
       { text: "好", word: "y" },
       { text: "。", word: null },
     ]);
+  });
+});
+
+describe("lessonCharacters", () => {
+  it("lists each character once, in order, with the words using it", () => {
+    const c = (hanzi: string) => ({ hanzi, pinyin: null, sinoViet: [], stroke: `strokes/${hanzi}.json` });
+    const chars = lessonCharacters([
+      { slug: "w-nihao", chars: [c("你"), c("好")] },
+      { slug: "w-ni", chars: [c("你")] },
+      { slug: "w-hao", chars: [c("好")] },
+    ]);
+    expect(chars.map((x) => x.hanzi)).toEqual(["你", "好"]);
+    expect(chars[0]!.words).toEqual(["w-nihao", "w-ni"]);
   });
 });
 
