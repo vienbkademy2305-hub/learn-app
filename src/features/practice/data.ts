@@ -8,6 +8,7 @@ export const PRACTICE_TYPES = [
   { type: "flashcards", path: "flashcards", title: "Flashcard", icon: "🃏", description: "Lật thẻ để ôn từ, lưu từ khó vào Sổ từ. Máy nhắc ôn lại đúng lúc." },
   { type: "copy", path: "copy", title: "Tập chép chữ", icon: "🖌️", description: "Chép mỗi chữ 3 lượt: có nét mờ → mờ dần → tự viết." },
   { type: "sentences", path: "sentences", title: "Đặt câu", icon: "💬", description: "Tự đặt câu có nghĩa với từ của bài, so với câu mẫu." },
+  { type: "speaking", path: "speaking", title: "Luyện nói", icon: "🎙️", description: "Ghi âm giọng bạn — máy chấm thanh điệu của từ và ngữ điệu của câu." },
   { type: "paragraph", path: "paragraph", title: "Viết đoạn văn", icon: "📄", description: "Viết một đoạn ngắn theo chủ đề bài, dùng từ vựng đã học." },
 ] as const;
 

@@ -5,6 +5,8 @@ import type { WordData } from "@/content/types";
 import { joinSinoViet, lessonCharacters } from "@/domain/display";
 import { CharacterPicker } from "@/features/writing/CharacterPicker";
 import { SpeakButtons } from "@/features/audio/SpeakButtons";
+import { SpeakingPanel } from "@/features/speaking/SpeakingPanel";
+import { wordTarget } from "@/features/speaking/targets";
 import { LearnedToggle } from "@/features/progress/ProgressWidgets";
 import { SentenceCard } from "@/features/sentences/SentenceCard";
 
@@ -102,6 +104,11 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
             </li>
           ))}
         </ul>
+      </section>
+
+      <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+        <h2 className="mb-3 font-semibold text-stone-900">🎙️ Luyện nói</h2>
+        <SpeakingPanel target={wordTarget(word)} />
       </section>
 
       <section className="rounded-2xl border border-stone-200 bg-stone-50/60 p-5">

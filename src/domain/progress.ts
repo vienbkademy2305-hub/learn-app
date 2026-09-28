@@ -28,6 +28,26 @@ export interface ProgressState {
   notes?: Record<string, Note>;
   /** sentence key → listening progress (docs/LISTENING_PLAN.md §2.3) */
   listening?: Record<string, ListenState>;
+  /** "word:<slug>" | "sentence:<key>" → speaking practice results (docs/SPEAKING_PLAN.md §2) */
+  speaking?: Record<string, SpeakState>;
+}
+
+export interface SpeakState {
+  attempts: number;
+  best: number;
+  last: number;
+  at: string;
+}
+
+export const speakKey = { word: (slug: string) => `word:${slug}`, sentence: (key: string) => `sentence:${key}` };
+
+/** A scored speaking attempt (unscored attempts — silence, too quiet — are not recorded). */
+export function recordSpeaking(state: ProgressState, key: string, score: number, now = new Date()): ProgressState {
+  const prev = state.speaking?.[key];
+  return {
+    ...state,
+    speaking: { ...state.speaking, [key]: { attempts: (prev?.attempts ?? 0) + 1, best: Math.max(prev?.best ?? 0, score), last: score, at: now.toISOString() } },
+  };
 }
 
 export interface ListenState {
@@ -184,5 +204,5 @@ export function parseProgress(raw: unknown): ProgressState {
   const r = raw as Partial<ProgressState>;
   if (r.v !== 1 || typeof r.learned !== "object" || typeof r.lessons !== "object" || !r.learned || !r.lessons) return EMPTY_PROGRESS;
   const obj = <T extends object>(v: T | undefined): T => (v && typeof v === "object" ? { ...v } : ({} as T));
-  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes), listening: obj(r.listening) };
+  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes), listening: obj(r.listening), speaking: obj(r.speaking) };
 }

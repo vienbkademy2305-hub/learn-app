@@ -15,6 +15,9 @@ export function PracticeHubStatus({ type, lessonSlug, words }: { type: PracticeT
     text = `${due} thẻ cần ôn${saved ? ` · ★ ${saved} đã lưu` : ""}`;
   } else if (type === "sentences") {
     text = `Đã đặt ${words.filter((w) => state.notes?.[noteKey.sentence(lessonSlug, w)]).length}/${words.length} câu`;
+  } else if (type === "speaking") {
+    const done = words.filter((w) => state.speaking?.[`word:${w}`]).length;
+    text = done ? `Đã luyện nói ${done}/${words.length} từ` : "Chưa luyện nói";
   } else if (type === "paragraph") {
     text = state.notes?.[noteKey.paragraph(lessonSlug)] ? "Đã có bản nháp" : "Chưa viết";
   }

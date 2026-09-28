@@ -1,8 +1,8 @@
 # PHASE 2 — Smoke test (static build)
 
-- Generated: 2026-09-28T12:16:49.350Z by `pnpm smoke`, base path `/learn-app`
-- Pages × viewports: 24 × 375px / 768px / 1280px
-- Link prefetches cancelled by navigation (ignored): 1876
+- Generated: 2026-09-28T13:06:30.225Z by `pnpm smoke`, base path `/learn-app`
+- Pages × viewports: 25 × 375px / 768px / 1280px
+- Link prefetches cancelled by navigation (ignored): 1981
 - Result: **PASS**
 
 ## Interactions
@@ -23,15 +23,15 @@
 - PASS làm hết một lượt Bài nghe, có đủ 3 dạng (Nghe và chọn nghĩa đúng / Nghe và chọn câu đúng / Nghe và chọn từ còn thiếu)
 - PASS trang Luyện nghe hiện tiến độ bài 1 (Chào hỏi · Đã nghe 1/10 câu · Đúng: 4/8)
 - PASS làm hết một lượt Bài viết (có cả sắp xếp câu và viết pinyin)
-- PASS viết đúng từng nét bằng chuột → máy chấm "Chính xác!" (4 nét)
+- PASS viết đúng từng nét bằng chuột → máy chấm "Chính xác!" (6 nét)
 - PASS làm hết một lượt Viết chữ tới màn hình kết quả
 - PASS bước "2. Ngữ pháp": 4 điểm, 14 câu ví dụ có audio
 - PASS làm hết phần "Câu nào đúng?" của bài 1 tới màn hình kết quả
-- PASS bước "5. Luyện tập" có 5 mục (5. Luyện tập, 5 thẻ)
+- PASS bước "5. Luyện tập" có 6 mục (thêm Luyện nói) (5. Luyện tập, 6 thẻ)
 - PASS Nhớ từ vựng có dạng Việt → Trung gõ pinyin
 - PASS làm hết một lượt Nhớ từ vựng tới màn hình kết quả
 - PASS flashcard: lật thẻ, "Nhớ rồi" bớt 1 thẻ (Còn 30 thẻ → Còn 29 thẻ)
-- PASS từ vừa lưu (对不起) có trong Sổ từ
+- PASS từ vừa lưu (谢谢) có trong Sổ từ
 - PASS khung Tập chép chữ tải được chữ đầu tiên
 - PASS Đặt câu: tự kiểm tra hiện câu mẫu, câu được lưu sau khi tải lại
 - PASS Viết đoạn văn: đếm chữ Hán khi gõ (Độ dài: 8/30 chữ Hán)
@@ -41,9 +41,12 @@
 - PASS trang không tồn tại hiện 404 tiếng Việt
 - PASS nút nghe từ/chữ đọc đúng nội dung và tốc độ (老师@0.85, 老师@0.5, 老@0.85)
 - PASS Bài 0: bấm ô thanh mẫu zh đọc chữ ví dụ 知 (知@0.7)
-- PASS Bài 0: luyện nghe thanh điệu tự đọc câu hỏi (动@0.7) và làm hết tới kết quả
+- PASS Bài 0: luyện nghe thanh điệu tự đọc câu hỏi (住@0.7) và làm hết tới kết quả
 - PASS Bài 0: làm hết một lượt phân biệt âm dễ nhầm
-- PASS Nhớ từ vựng: câu nghe tự đọc từ khi hiện câu hỏi (不@0.85)
+- PASS Nhớ từ vựng: câu nghe tự đọc từ khi hiện câu hỏi (明天@0.85)
+- PASS ghi âm 老师 bằng micro giả (thanh 3 + thanh 1) → điểm thanh điệu 91/100 (lǎo 88 · shī 94), có nút nghe lại
+- PASS điểm luyện nói được lưu (hiện "Cao nhất" sau khi tải lại)
+- PASS chế độ Câu: ghi âm xong có kết luận (Ngữ điệu còn khác mẫu — nghe bản chậm rồi bắt chước lên xuống giọng. Bạn đọc chậm hơn mẫu khá nhiều.)
 
 ## Console errors / failed requests / overflow (0)
 

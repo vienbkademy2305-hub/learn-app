@@ -8,6 +8,7 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { chromium, type Page } from "playwright";
 import { startStaticServer } from "./lib/static-server";
+import { writeToneWav } from "./lib/synth-wav";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "out");
@@ -39,6 +40,7 @@ const PAGES = [
   ["lesson-summary", `/lesson/${LESSON}/summary/`],
   ["practice", "/practice/"],
   ["listening", "/listening/"],
+  ["practice-speaking", `/lesson/${LESSON}/practice/speaking/`],
   ["word", "/word/ai4-7231/"],
   ["sources", "/sources/"],
 ] as const;
@@ -289,7 +291,7 @@ async function main() {
     await page.goto(url(`/lesson/${LESSON}/practice/`), { waitUntil: "networkidle" });
     const activeStep = await page.locator('nav[aria-label="Các bước của bài học"] [aria-current="step"]').innerText();
     const hubCards = await page.locator("#practice-hub-title ~ ul > li").count();
-    checks.push(`${activeStep.includes("5. Luyện tập") && hubCards === 5 ? "PASS" : "FAIL"} bước "5. Luyện tập" có 5 mục (${activeStep}, ${hubCards} thẻ)`);
+    checks.push(`${activeStep.includes("5. Luyện tập") && hubCards === 6 ? "PASS" : "FAIL"} bước "5. Luyện tập" có 6 mục (thêm Luyện nói) (${activeStep}, ${hubCards} thẻ)`);
 
     current = "practice-vocab";
     await page.goto(url(`/lesson/${LESSON}/practice/vocab/`), { waitUntil: "networkidle" });
@@ -399,8 +401,8 @@ async function main() {
     current = "tts";
     watch(tts, problems, () => ({ viewport: "desktop", page: current }));
     await tts.goto(url(`/lesson/${LESSON}/word/lao3shi1-8001-5e08/`), { waitUntil: "networkidle" });
-    await tts.getByRole("button", { name: "Nghe lǎo shī" }).click();
-    await tts.getByRole("button", { name: "Nghe chậm lǎo shī" }).click();
+    await tts.getByRole("button", { name: "Nghe lǎo shī" }).first().click();
+    await tts.getByRole("button", { name: "Nghe chậm lǎo shī" }).first().click();
     await tts.getByRole("button", { name: "Nghe 老" }).first().click();
     const spoken = await tts.evaluate(() => (window as unknown as { __spoken: string[] }).__spoken);
     checks.push(`${JSON.stringify(spoken) === JSON.stringify(["老师@0.85", "老师@0.5", "老@0.85"]) ? "PASS" : "FAIL"} nút nghe từ/chữ đọc đúng nội dung và tốc độ (${spoken.join(", ")})`);
@@ -439,6 +441,44 @@ async function main() {
     const heard = (await spokenNow()).slice(spokenBefore);
     checks.push(`${heard.length === 1 && heard[0]!.endsWith("@0.85") ? "PASS" : "FAIL"} Nhớ từ vựng: câu nghe tự đọc từ khi hiện câu hỏi (${heard.join(", ")})`);
     await ttsContext.close();
+
+    // ── Speaking (docs/SPEAKING_PLAN.md): a fake microphone plays a synthetic voice ──
+    // 老师 lǎo shī = tone 3 + tone 1. The WAV says exactly that, so the score must be high.
+    const wav = path.join(ROOT, ".data", "speaking-laoshi.wav");
+    writeToneWav(wav, [3, 1]);
+    const micBrowser = await chromium.launch({
+      args: ["--use-fake-ui-for-media-stream", "--use-fake-device-for-media-stream", `--use-file-for-fake-audio-capture=${wav}%noloop`],
+    });
+    try {
+      const micPage = await (await micBrowser.newContext({ viewport: { width: 375, height: 812 } })).newPage();
+      current = "speaking";
+      watch(micPage, problems, () => ({ viewport: "mobile", page: current }));
+      await micPage.goto(url(`/lesson/${LESSON}/practice/speaking/`), { waitUntil: "networkidle" });
+      await micPage.getByRole("button", { name: /Ghi âm/ }).click();
+      const result = micPage.getByRole("status").filter({ hasText: "/100" });
+      const scored = await result.waitFor({ timeout: 15_000 }).then(() => true, () => false);
+      const scoreText = scored ? await result.locator("p.text-4xl").innerText() : "không có điểm";
+      const score = Number.parseInt(scoreText, 10);
+      const chips = scored ? await result.locator("li").allInnerTexts() : [];
+      const playback = await micPage.locator('audio[aria-label="Nghe lại giọng bạn"]').count();
+      checks.push(
+        `${scored && score >= 70 && chips.length === 2 && playback === 1 ? "PASS" : "FAIL"} ghi âm 老师 bằng micro giả (thanh 3 + thanh 1) → điểm thanh điệu ${scoreText.replace(/\s+/g, "")} (${chips.map((c) => c.replace(/\s+/g, " ")).join(" · ")}), có nút nghe lại`,
+      );
+      await micPage.reload({ waitUntil: "networkidle" });
+      const bestShown = await micPage.getByText(/Cao nhất: \d+/).count();
+      checks.push(`${bestShown > 0 ? "PASS" : "FAIL"} điểm luyện nói được lưu (hiện "Cao nhất" sau khi tải lại)`);
+
+      // Sentence mode: the fake mic replays the same short word, so the recording is judged
+      // against the sentence model — it must produce a clear verdict, not crash.
+      current = "speaking-sentence";
+      await micPage.getByRole("tab", { name: /Câu/ }).click();
+      await micPage.getByRole("button", { name: /Ghi âm/ }).click();
+      const verdict = micPage.getByRole("status").filter({ hasText: /ước lượng|quá ngắn|Không nghe thấy|quá nhỏ/ });
+      const verdictShown = await verdict.waitFor({ timeout: 25_000 }).then(() => true, () => false);
+      checks.push(`${verdictShown ? "PASS" : "FAIL"} chế độ Câu: ghi âm xong có kết luận (${verdictShown ? (await verdict.locator("p.font-medium").first().innerText()) : "không có"})`);
+    } finally {
+      await micBrowser.close();
+    }
   } finally {
     await browser.close();
     server.close();
