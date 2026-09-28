@@ -18,7 +18,7 @@ export function lessonExerciseData(slug: string): { words: ExWord[]; sentences: 
   const sentences: ExSentence[] = lesson.sentences
     .map(getSentence)
     .filter((s) => s !== undefined)
-    .map((s) => ({ key: s.key, simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio, tokens: s.tokens }));
+    .map((s) => ({ key: s.key, simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio, audioMs: s.audioMs, tokens: s.tokens }));
   return { words, sentences };
 }
 
@@ -28,7 +28,7 @@ export const EXERCISE_TYPES = [
     path: "listening",
     title: "Bài nghe",
     icon: "🎧",
-    description: "Nghe câu rồi chọn nghĩa đúng, hoặc chọn từ còn thiếu.",
+    description: "Nghe câu rồi chọn nghĩa đúng, chọn câu đúng, hoặc chọn từ còn thiếu.",
   },
   {
     type: "sentences",

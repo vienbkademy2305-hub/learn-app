@@ -22,7 +22,7 @@ export function SentenceCard({
   const parts = segmentSentence(sentence.simplified, sentence.tokens);
   return (
     <div className="space-y-1.5">
-      <p lang="zh-CN" className={`font-han leading-relaxed text-stone-900 ${size === "lg" ? "text-2xl" : "text-lg"}`}>
+      <p lang="zh-CN" data-part="hanzi" className={`font-han leading-relaxed text-stone-900 ${size === "lg" ? "text-2xl" : "text-lg"}`}>
         {parts.map((p, i) =>
           p.word ? (
             <Link
@@ -37,9 +37,13 @@ export function SentenceCard({
           ),
         )}
       </p>
-      {sentence.pinyin && <p className={`text-brand-700 ${size === "lg" ? "text-base" : "text-sm"}`}>{sentence.pinyin}</p>}
+      {sentence.pinyin && (
+        <p data-part="pinyin" className={`text-brand-700 ${size === "lg" ? "text-base" : "text-sm"}`}>
+          {sentence.pinyin}
+        </p>
+      )}
       {sentence.vi ? (
-        <p className={`text-stone-700 ${size === "lg" ? "text-base" : "text-sm"}`}>
+        <p data-part="meaning" className={`text-stone-700 ${size === "lg" ? "text-base" : "text-sm"}`}>
           {sentence.vi.text}
           {sentence.vi.draft && (
             <Badge tone="amber" className="ml-2 align-middle">
@@ -48,16 +52,18 @@ export function SentenceCard({
           )}
         </p>
       ) : (
-        <p className="text-sm italic text-stone-400">Chưa có bản dịch tiếng Việt</p>
+        <p data-part="meaning" className="text-sm italic text-stone-400">
+          Chưa có bản dịch tiếng Việt
+        </p>
       )}
       {sentence.en && (
-        <p lang="en" className={`text-stone-500 ${size === "lg" ? "text-sm" : "text-xs"}`}>
+        <p lang="en" data-part="meaning" className={`text-stone-500 ${size === "lg" ? "text-sm" : "text-xs"}`}>
           <span className="mr-1.5 rounded bg-stone-100 px-1 py-px text-[10px] font-semibold text-stone-500">EN</span>
           {sentence.en}
         </p>
       )}
       <div className="flex flex-wrap items-center gap-2 pt-1">
-        <AudioButtons audio={sentence.audio} compact={size === "sm"} />
+        <AudioButtons audio={sentence.audio} durations={sentence.audioMs} compact={size === "sm"} sentenceKey={sentence.key} />
         <HskBadge level={sentence.hskLevel} />
       </div>
     </div>

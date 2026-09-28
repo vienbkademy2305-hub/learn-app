@@ -12,7 +12,7 @@ export interface SentenceWord {
   simplified: string;
   pinyin: string;
   meaning: string | null;
-  models: Array<{ simplified: string; pinyin: string | null; vi: string | null; audio: { normal?: string; slow?: string } }>;
+  models: Array<{ simplified: string; pinyin: string | null; vi: string | null; audio: { normal?: string; slow?: string }; audioMs?: { normal?: number; slow?: number } }>;
 }
 
 function SentenceEditor({ lessonSlug, word, words, known }: { lessonSlug: string; word: SentenceWord; words: SentenceWord[]; known: ReadonlySet<string> }) {
@@ -89,7 +89,7 @@ function SentenceEditor({ lessonSlug, word, words, known }: { lessonSlug: string
                     {m.pinyin && <p className="text-brand-700">{m.pinyin}</p>}
                     {m.vi && <p className="text-stone-600">{m.vi}</p>}
                     <div className="mt-1.5">
-                      <AudioButtons audio={m.audio} compact />
+                      <AudioButtons audio={m.audio} durations={m.audioMs} compact />
                     </div>
                   </li>
                 ))}

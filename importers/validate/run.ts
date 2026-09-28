@@ -74,6 +74,12 @@ export async function runChecks(client: PGlite): Promise<Check[]> {
     else if (sha256File(file) !== a.sha256) broken.push({ storage_key: a.storage_key, problem: "sha256 mismatch" });
   }
   add("broken_audio_reference", "Broken audio reference", "error", broken);
+  add("audio_missing_duration", "Audio asset without measured duration", "error", await q(client, `
+    SELECT storage_key FROM content.audio_assets WHERE duration_ms IS NULL`));
+  add("slow_audio_not_slower", "Source slow recording not longer than the normal one (UI falls back to normal at 0.8×)", "warning", await q(client, `
+    SELECT n.owner_id AS sentence_id, n.duration_ms AS normal_ms, sl.duration_ms AS slow_ms
+    FROM content.audio_assets n JOIN content.audio_assets sl ON sl.owner_type = n.owner_type AND sl.owner_id = n.owner_id AND sl.speed = 'slow'
+    WHERE n.speed = 'normal' AND sl.duration_ms <= n.duration_ms`));
   add("sentence_missing_audio_speed", "hsk-sentences-audio sentence without normal+slow audio", "error", await q(client, `
     SELECT s.id, es.source_record_id FROM content.sentences s
     JOIN content.entity_sources es ON es.entity_type = 'sentence' AND es.entity_id = s.id AND es.source_id = 'hsk-sentences-audio' AND es.role = 'primary'

@@ -92,8 +92,8 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
     JOIN content.sources src ON src.id = t.source_id AND src.publishable
     WHERE t.lang IN ('vi', 'en')
     ORDER BY t.sentence_id, t.lang, (t.status = 'reviewed') DESC, (t.source_id = 'hsk1-chinese-learning') DESC, t.id`);
-  const audioRows = await rows<{ owner_id: number; speed: "normal" | "slow"; storage_key: string }>(client, `
-    SELECT owner_id, speed, storage_key FROM content.audio_assets WHERE owner_type = 'sentence'`);
+  const audioRows = await rows<{ owner_id: number; speed: "normal" | "slow"; storage_key: string; duration_ms: number | null }>(client, `
+    SELECT owner_id, speed, storage_key, duration_ms FROM content.audio_assets WHERE owner_type = 'sentence'`);
 
   const sentences: Record<string, SentenceData> = {};
   for (const s of sentenceRows) {
@@ -112,7 +112,9 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
   }
   for (const a of audioRows) {
     const key = keyBySentence.get(a.owner_id);
-    if (key) sentences[key]!.audio[a.speed] = a.storage_key;
+    if (!key) continue;
+    sentences[key]!.audio[a.speed] = a.storage_key;
+    if (a.duration_ms !== null) sentences[key]!.audioMs = { ...sentences[key]!.audioMs, [a.speed]: a.duration_ms };
   }
 
   // ── Lessons ──────────────────────────────────────────────────────────────

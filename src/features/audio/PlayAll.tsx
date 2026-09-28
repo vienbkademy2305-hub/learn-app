@@ -5,11 +5,19 @@
  * by `id="sentence-<key>"` on their list items.
  */
 import { useEffect, useRef, useState } from "react";
+import { playbackFor } from "@/domain/listening";
+import { recordListen } from "@/domain/progress";
+import { useProgress } from "@/features/progress/store";
 import { assetUrl } from "@/lib/storage-url";
 
 type Speed = "normal" | "slow";
 
-export function PlayAll({ sentences }: { sentences: Array<{ key: string; audio: { normal?: string; slow?: string } }> }) {
+export function PlayAll({
+  sentences,
+}: {
+  sentences: Array<{ key: string; audio: { normal?: string; slow?: string }; audioMs?: { normal?: number; slow?: number } }>;
+}) {
+  const [, update] = useProgress();
   const playable = sentences.filter((s) => s.audio.normal || s.audio.slow);
   const [speed, setSpeed] = useState<Speed>("normal");
   const [index, setIndex] = useState<number | null>(null);
@@ -45,13 +53,15 @@ export function PlayAll({ sentences }: { sentences: Array<{ key: string; audio: 
       stop();
       return;
     }
-    const key = s.audio[chosen] ?? s.audio.normal ?? s.audio.slow!;
+    const pb = playbackFor(s.audio, s.audioMs, chosen)!;
     if (i > 0) mark(playable[i - 1]?.key, false);
     mark(s.key, true);
     setIndex(i);
-    const el = new Audio(assetUrl(key));
+    const el = new Audio(assetUrl(pb.key));
+    el.playbackRate = pb.rate;
     player.current = el;
     el.onended = () => {
+      update((st) => recordListen(st, s.key));
       // Short pause between sentences, like a listening exercise.
       gap.current = window.setTimeout(() => playFrom(i + 1, chosen), 700);
     };

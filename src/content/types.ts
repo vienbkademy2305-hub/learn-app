@@ -74,4 +74,6 @@ export interface SentenceData {
   en: string | null;
   /** storage keys, resolved to URLs by src/lib/storage-url.ts */
   audio: { normal?: string; slow?: string };
+  /** measured durations in ms (absent in older snapshots) — see slowPlayback() */
+  audioMs?: { normal?: number; slow?: number };
 }

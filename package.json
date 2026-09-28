@@ -16,7 +16,8 @@
     "build": "next build && tsx scripts/postbuild.ts",
     "start": "serve out",
     "smoke": "tsx scripts/smoke.ts",
-    "deploy:pages": "tsx scripts/deploy-pages.ts"
+    "deploy:pages": "tsx scripts/deploy-pages.ts",
+    "audio:check": "tsx scripts/check-audio.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

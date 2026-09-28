@@ -4,12 +4,13 @@
  * PHASE 1 rebuilds the content schema from scratch on every run; incremental
  * upserts with diff reports (ARCHITECTURE §21) come with the first release.
  */
-import { copyFileSync, existsSync, mkdirSync, rmSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
 import path from "node:path";
 import { migrateDb, openDb, PROJECT_ROOT, type Db } from "../../src/db/client";
 import * as t from "../../src/db/schema";
 import { SOURCES, sourceVersion } from "../lib/catalog";
 import { sha256File, type Manifest } from "../lib/manifest";
+import { inspectMp3 } from "../lib/mp3";
 import type { CanonicalGraph } from "./graph";
 
 export const ASSETS_DIR = path.join(PROJECT_ROOT, ".data", "assets");
@@ -32,6 +33,10 @@ export function copyAudio(g: CanonicalGraph): { copied: number } {
       copied++;
     }
     a.sha256 = sourceHash;
+    // Fills audio_assets.duration_ms (DATA_MAPPING §3.5 left it UNKNOWN); used to detect
+    // "slow" recordings that are not actually slower (docs/LISTENING_PLAN.md §3).
+    const info = inspectMp3(readFileSync(target));
+    a.durationMs = info ? Math.round(info.durationSec * 1000) : null;
   }
   return { copied };
 }

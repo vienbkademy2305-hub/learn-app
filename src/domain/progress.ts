@@ -26,6 +26,53 @@ export interface ProgressState {
   cards?: Record<string, CardState>;
   /** "<lesson slug>:sentence:<word slug>" | "<lesson slug>:paragraph" → learner's own writing */
   notes?: Record<string, Note>;
+  /** sentence key → listening progress (docs/LISTENING_PLAN.md §2.3) */
+  listening?: Record<string, ListenState>;
+}
+
+export interface ListenState {
+  /** times the sentence audio was played to the end (any speed) */
+  plays: number;
+  lastAt: string;
+  /** listening-exercise questions answered about this sentence */
+  attempts: number;
+  correct: number;
+  lastCorrect?: boolean;
+}
+
+const EMPTY_LISTEN: Omit<ListenState, "lastAt"> = { plays: 0, attempts: 0, correct: 0 };
+
+/** Audio of a sentence finished playing. */
+export function recordListen(state: ProgressState, sentenceKey: string, now = new Date()): ProgressState {
+  const prev = state.listening?.[sentenceKey] ?? EMPTY_LISTEN;
+  return { ...state, listening: { ...state.listening, [sentenceKey]: { ...prev, plays: prev.plays + 1, lastAt: now.toISOString() } } };
+}
+
+/** A listening question about a sentence was answered. */
+export function recordListenAnswer(state: ProgressState, sentenceKey: string, correct: boolean, now = new Date()): ProgressState {
+  const prev = state.listening?.[sentenceKey] ?? EMPTY_LISTEN;
+  return {
+    ...state,
+    listening: {
+      ...state.listening,
+      [sentenceKey]: { ...prev, attempts: prev.attempts + 1, correct: prev.correct + (correct ? 1 : 0), lastCorrect: correct, lastAt: now.toISOString() },
+    },
+  };
+}
+
+/** Listening summary over a set of sentences (a lesson, or all of HSK1). */
+export function listeningSummary(state: ProgressState, sentenceKeys: string[]): { listened: number; total: number; attempts: number; correct: number } {
+  let listened = 0;
+  let attempts = 0;
+  let correct = 0;
+  for (const key of sentenceKeys) {
+    const s = state.listening?.[key];
+    if (!s) continue;
+    if (s.plays > 0) listened++;
+    attempts += s.attempts;
+    correct += s.correct;
+  }
+  return { listened, total: sentenceKeys.length, attempts, correct };
 }
 
 export interface CardState {
@@ -137,5 +184,5 @@ export function parseProgress(raw: unknown): ProgressState {
   const r = raw as Partial<ProgressState>;
   if (r.v !== 1 || typeof r.learned !== "object" || typeof r.lessons !== "object" || !r.learned || !r.lessons) return EMPTY_PROGRESS;
   const obj = <T extends object>(v: T | undefined): T => (v && typeof v === "object" ? { ...v } : ({} as T));
-  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes) };
+  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes), listening: obj(r.listening) };
 }

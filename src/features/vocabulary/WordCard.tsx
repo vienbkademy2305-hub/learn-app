@@ -52,7 +52,7 @@ export function WordCard({ word, example, href }: { word: WordData; example: Sen
           {example.vi && <p className="mt-0.5 text-sm text-stone-600">{example.vi.text}</p>}
           {example.en && <p lang="en" className="mt-0.5 text-xs text-stone-400">{example.en}</p>}
           <div className="mt-2">
-            <AudioButtons audio={example.audio} compact />
+            <AudioButtons audio={example.audio} durations={example.audioMs} compact sentenceKey={example.key} />
           </div>
         </div>
       )}

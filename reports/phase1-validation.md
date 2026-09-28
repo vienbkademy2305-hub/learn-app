@@ -1,6 +1,6 @@
 # PHASE 1 — Validation report
 
-- Generated: 2026-09-25T06:14:30.810Z by `pnpm validate`
+- Generated: 2026-09-28T12:02:52.524Z by `pnpm validate`
 - Result: **PASS**
 
 ## Entity counts
@@ -64,6 +64,8 @@
 | Lesson item pointing to a missing entity | error | ✅ 0 |
 | Lesson reference that could not be resolved | error | ✅ 0 |
 | Broken audio reference | error | ✅ 0 |
+| Audio asset without measured duration | error | ✅ 0 |
+| Source slow recording not longer than the normal one (UI falls back to normal at 0.8×) | warning | ⚠️ 25 |
 | hsk-sentences-audio sentence without normal+slow audio | error | ✅ 0 |
 | Character without pinyin reading | warning | ✅ 0 |
 | Word without pinyin | error | ✅ 0 |
@@ -79,6 +81,36 @@
 | Sentence token not mapped to a word | warning | ⚠️ 1 |
 | HSK list item with several possible readings (all kept) | warning | ⚠️ 9 |
 | hsk1-chinese-learning word not mapped | warning | ✅ 0 |
+
+### Source slow recording not longer than the normal one (UI falls back to normal at 0.8×) (25)
+
+| sentence_id | normal_ms | slow_ms |
+|---|---|---|
+| 6 | 1776 | 1656 |
+| 11 | 1848 | 1824 |
+| 13 | 1488 | 1344 |
+| 14 | 1584 | 1416 |
+| 25 | 3024 | 2664 |
+| 28 | 1608 | 1560 |
+| 31 | 1896 | 1560 |
+| 66 | 1248 | 1056 |
+| 81 | 1344 | 1104 |
+| 105 | 2208 | 2112 |
+| 146 | 2568 | 2520 |
+| 151 | 1368 | 1320 |
+| 180 | 1944 | 1920 |
+| 196 | 2688 | 2544 |
+| 202 | 3984 | 3624 |
+| 208 | 1944 | 1920 |
+| 211 | 1824 | 1656 |
+| 219 | 1296 | 1248 |
+| 225 | 2256 | 2160 |
+| 247 | 1584 | 1224 |
+| 248 | 1224 | 1104 |
+| 257 | 1776 | 1464 |
+| 262 | 888 | 624 |
+| 263 | 1584 | 1560 |
+| 277 | 1944 | 1824 |
 
 ### Curriculum word without a publishable Vietnamese meaning (1)
 

@@ -4,52 +4,16 @@
  * flow at mobile/tablet/desktop widths, and fails on console errors, failed
  * requests, HTTP errors or horizontal overflow. Screenshots: .data/screenshots/.
  */
-import { createReadStream, existsSync, mkdirSync, statSync, writeFileSync } from "node:fs";
-import http from "node:http";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { chromium, type Page } from "playwright";
+import { startStaticServer } from "./lib/static-server";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "out");
 const SHOTS = path.join(ROOT, ".data", "screenshots");
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const PORT = 4310;
-
-const TYPES: Record<string, string> = {
-  ".html": "text/html; charset=utf-8",
-  ".js": "text/javascript",
-  ".css": "text/css",
-  ".json": "application/json",
-  ".svg": "image/svg+xml",
-  ".mp3": "audio/mpeg",
-  ".txt": "text/plain",
-  ".woff2": "font/woff2",
-};
-
-function startServer() {
-  const server = http.createServer((req, res) => {
-    let url = decodeURIComponent((req.url ?? "/").split("?")[0]!);
-    if (BASE && !url.startsWith(BASE)) {
-      res.writeHead(404).end("outside base path");
-      return;
-    }
-    url = url.slice(BASE.length) || "/";
-    let file = path.join(OUT, url);
-    if (!file.startsWith(OUT)) {
-      res.writeHead(403).end();
-      return;
-    }
-    if (existsSync(file) && statSync(file).isDirectory()) file = path.join(file, "index.html");
-    if (!existsSync(file)) {
-      res.writeHead(404, { "content-type": TYPES[".html"] });
-      createReadStream(path.join(OUT, "404.html")).pipe(res);
-      return;
-    }
-    res.writeHead(200, { "content-type": TYPES[path.extname(file)] ?? "application/octet-stream" });
-    createReadStream(file).pipe(res);
-  });
-  return new Promise<http.Server>((resolve) => server.listen(PORT, () => resolve(server)));
-}
 
 const LESSON = "hsk1-01-greetings";
 const PAGES = [
@@ -74,6 +38,7 @@ const PAGES = [
   ["exercise-characters", `/lesson/${LESSON}/exercises/characters/`],
   ["lesson-summary", `/lesson/${LESSON}/summary/`],
   ["practice", "/practice/"],
+  ["listening", "/listening/"],
   ["word", "/word/ai4-7231/"],
   ["sources", "/sources/"],
 ] as const;
@@ -113,7 +78,7 @@ function watch(page: Page, problems: Problem[], ctx: () => { viewport: string; p
 async function main() {
   if (!existsSync(OUT)) throw new Error("out/ not found — run `pnpm build` first");
   mkdirSync(SHOTS, { recursive: true });
-  const server = await startServer();
+  const server = await startStaticServer(OUT, BASE, PORT);
   const browser = await chromium.launch();
   const problems: Problem[] = [];
   const checks: string[] = [];
@@ -131,6 +96,9 @@ async function main() {
         await page.goto(url(p), { waitUntil: "networkidle" });
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
         if (overflow > 1) problems.push({ viewport: vp.name, page: name, kind: "horizontal-overflow", detail: `${overflow}px` });
+        // The top menu must stay on one line (a wrapped item still fits, so overflow alone misses it).
+        const navHeight = await page.locator("body > header nav").evaluate((el) => el.getBoundingClientRect().height);
+        if (navHeight > 44) problems.push({ viewport: vp.name, page: name, kind: "menu-wraps", detail: `nav height ${Math.round(navHeight)}px` });
         await page.screenshot({ path: path.join(SHOTS, `${vp.name}-${name}.png`), fullPage: vp.name === "mobile" });
       }
       await context.close();
@@ -193,13 +161,63 @@ async function main() {
       return false;
     };
 
+    // ── Listening (docs/LISTENING_PLAN.md) ─────────────────────────────────────
+    current = "listen-modes";
+    await page.goto(url(`/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
+    const first = page.locator("li[data-sentence]").first();
+    const hanziColor = () => first.locator('[data-part="hanzi"]').evaluate((el) => getComputedStyle(el).color);
+    const visibleColor = await hanziColor();
+    await page.getByRole("radio", { name: "Ẩn chữ Hán" }).click();
+    const hiddenColor = await hanziColor();
+    const pinyinShown = (await first.locator('[data-part="pinyin"]').evaluate((el) => getComputedStyle(el).color)) !== "rgba(0, 0, 0, 0)";
+    await first.getByRole("button", { name: "Hiện" }).click();
+    const revealedColor = await hanziColor();
+    checks.push(
+      `${hiddenColor === "rgba(0, 0, 0, 0)" && pinyinShown && revealedColor === visibleColor ? "PASS" : "FAIL"} chế độ "Ẩn chữ Hán" ẩn chữ Hán, giữ pinyin; nút "Hiện" hiện lại câu đó (${visibleColor} → ${hiddenColor} → ${revealedColor})`,
+    );
+    await page.getByRole("radio", { name: "Ẩn nghĩa" }).click();
+    const meaningHidden = (await first.locator('[data-part="meaning"]').first().evaluate((el) => getComputedStyle(el).color)) === "rgba(0, 0, 0, 0)";
+    const hanziBack = (await hanziColor()) === visibleColor;
+    await page.reload({ waitUntil: "networkidle" });
+    const modeKept = (await page.getByRole("radio", { name: "Ẩn nghĩa" }).getAttribute("aria-checked")) === "true";
+    checks.push(`${meaningHidden && hanziBack && modeKept ? "PASS" : "FAIL"} chế độ "Ẩn nghĩa" ẩn nghĩa, hiện lại chữ Hán, và được nhớ sau khi tải lại`);
+    await page.getByRole("radio", { name: "Xem đủ" }).click();
+    const revealButtons = await page.locator("[data-reveal-btn]:visible").count();
+    checks.push(`${revealButtons === 0 ? "PASS" : "FAIL"} chế độ "Xem đủ" không hiện nút "Hiện" (${revealButtons})`);
+
+    current = "listen-progress";
+    const firstClip2 = page.waitForResponse((r) => r.url().endsWith("hsk1-0001.mp3"), { timeout: 10_000 }).catch(() => null);
+    await first.getByRole("button", { name: "Nghe câu với tốc độ bình thường" }).click();
+    const played = await firstClip2;
+    const listened = await first.getByText("✓ đã nghe").waitFor({ timeout: 15_000 }).then(() => true, () => false);
+    const counter = await page.getByText(/Đã nghe \d+\/\d+ câu/).first().innerText();
+    checks.push(`${played && listened && /Đã nghe 1\//.test(counter) ? "PASS" : "FAIL"} nghe hết một câu → "✓ đã nghe" và "${counter}"`);
+
+    current = "slow-fallback";
+    const slowCard = page.locator("#sentence-hsk1-0006");
+    const slowReq = page.waitForRequest((r) => r.url().includes("hsk1-0006"), { timeout: 10_000 }).catch(() => null);
+    await slowCard.getByRole("button", { name: "Nghe câu chậm" }).click();
+    const slowUrl = (await slowReq)?.url() ?? "";
+    checks.push(`${slowUrl.endsWith("hsk1-0006.mp3") ? "PASS" : "FAIL"} câu 6 (file "chậm" của nguồn không chậm hơn) → "Chậm" phát file thường ở 0,8× (${new URL(slowUrl || "http://x/none").pathname.split("/").pop()})`);
+    const otherSlow = page.waitForRequest((r) => r.url().includes("hsk1-0001"), { timeout: 10_000 }).catch(() => null);
+    await first.getByRole("button", { name: "Nghe câu chậm" }).click();
+    const otherUrl = (await otherSlow)?.url() ?? "";
+    checks.push(`${otherUrl.endsWith("hsk1-0001_slow.mp3") ? "PASS" : "FAIL"} câu 1 → "Chậm" phát file chậm của nguồn (${otherUrl.split("/").pop()})`);
+
     current = "exercise-listening";
     await page.goto(url(`/lesson/${LESSON}/exercises/listening/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Bắt đầu" }).click();
+    const promptsSeen = new Set<string>();
     const listeningDone = await finishRun(async () => {
+      promptsSeen.add(await page.locator("p.font-semibold").filter({ hasText: /^Nghe và chọn/ }).first().innerText());
       await page.locator("ul.grid li button").first().click();
     });
-    checks.push(`${listeningDone ? "PASS" : "FAIL"} làm hết một lượt Bài nghe tới màn hình kết quả`);
+    checks.push(`${listeningDone && promptsSeen.size === 3 ? "PASS" : "FAIL"} làm hết một lượt Bài nghe, có đủ 3 dạng (${[...promptsSeen].join(" / ")})`);
+
+    current = "listening-overview";
+    await page.goto(url("/listening/"), { waitUntil: "networkidle" });
+    const lesson1 = await page.locator("ol li").first().innerText();
+    checks.push(`${/Đã nghe [1-9]\d*\/\d+ câu/.test(lesson1) && /Bài nghe: \d+\/\d+/.test(lesson1) ? "PASS" : "FAIL"} trang Luyện nghe hiện tiến độ bài 1 (${lesson1.split("\n").slice(1, 4).join(" · ")})`);
 
     current = "exercise-sentences";
     await page.goto(url(`/lesson/${LESSON}/exercises/sentences/`), { waitUntil: "networkidle" });

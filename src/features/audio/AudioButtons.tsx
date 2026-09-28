@@ -1,12 +1,31 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
+import { playbackFor } from "@/domain/listening";
+import { recordListen } from "@/domain/progress";
+import { useProgress } from "@/features/progress/store";
 import { assetUrl } from "@/lib/storage-url";
 import { SpeakerIcon } from "./SpeakerIcon";
 
 type Speed = "normal" | "slow";
 
-/** Normal / slow playback of a sentence. Receives storage keys, never raw URLs (ARCHITECTURE §4). */
-export function AudioButtons({ audio, compact = false }: { audio: { normal?: string; slow?: string }; compact?: boolean }) {
+/**
+ * Normal / slow playback of a sentence. Receives storage keys, never raw URLs (ARCHITECTURE §4).
+ * `durations` lets "slow" fall back to the normal file at 0.8× when the source slow file is
+ * not slower (playbackFor). `sentenceKey`: a playback that reaches the end counts toward
+ * listening progress.
+ */
+export function AudioButtons({
+  audio,
+  durations,
+  compact = false,
+  sentenceKey,
+}: {
+  audio: { normal?: string; slow?: string };
+  durations?: { normal?: number; slow?: number };
+  compact?: boolean;
+  sentenceKey?: string;
+}) {
+  const [, update] = useProgress();
   const player = useRef<HTMLAudioElement | null>(null);
   const [playing, setPlaying] = useState<Speed | null>(null);
   const [failed, setFailed] = useState(false);
@@ -16,14 +35,20 @@ export function AudioButtons({ audio, compact = false }: { audio: { normal?: str
   if (!audio.normal && !audio.slow) return null;
 
   const play = (speed: Speed) => {
-    const key = audio[speed];
-    if (!key) return;
+    const pb = playbackFor(audio, durations, speed);
+    if (!pb) return;
     player.current?.pause();
-    const el = new Audio(assetUrl(key));
+    const el = new Audio(assetUrl(pb.key));
+    // Browsers keep the pitch when slowing down (preservesPitch defaults to true).
+    el.playbackRate = pb.rate;
+    el.dataset.speed = speed;
     player.current = el;
     setFailed(false);
     setPlaying(speed);
-    el.onended = () => setPlaying(null);
+    el.onended = () => {
+      setPlaying(null);
+      if (sentenceKey) update((s) => recordListen(s, sentenceKey));
+    };
     el.onerror = () => {
       setPlaying(null);
       setFailed(true);

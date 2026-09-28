@@ -1,9 +1,17 @@
 "use client";
 import { useEffect, useState } from "react";
 import { buildListening, type ExSentence, type ExWord, type ListeningQuestion } from "@/domain/exercises";
+import { recordListen, recordListenAnswer } from "@/domain/progress";
 import { AudioButtons } from "@/features/audio/AudioButtons";
+import { useProgress } from "@/features/progress/store";
 import { assetUrl } from "@/lib/storage-url";
 import { Choices, ExerciseRunner, Feedback } from "./ExerciseRunner";
+
+const PROMPTS: Record<ListeningQuestion["kind"], string> = {
+  "listen-meaning": "Nghe và chọn nghĩa đúng",
+  "listen-sentence": "Nghe và chọn câu đúng",
+  "listen-fill": "Nghe và chọn từ còn thiếu",
+};
 
 function Reveal({ sentence }: { sentence: ExSentence }) {
   return (
@@ -17,26 +25,32 @@ function Reveal({ sentence }: { sentence: ExSentence }) {
 
 function ListeningQuestionView({ q, onResult }: { q: ListeningQuestion; onResult: (c: boolean) => void }) {
   const [result, setResult] = useState<boolean | null>(null);
+  const [, update] = useProgress();
 
   // The learner already clicked (Bắt đầu / Câu tiếp), so autoplay is allowed.
   useEffect(() => {
     const key = q.sentence.audio.normal ?? q.sentence.audio.slow;
     if (!key) return;
     const el = new Audio(assetUrl(key));
+    el.onended = () => update((s) => recordListen(s, q.sentence.key));
     el.play().catch(() => {});
-    return () => el.pause();
-  }, [q]);
+    return () => {
+      el.onended = null;
+      el.pause();
+    };
+  }, [q, update]);
 
   const answer = (c: boolean) => {
     setResult(c);
+    update((s) => recordListenAnswer(s, q.sentence.key, c));
     onResult(c);
   };
 
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="font-semibold text-stone-900">{q.kind === "listen-meaning" ? "Nghe và chọn nghĩa đúng" : "Nghe và chọn từ còn thiếu"}</p>
-        <AudioButtons audio={q.sentence.audio} />
+        <p className="font-semibold text-stone-900">{PROMPTS[q.kind]}</p>
+        <AudioButtons audio={q.sentence.audio} durations={q.sentence.audioMs} sentenceKey={q.sentence.key} />
       </div>
 
       {q.kind === "listen-fill" && (
@@ -53,7 +67,7 @@ function ListeningQuestionView({ q, onResult }: { q: ListeningQuestion; onResult
         </p>
       )}
 
-      <Choices choices={q.choices} onResult={answer} hanzi={q.kind === "listen-fill"} />
+      <Choices choices={q.choices} onResult={answer} hanzi={q.kind !== "listen-meaning"} />
 
       {result !== null && (
         <Feedback correct={result}>

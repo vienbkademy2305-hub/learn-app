@@ -20,7 +20,7 @@ export interface FlashWord {
   pinyin: string;
   sinoViet: string | null;
   meanings: string[];
-  example: { simplified: string; pinyin: string | null; vi: string | null; audio: { normal?: string; slow?: string } } | null;
+  example: { simplified: string; pinyin: string | null; vi: string | null; audio: { normal?: string; slow?: string }; audioMs?: { normal?: number; slow?: number } } | null;
 }
 
 export function toFlashWord(w: WordData, preferSentences?: ReadonlySet<string>): FlashWord {
@@ -32,7 +32,7 @@ export function toFlashWord(w: WordData, preferSentences?: ReadonlySet<string>):
     pinyin: w.pinyin,
     sinoViet: joinSinoViet(w.chars),
     meanings: w.meanings.slice(0, 3),
-    example: s ? { simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio } : null,
+    example: s ? { simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio, audioMs: s.audioMs } : null,
   };
 }
 
@@ -79,5 +79,5 @@ export function modelSentences(slug: string, wordSlug: string, max = 3) {
     .slice(0, max)
     .map(getSentence)
     .filter((s) => s !== undefined)
-    .map((s) => ({ simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio }));
+    .map((s) => ({ simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio, audioMs: s.audioMs }));
 }

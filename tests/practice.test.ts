@@ -105,7 +105,7 @@ describe("notebook, flashcards and notes in progress state", () => {
 
   it("round-trips through parseProgress and accepts older state", () => {
     const s = saveNote(reviewCard(toggleSaved(EMPTY_PROGRESS, "w1", true, now), "w1", true, now), noteKey.paragraph("l1"), "你好。", now);
-    expect(parseProgress(JSON.parse(JSON.stringify(s)))).toEqual({ ...s, exercises: {} });
+    expect(parseProgress(JSON.parse(JSON.stringify(s)))).toEqual({ ...s, exercises: {}, listening: {} });
     expect(parseProgress({ v: 1, learned: {}, lessons: {} })).toMatchObject({ saved: {}, cards: {}, notes: {} });
   });
 });

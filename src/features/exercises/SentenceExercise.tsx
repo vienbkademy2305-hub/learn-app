@@ -69,7 +69,7 @@ function ReorderView({ q, onResult }: { q: Extract<SentenceQuestion, { kind: "re
           <p lang="zh-CN" className="font-han text-lg text-stone-900">{q.sentence.simplified}</p>
           {q.sentence.pinyin && <p className="text-sm text-brand-700">{q.sentence.pinyin}</p>}
           <div className="mt-2">
-            <AudioButtons audio={q.sentence.audio} compact />
+            <AudioButtons audio={q.sentence.audio} durations={q.sentence.audioMs} compact />
           </div>
           {!result && <p className="mt-1 text-xs text-stone-500">Đáp án theo câu mẫu của bài.</p>}
         </Feedback>

@@ -57,15 +57,33 @@ describe("buildListening", () => {
       expect(new Set(q.choices.map((c) => c.text)).size).toBe(4);
     }
   });
-  it("uses the sentence's own translation / blanked word as the answer", () => {
+  it("uses the sentence's own translation / text / blanked word as the answer", () => {
     for (const q of qs) {
       const correct = q.choices.find((c) => c.correct)!.text;
       if (q.kind === "listen-meaning") expect(correct).toBe(q.sentence.vi);
+      else if (q.kind === "listen-sentence") expect(correct).toBe(q.sentence.simplified);
       else expect(correct).toBe(q.sentence.tokens[q.blank]!.text);
     }
   });
-  it("mixes both listening kinds", () => {
-    expect(new Set(qs.map((q) => q.kind))).toEqual(new Set(["listen-meaning", "listen-fill"]));
+  it("rotates the three listening kinds", () => {
+    expect(qs.slice(0, 3).map((q) => q.kind)).toEqual(["listen-meaning", "listen-sentence", "listen-fill"]);
+  });
+  it("offers other lesson sentences as distractors for 'choose the sentence'", () => {
+    const keys = new Set(SENTENCES.map((s) => s.simplified));
+    for (const q of qs.filter((q) => q.kind === "listen-sentence")) {
+      for (const c of q.choices) expect(keys.has(c.text)).toBe(true);
+    }
+  });
+  it("falls back to another kind when a sentence cannot support the wanted one", () => {
+    // No translations and no lesson words → only "choose the sentence" is possible.
+    const bare = SENTENCES.map((s) => ({ ...s, vi: null, tokens: s.tokens.map((t) => ({ ...t, word: null })) }));
+    const only = buildListening(bare, WORDS, seededRng(2), 5);
+    expect(only.length).toBe(5);
+    expect(new Set(only.map((q) => q.kind))).toEqual(new Set(["listen-sentence"]));
+  });
+  it("skips sentences without audio", () => {
+    const silent = SENTENCES.map((s) => ({ ...s, audio: {} }));
+    expect(buildListening(silent, WORDS, seededRng(3))).toEqual([]);
   });
 });
 

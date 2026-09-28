@@ -35,6 +35,7 @@ export interface ExSentence {
   pinyin: string | null;
   vi: string | null;
   audio: { normal?: string; slow?: string };
+  audioMs?: { normal?: number; slow?: number };
   tokens: Array<{ text: string; word: string | null }>;
 }
 
@@ -56,7 +57,12 @@ export interface Choice {
 
 export type ListeningQuestion =
   | { kind: "listen-meaning"; sentence: ExSentence; choices: Choice[] }
+  | { kind: "listen-sentence"; sentence: ExSentence; choices: Choice[] }
   | { kind: "listen-fill"; sentence: ExSentence; blank: number; choices: Choice[] };
+
+type ListeningKind = ListeningQuestion["kind"];
+/** Rotation of listening question kinds (docs/LISTENING_PLAN.md §2.2). */
+const LISTENING_ROTATION: ListeningKind[] = ["listen-meaning", "listen-sentence", "listen-fill"];
 
 export type SentenceQuestion =
   | { kind: "reorder"; sentence: ExSentence; pieces: Array<{ id: number; text: string }>; answer: string[] }
@@ -72,20 +78,42 @@ export interface CharacterQuestion {
 
 const hasAudio = (s: ExSentence) => Boolean(s.audio.normal || s.audio.slow);
 
-/** Listening: half "hear → meaning", half "hear → missing word". */
+/**
+ * Listening: rotates "hear → meaning", "hear → sentence" and "hear → missing word".
+ * When a sentence cannot support the wanted kind, the next kind in the rotation is tried.
+ */
 export function buildListening(sentences: ExSentence[], words: ExWord[], rng: Rng, count = 8): ListeningQuestion[] {
   const playable = shuffle(sentences.filter(hasAudio), rng);
   const lessonWords = new Map(words.map((w) => [w.slug, w]));
   const questions: ListeningQuestion[] = [];
 
-  for (const s of playable) {
-    if (questions.length >= count) break;
-    const wantFill = questions.length % 2 === 1;
-
-    const fillable = s.tokens
-      .map((t, i) => ({ t, i }))
-      .filter(({ t }) => t.word && lessonWords.has(t.word));
-    if (wantFill && fillable.length > 0 && s.tokens.length >= 2) {
+  const makers: Record<ListeningKind, (s: ExSentence) => ListeningQuestion | null> = {
+    "listen-meaning": (s) => {
+      if (!s.vi) return null;
+      const others = shuffle([...new Set(sentences.filter((o) => o.key !== s.key && o.vi && o.vi !== s.vi).map((o) => o.vi!))], rng).slice(0, 3);
+      if (others.length < 3) return null;
+      return {
+        kind: "listen-meaning",
+        sentence: s,
+        choices: shuffle([{ text: s.vi, correct: true }, ...others.map((text) => ({ text, correct: false }))], rng),
+      };
+    },
+    "listen-sentence": (s) => {
+      // Distractors: other sentences of the lesson, closest in length first (harder to tell apart).
+      const others = [...new Map(sentences.filter((o) => o.simplified !== s.simplified).map((o) => [o.simplified, o])).values()];
+      const close = shuffle(others, rng)
+        .sort((a, b) => Math.abs(a.simplified.length - s.simplified.length) - Math.abs(b.simplified.length - s.simplified.length))
+        .slice(0, 3);
+      if (close.length < 3) return null;
+      return {
+        kind: "listen-sentence",
+        sentence: s,
+        choices: shuffle([s, ...close].map((o) => ({ text: o.simplified, correct: o === s })), rng),
+      };
+    },
+    "listen-fill": (s) => {
+      const fillable = s.tokens.map((t, i) => ({ t, i })).filter(({ t }) => t.word && lessonWords.has(t.word));
+      if (fillable.length === 0 || s.tokens.length < 2) return null;
       const { t, i } = fillable[Math.floor(rng() * fillable.length)]!;
       const target = lessonWords.get(t.word!)!;
       const distractors = shuffle(
@@ -94,31 +122,26 @@ export function buildListening(sentences: ExSentence[], words: ExWord[], rng: Rn
       )
         .sort((a, b) => Math.abs(a.simplified.length - target.simplified.length) - Math.abs(b.simplified.length - target.simplified.length))
         .slice(0, 3);
-      if (distractors.length === 3) {
-        questions.push({
-          kind: "listen-fill",
-          sentence: s,
-          blank: i,
-          choices: shuffle(
-            [target, ...distractors].map((w) => ({ text: w.simplified, sub: w.pinyin, correct: w === target })),
-            rng,
-          ),
-        });
-        continue;
+      if (distractors.length < 3) return null;
+      return {
+        kind: "listen-fill",
+        sentence: s,
+        blank: i,
+        choices: shuffle([target, ...distractors].map((w) => ({ text: w.simplified, sub: w.pinyin, correct: w === target })), rng),
+      };
+    },
+  };
+
+  for (const s of playable) {
+    if (questions.length >= count) break;
+    const start = questions.length % LISTENING_ROTATION.length;
+    for (let k = 0; k < LISTENING_ROTATION.length; k++) {
+      const q = makers[LISTENING_ROTATION[(start + k) % LISTENING_ROTATION.length]!](s);
+      if (q) {
+        questions.push(q);
+        break;
       }
     }
-
-    if (!s.vi) continue;
-    const others = shuffle(
-      [...new Set(sentences.filter((o) => o.key !== s.key && o.vi && o.vi !== s.vi).map((o) => o.vi!))],
-      rng,
-    ).slice(0, 3);
-    if (others.length < 3) continue;
-    questions.push({
-      kind: "listen-meaning",
-      sentence: s,
-      choices: shuffle([{ text: s.vi, correct: true }, ...others.map((text) => ({ text, correct: false }))], rng),
-    });
   }
   return questions;
 }

@@ -23,25 +23,35 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="font-han grid size-8 place-items-center rounded-lg bg-brand-600 text-lg text-white">学</span>
               <span className="hidden sm:inline">Học tiếng Trung</span>
             </Link>
-            <nav className="ml-auto flex items-center gap-1 text-sm">
-              <Link href="/hsk/1" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+            <nav className="ml-auto flex items-center gap-0.5 text-sm sm:gap-1">
+              <Link href="/hsk/1" className="rounded-md px-2 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:px-3">
                 <span className="sm:hidden">HSK1</span>
                 <span className="hidden sm:inline">Lộ trình HSK1</span>
               </Link>
-              <Link href="/practice" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+              <Link href="/practice" className="rounded-md px-2 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:px-3">
                 Bài tập
               </Link>
-              <Link href="/flashcards" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+              <Link href="/listening" className="rounded-md px-2 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:px-3">
+                <span className="sm:hidden">Nghe</span>
+                <span className="hidden sm:inline">Luyện nghe</span>
+              </Link>
+              <Link href="/flashcards" className="rounded-md px-2 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:px-3">
                 Sổ từ
               </Link>
-              <Link href="/sources" className="rounded-md px-2.5 py-2 text-stone-500 hover:bg-stone-100 sm:px-3">
-                <span className="sm:hidden">Nguồn</span>
-                <span className="hidden sm:inline">Nguồn dữ liệu</span>
+              {/* On phones the attribution link lives in the footer to keep the menu on one line. */}
+              <Link href="/sources" className="hidden rounded-md px-3 py-2 whitespace-nowrap text-stone-500 hover:bg-stone-100 sm:inline">
+                Nguồn dữ liệu
               </Link>
             </nav>
           </div>
         </header>
-        <main className="mx-auto max-w-5xl px-4 pb-24 pt-6 sm:pt-8">{children}</main>
+        <main className="mx-auto max-w-5xl px-4 pb-10 pt-6 sm:pt-8">{children}</main>
+        <footer className="mx-auto max-w-5xl px-4 pb-24 text-xs text-stone-400 sm:pb-8">
+          Dữ liệu mở: CVDICT, CC-CEDICT, hsk-sentences-audio (CC BY-SA 4.0), Unihan, Hanzi Writer.{" "}
+          <Link href="/sources" className="font-medium text-stone-500 underline-offset-2 hover:underline">
+            Nguồn dữ liệu & giấy phép
+          </Link>
+        </footer>
       </body>
     </html>
   );
