@@ -9,3 +9,7 @@ public/assets/
 out/
 next-env.d.ts
 *.tsbuildinfo
+
+# Secrets (Supabase keys) — see .env.example
+.env*.local
+.env

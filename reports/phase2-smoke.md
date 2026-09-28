@@ -1,17 +1,17 @@
 # PHASE 2 — Smoke test (static build)
 
-- Generated: 2026-09-28T13:06:30.225Z by `pnpm smoke`, base path `/learn-app`
+- Generated: 2026-09-28T13:58:31.501Z by `pnpm smoke`, base path `/`
 - Pages × viewports: 25 × 375px / 768px / 1280px
-- Link prefetches cancelled by navigation (ignored): 1981
+- Link prefetches cancelled by navigation (ignored): 1618
 - Result: **PASS**
 
 ## Interactions
 
 - PASS đánh dấu 1 từ đã học (aria-pressed=true: 1)
 - PASS bài 1 hiện "Đang học" và 1 từ đã học sau khi đánh dấu
-- PASS bấm "Nghe" tải audio (200 /learn-app/assets/audio/hsk-sentences-audio/hsk1-0001.mp3)
+- PASS bấm "Nghe" tải audio (200 /assets/audio/hsk-sentences-audio/hsk1-0001.mp3)
 - PASS "Nghe cả bài" phát câu 1 và tô sáng câu đang đọc
-- PASS tải dữ liệu nét chữ (200 /learn-app/assets/strokes/8001.json)
+- PASS tải dữ liệu nét chữ (200 /assets/strokes/8001.json)
 - PASS hoạt ảnh viết mẫu vẽ các nét (36 path SVG)
 - PASS chế độ tự viết hiện hướng dẫn "Hãy viết nét 1/…"
 - PASS chế độ "Ẩn chữ Hán" ẩn chữ Hán, giữ pinyin; nút "Hiện" hiện lại câu đó (lab(9.03835 1.15297 1.92955) → rgba(0, 0, 0, 0) → lab(9.03835 1.15297 1.92955))
@@ -21,7 +21,7 @@
 - PASS câu 6 (file "chậm" của nguồn không chậm hơn) → "Chậm" phát file thường ở 0,8× (hsk1-0006.mp3)
 - PASS câu 1 → "Chậm" phát file chậm của nguồn (hsk1-0001_slow.mp3)
 - PASS làm hết một lượt Bài nghe, có đủ 3 dạng (Nghe và chọn nghĩa đúng / Nghe và chọn câu đúng / Nghe và chọn từ còn thiếu)
-- PASS trang Luyện nghe hiện tiến độ bài 1 (Chào hỏi · Đã nghe 1/10 câu · Đúng: 4/8)
+- PASS trang Luyện nghe hiện tiến độ bài 1 (Chào hỏi · Đã nghe 1/10 câu · Đúng: 1/8)
 - PASS làm hết một lượt Bài viết (có cả sắp xếp câu và viết pinyin)
 - PASS viết đúng từng nét bằng chuột → máy chấm "Chính xác!" (6 nét)
 - PASS làm hết một lượt Viết chữ tới màn hình kết quả
@@ -31,7 +31,7 @@
 - PASS Nhớ từ vựng có dạng Việt → Trung gõ pinyin
 - PASS làm hết một lượt Nhớ từ vựng tới màn hình kết quả
 - PASS flashcard: lật thẻ, "Nhớ rồi" bớt 1 thẻ (Còn 30 thẻ → Còn 29 thẻ)
-- PASS từ vừa lưu (谢谢) có trong Sổ từ
+- PASS từ vừa lưu (您) có trong Sổ từ
 - PASS khung Tập chép chữ tải được chữ đầu tiên
 - PASS Đặt câu: tự kiểm tra hiện câu mẫu, câu được lưu sau khi tải lại
 - PASS Viết đoạn văn: đếm chữ Hán khi gõ (Độ dài: 8/30 chữ Hán)
@@ -41,9 +41,9 @@
 - PASS trang không tồn tại hiện 404 tiếng Việt
 - PASS nút nghe từ/chữ đọc đúng nội dung và tốc độ (老师@0.85, 老师@0.5, 老@0.85)
 - PASS Bài 0: bấm ô thanh mẫu zh đọc chữ ví dụ 知 (知@0.7)
-- PASS Bài 0: luyện nghe thanh điệu tự đọc câu hỏi (住@0.7) và làm hết tới kết quả
+- PASS Bài 0: luyện nghe thanh điệu tự đọc câu hỏi (天@0.7) và làm hết tới kết quả
 - PASS Bài 0: làm hết một lượt phân biệt âm dễ nhầm
-- PASS Nhớ từ vựng: câu nghe tự đọc từ khi hiện câu hỏi (明天@0.85)
+- PASS Nhớ từ vựng: câu nghe tự đọc từ khi hiện câu hỏi (介绍@0.85)
 - PASS ghi âm 老师 bằng micro giả (thanh 3 + thanh 1) → điểm thanh điệu 91/100 (lǎo 88 · shī 94), có nút nghe lại
 - PASS điểm luyện nói được lưu (hiện "Cao nhất" sau khi tải lại)
 - PASS chế độ Câu: ghi âm xong có kết luận (Ngữ điệu còn khác mẫu — nghe bản chậm rồi bắt chước lên xuống giọng. Bạn đọc chậm hơn mẫu khá nhiều.)

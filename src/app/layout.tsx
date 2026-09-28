@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
+import { AccountMenu } from "@/features/account/AccountMenu";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/sources" className="hidden rounded-md px-3 py-2 whitespace-nowrap text-stone-500 hover:bg-stone-100 sm:inline">
                 Nguồn dữ liệu
               </Link>
+              <AccountMenu />
             </nav>
           </div>
         </header>
