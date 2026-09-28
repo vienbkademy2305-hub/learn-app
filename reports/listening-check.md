@@ -1,6 +1,6 @@
 # Listening audio check
 
-- Generated: 2026-09-28T12:08:10.788Z by `pnpm audio:check`, base path `/learn-app`
+- Generated: 2026-09-28T12:25:31.514Z by `pnpm audio:check --live`, base path `/learn-app`
 - Result: **PASS**
 
 | Check | Result |
@@ -12,7 +12,7 @@
 | Source slow file not longer than normal (UI plays normal at 0.8×) | 25 |
 | Slow/normal duration ratio (min · median · max) | 0.70 · 1.27 · 2.16 |
 | URL errors — local build (562 HEAD) | 0 |
-| URL errors — GitHub Pages (0 HEAD) | not run (use --live) |
+| URL errors — GitHub Pages (562 HEAD) | 0 |
 | Browser duration sample | 22 files, max diff 0.094 s |
 
 ## Source slow files that are not slower (25) — handled in the UI
