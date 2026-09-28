@@ -4,7 +4,7 @@
  */
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import type { ContentSnapshot, LessonData, SentenceData, WordData } from "./types";
+import type { ContentSnapshot, GrammarData, LessonData, SentenceData, WordData } from "./types";
 
 let cache: ContentSnapshot | undefined;
 
@@ -40,6 +40,12 @@ export function getWord(slug: string): WordData | undefined {
 
 export function getSentence(key: string): SentenceData | undefined {
   return content().sentences[key];
+}
+
+/** Grammar points of a lesson, in teaching order (empty for snapshots without grammar). */
+export function lessonGrammar(slug: string): GrammarData[] {
+  const all = content().grammar ?? {};
+  return (getLesson(slug)?.grammar ?? []).map((id) => all[id]).filter((g) => g !== undefined);
 }
 
 export function allWordSlugs(): string[] {

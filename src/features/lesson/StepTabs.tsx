@@ -4,15 +4,21 @@ import { usePathname } from "next/navigation";
 
 const STEPS = [
   { key: "vocabulary", label: "1. Từ vựng", path: "" },
-  { key: "examples", label: "2. Câu ví dụ", path: "/examples" },
-  { key: "writing", label: "3. Luyện viết", path: "/writing" },
-  { key: "summary", label: "4. Tổng kết", path: "/summary" },
+  { key: "grammar", label: "2. Ngữ pháp", path: "/grammar" },
+  { key: "examples", label: "3. Câu ví dụ", path: "/examples" },
+  { key: "writing", label: "4. Luyện viết", path: "/writing" },
+  { key: "practice", label: "5. Luyện tập", path: "/practice" },
+  { key: "exercises", label: "6. Bài tập", path: "/exercises" },
+  { key: "summary", label: "7. Tổng kết", path: "/summary" },
 ] as const;
 
 export function StepTabs({ slug }: { slug: string }) {
   const pathname = (usePathname() ?? "").replace(/\/$/, "");
   const base = `/lesson/${slug}`;
-  const active = (["examples", "writing", "summary"] as const).find((s) => pathname.endsWith(`/${s}`)) ?? "vocabulary";
+  const active =
+    (["practice", "exercises"] as const).find((s) => pathname.includes(`${base}/${s}`)) ??
+    (["grammar", "examples", "writing", "summary"] as const).find((s) => pathname.endsWith(`/${s}`)) ??
+    "vocabulary";
 
   return (
     <nav aria-label="Các bước của bài học" className="-mx-4 overflow-x-auto px-4">

@@ -6,32 +6,9 @@
  */
 import type HanziWriter from "hanzi-writer";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { assetUrl } from "@/lib/storage-url";
+import { strokeLoader, WRITER_COLORS, WritingGrid } from "./shared";
 
 type Mode = "idle" | "demo" | "step" | "practice" | "done";
-
-const COLORS = {
-  strokeColor: "#1c1917",
-  outlineColor: "#d6d3d1",
-  radicalColor: "#c73c27",
-  highlightColor: "#e0513b",
-  drawingColor: "#1f8a5b",
-};
-
-function Grid() {
-  // 米字格: the practice grid used in Chinese copybooks.
-  return (
-    <svg viewBox="0 0 100 100" className="pointer-events-none absolute inset-0 size-full" aria-hidden="true">
-      <rect x="0.5" y="0.5" width="99" height="99" fill="none" stroke="#c73c27" strokeOpacity="0.45" />
-      <g stroke="#c73c27" strokeOpacity="0.25" strokeDasharray="2 2" strokeWidth="0.5">
-        <line x1="50" y1="0" x2="50" y2="100" />
-        <line x1="0" y1="50" x2="100" y2="50" />
-        <line x1="0" y1="0" x2="100" y2="100" />
-        <line x1="100" y1="0" x2="0" y2="100" />
-      </g>
-    </svg>
-  );
-}
 
 export function StrokeWriter({ hanzi, strokeKey, size = 240 }: { hanzi: string; strokeKey: string | null; size?: number }) {
   const target = useRef<HTMLDivElement>(null);
@@ -63,12 +40,8 @@ export function StrokeWriter({ hanzi, strokeKey, size = 240 }: { hanzi: string; 
         showCharacter: true,
         strokeAnimationSpeed: 1,
         delayBetweenStrokes: 250,
-        ...COLORS,
-        charDataLoader: (_char, onLoad, onError) => {
-          fetch(assetUrl(strokeKey))
-            .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
-            .then(onLoad, onError);
-        },
+        ...WRITER_COLORS,
+        charDataLoader: strokeLoader(strokeKey),
         onLoadCharDataSuccess: (data) => {
           if (cancelled) return;
           setTotal(data.strokes.length);
@@ -162,7 +135,7 @@ export function StrokeWriter({ hanzi, strokeKey, size = 240 }: { hanzi: string; 
   return (
     <div className="flex flex-col items-center gap-3">
       <div className="relative rounded-lg bg-white" style={{ width: size, height: size, touchAction: "none" }}>
-        <Grid />
+        <WritingGrid />
         <div ref={target} className="relative" aria-label={`Khung viết chữ ${hanzi}`} role="img" />
       </div>
       <p

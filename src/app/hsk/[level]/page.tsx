@@ -30,6 +30,18 @@ export default async function HskLevelPage({ params }: { params: Promise<{ level
         <LevelProgress lessons={lessons} />
       </div>
 
+      <Link
+        href="/pinyin"
+        className="flex items-center gap-4 rounded-2xl border border-brand-200 bg-brand-50/60 p-5 shadow-sm transition hover:border-brand-300 hover:shadow-md"
+      >
+        <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-brand-600 font-bold text-white">0</span>
+        <span className="min-w-0">
+          <span className="block font-semibold text-stone-900">Nhập môn phát âm · Pinyin</span>
+          <span className="block text-sm text-stone-600">Mới bắt đầu? Học cách đọc pinyin, 4 thanh điệu, thanh mẫu, vận mẫu và nét chữ cơ bản trước Bài 1.</span>
+        </span>
+        <span className="ml-auto hidden text-sm font-medium text-brand-700 sm:inline">Bắt đầu →</span>
+      </Link>
+
       <ol className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {lessons.map((lesson) => {
           const preview = lesson.words.slice(0, 6).map((w) => getWord(w)?.simplified).filter(Boolean);

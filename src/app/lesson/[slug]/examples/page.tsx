@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: lesson ? `Câu ví dụ · Bài ${lesson.number}` : "Câu ví dụ" };
 }
 
-/** Step 2 — example sentences with audio. */
+/** Step 3 — example sentences with audio. */
 export default async function LessonExamplesPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const lesson = getLesson(slug)!;
@@ -44,7 +44,7 @@ export default async function LessonExamplesPage({ params }: { params: Promise<{
           </li>
         ))}
       </ol>
-      <StepFooter back={{ href: `/lesson/${slug}`, label: "Từ vựng" }} next={{ href: `/lesson/${slug}/writing`, label: "Luyện viết" }} />
+      <StepFooter back={{ href: `/lesson/${slug}/grammar`, label: "Ngữ pháp" }} next={{ href: `/lesson/${slug}/writing`, label: "Luyện viết" }} />
     </section>
   );
 }

@@ -10,6 +10,7 @@ import type { ContentSnapshot, LessonData, SentenceData, WordData } from "../src
 import { DEFAULT_DB_DIR, openDb, PROJECT_ROOT } from "../src/db/client";
 import { splitSenses, wordSlug } from "../src/domain/display";
 import { ASSETS_DIR } from "./build/write";
+import { attachGrammar } from "./editorial/grammar-vi";
 
 export const CONTENT_DIR = path.join(PROJECT_ROOT, ".data", "content");
 const PUBLIC_ASSETS = path.join(PROJECT_ROOT, "public", "assets");
@@ -242,6 +243,7 @@ async function main() {
   const { client } = await openDb(DEFAULT_DB_DIR);
   try {
     const snapshot = await buildSnapshot(client, level);
+    const grammarPoints = attachGrammar(snapshot, level);
     mkdirSync(CONTENT_DIR, { recursive: true });
     writeFileSync(path.join(CONTENT_DIR, `hsk${level}.json`), JSON.stringify(snapshot));
     const audio = copySnapshotAudio(snapshot);
@@ -250,6 +252,7 @@ async function main() {
       lessons: snapshot.lessons.length,
       words: Object.keys(snapshot.words).length,
       sentences: Object.keys(snapshot.sentences).length,
+      grammarPoints,
       audioCopied: audio.copied,
       audioMissing: audio.missing.length,
       strokeFilesCopied: strokes.copied,

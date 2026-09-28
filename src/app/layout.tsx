@@ -24,11 +24,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <span className="hidden sm:inline">Học tiếng Trung</span>
             </Link>
             <nav className="ml-auto flex items-center gap-1 text-sm">
-              <Link href="/hsk/1" className="rounded-md px-3 py-2 font-medium text-stone-700 hover:bg-stone-100">
-                Lộ trình HSK1
+              <Link href="/hsk/1" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+                <span className="sm:hidden">HSK1</span>
+                <span className="hidden sm:inline">Lộ trình HSK1</span>
               </Link>
-              <Link href="/sources" className="rounded-md px-3 py-2 text-stone-500 hover:bg-stone-100">
-                Nguồn dữ liệu
+              <Link href="/practice" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+                Bài tập
+              </Link>
+              <Link href="/flashcards" className="rounded-md px-2.5 py-2 font-medium text-stone-700 hover:bg-stone-100 sm:px-3">
+                Sổ từ
+              </Link>
+              <Link href="/sources" className="rounded-md px-2.5 py-2 text-stone-500 hover:bg-stone-100 sm:px-3">
+                <span className="sm:hidden">Nguồn</span>
+                <span className="hidden sm:inline">Nguồn dữ liệu</span>
               </Link>
             </nav>
           </div>

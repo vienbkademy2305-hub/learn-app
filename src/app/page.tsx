@@ -36,6 +36,12 @@ export default function HomePage() {
         <div className="mt-6">
           <ContinueLink lessons={lessons} />
         </div>
+        <p className="mt-4 text-sm text-stone-600">
+          Mới học lần đầu?{" "}
+          <Link href="/pinyin" className="font-medium text-brand-700 hover:underline">
+            Học Bài 0: Nhập môn phát âm & pinyin →
+          </Link>
+        </p>
       </section>
 
       <p className="text-xs text-stone-400">

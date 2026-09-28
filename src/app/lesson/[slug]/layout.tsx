@@ -33,9 +33,13 @@ export default async function LessonLayout({ children, params }: { children: Rea
             <h1 className="text-2xl font-bold text-stone-900 sm:text-3xl">{lesson.title}</h1>
           </div>
           <div className="flex gap-2 text-sm">
-            {prev && (
+            {prev ? (
               <Link href={`/lesson/${prev.slug}`} className="rounded-lg px-3 py-1.5 text-stone-600 ring-1 ring-inset ring-stone-300 hover:bg-stone-100" title={prev.title}>
                 ← Bài {prev.number}
+              </Link>
+            ) : (
+              <Link href="/pinyin" className="rounded-lg px-3 py-1.5 text-stone-600 ring-1 ring-inset ring-stone-300 hover:bg-stone-100" title="Nhập môn phát âm">
+                ← Bài 0
               </Link>
             )}
             {next && (

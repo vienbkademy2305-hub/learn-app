@@ -36,7 +36,7 @@ export default async function LessonVocabularyPage({ params }: { params: Promise
           );
         })}
       </ul>
-      <StepFooter back={{ href: "/hsk/1", label: "Danh sách bài" }} next={{ href: `/lesson/${slug}/examples`, label: "Câu ví dụ" }} />
+      <StepFooter back={{ href: "/hsk/1", label: "Danh sách bài" }} next={{ href: `/lesson/${slug}/grammar`, label: "Ngữ pháp" }} />
     </section>
   );
 }

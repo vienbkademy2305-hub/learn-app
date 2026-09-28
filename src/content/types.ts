@@ -11,6 +11,23 @@ export interface ContentSnapshot {
   lessons: LessonData[];
   words: Record<string, WordData>;
   sentences: Record<string, SentenceData>;
+  /** grammar points by id (editorial, docs/PHASE5_GRAMMAR_PLAN.md); absent in older snapshots */
+  grammar?: Record<string, GrammarData>;
+}
+
+export interface GrammarData {
+  id: string;
+  lesson: string;
+  title: string;
+  structures: string[];
+  explain: string;
+  notes: string[];
+  /** common mistakes of Vietnamese learners: a deliberately wrong sentence and its correction */
+  mistakes: Array<{ wrong: string; right: string; why: string }>;
+  /** sentence keys */
+  examples: string[];
+  /** true until a reviewer marks the point `reviewed` */
+  draft: boolean;
 }
 
 export interface LessonData {
@@ -23,6 +40,8 @@ export interface LessonData {
   words: string[];
   /** sentence keys of the examples step, in order */
   sentences: string[];
+  /** grammar point ids of the grammar step, in order */
+  grammar?: string[];
 }
 
 export interface WordData {

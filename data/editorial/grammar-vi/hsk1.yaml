@@ -1,0 +1,757 @@
+# Ngữ pháp HSK1 theo bài học — giải thích tiếng Việt (docs/PHASE5_GRAMMAR_PLAN.md).
+# BẢN NHÁP do Claude (AI) viết ngày 2026-09-28 — CẦN NGƯỜI DUYỆT.
+# Khi đã duyệt một điểm, đổi `status` của điểm đó thành `reviewed` (UI sẽ bỏ nhãn "Bản nháp").
+#
+# - Nội dung tự viết, không chép từ grammar_points.json (krmanik/HSK-3.0, license UNKNOWN).
+# - `hsk_code`: mã điểm ngữ pháp cấp 1 theo cách đánh số của grammar_points.json (VD "1-09"), để sau này nối với
+#   sentence_grammar. Chưa đối chiếu với văn bản đề cương chính thức (UNRESOLVED); UI không hiển thị mã này.
+# - `examples`: khóa câu của hsk-sentences-audio (có pinyin, audio, bản dịch). Importer kiểm tra khóa tồn tại.
+# - `mistakes`: lỗi người Việt hay mắc — `wrong` là câu SAI có chủ đích, dùng cho phần "Câu nào đúng?".
+source: editorial
+default_status: draft
+points:
+  # ── Bài 1 · Chào hỏi ─────────────────────────────────────────────────────────
+  - id: g1-01
+    lesson: hsk1-01-greetings
+    hsk_code: "1-30"
+    title: Câu có tính từ làm vị ngữ (很 + tính từ)
+    structures:
+      - "Chủ ngữ + 很 + Tính từ"
+      - "Chủ ngữ + 不 + Tính từ"
+    explain: >-
+      Trong tiếng Trung, tính từ đứng ngay sau chủ ngữ để miêu tả, KHÔNG cần động từ 是 (là).
+      Câu khẳng định thường thêm 很 (hěn) trước tính từ; lúc này 很 chỉ làm câu tròn nghĩa, nghĩa "rất" rất nhẹ.
+    notes:
+      - "Bỏ 很 thì câu nghe như đang so sánh: 我忙，他不忙 (tôi bận, còn anh ấy thì không)."
+      - "Phủ định dùng 不 + tính từ: 不忙, 不贵, 不高."
+    mistakes:
+      - { wrong: "我是很高兴。", right: "我很高兴。", why: "Không dùng 是 trước tính từ." }
+      - { wrong: "今天天气是很好。", right: "今天天气很好。", why: "Tính từ 好 tự làm vị ngữ, không cần 是." }
+    examples: [hsk1-0002, hsk1-0017, hsk1-0135, hsk1-0145]
+
+  - id: g1-02
+    lesson: hsk1-01-greetings
+    hsk_code: "1-04"
+    title: Hỏi tên với 叫 và 什么
+    structures:
+      - "Chủ ngữ + 叫 + 什么 + 名字？"
+      - "Chủ ngữ + 叫 + Tên。"
+    explain: >-
+      叫 (jiào) nghĩa là "tên là, gọi là". Từ để hỏi 什么 (shénme, cái gì) đứng đúng vị trí của thông tin cần hỏi —
+      câu hỏi và câu trả lời có cùng trật tự, chỉ thay 什么 bằng câu trả lời.
+    notes:
+      - "Trả lời: 我叫王明。 (Tôi tên là Vương Minh.)"
+      - "Câu hỏi đã có 什么 thì không thêm 吗 ở cuối."
+    mistakes:
+      - { wrong: "什么你叫名字？", right: "你叫什么名字？", why: "Từ để hỏi không chuyển lên đầu câu." }
+      - { wrong: "你叫什么名字吗？", right: "你叫什么名字？", why: "Đã có 什么 thì không dùng thêm 吗." }
+    examples: [hsk1-0005, hsk1-0153]
+
+  - id: g1-03
+    lesson: hsk1-01-greetings
+    hsk_code: "1-34"
+    title: Câu mời, đề nghị lịch sự với 请
+    structures:
+      - "请 + Động từ (+ Tân ngữ)"
+    explain: >-
+      请 (qǐng) đặt trước động từ để mời hoặc đề nghị một cách lịch sự, giống "mời…", "xin hãy…", "làm ơn…".
+      Câu thường không có chủ ngữ.
+    notes:
+      - "请问 (qǐngwèn) = cho hỏi, xin hỏi — dùng mở đầu câu hỏi."
+    mistakes:
+      - { wrong: "坐请。", right: "请坐。", why: "请 luôn đứng trước động từ." }
+    examples: [hsk1-0006, hsk1-0061, hsk1-0066, hsk1-0079]
+
+  - id: g1-04
+    lesson: hsk1-01-greetings
+    hsk_code: null
+    title: Động từ + 一下 (làm… một chút)
+    structures:
+      - "Động từ + 一下 (+ Tân ngữ)"
+    explain: >-
+      Thêm 一下 (yíxià) sau động từ để nói hành động diễn ra ngắn, "một chút, một lát", làm câu nhẹ nhàng, lịch sự hơn.
+    notes:
+      - "等一下 = đợi một chút; 介绍一下 = giới thiệu một chút; 试一下 = thử một chút."
+    mistakes:
+      - { wrong: "我来一下介绍我的朋友。", right: "我来介绍一下我的朋友。", why: "一下 đứng ngay sau động từ, trước tân ngữ." }
+    examples: [hsk1-0008, hsk1-0080, hsk1-0082, hsk1-0210]
+
+  # ── Bài 2 · Giới thiệu bản thân ──────────────────────────────────────────────
+  - id: g1-05
+    lesson: hsk1-02-identity
+    hsk_code: "1-36"
+    title: Câu chữ 是 (A là B)
+    structures:
+      - "A + 是 + B"
+      - "A + 不是 + B"
+    explain: >-
+      是 (shì) nối hai danh từ/đại từ, nghĩa là "là". Phủ định luôn dùng 不是, không bao giờ dùng 没是.
+    notes:
+      - "是 chỉ nối danh từ; với tính từ thì không dùng 是 (xem bài 1)."
+    mistakes:
+      - { wrong: "他没是老师。", right: "他不是老师。", why: "Phủ định của 是 là 不是." }
+    examples: [hsk1-0010, hsk1-0012, hsk1-0014, hsk1-0015]
+
+  - id: g1-06
+    lesson: hsk1-02-identity
+    hsk_code: "1-45"
+    title: Câu hỏi có/không với 吗
+    structures:
+      - "Câu trần thuật + 吗？"
+    explain: >-
+      Muốn hỏi "có phải… không?", chỉ cần thêm 吗 (ma) vào cuối câu trần thuật, giữ nguyên trật tự từ.
+    notes:
+      - "Trả lời: lặp lại động từ/tính từ — 是 / 不是, 有 / 没有, 会 / 不会."
+    mistakes:
+      - { wrong: "你是不是学生吗？", right: "你是学生吗？", why: "Câu đã có dạng 是不是 thì không thêm 吗." }
+      - { wrong: "吗你是学生？", right: "你是学生吗？", why: "吗 luôn đứng cuối câu." }
+    examples: [hsk1-0011, hsk1-0056, hsk1-0062, hsk1-0158]
+
+  - id: g1-07
+    lesson: hsk1-02-identity
+    hsk_code: "1-13"
+    title: Phó từ 也 (cũng) và 都 (đều)
+    structures:
+      - "Chủ ngữ + 也 + Động từ / Tính từ"
+      - "Chủ ngữ (số nhiều) + 都 + Động từ / Tính từ"
+      - "Chủ ngữ + 也都 + …"
+    explain: >-
+      也 (yě) và 都 (dōu) là phó từ, luôn đứng SAU chủ ngữ và TRƯỚC động từ/tính từ — không đứng đầu câu như "cũng" đôi khi trong tiếng Việt.
+      都 tổng kết cho những người/vật đã nói ở trước nó.
+    notes:
+      - "Dùng cả hai thì 也 đứng trước: 我们也都是学生。"
+    mistakes:
+      - { wrong: "也她是医生。", right: "她也是医生。", why: "也 đứng sau chủ ngữ." }
+      - { wrong: "我们是都学生。", right: "我们都是学生。", why: "都 đứng trước động từ 是." }
+    examples: [hsk1-0013, hsk1-0011, hsk1-0268, hsk1-0019]
+
+  - id: g1-08
+    lesson: hsk1-02-identity
+    hsk_code: "1-22"
+    title: Hỏi lại với 呢 (còn… thì sao?)
+    structures:
+      - "…，Danh từ / Đại từ + 呢？"
+    explain: >-
+      Sau khi nói về mình, thêm "你呢？" để hỏi lại người kia cùng câu hỏi đó: "còn bạn thì sao?". Không cần lặp lại cả câu.
+    notes:
+      - "我是越南人，你呢？ = Tôi là người Việt Nam, còn bạn?"
+    mistakes: []
+    examples: [hsk1-0015]
+
+  - id: g1-09
+    lesson: hsk1-02-identity
+    hsk_code: "1-06"
+    title: 这 / 那 + 个 + danh từ (này, kia)
+    structures:
+      - "这 / 那 + Lượng từ + Danh từ"
+    explain: >-
+      这 (zhè, này) và 那 (nà, kia/đó) đứng TRƯỚC danh từ, thường có lượng từ ở giữa (个, 本…).
+      Ngược với tiếng Việt: "bạn nam kia" = 那个男生.
+    notes:
+      - "Đứng một mình làm chủ ngữ được: 这是我爸爸。 (Đây là bố tôi.)"
+      - "Số nhiều: 这些 / 那些 (những… này/kia)."
+    mistakes:
+      - { wrong: "男生那个是我朋友。", right: "那个男生是我朋友。", why: "这/那 đứng trước danh từ, ngược tiếng Việt." }
+    examples: [hsk1-0016, hsk1-0017, hsk1-0202, hsk1-0279]
+
+  # ── Bài 3 · Gia đình ─────────────────────────────────────────────────────────
+  - id: g1-10
+    lesson: hsk1-03-family
+    hsk_code: "1-37"
+    title: Câu chữ 有 (có) và 没有
+    structures:
+      - "Chủ ngữ + 有 + Tân ngữ"
+      - "Chủ ngữ + 没有 + Tân ngữ"
+    explain: >-
+      有 (yǒu) nghĩa là "có" (sở hữu, hoặc ở đâu đó có cái gì). Phủ định của 有 LUÔN là 没有 (méiyǒu), không bao giờ là 不有.
+    notes:
+      - "Hỏi: 你有哥哥吗？ hoặc 你有没有哥哥？"
+    mistakes:
+      - { wrong: "我不有哥哥。", right: "我没有哥哥。", why: "Phủ định của 有 là 没有." }
+    examples: [hsk1-0020, hsk1-0022, hsk1-0273, hsk1-0045]
+
+  - id: g1-11
+    lesson: hsk1-03-family
+    hsk_code: "1-20"
+    title: Trợ từ 的 chỉ sở hữu (của)
+    structures:
+      - "Người sở hữu + 的 + Vật / Người"
+    explain: >-
+      的 (de) nối người sở hữu với vật được sở hữu. Trật tự NGƯỢC tiếng Việt: "điện thoại của tôi" = 我的手机.
+    notes:
+      - "Với người thân, bạn bè, nơi mình thuộc về có thể bỏ 的: 我爸爸, 我家, 我们班."
+      - "Có thể lược danh từ phía sau: 这是我的。 (Cái này là của tôi.)"
+    mistakes:
+      - { wrong: "这是手机的我。", right: "这是我的手机。", why: "Người sở hữu đứng trước 的." }
+    examples: [hsk1-0010, hsk1-0163, hsk1-0154, hsk1-0036]
+
+  - id: g1-12
+    lesson: hsk1-03-family
+    hsk_code: "1-17"
+    title: Nối danh từ bằng 和 (và)
+    structures:
+      - "Danh từ + 和 + Danh từ"
+    explain: >-
+      和 (hé) chỉ nối danh từ hoặc đại từ với nhau. Khác "và" tiếng Việt, 和 KHÔNG dùng để nối hai câu hay hai hành động.
+    notes:
+      - "Nối hai vế câu thì tách bằng dấu phẩy, hoặc dùng 也: 我吃饭，他也吃饭。"
+    mistakes:
+      - { wrong: "我吃饭和他喝水。", right: "我吃饭，他喝水。", why: "和 không nối hai mệnh đề." }
+    examples: [hsk1-0021, hsk1-0022, hsk1-0024, hsk1-0133]
+
+  # ── Bài 4 · Số đếm ───────────────────────────────────────────────────────────
+  - id: g1-13
+    lesson: hsk1-04-numbers
+    hsk_code: "1-08"
+    title: Số + lượng từ + danh từ
+    structures:
+      - "Số + Lượng từ + Danh từ"
+      - "这 / 那 + (Số) + Lượng từ + Danh từ"
+    explain: >-
+      Khi đếm, giữa số và danh từ BẮT BUỘC có lượng từ, giống "cái, con, quyển" trong tiếng Việt nhưng không được bỏ.
+      个 (ge) là lượng từ dùng nhiều nhất; sách dùng 本 (běn), cốc/ly dùng 杯 (bēi), người trong gia đình dùng 口 (kǒu).
+    notes:
+      - "一个人, 三本书, 一杯茶, 五口人."
+    mistakes:
+      - { wrong: "我有三书。", right: "我有三本书。", why: "Thiếu lượng từ 本." }
+      - { wrong: "我买了书三本。", right: "我买了三本书。", why: "Số + lượng từ đứng trước danh từ." }
+    examples: [hsk1-0022, hsk1-0033, hsk1-0034, hsk1-0165]
+
+  - id: g1-14
+    lesson: hsk1-04-numbers
+    hsk_code: "1-07"
+    title: 二 và 两 (hai)
+    structures:
+      - "两 + Lượng từ + Danh từ"
+    explain: >-
+      Cùng nghĩa "hai" nhưng dùng khác nhau: đếm số lượng trước lượng từ dùng 两 (liǎng): 两个孩子.
+      Đọc con số, số thứ tự, số có nhiều chữ số dùng 二 (èr): 十二, 二十, 第二.
+    notes:
+      - "两点 = hai giờ; 二月 = tháng hai; 第二次 = lần thứ hai."
+    mistakes:
+      - { wrong: "他有二个孩子。", right: "他有两个孩子。", why: "Trước lượng từ dùng 两." }
+    examples: [hsk1-0032, hsk1-0029, hsk1-0030, hsk1-0035]
+
+  - id: g1-15
+    lesson: hsk1-04-numbers
+    hsk_code: null
+    title: Nói tuổi và số thứ tự (岁, 第)
+    structures:
+      - "Chủ ngữ + Số + 岁"
+      - "第 + Số (+ Lượng từ)"
+    explain: >-
+      Nói tuổi: đặt số tuổi + 岁 (suì) ngay sau chủ ngữ, thường không cần 是. Hỏi tuổi trẻ nhỏ: 你几岁？
+      Số thứ tự: thêm 第 (dì) trước số — 第一 (thứ nhất), 第二次 (lần thứ hai).
+    notes:
+      - "Phủ định tuổi thì cần 不是: 我不是二十岁。"
+    mistakes:
+      - { wrong: "我今年岁二十。", right: "我今年二十岁。", why: "Số đứng trước 岁." }
+    examples: [hsk1-0029, hsk1-0038, hsk1-0035, hsk1-0271]
+
+  - id: g1-16
+    lesson: hsk1-04-numbers
+    hsk_code: "1-38"
+    title: So sánh hơn với 比
+    structures:
+      - "A + 比 + B + Tính từ"
+    explain: >-
+      比 (bǐ) nghĩa là "so với". A 比 B 热 = A nóng hơn B. Tính từ đứng cuối, KHÔNG thêm 很 hay 非常 trước tính từ.
+    notes:
+      - "Không nói 很热 trong câu 比 — muốn nói 'hơn nhiều' thì học ở HSK2 (热多了)."
+    mistakes:
+      - { wrong: "南边比北边很热。", right: "南边比北边热。", why: "Câu 比 không dùng 很." }
+      - { wrong: "南边热比北边。", right: "南边比北边热。", why: "比 + B đứng trước tính từ." }
+    examples: [hsk1-0039]
+
+  # ── Bài 5 · Thời gian ────────────────────────────────────────────────────────
+  - id: g1-17
+    lesson: hsk1-05-time
+    hsk_code: "1-44"
+    title: Nói giờ, thứ, ngày tháng
+    structures:
+      - "现在 + (是) + … 点 (… 分 / 半)"
+      - "今天 + (是) + 星期 + số"
+      - "… 年 … 月 … 号 / 日"
+    explain: >-
+      Thời gian trong tiếng Trung đi từ LỚN đến NHỎ, ngược tiếng Việt: năm → tháng → ngày → thứ → buổi → giờ.
+      "9 giờ rưỡi sáng" = 上午九点半. Hỏi: 几点？(mấy giờ), 星期几？(thứ mấy), 几月几号？(ngày mấy tháng mấy).
+    notes:
+      - "星期一 = thứ hai … 星期六 = thứ bảy; chủ nhật = 星期天 / 星期日."
+      - "号 dùng khi nói, 日 dùng khi viết."
+    mistakes:
+      - { wrong: "现在九点半上午。", right: "现在上午九点半。", why: "Buổi (上午) đứng trước giờ." }
+    examples: [hsk1-0040, hsk1-0041, hsk1-0042, hsk1-0216, hsk1-0278]
+
+  - id: g1-18
+    lesson: hsk1-05-time
+    hsk_code: "1-28"
+    title: Thời gian đứng trước động từ
+    structures:
+      - "Chủ ngữ + Thời gian + Động từ"
+      - "Thời gian + Chủ ngữ + Động từ"
+    explain: >-
+      Từ chỉ thời gian (今天, 早上七点, 明年…) đứng TRƯỚC động từ — ở đầu câu hoặc ngay sau chủ ngữ.
+      Không đặt ở cuối câu như tiếng Việt "tôi dậy lúc 7 giờ".
+    notes:
+      - "Phó từ tần suất 常常 (thường), 有时候 (có lúc) cũng đứng trước động từ."
+    mistakes:
+      - { wrong: "我起床早上七点。", right: "我早上七点起床。", why: "Thời gian đứng trước động từ." }
+      - { wrong: "我们吃午饭中午。", right: "我们中午吃午饭。", why: "Thời gian đứng trước động từ." }
+    examples: [hsk1-0054, hsk1-0046, hsk1-0047, hsk1-0049]
+
+  - id: g1-19
+    lesson: hsk1-05-time
+    hsk_code: "1-41"
+    title: Động từ + 了 (đã xong)
+    structures:
+      - "Chủ ngữ + Động từ + 了 + (Số lượng) + Tân ngữ"
+      - "Chủ ngữ + 没 (有) + Động từ"
+    explain: >-
+      了 (le) sau động từ cho biết hành động đã hoàn thành. Phủ định dùng 没 / 没有 trước động từ và BỎ 了.
+    notes:
+      - "等了一个小时 = đã đợi một tiếng; 学了半年 = đã học nửa năm."
+    mistakes:
+      - { wrong: "我没吃了。", right: "我没吃。", why: "Câu phủ định với 没 không dùng 了." }
+      - { wrong: "我不买了三本书。", right: "我没买三本书。", why: "Phủ định việc đã xảy ra dùng 没." }
+    examples: [hsk1-0218, hsk1-0252, hsk1-0264, hsk1-0033]
+
+  # ── Bài 6 · Hoạt động hằng ngày ──────────────────────────────────────────────
+  - id: g1-20
+    lesson: hsk1-06-daily-actions
+    hsk_code: "1-03"
+    title: Muốn làm gì — 想 / 要 + động từ
+    structures:
+      - "Chủ ngữ + 想 / 要 + Động từ"
+      - "Chủ ngữ + 不想 + Động từ"
+    explain: >-
+      想 (xiǎng) + động từ = muốn làm gì (mong muốn). 要 (yào) + động từ = muốn / phải làm, ý định chắc chắn hơn.
+      Nói "không muốn" dùng 不想.
+    notes:
+      - "想 + người = nhớ ai: 我想妈妈。 (Tôi nhớ mẹ.)"
+      - "要 + đồ vật = cần, lấy: 我要这个。"
+    mistakes:
+      - { wrong: "我想一杯茶。", right: "我想喝一杯茶。", why: "想 cần động từ theo sau (想 + danh từ là 'nhớ')." }
+    examples: [hsk1-0055, hsk1-0057, hsk1-0072, hsk1-0123]
+
+  - id: g1-21
+    lesson: hsk1-06-daily-actions
+    hsk_code: "1-02"
+    title: 会 + động từ (biết làm gì)
+    structures:
+      - "Chủ ngữ + 会 + Động từ"
+      - "Chủ ngữ + 不会 + Động từ"
+    explain: >-
+      会 (huì) = biết làm việc gì nhờ học/luyện tập (biết nói tiếng Trung, biết nấu ăn, biết lái xe).
+      Tiếng Việt "biết" còn có nghĩa "biết thông tin" — nghĩa đó dùng 知道 (zhīdào), không dùng 会.
+    notes:
+      - "我会说汉语 (biết nói tiếng Trung) ≠ 我知道他的名字 (biết tên anh ấy)."
+    mistakes:
+      - { wrong: "我知道说汉语。", right: "我会说汉语。", why: "Kỹ năng học được dùng 会." }
+      - { wrong: "我会他家在哪儿。", right: "我知道他家在哪儿。", why: "Biết thông tin dùng 知道." }
+    examples: [hsk1-0062, hsk1-0063, hsk1-0152, hsk1-0077]
+
+  - id: g1-22
+    lesson: hsk1-06-daily-actions
+    hsk_code: "1-42"
+    title: Đang làm gì — 在 / 正在 + động từ
+    structures:
+      - "Chủ ngữ + (正) 在 + Động từ (+ Tân ngữ)"
+    explain: >-
+      在 (zài) hoặc 正在 (zhèngzài) đặt trước động từ để nói hành động đang diễn ra, giống "đang".
+    notes:
+      - "Có thể thêm 呢 cuối câu: 他在看电视呢。"
+    mistakes:
+      - { wrong: "他看电视在。", right: "他在看电视。", why: "在 đứng trước động từ." }
+    examples: [hsk1-0059, hsk1-0060, hsk1-0070, hsk1-0248]
+
+  - id: g1-23
+    lesson: hsk1-06-daily-actions
+    hsk_code: "1-22"
+    title: Rủ rê, đề nghị với 吧 và ngăn cản với 别
+    structures:
+      - "… + 吧。 (… đi, … nhé)"
+      - "别 + Động từ。 (đừng …)"
+    explain: >-
+      吧 (ba) cuối câu làm lời rủ rê, đề nghị mềm mỏng: 我们走吧 (chúng ta đi thôi).
+      别 (bié) trước động từ để khuyên/ngăn ai đừng làm gì.
+    notes:
+      - "别 cũng có thể nói 不要: 不要走。"
+    mistakes:
+      - { wrong: "吧我们一起吃饭。", right: "我们一起吃饭吧。", why: "吧 đứng cuối câu." }
+      - { wrong: "走别！", right: "别走！", why: "别 đứng trước động từ." }
+    examples: [hsk1-0058, hsk1-0069, hsk1-0220, hsk1-0262]
+
+  - id: g1-24
+    lesson: hsk1-06-daily-actions
+    hsk_code: "1-39"
+    title: 一边…一边… (vừa… vừa…)
+    structures:
+      - "Chủ ngữ + 一边 + Động từ 1 + 一边 + Động từ 2"
+    explain: >-
+      Diễn tả hai hành động diễn ra cùng lúc. Mỗi 一边 (yìbiān) đứng trước một động từ.
+    notes: []
+    mistakes:
+      - { wrong: "他一边走唱。", right: "他一边走一边唱。", why: "Cần lặp lại 一边 trước mỗi động từ." }
+    examples: [hsk1-0266]
+
+  # ── Bài 7 · Trường học và công việc ──────────────────────────────────────────
+  - id: g1-25
+    lesson: hsk1-07-school-work
+    hsk_code: "1-16"
+    title: Làm gì ở đâu — 在 + nơi chốn + động từ
+    structures:
+      - "Chủ ngữ + 在 + Nơi chốn + Động từ"
+    explain: >-
+      Khi nói làm việc gì ở đâu, cụm 在 + nơi chốn đứng TRƯỚC động từ. Tiếng Việt nói "tôi học ở đại học" (nơi chốn ở cuối) —
+      tiếng Trung phải nói 我在大学学习.
+    notes:
+      - "Đây là lỗi trật tự từ người Việt mắc nhiều nhất ở HSK1."
+    mistakes:
+      - { wrong: "我学习在大学。", right: "我在大学学习。", why: "在 + nơi chốn đứng trước động từ." }
+      - { wrong: "他工作在北京。", right: "他在北京工作。", why: "在 + nơi chốn đứng trước động từ." }
+    examples: [hsk1-0085, hsk1-0094, hsk1-0097, hsk1-0234]
+
+  - id: g1-26
+    lesson: hsk1-07-school-work
+    hsk_code: "1-29"
+    title: Đi đâu làm gì — 去 + nơi chốn + động từ
+    structures:
+      - "Chủ ngữ + 去 + Nơi chốn (+ Động từ + Tân ngữ)"
+    explain: >-
+      去 (qù) = đi đến. Nơi chốn đứng ngay sau 去, không cần thêm từ "đến". Việc làm ở đó đứng sau cùng:
+      我去商店买东西 (tôi đi cửa hàng mua đồ).
+    notes:
+      - "来 (lái) = đến (về phía người nói): 你什么时候来？"
+    mistakes:
+      - { wrong: "我去到商店。", right: "我去商店。", why: "去 đã có nghĩa 'đi đến', không cần 到." }
+    examples: [hsk1-0089, hsk1-0112, hsk1-0183, hsk1-0253]
+
+  - id: g1-27
+    lesson: hsk1-07-school-work
+    hsk_code: "1-27"
+    title: 很多 + danh từ (rất nhiều…)
+    structures:
+      - "很多 + Danh từ"
+      - "Nơi chốn + 有 + 很多 + Danh từ"
+    explain: >-
+      很多 (hěn duō) đứng trước danh từ để nói "rất nhiều…", không cần lượng từ. Làm vị ngữ thì đứng sau: 人很多 (người rất đông).
+    notes:
+      - "多 không đứng một mình trước danh từ: nói 很多人, không nói 多人."
+    mistakes:
+      - { wrong: "我有多网友。", right: "我有很多网友。", why: "Trước danh từ dùng 很多." }
+    examples: [hsk1-0096, hsk1-0111, hsk1-0120, hsk1-0129]
+
+  # ── Bài 8 · Địa điểm và phương hướng ─────────────────────────────────────────
+  - id: g1-28
+    lesson: hsk1-08-location
+    hsk_code: "1-01"
+    title: Vị trí — danh từ + 上 / 里 / 旁边…
+    structures:
+      - "Vật + 在 + Danh từ + 上 / 下 / 里 / 前边 / 后边 / 旁边"
+    explain: >-
+      Từ chỉ phương vị (上 trên, 下 dưới, 里 trong, 旁边 bên cạnh…) đứng SAU danh từ — ngược tiếng Việt:
+      "trên bàn" = 桌子上, "trong trường" = 学校里.
+    notes:
+      - "Tên nước, thành phố không thêm 里: 在北京, không nói 在北京里."
+    mistakes:
+      - { wrong: "书在上桌子。", right: "书在桌子上。", why: "上 đứng sau danh từ." }
+      - { wrong: "商店在旁边医院。", right: "商店在医院旁边。", why: "旁边 đứng sau danh từ." }
+    examples: [hsk1-0098, hsk1-0100, hsk1-0101, hsk1-0109]
+
+  - id: g1-29
+    lesson: hsk1-08-location
+    hsk_code: "1-37"
+    title: Phân biệt 在 và 有 khi nói vị trí
+    structures:
+      - "Vật (đã biết) + 在 + Nơi chốn"
+      - "Nơi chốn + 有 + Vật (chưa biết)"
+    explain: >-
+      在 trả lời câu "cái đó ở đâu?" — chủ ngữ là vật: 书在桌子上 (quyển sách ở trên bàn).
+      有 trả lời câu "ở đó có gì?" — chủ ngữ là nơi chốn: 桌子上有一本书 (trên bàn có một quyển sách).
+    notes:
+      - "Phủ định: 不在 / 没有."
+    mistakes:
+      - { wrong: "桌子上在一本书。", right: "桌子上有一本书。", why: "Nơi chốn làm chủ ngữ thì dùng 有." }
+      - { wrong: "书有桌子上。", right: "书在桌子上。", why: "Vật làm chủ ngữ thì dùng 在." }
+    examples: [hsk1-0098, hsk1-0111, hsk1-0199, hsk1-0232]
+
+  - id: g1-30
+    lesson: hsk1-08-location
+    hsk_code: null
+    title: Động từ + 在 + nơi chốn (ngồi ở, sống ở, để ở)
+    structures:
+      - "Chủ ngữ + Động từ + 在 + Nơi chốn"
+    explain: >-
+      Với một số động từ chỉ tư thế/vị trí như 住 (sống), 站 (đứng), 坐 (ngồi), 放 (để), cụm 在 + nơi chốn đứng SAU động từ,
+      cho biết người/vật ở đâu sau hành động.
+    notes:
+      - "So sánh: 我在学校学习 (học ở trường — 在 trước động từ) ≠ 他住在学校里 (sống ở trong trường — 在 sau 住)."
+    mistakes:
+      - { wrong: "我的书放桌子上在。", right: "我的书放在桌子上。", why: "在 đứng ngay sau động từ 放." }
+    examples: [hsk1-0107, hsk1-0211, hsk1-0169, hsk1-0121]
+
+  # ── Bài 9 · Đi lại ───────────────────────────────────────────────────────────
+  - id: g1-31
+    lesson: hsk1-09-transport
+    hsk_code: "1-29"
+    title: Đi bằng gì — 坐 / 打 + phương tiện + 去
+    structures:
+      - "Chủ ngữ + 坐 + Phương tiện + 去 + Nơi chốn"
+      - "Chủ ngữ + 打车 + 去 + Nơi chốn"
+    explain: >-
+      Phương tiện đứng TRƯỚC 去: "đi máy bay ra nước ngoài" = 坐飞机去外国. Đi xe/tàu/máy bay dùng 坐 (zuò, ngồi); đi taxi dùng 打车.
+    notes:
+      - "Tự lái xe: 开车去…"
+    mistakes:
+      - { wrong: "他去外国坐飞机。", right: "他坐飞机去外国。", why: "Phương tiện đứng trước 去." }
+    examples: [hsk1-0113, hsk1-0114, hsk1-0174]
+
+  - id: g1-32
+    lesson: hsk1-09-transport
+    hsk_code: "1-15"
+    title: 从 + nơi chốn (từ… đến)
+    structures:
+      - "Chủ ngữ + 从 + Nơi chốn + 来 / 去"
+    explain: >-
+      从 (cóng) = từ, chỉ điểm xuất phát, đứng trước động từ 来/去: 我从家来 (tôi từ nhà đến).
+    notes:
+      - "Hỏi: 你从哪儿来？ (Bạn từ đâu đến?)"
+    mistakes:
+      - { wrong: "我来从家。", right: "我从家来。", why: "从 + nơi chốn đứng trước động từ." }
+    examples: [hsk1-0223]
+
+  - id: g1-33
+    lesson: hsk1-09-transport
+    hsk_code: "1-40"
+    title: 快…了 (sắp… rồi)
+    structures:
+      - "Chủ ngữ + 快 + Động từ + 了"
+    explain: >-
+      快…了 (kuài… le) nói việc gì sắp xảy ra. 了 ở cuối câu là bắt buộc.
+    notes: []
+    mistakes:
+      - { wrong: "火车快到站。", right: "火车快到站了。", why: "快… cần 了 ở cuối câu." }
+    examples: [hsk1-0119]
+
+  # ── Bài 10 · Mua sắm ─────────────────────────────────────────────────────────
+  - id: g1-34
+    lesson: hsk1-10-shopping
+    hsk_code: "1-43"
+    title: Hỏi giá và nói tiền (多少钱, 块, 毛)
+    structures:
+      - "… + 多少钱？"
+      - "Số + 块 (+ Số + 毛)"
+    explain: >-
+      Hỏi giá: đồ vật + 多少钱？ (bao nhiêu tiền). Đơn vị tiền khi nói: 块 (kuài) = tệ, 毛 (máo) = hào (1 块 = 10 毛);
+      khi viết dùng 元 (yuán) thay 块.
+    notes:
+      - "Câu trả lời không cần 是: 这个八块钱。"
+    mistakes:
+      - { wrong: "这本书是多少钱？", right: "这本书多少钱？", why: "Hỏi giá không cần 是." }
+    examples: [hsk1-0126, hsk1-0127, hsk1-0132, hsk1-0239]
+
+  - id: g1-35
+    lesson: hsk1-10-shopping
+    hsk_code: "1-09"
+    title: 太…了 (quá…)
+    structures:
+      - "Chủ ngữ + 太 + Tính từ + 了"
+    explain: >-
+      太 (tài) = quá, thường đi với 了 ở cuối câu để than phiền hoặc cảm thán: 太贵了 (đắt quá!).
+    notes:
+      - "Phủ định 不太 + tính từ = không… lắm: 不太贵 (không đắt lắm)."
+    mistakes:
+      - { wrong: "这个贵太了。", right: "这个太贵了。", why: "太 đứng trước tính từ." }
+    examples: [hsk1-0124, hsk1-0175]
+
+  - id: g1-36
+    lesson: hsk1-10-shopping
+    hsk_code: null
+    title: 一些 / 一点儿 (một ít, một chút)
+    structures:
+      - "Động từ + 一些 / 一点儿 + (Danh từ)"
+    explain: >-
+      一些 (yìxiē) = một ít, một vài (đồ đếm được hoặc không); 一点儿 (yìdiǎnr) = một chút (thường với thứ không đếm được).
+      Cả hai đứng sau động từ, trước danh từ.
+    notes:
+      - "Muốn nói 'rẻ hơn một chút' thì 一点儿 đứng SAU tính từ: 便宜一点儿 (học ở HSK2)."
+    mistakes:
+      - { wrong: "请给我水一点儿。", right: "请给我一点儿水。", why: "一点儿 đứng trước danh từ." }
+    examples: [hsk1-0131, hsk1-0138, hsk1-0226]
+
+  # ── Bài 11 · Ăn uống ─────────────────────────────────────────────────────────
+  - id: g1-37
+    lesson: hsk1-11-food
+    hsk_code: null
+    title: Xin / đưa cho ai cái gì — 给 + người + vật
+    structures:
+      - "(请) + 给 + Người + (Số + Lượng từ) + Vật"
+    explain: >-
+      给 (gěi) = đưa, cho. Người nhận đứng ngay sau 给, vật đứng sau cùng: 请给我一杯茶 (cho tôi một cốc trà).
+    notes:
+      - "给 + người + động từ = làm gì cho ai: 我给你打电话 (tôi gọi điện cho bạn)."
+    mistakes:
+      - { wrong: "请给一杯茶我。", right: "请给我一杯茶。", why: "Người nhận đứng trước vật." }
+    examples: [hsk1-0139, hsk1-0226, hsk1-0230, hsk1-0065]
+
+  - id: g1-38
+    lesson: hsk1-11-food
+    hsk_code: null
+    title: 喜欢 + động từ / danh từ (thích…)
+    structures:
+      - "Chủ ngữ + 喜欢 + Danh từ"
+      - "Chủ ngữ + 喜欢 + Động từ + Tân ngữ"
+    explain: >-
+      喜欢 (xǐhuan) = thích, theo sau có thể là danh từ (喜欢水果) hoặc cả một hành động (喜欢吃米饭).
+    notes:
+      - "Phủ định: 不喜欢. Hỏi: 你喜欢吃什么？"
+    mistakes: []
+    examples: [hsk1-0133, hsk1-0064, hsk1-0249, hsk1-0156]
+
+  # ── Bài 12 · Thời tiết và trạng thái ─────────────────────────────────────────
+  - id: g1-39
+    lesson: hsk1-12-weather-state
+    hsk_code: "1-40"
+    title: 了 cuối câu — tình huống đã thay đổi
+    structures:
+      - "Câu + 了。"
+    explain: >-
+      了 ở cuối câu báo hiệu một tình huống mới, sự thay đổi so với trước: 下雨了 (trời mưa rồi — trước đó chưa mưa),
+      我饿了 (tôi đói rồi). Giống "rồi" trong tiếng Việt.
+    notes:
+      - "Khác với 了 sau động từ (đã làm xong, bài 5)."
+    mistakes: []
+    examples: [hsk1-0102, hsk1-0137, hsk1-0148, hsk1-0257]
+
+  - id: g1-40
+    lesson: hsk1-12-weather-state
+    hsk_code: "1-09"
+    title: Mức độ — 很 / 真 / 太 / 非常 + tính từ
+    structures:
+      - "Chủ ngữ + 很 / 真 / 非常 + Tính từ"
+    explain: >-
+      Các phó từ chỉ mức độ đứng trước tính từ: 很 (rất, nhẹ), 真 (thật là — cảm thán), 非常 (cực kỳ), 太…了 (quá).
+    notes:
+      - "天气 + tính từ: 今天天气很好 / 真冷."
+    mistakes:
+      - { wrong: "今天冷真。", right: "今天真冷。", why: "Phó từ mức độ đứng trước tính từ." }
+    examples: [hsk1-0141, hsk1-0144, hsk1-0150, hsk1-0178]
+
+  # ── Bài 13 · Đặt câu hỏi ─────────────────────────────────────────────────────
+  - id: g1-41
+    lesson: hsk1-13-questions
+    hsk_code: "1-46"
+    title: Từ để hỏi — 什么, 谁, 哪, 几, 怎么
+    structures:
+      - "Giữ trật tự câu trả lời, thay phần cần hỏi bằng từ để hỏi"
+    explain: >-
+      什么 (cái gì), 谁 (ai), 哪 / 哪个 (nào), 哪儿 (đâu), 几 (mấy — số nhỏ), 多少 (bao nhiêu), 怎么 (thế nào, sao).
+      Từ để hỏi đứng đúng chỗ của thông tin cần hỏi, và câu KHÔNG thêm 吗.
+    notes:
+      - "那是谁的书？ → 那是我的书。 (谁 thay cho 我)"
+      - "你怎么了？ = Bạn làm sao vậy?"
+    mistakes:
+      - { wrong: "这是什么吗？", right: "这是什么？", why: "Có từ để hỏi thì không dùng 吗." }
+      - { wrong: "谁的书那是？", right: "那是谁的书？", why: "Giữ trật tự như câu trả lời." }
+    examples: [hsk1-0153, hsk1-0154, hsk1-0156, hsk1-0159]
+
+  - id: g1-42
+    lesson: hsk1-13-questions
+    hsk_code: "1-48"
+    title: Câu hỏi chính phản (是不是, 有没有…)
+    structures:
+      - "Chủ ngữ + Động từ + 不 / 没 + Động từ + (Tân ngữ)？"
+    explain: >-
+      Đặt dạng khẳng định và phủ định cạnh nhau để hỏi "có… hay không": 是不是, 有没有, 去不去, 好不好.
+      Câu đã có dạng này thì KHÔNG thêm 吗.
+    notes: []
+    mistakes:
+      - { wrong: "他是不是学生吗？", right: "他是不是学生？", why: "Câu chính phản không dùng 吗." }
+    examples: [hsk1-0157]
+
+  - id: g1-43
+    lesson: hsk1-13-questions
+    hsk_code: "1-47"
+    title: Câu hỏi lựa chọn với 还是 (hay là)
+    structures:
+      - "A + 还是 + B？"
+    explain: >-
+      还是 (háishi) nối hai lựa chọn trong câu hỏi: 你喝茶还是喝水？ (bạn uống trà hay uống nước?). Không thêm 吗.
+    notes:
+      - "还是 chỉ dùng trong câu hỏi; câu trần thuật 'hoặc' dùng 或者 (HSK2)."
+    mistakes:
+      - { wrong: "你喝茶还是喝水吗？", right: "你喝茶还是喝水？", why: "Câu hỏi với 还是 không dùng 吗." }
+    examples: [hsk1-0161]
+
+  - id: g1-44
+    lesson: hsk1-13-questions
+    hsk_code: "1-02"
+    title: 能 + động từ (có thể, được phép)
+    structures:
+      - "Chủ ngữ + 能 + Động từ"
+      - "… 能 … 吗？ (… được không?)"
+    explain: >-
+      能 (néng) = có thể (đủ điều kiện, được phép). Khác 会: 会 là biết làm nhờ học, 能 là làm được trong hoàn cảnh này.
+    notes:
+      - "我能进来吗？ = Tôi vào được không?"
+    mistakes:
+      - { wrong: "我进来能吗？", right: "我能进来吗？", why: "能 đứng trước động từ." }
+    examples: [hsk1-0151, hsk1-0152]
+
+  # ── Bài 14 · Đồ vật ──────────────────────────────────────────────────────────
+  - id: g1-45
+    lesson: hsk1-14-objects-misc
+    hsk_code: "1-09"
+    title: So sánh nhất với 最
+    structures:
+      - "Chủ ngữ + 最 + Tính từ"
+      - "最 + Tính từ + 的 + Danh từ"
+    explain: >-
+      最 (zuì) = nhất, đứng TRƯỚC tính từ — ngược tiếng Việt "to nhất" = 最大.
+    notes:
+      - "最好 còn có nghĩa 'tốt nhất là…': 你最好早点儿来。"
+    mistakes:
+      - { wrong: "这个球大最。", right: "这个球最大。", why: "最 đứng trước tính từ." }
+    examples: [hsk1-0189, hsk1-0219, hsk1-0188]
+
+  - id: g1-46
+    lesson: hsk1-14-objects-misc
+    hsk_code: "1-17"
+    title: 跟…一起 + động từ (cùng với ai làm gì)
+    structures:
+      - "Chủ ngữ + 跟 / 和 + Người + 一起 + Động từ"
+    explain: >-
+      Cụm 跟 + người + 一起 (cùng với ai) đứng TRƯỚC động từ, không đặt cuối câu như tiếng Việt "đi xem phim với bạn".
+    notes: []
+    mistakes:
+      - { wrong: "他去看电影跟朋友。", right: "他跟朋友一起去看电影。", why: "跟 + người đứng trước động từ." }
+    examples: [hsk1-0183, hsk1-0203, hsk1-0046]
+
+  - id: g1-47
+    lesson: hsk1-14-objects-misc
+    hsk_code: null
+    title: Động từ + 见 / 到 (thấy, được — kết quả)
+    structures:
+      - "看 / 听 / 找 + 见 / 到 (+ 了)"
+    explain: >-
+      Thêm 见 hoặc 到 sau động từ để nói hành động đạt kết quả: 看 (nhìn) → 看见 / 看到 (nhìn thấy);
+      听 (nghe) → 听见 (nghe thấy); 找 (tìm) → 找到 (tìm thấy).
+    notes:
+      - "Phủ định: 没看见, 没找到 (không dùng 不)."
+    mistakes:
+      - { wrong: "我不找到书包。", right: "我没找到书包。", why: "Kết quả chưa đạt thì phủ định bằng 没." }
+    examples: [hsk1-0184, hsk1-0185, hsk1-0240, hsk1-0191]
+
+  - id: g1-48
+    lesson: hsk1-14-objects-misc
+    hsk_code: null
+    title: A 和 B 一样 (A giống B)
+    structures:
+      - "A + 和 / 跟 + B + 一样"
+      - "A + 和 / 跟 + B + 不一样"
+    explain: >-
+      一样 (yíyàng) = giống nhau. Phủ định là 不一样, đặt 不 trước 一样.
+    notes: []
+    mistakes:
+      - { wrong: "这个不和那个一样。", right: "这个和那个不一样。", why: "不 đứng ngay trước 一样." }
+    examples: [hsk1-0222]
