@@ -6,7 +6,7 @@
  * their own row. Without the NEXT_PUBLIC_SUPABASE_* variables accounts are off
  * and the app works exactly as before (guest progress in this browser).
  */
-import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import { useSyncExternalStore } from "react";
 import { emailToUsername, resolveSync, usernameToEmail, type RemoteProgress } from "@/domain/account";
 import { parseProgress, type ProgressState } from "@/domain/progress";
@@ -102,9 +102,11 @@ async function syncNow(uid: string) {
   }
 }
 
-function signedIn(uid: string, email: string | undefined) {
+function signedIn(user: User) {
+  const uid = user.id;
   if (state.status === "signed-in" && state.uid === uid) return;
-  set({ status: "signed-in", uid, username: emailToUsername(email), sync: "idle" });
+  const shown = typeof user.user_metadata?.display_name === "string" ? user.user_metadata.display_name : emailToUsername(user.email);
+  set({ status: "signed-in", uid, username: shown, sync: "idle" });
   setProgressScope(uid, readUserCache(uid)?.state);
   onLocalChange((progress, updatedAt) => {
     pending = { state: progress, updatedAt };
@@ -130,9 +132,9 @@ export function startAccounts() {
   const sb = supabase();
   sb.auth.onAuthStateChange((_event, session) => {
     // Supabase warns against awaiting its own calls inside this callback; defer.
-    setTimeout(() => (session?.user ? signedIn(session.user.id, session.user.email) : signedOut()), 0);
+    setTimeout(() => (session?.user ? signedIn(session.user) : signedOut()), 0);
   });
-  void sb.auth.getSession().then(({ data }) => (data.session ? signedIn(data.session.user.id, data.session.user.email) : signedOut()));
+  void sb.auth.getSession().then(({ data }) => (data.session ? signedIn(data.session.user) : signedOut()));
   // Coming back to the tab: flush pending changes, then pick up edits made on another device.
   document.addEventListener("visibilitychange", () => {
     if (state.status !== "signed-in") return;

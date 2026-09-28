@@ -7,14 +7,29 @@ import { EMPTY_PROGRESS, type ProgressState } from "./progress";
 /** 3–32 characters: lowercase letters, digits, dot, dash, underscore; starts with a letter or digit. */
 export const USERNAME_RULE = /^[a-z0-9][a-z0-9._-]{2,31}$/;
 
+/**
+ * Login key of a typed name: lowercase, Vietnamese tone marks and đ removed, spaces dropped,
+ * so "Viên Thảo", "vien thao" and "VienThao" all reach the account `vienthao`.
+ */
 export function normalizeUsername(input: string): string {
-  return input.trim().toLowerCase();
+  return input
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .replace(/đ/g, "d")
+    .replace(/\s+/g, "");
+}
+
+/** The name as the owner typed it when creating the account ("Viên Thảo"), shown in the menu. */
+export function displayName(input: string): string {
+  return input.trim().replace(/\s+/g, " ");
 }
 
 export function usernameError(input: string): string | null {
   const u = normalizeUsername(input);
   if (!u) return "Nhập tên tài khoản.";
-  if (!USERNAME_RULE.test(u)) return "Tên tài khoản gồm 3–32 ký tự: chữ không dấu, số, dấu chấm, gạch ngang hoặc gạch dưới.";
+  if (!USERNAME_RULE.test(u)) return "Tên tài khoản gồm 3–32 ký tự: chữ cái (có dấu hay không đều được), số, dấu chấm, gạch ngang hoặc gạch dưới.";
   return null;
 }
 

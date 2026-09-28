@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { emailToUsername, isEmptyProgress, normalizeUsername, resolveSync, usernameError, usernameToEmail } from "../src/domain/account";
+import { displayName, emailToUsername, isEmptyProgress, normalizeUsername, resolveSync, usernameError, usernameToEmail } from "../src/domain/account";
 import { EMPTY_PROGRESS, setLearned, type ProgressState } from "../src/domain/progress";
 
 const withWord = (w: string): ProgressState => setLearned(EMPTY_PROGRESS, w, true, new Date("2026-09-01T00:00:00Z"));
@@ -9,7 +9,11 @@ describe("usernames", () => {
     expect(normalizeUsername("  An.Nguyen ")).toBe("an.nguyen");
     expect(usernameError("An.Nguyen")).toBeNull();
     expect(usernameError("ab")).toMatch(/3–32/);
-    expect(usernameError("nguyễn")).toMatch(/không dấu/);
+    expect(normalizeUsername("Viên Thảo")).toBe("vienthao");
+    expect(normalizeUsername("Đặng  Văn")).toBe("dangvan");
+    expect(usernameError("Viên Thảo")).toBeNull();
+    expect(displayName("  Viên   Thảo ")).toBe("Viên Thảo");
+    expect(usernameError("a!bc")).toMatch(/3–32/);
     expect(usernameError("-abc")).not.toBeNull();
     expect(usernameError("")).toBe("Nhập tên tài khoản.");
   });

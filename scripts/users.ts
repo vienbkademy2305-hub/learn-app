@@ -11,7 +11,7 @@
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { createClient, type User } from "@supabase/supabase-js";
-import { emailToUsername, normalizeUsername, usernameError, usernameToEmail } from "../src/domain/account";
+import { displayName, emailToUsername, normalizeUsername, usernameError, usernameToEmail } from "../src/domain/account";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const envFile = path.join(ROOT, ".env.local");
@@ -63,10 +63,10 @@ switch (command) {
       email: usernameToEmail(username!, domain),
       password: checkPassword(password),
       email_confirm: true, // no mail is ever sent to the hidden address
-      user_metadata: { username: normalizeUsername(username!) },
+      user_metadata: { username: normalizeUsername(username!), display_name: displayName(username!) },
     });
     if (error) fail(/already been registered|already exists/i.test(error.message) ? `Tài khoản "${normalizeUsername(username!)}" đã tồn tại.` : error.message);
-    console.log(`✓ Đã tạo tài khoản "${normalizeUsername(username!)}".`);
+    console.log(`✓ Đã tạo tài khoản "${displayName(username!)}" (đăng nhập bằng "${displayName(username!)}" hoặc "${normalizeUsername(username!)}").`);
     break;
   }
   case "passwd": {
@@ -84,7 +84,8 @@ switch (command) {
     for (const u of users.sort((a, b) => (a.email ?? "").localeCompare(b.email ?? ""))) {
       const seen = u.last_sign_in_at ? new Date(u.last_sign_in_at).toLocaleString("vi-VN") : "chưa đăng nhập";
       const synced = lastSync.get(u.id);
-      console.log(`- ${emailToUsername(u.email)} · đăng nhập gần nhất: ${seen} · tiến độ lưu lúc: ${synced ? new Date(synced).toLocaleString("vi-VN") : "chưa có"}`);
+      const name = typeof u.user_metadata?.display_name === "string" ? `${u.user_metadata.display_name} (${emailToUsername(u.email)})` : emailToUsername(u.email);
+      console.log(`- ${name} · đăng nhập gần nhất: ${seen} · tiến độ lưu lúc: ${synced ? new Date(synced).toLocaleString("vi-VN") : "chưa có"}`);
     }
     break;
   }
