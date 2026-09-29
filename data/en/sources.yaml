@@ -72,4 +72,4 @@ sources:
     path: "1. IELTS MẤT GỐC PREP.VN-20260928T150144Z-1-007.zip"
     sha256: 80943cf44b5f105f8832afb6e30de94ca4d30c9c912548c33454e9ee28eb5873
     added: 2026-09-29
-    notes: "Khóa học trả phí của PREP. Chỉ dùng để đối chiếu phạm vi từ vựng/ngữ pháp theo chủ đề; tự viết lại mọi câu, bài tập, giải thích. Không dùng video, hình, câu mẫu của khóa. Giải nén ở tai-lieu-nguon/tieng-anh/1. IELTS MẤT GỐC PREP.VN/. sha256 là của phần 007; bản đồ nội dung: skill english-content references/ban-do-tai-lieu.md §4."
+    notes: "Khóa học trả phí của PREP. Chỉ dùng để đối chiếu phạm vi từ vựng/ngữ pháp theo chủ đề; tự viết lại mọi câu, bài tập, giải thích. Không dùng video, hình, câu mẫu của khóa. Giải nén ở tai-lieu-nguon/tieng-anh/1. IELTS MẤT GỐC PREP.VN/. sha256 là của phần 007; bản đồ nội dung: skill english-content references/ban-do-tai-lieu.md §4. File gốc (7 zip + thư mục giải nén) ĐÃ XOÁ ngày 2026-09-29 theo yêu cầu người dùng; muốn đối chiếu lại phải tải lại."
