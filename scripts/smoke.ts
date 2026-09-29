@@ -33,6 +33,8 @@ const PAGES = [
   ["en-word", "/en/word/look-like--phr-v/"],
   ["en-words", "/en/words/"],
   ["en-flashcards", "/en/flashcards/"],
+  ["en-tests", "/en/kiem-tra/"],
+  ["en-test-final", "/en/kiem-tra/gd1-final/"],
   ["hsk1", "/zh/hsk/1/"],
   ["pinyin", "/zh/pinyin/"],
   ["lesson-vocab", `/zh/lesson/${LESSON}/`],
@@ -187,6 +189,22 @@ async function main() {
     await page.goto(url("/en/"), { waitUntil: "networkidle" });
     const enCard = await page.locator("ol li").nth(1).innerText();
     checks.push(`${/Bài tập 2\/\d+/.test(enCard) ? "PASS" : "FAIL"} tiếng Anh: trang lộ trình hiện tiến độ bài tập của Buổi 2 ("${enCard.replace(/\s+/g, " ").slice(0, 100)}")`);
+
+    current = "en-test";
+    await page.goto(url("/en/kiem-tra/gd1-mini-1/"), { waitUntil: "networkidle" });
+    await page.getByRole("button", { name: "Bắt đầu làm bài" }).click();
+    const timer = await page.getByText(/⏱ \d\d:\d\d/).count();
+    const firstMcq = page.locator("section").filter({ hasText: "Bài 1 · Trắc nghiệm" });
+    await firstMcq.getByRole("button", { name: "C. are" }).click(); // "My parents ___ teachers." → are
+    page.once("dialog", (d) => void d.accept());
+    await page.getByRole("button", { name: "Nộp bài" }).first().click();
+    await page.getByText(/Chưa đạt \(cần 80%\)/).waitFor({ timeout: 10_000 }).catch(() => undefined);
+    const failed = await page.getByText(/Chưa đạt \(cần 80%\)/).count();
+    const review = await page.getByText("Nên ôn lại:").count();
+    checks.push(`${timer > 0 && failed === 1 && review === 1 ? "PASS" : "FAIL"} kiểm tra: có đồng hồ, nộp bài chấm "Chưa đạt (cần 80%)" và chỉ ra buổi cần ôn`);
+    await page.goto(url("/en/kiem-tra/gd1-mini-1/"), { waitUntil: "networkidle" });
+    const history = await page.getByText(/Kết quả tốt nhất: \d+%/).count();
+    checks.push(`${history === 1 ? "PASS" : "FAIL"} kiểm tra: lần làm được lưu và hiện "Kết quả tốt nhất"`);
 
     current = "chooser";
     await page.goto(url("/"), { waitUntil: "networkidle" });

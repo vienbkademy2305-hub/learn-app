@@ -37,9 +37,10 @@ export function buildEnSnapshot(): EnContentSnapshot {
   const grammar = Object.fromEntries(live(data.grammar).map((g) => [g.id, strip(g)]));
   const sounds = Object.fromEntries(data.sounds.map((s) => [s.id, strip(s)]));
   const lessons = live(data.lessons).map((l) => strip(l));
+  const tests = live(data.tests).map((t) => strip(t));
   const publishable = data.sources.filter((s) => s.publishable).map((s) => ({ id: s.id, name: s.name, license: s.license, url: s.url ?? null }));
 
-  return { generatedAt: new Date().toISOString(), lessons, words, sentences, grammar, sounds, sources: publishable };
+  return { generatedAt: new Date().toISOString(), lessons, tests, words, sentences, grammar, sounds, sources: publishable };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(import.meta.filename)) {

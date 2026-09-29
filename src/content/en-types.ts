@@ -2,7 +2,7 @@
  * Shape of the English snapshot `.data/content/en.json` (importers/en/export.ts).
  * Item types mirror the YAML schema in importers/en/load.ts.
  */
-import type { Exercise, GrammarPoint, LexEntry, Lesson, Sentence, Sound, Step } from "../../importers/en/load";
+import type { EnTest as Test, Exercise, GrammarPoint, LexEntry, Lesson, Sentence, Sound, Step } from "../../importers/en/load";
 
 export type { Exercise, Step };
 export type EnWord = LexEntry & { slug: string; /** first lesson whose vocabulary lists it */ lesson: number | null };
@@ -10,10 +10,12 @@ export type EnSentence = Sentence;
 export type EnGrammar = GrammarPoint;
 export type EnLesson = Lesson;
 export type EnSound = Sound;
+export type EnTest = Test;
 
 export interface EnContentSnapshot {
   generatedAt: string;
   lessons: EnLesson[];
+  tests: EnTest[];
   words: Record<string, EnWord>;
   sentences: Record<string, EnSentence>;
   grammar: Record<string, EnGrammar>;

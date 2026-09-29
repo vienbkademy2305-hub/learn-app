@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { enLesson, enLessonNeighbors, enLessons, enLessonWords, enStep, enStepNeighbors } from "@/content/en";
+import { enTests } from "@/content/en-tests";
 import { HomeworkBox } from "@/features/en/HomeworkBox";
 import { StepFooter } from "@/features/lesson/StepFooter";
 
@@ -17,6 +18,9 @@ export default async function EnHomeworkPage({ params }: { params: Promise<{ slu
   const hw = enStep(lesson, "homework");
   const { back } = enStepNeighbors(lesson, "homework");
   const { next } = enLessonNeighbors(lesson.slug);
+  // after Buổi 5/10/15/20 the next step is the test of that block (the exit test after the last lesson of a stage)
+  const due = enTests().filter((t) => t.after_lesson === lesson.number);
+  const test = due.find((t) => t.kind === "mini") ?? due[0];
   return (
     <div className="space-y-4">
       {hw && (
@@ -29,7 +33,10 @@ export default async function EnHomeworkPage({ params }: { params: Promise<{ slu
           vocabulary={enLessonWords(lesson).map((w) => w.headword)}
         />
       )}
-      <StepFooter back={back} next={next ? { href: `/en/lesson/${next.slug}`, label: `Buổi ${next.number}` } : { href: "/en", label: "Về lộ trình" }} />
+      <StepFooter
+        back={back}
+        next={test ? { href: `/en/kiem-tra/${test.id}`, label: "Làm bài kiểm tra" } : next ? { href: `/en/lesson/${next.slug}`, label: `Buổi ${next.number}` } : { href: "/en", label: "Về lộ trình" }}
+      />
     </div>
   );
 }

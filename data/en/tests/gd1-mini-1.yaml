@@ -1,0 +1,68 @@
+# Kiểm tra ngắn 1 — sau Buổi 5 (Buổi 1–5). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd1-mini-1
+title_vi: "Kiểm tra ngắn 1: Buổi 1–5"
+stage: 1
+kind: mini
+after_lesson: 5
+minutes: 20
+pass_percent: 80
+intro_vi: "Ôn lại to be, hiện tại đơn, tính từ & so sánh hơn, There is/are, giới từ, ngày giờ và thói quen hằng ngày."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd1-mini-1-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "My parents ___ teachers.", options: [is, am, are, be], answer: c, lesson: 1 }
+          - { q: "This is ___ brother's car.", options: [I, me, my, mine], answer: c, lesson: 1 }
+          - { q: "My sister is ___ than me.", options: [more tall, taller, tallest, more taller], answer: b, lesson: 2 }
+          - { q: "___ two bathrooms in our house.", options: [There is, There are, It has, Have], answer: b, lesson: 3 }
+          - { q: "The cat is sleeping ___ the sofa.", options: [under, in front, between, next], answer: a, lesson: 3 }
+          - { q: "My birthday is ___ 5th June.", options: [in, at, on, for], answer: c, lesson: 4 }
+          - { q: "She ___ coffee in the morning.", options: [don't drink, doesn't drinks, doesn't drink, not drink], answer: c, lesson: 5 }
+          - { q: "___ do you get up? — At six.", options: [What time, How often, Where, Who], answer: a, lesson: 5 }
+      - id: gd1-mini-1-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở hiện tại đơn.
+        questions:
+          - { q: "My brother (watch) ___ TV every evening.", answer: watches, lesson: 5 }
+          - { q: "We (be) ___ from Hai Phong.", answer: are, lesson: 1 }
+          - { q: "(she / live) ___ with her parents?", answer: "Does she live", lesson: 5 }
+          - { q: "My father never (cook) ___ dinner.", answer: cooks, lesson: 5 }
+          - { q: "I (not / have) ___ any siblings.", answer: "don't have", accept: ["do not have"], lesson: 1 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd1-mini-1-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp.
+        bank: [nationality, shy, balcony, midnight, rarely, cousin]
+        questions:
+          - { q: "My aunt's son is my ___.", answer: cousin, lesson: 1 }
+          - { q: "I am Vietnamese. That is my ___.", answer: nationality, lesson: 1 }
+          - { q: "She doesn't like talking to new people. She is ___.", answer: shy, lesson: 2 }
+          - { q: "We sit on the ___ and look at the street.", answer: balcony, lesson: 3 }
+          - { q: "12 o'clock at night is ___.", answer: midnight, lesson: 4 }
+          - { q: "I ___ eat fast food — maybe once a year.", answer: rarely, lesson: 5 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd1-mini-1-x4
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến)."
+        passage: >-
+          Hoa is twenty-four and she works as a nurse in Hanoi. She lives in a small apartment on the fourth
+          floor with her cousin, Linh. Hoa usually gets up at half past five because her work starts at seven.
+          Linh is a student, and she always gets up late. At the weekend, the two girls go shopping together,
+          and Hoa often cooks a big dinner on Sunday evening.
+        questions:
+          - { q: "Hoa is a teacher.", answer: F, lesson: 1 }
+          - { q: "The apartment is on the fourth floor.", answer: T, lesson: 3 }
+          - { q: "Hoa's work starts at half past five.", answer: F, explain_vi: "Hoa DẬY lúc 5:30; công việc bắt đầu lúc 7:00.", lesson: 4 }
+          - { q: "Linh gets up early.", answer: F, explain_vi: "Người dậy sớm là Hoa; Linh luôn dậy muộn — chú ý chủ thể.", lesson: 5 }
+          - { q: "Linh studies at a university in Hanoi.", answer: NG, explain_vi: "Bài chỉ nói Linh là sinh viên, không nói học ở đâu.", lesson: 5 }

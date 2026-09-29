@@ -1,0 +1,64 @@
+# Kiểm tra ngắn 4 — sau Buổi 20 (Buổi 16–20). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd1-mini-4
+title_vi: "Kiểm tra ngắn 4: Buổi 16–20"
+stage: 1
+kind: mini
+after_lesson: 20
+minutes: 20
+pass_percent: 80
+intro_vi: "V + to-V / V-ing, tính từ -ed/-ing, trạng từ, mạo từ & giới từ cố định, câu bị động cơ bản."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd1-mini-4-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "I enjoy ___ in the rain.", options: [walk, to walk, walking, walked], answer: c, lesson: 16 }
+          - { q: "She decided ___ a new job.", options: [find, to find, finding, found], answer: b, lesson: 16 }
+          - { q: "The film was so ___ that I fell asleep.", options: [bored, boring, bore, boredly], answer: b, lesson: 17 }
+          - { q: "Please drive ___. The road is wet.", options: [careful, carefully, care, more careful], answer: b, lesson: 17 }
+          - { q: "She is ___ engineer.", options: [a, an, the, "—"], answer: b, lesson: 18 }
+          - { q: "I'm waiting ___ the bus.", options: [to, for, on, at], answer: b, lesson: 18 }
+          - { q: "English ___ in many countries.", options: [speaks, is speaking, is spoken, spoke], answer: c, lesson: 19 }
+          - { q: "This bridge ___ in 1998.", options: [built, was built, is build, were built], answer: b, lesson: 19 }
+      - id: gd1-mini-4-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu ở dạng bị động (giữ nguyên thì).
+        questions:
+          - { q: "People make this cheese in France.", answer: "This cheese is made in France.", lesson: 19 }
+          - { q: "My grandfather built our house.", answer: "Our house was built by my grandfather.", lesson: 19 }
+          - { q: "They clean the rooms every day.", answer: "The rooms are cleaned every day.", lesson: 19 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd1-mini-4-x3
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Điền dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "I was very ___ when I heard the news.", base: surprise, answer: surprised, lesson: 17 }
+          - { q: "The ending of the story is really ___.", base: surprise, answer: surprising, lesson: 17 }
+          - { q: "He speaks English ___.", base: good, answer: well, lesson: 17 }
+          - { q: "My hobby is ___. I take pictures everywhere.", base: photograph, answer: photography, lesson: 16 }
+          - { q: "I can't find my ___ for this website.", base: pass, answer: password, lesson: 18 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd1-mini-4-x4
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến)."
+        passage: >-
+          Nam loves playing football, and he practises with his team three times a week. Last month his team
+          won a big match, and Nam scored the winning goal. His sister, Mai, is not interested in sport. She
+          prefers reading and listening to music. The new stadium in their town was built last year, and it is
+          used for football matches and concerts.
+        questions:
+          - { q: "Nam practises football every day.", answer: F, lesson: 16 }
+          - { q: "Nam scored a goal in the big match.", answer: T, lesson: 16 }
+          - { q: "Mai enjoys playing sport.", answer: F, explain_vi: "Mai không thích thể thao — người mê bóng đá là Nam.", lesson: 17 }
+          - { q: "The stadium was built last year.", answer: T, lesson: 19 }
+          - { q: "Mai goes to concerts at the stadium.", answer: NG, explain_vi: "Bài chỉ nói sân được dùng cho hòa nhạc, không nói Mai có đi.", lesson: 16 }

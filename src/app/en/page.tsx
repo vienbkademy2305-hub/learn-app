@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { enContent, enLessonSteps, enStep } from "@/content/en";
+import { enTestCards } from "@/content/en-tests";
 import { EnSyncNote } from "@/features/en/EnSync";
+import { TestList } from "@/features/en/TestRunner";
 import { EnLessonList } from "@/features/en/LessonChrome";
 
 export default function EnglishHomePage() {
@@ -41,6 +43,19 @@ export default function EnglishHomePage() {
         </div>
         <div className="mt-5">
           <EnLessonList lessons={list} />
+        </div>
+      </section>
+
+      <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h2 className="text-xl font-bold text-stone-900">Kiểm tra</h2>
+            <p className="mt-1 text-sm text-stone-500">Kiểm tra ngắn sau mỗi 5 buổi và bài đầu ra cuối giai đoạn — đạt từ 80% để đi tiếp.</p>
+          </div>
+          <Link href="/en/kiem-tra" className="text-sm font-medium text-sky-800 hover:underline">Tất cả bài kiểm tra →</Link>
+        </div>
+        <div className="mt-5">
+          <TestList tests={enTestCards(1)} />
         </div>
       </section>
 

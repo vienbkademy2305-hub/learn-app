@@ -37,11 +37,22 @@ export interface GrammarPoint {
 }
 export interface Question {
   q?: string; answer?: string | number; accept?: string[]; options?: string[]; explain_vi?: string; base?: string;
+  /** tests only: the lesson that teaches what this question checks (weak-area report) */
+  lesson?: number;
 }
 export interface Exercise {
   id: string; bank_no: number; kind: string; instructions_vi: string; bank?: string[]; passage?: string; text?: string;
   max_words?: number; pairs?: Array<{ left: string; right: string }>; errors?: Array<{ wrong: string; right: string; why?: string }>;
   questions?: Question[]; cue_card?: { topic: string; points: string[] }; sample?: string;
+  /** tests only: default lesson for every question/pair/error of this exercise */
+  lesson?: number;
+}
+/** A stage test (data/en/tests/): a mini test after every 5 lessons and the stage exit test. */
+export interface EnTest {
+  id: string; title_vi: string; stage: number; kind: "mini" | "final"; after_lesson: number; minutes: number; pass_percent: number;
+  intro_vi?: string; source: string; status: string;
+  sections: Array<{ title_vi: string; exercises: Exercise[] }>;
+  writing?: { prompt_vi: string; prompt_en?: string; words: { min: number; max: number } };
 }
 /** One of the 44 English phonemes (data/en/sounds.yaml). */
 export interface Sound {
@@ -69,6 +80,7 @@ export interface EnglishData {
   sentences: Located<Sentence>[];
   grammar: Located<GrammarPoint>[];
   lessons: Located<Lesson>[];
+  tests: Located<EnTest>[];
   sounds: Located<Sound>[];
   /** file-level `source` / `status` of sounds.yaml */
   soundsMeta: { source?: string; status?: string };
@@ -84,7 +96,7 @@ function yamlFiles(dir: string): string[] {
 }
 
 export function loadEnglish(root = DEFAULT_ROOT): EnglishData {
-  const data: EnglishData = { root, sources: [], lexicon: [], sentences: [], grammar: [], lessons: [], sounds: [], soundsMeta: {}, parseErrors: [] };
+  const data: EnglishData = { root, sources: [], lexicon: [], sentences: [], grammar: [], lessons: [], tests: [], sounds: [], soundsMeta: {}, parseErrors: [] };
   const read = (file: string): Record<string, unknown> | null => {
     try {
       return (YAML.parse(readFileSync(file, "utf8")) ?? {}) as Record<string, unknown>;
@@ -113,7 +125,12 @@ export function loadEnglish(root = DEFAULT_ROOT): EnglishData {
     const doc = read(f);
     if (doc) data.lessons.push({ ...(doc as unknown as Lesson), file: `lessons/${path.basename(f)}` });
   }
+  for (const f of yamlFiles(path.join(root, "tests"))) {
+    const doc = read(f);
+    if (doc) data.tests.push({ ...(doc as unknown as EnTest), file: `tests/${path.basename(f)}` });
+  }
   data.lessons.sort((a, b) => a.number - b.number);
+  data.tests.sort((a, b) => a.stage - b.stage || a.after_lesson - b.after_lesson || (a.kind === "final" ? 1 : -1));
   return data;
 }
 
@@ -291,6 +308,32 @@ export function validateEnglish(data: EnglishData): { errors: string[]; warnings
         if (!ex.instructions_vi) err(we, "instructions_vi is required");
         checkExercise(we, ex, err);
       }
+    }
+  }
+
+  const testExerciseIds = new Set<string>();
+  const lessonNumbers = new Set(data.lessons.map((l) => l.number));
+  for (const t of data.tests) {
+    const w = `${t.file} ${t.id}`;
+    if (!/^gd\d-(mini-\d|final)$/.test(t.id ?? "")) err(w, "test id must look like gd1-mini-1 or gd1-final");
+    if (`tests/${t.id}.yaml` !== t.file) err(w, `file name must be ${t.id}.yaml`);
+    if (!["mini", "final"].includes(t.kind)) err(w, "kind must be mini/final");
+    if (!(t.minutes > 0) || !(t.pass_percent > 0 && t.pass_percent <= 100)) err(w, "minutes and pass_percent are required");
+    if (!lessonNumbers.has(t.after_lesson)) err(w, `after_lesson ${t.after_lesson} is not a lesson`);
+    checkStatus(w, t.status);
+    checkContentSource(w, t.source);
+    const idPattern = new RegExp(`^${t.id}-x\\d+$`);
+    for (const sec of t.sections ?? []) for (const ex of sec.exercises ?? []) {
+      const we = `${w} ${ex.id}`;
+      if (!idPattern.test(ex.id ?? "")) err(we, `exercise id must look like ${t.id}-x1`);
+      else if (testExerciseIds.has(ex.id)) err(we, "duplicate exercise id");
+      testExerciseIds.add(ex.id);
+      if (ex.kind.startsWith("speaking")) err(we, "speaking exercises cannot be auto-graded in a test");
+      checkExercise(we, ex, err);
+      const tags = [ex.lesson, ...(ex.questions ?? []).map((q) => q.lesson)].filter((n): n is number => n !== undefined);
+      for (const n of tags) if (!lessonNumbers.has(n) || n > t.after_lesson) err(we, `lesson tag ${n} must be a lesson ≤ ${t.after_lesson}`);
+      if (ex.lesson === undefined && (!(ex.questions ?? []).length || (ex.questions ?? []).some((q) => q.lesson === undefined)))
+        err(we, "every question needs a lesson tag (exercise.lesson or question.lesson)");
     }
   }
 

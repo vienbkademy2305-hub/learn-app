@@ -19,11 +19,24 @@ export interface EnProgress {
   homework: Record<string, { text: string; done: boolean; at: string }>;
   /** lexicon id → flashcard Leitner box (same schedule as the Chinese notebook) */
   cards: Record<string, { box: number; due: string; reviews: number }>;
+  /** test id → every attempt (newest last) */
+  tests: Record<string, TestAttempt[]>;
+}
+
+export interface TestAttempt {
+  at: string;
+  correct: number;
+  total: number;
+  percent: number;
+  passed: boolean;
+  seconds: number;
+  /** lesson number → [correct, total] for this attempt */
+  byLesson: Record<string, [number, number]>;
 }
 
 const GUEST_KEY = "chinese-app:en:progress:v1";
 const userKey = (uid: string) => `${GUEST_KEY}:user:${uid}`;
-export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {} };
+export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {}, tests: {} };
 const listeners = new Set<() => void>();
 let scope: string | null = null;
 let current: EnProgress | null = null;
@@ -31,9 +44,19 @@ let changeHook: ((state: EnProgress, updatedAt: string) => void) | null = null;
 
 export function parseEnProgress(raw: unknown): EnProgress {
   const r = (raw && typeof raw === "object" ? raw : {}) as Partial<EnProgress>;
-  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {} };
+  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {}, tests: r.tests ?? {} };
 }
-export const isEmptyEn = (p: EnProgress) => !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length;
+export const isEmptyEn = (p: EnProgress) =>
+  !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length && !Object.keys(p.tests).length;
+
+export const saveTestAttempt = (id: string, attempt: TestAttempt) => (p: EnProgress): EnProgress => ({
+  ...p,
+  tests: { ...p.tests, [id]: [...(p.tests[id] ?? []), attempt].slice(-20) },
+});
+
+/** Best attempt of a test (highest percent), if any. */
+export const bestAttempt = (p: EnProgress, id: string): TestAttempt | undefined =>
+  (p.tests[id] ?? []).reduce<TestAttempt | undefined>((best, a) => (!best || a.percent > best.percent ? a : best), undefined);
 
 function load(key: string): unknown {
   try {

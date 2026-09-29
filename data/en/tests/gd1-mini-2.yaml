@@ -1,0 +1,59 @@
+# Kiểm tra ngắn 2 — sau Buổi 10 (Buổi 6–10, có ôn Buổi 1–5). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd1-mini-2
+title_vi: "Kiểm tra ngắn 2: Buổi 6–10"
+stage: 1
+kind: mini
+after_lesson: 10
+minutes: 20
+pass_percent: 80
+intro_vi: "Hiện tại tiếp diễn, phân biệt với hiện tại đơn, danh từ đếm được & lượng từ, so sánh nhất, phương tiện và chỉ đường."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd1-mini-2-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "Be quiet! The baby ___.", options: [sleeps, is sleeping, sleep, are sleeping], answer: b, lesson: 6 }
+          - { q: "I ___ this song. It's great!", options: [am loving, love, loving, am love], answer: b, explain_vi: "love là động từ trạng thái, không dùng tiếp diễn.", lesson: 7 }
+          - { q: "How ___ water do you drink a day?", options: [many, much, a few, few], answer: b, lesson: 8 }
+          - { q: "Can I have ___ sugar in my coffee?", options: [a few, a little, many, an], answer: b, lesson: 8 }
+          - { q: "This is ___ restaurant in our town.", options: [the cheaper, cheapest, the cheapest, more cheap], answer: c, lesson: 9 }
+          - { q: "My phone is not ___ yours.", options: [as expensive as, expensive than, as expensive than, the most expensive], answer: a, lesson: 9 }
+          - { q: "I usually go to work ___ bus.", options: [on, in, by, with], answer: c, lesson: 10 }
+          - { q: "Walk ___ the bridge and you can see the market.", options: [across, through, into, on], answer: a, lesson: 10 }
+      - id: gd1-mini-2-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ ở hiện tại đơn hoặc hiện tại tiếp diễn.
+        questions:
+          - { q: "Look! It (rain) ___.", answer: "is raining", accept: ["'s raining"], lesson: 6 }
+          - { q: "My mother usually (work) ___ at a hospital.", answer: works, lesson: 7 }
+          - { q: "This week she (work) ___ from home.", answer: "is working", accept: ["'s working"], lesson: 7 }
+          - { q: "What (you / do) ___ now? — I'm doing my homework.", answer: "are you doing", lesson: 6 }
+          - { q: "He (not / understand) ___ the question.", answer: "doesn't understand", accept: ["does not understand"], lesson: 7 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd1-mini-2-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp.
+        bank: [exam, colleague, vegetables, discount, traffic jam, receptionist]
+        questions:
+          - { q: "I have a maths ___ tomorrow, so I'm studying tonight.", answer: exam, lesson: 6 }
+          - { q: "The ___ at the hotel gives us the key to our room.", answer: receptionist, lesson: 7 }
+          - { q: "My ___ and I work in the same office.", answer: colleague, lesson: 7 }
+          - { q: "You should eat more fruit and ___.", answer: vegetables, lesson: 8 }
+          - { q: "Everything in the shop has a 20% ___ today.", answer: discount, lesson: 9 }
+          - { q: "I'm late because there is a big ___ on the main road.", answer: traffic jam, lesson: 10 }
+  - title_vi: Nghe
+    exercises:
+      - id: gd1-mini-2-x4
+        bank_no: 23
+        kind: dictation
+        lesson: 10
+        instructions_vi: "Nghe và chép lại (nghe tối đa 3 lần)."
+        text: "Every morning I catch the bus at the corner. It is crowded, so I often stand. The journey takes thirty minutes."

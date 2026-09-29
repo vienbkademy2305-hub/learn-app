@@ -3,9 +3,10 @@
  * English exercises (ENGLISH_SPLIT_PLAN E3): one card per exercise, graded in the browser by
  * src/domain/en-grade.ts; the best score of each exercise is kept in the English progress store.
  */
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { Exercise } from "@/content/en-types";
 import { gradeCorrection, gradeDictation, isCorrect, mcqIndex } from "@/domain/en-grade";
+import { DICTATION_POINTS } from "@/domain/en-test";
 import { saveScore, useEnProgress } from "./progress";
 import { Say } from "./speech";
 
@@ -36,7 +37,11 @@ export function ExerciseSet({ exercises }: { exercises: Exercise[] }) {
 
 type Result = { ok: boolean[]; correct: number; total: number };
 
-function ExerciseCard({ ex, index, best }: { ex: Exercise; index: number; best?: { correct: number; total: number } }) {
+/** In a stage test the card has no own "Kiểm tra" button: it is graded when the whole test is submitted. */
+export type TestMode = { submitted: boolean; onResult: (id: string, ok: boolean[]) => void };
+
+
+export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: number; best?: { correct: number; total: number }; test?: TestMode }) {
   const [, update] = useEnProgress();
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [text, setText] = useState(ex.kind === "error-correction" ? (ex.text ?? "") : "");
@@ -67,7 +72,11 @@ function ExerciseCard({ ex, index, best }: { ex: Exercise; index: number; best?:
     total = ok.length;
     correct = ok.filter(Boolean).length;
     setResult({ ok, correct, total });
-    update(saveScore(ex.id, correct, total));
+    if (test) {
+      // a dictation of 25 words would outweigh everything else: scale it to a fixed number of points
+      const scored = ex.kind === "dictation" ? Array.from({ length: DICTATION_POINTS }, (_, i) => i < Math.round((correct / Math.max(total, 1)) * DICTATION_POINTS)) : ok;
+      test.onResult(ex.id, scored);
+    } else update(saveScore(ex.id, correct, total));
   };
 
   const reset = () => {
@@ -78,6 +87,13 @@ function ExerciseCard({ ex, index, best }: { ex: Exercise; index: number; best?:
   };
 
   const mark = (i: number) => (result ? (result.ok[i] ? "ring-jade-600 bg-jade-50" : "ring-red-400 bg-red-50") : "ring-stone-300 bg-white");
+
+  // Test mode: grade once, when the whole test is submitted.
+  const submitted = test?.submitted ?? false;
+  useEffect(() => {
+    if (submitted && !result) check();
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- run once on submit
+  }, [submitted]);
 
   return (
     <section key={attempt} className="space-y-4 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
@@ -301,7 +317,13 @@ function ExerciseCard({ ex, index, best }: { ex: Exercise; index: number; best?:
         </div>
       )}
 
-      {!speaking && (
+      {test && result && (
+        <p className={`text-lg font-bold ${result.correct === result.total ? "text-jade-700" : "text-stone-900"}`}>
+          {result.correct}/{result.total}
+        </p>
+      )}
+
+      {!speaking && !test && (
         <footer className="flex flex-wrap items-center gap-3">
           {!result ? (
             <button type="button" onClick={check} className="rounded-xl bg-sky-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-sky-800">

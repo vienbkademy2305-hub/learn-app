@@ -1,0 +1,140 @@
+# Kiểm tra đầu ra Giai đoạn 1 (Buổi 1–20). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd1-final
+title_vi: "Kiểm tra đầu ra Giai đoạn 1"
+stage: 1
+kind: final
+after_lesson: 20
+minutes: 60
+pass_percent: 80
+intro_vi: >-
+  Bài kiểm tra tổng hợp 20 buổi của Giai đoạn 1: từ vựng, ngữ pháp, đọc hiểu, nghe và viết. Đạt từ 80% phần
+  chấm tự động trở lên thì sẵn sàng sang Giai đoạn 2. Phần viết không chấm tự động — tự đối chiếu gợi ý hoặc nhờ
+  gia sư chấm.
+source: editorial
+status: draft
+sections:
+  - title_vi: "Phần 1 · Từ vựng"
+    exercises:
+      - id: gd1-final-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank: [niece, curly, garage, twelfth, housework, timetable, salary, bread, cheapest, helmet]
+        questions:
+          - { q: "My sister's daughter is my ___.", answer: niece, lesson: 1 }
+          - { q: "Her hair isn't straight. It's ___.", answer: curly, lesson: 2 }
+          - { q: "We park the car in the ___.", answer: garage, lesson: 3 }
+          - { q: "December is the ___ month of the year.", answer: twelfth, lesson: 4 }
+          - { q: "My husband and I share the ___: he cooks and I clean.", answer: housework, lesson: 5 }
+          - { q: "Check the ___ to see when your English class is.", answer: timetable, lesson: 6 }
+          - { q: "She has a good job with a high ___.", answer: salary, lesson: 7 }
+          - { q: "I have ___ and eggs for breakfast.", answer: bread, lesson: 8 }
+          - { q: "This is the ___ phone in the shop — only 2 million dong.", answer: cheapest, lesson: 9 }
+          - { q: "Always wear a ___ when you ride a motorbike.", answer: helmet, lesson: 10 }
+      - id: gd1-final-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn từ đúng nghĩa với câu.
+        questions:
+          - { q: "It's very hot and wet in Saigon in June. It's ___.", options: [humid, freezing, windy, foggy], answer: a, lesson: 11 }
+          - { q: "I have a ___. My temperature is 39 degrees.", options: [cough, fever, headache, flu], answer: b, lesson: 12 }
+          - { q: "I bought a small ___ for my mother in Hoi An.", options: [passport, luggage, souvenir, flight], answer: c, lesson: 13 }
+          - { q: "I ___ my wallet on the bus. I can't find it now.", options: [lost, found, broke, met], answer: a, lesson: 14 }
+          - { q: "My ___ is to get IELTS 6.5 in two years.", options: [career, goal, future, plan], answer: b, lesson: 15 }
+          - { q: "Our team ___ the match 2–1!", options: [won, scored, played, beat], answer: a, lesson: 16 }
+          - { q: "I was ___ when I saw a spider in my shoe.", options: [frightening, frightened, boring, relaxed], answer: b, lesson: 17 }
+          - { q: "Can you download the ___ on your smartphone?", options: [app, screen, internet, online], answer: a, lesson: 18 }
+  - title_vi: "Phần 2 · Ngữ pháp"
+    exercises:
+      - id: gd1-final-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "Is this your pen? — Yes, it's ___.", options: [my, me, mine, I], answer: c, lesson: 1 }
+          - { q: "She has ___ hair.", options: [black long beautiful, beautiful long black, long black beautiful, black beautiful long], answer: b, lesson: 2 }
+          - { q: "There ___ a sofa and two chairs in the room.", options: [is, are, be, have], answer: a, lesson: 3 }
+          - { q: "I study English ___ two hours every day.", options: [during, for, in, since], answer: b, lesson: 4 }
+          - { q: "Where ___ your brother work?", options: [do, is, does, are], answer: c, lesson: 5 }
+          - { q: "Listen! Somebody ___ at the door.", options: [knocks, is knocking, knock, knocked], answer: b, lesson: 6 }
+          - { q: "I ___ what you mean.", options: [am understanding, understand, understands, understanding], answer: b, lesson: 7 }
+          - { q: "There isn't ___ rice left.", options: [many, much, a few, few], answer: b, lesson: 8 }
+          - { q: "Ha Long Bay is one of ___ places in Vietnam.", options: [the most beautiful, more beautiful, most beautiful, the beautifulest], answer: a, lesson: 9 }
+          - { q: "She goes to school ___ foot.", options: [by, on, in, with], answer: b, lesson: 10 }
+          - { q: "He is good ___ drawing.", options: [in, on, at, for], answer: c, lesson: 11 }
+          - { q: "It's free. You ___ pay.", options: [mustn't, don't have to, shouldn't, can't], answer: b, lesson: 12 }
+          - { q: "___ you enjoy the trip to Hue?", options: [Do, Did, Were, Was], answer: b, lesson: 13 }
+          - { q: "While she ___ TV, the lights went out.", options: [watched, was watching, is watching, watches], answer: b, lesson: 14 }
+          - { q: "A: The phone is ringing. — B: I ___ answer it.", options: ["'ll", am going to, going to, will to], answer: a, lesson: 15 }
+          - { q: "He wants ___ a doctor.", options: [become, becoming, to become, became], answer: c, lesson: 16 }
+          - { q: "She sings ___.", options: [beautiful, beautifully, beauty, more beautiful], answer: b, lesson: 17 }
+          - { q: "My father is ___ engineer at ___ big company.", options: ["an / a", "a / an", "the / a", "an / the"], answer: a, lesson: 18 }
+          - { q: "Rice ___ in many parts of Vietnam.", options: [grows, is grown, grown, is growing], answer: b, lesson: 19 }
+      - id: gd1-final-x4
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở thì đúng.
+        questions:
+          - { q: "My sister (study) ___ economics at university. She loves it.", answer: studies, lesson: 5 }
+          - { q: "Look! The children (play) ___ in the garden.", answer: "are playing", accept: ["'re playing"], lesson: 6 }
+          - { q: "Last year we (travel) ___ to Japan.", answer: travelled, accept: [traveled], lesson: 13 }
+          - { q: "I (see) ___ an old friend at the market yesterday.", answer: saw, lesson: 14 }
+          - { q: "Next weekend we (visit) ___ our grandparents. We bought the tickets.", answer: "are going to visit", accept: ["'re going to visit", "are visiting"], lesson: 15 }
+          - { q: "I don't mind (get) ___ up early.", answer: getting, lesson: 16 }
+          - { q: "This bridge (build) ___ in 2010.", answer: "was built", lesson: 19 }
+      - id: gd1-final-x5
+        bank_no: 7
+        kind: error-correction
+        lesson: 18
+        instructions_vi: "Đoạn văn có 6 lỗi thường gặp của người Việt (mạo từ, giới từ, -s, to be). Tìm và sửa."
+        text: "My name is Lan and i am from Da Nang. I am teacher at a small school. I have two brother. In my free time, I listen music and I read books on internet. My brother is interested on football."
+        errors:
+          - { wrong: "and i am", right: "and I am", why: "I luôn viết hoa." }
+          - { wrong: "I am teacher", right: "I am a teacher", why: "Nghề nghiệp cần a/an." }
+          - { wrong: "two brother", right: "two brothers", why: "Số nhiều thêm -s." }
+          - { wrong: "listen music", right: "listen to music", why: "listen to." }
+          - { wrong: "on internet", right: "on the internet", why: "the internet." }
+          - { wrong: "interested on", right: "interested in", why: "interested in." }
+  - title_vi: "Phần 3 · Đọc hiểu"
+    exercises:
+      - id: gd1-final-x6
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc bài rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến)."
+        passage: >-
+          Minh is thirty-two and he works as an accountant in Ho Chi Minh City. Every morning he takes the bus to
+          work because the traffic is terrible and he doesn't like driving. Last year Minh was often tired and he
+          had back pain, so his doctor told him to exercise more. Now Minh goes swimming twice a week and he
+          plays badminton with his colleagues on Saturday. His wife, Thu, is a nurse. She works at night, so she
+          sleeps during the day. Next summer, the family is going to travel to Nha Trang for a week.
+        questions:
+          - { q: "Minh drives to work every morning.", answer: F, lesson: 10 }
+          - { q: "Minh had back pain last year.", answer: T, lesson: 12 }
+          - { q: "Minh goes swimming every day.", answer: F, explain_vi: "Anh ấy đi bơi hai lần một tuần.", lesson: 5 }
+          - { q: "Minh's colleagues play badminton with him.", answer: T, lesson: 16 }
+          - { q: "Thu works during the day.", answer: F, explain_vi: "Thu làm đêm, ngủ ban ngày — chú ý chủ thể: Thu, không phải Minh.", lesson: 4 }
+          - { q: "The family went to Nha Trang last summer.", answer: NG, explain_vi: "Bài chỉ nói hè TỚI họ sẽ đi; không nói gì về hè năm ngoái.", lesson: 15 }
+      - id: gd1-final-x7
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc lại bài trên và điền KHÔNG QUÁ HAI TỪ vào mỗi chỗ trống."
+        max_words: 2
+        passage: >-
+          (Dùng bài đọc ở trên.)
+        questions:
+          - { q: "Minh works as ___.", answer: an accountant, accept: [accountant], lesson: 7 }
+          - { q: "Minh doesn't drive because the ___ is terrible.", answer: traffic, lesson: 10 }
+          - { q: "Thu sleeps ___ the day.", answer: during, lesson: 4 }
+          - { q: "The family is going to stay in Nha Trang for ___.", answer: a week, accept: [one week], lesson: 15 }
+  - title_vi: "Phần 4 · Nghe"
+    exercises:
+      - id: gd1-final-x8
+        bank_no: 23
+        kind: dictation
+        lesson: 13
+        instructions_vi: "Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -s, -ed và mạo từ."
+        text: "Last weekend my family visited a small village in the north. We stayed in a wooden house and walked along the river. The people there were very friendly."
+writing:
+  prompt_vi: "Phần 5 · Viết (không chấm tự động): Viết đoạn văn 100–120 từ giới thiệu bản thân, gia đình, một ngày bình thường của bạn và kế hoạch học tiếng Anh sắp tới. Dùng ít nhất 3 thì khác nhau."
+  prompt_en: "Write about yourself, your family, your daily routine and your plans for learning English."
+  words: { min: 100, max: 120 }

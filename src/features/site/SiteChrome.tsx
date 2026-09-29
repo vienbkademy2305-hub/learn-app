@@ -30,6 +30,7 @@ const NAV: Record<Lang, Array<{ href: string; short: string; long: string; deskt
     { href: "/en", short: "Lộ trình", long: "Lộ trình IELTS" },
     { href: "/en/words", short: "Kho từ", long: "Kho từ vựng" },
     { href: "/en/flashcards", short: "Ôn từ", long: "Ôn flashcard" },
+    { href: "/en/kiem-tra", short: "Kiểm tra", long: "Kiểm tra", desktopOnly: true },
   ],
 };
 

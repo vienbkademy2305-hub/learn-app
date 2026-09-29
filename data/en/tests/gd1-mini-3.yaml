@@ -1,0 +1,65 @@
+# Kiểm tra ngắn 3 — sau Buổi 15 (Buổi 11–15). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd1-mini-3
+title_vi: "Kiểm tra ngắn 3: Buổi 11–15"
+stage: 1
+kind: mini
+after_lesson: 15
+minutes: 20
+pass_percent: 80
+intro_vi: "Tính từ + giới từ, It, should/must/have to, câu mệnh lệnh, quá khứ đơn & quá khứ tiếp diễn, hai tân ngữ, will / be going to."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd1-mini-3-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "My son is afraid ___ the dark.", options: [with, of, about, at], answer: b, lesson: 11 }
+          - { q: "___ takes me ten minutes to walk to school.", options: [This, There, It, That], answer: c, lesson: 11 }
+          - { q: "You look tired. You ___ go to bed early.", options: [should, mustn't, don't have to, shouldn't], answer: a, lesson: 12 }
+          - { q: "___ late for the exam!", options: [Not be, Don't be, Don't, No be], answer: b, lesson: 12 }
+          - { q: "We ___ to Da Lat last summer.", options: [go, goes, went, going], answer: c, lesson: 14 }
+          - { q: "I was cooking dinner when the phone ___.", options: [rang, was ringing, rings, ring], answer: a, lesson: 14 }
+          - { q: "My uncle gave ___ for my birthday.", options: [to me a book, me a book, a book me, me to a book], answer: b, lesson: 14 }
+          - { q: "Look at those clouds! It ___ rain.", options: [will, is going to, going to, rains], answer: b, lesson: 15 }
+      - id: gd1-mini-3-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở thì phù hợp.
+        questions:
+          - { q: "Yesterday we (visit) ___ the museum.", answer: visited, lesson: 13 }
+          - { q: "They (be) ___ very tired after the trip.", answer: were, lesson: 13 }
+          - { q: "While I (walk) ___ home, it started to rain.", answer: "was walking", lesson: 14 }
+          - { q: "She (not / buy) ___ anything at the market.", answer: "didn't buy", accept: ["did not buy"], lesson: 14 }
+          - { q: "Next year I (study) ___ in Australia. I have a place at a university.", answer: "am going to study", accept: ["'m going to study"], lesson: 15 }
+          - { q: "It's cold. I (close) ___ the window.", answer: "'ll close", accept: ["will close"], lesson: 15 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd1-mini-3-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp.
+        bank: [forecast, headache, knee, luggage, suddenly, promise]
+        questions:
+          - { q: "The weather ___ says it's sunny tomorrow.", answer: forecast, lesson: 11 }
+          - { q: "I have a ___. Can I have some medicine?", answer: headache, lesson: 12 }
+          - { q: "He fell over and hurt his ___.", answer: knee, lesson: 12 }
+          - { q: "Our ___ was very heavy — three big bags!", answer: luggage, lesson: 13 }
+          - { q: "We were talking when ___ the lights went out.", answer: suddenly, lesson: 14 }
+          - { q: "I ___ I'll call you tonight.", answer: promise, lesson: 15 }
+  - title_vi: Viết đúng
+    exercises:
+      - id: gd1-mini-3-x4
+        bank_no: 7
+        kind: error-correction
+        lesson: 14
+        instructions_vi: Đoạn văn dưới đây có 4 lỗi về thì quá khứ. Tìm và sửa.
+        text: "Last Sunday I goed to the beach with my friends. We was very happy. While we swimming, it started to rain. We didn't brought umbrellas, so we ran to a café."
+        errors:
+          - { wrong: "I goed", right: "I went", why: "go → went." }
+          - { wrong: "We was", right: "We were", why: "We → were." }
+          - { wrong: "While we swimming", right: "While we were swimming", why: "Quá khứ tiếp diễn: was/were + V-ing." }
+          - { wrong: "didn't brought", right: "didn't bring", why: "Sau didn't dùng nguyên mẫu." }
