@@ -840,3 +840,290 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catchy, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catchy, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: country|n
+    headword: country
+    pos: n
+    forms:
+      plural: countries
+    ipa:
+      uk: /ˈkʌn.tri/
+      us: /ˈkʌn.tri/
+    cefr: A1
+    meaning_vi:
+      - đất nước
+      - quốc gia
+    notes_vi:
+      - "the country còn nghĩa là 'nông thôn': live in the country."
+    topics:
+      - personal-info
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/country, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/country, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/country, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: chinese|adj
+    headword: Chinese
+    pos: adj
+    ipa:
+      uk: /tʃaɪˈniːz/
+      us: /tʃaɪˈniːz/
+    stress: chi-NESE
+    cefr: null
+    meaning_vi:
+      - (thuộc) Trung Quốc, tiếng Trung
+    notes_vi:
+      - "Nước: China."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chinese, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chinese, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cousin|n
+    headword: cousin
+    pos: n
+    ipa:
+      uk: /ˈkʌz.ən/
+      us: /ˈkʌz.ən/
+    stress: COU-sin
+    cefr: A1
+    meaning_vi:
+      - anh chị em họ
+    notes_vi:
+      - "ou đọc /ʌ/: COUZ-ơn, không đọc 'cao-sin'."
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cousin, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cousin, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cousin, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cotton|n
+    headword: cotton
+    pos: n
+    ipa:
+      uk: /ˈkɒt.ən/
+      us: /ˈkɑː.t̬ən/
+    cefr: B1
+    meaning_vi:
+      - vải bông
+      - cotton
+    topics:
+      - materials
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cotton, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cotton, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cotton, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: colour|n
+    headword: colour
+    pos: n
+    ipa:
+      uk: /ˈkʌl.ə/
+      us: /ˈkʌl.ɚ/
+    cefr: A1
+    meaning_vi:
+      - màu sắc
+    notes_vi:
+      - "Anh-Mỹ viết color. Hỏi màu: What colour is it?"
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colour, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colour, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colour, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: carpet|n
+    headword: carpet
+    pos: n
+    ipa:
+      uk: /ˈkɑː.pɪt/
+      us: /ˈkɑːr.pɪt/
+    cefr: A2
+    meaning_vi:
+      - tấm thảm
+    topics:
+      - home
+      - furniture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carpet, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carpet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carpet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: come-home|colloc
+    headword: come home
+    pos: colloc
+    ipa:
+      uk: /ˌkʌm ˈhəʊm/
+      us: /ˌkʌm ˈhoʊm/
+    cefr: null
+    meaning_vi:
+      - về nhà
+    notes_vi:
+      - "Không có to: come home, go home (không nói *go to home*)."
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: corner|n
+    headword: corner
+    pos: n
+    ipa:
+      uk: /ˈkɔː.nə/
+      us: /ˈkɔːr.nɚ/
+    cefr: A2
+    meaning_vi:
+      - góc (phố, phòng)
+    collocations:
+      - on the corner
+      - at the corner of the street
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/corner, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/corner, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/corner, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: catch|v
+    headword: catch
+    pos: v
+    forms:
+      past: caught
+      pp: caught
+      3sg: catches
+    ipa:
+      uk: /kætʃ/
+      us: /kætʃ/
+    cefr: A2
+    meaning_vi:
+      - bắt (xe)
+      - đón (xe)
+    collocations:
+      - catch the bus
+      - catch a train
+      - catch a cold
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catch, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catch, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catch, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cat|n
+    headword: cat
+    pos: n
+    ipa:
+      uk: /kæt/
+      us: /kæt/
+    cefr: A1
+    meaning_vi:
+      - con mèo
+    notes_vi:
+      - /æ/ mở miệng rộng; âm cuối /t/ phải bật nhẹ.
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cat, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cat, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cat, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cow|n
+    headword: cow
+    pos: n
+    ipa:
+      uk: /kaʊ/
+      us: /kaʊ/
+    cefr: A1
+    meaning_vi:
+      - con bò (cái)
+    notes_vi:
+      - Thịt bò là beef (Buổi 8), con bò là cow.
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cow, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cow, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cow, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: coach|n
+    headword: coach
+    pos: n
+    ipa:
+      uk: /kəʊtʃ/
+      us: /koʊtʃ/
+    cefr: A2
+    meaning_vi:
+      - huấn luyện viên
+    notes_vi:
+      - "Anh-Anh: coach còn nghĩa là xe khách đường dài."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coach, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coach, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coach, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: carefully|adv
+    headword: carefully
+    pos: adv
+    ipa:
+      uk: /ˈkeə.fəl.i/
+      us: /ˈker.fəl.i/
+    cefr: A2
+    meaning_vi:
+      - cẩn thận
+    collocations:
+      - drive carefully
+      - listen carefully
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-29, field: ipa.us }
+    status: draft

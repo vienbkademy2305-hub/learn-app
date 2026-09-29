@@ -480,3 +480,64 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handmade, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handmade, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: horse|n
+    headword: horse
+    pos: n
+    ipa:
+      uk: /hɔːs/
+      us: /hɔːrs/
+    cefr: A1
+    meaning_vi:
+      - con ngựa
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/horse, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/horse, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/horse, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: head|n
+    headword: head
+    pos: n
+    ipa:
+      uk: /hed/
+      us: /hed/
+    cefr: A1
+    meaning_vi:
+      - cái đầu
+    topics:
+      - body
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/head, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/head, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/head, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hand|n
+    headword: hand
+    pos: n
+    ipa:
+      uk: /hænd/
+      us: /hænd/
+    cefr: A1
+    meaning_vi:
+      - bàn tay
+    collocations:
+      - wash your hands
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-29, field: ipa.us }
+    status: draft

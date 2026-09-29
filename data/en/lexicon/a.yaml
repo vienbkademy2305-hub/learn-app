@@ -466,3 +466,201 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: american|adj
+    headword: American
+    pos: adj
+    ipa:
+      uk: /əˈmer.ɪ.kən/
+      us: /əˈmer.ɪ.kən/
+    stress: a-ME-ri-can
+    cefr: null
+    meaning_vi:
+      - (thuộc) Mỹ, người Mỹ
+    notes_vi:
+      - "Nước: the USA / America. Người Mỹ nói tiếng Anh (English), không phải *American language*."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: aunt|n
+    headword: aunt
+    pos: n
+    ipa:
+      uk: /ɑːnt/
+      us: /ænt/
+    cefr: A1
+    meaning_vi:
+      - cô
+      - dì
+      - bác gái
+      - thím
+      - mợ
+    notes_vi:
+      - Tiếng Anh gộp mọi 'cô/dì/bác gái/thím/mợ' thành aunt.
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: a-few|det
+    headword: a few
+    pos: det
+    ipa:
+      uk: /ə ˈfjuː/
+      us: /ə ˈfjuː/
+    cefr: null
+    meaning_vi:
+      - một vài (đếm được)
+    notes_vi:
+      - "a few + danh từ số nhiều: a few eggs. few (không có a) = rất ít, gần như không."
+    topics:
+      - food
+      - quantity
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: a-little|det
+    headword: a little
+    pos: det
+    ipa:
+      uk: /ə ˈlɪt.əl/
+      us: /ə ˈlɪt̬.əl/
+    cefr: null
+    meaning_vi:
+      - một chút (không đếm được)
+    notes_vi:
+      - "a little + danh từ không đếm được: a little sugar."
+    topics:
+      - food
+      - quantity
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: along|prep
+    headword: along
+    pos: prep
+    ipa:
+      uk: /əˈlɒŋ/
+      us: /əˈlɑːŋ/
+    cefr: A2
+    meaning_vi:
+      - dọc theo
+    collocations:
+      - walk along the river
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: across|prep
+    headword: across
+    pos: prep
+    ipa:
+      uk: /əˈkrɒs/
+      us: /əˈkrɑːs/
+    cefr: A1
+    meaning_vi:
+      - băng qua
+      - sang bên kia
+    collocations:
+      - go across the bridge
+      - across the road
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: animal|n
+    headword: animal
+    pos: n
+    ipa:
+      uk: /ˈæn.ɪ.məl/
+      us: /ˈæn.ɪ.məl/
+    stress: A-ni-mal
+    cefr: A1
+    meaning_vi:
+      - động vật
+      - con vật
+    collocations:
+      - wild animals
+      - farm animals
+    topics:
+      - nature
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: arm|n
+    headword: arm
+    pos: n
+    ipa:
+      uk: /ɑːm/
+      us: /ɑːrm/
+    cefr: A1
+    meaning_vi:
+      - cánh tay
+    collocations:
+      - a broken arm
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: app|n
+    headword: app
+    pos: n
+    ipa:
+      uk: /æp/
+      us: /æp/
+    cefr: A2
+    meaning_vi:
+      - ứng dụng
+    notes_vi:
+      - "Viết tắt của application. Dùng an: an app."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -330,3 +330,92 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: glass|n
+    headword: glass
+    pos: n
+    ipa:
+      uk: /ɡlɑːs/
+      us: /ɡlæs/
+    cefr: A1
+    meaning_vi:
+      - thủy tinh
+      - kính
+      - cái cốc
+    collocations:
+      - a glass table
+    notes_vi:
+      - Chất liệu thì không đếm được (made of glass); cái cốc thì đếm được (two glasses).
+    topics:
+      - materials
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: garage|n
+    headword: garage
+    pos: n
+    ipa:
+      uk: /ˈɡær.ɑːʒ/
+      us: /ɡəˈrɑːʒ/
+    cefr: B1
+    meaning_vi:
+      - nhà để xe
+      - ga-ra
+    notes_vi:
+      - Anh-Anh nhấn âm đầu GA-rage, Anh-Mỹ nhấn âm sau ga-RAGE.
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: go-shopping|colloc
+    headword: go shopping
+    pos: colloc
+    ipa:
+      uk: /ˌɡəʊ ˈʃɒp.ɪŋ/
+      us: /ˌɡoʊ ˈʃɑː.pɪŋ/
+    cefr: null
+    meaning_vi:
+      - đi mua sắm
+    notes_vi:
+      - "go + V-ing cho hoạt động: go swimming, go camping (không có to)."
+    topics:
+      - daily-life
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: go-straight-on|colloc
+    headword: go straight on
+    pos: colloc
+    ipa:
+      uk: /ˌɡəʊ ˈstreɪt ɒn/
+      us: /ˌɡoʊ ˈstreɪt ɑːn/
+    cefr: null
+    meaning_vi:
+      - đi thẳng
+    notes_vi:
+      - Anh-Mỹ hay nói go straight ahead.
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

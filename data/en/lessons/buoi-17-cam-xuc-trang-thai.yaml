@@ -32,6 +32,14 @@ steps:
       - nervous|adj
       - proud|adj
       - lonely|adj
+      - quickly|adv
+      - slowly|adv
+      - carefully|adv
+      - well|adv
+      - badly|adv
+      - loudly|adv
+      - quietly|adv
+      - easily|adv
   - type: pronunciation
     notes:
       - sound: snd-d
@@ -42,9 +50,11 @@ steps:
         text_vi: "confused, confusing có /juː/: kən-FJUːZD. Kéo dài âm u."
       - word: tired|adj
         text_vi: Chỉ 1 âm tiết /taɪəd/; bored cũng 1 âm tiết /bɔːd/ — không thêm âm 'đờ'.
+      - { word: quietly|adv, text_vi: "quiet /ˈkwaɪ.ət/ có 2 âm tiết, quite /kwaɪt/ chỉ 1 âm tiết — nghĩa khác hẳn." }
   - type: grammar
     items:
       - en-g1-17
+      - en-g1-30
   - type: examples
     items:
       - b17-001
@@ -55,6 +65,8 @@ steps:
       - b17-006
       - b17-007
       - b17-008
+      - b17-018
+      - b17-020
   - type: dialogue
     title_vi: Trước ngày kiểm tra
     lines:
@@ -201,6 +213,33 @@ steps:
         kind: dictation
         instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -ed và -ing.
         text: I was very excited about the trip, but the journey was long and tiring. When we arrived, I was too tired to go out.
+      - id: b17-x6
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Điền dạng đúng (tính từ hoặc trạng từ) của từ trong ngoặc.
+        questions:
+          - q: Please drive ___. The road is wet.
+            base: careful
+            answer: carefully
+          - q: She is a ___ driver.
+            base: careful
+            answer: careful
+          - q: He speaks English very ___.
+            base: good
+            answer: well
+          - q: The test was ___. I finished it in ten minutes.
+            base: easy
+            answer: easy
+          - q: I found the answer ___.
+            base: easy
+            answer: easily
+          - q: My father works very ___ to make money.
+            base: hard
+            answer: hard
+          - q: You look ___. What's wrong?
+            base: sad
+            answer: sad
+            explain_vi: Sau look dùng tính từ.
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 70–100 từ kể về một lần bạn thấy rất vui, hồi hộp hoặc ngượng. Dùng thì quá khứ và ít nhất 4 tính từ -ed/-ing.

@@ -173,3 +173,53 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: old|adj
+    headword: old
+    pos: adj
+    forms:
+      comparative: older
+      superlative: oldest
+    ipa:
+      uk: /əʊld/
+      us: /oʊld/
+    cefr: A1
+    meaning_vi:
+      - già
+      - cũ
+    notes_vi:
+      - "Hỏi tuổi: How old are you?"
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/old, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/old, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/old, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: online|adv
+    headword: online
+    pos: adv
+    ipa:
+      uk: /ˌɒnˈlaɪn/
+      us: /ˌɑːnˈlaɪn/
+    cefr: A1
+    meaning_vi:
+      - trực tuyến
+      - qua mạng
+    collocations:
+      - buy things online
+      - study online
+    notes_vi:
+      - "Không có giới từ: shop online (không nói *shop on online*)."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -1102,3 +1102,192 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: soft|adj
+    headword: soft
+    pos: adj
+    forms:
+      comparative: softer
+    ipa:
+      uk: /sɒft/
+      us: /sɑːft/
+    cefr: A2
+    meaning_vi:
+      - mềm
+    notes_vi:
+      - Trái nghĩa hard (cứng).
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soft, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soft, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soft, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: south|n
+    headword: south
+    pos: n
+    ipa:
+      uk: /saʊθ/
+      us: /saʊθ/
+    cefr: A1
+    meaning_vi:
+      - phía nam
+      - hướng nam
+    topics:
+      - directions
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/south, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/south, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/south, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: spider|n
+    headword: spider
+    pos: n
+    ipa:
+      uk: /ˈspaɪ.də/
+      us: /ˈspaɪ.dɚ/
+    cefr: A2
+    meaning_vi:
+      - con nhện
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spider, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spider, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spider, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shoulder|n
+    headword: shoulder
+    pos: n
+    ipa:
+      uk: /ˈʃəʊl.də/
+      us: /ˈʃoʊl.dɚ/
+    cefr: A2
+    meaning_vi:
+      - vai
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shoulder, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shoulder, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shoulder, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: swimming|n
+    headword: swimming
+    pos: n
+    ipa:
+      uk: /ˈswɪm.ɪŋ/
+      us: /ˈswɪm.ɪŋ/
+    cefr: A1
+    meaning_vi:
+      - bơi lội
+    collocations:
+      - go swimming
+      - a swimming pool
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: score|v
+    headword: score
+    pos: v
+    forms:
+      past: scored
+    ipa:
+      uk: /skɔː/
+      us: /skɔːr/
+    cefr: A2
+    meaning_vi:
+      - ghi bàn
+      - ghi điểm
+    collocations:
+      - score a goal
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/score, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/score, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/score, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: slowly|adv
+    headword: slowly
+    pos: adv
+    ipa:
+      uk: /ˈsləʊ.li/
+      us: /ˈsloʊ.li/
+    cefr: A2
+    meaning_vi:
+      - chậm rãi
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slowly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slowly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slowly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: smartphone|n
+    headword: smartphone
+    pos: n
+    ipa:
+      uk: /ˈsmɑːt.fəʊn/
+      us: /ˈsmɑːrt.foʊn/
+    cefr: A2
+    meaning_vi:
+      - điện thoại thông minh
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/smartphone, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/smartphone, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/smartphone, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: screen|n
+    headword: screen
+    pos: n
+    ipa:
+      uk: /skriːn/
+      us: /skriːn/
+    cefr: A2
+    meaning_vi:
+      - màn hình
+    collocations:
+      - on the screen
+      - screen time
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-29, field: ipa.us }
+    status: draft

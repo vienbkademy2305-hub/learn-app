@@ -50,3 +50,25 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: vietnamese|adj
+    headword: Vietnamese
+    pos: adj
+    ipa:
+      uk: /ˌvjet.nəˈmiːz/
+      us: /ˌvjet.nəˈmiːz/
+    stress: viet-na-MESE
+    cefr: null
+    meaning_vi:
+      - (thuộc) Việt Nam, người Việt, tiếng Việt
+    notes_vi:
+      - "Quốc tịch và ngôn ngữ luôn viết hoa: I am Vietnamese. I speak Vietnamese."
+      - "Tên nước: Vietnam (hoặc Viet Nam)."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

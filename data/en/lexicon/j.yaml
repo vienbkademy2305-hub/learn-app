@@ -136,3 +136,24 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jumper, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jumper, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: japanese|adj
+    headword: Japanese
+    pos: adj
+    ipa:
+      uk: /ˌdʒæp.ənˈiːz/
+      us: /ˌdʒæp.ənˈiːz/
+    stress: ja-pa-NESE
+    cefr: null
+    meaning_vi:
+      - (thuộc) Nhật Bản, tiếng Nhật
+    notes_vi:
+      - "Nước: Japan /dʒəˈpæn/ — trọng âm khác: ja-PAN nhưng ja-pa-NESE."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

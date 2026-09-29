@@ -345,3 +345,109 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: language|n
+    headword: language
+    pos: n
+    ipa:
+      uk: /ˈlæŋ.ɡwɪdʒ/
+      us: /ˈlæŋ.ɡwɪdʒ/
+    stress: LAN-guage
+    cefr: A1
+    meaning_vi:
+      - ngôn ngữ
+    collocations:
+      - speak a language
+      - foreign language
+    topics:
+      - personal-info
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/language, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/language, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/language, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: leather|n
+    headword: leather
+    pos: n
+    ipa:
+      uk: /ˈleð.ə/
+      us: /ˈleð.ɚ/
+    cefr: B1
+    meaning_vi:
+      - da (thuộc)
+    collocations:
+      - a leather sofa
+      - leather shoes
+    topics:
+      - materials
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leather, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leather, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leather, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: leg|n
+    headword: leg
+    pos: n
+    ipa:
+      uk: /leɡ/
+      us: /leɡ/
+    cefr: A1
+    meaning_vi:
+      - chân (cả cẳng chân)
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leg, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leg, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leg, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: loudly|adv
+    headword: loudly
+    pos: adv
+    ipa:
+      uk: /ˈlaʊd.li/
+      us: /ˈlaʊd.li/
+    cefr: A2
+    meaning_vi:
+      - to
+      - ầm ĩ
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loudly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loudly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loudly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: laptop|n
+    headword: laptop
+    pos: n
+    ipa:
+      uk: /ˈlæp.tɒp/
+      us: /ˈlæp.tɑːp/
+    cefr: A2
+    meaning_vi:
+      - máy tính xách tay
+    collocations:
+      - on my laptop
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-29, field: ipa.us }
+    status: draft

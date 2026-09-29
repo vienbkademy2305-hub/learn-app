@@ -32,6 +32,20 @@ steps:
       - helmet|n
       - on-foot|idiom
       - commute|v
+      - north|n
+      - south|n
+      - east|n
+      - west|n
+      - map|n
+      - corner|n
+      - turn-left|colloc
+      - turn-right|colloc
+      - go-straight-on|colloc
+      - along|prep
+      - across|prep
+      - through|prep
+      - catch|v
+      - pick-up|phr-v
   - type: pronunciation
     notes:
       - sound: snd-v
@@ -42,9 +56,12 @@ steps:
         text_vi: "/p/ bật hơi mạnh: passenger, public, stop. Khác /b/ trong bus, bicycle."
       - word: crowded|adj
         text_vi: "-ed sau âm /d/ đọc /ɪd/: CROW-did (thêm một âm tiết)."
+      - { word: through|prep, text_vi: "through /θruː/: đầu lưỡi giữa hai răng cho /θ/ rồi chuyển nhanh sang /r/. Phân biệt với true /truː/." }
+      - { word: north|n, text_vi: "north /nɔːθ/, south /saʊθ/: âm cuối /θ/ — thổi hơi qua đầu lưỡi, không đọc thành /t/ hay bỏ đi." }
   - type: grammar
     items:
       - en-g1-10
+      - en-g1-28
   - type: examples
     items:
       - b10-001
@@ -55,6 +72,9 @@ steps:
       - b10-006
       - b10-007
       - b10-008
+      - b10-019
+      - b10-020
+      - b10-026
   - type: dialogue
     title_vi: Hỏi đường ra sân bay
     lines:
@@ -187,6 +207,54 @@ steps:
               - "25"
           - q: The metro is busy in the ___.
             answer: morning
+      - id: b10-x6
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền giới từ / cụm từ chỉ đường thích hợp.
+        bank:
+          - along
+          - across
+          - through
+          - straight
+          - left
+          - corner
+          - into
+        questions:
+          - q: Walk ___ the river for about 200 metres.
+            answer: along
+          - q: Go ___ the bridge to the other side.
+            answer: across
+          - q: We drive ___ a long tunnel under the mountain.
+            answer: through
+          - q: Go ___ on, don't turn.
+            answer: straight
+          - q: Turn ___ at the traffic lights. The shop is on your left.
+            answer: left
+          - q: The pharmacy is on the ___ of Le Loi Street.
+            answer: corner
+          - q: She gets ___ the taxi.
+            answer: into
+      - id: b10-x7
+        bank_no: 19
+        kind: completion
+        instructions_vi: Đọc lời chỉ đường rồi điền KHÔNG QUÁ HAI TỪ vào chỗ trống.
+        max_words: 2
+        passage: You come out of the station and turn right. You go straight on along Tran Phu Street and go past the post office. At the second corner, you turn left. Then you go across the road. The museum is on your left, opposite a big park. It takes about ten minutes on foot.
+        questions:
+          - q: When you come out of the station, you turn ___.
+            answer: right
+          - q: You go past the ___.
+            answer: post office
+          - q: You turn left at the ___ corner.
+            answer: second
+            accept:
+              - 2nd
+          - q: The museum is opposite a ___.
+            answer: big park
+            accept:
+              - park
+          - q: It takes about ten minutes ___.
+            answer: on foot
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ: bạn đi làm/đi học bằng gì, mất bao lâu, giá bao nhiêu, và so sánh với một phương tiện khác. Dùng đúng by/on/in."

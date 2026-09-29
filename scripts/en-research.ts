@@ -8,6 +8,7 @@
  */
 import { setDefaultResultOrder } from "node:dns";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { setDefaultAutoSelectFamily } from "node:net";
 import path from "node:path";
 import { loadEnglish, type LexEntry } from "../importers/en/load";
 
@@ -16,8 +17,10 @@ const CACHE = path.join(ROOT, ".data", "research-cache");
 const OUT = path.join(ROOT, ".data", "research", "en-lexicon.json");
 const UA = "learn-app-content-check/0.1 (personal study site; contact tungvt.iist@gmail.com)";
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-// On this machine IPv6 routes to the dictionary sites fail while IPv4 works.
+// On this machine IPv6 routes to the dictionary sites fail while IPv4 works, and connections can be slow:
+// try IPv4 first and do not race address families with Node's short default attempt timeout.
 setDefaultResultOrder("ipv4first");
+setDefaultAutoSelectFamily(false);
 
 async function cached(key: string, url: string, ua = UA): Promise<string | null> {
   const file = path.join(CACHE, `${key.replace(/[^a-z0-9._-]/gi, "_")}.txt`);
@@ -26,7 +29,15 @@ async function cached(key: string, url: string, ua = UA): Promise<string | null>
     return t === "\u0000404" ? null : t;
   }
   await sleep(400);
-  const res = await fetch(url, { headers: { "user-agent": ua }, redirect: "follow" });
+  let res: Response | undefined;
+  for (let attempt = 1; !res; attempt++) {
+    try {
+      res = await fetch(url, { headers: { "user-agent": ua }, redirect: "follow" });
+    } catch (e) {
+      if (attempt >= 3) throw e;
+      await sleep(3000 * attempt); // slow or flaky network: wait and retry
+    }
+  }
   const body = res.ok ? await res.text() : null;
   if (res.ok || res.status === 404) writeFileSync(file, body ?? "\u0000404", "utf8");
   else throw new Error(`${url} → HTTP ${res.status}`);

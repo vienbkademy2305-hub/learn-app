@@ -400,3 +400,173 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: metal|n
+    headword: metal
+    pos: n
+    ipa:
+      uk: /ˈmet.əl/
+      us: /ˈmet̬.əl/
+    cefr: A2
+    meaning_vi:
+      - kim loại
+    collocations:
+      - a metal chair
+    topics:
+      - materials
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: make-the-bed|colloc
+    headword: make the bed
+    pos: colloc
+    ipa:
+      uk: /ˌmeɪk ðə ˈbed/
+      us: /ˌmeɪk ðə ˈbed/
+    cefr: null
+    meaning_vi:
+      - dọn giường
+      - gấp chăn
+    notes_vi:
+      - "Dùng make, không dùng do: I make my bed every morning."
+    topics:
+      - daily-life
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: make-a-mistake|colloc
+    headword: make a mistake
+    pos: colloc
+    ipa:
+      uk: /ˌmeɪk ə mɪˈsteɪk/
+      us: /ˌmeɪk ə mɪˈsteɪk/
+    cefr: null
+    meaning_vi:
+      - mắc lỗi
+    notes_vi:
+      - Không nói *do a mistake*.
+    topics:
+      - daily-life
+      - study
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: make-a-phone-call|colloc
+    headword: make a phone call
+    pos: colloc
+    ipa:
+      uk: /ˌmeɪk ə ˈfəʊn ˌkɔːl/
+      us: /ˌmeɪk ə ˈfoʊn ˌkɑːl/
+    cefr: null
+    meaning_vi:
+      - gọi điện thoại
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: make-money|colloc
+    headword: make money
+    pos: colloc
+    ipa:
+      uk: /ˌmeɪk ˈmʌn.i/
+      us: /ˌmeɪk ˈmʌn.i/
+    cefr: null
+    meaning_vi:
+      - kiếm tiền
+    topics:
+      - daily-life
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: map|n
+    headword: map
+    pos: n
+    ipa:
+      uk: /mæp/
+      us: /mæp/
+    cefr: A1
+    meaning_vi:
+      - bản đồ
+    collocations:
+      - look at the map
+      - a map app
+    topics:
+      - directions
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: mouth|n
+    headword: mouth
+    pos: n
+    ipa:
+      uk: /maʊθ/
+      us: /maʊθ/
+    cefr: A1
+    meaning_vi:
+      - miệng
+    notes_vi:
+      - Âm cuối /θ/, không đọc 'mao'.
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: match|n
+    headword: match
+    pos: n
+    forms:
+      plural: matches
+    ipa:
+      uk: /mætʃ/
+      us: /mætʃ/
+    cefr: A1
+    meaning_vi:
+      - trận đấu
+    collocations:
+      - watch a match
+      - win a match
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.us }
+    status: draft

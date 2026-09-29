@@ -32,6 +32,9 @@ steps:
       - snack|n
       - delicious|adj
       - spicy|adj
+      - a-few|det
+      - a-little|det
+      - enough|det
   - type: pronunciation
     notes:
       - sound: snd-ii
@@ -47,6 +50,7 @@ steps:
   - type: grammar
     items:
       - en-g1-08
+      - en-g1-27
   - type: examples
     items:
       - b08-001
@@ -57,6 +61,8 @@ steps:
       - b08-006
       - b08-007
       - b08-008
+      - b08-019
+      - b08-021
   - type: dialogue
     title_vi: Nấu gì cho bữa tối?
     lines:
@@ -225,6 +231,46 @@ steps:
             answer: "85"
             accept:
               - eighty-five
+      - id: b08-x6
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn lượng từ đúng.
+        questions:
+          - q: Can I have ___ milk in my tea?
+            options:
+              - a few
+              - a little
+              - many
+              - a lot
+            answer: b
+          - q: I only need ___ eggs for this cake.
+            options:
+              - a little
+              - much
+              - a few
+              - enough of
+            answer: c
+          - q: You eat ___ sweets. It's bad for your teeth.
+            options:
+              - too much
+              - too many
+              - enough
+              - a little
+            answer: b
+          - q: There is ___ salt in this soup. I can't eat it!
+            options:
+              - too much
+              - too many
+              - a few
+              - enough
+            answer: a
+          - q: We don't have ___ chairs for ten people.
+            options:
+              - enough
+              - too much
+              - a little
+              - much
+            answer: a
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 60–90 từ về những gì bạn thường ăn và uống trong một ngày. Dùng đúng some/any, much/many/a lot of và danh từ đếm được/không đếm được.

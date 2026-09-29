@@ -18,3 +18,7 @@ sentences:
   - { id: b08-016, text: Children love sweet snacks., vi: Trẻ con rất thích đồ ăn vặt ngọt., words: [ snack|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
   - { id: b08-017, text: This pho is delicious!, vi: Bát phở này ngon quá!, words: [ delicious|adj ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
   - { id: b08-018, text: Thai food is spicier than Vietnamese food., vi: Đồ ăn Thái cay hơn đồ ăn Việt., words: [ spicy|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-019, text: Add a little salt and a few eggs., vi: Cho thêm một chút muối và vài quả trứng., words: [ a-little|det, a-few|det, salt|n, egg|n ], grammar: [ en-g1-27 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-020, text: Children shouldn't eat too many snacks., vi: Trẻ con không nên ăn quá nhiều đồ ăn vặt., words: [ snack|n ], grammar: [ en-g1-27 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-021, text: There isn't enough rice for everyone., vi: Không đủ cơm cho mọi người., words: [ enough|det, rice|n ], grammar: [ en-g1-27, en-g1-03 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-022, text: This coffee has too much sugar in it., vi: Cốc cà phê này cho quá nhiều đường., words: [ sugar|n ], grammar: [ en-g1-27 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

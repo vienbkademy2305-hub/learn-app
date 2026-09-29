@@ -172,3 +172,28 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: internet|n
+    headword: internet
+    pos: n
+    ipa:
+      uk: /ˈɪn.tə.net/
+      us: /ˈɪn.t̬ɚ.net/
+    stress: IN-ter-net
+    cefr: A1
+    meaning_vi:
+      - mạng internet
+    collocations:
+      - on the internet
+      - internet connection
+    notes_vi:
+      - "Luôn có the: on the internet (không nói *on internet*)."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-29, field: ipa.us }
+    status: draft

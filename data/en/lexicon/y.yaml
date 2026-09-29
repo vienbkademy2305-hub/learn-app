@@ -43,3 +43,27 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/yesterday, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/yesterday, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: young|adj
+    headword: young
+    pos: adj
+    forms:
+      comparative: younger
+      superlative: youngest
+    ipa:
+      uk: /jʌŋ/
+      us: /jʌŋ/
+    cefr: A1
+    meaning_vi:
+      - trẻ
+    notes_vi:
+      - younger /ˈjʌŋ.ɡə/ có thêm âm /ɡ/, còn young thì không.
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/young, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/young, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/young, checked: 2026-09-29, field: ipa.us }
+    status: draft

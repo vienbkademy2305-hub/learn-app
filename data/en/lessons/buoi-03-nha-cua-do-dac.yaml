@@ -31,6 +31,18 @@ steps:
       - between|prep
       - under|prep
       - opposite|prep
+      - wood|n
+      - plastic|n
+      - metal|n
+      - glass|n
+      - leather|n
+      - cotton|n
+      - colour|n
+      - wide|adj
+      - narrow|adj
+      - soft|adj
+      - carpet|n
+      - garage|n
   - type: pronunciation
     notes:
       - sound: snd-ea
@@ -42,6 +54,8 @@ steps:
       - text_vi: There is thường nối thành there's /ðeəz/; nhớ /ð/ của Buổi 2.
       - word: kitchen|n
         text_vi: KIT-chen /ˈkɪtʃ.ən/ — âm /tʃ/ ở giữa, đừng đọc thành chicken.
+      - { word: leather|n, text_vi: "leather /ˈleð.ə/: th đọc /ð/ rung (như mother), không đọc /d/." }
+      - { word: garage|n, text_vi: "garage: Anh-Anh /ˈɡær.ɑːʒ/ (GA-rage), Anh-Mỹ /ɡəˈrɑːʒ/ (ga-RAGE) — cả hai đều đúng." }
   - type: grammar
     items:
       - en-g1-03
@@ -55,6 +69,8 @@ steps:
       - b03-006
       - b03-007
       - b03-008
+      - b03-014
+      - b03-018
   - type: dialogue
     title_vi: Xem căn hộ mới
     lines:
@@ -211,6 +227,33 @@ steps:
             answer: F
           - q: Hoa's husband works from home.
             answer: NG
+      - id: b03-x6
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp (chất liệu, tính chất).
+        bank:
+          - leather
+          - glass
+          - metal
+          - cotton
+          - soft
+          - narrow
+          - carpet
+        questions:
+          - q: Be careful! This table is ___. It breaks easily.
+            answer: glass
+          - q: I love this ___ jacket. It's made from animal skin.
+            answer: leather
+          - q: The road to my house is very ___. Two cars can't go past each other.
+            answer: narrow
+          - q: ___ T-shirts are cool in summer.
+            answer: cotton
+          - q: This pillow is really ___. I sleep very well on it.
+            answer: soft
+          - q: There is a big ___ on the floor of the living room.
+            answer: carpet
+          - q: The chairs are ___, so they are very cold in winter.
+            answer: metal
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ tả nhà hoặc phòng của bạn: có những phòng/đồ vật gì, mỗi thứ ở đâu (dùng There is/are và ít nhất 4 giới từ nơi chốn)."

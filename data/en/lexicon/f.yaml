@@ -599,3 +599,110 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: french|adj
+    headword: French
+    pos: adj
+    ipa:
+      uk: /frentʃ/
+      us: /frentʃ/
+    cefr: null
+    meaning_vi:
+      - (thuộc) Pháp, tiếng Pháp
+    notes_vi:
+      - "Nước: France."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/french, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/french, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: face|n
+    headword: face
+    pos: n
+    ipa:
+      uk: /feɪs/
+      us: /feɪs/
+    cefr: A1
+    meaning_vi:
+      - khuôn mặt
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/face, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/face, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/face, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: finger|n
+    headword: finger
+    pos: n
+    ipa:
+      uk: /ˈfɪŋ.ɡə/
+      us: /ˈfɪŋ.ɡɚ/
+    cefr: A2
+    meaning_vi:
+      - ngón tay
+    notes_vi:
+      - Ngón chân là toe.
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finger, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finger, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finger, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: foot|n
+    headword: foot
+    pos: n
+    forms:
+      plural: feet
+    ipa:
+      uk: /fʊt/
+      us: /fʊt/
+    cefr: A1
+    meaning_vi:
+      - bàn chân
+    notes_vi:
+      - "Số nhiều bất quy tắc: foot → feet. Đi bộ: on foot (Buổi 10)."
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/foot, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/foot, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/foot, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: football|n
+    headword: football
+    pos: n
+    ipa:
+      uk: /ˈfʊt.bɔːl/
+      us: /ˈfʊt.bɑːl/
+    cefr: A1
+    meaning_vi:
+      - bóng đá
+    collocations:
+      - play football
+      - a football match
+    notes_vi:
+      - "Anh-Mỹ gọi là soccer. Không dùng the: play football (không nói *play the football*)."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: ipa.us }
+    status: draft

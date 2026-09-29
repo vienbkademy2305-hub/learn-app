@@ -30,6 +30,14 @@ steps:
       - rarely|adv
       - never|adv
       - twice|adv
+      - make-the-bed|colloc
+      - do-the-dishes|colloc
+      - make-a-mistake|colloc
+      - make-a-phone-call|colloc
+      - make-money|colloc
+      - do-your-best|colloc
+      - go-shopping|colloc
+      - come-home|colloc
   - type: pronunciation
     notes:
       - sound: snd-s
@@ -44,6 +52,7 @@ steps:
   - type: grammar
     items:
       - en-g1-05
+      - en-g1-26
   - type: examples
     items:
       - b05-001
@@ -54,6 +63,9 @@ steps:
       - b05-006
       - b05-007
       - b05-008
+      - b05-012
+      - b05-013
+      - b05-017
   - type: dialogue
     title_vi: Một ngày của bạn thế nào?
     lines:
@@ -213,6 +225,43 @@ steps:
           - wrong: never do his homework
             right: never does his homework
             why: "Ngôi 3: do → does."
+      - id: b05-x6
+        bank_no: 3
+        kind: gap-fill
+        instructions_vi: "Điền do, does, make hoặc makes (mẹo: do = việc nhà, việc chung; make = tạo ra cái gì)."
+        bank:
+          - do
+          - does
+          - make
+          - makes
+        questions:
+          - q: I ___ my bed every morning.
+            answer: make
+          - q: My brother ___ the dishes after dinner.
+            answer: does
+          - q: Don't worry. Everyone ___ mistakes.
+            answer: makes
+          - q: We ___ the housework together at the weekend.
+            answer: do
+          - q: She works hard to ___ money.
+            answer: make
+          - q: Just ___ your best in the exam!
+            answer: do
+      - id: b05-x7
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết câu hỏi cho phần được gạch chân (in HOA).
+        questions:
+          - q: She gets up at SIX O'CLOCK. (What time …?)
+            answer: What time does she get up?
+          - q: They live IN HUE. (Where …?)
+            answer: Where do they live?
+          - q: MY FATHER cooks dinner. (Who …?)
+            answer: Who cooks dinner?
+          - q: He goes shopping TWICE A WEEK. (How often …?)
+            answer: How often does he go shopping?
+          - q: I am tired BECAUSE I GO TO BED LATE. (Why …?)
+            answer: Why are you tired?
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 80–100 từ tả một ngày bình thường của bạn (Describe your daily routine). Dùng ít nhất 4 trạng từ tần suất và 1 câu phủ định.

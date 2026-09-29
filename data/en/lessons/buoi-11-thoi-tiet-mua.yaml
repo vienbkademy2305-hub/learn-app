@@ -32,6 +32,16 @@ steps:
       - worried-about|colloc
       - famous-for|colloc
       - different-from|colloc
+      - animal|n
+      - dog|n
+      - cat|n
+      - bird|n
+      - cow|n
+      - horse|n
+      - bear|n
+      - spider|n
+      - dolphin|n
+      - rabbit|n
   - type: pronunciation
     notes:
       - sound: snd-oo
@@ -44,9 +54,12 @@ steps:
         text_vi: weather /ˈweð.ə/ và whether đọc giống hệt nhau; nhớ /ð/ rung (Buổi 2).
       - word: temperature|n
         text_vi: Thường đọc 3 âm tiết TEM-pra-chờ /ˈtem.prə.tʃə/, âm 'e' giữa gần như mất.
+      - { word: bear|n, text_vi: "bear /beə/ ≠ beer /bɪə/ (bia): /eə/ mở miệng hơn /ɪə/." }
+      - { word: bird|n, text_vi: "bird /bɜːd/: nguyên âm /ɜː/ dài, không tròn môi; Anh-Mỹ có /r/." }
   - type: grammar
     items:
       - en-g1-11
+      - en-g1-29
   - type: examples
     items:
       - b11-001
@@ -57,6 +70,8 @@ steps:
       - b11-006
       - b11-007
       - b11-008
+      - b11-012
+      - b11-014
   - type: dialogue
     title_vi: Hỏi về thời tiết
     lines:
@@ -210,6 +225,52 @@ steps:
           - wrong: afraid with
             right: afraid of
             why: afraid of.
+      - id: b11-x6
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết câu tiếng Anh dùng It (chủ ngữ giả).
+        questions:
+          - q: Trời đang mưa.
+            answer: It's raining.
+            accept:
+              - It is raining.
+          - q: Bây giờ là 8 giờ.
+            answer: It's 8 o'clock.
+            accept:
+              - It is 8 o'clock.
+              - It's eight o'clock.
+              - It is eight o'clock.
+          - q: Từ nhà tôi đến trường 3 cây số.
+            answer: It's 3 km from my house to school.
+            accept:
+              - It is 3 km from my house to school.
+              - It's three kilometres from my house to school.
+          - q: Tôi mất 15 phút để đi bộ đến chợ.
+            answer: It takes me 15 minutes to walk to the market.
+            accept:
+              - It takes me fifteen minutes to walk to the market.
+          - q: Hôm nay trời nắng và oi.
+            answer: It's sunny and humid today.
+            accept:
+              - It is sunny and humid today.
+              - Today it's sunny and humid.
+      - id: b11-x7
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối con vật với mô tả tiếng Anh.
+        pairs:
+          - left: dolphin
+            right: a clever animal that lives in the sea
+          - left: spider
+            right: a small animal with eight legs
+          - left: cow
+            right: a farm animal that gives us milk
+          - left: horse
+            right: a big animal that people ride
+          - left: rabbit
+            right: a small animal with long ears
+          - left: bear
+            right: a big wild animal that sleeps in winter
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ về thời tiết ở quê bạn: có mấy mùa, mỗi mùa thế nào, bạn thích/sợ mùa nào và vì sao. Dùng ít nhất 3 cụm tính từ + giới từ."

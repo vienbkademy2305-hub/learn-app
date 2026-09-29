@@ -26,6 +26,15 @@ steps:
       - arrive|v
       - laugh-at|phr-v
       - apologise-for|phr-v
+      - smartphone|n
+      - screen|n
+      - internet|n
+      - website|n
+      - app|n
+      - laptop|n
+      - online|adv
+      - password|n
+      - download|v
   - type: pronunciation
     notes:
       - sound: snd-schwa
@@ -49,6 +58,8 @@ steps:
       - b18-006
       - b18-007
       - b18-008
+      - b18-023
+      - b18-025
   - type: dialogue
     title_vi: Nhận phòng khách sạn
     lines:
@@ -216,6 +227,27 @@ steps:
           - q: All the guests think the rooms are too small.
             answer: F
             explain_vi: Bài nói some of them, không phải all.
+      - id: b18-x6
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi về mạo từ và giới từ. Tìm và sửa.
+        text: I spend a lot of time on internet. I usually read news in a website called VnExpress. Yesterday I downloaded a app to learn English. I study on online every evening on the my laptop.
+        errors:
+          - wrong: on internet
+            right: on the internet
+            why: the internet luôn có the.
+          - wrong: in a website
+            right: on a website
+            why: Trên trang web dùng on.
+          - wrong: a app
+            right: an app
+            why: app bắt đầu bằng nguyên âm → an.
+          - wrong: study on online
+            right: study online
+            why: online không đi với giới từ.
+          - wrong: on the my laptop
+            right: on my laptop
+            why: Không dùng the cùng tính từ sở hữu.
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 80–100 từ giới thiệu thành phố hoặc thị trấn của bạn. Trước khi nộp, gạch chân mọi danh từ số ít đếm được và kiểm tra a/an/the.

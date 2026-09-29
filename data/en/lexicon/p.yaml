@@ -584,3 +584,66 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: pick-up|phr-v
+    headword: pick up
+    pos: phr-v
+    ipa:
+      uk: /ˌpɪk ˈʌp/
+      us: /ˌpɪk ˈʌp/
+    cefr: null
+    meaning_vi:
+      - đón (ai đó)
+    collocations:
+      - pick somebody up from school
+    notes_vi:
+      - "Đại từ đứng giữa: pick me up (không nói *pick up me*)."
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: player|n
+    headword: player
+    pos: n
+    ipa:
+      uk: /ˈpleɪ.ə/
+      us: /ˈpleɪ.ɚ/
+    cefr: A1
+    meaning_vi:
+      - cầu thủ
+      - người chơi
+    collocations:
+      - football player
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/player, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/player, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/player, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: password|n
+    headword: password
+    pos: n
+    ipa:
+      uk: /ˈpɑːs.wɜːd/
+      us: /ˈpæs.wɝːd/
+    cefr: B2
+    meaning_vi:
+      - mật khẩu
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-29, field: ipa.us }
+    status: draft

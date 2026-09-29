@@ -41,6 +41,15 @@ steps:
       - band|n
       - fan|n
       - catchy|adj
+      - football|n
+      - basketball|n
+      - swimming|n
+      - team|n
+      - match|n
+      - player|n
+      - coach|n
+      - score|v
+      - win|v
   - type: pronunciation
     notes:
       - sound: snd-m
@@ -53,6 +62,7 @@ steps:
         text_vi: "Trọng âm âm 2: pho-TO-gra-phy (khác PHO-to)."
       - { word: film|n, text_vi: "film /fɪlm/: một âm tiết, cụm /lm/ cuối — không thêm nguyên âm thành 'phi-lim'." }
       - { word: singer|n, text_vi: "singer /ˈsɪŋ.ə/: /ŋ/ không bật /ɡ/ (khác finger /ˈfɪŋ.ɡə/)." }
+      - { word: win|v, text_vi: won (quá khứ của win) đọc /wʌn/ giống hệt one — không đọc 'uôn'. }
   - type: grammar
     items:
       - en-g1-16
@@ -68,6 +78,8 @@ steps:
       - b16-008
       - b16-017
       - b16-022
+      - b16-023
+      - b16-026
   - type: dialogue
     title_vi: Nói chuyện về sở thích
     lines:
@@ -254,6 +266,27 @@ steps:
             answer: catchy
           - q: She has a beautiful voice. She wants to be a ___.
             answer: singer
+      - id: b16-x7
+        bank_no: 3
+        kind: gap-fill
+        instructions_vi: Điền play, go hoặc do (play + môn có bóng; go + môn đuôi -ing; do + võ, yoga, thể dục).
+        bank:
+          - play
+          - go
+          - do
+        questions:
+          - q: I ___ football every Saturday.
+            answer: play
+          - q: Let's ___ swimming this afternoon.
+            answer: go
+          - q: My mother and I ___ yoga in the morning.
+            answer: do
+          - q: They ___ basketball after school.
+            answer: play
+          - q: We often ___ cycling at the weekend.
+            answer: go
+          - q: My brother wants to ___ karate.
+            answer: do
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 70–100 từ về sở thích của bạn: bạn thích làm gì, bắt đầu khi nào, và dự định gì cho sở thích đó. Dùng ít nhất 3 động từ + V-ing và 3 động từ + to V."

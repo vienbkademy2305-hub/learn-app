@@ -186,7 +186,7 @@ async function main() {
     current = "en-progress";
     await page.goto(url("/en/"), { waitUntil: "networkidle" });
     const enCard = await page.locator("ol li").nth(1).innerText();
-    checks.push(`${/Bài tập 2\/5/.test(enCard) ? "PASS" : "FAIL"} tiếng Anh: trang lộ trình hiện tiến độ bài tập của Buổi 2 ("${enCard.replace(/\s+/g, " ").slice(0, 80)}")`);
+    checks.push(`${/Bài tập 2\/\d+/.test(enCard) ? "PASS" : "FAIL"} tiếng Anh: trang lộ trình hiện tiến độ bài tập của Buổi 2 ("${enCard.replace(/\s+/g, " ").slice(0, 100)}")`);
 
     current = "chooser";
     await page.goto(url("/"), { waitUntil: "networkidle" });

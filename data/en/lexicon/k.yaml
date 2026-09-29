@@ -46,3 +46,45 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kitchen, checked: 2026-09-29, field: cefr }
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/kitchen, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: korean|adj
+    headword: Korean
+    pos: adj
+    ipa:
+      uk: /kəˈriː.ən/
+      us: /kəˈriː.ən/
+    stress: ko-RE-an
+    cefr: null
+    meaning_vi:
+      - (thuộc) Hàn Quốc, tiếng Hàn
+    notes_vi:
+      - "Nước: Korea (South Korea)."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/Korean, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/Korean, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: knee|n
+    headword: knee
+    pos: n
+    ipa:
+      uk: /niː/
+      us: /niː/
+    cefr: A2
+    meaning_vi:
+      - đầu gối
+    notes_vi:
+      - "k câm: /niː/."
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-29, field: ipa.us }
+    status: draft

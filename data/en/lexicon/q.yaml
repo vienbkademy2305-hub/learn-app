@@ -25,3 +25,46 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: quickly|adv
+    headword: quickly
+    pos: adv
+    ipa:
+      uk: /ˈkwɪk.li/
+      us: /ˈkwɪk.li/
+    cefr: A1
+    meaning_vi:
+      - nhanh chóng
+    notes_vi:
+      - quick (adj) → quickly (adv).
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quickly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quickly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quickly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: quietly|adv
+    headword: quietly
+    pos: adv
+    ipa:
+      uk: /ˈkwaɪ.ət.li/
+      us: /ˈkwaɪ.ət.li/
+    cefr: A2
+    meaning_vi:
+      - nhẹ nhàng
+      - khẽ
+    notes_vi:
+      - quiet /ˈkwaɪ.ət/ (yên tĩnh) ≠ quite /kwaɪt/ (khá).
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-29, field: ipa.us }
+    status: draft

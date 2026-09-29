@@ -31,6 +31,22 @@ steps:
       - rest|n
       - should|v
       - have-to|v
+      - head|n
+      - face|n
+      - eye|n
+      - ear|n
+      - nose|n
+      - mouth|n
+      - tooth|n
+      - neck|n
+      - shoulder|n
+      - arm|n
+      - hand|n
+      - finger|n
+      - back|n
+      - leg|n
+      - knee|n
+      - foot|n
   - type: pronunciation
     notes:
       - sound: snd-h
@@ -43,6 +59,8 @@ steps:
         text_vi: have to đọc nối /ˈhæf.tə/ (v biến thành f), has to /ˈhæs.tə/.
       - word: cough|n
         text_vi: "cough /kɒf/: gh đọc /f/, giống enough, laugh."
+      - { word: knee|n, text_vi: "knee /niː/ và know /nəʊ/: k đứng trước n thì câm." }
+      - { word: tooth|n, text_vi: "tooth /tuːθ/, mouth /maʊθ/: giữ âm cuối /θ/ (lưỡi giữa răng, thổi hơi) — lỗi mất âm cuối rất hay gặp." }
   - type: grammar
     items:
       - en-g1-12
@@ -59,6 +77,8 @@ steps:
       - b12-008
       - b12-015
       - b12-016
+      - b12-019
+      - b12-021
   - type: dialogue
     title_vi: Đi khám bác sĩ
     lines:
@@ -265,6 +285,33 @@ steps:
             answer: Let's do some exercise.
             accept:
               - Let's do some exercise!
+      - id: b12-x8
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền bộ phận cơ thể thích hợp.
+        bank:
+          - teeth
+          - ears
+          - nose
+          - feet
+          - back
+          - fingers
+          - knee
+        questions:
+          - q: We hear with our ___.
+            answer: ears
+          - q: We smell with our ___.
+            answer: nose
+          - q: I brush my ___ every morning and every night.
+            answer: teeth
+          - q: We have ten ___ on our hands.
+            answer: fingers
+          - q: My shoes are too small. My ___ hurt.
+            answer: feet
+          - q: He sits at a desk all day, so he often has ___ pain.
+            answer: back
+          - q: She fell over and hurt her ___.
+            answer: knee
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ đưa lời khuyên cho một người bạn hay bị mệt và ốm: bạn ấy nên / không nên / phải làm gì để khỏe hơn."

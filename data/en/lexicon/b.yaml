@@ -599,3 +599,129 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: british|adj
+    headword: British
+    pos: adj
+    ipa:
+      uk: /ˈbrɪt.ɪʃ/
+      us: /ˈbrɪt̬.ɪʃ/
+    cefr: null
+    meaning_vi:
+      - (thuộc) Vương quốc Anh
+    notes_vi:
+      - "Nước: Britain / the UK."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/british, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/british, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bird|n
+    headword: bird
+    pos: n
+    ipa:
+      uk: /bɜːd/
+      us: /bɝːd/
+    cefr: A1
+    meaning_vi:
+      - con chim
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bird, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bird, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bird, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bear|n
+    headword: bear
+    pos: n
+    ipa:
+      uk: /beə/
+      us: /ber/
+    cefr: A2
+    meaning_vi:
+      - con gấu
+    notes_vi:
+      - Đọc giống bare /beə/, không đọc 'bia'.
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bear_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bear_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bear_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: back|n
+    headword: back
+    pos: n
+    ipa:
+      uk: /bæk/
+      us: /bæk/
+    cefr: A1
+    meaning_vi:
+      - lưng
+    collocations:
+      - back pain
+    topics:
+      - body
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/back, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/back, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/back, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: basketball|n
+    headword: basketball
+    pos: n
+    ipa:
+      uk: /ˈbɑː.skɪt.bɔːl/
+      us: /ˈbæs.kət.bɑːl/
+    cefr: A2
+    meaning_vi:
+      - bóng rổ
+    collocations:
+      - play basketball
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/basketball, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/basketball, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: badly|adv
+    headword: badly
+    pos: adv
+    ipa:
+      uk: /ˈbæd.li/
+      us: /ˈbæd.li/
+    cefr: A2
+    meaning_vi:
+      - tệ
+      - kém
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-29, field: ipa.us }
+    status: draft

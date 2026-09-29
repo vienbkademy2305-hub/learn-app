@@ -32,6 +32,22 @@ steps:
       - grandparent|n
       - live-with|phr-v
       - work-as|phr-v
+      - country|n
+      - language|n
+      - vietnamese|adj
+      - english|adj
+      - chinese|adj
+      - japanese|adj
+      - korean|adj
+      - american|adj
+      - british|adj
+      - french|adj
+      - aunt|n
+      - uncle|n
+      - cousin|n
+      - nephew|n
+      - niece|n
+      - relative|n
 
   - type: pronunciation
     notes:
@@ -39,12 +55,14 @@ steps:
       - { word: nationality|n, text_vi: "Trọng âm rơi vào âm 3: na-tio-NA-li-ty." }
       - { word: married|adj, text_vi: "Chỉ 2 âm tiết MAR-ried; đuôi -ed đọc /d/ nối liền, không tách thành 3 âm tiết." }
       - { word: parent|n, text_vi: "Đọc rõ -s cuối ở parents, siblings, grandparents (lỗi nuốt âm cuối từ Buổi 0)." }
+      - { word: japanese|adj, text_vi: "Đuôi -ese luôn nhận trọng âm: Chi-NESE, Ja-pa-NESE, Viet-na-MESE. Nhưng tên nước thì khác: CHI-na, Ja-PAN." }
+      - { word: cousin|n, text_vi: "cousin /ˈkʌz.ən/: ou đọc /ʌ/, s đọc /z/ — COUZ-ơn." }
 
   - type: grammar
-    items: [en-g1-01]
+    items: [ en-g1-01, en-g1-23 ]
 
   - type: examples
-    items: [b01-001, b01-002, b01-003, b01-004, b01-005, b01-006, b01-007, b01-008]
+    items: [ b01-001, b01-002, b01-003, b01-004, b01-005, b01-006, b01-007, b01-008, b01-017, b01-018, b01-020 ]
 
   - type: dialogue
     title_vi: Làm quen
@@ -64,7 +82,7 @@ steps:
         bank_no: 1
         kind: gap-fill
         instructions_vi: Điền từ thích hợp vào chỗ trống.
-        bank: [single, married, siblings, hometown, nationality, grandparents]
+        bank: [ single, married, siblings, hometown, nationality, grandparents ]
         questions:
           - { q: "She doesn't have a husband. She is ___.", answer: single }
           - { q: "He has a wife. He is ___.", answer: married }
@@ -92,11 +110,11 @@ steps:
         kind: mcq
         instructions_vi: Chọn đáp án đúng.
         questions:
-          - { q: "She ___ a nurse.", options: [am, is, are, be], answer: b }
-          - { q: "We ___ students.", options: [am, is, are, been], answer: c }
-          - { q: "My grandparents ___ old.", options: [is, am, are, be], answer: c }
-          - { q: "He ___ married.", options: [am, is, are, be], answer: b }
-          - { q: "I ___ single.", options: [is, are, am, be], answer: c }
+          - { q: "She ___ a nurse.", options: [ am, is, are, be ], answer: b }
+          - { q: "We ___ students.", options: [ am, is, are, been ], answer: c }
+          - { q: "My grandparents ___ old.", options: [ is, am, are, be ], answer: c }
+          - { q: "He ___ married.", options: [ am, is, are, be ], answer: b }
+          - { q: "I ___ single.", options: [ is, are, am, be ], answer: c }
 
       - id: b01-x4
         bank_no: 7
@@ -116,10 +134,7 @@ steps:
         kind: tfng
         instructions_vi: "Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến)."
         passage: >-
-          Hi, my name is Minh. I am thirty years old and I am from Nha Trang. I am married, and I have one daughter.
-          My wife's name is Huong, and she is a teacher. I work as an engineer at a construction company. We live
-          with my parents in a small house near the beach. My daughter is five years old, and she loves swimming.
-          On weekends, we usually visit my wife's parents in the countryside.
+          Hi, my name is Minh. I am thirty years old and I am from Nha Trang. I am married, and I have one daughter. My wife's name is Huong, and she is a teacher. I work as an engineer at a construction company. We live with my parents in a small house near the beach. My daughter is five years old, and she loves swimming. On weekends, we usually visit my wife's parents in the countryside.
         questions:
           - { q: "Minh is single.", answer: F, explain_vi: "Minh đã kết hôn." }
           - { q: "Minh's wife is a teacher.", answer: T }
@@ -127,6 +142,76 @@ steps:
           - { q: "Minh has two children.", answer: F, explain_vi: "Minh chỉ có một con gái." }
           - { q: "Minh's parents live in the countryside.", answer: F, explain_vi: "Bố mẹ Minh sống cùng gia đình Minh gần biển; ở quê là bố mẹ VỢ. Đọc kỹ chủ thể." }
           - { q: "Minh's daughter doesn't like swimming.", answer: F }
+      - id: b01-x6
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết quốc tịch (hoặc ngôn ngữ) tương ứng với tên nước.
+        questions:
+          - q: Vietnam → She is ___.
+            base: Vietnam
+            answer: Vietnamese
+          - q: China → They speak ___.
+            base: China
+            answer: Chinese
+          - q: Japan → Sushi is ___ food.
+            base: Japan
+            answer: Japanese
+          - q: France → Paris is a ___ city.
+            base: France
+            answer: French
+          - q: Korea → Kimchi is ___ food.
+            base: Korea
+            answer: Korean
+          - q: the USA → He is ___.
+            base: the USA
+            answer: American
+      - id: b01-x7
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đại từ / từ sở hữu đúng.
+        questions:
+          - q: My sister loves ___ cat very much.
+            options:
+              - she
+              - her
+              - hers
+              - herself
+            answer: b
+          - q: Our grandparents live with ___.
+            options:
+              - we
+              - our
+              - us
+              - ours
+            answer: c
+          - q: Is this pen yours? — Yes, it's ___.
+            options:
+              - my
+              - me
+              - mine
+              - I
+            answer: c
+          - q: This is ___ car.
+            options:
+              - my father's
+              - the father of me
+              - my fathers
+              - father's my
+            answer: a
+          - q: Where do your cousins live? — ___ live in Hue.
+            options:
+              - Them
+              - Their
+              - They
+              - Theirs
+            answer: c
+          - q: The dog is hungry. Give ___ some food.
+            options:
+              - it
+              - its
+              - it's
+              - them
+            answer: a
 
   - type: homework
     kind: paragraph

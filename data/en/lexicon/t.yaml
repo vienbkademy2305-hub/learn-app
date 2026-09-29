@@ -676,3 +676,113 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: turn-left|colloc
+    headword: turn left
+    pos: colloc
+    ipa:
+      uk: /ˌtɜːn ˈleft/
+      us: /ˌtɝːn ˈleft/
+    cefr: null
+    meaning_vi:
+      - rẽ trái
+    notes_vi:
+      - "Không có to: turn left (không nói *turn to left*)."
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: turn-right|colloc
+    headword: turn right
+    pos: colloc
+    ipa:
+      uk: /ˌtɜːn ˈraɪt/
+      us: /ˌtɝːn ˈraɪt/
+    cefr: null
+    meaning_vi:
+      - rẽ phải
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: through|prep
+    headword: through
+    pos: prep
+    ipa:
+      uk: /θruː/
+      us: /θruː/
+    cefr: A1
+    meaning_vi:
+      - xuyên qua
+      - đi qua (bên trong)
+    collocations:
+      - through the park
+      - through the gate
+    notes_vi:
+      - Đừng nhầm through /θruː/ với though /ðəʊ/ và thought /θɔːt/.
+    topics:
+      - directions
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/through, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/through, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/through, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tooth|n
+    headword: tooth
+    pos: n
+    forms:
+      plural: teeth
+    ipa:
+      uk: /tuːθ/
+      us: /tuːθ/
+    cefr: A1
+    meaning_vi:
+      - răng
+    notes_vi:
+      - "Số nhiều bất quy tắc: tooth → teeth. Đau răng: have (a) toothache."
+    topics:
+      - body
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tooth, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tooth, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tooth, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: team|n
+    headword: team
+    pos: n
+    ipa:
+      uk: /tiːm/
+      us: /tiːm/
+    cefr: A1
+    meaning_vi:
+      - đội
+    collocations:
+      - a football team
+      - team member
+    topics:
+      - sport
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-29, field: ipa.us }
+    status: draft

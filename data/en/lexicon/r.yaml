@@ -271,3 +271,43 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receptionist, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receptionist, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: relative|n
+    headword: relative
+    pos: n
+    ipa:
+      uk: /ˈrel.ə.tɪv/
+      us: /ˈrel.ə.t̬ɪv/
+    stress: RE-la-tive
+    cefr: B1
+    meaning_vi:
+      - họ hàng
+      - người thân
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relative_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relative_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relative_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rabbit|n
+    headword: rabbit
+    pos: n
+    ipa:
+      uk: /ˈræb.ɪt/
+      us: /ˈræb.ɪt/
+    cefr: null
+    meaning_vi:
+      - con thỏ
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rabbit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rabbit, checked: 2026-09-29, field: ipa.us }
+    status: draft

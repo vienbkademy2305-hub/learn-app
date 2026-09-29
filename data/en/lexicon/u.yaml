@@ -84,3 +84,47 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: uncle|n
+    headword: uncle
+    pos: n
+    ipa:
+      uk: /ˈʌŋ.kəl/
+      us: /ˈʌŋ.kəl/
+    cefr: A1
+    meaning_vi:
+      - chú
+      - bác trai
+      - cậu
+      - dượng
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uncle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uncle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uncle, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: until|prep
+    headword: until
+    pos: prep
+    ipa:
+      uk: /ənˈtɪl/
+      us: /ənˈtɪl/
+    stress: un-TIL
+    cefr: null
+    meaning_vi:
+      - cho đến khi
+      - cho tới (mốc)
+    collocations:
+      - from Monday until Friday
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/until, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/until, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -304,3 +304,117 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: wide|adj
+    headword: wide
+    pos: adj
+    forms:
+      comparative: wider
+    ipa:
+      uk: /waɪd/
+      us: /waɪd/
+    cefr: A2
+    meaning_vi:
+      - rộng (bề ngang)
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wide, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wide, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wide, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: west|n
+    headword: west
+    pos: n
+    ipa:
+      uk: /west/
+      us: /west/
+    cefr: A1
+    meaning_vi:
+      - phía tây
+      - hướng tây
+    topics:
+      - directions
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/west, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/west, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/west, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: win|v
+    headword: win
+    pos: v
+    forms:
+      past: won
+      pp: won
+      ing: winning
+    ipa:
+      uk: /wɪn/
+      us: /wɪn/
+    cefr: A1
+    meaning_vi:
+      - thắng
+    notes_vi:
+      - "won đọc /wʌn/ giống one. Trái nghĩa: lose (Buổi 14). win a match nhưng beat a team (thắng đội nào)."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/win, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/win, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/win, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: well|adv
+    headword: well
+    pos: adv
+    forms:
+      comparative: better
+      superlative: best
+    ipa:
+      uk: /wel/
+      us: /wel/
+    cefr: A1
+    meaning_vi:
+      - tốt
+      - giỏi (cách làm)
+    notes_vi:
+      - "Trạng từ của good là well (không nói *goodly*): She sings well."
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/well, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/well, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/well, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: website|n
+    headword: website
+    pos: n
+    ipa:
+      uk: /ˈweb.saɪt/
+      us: /ˈweb.saɪt/
+    cefr: A1
+    meaning_vi:
+      - trang web
+    collocations:
+      - on a website
+      - visit a website
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-29, field: ipa.us }
+    status: draft

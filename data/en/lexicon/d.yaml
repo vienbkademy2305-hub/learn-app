@@ -357,3 +357,130 @@ entries:
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/director, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/director, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: during|prep
+    headword: during
+    pos: prep
+    ipa:
+      uk: /ˈdʒʊə.rɪŋ/
+      us: /ˈdʊr.ɪŋ/
+    cefr: A1
+    meaning_vi:
+      - trong suốt (một sự kiện)
+    notes_vi:
+      - during + sự kiện (during the lesson); for + khoảng thời gian (for two hours).
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/during, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/during, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/during, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: do-the-dishes|colloc
+    headword: do the dishes
+    pos: colloc
+    ipa:
+      uk: /ˌduː ðə ˈdɪʃ.ɪz/
+      us: /ˌduː ðə ˈdɪʃ.ɪz/
+    cefr: null
+    meaning_vi:
+      - rửa bát
+    notes_vi:
+      - Anh-Anh cũng nói do the washing-up.
+    topics:
+      - daily-life
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: do-your-best|colloc
+    headword: do your best
+    pos: colloc
+    ipa:
+      uk: /ˌduː jə ˈbest/
+      us: /ˌduː jɚ ˈbest/
+    cefr: null
+    meaning_vi:
+      - cố gắng hết sức
+    notes_vi:
+      - "Đổi tính từ sở hữu theo chủ ngữ: I do my best, she does her best."
+    topics:
+      - daily-life
+      - study
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: dog|n
+    headword: dog
+    pos: n
+    ipa:
+      uk: /dɒɡ/
+      us: /dɑːɡ/
+    cefr: A1
+    meaning_vi:
+      - con chó
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dog, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dog, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dog, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: dolphin|n
+    headword: dolphin
+    pos: n
+    ipa:
+      uk: /ˈdɒl.fɪn/
+      us: /ˈdɑːl.fɪn/
+    cefr: null
+    meaning_vi:
+      - cá heo
+    notes_vi:
+      - ph đọc /f/.
+    topics:
+      - nature
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dolphin, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dolphin, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: download|v
+    headword: download
+    pos: v
+    forms:
+      past: downloaded
+    ipa:
+      uk: /ˌdaʊnˈləʊd/
+      us: /ˈdaʊn.loʊd/
+    cefr: A2
+    meaning_vi:
+      - tải xuống
+    collocations:
+      - download an app
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/download, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/download, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/download, checked: 2026-09-29, field: ipa.us }
+    status: draft

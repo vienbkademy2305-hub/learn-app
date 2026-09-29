@@ -121,3 +121,147 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: nephew|n
+    headword: nephew
+    pos: n
+    ipa:
+      uk: /ˈnef.juː/
+      us: /ˈnef.juː/
+    cefr: null
+    meaning_vi:
+      - cháu trai (con của anh chị em)
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nephew, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nephew, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: niece|n
+    headword: niece
+    pos: n
+    ipa:
+      uk: /niːs/
+      us: /niːs/
+    cefr: null
+    meaning_vi:
+      - cháu gái (con của anh chị em)
+    notes_vi:
+      - Cháu nội/ngoại (con của con) là grandson / granddaughter.
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/niece, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/niece, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: new|adj
+    headword: new
+    pos: adj
+    forms:
+      comparative: newer
+    ipa:
+      uk: /njuː/
+      us: /nuː/
+    cefr: A1
+    meaning_vi:
+      - mới
+    topics:
+      - appearance
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/new, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/new, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/new, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: narrow|adj
+    headword: narrow
+    pos: adj
+    forms:
+      comparative: narrower
+    ipa:
+      uk: /ˈnær.əʊ/
+      us: /ˈner.oʊ/
+    cefr: A2
+    meaning_vi:
+      - hẹp
+    notes_vi:
+      - "Trái nghĩa wide. Nhà ống hẹp ngang: a narrow house."
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/narrow, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/narrow, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/narrow, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: north|n
+    headword: north
+    pos: n
+    ipa:
+      uk: /nɔːθ/
+      us: /nɔːrθ/
+    cefr: A1
+    meaning_vi:
+      - phía bắc
+      - hướng bắc
+    collocations:
+      - in the north of Vietnam
+    topics:
+      - directions
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/north, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/north, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/north, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nose|n
+    headword: nose
+    pos: n
+    ipa:
+      uk: /nəʊz/
+      us: /noʊz/
+    cefr: A1
+    meaning_vi:
+      - mũi
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nose, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nose, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nose, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: neck|n
+    headword: neck
+    pos: n
+    ipa:
+      uk: /nek/
+      us: /nek/
+    cefr: A2
+    meaning_vi:
+      - cổ
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-29, field: ipa.us }
+    status: draft

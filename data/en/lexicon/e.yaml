@@ -318,3 +318,125 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: english|adj
+    headword: English
+    pos: adj
+    ipa:
+      uk: /ˈɪŋ.ɡlɪʃ/
+      us: /ˈɪŋ.ɡlɪʃ/
+    cefr: null
+    meaning_vi:
+      - (thuộc) nước Anh, tiếng Anh
+    notes_vi:
+      - "Nước: England; toàn Vương quốc Anh: the UK, quốc tịch British."
+    topics:
+      - countries
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/english_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/english_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: enough|det
+    headword: enough
+    pos: det
+    ipa:
+      uk: /ɪˈnʌf/
+      us: /ɪˈnʌf/
+    cefr: A1
+    meaning_vi:
+      - đủ
+    notes_vi:
+      - enough đứng TRƯỚC danh từ (enough money) nhưng SAU tính từ (big enough). gh đọc /f/.
+    topics:
+      - food
+      - quantity
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enough, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enough, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enough, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: east|n
+    headword: east
+    pos: n
+    ipa:
+      uk: /iːst/
+      us: /iːst/
+    cefr: A1
+    meaning_vi:
+      - phía đông
+      - hướng đông
+    topics:
+      - directions
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/east, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/east, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/east, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: eye|n
+    headword: eye
+    pos: n
+    ipa:
+      uk: /aɪ/
+      us: /aɪ/
+    cefr: A1
+    meaning_vi:
+      - mắt
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/eye, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/eye, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/eye, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: ear|n
+    headword: ear
+    pos: n
+    ipa:
+      uk: /ɪə/
+      us: /ɪr/
+    cefr: A1
+    meaning_vi:
+      - tai
+    topics:
+      - body
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ear, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ear, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ear, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: easily|adv
+    headword: easily
+    pos: adv
+    ipa:
+      uk: /ˈiː.zəl.i/
+      us: /ˈiː.zəl.i/
+    cefr: A2
+    meaning_vi:
+      - dễ dàng
+    notes_vi:
+      - easy → easily (y → i + ly).
+    topics:
+      - manner
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-29, field: ipa.us }
+    status: draft

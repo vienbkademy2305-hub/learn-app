@@ -1206,3 +1206,457 @@ points:
     cefr: null
     source: editorial
     status: draft
+  - id: en-g1-23
+    lesson: buoi-01-ban-than-gia-dinh
+    title: Đại từ tân ngữ, tính từ sở hữu, đại từ sở hữu & sở hữu cách 's
+    structures:
+      - "Chủ ngữ → tân ngữ: I→me, you→you, he→him, she→her, it→it, we→us, they→them"
+      - "Tính từ sở hữu + danh từ: my / your / his / her / its / our / their + N"
+      - "Đại từ sở hữu (đứng một mình): mine / yours / his / hers / ours / theirs"
+      - "Người + 's + N: Lan's brother · danh từ số nhiều đuôi -s + ': my parents' house"
+    explain: "Đứng trước động từ dùng đại từ chủ ngữ (I, she…); đứng sau động từ hoặc giới từ dùng đại từ tân ngữ (She loves me, I live with them). Muốn nói \"của ai\", đặt tính từ sở hữu trước danh từ (my mother) hoặc dùng đại từ sở hữu thay cho cả cụm (This bag is mine = my bag). Với tên người, thêm 's: Nam's sister. Tiếng Việt dùng \"của\" đứng sau, tiếng Anh thì đặt chủ sở hữu lên TRƯỚC."
+    table:
+      - - Chủ ngữ
+        - Tân ngữ
+        - Tính từ sở hữu
+        - Đại từ sở hữu
+      - - I
+        - me
+        - my
+        - mine
+      - - you
+        - you
+        - your
+        - yours
+      - - he
+        - him
+        - his
+        - his
+      - - she
+        - her
+        - her
+        - hers
+      - - it
+        - it
+        - its
+        - —
+      - - we
+        - us
+        - our
+        - ours
+      - - they
+        - them
+        - their
+        - theirs
+    notes:
+      - its (của nó) không có dấu nháy; it's = it is.
+      - "Hỏi 'của ai': Whose bag is this? — It's Lan's / It's mine."
+    mistakes:
+      - wrong: She loves she mother.
+        right: She loves her mother.
+        why: Trước danh từ dùng tính từ sở hữu her.
+      - wrong: I live with they.
+        right: I live with them.
+        why: Sau giới từ dùng đại từ tân ngữ them.
+      - wrong: This is the car of my father.
+        right: This is my father's car.
+        why: Với người, dùng 's; không dịch 'của' thành of.
+      - wrong: That book is her's.
+        right: That book is hers.
+        why: Đại từ sở hữu không có dấu nháy.
+    examples:
+      - b01-017
+      - b01-018
+      - b01-019
+      - b01-020
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 59–64 (đối chiếu phạm vi, không chép)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản L3 'Sự sở hữu và Đại từ', mind map L4 (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-24
+    lesson: buoi-02-ngoai-hinh-tinh-cach
+    title: Trật tự nhiều tính từ trước danh từ
+    structures:
+      - Ý kiến → kích thước → tuổi → màu sắc → nguồn gốc → chất liệu + DANH TỪ
+      - a beautiful small old red Italian leather bag (ít khi dùng quá 2–3 tính từ)
+      - S + be / look / feel / seem + tính từ (không cần theo thứ tự này)
+    explain: "Khi có hai, ba tính từ đứng trước một danh từ, tiếng Anh xếp theo thứ tự cố định: tính từ nêu Ý KIẾN (nice, beautiful) đứng đầu, sau đó là KÍCH THƯỚC (big, small), TUỔI (old, new, young), MÀU (red), NGUỒN GỐC (Vietnamese, Japanese) và cuối cùng CHẤT LIỆU (leather, cotton). Tiếng Việt đặt tính từ sau danh từ nên người Việt hay lúng túng thứ tự. Sau be/look/feel, nối các tính từ bằng and: She is tall and slim."
+    table:
+      - - Ý kiến
+        - Kích thước
+        - Tuổi
+        - Màu
+        - Nguồn gốc
+        - Chất liệu
+        - Danh từ
+      - - a nice
+        - small
+        - ""
+        - ""
+        - ""
+        - ""
+        - house
+      - - a beautiful
+        - ""
+        - old
+        - ""
+        - Japanese
+        - ""
+        - car
+      - - a
+        - big
+        - ""
+        - black
+        - ""
+        - leather
+        - sofa
+    notes:
+      - "Mẹo nhớ: 'Ý – Cỡ – Tuổi – Màu – Gốc – Liệu'."
+      - "Hai tính từ cùng loại nối bằng and hoặc dấu phẩy: a kind and patient teacher."
+    mistakes:
+      - wrong: She has a red beautiful dress.
+        right: She has a beautiful red dress.
+        why: Ý kiến (beautiful) đứng trước màu (red).
+      - wrong: He drives a Japanese new car.
+        right: He drives a new Japanese car.
+        why: Tuổi (new) đứng trước nguồn gốc (Japanese).
+      - wrong: She is tall slim.
+        right: She is tall and slim.
+        why: Sau be, hai tính từ nối bằng and.
+    examples:
+      - b02-017
+      - b02-018
+      - b02-019
+    provenance:
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L7 'Tính từ' — vị trí và trật tự (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-25
+    lesson: buoi-04-so-ngay-thang-thoi-gian
+    title: "Giới từ thời gian mở rộng: for / during / until / from … to / before / after"
+    structures:
+      - "for + khoảng thời gian: for two hours, for a week"
+      - "during + sự kiện: during the lesson, during Tet"
+      - "until + mốc thời gian: until 9 p.m., until Friday"
+      - "from … to / until …: from 8 a.m. to 5 p.m."
+      - "before / after + thời gian hoặc sự kiện: before lunch, after work"
+    explain: 'Ngoài in/on/at, cần phân biệt: FOR đi với độ dài (bao lâu), DURING đi với một sự kiện (trong lúc nào), UNTIL chỉ mốc kết thúc (đến lúc nào thì thôi). FROM … TO/UNTIL cho biết cả điểm đầu và điểm cuối. Người Việt hay dùng "in" cho mọi thứ vì "trong" — nhưng "trong hai tiếng" là for two hours, còn "trong buổi học" là during the lesson.'
+    table:
+      - - Giới từ
+        - Đi với
+        - Ví dụ
+      - - for
+        - độ dài (bao lâu)
+        - I study for two hours.
+      - - during
+        - sự kiện
+        - Phones are off during the exam.
+      - - until
+        - mốc kết thúc
+        - The shop is open until 10 p.m.
+      - - from … to
+        - điểm đầu – điểm cuối
+        - I work from Monday to Friday.
+    notes:
+      - "Hỏi độ dài: How long …? — For three hours."
+      - "Nhắc lại Buổi 4: không dùng giới từ trước this / next / last / every."
+    mistakes:
+      - wrong: I study English during two hours every day.
+        right: I study English for two hours every day.
+        why: Độ dài thời gian dùng for.
+      - wrong: Please be quiet for the lesson.
+        right: Please be quiet during the lesson.
+        why: Trong một sự kiện dùng during.
+      - wrong: The library opens from 8 a.m. at 5 p.m.
+        right: The library opens from 8 a.m. to 5 p.m.
+        why: from … to (không phải from … at).
+    examples:
+      - b04-018
+      - b04-019
+      - b04-020
+      - b04-021
+    provenance:
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L7 'Giới từ' — nhánh chỉ thời gian (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-26
+    lesson: buoi-05-hoat-dong-hang-ngay
+    title: Câu hỏi có từ để hỏi (Wh-questions) ở hiện tại
+    structures:
+      - Wh- + do / does + S + V (nguyên mẫu)?  → What time do you get up?
+      - Wh- + am / is / are + S …?  → Where is your office?
+      - "Hỏi CHỦ NGỮ: Who / What + V(s)…? (không có do)  → Who cooks dinner?"
+      - What · Where · When · What time · Who · Why · How · How often · How long · How much / many
+    explain: "Đặt từ để hỏi lên đầu câu, rồi dùng trợ động từ do/does (với động từ thường) hoặc đảo to be lên trước chủ ngữ. Sau does, động từ trở về nguyên mẫu. Riêng khi hỏi CHÍNH người làm việc đó (Who cooks?), từ để hỏi là chủ ngữ nên không cần do/does. Người Việt hay giữ trật tự câu kể: *Where you live?* — phải thêm do."
+    table:
+      - - Từ để hỏi
+        - Nghĩa
+        - Ví dụ
+      - - What / What time
+        - cái gì / mấy giờ
+        - What time does the class start?
+      - - Where
+        - ở đâu
+        - Where do your parents live?
+      - - When
+        - khi nào
+        - When do you do the dishes?
+      - - Who
+        - ai
+        - Who makes the bed in your family?
+      - - Why
+        - tại sao
+        - Why are you tired?
+      - - How often / How long
+        - bao lâu một lần / mất bao lâu
+        - How long does it take?
+    notes:
+      - Trả lời Why bằng Because …
+      - Ngữ điệu câu hỏi Wh- thường XUỐNG ở cuối câu (khác câu hỏi Yes/No lên giọng).
+    mistakes:
+      - wrong: Where you live?
+        right: Where do you live?
+        why: Thiếu trợ động từ do.
+      - wrong: What does she likes?
+        right: What does she like?
+        why: Sau does dùng nguyên mẫu.
+      - wrong: Who does cook dinner?
+        right: Who cooks dinner?
+        why: Hỏi chủ ngữ thì không dùng does, động từ thêm -s.
+      - wrong: Why you are late?
+        right: Why are you late?
+        why: Đảo to be lên trước chủ ngữ.
+    examples:
+      - b05-012
+      - b05-013
+      - b05-014
+      - b05-015
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 44–49 (câu hỏi — đối chiếu phạm vi, không chép)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L10 'Hiện tại đơn', 'To be' — nhánh câu hỏi có từ để hỏi
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-27
+    lesson: buoi-08-thuc-an-do-uong
+    title: "Lượng từ: a few / a little / too many / too much / (not) enough"
+    structures:
+      - a few + N đếm được số nhiều · a little + N không đếm được
+      - too many + N đếm được · too much + N không đếm được (quá nhiều, không tốt)
+      - (not) enough + N · tính từ + enough (big enough)
+    explain: 'Nối tiếp much/many của buổi này: muốn nói "một ít" thì dùng a few cho thứ đếm được (a few apples) và a little cho thứ không đếm được (a little milk). Muốn nói "quá nhiều" (mang ý tiêu cực) dùng too many / too much. enough nghĩa là "đủ", phủ định not enough là "không đủ". Người Việt hay dùng much cho mọi thứ (*much people*) — hãy hỏi trước: danh từ này đếm được không?'
+    table:
+      - - ""
+        - Đếm được
+        - Không đếm được
+      - - Một ít
+        - a few eggs
+        - a little salt
+      - - Quá nhiều
+        - too many sweets
+        - too much sugar
+      - - Không đủ
+        - not enough chairs
+        - not enough time
+    notes:
+      - a few / a little mang nghĩa tích cực (có một ít); few / little không có a mang nghĩa tiêu cực (hầu như không).
+    mistakes:
+      - wrong: I eat too much sweets.
+        right: I eat too many sweets.
+        why: sweets đếm được → too many.
+      - wrong: Can I have a few milk?
+        right: Can I have a little milk?
+        why: milk không đếm được → a little.
+      - wrong: We don't have money enough.
+        right: We don't have enough money.
+        why: enough đứng trước danh từ.
+    examples:
+      - b08-019
+      - b08-020
+      - b08-021
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 83, 92 (much/many, enough — đối chiếu phạm vi)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L4 'Lượng từ' (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-28
+    lesson: buoi-10-giao-thong-phuong-tien
+    title: Giới từ chỉ chuyển động & cách chỉ đường
+    structures:
+      - go / walk / drive + along · across · through · past · round · into · out of + nơi chốn
+      - "Chỉ đường: You go straight on, turn left at the corner, and the bank is on your right."
+      - "Hỏi đường: Excuse me, how do I get to …? / Where is the nearest …?"
+    explain: "Giới từ nơi chốn (Buổi 3) cho biết vật ĐANG ở đâu; giới từ chuyển động cho biết người/xe ĐI theo hướng nào: along (dọc theo), across (băng ngang qua), through (xuyên qua bên trong), past (đi ngang qua, vượt qua), into / out of (vào trong / ra khỏi). Khi chỉ đường, người Anh thường dùng hiện tại đơn với you: You go along this street and turn right."
+    table:
+      - - Giới từ
+        - Nghĩa
+        - Ví dụ
+      - - along
+        - dọc theo
+        - walk along the river
+      - - across
+        - băng qua
+        - go across the bridge
+      - - through
+        - xuyên qua
+        - drive through the tunnel
+      - - past
+        - đi ngang qua
+        - go past the market
+      - - into / out of
+        - vào / ra khỏi
+        - get into the car / get out of the taxi
+    notes:
+      - on your left / on your right = ở bên tay trái / phải của bạn.
+      - "Với xe buýt, tàu: get on / get off (Buổi 10); với ô tô, taxi: get into / get out of."
+    mistakes:
+      - wrong: Turn to left at the corner.
+        right: Turn left at the corner.
+        why: turn left/right không có to.
+      - wrong: Go across the park to the gate.
+        right: Go through the park to the gate.
+        why: Đi bên trong một khu (công viên, rừng) dùng through; across hợp với đường, cầu, sông.
+      - wrong: The bank is on the your right.
+        right: The bank is on your right.
+        why: Không dùng the cùng tính từ sở hữu.
+    examples:
+      - b10-019
+      - b10-020
+      - b10-021
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 110 (up/over/through… — đối chiếu phạm vi, không chép)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L7 'Giới từ' — nhánh chỉ chuyển động; Từ vựng cơ bản L2 phương hướng
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-29
+    lesson: buoi-11-thoi-tiet-mua
+    title: "Chủ ngữ giả It: thời tiết, thời gian, khoảng cách, It takes …"
+    structures:
+      - "It is + tính từ thời tiết / It is + V-ing: It's windy. It's raining."
+      - "It is + giờ / ngày: It's 7 o'clock. It's Monday."
+      - "It is + khoảng cách + from … to …: It's 5 km from my house to school."
+      - "It takes (somebody) + thời gian + to V: It takes 20 minutes to walk there."
+      - "It is + tính từ + to V: It's nice to see you."
+    explain: 'Tiếng Việt nói "Trời mưa", "Bảy giờ rồi", "Mất 20 phút" mà không có chủ ngữ; tiếng Anh bắt buộc có chủ ngữ nên dùng It làm "chủ ngữ giả" — It không chỉ vật gì cả. Hỏi mất bao lâu: How long does it take to …? Hỏi xa bao nhiêu: How far is it from … to …?'
+    table:
+      - - Nói về
+        - Mẫu câu
+      - - Thời tiết
+        - It's cold. It's snowing.
+      - - Giờ / ngày
+        - It's half past six. It's my birthday today.
+      - - Khoảng cách
+        - It's 3 km from here to the beach.
+      - - Thời gian làm việc gì
+        - It takes an hour to get there.
+      - - Nhận xét
+        - It's easy to cook this dish.
+    notes:
+      - "Đừng bỏ It: *Is raining* ✗ → It's raining ✓. *Takes 10 minutes* ✗ → It takes 10 minutes ✓."
+    mistakes:
+      - wrong: Is very hot today.
+        right: It's very hot today.
+        why: Câu tiếng Anh phải có chủ ngữ; thời tiết dùng It.
+      - wrong: It takes me 30 minutes go to work.
+        right: It takes me 30 minutes to go to work.
+        why: It takes + thời gian + TO V.
+      - wrong: From my house to school is 2 km.
+        right: It's 2 km from my house to school.
+        why: Khoảng cách dùng It is … from … to …
+    examples:
+      - b11-012
+      - b11-013
+      - b11-014
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 38 (It … — đối chiếu phạm vi, không chép)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản, mind map L12 'Trật tự từ – There, It' (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-30
+    lesson: buoi-17-cam-xuc-trang-thai
+    title: Tính từ và trạng từ chỉ cách thức (-ly)
+    structures:
+      - "Tính từ + ly → trạng từ: quick → quickly, careful → carefully, easy → easily"
+      - "S + V (+ tân ngữ) + trạng từ: She speaks English well. He drives carefully."
+      - "be / look / feel / seem + TÍNH TỪ: She looks tired. (không dùng trạng từ)"
+      - "Bất quy tắc: good → well · fast → fast · hard → hard · late → late · early → early"
+    explain: 'Tính từ bổ nghĩa cho danh từ (a careful driver); trạng từ bổ nghĩa cho động từ, cho biết hành động diễn ra THẾ NÀO (He drives carefully). Phần lớn trạng từ = tính từ + ly. Trạng từ cách thức thường đứng sau động từ, hoặc sau tân ngữ nếu có. Cẩn thận: sau be, look, feel, seem vẫn dùng tính từ (She feels nervous), và hardly nghĩa là "hầu như không", không phải "chăm chỉ".'
+    table:
+      - - Tính từ
+        - Trạng từ
+        - Ví dụ
+      - - slow
+        - slowly
+        - Please speak slowly.
+      - - careful
+        - carefully
+        - Read the question carefully.
+      - - easy
+        - easily
+        - He passed the exam easily.
+      - - good
+        - well
+        - She cooks well.
+      - - fast / hard
+        - fast / hard
+        - He works hard. She runs fast.
+    notes:
+      - "friendly, lovely, lonely là TÍNH TỪ dù có đuôi -ly → trạng từ nói: in a friendly way."
+    mistakes:
+      - wrong: She speaks English very good.
+        right: She speaks English very well.
+        why: Bổ nghĩa cho động từ speak → trạng từ well.
+      - wrong: Please drive careful.
+        right: Please drive carefully.
+        why: drive là động từ → cần trạng từ.
+      - wrong: He works hardly.
+        right: He works hard.
+        why: hard vừa là tính từ vừa là trạng từ; hardly = hầu như không.
+      - wrong: You look nervously.
+        right: You look nervous.
+        why: Sau look (trông có vẻ) dùng tính từ.
+    examples:
+      - b17-018
+      - b17-019
+      - b17-020
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 86 (quickly/badly/suddenly — đối chiếu phạm vi, không chép)
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản L6 'Tính từ và Trạng từ', mind map L7 'Trạng từ' (đối chiếu phạm vi)
+    cefr: null
+    source: editorial
+    status: draft

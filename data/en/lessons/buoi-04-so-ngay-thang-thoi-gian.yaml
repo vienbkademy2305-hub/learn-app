@@ -32,6 +32,8 @@ steps:
       - afternoon|n
       - midnight|n
       - holiday|n
+      - during|prep
+      - until|prep
   - type: pronunciation
     notes:
       - sound: snd-th
@@ -45,6 +47,7 @@ steps:
   - type: grammar
     items:
       - en-g1-04
+      - en-g1-25
   - type: examples
     items:
       - b04-001
@@ -55,6 +58,8 @@ steps:
       - b04-006
       - b04-007
       - b04-008
+      - b04-018
+      - b04-020
   - type: dialogue
     title_vi: Hẹn ngày sinh nhật
     lines:
@@ -198,6 +203,30 @@ steps:
           - wrong: on the morning
             right: in the morning
             why: Buổi dùng in the…
+      - id: b04-x6
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền for, during, until, from hoặc to.
+        bank:
+          - for
+          - during
+          - until
+          - from
+          - to
+        questions:
+          - q: My father works ___ ten hours a day.
+            answer: for
+          - q: Don't talk ___ the film.
+            answer: during
+            explain_vi: Trong một sự kiện → during.
+          - q: The bank is open ___ 4 p.m. on weekdays.
+            answer: until
+          - q: Our holiday is ___ 30th April to 1st May.
+            answer: from
+          - q: I live in Hanoi from Monday ___ Friday.
+            answer: to
+          - q: She is in Japan ___ three weeks.
+            answer: for
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ về những ngày đặc biệt trong năm của bạn (sinh nhật, ngày lễ gia đình…): ngày nào, bạn thường làm gì, lúc mấy giờ. Dùng đúng in/on/at."
