@@ -610,3 +610,69 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/translate, checked: 2026-09-29, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/translate, checked: 2026-09-29, field: ipa.uk }
     status: draft
+  - id: t-shirt|n
+    headword: T-shirt
+    pos: n
+    ipa:
+      uk: /ˈtiː.ʃɜːt/
+      us: /ˈtiː.ʃɝːt/
+    cefr: A1
+    meaning_vi:
+      - áo phông
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: trousers|n
+    headword: trousers
+    pos: n
+    ipa:
+      uk: /ˈtraʊ.zəz/
+      us: /ˈtraʊ.zɚz/
+    cefr: A1
+    meaning_vi:
+      - quần dài
+    notes_vi:
+      - "Luôn số nhiều: a pair of trousers. Anh-Mỹ hay nói pants."
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trousers, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trousers, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trousers, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tell|v
+    headword: tell
+    pos: v
+    forms:
+      past: told
+      pp: told
+    ipa:
+      uk: /tel/
+      us: /tel/
+    cefr: A1
+    meaning_vi:
+      - kể
+      - bảo
+      - nói với (ai)
+    notes_vi:
+      - "tell + người: tell me a story (không nói *tell to me*). say không đi thẳng với người: say something TO somebody."
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-29, field: ipa.us }
+    status: draft

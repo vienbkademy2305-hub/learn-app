@@ -46,6 +46,7 @@ steps:
   - type: grammar
     items:
       - en-g1-12
+      - en-g1-21
   - type: examples
     items:
       - b12-001
@@ -56,6 +57,8 @@ steps:
       - b12-006
       - b12-007
       - b12-008
+      - b12-015
+      - b12-016
   - type: dialogue
     title_vi: Đi khám bác sĩ
     lines:
@@ -216,6 +219,52 @@ steps:
           - wrong: he mustn't go to school
             right: he doesn't have to go to school
             why: Trường đóng cửa = không cần đi, không phải bị cấm.
+      - id: b12-x6
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại thành câu mệnh lệnh (bắt đầu bằng động từ, Don't hoặc Let's).
+        questions:
+          - q: You should drink a lot of water.
+            answer: Drink a lot of water.
+            accept:
+              - Drink a lot of water!
+          - q: You shouldn't go out in the rain.
+            answer: Don't go out in the rain.
+            accept:
+              - Do not go out in the rain.
+          - q: You mustn't be late for the appointment.
+            answer: Don't be late for the appointment.
+            accept:
+              - Do not be late for the appointment.
+          - q: Shall we see a doctor together?
+            answer: Let's see a doctor.
+            accept:
+              - Let's see a doctor together.
+          - q: Smoking is not allowed here. (biển báo, 2 từ)
+            answer: No smoking.
+            accept:
+              - No smoking
+      - id: b12-x7
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Sắp xếp các từ thành câu mệnh lệnh đúng (nhớ dấu . hoặc ! cuối câu).
+        questions:
+          - q: late / don't / be
+            answer: Don't be late!
+            accept:
+              - Don't be late.
+          - q: medicine / take / your
+            answer: Take your medicine.
+            accept:
+              - Take your medicine!
+          - q: the window / please / open
+            answer: Open the window, please.
+            accept:
+              - Please open the window.
+          - q: some exercise / let's / do
+            answer: Let's do some exercise.
+            accept:
+              - Let's do some exercise!
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ đưa lời khuyên cho một người bạn hay bị mệt và ốm: bạn ấy nên / không nên / phải làm gì để khỏe hơn."

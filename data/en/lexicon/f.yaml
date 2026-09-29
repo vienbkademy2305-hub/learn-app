@@ -550,3 +550,52 @@ entries:
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/factory, checked: 2026-09-29, field: ipa.uk }
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/factory, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: film|n
+    headword: film
+    pos: n
+    ipa:
+      uk: /fɪlm/
+      us: /fɪlm/
+    cefr: A1
+    meaning_vi:
+      - bộ phim
+    collocations:
+      - watch a film
+      - an action film
+      - a horror film
+    notes_vi:
+      - Anh-Mỹ hay nói movie. Đọc 1 âm tiết /fɪlm/, không chêm nguyên âm 'phi-lim'.
+    topics:
+      - entertainment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/film, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/film, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/film, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fan|n
+    headword: fan
+    pos: n
+    ipa:
+      uk: /fæn/
+      us: /fæn/
+    cefr: A2
+    meaning_vi:
+      - người hâm mộ
+    collocations:
+      - a big fan of
+    notes_vi:
+      - "I'm a big fan of + người/vật: I'm a big fan of Son Tung."
+    topics:
+      - entertainment
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -61,3 +61,15 @@ sources:
     sha256: null
     added: 2026-09-29
     notes: Chỉ lấy dữ kiện ngắn cho từng từ — cấp CEFR (Oxford 3000/5000) và IPA Anh/Mỹ. Không chép định nghĩa, ví dụ, không đăng lại danh sách.
+
+  - id: prep-mat-goc
+    name: Khóa "IELTS Mất gốc" (PREP.VN) — video bài giảng, phần nén 007 (6 video)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "1. IELTS MẤT GỐC PREP.VN-20260928T150144Z-1-007.zip"
+    sha256: 80943cf44b5f105f8832afb6e30de94ca4d30c9c912548c33454e9ee28eb5873
+    added: 2026-09-29
+    notes: Khóa học trả phí của PREP. Chỉ dùng để đối chiếu phạm vi từ vựng/ngữ pháp theo chủ đề; tự viết lại mọi câu, bài tập, giải thích. Không dùng video, hình, câu mẫu của khóa. Giải nén ở tai-lieu-nguon/tieng-anh/. Đây mới là 1 phần của bộ nén nhiều phần.

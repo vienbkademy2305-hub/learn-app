@@ -32,6 +32,15 @@ steps:
       - practise|v
       - musical-instrument|phr-n
       - mind|v
+      - film|n
+      - cinema|n
+      - actor|n
+      - plot|n
+      - special-effects|phr-n
+      - singer|n
+      - band|n
+      - fan|n
+      - catchy|adj
   - type: pronunciation
     notes:
       - sound: snd-m
@@ -42,6 +51,8 @@ steps:
         text_vi: "/dʒ/ trong enjoy, join, jogging: bắt đầu như /d/ rồi nhả ra, rung dây thanh. Không đọc thành 'gi' tiếng Việt."
       - word: photography|n
         text_vi: "Trọng âm âm 2: pho-TO-gra-phy (khác PHO-to)."
+      - { word: film|n, text_vi: "film /fɪlm/: một âm tiết, cụm /lm/ cuối — không thêm nguyên âm thành 'phi-lim'." }
+      - { word: singer|n, text_vi: "singer /ˈsɪŋ.ə/: /ŋ/ không bật /ɡ/ (khác finger /ˈfɪŋ.ɡə/)." }
   - type: grammar
     items:
       - en-g1-16
@@ -55,6 +66,8 @@ steps:
       - b16-006
       - b16-007
       - b16-008
+      - b16-017
+      - b16-022
   - type: dialogue
     title_vi: Nói chuyện về sở thích
     lines:
@@ -214,6 +227,33 @@ steps:
           - q: Their father wants them to spend more time together.
             answer: F
             explain_vi: Là MẸ, không phải bố. Đọc kỹ chủ thể.
+      - id: b16-x6
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp (phim & nhạc).
+        bank:
+          - cinema
+          - actor
+          - plot
+          - special effects
+          - singer
+          - fan
+          - catchy
+        questions:
+          - q: Let's go to the ___ tonight. There's a new film.
+            answer: cinema
+          - q: "The ___ of this film is simple: a boy looks for his dog."
+            answer: plot
+          - q: Tom Holland is my favourite ___.
+            answer: actor
+          - q: The ___ in this film look very real — the city is on fire!
+            answer: special effects
+          - q: I'm a big ___ of Den Vau. I have all his songs.
+            answer: fan
+          - q: Everybody is singing this song. It's really ___.
+            answer: catchy
+          - q: She has a beautiful voice. She wants to be a ___.
+            answer: singer
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 70–100 từ về sở thích của bạn: bạn thích làm gì, bắt đầu khi nào, và dự định gì cho sở thích đó. Dùng ít nhất 3 động từ + V-ing và 3 động từ + to V."

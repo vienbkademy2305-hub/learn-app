@@ -321,3 +321,27 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: lend|v
+    headword: lend
+    pos: v
+    forms:
+      past: lent
+      pp: lent
+    ipa:
+      uk: /lend/
+      us: /lend/
+    cefr: A2
+    meaning_vi:
+      - cho mượn
+    notes_vi:
+      - lend = cho mượn; borrow = mượn (của ai). Can you lend me your pen? = Can I borrow your pen?
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-29, field: ipa.us }
+    status: draft

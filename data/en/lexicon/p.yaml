@@ -540,3 +540,47 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: physics|n
+    headword: physics
+    pos: n
+    ipa:
+      uk: /ˈfɪz.ɪks/
+      us: /ˈfɪz.ɪks/
+    stress: PHY-sics
+    cefr: A2
+    meaning_vi:
+      - môn Vật lý
+    notes_vi:
+      - "Tận cùng -s nhưng là danh từ số ít: Physics IS difficult (giống maths)."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/physics, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/physics, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/physics, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: plot|n
+    headword: plot
+    pos: n
+    ipa:
+      uk: /plɒt/
+      us: /plɑːt/
+    cefr: B1
+    meaning_vi:
+      - cốt truyện
+    collocations:
+      - an exciting plot
+      - a simple plot
+    topics:
+      - entertainment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -303,3 +303,30 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: give|v
+    headword: give
+    pos: v
+    forms:
+      past: gave
+      pp: given
+    ipa:
+      uk: /ɡɪv/
+      us: /ɡɪv/
+    cefr: A1
+    meaning_vi:
+      - đưa
+      - tặng
+      - cho
+    collocations:
+      - give somebody something
+      - give something to somebody
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.us }
+    status: draft

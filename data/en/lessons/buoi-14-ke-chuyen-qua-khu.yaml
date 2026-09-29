@@ -29,6 +29,12 @@ steps:
       - finally|adv
       - then|adv
       - at-first|colloc
+      - give|v
+      - send|v
+      - buy|v
+      - lend|v
+      - show|v
+      - tell|v
   - type: pronunciation
     notes:
       - sound: snd-er
@@ -40,9 +46,11 @@ steps:
       - word: lose|v
         text_vi: lose /luːz/ tận cùng /z/ rung; lost /lɒst/ tận cùng /st/ — đọc đủ hai âm cuối.
       - text_vi: "was/were trong câu thường đọc yếu: I was /wəz/ walking, they were /wə/ talking."
+      - { word: buy|v, text_vi: bought /bɔːt/ (quá khứ của buy) và brought /brɔːt/ (quá khứ của bring) rất giống nhau — nghe kỹ âm /r/. }
   - type: grammar
     items:
       - en-g1-14
+      - en-g1-22
   - type: examples
     items:
       - b14-001
@@ -53,6 +61,8 @@ steps:
       - b14-006
       - b14-007
       - b14-008
+      - b14-012
+      - b14-014
   - type: dialogue
     title_vi: Một ngày xui xẻo
     lines:
@@ -197,6 +207,62 @@ steps:
           - wrong: didn't saw
             right: didn't see
             why: Sau didn't dùng nguyên mẫu.
+      - id: b14-x6
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu theo trật tự còn lại (người + vật ↔ vật + to/for + người).
+        questions:
+          - q: She gave me a present.
+            answer: She gave a present to me.
+          - q: I sent an email to my boss.
+            answer: I sent my boss an email.
+          - q: He bought his wife a coat.
+            answer: He bought a coat for his wife.
+          - q: Can you lend me your calculator?
+            answer: Can you lend your calculator to me?
+          - q: My uncle told a funny story to us.
+            answer: My uncle told us a funny story.
+      - id: b14-x7
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: My brother ___ a new phone last week.
+            options:
+              - buyed me
+              - bought me
+              - bought to me
+              - buy me
+            answer: b
+          - q: Please give ___.
+            options:
+              - me it
+              - it me
+              - it to me
+              - to me it
+            answer: c
+            explain_vi: Vật là đại từ it → it to me.
+          - q: She cooked a nice dinner ___ her parents.
+            options:
+              - to
+              - for
+              - at
+              - with
+            answer: b
+          - q: Can I borrow your pen? — Sure, I'll ___ it to you.
+            options:
+              - borrow
+              - lend
+              - give back
+              - take
+            answer: b
+          - q: He ___ us about his trip to Japan.
+            options:
+              - said
+              - told
+              - spoke
+              - talked to
+            answer: b
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 90–120 từ kể một chuyện đáng nhớ (vui hoặc xui) đã xảy ra với bạn. Dùng at first / then / suddenly / finally, ít nhất 5 động từ bất quy tắc và 2 câu quá khứ tiếp diễn.

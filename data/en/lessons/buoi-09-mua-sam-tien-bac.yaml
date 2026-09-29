@@ -32,6 +32,14 @@ steps:
       - wallet|n
       - bargain|n
       - brand|n
+      - clothes|n
+      - t-shirt|n
+      - jeans|n
+      - trousers|n
+      - skirt|n
+      - jumper|n
+      - coat|n
+      - casual|adj
   - type: pronunciation
     notes:
       - sound: snd-uh
@@ -42,6 +50,8 @@ steps:
         text_vi: "the cheapest: -est đọc nhẹ /ɪst/; as … as trong câu đọc yếu /əz … əz/."
       - word: receipt|n
         text_vi: "Chữ p câm: ri-SEET."
+      - { word: clothes|n, text_vi: "clothes /kləʊðz/: cụm /ðz/ khó — người bản xứ thường đọc lướt /kləʊz/, cả hai đều được. Đừng đọc thành 2 âm tiết 'clo-thes'." }
+      - { word: casual|adj, text_vi: "casual: âm /ʒ/ ở giữa (như 'gi' nhẹ), trọng âm âm đầu CA-su-al." }
   - type: grammar
     items:
       - en-g1-09
@@ -55,6 +65,8 @@ steps:
       - b09-006
       - b09-007
       - b09-008
+      - b09-022
+      - b09-023
   - type: dialogue
     title_vi: Mua áo khoác
     lines:
@@ -211,6 +223,55 @@ steps:
             explain_vi: Người thích chợ là MẸ; chị gái đi trung tâm thương mại. Đọc kỹ chủ thể.
           - q: The market is busy in the morning.
             answer: T
+      - id: b09-x6
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng (trang phục + so sánh).
+        questions:
+          - q: It's cold outside. Take your ___.
+            options:
+              - shorts
+              - coat
+              - T-shirt
+              - skirt
+            answer: b
+          - q: My new jeans ___ too long.
+            options:
+              - is
+              - are
+              - be
+              - am
+            answer: b
+            explain_vi: jeans luôn số nhiều → are.
+          - q: These are ___ trousers in the shop.
+            options:
+              - the cheaper
+              - cheapest
+              - the cheapest
+              - more cheap
+            answer: c
+          - q: I bought ___ at the market yesterday.
+            options:
+              - a clothes
+              - some clothes
+              - clothe
+              - a clothing
+            answer: b
+            explain_vi: clothes không đi với a.
+          - q: This skirt is not ___ that dress.
+            options:
+              - as nice as
+              - nicer
+              - as nice than
+              - the nicest
+            answer: a
+          - q: "For a party with friends, I wear ___ clothes: jeans and a T-shirt."
+            options:
+              - casual
+              - formal
+              - expensive
+              - uniform
+            answer: a
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 60–90 từ so sánh ba nơi mua sắm ở nơi bạn sống. Dùng ít nhất 2 câu so sánh nhất và 1 câu not as … as.

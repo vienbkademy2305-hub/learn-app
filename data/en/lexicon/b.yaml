@@ -506,3 +506,96 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: biology|n
+    headword: biology
+    pos: n
+    ipa:
+      uk: /baɪˈɒl.ə.dʒi/
+      us: /baɪˈɑː.lə.dʒi/
+    stress: bi-O-lo-gy
+    cefr: A2
+    meaning_vi:
+      - môn Sinh học
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biology, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biology, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biology, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: businessman|n
+    headword: businessman
+    pos: n
+    forms:
+      plural: businessmen
+    ipa:
+      uk: /ˈbɪz.nɪs.mæn/
+      us: /ˈbɪz.nɪs.mæn/
+    stress: BUSI-ness-man
+    cefr: A2
+    meaning_vi:
+      - doanh nhân (nam)
+    notes_vi:
+      - "Nữ: businesswoman; trung tính: businessperson. Chữ i thứ hai câm: BIZ-nis."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/businessman, checked: 2026-09-29, field: cefr }
+    status: draft
+  - id: band|n
+    headword: band
+    pos: n
+    ipa:
+      uk: /bænd/
+      us: /bænd/
+    cefr: A1
+    meaning_vi:
+      - ban nhạc
+      - nhóm nhạc
+    collocations:
+      - rock band
+      - boy band
+      - girl group
+    topics:
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/band, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/band, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/band, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: buy|v
+    headword: buy
+    pos: v
+    forms:
+      past: bought
+      pp: bought
+    ipa:
+      uk: /baɪ/
+      us: /baɪ/
+    cefr: A1
+    meaning_vi:
+      - mua
+    notes_vi:
+      - "bought /bɔːt/ — gh câm. Mua cho ai: buy somebody something / buy something FOR somebody."
+    topics:
+      - story
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-29, field: ipa.us }
+    status: draft

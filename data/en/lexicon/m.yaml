@@ -109,11 +109,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: ipa.us }
     status: draft
   - id: manager|n
     headword: manager

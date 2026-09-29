@@ -32,6 +32,12 @@ steps:
       - pass|v
       - fail|v
       - take-notes|colloc
+      - chemistry|n
+      - physics|n
+      - biology|n
+      - art|n
+      - calculator|n
+      - spend-time|colloc
   - type: pronunciation
     notes:
       - sound: snd-ng
@@ -42,6 +48,8 @@ steps:
         text_vi: "Chữ c sau s câm: SAI-ơns. Tương tự: scene, scissors."
       - word: geography|n
         text_vi: "Trọng âm âm 2: ge-O-gra-phy. Chữ g đầu đọc /dʒ/."
+      - { word: chemistry|n, text_vi: "chemistry: ch đọc /k/ (giống school, stomach). Trọng âm âm đầu CHE-mis-try." }
+      - { word: biology|n, text_vi: "biology: trọng âm âm 2 bi-O-lo-gy; tương tự geography ge-O-gra-phy." }
   - type: grammar
     items:
       - en-g1-06
@@ -55,6 +63,8 @@ steps:
       - b06-006
       - b06-007
       - b06-008
+      - b06-024
+      - b06-025
   - type: dialogue
     title_vi: Gọi điện cho bạn cùng lớp
     lines:
@@ -221,6 +231,31 @@ steps:
             answer: T
           - q: The students in 10B like PE more than geography.
             answer: NG
+      - id: b06-x6
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp (môn học, học liệu, cụm từ học tập).
+        bank:
+          - chemistry
+          - physics
+          - biology
+          - art
+          - calculator
+          - spend
+        questions:
+          - q: We mix different liquids in ___ lessons.
+            answer: chemistry
+          - q: In ___, we study how things move and why light travels.
+            answer: physics
+          - q: I love ___. We learn how the human body works.
+            answer: biology
+          - q: She paints beautiful pictures in her ___ class.
+            answer: art
+          - q: Can I borrow your ___? This sum is too long.
+            answer: calculator
+          - q: I ___ too much time playing games. I need to study more.
+            answer: spend
+            explain_vi: "spend time + V-ing: dành thời gian làm gì."
   - type: homework
     kind: paragraph
     prompt_vi: "Bây giờ là 8 giờ tối. Viết đoạn văn 60–80 từ: mọi người trong nhà bạn đang làm gì? Dùng ít nhất 5 câu hiện tại tiếp diễn (có câu phủ định)."

@@ -32,6 +32,12 @@ steps:
       - interview|n
       - unemployed|adj
       - occupation|n
+      - secretary|n
+      - receptionist|n
+      - chef|n
+      - director|n
+      - staff|n
+      - businessman|n
   - type: pronunciation
     notes:
       - sound: snd-sh
@@ -42,6 +48,8 @@ steps:
         text_vi: "Từ có -tion: trọng âm luôn rơi vào âm tiết ngay trước -tion: oc-cu-PA-tion."
       - word: colleague|n
         text_vi: "Chỉ 2 âm tiết: KOL-iːg. Không đọc -gue thành 'gơ'."
+      - { word: colleague|n, text_vi: "colleague /ˈkɒl.iːɡ/ (đồng nghiệp, âm cuối /ɡ/) ≠ college /ˈkɒl.ɪdʒ/ (trường cao đẳng, âm cuối /dʒ/) — hai từ rất dễ nhầm khi nghe." }
+      - { word: chef|n, text_vi: "chef đọc /ʃef/ như 'she', không đọc /tʃ/ như chair." }
   - type: grammar
     items:
       - en-g1-07
@@ -55,6 +63,8 @@ steps:
       - b07-006
       - b07-007
       - b07-008
+      - b07-020
+      - b07-022
   - type: dialogue
     title_vi: Làm quen ở buổi tiệc
     lines:
@@ -192,6 +202,23 @@ steps:
         kind: dictation
         instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần).
         text: My sister is a nurse. She works in a big hospital, but this week she is working at night.
+      - id: b07-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối nghề với công việc (định nghĩa tiếng Anh).
+        pairs:
+          - left: secretary
+            right: answers phone calls and arranges meetings for a manager
+          - left: receptionist
+            right: welcomes guests at the front desk of a hotel
+          - left: chef
+            right: cooks food in a restaurant or hotel
+          - left: director
+            right: controls a company, or a film
+          - left: accountant
+            right: keeps a record of the money a company spends and receives
+          - left: businessman
+            right: a man who owns or runs a business
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ về công việc của một người thân: người đó làm nghề gì, thường làm gì mỗi ngày, và tuần này đang làm gì khác thường. Dùng cả hiện tại đơn và hiện tại tiếp diễn."

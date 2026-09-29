@@ -921,3 +921,184 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: spend-time|colloc
+    headword: spend time
+    pos: colloc
+    forms:
+      past: spent time
+    ipa:
+      uk: /ˌspend ˈtaɪm/
+      us: /ˌspend ˈtaɪm/
+    cefr: null
+    meaning_vi:
+      - dành thời gian
+    collocations:
+      - spend time on something
+      - spend time doing something
+    notes_vi:
+      - "spend time ON + danh từ hoặc spend time + V-ing: I spend two hours on homework / I spend two hours doing homework. Không nói *spend time to do*."
+    topics:
+      - school
+      - free-time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: secretary|n
+    headword: secretary
+    pos: n
+    forms:
+      plural: secretaries
+    ipa:
+      uk: /ˈsek.rə.tər.i/
+      us: /ˈsek.rə.ter.i/
+    stress: SEC-re-ta-ry
+    cefr: A2
+    meaning_vi:
+      - thư ký
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/secretary, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/secretary, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/secretary, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: staff|n
+    headword: staff
+    pos: n
+    ipa:
+      uk: /stɑːf/
+      us: /stæf/
+    cefr: B1
+    meaning_vi:
+      - toàn bộ nhân viên
+    notes_vi:
+      - "Danh từ tập hợp, không thêm -s: The company has 50 staff (không nói *staffs*). Một người: a member of staff."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/staff, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/staff, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/staff, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: skirt|n
+    headword: skirt
+    pos: n
+    ipa:
+      uk: /skɜːt/
+      us: /skɝːt/
+    cefr: A1
+    meaning_vi:
+      - chân váy
+    notes_vi:
+      - skirt = chân váy; dress = váy liền.
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skirt, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skirt, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skirt, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: special-effects|phr-n
+    headword: special effects
+    pos: phr-n
+    ipa:
+      uk: /ˌspeʃ.əl ɪˈfekts/
+      us: /ˌspeʃ.əl ɪˈfekts/
+    cefr: null
+    meaning_vi:
+      - kỹ xảo
+      - hiệu ứng đặc biệt (phim)
+    topics:
+      - entertainment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: singer|n
+    headword: singer
+    pos: n
+    ipa:
+      uk: /ˈsɪŋ.ə/
+      us: /ˈsɪŋ.ɚ/
+    cefr: A1
+    meaning_vi:
+      - ca sĩ
+    notes_vi:
+      - "/ŋ/ không bật /ɡ/: SING-ơ, không đọc 'sin-gơ'."
+    topics:
+      - entertainment
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/singer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/singer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/singer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: send|v
+    headword: send
+    pos: v
+    forms:
+      past: sent
+      pp: sent
+    ipa:
+      uk: /send/
+      us: /send/
+    cefr: A1
+    meaning_vi:
+      - gửi
+    collocations:
+      - send somebody a message
+      - send an email
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/send, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/send, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/send, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: show|v
+    headword: show
+    pos: v
+    forms:
+      past: showed
+      pp: shown
+    ipa:
+      uk: /ʃəʊ/
+      us: /ʃoʊ/
+    cefr: A1
+    meaning_vi:
+      - cho xem
+      - chỉ
+    collocations:
+      - show somebody the way
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-29, field: ipa.us }
+    status: draft

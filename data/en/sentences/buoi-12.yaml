@@ -14,3 +14,7 @@ sentences:
   - { id: b12-012, text: He has the flu and must stay at home., vi: Anh ấy bị cúm và phải ở nhà., words: [ flu|n ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
   - { id: b12-013, text: A healthy diet has a lot of fruit and vegetables., vi: Một chế độ ăn lành mạnh có nhiều rau quả., words: [ diet|n, healthy|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
   - { id: b12-014, text: My father often has back pain., vi: Bố tôi hay bị đau lưng., words: [ pain|n, often|adv ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-015, text: Take this medicine twice a day after meals., vi: Uống thuốc này hai lần một ngày sau bữa ăn., words: [ medicine|n, twice|adv ], grammar: [ en-g1-21 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-016, text: Don't stay up late. Get some rest., vi: Đừng thức khuya. Nghỉ ngơi đi., words: [ rest|n ], grammar: [ en-g1-21 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-017, text: You have a fever. Let's go to the pharmacy., vi: Bạn bị sốt rồi. Mình ra hiệu thuốc đi., words: [ fever|n, pharmacy|n ], grammar: [ en-g1-21 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-018, text: Be careful! The floor is wet., vi: Cẩn thận! Sàn nhà ướt đấy., words: [ floor|n ], grammar: [ en-g1-21 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }

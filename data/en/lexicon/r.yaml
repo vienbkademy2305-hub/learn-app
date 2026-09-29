@@ -250,3 +250,24 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: receptionist|n
+    headword: receptionist
+    pos: n
+    ipa:
+      uk: /rɪˈsep.ʃən.ɪst/
+      us: /rɪˈsep.ʃən.ɪst/
+    stress: re-CEP-tion-ist
+    cefr: null
+    meaning_vi:
+      - lễ tân
+    collocations:
+      - hotel receptionist
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receptionist, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receptionist, checked: 2026-09-29, field: ipa.us }
+    status: draft

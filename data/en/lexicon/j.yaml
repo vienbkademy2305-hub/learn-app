@@ -94,3 +94,45 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/join, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/join, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: jeans|n
+    headword: jeans
+    pos: n
+    ipa:
+      uk: /dʒiːnz/
+      us: /dʒiːnz/
+    cefr: A1
+    meaning_vi:
+      - quần bò
+      - quần jean
+    notes_vi:
+      - "Luôn số nhiều: My jeans ARE new. Đếm: a pair of jeans."
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jeans, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jeans, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jeans, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: jumper|n
+    headword: jumper
+    pos: n
+    ipa:
+      uk: /ˈdʒʌm.pə/
+      us: /ˈdʒʌm.pɚ/
+    cefr: null
+    meaning_vi:
+      - áo len chui đầu
+    notes_vi:
+      - Anh-Mỹ gọi là sweater.
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jumper, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/jumper, checked: 2026-09-29, field: ipa.us }
+    status: draft

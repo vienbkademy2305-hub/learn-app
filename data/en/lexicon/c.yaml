@@ -659,3 +659,184 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: chemistry|n
+    headword: chemistry
+    pos: n
+    ipa:
+      uk: /ˈkem.ɪ.stri/
+      us: /ˈkem.ɪ.stri/
+    stress: CHE-mis-try
+    cefr: A2
+    meaning_vi:
+      - môn Hóa học
+    notes_vi:
+      - "ch đọc /k/: /ˈkem.ɪ.stri/, không đọc 'che'."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chemistry, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chemistry, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chemistry, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: calculator|n
+    headword: calculator
+    pos: n
+    ipa:
+      uk: /ˈkæl.kjə.leɪ.tə/
+      us: /ˈkæl.kjə.leɪ.t̬ɚ/
+    stress: CAL-cu-la-tor
+    cefr: null
+    meaning_vi:
+      - máy tính bỏ túi
+    collocations:
+      - use a calculator
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/calculator, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/calculator, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: chef|n
+    headword: chef
+    pos: n
+    ipa:
+      uk: /ʃef/
+      us: /ʃef/
+    cefr: A2
+    meaning_vi:
+      - đầu bếp (nhà hàng)
+    notes_vi:
+      - ch đọc /ʃ/ (gốc tiếng Pháp). Khác chief /tʃiːf/ (người đứng đầu).
+    topics:
+      - work
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chef, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chef, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chef, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: clothes|n
+    headword: clothes
+    pos: n
+    ipa:
+      uk: /kləʊðz/
+      us: /kloʊðz/
+    cefr: A1
+    meaning_vi:
+      - quần áo
+    notes_vi:
+      - "Luôn số nhiều, không có a: These clothes are cheap (không nói *a clothes*). Người bản xứ hay đọc lướt /kləʊz/."
+    topics:
+      - clothes
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/clothes, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/clothes, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/clothes, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: coat|n
+    headword: coat
+    pos: n
+    ipa:
+      uk: /kəʊt/
+      us: /koʊt/
+    cefr: A1
+    meaning_vi:
+      - áo khoác dài
+    notes_vi:
+      - "/əʊ/ đôi: coat ≠ cot /kɒt/ (cũi trẻ em)."
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coat, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coat, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coat, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: casual|adj
+    headword: casual
+    pos: adj
+    ipa:
+      uk: /ˈkæʒ.ju.əl/
+      us: /ˈkæʒ.u.əl/
+    stress: CA-su-al
+    cefr: B2
+    meaning_vi:
+      - thường ngày
+      - thoải mái (không trang trọng)
+    collocations:
+      - casual clothes
+      - a casual look
+    notes_vi:
+      - "Trái nghĩa: formal (trang trọng)."
+    topics:
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/casual, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/casual, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cinema|n
+    headword: cinema
+    pos: n
+    ipa:
+      uk: /ˈsɪn.ə.mə/
+      us: /ˈsɪn.ə.mə/
+    stress: CI-ne-ma
+    cefr: A1
+    meaning_vi:
+      - rạp chiếu phim
+    collocations:
+      - go to the cinema
+    topics:
+      - entertainment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cinema, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cinema, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cinema, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: catchy|adj
+    headword: catchy
+    pos: adj
+    forms:
+      comparative: catchier
+    ipa:
+      uk: /ˈkætʃ.i/
+      us: /ˈkætʃ.i/
+    cefr: null
+    meaning_vi:
+      - (giai điệu) bắt tai
+      - dễ nhớ
+    collocations:
+      - a catchy song
+      - a catchy tune
+    topics:
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catchy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catchy, checked: 2026-09-29, field: ipa.us }
+    status: draft

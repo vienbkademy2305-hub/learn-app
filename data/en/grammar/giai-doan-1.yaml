@@ -1102,3 +1102,107 @@ points:
     cefr: null
     source: editorial
     status: draft
+  - id: en-g1-21
+    lesson: buoi-12-suc-khoe-benh-tat
+    title: "Câu mệnh lệnh (Imperative): Take… / Don't… / Let's…"
+    structures:
+      - V (nguyên mẫu) + …  → Take this medicine.
+      - Don't + V + …  → Don't drink cold water.
+      - Please + V… / V…, please.  → Sit down, please.
+      - Let's + V…  → Let's go to the pharmacy.
+      - "Biển báo: No + V-ing / danh từ  → No smoking. No parking."
+    explain: "Câu mệnh lệnh dùng để hướng dẫn, khuyên, cảnh báo hoặc nhờ ai làm gì. Câu KHÔNG có chủ ngữ và bắt đầu ngay bằng động từ nguyên mẫu (không chia, không có to). Muốn cấm hoặc khuyên đừng làm, thêm Don't phía trước. Thêm please để lịch sự hơn; Let's + V để rủ cả mình cùng làm. Trên biển báo thường viết ngắn: No + V-ing."
+    table:
+      - - Mục đích
+        - Ví dụ
+      - - Hướng dẫn
+        - Take two tablets after meals.
+      - - Khuyên / cảnh báo
+        - Don't go to bed late. Be careful!
+      - - Nhờ lịch sự
+        - Open the window, please.
+      - - Rủ cùng làm
+        - Let's do some exercise.
+      - - Biển báo cấm
+        - No smoking. No photos.
+    notes:
+      - "Với to be: Be careful! / Don't be late! (không nói *Don't late*)."
+      - Câu mệnh lệnh kết thúc bằng dấu chấm hoặc dấu chấm than.
+    mistakes:
+      - wrong: Don't to drink cold water.
+        right: Don't drink cold water.
+        why: Sau Don't là V nguyên mẫu, không có to.
+      - wrong: You take this medicine!
+        right: Take this medicine!
+        why: Câu mệnh lệnh không có chủ ngữ you (thêm you nghe như trách móc).
+      - wrong: Don't late for the appointment.
+        right: Don't be late for the appointment.
+        why: late là tính từ → cần be.
+      - wrong: Not smoke here.
+        right: Don't smoke here. / No smoking.
+        why: Phủ định câu mệnh lệnh dùng Don't; biển báo dùng No + V-ing.
+    examples:
+      - b12-015
+      - b12-016
+      - b12-017
+    provenance:
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản L11 'Trật tự từ và các cấu trúc câu' — mục câu mệnh lệnh (đối chiếu phạm vi, không chép)
+      - source: egiu
+        field: scope
+        ref: "Unit 35 (Do this! Don't do that! Let's do this!) — đối chiếu phạm vi"
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-22
+    lesson: buoi-14-ke-chuyen-qua-khu
+    title: "Động từ có hai tân ngữ: give me the book / give the book to me"
+    structures:
+      - S + V + người + vật  → She gave me a book.
+      - S + V + vật + to + người (give, send, lend, show, tell)  → She gave a book to me.
+      - S + V + vật + for + người (buy, make, cook)  → He bought flowers for his mother.
+    explain: "Một số động từ cần hai tân ngữ: người nhận và vật được trao. Có hai trật tự: người đứng trước vật (không cần giới từ), hoặc vật đứng trước rồi thêm to/for + người. Dùng to với give, send, lend, show, tell (trao đến ai); dùng for với buy, make, cook (làm/mua giúp ai). Nếu vật là đại từ (it, them), đặt vật trước: Give it to me (không nói *Give me it*)."
+    table:
+      - - Động từ
+        - Người + vật
+        - Vật + giới từ + người
+      - - give (gave)
+        - She gave me a gift.
+        - She gave a gift to me.
+      - - send (sent)
+        - I sent him an email.
+        - I sent an email to him.
+      - - lend (lent)
+        - Lend me your pen.
+        - Lend your pen to me.
+      - - buy (bought)
+        - He bought his mum a cake.
+        - He bought a cake for his mum.
+    notes:
+      - Người Việt hay dịch 'đưa cho tôi quyển sách' thành *give to me the book* — bỏ to khi người đứng ngay sau động từ.
+    mistakes:
+      - wrong: She gave to me a book.
+        right: She gave me a book.
+        why: Người đứng ngay sau động từ thì không dùng to.
+      - wrong: He bought a cake to his mother.
+        right: He bought a cake for his mother.
+        why: buy đi với for.
+      - wrong: Can you give me it?
+        right: Can you give it to me?
+        why: Vật là đại từ (it) → đặt trước, thêm to.
+      - wrong: My father told to me a funny story.
+        right: My father told me a funny story.
+        why: tell + người (không có to).
+    examples:
+      - b14-012
+      - b14-013
+      - b14-014
+      - b14-015
+    provenance:
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp cơ bản L11 — mục 1.3 trật tự từ trong câu có hai tân ngữ (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft

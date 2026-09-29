@@ -425,3 +425,44 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: art|n
+    headword: art
+    pos: n
+    ipa:
+      uk: /ɑːt/
+      us: /ɑːrt/
+    cefr: A1
+    meaning_vi:
+      - môn Mỹ thuật
+      - nghệ thuật
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: actor|n
+    headword: actor
+    pos: n
+    ipa:
+      uk: /ˈæk.tə/
+      us: /ˈæk.tɚ/
+    cefr: A1
+    meaning_vi:
+      - diễn viên
+    notes_vi:
+      - "Nữ: actress. Ngày nay actor dùng được cho cả nam và nữ."
+    topics:
+      - entertainment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.us }
+    status: draft

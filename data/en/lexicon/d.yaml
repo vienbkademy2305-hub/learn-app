@@ -333,3 +333,27 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: director|n
+    headword: director
+    pos: n
+    ipa:
+      uk: /daɪˈrek.tə/
+      us: /dəˈrek.tɚ/
+    stress: di-REC-tor
+    cefr: A2
+    meaning_vi:
+      - giám đốc
+      - đạo diễn
+    collocations:
+      - company director
+      - film director
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/director, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/director, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/director, checked: 2026-09-29, field: ipa.us }
+    status: draft
