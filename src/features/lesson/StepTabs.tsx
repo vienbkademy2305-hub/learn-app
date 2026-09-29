@@ -14,7 +14,7 @@ const STEPS = [
 
 export function StepTabs({ slug }: { slug: string }) {
   const pathname = (usePathname() ?? "").replace(/\/$/, "");
-  const base = `/lesson/${slug}`;
+  const base = `/zh/lesson/${slug}`;
   const active =
     (["practice", "exercises"] as const).find((s) => pathname.includes(`${base}/${s}`)) ??
     (["grammar", "examples", "writing", "summary"] as const).find((s) => pathname.endsWith(`/${s}`)) ??

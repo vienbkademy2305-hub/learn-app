@@ -1,0 +1,1104 @@
+# Ngữ pháp Giai đoạn 1 (Buổi 1–20). Nội dung tự viết; BẢN NHÁP chờ người dùng duyệt.
+points:
+  - id: en-g1-01
+    lesson: buoi-01-ban-than-gia-dinh
+    title: "Động từ to be & thì hiện tại đơn"
+    cefr: null
+    structures:
+      - "S + am/is/are + danh từ/tính từ"
+      - "S + V / V-s, V-es (He/She/It)"
+    explain: >-
+      Khi phần sau chủ ngữ là danh từ hoặc tính từ (nghề nghiệp, tuổi, tình trạng), dùng to be: I am single.
+      Khi nói về hành động hay thói quen, dùng động từ thường: I live with my parents. Với He/She/It, động từ
+      thường thêm -s hoặc -es: She lives in Hanoi. Tiếng Việt không có "to be" nên người Việt hay bỏ quên nó.
+    table:
+      - [Chủ ngữ, Khẳng định, Phủ định, Nghi vấn]
+      - [I, am, "am not", "Am I…?"]
+      - [He / She / It, is, "is not (isn't)", "Is he/she/it…?"]
+      - [We / You / They, are, "are not (aren't)", "Are we/you/they…?"]
+    notes:
+      - "Phụ âm + y → -ies: study → studies. Tận cùng -s, -sh, -ch, -x, -o → -es: watch → watches, go → goes."
+      - "Không dùng to be cùng động từ thường ở hiện tại đơn: I work (không nói I am work)."
+    mistakes:
+      - { wrong: "She work in a hospital.", right: "She works in a hospital.", why: "Chủ ngữ ngôi 3 số ít, động từ thêm -s." }
+      - { wrong: "I happy.", right: "I am happy.", why: "Trước tính từ phải có to be." }
+      - { wrong: "I am work as a teacher.", right: "I work as a teacher.", why: "Đã có động từ thường thì không thêm to be." }
+    examples: [b01-001, b01-003, b01-007, b01-008]
+    source: editorial
+    provenance:
+      - { source: egiu, field: scope, ref: "Units 1–2 và 5 (đối chiếu phạm vi, không chép)" }
+    status: draft
+  - id: en-g1-02
+    lesson: buoi-02-ngoai-hinh-tinh-cach
+    title: Tính từ miêu tả & so sánh hơn
+    cefr: null
+    structures:
+      - S + to be + (very) + tính từ
+      - "Tính từ ngắn: S + to be + adj-er + than + N"
+      - "Tính từ dài: S + to be + more + adj + than + N"
+    explain: "Tính từ đứng trước danh từ (a kind woman) hoặc sau to be (She is kind); tính từ không thêm -s. So sánh hơn: tính từ một âm tiết thêm -er (tall → taller); tính từ hai âm tiết tận cùng -y đổi thành -ier (funny → funnier); tính từ dài dùng more (more patient). Sau đó dùng than + người/vật được so sánh."
+    table:
+      - - Loại tính từ
+        - Quy tắc
+        - Ví dụ
+      - - 1 âm tiết
+        - + er
+        - tall → taller, short → shorter
+      - - 1 nguyên âm + 1 phụ âm cuối
+        - nhân đôi phụ âm + er
+        - slim → slimmer, big → bigger
+      - - tận cùng -y
+        - y → ier
+        - funny → funnier, lazy → lazier
+      - - 2 âm tiết trở lên
+        - more + tính từ
+        - more patient, more confident
+      - - Bất quy tắc
+        - đổi hẳn
+        - good → better, bad → worse
+    notes:
+      - "Tính từ đứng TRƯỚC danh từ, ngược tiếng Việt: long hair (tóc dài), a tall man (một người đàn ông cao)."
+      - "Tính từ không có số nhiều: They are kind (không nói *kinds*)."
+    mistakes:
+      - wrong: My brother is more taller than me.
+        right: My brother is taller than me.
+        why: Đã có -er thì không thêm more.
+      - wrong: She is patienter than her sister.
+        right: She is more patient than her sister.
+        why: Tính từ dài dùng more, không thêm -er.
+      - wrong: He is taller his father.
+        right: He is taller than his father.
+        why: Thiếu than khi có đối tượng so sánh.
+      - wrong: She has hair long.
+        right: She has long hair.
+        why: Tính từ đứng trước danh từ.
+    examples:
+      - b02-001
+      - b02-002
+      - b02-003
+      - b02-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 85, 87, 88 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-03
+    lesson: buoi-03-nha-cua-do-dac
+    title: There is / There are & giới từ nơi chốn
+    cefr: null
+    structures:
+      - There is + a/an + danh từ số ít (+ nơi chốn)
+      - There are + danh từ số nhiều (+ nơi chốn)
+      - Is there…? / Are there…? — Yes, there is. / No, there aren't.
+      - "S + to be + giới từ + nơi chốn: The cat is under the bed."
+    explain: "Muốn nói \"ở đâu đó CÓ cái gì\", tiếng Anh dùng There is (một vật) hoặc There are (nhiều vật), không dùng have. Phủ định: There isn't / There aren't; câu hỏi đảo is/are lên trước there. Muốn nói vật ở đâu, dùng to be + giới từ: in (trong), on (trên, có tiếp xúc), under (dưới), next to (cạnh), between (giữa), behind (sau), in front of (trước), opposite (đối diện)."
+    table:
+      - - ""
+        - Số ít
+        - Số nhiều
+      - - Khẳng định
+        - There is (There's) a sofa.
+        - There are two chairs.
+      - - Phủ định
+        - There isn't a garden.
+        - There aren't any shelves.
+      - - Câu hỏi
+        - Is there a balcony?
+        - Are there two bedrooms?
+    notes:
+      - "Chọn is/are theo danh từ ĐẦU TIÊN sau nó: There is a table and two chairs."
+      - Tầng nhà dùng on (on the second floor); trong phòng dùng in (in the kitchen).
+    mistakes:
+      - wrong: In my room have a big bed.
+        right: There is a big bed in my room.
+        why: Dịch từ 'trong phòng tôi có…' — tiếng Anh dùng There is, không dùng have.
+      - wrong: There is two bedrooms.
+        right: There are two bedrooms.
+        why: Danh từ số nhiều dùng are.
+      - wrong: The fridge is next the window.
+        right: The fridge is next to the window.
+        why: next to luôn đi với to.
+      - wrong: My apartment is in the third floor.
+        right: My apartment is on the third floor.
+        why: Tầng nhà dùng on.
+    examples:
+      - b03-001
+      - b03-002
+      - b03-003
+      - b03-004
+      - b03-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 37, 106, 107, 109 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-04
+    lesson: buoi-04-so-ngay-thang-thoi-gian
+    title: Giới từ thời gian in / on / at & cách đọc ngày giờ
+    cefr: null
+    structures:
+      - "at + giờ / midnight / night: at 7 o'clock, at midnight"
+      - "on + thứ / ngày cụ thể: on Monday, on 5th May, on my birthday"
+      - "in + tháng / năm / mùa / buổi: in June, in 2026, in the morning"
+    explain: 'Mẹo nhớ theo độ dài thời gian: at cho thời điểm ngắn nhất (giờ), on cho một ngày, in cho khoảng dài (tháng, năm, mùa, buổi trong ngày). Ngày viết 5th May hoặc 5 May nhưng đọc là "the fifth of May" — dùng số thứ tự. Năm 2026 đọc "twenty twenty-six". Giờ: 7:30 = half past seven, 7:15 = a quarter past seven, 7:45 = a quarter to eight; hoặc đọc thẳng số: seven forty-five.'
+    table:
+      - - Giới từ
+        - Dùng với
+        - Ví dụ
+      - - at
+        - giờ, midnight, night
+        - at 6:30, at night
+      - - on
+        - thứ, ngày, ngày lễ cụ thể
+        - on Sunday, on 2nd September
+      - - in
+        - tháng, năm, mùa, buổi
+        - in March, in 1999, in the evening
+    notes:
+      - "Không dùng giới từ trước this / next / last / every: next week, every morning (không nói *in next week*)."
+      - in the morning nhưng on Monday morning (có thứ cụ thể → on).
+    mistakes:
+      - wrong: I have English class in Monday.
+        right: I have English class on Monday.
+        why: Thứ trong tuần dùng on.
+      - wrong: She gets up at the morning.
+        right: She gets up in the morning.
+        why: Buổi trong ngày dùng in the…
+      - wrong: My birthday is in 12th June.
+        right: My birthday is on 12th June.
+        why: Ngày cụ thể dùng on.
+      - wrong: We visit my grandparents in every weekend.
+        right: We visit my grandparents every weekend.
+        why: Trước every không dùng giới từ.
+    examples:
+      - b04-001
+      - b04-002
+      - b04-003
+      - b04-004
+      - b04-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 103, 104; What time…? Unit 47 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-05
+    lesson: buoi-05-hoat-dong-hang-ngay
+    title: Hiện tại đơn (phủ định, câu hỏi) & trạng từ tần suất
+    cefr: null
+    structures:
+      - S + don't / doesn't + V (nguyên mẫu)
+      - Do / Does + S + V (nguyên mẫu)…? — Yes, I do. / No, she doesn't.
+      - S + always/usually/often/sometimes/rarely/never + V
+      - S + to be + always/usually/… (sau to be)
+      - How often…? — once / twice / three times a day/week
+    explain: "Hiện tại đơn diễn tả thói quen, việc lặp lại. Câu phủ định và câu hỏi cần trợ động từ do/does; khi đã có does thì động từ chính trở về nguyên mẫu (She doesn't work, Does she work?). Trạng từ tần suất đứng TRƯỚC động từ thường nhưng SAU to be: I always get up early / She is always late. Hỏi mức độ thường xuyên dùng How often."
+    table:
+      - - ""
+        - I / You / We / They
+        - He / She / It
+      - - Khẳng định
+        - I work.
+        - She works.
+      - - Phủ định
+        - I don't work.
+        - She doesn't work.
+      - - Câu hỏi
+        - Do you work?
+        - Does she work?
+      - - Trả lời ngắn
+        - Yes, I do. / No, I don't.
+        - Yes, she does. / No, she doesn't.
+    notes:
+      - "Đọc đuôi -s: /s/ sau âm vô thanh (works, cooks), /z/ sau âm hữu thanh (goes, plays), /ɪz/ sau s, sh, ch, x (watches, relaxes)."
+      - never / rarely đã mang nghĩa phủ định — không thêm don't/doesn't.
+    mistakes:
+      - wrong: She don't like coffee.
+        right: She doesn't like coffee.
+        why: He/She/It dùng doesn't.
+      - wrong: Does he works on Sunday?
+        right: Does he work on Sunday?
+        why: Có does rồi thì động từ về nguyên mẫu.
+      - wrong: I go always to the gym.
+        right: I always go to the gym.
+        why: Trạng từ tần suất đứng trước động từ thường.
+      - wrong: He always is late.
+        right: He is always late.
+        why: Với to be, trạng từ đứng sau.
+      - wrong: I don't never eat meat.
+        right: I never eat meat.
+        why: Tiếng Anh không dùng hai phủ định.
+    examples:
+      - b05-001
+      - b05-002
+      - b05-003
+      - b05-004
+      - b05-005
+      - b05-006
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 5, 6, 7, 94 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-06
+    lesson: buoi-06-truong-hoc-mon-hoc
+    title: Thì hiện tại tiếp diễn
+    structures:
+      - S + am/is/are + V-ing
+      - S + am/is/are + not + V-ing
+      - Am/Is/Are + S + V-ing?
+    explain: 'Dùng để nói về việc đang xảy ra ngay lúc nói (now, at the moment, right now, Look!, Listen!) hoặc quanh thời điểm hiện tại (this week, today). Luôn cần đủ HAI phần: to be (am/is/are) và động từ thêm -ing. Tiếng Việt chỉ cần thêm "đang", nên người Việt hay quên to be hoặc quên -ing.'
+    table:
+      - - Động từ
+        - Quy tắc thêm -ing
+        - Ví dụ
+      - - Thông thường
+        - + ing
+        - study → studying, read → reading
+      - - Tận cùng -e
+        - bỏ e + ing
+        - write → writing, revise → revising
+      - - 1 nguyên âm + 1 phụ âm (1 âm tiết)
+        - nhân đôi phụ âm + ing
+        - sit → sitting, swim → swimming
+      - - Tận cùng -ie
+        - ie → y + ing
+        - lie → lying, die → dying
+    notes:
+      - "Câu trả lời ngắn: Are you studying? — Yes, I am. / No, I'm not."
+      - "Thường viết tắt khi nói: I'm, she's, they're, isn't, aren't."
+    mistakes:
+      - wrong: I studying English now.
+        right: I am studying English now.
+        why: Thiếu to be (am).
+      - wrong: She is study in the library.
+        right: She is studying in the library.
+        why: Thiếu -ing.
+      - wrong: They are siting in the classroom.
+        right: They are sitting in the classroom.
+        why: "sit: 1 nguyên âm + 1 phụ âm → nhân đôi t."
+      - wrong: Is you doing your homework?
+        right: Are you doing your homework?
+        why: Chủ ngữ you đi với are.
+    examples:
+      - b06-001
+      - b06-002
+      - b06-003
+      - b06-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 3, 4 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-11
+    lesson: buoi-11-thoi-tiet-mua
+    title: Tính từ + giới từ cố định
+    cefr: null
+    structures:
+      - S + to be + tính từ + giới từ + danh từ / V-ing
+      - afraid of · interested in · good at · worried about · famous for · different from · similar to · tired of
+    explain: "Nhiều tính từ luôn đi với một giới từ nhất định, và giới từ này thường KHÔNG giống cách nói tiếng Việt (\"giỏi VỀ\" nhưng good AT, \"khác VỚI\" nhưng different FROM). Cách học: học cả cụm như một từ. Sau giới từ dùng danh từ hoặc động từ thêm -ing: She is good at cooking. Khi nói thời tiết, dùng It is + tính từ: It's sunny, It's humid."
+    table:
+      - - Cụm
+        - Nghĩa
+        - Ví dụ
+      - - afraid of
+        - sợ
+        - I'm afraid of storms.
+      - - interested in
+        - quan tâm
+        - He is interested in the weather forecast.
+      - - good at
+        - giỏi
+        - She is good at English.
+      - - worried about
+        - lo lắng về
+        - We are worried about the typhoon.
+      - - famous for
+        - nổi tiếng về
+        - Da Lat is famous for its flowers.
+      - - different from
+        - khác với
+        - The weather here is different from Hanoi.
+    notes:
+      - "Thời tiết: It's + tính từ (It's windy) hoặc It's + V-ing (It's raining). Không dùng The weather is rain."
+      - "Sau giới từ, động từ thêm -ing: afraid of flying, good at swimming."
+    mistakes:
+      - wrong: I am good in English.
+        right: I am good at English.
+        why: good at, dịch 'giỏi về' dễ chọn nhầm in/about.
+      - wrong: Her hometown is different with mine.
+        right: Her hometown is different from mine.
+        why: different from, không dùng with.
+      - wrong: He is interested about music.
+        right: He is interested in music.
+        why: interested in.
+      - wrong: Today is very rain.
+        right: It's raining a lot today.
+        why: rain là danh từ/động từ; dùng It's raining hoặc It's rainy.
+    examples:
+      - b11-001
+      - b11-002
+      - b11-003
+      - b11-004
+      - b11-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 112 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-07
+    lesson: buoi-07-cong-viec-nghe-nghiep
+    title: Hiện tại đơn và hiện tại tiếp diễn
+    structures:
+      - "Thói quen, sự thật, công việc cố định: S + V(s/es)"
+      - "Đang xảy ra lúc nói hoặc tạm thời: S + am/is/are + V-ing"
+      - Động từ trạng thái (like, love, want, need, know, understand) → chỉ dùng hiện tại đơn
+    explain: "Hiện tại đơn nói về điều lặp lại hoặc lâu dài: công việc, thói quen, sự thật (She works in a bank). Hiện tại tiếp diễn nói về việc đang diễn ra hoặc chỉ tạm thời trong khoảng này (This week she is working from home). Một số động từ chỉ trạng thái, cảm xúc, suy nghĩ như like, want, need, know, understand không dùng ở dạng -ing dù đang nói về lúc này."
+    table:
+      - - Hiện tại đơn
+        - Hiện tại tiếp diễn
+      - - always, usually, often, every day
+        - now, at the moment, today, this week
+      - - What do you do? (Bạn làm nghề gì?)
+        - What are you doing? (Bạn đang làm gì?)
+      - - I work in an office.
+        - I'm working from home this week.
+    notes:
+      - What do you do? là câu hỏi về NGHỀ NGHIỆP, không phải việc đang làm.
+      - "Động từ trạng thái: I know him (không nói *I am knowing him*)."
+    mistakes:
+      - wrong: I am knowing the answer.
+        right: I know the answer.
+        why: know là động từ trạng thái, không dùng -ing.
+      - wrong: Listen! My sister sings.
+        right: Listen! My sister is singing.
+        why: Listen! báo hiệu việc đang xảy ra → tiếp diễn.
+      - wrong: I am usually going to work at eight.
+        right: I usually go to work at eight.
+        why: Thói quen (usually) → hiện tại đơn.
+      - wrong: What are you doing? — I'm a nurse.
+        right: What do you do? — I'm a nurse.
+        why: Hỏi nghề nghiệp dùng What do you do?
+    examples:
+      - b07-001
+      - b07-002
+      - b07-004
+      - b07-006
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 8 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-12
+    lesson: buoi-12-suc-khoe-benh-tat
+    title: should / must / have to — lời khuyên và nghĩa vụ
+    cefr: null
+    structures:
+      - S + should / shouldn't + V (lời khuyên)
+      - S + must / mustn't + V (bắt buộc / cấm — người nói thấy cần)
+      - S + have to / has to + V (phải — do quy định, hoàn cảnh)
+      - S + don't / doesn't have to + V (không cần phải)
+    explain: "should = nên (khuyên). must = phải, thường là ý kiến của chính người nói hoặc biển báo, luật lệ; have to = phải vì hoàn cảnh bên ngoài (công việc, quy định). Sau should và must dùng V nguyên mẫu, không có to, không thêm -s. Cẩn thận: mustn't = CẤM, còn don't have to = KHÔNG CẦN — nghĩa rất khác nhau."
+    table:
+      - - Cấu trúc
+        - Nghĩa
+        - Ví dụ
+      - - should
+        - nên
+        - You should drink more water.
+      - - shouldn't
+        - không nên
+        - You shouldn't stay up late.
+      - - must
+        - phải (bắt buộc)
+        - You must take this medicine twice a day.
+      - - mustn't
+        - cấm
+        - You mustn't smoke in the hospital.
+      - - have to / has to
+        - phải (do hoàn cảnh)
+        - She has to work on Saturday.
+      - - don't have to
+        - không cần
+        - You don't have to come tomorrow.
+    notes:
+      - "Câu hỏi: Should I…? / Do I have to…? (have to cần do/does)."
+      - Quá khứ của must/have to đều là had to (học ở Buổi 13–14).
+    mistakes:
+      - wrong: You should to see a doctor.
+        right: You should see a doctor.
+        why: Sau should không có to.
+      - wrong: She musts take medicine.
+        right: She must take medicine.
+        why: must không thêm -s.
+      - wrong: He have to work late.
+        right: He has to work late.
+        why: "have to chia theo ngôi: he has to."
+      - wrong: You mustn't pay. It's free.
+        right: You don't have to pay. It's free.
+        why: Miễn phí = không cần trả (don't have to), không phải bị cấm.
+    examples:
+      - b12-001
+      - b12-002
+      - b12-003
+      - b12-004
+      - b12-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 31, 32, 33 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-08
+    lesson: buoi-08-thuc-an-do-uong
+    title: Danh từ đếm được và không đếm được; some, any, much, many
+    structures:
+      - "Đếm được: a/an + N số ít; some/many + N số nhiều"
+      - "Không đếm được: some/much + N (không có a/an, không thêm -s)"
+      - "some: câu khẳng định và lời mời (Would you like some…?)"
+      - "any: câu phủ định và câu hỏi"
+      - How many + N số nhiều? / How much + N không đếm được?
+    explain: "Danh từ đếm được có số ít và số nhiều (an egg, two eggs). Danh từ không đếm được như rice, bread, milk, water, sugar, homework không dùng a/an và không thêm -s. Muốn đếm chúng thì dùng đơn vị: a bowl of rice, a slice of bread, a bottle of water. Dùng some trong câu khẳng định, any trong câu phủ định và câu hỏi. many đi với danh từ đếm được, much với không đếm được; a lot of dùng được cho cả hai."
+    table:
+      - - " "
+        - Đếm được
+        - Không đếm được
+      - - Khẳng định
+        - some eggs / a lot of eggs
+        - some milk / a lot of milk
+      - - Phủ định
+        - not any eggs / not many eggs
+        - not any milk / not much milk
+      - - Câu hỏi
+        - any eggs? / How many eggs?
+        - any milk? / How much milk?
+    notes:
+      - "Mời hoặc xin dùng some cả trong câu hỏi: Would you like some tea? Can I have some water?"
+      - Tiếng Việt không phân biệt đếm được/không đếm được nên dễ viết *breads*, *rices*, *a homework*.
+    mistakes:
+      - wrong: I eat a rice every day.
+        right: I eat rice every day.
+        why: rice không đếm được, không dùng a.
+      - wrong: Can I have some breads?
+        right: Can I have some bread?
+        why: bread không đếm được, không thêm -s.
+      - wrong: There isn't some milk in the fridge.
+        right: There isn't any milk in the fridge.
+        why: Câu phủ định dùng any.
+      - wrong: How much eggs do we need?
+        right: How many eggs do we need?
+        why: eggs đếm được → how many.
+    examples:
+      - b08-001
+      - b08-002
+      - b08-003
+      - b08-007
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 66, 67, 68, 76, 83 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-13
+    lesson: buoi-13-du-lich-co-ban
+    title: "Quá khứ đơn: was/were và động từ có quy tắc (-ed)"
+    cefr: null
+    structures:
+      - I / He / She / It + was · You / We / They + were
+      - S + V-ed (khẳng định)
+      - S + didn't + V nguyên mẫu (phủ định)
+      - Did + S + V nguyên mẫu…? — Yes, I did. / No, I didn't.
+    explain: "Quá khứ đơn nói về việc đã xảy ra và kết thúc trong quá khứ, thường có mốc thời gian: yesterday, last week, two days ago, in 2020. To be chia was/were. Động từ có quy tắc thêm -ed cho MỌI ngôi. Phủ định và câu hỏi dùng did; khi đã có did thì động từ về nguyên mẫu (Did you visit…? không nói *Did you visited*)."
+    table:
+      - - Quy tắc chính tả
+        - Ví dụ
+      - - Thêm -ed
+        - visit → visited, stay → stayed
+      - - "Tận cùng -e: thêm -d"
+        - arrive → arrived, like → liked
+      - - Phụ âm + y → -ied
+        - study → studied, carry → carried
+      - - "1 nguyên âm + 1 phụ âm (nhấn): nhân đôi"
+        - stop → stopped, plan → planned
+      - - "Anh-Anh: -l nhân đôi"
+        - travel → travelled
+    notes:
+      - "Đọc đuôi -ed: /t/ sau p, k, f, s, sh, ch (booked, watched); /d/ sau âm hữu thanh (stayed, travelled); /ɪd/ sau t, d (visited, needed)."
+      - Người Việt hay quên đổi động từ sang quá khứ khi đã có yesterday — kiểm tra lại mọi động từ trong câu.
+    mistakes:
+      - wrong: Yesterday I visit my grandparents.
+        right: Yesterday I visited my grandparents.
+        why: Có yesterday → quá khứ đơn.
+      - wrong: Did you visited Hue?
+        right: Did you visit Hue?
+        why: Sau did dùng nguyên mẫu.
+      - wrong: We was very tired.
+        right: We were very tired.
+        why: We/You/They → were.
+      - wrong: I arrived to Da Nang at 9 p.m.
+        right: I arrived in Da Nang at 9 p.m.
+        why: arrive in + thành phố.
+    examples:
+      - b13-001
+      - b13-002
+      - b13-003
+      - b13-004
+      - b13-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 10, 11, 12, 24 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-09
+    lesson: buoi-09-mua-sam-tien-bac
+    title: So sánh nhất và not as … as
+    structures:
+      - "Tính từ ngắn: the + adj-est (+ in/of …)"
+      - "Tính từ dài: the most + adj (+ in/of …)"
+      - S1 + to be + not as + adj + as + S2
+    explain: 'So sánh nhất dùng khi so một người/vật với cả nhóm: the cheapest shop in the market. Tính từ ngắn thêm -est, tính từ dài dùng the most; luôn có the ở trước. Sau so sánh nhất dùng in + nơi chốn/nhóm lớn (in the city, in my family) và of + số lượng/khoảng thời gian (of the three, of the year). not as … as nghĩa là "không … bằng": My bag is not as expensive as yours = túi của tôi rẻ hơn.'
+    table:
+      - - Tính từ
+        - So sánh hơn (Buổi 2)
+        - So sánh nhất
+      - - cheap
+        - cheaper
+        - the cheapest
+      - - big
+        - bigger
+        - the biggest
+      - - busy
+        - busier
+        - the busiest
+      - - expensive
+        - more expensive
+        - the most expensive
+      - - good / bad / far
+        - better / worse / further
+        - the best / the worst / the furthest
+    notes:
+      - "not as … as giữ nguyên tính từ (không thêm -er): not as cheap as (không nói *not as cheaper as*)."
+      - "Ôn so sánh hơn: This shop is cheaper THAN that shop."
+    mistakes:
+      - wrong: This is the most cheap shop.
+        right: This is the cheapest shop.
+        why: Tính từ ngắn thêm -est, không dùng most.
+      - wrong: It is most expensive bag in the shop.
+        right: It is the most expensive bag in the shop.
+        why: So sánh nhất cần the.
+      - wrong: She is the best student of my class.
+        right: She is the best student in my class.
+        why: "Sau so sánh nhất: in + nhóm/nơi chốn."
+      - wrong: My phone is not as expensive than your phone.
+        right: My phone is not as expensive as your phone.
+        why: as … as, không dùng than.
+    examples:
+      - b09-001
+      - b09-002
+      - b09-003
+      - b09-006
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 89, 90; ôn 87, 88 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-14
+    lesson: buoi-14-ke-chuyen-qua-khu
+    title: Quá khứ đơn (bất quy tắc) & quá khứ tiếp diễn
+    cefr: null
+    structures:
+      - "Quá khứ đơn bất quy tắc: go → went, see → saw, lose → lost (học thuộc)"
+      - "Quá khứ tiếp diễn: S + was / were + V-ing"
+      - While + S + was/were + V-ing, S + V2 (hành động dài bị hành động ngắn cắt ngang)
+      - When + S + V2, S + was/were + V-ing
+    explain: "Nhiều động từ thường gặp có dạng quá khứ bất quy tắc, phải học thuộc (go → went, meet → met). Phủ định và câu hỏi vẫn dùng did + nguyên mẫu (I didn't go). Quá khứ tiếp diễn (was/were + V-ing) tả việc ĐANG diễn ra tại một thời điểm trong quá khứ. Khi kể chuyện: hành động dài làm \"nền\" dùng quá khứ tiếp diễn, hành động ngắn chen vào dùng quá khứ đơn: I was cooking when the phone rang."
+    table:
+      - - Nguyên mẫu
+        - Quá khứ
+        - Nghĩa
+      - - go
+        - went
+        - đi
+      - - see
+        - saw
+        - thấy
+      - - meet
+        - met
+        - gặp
+      - - lose
+        - lost
+        - mất
+      - - find
+        - found
+        - tìm thấy
+      - - break
+        - broke
+        - làm vỡ
+      - - fall
+        - fell
+        - ngã
+      - - hear
+        - heard
+        - nghe thấy
+      - - leave
+        - left
+        - rời đi
+      - - forget
+        - forgot
+        - quên
+    notes:
+      - while + quá khứ tiếp diễn; when thường + quá khứ đơn (hành động ngắn).
+      - "Không dùng quá khứ tiếp diễn với động từ trạng thái: I knew him (không nói *I was knowing him*)."
+    mistakes:
+      - wrong: Yesterday I goed to the market.
+        right: Yesterday I went to the market.
+        why: "go là động từ bất quy tắc: went."
+      - wrong: I didn't saw the accident.
+        right: I didn't see the accident.
+        why: Sau didn't dùng nguyên mẫu.
+      - wrong: While I walked home, it started to rain.
+        right: While I was walking home, it started to rain.
+        why: Hành động đang diễn ra (dài) dùng quá khứ tiếp diễn.
+      - wrong: They was watching TV.
+        right: They were watching TV.
+        why: They → were.
+    examples:
+      - b14-001
+      - b14-002
+      - b14-003
+      - b14-004
+      - b14-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 11, 13, 14; Phụ lục 2, 3 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-10
+    lesson: buoi-10-giao-thong-phuong-tien
+    title: "Giới từ với phương tiện: by, on, in"
+    structures:
+      - "by + phương tiện (không có a/the/my): by bus, by car, by motorbike, by train, by plane"
+      - on foot (đi bộ)
+      - on + the/a/my + bus, train, plane, motorbike, bicycle
+      - in + the/a/my + car, taxi
+    explain: "Khi nói đi lại bằng phương tiện gì, dùng by + tên phương tiện, không có mạo từ hay tính từ sở hữu: I go to work by motorbike. Nếu có a, the, my, his… thì đổi giới từ: on với phương tiện lớn hoặc phải ngồi lên (on the bus, on my motorbike), in với ô tô và taxi (in my car, in a taxi). Đi bộ luôn là on foot."
+    table:
+      - - Phương tiện
+        - by (không mạo từ)
+        - on / in (có mạo từ)
+        - Lên / Xuống
+      - - bus
+        - by bus
+        - on the bus
+        - get on / get off
+      - - motorbike
+        - by motorbike
+        - on my motorbike
+        - get on / get off
+      - - train
+        - by train
+        - on the train
+        - get on / get off
+      - - car
+        - by car
+        - in my car
+        - get in / get out of
+      - - taxi
+        - by taxi
+        - in a taxi
+        - get in / get out of
+    notes:
+      - "take + the/a + phương tiện: I take the bus to school."
+      - "Không dùng giới từ trước home: go home by bus (không nói *go to home*)."
+    mistakes:
+      - wrong: I go to work by my motorbike.
+        right: I go to work on my motorbike.
+        why: Có my thì dùng on, không dùng by.
+      - wrong: She goes to school by foot.
+        right: She goes to school on foot.
+        why: Đi bộ là on foot.
+      - wrong: He is in the bus now.
+        right: He is on the bus now.
+        why: Xe buýt dùng on.
+      - wrong: Get off the taxi here, please.
+        right: Get out of the taxi here, please.
+        why: Taxi và ô tô dùng get in / get out of.
+    examples:
+      - b10-001
+      - b10-002
+      - b10-004
+      - b10-007
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 111 (by), Unit 55 (go by/go on) (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-15
+    lesson: buoi-15-ke-hoach-du-dinh
+    title: "Tương lai: will vs be going to (và hiện tại tiếp diễn cho lịch hẹn)"
+    cefr: null
+    structures:
+      - S + will ('ll) + V — quyết định ngay lúc nói, dự đoán, lời hứa, đề nghị
+      - S + am/is/are + going to + V — dự định đã có từ trước, dự đoán có dấu hiệu rõ
+      - S + am/is/are + V-ing + mốc tương lai — lịch hẹn đã sắp xếp
+      - S + won't + V · S + isn't/aren't going to + V
+    explain: "will dùng khi quyết định NGAY lúc nói (The phone is ringing. I'll answer it.), khi dự đoán theo ý kiến (I think it will rain), khi hứa hoặc đề nghị giúp. be going to dùng cho dự định ĐÃ CÓ từ trước (I'm going to study abroad next year) hoặc dự đoán có bằng chứng trước mắt (Look at the clouds! It's going to rain). Với lịch hẹn cố định có người khác cùng tham gia, dùng hiện tại tiếp diễn: I'm meeting Lan tomorrow."
+    table:
+      - - Tình huống
+        - Dùng
+        - Ví dụ
+      - - Quyết định ngay lúc nói
+        - will
+        - I'm hungry. I'll make a sandwich.
+      - - Dự định từ trước
+        - be going to
+        - We're going to move next month.
+      - - Dự đoán theo ý kiến
+        - will
+        - I think you'll pass the exam.
+      - - Dự đoán có bằng chứng
+        - be going to
+        - Be careful! You're going to fall.
+      - - Lịch hẹn đã sắp xếp
+        - hiện tại tiếp diễn
+        - I'm seeing the doctor on Friday.
+    notes:
+      - "Sau will là V nguyên mẫu, không có to, không thêm -s: She will come (không nói *She will comes*)."
+      - won't = will not, đọc /wəʊnt/ — khác want /wɒnt/.
+    mistakes:
+      - wrong: I will to call you tomorrow.
+        right: I will call you tomorrow.
+        why: Sau will không có to.
+      - wrong: She is going to moves to Hanoi.
+        right: She is going to move to Hanoi.
+        why: going to + V nguyên mẫu.
+      - wrong: Next year I study in Australia.
+        right: Next year I'm going to study in Australia.
+        why: Dự định tương lai cần be going to (tiếng Việt không chia thì nên hay bỏ).
+      - wrong: I going to visit my parents.
+        right: I'm going to visit my parents.
+        why: Thiếu am/is/are trước going to.
+    examples:
+      - b15-001
+      - b15-002
+      - b15-003
+      - b15-004
+      - b15-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 25, 26, 27, 28 (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g1-16
+    lesson: buoi-16-so-thich-giai-tri
+    title: Động từ + to V và động từ + V-ing
+    structures:
+      - enjoy / finish / mind / stop / practise + V-ing
+      - want / would like / hope / decide / plan / learn / need / promise + to V
+      - like / love / hate / start + V-ing hoặc to V
+      - "go + V-ing (hoạt động): go camping, go swimming, go shopping"
+    explain: Khi hai động từ đứng liền nhau, động từ thứ hai có dạng V-ing hay to V tùy động từ đứng trước. Nhóm chỉ việc đang làm/đã quen (enjoy, finish, mind, stop, practise) đi với V-ing. Nhóm hướng về việc sắp làm (want, would like, hope, decide, plan, learn, need, promise) đi với to V. like, love, hate, start dùng được cả hai. Không có quy tắc chắc chắn cho mọi động từ, nên học thuộc theo nhóm.
+    table:
+      - - + V-ing
+        - + to V
+        - Cả hai
+      - - enjoy
+        - want
+        - like
+      - - finish
+        - would like
+        - love
+      - - mind
+        - hope
+        - hate
+      - - stop
+        - decide / plan
+        - start
+      - - practise
+        - learn / need / promise
+        - " "
+    notes:
+      - "Sau giới từ luôn là V-ing: interested in painting, good at playing chess (ôn Buổi 11)."
+      - "want + người + to V: My parents want me to study harder (EGIU 53)."
+      - would like + to V (không nói *would like going*).
+    mistakes:
+      - wrong: I enjoy to read books.
+        right: I enjoy reading books.
+        why: enjoy + V-ing.
+      - wrong: I want going out tonight.
+        right: I want to go out tonight.
+        why: want + to V.
+      - wrong: Do you mind to open the window?
+        right: Do you mind opening the window?
+        why: mind + V-ing.
+      - wrong: We often go to camping.
+        right: We often go camping.
+        why: go + V-ing, không có to.
+    examples:
+      - b16-001
+      - b16-002
+      - b16-004
+      - b16-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 51, 52, 53 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-17
+    lesson: buoi-17-cam-xuc-trang-thai
+    title: Tính từ đuôi -ed và -ing
+    structures:
+      - "Người + to be/feel + adj-ed (cảm xúc của người đó): I am bored."
+      - "Vật/việc/người + to be + adj-ing (tính chất gây ra cảm xúc): The film is boring."
+      - "adj-ed + giới từ: interested in, excited about, worried about, bored with, proud of"
+    explain: "Nhiều tính từ chỉ cảm xúc có hai dạng. Dạng -ed nói về cảm giác của một người (I'm tired = tôi thấy mệt). Dạng -ing nói về cái gây ra cảm giác đó (The job is tiring = công việc làm người ta mệt). Mẹo: hỏi \"ai CẢM THẤY?\" thì dùng -ed; hỏi \"cái gì GÂY RA cảm giác?\" thì dùng -ing. Người cũng dùng được -ing, nhưng nghĩa là người đó làm người khác thấy vậy: He is boring = anh ta nhạt nhẽo."
+    table:
+      - - -ed (cảm thấy)
+        - -ing (gây ra)
+        - Ví dụ
+      - - bored
+        - boring
+        - I'm bored because the lesson is boring.
+      - - interested
+        - interesting
+        - I'm interested in this interesting book.
+      - - excited
+        - exciting
+        - The match was exciting, so we were excited.
+      - - tired
+        - tiring
+        - It was a tiring day. I'm really tired.
+      - - confused
+        - confusing
+        - The rules are confusing. I'm confused.
+    notes:
+      - Tiếng Việt chỉ có một từ "chán", "mệt" nên người Việt hay nói *I'm boring* khi muốn nói tôi thấy chán.
+      - "Cách đọc đuôi -ed (ôn Buổi 13): /ɪd/ sau t, d (excited, disappointed); /t/ sau âm vô thanh (relaxed, embarrassed); /d/ còn lại (bored, surprised, confused)."
+    mistakes:
+      - wrong: I'm boring. Let's go out!
+        right: I'm bored. Let's go out!
+        why: Cảm giác của mình → -ed.
+      - wrong: The football match was very excited.
+        right: The football match was very exciting.
+        why: Trận đấu gây ra cảm giác → -ing.
+      - wrong: I'm interesting in history.
+        right: I'm interested in history.
+        why: Người thấy thích → interested in.
+      - wrong: She is worried for the exam.
+        right: She is worried about the exam.
+        why: worried about.
+    examples:
+      - b17-001
+      - b17-003
+      - b17-005
+      - b17-008
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Không có unit riêng trong EGIU — tự soạn (xem ban-do-tai-lieu.md)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-18
+    lesson: buoi-18-mao-tu-gioi-tu
+    title: Mạo từ a / an / the và không mạo từ
+    structures:
+      - "a/an + danh từ đếm được số ít: nhắc lần đầu, một trong nhiều, nghề nghiệp"
+      - a trước PHỤ ÂM, an trước NGUYÊN ÂM — theo âm đọc, không theo chữ cái
+      - "the: người nghe đã biết cái nào, duy nhất, so sánh nhất"
+      - "Không mạo từ: số nhiều/không đếm được nói chung, bữa ăn, tên nước/thành phố, go to school/work/bed"
+    explain: "Dùng a/an khi nhắc tới một vật lần đầu hoặc bất kỳ cái nào trong nhiều cái (I saw a dog). Nhắc lại lần hai, hoặc khi cả hai người đều biết là cái nào, dùng the (The dog was big). The cũng dùng cho thứ chỉ có một (the sun, the capital) và trước so sánh nhất. Khi nói chung chung về một loại thì không dùng mạo từ: I like music, Cats are cute. Chọn a hay an theo ÂM đầu: an hour (h câm), a university (/juː/)."
+    table:
+      - - Trường hợp
+        - Ví dụ đúng
+        - Sai hay gặp
+      - - Nghề nghiệp
+        - She is a nurse.
+        - "*She is nurse.*"
+      - - Âm đầu
+        - an hour, an honest man, a university, a uniform
+        - "*a hour*, *an university*"
+      - - Duy nhất / đã biết
+        - the sun, the capital of Vietnam
+        - "*a sun*"
+      - - Nói chung
+        - Life is short. I like music.
+        - "*The life is short.*"
+      - - Bữa ăn
+        - have breakfast / lunch / dinner
+        - "*have a breakfast*"
+      - - Nơi quen thuộc
+        - go to school / work / bed; go home
+        - "*go to the school* (khi đi học)"
+    notes:
+      - "Tiếng Việt không có mạo từ nên đây là lỗi phổ biến nhất của người Việt trong IELTS Writing — kiểm tra từng danh từ số ít đếm được: đã có a/an/the/my… chưa?"
+      - Tên nước thường không có the, trừ the UK, the USA, the Philippines.
+      - Động từ + giới từ cố định (listen to, wait for, depend on…) học thành cụm, xem bảng từ vựng.
+    mistakes:
+      - wrong: My sister is nurse.
+        right: My sister is a nurse.
+        why: Nghề nghiệp số ít cần a/an.
+      - wrong: I have a breakfast at seven.
+        right: I have breakfast at seven.
+        why: Bữa ăn không dùng mạo từ.
+      - wrong: The life is beautiful.
+        right: Life is beautiful.
+        why: Nói chung chung → không mạo từ.
+      - wrong: It takes a hour.
+        right: It takes an hour.
+        why: h câm, âm đầu là nguyên âm → an.
+      - wrong: He studies at an university.
+        right: He studies at a university.
+        why: university bắt đầu bằng âm /j/ → a.
+    examples:
+      - b18-001
+      - b18-002
+      - b18-003
+      - b18-007
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 65, 69, 70, 71, 72, 73; Unit 113 cho động từ + giới từ (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-19
+    lesson: buoi-19-cau-bi-dong-co-ban
+    title: Câu bị động ở hiện tại đơn và quá khứ đơn
+    structures:
+      - "Hiện tại: S + am/is/are + V3 (+ by …)"
+      - "Quá khứ: S + was/were + V3 (+ by …)"
+      - "Phủ định/câu hỏi: isn't/wasn't + V3; Is/Was + S + V3?"
+    explain: "Câu bị động đưa vật hoặc người CHỊU tác động lên làm chủ ngữ. Dùng khi hành động quan trọng hơn người làm, hoặc không biết/không cần nói ai làm: Coffee is grown in Dak Lak. Cấu trúc là to be + phân từ hai (V3): động từ có quy tắc thêm -ed, bất quy tắc dùng cột 3 (built, grown, made, spoken). Muốn nói ai làm thì thêm by + người: The telephone was invented by Bell."
+    table:
+      - - Chủ động
+        - Bị động
+      - - They grow coffee in Dak Lak.
+        - Coffee is grown in Dak Lak.
+      - - Workers built this bridge in 1902.
+        - This bridge was built in 1902.
+      - - Bell invented the telephone.
+        - The telephone was invented by Bell.
+    notes:
+      - Tiếng Việt dùng được/bị; tiếng Anh không có từ tương ứng — chỉ cần to be + V3. Tôi sinh năm 2000 = I was born in 2000.
+      - made of + chất liệu (made of wood), made in + nơi (made in Vietnam), made by + người.
+      - Bị động với can/must/should học ở Buổi 43.
+    mistakes:
+      - wrong: This bridge built in 1902.
+        right: This bridge was built in 1902.
+        why: Thiếu to be (was).
+      - wrong: Coffee is grow in Dak Lak.
+        right: Coffee is grown in Dak Lak.
+        why: Phải dùng V3 (grown).
+      - wrong: English is speaking in many countries.
+        right: English is spoken in many countries.
+        why: Bị động dùng V3, không dùng V-ing.
+      - wrong: The phone was invented from Bell.
+        right: The phone was invented by Bell.
+        why: Người làm đi sau by.
+    examples:
+      - b19-001
+      - b19-002
+      - b19-003
+      - b19-006
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 21; Appendix 1 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft
+  - id: en-g1-20
+    lesson: buoi-20-tong-on-giai-doan-1
+    title: "Tổng ôn: hệ thống các thì đã học ở Giai đoạn 1"
+    structures:
+      - "Hiện tại đơn: S + V(s/es) — thói quen, sự thật"
+      - "Hiện tại tiếp diễn: S + am/is/are + V-ing — đang xảy ra, tạm thời"
+      - "Quá khứ đơn: S + V2/V-ed — việc đã xong trong quá khứ"
+      - "Quá khứ tiếp diễn: S + was/were + V-ing — đang xảy ra tại một lúc trong quá khứ"
+      - "Tương lai: will + V (quyết định lúc nói, dự đoán) / be going to + V (kế hoạch có sẵn)"
+      - "Bị động: am/is/are/was/were + V3"
+    explain: 'Mỗi thì trả lời một câu hỏi về THỜI GIAN và TRẠNG THÁI của hành động. Trước khi viết một câu, tự hỏi: chuyện này xảy ra khi nào (quá khứ, bây giờ, tương lai)? Nó lặp lại, đang diễn ra, hay đã xong? Rồi chọn đúng công thức. Tiếng Việt dùng "đã, đang, sẽ" và có thể bỏ đi, còn tiếng Anh bắt buộc đổi dạng động từ trong mọi câu. Các thì hoàn thành (have done) học từ Buổi 21.'
+    table:
+      - - Thì
+        - Khẳng định
+        - Phủ định
+        - Câu hỏi
+        - Dấu hiệu
+      - - Hiện tại đơn
+        - She works.
+        - She doesn't work.
+        - Does she work?
+        - every day, usually, often
+      - - Hiện tại tiếp diễn
+        - She is working.
+        - She isn't working.
+        - Is she working?
+        - now, at the moment, Look!
+      - - Quá khứ đơn
+        - She worked.
+        - She didn't work.
+        - Did she work?
+        - yesterday, last week, ago
+      - - Quá khứ tiếp diễn
+        - She was working.
+        - She wasn't working.
+        - Was she working?
+        - at 8 p.m. yesterday, when, while
+      - - Tương lai (will)
+        - She will work.
+        - She won't work.
+        - Will she work?
+        - tomorrow, I think, probably
+      - - be going to
+        - She is going to work.
+        - She isn't going to work.
+        - Is she going to work?
+        - kế hoạch, dấu hiệu rõ ràng
+    notes:
+      - "Sau didn't / doesn't / will luôn là động từ nguyên thể: She didn't go (không nói *didn't went*)."
+      - "Lỗi hay gặp nhất của học viên ở Giai đoạn 1: thiếu to be, thiếu -s ngôi 3, thiếu -s số nhiều, thiếu mạo từ, nối hai câu bằng dấu phẩy."
+    mistakes:
+      - wrong: Yesterday I go to the market.
+        right: Yesterday I went to the market.
+        why: yesterday → quá khứ đơn.
+      - wrong: She didn't went to school.
+        right: She didn't go to school.
+        why: Sau didn't dùng nguyên thể.
+      - wrong: I will going to visit Hue.
+        right: I am going to visit Hue.
+        why: Không dùng will cùng be going to.
+      - wrong: I like English, it is interesting.
+        right: I like English. It is interesting.
+        why: Không nối hai câu đầy đủ bằng dấu phẩy (comma splice).
+    examples:
+      - b20-001
+      - b20-002
+      - b20-003
+      - b20-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Study guide (tr. 271) làm khung ôn; Units 1–28 (đối chiếu phạm vi, không chép)
+    cefr: null
+    source: editorial
+    status: draft

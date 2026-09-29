@@ -1,0 +1,323 @@
+# Từ vựng chữ "l". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: live-with|phr-v
+    headword: live with
+    pos: phr-v
+    ipa: { uk: "/ˈlɪv wɪð/", us: "/ˈlɪv wɪð/" }
+    cefr: null
+    meaning_vi: [ sống cùng ]
+    forms: { 3sg: lives with }
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: lazy|adj
+    headword: lazy
+    pos: adj
+    forms:
+      comparative: lazier
+      superlative: laziest
+    ipa:
+      uk: /ˈleɪ.zi/
+      us: /ˈleɪ.zi/
+    cefr: A2
+    meaning_vi:
+      - lười biếng
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lazy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lazy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lazy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: look-like|phr-v
+    headword: look like
+    pos: phr-v
+    ipa:
+      uk: /lʊk laɪk/
+      us: /lʊk laɪk/
+    cefr: null
+    meaning_vi:
+      - trông giống (ai đó)
+    collocations:
+      - look like my mother
+    notes_vi:
+      - "Hỏi ngoại hình: What does she look like? (không hỏi *How does she look like?*)."
+    topics:
+      - appearance
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: living-room|phr-n
+    headword: living room
+    pos: phr-n
+    ipa:
+      uk: /ˈlɪv.ɪŋ ˌruːm/
+      us: /ˈlɪv.ɪŋ ˌruːm/
+    stress: LI-ving room
+    cefr: null
+    meaning_vi:
+      - phòng khách
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/living-room, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/living-room, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: literature|n
+    headword: literature
+    pos: n
+    ipa:
+      uk: /ˈlɪt.rə.tʃə/
+      us: /ˈlɪt̬.ɚ.ə.tʃɚ/
+    stress: LIT-ra-ture
+    cefr: B1
+    meaning_vi:
+      - văn học
+      - môn văn
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/literature, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/literature, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/literature, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: luggage|n
+    headword: luggage
+    pos: n
+    ipa:
+      uk: /ˈlʌɡ.ɪdʒ/
+      us: /ˈlʌɡ.ɪdʒ/
+    cefr: null
+    meaning_vi:
+      - hành lý
+    notes_vi:
+      - "Không đếm được: a lot of luggage, a piece of luggage (không nói *luggages*)."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/luggage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/luggage, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: last|det
+    headword: last
+    pos: det
+    ipa:
+      uk: /lɑːst/
+      us: /læst/
+    cefr: A1
+    meaning_vi:
+      - trước (tuần/tháng/năm vừa qua)
+    collocations:
+      - last week
+      - last summer
+      - last year
+    notes_vi:
+      - "Không dùng giới từ trước last: last Sunday (không nói *on last Sunday*)."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/last_1, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/last_1, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/last_1, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: lose|v
+    headword: lose
+    pos: v
+    forms:
+      past: lost
+      pp: lost
+    ipa:
+      uk: /luːz/
+      us: /luːz/
+    cefr: A1
+    meaning_vi:
+      - làm mất
+      - thua
+    notes_vi:
+      - lose /luːz/ (mất) khác loose /luːs/ (lỏng).
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lose, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lose, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lose, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: leave|v
+    headword: leave
+    pos: v
+    forms:
+      past: left
+      pp: left
+    ipa:
+      uk: /liːv/
+      us: /liːv/
+    cefr: A1
+    meaning_vi:
+      - rời đi
+      - để lại
+    collocations:
+      - leave home
+      - leave something on the bus
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leave, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leave, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leave, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: luckily|adv
+    headword: luckily
+    pos: adv
+    ipa:
+      uk: /ˈlʌk.əl.i/
+      us: /ˈlʌk.əl.i/
+    cefr: null
+    meaning_vi:
+      - may mắn thay
+    notes_vi:
+      - "Đứng đầu câu, có dấu phẩy: Luckily, nobody was hurt."
+    topics:
+      - story
+      - linking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/luckily, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: lonely|adj
+    headword: lonely
+    pos: adj
+    forms:
+      comparative: lonelier
+    ipa:
+      uk: /ˈləʊn.li/
+      us: /ˈloʊn.li/
+    cefr: B1
+    meaning_vi:
+      - cô đơn
+    notes_vi:
+      - lonely = buồn vì một mình; alone = ở một mình (không nhất thiết buồn).
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lonely, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lonely, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lonely, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: listen-to|phr-v
+    headword: listen to
+    pos: phr-v
+    ipa:
+      uk: /ˈlɪs.ən tuː/
+      us: /ˈlɪs.ən tuː/
+    cefr: null
+    meaning_vi:
+      - nghe (có chủ ý)
+    notes_vi:
+      - "listen TO + người/vật: listen to music. Không có to khi không có tân ngữ: Listen!"
+      - "Chữ t câm: LIS-ən."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: look-at|phr-v
+    headword: look at
+    pos: phr-v
+    ipa:
+      uk: /ˈlʊk æt/
+      us: /ˈlʊk æt/
+    cefr: null
+    meaning_vi:
+      - nhìn vào
+    notes_vi:
+      - "Không có tân ngữ thì bỏ at: Look! Có tân ngữ: Look at me."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: look-for|phr-v
+    headword: look for
+    pos: phr-v
+    ipa:
+      uk: /ˈlʊk fɔː/
+      us: /ˈlʊk fɔːr/
+    cefr: null
+    meaning_vi:
+      - tìm kiếm
+    notes_vi:
+      - look for = đang tìm; find = tìm thấy.
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: laugh-at|phr-v
+    headword: laugh at
+    pos: phr-v
+    ipa:
+      uk: /ˈlɑːf æt/
+      us: /ˈlæf æt/
+    cefr: null
+    meaning_vi:
+      - cười nhạo
+      - cười vì
+    notes_vi:
+      - "gh đọc /f/: /lɑːf/."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

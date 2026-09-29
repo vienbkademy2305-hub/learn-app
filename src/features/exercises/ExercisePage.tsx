@@ -9,7 +9,7 @@ export function ExercisePage({ slug, current, children }: { slug: string; curren
     <section aria-labelledby="exercise-title" className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <Link href={`/lesson/${slug}/exercises`} className="text-sm font-medium text-brand-700 hover:underline">
+          <Link href={`/zh/lesson/${slug}/exercises`} className="text-sm font-medium text-brand-700 hover:underline">
             ← Bài tập
           </Link>
           <h2 id="exercise-title" className="text-lg font-semibold text-stone-900">
@@ -21,7 +21,7 @@ export function ExercisePage({ slug, current, children }: { slug: string; curren
           {EXERCISE_TYPES.map((t) => (
             <Link
               key={t.type}
-              href={`/lesson/${slug}/exercises/${t.path}`}
+              href={`/zh/lesson/${slug}/exercises/${t.path}`}
               aria-current={t.type === current ? "page" : undefined}
               className={`rounded-lg px-3 py-1.5 font-medium ${t.type === current ? "bg-white text-stone-900 shadow-sm" : "text-stone-500 hover:text-stone-800"}`}
             >

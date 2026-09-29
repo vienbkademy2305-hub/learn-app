@@ -1,0 +1,231 @@
+# Buổi 6 — Trường học & môn học. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-06-truong-hoc-mon-hoc
+number: 6
+stage: 1
+title_vi: Trường học & môn học
+focus:
+  grammar: Hiện tại tiếp diễn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - subject|n
+      - maths|n
+      - history|n
+      - geography|n
+      - science|n
+      - literature|n
+      - foreign-language|phr-n
+      - classroom|n
+      - timetable|n
+      - textbook|n
+      - uniform|n
+      - classmate|n
+      - homework|n
+      - exam|n
+      - break|n
+      - study|v
+      - revise|v
+      - pass|v
+      - fail|v
+      - take-notes|colloc
+  - type: pronunciation
+    notes:
+      - sound: snd-ng
+        text_vi: "Đuôi -ing đọc /ɪŋ/: studying, reading. Đọc trọn âm 'ng', không rút thành '-in', không bật thêm /g/ ở cuối."
+      - word: exam|n
+        text_vi: "ex- đọc /ɪɡz/ và trọng âm âm 2: ig-ZAM."
+      - word: science|n
+        text_vi: "Chữ c sau s câm: SAI-ơns. Tương tự: scene, scissors."
+      - word: geography|n
+        text_vi: "Trọng âm âm 2: ge-O-gra-phy. Chữ g đầu đọc /dʒ/."
+  - type: grammar
+    items:
+      - en-g1-06
+  - type: examples
+    items:
+      - b06-001
+      - b06-002
+      - b06-003
+      - b06-004
+      - b06-005
+      - b06-006
+      - b06-007
+      - b06-008
+  - type: dialogue
+    title_vi: Gọi điện cho bạn cùng lớp
+    lines:
+      - speaker: A
+        text: Hi Nam, are you busy?
+        vi: Chào Nam, cậu có bận không?
+      - speaker: B
+        text: A little. I'm revising for my history exam.
+        vi: Hơi bận. Tớ đang ôn thi môn sử.
+      - speaker: A
+        text: Is your sister studying too?
+        vi: Em gái cậu cũng đang học à?
+      - speaker: B
+        text: No, she isn't. She's watching TV in the living room.
+        vi: Không. Nó đang xem ti vi ở phòng khách.
+      - speaker: A
+        text: What are you reading now?
+        vi: Giờ cậu đang đọc gì thế?
+      - speaker: B
+        text: I'm reading my notes about Vietnamese history.
+        vi: Tớ đang đọc lại phần ghi chép về lịch sử Việt Nam.
+      - speaker: A
+        text: Good luck! Our exam is on Friday, right?
+        vi: Chúc may mắn! Thứ Sáu mình thi phải không?
+      - speaker: B
+        text: Yes. Let's study together tomorrow.
+        vi: Ừ. Mai mình học cùng nhau nhé.
+  - type: exercises
+    items:
+      - id: b06-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - maths
+          - geography
+          - timetable
+          - uniform
+          - classmate
+          - homework
+        questions:
+          - q: We learn about numbers in ___.
+            answer: maths
+          - q: In ___, we learn about countries, rivers and mountains.
+            answer: geography
+          - q: Look at the ___ to see what lessons we have today.
+            answer: timetable
+          - q: Students in my school wear a blue ___.
+            answer: uniform
+          - q: Minh sits next to me. He is my ___.
+            answer: classmate
+          - q: I can't go out tonight. I have a lot of ___.
+            answer: homework
+            explain_vi: homework không đếm được, không thêm -s.
+      - id: b06-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở thì hiện tại tiếp diễn.
+        questions:
+          - q: Be quiet! The baby (sleep) ___.
+            answer: is sleeping
+          - q: Look! Those students (run) ___ to the classroom.
+            answer: are running
+            explain_vi: "run: nhân đôi n."
+          - q: I (write) ___ an email to my teacher.
+            answer: am writing
+            accept:
+              - "'m writing"
+            explain_vi: "write: bỏ e + ing."
+          - q: We (not / study) ___ right now. We are having a break.
+            answer: are not studying
+            accept:
+              - aren't studying
+          - q: (you / listen) ___ to me?
+            answer: Are you listening
+            explain_vi: "Câu hỏi: đảo to be lên trước chủ ngữ."
+          - q: My brother (sit) ___ at the back of the class.
+            answer: is sitting
+          - q: She (not / wear) ___ her uniform today.
+            answer: is not wearing
+            accept:
+              - isn't wearing
+          - q: They (revise) ___ for the maths exam.
+            answer: are revising
+      - id: b06-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Listen! Somebody ___ the piano.
+            options:
+              - play
+              - plays
+              - is playing
+              - are playing
+            answer: c
+          - q: I ___ my homework at the moment.
+            options:
+              - am doing
+              - am do
+              - doing
+              - is doing
+            answer: a
+          - q: ___ your sister studying now?
+            options:
+              - Are
+              - Is
+              - Does
+              - Do
+            answer: b
+          - q: They ___ taking notes. They are talking.
+            options:
+              - isn't
+              - aren't
+              - don't
+              - not
+            answer: b
+          - q: Why ___ you laughing?
+            options:
+              - is
+              - do
+              - are
+              - am
+            answer: c
+      - id: b06-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: It is nine o'clock and I am siting in my classroom. Our teacher writing on the board. My classmates is taking notes. Minh is study maths, but Lan is looking out of the window. She not listening to the teacher.
+        errors:
+          - wrong: am siting
+            right: am sitting
+            why: sit → sitting (nhân đôi t).
+          - wrong: Our teacher writing
+            right: Our teacher is writing
+            why: Thiếu to be.
+          - wrong: My classmates is
+            right: My classmates are
+            why: Chủ ngữ số nhiều dùng are.
+          - wrong: is study maths
+            right: is studying maths
+            why: Thiếu -ing.
+          - wrong: She not listening
+            right: She is not listening
+            why: Phủ định cần to be + not.
+      - id: b06-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: It is Monday morning at Hoa Binh High School. In class 10A, the students are having a geography lesson. Their teacher, Mr Long, is showing them a map of Vietnam. Most students are taking notes, but two boys at the back are talking. In class 10B, the students are not in their classroom. They are playing football because it is their PE lesson. Their teacher is watching them from the side of the field.
+        questions:
+          - q: Class 10A is studying geography.
+            answer: T
+          - q: Mr Long is playing football with class 10B.
+            answer: F
+            explain_vi: Mr Long dạy lớp 10A. Giáo viên lớp 10B đang đứng xem — đọc kỹ ai làm gì.
+          - q: All the students in 10A are taking notes.
+            answer: F
+            explain_vi: Hai bạn ở cuối lớp đang nói chuyện (most, không phải all).
+          - q: Mr Long is a new teacher at the school.
+            answer: NG
+            explain_vi: Bài không nói Mr Long mới hay cũ.
+          - q: Class 10B is outside the classroom.
+            answer: T
+          - q: The students in 10B like PE more than geography.
+            answer: NG
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Bây giờ là 8 giờ tối. Viết đoạn văn 60–80 từ: mọi người trong nhà bạn đang làm gì? Dùng ít nhất 5 câu hiện tại tiếp diễn (có câu phủ định)."
+    prompt_en: It is 8 p.m. What are the people in your home doing right now?
+    words:
+      min: 60
+      max: 80
+    minutes: 15

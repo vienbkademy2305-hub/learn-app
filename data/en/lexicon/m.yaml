@@ -1,0 +1,403 @@
+# Từ vựng chữ "m". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: marital-status|phr-n
+    headword: marital status
+    pos: phr-n
+    ipa: { uk: "/ˈmær.ɪ.təl ˌsteɪ.təs/", us: "/ˈmer.ə.t̬əl ˌsteɪ.t̬əs/" }
+    cefr: null
+    meaning_vi: [ tình trạng hôn nhân ]
+    notes_vi: [ "Thường gặp trên biểu mẫu; trong hội thoại hỏi Are you married?" ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: married|adj
+    headword: married
+    pos: adj
+    ipa: { uk: "/ˈmær.id/", us: "/ˈmer.id/" }
+    cefr: A1
+    meaning_vi: [ đã kết hôn ]
+    stress: MAR-ried
+    collocations: [ get married, be married to someone ]
+    notes_vi: [ "Chỉ 2 âm tiết, -ed đọc /d/.", "Nói married to someone, không nói *married with someone*." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/married, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: month|n
+    headword: month
+    pos: n
+    ipa:
+      uk: /mʌnθ/
+      us: /mʌnθ/
+    cefr: A1
+    meaning_vi:
+      - tháng
+    notes_vi:
+      - Số nhiều months /mʌnθs/ — khó đọc, đừng bỏ âm cuối.
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: morning|n
+    headword: morning
+    pos: n
+    ipa:
+      uk: /ˈmɔː.nɪŋ/
+      us: /ˈmɔːr.nɪŋ/
+    cefr: A1
+    meaning_vi:
+      - buổi sáng
+    collocations:
+      - in the morning
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: midnight|n
+    headword: midnight
+    pos: n
+    ipa:
+      uk: /ˈmɪd.naɪt/
+      us: /ˈmɪd.naɪt/
+    cefr: A1
+    meaning_vi:
+      - nửa đêm (12 giờ đêm)
+    collocations:
+      - at midnight
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: maths|n
+    headword: maths
+    pos: n
+    ipa:
+      uk: /mæθs/
+      us: /mæθs/
+    cefr: A2
+    meaning_vi:
+      - môn toán
+    notes_vi:
+      - "Anh-Anh: maths, Anh-Mỹ: math. Là danh từ không đếm được: Maths IS my favourite subject."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: manager|n
+    headword: manager
+    pos: n
+    ipa:
+      uk: /ˈmæn.ɪ.dʒə/
+      us: /ˈmæn.ə.dʒɚ/
+    stress: MAN-a-ger
+    cefr: A2
+    meaning_vi:
+      - quản lý
+      - trưởng phòng
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manager, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: medicine|n
+    headword: medicine
+    pos: n
+    ipa:
+      uk: /ˈmed.ɪ.sən/
+      us: /ˈmed.ɪ.sən/
+    stress: ME-di-cine
+    cefr: A2
+    meaning_vi:
+      - thuốc
+    collocations:
+      - take medicine
+    notes_vi:
+      - Uống thuốc là take medicine, không nói *drink medicine*.
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: meat|n
+    headword: meat
+    pos: n
+    ipa:
+      uk: /miːt/
+      us: /miːt/
+    cefr: A1
+    meaning_vi:
+      - thịt
+    notes_vi:
+      - Không đếm được. Đọc /iː/ dài, khác met /e/.
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: milk|n
+    headword: milk
+    pos: n
+    ipa:
+      uk: /mɪlk/
+      us: /mɪlk/
+    cefr: A1
+    meaning_vi:
+      - sữa
+    notes_vi:
+      - "Không đếm được: a glass of milk. Nhớ /l/ trước /k/."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: museum|n
+    headword: museum
+    pos: n
+    ipa:
+      uk: /mjuːˈziː.əm/
+      us: /mjuːˈziː.əm/
+    stress: mu-SE-um
+    cefr: A1
+    meaning_vi:
+      - bảo tàng
+    topics:
+      - travel
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: market|n
+    headword: market
+    pos: n
+    ipa:
+      uk: /ˈmɑː.kɪt/
+      us: /ˈmɑːr.kɪt/
+    cefr: A1
+    meaning_vi:
+      - chợ
+      - thị trường
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: meet|v
+    headword: meet
+    pos: v
+    forms:
+      past: met
+      pp: met
+    ipa:
+      uk: /miːt/
+      us: /miːt/
+    cefr: A1
+    meaning_vi:
+      - gặp
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: motorbike|n
+    headword: motorbike
+    pos: n
+    ipa:
+      uk: /ˈməʊ.tə.baɪk/
+      us: /ˈmoʊ.t̬ɚ.baɪk/
+    cefr: null
+    meaning_vi:
+      - xe máy
+    collocations:
+      - ride a motorbike
+    notes_vi:
+      - "Đi xe máy: ride (không dùng drive). Anh-Mỹ hay nói motorcycle."
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: move|v
+    headword: move
+    pos: v
+    forms:
+      past: moved
+    ipa:
+      uk: /muːv/
+      us: /muːv/
+    cefr: A1
+    meaning_vi:
+      - chuyển (nhà, nơi ở)
+    collocations:
+      - move house
+      - move to Ho Chi Minh City
+    topics:
+      - plans
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: maybe|adv
+    headword: maybe
+    pos: adv
+    ipa:
+      uk: /ˈmeɪ.bi/
+      us: /ˈmeɪ.bi/
+    cefr: A1
+    meaning_vi:
+      - có thể
+      - có lẽ
+    notes_vi:
+      - "Thường đứng đầu câu: Maybe I'll stay at home."
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: musical-instrument|phr-n
+    headword: musical instrument
+    pos: phr-n
+    ipa:
+      uk: /ˌmjuː.zɪ.kəl ˈɪn.strə.mənt/
+      us: /ˌmjuː.zɪ.kəl ˈɪn.strə.mənt/
+    cefr: null
+    meaning_vi:
+      - nhạc cụ
+    collocations:
+      - play a musical instrument
+    notes_vi:
+      - "play + the + nhạc cụ: play the guitar, play the piano."
+    topics:
+      - hobbies
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: mind|v
+    headword: mind
+    pos: v
+    ipa:
+      uk: /maɪnd/
+      us: /maɪnd/
+    cefr: A2
+    meaning_vi:
+      - phiền
+      - ngại
+    notes_vi:
+      - "Do you mind + V-ing? = Bạn có phiền … không? Trả lời đồng ý: No, not at all."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: material|n
+    headword: material
+    pos: n
+    ipa:
+      uk: /məˈtɪə.ri.əl/
+      us: /məˈtɪr.i.əl/
+    stress: ma-TE-ri-al
+    cefr: A2
+    meaning_vi:
+      - chất liệu
+      - vật liệu
+    topics:
+      - industry
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.us }
+    status: draft

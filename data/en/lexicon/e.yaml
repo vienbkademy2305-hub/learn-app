@@ -1,0 +1,320 @@
+# Từ vựng chữ "e". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: elder-brother|phr-n
+    headword: elder brother
+    pos: phr-n
+    ipa: { uk: "/ˌel.də ˈbrʌð.ə/", us: "/ˌel.dɚ ˈbrʌð.ɚ/" }
+    cefr: null
+    meaning_vi: [ anh trai ]
+    notes_vi: [ "Có thể nói older brother; elder chỉ dùng trước danh từ, không nói *He is elder than me*." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: elder-sister|phr-n
+    headword: elder sister
+    pos: phr-n
+    ipa: { uk: "/ˌel.də ˈsɪs.tə/", us: "/ˌel.dɚ ˈsɪs.tɚ/" }
+    cefr: null
+    meaning_vi: [ chị gái ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: exam|n
+    headword: exam
+    pos: n
+    ipa:
+      uk: /ɪɡˈzæm/
+      us: /ɪɡˈzæm/
+    stress: ex-AM
+    cefr: A1
+    meaning_vi:
+      - kỳ thi
+      - bài thi
+    collocations:
+      - take an exam
+      - pass an exam
+      - fail an exam
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exam, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exam, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exam, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: engineer|n
+    headword: engineer
+    pos: n
+    ipa:
+      uk: /ˌen.dʒɪˈnɪə/
+      us: /ˌen.dʒɪˈnɪr/
+    stress: en-gi-NEER
+    cefr: A2
+    meaning_vi:
+      - kỹ sư
+    notes_vi:
+      - "Trọng âm cuối: en-gi-NEER. Dùng an: an engineer."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/engineer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/engineer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/engineer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: electrician|n
+    headword: electrician
+    pos: n
+    ipa:
+      uk: /ˌel.ɪkˈtrɪʃ.ən/
+      us: /ˌel.ɪkˈtrɪʃ.ən/
+    stress: e-lec-TRI-cian
+    cefr: null
+    meaning_vi:
+      - thợ điện
+    notes_vi:
+      - "-cian đọc /ʃən/, trọng âm rơi ngay trước: e-lec-TRI-cian (giống musician)."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/electrician, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: earn|v
+    headword: earn
+    pos: v
+    ipa:
+      uk: /ɜːn/
+      us: /ɝːn/
+    cefr: A2
+    meaning_vi:
+      - kiếm (tiền)
+    collocations:
+      - earn money
+      - earn a salary
+    notes_vi:
+      - Đọc giống urn /ɜːn/, không đọc 'e-arn'.
+    topics:
+      - work
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/earn, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/earn, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/earn, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: exercise|v
+    headword: exercise
+    pos: v
+    ipa:
+      uk: /ˈek.sə.saɪz/
+      us: /ˈek.sɚ.saɪz/
+    stress: EX-er-cise
+    cefr: A1
+    meaning_vi:
+      - tập thể dục
+    collocations:
+      - exercise regularly
+    notes_vi:
+      - Cũng dùng do exercise (danh từ không đếm được).
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exercise_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exercise_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exercise_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: egg|n
+    headword: egg
+    pos: n
+    ipa:
+      uk: /eɡ/
+      us: /eɡ/
+    cefr: A1
+    meaning_vi:
+      - quả trứng
+    notes_vi:
+      - "Đếm được: an egg, two eggs."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/egg, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/egg, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/egg, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: expensive|adj
+    headword: expensive
+    pos: adj
+    forms:
+      comparative: more expensive
+      superlative: most expensive
+    ipa:
+      uk: /ɪkˈspen.sɪv/
+      us: /ɪkˈspen.sɪv/
+    stress: ex-PEN-sive
+    cefr: A1
+    meaning_vi:
+      - đắt
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expensive, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expensive, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expensive, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: enjoy|v
+    headword: enjoy
+    pos: v
+    ipa:
+      uk: /ɪnˈdʒɔɪ/
+      us: /ɪnˈdʒɔɪ/
+    cefr: A1
+    meaning_vi:
+      - thích
+      - tận hưởng
+    notes_vi:
+      - enjoy + V-ing (enjoy reading) hoặc + danh từ/đại từ (enjoy the film, enjoy it). Không nói *I enjoy.* một mình.
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enjoy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enjoy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enjoy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: excited|adj
+    headword: excited
+    pos: adj
+    ipa:
+      uk: /ɪkˈsaɪ.tɪd/
+      us: /ɪkˈsaɪ.t̬ɪd/
+    cefr: A1
+    meaning_vi:
+      - háo hức
+      - phấn khích (cảm thấy)
+    collocations:
+      - excited about something
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/excited, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/excited, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/excited, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: exciting|adj
+    headword: exciting
+    pos: adj
+    ipa:
+      uk: /ɪkˈsaɪ.tɪŋ/
+      us: /ɪkˈsaɪ.t̬ɪŋ/
+    cefr: A1
+    meaning_vi:
+      - hấp dẫn
+      - gây hào hứng
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exciting, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exciting, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exciting, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: embarrassed|adj
+    headword: embarrassed
+    pos: adj
+    ipa:
+      uk: /ɪmˈbær.əst/
+      us: /ɪmˈber.əst/
+    stress: em-BAR-rassed
+    cefr: B1
+    meaning_vi:
+      - xấu hổ
+      - ngượng (cảm thấy)
+    notes_vi:
+      - "Chính tả: 2 r, 2 s. -ed sau /s/ đọc /t/."
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassed, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassed, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/embarrassed, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: embarrassing|adj
+    headword: embarrassing
+    pos: adj
+    ipa:
+      uk: /ɪmˈbær.ə.sɪŋ/
+      us: /ɪmˈber.ə.sɪŋ/
+    cefr: B1
+    meaning_vi:
+      - gây xấu hổ
+      - ngượng ngùng
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassing, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassing, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/embarrassing, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: export|v
+    headword: export
+    pos: v
+    ipa:
+      uk: /ɪkˈspɔːt/
+      us: /ɪkˈspɔːrt/
+    stress: ex-PORT
+    cefr: B1
+    meaning_vi:
+      - xuất khẩu
+    notes_vi:
+      - Động từ nhấn âm 2 (ex-PORT), danh từ nhấn âm 1 (EX-port) — quy tắc Buổi 0.
+    topics:
+      - industry
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-29, field: ipa.us }
+    status: draft

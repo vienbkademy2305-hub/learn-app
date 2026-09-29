@@ -1,0 +1,24 @@
+# Câu xuất hiện lần đầu ở Buổi 18. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b18-001, text: I saw a dog in the park. The dog was very big., vi: Tôi thấy một con chó trong công viên. Con chó đó rất to., words: [], grammar: [ en-g1-18 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-002, text: "My sister is a nurse, and my brother is an engineer.", vi: "Chị tôi là y tá, còn anh tôi là kỹ sư.", words: [ nurse|n, engineer|n ], grammar: [ en-g1-18 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-003, text: It takes an hour to get to the airport., vi: Ra sân bay mất một tiếng., words: [ airport|n ], grammar: [ en-g1-18 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-004, text: She studies at a university in Hanoi., vi: Cô ấy học ở một trường đại học tại Hà Nội., words: [ study|v ], grammar: [ en-g1-18 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-005, text: The sun is very hot today., vi: Hôm nay nắng rất gắt., words: [], grammar: [ en-g1-18 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-006, text: I usually have breakfast at seven and go to work at eight., vi: Tôi thường ăn sáng lúc bảy giờ và đi làm lúc tám giờ., words: [ have-breakfast|colloc, go-to-work|colloc ], grammar: [ en-g1-18 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-007, text: "Life is short, so enjoy it!", vi: "Đời ngắn lắm, hãy tận hưởng!", words: [ enjoy|v ], grammar: [ en-g1-18 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-008, text: Hanoi is the capital of Vietnam., vi: Hà Nội là thủ đô của Việt Nam., words: [], grammar: [ en-g1-18 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-009, text: I listen to music every evening., vi: Tối nào tôi cũng nghe nhạc., words: [ listen-to|phr-v ], grammar: [ en-g1-18 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-010, text: "Look at the board, please.", vi: Các em nhìn lên bảng nhé., words: [ look-at|phr-v ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-011, text: I'm looking for my keys., vi: Tôi đang tìm chìa khóa., words: [ look-for|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-012, text: We are waiting for the bus., vi: Chúng tôi đang đợi xe buýt., words: [ wait-for|phr-v ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-013, text: It depends on the weather., vi: Còn tùy vào thời tiết., words: [ depend-on|phr-v, weather|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-014, text: Does this bag belong to you?, vi: Chiếc túi này là của bạn phải không?, words: [ belong-to|phr-v ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-015, text: "Can I talk to the manager, please?", vi: Cho tôi nói chuyện với quản lý được không?, words: [ talk-to|phr-v, manager|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-016, text: What are you talking about?, vi: Bạn đang nói về chuyện gì vậy?, words: [ talk-about|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-017, text: I'm thinking about my future., vi: Tôi đang nghĩ về tương lai của mình., words: [ think-about|phr-v, future|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-018, text: I agree with you., vi: Tôi đồng ý với bạn., words: [ agree-with|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-019, text: He asked for the bill., vi: Anh ấy gọi thanh toán., words: [ ask-for|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-020, text: "We arrived at the station at nine, and we arrived in Da Nang at noon.", vi: Chúng tôi đến ga lúc chín giờ và đến Đà Nẵng lúc trưa., words: [ arrive|v, station|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-021, text: Please don't laugh at me!, vi: Làm ơn đừng cười tôi!, words: [ laugh-at|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b18-022, text: I apologise for being late., vi: Tôi xin lỗi vì đến muộn., words: [ apologise-for|phr-v ], grammar: [ en-g1-16 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }

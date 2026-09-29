@@ -1,0 +1,427 @@
+# Từ vựng chữ "a". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: address|n
+    headword: address
+    pos: n
+    ipa: { uk: "/əˈdres/", us: "/ˈæd.res/" }
+    cefr: A1
+    meaning_vi: [ địa chỉ ]
+    notes_vi: [ "Anh-Anh nhấn âm 2 (a-DRESS); Anh-Mỹ hay nhấn âm 1 khi là danh từ." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/address, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: appearance|n
+    headword: appearance
+    pos: n
+    ipa:
+      uk: /əˈpɪə.rəns/
+      us: /əˈpɪr.əns/
+    stress: a-PPEAR-ance
+    cefr: A2
+    meaning_vi:
+      - ngoại hình
+      - vẻ bề ngoài
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: apartment|n
+    headword: apartment
+    pos: n
+    ipa:
+      uk: /əˈpɑːt.mənt/
+      us: /əˈpɑːrt.mənt/
+    stress: a-PART-ment
+    cefr: A1
+    meaning_vi:
+      - căn hộ
+    notes_vi:
+      - Anh-Anh hay dùng flat, Anh-Mỹ dùng apartment.
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: afternoon|n
+    headword: afternoon
+    pos: n
+    ipa:
+      uk: /ˌɑːf.təˈnuːn/
+      us: /ˌæf.tɚˈnuːn/
+    stress: af-ter-NOON
+    cefr: A1
+    meaning_vi:
+      - buổi chiều
+    collocations:
+      - in the afternoon
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: always|adv
+    headword: always
+    pos: adv
+    ipa:
+      uk: /ˈɔːl.weɪz/
+      us: /ˈɑːl.weɪz/
+    cefr: A1
+    meaning_vi:
+      - luôn luôn (100%)
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: autumn|n
+    headword: autumn
+    pos: n
+    ipa:
+      uk: /ˈɔː.təm/
+      us: /ˈɑː.t̬əm/
+    cefr: A1
+    meaning_vi:
+      - mùa thu
+    notes_vi:
+      - "n cuối câm: /ˈɔː.təm/. Anh-Mỹ hay dùng fall."
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: afraid-of|colloc
+    headword: afraid of
+    pos: colloc
+    ipa:
+      uk: /əˈfreɪd əv/
+      us: /əˈfreɪd əv/
+    cefr: null
+    meaning_vi:
+      - sợ (cái gì)
+    notes_vi:
+      - "Không nói *afraid with*: I'm afraid of storms."
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: accountant|n
+    headword: accountant
+    pos: n
+    ipa:
+      uk: /əˈkaʊn.tənt/
+      us: /əˈkaʊn.tənt/
+    stress: ac-COUN-tant
+    cefr: B2
+    meaning_vi:
+      - kế toán (người)
+    notes_vi:
+      - accountant = người làm kế toán; accounting = nghề/môn kế toán (giống lỗi analyst/analysis).
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: apply-for|phr-v
+    headword: apply for
+    pos: phr-v
+    forms:
+      3sg: applies for
+      past: applied for
+    ipa:
+      uk: /əˈplaɪ fɔː/
+      us: /əˈplaɪ fɔːr/
+    cefr: null
+    meaning_vi:
+      - nộp đơn xin (việc, học bổng)
+    collocations:
+      - apply for a job
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: appointment|n
+    headword: appointment
+    pos: n
+    ipa:
+      uk: /əˈpɔɪnt.mənt/
+      us: /əˈpɔɪnt.mənt/
+    stress: ap-POINT-ment
+    cefr: B1
+    meaning_vi:
+      - cuộc hẹn (bác sĩ, công việc)
+    collocations:
+      - make an appointment
+      - a doctor's appointment
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: arrive|v
+    headword: arrive
+    pos: v
+    forms:
+      past: arrived
+    ipa:
+      uk: /əˈraɪv/
+      us: /əˈraɪv/
+    cefr: A1
+    meaning_vi:
+      - đến nơi
+    notes_vi:
+      - arrive IN + thành phố/nước, arrive AT + địa điểm nhỏ (sân bay, khách sạn). Không nói *arrive to*.
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: abroad|adv
+    headword: abroad
+    pos: adv
+    ipa:
+      uk: /əˈbrɔːd/
+      us: /əˈbrɑːd/
+    cefr: A2
+    meaning_vi:
+      - ở nước ngoài
+      - ra nước ngoài
+    notes_vi:
+      - "Là trạng từ, không có to: travel abroad (không nói *go to abroad*)."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: ago|adv
+    headword: ago
+    pos: adv
+    ipa:
+      uk: /əˈɡəʊ/
+      us: /əˈɡoʊ/
+    cefr: A1
+    meaning_vi:
+      - cách đây
+    notes_vi:
+      - "Đứng SAU khoảng thời gian: two years ago (không nói *ago two years*)."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: afford|v
+    headword: afford
+    pos: v
+    ipa:
+      uk: /əˈfɔːd/
+      us: /əˈfɔːrd/
+    cefr: B1
+    meaning_vi:
+      - có đủ tiền (để mua/làm)
+    notes_vi:
+      - "Thường đi với can/can't: I can't afford a new car."
+    topics:
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: accident|n
+    headword: accident
+    pos: n
+    ipa:
+      uk: /ˈæk.sɪ.dənt/
+      us: /ˈæk.sə.dənt/
+    stress: AC-ci-dent
+    cefr: A2
+    meaning_vi:
+      - tai nạn
+    collocations:
+      - have an accident
+      - a traffic accident
+      - by accident
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/accident, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: at-first|colloc
+    headword: at first
+    pos: colloc
+    ipa:
+      uk: /ət ˈfɜːst/
+      us: /ət ˈfɝːst/
+    cefr: null
+    meaning_vi:
+      - lúc đầu (sau đó thì khác)
+    notes_vi:
+      - At first I was scared, but then… — khác first (thứ nhất, liệt kê).
+    topics:
+      - story
+      - linking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: airport|n
+    headword: airport
+    pos: n
+    ipa:
+      uk: /ˈeə.pɔːt/
+      us: /ˈer.pɔːrt/
+    stress: AIR-port
+    cefr: A1
+    meaning_vi:
+      - sân bay
+    topics:
+      - transport
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: agree-with|phr-v
+    headword: agree with
+    pos: phr-v
+    ipa:
+      uk: /əˈɡriː wɪð/
+      us: /əˈɡriː wɪð/
+    cefr: null
+    meaning_vi:
+      - đồng ý với
+    notes_vi:
+      - "agree là động từ: I agree (không nói *I am agree*). Rất hay gặp trong IELTS Writing/Speaking."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ask-for|phr-v
+    headword: ask for
+    pos: phr-v
+    forms:
+      past: asked for
+    ipa:
+      uk: /ˈɑːsk fɔː/
+      us: /ˈæsk fɔːr/
+    cefr: null
+    meaning_vi:
+      - xin
+      - yêu cầu (cái gì)
+    collocations:
+      - ask for help
+      - ask for the bill
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: apologise-for|phr-v
+    headword: apologise for
+    pos: phr-v
+    ipa:
+      uk: /əˈpɒl.ə.dʒaɪz fɔː/
+      us: /əˈpɑː.lə.dʒaɪz fɔːr/
+    cefr: null
+    meaning_vi:
+      - xin lỗi vì
+    notes_vi:
+      - "apologise TO someone FOR something/V-ing. Anh-Mỹ: apologize."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

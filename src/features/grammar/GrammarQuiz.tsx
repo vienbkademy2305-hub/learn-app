@@ -33,7 +33,7 @@ export function GrammarQuiz({ lessonSlug, points }: { lessonSlug: string; points
       build={() => buildGrammarQuiz(points, Math.random)}
       renderQuestion={(q, onResult) => <QuizView q={q} onResult={onResult} />}
       emptyMessage="Bài này chưa có câu luyện ngữ pháp."
-      back={{ href: `/lesson/${lessonSlug}/examples`, label: "Xem câu ví dụ" }}
+      back={{ href: `/zh/lesson/${lessonSlug}/examples`, label: "Xem câu ví dụ" }}
     />
   );
 }

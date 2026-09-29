@@ -1,0 +1,306 @@
+# Từ vựng chữ "w". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: wife|n
+    headword: wife
+    pos: n
+    ipa: { uk: "/waɪf/", us: "/waɪf/" }
+    cefr: A1
+    meaning_vi: [ vợ ]
+    forms: { plural: wives }
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wife, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wife, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wife, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: work-as|phr-v
+    headword: work as
+    pos: phr-v
+    ipa: { uk: "/ˈwɜːk æz/", us: "/ˈwɝːk æz/" }
+    cefr: null
+    meaning_vi: [ làm nghề ]
+    forms: { 3sg: works as }
+    notes_vi: [ "work as + nghề (không có to be): I work as a nurse = I am a nurse." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: wardrobe|n
+    headword: wardrobe
+    pos: n
+    ipa:
+      uk: /ˈwɔː.drəʊb/
+      us: /ˈwɔːr.droʊb/
+    stress: WAR-drobe
+    cefr: null
+    meaning_vi:
+      - tủ quần áo
+    topics:
+      - home
+      - furniture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wardrobe, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wardrobe, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: week|n
+    headword: week
+    pos: n
+    ipa:
+      uk: /wiːk/
+      us: /wiːk/
+    cefr: A1
+    meaning_vi:
+      - tuần
+    collocations:
+      - every week
+      - next week
+      - last week
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/week, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/week, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/week, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: weekend|n
+    headword: weekend
+    pos: n
+    ipa:
+      uk: /ˌwiːkˈend/
+      us: /ˈwiːk.end/
+    cefr: A1
+    meaning_vi:
+      - cuối tuần
+    notes_vi:
+      - "Anh-Anh: at the weekend; Anh-Mỹ: on the weekend. Cả hai đều đúng."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weekend, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weekend, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weekend, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: wake-up|phr-v
+    headword: wake up
+    pos: phr-v
+    forms:
+      past: woke up
+    ipa:
+      uk: /weɪk ˈʌp/
+      us: /weɪk ˈʌp/
+    cefr: null
+    meaning_vi:
+      - thức dậy (tỉnh giấc)
+    notes_vi:
+      - wake up = mở mắt tỉnh giấc; get up = ra khỏi giường.
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/wake_up, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: watch|v
+    headword: watch
+    pos: v
+    forms:
+      3sg: watches
+    ipa:
+      uk: /wɒtʃ/
+      us: /wɑːtʃ/
+    cefr: A1
+    meaning_vi:
+      - xem (TV, phim)
+    collocations:
+      - watch TV
+      - watch a film
+    notes_vi:
+      - "Ngôi 3 thêm -es: watches /ˈwɒtʃ.ɪz/."
+    topics:
+      - daily-life
+      - free-time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/watch, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/watch, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/watch, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: weather|n
+    headword: weather
+    pos: n
+    ipa:
+      uk: /ˈweð.ə/
+      us: /ˈweð.ɚ/
+    cefr: A1
+    meaning_vi:
+      - thời tiết
+    notes_vi:
+      - "Không đếm được: the weather is nice (không nói *a nice weather*). Đừng nhầm với whether (liệu)."
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weather, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weather, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weather, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: windy|adj
+    headword: windy
+    pos: adj
+    ipa:
+      uk: /ˈwɪn.di/
+      us: /ˈwɪn.di/
+    cefr: null
+    meaning_vi:
+      - nhiều gió
+      - lộng gió
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/windy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/windy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: winter|n
+    headword: winter
+    pos: n
+    ipa:
+      uk: /ˈwɪn.tə/
+      us: /ˈwɪn.t̬ɚ/
+    cefr: A1
+    meaning_vi:
+      - mùa đông
+    collocations:
+      - in winter
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/winter, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/winter, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/winter, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: worried-about|colloc
+    headword: worried about
+    pos: colloc
+    ipa:
+      uk: /ˈwʌr.id əˌbaʊt/
+      us: /ˈwɝː.id əˌbaʊt/
+    cefr: null
+    meaning_vi:
+      - lo lắng về
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: wallet|n
+    headword: wallet
+    pos: n
+    ipa:
+      uk: /ˈwɒl.ɪt/
+      us: /ˈwɑː.lɪt/
+    cefr: null
+    meaning_vi:
+      - cái ví
+    topics:
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wallet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wallet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: while|conj
+    headword: while
+    pos: conj
+    ipa:
+      uk: /waɪl/
+      us: /waɪl/
+    cefr: A2
+    meaning_vi:
+      - trong khi
+    notes_vi:
+      - "Thường đi với quá khứ tiếp diễn: While I was walking, …"
+    topics:
+      - story
+      - linking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/while, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/while, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/while, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: wait-for|phr-v
+    headword: wait for
+    pos: phr-v
+    ipa:
+      uk: /ˈweɪt fɔː/
+      us: /ˈweɪt fɔːr/
+    cefr: null
+    meaning_vi:
+      - chờ
+      - đợi (ai/cái gì)
+    notes_vi:
+      - "Không nói *wait someone*; phải có for: wait for the bus."
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: wood|n
+    headword: wood
+    pos: n
+    ipa:
+      uk: /wʊd/
+      us: /wʊd/
+    cefr: A2
+    meaning_vi:
+      - gỗ
+    collocations:
+      - made of wood
+    topics:
+      - industry
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-29, field: ipa.us }
+    status: draft

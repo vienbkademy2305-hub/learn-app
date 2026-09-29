@@ -1,0 +1,19 @@
+# Câu xuất hiện lần đầu ở Buổi 17. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b17-001, text: I am bored. This film is really boring., vi: Tôi thấy chán quá. Bộ phim này thật tẻ nhạt., words: [ bored|adj, boring|adj ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-002, text: Are you interested in history?, vi: Bạn có thích lịch sử không?, words: [ interested-in|colloc, history|n ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-003, text: The football match was very exciting., vi: Trận bóng đá rất hấp dẫn., words: [ exciting|adj ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-004, text: She is excited about her trip to Japan., vi: Cô ấy háo hức về chuyến đi Nhật Bản., words: [ excited|adj, trip|n ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-005, text: "After a tiring day at work, I felt very tired.", vi: "Sau một ngày làm việc mệt nhọc, tôi thấy rất mệt.", words: [ tiring|adj, tired|adj ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-006, text: We were surprised when we heard the news., vi: Chúng tôi ngạc nhiên khi nghe tin đó., words: [ surprised|adj, hear|v ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-007, text: My parents are proud of me., vi: Bố mẹ tự hào về tôi., words: [ proud|adj, parent|n ], grammar: [ en-g1-17 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-008, text: This exercise is confusing. I'm confused., vi: Bài tập này khó hiểu quá. Tôi rối rồi., words: [ confusing|adj, confused|adj ], grammar: [ en-g1-17 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-009, text: That's an interesting idea!, vi: Ý kiến đó hay đấy!, words: [ interesting|adj ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-010, text: It's surprising that he failed the exam., vi: Thật bất ngờ là anh ấy trượt kỳ thi., words: [ surprising|adj, fail|v, exam|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-011, text: Don't be worried about the test., vi: Đừng lo về bài kiểm tra., words: [ worried-about|colloc ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-012, text: I felt embarrassed when I forgot her name., vi: Tôi thấy ngượng khi quên tên cô ấy., words: [ embarrassed|adj, forget|v ], grammar: [ en-g1-17 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-013, text: It was an embarrassing mistake., vi: Đó là một lỗi đáng xấu hổ., words: [ embarrassing|adj ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-014, text: We were disappointed with the hotel., vi: Chúng tôi thất vọng về khách sạn., words: [ disappointed|adj, hotel|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-015, text: I feel relaxed after a hot bath., vi: Tắm nước nóng xong tôi thấy thư thái., words: [ relaxed|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-016, text: I'm always nervous before an interview., vi: Tôi luôn hồi hộp trước buổi phỏng vấn., words: [ nervous|adj, interview|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b17-017, text: Old people sometimes feel lonely., vi: Người già đôi khi thấy cô đơn., words: [ lonely|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

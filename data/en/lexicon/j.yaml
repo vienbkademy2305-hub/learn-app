@@ -1,0 +1,96 @@
+# Từ vựng chữ "j". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: job|n
+    headword: job
+    pos: n
+    ipa:
+      uk: /dʒɒb/
+      us: /dʒɑːb/
+    cefr: A1
+    meaning_vi:
+      - công việc
+      - việc làm
+    collocations:
+      - get a job
+      - look for a job
+      - full-time job
+    notes_vi:
+      - job đếm được (a job); work không đếm được (I have a lot of work).
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/job, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/job, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/job, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: juice|n
+    headword: juice
+    pos: n
+    ipa:
+      uk: /dʒuːs/
+      us: /dʒuːs/
+    cefr: A1
+    meaning_vi:
+      - nước ép
+    collocations:
+      - orange juice
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/juice, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/juice, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/juice, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: journey|n
+    headword: journey
+    pos: n
+    ipa:
+      uk: /ˈdʒɜː.ni/
+      us: /ˈdʒɝː.ni/
+    cefr: A1
+    meaning_vi:
+      - chuyến đi
+      - hành trình
+    notes_vi:
+      - journey = quãng di chuyển từ nơi này đến nơi khác; trip = cả chuyến đi chơi/công tác.
+    topics:
+      - transport
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journey, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journey, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journey, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: join|v
+    headword: join
+    pos: v
+    ipa:
+      uk: /dʒɔɪn/
+      us: /dʒɔɪn/
+    cefr: A1
+    meaning_vi:
+      - tham gia
+      - gia nhập
+    collocations:
+      - join a club
+    notes_vi:
+      - "join + nhóm/câu lạc bộ, không cần giới từ: join a club (không nói *join in a club*)."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/join, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/join, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/join, checked: 2026-09-29, field: ipa.us }
+    status: draft

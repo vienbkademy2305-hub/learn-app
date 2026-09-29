@@ -1,0 +1,235 @@
+# Buổi 8 — Thức ăn & đồ uống. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-08-thuc-an-do-uong
+number: 8
+stage: 1
+title_vi: Thức ăn & đồ uống
+focus:
+  grammar: Danh từ đếm được/không đếm được, some/any
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - rice|n
+      - bread|n
+      - meat|n
+      - chicken|n
+      - beef|n
+      - fish|n
+      - vegetable|n
+      - fruit|n
+      - egg|n
+      - cheese|n
+      - milk|n
+      - juice|n
+      - salt|n
+      - sugar|n
+      - bottle|n
+      - slice|n
+      - packet|n
+      - snack|n
+      - delicious|adj
+      - spicy|adj
+  - type: pronunciation
+    notes:
+      - sound: snd-ii
+        text_vi: "/iː/ dài và căng: meat, beef, cheese. Kéo dài hơn hẳn /ɪ/."
+      - sound: snd-i
+        text_vi: "/ɪ/ ngắn: fish, milk, chicken. Cặp dễ nhầm: meat – mitt, cheese – chips."
+      - sound: snd-ae
+        text_vi: "/æ/ mở miệng rộng: snack, packet. Khác /e/ trong egg, bread."
+      - word: vegetable|n
+        text_vi: "3 âm tiết: VEG-tơ-bơl. Không đọc 4 âm tiết ve-ge-ta-ble."
+      - word: sugar|n
+        text_vi: "Chữ s đọc /ʃ/: SHU-gơ."
+  - type: grammar
+    items:
+      - en-g1-08
+  - type: examples
+    items:
+      - b08-001
+      - b08-002
+      - b08-003
+      - b08-004
+      - b08-005
+      - b08-006
+      - b08-007
+      - b08-008
+  - type: dialogue
+    title_vi: Nấu gì cho bữa tối?
+    lines:
+      - speaker: A
+        text: I'm hungry. Is there any food in the kitchen?
+        vi: Tớ đói quá. Trong bếp có gì ăn không?
+      - speaker: B
+        text: There's some rice and some chicken, but there aren't any vegetables.
+        vi: Có ít cơm và thịt gà, nhưng không còn rau.
+      - speaker: A
+        text: Is there any bread?
+        vi: Có bánh mì không?
+      - speaker: B
+        text: No, there isn't. But there are some eggs.
+        vi: Không. Nhưng có mấy quả trứng.
+      - speaker: A
+        text: Great! Let's make egg fried rice.
+        vi: Tuyệt! Mình làm cơm rang trứng đi.
+      - speaker: B
+        text: Good idea. How many eggs do we need?
+        vi: Ý hay đấy. Cần mấy quả trứng?
+      - speaker: A
+        text: Three. And not much salt, please.
+        vi: Ba quả. Và đừng cho nhiều muối nhé.
+      - speaker: B
+        text: OK. Would you like some juice too?
+        vi: Được. Cậu uống thêm nước ép không?
+  - type: exercises
+    items:
+      - id: b08-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - slice
+          - bottle
+          - packet
+          - snack
+          - spicy
+          - delicious
+        questions:
+          - q: Can I have a ___ of water, please?
+            answer: bottle
+          - q: I usually have a ___ of bread with butter for breakfast.
+            answer: slice
+          - q: There is a ___ of biscuits in my bag.
+            answer: packet
+          - q: This soup has a lot of chilli. It's very ___.
+            answer: spicy
+          - q: I often eat a small ___ at four o'clock.
+            answer: snack
+          - q: Your cake is ___! Can I have another piece?
+            answer: delicious
+      - id: b08-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: I'd like ___ water, please.
+            options:
+              - a
+              - an
+              - some
+              - many
+            answer: c
+          - q: Is there ___ cheese in the fridge?
+            options:
+              - some
+              - any
+              - a
+              - many
+            answer: b
+          - q: How ___ apples do you want?
+            options:
+              - much
+              - many
+              - any
+              - some
+            answer: b
+          - q: We don't have ___ milk. Only a little.
+            options:
+              - many
+              - much
+              - a
+              - an
+            answer: b
+          - q: She eats ___ egg every morning.
+            options:
+              - a
+              - an
+              - some
+              - any
+            answer: b
+          - q: There ___ some bread on the table.
+            options:
+              - are
+              - is
+              - am
+              - be
+            answer: b
+            explain_vi: bread không đếm được → is.
+      - id: b08-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền some, any, much hoặc many.
+        bank:
+          - some
+          - any
+          - much
+          - many
+        questions:
+          - q: There are ___ bananas on the table. Take one!
+            answer: some
+          - q: We don't have ___ rice. Can you buy some?
+            answer: any
+          - q: How ___ sugar do you want in your tea?
+            answer: much
+          - q: There aren't ___ people in the restaurant today.
+            answer: many
+            accept:
+              - any
+          - q: Would you like ___ fruit?
+            answer: some
+            explain_vi: Lời mời dùng some.
+          - q: I don't drink ___ coffee. Only one cup a day.
+            answer: much
+      - id: b08-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: For breakfast I usually have a bread and an egg. I drink a glass of milks. At lunch I eat rices with fish and some vegetable. I don't eat many meat. In the evening there aren't some fruits in my house, so I buy some at the market.
+        errors:
+          - wrong: a bread
+            right: some bread
+            why: bread không đếm được.
+          - wrong: milks
+            right: milk
+            why: milk không đếm được.
+          - wrong: rices
+            right: rice
+            why: rice không đếm được.
+          - wrong: many meat
+            right: much meat
+            why: meat không đếm được → much.
+          - wrong: aren't some fruits
+            right: isn't any fruit
+            why: Phủ định dùng any; fruit thường không đếm được.
+      - id: b08-x5
+        bank_no: 18
+        kind: completion
+        instructions_vi: Nghe (hoặc đọc) đoạn hội thoại ở quán cà phê rồi điền vào phiếu gọi món. Mỗi chỗ trống tối đa HAI từ và/hoặc một số.
+        max_words: 2
+        passage: "Waiter: Good morning. What would you like? — Customer: Can I have two eggs and a slice of bread, please? — Waiter: Of course. Anything to drink? — Customer: Yes, an orange juice. — Waiter: Sorry, we don't have any orange juice today. We have apple juice. — Customer: OK, apple juice then. And a bottle of water, please. — Waiter: Sure. That's eighty-five thousand dong."
+        questions:
+          - q: "Eggs: ___"
+            answer: "2"
+            accept:
+              - two
+          - q: "Bread: one ___"
+            answer: slice
+          - q: "Drink: ___ juice"
+            answer: apple
+          - q: "Also: a ___ of water"
+            answer: bottle
+          - q: "Total: ___ thousand dong"
+            answer: "85"
+            accept:
+              - eighty-five
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 60–90 từ về những gì bạn thường ăn và uống trong một ngày. Dùng đúng some/any, much/many/a lot of và danh từ đếm được/không đếm được.
+    prompt_en: What do you usually eat and drink in a day?
+    words:
+      min: 60
+      max: 90
+    minutes: 15

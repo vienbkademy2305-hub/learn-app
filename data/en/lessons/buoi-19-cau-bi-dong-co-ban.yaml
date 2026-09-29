@@ -1,0 +1,213 @@
+# Buổi 19 — Câu bị động cơ bản. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-19-cau-bi-dong-co-ban
+number: 19
+stage: 1
+title_vi: Câu bị động cơ bản
+focus:
+  grammar: Bị động hiện tại đơn và quá khứ đơn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - produce|v
+      - build|v
+      - invent|v
+      - invention|n
+      - discover|v
+      - design|v
+      - grow|v
+      - export|v
+      - import|v
+      - factory|n
+      - product|n
+      - material|n
+      - plastic|n
+      - wood|n
+      - silk|n
+      - handmade|adj
+      - translate|v
+      - recycle|v
+  - type: pronunciation
+    notes:
+      - sound: snd-k
+        text_vi: "/k/ bật hơi và giữ ở cuối từ: product, plastic, factory. Không nuốt âm cuối."
+      - sound: snd-g
+        text_vi: "/ɡ/ rung dây thanh: grow, grown, design (g câm!). Cặp luyện: coat – goat."
+      - sound: snd-y
+        text_vi: /j/ trong produce (Anh-Anh /prəˈdʒuː-/, nhiều người đọc /djuː/), use, university.
+      - sound: snd-oi
+        text_vi: "/ɔɪ/ trong oil, choice, enjoy: trượt 'o' sang 'i'."
+      - word: export|v
+        text_vi: Động từ nhấn âm 2 (ex-PORT, im-PORT, pro-DUCE); danh từ nhấn âm 1 (EX-port, IM-port, PRO-duct).
+  - type: grammar
+    items:
+      - en-g1-19
+  - type: examples
+    items:
+      - b19-001
+      - b19-002
+      - b19-003
+      - b19-004
+      - b19-005
+      - b19-006
+      - b19-007
+      - b19-008
+  - type: dialogue
+    title_vi: Tham quan làng gốm
+    lines:
+      - speaker: A
+        text: Welcome to Bat Trang village. It's famous for its pottery.
+        vi: Chào mừng đến làng Bát Tràng. Làng nổi tiếng về gốm.
+      - speaker: B
+        text: How are the cups and bowls made?
+        vi: Chén bát được làm thế nào ạ?
+      - speaker: A
+        text: They are made by hand from local clay.
+        vi: Chúng được làm bằng tay từ đất sét địa phương.
+      - speaker: B
+        text: How old is the village?
+        vi: Làng có từ bao giờ ạ?
+      - speaker: A
+        text: It is more than five hundred years old.
+        vi: Làng có hơn năm trăm năm tuổi.
+      - speaker: B
+        text: Are the products sold abroad?
+        vi: Sản phẩm có được bán ra nước ngoài không?
+      - speaker: A
+        text: Yes, they are exported to Japan, Europe and the USA.
+        vi: Có, chúng được xuất khẩu sang Nhật, châu Âu và Mỹ.
+      - speaker: B
+        text: Wonderful. I'd like to buy a handmade cup as a souvenir.
+        vi: Tuyệt quá. Tôi muốn mua một chiếc cốc làm tay để làm quà lưu niệm.
+  - type: exercises
+    items:
+      - id: b19-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở dạng bị động (hiện tại đơn hoặc quá khứ đơn).
+        questions:
+          - q: Tea (grow) ___ in Thai Nguyen.
+            answer: is grown
+          - q: This temple (build) ___ in the eleventh century.
+            answer: was built
+          - q: These shoes (make) ___ in Vietnam.
+            answer: are made
+          - q: The first computer (invent) ___ in the 1940s.
+            answer: was invented
+          - q: Rice (export) ___ to many countries every year.
+            answer: is exported
+          - q: The letters (send) ___ yesterday.
+            answer: were sent
+          - q: English (speak) ___ in many countries.
+            answer: is spoken
+          - q: The windows (not / clean) ___ last week.
+            answer: were not cleaned
+            accept:
+              - weren't cleaned
+      - id: b19-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu ở dạng bị động. Chỉ giữ by + người khi cần thiết.
+        questions:
+          - q: Farmers grow coffee in the Central Highlands. → Coffee ___
+            answer: is grown in the Central Highlands.
+            accept:
+              - is grown in the Central Highlands by farmers.
+          - q: They built this school in 1995. → This school ___
+            answer: was built in 1995.
+          - q: Picasso painted this picture. → This picture ___
+            answer: was painted by Picasso.
+          - q: People speak French in Canada. → French ___
+            answer: is spoken in Canada.
+          - q: The factory produces 500 bikes a day. → 500 bikes ___
+            answer: are produced a day.
+            accept:
+              - are produced a day by the factory.
+              - are produced by the factory a day.
+      - id: b19-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: This table is made ___ wood.
+            options:
+              - in
+              - of
+              - by
+              - from
+            answer: b
+          - q: My phone was made ___ Korea.
+            options:
+              - in
+              - of
+              - by
+              - at
+            answer: a
+          - q: The book ___ into ten languages last year.
+            options:
+              - translated
+              - is translated
+              - was translated
+              - translates
+            answer: c
+          - q: Where ___ you born?
+            options:
+              - are
+              - was
+              - were
+              - did
+            answer: c
+          - q: This song was written ___ a Vietnamese singer.
+            options:
+              - from
+              - of
+              - with
+              - by
+            answer: d
+      - id: b19-x4
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: export
+            right: to sell goods to another country
+          - left: invention
+            right: something new that somebody makes for the first time
+          - left: handmade
+            right: made by a person, not by a machine
+          - left: recycle
+            right: to use old things again to make new things
+          - left: factory
+            right: a building where things are made by machines
+      - id: b19-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Van Phuc is a small village near Hanoi. It is famous for its silk. In the past, all the silk was made here by hand, but today most of the cloth is produced by machines. The village shops sell scarves, shirts and dresses to tourists. Some of the products are exported to Japan and France. The oldest workshop in the village was opened by a local family more than eighty years ago, and it is still run by the same family today.
+        questions:
+          - q: Van Phuc is famous for pottery.
+            answer: F
+            explain_vi: Làng nổi tiếng về lụa.
+          - q: Most silk in the village is made by hand today.
+            answer: F
+            explain_vi: Ngày nay phần lớn làm bằng máy.
+          - q: Some silk products are sold to other countries.
+            answer: T
+          - q: Silk from Van Phuc is more expensive than silk from Hoi An.
+            answer: NG
+          - q: The oldest workshop was opened by a family from another city.
+            answer: F
+            explain_vi: a local family = gia đình ở địa phương.
+          - q: The same family still runs the oldest workshop.
+            answer: T
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 80–100 từ giới thiệu một sản phẩm nổi tiếng ở quê bạn: được làm/trồng ở đâu, làm thế nào, bán cho ai. Dùng ít nhất 5 câu bị động."
+    prompt_en: "Describe a famous product from your hometown: where and how it is made, and who buys it."
+    words:
+      min: 80
+      max: 100
+    minutes: 20

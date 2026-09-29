@@ -1,0 +1,305 @@
+# Từ vựng chữ "g". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: grandparent|n
+    headword: grandparent
+    pos: n
+    ipa: { uk: "/ˈɡræn.peə.rənt/", us: "/ˈɡræn.per.ənt/" }
+    cefr: A1
+    meaning_vi: [ ông hoặc bà ]
+    forms: { plural: grandparents }
+    notes_vi: [ "Nói về ông bà nói chung dùng số nhiều grandparents; đọc rõ âm cuối /nts/." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: good-looking|adj
+    headword: good-looking
+    pos: adj
+    forms:
+      comparative: better-looking
+    ipa:
+      uk: /ˌɡʊdˈlʊk.ɪŋ/
+      us: /ˌɡʊdˈlʊk.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - ưa nhìn
+      - đẹp (dùng cho cả nam và nữ)
+    notes_vi:
+      - handsome thường cho nam, beautiful/pretty thường cho nữ; good-looking dùng cho cả hai.
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: get-up|phr-v
+    headword: get up
+    pos: phr-v
+    ipa:
+      uk: /ɡet ˈʌp/
+      us: /ɡet ˈʌp/
+    cefr: null
+    meaning_vi:
+      - dậy
+      - ra khỏi giường
+    collocations:
+      - get up early
+      - get up late
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: go-to-work|colloc
+    headword: go to work
+    pos: colloc
+    ipa:
+      uk: /ɡəʊ tə ˈwɜːk/
+      us: /ɡoʊ tə ˈwɝːk/
+    cefr: null
+    meaning_vi:
+      - đi làm
+    notes_vi:
+      - "Không có the: go to work, go to school, go to bed; nhưng go home (không có to)."
+    topics:
+      - daily-life
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: go-to-bed|colloc
+    headword: go to bed
+    pos: colloc
+    ipa:
+      uk: /ɡəʊ tə ˈbed/
+      us: /ɡoʊ tə ˈbed/
+    cefr: null
+    meaning_vi:
+      - đi ngủ
+    notes_vi:
+      - go to bed = lên giường đi ngủ; fall asleep = ngủ thiếp đi.
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: geography|n
+    headword: geography
+    pos: n
+    ipa:
+      uk: /dʒiˈɒɡ.rə.fi/
+      us: /dʒiˈɑː.ɡrə.fi/
+    stress: ge-O-gra-phy
+    cefr: A1
+    meaning_vi:
+      - địa lý
+      - môn địa
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: good-at|colloc
+    headword: good at
+    pos: colloc
+    ipa:
+      uk: /ˈɡʊd ət/
+      us: /ˈɡʊd ət/
+    cefr: null
+    meaning_vi:
+      - giỏi (về việc gì)
+    notes_vi:
+      - "Sau at dùng danh từ hoặc V-ing: good at English, good at cooking."
+    topics:
+      - ability
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: get-on|phr-v
+    headword: get on
+    pos: phr-v
+    forms:
+      past: got on
+    ipa:
+      uk: /ˌɡet ˈɒn/
+      us: /ˌɡet ˈɑːn/
+    cefr: null
+    meaning_vi:
+      - lên (xe buýt, tàu, máy bay, xe máy)
+    notes_vi:
+      - Với ô tô, taxi dùng get in / get into.
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: get-off|phr-v
+    headword: get off
+    pos: phr-v
+    forms:
+      past: got off
+    ipa:
+      uk: /ˌɡet ˈɒf/
+      us: /ˌɡet ˈɑːf/
+    cefr: null
+    meaning_vi:
+      - xuống (xe buýt, tàu, máy bay, xe máy)
+    notes_vi:
+      - Với ô tô, taxi dùng get out of.
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: goal|n
+    headword: goal
+    pos: n
+    ipa:
+      uk: /ɡəʊl/
+      us: /ɡoʊl/
+    cefr: A2
+    meaning_vi:
+      - mục tiêu
+    collocations:
+      - set a goal
+      - reach a goal
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: graduate|v
+    headword: graduate
+    pos: v
+    forms:
+      past: graduated
+    ipa:
+      uk: /ˈɡrædʒ.u.eɪt/
+      us: /ˈɡrædʒ.u.eɪt/
+    stress: GRA-du-ate
+    cefr: B1
+    meaning_vi:
+      - tốt nghiệp
+    collocations:
+      - graduate from university
+    notes_vi:
+      - graduate FROM + trường.
+    topics:
+      - plans
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: gardening|n
+    headword: gardening
+    pos: n
+    ipa:
+      uk: /ˈɡɑː.dən.ɪŋ/
+      us: /ˈɡɑːr.dən.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - làm vườn
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: go-out|phr-v
+    headword: go out
+    pos: phr-v
+    forms:
+      past: went out
+    ipa:
+      uk: /ˌɡəʊ ˈaʊt/
+      us: /ˌɡoʊ ˈaʊt/
+    cefr: null
+    meaning_vi:
+      - ra ngoài chơi
+      - đi chơi
+    collocations:
+      - go out for dinner
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: grow|v
+    headword: grow
+    pos: v
+    forms:
+      past: grew
+      pp: grown
+    ipa:
+      uk: /ɡrəʊ/
+      us: /ɡroʊ/
+    cefr: A1
+    meaning_vi:
+      - trồng
+      - lớn lên
+    notes_vi:
+      - "Bất quy tắc: grow – grew – grown. Bị động: Coffee is grown in Dak Lak."
+    topics:
+      - nature
+      - industry
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.us }
+    status: draft

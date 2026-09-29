@@ -1,0 +1,63 @@
+# Nguồn dữ liệu tiếng Anh (skill english-content, references/nguon-va-ban-quyen.md).
+# usage: import (đưa nội dung vào app) | fact (chỉ dữ kiện ngắn: IPA, CEFR…) | reference (chỉ tham khảo, tự viết lại)
+# publishable: false → nội dung KHÔNG được vào dữ liệu công bố (validator báo lỗi).
+sources:
+  - id: editorial
+    name: Biên soạn nội bộ (Claude + người dùng), gồm các buổi đã dạy trong nhat-ky-hoc-tap/tieng-anh
+    type: editorial
+    license: CC BY-SA 4.0
+    usage: import
+    publishable: true
+    url: null
+    path: null
+    sha256: null
+    added: 2026-09-28
+    notes: License đề xuất cho nội dung tự soạn, cùng license với dữ liệu tiếng Trung — CHỜ NGƯỜI DÙNG XÁC NHẬN.
+
+  - id: egiu
+    name: Essential Grammar in Use (Raymond Murphy, Cambridge University Press) — bản "PREP sưu tầm"
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "[PREP sưu tầm] Essential Grammar in Use.pdf"
+    sha256: 0e8d766dd70eca076166bfcecc2fbee21327dddf90803976733eff5f6793f88c
+    added: 2026-09-28
+    notes: Chỉ dùng để đối chiếu phạm vi, thứ tự điểm ngữ pháp và kiểm tra lời giải thích. Không chép câu, bảng, bài tập. Đường dẫn tính từ thư mục "D:\Lean - Ngoại ngữ".
+
+  - id: tree-or-three
+    name: Tree or Three? (Ann Baker, Cambridge University Press) — bản "PREP sưu tầm"
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "[PREP sưu tầm] Tree_or_Three.pdf"
+    sha256: 6aae06768159597a8e6f335db2c4ec415cb16ba5d879dcfe8ba300e3e0b5bb9f
+    added: 2026-09-28
+    notes: Sách luyện phát âm. Chỉ tham khảo cặp âm dễ nhầm và thứ tự luyện; tự viết ví dụ, không dùng audio của sách.
+
+  - id: wiktionary
+    name: Wiktionary (English) — mục Pronunciation
+    type: web
+    license: CC BY-SA 4.0
+    usage: fact
+    publishable: true
+    url: https://en.wiktionary.org
+    path: null
+    sha256: null
+    added: 2026-09-29
+    notes: Chỉ lấy IPA để đối chiếu (pnpm en:research). Kiểm tra giấy phép ở trang Wiktionary:Copyrights ngày 2026-09-29 theo hiểu biết — cần xác nhận lại nếu nhập nội dung dài.
+
+  - id: oxford-ld
+    name: Oxford Learner's Dictionaries (Oxford University Press) — Oxford 3000/5000
+    type: web
+    license: copyrighted
+    usage: fact
+    publishable: false
+    url: https://www.oxfordlearnersdictionaries.com
+    path: null
+    sha256: null
+    added: 2026-09-29
+    notes: Chỉ lấy dữ kiện ngắn cho từng từ — cấp CEFR (Oxford 3000/5000) và IPA Anh/Mỹ. Không chép định nghĩa, ví dụ, không đăng lại danh sách.

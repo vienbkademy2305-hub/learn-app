@@ -1,0 +1,19 @@
+# Câu xuất hiện lần đầu ở Buổi 4. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b04-001, text: My birthday is on the twelfth of June., vi: Sinh nhật tôi vào ngày mười hai tháng Sáu., words: [ birthday|n, twelfth|num ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-002, text: I get up at half past six in the morning., vi: Tôi dậy lúc sáu rưỡi sáng., words: [ half-past|colloc, morning|n ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-003, text: Our English class starts at a quarter to eight., vi: Lớp tiếng Anh của chúng tôi bắt đầu lúc tám giờ kém mười lăm., words: [ quarter|n ], grammar: [ en-g1-04 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-004, text: We visit our grandparents at the weekend., vi: Chúng tôi về thăm ông bà vào cuối tuần., words: [ weekend|n, grandparent|n ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-005, text: Vietnam's National Day is on the second of September., vi: Quốc khánh Việt Nam là ngày mùng hai tháng Chín., words: [ second|num ], grammar: [ en-g1-04 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-006, text: There are thirty days in April., vi: Tháng Tư có ba mươi ngày., words: [ thirty|num ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-007, text: My younger sister is thirteen years old., vi: Em gái tôi mười ba tuổi., words: [ thirteen|num, younger-sister|phr-n ], grammar: [ en-g1-01 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-008, text: I go to bed at midnight., vi: Tôi đi ngủ lúc nửa đêm., words: [ midnight|n ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-009, text: January is the first month of the year., vi: Tháng Một là tháng đầu tiên của năm., words: [ first|num, month|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-010, text: My office is on the third floor., vi: Văn phòng của tôi ở tầng ba., words: [ third|num, floor|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-011, text: Today is the fifth of May., vi: Hôm nay là ngày năm tháng Năm., words: [ fifth|num ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-012, text: The shop closes on the twentieth of December., vi: Cửa hàng đóng cửa vào ngày hai mươi tháng Mười Hai., words: [ twentieth|num ], grammar: [ en-g1-04 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-013, text: I have a meeting every week., vi: Tuần nào tôi cũng có một cuộc họp., words: [ week|n ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-014, text: What's the date today?, vi: Hôm nay là ngày mấy?, words: [ date|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-015, text: The film starts at eight o'clock., vi: Bộ phim bắt đầu lúc tám giờ đúng., words: [ o'clock|adv ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-016, text: I usually study in the afternoon., vi: Tôi thường học vào buổi chiều., words: [ afternoon|n ], grammar: [ en-g1-04 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b04-017, text: Tet is a very important holiday in Vietnam., vi: Tết là ngày lễ rất quan trọng ở Việt Nam., words: [ holiday|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

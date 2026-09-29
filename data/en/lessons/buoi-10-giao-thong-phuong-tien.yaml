@@ -1,0 +1,197 @@
+# Buổi 10 — Giao thông & phương tiện. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-10-giao-thong-phuong-tien
+number: 10
+stage: 1
+title_vi: Giao thông & phương tiện
+focus:
+  grammar: Giới từ với phương tiện (by/on/in)
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - traffic|n
+      - traffic-jam|phr-n
+      - motorbike|n
+      - bicycle|n
+      - bus-stop|phr-n
+      - station|n
+      - airport|n
+      - passenger|n
+      - driver|n
+      - ticket|n
+      - journey|n
+      - get-on|phr-v
+      - get-off|phr-v
+      - crowded|adj
+      - convenient|adj
+      - public-transport|phr-n
+      - rush-hour|phr-n
+      - helmet|n
+      - on-foot|idiom
+      - commute|v
+  - type: pronunciation
+    notes:
+      - sound: snd-v
+        text_vi: "/v/: răng trên chạm môi dưới, có rung: van, travel, driver, convenient. Không đọc thành /w/ hay /b/."
+      - sound: snd-w
+        text_vi: "/w/: chu tròn hai môi, không dùng răng: walk, way, wear. Cặp luyện: vest – west, vet – wet."
+      - sound: snd-p
+        text_vi: "/p/ bật hơi mạnh: passenger, public, stop. Khác /b/ trong bus, bicycle."
+      - word: crowded|adj
+        text_vi: "-ed sau âm /d/ đọc /ɪd/: CROW-did (thêm một âm tiết)."
+  - type: grammar
+    items:
+      - en-g1-10
+  - type: examples
+    items:
+      - b10-001
+      - b10-002
+      - b10-003
+      - b10-004
+      - b10-005
+      - b10-006
+      - b10-007
+      - b10-008
+  - type: dialogue
+    title_vi: Hỏi đường ra sân bay
+    lines:
+      - speaker: A
+        text: Excuse me, how can I get to the airport?
+        vi: Xin lỗi, làm sao để ra sân bay ạ?
+      - speaker: B
+        text: You can go by taxi or by bus.
+        vi: Bạn có thể đi taxi hoặc xe buýt.
+      - speaker: A
+        text: Which is cheaper?
+        vi: Cách nào rẻ hơn ạ?
+      - speaker: B
+        text: The bus is the cheapest, but it's very crowded at rush hour.
+        vi: Xe buýt rẻ nhất, nhưng giờ cao điểm rất đông.
+      - speaker: A
+        text: Where is the bus stop?
+        vi: Điểm dừng xe buýt ở đâu ạ?
+      - speaker: B
+        text: It's opposite the train station. Take bus number 86.
+        vi: Đối diện ga tàu. Bạn bắt xe số 86 nhé.
+      - speaker: A
+        text: And where do I get off?
+        vi: Thế tôi xuống ở đâu ạ?
+      - speaker: B
+        text: Get off at the last stop. The journey takes about forty-five minutes.
+        vi: Xuống ở bến cuối. Đi mất khoảng bốn mươi lăm phút.
+  - type: exercises
+    items:
+      - id: b10-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền by, on hoặc in.
+        bank:
+          - by
+          - on
+          - in
+        questions:
+          - q: I usually go to school ___ bus.
+            answer: by
+          - q: There were fifty people ___ the bus.
+            answer: on
+          - q: My brother drove me home ___ his car.
+            answer: in
+          - q: It's near. Let's go ___ foot.
+            answer: on
+          - q: She goes to work ___ her motorbike.
+            answer: on
+          - q: We travelled to Nha Trang ___ train.
+            answer: by
+          - q: He left his phone ___ the taxi.
+            answer: in
+      - id: b10-x2
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: commute
+            right: to travel between home and work every day
+          - left: rush hour
+            right: the busy time when people go to or come home from work
+          - left: passenger
+            right: a person who travels in a vehicle but is not driving
+          - left: helmet
+            right: a hard hat that keeps your head safe
+          - left: traffic jam
+            right: a long line of cars that cannot move
+      - id: b10-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - ticket
+          - crowded
+          - convenient
+          - driver
+          - station
+          - journey
+        questions:
+          - q: You need a ___ to get on the train.
+            answer: ticket
+          - q: The bus is very ___. There are no seats.
+            answer: crowded
+          - q: The metro is fast and ___.
+            answer: convenient
+          - q: The taxi ___ doesn't know the way.
+            answer: driver
+          - q: The train leaves the ___ at 9:30.
+            answer: station
+          - q: The ___ from Hanoi to Sapa is about five hours.
+            answer: journey
+      - id: b10-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: Every day I commute to work by my motorbike. My wife goes to her office by the bus. Sometimes the bus is very crowd and she can't get in the bus. On Sundays we go to the park by foot. There are many traffics in our city.
+        errors:
+          - wrong: by my motorbike
+            right: on my motorbike
+            why: Có my → on.
+          - wrong: by the bus
+            right: by bus
+            why: by + phương tiện, không có the.
+          - wrong: very crowd
+            right: very crowded
+            why: Cần tính từ crowded.
+          - wrong: get in the bus
+            right: get on the bus
+            why: Xe buýt dùng get on.
+          - wrong: by foot
+            right: on foot
+            why: Đi bộ là on foot.
+      - id: b10-x5
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc đoạn văn rồi hoàn thành câu. Mỗi chỗ trống tối đa HAI từ.
+        max_words: 2
+        passage: Minh lives in Thu Duc and works in District 1. His brother goes to work by motorbike, but Minh doesn't like the traffic jams at rush hour, so he takes the metro. He walks to the station, which takes ten minutes, and the train takes twenty-five minutes. He says the metro is more convenient and safer than a motorbike, but it is crowded in the morning.
+        questions:
+          - q: Minh goes to work by ___.
+            answer: metro
+            accept:
+              - the metro
+              - train
+          - q: He gets to the station on ___.
+            answer: foot
+          - q: The train part of the journey takes ___ minutes.
+            answer: twenty-five
+            accept:
+              - "25"
+          - q: The metro is busy in the ___.
+            answer: morning
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–90 từ: bạn đi làm/đi học bằng gì, mất bao lâu, giá bao nhiêu, và so sánh với một phương tiện khác. Dùng đúng by/on/in."
+    prompt_en: How do you commute? Compare two ways of getting to work or school.
+    words:
+      min: 60
+      max: 90
+    minutes: 15

@@ -1,0 +1,14 @@
+# Câu xuất hiện lần đầu ở Buổi 15. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b15-001, text: I'm going to graduate from university next year., vi: Năm sau tôi sẽ tốt nghiệp đại học., words: [ graduate|v, next|det ], grammar: [ en-g1-15 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-002, text: We're going to move to a bigger apartment soon., vi: Chúng tôi sắp chuyển đến một căn hộ rộng hơn., words: [ move|v, soon|adv, apartment|n ], grammar: [ en-g1-15, en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-003, text: It's late. I think I'll take a taxi home., vi: Muộn rồi. Chắc tôi sẽ đi taxi về nhà., words: [], grammar: [ en-g1-15 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-004, text: "Don't worry, I promise I'll call you tonight.", vi: "Đừng lo, anh hứa tối nay sẽ gọi cho em.", words: [ promise|v, tonight|adv ], grammar: [ en-g1-15 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-005, text: I'm meeting my manager tomorrow morning., vi: Sáng mai tôi có hẹn gặp quản lý., words: [ tomorrow|adv ], grammar: [ en-g1-15 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-006, text: My goal is to get IELTS 6.5 in the future., vi: Mục tiêu của tôi là đạt IELTS 6.5 trong tương lai., words: [ goal|n, future|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-007, text: She decided to save money for a trip to Japan., vi: Cô ấy quyết định tiết kiệm tiền để đi Nhật., words: [ decide|v, save|v, trip|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-008, text: He will probably stay at home this weekend., vi: Cuối tuần này có lẽ anh ấy sẽ ở nhà., words: [ probably|adv, stay|v, weekend|n ], grammar: [ en-g1-15 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-009, text: I hope I'll find a good job soon., vi: Tôi hy vọng sẽ sớm tìm được việc tốt., words: [ hope|v, find|v, soon|adv ], grammar: [ en-g1-15 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-010, text: Maybe I'll change my career in a few years., vi: Có lẽ vài năm nữa tôi sẽ đổi nghề., words: [ maybe|adv, career|n ], grammar: [ en-g1-15 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-011, text: I'm definitely going to learn to drive this year., vi: Năm nay tôi chắc chắn sẽ học lái xe., words: [ definitely|adv ], grammar: [ en-g1-15 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b15-012, text: We planned our holiday very carefully., vi: Chúng tôi lên kế hoạch cho kỳ nghỉ rất cẩn thận., words: [ plan|v, holiday|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

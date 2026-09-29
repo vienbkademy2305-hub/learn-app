@@ -77,7 +77,7 @@ export function ContinueLink({ lessons }: { lessons: Array<{ slug: string; numbe
   if (!next) return null;
   const started = hydrated && Object.keys(state.lessons).length + Object.keys(state.learned).length > 0;
   return (
-    <Link href={`/lesson/${next.slug}`} className="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-sm hover:bg-brand-700">
+    <Link href={`/zh/lesson/${next.slug}`} className="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-sm hover:bg-brand-700">
       {started ? "Tiếp tục" : "Bắt đầu"}: Bài {next.number} · {next.title} →
     </Link>
   );
@@ -159,7 +159,7 @@ export function LessonSummaryPanel({
             </button>
           )}
           {next && (
-            <Link href={`/lesson/${next.slug}`} className="rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
+            <Link href={`/zh/lesson/${next.slug}`} className="rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
               Bài tiếp theo: {next.title} →
             </Link>
           )}
@@ -177,7 +177,7 @@ export function LessonSummaryPanel({
           <ul className="flex flex-wrap gap-2">
             {remaining.map((w) => (
               <li key={w.slug}>
-                <Link href={`/lesson/${slug}/word/${w.slug}`} className="inline-flex items-baseline gap-1.5 rounded-lg bg-white px-3 py-1.5 ring-1 ring-stone-200 hover:ring-brand-300">
+                <Link href={`/zh/lesson/${slug}/word/${w.slug}`} className="inline-flex items-baseline gap-1.5 rounded-lg bg-white px-3 py-1.5 ring-1 ring-stone-200 hover:ring-brand-300">
                   <span lang="zh-CN" className="font-han text-lg">{w.simplified}</span>
                   <span className="text-xs text-stone-500">{w.pinyin}</span>
                 </Link>

@@ -48,7 +48,7 @@ export function AccountPanel() {
           </div>
         </dl>
         <div className="mt-4 flex flex-wrap gap-2">
-          <Link href="/hsk/1" className="rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
+          <Link href="/" className="rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
             Tiếp tục học
           </Link>
           <button

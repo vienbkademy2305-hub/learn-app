@@ -1,0 +1,661 @@
+# Từ vựng chữ "c". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: curly|adj
+    headword: curly
+    pos: adj
+    ipa:
+      uk: /ˈkɜː.li/
+      us: /ˈkɝː.li/
+    cefr: A2
+    meaning_vi:
+      - xoăn (tóc)
+    collocations:
+      - curly hair
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: confident|adj
+    headword: confident
+    pos: adj
+    forms:
+      comparative: more confident
+    ipa:
+      uk: /ˈkɒn.fɪ.dənt/
+      us: /ˈkɑːn.fə.dənt/
+    stress: CON-fi-dent
+    cefr: B1
+    meaning_vi:
+      - tự tin
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confident, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confident, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: chair|n
+    headword: chair
+    pos: n
+    ipa:
+      uk: /tʃeə/
+      us: /tʃer/
+    cefr: A1
+    meaning_vi:
+      - cái ghế
+    topics:
+      - home
+      - furniture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chair, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chair, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chair, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cook|v
+    headword: cook
+    pos: v
+    ipa:
+      uk: /kʊk/
+      us: /kʊk/
+    cefr: A1
+    meaning_vi:
+      - nấu ăn
+    notes_vi:
+      - cook (v) = nấu; cook (n) = đầu bếp; cooker = cái bếp (dễ nhầm).
+    topics:
+      - daily-life
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cook, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cook, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cook, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: classroom|n
+    headword: classroom
+    pos: n
+    ipa:
+      uk: /ˈklɑːs.ruːm/
+      us: /ˈklæs.ruːm/
+    cefr: A1
+    meaning_vi:
+      - lớp học (phòng học)
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classroom, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classroom, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classroom, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: classmate|n
+    headword: classmate
+    pos: n
+    ipa:
+      uk: /ˈklɑːs.meɪt/
+      us: /ˈklæs.meɪt/
+    cefr: null
+    meaning_vi:
+      - bạn cùng lớp
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classmate, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classmate, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cloudy|adj
+    headword: cloudy
+    pos: adj
+    ipa:
+      uk: /ˈklaʊ.di/
+      us: /ˈklaʊ.di/
+    cefr: null
+    meaning_vi:
+      - nhiều mây
+      - âm u
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cloudy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cloudy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: company|n
+    headword: company
+    pos: n
+    forms:
+      plural: companies
+    ipa:
+      uk: /ˈkʌm.pə.ni/
+      us: /ˈkʌm.pə.ni/
+    stress: COM-pa-ny
+    cefr: A1
+    meaning_vi:
+      - công ty
+    collocations:
+      - work for a company
+    notes_vi:
+      - Nói work for a company (làm cho công ty), không nói *work at company*.
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/company, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/company, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/company, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: colleague|n
+    headword: colleague
+    pos: n
+    ipa:
+      uk: /ˈkɒl.iːɡ/
+      us: /ˈkɑː.liːɡ/
+    stress: COL-league
+    cefr: A2
+    meaning_vi:
+      - đồng nghiệp
+    notes_vi:
+      - "Đọc 2 âm tiết: KOL-iːg, -gue câm."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colleague, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colleague, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colleague, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: customer|n
+    headword: customer
+    pos: n
+    ipa:
+      uk: /ˈkʌs.tə.mə/
+      us: /ˈkʌs.tə.mɚ/
+    cefr: A1
+    meaning_vi:
+      - khách hàng
+    topics:
+      - work
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/customer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/customer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/customer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cough|n
+    headword: cough
+    pos: n
+    ipa:
+      uk: /kɒf/
+      us: /kɑːf/
+    cefr: null
+    meaning_vi:
+      - ho
+      - cơn ho
+    collocations:
+      - have a cough
+      - a bad cough
+    notes_vi:
+      - "gh đọc /f/: cough /kɒf/."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cough_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cough_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cold|n
+    headword: cold
+    pos: n
+    ipa:
+      uk: /kəʊld/
+      us: /koʊld/
+    cefr: A1
+    meaning_vi:
+      - cảm lạnh
+    collocations:
+      - have a cold
+      - catch a cold
+    notes_vi:
+      - "Là danh từ ở nghĩa này, cần a: I have a cold."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cold_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cold_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cold_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: chicken|n
+    headword: chicken
+    pos: n
+    ipa:
+      uk: /ˈtʃɪk.ɪn/
+      us: /ˈtʃɪk.ɪn/
+    cefr: A1
+    meaning_vi:
+      - con gà (đếm được)
+      - thịt gà (không đếm được)
+    notes_vi:
+      - a chicken = một con gà; some chicken = một ít thịt gà.
+    topics:
+      - food
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chicken, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chicken, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chicken, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cheese|n
+    headword: cheese
+    pos: n
+    ipa:
+      uk: /tʃiːz/
+      us: /tʃiːz/
+    cefr: A1
+    meaning_vi:
+      - phô mai
+    notes_vi:
+      - "Không đếm được: a slice of cheese."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheese, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheese, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheese, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cheap|adj
+    headword: cheap
+    pos: adj
+    forms:
+      comparative: cheaper
+      superlative: cheapest
+    ipa:
+      uk: /tʃiːp/
+      us: /tʃiːp/
+    cefr: A1
+    meaning_vi:
+      - rẻ
+    notes_vi:
+      - "/iː/ dài: cheap khác chip."
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheap, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheap, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheap, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cash|n
+    headword: cash
+    pos: n
+    ipa:
+      uk: /kæʃ/
+      us: /kæʃ/
+    cefr: A2
+    meaning_vi:
+      - tiền mặt
+    collocations:
+      - pay in cash
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cash, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cash, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cash, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: credit-card|phr-n
+    headword: credit card
+    pos: phr-n
+    ipa:
+      uk: /ˈkred.ɪt ˌkɑːd/
+      us: /ˈkred.ɪt ˌkɑːrd/
+    cefr: null
+    meaning_vi:
+      - thẻ tín dụng
+    collocations:
+      - pay by credit card
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/credit-card, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/credit-card, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cost|v
+    headword: cost
+    pos: v
+    forms:
+      past: cost
+      pp: cost
+    ipa:
+      uk: /kɒst/
+      us: /kɑːst/
+    cefr: A1
+    meaning_vi:
+      - có giá
+      - tốn
+    notes_vi:
+      - How much does it cost? = It costs 50,000 dong. Quá khứ vẫn là cost.
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cost_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cost_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cost_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: change|n
+    headword: change
+    pos: n
+    ipa:
+      uk: /tʃeɪndʒ/
+      us: /tʃeɪndʒ/
+    cefr: A1
+    meaning_vi:
+      - tiền thừa
+      - tiền lẻ
+      - sự thay đổi
+    notes_vi:
+      - "Nghĩa tiền thừa là không đếm được: Here is your change."
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/change_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/change_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/change_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: crowded|adj
+    headword: crowded
+    pos: adj
+    ipa:
+      uk: /ˈkraʊ.dɪd/
+      us: /ˈkraʊ.dɪd/
+    cefr: A2
+    meaning_vi:
+      - đông đúc
+      - chật người
+    notes_vi:
+      - "Đuôi -ed sau d đọc /ɪd/: CROW-did."
+    topics:
+      - transport
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crowded, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crowded, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crowded, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: convenient|adj
+    headword: convenient
+    pos: adj
+    forms:
+      comparative: more convenient
+    ipa:
+      uk: /kənˈviː.ni.ənt/
+      us: /kənˈviː.ni.ənt/
+    stress: con-VE-ni-ent
+    cefr: B1
+    meaning_vi:
+      - tiện lợi
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convenient, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convenient, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convenient, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: commute|v
+    headword: commute
+    pos: v
+    ipa:
+      uk: /kəˈmjuːt/
+      us: /kəˈmjuːt/
+    cefr: null
+    meaning_vi:
+      - đi lại hằng ngày (giữa nhà và nơi làm)
+    notes_vi:
+      - "Hay gặp trong IELTS Speaking Part 1: How do you commute to work?"
+    topics:
+      - transport
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commute, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commute, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: career|n
+    headword: career
+    pos: n
+    ipa:
+      uk: /kəˈrɪə/
+      us: /kəˈrɪr/
+    stress: ca-REER
+    cefr: A1
+    meaning_vi:
+      - sự nghiệp
+    notes_vi:
+      - "Trọng âm âm 2: ca-REER (khác Korea)."
+    topics:
+      - plans
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/career, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/career, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/career, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: collect|v
+    headword: collect
+    pos: v
+    ipa:
+      uk: /kəˈlekt/
+      us: /kəˈlekt/
+    cefr: A2
+    meaning_vi:
+      - sưu tầm
+      - thu thập
+    collocations:
+      - collect stamps
+      - collect coins
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/collect, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/collect, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/collect, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: camping|n
+    headword: camping
+    pos: n
+    ipa:
+      uk: /ˈkæm.pɪŋ/
+      us: /ˈkæm.pɪŋ/
+    cefr: A2
+    meaning_vi:
+      - cắm trại
+    collocations:
+      - go camping
+    topics:
+      - hobbies
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/camping, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/camping, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/camping, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: chess|n
+    headword: chess
+    pos: n
+    ipa:
+      uk: /tʃes/
+      us: /tʃes/
+    cefr: null
+    meaning_vi:
+      - cờ vua
+    collocations:
+      - play chess
+    notes_vi:
+      - "Không có mạo từ: play chess (không nói *play the chess*)."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chess, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chess, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: concert|n
+    headword: concert
+    pos: n
+    ipa:
+      uk: /ˈkɒn.sət/
+      us: /ˈkɑːn.sɚt/
+    stress: CON-cert
+    cefr: A1
+    meaning_vi:
+      - buổi hòa nhạc
+      - buổi biểu diễn ca nhạc
+    collocations:
+      - go to a concert
+    topics:
+      - hobbies
+      - music
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/concert, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/concert, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/concert, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: club|n
+    headword: club
+    pos: n
+    ipa:
+      uk: /klʌb/
+      us: /klʌb/
+    cefr: A1
+    meaning_vi:
+      - câu lạc bộ
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/club, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/club, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/club, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: confused|adj
+    headword: confused
+    pos: adj
+    ipa:
+      uk: /kənˈfjuːzd/
+      us: /kənˈfjuːzd/
+    cefr: B1
+    meaning_vi:
+      - bối rối
+      - không hiểu
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confused, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confused, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confused, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: confusing|adj
+    headword: confusing
+    pos: adj
+    ipa:
+      uk: /kənˈfjuː.zɪŋ/
+      us: /kənˈfjuː.zɪŋ/
+    cefr: B2
+    meaning_vi:
+      - khó hiểu
+      - gây rối
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-29, field: ipa.us }
+    status: draft

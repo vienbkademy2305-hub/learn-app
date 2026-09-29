@@ -1,0 +1,48 @@
+# Từ vựng chữ "k". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: kind|adj
+    headword: kind
+    pos: adj
+    forms:
+      comparative: kinder
+    ipa:
+      uk: /kaɪnd/
+      us: /kaɪnd/
+    cefr: B1
+    meaning_vi:
+      - tốt bụng
+    collocations:
+      - kind to someone
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kind_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kind_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kind_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: kitchen|n
+    headword: kitchen
+    pos: n
+    ipa:
+      uk: /ˈkɪtʃ.ən/
+      us: /ˈkɪtʃ.ən/
+    stress: KIT-chen
+    cefr: A1
+    meaning_vi:
+      - nhà bếp
+    notes_vi:
+      - "Đừng nhầm với chicken (con gà): KIT-chen vs CHI-cken."
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kitchen, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/kitchen, checked: 2026-09-29, field: ipa.us }
+    status: draft

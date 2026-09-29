@@ -1,0 +1,229 @@
+# Buổi 15 — Kế hoạch & dự định. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-15-ke-hoach-du-dinh
+number: 15
+stage: 1
+title_vi: Kế hoạch & dự định
+focus:
+  grammar: Tương lai đơn (will) vs be going to
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - plan|v
+      - future|n
+      - decide|v
+      - promise|v
+      - hope|v
+      - goal|n
+      - save|v
+      - move|v
+      - graduate|v
+      - career|n
+      - tomorrow|adv
+      - tonight|adv
+      - soon|adv
+      - next|det
+      - probably|adv
+      - definitely|adv
+      - maybe|adv
+  - type: pronunciation
+    notes:
+      - sound: snd-ou
+        text_vi: "/əʊ/ trong going, won't, goal, hope, go: bắt đầu từ /ə/ rồi tròn môi về /ʊ/. Anh-Mỹ đọc /oʊ/."
+      - sound: snd-ai
+        text_vi: "/aɪ/ trong I'll, time, tonight, decide, find: mở miệng rộng /a/ rồi trượt lên /ɪ/."
+      - text_vi: "I'll /aɪl/, you'll /juːl/, she'll /ʃiːl/: dạng rút gọn luôn dùng trong văn nói — nhớ âm /l/ cuối."
+      - text_vi: "won't /wəʊnt/ ≠ want /wɒnt/: 'I won't go' (tôi sẽ không đi) và 'I want to go' (tôi muốn đi) — nghe nhầm là đổi hẳn nghĩa."
+      - text_vi: going to trong văn nói nhanh thường thành gonna /ˈɡə.nə/ — nghe hiểu được, nhưng khi viết IELTS phải viết going to.
+  - type: grammar
+    items:
+      - en-g1-15
+  - type: examples
+    items:
+      - b15-001
+      - b15-002
+      - b15-003
+      - b15-004
+      - b15-005
+      - b15-006
+      - b15-007
+      - b15-008
+  - type: dialogue
+    title_vi: Kế hoạch sau khi tốt nghiệp
+    lines:
+      - speaker: A
+        text: You're going to graduate next month. What are your plans?
+        vi: Tháng sau cậu tốt nghiệp rồi. Cậu có kế hoạch gì chưa?
+      - speaker: B
+        text: I'm going to look for a job in Ho Chi Minh City.
+        vi: Mình định tìm việc ở TP Hồ Chí Minh.
+      - speaker: A
+        text: Really? Are you going to move there?
+        vi: Thật à? Cậu sẽ chuyển vào đó à?
+      - speaker: B
+        text: Yes. I'm meeting a company there next Tuesday.
+        vi: Ừ. Thứ Ba tuần sau mình có hẹn với một công ty trong đó.
+      - speaker: A
+        text: That's great! I think you'll get the job.
+        vi: Tuyệt quá! Mình nghĩ cậu sẽ được nhận.
+      - speaker: B
+        text: I hope so. My goal is to save money and study abroad.
+        vi: Mong là vậy. Mục tiêu của mình là tiết kiệm tiền rồi đi du học.
+      - speaker: A
+        text: You don't know anyone in the city. I'll give you my cousin's number.
+        vi: Cậu chưa quen ai ở đó. Để mình cho cậu số của anh họ mình.
+      - speaker: B
+        text: Thanks! I promise I'll call him when I arrive.
+        vi: Cảm ơn nhé! Mình hứa sẽ gọi cho anh ấy khi mình đến nơi.
+  - type: exercises
+    items:
+      - id: b15-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn will hay be going to cho phù hợp tình huống.
+        questions:
+          - q: "A: We don't have any milk. — B: Oh, I ___ buy some."
+            options:
+              - will
+              - am going to
+              - going to
+              - will to
+            answer: a
+            explain_vi: Quyết định ngay lúc nói → will.
+          - q: I ___ visit my grandparents next weekend. I bought the tickets yesterday.
+            options:
+              - will
+              - am going to
+              - going
+              - will to
+            answer: b
+            explain_vi: Đã có kế hoạch (mua vé rồi) → be going to.
+          - q: Look at those black clouds! It ___ rain.
+            options:
+              - will
+              - is going to
+              - going to
+              - rains
+            answer: b
+            explain_vi: Có dấu hiệu rõ → be going to.
+          - q: I think Vietnam ___ win the match.
+            options:
+              - is going
+              - will
+              - going to
+              - wins to
+            answer: b
+          - q: Don't worry. I ___ tell anyone your secret.
+            options:
+              - won't
+              - am not going
+              - don't
+              - will not to
+            answer: a
+            explain_vi: Lời hứa → will/won't.
+      - id: b15-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Điền dạng đúng (be going to / will / hiện tại tiếp diễn) của động từ trong ngoặc.
+        questions:
+          - q: We (move) ___ to Da Nang next month. We found a house already.
+            answer: are going to move
+            accept:
+              - "'re going to move"
+              - are moving
+          - q: It's hot in here. I (open) ___ the window.
+            answer: "'ll open"
+            accept:
+              - will open
+          - q: I (meet) ___ my teacher at 3 p.m. tomorrow.
+            answer: am meeting
+            accept:
+              - "'m meeting"
+              - am going to meet
+          - q: She (not / study) ___ abroad next year. She wants to work first.
+            answer: isn't going to study
+            accept:
+              - is not going to study
+          - q: I promise I (help) ___ you with your homework.
+            answer: will help
+            accept:
+              - "'ll help"
+      - id: b15-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp.
+        bank:
+          - goal
+          - graduate
+          - save
+          - career
+          - decide
+          - promise
+        questions:
+          - q: My ___ is to speak English fluently.
+            answer: goal
+          - q: I want to ___ money to buy a motorbike.
+            answer: save
+          - q: She is going to ___ from university in June.
+            answer: graduate
+          - q: He wants a long ___ in medicine.
+            answer: career
+          - q: I can't ___ between these two jobs.
+            answer: decide
+          - q: I ___ I'll be on time.
+            answer: promise
+      - id: b15-x4
+        bank_no: 18
+        kind: completion
+        instructions_vi: Đọc tin nhắn và điền KHÔNG QUÁ HAI TỪ hoặc MỘT CON SỐ vào mỗi chỗ trống.
+        max_words: 2
+        passage: Hi Minh! Here are my plans for next week. On Monday I'm meeting my new manager at 9 a.m. I'm going to start my new job on Tuesday. On Friday evening, we're having a party at my apartment — it's on the eighth floor. I'll probably cook some Vietnamese food. My sister is coming too. Can you bring some drinks? See you soon! — Hoa
+        questions:
+          - q: Hoa is meeting her manager at ___ on Monday.
+            answer: 9 a.m.
+            accept:
+              - "9"
+              - 9 am
+              - nine
+          - q: Her new job starts on ___.
+            answer: Tuesday
+          - q: The party is on ___ evening.
+            answer: Friday
+          - q: Hoa's apartment is on the ___ floor.
+            answer: eighth
+            accept:
+              - 8th
+          - q: Minh should bring some ___.
+            answer: drinks
+      - id: b15-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: Next year I going to finish university. I will to look for a job in a big company. My sister is going to moves to Hanoi, so maybe I will lives with her. My parents think I will to be a good teacher.
+        errors:
+          - wrong: I going to finish
+            right: I'm going to finish
+            why: Thiếu am trước going to.
+          - wrong: I will to look
+            right: I will look
+            why: Sau will không có to.
+          - wrong: going to moves
+            right: going to move
+            why: going to + V nguyên mẫu.
+          - wrong: I will lives
+            right: I will live
+            why: Sau will dùng nguyên mẫu.
+          - wrong: I will to be
+            right: I will be
+            why: Sau will không có to.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 90–120 từ về kế hoạch của bạn trong năm tới: bạn định làm gì (be going to), bạn nghĩ điều gì sẽ xảy ra (will), và mục tiêu học tiếng Anh của bạn."
+    prompt_en: What are your plans for next year?
+    words:
+      min: 90
+      max: 120
+    minutes: 25

@@ -1,0 +1,52 @@
+# Từ vựng chữ "v". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: vegetable|n
+    headword: vegetable
+    pos: n
+    forms:
+      plural: vegetables
+    ipa:
+      uk: /ˈvedʒ.tə.bəl/
+      us: /ˈvedʒ.tə.bəl/
+    stress: VEG-ta-ble
+    cefr: A1
+    meaning_vi:
+      - rau
+      - rau củ
+    notes_vi:
+      - Đọc 3 âm tiết VEG-tơ-bơl (không đọc ve-ge-ta-ble).
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vegetable, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vegetable, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vegetable, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: visit|v
+    headword: visit
+    pos: v
+    forms:
+      past: visited
+    ipa:
+      uk: /ˈvɪz.ɪt/
+      us: /ˈvɪz.ɪt/
+    stress: VI-sit
+    cefr: A1
+    meaning_vi:
+      - thăm
+      - tham quan
+    notes_vi:
+      - "visited đọc /ɪd/ vì tận cùng /t/: VI-si-tid."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-29, field: ipa.us }
+    status: draft

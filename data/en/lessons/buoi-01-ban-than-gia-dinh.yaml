@@ -1,0 +1,136 @@
+# Buổi 1 — chuyển từ nhat-ky-hoc-tap/tieng-anh/buoi-01.md (đã dạy 2026-08-04). BẢN NHÁP chờ duyệt.
+# Đã thay thông tin cá nhân thật (tên, nghề) bằng thông tin chung.
+slug: buoi-01-ban-than-gia-dinh
+number: 1
+stage: 1
+title_vi: Bản thân & gia đình
+focus: { grammar: "Hiện tại đơn, động từ to be", skill: null }
+target_band: "4.0-5.0"
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - full-name|phr-n
+      - date-of-birth|phr-n
+      - hometown|n
+      - nationality|n
+      - address|n
+      - marital-status|phr-n
+      - single|adj
+      - married|adj
+      - parent|n
+      - sibling|n
+      - elder-brother|phr-n
+      - younger-brother|phr-n
+      - elder-sister|phr-n
+      - younger-sister|phr-n
+      - husband|n
+      - wife|n
+      - son|n
+      - daughter|n
+      - grandparent|n
+      - live-with|phr-v
+      - work-as|phr-v
+
+  - type: pronunciation
+    notes:
+      - { word: hometown|n, text_vi: "Trọng âm rơi vào âm 1: HOME-town." }
+      - { word: nationality|n, text_vi: "Trọng âm rơi vào âm 3: na-tio-NA-li-ty." }
+      - { word: married|adj, text_vi: "Chỉ 2 âm tiết MAR-ried; đuôi -ed đọc /d/ nối liền, không tách thành 3 âm tiết." }
+      - { word: parent|n, text_vi: "Đọc rõ -s cuối ở parents, siblings, grandparents (lỗi nuốt âm cuối từ Buổi 0)." }
+
+  - type: grammar
+    items: [en-g1-01]
+
+  - type: examples
+    items: [b01-001, b01-002, b01-003, b01-004, b01-005, b01-006, b01-007, b01-008]
+
+  - type: dialogue
+    title_vi: Làm quen
+    lines:
+      - { speaker: A, text: "Hi, what's your name?", vi: "Chào bạn, bạn tên là gì?" }
+      - { speaker: B, text: "My name is Lan. Nice to meet you.", vi: "Mình tên Lan. Rất vui được gặp bạn." }
+      - { speaker: A, text: "Nice to meet you too. Where are you from?", vi: "Mình cũng rất vui được gặp bạn. Bạn đến từ đâu?" }
+      - { speaker: B, text: "I'm from Da Nang. What about you?", vi: "Mình đến từ Đà Nẵng. Còn bạn?" }
+      - { speaker: A, text: "I'm from Hanoi. Are you married?", vi: "Mình ở Hà Nội. Bạn đã lập gia đình chưa?" }
+      - { speaker: B, text: "No, I'm single. I live with my parents and my younger brother.", vi: "Chưa, mình độc thân. Mình sống với bố mẹ và em trai." }
+      - { speaker: A, text: "That's nice. What does your father do?", vi: "Hay quá. Bố bạn làm nghề gì?" }
+      - { speaker: B, text: "He's an engineer, and my mother is a teacher.", vi: "Bố mình là kỹ sư, còn mẹ mình là giáo viên." }
+
+  - type: exercises
+    items:
+      - id: b01-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank: [single, married, siblings, hometown, nationality, grandparents]
+        questions:
+          - { q: "She doesn't have a husband. She is ___.", answer: single }
+          - { q: "He has a wife. He is ___.", answer: married }
+          - { q: "My brother and sister are my ___.", answer: siblings, explain_vi: "Hai người → số nhiều, nhớ -s." }
+          - { q: "I was born in Hue. That is my ___.", answer: hometown }
+          - { q: "I am Vietnamese. That is my ___.", answer: nationality }
+          - { q: "My parents' parents are my ___.", answer: grandparents }
+
+      - id: b01-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia đúng dạng động từ trong ngoặc.
+        questions:
+          - { q: "My mother (be) ___ a doctor.", answer: is }
+          - { q: "She (work) ___ at a hospital every day.", answer: works }
+          - { q: "I (be) ___ twenty-six years old.", answer: am }
+          - { q: "My brother (live) ___ in Ho Chi Minh City.", answer: lives }
+          - { q: "They (be) ___ my grandparents.", answer: are }
+          - { q: "He (love) ___ his family very much.", answer: loves }
+          - { q: "We (be) ___ a big family.", answer: are }
+          - { q: "My sister (study) ___ at university.", answer: studies, explain_vi: "Phụ âm + y → bỏ y, thêm -ies." }
+
+      - id: b01-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "She ___ a nurse.", options: [am, is, are, be], answer: b }
+          - { q: "We ___ students.", options: [am, is, are, been], answer: c }
+          - { q: "My grandparents ___ old.", options: [is, am, are, be], answer: c }
+          - { q: "He ___ married.", options: [am, is, are, be], answer: b }
+          - { q: "I ___ single.", options: [is, are, am, be], answer: c }
+
+      - id: b01-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 6 lỗi. Tìm và sửa.
+        text: "My name Lan. I twenty-five years old. I am single and I live with my parents. My father a teacher and my mother work at a hospital. My brother study at university. He very tall and handsome."
+        errors:
+          - { wrong: "My name Lan", right: "My name is Lan", why: "Thiếu to be." }
+          - { wrong: "I twenty-five years old", right: "I am twenty-five years old", why: "Thiếu to be." }
+          - { wrong: "My father a teacher", right: "My father is a teacher", why: "Thiếu to be." }
+          - { wrong: "my mother work", right: "my mother works", why: "Ngôi 3 số ít thêm -s." }
+          - { wrong: "My brother study", right: "My brother studies", why: "Ngôi 3 số ít; phụ âm + y → -ies." }
+          - { wrong: "He very tall", right: "He is very tall", why: "Thiếu to be (lỗi ở giữa đoạn, dễ bỏ sót)." }
+
+      - id: b01-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến)."
+        passage: >-
+          Hi, my name is Minh. I am thirty years old and I am from Nha Trang. I am married, and I have one daughter.
+          My wife's name is Huong, and she is a teacher. I work as an engineer at a construction company. We live
+          with my parents in a small house near the beach. My daughter is five years old, and she loves swimming.
+          On weekends, we usually visit my wife's parents in the countryside.
+        questions:
+          - { q: "Minh is single.", answer: F, explain_vi: "Minh đã kết hôn." }
+          - { q: "Minh's wife is a teacher.", answer: T }
+          - { q: "Minh's daughter goes to school.", answer: NG, explain_vi: "Bài không nói gì về việc đi học — không nhắc đến thì là NG, không phải F." }
+          - { q: "Minh has two children.", answer: F, explain_vi: "Minh chỉ có một con gái." }
+          - { q: "Minh's parents live in the countryside.", answer: F, explain_vi: "Bố mẹ Minh sống cùng gia đình Minh gần biển; ở quê là bố mẹ VỢ. Đọc kỹ chủ thể." }
+          - { q: "Minh's daughter doesn't like swimming.", answer: F }
+
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–80 từ giới thiệu bản thân và gia đình bạn: tên, tuổi, quê, bạn sống với ai, mỗi người làm nghề gì."
+    prompt_en: "Write 60–80 words about yourself and your family."
+    words: { min: 60, max: 80 }
+    minutes: 15

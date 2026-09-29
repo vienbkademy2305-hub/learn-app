@@ -1,0 +1,335 @@
+# Từ vựng chữ "d". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: date-of-birth|phr-n
+    headword: date of birth
+    pos: phr-n
+    ipa: { uk: "/ˌdeɪt əv ˈbɜːθ/", us: "/ˌdeɪt əv ˈbɝːθ/" }
+    cefr: null
+    meaning_vi: [ ngày sinh ]
+    notes_vi: [ "Âm cuối /θ/ của birth: đặt đầu lưỡi giữa hai răng, không đọc thành /t/ hay /s/." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: daughter|n
+    headword: daughter
+    pos: n
+    ipa: { uk: "/ˈdɔː.tə/", us: "/ˈdɑː.t̬ɚ/" }
+    cefr: A1
+    meaning_vi: [ con gái ]
+    notes_vi: [ "Chữ gh câm: DAU-ter." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/daughter, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/daughter, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/daughter, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: date|n
+    headword: date
+    pos: n
+    ipa:
+      uk: /deɪt/
+      us: /deɪt/
+    cefr: A1
+    meaning_vi:
+      - ngày (tháng)
+    notes_vi:
+      - "Hỏi ngày: What's the date today? Hỏi thứ: What day is it today?"
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/date, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/date, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/date, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: do-the-housework|colloc
+    headword: do the housework
+    pos: colloc
+    ipa:
+      uk: /duː ðə ˈhaʊs.wɜːk/
+      us: /duː ðə ˈhaʊs.wɝːk/
+    cefr: null
+    meaning_vi:
+      - làm việc nhà
+    notes_vi:
+      - "Dùng do, không dùng make: do the housework, do the washing-up."
+    topics:
+      - daily-life
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: degree|n
+    headword: degree
+    pos: n
+    ipa:
+      uk: /dɪˈɡriː/
+      us: /dɪˈɡriː/
+    stress: de-GREE
+    cefr: A2
+    meaning_vi:
+      - độ (nhiệt độ)
+    collocations:
+      - 35 degrees
+    notes_vi:
+      - "Số nhiều có -s: thirty degrees."
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/degree, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/degree, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/degree, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: different-from|colloc
+    headword: different from
+    pos: colloc
+    ipa:
+      uk: /ˈdɪf.ər.ənt frəm/
+      us: /ˈdɪf.ɚ.ənt frəm/
+    cefr: null
+    meaning_vi:
+      - khác với
+    notes_vi:
+      - "Trái nghĩa: similar to. Không nói *different with*."
+    topics:
+      - comparison
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: diet|n
+    headword: diet
+    pos: n
+    ipa:
+      uk: /ˈdaɪ.ət/
+      us: /ˈdaɪ.ət/
+    cefr: A1
+    meaning_vi:
+      - chế độ ăn
+    collocations:
+      - a healthy diet
+      - go on a diet
+    notes_vi:
+      - diet không chỉ là 'ăn kiêng' — a healthy diet = chế độ ăn lành mạnh.
+    topics:
+      - health
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/diet, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/diet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/diet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: delicious|adj
+    headword: delicious
+    pos: adj
+    ipa:
+      uk: /dɪˈlɪʃ.əs/
+      us: /dɪˈlɪʃ.əs/
+    stress: de-LI-cious
+    cefr: A1
+    meaning_vi:
+      - ngon
+    notes_vi:
+      - Đã mang nghĩa rất ngon nên không nói *very delicious*; dùng really delicious hoặc chỉ delicious.
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/delicious, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/delicious, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/delicious, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: discount|n
+    headword: discount
+    pos: n
+    ipa:
+      uk: /ˈdɪs.kaʊnt/
+      us: /ˈdɪs.kaʊnt/
+    stress: DIS-count
+    cefr: B1
+    meaning_vi:
+      - sự giảm giá
+    collocations:
+      - a 20% discount
+      - get a discount
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discount, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discount, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discount, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: driver|n
+    headword: driver
+    pos: n
+    ipa:
+      uk: /ˈdraɪ.və/
+      us: /ˈdraɪ.vɚ/
+    cefr: A1
+    meaning_vi:
+      - tài xế
+      - người lái xe
+    topics:
+      - transport
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/driver, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/driver, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/driver, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: decide|v
+    headword: decide
+    pos: v
+    forms:
+      past: decided
+    ipa:
+      uk: /dɪˈsaɪd/
+      us: /dɪˈsaɪd/
+    cefr: A1
+    meaning_vi:
+      - quyết định
+    collocations:
+      - decide to do something
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decide, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decide, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decide, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: definitely|adv
+    headword: definitely
+    pos: adv
+    ipa:
+      uk: /ˈdef.ɪ.nət.li/
+      us: /ˈdef.ən.ət.li/
+    stress: DE-fi-nite-ly
+    cefr: A2
+    meaning_vi:
+      - chắc chắn
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/definitely, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/definitely, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: disappointed|adj
+    headword: disappointed
+    pos: adj
+    ipa:
+      uk: /ˌdɪs.əˈpɔɪn.tɪd/
+      us: /ˌdɪs.əˈpɔɪn.t̬ɪd/
+    stress: dis-ap-POINT-ed
+    cefr: B1
+    meaning_vi:
+      - thất vọng (cảm thấy)
+    collocations:
+      - disappointed with something/someone
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disappointed, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disappointed, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disappointed, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: depend-on|phr-v
+    headword: depend on
+    pos: phr-v
+    ipa:
+      uk: /dɪˈpend ɒn/
+      us: /dɪˈpend ɑːn/
+    cefr: null
+    meaning_vi:
+      - phụ thuộc vào
+    notes_vi:
+      - "It depends on … (không dùng *depends of*). Trả lời ngắn: It depends."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: discover|v
+    headword: discover
+    pos: v
+    ipa:
+      uk: /dɪˈskʌv.ə/
+      us: /dɪˈskʌv.ɚ/
+    cefr: A2
+    meaning_vi:
+      - khám phá
+      - phát hiện
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discover, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discover, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discover, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: design|v
+    headword: design
+    pos: v
+    ipa:
+      uk: /dɪˈzaɪn/
+      us: /dɪˈzaɪn/
+    cefr: A1
+    meaning_vi:
+      - thiết kế
+    notes_vi:
+      - "g câm, s đọc /z/: di-ZAIN."
+    topics:
+      - industry
+      - art
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-29, field: ipa.us }
+    status: draft

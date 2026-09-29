@@ -16,7 +16,7 @@ export function LoginForm() {
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
-    if (account.status === "signed-in") router.replace("/hsk/1");
+    if (account.status === "signed-in") router.replace("/");
   }, [account.status, router]);
 
   if (account.status === "disabled") {
@@ -56,7 +56,7 @@ export function LoginForm() {
       </button>
       <p className="text-center text-sm text-stone-500">
         Chưa có tài khoản? Hãy nhờ quản trị viên tạo giúp. Bạn vẫn có thể{" "}
-        <Link href="/hsk/1" className="font-medium text-brand-700 hover:underline">
+        <Link href="/" className="font-medium text-brand-700 hover:underline">
           học không cần đăng nhập
         </Link>{" "}
         — tiến độ khi đó chỉ lưu trên trình duyệt này.

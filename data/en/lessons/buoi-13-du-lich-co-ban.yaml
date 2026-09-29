@@ -1,0 +1,201 @@
+# Buổi 13 — Du lịch cơ bản. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-13-du-lich-co-ban
+number: 13
+stage: 1
+title_vi: Du lịch cơ bản
+focus:
+  grammar: Quá khứ đơn (động từ có quy tắc) + was/were
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - trip|n
+      - travel|v
+      - visit|v
+      - book|v
+      - hotel|n
+      - passport|n
+      - luggage|n
+      - tourist|n
+      - sightseeing|n
+      - beach|n
+      - museum|n
+      - arrive|v
+      - stay|v
+      - souvenir|n
+      - flight|n
+      - abroad|adv
+      - yesterday|adv
+      - ago|adv
+      - last|det
+  - type: pronunciation
+    notes:
+      - sound: snd-t
+        text_vi: "-ed đọc /t/ sau âm vô thanh p, k, f, s, sh, ch: booked /bʊkt/, walked, watched — chỉ 1 âm tiết."
+      - sound: snd-d
+        text_vi: "-ed đọc /d/ sau nguyên âm và âm hữu thanh: stayed /steɪd/, arrived, travelled."
+      - word: visit|v
+        text_vi: "-ed đọc /ɪd/ (thêm 1 âm tiết) chỉ sau t, d: visited /ˈvɪz.ɪ.tɪd/, needed, wanted."
+      - word: hotel|n
+        text_vi: "Trọng âm âm 2: ho-TEL; museum: mu-SE-um; souvenir: sou-ve-NIR."
+      - word: beach|n
+        text_vi: "beach /biːtʃ/ — kéo dài /iː/ (Buổi 0: /iː/ vs /ɪ/)."
+  - type: grammar
+    items:
+      - en-g1-13
+  - type: examples
+    items:
+      - b13-001
+      - b13-002
+      - b13-003
+      - b13-004
+      - b13-005
+      - b13-006
+      - b13-007
+      - b13-008
+  - type: dialogue
+    title_vi: Kể về chuyến đi
+    lines:
+      - speaker: A
+        text: Hi Lan! How was your trip to Da Nang?
+        vi: Chào Lan! Chuyến đi Đà Nẵng của bạn thế nào?
+      - speaker: B
+        text: It was great! We arrived on Friday and stayed for three days.
+        vi: Tuyệt lắm! Bọn mình đến hôm thứ Sáu và ở lại ba ngày.
+      - speaker: A
+        text: Where did you stay?
+        vi: Bạn ở đâu?
+      - speaker: B
+        text: We stayed at a hotel near My Khe beach. I booked it online.
+        vi: Bọn mình ở một khách sạn gần biển Mỹ Khê. Mình đặt trên mạng.
+      - speaker: A
+        text: Did you visit Ba Na Hills?
+        vi: Bạn có lên Bà Nà không?
+      - speaker: B
+        text: No, we didn't. It rained on Saturday, so we visited the museum.
+        vi: Không. Thứ Bảy trời mưa nên bọn mình đi bảo tàng.
+      - speaker: A
+        text: Were there many tourists?
+        vi: Có đông khách du lịch không?
+      - speaker: B
+        text: Yes, there were a lot of tourists. But the weather was lovely on Sunday.
+        vi: Có, rất đông. Nhưng Chủ nhật thời tiết đẹp lắm.
+  - type: exercises
+    items:
+      - id: b13-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở thì quá khứ đơn.
+        questions:
+          - q: We (stay) ___ at a small hotel.
+            answer: stayed
+          - q: I (study) ___ English last night.
+            answer: studied
+            explain_vi: Phụ âm + y → -ied.
+          - q: The bus (stop) ___ in front of the museum.
+            answer: stopped
+            explain_vi: Nhân đôi p.
+          - q: They (be) ___ very tired after the flight.
+            answer: were
+          - q: She (not / visit) ___ the beach.
+            answer: didn't visit
+            accept:
+              - did not visit
+          - q: My parents (travel) ___ to Japan two years ago.
+            answer: travelled
+            accept:
+              - traveled
+          - q: It (be) ___ cold in Sa Pa.
+            answer: was
+      - id: b13-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ you enjoy the trip?
+            options:
+              - Do
+              - Did
+              - Were
+              - Was
+            answer: b
+          - q: We arrived ___ Hue at 6 a.m.
+            options:
+              - to
+              - at
+              - in
+              - on
+            answer: c
+          - q: I visited my grandparents three days ___.
+            options:
+              - last
+              - ago
+              - before
+              - yesterday
+            answer: b
+          - q: The tourists ___ very happy.
+            options:
+              - was
+              - were
+              - did
+              - are be
+            answer: b
+          - q: She didn't ___ a souvenir.
+            options:
+              - bought
+              - buys
+              - buy
+              - buying
+            answer: c
+      - id: b13-x3
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: passport
+            right: a document you need to travel to another country
+          - left: luggage
+            right: the bags you take on a trip
+          - left: souvenir
+            right: something you buy to remember a place
+          - left: abroad
+            right: in or to another country
+          - left: flight
+            right: a journey on a plane
+      - id: b13-x4
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác. Chú ý đuôi -ed.
+        text: Last month we travelled to Hoi An. We stayed at a small hotel and visited the old town. We walked a lot and watched the lanterns at night.
+      - id: b13-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: Last week I travel to Nha Trang with my family. We arrived to the hotel at 10 p.m. The room was clean but we was very tired. The next day we visit the beach. Did you visited Nha Trang before?
+        errors:
+          - wrong: I travel to
+            right: I travelled to
+            why: Last week → quá khứ đơn.
+          - wrong: arrived to the hotel
+            right: arrived at the hotel
+            why: arrive at + địa điểm nhỏ.
+          - wrong: we was
+            right: we were
+            why: We → were.
+          - wrong: we visit the beach
+            right: we visited the beach
+            why: Quá khứ đơn.
+          - wrong: Did you visited
+            right: Did you visit
+            why: Sau did dùng nguyên mẫu.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 80–100 từ kể về một chuyến đi gần đây: đi đâu, khi nào, ở đâu, làm gì, thời tiết thế nào. Dùng ít nhất 6 động từ quá khứ có quy tắc."
+    prompt_en: Write about a recent trip.
+    words:
+      min: 80
+      max: 100
+    minutes: 20

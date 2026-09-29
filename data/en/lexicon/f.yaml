@@ -1,0 +1,552 @@
+# Từ vựng chữ "f". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: full-name|phr-n
+    headword: full name
+    pos: phr-n
+    ipa: { uk: "/ˌfʊl ˈneɪm/", us: "/ˌfʊl ˈneɪm/" }
+    cefr: null
+    meaning_vi: [ họ tên đầy đủ ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: friendly|adj
+    headword: friendly
+    pos: adj
+    forms:
+      comparative: friendlier
+    ipa:
+      uk: /ˈfrend.li/
+      us: /ˈfrend.li/
+    cefr: A1
+    meaning_vi:
+      - thân thiện
+    notes_vi:
+      - "Đuôi -ly nhưng là tính từ, không phải trạng từ: a friendly person."
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/friendly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/friendly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/friendly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: funny|adj
+    headword: funny
+    pos: adj
+    forms:
+      comparative: funnier
+      superlative: funniest
+    ipa:
+      uk: /ˈfʌn.i/
+      us: /ˈfʌn.i/
+    cefr: A1
+    meaning_vi:
+      - hài hước
+      - buồn cười
+    notes_vi:
+      - "funny = làm người khác cười; fun = vui (hoạt động): The party was fun."
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funny, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funny, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funny, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fridge|n
+    headword: fridge
+    pos: n
+    ipa:
+      uk: /frɪdʒ/
+      us: /frɪdʒ/
+    cefr: A2
+    meaning_vi:
+      - tủ lạnh
+    notes_vi:
+      - "Dạng đầy đủ: refrigerator."
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fridge, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fridge, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fridge, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: floor|n
+    headword: floor
+    pos: n
+    ipa:
+      uk: /flɔː/
+      us: /flɔːr/
+    cefr: A1
+    meaning_vi:
+      - tầng (nhà)
+      - sàn nhà
+    collocations:
+      - on the second floor
+      - on the floor
+    notes_vi:
+      - "Tầng dùng on: on the third floor."
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/floor, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/floor, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/floor, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: first|num
+    headword: first
+    pos: num
+    ipa:
+      uk: /fɜːst/
+      us: /fɝːst/
+    cefr: A2
+    meaning_vi:
+      - thứ nhất
+      - đầu tiên
+    notes_vi:
+      - "Viết tắt 1st. Số thứ tự dùng cho ngày: the 1st of May."
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first_3, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first_3, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first_3, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fifth|num
+    headword: fifth
+    pos: num
+    ipa:
+      uk: /fɪfθ/
+      us: /fɪfθ/
+    cefr: A1
+    meaning_vi:
+      - thứ năm
+    notes_vi:
+      - "Viết tắt 5th. Chính tả: five → fifth (không phải *fiveth*)."
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fifth, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fifth, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fifth, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: foreign-language|phr-n
+    headword: foreign language
+    pos: phr-n
+    ipa:
+      uk: /ˌfɒr.ən ˈlæŋ.ɡwɪdʒ/
+      us: /ˌfɔːr.ən ˈlæŋ.ɡwɪdʒ/
+    cefr: null
+    meaning_vi:
+      - ngoại ngữ
+    notes_vi:
+      - "foreign: chữ g câm, đọc FOR-ơn."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: fail|v
+    headword: fail
+    pos: v
+    ipa:
+      uk: /feɪl/
+      us: /feɪl/
+    cefr: A2
+    meaning_vi:
+      - trượt
+      - thi hỏng
+    collocations:
+      - fail an exam
+    notes_vi:
+      - Âm /l/ cuối phải có, không đọc thành 'phây'.
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fail, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fail, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fail, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: freezing|adj
+    headword: freezing
+    pos: adj
+    ipa:
+      uk: /ˈfriː.zɪŋ/
+      us: /ˈfriː.zɪŋ/
+    cefr: null
+    meaning_vi:
+      - lạnh cóng
+      - rét buốt
+    notes_vi:
+      - "Mạnh hơn cold: It's freezing today!"
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freezing, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freezing, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: forecast|n
+    headword: forecast
+    pos: n
+    ipa:
+      uk: /ˈfɔː.kɑːst/
+      us: /ˈfɔːr.kæst/
+    stress: FORE-cast
+    cefr: B2
+    meaning_vi:
+      - dự báo
+    collocations:
+      - weather forecast
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forecast, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forecast, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forecast, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: famous-for|colloc
+    headword: famous for
+    pos: colloc
+    ipa:
+      uk: /ˈfeɪ.məs fə/
+      us: /ˈfeɪ.məs fɚ/
+    cefr: null
+    meaning_vi:
+      - nổi tiếng về
+    collocations:
+      - Da Lat is famous for its cool weather
+    topics:
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: full-time|adj
+    headword: full-time
+    pos: adj
+    ipa:
+      uk: /ˌfʊlˈtaɪm/
+      us: /ˌfʊlˈtaɪm/
+    cefr: B2
+    meaning_vi:
+      - toàn thời gian
+    collocations:
+      - a full-time job
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/full-time_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/full-time_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/full-time_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fever|n
+    headword: fever
+    pos: n
+    ipa:
+      uk: /ˈfiː.və/
+      us: /ˈfiː.vɚ/
+    cefr: B2
+    meaning_vi:
+      - sốt
+    collocations:
+      - have a fever
+      - a high fever
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fever, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fever, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fever, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: flu|n
+    headword: flu
+    pos: n
+    ipa:
+      uk: /fluː/
+      us: /fluː/
+    cefr: A2
+    meaning_vi:
+      - cúm
+    collocations:
+      - have the flu
+    notes_vi:
+      - "Thường đi với the: have the flu."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flu, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flu, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flu, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fish|n
+    headword: fish
+    pos: n
+    forms:
+      plural: fish
+    ipa:
+      uk: /fɪʃ/
+      us: /fɪʃ/
+    cefr: A1
+    meaning_vi:
+      - con cá
+      - món cá
+    notes_vi:
+      - "Số nhiều thường vẫn là fish: two fish. Món cá là không đếm được: I like fish."
+    topics:
+      - food
+      - animals
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fish, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fish, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fish, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fruit|n
+    headword: fruit
+    pos: n
+    ipa:
+      uk: /fruːt/
+      us: /fruːt/
+    cefr: A1
+    meaning_vi:
+      - hoa quả
+      - trái cây
+    notes_vi:
+      - "Thường không đếm được: I eat a lot of fruit. Đọc 1 âm tiết /fruːt/, chữ i câm."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fruit, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fruit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fruit, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: flight|n
+    headword: flight
+    pos: n
+    ipa:
+      uk: /flaɪt/
+      us: /flaɪt/
+    cefr: A1
+    meaning_vi:
+      - chuyến bay
+    collocations:
+      - book a flight
+      - a long flight
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flight, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flight, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flight, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: find|v
+    headword: find
+    pos: v
+    forms:
+      past: found
+      pp: found
+    ipa:
+      uk: /faɪnd/
+      us: /faɪnd/
+    cefr: A1
+    meaning_vi:
+      - tìm thấy
+    notes_vi:
+      - find = tìm THẤY; look for = đang tìm.
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/find, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/find, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/find, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fall|v
+    headword: fall
+    pos: v
+    forms:
+      past: fell
+      pp: fallen
+    ipa:
+      uk: /fɔːl/
+      us: /fɑːl/
+    cefr: A1
+    meaning_vi:
+      - ngã
+      - rơi
+    collocations:
+      - fall off a bike
+      - fall down
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fall, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fall, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fall, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: forget|v
+    headword: forget
+    pos: v
+    forms:
+      past: forgot
+      pp: forgotten
+    ipa:
+      uk: /fəˈɡet/
+      us: /fɚˈɡet/
+    cefr: A1
+    meaning_vi:
+      - quên
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forget, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forget, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forget, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: finally|adv
+    headword: finally
+    pos: adv
+    ipa:
+      uk: /ˈfaɪ.nəl.i/
+      us: /ˈfaɪ.nəl.i/
+    cefr: A2
+    meaning_vi:
+      - cuối cùng
+    topics:
+      - story
+      - linking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finally, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finally, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finally, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: future|n
+    headword: future
+    pos: n
+    ipa:
+      uk: /ˈfjuː.tʃə/
+      us: /ˈfjuː.tʃɚ/
+    cefr: A1
+    meaning_vi:
+      - tương lai
+    collocations:
+      - in the future
+      - the near future
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/future, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/future, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/future, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: free-time|phr-n
+    headword: free time
+    pos: phr-n
+    ipa:
+      uk: /ˌfriː ˈtaɪm/
+      us: /ˌfriː ˈtaɪm/
+    cefr: null
+    meaning_vi:
+      - thời gian rảnh
+    collocations:
+      - in my free time
+    notes_vi:
+      - "Không đếm được: in my free time (không nói *in my free times*)."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: factory|n
+    headword: factory
+    pos: n
+    forms:
+      plural: factories
+    ipa:
+      uk: /ˈfæk.tər.i/
+      us: /ˈfæk.tɚ.i/
+    cefr: A2
+    meaning_vi:
+      - nhà máy
+    topics:
+      - industry
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/factory, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/factory, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/factory, checked: 2026-09-29, field: ipa.us }
+    status: draft

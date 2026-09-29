@@ -36,7 +36,16 @@ let started = false;
 let pushTimer: ReturnType<typeof setTimeout> | null = null;
 let pending: { state: ProgressState; updatedAt: string } | null = null;
 
-function supabase(): SupabaseClient {
+/** Other progress stores (English: src/features/en/sync.ts) follow the signed-in account through this. */
+const accountListeners = new Set<(uid: string | null) => void>();
+export function onAccountChange(listener: (uid: string | null) => void): () => void {
+  accountListeners.add(listener);
+  if (state.status === "signed-in") listener(state.uid);
+  else if (state.status === "signed-out") listener(null);
+  return () => accountListeners.delete(listener);
+}
+
+export function supabase(): SupabaseClient {
   client ??= createClient(SUPABASE_URL, SUPABASE_KEY, { auth: { persistSession: true, autoRefreshToken: true, storageKey: "chinese-app:auth" } });
   return client;
 }
@@ -114,6 +123,7 @@ function signedIn(user: User) {
     schedulePush(uid);
   });
   void syncNow(uid);
+  for (const l of accountListeners) l(uid);
 }
 
 function signedOut() {
@@ -123,6 +133,7 @@ function signedOut() {
   pending = null;
   setProgressScope(null);
   set({ status: "signed-out" });
+  for (const l of accountListeners) l(null);
 }
 
 /** Called once from the root layout: restores the session and keeps it in sync. */

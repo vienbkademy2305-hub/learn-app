@@ -1,0 +1,86 @@
+# Từ vựng chữ "u". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: under|prep
+    headword: under
+    pos: prep
+    ipa:
+      uk: /ˈʌn.də/
+      us: /ˈʌn.dɚ/
+    cefr: A1
+    meaning_vi:
+      - ở dưới
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/under, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/under, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/under, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: usually|adv
+    headword: usually
+    pos: adv
+    ipa:
+      uk: /ˈjuː.ʒu.ə.li/
+      us: /ˈjuː.ʒu.ə.li/
+    stress: U-su-al-ly
+    cefr: A1
+    meaning_vi:
+      - thường thường (~80%)
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/usually, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/usually, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/usually, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: uniform|n
+    headword: uniform
+    pos: n
+    ipa:
+      uk: /ˈjuː.nɪ.fɔːm/
+      us: /ˈjuː.nə.fɔːrm/
+    cefr: A2
+    meaning_vi:
+      - đồng phục
+    collocations:
+      - school uniform
+      - wear a uniform
+    notes_vi:
+      - Bắt đầu bằng âm /j/ nên dùng a uniform (không phải an).
+    topics:
+      - school
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uniform, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uniform, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: unemployed|adj
+    headword: unemployed
+    pos: adj
+    ipa:
+      uk: /ˌʌn.ɪmˈplɔɪd/
+      us: /ˌʌn.ɪmˈplɔɪd/
+    cefr: B1
+    meaning_vi:
+      - thất nghiệp
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-29, field: ipa.us }
+    status: draft

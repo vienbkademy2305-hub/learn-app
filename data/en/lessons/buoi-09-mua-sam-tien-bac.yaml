@@ -1,0 +1,221 @@
+# Buổi 9 — Mua sắm & tiền bạc. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-09-mua-sam-tien-bac
+number: 9
+stage: 1
+title_vi: Mua sắm & tiền bạc
+focus:
+  grammar: So sánh nhất, not as … as (ôn so sánh hơn)
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - price|n
+      - cheap|adj
+      - expensive|adj
+      - discount|n
+      - sale|n
+      - receipt|n
+      - cash|n
+      - credit-card|phr-n
+      - pay-for|phr-v
+      - cost|v
+      - afford|v
+      - market|n
+      - supermarket|n
+      - shopping-centre|phr-n
+      - size|n
+      - try-on|phr-v
+      - change|n
+      - wallet|n
+      - bargain|n
+      - brand|n
+  - type: pronunciation
+    notes:
+      - sound: snd-uh
+        text_vi: "/ʌ/ ngắn như 'ă': much, bus, money, colour. Chữ o trong money, colour cũng đọc /ʌ/."
+      - sound: snd-aa
+        text_vi: "/ɑː/ dài: market, bargain, card. Giọng Anh-Anh không đọc r."
+      - sound: snd-schwa
+        text_vi: "the cheapest: -est đọc nhẹ /ɪst/; as … as trong câu đọc yếu /əz … əz/."
+      - word: receipt|n
+        text_vi: "Chữ p câm: ri-SEET."
+  - type: grammar
+    items:
+      - en-g1-09
+  - type: examples
+    items:
+      - b09-001
+      - b09-002
+      - b09-003
+      - b09-004
+      - b09-005
+      - b09-006
+      - b09-007
+      - b09-008
+  - type: dialogue
+    title_vi: Mua áo khoác
+    lines:
+      - speaker: A
+        text: Excuse me, how much is this jacket?
+        vi: Xin lỗi, chiếc áo khoác này bao nhiêu tiền?
+      - speaker: B
+        text: It's five hundred thousand dong. It's on sale today.
+        vi: Năm trăm nghìn đồng. Hôm nay đang giảm giá.
+      - speaker: A
+        text: Hmm. Do you have a cheaper one?
+        vi: Hừm. Có cái nào rẻ hơn không ạ?
+      - speaker: B
+        text: Yes, this one is three hundred thousand, but it's not as warm as the first one.
+        vi: Có, cái này ba trăm nghìn, nhưng không ấm bằng cái lúc nãy.
+      - speaker: A
+        text: Can I try it on?
+        vi: Tôi mặc thử được không?
+      - speaker: B
+        text: Of course. What size are you?
+        vi: Tất nhiên rồi. Chị mặc cỡ nào?
+      - speaker: A
+        text: Medium. Oh, this is the most comfortable jacket in the shop! Can I pay by card?
+        vi: Cỡ vừa. Ồ, đây là cái áo thoải mái nhất cửa hàng! Tôi trả bằng thẻ được không?
+      - speaker: B
+        text: Sure. Here is your receipt.
+        vi: Được chứ. Hóa đơn của chị đây.
+  - type: exercises
+    items:
+      - id: b09-x1
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: receipt
+            right: a piece of paper that shows you paid for something
+          - left: discount
+            right: money taken off the usual price
+          - left: bargain
+            right: something you buy for a very good, low price
+          - left: wallet
+            right: a small case for keeping money and cards
+          - left: afford
+            right: to have enough money to buy something
+      - id: b09-x2
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng so sánh nhất của từ trong ngoặc.
+        questions:
+          - q: This is ___ shop in the city. (cheap)
+            base: cheap
+            answer: the cheapest
+          - q: That's ___ phone in the store. (expensive)
+            base: expensive
+            answer: the most expensive
+          - q: Saturday is ___ day at the market. (busy)
+            base: busy
+            answer: the busiest
+            explain_vi: y → iest.
+          - q: It's ___ shopping centre in Vietnam. (big)
+            base: big
+            answer: the biggest
+            explain_vi: Nhân đôi g.
+          - q: This is ___ price of the year! (good)
+            base: good
+            answer: the best
+          - q: It was ___ day of my life. (bad)
+            base: bad
+            answer: the worst
+          - q: This is ___ brand in my country. (popular)
+            base: popular
+            answer: the most popular
+      - id: b09-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu dùng not as … as, giữ nguyên nghĩa.
+        questions:
+          - q: The market is cheaper than the supermarket. → The supermarket ___
+            answer: is not as cheap as the market.
+            accept:
+              - isn't as cheap as the market.
+          - q: My bag is bigger than your bag. → Your bag ___
+            answer: is not as big as my bag.
+            accept:
+              - isn't as big as my bag.
+              - isn't as big as mine.
+              - is not as big as mine.
+          - q: This jacket is warmer than that one. → That jacket ___
+            answer: is not as warm as this one.
+            accept:
+              - isn't as warm as this one.
+          - q: Credit cards are more convenient than cash. → Cash ___
+            answer: is not as convenient as credit cards.
+            accept:
+              - isn't as convenient as credit cards.
+      - id: b09-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: It's the ___ market in town.
+            options:
+              - cheaper
+              - cheapest
+              - most cheap
+              - more cheap
+            answer: b
+          - q: She is the tallest girl ___ her class.
+            options:
+              - of
+              - in
+              - than
+              - at
+            answer: b
+          - q: This shirt isn't as nice ___ that one.
+            options:
+              - than
+              - as
+              - like
+              - from
+            answer: b
+          - q: How much ___ these shoes cost?
+            options:
+              - is
+              - does
+              - do
+              - are
+            answer: c
+          - q: Can I pay ___ credit card?
+            options:
+              - with
+              - in
+              - by
+              - on
+            answer: c
+      - id: b09-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: There are three places to shop in my town. The market is the oldest and the cheapest, but it is very crowded in the morning, and you can only pay in cash. The supermarket is not as cheap as the market, but it is cleaner and you can pay by card. The new shopping centre is the most expensive place. It has famous brands, a cinema and a lot of restaurants. My mother prefers the market, but my sister goes to the shopping centre every weekend.
+        questions:
+          - q: The supermarket is cheaper than the market.
+            answer: F
+            explain_vi: not as cheap as = không rẻ bằng → chợ rẻ hơn.
+          - q: You can use a card at the supermarket.
+            answer: T
+          - q: The shopping centre is the newest place.
+            answer: T
+            explain_vi: Bài nói the new shopping centre, còn chợ là the oldest.
+          - q: The shopping centre has a supermarket inside.
+            answer: NG
+          - q: The writer's sister likes the market best.
+            answer: F
+            explain_vi: Người thích chợ là MẸ; chị gái đi trung tâm thương mại. Đọc kỹ chủ thể.
+          - q: The market is busy in the morning.
+            answer: T
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 60–90 từ so sánh ba nơi mua sắm ở nơi bạn sống. Dùng ít nhất 2 câu so sánh nhất và 1 câu not as … as.
+    prompt_en: Compare three places to shop in your town.
+    words:
+      min: 60
+      max: 90
+    minutes: 15

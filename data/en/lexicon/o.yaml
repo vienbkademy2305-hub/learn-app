@@ -1,0 +1,175 @@
+# Từ vựng chữ "o". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: overweight|adj
+    headword: overweight
+    pos: adj
+    ipa:
+      uk: /ˌəʊ.vəˈweɪt/
+      us: /ˌoʊ.vɚˈweɪt/
+    stress: o-ver-WEIGHT
+    cefr: null
+    meaning_vi:
+      - thừa cân
+    notes_vi:
+      - Lịch sự hơn fat khi nói về người khác.
+    topics:
+      - appearance
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overweight, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overweight, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: outgoing|adj
+    headword: outgoing
+    pos: adj
+    forms:
+      comparative: more outgoing
+    ipa:
+      uk: /ˌaʊtˈɡəʊ.ɪŋ/
+      us: /ˈaʊtˌɡoʊ.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - hướng ngoại
+      - cởi mở
+    notes_vi:
+      - Trái nghĩa với shy.
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/outgoing, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: opposite|prep
+    headword: opposite
+    pos: prep
+    ipa:
+      uk: /ˈɒp.ə.zɪt/
+      us: /ˈɑː.pə.zɪt/
+    stress: OP-po-site
+    cefr: A1
+    meaning_vi:
+      - đối diện
+    notes_vi:
+      - "Không thêm of hay to: opposite the bank (không nói *opposite to the bank* trong văn nói thường)."
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opposite_3, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opposite_3, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opposite_3, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: o'clock|adv
+    headword: o'clock
+    pos: adv
+    ipa:
+      uk: /əˈklɒk/
+      us: /əˈklɑːk/
+    cefr: null
+    meaning_vi:
+      - giờ đúng
+    notes_vi:
+      - "Chỉ dùng với giờ chẵn: seven o'clock (không nói *seven thirty o'clock*)."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/o'clock, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/o'clock, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: often|adv
+    headword: often
+    pos: adv
+    ipa:
+      uk: /ˈɒf.ən/
+      us: /ˈɑː.fən/
+    cefr: A1
+    meaning_vi:
+      - thường
+      - hay (~60%)
+    notes_vi:
+      - "t thường câm: /ˈɒf.ən/ (một số người đọc /ˈɒf.tən/, cũng được chấp nhận)."
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/often, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/often, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/often, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: office|n
+    headword: office
+    pos: n
+    ipa:
+      uk: /ˈɒf.ɪs/
+      us: /ˈɑː.fɪs/
+    cefr: A1
+    meaning_vi:
+      - văn phòng
+    collocations:
+      - in the office
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/office, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/office, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/office, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: occupation|n
+    headword: occupation
+    pos: n
+    ipa:
+      uk: /ˌɒk.jəˈpeɪ.ʃən/
+      us: /ˌɑː.kjəˈpeɪ.ʃən/
+    stress: oc-cu-PA-tion
+    cefr: B2
+    meaning_vi:
+      - nghề nghiệp (dùng trên giấy tờ)
+    notes_vi:
+      - Trang trọng, hay gặp trên biểu mẫu; khi nói chuyện dùng job.
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/occupation, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/occupation, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/occupation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: on-foot|idiom
+    headword: on foot
+    pos: idiom
+    ipa:
+      uk: /ɒn ˈfʊt/
+      us: /ɑːn ˈfʊt/
+    cefr: null
+    meaning_vi:
+      - đi bộ
+    notes_vi:
+      - "Nói on foot, không nói *by foot*. Tự nhiên hơn: I walk to school."
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

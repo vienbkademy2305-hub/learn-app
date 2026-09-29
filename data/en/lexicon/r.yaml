@@ -1,0 +1,252 @@
+# Từ vựng chữ "r". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: routine|n
+    headword: routine
+    pos: n
+    ipa:
+      uk: /ruːˈtiːn/
+      us: /ruːˈtiːn/
+    stress: rou-TINE
+    cefr: A1
+    meaning_vi:
+      - thói quen hằng ngày
+      - lịch sinh hoạt
+    collocations:
+      - daily routine
+      - morning routine
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/routine, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/routine, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/routine, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: relax|v
+    headword: relax
+    pos: v
+    forms:
+      3sg: relaxes
+    ipa:
+      uk: /rɪˈlæks/
+      us: /rɪˈlæks/
+    stress: re-LAX
+    cefr: A1
+    meaning_vi:
+      - thư giãn
+      - nghỉ ngơi
+    topics:
+      - daily-life
+      - free-time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relax, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relax, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relax, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rarely|adv
+    headword: rarely
+    pos: adv
+    ipa:
+      uk: /ˈreə.li/
+      us: /ˈrer.li/
+    cefr: B1
+    meaning_vi:
+      - hiếm khi (~10%)
+    notes_vi:
+      - "Đã mang nghĩa phủ định — không dùng thêm not: I rarely cook (không nói *I don't rarely cook*)."
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rarely, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rarely, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rarely, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: revise|v
+    headword: revise
+    pos: v
+    forms:
+      ing: revising
+    ipa:
+      uk: /rɪˈvaɪz/
+      us: /rɪˈvaɪz/
+    cefr: B1
+    meaning_vi:
+      - ôn tập
+      - ôn thi (Anh-Anh)
+    collocations:
+      - revise for an exam
+    notes_vi:
+      - "Anh-Mỹ nói review. Bỏ e trước -ing: revising."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revise, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revise, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revise, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rainy|adj
+    headword: rainy
+    pos: adj
+    ipa:
+      uk: /ˈreɪ.ni/
+      us: /ˈreɪ.ni/
+    cefr: null
+    meaning_vi:
+      - có mưa
+      - mưa nhiều
+    collocations:
+      - rainy season
+      - a rainy day
+    notes_vi:
+      - "Nói trời đang mưa: It's raining (động từ), không nói *It's rain*."
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rainy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rainy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rest|n
+    headword: rest
+    pos: n
+    ipa:
+      uk: /rest/
+      us: /rest/
+    cefr: A2
+    meaning_vi:
+      - sự nghỉ ngơi
+    collocations:
+      - get some rest
+      - have a rest
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rest, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rest, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rest, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rice|n
+    headword: rice
+    pos: n
+    ipa:
+      uk: /raɪs/
+      us: /raɪs/
+    cefr: A1
+    meaning_vi:
+      - gạo
+      - cơm
+    notes_vi:
+      - "Không đếm được: không nói *a rice* hay *rices*. Một bát cơm = a bowl of rice."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rice, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rice, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rice, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: receipt|n
+    headword: receipt
+    pos: n
+    ipa:
+      uk: /rɪˈsiːt/
+      us: /rɪˈsiːt/
+    cefr: B1
+    meaning_vi:
+      - hóa đơn
+      - biên lai
+    notes_vi:
+      - "Chữ p câm: ri-SEET."
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receipt, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receipt, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receipt, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rush-hour|phr-n
+    headword: rush hour
+    pos: phr-n
+    ipa:
+      uk: /ˈrʌʃ ˌaʊə/
+      us: /ˈrʌʃ ˌaʊr/
+    cefr: null
+    meaning_vi:
+      - giờ cao điểm
+    collocations:
+      - at rush hour
+      - in the rush hour
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rush-hour, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: relaxed|adj
+    headword: relaxed
+    pos: adj
+    ipa:
+      uk: /rɪˈlækst/
+      us: /rɪˈlækst/
+    cefr: B1
+    meaning_vi:
+      - thoải mái
+      - thư thái
+    notes_vi:
+      - "-ed sau /s/ (âm x = /ks/) đọc /t/: ri-LAKST."
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relaxed, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relaxed, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relaxed, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: recycle|v
+    headword: recycle
+    pos: v
+    ipa:
+      uk: /ˌriːˈsaɪ.kəl/
+      us: /ˌriːˈsaɪ.kəl/
+    stress: re-CY-cle
+    cefr: A2
+    meaning_vi:
+      - tái chế
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -1,0 +1,123 @@
+# Từ vựng chữ "n". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: nationality|n
+    headword: nationality
+    pos: n
+    ipa: { uk: "/ˌnæʃ.ənˈæl.ə.ti/", us: "/ˌnæʃ.ənˈæl.ə.t̬i/" }
+    cefr: null
+    meaning_vi: [ quốc tịch ]
+    stress: na-tio-NA-li-ty
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+    status: draft
+  - id: next-to|prep
+    headword: next to
+    pos: prep
+    ipa:
+      uk: /ˈnekst tə/
+      us: /ˈnekst tə/
+    cefr: A1
+    meaning_vi:
+      - bên cạnh
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next-to, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next-to, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next-to, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: never|adv
+    headword: never
+    pos: adv
+    ipa:
+      uk: /ˈnev.ə/
+      us: /ˈnev.ɚ/
+    cefr: A1
+    meaning_vi:
+      - không bao giờ (0%)
+    notes_vi:
+      - "Không dùng với not/don't: I never drink coffee."
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/never, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/never, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/never, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nurse|n
+    headword: nurse
+    pos: n
+    ipa:
+      uk: /nɜːs/
+      us: /nɝːs/
+    cefr: A1
+    meaning_vi:
+      - y tá
+    topics:
+      - work
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nurse, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nurse, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nurse, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: next|det
+    headword: next
+    pos: det
+    ipa:
+      uk: /nekst/
+      us: /nekst/
+    cefr: A1
+    meaning_vi:
+      - tới
+      - sau (tuần/tháng/năm sau)
+    collocations:
+      - next week
+      - next year
+      - next month
+    notes_vi:
+      - "Không dùng giới từ trước next: next Monday (không nói *on next Monday*)."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nervous|adj
+    headword: nervous
+    pos: adj
+    ipa:
+      uk: /ˈnɜː.vəs/
+      us: /ˈnɝː.vəs/
+    cefr: A2
+    meaning_vi:
+      - lo lắng
+      - hồi hộp
+    collocations:
+      - nervous about something
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-29, field: ipa.us }
+    status: draft

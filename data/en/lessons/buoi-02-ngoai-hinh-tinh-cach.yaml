@@ -1,0 +1,216 @@
+# Buổi 2 — Ngoại hình & tính cách. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-02-ngoai-hinh-tinh-cach
+number: 2
+stage: 1
+title_vi: Ngoại hình & tính cách
+focus:
+  grammar: Tính từ miêu tả, so sánh hơn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - appearance|n
+      - personality|n
+      - tall|adj
+      - short|adj
+      - slim|adj
+      - overweight|adj
+      - good-looking|adj
+      - handsome|adj
+      - beautiful|adj
+      - curly|adj
+      - straight|adj
+      - friendly|adj
+      - kind|adj
+      - shy|adj
+      - outgoing|adj
+      - lazy|adj
+      - hard-working|adj
+      - funny|adj
+      - patient|adj
+      - confident|adj
+      - look-like|phr-v
+  - type: pronunciation
+    notes:
+      - sound: snd-dh
+        text_vi: "/ð/ trong the, than, they, mother, father: đặt đầu lưỡi giữa hai răng, rung dây thanh. Không đọc thành /d/ hay /z/."
+      - sound: snd-schwa
+        text_vi: "Đuôi -er của so sánh hơn đọc /ə/ rất nhẹ: taller /ˈtɔː.lə/, kinder /ˈkaɪn.də/. Than trong câu đọc yếu /ðən/."
+      - word: handsome|adj
+        text_vi: "Chữ d câm: HAN-sơm, không đọc 'hand-some'."
+      - word: personality|n
+        text_vi: "Trọng âm âm 3: per-so-NA-li-ty (giống nationality ở Buổi 1)."
+      - word: straight|adj
+        text_vi: "Âm cuối /t/ phải bật nhẹ ra: straight hair, không nuốt thành 'stray'."
+  - type: grammar
+    items:
+      - en-g1-02
+  - type: examples
+    items:
+      - b02-001
+      - b02-002
+      - b02-003
+      - b02-004
+      - b02-005
+      - b02-006
+      - b02-007
+      - b02-008
+  - type: dialogue
+    title_vi: Tả người thân
+    lines:
+      - speaker: A
+        text: Is this a photo of your family?
+        vi: Đây là ảnh gia đình bạn à?
+      - speaker: B
+        text: Yes. This is my elder sister, Mai. She is a nurse.
+        vi: Ừ. Đây là chị gái mình, Mai. Chị ấy là y tá.
+      - speaker: A
+        text: She's beautiful. What is she like?
+        vi: Chị ấy xinh quá. Tính chị ấy thế nào?
+      - speaker: B
+        text: She is kind and very patient, but she is a little shy.
+        vi: Chị ấy tốt bụng và rất kiên nhẫn, nhưng hơi nhút nhát.
+      - speaker: A
+        text: And who is the tall man next to her?
+        vi: Còn người đàn ông cao bên cạnh là ai?
+      - speaker: B
+        text: That's my brother. He is taller than my father now.
+        vi: Đó là anh trai mình. Giờ anh ấy cao hơn cả bố rồi.
+      - speaker: A
+        text: You look like him!
+        vi: Bạn trông giống anh ấy ghê!
+      - speaker: B
+        text: Maybe, but he is more outgoing than me. He is very funny.
+        vi: Có lẽ vậy, nhưng anh ấy hướng ngoại hơn mình. Anh ấy rất hài hước.
+  - type: exercises
+    items:
+      - id: b02-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - shy
+          - lazy
+          - curly
+          - patient
+          - outgoing
+          - hard-working
+        questions:
+          - q: She doesn't like talking to new people. She is ___.
+            answer: shy
+          - q: He never does his homework. He is ___.
+            answer: lazy
+          - q: My hair is not straight. It is ___.
+            answer: curly
+          - q: My teacher never gets angry. She is very ___.
+            answer: patient
+          - q: Tom loves parties and meeting people. He is ___.
+            answer: outgoing
+          - q: My father works twelve hours a day. He is ___.
+            answer: hard-working
+      - id: b02-x2
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: confident
+            right: sure about yourself and your abilities
+          - left: friendly
+            right: nice and easy to talk to
+          - left: slim
+            right: thin in a nice way
+          - left: funny
+            right: making people laugh
+          - left: appearance
+            right: the way a person looks
+      - id: b02-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Viết dạng so sánh hơn của tính từ trong ngoặc.
+        questions:
+          - q: My brother is (tall) ___ than me.
+            answer: taller
+          - q: Mai is (slim) ___ than her sister.
+            answer: slimmer
+            explain_vi: 1 nguyên âm + 1 phụ âm cuối → nhân đôi m.
+          - q: Your joke is (funny) ___ than mine.
+            answer: funnier
+            explain_vi: Tận cùng -y → -ier.
+          - q: My mother is (patient) ___ than my father.
+            answer: more patient
+            explain_vi: Tính từ dài dùng more.
+          - q: This photo is (good) ___ than that one.
+            answer: better
+            explain_vi: "Bất quy tắc: good → better."
+          - q: Nam is (confident) ___ than he was last year.
+            answer: more confident
+      - id: b02-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: My sister is ___ than me.
+            options:
+              - more tall
+              - taller
+              - tallest
+              - more taller
+            answer: b
+          - q: What does your brother ___?
+            options:
+              - look
+              - looks like
+              - look like
+              - like
+            answer: c
+          - q: She has ___.
+            options:
+              - hair long
+              - long hair
+              - longs hair
+              - hair longs
+            answer: b
+            explain_vi: Tính từ đứng trước danh từ và không thêm -s.
+          - q: He is ___ than his friends.
+            options:
+              - more lazy
+              - lazyer
+              - lazier
+              - most lazy
+            answer: c
+          - q: My grandmother is very kind ___ children.
+            options:
+              - with
+              - to
+              - for
+              - at
+            answer: b
+      - id: b02-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 4 lỗi. Tìm và sửa.
+        text: My best friend is Hoa. She is more taller than me and she has hair black. She is very friendly and funny. She is more outgoing me. Her brother is handsome but he is lazyer than her.
+        errors:
+          - wrong: more taller
+            right: taller
+            why: Đã có -er thì bỏ more.
+          - wrong: hair black
+            right: black hair
+            why: Tính từ đứng trước danh từ.
+          - wrong: outgoing me
+            right: outgoing than me
+            why: Thiếu than.
+          - wrong: lazyer
+            right: lazier
+            why: Tận cùng -y → -ier.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–90 từ tả một người bạn thân: ngoại hình, tính cách, và so sánh người đó với bạn (dùng ít nhất 3 câu so sánh hơn)."
+    prompt_en: "Describe your best friend: appearance, personality, and how he or she is different from you."
+    words:
+      min: 60
+      max: 90
+    minutes: 15

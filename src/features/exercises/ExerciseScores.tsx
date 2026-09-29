@@ -21,7 +21,7 @@ export function ExerciseScoreRow({ lessonSlug, items }: { lessonSlug: string; it
   return (
     <div className="grid grid-cols-3 gap-2">
       {items.map((it) => (
-        <Link key={it.type} href={`/lesson/${lessonSlug}/exercises/${it.path}`} className="rounded-xl bg-stone-50 p-2 text-center text-sm ring-1 ring-stone-200 hover:ring-brand-300">
+        <Link key={it.type} href={`/zh/lesson/${lessonSlug}/exercises/${it.path}`} className="rounded-xl bg-stone-50 p-2 text-center text-sm ring-1 ring-stone-200 hover:ring-brand-300">
           <span className="block text-stone-600">
             {it.icon} {it.title}
           </span>

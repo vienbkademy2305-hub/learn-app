@@ -1,0 +1,15 @@
+# Câu xuất hiện lần đầu ở Buổi 3. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b03-001, text: There is a big sofa in the living room., vi: Trong phòng khách có một chiếc sofa lớn., words: [ sofa|n, living-room|phr-n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-002, text: There are two bedrooms in my apartment., vi: Căn hộ của tôi có hai phòng ngủ., words: [ bedroom|n, apartment|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-003, text: The fridge is next to the window., vi: Tủ lạnh ở cạnh cửa sổ., words: [ fridge|n, next-to|prep ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-004, text: "Is there a balcony? Yes, there is.", vi: Có ban công không? Có., words: [ balcony|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-005, text: The bathroom is between the kitchen and my bedroom., vi: Phòng tắm nằm giữa bếp và phòng ngủ của tôi., words: [ bathroom|n, between|prep, kitchen|n, bedroom|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-006, text: My cat sleeps under the bed., vi: Con mèo của tôi ngủ dưới gầm giường., words: [ under|prep ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-007, text: There isn't a garden behind our house., vi: Sau nhà chúng tôi không có vườn., words: [ behind|prep ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-008, text: My parents' bedroom is on the second floor., vi: Phòng ngủ của bố mẹ tôi ở tầng hai., words: [ floor|n, parent|n, bedroom|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-009, text: There are four chairs in the kitchen., vi: Trong bếp có bốn cái ghế., words: [ chair|n, kitchen|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-010, text: My wardrobe is opposite the door., vi: Tủ quần áo của tôi đối diện cửa ra vào., words: [ wardrobe|n, opposite|prep ], grammar: [ en-g1-03 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-011, text: There are a lot of books on the shelves., vi: Trên các kệ có rất nhiều sách., words: [ shelf|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-012, text: The stairs are very narrow in my grandparents' house., vi: Cầu thang nhà ông bà tôi rất hẹp., words: [ stairs|n, grandparent|n ], grammar: [ en-g1-03 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b03-013, text: There is a small table in front of the sofa., vi: Có một cái bàn nhỏ ở phía trước sofa., words: [ in-front-of|prep, sofa|n ], grammar: [ en-g1-03 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }

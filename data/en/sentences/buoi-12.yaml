@@ -1,0 +1,16 @@
+# Câu xuất hiện lần đầu ở Buổi 12. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b12-001, text: You have a fever. You should get some rest., vi: Bạn bị sốt rồi. Bạn nên nghỉ ngơi., words: [ fever|n, should|v, rest|n ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-002, text: You must take this medicine three times a day., vi: Bạn phải uống thuốc này ba lần một ngày., words: [ medicine|n ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-003, text: "My mother has to work on Saturday, so she can't come.", vi: Mẹ tôi phải làm việc vào thứ Bảy nên không đến được., words: [ have-to|v ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-004, text: You shouldn't drink cold water when you have a sore throat., vi: Bạn không nên uống nước lạnh khi bị đau họng., words: [ should|v, sore-throat|phr-n ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-005, text: You don't have to make an appointment at this pharmacy., vi: Bạn không cần đặt hẹn ở hiệu thuốc này., words: [ have-to|v, appointment|n, pharmacy|n ], grammar: [ en-g1-12 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-006, text: I have a headache and a bad cough., vi: Tôi bị đau đầu và ho nhiều., words: [ headache|n, cough|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-007, text: Eating vegetables is good for your health., vi: Ăn rau tốt cho sức khỏe., words: [ health|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-008, text: "My grandfather exercises every morning, so he is very healthy.", vi: Ông tôi tập thể dục mỗi sáng nên ông rất khỏe mạnh., words: [ exercise|v, healthy|adj, morning|n ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-009, text: "She is ill, so she doesn't go to work today.", vi: Cô ấy bị ốm nên hôm nay không đi làm., words: [ ill|adj, go-to-work|colloc ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-010, text: I have a stomachache after lunch., vi: Tôi bị đau bụng sau bữa trưa., words: [ stomachache|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-011, text: Many people catch a cold in winter., vi: Nhiều người bị cảm lạnh vào mùa đông., words: [ cold|n, winter|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-012, text: He has the flu and must stay at home., vi: Anh ấy bị cúm và phải ở nhà., words: [ flu|n ], grammar: [ en-g1-12 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-013, text: A healthy diet has a lot of fruit and vegetables., vi: Một chế độ ăn lành mạnh có nhiều rau quả., words: [ diet|n, healthy|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b12-014, text: My father often has back pain., vi: Bố tôi hay bị đau lưng., words: [ pain|n, often|adv ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

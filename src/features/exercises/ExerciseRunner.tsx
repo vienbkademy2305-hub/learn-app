@@ -16,7 +16,7 @@ export function ExerciseRunner<Q>({
   build,
   renderQuestion,
   emptyMessage = "Bài học này chưa đủ dữ liệu để tạo bài tập.",
-  back = { href: `/lesson/${lessonSlug}/exercises`, label: "Bài tập khác" },
+  back = { href: `/zh/lesson/${lessonSlug}/exercises`, label: "Bài tập khác" },
 }: {
   lessonSlug: string;
   /** scores are saved only when a type is given (practice rounds are not scored) */

@@ -1,0 +1,20 @@
+# Câu xuất hiện lần đầu ở Buổi 8. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b08-001, text: I eat rice every day., vi: Ngày nào tôi cũng ăn cơm., words: [ rice|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-002, text: There is some milk in the fridge., vi: Trong tủ lạnh có một ít sữa., words: [ milk|n, fridge|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-003, text: There aren't any eggs in the kitchen., vi: Trong bếp không còn quả trứng nào., words: [ egg|n, kitchen|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-004, text: Do we have any bread?, vi: Nhà mình còn bánh mì không?, words: [ bread|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-005, text: Would you like some juice?, vi: Bạn uống chút nước ép nhé?, words: [ juice|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-006, text: "I'd like a slice of cheese, please.", vi: Cho tôi một lát phô mai., words: [ slice|n, cheese|n ], grammar: [ en-g1-08 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-007, text: How much sugar do you put in your coffee?, vi: Bạn cho bao nhiêu đường vào cà phê?, words: [ sugar|n ], grammar: [ en-g1-08 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-008, text: Vietnamese people eat a lot of vegetables., vi: Người Việt ăn rất nhiều rau., words: [ vegetable|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-009, text: My mother is cooking chicken for dinner., vi: Mẹ tôi đang nấu thịt gà cho bữa tối., words: [ chicken|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-010, text: "I don't eat meat, but I love fish.", vi: "Tôi không ăn thịt, nhưng rất thích cá.", words: [ meat|n, fish|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-011, text: Beef noodle soup is very popular in Hanoi., vi: Phở bò rất được ưa chuộng ở Hà Nội., words: [ beef|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-012, text: Fruit is good for you., vi: Hoa quả tốt cho sức khỏe., words: [ fruit|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-013, text: Don't put much salt in the soup., vi: Đừng cho nhiều muối vào canh., words: [ salt|n ], grammar: [ en-g1-08 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-014, text: "Can I have a bottle of water, please?", vi: Cho tôi một chai nước nhé., words: [ bottle|n ], grammar: [ en-g1-08 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-015, text: I buy a packet of biscuits every week., vi: Tuần nào tôi cũng mua một gói bánh quy., words: [ packet|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-016, text: Children love sweet snacks., vi: Trẻ con rất thích đồ ăn vặt ngọt., words: [ snack|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-017, text: This pho is delicious!, vi: Bát phở này ngon quá!, words: [ delicious|adj ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b08-018, text: Thai food is spicier than Vietnamese food., vi: Đồ ăn Thái cay hơn đồ ăn Việt., words: [ spicy|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

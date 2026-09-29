@@ -1,0 +1,482 @@
+# Từ vựng chữ "h". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: hometown|n
+    headword: hometown
+    pos: n
+    ipa: { uk: "/ˈhəʊm.taʊn/", us: "/ˈhoʊm.taʊn/" }
+    cefr: null
+    meaning_vi: [ quê quán, quê nhà ]
+    stress: HOME-town
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: ipa }
+      - { source: ai-draft, field: meaning_vi }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/hometown, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: husband|n
+    headword: husband
+    pos: n
+    ipa: { uk: "/ˈhʌz.bənd/", us: "/ˈhʌz.bənd/" }
+    cefr: A1
+    meaning_vi: [ chồng ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/husband, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/husband, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/husband, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: handsome|adj
+    headword: handsome
+    pos: adj
+    ipa:
+      uk: /ˈhæn.səm/
+      us: /ˈhæn.səm/
+    stress: HAN-some
+    cefr: null
+    meaning_vi:
+      - đẹp trai
+    notes_vi:
+      - "Chữ d câm: đọc /ˈhæn.səm/."
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handsome, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handsome, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hard-working|adj
+    headword: hard-working
+    pos: adj
+    forms:
+      comparative: more hard-working
+    ipa:
+      uk: /ˌhɑːdˈwɜː.kɪŋ/
+      us: /ˌhɑːrdˈwɝː.kɪŋ/
+    cefr: null
+    meaning_vi:
+      - chăm chỉ
+    notes_vi:
+      - "Là tính từ ghép có gạch nối: a hard-working student."
+    topics:
+      - personality
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hard-working, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hard-working, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: half-past|colloc
+    headword: half past
+    pos: colloc
+    ipa:
+      uk: /ˌhɑːf ˈpɑːst/
+      us: /ˌhæf ˈpæst/
+    cefr: null
+    meaning_vi:
+      - rưỡi (hơn 30 phút)
+    collocations:
+      - half past seven
+    notes_vi:
+      - half past seven = 7:30 (không phải 6:30).
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: holiday|n
+    headword: holiday
+    pos: n
+    ipa:
+      uk: /ˈhɒl.ə.deɪ/
+      us: /ˈhɑː.lə.deɪ/
+    stress: HO-li-day
+    cefr: A1
+    meaning_vi:
+      - ngày lễ
+      - kỳ nghỉ
+    collocations:
+      - public holiday
+      - on holiday
+    topics:
+      - time
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/holiday, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/holiday, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/holiday, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: have-breakfast|colloc
+    headword: have breakfast
+    pos: colloc
+    ipa:
+      uk: /hæv ˈbrek.fəst/
+      us: /hæv ˈbrek.fəst/
+    cefr: null
+    meaning_vi:
+      - ăn sáng
+    notes_vi:
+      - "Không có a/the: have breakfast / lunch / dinner (không nói *eat the breakfast*)."
+    topics:
+      - daily-life
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: history|n
+    headword: history
+    pos: n
+    ipa:
+      uk: /ˈhɪs.tər.i/
+      us: /ˈhɪs.tɚ.i/
+    stress: HIS-to-ry
+    cefr: A1
+    meaning_vi:
+      - lịch sử
+      - môn sử
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/history, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/history, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: homework|n
+    headword: homework
+    pos: n
+    ipa:
+      uk: /ˈhəʊm.wɜːk/
+      us: /ˈhoʊm.wɝːk/
+    cefr: A1
+    meaning_vi:
+      - bài tập về nhà
+    collocations:
+      - do homework
+    notes_vi:
+      - "Không đếm được: không nói *a homework* hay *homeworks*. Dùng do homework, không dùng *make homework*."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/homework, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/homework, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/homework, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: humid|adj
+    headword: humid
+    pos: adj
+    ipa:
+      uk: /ˈhjuː.mɪd/
+      us: /ˈhjuː.mɪd/
+    cefr: null
+    meaning_vi:
+      - ẩm
+      - oi ẩm
+    notes_vi:
+      - Rất hợp để tả khí hậu miền Bắc mùa xuân hoặc Sài Gòn mùa mưa.
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/humid, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/humid, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: health|n
+    headword: health
+    pos: n
+    ipa:
+      uk: /helθ/
+      us: /helθ/
+    cefr: A1
+    meaning_vi:
+      - sức khỏe
+    collocations:
+      - good health
+      - mental health
+    notes_vi:
+      - "health (n) → healthy (adj): Exercise is good for your health."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/health, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/health, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/health, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: healthy|adj
+    headword: healthy
+    pos: adj
+    forms:
+      comparative: healthier
+    ipa:
+      uk: /ˈhel.θi/
+      us: /ˈhel.θi/
+    cefr: A1
+    meaning_vi:
+      - khỏe mạnh
+      - tốt cho sức khỏe
+    collocations:
+      - healthy food
+      - a healthy lifestyle
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: headache|n
+    headword: headache
+    pos: n
+    ipa:
+      uk: /ˈhed.eɪk/
+      us: /ˈhed.eɪk/
+    stress: HEAD-ache
+    cefr: A2
+    meaning_vi:
+      - đau đầu
+    notes_vi:
+      - "Dùng have a: I have a headache (không nói *I am headache*). ch đọc /k/."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headache, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headache, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headache, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: have-to|v
+    headword: have to
+    pos: v
+    forms:
+      3sg: has to
+    ipa:
+      uk: /ˈhæv tə/
+      us: /ˈhæv tə/
+    cefr: null
+    meaning_vi:
+      - phải (do hoàn cảnh, quy định)
+    notes_vi:
+      - "Chia theo ngôi: he has to. Phủ định: don't have to = không cần phải."
+    topics:
+      - grammar-words
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: hotel|n
+    headword: hotel
+    pos: n
+    ipa:
+      uk: /həʊˈtel/
+      us: /hoʊˈtel/
+    stress: ho-TEL
+    cefr: A1
+    meaning_vi:
+      - khách sạn
+    notes_vi:
+      - "Trọng âm âm 2: ho-TEL, không đọc HO-tel."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hotel, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hotel, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hotel, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: happen|v
+    headword: happen
+    pos: v
+    forms:
+      past: happened
+    ipa:
+      uk: /ˈhæp.ən/
+      us: /ˈhæp.ən/
+    cefr: A1
+    meaning_vi:
+      - xảy ra
+    notes_vi:
+      - "Không dùng bị động: What happened? (không nói *What was happened?*)."
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/happen, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/happen, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/happen, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hear|v
+    headword: hear
+    pos: v
+    forms:
+      past: heard
+      pp: heard
+    ipa:
+      uk: /hɪə/
+      us: /hɪr/
+    cefr: A1
+    meaning_vi:
+      - nghe thấy
+    notes_vi:
+      - heard /hɜːd/ — nguyên âm đổi hẳn so với hear /hɪə/.
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hear, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hear, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hear, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: helmet|n
+    headword: helmet
+    pos: n
+    ipa:
+      uk: /ˈhel.mət/
+      us: /ˈhel.mət/
+    cefr: B2
+    meaning_vi:
+      - mũ bảo hiểm
+    collocations:
+      - wear a helmet
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/helmet, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/helmet, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/helmet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hope|v
+    headword: hope
+    pos: v
+    forms:
+      past: hoped
+    ipa:
+      uk: /həʊp/
+      us: /hoʊp/
+    cefr: A1
+    meaning_vi:
+      - hy vọng
+    collocations:
+      - hope to do something
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hope, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hope, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hope, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hobby|n
+    headword: hobby
+    pos: n
+    forms:
+      plural: hobbies
+    ipa:
+      uk: /ˈhɒb.i/
+      us: /ˈhɑː.bi/
+    cefr: A1
+    meaning_vi:
+      - sở thích
+    notes_vi:
+      - "Hỏi: What are your hobbies? / What do you do in your free time?"
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hobby, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hobby, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hobby, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hang-out|phr-v
+    headword: hang out
+    pos: phr-v
+    forms:
+      past: hung out
+    ipa:
+      uk: /ˌhæŋ ˈaʊt/
+      us: /ˌhæŋ ˈaʊt/
+    cefr: null
+    meaning_vi:
+      - đi chơi
+      - tụ tập (thân mật)
+    collocations:
+      - hang out with friends
+    notes_vi:
+      - Thân mật, dùng khi nói; trong bài viết trang trọng dùng spend time with.
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: handmade|adj
+    headword: handmade
+    pos: adj
+    ipa:
+      uk: /ˌhændˈmeɪd/
+      us: /ˌhændˈmeɪd/
+    cefr: null
+    meaning_vi:
+      - làm bằng tay
+      - thủ công
+    topics:
+      - industry
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handmade, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handmade, checked: 2026-09-29, field: ipa.us }
+    status: draft

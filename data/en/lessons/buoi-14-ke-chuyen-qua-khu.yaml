@@ -1,0 +1,207 @@
+# Buổi 14 — Kể chuyện quá khứ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-14-ke-chuyen-qua-khu
+number: 14
+stage: 1
+title_vi: Kể chuyện quá khứ
+focus:
+  grammar: Quá khứ đơn (bất quy tắc) + quá khứ tiếp diễn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - story|n
+      - happen|v
+      - suddenly|adv
+      - while|conj
+      - meet|v
+      - lose|v
+      - find|v
+      - break|v
+      - fall|v
+      - hear|v
+      - forget|v
+      - leave|v
+      - accident|n
+      - luckily|adv
+      - finally|adv
+      - then|adv
+      - at-first|colloc
+  - type: pronunciation
+    notes:
+      - sound: snd-er
+        text_vi: "/ɜː/ trong heard, learnt, first, word, work: miệng hơi mở, lưỡi ở giữa, KHÔNG tròn môi, kéo dài. Anh-Mỹ có /r/: /hɝːd/."
+      - sound: snd-ei
+        text_vi: "/eɪ/ trong break, came, gave, made, stayed: bắt đầu /e/ rồi trượt sang /ɪ/ — đừng đọc thành 'ê' đơn."
+      - word: hear|v
+        text_vi: "hear /hɪə/ → heard /hɜːd/: nguyên âm đổi hẳn, đừng đọc heard như 'hia-d'."
+      - word: lose|v
+        text_vi: lose /luːz/ tận cùng /z/ rung; lost /lɒst/ tận cùng /st/ — đọc đủ hai âm cuối.
+      - text_vi: "was/were trong câu thường đọc yếu: I was /wəz/ walking, they were /wə/ talking."
+  - type: grammar
+    items:
+      - en-g1-14
+  - type: examples
+    items:
+      - b14-001
+      - b14-002
+      - b14-003
+      - b14-004
+      - b14-005
+      - b14-006
+      - b14-007
+      - b14-008
+  - type: dialogue
+    title_vi: Một ngày xui xẻo
+    lines:
+      - speaker: A
+        text: You look tired. What happened?
+        vi: Trông cậu mệt thế. Chuyện gì vậy?
+      - speaker: B
+        text: I had a terrible day. I lost my wallet this morning.
+        vi: Hôm nay mình xui lắm. Sáng nay mình làm mất ví.
+      - speaker: A
+        text: Oh no! Where did you lose it?
+        vi: Trời ơi! Mất ở đâu?
+      - speaker: B
+        text: I think I left it on the bus. I was talking on the phone and I forgot it.
+        vi: Chắc mình để quên trên xe buýt. Lúc đó mình đang nói điện thoại nên quên mất.
+      - speaker: A
+        text: Did you call the bus company?
+        vi: Cậu đã gọi cho công ty xe buýt chưa?
+      - speaker: B
+        text: Yes. At first they didn't find anything.
+        vi: Gọi rồi. Lúc đầu họ không tìm thấy gì.
+      - speaker: A
+        text: And then?
+        vi: Rồi sao nữa?
+      - speaker: B
+        text: Finally, a driver found it under a seat. Luckily, all my money was still there!
+        vi: Cuối cùng một bác tài tìm thấy nó dưới ghế. May quá, tiền vẫn còn nguyên!
+  - type: exercises
+    items:
+      - id: b14-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở quá khứ đơn (động từ bất quy tắc).
+        questions:
+          - q: I (meet) ___ my wife in 2018.
+            answer: met
+          - q: She (lose) ___ her keys yesterday.
+            answer: lost
+          - q: We (go) ___ to the cinema last night.
+            answer: went
+          - q: He (fall) ___ off his bike.
+            answer: fell
+          - q: I (hear) ___ a strange noise.
+            answer: heard
+          - q: They (leave) ___ home at 7 a.m.
+            answer: left
+          - q: My son (break) ___ a glass this morning.
+            answer: broke
+      - id: b14-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở quá khứ đơn hoặc quá khứ tiếp diễn.
+        questions:
+          - q: I (walk) ___ home when it started to rain.
+            answer: was walking
+          - q: While she was cooking, the phone (ring) ___.
+            answer: rang
+          - q: They (watch) ___ TV when I arrived.
+            answer: were watching
+          - q: When the accident happened, we (wait) ___ for the bus.
+            answer: were waiting
+          - q: He (see) ___ the accident while he was riding to work.
+            answer: saw
+      - id: b14-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: I didn't ___ you at the party.
+            options:
+              - saw
+              - see
+              - seen
+              - seeing
+            answer: b
+          - q: ___ I was sleeping, someone knocked on the door.
+            options:
+              - When
+              - While
+              - Then
+              - Finally
+            answer: b
+          - q: What ___ yesterday?
+            options:
+              - was happened
+              - happened
+              - did happen
+              - happens
+            answer: b
+          - q: They ___ playing football when it started to rain.
+            options:
+              - was
+              - were
+              - did
+              - are
+            answer: b
+          - q: ___, nobody was hurt in the accident.
+            options:
+              - Luckily
+              - Suddenly
+              - While
+              - At first
+            answer: a
+      - id: b14-x4
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc câu chuyện rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Last Sunday, Tuan and his sister Mai went to the park. While Mai was reading a book, Tuan was playing football with some friends. Suddenly, Tuan fell and hurt his leg. At first, he thought it was nothing, but then he couldn't walk. Mai called their father, and he drove them to the hospital. Luckily, Tuan's leg wasn't broken. The doctor said he should rest for a week.
+        questions:
+          - q: Tuan was reading a book in the park.
+            answer: F
+            explain_vi: Người đọc sách là Mai; Tuan đang đá bóng — chú ý chủ thể.
+          - q: Tuan hurt his leg.
+            answer: T
+          - q: Tuan's leg was broken.
+            answer: F
+          - q: Their mother drove them to the hospital.
+            answer: F
+            explain_vi: Người lái xe là bố.
+          - q: The hospital was near the park.
+            answer: NG
+          - q: Tuan's friends went to the hospital too.
+            answer: NG
+      - id: b14-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: Last week I goed to Da Lat. While I walked around the lake, I meet an old friend. We was very happy. Then we went to a café and we didn't saw the time. Finally, I missed my bus!
+        errors:
+          - wrong: I goed
+            right: I went
+            why: go → went.
+          - wrong: While I walked
+            right: While I was walking
+            why: Hành động đang diễn ra → quá khứ tiếp diễn.
+          - wrong: I meet
+            right: I met
+            why: meet → met.
+          - wrong: We was
+            right: We were
+            why: We → were.
+          - wrong: didn't saw
+            right: didn't see
+            why: Sau didn't dùng nguyên mẫu.
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 90–120 từ kể một chuyện đáng nhớ (vui hoặc xui) đã xảy ra với bạn. Dùng at first / then / suddenly / finally, ít nhất 5 động từ bất quy tắc và 2 câu quá khứ tiếp diễn.
+    prompt_en: Tell a story about something memorable that happened to you.
+    words:
+      min: 90
+      max: 120
+    minutes: 25

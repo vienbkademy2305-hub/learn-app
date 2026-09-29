@@ -1,0 +1,231 @@
+# Buổi 20 — Tổng ôn Giai đoạn 1. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-20-tong-on-giai-doan-1
+number: 20
+stage: 1
+title_vi: Tổng ôn Giai đoạn 1
+focus:
+  grammar: Hệ thống các thì đã học + kiểm tra 4 kỹ năng
+  skill: Ôn tập tổng hợp
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - personality|n
+      - hometown|n
+      - work-as|phr-v
+      - homework|n
+      - exam|n
+      - colleague|n
+      - market|n
+      - cheap|adj
+      - commute|v
+      - public-transport|phr-n
+      - weather|n
+      - trip|n
+      - plan|v
+      - hobby|n
+      - excited|adj
+      - agree-with|phr-v
+      - famous-for|colloc
+  - type: pronunciation
+    notes:
+      - sound: snd-t
+        text_vi: "Ôn đuôi -ed: /t/ worked, watched; /d/ lived, played; /ɪd/ wanted, visited."
+      - sound: snd-z
+        text_vi: "Ôn đuôi -s: /s/ works, books; /z/ lives, siblings; /ɪz/ watches, buses."
+      - sound: snd-th
+        text_vi: "Ôn /θ/ và /ð/: think, month, the, than, they — đầu lưỡi giữa hai răng."
+      - sound: snd-schwa
+        text_vi: "Ôn dạng yếu: a, the, to, for, than, was /wəz/ đọc nhẹ trong câu."
+  - type: grammar
+    items:
+      - en-g1-20
+  - type: examples
+    items:
+      - b20-001
+      - b20-002
+      - b20-003
+      - b20-004
+      - b20-005
+      - b20-006
+      - b20-007
+      - b20-008
+  - type: dialogue
+    title_vi: Gặp lại bạn cũ
+    lines:
+      - speaker: A
+        text: Minh! Long time no see! How are you?
+        vi: Minh! Lâu lắm không gặp! Cậu khỏe không?
+      - speaker: B
+        text: Lan! I'm fine, thanks. What do you do now?
+        vi: Lan! Tớ khỏe, cảm ơn. Giờ cậu làm gì?
+      - speaker: A
+        text: I work as an accountant in Da Nang. What about you?
+        vi: Tớ làm kế toán ở Đà Nẵng. Còn cậu?
+      - speaker: B
+        text: I'm a teacher. At the moment I'm teaching English at a high school.
+        vi: Tớ là giáo viên. Hiện tớ đang dạy tiếng Anh ở một trường cấp ba.
+      - speaker: A
+        text: Great! Did you go to the class party last month?
+        vi: Hay quá! Tháng trước cậu có đi họp lớp không?
+      - speaker: B
+        text: No, I didn't. I was working that day. Are you going to come to the next one?
+        vi: Không, hôm đó tớ phải làm. Lần tới cậu có định đi không?
+      - speaker: A
+        text: Yes, I am. I'm really excited about it.
+        vi: Có chứ. Tớ háo hức lắm.
+      - speaker: B
+        text: Me too. I think it will be the best party of the year!
+        vi: Tớ cũng vậy. Chắc đó sẽ là bữa tiệc vui nhất năm!
+  - type: exercises
+    items:
+      - id: b20-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở thì đúng.
+        questions:
+          - q: My brother (work) ___ in a bank. He loves his job.
+            answer: works
+          - q: Look! It (rain) ___.
+            answer: is raining
+          - q: We (visit) ___ Hoi An last summer.
+            answer: visited
+          - q: I (watch) ___ TV when you called me.
+            answer: was watching
+          - q: She (not / go) ___ to work yesterday because she was ill.
+            answer: did not go
+            accept:
+              - didn't go
+          - q: I've bought the tickets. We (travel) ___ to Sapa next week.
+            answer: are going to travel
+            accept:
+              - "'re going to travel"
+          - q: "\"It's cold.\" \"OK, I (close) ___ the window.\""
+            answer: will close
+            accept:
+              - "'ll close"
+            explain_vi: Quyết định ngay lúc nói → will.
+          - q: This bridge (build) ___ in 1902.
+            answer: was built
+          - q: How often (you / go) ___ to the gym?
+            answer: do you go
+          - q: Coffee (grow) ___ in the Central Highlands.
+            answer: is grown
+      - id: b20-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: My sister is ___ than me.
+            options:
+              - more tall
+              - taller
+              - tallest
+              - the tallest
+            answer: b
+          - q: There isn't ___ milk in the fridge.
+            options:
+              - some
+              - many
+              - any
+              - a
+            answer: c
+          - q: I go to work ___ motorbike.
+            options:
+              - on
+              - in
+              - by
+              - with
+            answer: c
+          - q: I enjoy ___ to music.
+            options:
+              - listen
+              - to listen
+              - listening
+              - listened
+            answer: c
+          - q: The film was really ___. I almost fell asleep.
+            options:
+              - bored
+              - boring
+              - bore
+              - bores
+            answer: b
+          - q: She is ___ honest person.
+            options:
+              - a
+              - an
+              - the
+              - –
+            answer: b
+      - id: b20-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 6 lỗi thường gặp của người Việt. Tìm và sửa.
+        text: My name is Hoa and i am from Hai Phong. I work in hospital. My husband is teacher and he teach maths. We have two child. Last weekend we go to the beach. I like the beach, it is very relaxing.
+        errors:
+          - wrong: and i am
+            right: and I am
+            why: Đại từ I luôn viết hoa.
+          - wrong: work in hospital
+            right: work in a hospital
+            why: Danh từ đếm được số ít cần a.
+          - wrong: is teacher and he teach
+            right: is a teacher and he teaches
+            why: Nghề nghiệp cần a; ngôi 3 số ít thêm -es.
+          - wrong: two child
+            right: two children
+            why: "Số nhiều bất quy tắc: child → children."
+          - wrong: we go to the beach
+            right: we went to the beach
+            why: Last weekend → quá khứ đơn.
+          - wrong: the beach, it is
+            right: the beach. It is
+            why: "Comma splice: tách thành hai câu hoặc dùng because."
+      - id: b20-x4
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Thu is twenty-eight years old and she works as a nurse in Can Tho. She usually starts work at seven in the morning, but this month she is working at night because a colleague is ill. Last year Thu went to Singapore for a training course. The course was tiring, but she was proud of her new skills. Her younger brother, Khoa, is a university student in Ho Chi Minh City. He is going to graduate next year, and he wants to work abroad. Their parents own a small restaurant which was opened in 1998.
+        questions:
+          - q: Thu always works at night.
+            answer: F
+            explain_vi: Thường làm buổi sáng; chỉ tháng này làm đêm.
+          - q: Thu studied in Singapore last year.
+            answer: T
+            explain_vi: Đi học khóa đào tạo ở Singapore.
+          - q: Thu enjoyed the food in Singapore.
+            answer: NG
+          - q: Khoa is older than Thu.
+            answer: F
+            explain_vi: younger brother = em trai.
+          - q: Thu wants to work abroad.
+            answer: F
+            explain_vi: Người muốn ra nước ngoài là Khoa, không phải Thu. Đọc kỹ chủ thể.
+          - q: The restaurant opened more than twenty years ago.
+            answer: T
+      - id: b20-x5
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -s và -ed.
+        text: Last Saturday my sister and I visited our grandparents. My grandmother cooked a delicious meal, and my grandfather showed us his old photos.
+      - id: b20-x6
+        bank_no: 29
+        kind: speaking-part1
+        instructions_vi: Trả lời bằng tiếng Anh, mỗi câu 2–3 câu (không trả lời một từ). Ghi âm và nghe lại.
+        questions:
+          - q: Do you work or are you a student?
+          - q: What do you usually do at the weekend?
+          - q: What did you do last weekend?
+          - q: What are you going to do next summer?
+        sample: I work as an accountant in a small company. I usually go to the office by motorbike, and I really enjoy working with my colleagues.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 100–120 từ về cuộc sống của bạn: năm ngoái bạn đã làm gì, hiện tại bạn đang làm gì, và năm tới bạn định làm gì. Dùng ít nhất 4 thì khác nhau. Tự rà 5 lỗi thường gặp (to be, -s, mạo từ, số nhiều, dấu phẩy) trước khi nộp."
+    prompt_en: "Write about your life: last year, now, and your plans for next year."
+    words:
+      min: 100
+      max: 120
+    minutes: 25

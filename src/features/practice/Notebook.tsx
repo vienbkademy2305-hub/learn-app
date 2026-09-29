@@ -22,7 +22,7 @@ export function Notebook({ words }: { words: NotebookWord[] }) {
         <p className="mt-1 text-sm text-stone-500">
           Khi ôn flashcard ở phần <strong>Luyện tập</strong> của mỗi bài, bấm <strong>☆ Lưu vào Sổ từ</strong> để gom các từ khó về đây.
         </p>
-        <Link href="/hsk/1" className="mt-4 inline-block rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
+        <Link href="/zh/hsk/1" className="mt-4 inline-block rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
           Đến lộ trình HSK1
         </Link>
       </div>
@@ -50,7 +50,7 @@ export function Notebook({ words }: { words: NotebookWord[] }) {
               </span>
               <SpeakButtons text={w.simplified} compact />
               {w.lesson && (
-                <Link href={`/lesson/${w.lesson.slug}/word/${w.slug}`} className="text-sm text-stone-500 hover:text-brand-700">
+                <Link href={`/zh/lesson/${w.lesson.slug}/word/${w.slug}`} className="text-sm text-stone-500 hover:text-brand-700">
                   Bài {w.lesson.number}
                 </Link>
               )}

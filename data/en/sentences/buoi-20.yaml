@@ -1,0 +1,10 @@
+# Câu xuất hiện lần đầu ở Buổi 20. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b20-001, text: I live in Da Nang and I work as a nurse., vi: Tôi sống ở Đà Nẵng và làm y tá., words: [ work-as|phr-v, nurse|n ], grammar: [ en-g1-20 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-002, text: At the moment I'm studying for an important exam., vi: Hiện giờ tôi đang ôn cho một kỳ thi quan trọng., words: [ study|v, exam|n ], grammar: [ en-g1-20 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-003, text: Yesterday I went to the market and bought some fruit., vi: Hôm qua tôi đi chợ và mua ít hoa quả., words: [ market|n, fruit|n, yesterday|adv ], grammar: [ en-g1-20 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-004, text: I was cooking dinner when my phone rang., vi: Tôi đang nấu bữa tối thì điện thoại reo., words: [ cook|v ], grammar: [ en-g1-20 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-005, text: Next summer we are going to visit my grandparents in Hue., vi: Hè tới chúng tôi sẽ về Huế thăm ông bà., words: [ visit|v, grandparent|n ], grammar: [ en-g1-20 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-006, text: I think it will be sunny tomorrow., vi: Tôi nghĩ mai trời sẽ nắng., words: [ sunny|adj, tomorrow|adv ], grammar: [ en-g1-20 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-007, text: This temple was built in the eleventh century., vi: Ngôi chùa này được xây vào thế kỷ mười một., words: [ build|v ], grammar: [ en-g1-20, en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b20-008, text: "My hometown is smaller than Hanoi, but to me it is the most beautiful place in the world.", vi: "Quê tôi nhỏ hơn Hà Nội, nhưng với tôi đó là nơi đẹp nhất thế giới.", words: [ hometown|n, beautiful|adj ], grammar: [ en-g1-02, en-g1-09 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }

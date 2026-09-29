@@ -1,0 +1,19 @@
+# Câu xuất hiện lần đầu ở Buổi 1. Chuyển từ nhat-ky-hoc-tap/tieng-anh/buoi-01.md; đã thay tên thật của học viên.
+sentences:
+  - { id: b01-001, text: "My name is Lan and I am twenty-six years old.", vi: "Tên tôi là Lan và tôi hai mươi sáu tuổi.", words: [], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-002, text: "I am single and I live with my parents.", vi: "Tôi độc thân và sống cùng bố mẹ.", words: [single|adj, live-with|phr-v, parent|n], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-003, text: "My father works as a teacher, and my mother is a nurse.", vi: "Bố tôi làm giáo viên, còn mẹ tôi là y tá.", words: [work-as|phr-v], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-004, text: "I have two siblings: an elder brother and a younger sister.", vi: "Tôi có hai anh chị em: một anh trai và một em gái.", words: [sibling|n, elder-brother|phr-n, younger-sister|phr-n], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-005, text: "My grandparents live in the countryside, but we visit them every month.", vi: "Ông bà tôi sống ở quê, nhưng tháng nào chúng tôi cũng về thăm.", words: [grandparent|n], grammar: [en-g1-01], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-006, text: "My hometown is Hai Phong, and my nationality is Vietnamese.", vi: "Quê tôi ở Hải Phòng, và tôi mang quốc tịch Việt Nam.", words: [hometown|n, nationality|n], grammar: [en-g1-01], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-007, text: "My brother is married, and his wife is a doctor.", vi: "Anh trai tôi đã lập gia đình, vợ anh ấy là bác sĩ.", words: [married|adj, wife|n], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-008, text: "We are a happy family.", vi: "Chúng tôi là một gia đình hạnh phúc.", words: [], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  # Câu ví dụ cho từng từ trong bảng từ vựng (tra ngược qua `words`).
+  - { id: b01-009, text: "My full name is Tran Thi Lan.", vi: "Họ tên đầy đủ của tôi là Trần Thị Lan.", words: [full-name|phr-n], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-010, text: "My date of birth is 5th May 2000.", vi: "Ngày sinh của tôi là 5 tháng 5 năm 2000.", words: [date-of-birth|phr-n], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-011, text: "My address is 12 Le Loi Street.", vi: "Địa chỉ của tôi là số 12 phố Lê Lợi.", words: [address|n], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-012, text: "Her marital status is single.", vi: "Tình trạng hôn nhân của cô ấy là độc thân.", words: [marital-status|phr-n, single|adj], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-013, text: "Her husband works in a bank.", vi: "Chồng cô ấy làm ở ngân hàng.", words: [husband|n], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-014, text: "They have one son and one daughter.", vi: "Họ có một con trai và một con gái.", words: [son|n, daughter|n], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-015, text: "My elder sister lives in Da Nang.", vi: "Chị gái tôi sống ở Đà Nẵng.", words: [elder-sister|phr-n], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b01-016, text: "My younger brother is a student.", vi: "Em trai tôi là sinh viên.", words: [younger-brother|phr-n], grammar: [en-g1-01], cefr: A1, audio: { tts: true }, source: editorial, status: draft }

@@ -1,0 +1,20 @@
+# Câu xuất hiện lần đầu ở Buổi 10. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b10-001, text: I go to work by motorbike., vi: Tôi đi làm bằng xe máy., words: [ motorbike|n ], grammar: [ en-g1-10 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-002, text: My sister goes to school on foot., vi: Em gái tôi đi bộ đến trường., words: [ on-foot|idiom ], grammar: [ en-g1-10 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-003, text: We usually travel to Hue by train., vi: Chúng tôi thường đi Huế bằng tàu hỏa., words: [], grammar: [ en-g1-10 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-004, text: There are a lot of passengers on the bus this morning., vi: Sáng nay trên xe buýt có rất nhiều hành khách., words: [ passenger|n ], grammar: [ en-g1-10 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-005, text: Get off the bus at the next bus stop., vi: Xuống xe ở điểm dừng tiếp theo nhé., words: [ get-off|phr-v, bus-stop|phr-n ], grammar: [ en-g1-10 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-006, text: My father always goes to the airport by taxi., vi: Bố tôi luôn đi taxi ra sân bay., words: [ airport|n ], grammar: [ en-g1-10 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-007, text: Please wear a helmet on your motorbike., vi: Hãy đội mũ bảo hiểm khi đi xe máy., words: [ helmet|n, motorbike|n ], grammar: [ en-g1-10 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-008, text: Public transport in my city is not as convenient as in Singapore., vi: Giao thông công cộng ở thành phố tôi không tiện bằng ở Singapore., words: [ public-transport|phr-n, convenient|adj ], grammar: [ en-g1-10, en-g1-09 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-009, text: The traffic is terrible today., vi: Hôm nay giao thông tệ quá., words: [ traffic|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-010, text: There is a traffic jam on this road every morning., vi: Sáng nào con đường này cũng tắc., words: [ traffic-jam|phr-n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-011, text: My son rides his bicycle to school., vi: Con trai tôi đạp xe đến trường., words: [ bicycle|n, son|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-012, text: "Excuse me, where is the train station?", vi: "Xin lỗi, ga tàu ở đâu ạ?", words: [ station|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-013, text: The bus driver is very friendly., vi: Bác tài xe buýt rất thân thiện., words: [ driver|n, friendly|adj ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-014, text: How much is a ticket to Da Nang?, vi: Vé đi Đà Nẵng bao nhiêu tiền?, words: [ ticket|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-015, text: The journey from Hanoi to Hai Phong takes about two hours., vi: Đi từ Hà Nội đến Hải Phòng mất khoảng hai tiếng., words: [ journey|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-016, text: Get on the train quickly!, vi: Lên tàu nhanh lên!, words: [ get-on|phr-v ], grammar: [ en-g1-10 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-017, text: The trains are very crowded at rush hour., vi: Tàu rất đông vào giờ cao điểm., words: [ crowded|adj, rush-hour|phr-n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b10-018, text: I commute to work every day. It takes forty minutes., vi: "Ngày nào tôi cũng đi làm, mất bốn mươi phút.", words: [ commute|v ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }

@@ -59,10 +59,10 @@ export function ListeningOverview({ lessons }: { lessons: LessonRow[] }) {
               </div>
               <ProgressBar percent={pct(s.listened, s.total)} label={`Tiến độ nghe bài ${l.number}`} />
               <div className="flex flex-wrap gap-2 text-sm">
-                <Link href={`/lesson/${l.slug}/examples`} className="rounded-lg px-3 py-1.5 font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-stone-100">
+                <Link href={`/zh/lesson/${l.slug}/examples`} className="rounded-lg px-3 py-1.5 font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-stone-100">
                   🎧 Luyện nghe
                 </Link>
-                <Link href={`/lesson/${l.slug}/exercises/listening`} className="rounded-lg bg-brand-600 px-3 py-1.5 font-medium text-white hover:bg-brand-700">
+                <Link href={`/zh/lesson/${l.slug}/exercises/listening`} className="rounded-lg bg-brand-600 px-3 py-1.5 font-medium text-white hover:bg-brand-700">
                   Làm bài nghe
                 </Link>
               </div>

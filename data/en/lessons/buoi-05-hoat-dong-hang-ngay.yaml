@@ -1,0 +1,223 @@
+# Buổi 5 — Hoạt động hằng ngày. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-05-hoat-dong-hang-ngay
+number: 5
+stage: 1
+title_vi: Hoạt động hằng ngày
+focus:
+  grammar: Hiện tại đơn + trạng từ tần suất
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - routine|n
+      - wake-up|phr-v
+      - get-up|phr-v
+      - take-a-shower|colloc
+      - have-breakfast|colloc
+      - go-to-work|colloc
+      - cook|v
+      - do-the-housework|colloc
+      - watch|v
+      - relax|v
+      - go-to-bed|colloc
+      - always|adv
+      - usually|adv
+      - often|adv
+      - sometimes|adv
+      - rarely|adv
+      - never|adv
+      - twice|adv
+  - type: pronunciation
+    notes:
+      - sound: snd-s
+        text_vi: "Đuôi -s đọc /s/ sau âm vô thanh /p t k f/: works, cooks, gets."
+      - sound: snd-z
+        text_vi: "Đuôi -s đọc /z/ sau nguyên âm và âm hữu thanh: goes, does, reads, plays."
+      - word: watch|v
+        text_vi: "Đuôi -es sau s, sh, ch, x đọc /ɪz/ thành thêm 1 âm tiết: watch-es, relax-es, wash-es."
+      - word: usually|adv
+        text_vi: "U-su-al-ly /ˈjuː.ʒu.ə.li/: âm /ʒ/ giống 'gi' nhẹ, trọng âm âm đầu."
+      - text_vi: does /dʌz/ và doesn't /ˈdʌz.ənt/ — không đọc 'đốt'.
+  - type: grammar
+    items:
+      - en-g1-05
+  - type: examples
+    items:
+      - b05-001
+      - b05-002
+      - b05-003
+      - b05-004
+      - b05-005
+      - b05-006
+      - b05-007
+      - b05-008
+  - type: dialogue
+    title_vi: Một ngày của bạn thế nào?
+    lines:
+      - speaker: A
+        text: What time do you usually get up?
+        vi: Bạn thường dậy lúc mấy giờ?
+      - speaker: B
+        text: At six. I take a shower and have breakfast at half past six.
+        vi: Sáu giờ. Mình tắm rồi ăn sáng lúc sáu rưỡi.
+      - speaker: A
+        text: Do you cook breakfast every day?
+        vi: Ngày nào bạn cũng tự nấu bữa sáng à?
+      - speaker: B
+        text: No, I don't. My mother always cooks.
+        vi: Không. Mẹ mình luôn nấu.
+      - speaker: A
+        text: How often do you go to the gym?
+        vi: Bạn có hay đi tập gym không?
+      - speaker: B
+        text: Twice a week, on Tuesday and Friday. What about you?
+        vi: Hai lần một tuần, thứ Ba và thứ Sáu. Còn bạn?
+      - speaker: A
+        text: I never go to the gym. I usually relax at home and watch TV.
+        vi: Mình không bao giờ đi gym. Mình thường nghỉ ở nhà xem TV.
+      - speaker: B
+        text: Does your wife watch TV with you?
+        vi: Vợ bạn có xem TV cùng bạn không?
+      - speaker: A
+        text: Sometimes, but she often goes to bed early.
+        vi: Thỉnh thoảng thôi, cô ấy hay đi ngủ sớm.
+  - type: exercises
+    items:
+      - id: b05-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc (khẳng định, phủ định hoặc câu hỏi).
+        questions:
+          - q: My sister (watch) ___ TV every evening.
+            answer: watches
+          - q: He (not / cook) ___ dinner on Sunday.
+            answer: doesn't cook
+            accept:
+              - does not cook
+          - q: My mother (not / like) ___ coffee.
+            answer: doesn't like
+            accept:
+              - does not like
+          - q: My parents (not / go) ___ to work on Saturday.
+            answer: don't go
+            accept:
+              - do not go
+          - q: She (relax) ___ in the garden after work.
+            answer: relaxes
+            explain_vi: Tận cùng x → -es.
+          - q: Nam (do) ___ the housework twice a week.
+            answer: does
+      - id: b05-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Đặt trạng từ trong ngoặc vào đúng vị trí và viết lại câu.
+        questions:
+          - q: I get up at 6 a.m. (usually)
+            answer: I usually get up at 6 a.m.
+          - q: She is late for work. (never)
+            answer: She is never late for work.
+          - q: We have breakfast together. (always)
+            answer: We always have breakfast together.
+          - q: My father cooks dinner. (rarely)
+            answer: My father rarely cooks dinner.
+          - q: They are tired on Monday. (often)
+            answer: They are often tired on Monday.
+      - id: b05-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ your brother work at weekends?
+            options:
+              - Do
+              - Does
+              - Is
+              - Are
+            answer: b
+          - q: I ___ like getting up early.
+            options:
+              - doesn't
+              - don't
+              - not
+              - am not
+            answer: b
+          - q: How ___ do you go to the gym?
+            options:
+              - many
+              - much
+              - often
+              - time
+            answer: c
+          - q: She ___ goes to bed before ten.
+            options:
+              - don't never
+              - never
+              - not never
+              - doesn't never
+            answer: b
+          - q: Does he ___ breakfast every day?
+            options:
+              - has
+              - have
+              - having
+              - to have
+            answer: b
+      - id: b05-x4
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc đoạn văn và điền KHÔNG QUÁ HAI TỪ vào mỗi chỗ trống.
+        max_words: 2
+        passage: Linh is a nurse. She works at a hospital near her house, so she walks there. She usually wakes up at 5:30 and takes a shower. She never has breakfast at home — she buys a banh mi on the way. Her shift starts at 7 o'clock. In the evening, she cooks dinner with her husband and they watch TV together. She goes to the cinema twice a month.
+        questions:
+          - q: Linh goes to work on ___.
+            answer: foot
+            explain_vi: walks there = on foot.
+          - q: She usually wakes up at ___.
+            answer: 5:30
+            accept:
+              - half past five
+              - five thirty
+          - q: She ___ has breakfast at home.
+            answer: never
+          - q: Her shift starts at ___.
+            answer: 7 o'clock
+            accept:
+              - seven o'clock
+              - "7"
+          - q: She goes to the cinema ___ a month.
+            answer: twice
+      - id: b05-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 6 lỗi. Tìm và sửa.
+        text: My brother Tuan is a student. He get up at seven. He always is tired in the morning. He don't have breakfast. Does he goes to school early? No. In the evening he watch TV and he never do his homework.
+        errors:
+          - wrong: He get up
+            right: He gets up
+            why: Ngôi 3 số ít thêm -s.
+          - wrong: He always is tired
+            right: He is always tired
+            why: Trạng từ đứng sau to be.
+          - wrong: He don't have
+            right: He doesn't have
+            why: He dùng doesn't.
+          - wrong: Does he goes
+            right: Does he go
+            why: Sau does dùng nguyên mẫu.
+          - wrong: he watch TV
+            right: he watches TV
+            why: "Ngôi 3: watch → watches."
+          - wrong: never do his homework
+            right: never does his homework
+            why: "Ngôi 3: do → does."
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 80–100 từ tả một ngày bình thường của bạn (Describe your daily routine). Dùng ít nhất 4 trạng từ tần suất và 1 câu phủ định.
+    prompt_en: Describe your daily routine.
+    words:
+      min: 80
+      max: 100
+    minutes: 20

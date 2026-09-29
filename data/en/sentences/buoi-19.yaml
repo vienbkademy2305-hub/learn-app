@@ -1,0 +1,21 @@
+# Câu xuất hiện lần đầu ở Buổi 19. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b19-001, text: Coffee is grown in Dak Lak., vi: Cà phê được trồng ở Đắk Lắk., words: [ grow|v ], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-002, text: This bridge was built more than a hundred years ago., vi: Cây cầu này được xây hơn một trăm năm trước., words: [ build|v, ago|adv ], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-003, text: The telephone was invented by Alexander Graham Bell., vi: Điện thoại do Alexander Graham Bell phát minh., words: [ invent|v ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-004, text: Many phones are made in Vietnam., vi: Nhiều điện thoại được sản xuất ở Việt Nam., words: [], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-005, text: Vietnamese rice is exported to many countries., vi: Gạo Việt Nam được xuất khẩu sang nhiều nước., words: [ export|v, rice|n ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-006, text: English is spoken all over the world., vi: Tiếng Anh được nói trên khắp thế giới., words: [], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-007, text: These bags are made of plastic., vi: Những chiếc túi này làm bằng nhựa., words: [ plastic|n ], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-008, text: Was this house designed by a famous architect?, vi: Ngôi nhà này có phải do một kiến trúc sư nổi tiếng thiết kế không?, words: [ design|v ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-009, text: The factory produces a thousand cars a day., vi: Nhà máy sản xuất một nghìn chiếc ô tô mỗi ngày., words: [ produce|v, factory|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-010, text: The internet is a great invention., vi: Internet là một phát minh vĩ đại., words: [ invention|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-011, text: Penicillin was discovered in 1928., vi: Penicillin được phát hiện năm 1928., words: [ discover|v ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-012, text: Vietnam imports a lot of oil., vi: Việt Nam nhập khẩu nhiều dầu mỏ., words: [ import|v ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-013, text: This shop sells local products., vi: Cửa hàng này bán sản phẩm địa phương., words: [ product|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-014, text: What material is this shirt made of?, vi: Chiếc áo này làm bằng chất liệu gì?, words: [ material|n ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-015, text: The table is made of wood., vi: Cái bàn làm bằng gỗ., words: [ wood|n ], grammar: [ en-g1-19 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-016, text: Hoi An is famous for its silk., vi: Hội An nổi tiếng về lụa., words: [ silk|n, famous-for|colloc ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-017, text: My mother gave me a handmade bag., vi: Mẹ tặng tôi một chiếc túi làm thủ công., words: [ handmade|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-018, text: This book is translated into twenty languages., vi: Cuốn sách này được dịch ra hai mươi thứ tiếng., words: [ translate|v ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b19-019, text: "In my city, paper and plastic are recycled.", vi: "Ở thành phố tôi, giấy và nhựa được tái chế.", words: [ recycle|v, plastic|n ], grammar: [ en-g1-19 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }

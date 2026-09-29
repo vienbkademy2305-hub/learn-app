@@ -22,7 +22,14 @@
     "users:passwd": "tsx scripts/users.ts passwd",
     "users:list": "tsx scripts/users.ts list",
     "users:remove": "tsx scripts/users.ts remove",
-    "smoke:accounts": "tsx scripts/smoke-accounts.ts"
+    "smoke:accounts": "tsx scripts/smoke-accounts.ts",
+    "en:validate": "tsx scripts/en-content.ts validate",
+    "en:search": "tsx scripts/en-content.ts search",
+    "en:stats": "tsx scripts/en-content.ts stats",
+    "en:merge": "tsx scripts/en-merge.ts",
+    "content:export:en": "tsx importers/en/export.ts",
+    "en:research": "tsx scripts/en-research.ts",
+    "en:research:apply": "tsx scripts/en-research-apply.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",

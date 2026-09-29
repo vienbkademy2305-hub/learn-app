@@ -1,0 +1,18 @@
+# Câu xuất hiện lần đầu ở Buổi 16. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b16-001, text: I enjoy reading books in my free time., vi: Lúc rảnh tôi thích đọc sách., words: [ enjoy|v, free-time|phr-n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-002, text: My brother wants to learn a musical instrument., vi: Anh trai tôi muốn học một loại nhạc cụ., words: [ musical-instrument|phr-n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-003, text: We often go camping at the weekend., vi: Cuối tuần chúng tôi hay đi cắm trại., words: [ camping|n, weekend|n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-004, text: Do you mind turning off the music?, vi: Bạn tắt nhạc giúp tôi được không?, words: [ mind|v ], grammar: [ en-g1-16 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-005, text: Last month she decided to join a photography club., vi: Tháng trước cô ấy quyết định tham gia một câu lạc bộ nhiếp ảnh., words: [ decide|v, join|v, photography|n, club|n ], grammar: [ en-g1-16 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-006, text: I'd like to go to the concert on Saturday., vi: Tôi muốn đi xem hòa nhạc vào thứ Bảy., words: [ concert|n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-007, text: My father loves gardening., vi: Bố tôi rất thích làm vườn., words: [ gardening|n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-008, text: Please stop playing games and finish your homework!, vi: Thôi chơi điện tử và làm xong bài tập đi!, words: [ homework|n ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-009, text: What's your hobby? I collect stamps., vi: Sở thích của bạn là gì? Tôi sưu tầm tem., words: [ hobby|n, collect|v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-010, text: My grandfather plays chess every evening., vi: Tối nào ông tôi cũng chơi cờ vua., words: [ chess|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-011, text: Painting helps me relax., vi: Vẽ tranh giúp tôi thư giãn., words: [ painting|n, relax|v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-012, text: "On rainy days, we play board games at home.", vi: "Những hôm trời mưa, chúng tôi chơi cờ ở nhà.", words: [ board-game|phr-n, rainy|adj ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-013, text: The museum is free on Sundays., vi: Bảo tàng miễn phí vào Chủ nhật., words: [ museum|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-014, text: Let's go out for dinner tonight!, vi: Tối nay mình ra ngoài ăn tối đi!, words: [ go-out|phr-v, tonight|adv ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-015, text: I like hanging out with my friends at the coffee shop., vi: Tôi thích tụ tập với bạn bè ở quán cà phê., words: [ hang-out|phr-v ], grammar: [ en-g1-16 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b16-016, text: You need to practise speaking every day., vi: Bạn cần luyện nói mỗi ngày., words: [ practise|v ], grammar: [ en-g1-16 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

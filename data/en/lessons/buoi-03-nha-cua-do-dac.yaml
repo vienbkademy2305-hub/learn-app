@@ -1,0 +1,221 @@
+# Buổi 3 — Nhà cửa & đồ đạc. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-03-nha-cua-do-dac
+number: 3
+stage: 1
+title_vi: Nhà cửa & đồ đạc
+focus:
+  grammar: There is/are, giới từ nơi chốn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - apartment|n
+      - bedroom|n
+      - living-room|phr-n
+      - kitchen|n
+      - bathroom|n
+      - sofa|n
+      - chair|n
+      - wardrobe|n
+      - shelf|n
+      - fridge|n
+      - stairs|n
+      - balcony|n
+      - floor|n
+      - next-to|prep
+      - in-front-of|prep
+      - behind|prep
+      - between|prep
+      - under|prep
+      - opposite|prep
+  - type: pronunciation
+    notes:
+      - sound: snd-ea
+        text_vi: "/eə/ trong chair, stairs, there, where: bắt đầu từ /e/ rồi lướt nhẹ về /ə/. Anh-Mỹ đọc có /r/: /tʃer/."
+      - sound: snd-ie
+        text_vi: "/ɪə/ trong here, near: bắt đầu từ /ɪ/ lướt về /ə/. Phân biệt here /hɪə/ với hair /heə/."
+      - word: stairs|n
+        text_vi: Anh-Anh không đọc r cuối (/steəz/), nhưng phải đọc -s /z/ ở cuối.
+      - text_vi: There is thường nối thành there's /ðeəz/; nhớ /ð/ của Buổi 2.
+      - word: kitchen|n
+        text_vi: KIT-chen /ˈkɪtʃ.ən/ — âm /tʃ/ ở giữa, đừng đọc thành chicken.
+  - type: grammar
+    items:
+      - en-g1-03
+  - type: examples
+    items:
+      - b03-001
+      - b03-002
+      - b03-003
+      - b03-004
+      - b03-005
+      - b03-006
+      - b03-007
+      - b03-008
+  - type: dialogue
+    title_vi: Xem căn hộ mới
+    lines:
+      - speaker: A
+        text: Welcome to my new apartment!
+        vi: Chào mừng đến căn hộ mới của mình!
+      - speaker: B
+        text: Wow, it's beautiful. How many bedrooms are there?
+        vi: Ồ, đẹp quá. Có mấy phòng ngủ vậy?
+      - speaker: A
+        text: There are two bedrooms and one bathroom.
+        vi: Có hai phòng ngủ và một phòng tắm.
+      - speaker: B
+        text: Is there a balcony?
+        vi: Có ban công không?
+      - speaker: A
+        text: Yes, there is. It's next to the living room.
+        vi: Có. Nó ở cạnh phòng khách.
+      - speaker: B
+        text: Where is the kitchen?
+        vi: Bếp ở đâu?
+      - speaker: A
+        text: It's opposite the bathroom. There's a big fridge in it.
+        vi: Đối diện phòng tắm. Trong bếp có một cái tủ lạnh to.
+      - speaker: B
+        text: And which floor is it on?
+        vi: Còn căn hộ ở tầng mấy?
+      - speaker: A
+        text: It's on the second floor, but there isn't a lift!
+        vi: Tầng hai, mà không có thang máy!
+  - type: exercises
+    items:
+      - id: b03-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Nhìn mô tả trong ngoặc rồi điền giới từ.
+        bank:
+          - under
+          - next to
+          - between
+          - behind
+          - in front of
+          - opposite
+        questions:
+          - q: The cat is ___ the bed. (dưới)
+            answer: under
+          - q: The lamp is ___ the sofa. (cạnh)
+            answer: next to
+          - q: The bathroom is ___ the kitchen and the bedroom. (giữa)
+            answer: between
+          - q: The garden is ___ the house. (phía sau)
+            answer: behind
+          - q: There is a car ___ the gate. (phía trước)
+            answer: in front of
+          - q: The school is ___ my house, across the street. (đối diện)
+            answer: opposite
+      - id: b03-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ two bedrooms in my house.
+            options:
+              - There is
+              - There are
+              - It has
+              - Have
+            answer: b
+          - q: ___ a fridge in the kitchen?
+            options:
+              - Are there
+              - Is there
+              - There is
+              - Has
+            answer: b
+          - q: There ___ a sofa and two chairs in the room.
+            options:
+              - is
+              - are
+              - be
+              - have
+            answer: a
+            explain_vi: Theo danh từ đầu tiên (a sofa) → is.
+          - q: My apartment is ___ the fourth floor.
+            options:
+              - in
+              - at
+              - on
+              - under
+            answer: c
+          - q: No, there ___ any shelves in my bedroom.
+            options:
+              - isn't
+              - aren't
+              - don't
+              - not
+            answer: b
+      - id: b03-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu dùng There is / There are (sửa lối nói 'có' kiểu tiếng Việt).
+        questions:
+          - q: My room has a big wardrobe.
+            answer: There is a big wardrobe in my room.
+            accept:
+              - There's a big wardrobe in my room.
+          - q: The kitchen has four chairs.
+            answer: There are four chairs in the kitchen.
+          - q: Our apartment has a balcony.
+            answer: There is a balcony in our apartment.
+            accept:
+              - There's a balcony in our apartment.
+          - q: The living room has two sofas.
+            answer: There are two sofas in the living room.
+      - id: b03-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: I live in a small apartment in the second floor. In my apartment have two bedrooms. There is a sofa next the window in the living room. There is three shelves in my bedroom. My desk is between the bed and wardrobe, and my cat often sleeps under of it.
+        errors:
+          - wrong: in the second floor
+            right: on the second floor
+            why: Tầng nhà dùng on.
+          - wrong: In my apartment have two bedrooms
+            right: There are two bedrooms in my apartment
+            why: Dùng There are, không dùng have.
+          - wrong: next the window
+            right: next to the window
+            why: next to.
+          - wrong: There is three shelves
+            right: There are three shelves
+            why: Số nhiều dùng are.
+          - wrong: under of it
+            right: under it
+            why: under không đi với of.
+      - id: b03-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Hoa lives with her husband in an apartment on the seventh floor. There are two bedrooms, a small kitchen and a living room with a big balcony. Her bedroom is next to the bathroom. There are a lot of plants on the balcony. Her brother Nam lives in a house near the river. There is a garden behind his house, but there isn't a garage.
+        questions:
+          - q: Hoa's apartment is on the seventh floor.
+            answer: T
+          - q: There are three bedrooms in Hoa's apartment.
+            answer: F
+            explain_vi: Chỉ có hai phòng ngủ.
+          - q: Hoa's kitchen is bigger than her living room.
+            answer: NG
+            explain_vi: Bài chỉ nói bếp nhỏ, không so sánh với phòng khách.
+          - q: There is a garden behind Hoa's house.
+            answer: F
+            explain_vi: Vườn là của nhà NAM, không phải Hoa — cẩn thận chủ thể.
+          - q: Nam's house has a garage.
+            answer: F
+          - q: Hoa's husband works from home.
+            answer: NG
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–90 từ tả nhà hoặc phòng của bạn: có những phòng/đồ vật gì, mỗi thứ ở đâu (dùng There is/are và ít nhất 4 giới từ nơi chốn)."
+    prompt_en: Describe your home or your bedroom.
+    words:
+      min: 60
+      max: 90
+    minutes: 15

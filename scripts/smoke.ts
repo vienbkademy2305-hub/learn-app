@@ -17,31 +17,45 @@ const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 const PORT = 4310;
 
 const LESSON = "hsk1-01-greetings";
+const EN_LESSON = "buoi-02-ngoai-hinh-tinh-cach";
 const PAGES = [
   ["home", "/"],
-  ["hsk1", "/hsk/1/"],
-  ["pinyin", "/pinyin/"],
-  ["lesson-vocab", `/lesson/${LESSON}/`],
-  ["lesson-word", `/lesson/${LESSON}/word/lao3shi1-8001-5e08/`],
-  ["lesson-grammar", `/lesson/${LESSON}/grammar/`],
-  ["lesson-examples", `/lesson/${LESSON}/examples/`],
-  ["lesson-writing", `/lesson/${LESSON}/writing/`],
-  ["lesson-practice", `/lesson/${LESSON}/practice/`],
-  ["practice-vocab", `/lesson/${LESSON}/practice/vocab/`],
-  ["practice-flashcards", `/lesson/${LESSON}/practice/flashcards/`],
-  ["practice-copy", `/lesson/${LESSON}/practice/copy/`],
-  ["practice-sentences", `/lesson/${LESSON}/practice/sentences/`],
-  ["practice-paragraph", `/lesson/${LESSON}/practice/paragraph/`],
-  ["notebook", "/flashcards/"],
-  ["lesson-exercises", `/lesson/${LESSON}/exercises/`],
-  ["exercise-listening", `/lesson/${LESSON}/exercises/listening/`],
-  ["exercise-sentences", `/lesson/${LESSON}/exercises/sentences/`],
-  ["exercise-characters", `/lesson/${LESSON}/exercises/characters/`],
-  ["lesson-summary", `/lesson/${LESSON}/summary/`],
-  ["practice", "/practice/"],
-  ["listening", "/listening/"],
-  ["practice-speaking", `/lesson/${LESSON}/practice/speaking/`],
-  ["word", "/word/ai4-7231/"],
+  ["zh-home", "/zh/"],
+  ["en-home", "/en/"],
+  ["en-vocab", `/en/lesson/${EN_LESSON}/`],
+  ["en-pronunciation", `/en/lesson/${EN_LESSON}/pronunciation/`],
+  ["en-grammar", `/en/lesson/${EN_LESSON}/grammar/`],
+  ["en-examples", `/en/lesson/${EN_LESSON}/examples/`],
+  ["en-dialogue", `/en/lesson/${EN_LESSON}/dialogue/`],
+  ["en-exercises", `/en/lesson/${EN_LESSON}/exercises/`],
+  ["en-homework", `/en/lesson/${EN_LESSON}/homework/`],
+  ["en-exercises-20", "/en/lesson/buoi-20-tong-on-giai-doan-1/exercises/"],
+  ["en-word", "/en/word/look-like--phr-v/"],
+  ["en-words", "/en/words/"],
+  ["en-flashcards", "/en/flashcards/"],
+  ["hsk1", "/zh/hsk/1/"],
+  ["pinyin", "/zh/pinyin/"],
+  ["lesson-vocab", `/zh/lesson/${LESSON}/`],
+  ["lesson-word", `/zh/lesson/${LESSON}/word/lao3shi1-8001-5e08/`],
+  ["lesson-grammar", `/zh/lesson/${LESSON}/grammar/`],
+  ["lesson-examples", `/zh/lesson/${LESSON}/examples/`],
+  ["lesson-writing", `/zh/lesson/${LESSON}/writing/`],
+  ["lesson-practice", `/zh/lesson/${LESSON}/practice/`],
+  ["practice-vocab", `/zh/lesson/${LESSON}/practice/vocab/`],
+  ["practice-flashcards", `/zh/lesson/${LESSON}/practice/flashcards/`],
+  ["practice-copy", `/zh/lesson/${LESSON}/practice/copy/`],
+  ["practice-sentences", `/zh/lesson/${LESSON}/practice/sentences/`],
+  ["practice-paragraph", `/zh/lesson/${LESSON}/practice/paragraph/`],
+  ["notebook", "/zh/flashcards/"],
+  ["lesson-exercises", `/zh/lesson/${LESSON}/exercises/`],
+  ["exercise-listening", `/zh/lesson/${LESSON}/exercises/listening/`],
+  ["exercise-sentences", `/zh/lesson/${LESSON}/exercises/sentences/`],
+  ["exercise-characters", `/zh/lesson/${LESSON}/exercises/characters/`],
+  ["lesson-summary", `/zh/lesson/${LESSON}/summary/`],
+  ["practice", "/zh/practice/"],
+  ["listening", "/zh/listening/"],
+  ["practice-speaking", `/zh/lesson/${LESSON}/practice/speaking/`],
+  ["word", "/zh/word/ai4-7231/"],
   ["sources", "/sources/"],
 ] as const;
 const VIEWPORTS = [
@@ -112,26 +126,26 @@ async function main() {
     let current = "interaction";
     watch(page, problems, () => ({ viewport: "desktop", page: current }));
 
-    await page.goto(url(`/lesson/${LESSON}/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/`), { waitUntil: "networkidle" });
     const toggle = page.getByRole("button", { name: "Đánh dấu đã học" }).first();
     await toggle.click();
     const pressed = await page.locator('button[aria-pressed="true"]').count();
     checks.push(`${pressed === 1 ? "PASS" : "FAIL"} đánh dấu 1 từ đã học (aria-pressed=true: ${pressed})`);
 
     current = "hsk1-after-mark";
-    await page.goto(url("/hsk/1/"), { waitUntil: "networkidle" });
+    await page.goto(url("/zh/hsk/1/"), { waitUntil: "networkidle" });
     const firstCard = await page.locator("ol li").first().innerText();
     checks.push(`${/Đang học/.test(firstCard) && /1\/\d+ từ đã học/.test(firstCard) ? "PASS" : "FAIL"} bài 1 hiện "Đang học" và 1 từ đã học sau khi đánh dấu`);
 
     current = "audio";
-    await page.goto(url(`/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
     const audioResponse = page.waitForResponse((r) => r.url().endsWith(".mp3"), { timeout: 10_000 }).catch(() => null);
     await page.getByRole("button", { name: "Nghe câu với tốc độ bình thường" }).first().click();
     const res = await audioResponse;
     checks.push(`${res && res.status() < 400 ? "PASS" : "FAIL"} bấm "Nghe" tải audio (${res ? `${res.status()} ${new URL(res.url()).pathname}` : "không có request"})`);
 
     current = "play-all";
-    await page.goto(url(`/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
     const firstClip = page.waitForResponse((r) => r.url().endsWith(".mp3"), { timeout: 10_000 }).catch(() => null);
     await page.getByRole("button", { name: "▶ Nghe cả bài" }).click();
     const clip = await firstClip;
@@ -142,7 +156,7 @@ async function main() {
 
     current = "writing";
     const strokeResponse = page.waitForResponse((r) => r.url().includes("/assets/strokes/"), { timeout: 10_000 }).catch(() => null);
-    await page.goto(url(`/lesson/${LESSON}/writing/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/writing/`), { waitUntil: "networkidle" });
     const strokeRes = await strokeResponse;
     checks.push(`${strokeRes && strokeRes.status() < 400 ? "PASS" : "FAIL"} tải dữ liệu nét chữ (${strokeRes ? `${strokeRes.status()} ${new URL(strokeRes.url()).pathname}` : "không có request"})`);
     await page.getByRole("button", { name: "▶ Xem viết mẫu" }).click();
@@ -152,6 +166,39 @@ async function main() {
     await page.getByRole("button", { name: /Tự viết thử/ }).click();
     const prompt = await page.getByText(/Hãy viết nét 1\//).count();
     checks.push(`${prompt > 0 ? "PASS" : "FAIL"} chế độ tự viết hiện hướng dẫn "Hãy viết nét 1/…"`);
+
+    // ── English (docs/ENGLISH_SPLIT_PLAN.md E1–E3) ──────────────────────────────
+    current = "en-exercise";
+    await page.goto(url(`/en/lesson/${EN_LESSON}/exercises/`), { waitUntil: "networkidle" });
+    const gap = page.locator("section").filter({ hasText: "Bài 1 · Điền từ" });
+    for (const [i, w] of ["shy", "lazy", "curly", "patient", "outgoing", "hard-working"].entries()) await gap.locator("input").nth(i).fill(w);
+    await gap.getByRole("button", { name: "Kiểm tra" }).click();
+    const gapScore = await gap.getByText("6/6").count();
+    checks.push(`${gapScore > 0 ? "PASS" : "FAIL"} tiếng Anh: bài điền từ chấm 6/6 khi đúng hết`);
+
+    const fix = page.locator("section").filter({ hasText: "Tìm và sửa lỗi" });
+    const fixBox = fix.locator("textarea");
+    await fixBox.fill((await fixBox.inputValue()).replace("more taller", "taller").replace("hair black", "black hair"));
+    await fix.getByRole("button", { name: "Kiểm tra" }).click();
+    const fixScore = await fix.getByText(/^2\/4/).count();
+    checks.push(`${fixScore > 0 ? "PASS" : "FAIL"} tiếng Anh: sửa 2/4 lỗi được chấm 2/4`);
+
+    current = "en-progress";
+    await page.goto(url("/en/"), { waitUntil: "networkidle" });
+    const enCard = await page.locator("ol li").nth(1).innerText();
+    checks.push(`${/Bài tập 2\/5/.test(enCard) ? "PASS" : "FAIL"} tiếng Anh: trang lộ trình hiện tiến độ bài tập của Buổi 2 ("${enCard.replace(/\s+/g, " ").slice(0, 80)}")`);
+
+    current = "chooser";
+    await page.goto(url("/"), { waitUntil: "networkidle" });
+    const cont = await page.getByRole("link", { name: /Tiếp tục học tiếng Anh/ }).count();
+    checks.push(`${cont === 1 ? "PASS" : "FAIL"} trang chọn ngôn ngữ nhớ ngôn ngữ vừa học`);
+
+    // Old Chinese URLs (before /zh) land on 404.html, which forwards to /zh/… — not watched: the 404 status is expected.
+    const legacy = await context.newPage();
+    await legacy.goto(url(`/lesson/${LESSON}/grammar/`));
+    await legacy.waitForURL(/\/zh\/lesson\//, { timeout: 10_000 }).catch(() => undefined);
+    checks.push(`${legacy.url().includes(`/zh/lesson/${LESSON}/grammar`) ? "PASS" : "FAIL"} URL cũ /lesson/… chuyển sang /zh/lesson/… (${new URL(legacy.url()).pathname})`);
+    await legacy.close();
 
     // ── Exercises: one full run of each type ──────────────────────────────────
     const finishRun = async (answerOne: () => Promise<void>) => {
@@ -165,7 +212,7 @@ async function main() {
 
     // ── Listening (docs/LISTENING_PLAN.md) ─────────────────────────────────────
     current = "listen-modes";
-    await page.goto(url(`/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/examples/`), { waitUntil: "networkidle" });
     const first = page.locator("li[data-sentence]").first();
     const hanziColor = () => first.locator('[data-part="hanzi"]').evaluate((el) => getComputedStyle(el).color);
     const visibleColor = await hanziColor();
@@ -207,7 +254,7 @@ async function main() {
     checks.push(`${otherUrl.endsWith("hsk1-0001_slow.mp3") ? "PASS" : "FAIL"} câu 1 → "Chậm" phát file chậm của nguồn (${otherUrl.split("/").pop()})`);
 
     current = "exercise-listening";
-    await page.goto(url(`/lesson/${LESSON}/exercises/listening/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/exercises/listening/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Bắt đầu" }).click();
     const promptsSeen = new Set<string>();
     const listeningDone = await finishRun(async () => {
@@ -217,12 +264,12 @@ async function main() {
     checks.push(`${listeningDone && promptsSeen.size === 3 ? "PASS" : "FAIL"} làm hết một lượt Bài nghe, có đủ 3 dạng (${[...promptsSeen].join(" / ")})`);
 
     current = "listening-overview";
-    await page.goto(url("/listening/"), { waitUntil: "networkidle" });
+    await page.goto(url("/zh/listening/"), { waitUntil: "networkidle" });
     const lesson1 = await page.locator("ol li").first().innerText();
     checks.push(`${/Đã nghe [1-9]\d*\/\d+ câu/.test(lesson1) && /Bài nghe: \d+\/\d+/.test(lesson1) ? "PASS" : "FAIL"} trang Luyện nghe hiện tiến độ bài 1 (${lesson1.split("\n").slice(1, 4).join(" · ")})`);
 
     current = "exercise-sentences";
-    await page.goto(url(`/lesson/${LESSON}/exercises/sentences/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/exercises/sentences/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Bắt đầu" }).click();
     let sawReorder = false;
     let sawPinyin = false;
@@ -240,7 +287,7 @@ async function main() {
     checks.push(`${sentencesDone && sawReorder && sawPinyin ? "PASS" : "FAIL"} làm hết một lượt Bài viết (có cả sắp xếp câu và viết pinyin)`);
 
     current = "exercise-characters";
-    await page.goto(url(`/lesson/${LESSON}/exercises/characters/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/exercises/characters/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Bắt đầu" }).click();
     const frame = page.locator('[aria-label="Khung viết bài tập"]');
     await frame.locator("svg").waitFor();
@@ -275,7 +322,7 @@ async function main() {
 
     // ── Grammar step (PHASE5_GRAMMAR_PLAN) ────────────────────────────────────
     current = "grammar";
-    await page.goto(url(`/lesson/${LESSON}/grammar/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/grammar/`), { waitUntil: "networkidle" });
     const grammarStep = await page.locator('nav[aria-label="Các bước của bài học"] [aria-current="step"]').innerText();
     const grammarCards = await page.locator("article[id^='g1-']").count();
     const grammarAudio = await page.locator("article[id^='g1-'] button[aria-label='Nghe câu với tốc độ bình thường']").count();
@@ -288,13 +335,13 @@ async function main() {
 
     // ── Practice step (PHASE4_PRACTICE_PLAN) ──────────────────────────────────
     current = "practice-hub";
-    await page.goto(url(`/lesson/${LESSON}/practice/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/`), { waitUntil: "networkidle" });
     const activeStep = await page.locator('nav[aria-label="Các bước của bài học"] [aria-current="step"]').innerText();
     const hubCards = await page.locator("#practice-hub-title ~ ul > li").count();
     checks.push(`${activeStep.includes("5. Luyện tập") && hubCards === 6 ? "PASS" : "FAIL"} bước "5. Luyện tập" có 6 mục (thêm Luyện nói) (${activeStep}, ${hubCards} thẻ)`);
 
     current = "practice-vocab";
-    await page.goto(url(`/lesson/${LESSON}/practice/vocab/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/vocab/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "10", exact: true }).click();
     await page.getByRole("button", { name: "Bắt đầu" }).click();
     let sawTyping = false;
@@ -312,7 +359,7 @@ async function main() {
     checks.push(`${vocabDone ? "PASS" : "FAIL"} làm hết một lượt Nhớ từ vựng tới màn hình kết quả`);
 
     current = "practice-flashcards";
-    await page.goto(url(`/lesson/${LESSON}/practice/flashcards/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/flashcards/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Bắt đầu ôn" }).click();
     const before = await page.getByText(/^Còn \d+ thẻ$/).innerText();
     await page.getByRole("button", { name: "Lật thẻ", exact: true }).click();
@@ -324,18 +371,18 @@ async function main() {
     checks.push(`${n(after) === n(before) - 1 ? "PASS" : "FAIL"} flashcard: lật thẻ, "Nhớ rồi" bớt 1 thẻ (${before} → ${after})`);
 
     current = "notebook";
-    await page.goto(url("/flashcards/"), { waitUntil: "networkidle" });
+    await page.goto(url("/zh/flashcards/"), { waitUntil: "networkidle" });
     const notebookHas = await page.getByRole("heading", { name: /Từ đã lưu \(1\)/ }).count();
     const listed = await page.locator("li span.font-han").first().innerText().catch(() => "");
     checks.push(`${notebookHas && listed === cardHanzi ? "PASS" : "FAIL"} từ vừa lưu (${cardHanzi}) có trong Sổ từ`);
 
     current = "practice-copy";
-    await page.goto(url(`/lesson/${LESSON}/practice/copy/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/copy/`), { waitUntil: "networkidle" });
     await page.locator('[aria-label^="Khung chép chữ"] svg').waitFor();
     checks.push("PASS khung Tập chép chữ tải được chữ đầu tiên");
 
     current = "practice-sentences";
-    await page.goto(url(`/lesson/${LESSON}/practice/sentences/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/sentences/`), { waitUntil: "networkidle" });
     const sentenceBox = page.getByLabel(/^Câu của bạn với từ/);
     await sentenceBox.fill("我是老师。");
     await page.getByRole("button", { name: "Tự kiểm tra" }).click();
@@ -346,19 +393,19 @@ async function main() {
     checks.push(`${checked && kept === "我是老师。" ? "PASS" : "FAIL"} Đặt câu: tự kiểm tra hiện câu mẫu, câu được lưu sau khi tải lại`);
 
     current = "practice-paragraph";
-    await page.goto(url(`/lesson/${LESSON}/practice/paragraph/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/practice/paragraph/`), { waitUntil: "networkidle" });
     await page.getByLabel("Đoạn văn của bạn").fill("你好！我是老师。谢谢！");
     const lengthLine = await page.getByText(/^Độ dài: \d+\/30 chữ Hán$/).innerText();
     checks.push(`${lengthLine === "Độ dài: 8/30 chữ Hán" ? "PASS" : "FAIL"} Viết đoạn văn: đếm chữ Hán khi gõ (${lengthLine})`);
 
     current = "practice";
-    await page.goto(url("/practice/"), { waitUntil: "networkidle" });
+    await page.goto(url("/zh/practice/"), { waitUntil: "networkidle" });
     const firstLessonScores = await page.locator("ol li").first().innerText();
     const scored = (firstLessonScores.match(/\d+\/\d+/g) ?? []).length;
     checks.push(`${scored === 3 ? "PASS" : "FAIL"} trang Bài tập hiện điểm của cả 3 loại cho bài 1 (${scored}/3)`);
 
     current = "summary";
-    await page.goto(url(`/lesson/${LESSON}/summary/`), { waitUntil: "networkidle" });
+    await page.goto(url(`/zh/lesson/${LESSON}/summary/`), { waitUntil: "networkidle" });
     await page.getByRole("button", { name: "Hoàn thành bài học" }).click();
     const completed = await page.getByText("Hoàn thành", { exact: true }).count();
     checks.push(`${completed > 0 ? "PASS" : "FAIL"} bấm "Hoàn thành bài học" đổi trạng thái sang Hoàn thành`);
@@ -369,7 +416,7 @@ async function main() {
     checks.push(`${persisted === 1 ? "PASS" : "FAIL"} tiến độ còn sau khi tải lại trang (localStorage)`);
 
     current = "404";
-    const notFound = await page.goto(url("/lesson/khong-ton-tai/"));
+    const notFound = await page.goto(url("/zh/lesson/khong-ton-tai/"));
     const notFoundOk = notFound?.status() === 404 && (await page.getByText("Không tìm thấy trang").count()) > 0;
     // The 404 response itself is expected here; drop it from the problem list.
     for (let i = problems.length - 1; i >= 0; i--) if (problems[i]!.page === "404") problems.splice(i, 1);
@@ -400,7 +447,7 @@ async function main() {
     const tts = await ttsContext.newPage();
     current = "tts";
     watch(tts, problems, () => ({ viewport: "desktop", page: current }));
-    await tts.goto(url(`/lesson/${LESSON}/word/lao3shi1-8001-5e08/`), { waitUntil: "networkidle" });
+    await tts.goto(url(`/zh/lesson/${LESSON}/word/lao3shi1-8001-5e08/`), { waitUntil: "networkidle" });
     await tts.getByRole("button", { name: "Nghe lǎo shī" }).first().click();
     await tts.getByRole("button", { name: "Nghe chậm lǎo shī" }).first().click();
     await tts.getByRole("button", { name: "Nghe 老" }).first().click();
@@ -418,7 +465,7 @@ async function main() {
     };
 
     current = "pinyin-tts";
-    await tts.goto(url("/pinyin/"), { waitUntil: "networkidle" });
+    await tts.goto(url("/zh/pinyin/"), { waitUntil: "networkidle" });
     await tts.getByRole("button", { name: "Nghe zh: 知 zhī" }).click();
     const tileSpoken = (await spokenNow()).at(-1);
     checks.push(`${tileSpoken === "知@0.7" ? "PASS" : "FAIL"} Bài 0: bấm ô thanh mẫu zh đọc chữ ví dụ 知 (${tileSpoken})`);
@@ -432,7 +479,7 @@ async function main() {
     checks.push(`${(await answerAll("#practice")) ? "PASS" : "FAIL"} Bài 0: làm hết một lượt phân biệt âm dễ nhầm`);
 
     current = "vocab-listening";
-    await tts.goto(url(`/lesson/${LESSON}/practice/vocab/`), { waitUntil: "networkidle" });
+    await tts.goto(url(`/zh/lesson/${LESSON}/practice/vocab/`), { waitUntil: "networkidle" });
     await tts.getByRole("button", { name: "🎧 Nghe" }).click();
     await tts.getByRole("button", { name: "10", exact: true }).click();
     const spokenBefore = (await spokenNow()).length;
@@ -453,7 +500,7 @@ async function main() {
       const micPage = await (await micBrowser.newContext({ viewport: { width: 375, height: 812 } })).newPage();
       current = "speaking";
       watch(micPage, problems, () => ({ viewport: "mobile", page: current }));
-      await micPage.goto(url(`/lesson/${LESSON}/practice/speaking/`), { waitUntil: "networkidle" });
+      await micPage.goto(url(`/zh/lesson/${LESSON}/practice/speaking/`), { waitUntil: "networkidle" });
       await micPage.getByRole("button", { name: /Ghi âm/ }).click();
       const result = micPage.getByRole("status").filter({ hasText: "/100" });
       const scored = await result.waitFor({ timeout: 15_000 }).then(() => true, () => false);

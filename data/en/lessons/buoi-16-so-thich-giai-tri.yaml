@@ -1,0 +1,224 @@
+# Buổi 16 — Sở thích & giải trí. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-16-so-thich-giai-tri
+number: 16
+stage: 1
+title_vi: Sở thích & giải trí
+focus:
+  grammar: Động từ + to V / V-ing
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - hobby|n
+      - free-time|phr-n
+      - enjoy|v
+      - collect|v
+      - photography|n
+      - painting|n
+      - gardening|n
+      - camping|n
+      - board-game|phr-n
+      - chess|n
+      - concert|n
+      - museum|n
+      - go-out|phr-v
+      - hang-out|phr-v
+      - relax|v
+      - join|v
+      - club|n
+      - practise|v
+      - musical-instrument|phr-n
+      - mind|v
+  - type: pronunciation
+    notes:
+      - sound: snd-m
+        text_vi: "/m/ cuối từ phải khép môi hẳn: museum, gym, some time. Không dừng ở nguyên âm."
+      - sound: snd-n
+        text_vi: "/n/ cuối từ: join, garden, concert (-n- giữa từ). Người miền Bắc chú ý không đọc n thành l."
+      - sound: snd-j
+        text_vi: "/dʒ/ trong enjoy, join, jogging: bắt đầu như /d/ rồi nhả ra, rung dây thanh. Không đọc thành 'gi' tiếng Việt."
+      - word: photography|n
+        text_vi: "Trọng âm âm 2: pho-TO-gra-phy (khác PHO-to)."
+  - type: grammar
+    items:
+      - en-g1-16
+  - type: examples
+    items:
+      - b16-001
+      - b16-002
+      - b16-003
+      - b16-004
+      - b16-005
+      - b16-006
+      - b16-007
+      - b16-008
+  - type: dialogue
+    title_vi: Nói chuyện về sở thích
+    lines:
+      - speaker: A
+        text: What do you like doing in your free time?
+        vi: Lúc rảnh bạn thích làm gì?
+      - speaker: B
+        text: I love taking photos. I joined a photography club last month.
+        vi: Mình rất thích chụp ảnh. Tháng trước mình đã vào một câu lạc bộ nhiếp ảnh.
+      - speaker: A
+        text: That sounds fun! Do you go out a lot?
+        vi: Nghe vui đấy! Bạn có hay ra ngoài không?
+      - speaker: B
+        text: Yes, I enjoy walking around the Old Quarter with my camera. What about you?
+        vi: Có, mình thích đi dạo quanh Phố Cổ với máy ảnh. Còn bạn?
+      - speaker: A
+        text: I'm learning to play the guitar. I practise every evening.
+        vi: Mình đang học chơi guitar. Tối nào mình cũng tập.
+      - speaker: B
+        text: Wow! Do you want to play at our club party next week?
+        vi: Hay quá! Tuần sau bạn có muốn chơi đàn ở bữa tiệc của câu lạc bộ mình không?
+      - speaker: A
+        text: I'm not very good yet, but I don't mind trying.
+        vi: Mình chưa giỏi lắm, nhưng mình không ngại thử.
+      - speaker: B
+        text: Great! I hope to see you there.
+        vi: Tuyệt! Mong gặp bạn ở đó.
+  - type: exercises
+    items:
+      - id: b16-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - hobby
+          - collect
+          - relax
+          - concert
+          - museum
+          - club
+        questions:
+          - q: My favourite ___ is reading.
+            answer: hobby
+          - q: I ___ old coins from different countries.
+            answer: collect
+          - q: After work, I listen to music to ___.
+            answer: relax
+          - q: We saw a famous singer at the ___ last night.
+            answer: concert
+          - q: There are a lot of old things in the history ___.
+            answer: museum
+          - q: My son is in the school football ___.
+            answer: club
+      - id: b16-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Viết động từ trong ngoặc ở dạng V-ing hoặc to V.
+        questions:
+          - q: I enjoy (cook) ___ for my family.
+            answer: cooking
+          - q: She wants (learn) ___ Japanese.
+            answer: to learn
+          - q: Do you mind (wait) ___ for five minutes?
+            answer: waiting
+          - q: We decided (go) ___ camping in Ba Vi.
+            answer: to go
+          - q: He finished (paint) ___ the picture yesterday.
+            answer: painting
+          - q: I hope (see) ___ you soon.
+            answer: to see
+          - q: Please stop (talk) ___. The film is starting.
+            answer: talking
+          - q: They are planning (visit) ___ the museum.
+            answer: to visit
+      - id: b16-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Let's go ___ this weekend!
+            options:
+              - to swim
+              - swimming
+              - swim
+              - to swimming
+            answer: b
+          - q: Would you like ___ chess with me?
+            options:
+              - playing
+              - play
+              - to play
+              - plays
+            answer: c
+          - q: I'm interested in ___ photos.
+            options:
+              - take
+              - to take
+              - taking
+              - took
+            answer: c
+            explain_vi: Sau giới từ in → V-ing.
+          - q: My brother practises ___ the piano every day.
+            options:
+              - to play
+              - playing
+              - play
+              - played
+            answer: b
+          - q: She loves ___ with her friends.
+            options:
+              - hanging out
+              - hang out
+              - hangs out
+              - hung out
+            answer: a
+            explain_vi: love + V-ing (hoặc to V; ở đây chỉ có V-ing là đúng).
+      - id: b16-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: In my free time I enjoy to play board games with my friends. Last year I decided joining a chess club. I practise to play every evening. Next month I want entering a competition. My friends sometimes go to camping, but I don't like sleeping outside.
+        errors:
+          - wrong: enjoy to play
+            right: enjoy playing
+            why: enjoy + V-ing.
+          - wrong: decided joining
+            right: decided to join
+            why: decide + to V.
+          - wrong: practise to play
+            right: practise playing
+            why: practise + V-ing.
+          - wrong: want entering
+            right: want to enter
+            why: want + to V.
+          - wrong: go to camping
+            right: go camping
+            why: go + V-ing, không có to.
+      - id: b16-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Hoa and her brother Tuan have very different hobbies. Hoa loves being outside. Every Sunday she goes cycling with her club, and in the summer she often goes camping. Tuan prefers staying at home. He enjoys playing chess online and he is learning to play the piano. Last year Tuan decided to join a music club, but he stopped going after two months because it was too far from his house. Their mother wants them to spend more time together, so they now play board games every Friday evening.
+        questions:
+          - q: Hoa goes cycling every weekend.
+            answer: T
+            explain_vi: Every Sunday → mỗi cuối tuần.
+          - q: Tuan still goes to the music club.
+            answer: F
+            explain_vi: Tuan đã thôi đi sau hai tháng.
+          - q: The music club was near Tuan's house.
+            answer: F
+          - q: Tuan plays the piano better than Hoa.
+            answer: NG
+            explain_vi: Bài không nói Hoa có chơi piano hay không.
+          - q: Hoa likes camping.
+            answer: T
+          - q: Their father wants them to spend more time together.
+            answer: F
+            explain_vi: Là MẸ, không phải bố. Đọc kỹ chủ thể.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 70–100 từ về sở thích của bạn: bạn thích làm gì, bắt đầu khi nào, và dự định gì cho sở thích đó. Dùng ít nhất 3 động từ + V-ing và 3 động từ + to V."
+    prompt_en: Describe your favourite hobby and your plans for it.
+    words:
+      min: 70
+      max: 100
+    minutes: 20

@@ -169,7 +169,7 @@ export function VocabRecall({ lessonSlug, words }: { lessonSlug: string; words: 
         build={() => buildVocabRecall(words, Math.random, length, RECALL_MODES[mode], canListen)}
         renderQuestion={(q, onResult) => <RecallView q={q} onResult={onResult} />}
         emptyMessage="Bài học này cần ít nhất 4 từ có nghĩa để luyện nhớ từ."
-        back={{ href: `/lesson/${lessonSlug}/practice/flashcards`, label: "Ôn bằng flashcard" }}
+        back={{ href: `/zh/lesson/${lessonSlug}/practice/flashcards`, label: "Ôn bằng flashcard" }}
       />
     </div>
   );

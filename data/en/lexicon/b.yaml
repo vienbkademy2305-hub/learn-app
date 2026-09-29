@@ -1,0 +1,508 @@
+# Từ vựng chữ "b". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: beautiful|adj
+    headword: beautiful
+    pos: adj
+    forms:
+      comparative: more beautiful
+      superlative: most beautiful
+    ipa:
+      uk: /ˈbjuː.tɪ.fəl/
+      us: /ˈbjuː.t̬ə.fəl/
+    stress: BEAU-ti-ful
+    cefr: A1
+    meaning_vi:
+      - đẹp
+    notes_vi:
+      - "Tính từ dài: more beautiful, không nói *beautifuller*."
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beautiful, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beautiful, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: bedroom|n
+    headword: bedroom
+    pos: n
+    ipa:
+      uk: /ˈbed.ruːm/
+      us: /ˈbed.ruːm/
+    stress: BED-room
+    cefr: A1
+    meaning_vi:
+      - phòng ngủ
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bedroom, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bedroom, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bedroom, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bathroom|n
+    headword: bathroom
+    pos: n
+    ipa:
+      uk: /ˈbɑːθ.ruːm/
+      us: /ˈbæθ.ruːm/
+    stress: BATH-room
+    cefr: A1
+    meaning_vi:
+      - phòng tắm
+      - nhà vệ sinh
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bathroom, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bathroom, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bathroom, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: balcony|n
+    headword: balcony
+    pos: n
+    forms:
+      plural: balconies
+    ipa:
+      uk: /ˈbæl.kə.ni/
+      us: /ˈbæl.kə.ni/
+    stress: BAL-co-ny
+    cefr: null
+    meaning_vi:
+      - ban công
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/balcony, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/balcony, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: behind|prep
+    headword: behind
+    pos: prep
+    ipa:
+      uk: /bɪˈhaɪnd/
+      us: /bɪˈhaɪnd/
+    stress: be-HIND
+    cefr: A1
+    meaning_vi:
+      - phía sau
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behind, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behind, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behind, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: between|prep
+    headword: between
+    pos: prep
+    ipa:
+      uk: /bɪˈtwiːn/
+      us: /bɪˈtwiːn/
+    stress: be-TWEEN
+    cefr: A1
+    meaning_vi:
+      - ở giữa (hai người/vật)
+    collocations:
+      - between A and B
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/between, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/between, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/between, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: birthday|n
+    headword: birthday
+    pos: n
+    ipa:
+      uk: /ˈbɜːθ.deɪ/
+      us: /ˈbɝːθ.deɪ/
+    stress: BIRTH-day
+    cefr: A1
+    meaning_vi:
+      - sinh nhật
+    collocations:
+      - on my birthday
+      - birthday party
+    topics:
+      - time
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/birthday, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/birthday, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/birthday, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: break|n
+    headword: break
+    pos: n
+    ipa:
+      uk: /breɪk/
+      us: /breɪk/
+    cefr: A1
+    meaning_vi:
+      - giờ nghỉ
+      - giờ ra chơi
+    collocations:
+      - have a break
+      - lunch break
+    topics:
+      - school
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bread|n
+    headword: bread
+    pos: n
+    ipa:
+      uk: /bred/
+      us: /bred/
+    cefr: A1
+    meaning_vi:
+      - bánh mì
+    notes_vi:
+      - "Không đếm được: some bread, a slice of bread, a loaf of bread. Không nói *a bread*."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bread, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bread, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bread, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: beef|n
+    headword: beef
+    pos: n
+    ipa:
+      uk: /biːf/
+      us: /biːf/
+    cefr: A2
+    meaning_vi:
+      - thịt bò
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beef, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beef, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beef, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bottle|n
+    headword: bottle
+    pos: n
+    ipa:
+      uk: /ˈbɒt.əl/
+      us: /ˈbɑː.t̬əl/
+    cefr: A1
+    meaning_vi:
+      - cái chai
+    collocations:
+      - a bottle of water
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bottle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bottle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bottle, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: book|v
+    headword: book
+    pos: v
+    forms:
+      past: booked
+    ipa:
+      uk: /bʊk/
+      us: /bʊk/
+    cefr: A2
+    meaning_vi:
+      - đặt (phòng, vé)
+    collocations:
+      - book a room
+      - book a ticket
+      - book a flight
+    notes_vi:
+      - booked đọc /bʊkt/ — một âm tiết.
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/book_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/book_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/book_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: beach|n
+    headword: beach
+    pos: n
+    ipa:
+      uk: /biːtʃ/
+      us: /biːtʃ/
+    cefr: A1
+    meaning_vi:
+      - bãi biển
+    collocations:
+      - on the beach
+    notes_vi:
+      - /iː/ dài — đọc ngắn sẽ thành một từ tục. Luyện kỹ.
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beach, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beach, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beach, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bargain|n
+    headword: bargain
+    pos: n
+    ipa:
+      uk: /ˈbɑː.ɡɪn/
+      us: /ˈbɑːr.ɡɪn/
+    cefr: B2
+    meaning_vi:
+      - món hời
+      - món mua được giá rẻ
+    notes_vi:
+      - That's a bargain! = Mua được giá hời quá!
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bargain, checked: 2026-09-29, field: cefr }
+    status: draft
+  - id: brand|n
+    headword: brand
+    pos: n
+    ipa:
+      uk: /brænd/
+      us: /brænd/
+    cefr: B1
+    meaning_vi:
+      - thương hiệu
+      - nhãn hiệu
+    collocations:
+      - a famous brand
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/brand, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/brand, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/brand, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: break|v
+    headword: break
+    pos: v
+    forms:
+      past: broke
+      pp: broken
+    ipa:
+      uk: /breɪk/
+      us: /breɪk/
+    cefr: A1
+    meaning_vi:
+      - làm vỡ
+      - gãy
+      - hỏng
+    collocations:
+      - break a leg
+      - break a phone
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bicycle|n
+    headword: bicycle
+    pos: n
+    ipa:
+      uk: /ˈbaɪ.sɪ.kəl/
+      us: /ˈbaɪ.sɪ.kəl/
+    cefr: A1
+    meaning_vi:
+      - xe đạp
+    collocations:
+      - ride a bicycle
+    notes_vi:
+      - "Nói tắt: bike."
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bicycle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bicycle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bicycle, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bus-stop|phr-n
+    headword: bus stop
+    pos: phr-n
+    ipa:
+      uk: /ˈbʌs ˌstɒp/
+      us: /ˈbʌs ˌstɑːp/
+    cefr: null
+    meaning_vi:
+      - điểm dừng xe buýt
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bus-stop, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bus-stop, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: board-game|phr-n
+    headword: board game
+    pos: phr-n
+    ipa:
+      uk: /ˈbɔːd ˌɡeɪm/
+      us: /ˈbɔːrd ˌɡeɪm/
+    cefr: null
+    meaning_vi:
+      - trò chơi bàn cờ (cờ tỷ phú, cờ cá ngựa…)
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/board-game, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/board-game, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bored|adj
+    headword: bored
+    pos: adj
+    ipa:
+      uk: /bɔːd/
+      us: /bɔːrd/
+    cefr: A1
+    meaning_vi:
+      - chán (cảm thấy)
+    collocations:
+      - bored with something
+    notes_vi:
+      - I'm bored = tôi thấy chán. I'm boring = tôi là người nhạt nhẽo!
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bored, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bored, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bored, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: boring|adj
+    headword: boring
+    pos: adj
+    ipa:
+      uk: /ˈbɔː.rɪŋ/
+      us: /ˈbɔːr.ɪŋ/
+    cefr: A1
+    meaning_vi:
+      - chán
+      - tẻ nhạt (gây chán)
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/boring, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/boring, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/boring, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: belong-to|phr-v
+    headword: belong to
+    pos: phr-v
+    ipa:
+      uk: /bɪˈlɒŋ tuː/
+      us: /bɪˈlɑːŋ tuː/
+    cefr: null
+    meaning_vi:
+      - thuộc về
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: build|v
+    headword: build
+    pos: v
+    forms:
+      past: built
+      pp: built
+    ipa:
+      uk: /bɪld/
+      us: /bɪld/
+    cefr: A1
+    meaning_vi:
+      - xây
+      - xây dựng
+    notes_vi:
+      - "Bất quy tắc: build – built – built. Chữ u câm."
+    topics:
+      - industry
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-29, field: ipa.us }
+    status: draft

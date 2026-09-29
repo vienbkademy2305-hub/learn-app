@@ -1,0 +1,612 @@
+# Từ vựng chữ "t". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: tall|adj
+    headword: tall
+    pos: adj
+    forms:
+      comparative: taller
+      superlative: tallest
+    ipa:
+      uk: /tɔːl/
+      us: /tɑːl/
+    cefr: A1
+    meaning_vi:
+      - "cao (người, cây, tòa nhà)"
+    notes_vi:
+      - "Người cao dùng tall, không dùng high: He is tall (không nói *He is high*)."
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tall, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tall, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tall, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: third|num
+    headword: third
+    pos: num
+    ipa:
+      uk: /θɜːd/
+      us: /θɝːd/
+    cefr: A1
+    meaning_vi:
+      - thứ ba
+    notes_vi:
+      - Viết tắt 3rd. Âm đầu /θ/, không đọc 'tợt'.
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/third, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/third, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/third, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: twelfth|num
+    headword: twelfth
+    pos: num
+    ipa:
+      uk: /twelfθ/
+      us: /twelfθ/
+    cefr: null
+    meaning_vi:
+      - thứ mười hai
+    notes_vi:
+      - "Chính tả: twelve → twelfth. Cụm phụ âm cuối /lfθ/ khó — đọc chậm từng âm."
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twelfth, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twelfth, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: twentieth|num
+    headword: twentieth
+    pos: num
+    ipa:
+      uk: /ˈtwen.ti.əθ/
+      us: /ˈtwen.t̬i.əθ/
+    cefr: null
+    meaning_vi:
+      - thứ hai mươi
+    notes_vi:
+      - "Đuôi -ty → -tieth: twenty → twentieth, thirty → thirtieth."
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twentieth, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twentieth, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: thirteen|num
+    headword: thirteen
+    pos: num
+    ipa:
+      uk: /θɜːˈtiːn/
+      us: /θɝːˈtiːn/
+    stress: thir-TEEN
+    cefr: A1
+    meaning_vi:
+      - mười ba
+    notes_vi:
+      - "-teen nhấn ở cuối, âm /iː/ dài và có /n/: thir-TEEN."
+    topics:
+      - numbers
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thirteen, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thirteen, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thirteen, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: thirty|num
+    headword: thirty
+    pos: num
+    ipa:
+      uk: /ˈθɜː.ti/
+      us: /ˈθɝː.t̬i/
+    stress: THIR-ty
+    cefr: null
+    meaning_vi:
+      - ba mươi
+    notes_vi:
+      - "-ty nhấn ở đầu: THIR-ty. Nghe nhầm 13/30 là lỗi phổ biến trong IELTS Listening."
+    topics:
+      - numbers
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/thirty, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/thirty, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: take-a-shower|colloc
+    headword: take a shower
+    pos: colloc
+    ipa:
+      uk: /teɪk ə ˈʃaʊ.ə/
+      us: /teɪk ə ˈʃaʊ.ɚ/
+    cefr: null
+    meaning_vi:
+      - tắm (vòi sen)
+    notes_vi:
+      - Anh-Anh cũng nói have a shower.
+    topics:
+      - daily-life
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: twice|adv
+    headword: twice
+    pos: adv
+    ipa:
+      uk: /twaɪs/
+      us: /twaɪs/
+    cefr: A1
+    meaning_vi:
+      - hai lần
+    collocations:
+      - twice a week
+      - twice a day
+    notes_vi:
+      - once (1 lần), twice (2 lần), three times (3 lần trở lên dùng times).
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twice, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twice, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twice, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: timetable|n
+    headword: timetable
+    pos: n
+    ipa:
+      uk: /ˈtaɪmˌteɪ.bəl/
+      us: /ˈtaɪmˌteɪ.bəl/
+    cefr: null
+    meaning_vi:
+      - thời khóa biểu
+      - lịch chạy (tàu, xe)
+    notes_vi:
+      - Anh-Mỹ thường nói schedule.
+    topics:
+      - school
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/timetable, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/timetable, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: textbook|n
+    headword: textbook
+    pos: n
+    ipa:
+      uk: /ˈtekst.bʊk/
+      us: /ˈtekst.bʊk/
+    cefr: B2
+    meaning_vi:
+      - sách giáo khoa
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/textbook, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/textbook, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/textbook, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: take-notes|colloc
+    headword: take notes
+    pos: colloc
+    ipa:
+      uk: /ˌteɪk ˈnəʊts/
+      us: /ˌteɪk ˈnoʊts/
+    cefr: null
+    meaning_vi:
+      - ghi chép
+    notes_vi:
+      - Dùng take, không dùng *write notes* khi nói ghi chép bài.
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: temperature|n
+    headword: temperature
+    pos: n
+    ipa:
+      uk: /ˈtem.prə.tʃə/
+      us: /ˈtem.pɚ.ə.tʃɚ/
+    stress: TEM-pra-ture
+    cefr: A2
+    meaning_vi:
+      - nhiệt độ
+    collocations:
+      - high temperature
+      - low temperature
+    topics:
+      - weather
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/temperature, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/temperature, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/temperature, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: trip|n
+    headword: trip
+    pos: n
+    ipa:
+      uk: /trɪp/
+      us: /trɪp/
+    cefr: A1
+    meaning_vi:
+      - chuyến đi
+    collocations:
+      - a business trip
+      - a day trip
+      - go on a trip
+    notes_vi:
+      - trip = chuyến đi ngắn, có đi và về; travel thường là động từ.
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trip, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trip, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trip, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: travel|v
+    headword: travel
+    pos: v
+    forms:
+      past: travelled
+      pp: travelled
+    ipa:
+      uk: /ˈtræv.əl/
+      us: /ˈtræv.əl/
+    cefr: A1
+    meaning_vi:
+      - đi du lịch
+      - di chuyển
+    notes_vi:
+      - "Anh-Anh: travelled; Anh-Mỹ: traveled. Không nói *a travel* — dùng a trip."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/travel, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/travel, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/travel, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tourist|n
+    headword: tourist
+    pos: n
+    ipa:
+      uk: /ˈtʊə.rɪst/
+      us: /ˈtʊr.ɪst/
+    cefr: A1
+    meaning_vi:
+      - khách du lịch
+    collocations:
+      - tourist attraction
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourist, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourist, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourist, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: try-on|phr-v
+    headword: try on
+    pos: phr-v
+    forms:
+      3sg: tries on
+      past: tried on
+    ipa:
+      uk: /ˌtraɪ ˈɒn/
+      us: /ˌtraɪ ˈɑːn/
+    cefr: null
+    meaning_vi:
+      - mặc thử
+      - đi thử
+    notes_vi:
+      - "Có thể tách: try on the shirt = try the shirt on; với đại từ phải tách: try it on (không nói *try on it*)."
+    topics:
+      - shopping
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: then|adv
+    headword: then
+    pos: adv
+    ipa:
+      uk: /ðen/
+      us: /ðen/
+    cefr: A1
+    meaning_vi:
+      - sau đó
+      - rồi thì
+    notes_vi:
+      - "Dùng để nối các sự việc theo thứ tự: First…, then…, finally…"
+    topics:
+      - story
+      - linking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/then, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/then, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/then, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: traffic|n
+    headword: traffic
+    pos: n
+    ipa:
+      uk: /ˈtræf.ɪk/
+      us: /ˈtræf.ɪk/
+    cefr: A1
+    meaning_vi:
+      - giao thông
+      - xe cộ trên đường
+    collocations:
+      - heavy traffic
+    notes_vi:
+      - "Không đếm được: There is a lot of traffic (không nói *many traffics*)."
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: traffic-jam|phr-n
+    headword: traffic jam
+    pos: phr-n
+    ipa:
+      uk: /ˈtræf.ɪk ˌdʒæm/
+      us: /ˈtræf.ɪk ˌdʒæm/
+    cefr: null
+    meaning_vi:
+      - tắc đường
+    collocations:
+      - be stuck in a traffic jam
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic-jam, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic-jam, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: ticket|n
+    headword: ticket
+    pos: n
+    ipa:
+      uk: /ˈtɪk.ɪt/
+      us: /ˈtɪk.ɪt/
+    cefr: A1
+    meaning_vi:
+      - vé
+    collocations:
+      - a bus ticket
+      - a return ticket
+    topics:
+      - transport
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ticket, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ticket, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ticket, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tomorrow|adv
+    headword: tomorrow
+    pos: adv
+    ipa:
+      uk: /təˈmɒr.əʊ/
+      us: /təˈmɑːr.oʊ/
+    cefr: A1
+    meaning_vi:
+      - ngày mai
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tomorrow, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tomorrow, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tomorrow, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tonight|adv
+    headword: tonight
+    pos: adv
+    ipa:
+      uk: /təˈnaɪt/
+      us: /təˈnaɪt/
+    cefr: A1
+    meaning_vi:
+      - tối nay
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tonight, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tonight, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tonight, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tired|adj
+    headword: tired
+    pos: adj
+    ipa:
+      uk: /taɪəd/
+      us: /taɪrd/
+    cefr: A1
+    meaning_vi:
+      - mệt
+    collocations:
+      - tired of something (chán ngấy)
+    notes_vi:
+      - "Chỉ 1 âm tiết: /taɪəd/, không đọc 'tai-rờ'."
+    topics:
+      - feelings
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tired, checked: 2026-09-29, field: cefr }
+    status: draft
+  - id: tiring|adj
+    headword: tiring
+    pos: adj
+    ipa:
+      uk: /ˈtaɪə.rɪŋ/
+      us: /ˈtaɪr.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - gây mệt mỏi
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tiring, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: talk-to|phr-v
+    headword: talk to
+    pos: phr-v
+    ipa:
+      uk: /ˈtɔːk tuː/
+      us: /ˈtɑːk tuː/
+    cefr: null
+    meaning_vi:
+      - nói chuyện với
+    notes_vi:
+      - "Chữ l câm: /tɔːk/. talk to/with someone."
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: talk-about|phr-v
+    headword: talk about
+    pos: phr-v
+    ipa:
+      uk: /ˈtɔːk əˌbaʊt/
+      us: /ˈtɑːk əˌbaʊt/
+    cefr: null
+    meaning_vi:
+      - nói về
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: think-about|phr-v
+    headword: think about
+    pos: phr-v
+    ipa:
+      uk: /ˈθɪŋk əˌbaʊt/
+      us: /ˈθɪŋk əˌbaʊt/
+    cefr: null
+    meaning_vi:
+      - nghĩ về
+      - cân nhắc
+    notes_vi:
+      - think about = nghĩ tới, cân nhắc; think of = nghĩ ra (think of an idea).
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/think_about, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/think_about, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: translate|v
+    headword: translate
+    pos: v
+    ipa:
+      uk: /trænzˈleɪt/
+      us: /trænsˈleɪt/
+    cefr: B1
+    meaning_vi:
+      - dịch (ngôn ngữ)
+    collocations:
+      - translate into English
+    notes_vi:
+      - translate FROM A INTO B (không dùng *to* hay *sang*).
+    topics:
+      - communication
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/translate, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/translate, checked: 2026-09-29, field: ipa.uk }
+    status: draft

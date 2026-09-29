@@ -1,0 +1,20 @@
+# Câu xuất hiện lần đầu ở Buổi 6. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b06-001, text: I am studying English at the moment., vi: Lúc này tôi đang học tiếng Anh., words: [ study|v ], grammar: [ en-g1-06 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-002, text: The students are taking notes in the classroom., vi: Các sinh viên đang ghi chép trong lớp., words: [ take-notes|colloc, classroom|n ], grammar: [ en-g1-06 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-003, text: My brother isn't doing his homework. He is playing games., vi: Em trai tôi không làm bài tập. Nó đang chơi điện tử., words: [ homework|n ], grammar: [ en-g1-06 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-004, text: "Are you revising for the exam? Yes, I am.", vi: "Bạn đang ôn thi à? Ừ, đúng vậy.", words: [ revise|v, exam|n ], grammar: [ en-g1-06 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-005, text: Our teacher is writing on the board now., vi: Cô giáo đang viết lên bảng., words: [], grammar: [ en-g1-06 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-006, text: Look! Your classmates are waiting for you., vi: Nhìn kìa! Các bạn cùng lớp đang đợi bạn., words: [ classmate|n ], grammar: [ en-g1-06 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-007, text: Which subjects are you studying this term?, vi: Học kỳ này bạn đang học những môn nào?, words: [ subject|n, study|v ], grammar: [ en-g1-06 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-008, text: She is wearing her school uniform today., vi: Hôm nay cô ấy mặc đồng phục trường., words: [ uniform|n ], grammar: [ en-g1-06 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-009, text: Maths is my favourite subject., vi: Toán là môn học yêu thích của tôi., words: [ maths|n, subject|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-010, text: I love history and geography., vi: Tôi rất thích môn sử và môn địa., words: [ history|n, geography|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-011, text: We have science on Monday and Thursday., vi: Chúng tôi có môn khoa học vào thứ Hai và thứ Năm., words: [ science|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-012, text: "In literature class, we read Vietnamese poems.", vi: "Trong giờ văn, chúng tôi đọc thơ Việt Nam.", words: [ literature|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-013, text: English is a useful foreign language., vi: Tiếng Anh là một ngoại ngữ hữu ích., words: [ foreign-language|phr-n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-014, text: Please check the timetable on the wall., vi: Hãy xem thời khóa biểu trên tường., words: [ timetable|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-015, text: Open your textbook at page twenty., vi: Mở sách giáo khoa trang hai mươi., words: [ textbook|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-016, text: We have a short break at ten o'clock., vi: Chúng tôi được nghỉ giải lao một chút lúc mười giờ., words: [ break|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-017, text: I hope I pass the exam., vi: Tôi hy vọng mình thi đỗ., words: [ pass|v, exam|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b06-018, text: Some students fail the exam every year., vi: Năm nào cũng có một số học sinh thi trượt., words: [ fail|v, exam|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

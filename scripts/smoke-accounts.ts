@@ -94,7 +94,7 @@ try {
   page.on("pageerror", (e) => problems.push(`pageerror: ${e.message}`));
 
   // Guest progress first.
-  await page.goto(url(`/lesson/${LESSON}/`), { waitUntil: "networkidle" });
+  await page.goto(url(`/zh/lesson/${LESSON}/`), { waitUntil: "networkidle" });
   check((await page.getByRole("link", { name: "Đăng nhập" }).count()) === 1, "khách thấy nút Đăng nhập trên menu");
   await page.getByRole("button", { name: "Đánh dấu đã học" }).first().click();
 
@@ -113,7 +113,7 @@ try {
   const adopted = table.get(USER.id)?.state as { learned?: object } | undefined;
   check(Object.keys(adopted?.learned ?? {}).length === 1, "đăng nhập tài khoản mới → tiến độ khách (1 từ) được đưa lên tài khoản");
 
-  await page.goto(url(`/lesson/${LESSON}/`), { waitUntil: "networkidle" });
+  await page.goto(url(`/zh/lesson/${LESSON}/`), { waitUntil: "networkidle" });
   await page.getByRole("button", { name: "Đánh dấu đã học" }).first().click();
   await page.waitForTimeout(2500);
   const pushed = table.get(USER.id)?.state as { learned?: object } | undefined;
@@ -124,7 +124,7 @@ try {
   check(panel.includes("tung") && panel.includes("Đã lưu vào tài khoản"), "trang Tài khoản hiện tên và trạng thái “Đã lưu vào tài khoản”");
   await page.getByRole("button", { name: "Đăng xuất" }).click();
   await page.getByRole("link", { name: "Đăng nhập" }).waitFor();
-  await page.goto(url("/hsk/1/"), { waitUntil: "networkidle" });
+  await page.goto(url("/zh/hsk/1/"), { waitUntil: "networkidle" });
   check((await learnedLine(page)) === "1", "đăng xuất → quay về tiến độ khách của trình duyệt (1 từ), không lẫn với tài khoản");
 
   // Another device: signing in brings the account's progress.
@@ -145,7 +145,7 @@ try {
   // The header gains an account button: it must still fit on a narrow phone, signed in and out.
   await other.setViewportSize({ width: 375, height: 812 });
   const overflow = async () => other.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
-  await other.goto(url("/hsk/1/"), { waitUntil: "networkidle" });
+  await other.goto(url("/zh/hsk/1/"), { waitUntil: "networkidle" });
   const signedInOverflow = await overflow();
   await other.screenshot({ path: path.join(ROOT, ".data", "screenshots", "accounts-mobile-signed-in.png") });
   await page.setViewportSize({ width: 375, height: 812 });

@@ -1,0 +1,18 @@
+# Câu xuất hiện lần đầu ở Buổi 2. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b02-001, text: My brother is taller than my father., vi: Anh trai tôi cao hơn bố tôi., words: [ tall|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-002, text: "My sister is shy, but I am more outgoing than her.", vi: "Chị tôi nhút nhát, còn tôi hướng ngoại hơn chị.", words: [ shy|adj, outgoing|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-003, text: Lan has long curly hair., vi: Lan có mái tóc dài xoăn., words: [ curly|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-004, text: My mother is more patient than my father., vi: Mẹ tôi kiên nhẫn hơn bố tôi., words: [ patient|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-005, text: What does your sister look like?, vi: Chị gái bạn trông như thế nào?, words: [ look-like|phr-v ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-006, text: "I look like my mother, but my personality is like my father's.", vi: "Tôi trông giống mẹ, nhưng tính cách lại giống bố.", words: [ look-like|phr-v, personality|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-007, text: He is friendly and very funny., vi: Anh ấy thân thiện và rất hài hước., words: [ friendly|adj, funny|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-008, text: "My younger brother is lazy, but my sister is hard-working.", vi: "Em trai tôi lười, còn chị tôi chăm chỉ.", words: [ lazy|adj, hard-working|adj, younger-brother|phr-n ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-009, text: Don't judge people by their appearance., vi: Đừng đánh giá người khác qua vẻ bề ngoài., words: [ appearance|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-010, text: She is short and slim., vi: Cô ấy thấp và mảnh mai., words: [ short|adj, slim|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-011, text: My uncle is a little overweight., vi: Chú tôi hơi thừa cân., words: [ overweight|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-012, text: Her husband is tall and good-looking., vi: Chồng cô ấy cao và ưa nhìn., words: [ good-looking|adj, husband|n ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-013, text: My son is handsome and my daughter is beautiful., vi: Con trai tôi đẹp trai và con gái tôi xinh đẹp., words: [ handsome|adj, beautiful|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-014, text: She has straight black hair., vi: Cô ấy có mái tóc đen thẳng., words: [ straight|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-015, text: My grandmother is very kind to everyone., vi: Bà tôi rất tốt bụng với mọi người., words: [ kind|adj ], grammar: [ en-g1-02 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b02-016, text: He is confident when he speaks English., vi: Anh ấy tự tin khi nói tiếng Anh., words: [ confident|adj ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

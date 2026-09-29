@@ -1,0 +1,431 @@
+# Ngân hàng 44 âm tiếng Anh (giọng Anh-Anh chuẩn) cho người Việt. BẢN NHÁP chờ duyệt.
+# Tự viết; "Tree or Three?" (nguồn reference) chỉ dùng để đối chiếu phạm vi/thứ tự âm — không chép cặp từ, câu, hình.
+# - lesson: buổi có âm này làm trọng tâm phát âm (references/ban-do-tai-lieu.md §2 của skill english-content).
+# - pairs: cặp từ tối thiểu (chỉ khác nhau 1 âm) — âm của mục này đứng TRƯỚC.
+# - IPA của từ ví dụ: ai-draft, cần đối chiếu Wiktionary/Cambridge.
+source: editorial
+status: draft
+sounds:
+  # ── Nguyên âm đơn ─────────────────────────────────────────────────────────
+  - id: snd-ii
+    ipa: "iː"
+    kind: vowel
+    examples: [see, eat, green]
+    how_vi: "Âm \"i\" kéo dài, môi căng sang hai bên như đang cười."
+    note_vi: "Người Việt đọc /iː/ và /ɪ/ giống nhau. /iː/ dài và căng hơn hẳn."
+    pairs: [[seat, sit], [leave, live], [feel, fill]]
+    lesson: 8
+    tot_unit: 6
+  - id: snd-i
+    ipa: "ɪ"
+    kind: vowel
+    examples: [sit, big, fish]
+    how_vi: "Âm \"i\" ngắn, gọn, môi thả lỏng, miệng hơi mở hơn /iː/."
+    note_vi: "Không kéo dài: ship khác sheep. Cũng là âm của đuôi -ing, -es (/ɪz/), -ed (/ɪd/)."
+    pairs: [[sit, seat], [live, leave], [fill, feel]]
+    lesson: 8
+    tot_unit: 7
+  - id: snd-e
+    ipa: "e"
+    kind: vowel
+    examples: [bed, pen, ten]
+    how_vi: "Giống \"e\" tiếng Việt nhưng miệng mở vừa, lưỡi hơi cao hơn."
+    note_vi: "Phân biệt với /æ/: /e/ miệng mở ít hơn."
+    pairs: [[bed, bad], [men, man], [said, sad]]
+    lesson: 8
+    tot_unit: 15
+  - id: snd-ae
+    ipa: "æ"
+    kind: vowel
+    examples: [cat, bag, happy]
+    how_vi: "Mở miệng rộng như nói \"a\" nhưng vị trí lưỡi của \"e\"; hàm dưới hạ thấp."
+    note_vi: "Tiếng Việt không có. Hay bị đọc thành \"e\" (bad → bed) hoặc \"a\" (cat → cut)."
+    pairs: [[bad, bed], [cat, cut], [man, men]]
+    lesson: 8
+    tot_unit: 16
+  - id: snd-uh
+    ipa: "ʌ"
+    kind: vowel
+    examples: [cup, bus, mother]
+    how_vi: "Âm \"ă\" ngắn, miệng mở vừa, lưỡi thả lỏng ở giữa."
+    note_vi: "Gần \"ă\" tiếng Việt. Chú ý chữ o/ou cũng đọc /ʌ/: son, mother, country."
+    pairs: [[cut, cart], [hut, heart], [cup, cap]]
+    lesson: 9
+    tot_unit: 17
+  - id: snd-aa
+    ipa: "ɑː"
+    kind: vowel
+    examples: [car, father, park]
+    how_vi: "Âm \"a\" dài, miệng mở rộng, lưỡi lùi về sau. Chữ r sau nó không đọc (giọng Anh-Anh)."
+    note_vi: "Không cong lưỡi đọc \"r\" ở car, park (giọng Anh-Anh)."
+    pairs: [[cart, cut], [heart, hut], [heart, hot]]
+    lesson: 9
+    tot_unit: 18
+  - id: snd-o
+    ipa: "ɒ"
+    kind: vowel
+    examples: [hot, dog, shop]
+    how_vi: "Âm \"o\" ngắn, miệng tròn và mở rộng."
+    note_vi: "Ngắn hơn hẳn /ɔː/: shot khác short."
+    pairs: [[pot, port], [shot, short], [cod, cord]]
+    lesson: 11
+    tot_unit: 20
+  - id: snd-oo
+    ipa: "ɔː"
+    kind: vowel
+    examples: [ball, door, walk]
+    how_vi: "Âm \"o\" dài, môi tròn và hơi chu ra."
+    note_vi: "Chữ l trong walk, talk câm. Không đọc walk thành work (/ɜː/)."
+    pairs: [[port, pot], [walk, work], [caught, coat]]
+    lesson: 11
+    tot_unit: 21
+  - id: snd-u
+    ipa: "ʊ"
+    kind: vowel
+    examples: [book, good, put]
+    how_vi: "Âm \"u\" ngắn, môi tròn nhẹ, thả lỏng."
+    note_vi: "Ngắn: full khác fool. Chữ oo có lúc đọc /ʊ/ (book), có lúc /uː/ (food)."
+    pairs: [[full, fool], [pull, pool], [look, Luke]]
+    lesson: 17
+    tot_unit: 29
+  - id: snd-uu
+    ipa: "uː"
+    kind: vowel
+    examples: [food, blue, school]
+    how_vi: "Âm \"u\" dài, môi tròn và chu ra."
+    note_vi: "Kéo dài và căng môi hơn /ʊ/."
+    pairs: [[fool, full], [pool, pull], [Luke, look]]
+    lesson: 17
+    tot_unit: 30
+  - id: snd-er
+    ipa: "ɜː"
+    kind: vowel
+    examples: [bird, work, learn]
+    how_vi: "Âm \"ơ\" dài, môi dẹt, lưỡi ở giữa miệng, không cong lưỡi."
+    note_vi: "Tiếng Việt không có đúng âm này; không đọc work thành walk, bird thành bud."
+    pairs: [[heard, hard], [work, walk], [bird, bud]]
+    lesson: 14
+    tot_unit: 23
+  - id: snd-schwa
+    ipa: "ə"
+    kind: vowel
+    examples: [about, doctor, banana]
+    how_vi: "Âm \"ơ\" rất ngắn và nhẹ, miệng thả lỏng hoàn toàn. Chỉ có ở âm tiết KHÔNG nhấn."
+    note_vi: "Âm hay gặp nhất trong tiếng Anh. Người Việt hay đọc rõ mọi âm tiết (ba-na-na) — phải đọc nhẹ âm không nhấn: bə-NAA-nə. Dạng yếu: a /ə/, than /ðən/, to /tə/, of /əv/."
+    pairs: []
+    lesson: 18
+    tot_unit: 3
+  # ── Nguyên âm đôi ─────────────────────────────────────────────────────────
+  - id: snd-ei
+    ipa: "eɪ"
+    kind: diphthong
+    examples: [day, name, paper]
+    how_vi: "Trượt từ \"e\" sang \"i\": \"ây\"."
+    note_vi: "Phải trượt đủ sang \"i\": late khác let."
+    pairs: [[late, let], [wait, wet], [pain, pen]]
+    lesson: 14
+    tot_unit: 41
+  - id: snd-ai
+    ipa: "aɪ"
+    kind: diphthong
+    examples: [time, like, my]
+    how_vi: "Trượt từ \"a\" sang \"i\": \"ai\"."
+    note_vi: "Giữ phụ âm cuối sau nó: time, like, white — không nuốt /m/, /k/, /t/."
+    pairs: [[white, wait], [time, tame], [buy, bay]]
+    lesson: 15
+    tot_unit: 43
+  - id: snd-oi
+    ipa: "ɔɪ"
+    kind: diphthong
+    examples: [boy, enjoy, noise]
+    how_vi: "Trượt từ \"o\" sang \"i\": \"oi\"."
+    note_vi: "Gần \"oi\" tiếng Việt, dễ."
+    pairs: [[boy, buy], [toy, tie], [oil, aisle]]
+    lesson: 19
+    tot_unit: 42
+  - id: snd-ou
+    ipa: "əʊ"
+    kind: diphthong
+    examples: [go, home, phone]
+    how_vi: "Trượt từ \"ơ\" sang \"u\": \"âu\" (giọng Anh-Anh)."
+    note_vi: "Không đọc thành \"ô\" đơn: coat khác caught. won't /wəʊnt/ khác want /wɒnt/."
+    pairs: [[coat, caught], [low, law], [won't, want]]
+    lesson: 15
+    tot_unit: 34
+  - id: snd-au
+    ipa: "aʊ"
+    kind: diphthong
+    examples: [house, now, brown]
+    how_vi: "Trượt từ \"a\" sang \"u\": \"ao\"."
+    note_vi: "now khác know (/əʊ/), loud khác load."
+    pairs: [[now, know], [loud, load], [found, fond]]
+    lesson: 17
+    tot_unit: 33
+  - id: snd-ie
+    ipa: "ɪə"
+    kind: diphthong
+    examples: [here, near, ear]
+    how_vi: "Trượt từ \"i\" sang \"ơ\" nhẹ: \"ia\". Không đọc r cuối (Anh-Anh)."
+    note_vi: "here khác hair (/eə/)."
+    pairs: [[here, hair], [ear, air], [beer, bear]]
+    lesson: 3
+    tot_unit: 27
+  - id: snd-ea
+    ipa: "eə"
+    kind: diphthong
+    examples: [chair, there, where]
+    how_vi: "Trượt từ \"e\" sang \"ơ\" nhẹ: \"eơ\". Không đọc r cuối (Anh-Anh)."
+    note_vi: "there, their, they're đọc giống nhau: /ðeə/."
+    pairs: [[hair, here], [air, ear], [bear, beer]]
+    lesson: 3
+    tot_unit: 28
+  - id: snd-ue
+    ipa: "ʊə"
+    kind: diphthong
+    examples: [tour, pure, sure]
+    how_vi: "Trượt từ \"u\" sang \"ơ\" nhẹ: \"uơ\"."
+    note_vi: "Ít gặp; nhiều người bản xứ đọc sure, tour thành /ɔː/. Chỉ cần nhận ra khi nghe."
+    pairs: []
+    lesson: 19
+    tot_unit: null
+  # ── Phụ âm ────────────────────────────────────────────────────────────────
+  - id: snd-p
+    ipa: "p"
+    kind: consonant
+    voiced: false
+    examples: [pen, happy, cup]
+    how_vi: "Mím hai môi rồi bật hơi mạnh (đặt tay trước miệng thấy hơi)."
+    note_vi: "Đầu từ phải bật hơi, không đọc như \"p\" nhẹ tiếng Việt. Cuối từ (cup, stop) vẫn phải nghe thấy."
+    pairs: [[pack, back], [pie, buy], [cap, cab]]
+    lesson: 10
+    tot_unit: 44
+  - id: snd-b
+    ipa: "b"
+    kind: consonant
+    voiced: true
+    examples: [bus, baby, job]
+    how_vi: "Mím hai môi, bật ra có rung dây thanh, không bật hơi mạnh."
+    note_vi: "Giữ /b/ cuối từ: job, club, cab."
+    pairs: [[back, pack], [cab, cap], [buy, pie]]
+    lesson: 10
+    tot_unit: 45
+  - id: snd-t
+    ipa: "t"
+    kind: consonant
+    voiced: false
+    examples: [ten, water, cat]
+    how_vi: "Đầu lưỡi chạm lợi trên (sau răng), bật hơi. Không có rung dây thanh."
+    note_vi: "Lỗi nặng: nuốt /t/ cuối (cat → \"ca\"). -ed sau âm vô thanh đọc /t/: worked /wɜːkt/."
+    pairs: [[tie, die], [write, ride], [bet, bed]]
+    lesson: 13
+    tot_unit: 31
+  - id: snd-d
+    ipa: "d"
+    kind: consonant
+    voiced: true
+    examples: [day, door, bed]
+    how_vi: "Đầu lưỡi chạm lợi trên, có rung dây thanh."
+    note_vi: "Không đọc như \"đ\" tiếng Việt (lưỡi đặt thấp hơn). -ed sau âm hữu thanh đọc /d/: lived /lɪvd/; sau t/d đọc /ɪd/: wanted."
+    pairs: [[die, tie], [ride, write], [bed, bet]]
+    lesson: 13
+    tot_unit: 32
+  - id: snd-k
+    ipa: "k"
+    kind: consonant
+    voiced: false
+    examples: [key, school, book]
+    how_vi: "Cuống lưỡi chạm vòm mềm, bật hơi."
+    note_vi: "Giữ /k/ cuối từ: book, like, week — tiếng Việt \"c\" cuối thường không bật."
+    pairs: [[coat, goat], [back, bag], [card, guard]]
+    lesson: 19
+    tot_unit: 46
+  - id: snd-g
+    ipa: "g"
+    kind: consonant
+    voiced: true
+    examples: [girl, go, big]
+    how_vi: "Cuống lưỡi chạm vòm mềm, có rung dây thanh."
+    note_vi: "big khác bick; bag khác back."
+    pairs: [[goat, coat], [bag, back], [guard, card]]
+    lesson: 19
+    tot_unit: 47
+  - id: snd-f
+    ipa: "f"
+    kind: consonant
+    voiced: false
+    examples: [fish, coffee, life]
+    how_vi: "Răng trên đặt nhẹ lên môi dưới, thổi hơi, không rung."
+    note_vi: "Giữ /f/ cuối: life, leaf, safe."
+    pairs: [[fan, van], [leaf, leave], [safe, save]]
+    lesson: 10
+    tot_unit: 8
+  - id: snd-v
+    ipa: "v"
+    kind: consonant
+    voiced: true
+    examples: [van, very, live]
+    how_vi: "Như /f/ nhưng rung dây thanh: răng trên chạm môi dưới."
+    note_vi: "Không đọc thành /w/ (hai môi) hay /b/. /v/ cuối từ (live, leave, five) hay bị nuốt."
+    pairs: [[van, fan], [vet, wet], [leave, leaf]]
+    lesson: 10
+    tot_unit: 9
+  - id: snd-th
+    ipa: "θ"
+    kind: consonant
+    voiced: false
+    examples: [think, month, bathroom]
+    how_vi: "Đầu lưỡi đặt nhẹ giữa hai hàm răng, thổi hơi ra, không rung."
+    note_vi: "Người Việt hay đọc thành /t/ (three → tree) hoặc /s/ (think → sink). Số thứ tự: fourth, fifth, sixth, month."
+    pairs: [[think, sink], [thin, tin], [path, pass]]
+    lesson: 4
+    tot_unit: 4
+  - id: snd-dh
+    ipa: "ð"
+    kind: consonant
+    voiced: true
+    examples: [this, mother, with]
+    how_vi: "Như /θ/ nhưng rung dây thanh: đầu lưỡi giữa hai răng."
+    note_vi: "Hay bị đọc thành \"d\" hoặc \"z\". Gặp liên tục trong the, this, that, they, than."
+    pairs: [[they, day], [then, den], [breathe, breed]]
+    lesson: 2
+    tot_unit: 5
+  - id: snd-s
+    ipa: "s"
+    kind: consonant
+    voiced: false
+    examples: [sun, city, bus]
+    how_vi: "Đầu lưỡi gần lợi trên, hơi thoát ra tạo tiếng xì, không rung."
+    note_vi: "-s sau âm vô thanh đọc /s/: books, works, cats. Không được bỏ."
+    pairs: [[price, prize], [bus, buzz], [rice, rise]]
+    lesson: 5
+    tot_unit: 1
+  - id: snd-z
+    ipa: "z"
+    kind: consonant
+    voiced: true
+    examples: [zoo, easy, is]
+    how_vi: "Như /s/ nhưng rung dây thanh (tiếng \"zzz\" của con ong)."
+    note_vi: "-s sau âm hữu thanh (và nguyên âm) đọc /z/: dogs, lives, siblings, goes. Sau s, z, ʃ, tʃ, dʒ đọc /ɪz/: watches, buses. Sau âm vô thanh đọc /s/: parents, books."
+    pairs: [[prize, price], [buzz, bus], [rise, rice]]
+    lesson: 5
+    tot_unit: 2
+  - id: snd-sh
+    ipa: "ʃ"
+    kind: consonant
+    voiced: false
+    examples: [she, station, fish]
+    how_vi: "Môi chu tròn, lưỡi lùi sau /s/ một chút, thổi hơi: \"sh\"."
+    note_vi: "Phân biệt với /s/: she khác see. -tion, -sion đọc /ʃən/: station, nation."
+    pairs: [[she, see], [ship, sip], [sheet, seat]]
+    lesson: 7
+    tot_unit: 36
+  - id: snd-zh
+    ipa: "ʒ"
+    kind: consonant
+    voiced: true
+    examples: [television, usually, decision]
+    how_vi: "Như /ʃ/ nhưng rung dây thanh."
+    note_vi: "Ít gặp, chủ yếu ở -sion/-sure giữa từ: decision, measure, usually."
+    pairs: []
+    lesson: 7
+    tot_unit: 37
+  - id: snd-h
+    ipa: "h"
+    kind: consonant
+    voiced: false
+    examples: [hat, house, behind]
+    how_vi: "Thở hơi nhẹ ra từ cổ họng, không ma sát mạnh như \"h\" tiếng Việt."
+    note_vi: "Không bỏ /h/: hear khác ear. Chữ h câm trong hour, honest."
+    pairs: [[hear, ear], [hat, at], [hold, old]]
+    lesson: 12
+    tot_unit: 19
+  - id: snd-ch
+    ipa: "tʃ"
+    kind: consonant
+    voiced: false
+    examples: [chair, teacher, watch]
+    how_vi: "Bắt đầu như /t/ rồi nhả thành /ʃ/, môi hơi chu: \"ch\" bật hơi."
+    note_vi: "Không đọc như \"ch\" tiếng Việt (lưỡi phẳng). Giữ âm cuối: watch, lunch, much."
+    pairs: [[chip, ship], [chair, share], [watch, wash]]
+    lesson: 4
+    tot_unit: 38
+  - id: snd-j
+    ipa: "dʒ"
+    kind: consonant
+    voiced: true
+    examples: [jam, orange, bridge]
+    how_vi: "Như /tʃ/ nhưng rung dây thanh."
+    note_vi: "Không đọc thành \"gi\"/\"d\" tiếng Việt (/z/): job khác zob. Cuối từ: orange, change, bridge."
+    pairs: [[jeep, cheap], [ridge, rich], [jet, yet]]
+    lesson: 16
+    tot_unit: 39
+  - id: snd-m
+    ipa: "m"
+    kind: consonant
+    voiced: true
+    examples: [mother, summer, home]
+    how_vi: "Mím hai môi, hơi ra đằng mũi."
+    note_vi: "Cuối từ phải khép môi hẳn: home, some, time."
+    pairs: [[some, sun], [team, teen], [same, sane]]
+    lesson: 16
+    tot_unit: 12
+  - id: snd-n
+    ipa: "n"
+    kind: consonant
+    voiced: true
+    examples: [nose, dinner, ten]
+    how_vi: "Đầu lưỡi chạm lợi trên, hơi ra đằng mũi."
+    note_vi: "Người miền Bắc hay lẫn n/l: night khác light, no khác low."
+    pairs: [[night, light], [thin, thing], [sun, some]]
+    lesson: 16
+    tot_unit: 13
+  - id: snd-ng
+    ipa: "ŋ"
+    kind: consonant
+    voiced: true
+    examples: [sing, long, morning]
+    how_vi: "Cuống lưỡi chạm vòm mềm, hơi ra mũi — như \"ng\" tiếng Việt."
+    note_vi: "Dễ với người Việt. Không thêm /g/ bật ra ở cuối -ing; không đọc -ing thành -in."
+    pairs: [[thing, thin], [wing, win], [bang, ban]]
+    lesson: 6
+    tot_unit: 14
+  - id: snd-l
+    ipa: "l"
+    kind: consonant
+    voiced: true
+    examples: [letter, hello, school]
+    how_vi: "Đầu lưỡi chạm lợi trên, hơi thoát hai bên lưỡi. Cuối từ (ill, cold) là \"l tối\": cuống lưỡi nâng lên."
+    note_vi: "Cuối từ phải có /l/: tell, feel, school — không bỏ hay đọc thành \"u\". Lẫn l/n (miền Bắc)."
+    pairs: [[light, night], [lock, rock], [low, no]]
+    lesson: 12
+    tot_unit: 24
+  - id: snd-r
+    ipa: "r"
+    kind: consonant
+    voiced: true
+    examples: [red, rain, sorry]
+    how_vi: "Cong nhẹ đầu lưỡi về sau, KHÔNG chạm vòm, không rung lưỡi."
+    note_vi: "Không rung như \"r\" tiếng Việt. Giọng Anh-Anh: r chỉ đọc khi sau nó là nguyên âm (red, sorry); câm ở car, teacher, bird."
+    pairs: [[right, light], [rock, lock], [road, load]]
+    lesson: 11
+    tot_unit: 25
+  - id: snd-w
+    ipa: "w"
+    kind: consonant
+    voiced: true
+    examples: [window, water, sweet]
+    how_vi: "Chu tròn hai môi như \"u\" rồi mở nhanh sang nguyên âm sau."
+    note_vi: "Hai môi, không dùng răng — khác /v/: wet khác vet."
+    pairs: [[wet, vet], [wine, vine], [west, vest]]
+    lesson: 10
+    tot_unit: 10
+  - id: snd-y
+    ipa: "j"
+    kind: consonant
+    voiced: true
+    examples: [yes, you, year]
+    how_vi: "Lưỡi nâng cao như đọc \"i\" rồi lướt nhanh sang nguyên âm sau (giống \"d\" giọng miền Nam: \"dê\")."
+    note_vi: "Không bỏ: year khác ear. Có trong u đọc /juː/: use, music, university."
+    pairs: [[year, ear], [yet, jet], [yes, less]]
+    lesson: 19
+    tot_unit: 40

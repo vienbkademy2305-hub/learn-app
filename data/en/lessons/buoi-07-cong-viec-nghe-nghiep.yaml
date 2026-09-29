@@ -1,0 +1,202 @@
+# Buổi 7 — Công việc & nghề nghiệp. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-07-cong-viec-nghe-nghiep
+number: 7
+stage: 1
+title_vi: Công việc & nghề nghiệp
+focus:
+  grammar: Hiện tại đơn và hiện tại tiếp diễn
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - job|n
+      - company|n
+      - office|n
+      - colleague|n
+      - manager|n
+      - salary|n
+      - customer|n
+      - engineer|n
+      - accountant|n
+      - nurse|n
+      - electrician|n
+      - shop-assistant|phr-n
+      - police-officer|phr-n
+      - full-time|adj
+      - part-time|adj
+      - earn|v
+      - apply-for|phr-v
+      - interview|n
+      - unemployed|adj
+      - occupation|n
+  - type: pronunciation
+    notes:
+      - sound: snd-sh
+        text_vi: "Đuôi -tion, -cian đọc /ʃən/: occupation, electrician. Chu môi khi đọc /ʃ/, đừng đọc thành /s/."
+      - sound: snd-zh
+        text_vi: /ʒ/ là bản rung của /ʃ/, gặp trong decision, usually, television.
+      - word: occupation|n
+        text_vi: "Từ có -tion: trọng âm luôn rơi vào âm tiết ngay trước -tion: oc-cu-PA-tion."
+      - word: colleague|n
+        text_vi: "Chỉ 2 âm tiết: KOL-iːg. Không đọc -gue thành 'gơ'."
+  - type: grammar
+    items:
+      - en-g1-07
+  - type: examples
+    items:
+      - b07-001
+      - b07-002
+      - b07-003
+      - b07-004
+      - b07-005
+      - b07-006
+      - b07-007
+      - b07-008
+  - type: dialogue
+    title_vi: Làm quen ở buổi tiệc
+    lines:
+      - speaker: A
+        text: What do you do, Lan?
+        vi: Lan làm nghề gì thế?
+      - speaker: B
+        text: I'm an accountant. I work for a small company in Da Nang.
+        vi: Mình là kế toán. Mình làm cho một công ty nhỏ ở Đà Nẵng.
+      - speaker: A
+        text: Do you like your job?
+        vi: Bạn có thích công việc của mình không?
+      - speaker: B
+        text: Yes, I do. My colleagues are friendly. What about you?
+        vi: Có chứ. Đồng nghiệp của mình rất thân thiện. Còn bạn?
+      - speaker: A
+        text: I'm an engineer, but I'm not working at the moment.
+        vi: Mình là kỹ sư, nhưng hiện giờ mình không đi làm.
+      - speaker: B
+        text: Oh? Why not?
+        vi: Ồ? Sao vậy?
+      - speaker: A
+        text: I'm applying for new jobs. I have an interview on Friday.
+        vi: Mình đang nộp đơn xin việc mới. Thứ Sáu mình có buổi phỏng vấn.
+      - speaker: B
+        text: Good luck! I know you're very hard-working.
+        vi: Chúc may mắn! Mình biết bạn rất chăm chỉ mà.
+  - type: exercises
+    items:
+      - id: b07-x1
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối nghề với định nghĩa tiếng Anh.
+        pairs:
+          - left: accountant
+            right: a person who looks after the money of a company
+          - left: electrician
+            right: a person who repairs lights and electrical things
+          - left: nurse
+            right: a person who looks after sick people in a hospital
+          - left: shop assistant
+            right: a person who helps customers in a shop
+          - left: police officer
+            right: a person who stops crime and keeps people safe
+      - id: b07-x2
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp vào chỗ trống.
+        bank:
+          - salary
+          - colleagues
+          - interview
+          - unemployed
+          - part-time
+          - customers
+        questions:
+          - q: She works four hours a day. It's a ___ job.
+            answer: part-time
+          - q: The shop is busy today. There are a lot of ___.
+            answer: customers
+          - q: He doesn't have a job. He is ___.
+            answer: unemployed
+          - q: I work with twenty ___ in my office.
+            answer: colleagues
+          - q: Doctors in this hospital get a high ___.
+            answer: salary
+          - q: Wear nice clothes for your job ___.
+            answer: interview
+      - id: b07-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ ở hiện tại đơn hoặc hiện tại tiếp diễn.
+        questions:
+          - q: Listen! Somebody (sing) ___ in the next room.
+            answer: is singing
+          - q: My mother (work) ___ in a hospital.
+            answer: works
+          - q: I (not / understand) ___ this word.
+            answer: do not understand
+            accept:
+              - don't understand
+            explain_vi: understand là động từ trạng thái.
+          - q: Look! The bus (come) ___.
+            answer: is coming
+          - q: He usually (drive) ___ to work.
+            answer: drives
+          - q: Today he (take) ___ the bus because his car is broken.
+            answer: is taking
+          - q: What (you / do) ___? I'm a teacher.
+            answer: do you do
+          - q: We (need) ___ a new manager.
+            answer: need
+      - id: b07-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: '"What do you do?" — "___"'
+            options:
+              - I'm reading a book.
+              - I'm a nurse.
+              - I do my homework.
+              - Yes, I do.
+            answer: b
+          - q: She ___ to work by bus every day.
+            options:
+              - is going
+              - go
+              - goes
+              - going
+            answer: c
+          - q: I ___ you. You are Minh's brother!
+            options:
+              - know
+              - am knowing
+              - knows
+              - knowing
+            answer: a
+          - q: Sorry, I can't talk now. I ___ a meeting.
+            options:
+              - have
+              - am having
+              - has
+              - having
+            answer: b
+          - q: My brother ___ a new job this month.
+            options:
+              - look for
+              - looks for
+              - is looking for
+              - are looking for
+            answer: c
+      - id: b07-x5
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần).
+        text: My sister is a nurse. She works in a big hospital, but this week she is working at night.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–90 từ về công việc của một người thân: người đó làm nghề gì, thường làm gì mỗi ngày, và tuần này đang làm gì khác thường. Dùng cả hiện tại đơn và hiện tại tiếp diễn."
+    prompt_en: "Write about the job of someone in your family: what they usually do, and what they are doing this week."
+    words:
+      min: 60
+      max: 90
+    minutes: 15

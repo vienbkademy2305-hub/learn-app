@@ -17,7 +17,7 @@ import { SentenceCard } from "@/features/sentences/SentenceCard";
 export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: string }) {
   const sinoViet = joinSinoViet(word.chars);
   const lessonWords = lessonSlug ? new Set(getLesson(lessonSlug)?.words ?? []) : new Set<string>();
-  const wordHref = (slug: string) => (lessonSlug && lessonWords.has(slug) ? `/lesson/${lessonSlug}/word/${slug}` : `/word/${slug}`);
+  const wordHref = (slug: string) => (lessonSlug && lessonWords.has(slug) ? `/zh/lesson/${lessonSlug}/word/${slug}` : `/zh/word/${slug}`);
   const examples = word.examples.map(getSentence).filter((s) => s !== undefined);
 
   return (
@@ -139,7 +139,7 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
             {word.lessons.map((slug) => {
               const lesson = getLesson(slug);
               return lesson ? (
-                <Link key={slug} href={`/lesson/${slug}`} className="hover:opacity-80">
+                <Link key={slug} href={`/zh/lesson/${slug}`} className="hover:opacity-80">
                   <Badge tone="brand">
                     Bài {lesson.number}: {lesson.title}
                   </Badge>

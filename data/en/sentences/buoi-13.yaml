@@ -1,0 +1,15 @@
+# Câu xuất hiện lần đầu ở Buổi 13. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b13-001, text: Last summer we travelled to Phu Quoc., vi: Hè năm ngoái chúng tôi đi du lịch Phú Quốc., words: [ last|det, travel|v ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-002, text: We stayed at a small hotel near the beach., vi: Chúng tôi ở một khách sạn nhỏ gần biển., words: [ stay|v, hotel|n, beach|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-003, text: "The weather was sunny, but the rooms were very hot.", vi: "Thời tiết nắng đẹp, nhưng phòng thì rất nóng.", words: [ weather|n, sunny|adj ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-004, text: "Did you visit the museum? No, I didn't.", vi: Bạn có đi bảo tàng không? Không., words: [ visit|v, museum|n ], grammar: [ en-g1-13 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-005, text: Our flight arrived in Hanoi two hours ago., vi: Chuyến bay của chúng tôi đã hạ cánh ở Hà Nội hai tiếng trước., words: [ flight|n, arrive|v, ago|adv ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-006, text: I booked the tickets yesterday., vi: Hôm qua tôi đã đặt vé., words: [ book|v, yesterday|adv ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-007, text: There were a lot of tourists in Hoi An., vi: Hội An có rất nhiều khách du lịch., words: [ tourist|n ], grammar: [ en-g1-13, en-g1-03 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-008, text: We didn't go sightseeing because it rained all day., vi: Chúng tôi không đi ngắm cảnh vì trời mưa cả ngày., words: [ sightseeing|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-009, text: Don't forget your passport!, vi: Đừng quên hộ chiếu nhé!, words: [ passport|n ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-010, text: My luggage was very heavy., vi: Hành lý của tôi rất nặng., words: [ luggage|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-011, text: She looked for a souvenir for her mother., vi: Cô ấy tìm một món quà lưu niệm cho mẹ., words: [ souvenir|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-012, text: My uncle travels abroad twice a year., vi: Chú tôi đi nước ngoài hai lần một năm., words: [ abroad|adv, travel|v, twice|adv ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b13-013, text: "It was a short trip, but we enjoyed it.", vi: "Đó là một chuyến đi ngắn, nhưng chúng tôi rất thích.", words: [ trip|n ], grammar: [ en-g1-13 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }

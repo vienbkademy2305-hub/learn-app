@@ -1,0 +1,208 @@
+# Buổi 4 — Số đếm, ngày tháng, thời gian. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-04-so-ngay-thang-thoi-gian
+number: 4
+stage: 1
+title_vi: Số đếm, ngày tháng, thời gian
+focus:
+  grammar: Cách đọc số/ngày, giới từ thời gian in/on/at
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - first|num
+      - second|num
+      - third|num
+      - fifth|num
+      - twelfth|num
+      - twentieth|num
+      - thirteen|num
+      - thirty|num
+      - month|n
+      - week|n
+      - weekend|n
+      - birthday|n
+      - date|n
+      - o'clock|adv
+      - half-past|colloc
+      - quarter|n
+      - morning|n
+      - afternoon|n
+      - midnight|n
+      - holiday|n
+  - type: pronunciation
+    notes:
+      - sound: snd-th
+        text_vi: "/θ/ ở third, fifth, twelfth, month, birthday: đầu lưỡi giữa hai răng, thổi hơi, KHÔNG rung dây thanh. Không đọc thành /t/ hay /s/."
+      - word: thirteen|num
+        text_vi: "13 vs 30: thir-TEEN (nhấn cuối, /iːn/ dài) — THIR-ty (nhấn đầu, /ti/ ngắn). Tương tự 14/40, 15/50…"
+      - word: month|n
+        text_vi: "months /mʌnθs/: cụm /nθs/ khó — tập chậm mon-th-s, không bỏ âm cuối."
+      - sound: snd-ch
+        text_vi: "/tʃ/ trong March, much, watch: môi hơi tròn, bật mạnh; khác /ʃ/ (she)."
+  - type: grammar
+    items:
+      - en-g1-04
+  - type: examples
+    items:
+      - b04-001
+      - b04-002
+      - b04-003
+      - b04-004
+      - b04-005
+      - b04-006
+      - b04-007
+      - b04-008
+  - type: dialogue
+    title_vi: Hẹn ngày sinh nhật
+    lines:
+      - speaker: A
+        text: When is your birthday, Nam?
+        vi: Sinh nhật cậu là khi nào vậy Nam?
+      - speaker: B
+        text: It's on the twelfth of June. What about you?
+        vi: Ngày mười hai tháng Sáu. Còn cậu?
+      - speaker: A
+        text: Mine is in March, on the third.
+        vi: Của mình vào tháng Ba, ngày mùng ba.
+      - speaker: B
+        text: My party is on Saturday. Can you come?
+        vi: Tiệc của mình vào thứ Bảy. Cậu đến được không?
+      - speaker: A
+        text: Sure. What time does it start?
+        vi: Chắc chắn rồi. Mấy giờ bắt đầu?
+      - speaker: B
+        text: At half past six in the evening.
+        vi: Sáu rưỡi tối.
+      - speaker: A
+        text: Sorry, is that six thirty or seven thirty?
+        vi: Xin lỗi, sáu rưỡi hay bảy rưỡi?
+      - speaker: B
+        text: Six thirty. The restaurant is on the fifth floor of Lotte Center.
+        vi: Sáu rưỡi. Nhà hàng ở tầng năm Lotte Center.
+  - type: exercises
+    items:
+      - id: b04-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền in, on hoặc at.
+        bank:
+          - in
+          - on
+          - at
+        questions:
+          - q: I get up ___ 6 o'clock.
+            answer: at
+          - q: My birthday is ___ 12th June.
+            answer: on
+          - q: We have a holiday ___ September.
+            answer: in
+          - q: She goes jogging ___ the morning.
+            answer: in
+          - q: The shop is closed ___ Sunday.
+            answer: on
+          - q: I often read ___ night.
+            answer: at
+          - q: My brother was born ___ 1998.
+            answer: in
+          - q: The party is ___ Saturday evening.
+            answer: on
+            explain_vi: Có thứ cụ thể → on, dù có evening.
+      - id: b04-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn cách đọc đúng.
+        questions:
+          - q: 7:30
+            options:
+              - half past six
+              - half past seven
+              - half to seven
+              - seven half
+            answer: b
+          - q: 8:45
+            options:
+              - a quarter past eight
+              - a quarter to eight
+              - a quarter to nine
+              - eight quarter
+            answer: c
+          - q: 10:15
+            options:
+              - a quarter past ten
+              - a quarter to ten
+              - ten past quarter
+              - half past ten
+            answer: a
+          - q: 2/9 (ngày 2 tháng 9)
+            options:
+              - the two of September
+              - the second of September
+              - September two
+              - the second September of
+            answer: b
+          - q: 2026 (năm)
+            options:
+              - two thousand twenty-six hundred
+              - twenty twenty-six
+              - two zero two six
+              - twenty hundred twenty-six
+            answer: b
+      - id: b04-x3
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết số thứ tự (dạng chữ) của số trong ngoặc.
+        questions:
+          - q: January is the (1) ___ month of the year.
+            base: one
+            answer: first
+          - q: My office is on the (3) ___ floor.
+            base: three
+            answer: third
+          - q: Today is the (5) ___ of May.
+            base: five
+            answer: fifth
+            explain_vi: five → fifth (bỏ ve, thêm fth).
+          - q: December is the (12) ___ month.
+            base: twelve
+            answer: twelfth
+          - q: The party is on the (20) ___ of June.
+            base: twenty
+            answer: twentieth
+            explain_vi: -ty → -tieth.
+      - id: b04-x4
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (chú ý số thứ tự và in/on/at).
+        text: My birthday is on the thirteenth of March. The party starts at half past seven in the evening. There are thirty people.
+      - id: b04-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: My English class is in Monday and Wednesday. It starts at the evening, at seven o'clock. My teacher's birthday is in 5th May. In next week, we have a test on the morning.
+        errors:
+          - wrong: in Monday
+            right: on Monday
+            why: Thứ dùng on.
+          - wrong: at the evening
+            right: in the evening
+            why: Buổi dùng in the…
+          - wrong: in 5th May
+            right: on 5th May
+            why: Ngày cụ thể dùng on.
+          - wrong: In next week
+            right: Next week
+            why: Trước next không dùng giới từ.
+          - wrong: on the morning
+            right: in the morning
+            why: Buổi dùng in the…
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 60–90 từ về những ngày đặc biệt trong năm của bạn (sinh nhật, ngày lễ gia đình…): ngày nào, bạn thường làm gì, lúc mấy giờ. Dùng đúng in/on/at."
+    prompt_en: Write about special days in your year.
+    words:
+      min: 60
+      max: 90
+    minutes: 15

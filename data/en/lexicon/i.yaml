@@ -1,0 +1,174 @@
+# Từ vựng chữ "i". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: in-front-of|prep
+    headword: in front of
+    pos: prep
+    ipa:
+      uk: /ɪn ˈfrʌnt əv/
+      us: /ɪn ˈfrʌnt əv/
+    cefr: null
+    meaning_vi:
+      - phía trước
+    notes_vi:
+      - "Không bỏ of: in front of the house."
+    topics:
+      - place
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: interested-in|colloc
+    headword: interested in
+    pos: colloc
+    ipa:
+      uk: /ˈɪn.trəs.tɪd ɪn/
+      us: /ˈɪn.trəs.tɪd ɪn/
+    cefr: null
+    meaning_vi:
+      - quan tâm
+      - thích thú (cái gì)
+    notes_vi:
+      - Không nói *interested about/on*.
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: interview|n
+    headword: interview
+    pos: n
+    ipa:
+      uk: /ˈɪn.tə.vjuː/
+      us: /ˈɪn.t̬ɚ.vjuː/
+    stress: IN-ter-view
+    cefr: A1
+    meaning_vi:
+      - cuộc phỏng vấn
+    collocations:
+      - a job interview
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interview, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interview, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interview, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: ill|adj
+    headword: ill
+    pos: adj
+    ipa:
+      uk: /ɪl/
+      us: /ɪl/
+    cefr: A2
+    meaning_vi:
+      - ốm
+      - bệnh
+    notes_vi:
+      - "Anh-Mỹ hay dùng sick. Nghỉ ốm: be off sick / take a sick day."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ill, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ill, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ill, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: interesting|adj
+    headword: interesting
+    pos: adj
+    forms:
+      comparative: more interesting
+    ipa:
+      uk: /ˈɪn.trə.stɪŋ/
+      us: /ˈɪn.trə.stɪŋ/
+    stress: IN-ter-est-ing
+    cefr: A1
+    meaning_vi:
+      - thú vị
+    notes_vi:
+      - "Thường đọc 3 âm tiết: IN-trə-sting. Trọng âm âm 1."
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interesting, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interesting, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interesting, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: invent|v
+    headword: invent
+    pos: v
+    ipa:
+      uk: /ɪnˈvent/
+      us: /ɪnˈvent/
+    cefr: A2
+    meaning_vi:
+      - phát minh
+    notes_vi:
+      - invent = tạo ra cái chưa từng có; discover = tìm ra cái đã tồn tại.
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: invention|n
+    headword: invention
+    pos: n
+    ipa:
+      uk: /ɪnˈven.ʃən/
+      us: /ɪnˈven.ʃən/
+    stress: in-VEN-tion
+    cefr: A2
+    meaning_vi:
+      - phát minh
+      - sáng chế
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invention, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invention, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invention, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: import|v
+    headword: import
+    pos: v
+    ipa:
+      uk: /ɪmˈpɔːt/
+      us: /ɪmˈpɔːrt/
+    stress: im-PORT
+    cefr: B1
+    meaning_vi:
+      - nhập khẩu
+    topics:
+      - industry
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-29, field: ipa.us }
+    status: draft

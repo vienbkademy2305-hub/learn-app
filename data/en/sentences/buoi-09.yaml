@@ -1,0 +1,22 @@
+# Câu xuất hiện lần đầu ở Buổi 9. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b09-001, text: This is the cheapest shop in the market., vi: Đây là cửa hàng rẻ nhất trong chợ., words: [ cheap|adj, market|n ], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-002, text: That is the most expensive bag in the shop., vi: Đó là chiếc túi đắt nhất trong cửa hàng., words: [ expensive|adj ], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-003, text: This phone is not as expensive as that one., vi: Chiếc điện thoại này không đắt bằng chiếc kia., words: [ expensive|adj ], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-004, text: Ben Thanh is the most famous market in Ho Chi Minh City., vi: Bến Thành là khu chợ nổi tiếng nhất Thành phố Hồ Chí Minh., words: [ market|n ], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-005, text: Cash is the easiest way to pay at the market., vi: Tiền mặt là cách trả tiền dễ nhất ở chợ., words: [ cash|n, market|n ], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-006, text: "The supermarket is cheaper than the shopping centre, but the market is the cheapest.", vi: "Siêu thị rẻ hơn trung tâm thương mại, nhưng chợ là rẻ nhất.", words: [ supermarket|n, shopping-centre|phr-n, cheap|adj ], grammar: [ en-g1-09, en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-007, text: These shoes are not as comfortable as my old ones., vi: Đôi giày này không thoải mái bằng đôi cũ của tôi., words: [], grammar: [ en-g1-09 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-008, text: How much does this shirt cost?, vi: Chiếc áo sơ mi này giá bao nhiêu?, words: [ cost|v ], grammar: [], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-009, text: The price of rice is higher this year., vi: Năm nay giá gạo cao hơn., words: [ price|n, rice|n ], grammar: [ en-g1-02 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-010, text: There is a big sale this weekend with a thirty per cent discount., vi: "Cuối tuần này có đợt giảm giá lớn, giảm ba mươi phần trăm.", words: [ sale|n, discount|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-011, text: "Can I have the receipt, please?", vi: Cho tôi xin hóa đơn nhé., words: [ receipt|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-012, text: Can I pay by credit card?, vi: Tôi trả bằng thẻ tín dụng được không?, words: [ credit-card|phr-n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-013, text: I pay for my phone every month., vi: Tháng nào tôi cũng trả tiền điện thoại., words: [ pay-for|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-014, text: I can't afford a new car., vi: Tôi không đủ tiền mua xe mới., words: [ afford|v ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-015, text: "What size are you? Medium, please.", vi: Bạn mặc cỡ nào? Cỡ vừa ạ., words: [ size|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-016, text: Can I try on this jacket?, vi: Tôi mặc thử chiếc áo khoác này được không?, words: [ try-on|phr-v ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-017, text: Here is your change., vi: Tiền thừa của bạn đây., words: [ change|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-018, text: I keep my money in my wallet., vi: Tôi để tiền trong ví., words: [ wallet|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-019, text: Only one hundred thousand dong? That's a bargain!, vi: Chỉ một trăm nghìn đồng thôi à? Hời quá!, words: [ bargain|n ], grammar: [], cefr: B1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b09-020, text: Which brand of phone is the most popular in Vietnam?, vi: Hãng điện thoại nào được ưa chuộng nhất ở Việt Nam?, words: [ brand|n ], grammar: [ en-g1-09 ], cefr: B1, audio: { tts: true }, source: editorial, status: draft }

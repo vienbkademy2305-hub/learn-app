@@ -10,7 +10,7 @@ export function PracticeFrame({ slug, current, children }: { slug: string; curre
     <section aria-labelledby="practice-title" className="space-y-4">
       <div className="space-y-3">
         <div>
-          <Link href={`/lesson/${slug}/practice`} className="text-sm font-medium text-brand-700 hover:underline">
+          <Link href={`/zh/lesson/${slug}/practice`} className="text-sm font-medium text-brand-700 hover:underline">
             ← Luyện tập
           </Link>
           <h2 id="practice-title" className="text-lg font-semibold text-stone-900">
@@ -23,7 +23,7 @@ export function PracticeFrame({ slug, current, children }: { slug: string; curre
             {PRACTICE_TYPES.map((t) => (
               <Link
                 key={t.type}
-                href={`/lesson/${slug}/practice/${t.path}`}
+                href={`/zh/lesson/${slug}/practice/${t.path}`}
                 aria-current={t.type === current ? "page" : undefined}
                 className={`whitespace-nowrap rounded-lg px-3 py-1.5 font-medium ${t.type === current ? "bg-white text-stone-900 shadow-sm" : "text-stone-500 hover:text-stone-800"}`}
               >
@@ -34,7 +34,7 @@ export function PracticeFrame({ slug, current, children }: { slug: string; curre
         </nav>
       </div>
       {children}
-      <StepFooter back={{ href: `/lesson/${slug}/practice`, label: "Luyện tập" }} next={{ href: `/lesson/${slug}/exercises`, label: "Bài tập" }} />
+      <StepFooter back={{ href: `/zh/lesson/${slug}/practice`, label: "Luyện tập" }} next={{ href: `/zh/lesson/${slug}/exercises`, label: "Bài tập" }} />
     </section>
   );
 }

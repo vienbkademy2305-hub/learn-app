@@ -1,0 +1,27 @@
+# Từ vựng chữ "q". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: quarter|n
+    headword: quarter
+    pos: n
+    ipa:
+      uk: /ˈkwɔː.tə/
+      us: /ˈkwɔːr.t̬ɚ/
+    cefr: A1
+    meaning_vi:
+      - mười lăm phút
+      - một phần tư
+    collocations:
+      - a quarter past
+      - a quarter to
+    notes_vi:
+      - a quarter to eight = 7:45; a quarter past eight = 8:15.
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-29, field: ipa.us }
+    status: draft

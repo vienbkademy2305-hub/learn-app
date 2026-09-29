@@ -1,0 +1,211 @@
+# Buổi 17 — Cảm xúc & trạng thái. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-17-cam-xuc-trang-thai
+number: 17
+stage: 1
+title_vi: Cảm xúc & trạng thái
+focus:
+  grammar: Tính từ -ed / -ing
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - bored|adj
+      - boring|adj
+      - interested-in|colloc
+      - interesting|adj
+      - excited|adj
+      - exciting|adj
+      - tired|adj
+      - tiring|adj
+      - surprised|adj
+      - surprising|adj
+      - worried-about|colloc
+      - embarrassed|adj
+      - embarrassing|adj
+      - disappointed|adj
+      - confused|adj
+      - confusing|adj
+      - relaxed|adj
+      - nervous|adj
+      - proud|adj
+      - lonely|adj
+  - type: pronunciation
+    notes:
+      - sound: snd-d
+        text_vi: "Đuôi -ed có 3 cách đọc: /ɪd/ sau t, d (ex-CI-ted, dis-ap-POINT-ed); /t/ sau âm vô thanh (relaxed, embarrassed); /d/ còn lại (bored, surprised, confused, tired)."
+      - sound: snd-au
+        text_vi: "/aʊ/ trong proud, about, now: trượt từ 'a' sang 'u'."
+      - sound: snd-uu
+        text_vi: "confused, confusing có /juː/: kən-FJUːZD. Kéo dài âm u."
+      - word: tired|adj
+        text_vi: Chỉ 1 âm tiết /taɪəd/; bored cũng 1 âm tiết /bɔːd/ — không thêm âm 'đờ'.
+  - type: grammar
+    items:
+      - en-g1-17
+  - type: examples
+    items:
+      - b17-001
+      - b17-002
+      - b17-003
+      - b17-004
+      - b17-005
+      - b17-006
+      - b17-007
+      - b17-008
+  - type: dialogue
+    title_vi: Trước ngày kiểm tra
+    lines:
+      - speaker: A
+        text: You look tired. Are you OK?
+        vi: Trông bạn mệt quá. Bạn ổn chứ?
+      - speaker: B
+        text: I'm a bit worried about my English test tomorrow.
+        vi: Mình hơi lo về bài kiểm tra tiếng Anh ngày mai.
+      - speaker: A
+        text: Don't be nervous. You're a hard-working student.
+        vi: Đừng hồi hộp. Bạn chăm chỉ lắm mà.
+      - speaker: B
+        text: Thanks. But the grammar is so confusing!
+        vi: Cảm ơn. Nhưng ngữ pháp khó hiểu quá!
+      - speaker: A
+        text: I know. I thought last week's lesson was really interesting, though.
+        vi: Mình hiểu. Nhưng mình thấy bài tuần trước rất thú vị mà.
+      - speaker: B
+        text: Yes, but I felt embarrassed when the teacher asked me a question.
+        vi: Ừ, nhưng mình thấy ngượng khi cô gọi mình trả lời.
+      - speaker: A
+        text: Everyone makes mistakes. Let's study together tonight.
+        vi: Ai chẳng có lúc sai. Tối nay mình học cùng nhau nhé.
+      - speaker: B
+        text: Great! I feel more relaxed now.
+        vi: Tuyệt! Giờ mình thấy nhẹ nhõm hơn rồi.
+  - type: exercises
+    items:
+      - id: b17-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền dạng -ed hoặc -ing thích hợp.
+        bank:
+          - bored
+          - boring
+          - excited
+          - exciting
+          - tired
+          - tiring
+        questions:
+          - q: The lesson was so ___ that I fell asleep.
+            answer: boring
+          - q: I'm ___. There is nothing to do.
+            answer: bored
+          - q: The children are very ___ about the holiday.
+            answer: excited
+          - q: It was an ___ football match. Both teams played well.
+            answer: exciting
+          - q: Working twelve hours a day is very ___.
+            answer: tiring
+          - q: I'm ___. I want to go to bed.
+            answer: tired
+      - id: b17-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: I was ___ by the news.
+            options:
+              - surprising
+              - surprised
+              - surprise
+              - surprises
+            answer: b
+          - q: This map is ___. Where are we?
+            options:
+              - confused
+              - confuse
+              - confusing
+              - confuses
+            answer: c
+          - q: She felt ___ when she fell over in the street.
+            options:
+              - embarrassing
+              - embarrassed
+              - embarrass
+              - embarrasses
+            answer: b
+          - q: The book was ___. I didn't like the ending.
+            options:
+              - disappointed
+              - disappointing
+              - disappoint
+              - disappoints
+            answer: b
+          - q: Are you ___ in art?
+            options:
+              - interesting
+              - interest
+              - interested
+              - interests
+            answer: c
+          - q: My grandmother lives alone and sometimes feels ___.
+            options:
+              - lonely
+              - alone
+              - nervous
+              - proud
+            answer: a
+      - id: b17-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền giới từ đi sau tính từ.
+        bank:
+          - in
+          - about
+          - of
+          - with
+        questions:
+          - q: I'm very proud ___ my daughter.
+            answer: of
+          - q: Are you worried ___ the exam?
+            answer: about
+          - q: He is interested ___ photography.
+            answer: in
+          - q: The customers were disappointed ___ the service.
+            answer: with
+          - q: We are excited ___ our trip to Da Lat.
+            answer: about
+      - id: b17-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: Last weekend I went to a concert. I was very exciting before it started. The first singer was great, but the second one was bored. I was a bit disappointing. After the concert I felt very tiring, but I was proud about my brother because he played the guitar on stage.
+        errors:
+          - wrong: was very exciting
+            right: was very excited
+            why: Cảm xúc của tôi → -ed.
+          - wrong: second one was bored
+            right: second one was boring
+            why: Ca sĩ gây ra cảm giác chán → -ing.
+          - wrong: a bit disappointing
+            right: a bit disappointed
+            why: Cảm xúc của tôi → -ed.
+          - wrong: felt very tiring
+            right: felt very tired
+            why: feel + -ed.
+          - wrong: proud about
+            right: proud of
+            why: proud of.
+      - id: b17-x5
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -ed và -ing.
+        text: I was very excited about the trip, but the journey was long and tiring. When we arrived, I was too tired to go out.
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 70–100 từ kể về một lần bạn thấy rất vui, hồi hộp hoặc ngượng. Dùng thì quá khứ và ít nhất 4 tính từ -ed/-ing.
+    prompt_en: Describe a time when you felt very happy, nervous or embarrassed.
+    words:
+      min: 70
+      max: 100
+    minutes: 20

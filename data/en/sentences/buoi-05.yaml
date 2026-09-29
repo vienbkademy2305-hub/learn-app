@@ -1,0 +1,13 @@
+# Câu xuất hiện lần đầu ở Buổi 5. Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+sentences:
+  - { id: b05-001, text: I usually get up at six o'clock., vi: Tôi thường dậy lúc sáu giờ., words: [ usually|adv, get-up|phr-v, o'clock|adv ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-002, text: "My father never cooks, but he always does the housework.", vi: "Bố tôi không bao giờ nấu ăn, nhưng luôn làm việc nhà.", words: [ never|adv, cook|v, always|adv, do-the-housework|colloc ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-003, text: She doesn't have breakfast on weekdays., vi: Cô ấy không ăn sáng vào các ngày trong tuần., words: [ have-breakfast|colloc ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-004, text: Do you go to work on Saturday?, vi: Bạn có đi làm vào thứ Bảy không?, words: [ go-to-work|colloc ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-005, text: How often do you watch TV? Twice a week., vi: Bạn có hay xem TV không? Hai lần một tuần., words: [ watch|v, twice|adv ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-006, text: My brother is often late for class., vi: Anh tôi hay đi học muộn., words: [ often|adv ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-007, text: I rarely go to bed before midnight., vi: Tôi hiếm khi đi ngủ trước nửa đêm., words: [ rarely|adv, go-to-bed|colloc, midnight|n ], grammar: [ en-g1-05 ], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-008, text: Sometimes I relax in the garden after work., vi: Thỉnh thoảng tôi thư giãn trong vườn sau giờ làm., words: [ sometimes|adv, relax|v ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-009, text: My daily routine is very simple., vi: Lịch sinh hoạt hằng ngày của tôi rất đơn giản., words: [ routine|n ], grammar: [], cefr: A2, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-010, text: "I wake up at five, but I get up at six.", vi: "Tôi tỉnh giấc lúc năm giờ, nhưng sáu giờ mới dậy.", words: [ wake-up|phr-v, get-up|phr-v ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }
+  - { id: b05-011, text: He takes a shower every evening., vi: Anh ấy tắm mỗi tối., words: [ take-a-shower|colloc ], grammar: [ en-g1-05 ], cefr: A1, audio: { tts: true }, source: editorial, status: draft }

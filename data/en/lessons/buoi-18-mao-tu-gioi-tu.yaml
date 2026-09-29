@@ -1,0 +1,226 @@
+# Buổi 18 — Mạo từ & giới từ trọng tâm. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-18-mao-tu-gioi-tu
+number: 18
+stage: 1
+title_vi: Mạo từ & giới từ trọng tâm
+focus:
+  grammar: a / an / the, động từ + giới từ cố định
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - listen-to|phr-v
+      - look-at|phr-v
+      - look-for|phr-v
+      - wait-for|phr-v
+      - depend-on|phr-v
+      - belong-to|phr-v
+      - talk-to|phr-v
+      - talk-about|phr-v
+      - think-about|phr-v
+      - agree-with|phr-v
+      - ask-for|phr-v
+      - arrive|v
+      - laugh-at|phr-v
+      - apologise-for|phr-v
+  - type: pronunciation
+    notes:
+      - sound: snd-schwa
+        text_vi: "Dạng yếu trong câu: a /ə/, an /ən/, the /ðə/, to /tə/, for /fə/, at /ət/. Đọc nhẹ và nhanh: I'm waiting for the bus → /fə ðə/."
+      - sound: snd-dh
+        text_vi: the đọc /ðə/ trước phụ âm (the bus) và /ði/ trước nguyên âm (the airport).
+      - word: listen-to|phr-v
+        text_vi: "Chữ t câm: LIS-ən."
+      - word: talk-to|phr-v
+        text_vi: "Chữ l câm: /tɔːk/, giống walk."
+  - type: grammar
+    items:
+      - en-g1-18
+  - type: examples
+    items:
+      - b18-001
+      - b18-002
+      - b18-003
+      - b18-004
+      - b18-005
+      - b18-006
+      - b18-007
+      - b18-008
+  - type: dialogue
+    title_vi: Nhận phòng khách sạn
+    lines:
+      - speaker: A
+        text: Good evening. I have a room booked for two nights.
+        vi: Chào buổi tối. Tôi có đặt một phòng hai đêm.
+      - speaker: B
+        text: Welcome. What's the name, please?
+        vi: Xin chào. Anh cho biết tên ạ?
+      - speaker: A
+        text: Nguyen Van An. We arrived in Hanoi an hour ago.
+        vi: Nguyễn Văn An. Chúng tôi đến Hà Nội cách đây một tiếng.
+      - speaker: B
+        text: Thank you. Here is the key. The room is on the fifth floor.
+        vi: Cảm ơn anh. Chìa khóa đây ạ. Phòng ở tầng năm.
+      - speaker: A
+        text: Is there a restaurant in the hotel?
+        vi: Khách sạn có nhà hàng không?
+      - speaker: B
+        text: Yes. Breakfast is from six to ten.
+        vi: Có ạ. Bữa sáng từ sáu đến mười giờ.
+      - speaker: A
+        text: Great. Can I ask for a taxi to the airport on Sunday?
+        vi: Tốt quá. Chủ nhật tôi gọi taxi ra sân bay được không?
+      - speaker: B
+        text: Of course. It depends on your flight time. What time is your flight?
+        vi: Tất nhiên rồi. Còn tùy giờ bay của anh. Chuyến bay của anh lúc mấy giờ ạ?
+  - type: exercises
+    items:
+      - id: b18-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền a, an, the hoặc – (không cần mạo từ).
+        bank:
+          - a
+          - an
+          - the
+          - –
+        questions:
+          - q: My father is ___ engineer.
+            answer: an
+          - q: I bought a new phone yesterday. ___ phone is very fast.
+            answer: the
+            accept:
+              - The
+            explain_vi: Nhắc lại vật đã nói ở câu trước → the.
+          - q: ___ moon goes around the Earth.
+            answer: the
+            accept:
+              - The
+          - q: I don't like ___ coffee. It's too bitter.
+            answer: –
+            explain_vi: Nói chung về cà phê → không mạo từ.
+          - q: We usually have ___ lunch at twelve.
+            answer: –
+          - q: She is ___ best student in the class.
+            answer: the
+          - q: It takes ___ hour to walk there.
+            answer: an
+          - q: He goes to ___ school by bus.
+            answer: –
+            explain_vi: go to school (đi học) không có the.
+      - id: b18-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn a hoặc an theo âm đọc.
+        questions:
+          - q: ___ university
+            options:
+              - a
+              - an
+            answer: a
+            explain_vi: university đọc /juː/ → phụ âm.
+          - q: ___ honest man
+            options:
+              - a
+              - an
+            answer: b
+            explain_vi: h câm → nguyên âm.
+          - q: ___ umbrella
+            options:
+              - a
+              - an
+            answer: b
+          - q: ___ uniform
+            options:
+              - a
+              - an
+            answer: a
+          - q: ___ European country
+            options:
+              - a
+              - an
+            answer: a
+            explain_vi: European đọc /jʊə/ → phụ âm.
+      - id: b18-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền giới từ đi sau động từ.
+        bank:
+          - to
+          - at
+          - for
+          - on
+          - about
+          - with
+        questions:
+          - q: I often listen ___ the radio in the car.
+            answer: to
+          - q: We waited ___ the bus for twenty minutes.
+            answer: for
+          - q: Our plans depend ___ the weather.
+            answer: on
+          - q: Don't laugh ___ him. He is trying his best.
+            answer: at
+          - q: I don't agree ___ you.
+            answer: with
+          - q: What are you thinking ___?
+            answer: about
+          - q: This phone belongs ___ my sister.
+            answer: to
+          - q: She asked ___ a glass of water.
+            answer: for
+      - id: b18-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 6 lỗi. Tìm và sửa.
+        text: My name is Lan and I am accountant. Every morning I have a breakfast with my family. Then I go to the work by bus. It takes a hour. I work for big company in the centre of Hanoi. In the evening I listen music or read books.
+        errors:
+          - wrong: I am accountant
+            right: I am an accountant
+            why: Nghề nghiệp cần a/an; accountant bắt đầu bằng nguyên âm → an.
+          - wrong: have a breakfast
+            right: have breakfast
+            why: Bữa ăn không có mạo từ.
+          - wrong: go to the work
+            right: go to work
+            why: go to work không có the.
+          - wrong: takes a hour
+            right: takes an hour
+            why: h câm → an.
+          - wrong: work for big company
+            right: work for a big company
+            why: Danh từ đếm được số ít cần a.
+          - wrong: listen music
+            right: listen to music
+            why: listen to + tân ngữ.
+      - id: b18-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn rồi chọn T (đúng), F (sai) hoặc NG (không được nhắc đến).
+        passage: Mr and Mrs Tran have a small hotel near the beach in Quy Nhon. Mr Tran is a chef and he cooks breakfast for the guests. Mrs Tran works at the reception desk. Their son is a student at a university in Ho Chi Minh City, but he comes home in the summer and helps his mother. Last year the hotel was full every weekend. The guests often talk about the delicious food, but some of them say that the rooms are small.
+        questions:
+          - q: Mrs Tran cooks breakfast for the guests.
+            answer: F
+            explain_vi: Người nấu là Mr Tran; Mrs Tran làm lễ tân. Đọc kỹ chủ thể.
+          - q: The hotel is near the sea.
+            answer: T
+          - q: The Trans' son studies in Quy Nhon.
+            answer: F
+          - q: The son helps his mother in the summer.
+            answer: T
+          - q: The hotel has a swimming pool.
+            answer: NG
+          - q: All the guests think the rooms are too small.
+            answer: F
+            explain_vi: Bài nói some of them, không phải all.
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết đoạn văn 80–100 từ giới thiệu thành phố hoặc thị trấn của bạn. Trước khi nộp, gạch chân mọi danh từ số ít đếm được và kiểm tra a/an/the.
+    prompt_en: Describe your city or town. Check every a/an/the before you hand it in.
+    words:
+      min: 80
+      max: 100
+    minutes: 20

@@ -1,0 +1,542 @@
+# Từ vựng chữ "p". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: parent|n
+    headword: parent
+    pos: n
+    ipa: { uk: "/ˈpeə.rənt/", us: "/ˈper.ənt/" }
+    cefr: A1
+    meaning_vi: [ bố hoặc mẹ ]
+    forms: { plural: parents }
+    collocations: [ live with my parents ]
+    notes_vi: [ "Bố mẹ = my parents (số nhiều); đọc rõ âm cuối /nts/." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/parent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/parent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/parent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: personality|n
+    headword: personality
+    pos: n
+    ipa:
+      uk: /ˌpɜː.sənˈæl.ə.ti/
+      us: /ˌpɝː.sənˈæl.ə.t̬i/
+    stress: per-so-NA-li-ty
+    cefr: A2
+    meaning_vi:
+      - tính cách
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/personality, checked: 2026-09-29, field: cefr }
+    status: draft
+  - id: patient|adj
+    headword: patient
+    pos: adj
+    forms:
+      comparative: more patient
+    ipa:
+      uk: /ˈpeɪ.ʃənt/
+      us: /ˈpeɪ.ʃənt/
+    cefr: B2
+    meaning_vi:
+      - kiên nhẫn
+    notes_vi:
+      - Cùng chữ với patient (n) = bệnh nhân.
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/patient_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/patient_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/patient_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pass|v
+    headword: pass
+    pos: v
+    forms:
+      3sg: passes
+    ipa:
+      uk: /pɑːs/
+      us: /pæs/
+    cefr: A2
+    meaning_vi:
+      - thi đỗ
+      - vượt qua
+    collocations:
+      - pass an exam
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pass, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pass, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pass, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: police-officer|phr-n
+    headword: police officer
+    pos: phr-n
+    ipa:
+      uk: /pəˈliːs ˌɒf.ɪ.sə/
+      us: /pəˈliːs ˌɑː.fɪ.sɚ/
+    cefr: null
+    meaning_vi:
+      - cảnh sát (người)
+    notes_vi:
+      - "police là danh từ số nhiều: The police ARE here."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/police-officer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/police-officer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: part-time|adj
+    headword: part-time
+    pos: adj
+    ipa:
+      uk: /ˌpɑːtˈtaɪm/
+      us: /ˌpɑːrtˈtaɪm/
+    cefr: B2
+    meaning_vi:
+      - bán thời gian
+    collocations:
+      - a part-time job
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/part-time, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/part-time, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/part-time, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pharmacy|n
+    headword: pharmacy
+    pos: n
+    forms:
+      plural: pharmacies
+    ipa:
+      uk: /ˈfɑː.mə.si/
+      us: /ˈfɑːr.mə.si/
+    stress: PHAR-ma-cy
+    cefr: B2
+    meaning_vi:
+      - hiệu thuốc
+    notes_vi:
+      - Anh-Anh cũng nói chemist's.
+    topics:
+      - health
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pharmacy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pharmacy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pharmacy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pain|n
+    headword: pain
+    pos: n
+    ipa:
+      uk: /peɪn/
+      us: /peɪn/
+    cefr: A2
+    meaning_vi:
+      - cơn đau
+      - sự đau
+    collocations:
+      - back pain
+      - in pain
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pain, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pain, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pain, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: packet|n
+    headword: packet
+    pos: n
+    ipa:
+      uk: /ˈpæk.ɪt/
+      us: /ˈpæk.ɪt/
+    cefr: B2
+    meaning_vi:
+      - gói
+      - túi nhỏ
+    collocations:
+      - a packet of biscuits
+    notes_vi:
+      - Anh-Mỹ hay dùng package.
+    topics:
+      - food
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/packet, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/packet, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/packet, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: passport|n
+    headword: passport
+    pos: n
+    ipa:
+      uk: /ˈpɑːs.pɔːt/
+      us: /ˈpæs.pɔːrt/
+    cefr: A1
+    meaning_vi:
+      - hộ chiếu
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passport, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passport, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passport, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: price|n
+    headword: price
+    pos: n
+    ipa:
+      uk: /praɪs/
+      us: /praɪs/
+    cefr: A1
+    meaning_vi:
+      - giá
+      - giá cả
+    collocations:
+      - the price of
+      - high price
+      - low price
+    notes_vi:
+      - Giá cao/thấp dùng high/low, không dùng *expensive price*.
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/price, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/price, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/price, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pay-for|phr-v
+    headword: pay for
+    pos: phr-v
+    forms:
+      past: paid for
+    ipa:
+      uk: /ˈpeɪ fɔː/
+      us: /ˈpeɪ fɔːr/
+    cefr: null
+    meaning_vi:
+      - trả tiền cho (cái gì)
+    notes_vi:
+      - "pay FOR something; pay BY card; pay IN cash. Quá khứ bất quy tắc: paid."
+    topics:
+      - shopping
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: passenger|n
+    headword: passenger
+    pos: n
+    ipa:
+      uk: /ˈpæs.ən.dʒə/
+      us: /ˈpæs.ən.dʒɚ/
+    stress: PAS-sen-ger
+    cefr: A2
+    meaning_vi:
+      - hành khách
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passenger, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/passenger, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/passenger, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: public-transport|phr-n
+    headword: public transport
+    pos: phr-n
+    ipa:
+      uk: /ˌpʌb.lɪk ˈtræn.spɔːt/
+      us: /ˌpʌb.lɪk ˈtræn.spɔːrt/
+    cefr: null
+    meaning_vi:
+      - phương tiện giao thông công cộng
+    notes_vi:
+      - "Không đếm được, không có a. Anh-Mỹ: public transportation."
+    topics:
+      - transport
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-transport, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-transport, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: plan|v
+    headword: plan
+    pos: v
+    forms:
+      past: planned
+      ing: planning
+    ipa:
+      uk: /plæn/
+      us: /plæn/
+    cefr: A1
+    meaning_vi:
+      - lên kế hoạch
+      - dự định
+    collocations:
+      - plan a trip
+      - plan to do something
+    notes_vi:
+      - "plan TO + V: I plan to study abroad. Nhân đôi n: planned, planning."
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plan_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plan_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plan_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: promise|v
+    headword: promise
+    pos: v
+    forms:
+      past: promised
+    ipa:
+      uk: /ˈprɒm.ɪs/
+      us: /ˈprɑː.mɪs/
+    stress: PRO-mise
+    cefr: A2
+    meaning_vi:
+      - hứa
+    notes_vi:
+      - I promise I'll call you. — lời hứa thường đi với will.
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promise, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promise, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promise, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: probably|adv
+    headword: probably
+    pos: adv
+    ipa:
+      uk: /ˈprɒb.ə.bli/
+      us: /ˈprɑː.bə.bli/
+    cefr: A1
+    meaning_vi:
+      - có lẽ
+      - có khả năng
+    notes_vi:
+      - "Vị trí: I'll probably… / I probably won't…"
+    topics:
+      - plans
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/probably, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/probably, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/probably, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: photography|n
+    headword: photography
+    pos: n
+    ipa:
+      uk: /fəˈtɒɡ.rə.fi/
+      us: /fəˈtɑː.ɡrə.fi/
+    stress: pho-TO-gra-phy
+    cefr: B1
+    meaning_vi:
+      - nhiếp ảnh
+    notes_vi:
+      - "Trọng âm khác photo: PHO-to, pho-TO-gra-phy, pho-to-GRA-phic."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/photography, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/photography, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/photography, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: painting|n
+    headword: painting
+    pos: n
+    ipa:
+      uk: /ˈpeɪn.tɪŋ/
+      us: /ˈpeɪn.t̬ɪŋ/
+    cefr: A1
+    meaning_vi:
+      - hội họa
+      - bức tranh
+    topics:
+      - hobbies
+      - art
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/painting, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/painting, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/painting, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: practise|v
+    headword: practise
+    pos: v
+    forms:
+      ing: practising
+    ipa:
+      uk: /ˈpræk.tɪs/
+      us: /ˈpræk.tɪs/
+    cefr: A1
+    meaning_vi:
+      - luyện tập
+    notes_vi:
+      - "Anh-Anh: practise (động từ), practice (danh từ). Anh-Mỹ dùng practice cho cả hai. practise + V-ing: practise speaking."
+    topics:
+      - hobbies
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practise, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practise, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practise, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: proud|adj
+    headword: proud
+    pos: adj
+    ipa:
+      uk: /praʊd/
+      us: /praʊd/
+    cefr: B1
+    meaning_vi:
+      - tự hào
+    collocations:
+      - proud of someone/something
+    notes_vi:
+      - proud OF (không dùng about/with).
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proud, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proud, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proud, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: produce|v
+    headword: produce
+    pos: v
+    ipa:
+      uk: /prəˈdʒuːs/
+      us: /prəˈduːs/
+    stress: pro-DUCE
+    cefr: A2
+    meaning_vi:
+      - sản xuất
+    notes_vi:
+      - Động từ nhấn âm 2 (pro-DUCE); danh từ produce (nông sản) nhấn âm 1.
+    topics:
+      - industry
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/produce, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/produce, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/produce, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: product|n
+    headword: product
+    pos: n
+    ipa:
+      uk: /ˈprɒd.ʌkt/
+      us: /ˈprɑː.dʌkt/
+    stress: PRO-duct
+    cefr: A1
+    meaning_vi:
+      - sản phẩm
+    collocations:
+      - local products
+    topics:
+      - industry
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/product, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/product, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/product, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: plastic|n
+    headword: plastic
+    pos: n
+    ipa:
+      uk: /ˈplæs.tɪk/
+      us: /ˈplæs.tɪk/
+    cefr: A2
+    meaning_vi:
+      - nhựa
+    collocations:
+      - plastic bag
+      - made of plastic
+    topics:
+      - industry
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-29, field: ipa.us }
+    status: draft

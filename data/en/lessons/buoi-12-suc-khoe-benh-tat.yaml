@@ -1,0 +1,226 @@
+# Buổi 12 — Sức khỏe & bệnh tật. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-12-suc-khoe-benh-tat
+number: 12
+stage: 1
+title_vi: Sức khỏe & bệnh tật
+focus:
+  grammar: should / must / have to (lời khuyên, nghĩa vụ)
+  skill: null
+target_band: 4.0-5.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - health|n
+      - healthy|adj
+      - ill|adj
+      - headache|n
+      - stomachache|n
+      - sore-throat|phr-n
+      - fever|n
+      - cough|n
+      - cold|n
+      - flu|n
+      - medicine|n
+      - pharmacy|n
+      - appointment|n
+      - exercise|v
+      - diet|n
+      - pain|n
+      - rest|n
+      - should|v
+      - have-to|v
+  - type: pronunciation
+    notes:
+      - sound: snd-h
+        text_vi: "/h/ trong health, headache, have, hospital: chỉ là luồng hơi nhẹ từ họng, không đọc nặng như 'h' tiếng Việt khàn."
+      - sound: snd-l
+        text_vi: "/l/ cuối từ (ill, cold, pill, health): đầu lưỡi chạm lợi trên và giữ lại — không bỏ qua, không đọc thành 'u' hay 'ồ'."
+      - word: should|v
+        text_vi: "should /ʃʊd/, could, would: chữ l câm."
+      - word: have-to|v
+        text_vi: have to đọc nối /ˈhæf.tə/ (v biến thành f), has to /ˈhæs.tə/.
+      - word: cough|n
+        text_vi: "cough /kɒf/: gh đọc /f/, giống enough, laugh."
+  - type: grammar
+    items:
+      - en-g1-12
+  - type: examples
+    items:
+      - b12-001
+      - b12-002
+      - b12-003
+      - b12-004
+      - b12-005
+      - b12-006
+      - b12-007
+      - b12-008
+  - type: dialogue
+    title_vi: Đi khám bác sĩ
+    lines:
+      - speaker: A
+        text: Good morning. What's the problem?
+        vi: Chào anh. Anh bị làm sao?
+      - speaker: B
+        text: I have a headache and a sore throat. I also have a fever.
+        vi: Tôi bị đau đầu và đau họng. Tôi còn bị sốt nữa.
+      - speaker: A
+        text: I think you have the flu. You must take this medicine twice a day.
+        vi: Tôi nghĩ anh bị cúm. Anh phải uống thuốc này hai lần một ngày.
+      - speaker: B
+        text: Do I have to stay at home?
+        vi: Tôi có phải ở nhà không?
+      - speaker: A
+        text: Yes. You should get some rest for three days, and you shouldn't go to work.
+        vi: Có. Anh nên nghỉ ngơi ba ngày, và không nên đi làm.
+      - speaker: B
+        text: Can I drink coffee?
+        vi: Tôi uống cà phê được không?
+      - speaker: A
+        text: You should drink warm water, not coffee.
+        vi: Anh nên uống nước ấm, đừng uống cà phê.
+      - speaker: B
+        text: Do I have to make another appointment?
+        vi: Tôi có phải đặt lịch hẹn nữa không?
+      - speaker: A
+        text: No, you don't have to. Just come back if you feel worse.
+        vi: Không cần đâu. Nếu thấy tệ hơn thì quay lại.
+  - type: exercises
+    items:
+      - id: b12-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ thích hợp.
+        bank:
+          - fever
+          - cough
+          - appointment
+          - pharmacy
+          - medicine
+          - diet
+        questions:
+          - q: My temperature is 39 degrees. I have a ___.
+            answer: fever
+          - q: You can buy this at the ___ next to the hospital.
+            answer: pharmacy
+          - q: I want to see the doctor. I need to make an ___.
+            answer: appointment
+          - q: Take this ___ after meals.
+            answer: medicine
+          - q: He smokes a lot, so he has a bad ___.
+            answer: cough
+          - q: Eating fruit every day is part of a healthy ___.
+            answer: diet
+      - id: b12-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: You look tired. You ___ go to bed early.
+            options:
+              - should
+              - mustn't
+              - don't have to
+              - shouldn't
+            answer: a
+          - q: The museum is free. You ___ pay.
+            options:
+              - mustn't
+              - don't have to
+              - shouldn't
+              - must
+            answer: b
+            explain_vi: Miễn phí = không cần trả.
+          - q: You ___ smoke in the hospital. It's not allowed.
+            options:
+              - don't have to
+              - mustn't
+              - should
+              - have to
+            answer: b
+            explain_vi: Cấm → mustn't.
+          - q: My sister ___ wear a uniform at work.
+            options:
+              - have to
+              - has to
+              - must to
+              - should to
+            answer: b
+          - q: You should ___ more water.
+            options:
+              - to drink
+              - drinks
+              - drink
+              - drinking
+            answer: c
+      - id: b12-x3
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lời khuyên với should hoặc shouldn't cho mỗi tình huống.
+        questions:
+          - q: I have a headache. (take some medicine)
+            answer: You should take some medicine.
+            accept:
+              - You should take medicine.
+          - q: I have a sore throat. (drink cold water)
+            answer: You shouldn't drink cold water.
+            accept:
+              - You should not drink cold water.
+          - q: I'm always tired. (go to bed late)
+            answer: You shouldn't go to bed late.
+            accept:
+              - You should not go to bed late.
+          - q: I have a bad cough. (see a doctor)
+            answer: You should see a doctor.
+      - id: b12-x4
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc thông báo và điền KHÔNG QUÁ HAI TỪ vào mỗi chỗ trống.
+        max_words: 2
+        passage: CITY HOSPITAL — VISITOR INFORMATION. Visitors must come between 3 p.m. and 7 p.m. You don't have to make an appointment to visit a patient. You mustn't bring food into the rooms. Children under 12 have to come with an adult. If you have a cough or a fever, you should wear a mask. The pharmacy is on the first floor, next to the café.
+        questions:
+          - q: Visitors can come until ___.
+            answer: 7 p.m.
+            accept:
+              - 7 pm
+              - "7"
+          - q: Visitors don't need an ___.
+            answer: appointment
+          - q: Visitors mustn't bring ___ into the rooms.
+            answer: food
+          - q: Children under 12 must come with ___.
+            answer: an adult
+            accept:
+              - adult
+          - q: The pharmacy is on the ___.
+            answer: first floor
+      - id: b12-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn dưới đây có 5 lỗi. Tìm và sửa.
+        text: My brother is ill. He is headache and he has a fever. The doctor says he should to rest and he musts drink a lot of water. He have to take medicine three times a day. He is happy because he mustn't go to school this week — the school is closed.
+        errors:
+          - wrong: He is headache
+            right: He has a headache
+            why: Dùng have a headache.
+          - wrong: should to rest
+            right: should rest
+            why: Sau should không có to.
+          - wrong: he musts drink
+            right: he must drink
+            why: must không thêm -s.
+          - wrong: He have to
+            right: He has to
+            why: He → has to.
+          - wrong: he mustn't go to school
+            right: he doesn't have to go to school
+            why: Trường đóng cửa = không cần đi, không phải bị cấm.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 80–100 từ đưa lời khuyên cho một người bạn hay bị mệt và ốm: bạn ấy nên / không nên / phải làm gì để khỏe hơn."
+    prompt_en: Give advice to a friend who is often tired and ill.
+    words:
+      min: 80
+      max: 100
+    minutes: 20

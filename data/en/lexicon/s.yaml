@@ -1,0 +1,923 @@
+# Từ vựng chữ "s". IPA do Claude điền (ai-draft), CEFR chưa tra (UNRESOLVED) — cần research.
+entries:
+  - id: sibling|n
+    headword: sibling
+    pos: n
+    ipa: { uk: "/ˈsɪb.lɪŋ/", us: "/ˈsɪb.lɪŋ/" }
+    cefr: B2
+    meaning_vi: [ anh chị em ruột ]
+    forms: { plural: siblings }
+    collocations: [ have siblings, older sibling ]
+    notes_vi: [ "Nhiều người → siblings (học viên từng quên -s ở bài này)." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sibling, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sibling, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sibling, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: single|adj
+    headword: single
+    pos: adj
+    ipa: { uk: "/ˈsɪŋ.ɡəl/", us: "/ˈsɪŋ.ɡəl/" }
+    cefr: A2
+    meaning_vi: [ độc thân ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: son|n
+    headword: son
+    pos: n
+    ipa: { uk: "/sʌn/", us: "/sʌn/" }
+    cefr: A1
+    meaning_vi: [ con trai ]
+    notes_vi: [ "Đọc giống sun (mặt trời)." ]
+    topics: [ personal-info, family ]
+    source: editorial
+    provenance:
+      - { source: ai-draft, field: meaning_vi }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/son, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/son, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/son, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: short|adj
+    headword: short
+    pos: adj
+    forms:
+      comparative: shorter
+      superlative: shortest
+    ipa:
+      uk: /ʃɔːt/
+      us: /ʃɔːrt/
+    cefr: A1
+    meaning_vi:
+      - thấp (người)
+      - "ngắn (tóc, đồ vật)"
+    collocations:
+      - short hair
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/short, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/short, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/short, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: slim|adj
+    headword: slim
+    pos: adj
+    forms:
+      comparative: slimmer
+      superlative: slimmest
+    ipa:
+      uk: /slɪm/
+      us: /slɪm/
+    cefr: null
+    meaning_vi:
+      - mảnh mai
+      - thon thả
+    notes_vi:
+      - "Slim là lời khen; thin (gầy) có thể mang ý chê. Nhân đôi m: slimmer."
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slim, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slim, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: straight|adj
+    headword: straight
+    pos: adj
+    ipa:
+      uk: /streɪt/
+      us: /streɪt/
+    cefr: A2
+    meaning_vi:
+      - "thẳng (tóc, đường)"
+    collocations:
+      - straight hair
+    notes_vi:
+      - gh câm; âm cuối /t/ phải bật ra.
+    topics:
+      - appearance
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/straight_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/straight_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/straight_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shy|adj
+    headword: shy
+    pos: adj
+    forms:
+      comparative: shyer
+    ipa:
+      uk: /ʃaɪ/
+      us: /ʃaɪ/
+    cefr: B1
+    meaning_vi:
+      - nhút nhát
+      - ngại ngùng
+    topics:
+      - personality
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sofa|n
+    headword: sofa
+    pos: n
+    ipa:
+      uk: /ˈsəʊ.fə/
+      us: /ˈsoʊ.fə/
+    cefr: null
+    meaning_vi:
+      - ghế sofa
+    topics:
+      - home
+      - furniture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sofa, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sofa, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shelf|n
+    headword: shelf
+    pos: n
+    forms:
+      plural: shelves
+    ipa:
+      uk: /ʃelf/
+      us: /ʃelf/
+    cefr: B1
+    meaning_vi:
+      - cái kệ
+      - giá sách
+    notes_vi:
+      - "Số nhiều bất quy tắc: shelf → shelves."
+    topics:
+      - home
+      - furniture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shelf, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shelf, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shelf, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: stairs|n
+    headword: stairs
+    pos: n
+    ipa:
+      uk: /steəz/
+      us: /sterz/
+    cefr: null
+    meaning_vi:
+      - cầu thang
+    notes_vi:
+      - "Luôn dùng số nhiều: go up the stairs."
+    topics:
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stairs, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stairs, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: second|num
+    headword: second
+    pos: num
+    ipa:
+      uk: /ˈsek.ənd/
+      us: /ˈsek.ənd/
+    cefr: A1
+    meaning_vi:
+      - thứ hai
+    notes_vi:
+      - Viết tắt 2nd. Còn là danh từ 'giây' (a second).
+    topics:
+      - numbers
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/second_3, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/second_3, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/second_3, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sometimes|adv
+    headword: sometimes
+    pos: adv
+    ipa:
+      uk: /ˈsʌm.taɪmz/
+      us: /ˈsʌm.taɪmz/
+    cefr: A1
+    meaning_vi:
+      - thỉnh thoảng (~40%)
+    notes_vi:
+      - "Có thể đứng đầu câu: Sometimes I cook dinner."
+    topics:
+      - frequency
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sometimes, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sometimes, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sometimes, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: subject|n
+    headword: subject
+    pos: n
+    ipa:
+      uk: /ˈsʌb.dʒekt/
+      us: /ˈsʌb.dʒekt/
+    stress: SUB-ject
+    cefr: A1
+    meaning_vi:
+      - môn học
+    collocations:
+      - favourite subject
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subject, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/subject, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/subject, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: science|n
+    headword: science
+    pos: n
+    ipa:
+      uk: /ˈsaɪ.əns/
+      us: /ˈsaɪ.əns/
+    cefr: A1
+    meaning_vi:
+      - khoa học
+      - môn khoa học
+    notes_vi:
+      - "Chữ c đầu câm: đọc SAI-ơns."
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/science, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/science, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/science, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: study|v
+    headword: study
+    pos: v
+    forms:
+      3sg: studies
+      ing: studying
+      past: studied
+    ipa:
+      uk: /ˈstʌd.i/
+      us: /ˈstʌd.i/
+    cefr: A1
+    meaning_vi:
+      - học
+      - nghiên cứu
+    notes_vi:
+      - studying giữ nguyên y (không đổi thành i trước -ing).
+    topics:
+      - school
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/study_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/study_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/study_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: season|n
+    headword: season
+    pos: n
+    ipa:
+      uk: /ˈsiː.zən/
+      us: /ˈsiː.zən/
+    cefr: A2
+    meaning_vi:
+      - mùa
+    collocations:
+      - rainy season
+      - dry season
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/season, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/season, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/season, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sunny|adj
+    headword: sunny
+    pos: adj
+    forms:
+      comparative: sunnier
+    ipa:
+      uk: /ˈsʌn.i/
+      us: /ˈsʌn.i/
+    cefr: A1
+    meaning_vi:
+      - nắng
+    notes_vi:
+      - "sun (n) → sunny (adj): It's sunny (không nói *It's sun*)."
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sunny, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sunny, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sunny, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: storm|n
+    headword: storm
+    pos: n
+    ipa:
+      uk: /stɔːm/
+      us: /stɔːrm/
+    cefr: A2
+    meaning_vi:
+      - cơn bão
+      - giông
+    notes_vi:
+      - Bão nhiệt đới lớn gọi là typhoon.
+    topics:
+      - weather
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/storm, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/storm, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/storm, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: salary|n
+    headword: salary
+    pos: n
+    ipa:
+      uk: /ˈsæl.ər.i/
+      us: /ˈsæl.ɚ.i/
+    cefr: A2
+    meaning_vi:
+      - lương (tháng/năm)
+    collocations:
+      - a good salary
+      - earn a salary
+    topics:
+      - work
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salary, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salary, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salary, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shop-assistant|phr-n
+    headword: shop assistant
+    pos: phr-n
+    ipa:
+      uk: /ˈʃɒp əˌsɪs.tənt/
+      us: /ˈʃɑːp əˌsɪs.tənt/
+    cefr: null
+    meaning_vi:
+      - nhân viên bán hàng
+    topics:
+      - work
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shop-assistant, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shop-assistant, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: stomachache|n
+    headword: stomachache
+    pos: n
+    ipa:
+      uk: /ˈstʌm.ək.eɪk/
+      us: /ˈstʌm.ək.eɪk/
+    cefr: null
+    meaning_vi:
+      - đau bụng
+    notes_vi:
+      - stomach đọc /ˈstʌm.ək/ — ch đọc /k/.
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stomachache, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stomachache, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sore-throat|phr-n
+    headword: sore throat
+    pos: phr-n
+    ipa:
+      uk: /ˌsɔː ˈθrəʊt/
+      us: /ˌsɔːr ˈθroʊt/
+    cefr: null
+    meaning_vi:
+      - đau họng
+    collocations:
+      - have a sore throat
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sore-throat, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sore-throat, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: should|v
+    headword: should
+    pos: v
+    ipa:
+      uk: /ʃʊd/
+      us: /ʃʊd/
+    cefr: null
+    meaning_vi:
+      - nên
+    notes_vi:
+      - "Động từ khuyết thiếu: sau should là V nguyên mẫu, không có to, không thêm -s: She should rest."
+      - "l câm: /ʃʊd/."
+    topics:
+      - grammar-words
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/should, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/should, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: salt|n
+    headword: salt
+    pos: n
+    ipa:
+      uk: /sɔːlt/
+      us: /sɑːlt/
+    cefr: A1
+    meaning_vi:
+      - muối
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salt, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salt, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salt, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sugar|n
+    headword: sugar
+    pos: n
+    ipa:
+      uk: /ˈʃʊɡ.ə/
+      us: /ˈʃʊɡ.ɚ/
+    cefr: A1
+    meaning_vi:
+      - đường (ăn)
+    notes_vi:
+      - "Chữ s đọc /ʃ/: SHU-gơ."
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sugar, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sugar, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sugar, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: slice|n
+    headword: slice
+    pos: n
+    ipa:
+      uk: /slaɪs/
+      us: /slaɪs/
+    cefr: B1
+    meaning_vi:
+      - lát
+      - miếng mỏng
+    collocations:
+      - a slice of bread
+      - a slice of cake
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slice, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slice, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slice, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: snack|n
+    headword: snack
+    pos: n
+    ipa:
+      uk: /snæk/
+      us: /snæk/
+    cefr: null
+    meaning_vi:
+      - đồ ăn vặt
+      - bữa ăn nhẹ
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/snack, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/snack, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: spicy|adj
+    headword: spicy
+    pos: adj
+    forms:
+      comparative: spicier
+    ipa:
+      uk: /ˈspaɪ.si/
+      us: /ˈspaɪ.si/
+    cefr: B1
+    meaning_vi:
+      - cay
+    topics:
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spicy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spicy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spicy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sightseeing|n
+    headword: sightseeing
+    pos: n
+    ipa:
+      uk: /ˈsaɪtˌsiː.ɪŋ/
+      us: /ˈsaɪtˌsiː.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - đi ngắm cảnh
+      - tham quan
+    collocations:
+      - go sightseeing
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sightseeing, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sightseeing, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: stay|v
+    headword: stay
+    pos: v
+    forms:
+      past: stayed
+    ipa:
+      uk: /steɪ/
+      us: /steɪ/
+    cefr: A1
+    meaning_vi:
+      - ở lại
+      - lưu trú
+    collocations:
+      - stay at a hotel
+      - stay with friends
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stay, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stay, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stay, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: souvenir|n
+    headword: souvenir
+    pos: n
+    ipa:
+      uk: /ˌsuː.vənˈɪə/
+      us: /ˌsuː.vəˈnɪr/
+    stress: sou-ve-NIR
+    cefr: null
+    meaning_vi:
+      - quà lưu niệm
+    topics:
+      - travel
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/souvenir, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sale|n
+    headword: sale
+    pos: n
+    ipa:
+      uk: /seɪl/
+      us: /seɪl/
+    cefr: A2
+    meaning_vi:
+      - đợt giảm giá
+      - việc bán
+    collocations:
+      - on sale
+      - for sale
+    notes_vi:
+      - on sale = đang giảm giá (Anh-Mỹ) hoặc đang bán; for sale = rao bán.
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sale, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sale, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sale, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: supermarket|n
+    headword: supermarket
+    pos: n
+    ipa:
+      uk: /ˈsuː.pəˌmɑː.kɪt/
+      us: /ˈsuː.pɚˌmɑːr.kɪt/
+    stress: SU-per-mar-ket
+    cefr: A1
+    meaning_vi:
+      - siêu thị
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supermarket, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supermarket, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supermarket, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shopping-centre|phr-n
+    headword: shopping centre
+    pos: phr-n
+    ipa:
+      uk: /ˈʃɒp.ɪŋ ˌsen.tə/
+      us: /ˈʃɑː.pɪŋ ˌsen.t̬ɚ/
+    cefr: null
+    meaning_vi:
+      - trung tâm thương mại
+    notes_vi:
+      - "Anh-Mỹ: mall hoặc shopping center."
+    topics:
+      - shopping
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-centre, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-centre, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: size|n
+    headword: size
+    pos: n
+    ipa:
+      uk: /saɪz/
+      us: /saɪz/
+    cefr: A2
+    meaning_vi:
+      - cỡ
+      - kích cỡ
+    collocations:
+      - What size are you?
+    topics:
+      - shopping
+      - clothes
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/size, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/size, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/size, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: story|n
+    headword: story
+    pos: n
+    forms:
+      plural: stories
+    ipa:
+      uk: /ˈstɔː.ri/
+      us: /ˈstɔːr.i/
+    cefr: A1
+    meaning_vi:
+      - câu chuyện
+    collocations:
+      - tell a story
+      - a true story
+    notes_vi:
+      - Kể chuyện là tell a story, không nói *say a story*.
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/story, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/story, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/story, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: suddenly|adv
+    headword: suddenly
+    pos: adv
+    ipa:
+      uk: /ˈsʌd.ən.li/
+      us: /ˈsʌd.ən.li/
+    cefr: A2
+    meaning_vi:
+      - đột nhiên
+    topics:
+      - story
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suddenly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suddenly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suddenly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: station|n
+    headword: station
+    pos: n
+    ipa:
+      uk: /ˈsteɪ.ʃən/
+      us: /ˈsteɪ.ʃən/
+    cefr: A1
+    meaning_vi:
+      - nhà ga
+      - trạm
+    collocations:
+      - train station
+      - bus station
+    topics:
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/station, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/station, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/station, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: save|v
+    headword: save
+    pos: v
+    forms:
+      past: saved
+    ipa:
+      uk: /seɪv/
+      us: /seɪv/
+    cefr: A2
+    meaning_vi:
+      - tiết kiệm
+      - để dành
+    collocations:
+      - save money
+      - save time
+    topics:
+      - plans
+      - money
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/save, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/save, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/save, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: soon|adv
+    headword: soon
+    pos: adv
+    ipa:
+      uk: /suːn/
+      us: /suːn/
+    cefr: A1
+    meaning_vi:
+      - sớm
+      - chẳng bao lâu nữa
+    collocations:
+      - see you soon
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soon, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soon, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soon, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: surprised|adj
+    headword: surprised
+    pos: adj
+    ipa:
+      uk: /səˈpraɪzd/
+      us: /sɚˈpraɪzd/
+    cefr: A2
+    meaning_vi:
+      - ngạc nhiên (cảm thấy)
+    collocations:
+      - surprised at/by something
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprised, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprised, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprised, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: surprising|adj
+    headword: surprising
+    pos: adj
+    ipa:
+      uk: /səˈpraɪ.zɪŋ/
+      us: /sɚˈpraɪ.zɪŋ/
+    cefr: A2
+    meaning_vi:
+      - đáng ngạc nhiên
+    topics:
+      - feelings
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprising, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprising, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprising, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: silk|n
+    headword: silk
+    pos: n
+    ipa:
+      uk: /sɪlk/
+      us: /sɪlk/
+    cefr: B2
+    meaning_vi:
+      - lụa
+    topics:
+      - industry
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-29, field: ipa.us }
+    status: draft
