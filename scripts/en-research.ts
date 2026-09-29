@@ -6,6 +6,7 @@
  * so re-runs do not hit the sites again. Writes the comparison to .data/research/en-lexicon.json;
  * `--apply` then updates data/en/lexicon (see applyResearch).
  */
+import { setDefaultResultOrder } from "node:dns";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { loadEnglish, type LexEntry } from "../importers/en/load";
@@ -15,6 +16,8 @@ const CACHE = path.join(ROOT, ".data", "research-cache");
 const OUT = path.join(ROOT, ".data", "research", "en-lexicon.json");
 const UA = "learn-app-content-check/0.1 (personal study site; contact tungvt.iist@gmail.com)";
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+// On this machine IPv6 routes to the dictionary sites fail while IPv4 works.
+setDefaultResultOrder("ipv4first");
 
 async function cached(key: string, url: string, ua = UA): Promise<string | null> {
   const file = path.join(CACHE, `${key.replace(/[^a-z0-9._-]/gi, "_")}.txt`);
