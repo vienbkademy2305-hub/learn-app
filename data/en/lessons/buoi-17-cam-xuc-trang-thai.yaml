@@ -240,6 +240,29 @@ steps:
             base: sad
             answer: sad
             explain_vi: Sau look dùng tính từ.
+      - id: b17-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: How was the film last night?
+          Man: Really boring! I was so bored that I fell asleep.
+          Woman: Oh no. I watched a comedy. It was very funny, and the ending was surprising.
+          Man: Lucky you. I was also embarrassed, because my phone rang loudly in the cinema!
+        questions:
+          - { q: What was the man's film like?, options: [ exciting, boring, funny, frightening ], answer: b }
+          - { q: What was surprising?, options: [ the ending of the comedy, the price of tickets, the man's phone, the cinema ], answer: a }
+          - { q: Why was the man embarrassed?, options: [ He fell asleep., His phone rang loudly., He arrived late., He laughed loudly. ], answer: b }
+      - id: b17-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My first job interview was terrible. I was very nervous, and I spoke too quickly. The manager asked me some confusing questions, and I answered badly. But I wasn't disappointed for long. A week later, another company offered me a job.
+        questions:
+          - { q: The speaker was relaxed in the interview., answer: F }
+          - { q: She spoke too quickly., answer: T }
+          - { q: She answered the questions well., answer: F }
+          - { q: She got a job at another company., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 70–100 từ kể về một lần bạn thấy rất vui, hồi hộp hoặc ngượng. Dùng thì quá khứ và ít nhất 4 tính từ -ed/-ing.

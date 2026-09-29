@@ -451,3 +451,71 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: lecturer|n
+    headword: lecturer
+    pos: n
+    ipa:
+      uk: /ˈlek.tʃər.ər/
+      us: /ˈlek.tʃɚ.ɚ/
+    stress: LEC-tur-er
+    cefr: null
+    meaning_vi:
+      - giảng viên (đại học)
+    notes_vi:
+      - Ở trường phổ thông dùng teacher; ở đại học dùng lecturer (Anh-Anh) hoặc professor/instructor (Anh-Mỹ).
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lecturer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lecturer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: line-graph|phr-n
+    headword: line graph
+    pos: phr-n
+    ipa:
+      uk: /ˈlaɪn ˌɡrɑːf/
+      us: /ˈlaɪn ˌɡræf/
+    cefr: null
+    meaning_vi:
+      - biểu đồ đường
+    collocations:
+      - the line graph shows / illustrates
+    notes_vi:
+      - "Các dạng khác: bar chart (cột), pie chart (tròn), table (bảng)."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/line-graph, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/line-graph, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: law|n
+    headword: law
+    pos: n
+    ipa:
+      uk: /lɔː/
+      us: /lɑː/
+    cefr: A2
+    meaning_vi:
+      - luật
+      - pháp luật
+    collocations:
+      - break the law
+      - obey the law
+      - a new law
+      - against the law
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-29, field: ipa.us }
+    status: draft

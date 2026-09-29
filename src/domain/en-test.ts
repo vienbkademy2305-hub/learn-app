@@ -12,7 +12,7 @@ export function itemLessons(ex: Exercise): number[] {
   const fallback = ex.lesson ?? 0;
   if (ex.kind === "dictation") return Array.from({ length: DICTATION_POINTS }, () => fallback);
   if (ex.kind === "match-definition" || ex.kind === "collocation") return (ex.pairs ?? []).map(() => fallback);
-  if (ex.kind === "error-correction") return (ex.errors ?? []).map(() => fallback);
+  if (ex.kind === "error-correction") return (ex.errors ?? []).map((e) => e.lesson ?? fallback);
   return (ex.questions ?? []).map((q) => q.lesson ?? fallback);
 }
 

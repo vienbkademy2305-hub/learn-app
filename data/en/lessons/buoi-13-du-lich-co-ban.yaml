@@ -191,6 +191,31 @@ steps:
           - wrong: Did you visited
             right: Did you visit
             why: Sau did dùng nguyên mẫu.
+      - id: b13-x6
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: How was your trip to Hoi An?
+          Man: It was wonderful. We stayed in a small hotel near the river.
+          Woman: What did you do there?
+          Man: We visited the old town and walked along the beach. We also booked a cooking class.
+          Woman: Was the weather good?
+          Man: Yes, it was sunny every day.
+        questions:
+          - { q: Where did they stay?, options: [ in a big hotel by the beach, in a small hotel near the river, with friends, in the old town ], answer: b }
+          - { q: What did they book?, options: [ a boat trip, a cooking class, a bus tour, a museum ticket ], answer: b }
+          - { q: What was the weather like?, options: [ rainy, cold, sunny every day, windy ], answer: c }
+      - id: b13-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Last summer my family travelled to Thailand. We arrived in Bangkok on the fifth of July and stayed there for five days. We visited many temples and markets. I wanted to buy a lot of souvenirs, but my luggage was very small!
+        questions:
+          - { q: They travelled to Thailand last winter., answer: F }
+          - { q: They arrived in Bangkok on the fifth of July., answer: T }
+          - { q: They stayed for ten days., answer: F }
+          - { q: The speaker's luggage was very big., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ kể về một chuyến đi gần đây: đi đâu, khi nào, ở đâu, làm gì, thời tiết thế nào. Dùng ít nhất 6 động từ quá khứ có quy tắc."

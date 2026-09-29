@@ -88,3 +88,79 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: knowledge|n
+    headword: knowledge
+    pos: n
+    ipa:
+      uk: /ˈnɒl.ɪdʒ/
+      us: /ˈnɑː.lɪdʒ/
+    stress: KNOW-ledge
+    cefr: A2
+    meaning_vi:
+      - kiến thức
+      - hiểu biết
+    collocations:
+      - gain knowledge
+      - knowledge of history
+      - general knowledge
+    notes_vi:
+      - "Không đếm được: không nói *knowledges*, *a knowledge*."
+      - Chữ k câm; -ow- đọc /ɒ/ như trong 'not', không đọc như 'know'.
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knowledge, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knowledge, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knowledge, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: keen-on|colloc
+    headword: keen on
+    pos: colloc
+    ipa:
+      uk: /ˈkiːn ɒn/
+      us: /ˈkiːn ɑːn/
+    cefr: null
+    meaning_vi:
+      - thích
+      - say mê
+    collocations:
+      - be keen on + V-ing
+      - be really keen on
+      - not very keen on
+    notes_vi:
+      - "Sau on dùng V-ing hoặc danh từ: I'm keen on hiking (không nói *keen on hike*)."
+      - "Hay dùng ở phủ định để nói nhẹ nhàng: I'm not very keen on hot weather."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: keep-fit|colloc
+    headword: keep fit
+    pos: colloc
+    ipa:
+      uk: /ˌkiːp ˈfɪt/
+      us: /ˌkiːp ˈfɪt/
+    cefr: null
+    meaning_vi:
+      - giữ dáng
+      - giữ cơ thể khỏe mạnh
+    collocations:
+      - keep fit by swimming
+      - stay in shape
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

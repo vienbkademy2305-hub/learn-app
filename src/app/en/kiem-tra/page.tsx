@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { enTestCards } from "@/content/en-tests";
+import { enTestCards, enTests } from "@/content/en-tests";
 import { TestList } from "@/features/en/TestRunner";
 
 export const metadata: Metadata = { title: "Kiểm tra" };
 
 /** Mini tests after every 5 lessons and the exit test of each stage. */
 export default function EnTestsPage() {
+  const stages = [...new Set(enTests().map((t) => t.stage))].sort((a, b) => a - b);
   return (
     <div className="space-y-6">
       <header>
@@ -15,10 +16,19 @@ export default function EnTestsPage() {
           kết quả sẽ chỉ ra buổi cần ôn lại.
         </p>
       </header>
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold text-stone-900">Giai đoạn 1 · Buổi 1–20</h2>
-        <TestList tests={enTestCards(1)} />
-      </section>
+      {stages.map((stage) => {
+        const tests = enTestCards(stage);
+        const from = Math.min(...enTests().filter((t) => t.stage === stage).map((t) => t.after_lesson - 4));
+        const to = Math.max(...tests.map((t) => t.after));
+        return (
+          <section key={stage} className="space-y-3">
+            <h2 className="text-lg font-semibold text-stone-900">
+              Giai đoạn {stage} · Buổi {from}–{to}
+            </h2>
+            <TestList tests={tests} />
+          </section>
+        );
+      })}
     </div>
   );
 }

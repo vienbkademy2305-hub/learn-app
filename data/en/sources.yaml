@@ -73,3 +73,27 @@ sources:
     sha256: 80943cf44b5f105f8832afb6e30de94ca4d30c9c912548c33454e9ee28eb5873
     added: 2026-09-29
     notes: "Khóa học trả phí của PREP. Chỉ dùng để đối chiếu phạm vi từ vựng/ngữ pháp theo chủ đề; tự viết lại mọi câu, bài tập, giải thích. Không dùng video, hình, câu mẫu của khóa. Giải nén ở tai-lieu-nguon/tieng-anh/1. IELTS MẤT GỐC PREP.VN/. sha256 là của phần 007; bản đồ nội dung: skill english-content references/ban-do-tai-lieu.md §4. File gốc (7 zip + thư mục giải nén) ĐÃ XOÁ ngày 2026-09-29 theo yêu cầu người dùng; muốn đối chiếu lại phải tải lại."
+
+  - id: prep-co-ban
+    name: Khóa "IELTS Cơ bản" (PREP.VN) — PDF bài tập Listening/Reading/Writing/Speaking, ảnh chụp bài tập, video (2 phần nén 001–002)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "2. IELTS CƠ BẢN PREP.VN-20260929T031342Z-1-001.zip"
+    sha256: 46bffe3d1e16e7bc945425ac816283aa3b7dfcbf90a2e531d44c2777e084ca40
+    added: 2026-09-29
+    notes: "Khóa học trả phí của PREP; nhiều bài nghe/đọc trong khóa lấy từ đề Cambridge IELTS. Chỉ dùng để đối chiếu phạm vi và thứ tự chiến thuật kỹ năng (skimming, scanning, T/F/NG, dự đoán đáp án, cấu trúc đoạn, dạng Task 1/Task 2, mở rộng câu trả lời Speaking). Tự viết lại mọi giải thích, bài đọc, bài tập; không dùng audio, video, bài đọc, đề của khóa. Phần 002 (sha256 7c74c8f7851852bfdf8b5c8ad3efe9b7bebc37e5c8bb6d153919b2590955145a) chỉ có video. Giải nén ở tai-lieu-nguon/tieng-anh/2. IELTS CƠ BẢN PREP.VN/. Bản đồ nội dung: skill english-content references/ban-do-tai-lieu.md §5."
+
+  - id: prep-trung-cap
+    name: Khóa "IELTS Trung cấp 5.0–6.0" (PREP.VN) — video (mới có phần nén 004)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "3. PREP - IELTS Trung Cấp - Từ 5. đến 6. IELTS-20260929T080804Z-1-004.zip"
+    sha256: c9eaba9737f48687dcfffc7ffaddf641d1f8587d195e013f2f0ba981b95bd649
+    added: 2026-09-29
+    notes: "Phần 004 chỉ có 2 video: Reading 'Multiple Choice / Picking from a list' và Listening 'Labelling a map'. Chưa xem (máy chưa có ffmpeg để trích khung hình). Chỉ reference."

@@ -570,3 +570,120 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: main-idea|phr-n
+    headword: main idea
+    pos: phr-n
+    ipa:
+      uk: /ˌmeɪn aɪˈdɪə/
+      us: /ˌmeɪn aɪˈdiː.ə/
+    cefr: null
+    meaning_vi:
+      - ý chính
+    collocations:
+      - the main idea of a paragraph
+      - find the main idea
+    topics:
+      - education
+      - reading
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: muscle|n
+    headword: muscle
+    pos: n
+    ipa:
+      uk: /ˈmʌs.əl/
+      us: /ˈmʌs.əl/
+    stress: MUS-cle
+    cefr: B1
+    meaning_vi:
+      - cơ bắp
+    collocations:
+      - build muscle
+      - pull a muscle
+      - strong muscles
+    notes_vi:
+      - "c câm: /ˈmʌs.əl/ (như 'mắt-sồ')."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: memorable|adj
+    headword: memorable
+    pos: adj
+    ipa:
+      uk: /ˈmem.ər.ə.bəl/
+      us: /ˈmem.ɚ.ə.bəl/
+    stress: ME-mo-ra-ble
+    cefr: B2
+    meaning_vi:
+      - đáng nhớ
+    collocations:
+      - a memorable day
+      - a memorable experience
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: marathon|n
+    headword: marathon
+    pos: n
+    ipa:
+      uk: /ˈmær.ə.θən/
+      us: /ˈmer.ə.θɑːn/
+    stress: MA-ra-thon
+    cefr: B2
+    meaning_vi:
+      - cuộc chạy marathon
+    collocations:
+      - run a marathon
+      - a half marathon
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/marathon, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: medal|n
+    headword: medal
+    pos: n
+    ipa:
+      uk: /ˈmed.əl/
+      us: /ˈmed.əl/
+    stress: ME-dal
+    cefr: B2
+    meaning_vi:
+      - huy chương
+    collocations:
+      - win a gold medal
+      - a silver medal
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.us }
+    status: draft

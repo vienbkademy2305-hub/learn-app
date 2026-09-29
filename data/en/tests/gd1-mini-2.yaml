@@ -4,7 +4,7 @@ title_vi: "Kiểm tra ngắn 2: Buổi 6–10"
 stage: 1
 kind: mini
 after_lesson: 10
-minutes: 20
+minutes: 30
 pass_percent: 80
 intro_vi: "Hiện tại tiếp diễn, phân biệt với hiện tại đơn, danh từ đếm được & lượng từ, so sánh nhất, phương tiện và chỉ đường."
 source: editorial
@@ -57,3 +57,33 @@ sections:
         lesson: 10
         instructions_vi: "Nghe và chép lại (nghe tối đa 3 lần)."
         text: "Every morning I catch the bus at the corner. It is crowded, so I often stand. The journey takes thirty minutes."
+      - id: gd1-mini-2-x5
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai đồng nghiệp nói chuyện (nghe tối đa 2 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Woman: Hi Tuan. Are you working on the new project this week?
+          Man: Yes, I am. I'm very busy, so I usually have lunch at my desk.
+          Woman: Really? What do you eat?
+          Man: Some rice and a little chicken. I don't eat much meat.
+          Woman: And how do you get to work?
+          Man: I usually go by bus, but this week I'm going by taxi, because my motorbike is at the repair shop.
+          Woman: Taxis are expensive! The bus is cheaper, and the metro is the cheapest.
+          Man: You're right. I want to try the metro tomorrow.
+        questions:
+          - { q: "What is Tuan doing this week?", options: [studying for an exam, working on a new project, travelling, looking for a job], answer: b, lesson: 7 }
+          - { q: "Where does Tuan usually have lunch?", options: [at a restaurant, at home, at his desk, in the canteen], answer: c, lesson: 7 }
+          - { q: "What does he eat?", options: [a lot of meat, bread and eggs, rice and a little chicken, noodles], answer: c, lesson: 8 }
+          - { q: "How does Tuan usually go to work?", options: [by taxi, by bus, by motorbike, on foot], answer: b, explain_vi: "Tuần này đi taxi, nhưng THƯỜNG đi xe buýt.", lesson: 10 }
+          - { q: "According to the woman, which is the cheapest?", options: [the taxi, the bus, the metro, the motorbike], answer: c, lesson: 9 }
+      - id: gd1-mini-2-x6
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe Mai nói về trường học và việc đi chợ. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "I'm a student at Nguyen Hue High School. Classes start at seven o'clock and finish at half past eleven. My favourite subject is English, but I'm not very good at maths. After school I sometimes go to the market with my mum. Vegetables there are cheaper than in the supermarket, and the sellers are very friendly."
+        questions:
+          - { q: "Classes start at seven o'clock.", answer: T, lesson: 6 }
+          - { q: "Classes finish in the afternoon.", answer: F, lesson: 6 }
+          - { q: "Mai's favourite subject is maths.", answer: F, lesson: 6 }
+          - { q: "Vegetables at the market are more expensive than at the supermarket.", answer: F, lesson: 9 }
+          - { q: "Mai goes to the market every day after school.", answer: F, explain_vi: "sometimes ≠ every day.", lesson: 9 }

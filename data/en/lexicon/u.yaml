@@ -128,3 +128,26 @@ entries:
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/until, checked: 2026-09-29, field: ipa.uk }
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/until, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: user|n
+    headword: user
+    pos: n
+    ipa:
+      uk: /ˈjuː.zər/
+      us: /ˈjuː.zɚ/
+    stress: U-ser
+    cefr: A2
+    meaning_vi:
+      - người dùng
+    collocations:
+      - internet users
+      - smartphone users
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-29, field: ipa.us }
+    status: draft

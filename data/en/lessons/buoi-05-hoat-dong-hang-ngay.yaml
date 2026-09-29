@@ -262,6 +262,31 @@ steps:
             answer: How often does he go shopping?
           - q: I am tired BECAUSE I GO TO BED LATE. (Why …?)
             answer: Why are you tired?
+      - id: b05-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: What time do you usually get up, Hoa?
+          Woman: At half past five. I always do some exercise before breakfast.
+          Man: Wow. I never get up before seven. What do you do in the evening?
+          Woman: I cook dinner, and then I sometimes watch TV. I go to bed at ten.
+          Man: Do you do the housework?
+          Woman: Yes, I do the dishes every day, but my husband makes the bed.
+        questions:
+          - { q: What time does Hoa usually get up?, options: [ "5.00", "5.30", "7.00", "10.00" ], answer: b }
+          - { q: What does she do before breakfast?, options: [ She watches TV., She does some exercise., She cooks., She makes the bed. ], answer: b }
+          - { q: Who makes the bed?, options: [ Hoa, Hoa's husband, the man, nobody ], answer: b }
+      - id: b05-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Minh is a student. He wakes up at half past six and takes a shower. He never has breakfast at home; he buys bread on the way to school. He comes home at five and does his homework. He rarely goes to bed before eleven.
+        questions:
+          - { q: Minh takes a shower in the morning., answer: T }
+          - { q: He usually has breakfast at home., answer: F }
+          - { q: He comes home at five., answer: T }
+          - { q: He often goes to bed early., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 80–100 từ tả một ngày bình thường của bạn (Describe your daily routine). Dùng ít nhất 4 trạng từ tần suất và 1 câu phủ định.

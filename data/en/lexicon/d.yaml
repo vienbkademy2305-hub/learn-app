@@ -80,12 +80,16 @@ entries:
     cefr: A2
     meaning_vi:
       - độ (nhiệt độ)
+      - bằng (đại học), học vị
     collocations:
       - 35 degrees
+      - a degree in business
+      - get a degree
     notes_vi:
       - "Số nhiều có -s: thirty degrees."
     topics:
       - weather
+      - education
     source: editorial
     provenance:
       - source: ai-draft
@@ -483,4 +487,258 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/download, checked: 2026-09-29, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/download, checked: 2026-09-29, field: ipa.uk }
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/download, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: disagree|v
+    headword: disagree
+    pos: v
+    ipa:
+      uk: /ˌdɪs.əˈɡriː/
+      us: /ˌdɪs.əˈɡriː/
+    stress: dis-a-GREE
+    cefr: A2
+    meaning_vi:
+      - không đồng ý
+      - phản đối
+    collocations:
+      - disagree with someone
+      - strongly disagree
+      - agree or disagree
+    notes_vi:
+      - "Là động từ thường: I disagree (không nói *I am disagree*). Tương tự: I agree, không nói *I am agree*."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disagree, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disagree, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disagree, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: drawback|n
+    headword: drawback
+    pos: n
+    ipa:
+      uk: /ˈdrɔː.bæk/
+      us: /ˈdrɑː.bæk/
+    stress: DRAW-back
+    cefr: null
+    meaning_vi:
+      - nhược điểm
+      - bất lợi
+    collocations:
+      - the main drawback
+      - a serious drawback
+    notes_vi:
+      - "Đồng nghĩa: disadvantage — dùng xen kẽ để tránh lặp từ trong Writing."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/drawback, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/drawback, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: develop|v
+    headword: develop
+    pos: v
+    ipa:
+      uk: /dɪˈvel.əp/
+      us: /dɪˈvel.əp/
+    stress: de-VE-lop
+    cefr: A2
+    meaning_vi:
+      - phát triển
+      - rèn luyện (kỹ năng)
+    collocations:
+      - develop skills
+      - develop creativity
+      - develop a habit
+    notes_vi:
+      - "Nhấn âm 2: de-VE-lop (không phải DE-ve-lop)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/develop, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/develop, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/develop, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: deforestation|n
+    headword: deforestation
+    pos: n
+    ipa:
+      uk: /diːˌfɒr.ɪˈsteɪ.ʃən/
+      us: /ˌdiːˌfɔːr.ɪˈsteɪ.ʃən/
+    stress: de-fo-res-TA-tion
+    cefr: null
+    meaning_vi:
+      - nạn phá rừng
+    collocations:
+      - stop deforestation
+      - the causes of deforestation
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deforestation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deforestation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: device|n
+    headword: device
+    pos: n
+    ipa:
+      uk: /dɪˈvaɪs/
+      us: /dɪˈvaɪs/
+    stress: de-VICE
+    cefr: A2
+    meaning_vi:
+      - thiết bị
+    collocations:
+      - electronic devices
+      - a mobile device
+      - smart devices
+    notes_vi:
+      - Đọc /dɪˈvaɪs/ (âm cuối /s/), khác động từ devise /dɪˈvaɪz/.
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/device, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/device, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/device, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: digital-literacy|phr-n
+    headword: digital literacy
+    pos: phr-n
+    ipa:
+      uk: /ˌdɪdʒ.ɪ.təl ˈlɪt.ər.ə.si/
+      us: /ˌdɪdʒ.ə.t̬əl ˈlɪt̬.ɚ.ə.si/
+    cefr: null
+    meaning_vi:
+      - kỹ năng số
+      - hiểu biết về công nghệ số
+    collocations:
+      - improve digital literacy
+      - digital literacy skills
+    topics:
+      - technology
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: data|n
+    headword: data
+    pos: n
+    ipa:
+      uk: /ˈdeɪ.tə/
+      us: /ˈdeɪ.t̬ə/
+    cefr: A2
+    meaning_vi:
+      - dữ liệu
+    collocations:
+      - collect data
+      - personal data
+      - data protection
+    notes_vi:
+      - "Thường dùng như danh từ không đếm được: The data is safe. Trong văn học thuật có thể coi là số nhiều: The data are…"
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/data, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/data, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/data, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: decrease|v
+    headword: decrease
+    pos: v
+    ipa:
+      uk: /dɪˈkriːs/
+      us: /dɪˈkriːs/
+    stress: de-CREASE
+    cefr: B2
+    meaning_vi:
+      - giảm
+    collocations:
+      - decrease gradually
+      - decrease by half
+    notes_vi:
+      - "Danh từ: a DE-crease in… (nhấn âm 1)."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decrease, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decrease, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decrease, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: disadvantage|n
+    headword: disadvantage
+    pos: n
+    ipa:
+      uk: /ˌdɪs.ədˈvɑːn.tɪdʒ/
+      us: /ˌdɪs.ədˈvæn.t̬ɪdʒ/
+    stress: dis-ad-VAN-tage
+    cefr: B1
+    meaning_vi:
+      - nhược điểm
+      - bất lợi
+    collocations:
+      - a serious disadvantage
+      - the disadvantages of…
+    notes_vi:
+      - "Đồng nghĩa: drawback (Buổi 22), downside."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disadvantage_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disadvantage_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disadvantage_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: deter|v
+    headword: deter
+    pos: v
+    forms:
+      past: deterred
+      ing: deterring
+    ipa:
+      uk: /dɪˈtɜːr/
+      us: /dɪˈtɝː/
+    stress: de-TER
+    cefr: null
+    meaning_vi:
+      - răn đe
+      - ngăn chặn (ai làm gì)
+    collocations:
+      - deter crime
+      - deter people from committing crimes
+    notes_vi:
+      - deter somebody FROM + V-ing.
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deter, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deter, checked: 2026-09-29, field: ipa.us }
     status: draft

@@ -1,0 +1,338 @@
+# Buổi 22 — Giáo dục · Writing Task 2: bài Opinion. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-22-giao-duc-writing-opinion
+number: 22
+stage: 2
+title_vi: "Giáo dục · Writing Task 2: bài Opinion"
+focus:
+  grammar: Câu đơn, câu ghép, câu phức
+  skill: "Writing Task 2 — Opinion: phân tích đề, mở bài, luận điểm"
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - opinion|n
+      - argue|v
+      - believe|v
+      - agree-with|phr-v
+      - disagree|v
+      - reason|n
+      - benefit|n
+      - drawback|n
+      - positive|adj
+      - negative|adj
+      - compulsory|adj
+      - essential|adj
+      - creativity|n
+      - independent|adj
+      - practical|adj
+      - pressure|n
+      - critical-thinking|phr-n
+      - develop|v
+  - type: pronunciation
+    notes:
+      - word: opinion|n
+        text_vi: "o-PI-nion /əˈpɪn.jən/: âm đầu là /ə/ nhẹ, -nion đọc /njən/ như 'nhần'."
+      - word: compulsory|adj
+        text_vi: "com-PUL-so-ry: nhấn âm 2; -pul- là /ʌ/ ngắn như 'ă'."
+      - word: creativity|n
+        text_vi: "Đuôi -ity kéo trọng âm về ngay trước nó: cre-a-TI-vi-ty (so với creative: cre-A-tive)."
+      - sound: snd-sh
+        text_vi: "/ʃ/ trong es-SEN-tial và PRES-sure: chu môi, lưỡi không chạm răng — khác /s/. (practical đọc /k/, không có /ʃ/.)"
+      - word: develop|v
+        text_vi: "de-VE-lop: nhấn âm 2, âm cuối /p/ phải bật môi."
+      - word: disagree|v
+        text_vi: "dis-a-GREE: nhấn âm cuối. Nói I disagree — không có am."
+  - type: grammar
+    items:
+      - en-g2-02
+  - type: skill
+    skill: writing
+    title_vi: "Writing Task 2 — bài Opinion: phân tích đề, mở bài và luận điểm"
+    intro_vi: 'Task 2 chiếm khoảng 2/3 điểm Writing: 40 phút, tối thiểu 250 từ. Dạng Opinion ("Do you agree or disagree?", "To what extent do you agree or disagree?") gặp nhiều nhất. Bố cục an toàn 4 đoạn: Mở bài (2 câu) → Thân bài 1 (lý do 1) → Thân bài 2 (lý do 2) → Kết bài. Buổi này tập trung phân tích đề, viết mở bài và câu luận điểm; bài đầy đủ làm ở phần Về nhà.'
+    steps:
+      - title_vi: Tìm TOPIC và TASK trong đề
+        text_vi: "Topic là vấn đề được bàn (VD: bài tập về nhà ở tiểu học). Task là yêu cầu (To what extent do you agree or disagree?). Gạch cả những từ giới hạn phạm vi: all, only, should, primary schools — viết lệch phạm vi là mất điểm Task Response."
+      - title_vi: Chọn một quan điểm rõ ràng
+        text_vi: Đồng ý, phản đối, hoặc đồng ý một phần. Ở band 5–6, chọn hẳn MỘT phía là dễ viết mạch lạc nhất. Giữ nguyên quan điểm đó từ mở bài đến kết bài.
+      - title_vi: Brainstorm 2 lý do (2–3 phút)
+        text_vi: "Tự hỏi: Vì sao? Ai được lợi, ai chịu thiệt? Có ví dụ nào gần gũi? Chọn 2 lý do mà bạn giải thích được và có ví dụ cụ thể."
+      - title_vi: "Câu 1 mở bài: paraphrase đề"
+        text_vi: "Nói lại đề bằng lời của mình: đổi từ đồng nghĩa (believe → argue, banned → not allowed) và đổi cấu trúc câu. Không chép nguyên đề — giám khảo không tính những từ chép lại."
+      - title_vi: "Câu 2 mở bài: thesis statement"
+        text_vi: "Nêu rõ quan điểm và (nên) báo trước 2 lý do: 'I completely agree with this view because … and …'. Mở bài chỉ khoảng 40–50 từ."
+      - title_vi: Mỗi thân bài mở đầu bằng câu luận điểm
+        text_vi: "Câu đầu đoạn (topic sentence) nêu MỘT lý do. Các câu sau: giải thích (This means that…) → ví dụ (For example, …) → câu chốt nối lại với quan điểm."
+    tips:
+      - Dành 5 phút lập dàn ý trước khi viết — bài có dàn ý mạch lạc hơn hẳn (tiêu chí Coherence & Cohesion).
+      - Không mở bài kiểu văn mẫu 'Nowadays, with the development of society…' — vào thẳng đề.
+      - Chỉ cần nêu 'I think / I believe' một lần ở thesis; thân bài trình bày lý lẽ, không lặp 'I think' mỗi câu.
+      - 250–290 từ là vừa. Dưới 250 từ bị trừ điểm Task Response.
+    traps:
+      - trap_vi: Chép nguyên câu đề vào mở bài.
+        fix_vi: "Paraphrase: thay từ và đổi cấu trúc (should be banned → should not be allowed; children → young learners)."
+      - trap_vi: Mở bài chỉ nói 'There are different opinions about this' mà không nêu quan điểm.
+        fix_vi: "Dạng Opinion bắt buộc có thesis rõ ràng: I (strongly) agree / disagree …"
+      - trap_vi: Đề nói 'primary schools' nhưng bài viết về học sinh cấp 3 hoặc đại học.
+        fix_vi: Luôn quay lại kiểm tra đúng đối tượng và phạm vi của đề sau mỗi đoạn.
+      - trap_vi: "Nối hai ý bằng dấu phẩy: 'Homework is boring, children hate it.'"
+        fix_vi: Dùng liên từ (and, so, because) hoặc tách thành hai câu.
+    phrases:
+      - en: It is often argued that …
+        vi: Người ta thường cho rằng …
+        note_vi: Mở đầu câu paraphrase đề.
+      - en: I completely agree with this view because …
+        vi: Tôi hoàn toàn đồng ý với quan điểm này vì …
+      - en: I disagree with this idea for two main reasons.
+        vi: Tôi không đồng ý với ý kiến này vì hai lý do chính.
+      - en: The main reason why … is that …
+        vi: Lý do chính khiến … là …
+        note_vi: Câu luận điểm (topic sentence).
+      - en: This means that …
+        vi: Điều này có nghĩa là …
+        note_vi: Câu giải thích.
+      - en: For example, …
+        vi: Ví dụ, …
+    demo:
+      title_vi: "Làm mẫu: mở bài và một đoạn thân bài"
+      text_en: |-
+        Question: Some people believe that homework should be banned in primary schools. To what extent do you agree or disagree?
+
+        Introduction: It is often argued that young children should not get any homework. I completely agree with this view because homework puts too much pressure on young learners and takes away their time to play.
+
+        Body paragraph 1: The main reason why homework should be stopped is that it causes stress for children. After six or seven hours at school, most children are tired, but many of them have to spend another two hours on exercises at home. This means that they often go to bed late and worry about their marks. For example, my nine-year-old brother often cries when he cannot finish his maths exercises. Without homework, children can rest and enjoy learning more.
+      notes:
+        - label: Topic / Task
+          text_vi: "Topic: bài tập về nhà ở TIỂU HỌC. Task: To what extent do you agree or disagree → phải nêu quan điểm."
+        - label: It is often argued that young children should not get any homework.
+          text_vi: "Paraphrase: believe → argued; homework should be banned → should not get any homework; primary schools → young children."
+        - label: I completely agree with this view because … and …
+          text_vi: "Thesis: quan điểm rõ + báo trước 2 lý do (áp lực; mất thời gian chơi) = 2 thân bài."
+        - label: The main reason why homework should be stopped is that …
+          text_vi: Câu luận điểm của thân bài 1 — chỉ nói về lý do 1 (áp lực).
+        - label: This means that … / For example, …
+          text_vi: Giải thích rồi ví dụ cụ thể. Câu cuối 'Without homework, …' nối lại với quan điểm.
+  - type: examples
+    items:
+      - b22-001
+      - b22-002
+      - b22-003
+      - b22-004
+      - b22-005
+      - b22-007
+      - b22-008
+      - b22-011
+      - b22-012
+      - b22-013
+  - type: dialogue
+    title_vi: Có nên bắt buộc mặc đồng phục?
+    lines:
+      - speaker: A
+        text: Our teacher asked us to write about school uniforms. What's your opinion?
+        vi: Cô giáo bảo bọn mình viết về đồng phục. Ý kiến của cậu thế nào?
+      - speaker: B
+        text: I believe uniforms should be compulsory.
+        vi: Tớ cho rằng đồng phục nên là bắt buộc.
+      - speaker: A
+        text: Really? Why do you think so?
+        vi: Thật à? Sao cậu nghĩ vậy?
+      - speaker: B
+        text: The main reason is that students look equal, so rich and poor children feel the same.
+        vi: Lý do chính là học sinh trông bình đẳng, nên trẻ giàu và nghèo cảm thấy như nhau.
+      - speaker: A
+        text: I disagree. Uniforms can stop students from showing their creativity.
+        vi: Tớ không đồng ý. Đồng phục có thể ngăn học sinh thể hiện sự sáng tạo.
+      - speaker: B
+        text: That's a fair point, but students can be creative in other ways.
+        vi: Cũng có lý, nhưng học sinh có thể sáng tạo theo cách khác.
+      - speaker: A
+        text: Maybe. Another drawback is the cost. Some families pay a lot for them.
+        vi: Có thể. Một nhược điểm khác là chi phí. Có gia đình phải trả nhiều tiền cho đồng phục.
+      - speaker: B
+        text: True. But one benefit is that parents do not have to buy many different clothes.
+        vi: Đúng. Nhưng một lợi ích là phụ huynh không phải mua nhiều quần áo khác nhau.
+      - speaker: A
+        text: OK, we have different opinions, but we both have clear reasons.
+        vi: Được rồi, bọn mình khác quan điểm, nhưng cả hai đều có lý do rõ ràng.
+      - speaker: B
+        text: Exactly. That's what the essay needs!
+        vi: Chính xác. Bài luận cần đúng như thế!
+  - type: exercises
+    items:
+      - id: b22-x1
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu đơn thành một câu bằng từ trong ngoặc. Nhớ dấu phẩy khi cần.
+        questions:
+          - q: Tuition fees are high. Many students work part-time. (so)
+            answer: Tuition fees are high, so many students work part-time.
+            accept:
+              - Tuition fees are high so many students work part-time.
+          - q: Many students work part-time. Tuition fees are high. (because)
+            answer: Many students work part-time because tuition fees are high.
+          - q: Homework is useful. Too much homework is harmful. (but)
+            answer: Homework is useful, but too much homework is harmful.
+            accept:
+              - Homework is useful but too much homework is harmful.
+          - q: Children feel pressure. They learn less. (When … ,)
+            answer: When children feel pressure, they learn less.
+            accept:
+              - When children feel pressure they learn less.
+          - q: Students read more. They write better. (If … ,)
+            answer: If students read more, they write better.
+            accept:
+              - If students read more they write better.
+          - q: Uniforms are cheap. They look tidy. (and)
+            answer: Uniforms are cheap, and they look tidy.
+            accept:
+              - Uniforms are cheap and they look tidy.
+      - id: b22-x2
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi nối câu và dùng từ. Sửa trực tiếp. Lỗi dấu phẩy nối hai câu: tách thành hai câu."
+        text: Because practical skills are useful, so schools should teach them. Cooking is essential, every adult needs it. I am agree with this idea. In my opinion, I think money skills are important too. Students should learn them. Because they help young people become independent.
+        errors:
+          - wrong: Because practical skills are useful, so schools
+            right: Because practical skills are useful, schools
+            why: Because và so không đi cùng nhau.
+          - wrong: Cooking is essential, every adult needs it.
+            right: Cooking is essential. Every adult needs it.
+            why: Comma splice — tách câu.
+          - wrong: I am agree
+            right: I agree
+            why: agree là động từ thường, không đi với am.
+          - wrong: In my opinion, I think money skills
+            right: In my opinion, money skills
+            why: In my opinion và I think lặp ý — chỉ giữ một.
+          - wrong: Students should learn them. Because they help
+            right: Students should learn them because they help
+            why: Mệnh đề because không đứng riêng thành câu.
+      - id: b22-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "Đề: 'Some people think that all students should study a foreign language at school. To what extent do you agree or disagree?' Chọn đáp án đúng."
+        questions:
+          - q: What is the TOPIC of this question?
+            options:
+              - studying abroad
+              - learning a foreign language at school
+              - the best school subjects
+              - teachers of foreign languages
+            answer: b
+          - q: Which word limits the scope and must NOT be ignored?
+            options:
+              - some
+              - all
+              - people
+              - school
+            answer: b
+            explain_vi: "'all students' — bài phải bàn về mọi học sinh, không chỉ học sinh giỏi."
+          - q: Which sentence is the best paraphrase of the question?
+            options:
+              - Some people think that all students should study a foreign language at school.
+              - It is often argued that every student should learn another language at school.
+              - Foreign languages are very difficult for many students.
+              - There are many languages in the world today.
+            answer: b
+            explain_vi: a chép nguyên đề; c, d lạc ý.
+          - q: Which is the best thesis statement?
+            options:
+              - There are different opinions about this topic.
+              - Languages are interesting.
+              - I completely agree with this view because a second language opens more job opportunities and helps students understand other cultures.
+              - In my opinion, I think I agree.
+            answer: c
+            explain_vi: Có quan điểm rõ + 2 lý do báo trước.
+          - q: Which is a good topic sentence for Body paragraph 1?
+            options:
+              - For example, my cousin speaks Japanese.
+              - The main reason why every student should learn a foreign language is that it helps them find better jobs.
+              - Many people have different opinions.
+              - In conclusion, languages are useful.
+            answer: b
+      - id: b22-x4
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lại câu với nghĩa không đổi, dùng từ trong ngoặc.
+        questions:
+          - q: Some people think that sport should be a compulsory subject. (argue)
+            answer: Some people argue that sport should be a compulsory subject.
+            accept:
+              - It is often argued that sport should be a compulsory subject.
+          - q: One advantage of uniforms is that they save time. (benefit)
+            answer: One benefit of uniforms is that they save time.
+          - q: The biggest disadvantage of online classes is the lack of contact. (drawback)
+            answer: The biggest drawback of online classes is the lack of contact.
+            accept:
+              - The main drawback of online classes is the lack of contact.
+          - q: I do not agree with this idea. (disagree)
+            answer: I disagree with this idea.
+          - q: Homework makes children feel stressed. (pressure)
+            answer: Homework puts pressure on children.
+            accept:
+              - Homework puts a lot of pressure on children.
+              - Homework puts too much pressure on children.
+      - id: b22-x5
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép động từ với cụm danh từ phù hợp.
+        pairs:
+          - left: put
+            right: pressure on students
+          - left: develop
+            right: creativity
+          - left: express
+            right: an opinion
+          - left: have
+            right: a positive effect on health
+          - left: give
+            right: clear reasons
+      - id: b22-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: compulsory
+            right: that you must do because of a rule
+          - left: independent
+            right: able to do things without help from others
+          - left: drawback
+            right: a problem or bad side of something
+          - left: essential
+            right: very important and necessary
+          - left: practical
+            right: useful in real life
+            not only in theory: null
+      - id: b22-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Do you think school uniforms should be compulsory?
+          Woman: Yes, I do. They're cheap, and students look equal.
+          Man: I disagree. Students can't show their creativity.
+          Woman: But if there are no uniforms, rich students wear expensive clothes, and poor students feel pressure.
+          Man: That's true, but I still believe students should choose.
+        questions:
+          - { q: What is the woman's opinion?, options: [ Uniforms should be compulsory., Uniforms are too expensive., Students should choose their clothes., She has no opinion. ], answer: a }
+          - { q: What is the man's main reason?, options: [ Uniforms are cheap., Students can't show their creativity., Uniforms look ugly., Teachers don't like them. ], answer: b }
+          - { q: "According to the woman, who feels pressure without uniforms?", options: [ rich students, teachers, poor students, parents ], answer: c }
+      - id: b22-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Many parents believe that homework is essential. However, some teachers argue that too much homework puts pressure on children, so they have less time to play. In my opinion, a small amount of homework is useful, but primary school children should not spend more than an hour a day on it.
+        questions:
+          - { q: All parents think homework is essential., answer: F, explain_vi: "Many parents, không phải all." }
+          - { q: Some teachers think too much homework puts pressure on children., answer: T }
+          - { q: The speaker thinks homework is always bad., answer: F }
+          - { q: The speaker thinks primary children should do less than an hour a day., answer: T }
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết bài Writing Task 2 hoàn chỉnh (≥ 250 từ, 40 phút), bố cục 4 đoạn. Mở bài: paraphrase + thesis. Mỗi thân bài: câu luận điểm → giải thích → ví dụ. Dùng ít nhất 2 câu ghép và 3 câu phức (because/when/if). Tự kiểm tra: không nối hai câu bằng dấu phẩy, không dùng 'Because… so…'."
+    prompt_en: Some people think that schools should teach practical skills, such as cooking and managing money, instead of only academic subjects. To what extent do you agree or disagree?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

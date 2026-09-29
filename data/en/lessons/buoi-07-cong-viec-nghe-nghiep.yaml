@@ -219,6 +219,31 @@ steps:
             right: keeps a record of the money a company spends and receives
           - left: businessman
             right: a man who owns or runs a business
+      - id: b07-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: What do you do, Lan?
+          Woman: I'm an accountant. I work for a big company in Hanoi.
+          Man: Do you like your job?
+          Woman: Yes, the salary is good and my colleagues are friendly. But this month I'm working late every day.
+          Man: Why?
+          Woman: Our manager is on holiday, so I'm doing some of his work.
+        questions:
+          - { q: What is Lan's job?, options: [ a nurse, an accountant, a manager, a secretary ], answer: b }
+          - { q: What is different this month?, options: [ She is working late., She is on holiday., She has a new job., She is working at home. ], answer: a }
+          - { q: Why?, options: [ The company is new., Her manager is on holiday., Her colleagues are ill., Her salary is low. ], answer: b }
+      - id: b07-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My brother is a chef. He usually works in a hotel restaurant, but this week he is working at a food festival in Da Nang. He earns a good salary, and he wants to open his own restaurant one day.
+        questions:
+          - { q: The speaker's brother is a chef., answer: T }
+          - { q: He usually works at a food festival., answer: F }
+          - { q: This week he is in Da Nang., answer: T }
+          - { q: He already has his own restaurant., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ về công việc của một người thân: người đó làm nghề gì, thường làm gì mỗi ngày, và tuần này đang làm gì khác thường. Dùng cả hiện tại đơn và hiện tại tiếp diễn."

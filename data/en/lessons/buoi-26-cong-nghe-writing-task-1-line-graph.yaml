@@ -1,0 +1,349 @@
+# Buổi 26 — Công nghệ · Writing Task 1: biểu đồ đường. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-26-cong-nghe-writing-task-1-line-graph
+number: 26
+stage: 2
+title_vi: "Công nghệ · Writing Task 1: biểu đồ đường"
+focus:
+  grammar: Từ vựng & cấu trúc miêu tả xu hướng
+  skill: Writing Task 1 — biểu đồ đường (line graph)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - line-graph|phr-n
+      - trend|n
+      - figure|n
+      - proportion|n
+      - period|n
+      - overall|adv
+      - increase|v
+      - decrease|v
+      - rise|v
+      - fall|v
+      - fluctuate|v
+      - remain-stable|colloc
+      - reach-a-peak|colloc
+      - sharply|adv
+      - gradually|adv
+      - significantly|adv
+      - slightly|adv
+  - type: pronunciation
+    notes:
+      - word: increase|v
+        text_vi: "Động từ nhấn âm 2: in-CREASE, de-CREASE. Danh từ nhấn âm 1: an IN-crease, a DE-crease."
+      - word: fluctuate|v
+        text_vi: "FLUC-tu-ate /ˈflʌk.tʃu.eɪt/: -ct- + u đọc /ktʃ/."
+      - word: rise|v
+        text_vi: rise /raɪz/ (s đọc /z/), rose /rəʊz/, risen /ˈrɪz.ən/. Đừng nhầm rise /raɪz/ với rice /raɪs/.
+      - word: figure|n
+        text_vi: Anh-Anh FI-gure /ˈfɪɡ.ə/, Anh-Mỹ /ˈfɪɡ.jɚ/.
+      - word: significantly|adv
+        text_vi: "sig-NI-fi-cant-ly: nhấn âm 2; đọc đủ /t/ trước -ly."
+  - type: grammar
+    items:
+      - en-g2-06
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 1 — biểu đồ đường (line graph)
+    intro_vi: "Task 1 (Academic): 20 phút, tối thiểu 150 từ, chiếm khoảng 1/3 điểm Writing. Biểu đồ đường cho thấy số liệu THAY ĐỔI theo thời gian. Bạn không nêu ý kiến, không giải thích nguyên nhân — chỉ tóm tắt và so sánh những điểm nổi bật. Bố cục 4 đoạn an toàn: Mở bài (paraphrase) → Overview (xu hướng chính, không số liệu) → Thân bài 1 → Thân bài 2."
+    steps:
+      - title_vi: Phân tích biểu đồ (2–3 phút)
+        text_vi: Biểu đồ nói về cái gì, ở đâu, đơn vị gì (%, triệu, $), từ năm nào đến năm nào? Thời gian ở quá khứ → quá khứ đơn; có năm tương lai → will / is expected to.
+      - title_vi: "Mở bài: 1 câu paraphrase đề"
+        text_vi: shows → illustrates / gives information about; the number of → how many; from 2010 to 2020 → over a ten-year period. Không chép nguyên đề.
+      - title_vi: "Overview: 2 đặc điểm nổi bật nhất"
+        text_vi: Bắt đầu bằng 'Overall, …'. Nêu xu hướng chung (tăng/giảm) và đường nào cao nhất / thay đổi nhiều nhất. KHÔNG đưa số liệu vào overview. Thiếu overview thì Task Achievement khó vượt band 5.
+      - title_vi: Chia nhóm số liệu cho 2 thân bài
+        text_vi: "Cách dễ nhất: nhóm các đường cùng xu hướng (các đường tăng / các đường giảm), hoặc chia theo giai đoạn (trước và sau một mốc)."
+      - title_vi: "Thân bài: mô tả + số liệu + so sánh"
+        text_vi: "Mỗi xu hướng cần: điểm đầu → biến đổi (sharply/gradually) → điểm cuối, kèm số liệu chính. So sánh giữa các đường: higher than, twice as many as, while…"
+      - title_vi: Soát lỗi (2 phút)
+        text_vi: Thì, trạng từ/tính từ (rose sharply / a sharp rise), giới từ from/to/by/at, số nhiều, đủ 150 từ.
+    tips:
+      - Không cần nhắc mọi con số — chọn điểm bắt đầu, điểm kết thúc, đỉnh, đáy và chỗ hai đường cắt nhau.
+      - Luân phiên hai cấu trúc (động từ + trạng từ / There was a + tính từ + danh từ) để tránh lặp.
+      - Dùng 'the figure for…', 'this number' thay cho việc lặp lại cả cụm chủ ngữ dài.
+      - "Số liệu ước lượng: around, approximately, just over, just under, nearly."
+    traps:
+      - trap_vi: Viết overview có số liệu hoặc bỏ luôn overview.
+        fix_vi: Overview chỉ nói xu hướng lớn, không số; luôn có đoạn bắt đầu bằng Overall.
+      - trap_vi: "Giải thích nguyên nhân: 'because people became richer'."
+        fix_vi: Task 1 chỉ mô tả dữ liệu trên biểu đồ, không suy đoán lý do.
+      - trap_vi: "Liệt kê từng năm một: In 2010… In 2011… In 2012…"
+        fix_vi: "Gộp thành xu hướng: rose steadily from 2010 to 2015, then…"
+      - trap_vi: "Dùng bị động: 'The number was increased'."
+        fix_vi: "Số liệu tự thay đổi → chủ động: The number increased."
+    phrases:
+      - en: The line graph illustrates …
+        vi: Biểu đồ đường minh họa …
+        note_vi: Câu mở bài.
+      - en: Overall, … while …
+        vi: Nhìn chung, … trong khi …
+        note_vi: Câu overview so sánh hai xu hướng.
+      - en: … rose steadily from X in 2010 to Y in 2020.
+        vi: … tăng đều từ X năm 2010 lên Y năm 2020.
+      - en: There was a sharp fall in …
+        vi: Có một sự sụt giảm mạnh về …
+      - en: … reached a peak of X in …
+        vi: … đạt đỉnh X vào năm …
+      - en: By contrast, the figure for … remained stable.
+        vi: Ngược lại, số liệu của … giữ ổn định.
+    demo:
+      title_vi: "Làm mẫu: đề, số liệu và bài viết mẫu (số liệu giả định để luyện tập)"
+      text_en: |-
+        Question: The line graph shows the percentage of adults in a city who shopped online, by age group, from 2014 to 2024.
+
+        Data (%)         2014   2016   2018   2020   2022   2024
+        Aged 18–30         20     35     60     75     78     80
+        Aged 31–50         10     18     30     55     60     62
+        Aged 51 and over    5      6      8     25     35     40
+
+        Introduction: The line graph illustrates the proportion of adults in one city who bought things online between 2014 and 2024, divided into three age groups.
+
+        Overview: Overall, online shopping became more popular in all three groups over the period, and young adults were always the most likely to shop online.
+
+        Body 1: In 2014, only 20% of people aged 18–30 shopped online, but this figure rose sharply to 75% in 2020 and then increased slightly to 80% in 2024. The 31–50 group followed a similar trend, growing from 10% to 62%.
+
+        Body 2: By contrast, the figure for the oldest group remained almost stable at around 5–8% until 2018. After that, there was a significant increase, and by 2024 it had reached 40%, which was still only half the figure for young adults.
+      notes:
+        - label: Introduction
+          text_vi: shows → illustrates; the percentage of → the proportion of; shopped online → bought things online; from 2014 to 2024 → between 2014 and 2024.
+        - label: Overview
+          text_vi: "Hai đặc điểm: (1) cả ba nhóm đều tăng; (2) nhóm trẻ luôn cao nhất. Không có con số nào."
+        - label: Body 1
+          text_vi: "Nhóm hai đường có xu hướng giống nhau (tăng mạnh đều đặn). Mỗi đường: điểm đầu → biến đổi → điểm cuối."
+        - label: Body 2
+          text_vi: "Đường khác biệt: đi ngang rồi tăng. So sánh với nhóm trẻ ('only half the figure for young adults')."
+        - label: by 2024 it had reached
+          text_vi: "Quá khứ hoàn thành (had reached) là cấu trúc nâng cao — ở band 5–6 có thể viết đơn giản: 'and it reached 40% in 2024'."
+  - type: examples
+    items:
+      - b26-001
+      - b26-002
+      - b26-003
+      - b26-004
+      - b26-005
+      - b26-006
+      - b26-007
+      - b26-008
+      - b26-009
+      - b26-011
+  - type: dialogue
+    title_vi: Đọc biểu đồ cùng đồng nghiệp
+    lines:
+      - speaker: A
+        text: Have you seen the new report? It has a line graph about our app users.
+        vi: Chị xem báo cáo mới chưa? Có một biểu đồ đường về người dùng ứng dụng của mình.
+      - speaker: B
+        text: Yes. The number of users rose sharply in the first six months.
+        vi: Rồi. Số người dùng tăng mạnh trong sáu tháng đầu.
+      - speaker: A
+        text: Right. It reached a peak of two million in June.
+        vi: Đúng. Đạt đỉnh hai triệu vào tháng Sáu.
+      - speaker: B
+        text: And then it fell slightly in July and August.
+        vi: Rồi giảm nhẹ vào tháng Bảy và tháng Tám.
+      - speaker: A
+        text: Why did it fall? Was it the summer holiday?
+        vi: Sao lại giảm nhỉ? Do nghỉ hè à?
+      - speaker: B
+        text: Maybe, but the graph doesn't say. It only shows the figures.
+        vi: Có thể, nhưng biểu đồ không nói. Nó chỉ cho thấy số liệu thôi.
+      - speaker: A
+        text: What about the last three months?
+        vi: Còn ba tháng cuối thì sao?
+      - speaker: B
+        text: The figure remained stable at around 1.8 million.
+        vi: Con số giữ ổn định ở khoảng 1,8 triệu.
+      - speaker: A
+        text: So overall, there was a significant increase over the year.
+        vi: Vậy nhìn chung, cả năm có mức tăng đáng kể.
+      - speaker: B
+        text: Exactly. That's the main trend.
+        vi: Chính xác. Đó là xu hướng chính.
+  - type: exercises
+    items:
+      - id: b26-x1
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng (trạng từ hay tính từ, động từ hay danh từ) của từ trong ngoặc.
+        questions:
+          - q: The number of e-book readers rose ___ in 2020.
+            base: sharp
+            answer: sharply
+          - q: There was a ___ fall in the price of phones.
+            base: gradually
+            answer: gradual
+          - q: Internet use has increased ___ since 2010.
+            base: significant
+            answer: significantly
+          - q: The figure dropped ___ from 30% to 28%.
+            base: slight
+            answer: slightly
+          - q: The price of oil showed some ___ during the period.
+            base: fluctuate
+            answer: fluctuation
+            accept:
+              - fluctuations
+      - id: b26-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu với cấu trúc There was a + tính từ + danh từ.
+        questions:
+          - q: Sales rose sharply in 2019. → There was ___
+            answer: a sharp rise in sales in 2019.
+            accept:
+              - a sharp increase in sales in 2019.
+          - q: The number of visitors fell gradually. → There was ___
+            answer: a gradual fall in the number of visitors.
+            accept:
+              - a gradual decrease in the number of visitors.
+          - q: Laptop prices increased slightly. → There was ___
+            answer: a slight increase in laptop prices.
+            accept:
+              - a slight rise in laptop prices.
+              - a slight increase in the price of laptops.
+          - q: Newspaper sales decreased significantly. → There was ___
+            answer: a significant decrease in newspaper sales.
+            accept:
+              - a significant fall in newspaper sales.
+      - id: b26-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền giới từ đúng.
+        bank:
+          - from
+          - to
+          - by
+          - at
+          - of
+          - over
+        questions:
+          - q: The number of users rose ___ 2 million in 2015 to 5 million in 2020.
+            answer: from
+          - q: The figure fell ___ 10%, from 40% to 30%.
+            answer: by
+            explain_vi: Mức chênh 10 điểm → by.
+          - q: It reached a peak ___ 60% in 2019.
+            answer: of
+          - q: The price remained stable ___ $500 for three years.
+            answer: at
+          - q: Online banking grew steadily ___ the period.
+            answer: over
+          - q: Sales increased from 100 units ___ 250 units.
+            answer: to
+      - id: b26-x4
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc bảng số liệu (giả định) và hoàn thành câu miêu tả. Viết MỘT TỪ hoặc MỘT SỐ.
+        max_words: 1
+        passage: |-
+          Hours per day spent on smartphones by students in one school
+                     2016   2018   2020   2022   2024
+          Boys        2.0    3.0    5.0    4.5    4.5
+          Girls       2.5    3.5    4.0    4.0    4.0
+        questions:
+          - q: In 2016, girls spent ___ hours a day on their phones.
+            answer: "2.5"
+          - q: Boys' screen time reached a ___ of 5 hours in 2020.
+            answer: peak
+          - q: Girls' screen time remained ___ at 4 hours from 2020 to 2024.
+            answer: stable
+          - q: Between 2020 and 2022, boys' screen time fell ___ half an hour.
+            answer: by
+          - q: In 2016, boys spent ___ time on their phones than girls.
+            answer: less
+      - id: b26-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài Task 1 có 5 lỗi. Sửa trực tiếp.
+        text: In 2015, the number of e-book readers was 2 million. This number was increased sharp to 6 million in 2019. There was a gradually fall in 2020, and then the figure remained stable in 5 million. Paper book sales decreased 20% because people prefer e-books.
+        errors:
+          - wrong: was increased
+            right: increased
+            why: Nội động từ, không dùng bị động.
+          - wrong: increased sharp to
+            right: increased sharply to
+            why: Bổ nghĩa động từ → trạng từ.
+          - wrong: a gradually fall
+            right: a gradual fall
+            why: Bổ nghĩa danh từ → tính từ.
+          - wrong: stable in 5 million
+            right: stable at 5 million
+            why: Giữ ở mức → at.
+          - wrong: decreased 20% because people prefer e-books.
+            right: decreased by 20%.
+            why: Cần by; và Task 1 không giải thích nguyên nhân.
+      - id: b26-x6
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Which sentence is the best OVERVIEW?
+            options:
+              - In 2010, 20% of people used the internet.
+              - Overall, internet use increased in all three countries, and Korea always had the highest figure.
+              - The graph shows internet use in three countries.
+              - I think the internet is very useful.
+            answer: b
+          - q: The graph shows data from 2025 to 2040. Which tense do you use?
+            options:
+              - past simple
+              - present perfect
+              - will / is expected to
+              - present continuous
+            answer: c
+          - q: Which is the best paraphrase of 'The graph shows the number of cars sold'?
+            options:
+              - The graph shows the number of cars sold.
+              - The graph illustrates how many cars were sold.
+              - The graph is about cars.
+              - Cars sold the graph.
+            answer: b
+          - q: What should you NOT do in Task 1?
+            options:
+              - compare the lines
+              - give reasons for the changes
+              - write an overview
+              - use approximate numbers
+            answer: b
+      - id: b26-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Have you seen the sales figures?
+          Woman: Yes. Online sales rose sharply from January to March, from two to five billion dong.
+          Man: And after that?
+          Woman: They fell slightly in April, and then they remained stable until June.
+          Man: So overall, there was a significant increase.
+        questions:
+          - { q: What happened from January to March?, options: [ Sales fell sharply., Sales rose sharply., Sales remained stable., Sales fluctuated. ], answer: b }
+          - { q: What happened in April?, options: [ Sales fell slightly., Sales rose slightly., Sales reached a peak., Sales fell sharply. ], answer: a }
+          - { q: What happened from April to June?, options: [ Sales increased., Sales remained stable., Sales decreased., Sales doubled. ], answer: b }
+      - id: b26-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: The graph shows the number of visitors to a museum from 2019 to 2023. In 2019 there were fifty thousand visitors. The figure fell sharply to ten thousand in 2020, but then it rose gradually and reached a peak of seventy thousand in 2023.
+        questions:
+          - { q: "In 2019 there were 50,000 visitors.", answer: T }
+          - { q: The number fell slightly in 2020., answer: F }
+          - { q: After 2020 the number rose gradually., answer: T }
+          - { q: The number reached a peak in 2022., answer: F }
+  - type: homework
+    kind: task1
+    prompt_vi: Viết Task 1 (≥ 150 từ, 20 phút) theo bố cục Mở bài → Overview → Thân bài 1 → Thân bài 2. Số liệu giả định cho sẵn trong đề. Dùng ít nhất 3 cặp 'động từ + trạng từ' và 2 câu 'There was a + tính từ + danh từ'. Không giải thích nguyên nhân.
+    prompt_en: |-
+      The line graph shows the number of people (in millions) in Vietnam who used three types of devices to go online, from 2012 to 2024.
+      Year:        2012  2015  2018  2021  2024
+      Smartphone:    10    25    45    60    70
+      Laptop:        12    15    18    20    20
+      Desktop PC:    15    13    10     7     5
+      Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+    words:
+      min: 150
+      max: 190
+    minutes: 20

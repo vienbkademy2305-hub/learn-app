@@ -647,3 +647,462 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: paragraph|n
+    headword: paragraph
+    pos: n
+    ipa:
+      uk: /ˈpær.ə.ɡrɑːf/
+      us: /ˈper.ə.ɡræf/
+    stress: PA-ra-graph
+    cefr: A1
+    meaning_vi:
+      - đoạn văn
+    collocations:
+      - the first paragraph
+      - write a paragraph
+    notes_vi:
+      - -ph đọc /f/.
+    topics:
+      - education
+      - reading
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/paragraph, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/paragraph, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/paragraph, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: practical|adj
+    headword: practical
+    pos: adj
+    ipa:
+      uk: /ˈpræk.tɪ.kəl/
+      us: /ˈpræk.tɪ.kəl/
+    stress: PRAC-ti-cal
+    cefr: B1
+    meaning_vi:
+      - thực tế
+      - thực hành
+      - thiết thực
+    collocations:
+      - practical skills
+      - practical experience
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practical, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practical, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practical, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pressure|n
+    headword: pressure
+    pos: n
+    ipa:
+      uk: /ˈpreʃ.ər/
+      us: /ˈpreʃ.ɚ/
+    stress: PRES-sure
+    cefr: B1
+    meaning_vi:
+      - áp lực
+    collocations:
+      - put pressure on someone
+      - under pressure
+      - exam pressure
+    notes_vi:
+      - -ss- đọc /ʃ/.
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pressure, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pressure, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pressure, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: positive|adj
+    headword: positive
+    pos: adj
+    ipa:
+      uk: /ˈpɒz.ə.tɪv/
+      us: /ˈpɑː.zə.t̬ɪv/
+    stress: PO-si-tive
+    cefr: A1
+    meaning_vi:
+      - tích cực
+    collocations:
+      - a positive effect
+      - positive attitude
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/positive, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/positive, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/positive, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pollution|n
+    headword: pollution
+    pos: n
+    ipa:
+      uk: /pəˈluː.ʃən/
+      us: /pəˈluː.ʃən/
+    stress: pol-LU-tion
+    cefr: A2
+    meaning_vi:
+      - sự ô nhiễm
+    collocations:
+      - air pollution
+      - water pollution
+      - noise pollution
+      - reduce pollution
+    notes_vi:
+      - "Không đếm được: không nói *a pollution*, *pollutions*."
+      - "Động từ: pollute; tính từ: polluted (a polluted river)."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pollution, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pollution, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pollution, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: protect|v
+    headword: protect
+    pos: v
+    ipa:
+      uk: /prəˈtekt/
+      us: /prəˈtekt/
+    stress: pro-TECT
+    cefr: A2
+    meaning_vi:
+      - bảo vệ
+    collocations:
+      - protect the environment
+      - protect wildlife
+      - protect something from…
+    notes_vi:
+      - "Âm cuối /kt/: đọc rõ, không nuốt thành 'pờ-rô-téc'."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/protect, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/protect, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/protect, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: peaceful|adj
+    headword: peaceful
+    pos: adj
+    ipa:
+      uk: /ˈpiːs.fəl/
+      us: /ˈpiːs.fəl/
+    stress: PEACE-ful
+    cefr: B1
+    meaning_vi:
+      - yên bình
+      - thanh bình
+    collocations:
+      - a peaceful village
+      - peaceful and quiet
+    topics:
+      - environment
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peaceful, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peaceful, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peaceful, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: polluted|adj
+    headword: polluted
+    pos: adj
+    ipa:
+      uk: /pəˈluː.tɪd/
+      us: /pəˈluː.t̬ɪd/
+    stress: pol-LU-ted
+    cefr: null
+    meaning_vi:
+      - bị ô nhiễm
+    collocations:
+      - a polluted river
+      - heavily polluted
+      - badly polluted
+    notes_vi:
+      - Đuôi -ted đọc /tɪd/ (thêm một âm tiết).
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: plant|v
+    headword: plant
+    pos: v
+    ipa:
+      uk: /plɑːnt/
+      us: /plænt/
+    cefr: A2
+    meaning_vi:
+      - trồng (cây)
+    collocations:
+      - plant trees
+      - plant flowers
+    notes_vi:
+      - "Cũng là danh từ: a plant (cái cây, cây cảnh)."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plant_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plant_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plant_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: prefer|v
+    headword: prefer
+    pos: v
+    forms:
+      past: preferred
+      ing: preferring
+    ipa:
+      uk: /prɪˈfɜːr/
+      us: /prɪˈfɝː/
+    stress: pre-FER
+    cefr: A1
+    meaning_vi:
+      - thích hơn
+    collocations:
+      - prefer A to B
+      - prefer + V-ing
+      - prefer to + V
+    notes_vi:
+      - prefer A TO B — không nói *prefer A than B*.
+      - "Nhấn âm 2 nên gấp đôi r: preferred, preferring."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prefer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prefer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prefer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: privacy|n
+    headword: privacy
+    pos: n
+    ipa:
+      uk: /ˈprɪv.ə.si/
+      us: /ˈpraɪ.və.si/
+    stress: PRI-va-cy
+    cefr: B2
+    meaning_vi:
+      - quyền riêng tư
+      - sự riêng tư
+    collocations:
+      - protect your privacy
+      - online privacy
+    notes_vi:
+      - Anh-Anh /ˈprɪv-/ (như 'pri'), Anh-Mỹ /ˈpraɪ-/ (như 'prai') — cả hai đều đúng.
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/privacy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/privacy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/privacy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: proportion|n
+    headword: proportion
+    pos: n
+    ipa:
+      uk: /prəˈpɔː.ʃən/
+      us: /prəˈpɔːr.ʃən/
+    stress: pro-POR-tion
+    cefr: B2
+    meaning_vi:
+      - tỉ lệ
+      - phần
+    collocations:
+      - the proportion of people who…
+      - a large proportion of
+    notes_vi:
+      - "Đồng nghĩa hay dùng để tránh lặp: the percentage of, the share of."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proportion, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proportion, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proportion, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: period|n
+    headword: period
+    pos: n
+    ipa:
+      uk: /ˈpɪə.ri.əd/
+      us: /ˈpɪr.i.əd/
+    stress: PE-ri-od
+    cefr: A1
+    meaning_vi:
+      - giai đoạn
+      - khoảng thời gian
+    collocations:
+      - over the period
+      - during the period
+      - a ten-year period
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/period, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/period, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/period, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: physical-activity|phr-n
+    headword: physical activity
+    pos: phr-n
+    ipa:
+      uk: /ˌfɪz.ɪ.kəl ækˈtɪv.ə.ti/
+      us: /ˌfɪz.ɪ.kəl ækˈtɪv.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - hoạt động thể chất
+      - vận động
+    collocations:
+      - do physical activity
+      - a lack of physical activity
+    notes_vi:
+      - ph đọc /f/; physical có y đọc /ɪ/.
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: prison|n
+    headword: prison
+    pos: n
+    ipa:
+      uk: /ˈprɪz.ən/
+      us: /ˈprɪz.ən/
+    stress: PRI-son
+    cefr: A2
+    meaning_vi:
+      - nhà tù
+    collocations:
+      - go to prison
+      - be sent to prison
+      - in prison
+      - a prison sentence
+    notes_vi:
+      - "Không có mạo từ khi nói về việc ở tù: He is in prison. s đọc /z/."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prison, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prison, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prison, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: punishment|n
+    headword: punishment
+    pos: n
+    ipa:
+      uk: /ˈpʌn.ɪʃ.mənt/
+      us: /ˈpʌn.ɪʃ.mənt/
+    stress: PU-nish-ment
+    cefr: B1
+    meaning_vi:
+      - hình phạt
+    collocations:
+      - a harsh punishment
+      - a fair punishment
+      - punishment for crime
+    notes_vi:
+      - "Động từ: punish (PU-nish)."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/punishment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/punishment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/punishment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: public-safety|phr-n
+    headword: public safety
+    pos: phr-n
+    ipa:
+      uk: /ˌpʌb.lɪk ˈseɪf.ti/
+      us: /ˌpʌb.lɪk ˈseɪf.ti/
+    cefr: null
+    meaning_vi:
+      - an toàn công cộng
+    collocations:
+      - improve public safety
+      - a threat to public safety
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: prevent|v
+    headword: prevent
+    pos: v
+    ipa:
+      uk: /prɪˈvent/
+      us: /prɪˈvent/
+    stress: pre-VENT
+    cefr: A2
+    meaning_vi:
+      - ngăn chặn
+      - phòng ngừa
+    collocations:
+      - prevent crime
+      - prevent somebody from + V-ing
+    notes_vi:
+      - prevent somebody FROM doing something (không nói *prevent somebody to do*).
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-29, field: ipa.us }
+    status: draft

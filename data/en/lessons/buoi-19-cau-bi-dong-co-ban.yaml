@@ -203,6 +203,31 @@ steps:
             explain_vi: a local family = gia đình ở địa phương.
           - q: The same family still runs the oldest workshop.
             answer: T
+      - id: b19-x6
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: This scarf is beautiful. Where was it made?
+          Man: It was made in Van Phuc village. It's silk.
+          Woman: Is it handmade?
+          Man: Yes, all our scarves are made by hand. Some are exported to Japan.
+          Woman: How much is it?
+          Man: Four hundred thousand dong.
+        questions:
+          - { q: Where was the scarf made?, options: [ in Japan, in Van Phuc village, in a big factory, in Hanoi city centre ], answer: b }
+          - { q: What is it made of?, options: [ cotton, silk, plastic, wool ], answer: b }
+          - { q: Where are some scarves exported to?, options: [ China, Japan, France, Korea ], answer: b }
+      - id: b19-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Coffee is grown in the Central Highlands of Vietnam. It was brought to Vietnam by the French in the nineteenth century. Today, Vietnamese coffee is exported to more than eighty countries, and a lot of it is used to make instant coffee.
+        questions:
+          - { q: Coffee is grown in the Central Highlands., answer: T }
+          - { q: Coffee was brought to Vietnam by the Chinese., answer: F }
+          - { q: Vietnamese coffee is exported to more than eighty countries., answer: T }
+          - { q: Vietnamese coffee is never used for instant coffee., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ giới thiệu một sản phẩm nổi tiếng ở quê bạn: được làm/trồng ở đâu, làm thế nào, bán cho ai. Dùng ít nhất 5 câu bị động."

@@ -4,7 +4,7 @@ title_vi: "Kiểm tra ngắn 3: Buổi 11–15"
 stage: 1
 kind: mini
 after_lesson: 15
-minutes: 20
+minutes: 30
 pass_percent: 80
 intro_vi: "Tính từ + giới từ, It, should/must/have to, câu mệnh lệnh, quá khứ đơn & quá khứ tiếp diễn, hai tân ngữ, will / be going to."
 source: editorial
@@ -63,3 +63,35 @@ sections:
           - { wrong: "We was", right: "We were", why: "We → were." }
           - { wrong: "While we swimming", right: "While we were swimming", why: "Quá khứ tiếp diễn: was/were + V-ing." }
           - { wrong: "didn't brought", right: "didn't bring", why: "Sau didn't dùng nguyên mẫu." }
+  - title_vi: Nghe
+    exercises:
+      - id: gd1-mini-3-x5
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai người bạn nói chuyện sau kỳ nghỉ (nghe tối đa 2 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Woman: Hi Nam! How was your trip to Sa Pa?
+          Man: It was great, but the weather was really cold. It snowed on the second day!
+          Woman: Wow! Did you get sick?
+          Man: Yes, I had a sore throat, so I stayed in the hotel for a day and took some medicine.
+          Woman: Oh no. What did you do on the other days?
+          Man: We went trekking and visited a small village. We stayed in Sa Pa for four days.
+          Woman: What are your plans for next summer?
+          Man: I'm going to visit Phu Quoc. It's hot and sunny there!
+        questions:
+          - { q: "What was the weather like in Sa Pa?", options: [hot and sunny, warm, very cold, rainy and windy], answer: c, lesson: 11 }
+          - { q: "What was Nam's health problem?", options: [a headache, a sore throat, a stomachache, a broken arm], answer: b, lesson: 12 }
+          - { q: "How long did Nam stay in Sa Pa?", options: [one day, two days, four days, a week], answer: c, lesson: 13 }
+          - { q: "What did Nam do on the other days?", options: ["He went shopping.", "He went trekking and visited a village.", "He stayed in the hotel.", "He went swimming."], answer: b, lesson: 14 }
+          - { q: "What is Nam going to do next summer?", options: [visit Sa Pa again, visit Phu Quoc, stay at home, work in a hotel], answer: b, lesson: 15 }
+      - id: gd1-mini-3-x6
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe Lan kể về một chuyến đi. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "Last year I travelled to Hue by train. The journey took twelve hours, so I was very tired when I arrived. It was raining, and while I was walking to the hotel, I lost my map. Luckily, a kind woman helped me and showed me the way. The next day the weather was sunny, and I visited the old city. Next month I'm going to take my parents there."
+        questions:
+          - { q: "Lan went to Hue by plane.", answer: F, lesson: 13 }
+          - { q: "It was raining when she arrived.", answer: T, lesson: 11 }
+          - { q: "She lost her map while she was walking to the hotel.", answer: T, lesson: 14 }
+          - { q: "A man helped her find the hotel.", answer: F, explain_vi: "a kind woman.", lesson: 14 }
+          - { q: "She is going to visit Hue again with her parents.", answer: T, lesson: 15 }

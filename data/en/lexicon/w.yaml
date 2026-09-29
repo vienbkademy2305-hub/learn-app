@@ -418,3 +418,101 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: waste|n
+    headword: waste
+    pos: n
+    ipa:
+      uk: /weɪst/
+      us: /weɪst/
+    cefr: B1
+    meaning_vi:
+      - rác thải
+      - chất thải
+      - sự lãng phí
+    collocations:
+      - plastic waste
+      - food waste
+      - a waste of time
+    notes_vi:
+      - Âm cuối /st/ — đọc đủ cả /s/ và /t/.
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/waste, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/waste, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/waste, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: would-rather|colloc
+    headword: would rather
+    pos: colloc
+    ipa:
+      uk: /wʊd ˈrɑː.ðər/
+      us: /wʊd ˈræð.ɚ/
+    cefr: null
+    meaning_vi:
+      - thà… còn hơn
+      - muốn … hơn
+    collocations:
+      - would rather + V + than + V
+      - I'd rather not
+    notes_vi:
+      - "Sau would rather là động từ nguyên mẫu KHÔNG có to: I'd rather stay (không nói *I'd rather to stay*)."
+      - "Viết tắt: I'd rather."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: work-out|phr-v
+    headword: work out
+    pos: phr-v
+    ipa:
+      uk: /ˌwɜːk ˈaʊt/
+      us: /ˌwɝːk ˈaʊt/
+    cefr: null
+    meaning_vi:
+      - tập luyện thể lực
+    collocations:
+      - work out at the gym
+      - work out three times a week
+    notes_vi:
+      - "Danh từ viết liền: a workout (một buổi tập)."
+    topics:
+      - health
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/work_out, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/work_out, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: witness|n
+    headword: witness
+    pos: n
+    ipa:
+      uk: /ˈwɪt.nəs/
+      us: /ˈwɪt.nəs/
+    stress: WIT-ness
+    cefr: B2
+    meaning_vi:
+      - nhân chứng
+    collocations:
+      - a witness to the crime
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -98,7 +98,7 @@ function augmentLesson(): [string, string] {
   if (!existsSync(lf)) throw new Error(`augment: lesson file ${lesson.slug}.yaml not found`);
   const doc = YAML.parseDocument(readFileSync(lf, "utf8"));
   const steps = doc.get("steps") as YAML.YAMLSeq;
-  const order = ["vocabulary", "pronunciation", "grammar", "examples", "dialogue", "exercises", "homework"];
+  const order = ["vocabulary", "pronunciation", "grammar", "skill", "examples", "dialogue", "exercises", "homework"];
   for (const add of (lesson.steps as Obj[] | undefined) ?? []) {
     const type = String(add.type);
     let target = steps.items.find((it) => YAML.isMap(it) && it.get("type") === type) as YAML.YAMLMap | undefined;

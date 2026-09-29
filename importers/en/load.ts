@@ -10,7 +10,7 @@ import YAML from "yaml";
 export const STATUSES = ["draft", "reviewed", "retired"] as const;
 export const POS = ["n", "v", "adj", "adv", "prep", "conj", "pron", "det", "num", "phr-n", "phr-v", "idiom", "colloc"] as const;
 export const CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"] as const;
-export const STEP_ORDER = ["vocabulary", "pronunciation", "grammar", "examples", "dialogue", "exercises", "homework"] as const;
+export const STEP_ORDER = ["vocabulary", "pronunciation", "grammar", "skill", "examples", "dialogue", "exercises", "homework"] as const;
 /** `ai-draft` marks a field Claude filled in without checking a source. */
 export const AI_DRAFT = "ai-draft";
 
@@ -42,8 +42,12 @@ export interface Question {
 }
 export interface Exercise {
   id: string; bank_no: number; kind: string; instructions_vi: string; bank?: string[]; passage?: string; text?: string;
-  max_words?: number; pairs?: Array<{ left: string; right: string }>; errors?: Array<{ wrong: string; right: string; why?: string }>;
+  max_words?: number; pairs?: Array<{ left: string; right: string }>;
+  /** tests: `lesson` tags one error for the weak-area report */
+  errors?: Array<{ wrong: string; right: string; why?: string; lesson?: number }>;
   questions?: Question[]; cue_card?: { topic: string; points: string[] }; sample?: string;
+  /** listening: script read aloud by TTS; the transcript shows only after checking */
+  audio_text?: string;
   /** tests only: default lesson for every question/pair/error of this exercise */
   lesson?: number;
 }
@@ -59,8 +63,19 @@ export interface Sound {
   id: string; ipa: string; kind: "vowel" | "diphthong" | "consonant"; voiced?: boolean; examples: string[];
   how_vi: string; note_vi: string; pairs: Array<[string, string]>; lesson: number; tot_unit?: number | null;
 }
+export const SKILLS = ["listening", "reading", "writing", "speaking"] as const;
+/** Stage 2+: how to tackle one IELTS task type — procedure, tips, traps, useful language, a worked demo. */
+export interface SkillStep {
+  type: "skill"; skill: (typeof SKILLS)[number]; title_vi: string; intro_vi: string;
+  steps: Array<{ title_vi: string; text_vi: string }>;
+  tips?: string[];
+  traps?: Array<{ trap_vi: string; fix_vi: string }>;
+  phrases?: Array<{ en: string; vi: string; note_vi?: string }>;
+  demo?: { title_vi: string; text_en: string; notes: Array<{ label?: string; text_vi: string }> };
+}
 export type Step =
   | { type: "vocabulary" | "grammar" | "examples"; items: string[] }
+  | SkillStep
   | { type: "pronunciation"; notes: Array<{ word?: string; sound?: string; text_vi: string }> }
   | { type: "dialogue"; title_vi?: string; lines: Array<{ speaker: string; text: string; vi: string }> }
   | { type: "exercises"; items: Exercise[] }
@@ -298,6 +313,15 @@ export function validateEnglish(data: EnglishData): { errors: string[]; warnings
         if (n.sound && !sounds.has(n.sound)) err(w, `pronunciation: unknown sound ${n.sound}`);
       }
       if (step.type === "dialogue") for (const [i, line] of (step.lines ?? []).entries()) if (!line.text || !line.vi) err(w, `dialogue line ${i + 1} needs text and vi`);
+      if (step.type === "skill") {
+        if (!SKILLS.includes(step.skill as never)) err(w, `skill must be one of ${SKILLS.join("/")}`);
+        if (!step.title_vi || !step.intro_vi?.trim()) err(w, "skill needs title_vi and intro_vi");
+        if (!step.steps?.length) err(w, "skill needs steps");
+        for (const [i, s] of (step.steps ?? []).entries()) if (!s.title_vi || !s.text_vi) err(w, `skill step ${i + 1} needs title_vi and text_vi`);
+        for (const [i, t] of (step.traps ?? []).entries()) if (!t.trap_vi || !t.fix_vi) err(w, `skill trap ${i + 1} needs trap_vi and fix_vi`);
+        for (const [i, p] of (step.phrases ?? []).entries()) if (!p.en || !p.vi) err(w, `skill phrase ${i + 1} needs en and vi`);
+        if (step.demo && (!step.demo.text_en || !step.demo.notes?.length)) err(w, "skill demo needs text_en and notes");
+      }
       if (step.type === "homework" && !step.prompt_vi) err(w, "homework needs prompt_vi");
       if (step.type === "exercises") for (const ex of step.items ?? []) {
         const we = `${w} ${ex.id}`;
@@ -330,9 +354,10 @@ export function validateEnglish(data: EnglishData): { errors: string[]; warnings
       testExerciseIds.add(ex.id);
       if (ex.kind.startsWith("speaking")) err(we, "speaking exercises cannot be auto-graded in a test");
       checkExercise(we, ex, err);
-      const tags = [ex.lesson, ...(ex.questions ?? []).map((q) => q.lesson)].filter((n): n is number => n !== undefined);
+      const tags = [ex.lesson, ...(ex.questions ?? []).map((q) => q.lesson), ...(ex.errors ?? []).map((e) => e.lesson)].filter((n): n is number => n !== undefined);
       for (const n of tags) if (!lessonNumbers.has(n) || n > t.after_lesson) err(we, `lesson tag ${n} must be a lesson ≤ ${t.after_lesson}`);
-      if (ex.lesson === undefined && (!(ex.questions ?? []).length || (ex.questions ?? []).some((q) => q.lesson === undefined)))
+      const untagged = ex.kind === "error-correction" ? (ex.errors ?? []).some((e) => e.lesson === undefined) : !(ex.questions ?? []).length || (ex.questions ?? []).some((q) => q.lesson === undefined);
+      if (ex.lesson === undefined && untagged)
         err(we, "every question needs a lesson tag (exercise.lesson or question.lesson)");
     }
   }
@@ -372,14 +397,16 @@ function checkExercise(w: string, ex: Exercise, err: (where: string, msg: string
     case "mcq":
     case "tfng":
     case "ynng":
+    case "tf":
     case "completion":
       break;
     default:
       return err(w, `unknown kind ${ex.kind}`);
   }
   if (!qs.length) err(w, "needs questions");
-  if (["tfng", "ynng", "completion"].includes(ex.kind) && !ex.passage) err(w, "needs passage");
-  const allowed = ex.kind === "tfng" ? ["T", "F", "NG"] : ex.kind === "ynng" ? ["Y", "N", "NG"] : null;
+  if (["tfng", "ynng", "tf", "completion"].includes(ex.kind) && !ex.passage && !ex.audio_text) err(w, "needs passage (or audio_text for listening)");
+  if (ex.kind === "completion" && ex.audio_text && !ex.passage) err(w, "listening completion needs the form/notes as passage");
+  const allowed = ex.kind === "tfng" ? ["T", "F", "NG"] : ex.kind === "ynng" ? ["Y", "N", "NG"] : ex.kind === "tf" ? ["T", "F"] : null;
   for (const [i, q] of qs.entries()) {
     const wq = `${w} q${i + 1}`;
     if (!q.q) err(wq, "q is required");
@@ -425,6 +452,10 @@ export function searchEnglish(data: EnglishData, query: string): Hit[] {
       if (s.type === "dialogue") for (const line of s.lines ?? []) parts.push(`${line.text} | ${line.vi}`);
       if (s.type === "pronunciation") for (const n of s.notes ?? []) parts.push(n.text_vi);
       if (s.type === "homework") parts.push(s.prompt_vi, s.prompt_en ?? "");
+      if (s.type === "skill") {
+        parts.push(s.title_vi, s.intro_vi, ...(s.steps ?? []).map((x) => `${x.title_vi}: ${x.text_vi}`), ...(s.tips ?? []));
+        parts.push(...(s.traps ?? []).map((t) => `${t.trap_vi} → ${t.fix_vi}`), ...(s.phrases ?? []).map((p) => `${p.en} | ${p.vi}`), s.demo?.text_en ?? "");
+      }
       if (s.type === "exercises") for (const ex of s.items ?? []) {
         parts.push(`[${ex.id}] ${ex.instructions_vi}`, ex.passage ?? "", ex.text ?? "");
         for (const qq of ex.questions ?? []) parts.push(`[${ex.id}] ${qq.q ?? ""} → ${qq.answer ?? ""}`);

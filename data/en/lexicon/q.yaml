@@ -68,3 +68,30 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: qualification|n
+    headword: qualification
+    pos: n
+    ipa:
+      uk: /ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/
+      us: /ˌkwɑː.lɪ.fɪˈkeɪ.ʃən/
+    stress: qua-li-fi-CA-tion
+    cefr: B1
+    meaning_vi:
+      - bằng cấp
+      - chứng chỉ
+      - trình độ chuyên môn
+    collocations:
+      - get a qualification
+      - a qualification in accounting
+      - academic qualifications
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-29, field: ipa.us }
+    status: draft

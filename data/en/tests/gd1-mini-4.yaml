@@ -4,7 +4,7 @@ title_vi: "Kiểm tra ngắn 4: Buổi 16–20"
 stage: 1
 kind: mini
 after_lesson: 20
-minutes: 20
+minutes: 30
 pass_percent: 80
 intro_vi: "V + to-V / V-ing, tính từ -ed/-ing, trạng từ, mạo từ & giới từ cố định, câu bị động cơ bản."
 source: editorial
@@ -62,3 +62,34 @@ sections:
           - { q: "Mai enjoys playing sport.", answer: F, explain_vi: "Mai không thích thể thao — người mê bóng đá là Nam.", lesson: 17 }
           - { q: "The stadium was built last year.", answer: T, lesson: 19 }
           - { q: "Mai goes to concerts at the stadium.", answer: NG, explain_vi: "Bài chỉ nói sân được dùng cho hòa nhạc, không nói Mai có đi.", lesson: 16 }
+  - title_vi: Nghe
+    exercises:
+      - id: gd1-mini-4-x5
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai người nói về sở thích (nghe tối đa 2 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Man: What do you enjoy doing in your free time, Linh?
+          Woman: I love taking photos. I started last year, and now I take my camera everywhere.
+          Man: Are you interested in football?
+          Woman: Not really. I think it's boring. But I was very excited when Vietnam won the final last month!
+          Man: Me too. I'm good at playing the guitar, and I practise every evening.
+          Woman: That's amazing. Where did you get your guitar?
+          Man: It was made in Spain. My uncle gave it to me as a present.
+        questions:
+          - { q: "What is Linh's hobby?", options: [playing football, taking photos, playing the guitar, cooking], answer: b, lesson: 16 }
+          - { q: "How does Linh feel about football?", options: ["It's exciting.", "It's boring.", "It's frightening.", "It's interesting."], answer: b, lesson: 17 }
+          - { q: "How did Linh feel when Vietnam won?", options: [bored, tired, excited, worried], answer: c, lesson: 17 }
+          - { q: "What is the man good at?", options: [taking photos, playing football, playing the guitar, singing], answer: c, lesson: 18 }
+          - { q: "Where was the guitar made?", options: [in Vietnam, in Spain, in Japan, by his uncle], answer: b, lesson: 19 }
+      - id: gd1-mini-4-x6
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe giới thiệu về một làng nghề. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "Welcome to Bat Trang village. This village is famous for its pottery. The first workshops were opened more than five hundred years ago. Today, cups, bowls and vases are made by hand and sold in the shops along the main street. Many of these products are exported to Japan and Europe. If you are interested in pottery, you can make your own bowl in one of the workshops."
+        questions:
+          - { q: "The village is famous for silk.", answer: F, lesson: 19 }
+          - { q: "The first workshops opened more than five hundred years ago.", answer: T, lesson: 19 }
+          - { q: "The products are made by machines.", answer: F, lesson: 19 }
+          - { q: "Some products are sold to other countries.", answer: T, lesson: 19 }
+          - { q: "Visitors can make a bowl in a workshop.", answer: T, lesson: 16 }

@@ -312,6 +312,32 @@ steps:
             answer: back
           - q: She fell over and hurt her ___.
             answer: knee
+      - id: b12-x9
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Doctor: Good morning. What's the problem?
+          Man: I have a sore throat and a bad cough.
+          Doctor: Do you have a fever?
+          Man: Yes, a little.
+          Doctor: You should rest for two days and drink a lot of warm water. Take this medicine three times a day.
+          Man: Do I have to stay at home?
+          Doctor: Yes. You shouldn't go to work until you feel better.
+        questions:
+          - { q: What are the man's problems?, options: [ a headache and a fever, a sore throat and a cough, a stomachache, a broken leg ], answer: b }
+          - { q: How often should he take the medicine?, options: [ once a day, twice a day, three times a day, every hour ], answer: c }
+          - { q: Does he have to stay at home?, options: [ "Yes, until he feels better.", "No, he can go to work.", Only in the morning., The doctor doesn't say. ], answer: a }
+      - id: b12-x10
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: To stay healthy, you should sleep seven or eight hours a night. You must not eat too much sugar, and you should eat fruit and vegetables every day. Don't sit in front of a computer all day. Take a short walk every hour.
+        questions:
+          - { q: You should sleep seven or eight hours a night., answer: T }
+          - { q: It's fine to eat a lot of sugar., answer: F }
+          - { q: You should eat vegetables every day., answer: T }
+          - { q: You should sit at your computer all day., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ đưa lời khuyên cho một người bạn hay bị mệt và ốm: bạn ấy nên / không nên / phải làm gì để khỏe hơn."

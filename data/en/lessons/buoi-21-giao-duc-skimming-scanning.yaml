@@ -1,0 +1,396 @@
+# Buổi 21 — Giáo dục · Reading: Skimming & Scanning. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-21-giao-duc-skimming-scanning
+number: 21
+stage: 2
+title_vi: "Giáo dục · Reading: Skimming & Scanning"
+focus:
+  grammar: Hiện tại hoàn thành
+  skill: Reading — skimming & scanning
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - education|n
+      - higher-education|phr-n
+      - curriculum|n
+      - tuition-fee|phr-n
+      - qualification|n
+      - degree|n
+      - knowledge|n
+      - skill|n
+      - lecturer|n
+      - scholarship|n
+      - academic|adj
+      - rote-learning|phr-n
+      - extracurricular-activity|phr-n
+      - attend|v
+      - improve|v
+      - achieve|v
+      - main-idea|phr-n
+      - paragraph|n
+  - type: pronunciation
+    notes:
+      - word: education|n
+        text_vi: "Quy tắc -tion: trọng âm rơi vào âm tiết NGAY TRƯỚC -tion: e-du-CA-tion, qua-li-fi-CA-tion. d + u đọc /dʒ/ như 'giu'."
+      - word: knowledge|n
+        text_vi: "k câm, -ow- đọc /ɒ/ (như 'not'): /ˈnɒl.ɪdʒ/. Âm cuối /dʒ/ phải bật ra, đừng nuốt."
+      - word: academic|adj
+        text_vi: "a-ca-DE-mic (nhấn âm 3), khác academy: a-CA-de-my (nhấn âm 2)."
+      - word: curriculum|n
+        text_vi: cu-RI-cu-lum — nhấn âm 2, các âm còn lại đọc nhẹ /ə/.
+      - sound: snd-v
+        text_vi: "have /hæv/ và I've /aɪv/: /v/ cuối từ phải để răng trên chạm môi dưới, không đọc thành 'hep' hay bỏ mất âm."
+      - word: scholarship|n
+        text_vi: "sch- đọc /sk/: SCHO-lar-ship /ˈskɒl.ə.ʃɪp/."
+  - type: grammar
+    items:
+      - en-g2-01
+  - type: skill
+    skill: reading
+    title_vi: Skimming & Scanning — đọc lướt lấy ý chính, dò tìm thông tin
+    intro_vi: Bài Reading IELTS có 3 bài đọc (khoảng 2.700 từ) và 40 câu hỏi trong 60 phút — không đủ thời gian đọc kỹ từng chữ. Hai kỹ thuật nền tảng là Skimming (đọc lướt để biết mỗi đoạn nói gì) và Scanning (dò nhanh để tìm một thông tin cụ thể). Mọi dạng câu hỏi ở các buổi sau (True/False/Not Given, matching, điền từ) đều dựa trên hai kỹ thuật này.
+    steps:
+      - title_vi: Skim tiêu đề và câu đầu mỗi đoạn
+        text_vi: Đọc tiêu đề, phụ đề (nếu có), rồi câu đầu của từng đoạn — thường là câu chủ đề. Nếu câu đầu chỉ là câu dẫn, đọc thêm câu thứ hai hoặc câu cuối đoạn. Cả bài chỉ nên mất khoảng 2 phút.
+      - title_vi: Ghi ý chính bên lề
+        text_vi: "Mỗi đoạn ghi 2–4 từ (tiếng Anh hay tiếng Việt đều được), VD: A – học phí tăng; B – lý do. Đây là 'bản đồ' để quay lại khi làm câu hỏi."
+      - title_vi: Để ý từ nối
+        text_vi: However / but báo hiệu ý ngược lại — ý quan trọng thường nằm SAU từ này. For example / such as báo hiệu ví dụ — có thể bỏ qua khi skim.
+      - title_vi: "Scan: chọn từ khóa dễ tìm trong câu hỏi"
+        text_vi: Ưu tiên tên riêng, con số, năm, từ viết hoa, thuật ngữ — những từ này thường giữ nguyên trong bài, không bị đổi sang từ đồng nghĩa.
+      - title_vi: "Scan: dò theo 'hình dạng' của từ khóa"
+        text_vi: "Không đọc từng câu. Lướt mắt tìm đúng hình dạng từ khóa: số 1998, chữ viết hoa, dấu %, $. Tìm thấy rồi mới đọc kỹ câu đó cùng một câu trước và một câu sau."
+      - title_vi: Đối chiếu lại với câu hỏi
+        text_vi: Đáp án đúng loại thông tin chưa (số hay tên người)? Đúng số từ cho phép chưa? Chép đúng chính tả và số ít/số nhiều như trong bài chưa?
+    tips:
+      - Skimming không phải đọc nhanh cả bài. Mục tiêu chỉ là trả lời được 'Đoạn này nói về cái gì?' trong khoảng 20 giây.
+      - "Tín hiệu khi scan: năm (2019), số + đơn vị (%, km, $), tên người và địa danh viết hoa, dấu ngoặc kép (lời trích dẫn), từ liệt kê firstly/secondly/finally."
+      - "Câu hỏi IELTS thường theo thứ tự bài đọc (trừ dạng matching): đáp án câu 3 thường nằm sau đáp án câu 2."
+      - "Gặp từ mới: đừng dừng lại tra. Đoán nghĩa từ ngữ cảnh, hoặc bỏ qua nếu nó không liên quan tới câu hỏi."
+    traps:
+      - trap_vi: Dịch cả câu hỏi sang tiếng Việt rồi đọc bài từ đầu đến cuối.
+        fix_vi: Chỉ gạch 2–3 từ khóa rồi scan. Chỉ đọc kỹ đoạn chứa từ khóa.
+      - trap_vi: Thấy từ khóa là chọn đáp án ngay.
+        fix_vi: "Đọc hết câu chứa từ khóa: not, only, never, however có thể làm đổi hẳn nghĩa."
+      - trap_vi: Chỉ tìm đúng từ y hệt trong câu hỏi.
+        fix_vi: Động từ, tính từ hay được thay bằng từ đồng nghĩa (expensive ↔ costly, rise ↔ increase). Chỉ tên riêng và con số là giữ nguyên.
+      - trap_vi: Chép đáp án sai chính tả hoặc thiếu -s.
+        fix_vi: Chép đúng như trong bài và kiểm tra số ít/số nhiều — sai chính tả là mất điểm.
+    phrases:
+      - en: However, …
+        vi: Tuy nhiên — sắp có ý ngược lại
+        note_vi: Ý sau However thường là ý chính của đoạn.
+      - en: For example, … / such as …
+        vi: Ví dụ — sắp có ví dụ
+        note_vi: Khi skim có thể bỏ qua phần ví dụ.
+      - en: In addition, …
+        vi: Thêm vào đó — bổ sung ý cùng chiều
+      - en: As a result, …
+        vi: Kết quả là — nêu hệ quả
+      - en: Overall, … / In conclusion, …
+        vi: Nhìn chung / Tóm lại
+        note_vi: Câu này thường chứa ý chính của cả bài.
+    demo:
+      title_vi: "Làm mẫu: skim và scan một bài đọc ngắn"
+      text_en: |-
+        A  Online learning has grown quickly in Vietnam over the last ten years. Before 2015, most students only studied in classrooms. Today, millions of learners use apps and websites to learn English, maths and even cooking.
+        B  There are several reasons for this change. Internet access has become cheaper, and most young people now have a smartphone. In addition, online courses often cost less than classes at a language centre. For example, a three-month English course online may cost about 500,000 dong, while a similar class at a centre costs over 3 million.
+        C  However, online learning is not perfect. Many learners find it hard to study alone at home, and some never finish their courses. A 2023 survey of 2,000 students in Ho Chi Minh City found that only 35% of them finished the online courses they started.
+      notes:
+        - label: Skim — đoạn A
+          text_vi: "Câu đầu: 'Online learning has grown quickly…' → ý chính: học online tăng nhanh. Ghi lề: A – học online tăng."
+        - label: Skim — đoạn B
+          text_vi: "Câu đầu 'several reasons for this change' → đoạn này nêu LÝ DO. Phần 'For example…' là ví dụ, bỏ qua khi skim. Ghi lề: B – lý do (rẻ, có điện thoại)."
+        - label: Skim — đoạn C
+          text_vi: "Mở đầu bằng However → ý ngược lại: nhược điểm của học online. Ghi lề: C – nhược điểm."
+        - label: Scan — How many students took part in the survey?
+          text_vi: "Từ khóa: survey + số lượng. Lướt tìm con số đứng cạnh 'survey' → đoạn C: 2,000. Không cần đọc lại đoạn A, B."
+        - label: Scan — What percentage of them finished their courses?
+          text_vi: "Tìm dấu % → 35%. Đọc kỹ cả câu: 'only 35% of them finished' — đúng thông tin cần tìm."
+  - type: examples
+    items:
+      - b21-001
+      - b21-002
+      - b21-003
+      - b21-004
+      - b21-005
+      - b21-006
+      - b21-007
+      - b21-008
+      - b21-009
+      - b21-010
+      - b21-013
+      - b21-018
+  - type: dialogue
+    title_vi: Gặp lại bạn cũ
+    lines:
+      - speaker: A
+        text: Hi Minh! I haven't seen you for a long time. How are you?
+        vi: Chào Minh! Lâu lắm rồi tớ không gặp cậu. Cậu khỏe không?
+      - speaker: B
+        text: I'm fine, thanks. I've just finished my first year at university.
+        vi: Tớ khỏe, cảm ơn cậu. Tớ vừa học xong năm nhất đại học.
+      - speaker: A
+        text: Great! What do you study?
+        vi: Tuyệt quá! Cậu học ngành gì?
+      - speaker: B
+        text: Business. The lecturers are excellent, but the tuition fees are quite high.
+        vi: Kinh doanh. Giảng viên rất giỏi, nhưng học phí khá cao.
+      - speaker: A
+        text: Have you applied for a scholarship?
+        vi: Cậu đã nộp đơn xin học bổng chưa?
+      - speaker: B
+        text: Yes, I have. I got one last month, so I pay less now.
+        vi: Rồi. Tháng trước tớ được một suất, nên giờ tớ đóng ít hơn.
+      - speaker: A
+        text: Congratulations! Have you joined any extracurricular activities?
+        vi: Chúc mừng cậu! Cậu đã tham gia hoạt động ngoại khóa nào chưa?
+      - speaker: B
+        text: I've joined the English club, and my speaking has improved a lot since September.
+        vi: Tớ vào câu lạc bộ tiếng Anh, và kỹ năng nói của tớ đã tiến bộ nhiều từ tháng Chín.
+      - speaker: A
+        text: That's wonderful. I've never taken the IELTS test, but I want to try next year.
+        vi: Tuyệt thật. Tớ chưa thi IELTS bao giờ, nhưng năm sau tớ muốn thử.
+      - speaker: B
+        text: Good luck! Read a lot in English. It's the best way to gain knowledge and new words.
+        vi: Chúc cậu may mắn! Đọc thật nhiều bằng tiếng Anh nhé. Đó là cách tốt nhất để có thêm kiến thức và từ mới.
+  - type: exercises
+    items:
+      - id: b21-x1
+        bank_no: 11
+        kind: mcq
+        instructions_vi: "Skimming: đọc lướt trong 90 giây (chỉ đọc câu đầu mỗi đoạn và các từ nối), rồi chọn ý chính của từng đoạn."
+        passage: |-
+          A  Many Vietnamese students spend a lot of time on schoolwork. Besides lessons at school, they go to extra classes in the evening and at weekends. For some teenagers, the school day ends at nine or ten o'clock at night.
+          B  Parents have different opinions about this. Some believe that extra classes help their children get into a good university. Others worry that their children are always tired and have no time to play or rest.
+          C  In recent years, the government has made new rules to limit extra classes. For example, teachers cannot charge their own students for extra lessons at school.
+          D  However, the new rules have not solved the problem completely. Many families still pay for private teachers at home, because the entrance exams to top high schools and universities are very difficult.
+        questions:
+          - q: Paragraph A mainly describes…
+            options:
+              - how long students study every day
+              - the subjects students like best
+              - the cost of extra classes
+              - why teenagers go to bed late
+            answer: a
+            explain_vi: "Câu đầu: students spend a lot of time on schoolwork → thời gian học. Phương án d chỉ là chi tiết."
+          - q: Paragraph B is about…
+            options:
+              - how parents help with homework
+              - parents' different views on extra classes
+              - the best universities in Vietnam
+              - why children need more sleep
+            answer: b
+            explain_vi: "Câu đầu: Parents have different opinions about this."
+          - q: Paragraph C is about…
+            options:
+              - teachers' salaries
+              - a new kind of school
+              - a change made by the government
+              - extra classes at weekends
+            answer: c
+            explain_vi: the government has made new rules. 'For example…' chỉ là ví dụ.
+          - q: Paragraph D explains…
+            options:
+              - how private teachers work
+              - why the problem still exists
+              - how to pass entrance exams
+              - which high schools are the best
+            answer: b
+            explain_vi: Mở đầu bằng However + 'have not solved the problem' → vì sao vấn đề vẫn còn.
+          - q: What is the best title for the whole passage?
+            options:
+              - "Extra classes: a problem that has not ended"
+              - How to get into a top university
+              - The life of a Vietnamese teacher
+              - Private teachers in Asia
+            answer: a
+            explain_vi: "Ghép ý chính 4 đoạn: học thêm nhiều → ý kiến trái chiều → quy định mới → vấn đề chưa hết."
+      - id: b21-x2
+        bank_no: 12
+        kind: completion
+        instructions_vi: "Scanning: đừng đọc cả bài. Tìm từ khóa (số, tên riêng, giờ) rồi trả lời. Viết KHÔNG QUÁ BA TỪ VÀ/HOẶC MỘT SỐ."
+        max_words: 3
+        passage: Riverside University opened in 1998 with only 400 students. Today it has 12,500 students in six faculties, and its business school is the largest in the region. Professor Tran Thi Mai has been the president of the university since 2019. Tuition fees are 18 million dong per year, but every year the university gives scholarships to 300 students from poor families. The main library opens at 7 a.m. and closes at 10 p.m., and students can also borrow e-books online. The most popular extracurricular activity is the Green Club, which plants trees in the city every month.
+        questions:
+          - q: In which year did the university open?
+            answer: "1998"
+          - q: How many students does the university have today?
+            answer: 12,500
+            accept:
+              - "12500"
+              - 12,500 students
+              - 12500 students
+          - q: Who is the president of the university?
+            answer: Tran Thi Mai
+            accept:
+              - Professor Tran Thi Mai
+              - Prof Tran Thi Mai
+          - q: How many students get a scholarship every year?
+            answer: "300"
+            accept:
+              - 300 students
+          - q: What time does the main library open?
+            answer: 7 a.m.
+            accept:
+              - 7 am
+              - 7am
+              - 7 a.m
+              - "7"
+          - q: What is the name of the most popular club?
+            answer: the Green Club
+            accept:
+              - Green Club
+      - id: b21-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: "Chia động từ ở thì hiện tại hoàn thành hoặc quá khứ đơn. Chú ý dấu hiệu: for/since/ever/yet hay mốc thời gian đã qua?"
+        questions:
+          - q: I (study) ___ English since 2022.
+            answer: have studied
+            accept:
+              - "'ve studied"
+          - q: She (never / be) ___ to England.
+            answer: has never been
+            accept:
+              - "'s never been"
+          - q: We (finish) ___ the project last Friday.
+            answer: finished
+            explain_vi: last Friday = mốc đã qua → quá khứ đơn.
+          - q: ___ an online course? (you / ever / take)
+            answer: Have you ever taken
+          - q: My brother (just / get) ___ a scholarship.
+            answer: has just got
+            accept:
+              - has just gotten
+              - "'s just got"
+          - q: They (not / choose) ___ a university yet.
+            answer: haven't chosen
+            accept:
+              - have not chosen
+          - q: Tuition fees (increase) ___ a lot in the last five years.
+            answer: have increased
+            explain_vi: in the last five years = khoảng thời gian kéo dài đến nay → hiện tại hoàn thành.
+          - q: I (graduate) ___ from high school in 2021.
+            answer: graduated
+      - id: b21-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank:
+          - curriculum
+          - tuition fees
+          - scholarship
+          - qualification
+          - rote learning
+          - extracurricular activities
+          - lecturer
+          - knowledge
+        questions:
+          - q: Our ___ gave us a lot of reading for next week.
+            answer: lecturer
+          - q: She won a ___, so she does not pay anything to study.
+            answer: scholarship
+          - q: At international schools, ___ are very expensive.
+            answer: tuition fees
+          - q: Many teachers say that ___ helps students remember facts, but not understand them.
+            answer: rote learning
+          - q: The school has added coding to its ___.
+            answer: curriculum
+          - q: A degree is an important ___ for many jobs.
+            answer: qualification
+          - q: Clubs and sports are popular ___ at my school.
+            answer: extracurricular activities
+          - q: You can gain a lot of ___ by reading books.
+            answer: knowledge
+      - id: b21-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Good ___ is the key to a better life.
+            base: educate
+            answer: education
+          - q: He wants to ___ his writing before the exam.
+            base: improvement
+            answer: improve
+          - q: Maths is an ___ subject.
+            base: academy
+            answer: academic
+          - q: My sister ___ from university last year.
+            base: graduation
+            answer: graduated
+          - q: She has a ___ in accounting.
+            base: qualify
+            answer: qualification
+          - q: Mr Nam is a ___ at a big university.
+            base: lecture
+            answer: lecturer
+      - id: b21-x6
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 6 lỗi (thì, chữ I viết hoa, số nhiều, for/since, dấu phẩy nối hai câu, has/have). Sửa trực tiếp trong đoạn; lỗi dấu phẩy thì tách thành hai câu.
+        text: I have started university in 2023. Since then, i have learned many new skill. I have lived in the dormitory for September. My room is small, it is quite noisy. My lecturers has helped me a lot.
+        errors:
+          - wrong: I have started university in 2023
+            right: I started university in 2023
+            why: Có mốc quá khứ (in 2023) → quá khứ đơn.
+          - wrong: i have learned
+            right: I have learned
+            why: Đại từ I luôn viết hoa.
+          - wrong: many new skill
+            right: many new skills
+            why: many + danh từ số nhiều.
+          - wrong: for September
+            right: since September
+            why: September là mốc thời gian → since.
+          - wrong: My room is small, it is quite noisy.
+            right: My room is small. It is quite noisy.
+            why: Hai mệnh đề độc lập không nối bằng dấu phẩy (comma splice) — tách câu hoặc thêm and.
+          - wrong: My lecturers has helped
+            right: My lecturers have helped
+            why: lecturers số nhiều → have.
+      - id: b21-x7
+        bank_no: 29
+        kind: speaking-part1
+        instructions_vi: Speaking Part 1 — chủ đề học tập. Trả lời mỗi câu 2–3 câu, dùng ít nhất 3 câu hiện tại hoàn thành. Ghi âm và nghe lại.
+        questions:
+          - q: Do you work or are you a student?
+          - q: What subject did you enjoy most at school? Why?
+          - q: Have you ever taken an online course? How was it?
+          - q: What skill have you improved recently?
+        sample: I've taken a few online courses, mostly English ones. I liked them because I could study at night after work, but it was hard to stay motivated, so I've only finished two of them.
+      - id: b21-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Have you ever studied online?
+          Man: Yes, I've taken three online courses since last year.
+          Woman: Did you finish them all?
+          Man: Only two. The third one was too difficult, so I stopped.
+          Woman: I've never tried. I like studying in a classroom with a teacher.
+        questions:
+          - { q: How many online courses has the man taken since last year?, options: [ one, two, three, four ], answer: c }
+          - { q: How many did he finish?, options: [ none, one, two, three ], answer: c }
+          - { q: Which is true about the woman?, options: [ She has taken many online courses., She has never studied online., She teaches online., She stopped a course. ], answer: b }
+      - id: b21-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Tuition fees at many private universities have increased in recent years. Because of this, more students have applied for scholarships. My cousin won a full scholarship last year, so she pays nothing. She has already improved her English a lot.
+        questions:
+          - { q: Tuition fees at private universities have gone down., answer: F }
+          - { q: More students have applied for scholarships., answer: T }
+          - { q: The speaker's cousin pays nothing., answer: T }
+          - { q: The cousin won the scholarship this year., answer: F }
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 120–150 từ: việc học đã thay đổi bạn như thế nào (bạn đã học gì, đã đạt được gì, kỹ năng nào đã tiến bộ). Dùng ít nhất 5 câu hiện tại hoàn thành và 2 câu quá khứ đơn có mốc thời gian. Bắt buộc dùng: knowledge, skill, improve, achieve. Tự kiểm tra: chữ I viết hoa, -s số nhiều, không nối hai câu bằng dấu phẩy."
+    prompt_en: How has education changed you? Write about what you have learned and achieved.
+    words:
+      min: 120
+      max: 150
+    minutes: 25

@@ -1,0 +1,320 @@
+# Buổi 30 — Tội phạm & pháp luật · Writing Task 2: Advantages / Disadvantages. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-30-toi-pham-writing-adv-disadv
+number: 30
+stage: 2
+title_vi: "Tội phạm & pháp luật · Writing Task 2: Advantages / Disadvantages"
+focus:
+  grammar: Từ nối và từ quy chiếu (cohesion)
+  skill: Writing Task 2 — dạng Advantages/Disadvantages, cấu trúc 2 đoạn thân bài
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - advantage|n
+      - disadvantage|n
+      - outweigh|v
+      - benefit|n
+      - drawback|n
+      - society|n
+      - public-safety|phr-n
+      - crime-rate|phr-n
+      - deter|v
+      - prevent|v
+      - encourage|v
+      - harsh|adj
+      - community-service|phr-n
+      - freedom|n
+      - in-addition|idiom
+      - on-the-other-hand|idiom
+      - however|adv
+      - therefore|adv
+  - type: pronunciation
+    notes:
+      - word: advantage|n
+        text_vi: "ad-VAN-tage, dis-ad-VAN-tage: nhấn vào VAN. -tage đọc /tɪdʒ/ (không đọc 'tây')."
+      - word: outweigh|v
+        text_vi: "out-WEIGH /ˌaʊtˈweɪ/: gh câm, weigh đọc như 'way'."
+      - word: society|n
+        text_vi: "so-CI-e-ty /səˈsaɪ.ə.ti/: 4 âm tiết, nhấn âm 2."
+      - word: encourage|v
+        text_vi: "en-COU-rage /ɪnˈkʌr.ɪdʒ/: ou đọc /ʌ/ như 'ă'."
+      - sound: snd-dh
+        text_vi: "therefore, the other: /ð/ rung, đầu lưỡi giữa răng. Đừng đọc 'đe-pho'."
+  - type: grammar
+    items:
+      - en-g2-10
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — Advantages / Disadvantages
+    intro_vi: "Dạng đề yêu cầu bàn về ưu và nhược điểm của một hiện tượng. Có hai kiểu, phải đọc kỹ để biết có cần nêu ý kiến không: (1) 'Discuss the advantages and disadvantages of…' — trình bày cả hai mặt, ý kiến riêng không bắt buộc. (2) 'Do the advantages outweigh the disadvantages?' — BẮT BUỘC nêu quan điểm bên nào lớn hơn, ngay từ mở bài. Bố cục 4 đoạn: Mở bài → Thân bài 1 (ưu điểm) → Thân bài 2 (nhược điểm) → Kết bài."
+    steps:
+      - title_vi: Xác định kiểu đề
+        text_vi: Có 'outweigh' / 'Is this a positive or negative development?' → phải có quan điểm. Chỉ 'Discuss the advantages and disadvantages' → nêu cả hai mặt cân bằng; có thể thêm ý kiến ở kết bài.
+      - title_vi: "Brainstorm: 2 ưu + 2 nhược"
+        text_vi: "Hỏi: ai được lợi? ai chịu thiệt? về tiền bạc, an toàn, sức khỏe, tự do, xã hội? Chọn những ý bạn giải thích và cho ví dụ được."
+      - title_vi: "Mở bài: paraphrase + định hướng"
+        text_vi: "Câu 1 paraphrase đề. Câu 2: kiểu (1) 'This essay will discuss both the benefits and drawbacks of…'; kiểu (2) 'I believe that the advantages outweigh the disadvantages.'"
+      - title_vi: "Thân bài 1: câu chủ đề + 2 ưu điểm"
+        text_vi: "Câu chủ đề: 'There are several advantages of…'. Ưu điểm 1 (Firstly, …) + giải thích; ưu điểm 2 (In addition, …) + giải thích + ví dụ."
+      - title_vi: "Thân bài 2: câu chủ đề + 2 nhược điểm"
+        text_vi: "Mở đầu bằng 'On the other hand, … also has some disadvantages.' rồi làm tương tự. Kiểu (2): đặt mặt YẾU hơn ở thân bài 1 và mặt MẠNH hơn ở thân bài 2 cho logic."
+      - title_vi: "Kết bài: tóm tắt + quan điểm"
+        text_vi: "'In conclusion, …' — nhắc lại hai mặt bằng từ khác và (kiểu 2) khẳng định lại bên nào lớn hơn. Không đưa ý mới."
+    tips:
+      - "Dùng xen kẽ từ đồng nghĩa để không lặp: advantage / benefit / positive effect; disadvantage / drawback / negative effect."
+      - "Mỗi ý chỉ cần 2–3 câu: nêu → giải thích (This means that…) → ví dụ/hệ quả."
+      - "Nhắc đúng đối tượng trong đề (VD: CCTV in public places), đừng lan sang camera trong nhà riêng."
+    traps:
+      - trap_vi: Đề hỏi 'outweigh' nhưng bài chỉ liệt kê hai mặt, không nói bên nào lớn hơn.
+        fix_vi: Nêu rõ quan điểm ở mở bài VÀ kết bài; thân bài dẫn tới kết luận đó.
+      - trap_vi: Dùng On the other hand để thêm một ưu điểm nữa.
+        fix_vi: "Thêm ý cùng chiều: In addition / Another advantage is that… On the other hand chỉ để chuyển sang mặt đối lập."
+      - trap_vi: Mỗi thân bài liệt kê 4–5 ý ngắn không giải thích.
+        fix_vi: 2 ý được phát triển tốt > 5 ý liệt kê. Giám khảo chấm độ sâu (Task Response).
+      - trap_vi: Viết 'Because … so …' hoặc nối câu bằng dấu phẩy + however.
+        fix_vi: Một liên từ mỗi mệnh đề; However đứng đầu câu mới.
+    phrases:
+      - en: There are several advantages of …
+        vi: … có một số ưu điểm.
+        note_vi: Câu chủ đề thân bài 1.
+      - en: The first benefit is that …
+        vi: Lợi ích đầu tiên là …
+      - en: Another advantage is that …
+        vi: Một ưu điểm khác là …
+      - en: On the other hand, … also has some drawbacks.
+        vi: Mặt khác, … cũng có một số nhược điểm.
+        note_vi: Câu chủ đề thân bài 2.
+      - en: I believe that the advantages outweigh the disadvantages.
+        vi: Tôi cho rằng ưu điểm lớn hơn nhược điểm.
+      - en: In conclusion, although …, I believe …
+        vi: Tóm lại, dù …, tôi cho rằng …
+        note_vi: although sẽ học kỹ ở Buổi 37 — ở đây chỉ dùng như cụm cố định.
+    demo:
+      title_vi: "Làm mẫu: mở bài và hai đoạn thân bài"
+      text_en: |-
+        Question: In many cities, more and more security cameras are being installed in public places. Do the advantages of this outweigh the disadvantages?
+
+        Introduction: Nowadays, a growing number of CCTV cameras are being put in streets, stations and parks in cities around the world. I believe that the benefits of this trend outweigh its drawbacks.
+
+        Body 1: Admittedly, there are some disadvantages of having cameras everywhere. The main problem is that people may feel they have lost their privacy and freedom. For example, many people do not like the idea that their daily movements are recorded and stored by the government. In addition, installing and checking thousands of cameras is very expensive.
+
+        Body 2: However, I think these drawbacks are less important than the benefits. Firstly, cameras can deter crime, because criminals know they are likely to be seen and caught. As a result, streets become safer, especially at night. Another advantage is that cameras help the police after a crime has happened. Videos can show what happened and who was involved, so the police do not have to depend only on witnesses.
+      notes:
+        - label: Kiểu đề
+          text_vi: "'Do the advantages … outweigh …?' → BẮT BUỘC có quan điểm. Thesis ở câu 2 mở bài."
+        - label: Body 1 = nhược điểm
+          text_vi: Người viết cho rằng ưu > nhược nên đặt mặt YẾU (nhược điểm) trước, mặt MẠNH sau — bài dẫn dắt tới kết luận.
+        - label: The main problem is that … / In addition, …
+          text_vi: Hai nhược điểm, cùng chiều → In addition (không phải On the other hand).
+        - label: However, I think these drawbacks …
+          text_vi: However chuyển mặt; 'these drawbacks' là từ quy chiếu, nhắc lại cả thân bài 1 trong 2 chữ.
+        - label: Firstly … As a result … Another advantage is that …
+          text_vi: "Mỗi ưu điểm: nêu → giải thích/hệ quả. Không cần quá nhiều từ nối."
+  - type: examples
+    items:
+      - b30-001
+      - b30-002
+      - b30-003
+      - b30-004
+      - b30-005
+      - b30-006
+      - b30-007
+      - b30-008
+      - b30-011
+      - b30-012
+  - type: dialogue
+    title_vi: Tranh luận về lao động công ích
+    lines:
+      - speaker: A
+        text: Should young offenders go to prison or do community service?
+        vi: Người phạm tội trẻ tuổi nên đi tù hay làm lao động công ích?
+      - speaker: B
+        text: I think community service is better. The main advantage is that they help society.
+        vi: Tớ nghĩ lao động công ích tốt hơn. Ưu điểm chính là họ giúp ích cho xã hội.
+      - speaker: A
+        text: True. In addition, it's much cheaper than prison.
+        vi: Đúng. Ngoài ra, nó rẻ hơn nhiều so với nhà tù.
+      - speaker: B
+        text: And they don't meet experienced criminals, so they are less likely to commit more crimes.
+        vi: Và họ không gặp những tội phạm lâu năm, nên ít có khả năng phạm thêm tội.
+      - speaker: A
+        text: On the other hand, some people say it isn't harsh enough.
+        vi: Mặt khác, có người nói nó không đủ nghiêm khắc.
+      - speaker: B
+        text: That's a fair point. A punishment should deter people from breaking the law.
+        vi: Cũng có lý. Hình phạt phải răn đe được người ta không phạm luật.
+      - speaker: A
+        text: So for serious crimes, prison is still necessary.
+        vi: Vậy với tội nghiêm trọng, tù vẫn cần thiết.
+      - speaker: B
+        text: I agree. But for small crimes, I believe the advantages of community service outweigh the disadvantages.
+        vi: Tớ đồng ý. Nhưng với tội nhỏ, tớ cho rằng ưu điểm của lao động công ích lớn hơn nhược điểm.
+  - type: exercises
+    items:
+      - id: b30-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Đọc đề và chọn đáp án đúng.
+        questions:
+          - q: "'Discuss the advantages and disadvantages of online shopping.' Do you have to give your opinion?"
+            options:
+              - Yes, in every paragraph
+              - No, it is not required
+              - Only in the introduction
+              - You must only write about advantages
+            answer: b
+          - q: "'Do the advantages of living in a big city outweigh the disadvantages?' What must your essay include?"
+            options:
+              - only advantages
+              - a clear opinion about which side is stronger
+              - a story about your life
+              - three body paragraphs about disadvantages
+            answer: b
+          - q: You think the advantages are stronger. Which order is the most logical?
+            options:
+              - Body 1 advantages, Body 2 disadvantages
+              - Body 1 disadvantages, Body 2 advantages
+              - only advantages
+              - mix them in every sentence
+            answer: b
+            explain_vi: Mặt yếu trước, mặt mạnh sau → dẫn tới kết luận của bạn (cả cách a cũng chấp nhận được, nhưng b logic hơn).
+          - q: Which sentence is the best topic sentence for a paragraph about drawbacks?
+            options:
+              - For example, prisons are expensive.
+              - On the other hand, harsh punishments also have some drawbacks.
+              - In conclusion, I agree.
+              - Prison is a building.
+            answer: b
+      - id: b30-x2
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ nối phù hợp.
+        bank:
+          - In addition
+          - However
+          - As a result
+          - For example
+          - Therefore
+          - On the other hand
+        questions:
+          - q: Cameras help the police catch criminals. ___, they make people feel safer.
+            answer: In addition
+          - q: Prison keeps dangerous people away from the public. ___, it is very expensive.
+            answer: However
+            accept:
+              - On the other hand
+          - q: The city put up more street lights. ___, crime at night fell by 20%.
+            answer: As a result
+            accept:
+              - Therefore
+          - q: Community service can be useful. ___, offenders can clean parks or help in hospitals.
+            answer: For example
+          - q: Young people copy what they see online. ___, parents should check what their children watch.
+            answer: Therefore
+            accept:
+              - As a result
+          - q: Harsh punishments may deter crime. ___, they can be unfair to first-time offenders.
+            answer: On the other hand
+            accept:
+              - However
+      - id: b30-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi (từ nối, dấu câu, từ quy chiếu, cấu trúc prevent/encourage). Sửa trực tiếp; lỗi dấu phẩy thì tách câu.
+        text: There are several advantages of community service. Firstly, it is cheaper than prison, however it still punishes offenders. On the other hand, it helps society because offenders clean streets and parks. Because offenders work with ordinary people, so they learn good habits. Community service can also prevent offenders to commit more crimes. Community service is a good way to encourage young people change.
+        errors:
+          - wrong: cheaper than prison, however it still
+            right: cheaper than prison. However, it still
+            why: however không nối câu bằng dấu phẩy.
+          - wrong: On the other hand, it helps society
+            right: In addition, it helps society
+            why: Ý cùng chiều (thêm ưu điểm) → In addition.
+          - wrong: ordinary people, so they learn
+            right: ordinary people, they learn
+            why: Because … so … — chỉ giữ một liên từ.
+          - wrong: prevent offenders to commit
+            right: prevent offenders from committing
+            why: prevent somebody from + V-ing.
+          - wrong: encourage young people change
+            right: encourage young people to change
+            why: encourage somebody to + V.
+      - id: b30-x4
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu bằng từ trong ngoặc. Viết thành HAI câu, từ nối đứng đầu câu thứ hai và có dấu phẩy.
+        questions:
+          - q: Cameras can deter crime. They can reduce people's privacy. (However)
+            answer: Cameras can deter crime. However, they can reduce people's privacy.
+          - q: The city built more parks. Young people had more places to play sport. (As a result)
+            answer: The city built more parks. As a result, young people had more places to play sport.
+          - q: Community service is cheap. It helps society. (In addition)
+            answer: Community service is cheap. In addition, it helps society.
+      - id: b30-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Cameras can improve public ___.
+            base: safe
+            answer: safety
+          - q: Too many rules can limit personal ___.
+            base: free
+            answer: freedom
+          - q: Crime ___ is better than punishment.
+            base: prevent
+            answer: prevention
+          - q: Crime is a serious ___ problem.
+            base: society
+            answer: social
+          - q: One ___ of prison is its cost.
+            base: advantage
+            answer: disadvantage
+            explain_vi: Chi phí cao là nhược điểm → thêm dis-.
+      - id: b30-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: outweigh
+            right: to be more important than something else
+          - left: deter
+            right: to make somebody decide not to do something
+          - left: harsh
+            right: very strict or cruel
+          - left: community service
+            right: unpaid work for the public as a punishment
+          - left: crime rate
+            right: the number of crimes in a place in a period of time
+      - id: b30-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: What do you think about security cameras in schools?
+          Man: One advantage is that they prevent fights. In addition, parents feel safer.
+          Woman: On the other hand, students may feel they have no privacy.
+          Man: That's true. However, I believe the benefits outweigh the drawbacks.
+        questions:
+          - { q: What is the first advantage the man gives?, options: [ Cameras are cheap., Cameras prevent fights., Students study harder., Teachers like them. ], answer: b }
+          - { q: What is the woman's worry?, options: [ the cost, students' privacy, broken cameras, parents' opinions ], answer: b }
+          - { q: What is the man's final opinion?, options: [ The drawbacks are bigger., The benefits outweigh the drawbacks., Cameras should be banned., He is not sure. ], answer: b }
+      - id: b30-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Some people argue that harsh punishments deter crime. However, research shows that the crime rate does not always fall when punishments become harsher. Therefore, many experts believe that education and jobs for young people are better ways to prevent crime.
+        questions:
+          - { q: Everyone agrees that harsh punishments deter crime., answer: F }
+          - { q: The crime rate always falls when punishments become harsher., answer: F }
+          - { q: Many experts think education helps to prevent crime., answer: T }
+          - { q: The speaker mentions jobs for young people., answer: T }
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút), bố cục 4 đoạn. Đây là kiểu đề BẮT BUỘC có quan điểm. Mỗi thân bài 2 ý, mỗi ý có giải thích + ví dụ. Dùng ít nhất 4 từ nối khác nhau và 2 từ quy chiếu (this/these + N). Tự kiểm tra: không dùng On the other hand để thêm ý cùng chiều; không 'Because … so …'."
+    prompt_en: In some countries, young people who commit small crimes are given community service instead of being sent to prison. Do the advantages of this outweigh the disadvantages?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

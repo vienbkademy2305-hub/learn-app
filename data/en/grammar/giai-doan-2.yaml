@@ -1,0 +1,612 @@
+# Điểm ngữ pháp Giai đoạn 2 (Buổi 21–45). Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+points:
+  - id: en-g2-01
+    lesson: buoi-21-giao-duc-skimming-scanning
+    title: Thì hiện tại hoàn thành (Present perfect)
+    cefr: B1
+    structures:
+      - S + have/has + V3            I have studied English for two years.
+      - S + haven't/hasn't + V3      She hasn't finished yet.
+      - Have/Has + S + (ever) + V3…?  Have you ever won a scholarship?
+      - for + khoảng thời gian · since + mốc thời gian
+    explain: "Hiện tại hoàn thành nối quá khứ với hiện tại. Dùng khi: (1) việc bắt đầu trong quá khứ và vẫn còn đến bây giờ (I have lived here for five years); (2) trải nghiệm tính đến nay, không nói lúc nào (Have you ever been to Hue?); (3) việc vừa xong mà kết quả còn thấy ở hiện tại (She has just finished her essay). Có mốc quá khứ rõ ràng (yesterday, last year, in 2020) thì dùng quá khứ đơn."
+    table:
+      - - Nguyên mẫu
+        - Quá khứ đơn
+        - V3 (quá khứ phân từ)
+      - - study
+        - studied
+        - studied
+      - - be
+        - was / were
+        - been
+      - - go
+        - went
+        - gone / been
+      - - do
+        - did
+        - done
+      - - take
+        - took
+        - taken
+      - - write
+        - wrote
+        - written
+      - - see
+        - saw
+        - seen
+      - - get
+        - got
+        - got (Anh-Mỹ gotten)
+      - - teach
+        - taught
+        - taught
+      - - make
+        - made
+        - made
+    notes:
+      - "I/you/we/they + have; he/she/it + has. Nói nhanh: I've, she's (= she has), haven't, hasn't."
+      - for + khoảng thời gian (for three years, for a long time); since + mốc (since 2022, since I was ten).
+      - already, just, never, ever đứng giữa have và V3; yet đứng cuối câu phủ định/câu hỏi.
+      - "been ≠ gone: She has been to Da Lat (đã đi và đã về). She has gone to Da Lat (đang ở đó, chưa về)."
+      - "Trong bài đọc IELTS, câu nêu thay đổi thường dùng thì này: The number of online courses has increased."
+    mistakes:
+      - wrong: I have visited Hue last year.
+        right: I visited Hue last year.
+        why: Có mốc quá khứ xác định (last year) → quá khứ đơn.
+      - wrong: I have studied here since three years.
+        right: I have studied here for three years.
+        why: three years là khoảng thời gian → for; since đi với mốc (since 2022).
+      - wrong: I am living in Hanoi for five years.
+        right: I have lived in Hanoi for five years.
+        why: Việc kéo dài từ quá khứ đến nay (tiếng Việt 'đã… được 5 năm') → hiện tại hoàn thành, không dùng hiện tại tiếp diễn.
+      - wrong: She have finished her homework.
+        right: She has finished her homework.
+        why: Ngôi 3 số ít dùng has.
+    examples:
+      - b21-001
+      - b21-002
+      - b21-003
+      - b21-004
+      - b21-017
+      - b21-018
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 15–20 (present perfect, for/since/ago, so với quá khứ đơn) — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-02
+    lesson: buoi-22-giao-duc-writing-opinion
+    title: Câu đơn, câu ghép, câu phức (and, but, or, so · because, when, if)
+    cefr: B1
+    structures:
+      - "Câu đơn:   S + V (+ O).                  Students wear uniforms."
+      - "Câu ghép:  Mệnh đề 1, and/but/or/so + mệnh đề 2."
+      - "Câu phức:  Mệnh đề chính + because/when/if + mệnh đề phụ."
+      - "           Because/When/If + mệnh đề phụ, mệnh đề chính."
+    explain: Câu đơn có một mệnh đề (một cặp chủ ngữ – động từ). Câu ghép nối hai mệnh đề ngang hàng bằng and (thêm ý), but (đối lập), or (lựa chọn), so (kết quả); trước liên từ thường có dấu phẩy. Câu phức có một mệnh đề chính và một mệnh đề phụ mở đầu bằng because (lý do), when (thời điểm) hoặc if (điều kiện). Muốn đạt band 6 phần Ngữ pháp, bài viết phải trộn cả ba loại câu và không mắc lỗi nối câu.
+    table:
+      - - Liên từ
+        - Ý nghĩa
+        - Ví dụ
+      - - and
+        - thêm ý cùng chiều
+        - Uniforms are cheap, and they look tidy.
+      - - but
+        - ý đối lập
+        - Homework is useful, but too much is harmful.
+      - - or
+        - lựa chọn
+        - Students can study online, or they can go to a centre.
+      - - so
+        - kết quả
+        - The fees are high, so many students work part-time.
+      - - because
+        - lý do
+        - Many students work part-time because the fees are high.
+      - - when
+        - thời điểm
+        - When children feel pressure, they learn less.
+      - - if
+        - điều kiện
+        - If students read more, they write better.
+    notes:
+      - "Mệnh đề phụ đứng đầu câu thì có dấu phẩy: Because the fees are high, … Đứng sau thì không cần dấu phẩy."
+      - Hai câu hoàn chỉnh KHÔNG được nối bằng dấu phẩy (comma splice). Dùng dấu chấm hoặc thêm liên từ.
+      - "Tiếng Việt nói 'Vì… nên…', tiếng Anh chỉ dùng MỘT liên từ: Because …, … hoặc …, so …"
+      - "Mệnh đề because/when/if không đứng một mình thành câu: *Because it is useful.* là câu cụt."
+    mistakes:
+      - wrong: Because the fees are high, so many students work part-time.
+        right: Because the fees are high, many students work part-time.
+        why: "'Vì… nên…': tiếng Anh chỉ giữ because HOẶC so."
+      - wrong: Uniforms are cheap, they make students feel equal.
+        right: Uniforms are cheap, and they make students feel equal.
+        why: Hai mệnh đề độc lập nối bằng dấu phẩy là lỗi comma splice — thêm and hoặc tách câu.
+      - wrong: Students should learn cooking. Because it is a useful skill.
+        right: Students should learn cooking because it is a useful skill.
+        why: Mệnh đề because không đứng riêng thành một câu.
+    examples:
+      - b22-001
+      - b22-003
+      - b22-008
+      - b22-011
+      - b22-012
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 97 (and/but/or/so/because) — đối chiếu phạm vi
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L1 'Các loại câu trong writing', L2 'Cách cải thiện kỹ năng viết câu' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-03
+    lesson: buoi-23-moi-truong-listening-form
+    title: Hiện tại hoàn thành hay quá khứ đơn?
+    cefr: B1
+    structures:
+      - "Quá khứ đơn:      S + V2/-ed + mốc đã kết thúc   (yesterday, last year, in 2019, … ago, when I was a child)"
+      - "Hiện tại hoàn thành: S + have/has + V3 + thời gian chưa kết thúc / không nói lúc nào   (for, since, ever, never, yet, already, so far, this year)"
+    explain: "Câu hỏi quyết định: người nói có đặt hành động vào một thời điểm ĐÃ KẾT THÚC không? Có (last year, in 2019, two days ago, When …?) → quá khứ đơn. Không nói thời điểm, hoặc khoảng thời gian còn kéo dài đến bây giờ (this year, so far, since 2020) → hiện tại hoàn thành. Khi kể chuyện: câu đầu nêu tin bằng hiện tại hoàn thành, các chi tiết sau (khi nào, ở đâu, thế nào) chuyển sang quá khứ đơn."
+    table:
+      - - Quá khứ đơn
+        - Hiện tại hoàn thành
+      - - I planted a tree last Sunday.
+        - I have planted ten trees this year.
+      - - The river was clean in 2010.
+        - The river has become dirty since 2010.
+      - - When did you join the club?
+        - How long have you been in the club?
+      - - She lived in Da Nang for two years. (giờ không sống ở đó nữa)
+        - She has lived in Da Nang for two years. (vẫn đang sống)
+    notes:
+      - "Hỏi 'When…?' luôn trả lời bằng quá khứ đơn: When did you start? — I started in May."
+      - "Tin tức → chi tiết: I've lost my phone! I left it on the bus this morning."
+      - Trong IELTS Writing Task 1 có năm cụ thể trong quá khứ → dùng quá khứ đơn; Speaking 'Have you ever…?' → trả lời Yes, I have + chi tiết ở quá khứ đơn.
+    mistakes:
+      - wrong: I have joined the club two years ago.
+        right: I joined the club two years ago.
+        why: ago = mốc đã qua → quá khứ đơn.
+      - wrong: When have you started volunteering?
+        right: When did you start volunteering?
+        why: Câu hỏi When… dùng quá khứ đơn.
+      - wrong: Air pollution got worse since 2015.
+        right: Air pollution has got worse since 2015.
+        why: since 2015 = kéo dài đến nay → hiện tại hoàn thành.
+    examples:
+      - b23-001
+      - b23-002
+      - b23-003
+      - b23-004
+      - b23-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 18–20 (present perfect vs past simple) — đối chiếu phạm vi
+    source: editorial
+    status: draft
+  - id: en-g2-04
+    lesson: buoi-24-moi-truong-speaking-part-1
+    title: "Nói về sở thích: enjoy, be keen on, prefer … to …, would rather"
+    cefr: B1
+    structures:
+      - enjoy / love / like / don't mind / hate + V-ing      I enjoy going for walks.
+      - be keen on / be interested in / be into + V-ing / N   I'm keen on cycling.
+      - prefer + N/V-ing + to + N/V-ing                       I prefer walking to driving.
+      - would rather + V + than + V                            I'd rather stay home than go out.
+    explain: "Speaking Part 1 hỏi rất nhiều về sở thích: Do you like…? Which do you prefer…? Trả lời bằng nhiều cấu trúc khác nhau thay vì lặp 'I like' giúp ghi điểm cả Từ vựng lẫn Ngữ pháp. Hai điều cần nhớ: sau giới từ (on, in, to trong prefer … to) động từ luôn ở dạng V-ing; còn would rather đi với động từ nguyên mẫu không có to."
+    table:
+      - - Mức độ
+        - Cấu trúc
+        - Ví dụ
+      - - rất thích
+        - love / be really keen on
+        - I'm really keen on hiking.
+      - - thích
+        - enjoy / be into
+        - These days I'm into gardening.
+      - - bình thường
+        - don't mind
+        - I don't mind rainy days.
+      - - không thích lắm
+        - not very keen on
+        - I'm not very keen on hot weather.
+      - - ghét
+        - hate / can't stand
+        - I can't stand traffic jams.
+      - - so sánh
+        - prefer … to … / would rather … than …
+        - I'd rather cycle than drive.
+    notes:
+      - "Mở đầu tự nhiên cho Part 1: 'To be honest, …', 'Actually, …', 'Well, it depends.' — nhưng đừng dùng cùng một câu mở đầu cho mọi câu trả lời."
+      - "Ôn Buổi 17: interested (người cảm thấy) ≠ interesting (vật gây ra cảm giác)."
+      - "Ôn Buổi 16: enjoy, don't mind, can't stand + V-ing; want, hope, decide + to V."
+    mistakes:
+      - wrong: I am keen on play football.
+        right: I am keen on playing football.
+        why: Sau giới từ on dùng V-ing.
+      - wrong: I prefer tea than coffee.
+        right: I prefer tea to coffee.
+        why: prefer A to B (không dùng than).
+      - wrong: I would rather to stay at home.
+        right: I would rather stay at home.
+        why: would rather + động từ nguyên mẫu không to.
+      - wrong: I'm interesting in nature.
+        right: I'm interested in nature.
+        why: Người cảm thấy thích → interested.
+    examples:
+      - b24-001
+      - b24-002
+      - b24-003
+      - b24-010
+      - b24-011
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản 'Thể hiện sở thích của bản thân', 'Thể hiện cảm xúc và quan điểm' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-05
+    lesson: buoi-25-cong-nghe-true-false-not-given
+    title: "Mệnh đề quan hệ: who, which, that (và whose, where)"
+    cefr: B1
+    structures:
+      - "Người:     N + who/that + V …           The man who fixed my laptop is my neighbour."
+      - "Vật:       N + which/that + V …         Apps which track sleep are popular."
+      - "Tân ngữ:   N + (that/which/who) + S + V  The phone (that) I bought is fast."
+      - "Sở hữu:    N + whose + N …              A student whose phone was stolen…"
+      - "Nơi chốn:  N + where + S + V            The shop where I bought it…"
+    explain: "Mệnh đề quan hệ đứng ngay sau danh từ để nói rõ đó là người/vật NÀO, giúp nối hai câu đơn thành một câu phức. who dùng cho người, which cho vật, that dùng được cho cả hai. Khi đại từ quan hệ làm tân ngữ (phía sau có chủ ngữ riêng), có thể lược bỏ: the phone (that) I bought. Không lặp lại đại từ he/she/it trong mệnh đề, và động từ trong mệnh đề chia theo danh từ đứng trước."
+    table:
+      - - Đại từ
+        - Thay cho
+        - Ví dụ
+      - - who
+        - người
+        - People who use AI should check its answers.
+      - - which
+        - vật / con vật
+        - A robot which cleans floors saves time.
+      - - that
+        - người hoặc vật
+        - The app that I use most is free.
+      - - whose
+        - sở hữu (của ai)
+        - The girl whose laptop broke borrowed mine.
+      - - where
+        - nơi chốn
+        - This is the café where I work online.
+    notes:
+      - "Nối câu: I have a friend. She works for a tech company. → I have a friend who works for a tech company."
+      - "Có thể bỏ đại từ khi nó làm TÂN NGỮ: The app (that) I downloaded… Không bỏ được khi làm CHỦ NGỮ: The app that helps me… (bắt buộc giữ that)."
+      - "Mệnh đề có dấu phẩy (thông tin thêm, không xác định) không dùng that: My phone, which is five years old, still works. Sẽ học kỹ hơn ở Giai đoạn 3."
+      - Trong bài đọc IELTS, mệnh đề quan hệ hay 'giấu' chủ thể thật của hành động — đọc kỹ ai/cái gì đứng trước who/which.
+    mistakes:
+      - wrong: The man who he fixed my laptop is my neighbour.
+        right: The man who fixed my laptop is my neighbour.
+        why: who đã thay cho the man — không thêm he.
+      - wrong: I have a friend which works for Google.
+        right: I have a friend who works for Google.
+        why: Người → who/that.
+      - wrong: This is the app that I use it every day.
+        right: This is the app that I use every day.
+        why: that đã thay cho the app — bỏ it.
+      - wrong: Students who uses AI must check the answers.
+        right: Students who use AI must check the answers.
+        why: Động từ chia theo Students (số nhiều).
+    examples:
+      - b25-001
+      - b25-002
+      - b25-003
+      - b25-004
+      - b25-005
+      - b25-013
+      - b25-015
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Units 101–102 (relative clauses) — đối chiếu phạm vi
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp trung cấp L11 'Mệnh đề quan hệ' — đối chiếu phạm vi
+    source: editorial
+    status: draft
+  - id: en-g2-06
+    lesson: buoi-26-cong-nghe-writing-task-1-line-graph
+    title: "Miêu tả xu hướng: động từ + trạng từ và tính từ + danh từ"
+    cefr: B1
+    structures:
+      - S + rose / fell / increased / decreased + sharply / gradually / slightly (+ from X to Y)
+      - There was a + sharp / gradual / slight + rise / fall / increase + in + N
+      - from X to Y (mốc đầu → mốc cuối) · by X (mức chênh) · at X (giữ ở mức) · of X (sau danh từ)
+    explain: "Task 1 cần nói một xu hướng theo hai cách để không lặp: động từ + trạng từ (Sales rose sharply) hoặc There was / saw + tính từ + danh từ (There was a sharp rise in sales). Trạng từ đi với động từ, tính từ đi với danh từ. Chọn thì theo thời gian trong biểu đồ: năm đã qua → quá khứ đơn; đến hiện nay → hiện tại hoàn thành; dự báo tương lai → will / is expected to."
+    table:
+      - - Động từ + trạng từ
+        - Tính từ + danh từ
+      - - rose sharply
+        - a sharp rise
+      - - fell gradually
+        - a gradual fall
+      - - increased significantly
+        - a significant increase
+      - - decreased slightly
+        - a slight decrease
+      - - fluctuated
+        - a fluctuation / some fluctuation
+      - - remained stable
+        - (không đổi) — stability
+    notes:
+      - increased BY 20% = tăng thêm 20 điểm/phần trăm; increased TO 20% = tăng đến mức 20%.
+      - reached a peak OF 60% / peaked AT 60% / stood AT 30% in 2015.
+      - rise, fall, increase, decrease là nội động từ — KHÔNG dùng bị động (*was increased*).
+      - "Tránh lặp chủ ngữ dài: the number of online shoppers → this figure / the figure for young adults."
+    mistakes:
+      - wrong: The number of users increased sharp.
+        right: The number of users increased sharply.
+        why: Bổ nghĩa cho động từ → trạng từ.
+      - wrong: There was a sharply increase in sales.
+        right: There was a sharp increase in sales.
+        why: Bổ nghĩa cho danh từ → tính từ.
+      - wrong: The price was increased to $20 in 2020.
+        right: The price increased to $20 in 2020.
+        why: "Số liệu tự tăng: dùng chủ động."
+      - wrong: Sales increased 20% in 2019.
+        right: Sales increased by 20% in 2019.
+        why: Mức tăng thêm cần by.
+    examples:
+      - b26-001
+      - b26-002
+      - b26-003
+      - b26-004
+      - b26-005
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: "Writing cơ bản L4 'Writing Task 1: biểu đồ xu hướng + so sánh' (Pre-writing, During and Post-writing) — đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g2-07
+    lesson: buoi-27-suc-khoe-listening-map
+    title: "Vị trí trên bản đồ: at the end of, on the corner of, to the north of…"
+    cefr: B1
+    structures:
+      - at the end of / at the top of / at the bottom of + N      The gym is at the end of the corridor.
+      - on the corner of / in the corner of + N                   The café is on the corner of the street.
+      - in the middle / centre of + N                             The pool is in the centre of the building.
+      - to the north / south / east / west of + N (bên ngoài)     The car park is to the south of the gym.
+      - in the north / south … of + N (bên trong)                 The courts are in the north of the park.
+      - directly opposite / just past / halfway along + N
+    explain: "Dạng bài bản đồ trong Listening dùng rất nhiều cụm chỉ vị trí dài hơn opposite hay next to (đã học ở Buổi 3). Cần phân biệt: in the north of (nằm TRONG phần phía bắc của khu vực) và to the north of (nằm BÊN NGOÀI, về phía bắc). on the corner = góc ngoài (góc phố); in the corner = góc trong (góc phòng). Các từ như directly, just, halfway giúp chỉ vị trí chính xác hơn."
+    table:
+      - - Cụm
+        - Nghĩa
+        - Ví dụ
+      - - at the end of
+        - ở cuối
+        - at the end of the path
+      - - on the corner of
+        - ở góc (ngoài)
+        - on the corner of Main Street
+      - - in the corner of
+        - ở góc (trong)
+        - in the corner of the room
+      - - in the north of
+        - ở phía bắc (bên trong)
+        - in the north of the park
+      - - to the north of
+        - về phía bắc (bên ngoài)
+        - to the north of the lake
+      - - directly opposite
+        - đối diện ngay
+        - directly opposite the entrance
+      - - just past
+        - vừa đi qua khỏi
+        - just past the café
+      - - halfway along
+        - ở khoảng giữa (dọc đường)
+        - halfway along the corridor
+      - - on your left / right
+        - bên trái / phải bạn
+        - The pool is on your left.
+    notes:
+      - "Trên bản đồ thi IELTS, người nói thường dùng: 'As you come in…', 'Go past…', 'It's the first room on the right.'"
+      - "Thứ tự: the first / second / last building on the left."
+      - clockwise / anticlockwise = theo / ngược chiều kim đồng hồ.
+    mistakes:
+      - wrong: The gym is in the end of the corridor.
+        right: The gym is at the end of the corridor.
+        why: Cuối (hành lang, con đường) → at the end of.
+      - wrong: The café is in the corner of the street.
+        right: The café is on the corner of the street.
+        why: Góc phố (góc ngoài) → on the corner.
+      - wrong: The car park is in the south of the building.
+        right: The car park is to the south of the building.
+        why: Bãi xe nằm bên ngoài tòa nhà → to the south of.
+    examples:
+      - b27-001
+      - b27-002
+      - b27-003
+      - b27-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Listening cơ bản L2 'Dự đoán qua ngôn ngữ chỉ dẫn'; Writing cơ bản 'Maps' (giới từ vị trí) — đối chiếu phạm vi
+      - source: prep-trung-cap
+        field: scope
+        ref: Listening trung cấp L10 'Labelling a map' — mới biết tên bài, chưa xem video
+    source: editorial
+    status: draft
+  - id: en-g2-08
+    lesson: buoi-28-suc-khoe-speaking-part-2
+    title: used to + V (thói quen trong quá khứ) và be used to + V-ing
+    cefr: B1
+    structures:
+      - S + used to + V                    I used to play football every afternoon.
+      - S + didn't use to + V              I didn't use to like vegetables.
+      - Did + S + use to + V …?            Did you use to play sports at school?
+      - S + be / get used to + V-ing / N   I'm used to getting up early. (đã quen)
+    explain: "used to + V nói về thói quen hoặc trạng thái trong quá khứ mà BÂY GIỜ KHÔNG CÒN nữa: I used to be shy (giờ không còn nhút nhát). Rất hữu ích ở Speaking Part 2 khi kể chuyện ngày xưa. Khác hẳn be used to + V-ing / danh từ nghĩa là 'đã quen với': I'm used to running in the heat. Trong câu phủ định và câu hỏi, dùng use to (không có d) sau did."
+    table:
+      - - Cấu trúc
+        - Nghĩa
+        - Ví dụ
+      - - used to + V
+        - ngày xưa thường…
+        - I used to swim in the river.
+      - - didn't use to + V
+        - ngày xưa không…
+        - I didn't use to exercise.
+      - - be used to + V-ing
+        - đã quen với…
+        - I'm used to training in the rain.
+      - - get used to + V-ing
+        - dần quen với…
+        - I'm getting used to waking up at 5.
+    notes:
+      - "Chỉ dùng cho quá khứ — không có *I use to play* ở hiện tại. Thói quen hiện tại: I usually play."
+      - "Có số lần/khoảng thời gian cụ thể thì dùng quá khứ đơn: I played in three tournaments (không dùng used to)."
+      - "Câu mở đầu kể chuyện hay dùng: When I was a child, I used to… / As far as I can remember, …"
+    mistakes:
+      - wrong: I use to play football when I was young.
+        right: I used to play football when I was young.
+        why: "Khẳng định quá khứ: used to."
+      - wrong: Did you used to play sports?
+        right: Did you use to play sports?
+        why: Sau did dùng use to (không d).
+      - wrong: I am used to get up early.
+        right: I am used to getting up early.
+        why: be used to + V-ing (to là giới từ).
+      - wrong: I used to go to that gym three times last month.
+        right: I went to that gym three times last month.
+        why: Có số lần/mốc cụ thể → quá khứ đơn.
+    examples:
+      - b28-001
+      - b28-002
+      - b28-003
+      - b28-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Unit 14 (used to) — đối chiếu phạm vi
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản 'Kể về quá khứ' (used to, as far as I can remember) — đối chiếu phạm vi
+    source: editorial
+    status: draft
+  - id: en-g2-09
+    lesson: buoi-29-toi-pham-matching-headings
+    title: Câu bị động ở các thì
+    cefr: B1
+    structures:
+      - "Hiện tại tiếp diễn:  am/is/are + being + V3     A new law is being discussed."
+      - "Hiện tại hoàn thành: have/has + been + V3       Three men have been arrested."
+      - "Quá khứ tiếp diễn:   was/were + being + V3      The bank was being robbed."
+      - "Tương lai:           will + be + V3              The thief will be sent to prison."
+      - "be going to:         am/is/are going to + be + V3"
+    explain: "Bị động giữ nguyên thì của câu chủ động; chỉ đổi thành 'be' chia theo thì đó + V3. Mẹo: viết câu chủ động, xác định thì, rồi chia 'be' ở đúng thì (is being / has been / was being / will be) và thêm V3. Chủ đề tội phạm dùng bị động rất nhiều vì thường không biết hoặc không cần nói ai làm: My bike has been stolen."
+    table:
+      - - Thì
+        - Chủ động
+        - Bị động
+      - - Hiện tại đơn
+        - Police catch thieves.
+        - Thieves are caught.
+      - - Hiện tại tiếp diễn
+        - They are building a prison.
+        - A prison is being built.
+      - - Hiện tại hoàn thành
+        - They have arrested two men.
+        - Two men have been arrested.
+      - - Quá khứ đơn
+        - Someone stole my bike.
+        - My bike was stolen.
+      - - Quá khứ tiếp diễn
+        - They were questioning him.
+        - He was being questioned.
+      - - Tương lai đơn
+        - The judge will punish him.
+        - He will be punished.
+    notes:
+      - "Ôn Buổi 19: bị động hiện tại đơn/quá khứ đơn. Buổi này mở rộng sang các thì còn lại."
+      - "have something + V3: I had my phone stolen (tôi bị mất trộm điện thoại) — rất tự nhiên khi kể chuyện."
+      - Trong bài đọc, bị động hay 'giấu' người làm — muốn biết ai làm, tìm cụm by + …
+    mistakes:
+      - wrong: A new prison is building in the city.
+        right: A new prison is being built in the city.
+        why: "Nhà tù không tự xây → bị động tiếp diễn: is being built."
+      - wrong: Two men have arrested.
+        right: Two men have been arrested.
+        why: "Thiếu been: have/has + been + V3."
+      - wrong: The thief will punished.
+        right: The thief will be punished.
+        why: "Tương lai bị động: will + be + V3."
+      - wrong: My phone was stole.
+        right: My phone was stolen.
+        why: Dùng V3 (stolen), không phải V2.
+    examples:
+      - b29-001
+      - b29-002
+      - b29-003
+      - b29-004
+      - b29-005
+    provenance:
+      - source: egiu
+        field: scope
+        ref: "Unit 22 (passive: is being done / has been done) — đối chiếu phạm vi"
+    source: editorial
+    status: draft
+  - id: en-g2-10
+    lesson: buoi-30-toi-pham-writing-adv-disadv
+    title: "Liên kết câu trong đoạn: từ nối và từ quy chiếu (this, these, such)"
+    cefr: B1
+    structures:
+      - "Thêm ý:   Firstly, … · In addition, … · Another advantage is that …"
+      - "Đối lập:  However, … · On the other hand, …"
+      - "Kết quả:  As a result, … · Therefore, …"
+      - "Quy chiếu: this + N / these + Ns / such + N  (thay cho ý vừa nói)"
+    explain: "Tiêu chí Coherence & Cohesion chấm việc các câu nối với nhau mạch lạc. Hai công cụ chính: từ nối cho biết quan hệ giữa hai câu (thêm, đối lập, kết quả), và từ quy chiếu (this, these, such, it, they) nhắc lại ý đã nói mà không lặp nguyên cụm. Từ nối đứng đầu câu thường có dấu phẩy. Đừng nhồi từ nối vào mọi câu — dùng đúng quan hệ quan trọng hơn dùng nhiều."
+    table:
+      - - Quan hệ
+        - Từ nối
+        - Ví dụ
+      - - thêm ý
+        - In addition, / Another … is that
+        - In addition, cameras help the police find criminals.
+      - - đối lập
+        - However, / On the other hand,
+        - However, they can invade people's privacy.
+      - - kết quả
+        - As a result, / Therefore,
+        - As a result, many people feel safer.
+      - - ví dụ
+        - For example, / such as
+        - For example, London has thousands of cameras.
+      - - quy chiếu
+        - this + N / these + Ns
+        - This problem … / These cameras …
+    notes:
+      - "Câu 1: 'Many cities have installed cameras.' Câu 2: 'This helps the police…' — this thay cho cả việc lắp camera."
+      - "Không dùng hai từ nối cùng lúc: *Although … but …*, *Because … so …* (ôn Buổi 22)."
+      - Mỗi đoạn thân bài chỉ cần 2–4 từ nối rõ ràng; dùng quá nhiều sẽ bị đánh giá 'mechanical' (máy móc).
+    mistakes:
+      - wrong: Cameras reduce crime. On the other hand, they help the police catch criminals.
+        right: Cameras reduce crime. In addition, they help the police catch criminals.
+        why: Hai ý cùng chiều (đều là lợi ích) → In addition; On the other hand chỉ dùng cho ý đối lập.
+      - wrong: Prison is expensive, however it keeps dangerous people away.
+        right: Prison is expensive. However, it keeps dangerous people away.
+        why: however không nối hai câu bằng dấu phẩy — tách câu, However + dấu phẩy.
+      - wrong: Many young people commit crimes. The crimes of the young people are often small.
+        right: Many young people commit crimes. These crimes are often small.
+        why: Dùng từ quy chiếu (These crimes) thay vì lặp lại cả cụm.
+    examples:
+      - b30-001
+      - b30-002
+      - b30-003
+      - b30-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L6 'Phương pháp đảm bảo sự mạch lạc', 'Referencing language' (Task 2 Adv/Disadv) — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft

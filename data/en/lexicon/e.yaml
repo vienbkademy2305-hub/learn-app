@@ -440,3 +440,243 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: education|n
+    headword: education
+    pos: n
+    ipa:
+      uk: /ˌedʒ.uˈkeɪ.ʃən/
+      us: /ˌedʒ.əˈkeɪ.ʃən/
+    stress: e-du-CA-tion
+    cefr: A2
+    meaning_vi:
+      - giáo dục
+      - sự học hành
+    collocations:
+      - receive a good education
+      - the education system
+      - primary education
+    notes_vi:
+      - "Thường không đếm được: Education is important. Nhưng nói được: a good education."
+      - "Trọng âm rơi vào âm tiết ngay trước -tion: e-du-CA-tion."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/education, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/education, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/education, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: extracurricular-activity|phr-n
+    headword: extracurricular activity
+    pos: phr-n
+    ipa:
+      uk: /ˌek.strə.kəˈrɪk.jə.lər ækˈtɪv.ə.ti/
+      us: /ˌek.strə.kəˈrɪk.jə.lɚ ækˈtɪv.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - hoạt động ngoại khóa
+    collocations:
+      - take part in extracurricular activities
+    notes_vi:
+      - "Thường dùng số nhiều: extracurricular activities (activity → activities)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: essential|adj
+    headword: essential
+    pos: adj
+    ipa:
+      uk: /ɪˈsen.ʃəl/
+      us: /ɪˈsen.ʃəl/
+    stress: es-SEN-tial
+    cefr: B1
+    meaning_vi:
+      - thiết yếu
+      - rất cần thiết
+    collocations:
+      - essential for…
+      - it is essential to…
+      - an essential skill
+    notes_vi:
+      - -tial đọc /ʃəl/.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/essential, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/essential, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/essential, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: environment|n
+    headword: environment
+    pos: n
+    ipa:
+      uk: /ɪnˈvaɪ.rən.mənt/
+      us: /ɪnˈvaɪ.rən.mənt/
+    stress: en-VI-ron-ment
+    cefr: A2
+    meaning_vi:
+      - môi trường
+    collocations:
+      - protect the environment
+      - harm the environment
+      - the natural environment
+    notes_vi:
+      - Nói về môi trường tự nhiên nói chung dùng 'the environment'.
+      - "Chữ n trước m hay bị nuốt khi nói nhanh, nhưng khi viết phải có: enviroNment."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: endangered-species|phr-n
+    headword: endangered species
+    pos: phr-n
+    ipa:
+      uk: /ɪnˌdeɪn.dʒəd ˈspiː.ʃiːz/
+      us: /ɪnˌdeɪn.dʒɚd ˈspiː.ʃiːz/
+    cefr: null
+    meaning_vi:
+      - loài có nguy cơ tuyệt chủng
+    collocations:
+      - protect endangered species
+    notes_vi:
+      - "species số ít và số nhiều giống nhau: one species, two species."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: environmentally-friendly|adj
+    headword: environmentally friendly
+    pos: adj
+    ipa:
+      uk: /ɪnˌvaɪ.rən.men.təl.i ˈfrend.li/
+      us: /ɪnˌvaɪ.rən.men.t̬əl.i ˈfrend.li/
+    cefr: null
+    meaning_vi:
+      - thân thiện với môi trường
+    collocations:
+      - environmentally friendly products
+    notes_vi:
+      - "Có thể nói ngắn: eco-friendly."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environmentally-friendly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environmentally-friendly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: entrance|n
+    headword: entrance
+    pos: n
+    ipa:
+      uk: /ˈen.trəns/
+      us: /ˈen.trəns/
+    stress: EN-trance
+    cefr: B1
+    meaning_vi:
+      - lối vào
+      - cổng vào
+    collocations:
+      - the main entrance
+      - the side entrance
+      - at the entrance
+    notes_vi:
+      - "Trái nghĩa: exit (lối ra)."
+    topics:
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entrance_1, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entrance_1, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entrance_1, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: energetic|adj
+    headword: energetic
+    pos: adj
+    ipa:
+      uk: /ˌen.əˈdʒet.ɪk/
+      us: /ˌen.ɚˈdʒet̬.ɪk/
+    stress: e-ner-GE-tic
+    cefr: null
+    meaning_vi:
+      - tràn đầy năng lượng
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/energetic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/energetic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: exhausted|adj
+    headword: exhausted
+    pos: adj
+    ipa:
+      uk: /ɪɡˈzɔː.stɪd/
+      us: /ɪɡˈzɑː.stɪd/
+    stress: ex-HAUS-ted
+    cefr: null
+    meaning_vi:
+      - kiệt sức
+    notes_vi:
+      - "Mạnh hơn tired. h câm: /ɪɡˈzɔː-/."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exhausted, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exhausted, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: encourage|v
+    headword: encourage
+    pos: v
+    ipa:
+      uk: /ɪnˈkʌr.ɪdʒ/
+      us: /ɪnˈkɝː.ɪdʒ/
+    stress: en-COU-rage
+    cefr: B1
+    meaning_vi:
+      - khuyến khích
+      - động viên
+    collocations:
+      - encourage somebody to + V
+    notes_vi:
+      - encourage somebody TO do (ngược với prevent … FROM doing).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-29, field: ipa.us }
+    status: draft

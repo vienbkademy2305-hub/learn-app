@@ -227,6 +227,31 @@ steps:
             answer: long black hair
           - q: (young / friendly / Vietnamese) a ___ teacher
             answer: a friendly young Vietnamese teacher
+      - id: b02-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Who is that girl next to the window?
+          Woman: That's my cousin, Linh. She's tall and slim, with long straight hair.
+          Man: She looks like you!
+          Woman: Yes, but she is taller than me, and she is more outgoing. I'm quite shy.
+          Man: Is she friendly?
+          Woman: Very friendly, and funny too. But she is a bit lazy!
+        questions:
+          - { q: Who is Linh?, options: [ the woman's sister, the woman's cousin, the man's friend, a teacher ], answer: b }
+          - { q: What is Linh's hair like?, options: [ short and curly, long and curly, long and straight, short and straight ], answer: c }
+          - { q: Who is shyer?, options: [ Linh, the woman, the man, they are the same ], answer: b }
+      - id: b02-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My best friend Tuan is short and a little overweight, but he is very good-looking. He has short black hair and he wears glasses. He is kind and patient, and he is more hard-working than me.
+        questions:
+          - { q: Tuan is tall., answer: F }
+          - { q: Tuan is good-looking., answer: T }
+          - { q: Tuan is lazier than the speaker., answer: F }
+          - { q: Tuan has short hair., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ tả một người bạn thân: ngoại hình, tính cách, và so sánh người đó với bạn (dùng ít nhất 3 câu so sánh hơn)."

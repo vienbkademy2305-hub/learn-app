@@ -227,6 +227,31 @@ steps:
             answer: to
           - q: She is in Japan ___ three weeks.
             answer: for
+      - id: b04-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: When is your birthday, Nam?
+          Man: It's on the twelfth of March.
+          Woman: Is there a party?
+          Man: Yes, on Saturday the fourteenth, at half past six in the evening.
+          Woman: Where is it?
+          Man: At my house. It finishes at eleven o'clock.
+        questions:
+          - { q: When is Nam's birthday?, options: [ 12 March, 20 March, 12 May, 14 March ], answer: a }
+          - { q: What day is the party?, options: [ Friday the 12th, Saturday the 14th, Sunday the 14th, Saturday the 12th ], answer: b }
+          - { q: What time does the party start?, options: [ 6.00 p.m., 6.30 p.m., 7.30 p.m., 11.00 p.m. ], answer: b }
+      - id: b04-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: The museum is open from Tuesday to Sunday. It opens at nine o'clock in the morning and closes at half past five in the afternoon. It is closed on Mondays. During the summer holiday, it is open until eight in the evening.
+        questions:
+          - { q: The museum is open on Mondays., answer: F }
+          - { q: It opens at nine in the morning., answer: T }
+          - { q: It closes at five o'clock., answer: F }
+          - { q: "In the summer holiday, it is open until 8 p.m.", answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ về những ngày đặc biệt trong năm của bạn (sinh nhật, ngày lễ gia đình…): ngày nào, bạn thường làm gì, lúc mấy giờ. Dùng đúng in/on/at."

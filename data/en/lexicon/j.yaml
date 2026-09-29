@@ -157,3 +157,24 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: judge|n
+    headword: judge
+    pos: n
+    ipa:
+      uk: /dʒʌdʒ/
+      us: /dʒʌdʒ/
+    cefr: B1
+    meaning_vi:
+      - thẩm phán
+    notes_vi:
+      - Âm /dʒ/ ở đầu và cuối — đọc rõ âm cuối.
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/judge, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/judge, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/judge, checked: 2026-09-29, field: ipa.us }
+    status: draft

@@ -1,0 +1,350 @@
+# Buổi 27 — Sức khỏe & thể thao · Listening: bản đồ, sơ đồ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-27-suc-khoe-listening-map
+number: 27
+stage: 2
+title_vi: "Sức khỏe & thể thao · Listening: bản đồ, sơ đồ"
+focus:
+  grammar: Giới từ vị trí nâng cao trên bản đồ
+  skill: Listening — map/plan labelling
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - gym|n
+      - swimming-pool|phr-n
+      - changing-room|phr-n
+      - reception|n
+      - entrance|n
+      - car-park|phr-n
+      - court|n
+      - running-track|phr-n
+      - facility|n
+      - fitness|n
+      - work-out|phr-v
+      - muscle|n
+      - stretch|v
+      - injury|n
+      - first-aid|phr-n
+      - referee|n
+      - physical-activity|phr-n
+  - type: pronunciation
+    notes:
+      - word: muscle|n
+        text_vi: "c câm: MUS-cle /ˈmʌs.əl/."
+      - word: referee|n
+        text_vi: "Nhấn âm cuối: re-fe-REE. Tương tự: vo-lun-TEER (Buổi 23)."
+      - word: facility|n
+        text_vi: "fa-CI-li-ty: đuôi -ity kéo trọng âm về âm tiết ngay trước."
+      - sound: snd-j
+        text_vi: "/dʒ/ trong gym, injury, changing: đầu lưỡi chạm lợi rồi bật ra — khác /z/ và /ʒ/."
+      - word: court|n
+        text_vi: "court /kɔːt/: u câm, đọc như 'caught' — nguyên âm dài /ɔː/."
+      - word: stretch|v
+        text_vi: "Cụm phụ âm đầu /str/ + âm cuối /tʃ/: không chèn nguyên âm thành 'sơ-trét'."
+  - type: grammar
+    items:
+      - en-g2-07
+  - type: skill
+    skill: listening
+    title_vi: Listening — gắn nhãn bản đồ, sơ đồ (map/plan labelling)
+    intro_vi: 'Thường xuất hiện ở Part 2: một người hướng dẫn giới thiệu một khu vực (công viên, trung tâm thể thao, bảo tàng) và bạn ghép tên địa điểm với chữ cái A–H trên bản đồ. Khó ở chỗ phải vừa nghe vừa "đi" theo lời chỉ dẫn. Điểm tựa: tìm đúng vị trí người nói bắt đầu và nắm chắc các cụm chỉ vị trí.'
+    steps:
+      - title_vi: Định hướng bản đồ khi đọc trước
+        text_vi: Tìm điểm xuất phát ('You are here', lối vào), la bàn (N/S/E/W), các địa điểm đã có tên sẵn. Những địa điểm có sẵn tên chính là mốc người nói sẽ nhắc.
+      - title_vi: Đánh dấu đường đi bằng bút chì
+        text_vi: "Đặt bút ở điểm xuất phát và di chuyển theo lời nói: go straight, turn left, go past… Luôn tự hỏi: 'Bây giờ mình đang đứng đâu, quay mặt hướng nào?'"
+      - title_vi: Đọc trước danh sách tên cần điền
+        text_vi: Các địa điểm cần gắn nhãn thường được nhắc THEO THỨ TỰ câu hỏi. Gạch từ khóa (gym, café, first aid room) để nghe ra khi chúng xuất hiện.
+      - title_vi: Nghe cụm chỉ vị trí + mốc
+        text_vi: "Đáp án thường là 'mốc + cụm vị trí': 'directly opposite reception', 'at the end of the path', 'just past the pool'."
+      - title_vi: Cẩn thận chữ cái nhiễu
+        text_vi: Bản đồ có nhiều chữ cái hơn số câu hỏi. Người nói có thể nhắc một địa điểm rồi nói 'but that's not…', hoặc nói nơi đó đã bị dời đi.
+    tips:
+      - Nếu bản đồ không có la bàn, dùng left/right theo hướng người nói đang đi, không phải theo tờ giấy.
+      - clockwise / anticlockwise hay xuất hiện khi mô tả đường vòng quanh hồ, quanh sân.
+      - Bị lạc thì đợi mốc có tên tiếp theo để 'bắt' lại vị trí — đừng bỏ cả phần còn lại.
+    traps:
+      - trap_vi: Nhầm in the north of và to the north of.
+        fix_vi: in = nằm trong khu vực; to = nằm ngoài, về phía đó.
+      - trap_vi: Nhầm trái/phải khi người nói đang đi ngược chiều bản đồ.
+        fix_vi: Xoay bản đồ (hoặc tưởng tượng) theo hướng người nói đang đi.
+      - trap_vi: Chọn ngay địa điểm được nhắc đầu tiên.
+        fix_vi: "Nghe hết câu: 'The café used to be here, but it's now next to the pool.'"
+    phrases:
+      - en: As you come in through the main entrance, …
+        vi: Khi bạn vào qua lối chính, …
+        note_vi: Điểm xuất phát.
+      - en: It's the first room on your right.
+        vi: Đó là phòng đầu tiên bên phải bạn.
+      - en: If you go past the pool, you'll see …
+        vi: Nếu bạn đi qua bể bơi, bạn sẽ thấy …
+      - en: It's directly opposite reception.
+        vi: Nó ở ngay đối diện quầy lễ tân.
+      - en: at the far end of the building
+        vi: ở tận cuối tòa nhà
+    demo:
+      title_vi: "Làm mẫu: từ lời nói đến chữ cái"
+      text_en: |-
+        Plan of the ground floor (you enter from the south):
+        A – first door on the left after the entrance
+        B – first door on the right after the entrance
+        C – in the centre of the building
+        D – at the far end, on the left
+        E – at the far end, on the right
+
+        Speaker: "As you come in, reception is straight ahead, in the centre of the building. The café is the first door on your right. And if you walk past reception to the far end, the gym is on your left."
+      notes:
+        - label: reception → C
+          text_vi: "'straight ahead, in the centre of the building' khớp với C."
+        - label: café → B
+          text_vi: "'first door on your right' — bạn đang đi từ lối vào phía nam lên, nên bên phải là B."
+        - label: gym → D
+          text_vi: "'walk past reception to the far end… on your left' = D. E là chữ cái nhiễu không được nhắc."
+  - type: examples
+    items:
+      - b27-001
+      - b27-002
+      - b27-003
+      - b27-004
+      - b27-005
+      - b27-006
+      - b27-007
+      - b27-008
+      - b27-009
+      - b27-010
+  - type: dialogue
+    title_vi: Hỏi đường trong trung tâm thể thao
+    lines:
+      - speaker: A
+        text: Excuse me, I'm new here. Where are the changing rooms?
+        vi: Xin lỗi, tôi mới đến. Phòng thay đồ ở đâu ạ?
+      - speaker: B
+        text: Go past reception, and they're at the end of the corridor, on the left.
+        vi: Chị đi qua quầy lễ tân, phòng thay đồ ở cuối hành lang, bên trái.
+      - speaker: A
+        text: Thanks. And is the swimming pool near there?
+        vi: Cảm ơn. Bể bơi có gần đó không?
+      - speaker: B
+        text: Yes, it's directly opposite the changing rooms.
+        vi: Có, nó ở ngay đối diện phòng thay đồ.
+      - speaker: A
+        text: Great. I'd also like to use the gym. Is it on this floor?
+        vi: Tuyệt. Tôi cũng muốn dùng phòng gym. Nó ở tầng này à?
+      - speaker: B
+        text: No, it's upstairs, in the north corner of the building.
+        vi: Không, nó ở trên lầu, góc phía bắc của tòa nhà.
+      - speaker: A
+        text: OK. And if someone gets an injury?
+        vi: Được. Còn nếu ai đó bị chấn thương thì sao?
+      - speaker: B
+        text: The first aid room is just past the main entrance. And please stretch before you work out!
+        vi: Phòng sơ cứu ở ngay sau lối vào chính. Và nhớ giãn cơ trước khi tập nhé!
+  - type: exercises
+    items:
+      - id: b27-x1
+        bank_no: 19
+        kind: mcq
+        instructions_vi: Nghe hướng dẫn viên giới thiệu công viên và chọn chữ cái (A–G) đúng cho mỗi địa điểm. Có 2 chữ cái thừa. Đọc sơ đồ trước khi nghe, nên vẽ phác ra giấy.
+        audio_text: Welcome to Green Lake Park. We're standing at the main gate, which is in the south of the park. In front of us is the lake, in the centre of the park. First, if you want a drink, the café is on your right as you come in, just past the gate. The children's playground is on the west side of the lake, so that's on your left as you walk up. Now, the tennis courts. A lot of people think they're next to the playground, but actually they're in the north-east corner of the park. The running track goes round the lake, and the start of the track is directly opposite the café, on the other side of the path. Finally, the first aid room is at the far end of the park, in the north-west corner. And the car park is outside the park, to the south of the main gate.
+        passage: |-
+          Plan of Green Lake Park (the main gate is in the south):
+          A – just inside the gate, on the right (east)
+          B – just inside the gate, on the left (west)
+          C – on the west side of the lake
+          D – on the east side of the lake
+          E – north-west corner of the park
+          F – north-east corner of the park
+          G – outside the park, south of the main gate
+        questions:
+          - q: café
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: a
+          - q: children's playground
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: c
+          - q: tennis courts
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: f
+            explain_vi: "Bẫy: 'A lot of people think they're next to the playground, but actually…' → góc đông bắc."
+          - q: start of the running track
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: b
+            explain_vi: directly opposite the café (A), bên kia lối đi → B.
+          - q: first aid room
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: e
+      - id: b27-x2
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền cụm chỉ vị trí phù hợp.
+        bank:
+          - at the end of
+          - on the corner of
+          - to the north of
+          - in the north of
+          - directly opposite
+          - just past
+          - in the centre of
+        questions:
+          - q: The lake is ___ the park, with paths all around it.
+            answer: in the centre of
+          - q: Walk down the corridor. The gym is ___ it, the last door.
+            answer: at the end of
+          - q: The café is ___ Le Loi Street and Nguyen Hue Street.
+            answer: on the corner of
+          - q: The ticket office is ___ the entrance, so you see it when you come in.
+            answer: directly opposite
+          - q: The first aid room is ___ the pool — you walk past the pool and it's there.
+            answer: just past
+          - q: Sapa is ___ Hanoi — it's outside the city, about 300 km away.
+            answer: to the north of
+          - q: The best hotels are ___ the island, near the northern beaches.
+            answer: in the north of
+      - id: b27-x3
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe đoạn giới thiệu phòng tập và chọn đáp án đúng.
+        audio_text: "Hello everyone, and welcome to City Fitness. Let me tell you a few things before you start. The gym is open from six in the morning until ten at night on weekdays, but at weekends we close earlier, at eight. Your membership includes the gym and the swimming pool. Fitness classes like yoga and dance cost extra, but members get a twenty per cent discount. Please remember to bring a towel. We don't provide towels, but you can buy one at reception. And one last thing: if you've had an injury recently, please talk to one of our trainers before you use the machines."
+        questions:
+          - q: At weekends, the gym closes at…
+            options:
+              - 6 p.m.
+              - 8 p.m.
+              - 10 p.m.
+              - 6 a.m.
+            answer: b
+          - q: What is included in the membership?
+            options:
+              - the gym only
+              - the gym and the pool
+              - the gym and yoga classes
+              - all classes
+            answer: b
+          - q: Members who join a dance class…
+            options:
+              - pay nothing
+              - pay the full price
+              - get a 20% discount
+              - get a free towel
+            answer: c
+          - q: Towels are…
+            options:
+              - free at reception
+              - for sale at reception
+              - not allowed
+              - in the changing rooms
+            answer: b
+          - q: People with a recent injury should…
+            options:
+              - not use the gym
+              - see a doctor first
+              - speak to a trainer
+              - only use the pool
+            answer: c
+      - id: b27-x4
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép động từ với cụm phù hợp.
+        pairs:
+          - left: work out
+            right: at the gym
+          - left: pull
+            right: a muscle
+          - left: give
+            right: first aid
+          - left: do
+            right: physical activity
+          - left: improve
+            right: your fitness
+      - id: b27-x5
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: referee
+            right: the person who controls a football match
+          - left: injury
+            right: damage to your body
+            for example in an accident: null
+          - left: facilities
+            right: buildings and equipment for a particular use
+          - left: entrance
+            right: the door or gate where you go in
+          - left: stretch
+            right: to make your arms
+            legs or body long to relax the muscles: null
+      - id: b27-x6
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (tối đa 3 lần).
+        text: The changing rooms are at the end of the corridor, and the swimming pool is directly opposite them.
+      - id: b27-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Welcome to the new City Sports Centre. The centre opened last month, and it has excellent facilities. There is a gym on the first floor, and the swimming pool is on the ground floor, at the end of the corridor. The changing rooms are directly opposite the pool. If you have an injury, the first aid room is next to reception.
+        questions:
+          - { q: The sports centre opened last year., answer: F }
+          - { q: The gym is on the first floor., answer: T }
+          - { q: The changing rooms are next to the pool., answer: F, explain_vi: "directly opposite = ngay đối diện, không phải bên cạnh." }
+          - { q: The first aid room is next to reception., answer: T }
+      - id: b27-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Excuse me, I'm looking for the badminton courts.
+          Man: They're on the second floor, at the end of the corridor.
+          Woman: Thanks. And where can I leave my bag?
+          Man: There are lockers in the changing rooms, just past reception on your right.
+          Woman: Is there a café here? I'd like a drink after my game.
+          Man: Yes, it's on the ground floor, directly opposite the main entrance.
+        questions:
+          - { q: Where are the badminton courts?, options: [ on the ground floor, "on the second floor, at the end of the corridor", next to reception, outside the building ], answer: b }
+          - { q: Where can she leave her bag?, options: [ at reception, in the café, in the changing rooms, on the courts ], answer: c }
+          - { q: Where is the café?, options: [ on the second floor, directly opposite the main entrance, at the end of the corridor, next to the changing rooms ], answer: b }
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 120–150 từ mô tả bố cục một nơi bạn biết rõ (công viên, trường học, trung tâm thể thao, chợ…) như thể đang hướng dẫn người mới đến: bắt đầu từ lối vào, rồi từng địa điểm. Dùng ít nhất 6 cụm chỉ vị trí của buổi này. Sau đó vẽ sơ đồ và nhờ người khác đọc bài của bạn để tự vẽ lại — hai sơ đồ có khớp không?"
+    prompt_en: Describe the layout of a place you know well, starting from the entrance.
+    words:
+      min: 120
+      max: 150
+    minutes: 25

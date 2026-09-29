@@ -271,6 +271,30 @@ steps:
             right: a small animal with long ears
           - left: bear
             right: a big wild animal that sleeps in winter
+      - id: b11-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: What's the weather like in Hanoi today?
+          Woman: It's cold and cloudy. It's about twelve degrees.
+          Man: Really? Here in Ho Chi Minh City it's hot and sunny. It's thirty-three degrees!
+          Woman: Lucky you! Is it humid?
+          Man: Very humid. And the forecast says there is a storm this evening.
+        questions:
+          - { q: What is the temperature in Hanoi?, options: [ about 2 degrees, about 12 degrees, about 20 degrees, about 33 degrees ], answer: b }
+          - { q: What is the weather like in Ho Chi Minh City?, options: [ cold and cloudy, hot and sunny, windy and rainy, freezing ], answer: b }
+          - { q: What does the forecast say?, options: [ snow tomorrow, a storm this evening, sunny all week, rain in Hanoi ], answer: b }
+      - id: b11-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Da Lat is famous for its cool weather. It's never very hot there. It takes about seven hours to get there from Ho Chi Minh City by bus. Many tourists are interested in the flower gardens. In winter it's cold at night, so tourists need a warm jumper.
+        questions:
+          - { q: Da Lat is famous for its hot weather., answer: F }
+          - { q: It takes about seven hours by bus from Ho Chi Minh City., answer: T }
+          - { q: Many tourists are interested in the flower gardens., answer: T }
+          - { q: Nights in winter are warm., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 80–100 từ về thời tiết ở quê bạn: có mấy mùa, mỗi mùa thế nào, bạn thích/sợ mùa nào và vì sao. Dùng ít nhất 3 cụm tính từ + giới từ."

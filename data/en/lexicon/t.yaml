@@ -786,3 +786,172 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: tuition-fee|phr-n
+    headword: tuition fee
+    pos: phr-n
+    ipa:
+      uk: /tjuˈɪʃ.ən fiː/
+      us: /tuˈɪʃ.ən fiː/
+    cefr: null
+    meaning_vi:
+      - học phí
+    collocations:
+      - pay tuition fees
+      - high tuition fees
+      - tuition fees rise
+    notes_vi:
+      - "Thường dùng số nhiều: tuition fees are high."
+      - "tuition: tu-I-tion, nhấn âm 2."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: technology|n
+    headword: technology
+    pos: n
+    ipa:
+      uk: /tekˈnɒl.ə.dʒi/
+      us: /tekˈnɑː.lə.dʒi/
+    stress: tech-NO-lo-gy
+    cefr: A2
+    meaning_vi:
+      - công nghệ
+    collocations:
+      - modern technology
+      - new technology
+      - information technology
+    notes_vi:
+      - "ch đọc /k/. Đuôi -logy: trọng âm rơi vào âm tiết ngay trước: tech-NO-lo-gy."
+      - "Tính từ: technological (tech-no-LO-gi-cal)."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/technology, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/technology, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/technology, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: trend|n
+    headword: trend
+    pos: n
+    ipa:
+      uk: /trend/
+      us: /trend/
+    cefr: B1
+    meaning_vi:
+      - xu hướng
+    collocations:
+      - an upward trend
+      - a downward trend
+      - the overall trend
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trend, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trend, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trend, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: take-up|phr-v
+    headword: take up
+    pos: phr-v
+    forms:
+      past: took up
+      pp: taken up
+    ipa:
+      uk: /ˌteɪk ˈʌp/
+      us: /ˌteɪk ˈʌp/
+    cefr: null
+    meaning_vi:
+      - bắt đầu chơi / theo (một môn, sở thích)
+    collocations:
+      - take up swimming
+      - take up a new sport
+    topics:
+      - sport
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: tournament|n
+    headword: tournament
+    pos: n
+    ipa:
+      uk: /ˈtʊə.nə.mənt/
+      us: /ˈtɝː.nə.mənt/
+    stress: TOUR-na-ment
+    cefr: B2
+    meaning_vi:
+      - giải đấu
+    collocations:
+      - a badminton tournament
+      - win the tournament
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tournament, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tournament, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/tournament, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: thief|n
+    headword: thief
+    pos: n
+    forms:
+      plural: thieves
+    ipa:
+      uk: /θiːf/
+      us: /θiːf/
+    cefr: A2
+    meaning_vi:
+      - kẻ trộm
+    notes_vi:
+      - "Số nhiều: thieves. /θ/ đầu từ."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thief, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thief, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thief, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: therefore|adv
+    headword: therefore
+    pos: adv
+    ipa:
+      uk: /ˈðeə.fɔːr/
+      us: /ˈðer.fɔːr/
+    stress: THERE-fore
+    cefr: B1
+    meaning_vi:
+      - vì vậy
+      - do đó
+    notes_vi:
+      - "Trang trọng hơn so; hay dùng ở đầu câu: Therefore, …"
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-29, field: ipa.us }
+    status: draft

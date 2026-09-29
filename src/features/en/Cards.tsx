@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Badge } from "@/components/Badge";
-import type { EnGrammar, EnSentence, EnSound, EnWord } from "@/content/en-types";
+import type { EnGrammar, EnSentence, EnSound, EnWord, SkillStep } from "@/content/en-types";
 import { Say } from "./speech";
 
 const POS_VI: Record<string, string> = {
@@ -175,6 +175,93 @@ export function EnSoundCard({ sound, note }: { sound: EnSound; note?: string }) 
           </ul>
         </div>
       )}
+    </article>
+  );
+}
+
+const SKILL_VI: Record<SkillStep["skill"], string> = { listening: "Listening", reading: "Reading", writing: "Writing", speaking: "Speaking" };
+
+/** The skill step of a stage 2+ lesson. */
+export function EnSkillCard({ skill, draft }: { skill: SkillStep; draft: boolean }) {
+  return (
+    <article className="space-y-5 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+      <div>
+        <p className="text-sm font-semibold uppercase tracking-wide text-sky-800">{SKILL_VI[skill.skill]}</p>
+        <h2 className="text-xl font-bold text-stone-900">{skill.title_vi}</h2>
+        <p className="mt-2 leading-relaxed whitespace-pre-line text-stone-700">{skill.intro_vi}</p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-stone-900">Các bước làm bài</h3>
+        <ol className="mt-2 space-y-2">
+          {skill.steps.map((s, i) => (
+            <li key={s.title_vi} className="flex gap-3 rounded-xl bg-sky-50 p-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-sky-800 text-sm font-bold text-white">{i + 1}</span>
+              <div className="min-w-0 text-sm">
+                <p className="font-semibold text-sky-950">{s.title_vi}</p>
+                <p className="mt-0.5 leading-relaxed whitespace-pre-line text-stone-700">{s.text_vi}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      {skill.tips && skill.tips.length > 0 && (
+        <div>
+          <h3 className="font-semibold text-stone-900">Mẹo</h3>
+          <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-stone-700">
+            {skill.tips.map((t) => <li key={t}>{t}</li>)}
+          </ul>
+        </div>
+      )}
+
+      {skill.traps && skill.traps.length > 0 && (
+        <div>
+          <h3 className="font-semibold text-stone-900">Bẫy thường gặp</h3>
+          <ul className="mt-2 space-y-2">
+            {skill.traps.map((t) => (
+              <li key={t.trap_vi} className="rounded-xl bg-stone-50 p-3 text-sm">
+                <p className="text-red-700">⚠ {t.trap_vi}</p>
+                <p className="mt-1 text-jade-700">→ {t.fix_vi}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {skill.phrases && skill.phrases.length > 0 && (
+        <div>
+          <h3 className="font-semibold text-stone-900">Cụm từ / mẫu câu dùng được</h3>
+          <ul className="mt-2 divide-y divide-stone-100">
+            {skill.phrases.map((p) => (
+              <li key={p.en} className="flex items-start gap-2 py-2 text-sm">
+                <Say text={p.en} />
+                <div className="min-w-0">
+                  <p lang="en" className="font-medium text-stone-900">{p.en}</p>
+                  <p className="text-stone-600">{p.vi}</p>
+                  {p.note_vi && <p className="text-xs text-stone-500">{p.note_vi}</p>}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {skill.demo && (
+        <div className="space-y-3">
+          <h3 className="font-semibold text-stone-900">{skill.demo.title_vi}</h3>
+          <p lang="en" className="overflow-x-auto rounded-xl bg-stone-50 p-4 leading-relaxed whitespace-pre-wrap text-stone-800">{skill.demo.text_en}</p>
+          <ul className="space-y-2">
+            {skill.demo.notes.map((n, i) => (
+              <li key={i} className="rounded-xl border border-sky-100 p-3 text-sm">
+                {n.label && <p lang="en" className="font-semibold text-sky-900">{n.label}</p>}
+                <p className="leading-relaxed whitespace-pre-line text-stone-700">{n.text_vi}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {draft && <Badge tone="amber">Bản nháp — chờ duyệt</Badge>}
     </article>
   );
 }

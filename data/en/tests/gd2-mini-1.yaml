@@ -1,0 +1,180 @@
+# Kiểm tra ngắn 1 Giai đoạn 2 — sau Buổi 25 (Buổi 21–25). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd2-mini-1
+title_vi: "Kiểm tra ngắn 1: Buổi 21–25"
+stage: 2
+kind: mini
+after_lesson: 25
+minutes: 40
+pass_percent: 80
+intro_vi: "Hiện tại hoàn thành và so với quá khứ đơn, câu ghép/câu phức, cấu trúc sở thích, mệnh đề quan hệ; từ vựng Giáo dục – Môi trường – Công nghệ; kỹ năng scanning, True/False/Not Given, nghe điền form."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd2-mini-1-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "I ___ English since I was twelve.", options: [study, studied, have studied, am studying], answer: c, lesson: 21 }
+          - { q: "She has lived in Hue ___ five years.", options: [since, for, ago, in], answer: b, lesson: 21 }
+          - { q: "___ you ever won a prize?", options: [Did, Do, Have, Has], answer: c, lesson: 21 }
+          - { q: "We ___ the museum two weeks ago.", options: [have visited, visited, visit, has visited], answer: b, lesson: 23 }
+          - { q: "When ___ you start working as a volunteer?", options: [have, did, do, has], answer: b, lesson: 23 }
+          - { q: "Air pollution ___ worse since 2015.", options: [got, gets, has got, is getting], answer: c, lesson: 23 }
+          - { q: "Because the fees are high, ___ many students work part-time.", options: [so, and, but, "— (không cần từ nào)"], answer: d, explain_vi: "Because và so không đi cùng nhau.", lesson: 22 }
+          - { q: "Homework is useful, ___ too much homework causes stress.", options: [so, because, but, if], answer: c, lesson: 22 }
+          - { q: "I'm really keen on ___ in the mountains.", options: [hike, to hike, hiking, hiked], answer: c, lesson: 24 }
+          - { q: "I prefer walking ___ driving.", options: [than, to, from, over than], answer: b, lesson: 24 }
+          - { q: "I'd rather ___ at home tonight.", options: [stay, to stay, staying, stayed], answer: a, lesson: 24 }
+          - { q: "I have a cousin ___ works for a software company.", options: [which, who, where, whose], answer: b, lesson: 25 }
+          - { q: "This is the app ___ helps me learn new words.", options: [who, where, that, whose], answer: c, lesson: 25 }
+          - { q: "The village ___ my grandparents live is very peaceful.", options: [which, who, where, that], answer: c, lesson: 25 }
+      - id: gd2-mini-1-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: "Nối hai câu thành một câu, dùng từ trong ngoặc."
+        questions:
+          - { q: "The river is polluted. People cannot swim there. (so)", answer: "The river is polluted, so people cannot swim there.", accept: ["The river is polluted so people cannot swim there.", "The river is polluted, so people can't swim there."], lesson: 22 }
+          - { q: "I know a teacher. She has written three books. (who)", answer: "I know a teacher who has written three books.", accept: ["I know a teacher that has written three books."], lesson: 25 }
+          - { q: "Students read more. They write better. (If … ,)", answer: "If students read more, they write better.", accept: ["If students read more they write better."], lesson: 22 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd2-mini-1-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [scholarship, curriculum, renewable energy, single-use plastic, screen time, privacy, compulsory, fresh air]
+        questions:
+          - { q: "She won a ___, so she doesn't pay tuition fees.", answer: scholarship, lesson: 21 }
+          - { q: "Coding has been added to the school ___.", answer: curriculum, lesson: 21 }
+          - { q: "In many countries, sport is a ___ subject.", answer: compulsory, lesson: 22 }
+          - { q: "Solar and wind power are kinds of ___.", answer: renewable energy, lesson: 23 }
+          - { q: "Many supermarkets have stopped using ___ bags.", answer: single-use plastic, lesson: 23 }
+          - { q: "I go for a walk every morning to get some ___.", answer: fresh air, lesson: 24 }
+          - { q: "Children should have less ___ before bed.", answer: screen time, lesson: 25 }
+          - { q: "Read the app's rules carefully to protect your ___.", answer: privacy, lesson: 25 }
+      - id: gd2-mini-1-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "My brother has a ___ in accounting.", base: qualify, answer: qualification, lesson: 21 }
+          - { q: "Art lessons help children develop their ___.", base: creative, answer: creativity, lesson: 22 }
+          - { q: "Air ___ is a serious problem in big cities.", base: pollute, answer: pollution, lesson: 23 }
+          - { q: "The lake near my house is badly ___.", base: pollution, answer: polluted, lesson: 24 }
+          - { q: "Smartphone ___ are getting younger every year.", base: use, answer: users, lesson: 25 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd2-mini-1-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Chọn T (TRUE), F (FALSE) hoặc NG (NOT GIVEN). Không thấy thông tin → NG."
+        lesson: 25
+        passage: |-
+          Two sisters, Hoa and Linh, both study at universities in Ho Chi Minh City. Hoa studies computer science and has used artificial intelligence tools since her first year. She says they save her a lot of time. Linh, who studies history, does not use AI for her essays, because her lecturers do not allow it. However, she uses a dictionary app every day. Both sisters have part-time jobs, and Linh works at a café near her university three evenings a week.
+        questions:
+          - { q: "Hoa has used AI tools since her first year.", answer: T }
+          - { q: "Linh uses AI to write her essays.", answer: F }
+          - { q: "Hoa's lecturers do not allow AI.", answer: NG, explain_vi: "Bẫy chủ thể: giảng viên không cho dùng AI là của Linh. Bài không nói gì về giảng viên của Hoa." }
+          - { q: "Linh works at a café three evenings a week.", answer: T }
+          - { q: "Hoa earns more money than Linh.", answer: NG }
+      - id: gd2-mini-1-x6
+        bank_no: 12
+        kind: completion
+        instructions_vi: "Scanning: tìm nhanh thông tin. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ."
+        max_words: 2
+        lesson: 21
+        passage: |-
+          The Hanoi Book Festival has taken place every October since 2016. This year it will open on 12 October and last for five days. More than 200 publishers will sell books at the festival, and entry is free for students. The most popular event is a talk by the writer Nguyen Nhat Anh on the second evening. Visitors can buy tickets for the talk online for 50,000 dong.
+        questions:
+          - { q: "In which month does the festival take place?", answer: October }
+          - { q: "How many days does the festival last?", answer: "5", accept: ["five", "5 days", "five days"] }
+          - { q: "How many publishers will be there?", answer: "200", accept: ["more than 200", "over 200", "200 publishers"] }
+          - { q: "Who will give the most popular talk?", answer: "Nguyen Nhat Anh" }
+          - { q: "How much does a ticket for the talk cost (in dong)?", answer: "50,000", accept: ["50000", "50,000 dong", "50000 dong"] }
+  - title_vi: Nghe
+    exercises:
+      - id: gd2-mini-1-x7
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Nghe một lần và điền form. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ."
+        max_words: 2
+        lesson: 23
+        audio_text: |-
+          Man: Good afternoon, Green City Recycling Centre.
+          Woman: Hello. I'd like to book a visit to your centre for my class.
+          Man: Of course. What's your name, please?
+          Woman: Mai Thornton. That's T-H-O-R-N-T-O-N.
+          Man: Thank you. How many students will come?
+          Woman: Thirty. Oh, sorry, no, thirty-four. Four more students joined last week.
+          Man: No problem. We have visits on Tuesdays and Thursdays. Which day is better?
+          Woman: Thursday, please.
+          Man: Great. The visit starts at nine fifteen and finishes at eleven. Please ask the students to wear strong shoes.
+        passage: |-
+          GREEN CITY RECYCLING CENTRE — SCHOOL VISITS
+          Teacher's name: Mai (1) __________
+          Number of students: (2) __________
+          Day of visit: (3) __________
+          Start time: (4) __________
+          Students must wear: strong (5) __________
+        questions:
+          - { q: "(1)", answer: Thornton }
+          - { q: "(2)", answer: "34", accept: ["thirty-four", "thirty four"], explain_vi: "30 là con số bị sửa lại." }
+          - { q: "(3)", answer: Thursday }
+          - { q: "(4)", answer: "9.15", accept: ["9:15", "nine fifteen", "9.15 a.m.", "9:15 am"] }
+          - { q: "(5)", answer: shoes }
+      - id: gd2-mini-1-x8
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 23
+        text: "I have never planted a tree, but last year I joined a beach clean-up with my friends."
+      - id: gd2-mini-1-x10
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai sinh viên thảo luận (hai giọng, nghe 1 lần như thi thật) rồi chọn đáp án đúng."
+        audio_text: |-
+          Woman: Have you finished the essay for Mr Hung's class yet?
+          Man: Not yet. The topic is whether phones should be banned in schools. I've written the introduction, but I haven't started the body paragraphs.
+          Woman: What's your opinion?
+          Man: I disagree with banning them completely. Phones can help students learn, for example with dictionary apps.
+          Woman: I see your point, but I think students who use phones in class can't concentrate.
+          Man: That's true. Maybe schools should allow phones only in some lessons.
+          Woman: Good idea. By the way, have you joined the Green Club? They're planting trees on Sunday.
+          Man: I joined last month! I'd rather plant trees than stay at home on a Sunday.
+        questions:
+          - { q: "What has the man finished?", options: [the whole essay, the introduction, the body paragraphs, nothing], answer: b, lesson: 21 }
+          - { q: "What is the man's opinion?", options: ["Phones should be banned completely.", "Phones should not be banned completely.", "Phones are always bad.", "He has no opinion."], answer: b, lesson: 22 }
+          - { q: "What does the woman think?", options: ["Students who use phones in class can't concentrate.", "Phones are very useful in class.", "Teachers should use more apps.", "Schools should buy phones."], answer: a, lesson: 25 }
+          - { q: "When did the man join the Green Club?", options: [last week, last month, last year, on Sunday], answer: b, lesson: 23 }
+          - { q: "Which sentence is true about the man?", options: ["He prefers staying at home on Sundays.", "He would rather plant trees than stay at home.", "He doesn't like the Green Club.", "He has never planted a tree."], answer: b, lesson: 24 }
+      - id: gd2-mini-1-x11
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe bản tin ngắn về môi trường. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "Good evening. Here is the local news. Da Nang has become one of the cleanest cities in Vietnam. Since 2020, the city has planted more than fifty thousand trees, and last year it banned single-use plastic bags on all beaches. Volunteers who join the Sunday beach clean-up have collected over ten tons of rubbish so far. However, air pollution is still a problem in the city centre, because the number of motorbikes has increased."
+        questions:
+          - { q: "Da Nang has planted more than 50,000 trees since 2020.", answer: T, lesson: 23 }
+          - { q: "Single-use plastic bags were banned on the beaches last year.", answer: T, lesson: 23 }
+          - { q: "The beach clean-up happens on Saturdays.", answer: F, lesson: 23 }
+          - { q: "Air pollution is no longer a problem in the city centre.", answer: F, lesson: 24 }
+          - { q: "The number of motorbikes in the city has gone down.", answer: F, lesson: 23 }
+  - title_vi: Viết câu
+    exercises:
+      - id: gd2-mini-1-x9
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp. Lỗi dấu phẩy nối hai câu: tách thành hai câu."
+        text: "I have joined the English club last year. The club has many members which come from different faculties. Our teacher gives us a lot of practice, we speak English every meeting. I am keen on play word games. I have improved my speaking since two months."
+        errors:
+          - { wrong: "I have joined the English club last year.", right: "I joined the English club last year.", why: "last year → quá khứ đơn.", lesson: 23 }
+          - { wrong: "members which come", right: "members who come", why: "Người → who.", lesson: 25 }
+          - { wrong: "a lot of practice, we speak", right: "a lot of practice. We speak", why: "Comma splice — tách câu.", lesson: 22 }
+          - { wrong: "keen on play", right: "keen on playing", why: "Sau on dùng V-ing.", lesson: 24 }
+          - { wrong: "since two months", right: "for two months", why: "Khoảng thời gian → for.", lesson: 21 }
+writing:
+  prompt_vi: "Không chấm tự động — tự viết rồi gửi để chữa: mở bài (2 câu) và một đoạn thân bài cho đề sau. Nhớ: paraphrase đề, thesis rõ ràng, câu luận điểm → giải thích → ví dụ."
+  prompt_en: "Some people think that children should not use smartphones until they are sixteen. To what extent do you agree or disagree?"
+  words: { min: 120, max: 150 }

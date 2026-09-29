@@ -419,3 +419,149 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: global-warming|phr-n
+    headword: global warming
+    pos: phr-n
+    ipa:
+      uk: /ˌɡləʊ.bəl ˈwɔː.mɪŋ/
+      us: /ˌɡloʊ.bəl ˈwɔːr.mɪŋ/
+    cefr: null
+    meaning_vi:
+      - sự nóng lên toàn cầu
+    collocations:
+      - cause global warming
+      - slow down global warming
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: green-space|phr-n
+    headword: green space
+    pos: phr-n
+    ipa:
+      uk: /ˌɡriːn ˈspeɪs/
+      us: /ˌɡriːn ˈspeɪs/
+    cefr: null
+    meaning_vi:
+      - không gian xanh (công viên, vườn cây trong thành phố)
+    collocations:
+      - more green spaces
+      - a lack of green space
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: go-for-a-walk|colloc
+    headword: go for a walk
+    pos: colloc
+    ipa:
+      uk: /ɡəʊ fər ə ˈwɔːk/
+      us: /ɡoʊ fɚ ə ˈwɑːk/
+    cefr: null
+    meaning_vi:
+      - đi dạo
+    collocations:
+      - go for a walk in the park
+      - go for a walk after dinner
+    notes_vi:
+      - "Có a: go for A walk. Cũng nói: take a walk (Anh-Mỹ)."
+    topics:
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: gradually|adv
+    headword: gradually
+    pos: adv
+    ipa:
+      uk: /ˈɡrædʒ.u.ə.li/
+      us: /ˈɡrædʒ.u.ə.li/
+    stress: GRA-du-al-ly
+    cefr: B2
+    meaning_vi:
+      - dần dần
+      - từ từ
+    collocations:
+      - increase gradually
+      - gradually decline
+    notes_vi:
+      - "Tính từ: gradual → a gradual increase."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: gym|n
+    headword: gym
+    pos: n
+    ipa:
+      uk: /dʒɪm/
+      us: /dʒɪm/
+    cefr: A1
+    meaning_vi:
+      - phòng tập thể dục (gym)
+    collocations:
+      - go to the gym
+      - work out at the gym
+      - a gym membership
+    notes_vi:
+      - g đọc /dʒ/ như 'gi'. Nói 'go to the gym' (có the).
+    topics:
+      - health
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: give-up|phr-v
+    headword: give up
+    pos: phr-v
+    forms:
+      past: gave up
+      pp: given up
+    ipa:
+      uk: /ˌɡɪv ˈʌp/
+      us: /ˌɡɪv ˈʌp/
+    cefr: null
+    meaning_vi:
+      - bỏ (thói quen, môn học)
+      - từ bỏ
+    collocations:
+      - give up smoking
+      - give up football
+      - never give up
+    notes_vi:
+      - "Sau give up dùng V-ing: give up smoking (không nói *give up to smoke*)."
+    topics:
+      - sport
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

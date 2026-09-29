@@ -1,0 +1,349 @@
+# Buổi 29 — Tội phạm & pháp luật · Reading: Matching headings. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-29-toi-pham-matching-headings
+number: 29
+stage: 2
+title_vi: "Tội phạm & pháp luật · Reading: Matching headings"
+focus:
+  grammar: Câu bị động ở các thì
+  skill: Reading — matching headings (ghép tiêu đề với đoạn văn)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - crime|n
+      - criminal|n
+      - offender|n
+      - commit|v
+      - steal|v
+      - thief|n
+      - arrest|v
+      - victim|n
+      - witness|n
+      - law|n
+      - illegal|adj
+      - judge|n
+      - punishment|n
+      - prison|n
+      - fine|n
+      - security-camera|phr-n
+  - type: pronunciation
+    notes:
+      - word: criminal|n
+        text_vi: "CRI-mi-nal: nhấn âm 1; crime /kraɪm/ nhưng criminal /ˈkrɪm-/ — nguyên âm đổi từ 'ai' sang 'i'."
+      - word: prison|n
+        text_vi: "PRI-son /ˈprɪz.ən/: s đọc /z/."
+      - word: thief|n
+        text_vi: "thief /θiːf/ – thieves /θiːvz/: f đổi thành v ở số nhiều, đọc /vz/."
+      - word: illegal|adj
+        text_vi: "il-LE-gal: nhấn âm 2, ll đọc một /l/."
+      - sound: snd-j
+        text_vi: "judge /dʒʌdʒ/: hai âm /dʒ/ — âm cuối bật rõ, không đọc thành 'giắc'."
+  - type: grammar
+    items:
+      - en-g2-09
+  - type: skill
+    skill: reading
+    title_vi: Reading — Matching headings (ghép tiêu đề với đoạn)
+    intro_vi: "Cho một danh sách tiêu đề (i, ii, iii…) nhiều hơn số đoạn; bạn chọn tiêu đề phù hợp nhất với Ý CHÍNH của từng đoạn. Dạng này kiểm tra khả năng skimming (Buổi 21): hiểu cả đoạn nói về gì, không phải tìm một chi tiết. Nên làm dạng này TRƯỚC các câu hỏi khác của cùng bài đọc — sau khi ghép xong, bạn đã nắm bố cục cả bài."
+    steps:
+      - title_vi: Đọc hết danh sách tiêu đề trước
+        text_vi: "Gạch từ khóa CHÍNH của mỗi tiêu đề và để ý các tiêu đề na ná nhau (VD: 'causes of crime' và 'effects of crime'). Gạch bỏ tiêu đề đã dùng làm ví dụ."
+      - title_vi: "Skim từng đoạn: câu đầu + câu cuối"
+        text_vi: Câu chủ đề thường ở đầu đoạn, nhưng có đoạn ý chính nằm sau However hoặc ở câu cuối. Tự tóm tắt đoạn bằng 3–5 từ.
+      - title_vi: So tóm tắt của bạn với các tiêu đề
+        text_vi: Chọn tiêu đề bao được TOÀN BỘ đoạn, không chỉ một câu. Tiêu đề thường là paraphrase — ít khi dùng đúng từ trong đoạn.
+      - title_vi: Làm đoạn dễ trước, loại trừ dần
+        text_vi: Đoạn nào chắc chắn thì làm trước và gạch tiêu đề đó. Đoạn khó để cuối — lúc đó còn ít lựa chọn hơn.
+      - title_vi: Kiểm tra lại cả bài
+        text_vi: "Đọc lại các tiêu đề đã chọn theo thứ tự đoạn: chúng có tạo thành một 'dàn ý' hợp lý không?"
+    tips:
+      - Tiêu đề có từ trùng với một chi tiết trong đoạn thường là BẪY — chi tiết đó chỉ là ví dụ, không phải ý chính.
+      - "Để ý từ khóa phân biệt: causes / effects / solutions / history / comparison / problems / reasons / examples."
+      - Mỗi tiêu đề chỉ dùng một lần (trừ khi đề nói khác).
+    traps:
+      - trap_vi: Chọn tiêu đề vì thấy trùng một từ trong đoạn.
+        fix_vi: "Hỏi: tiêu đề này có tóm được CẢ đoạn không? Nếu chỉ đúng với một câu → bẫy."
+      - trap_vi: Chỉ đọc câu đầu trong khi đoạn bắt đầu bằng câu dẫn.
+        fix_vi: Nếu câu đầu quá chung hoặc là câu hỏi, đọc tiếp đến câu có However / In fact / The main reason.
+      - trap_vi: Nhầm nguyên nhân với hậu quả.
+        fix_vi: "Tìm tín hiệu: because, due to, the reason (nguyên nhân) ↔ as a result, leads to, therefore (hậu quả)."
+    phrases:
+      - en: The main reason for … is …
+        vi: Lý do chính của … là …
+        note_vi: Đoạn nói về nguyên nhân.
+      - en: As a result, … / This has led to …
+        vi: Kết quả là … / Điều này dẫn đến …
+        note_vi: Đoạn nói về hậu quả.
+      - en: One way to solve this is …
+        vi: Một cách giải quyết là …
+        note_vi: Đoạn nói về giải pháp.
+      - en: In the past, … Today, …
+        vi: Trước đây … Ngày nay …
+        note_vi: Đoạn so sánh xưa – nay.
+    demo:
+      title_vi: "Làm mẫu: ghép tiêu đề cho 2 đoạn"
+      text_en: |-
+        Headings:
+        i    A rise in online crime
+        ii   Why some young people break the law
+        iii  How cameras are used in shops
+        iv   The cost of keeping people in prison
+
+        A  Many teenagers who commit crimes come from poor families or have left school early. Some want money quickly; others simply want to be accepted by a group of friends who are already involved in crime. For example, a sixteen-year-old in one study said he started stealing phones because his friends did it.
+
+        B  Keeping one person in prison is very expensive. In some countries it costs more than sending a student to university for a year. Money is needed for guards, food, buildings and healthcare, and most of it is paid by taxpayers.
+      notes:
+        - label: Đoạn A → ii
+          text_vi: "Tóm tắt: nguyên nhân thanh thiếu niên phạm tội (nghèo, bỏ học, bạn bè). 'stealing phones' chỉ là ví dụ — đừng chọn i (online crime) chỉ vì thấy chữ 'phones'."
+        - label: Đoạn B → iv
+          text_vi: "Câu đầu nói thẳng ý chính: nuôi một người trong tù rất tốn kém. Các câu sau giải thích tiền dùng vào đâu."
+        - label: i và iii
+          text_vi: Tiêu đề thừa — không đoạn nào nói về tội phạm mạng hay camera trong cửa hàng.
+  - type: examples
+    items:
+      - b29-001
+      - b29-002
+      - b29-003
+      - b29-004
+      - b29-005
+      - b29-006
+      - b29-007
+      - b29-008
+      - b29-012
+      - b29-014
+  - type: dialogue
+    title_vi: Bị mất trộm xe máy
+    lines:
+      - speaker: A
+        text: You look upset. What's wrong?
+        vi: Trông cậu buồn thế. Có chuyện gì vậy?
+      - speaker: B
+        text: My motorbike has been stolen! I parked it outside the market this morning.
+        vi: Xe máy của tớ bị trộm rồi! Sáng nay tớ để ngoài chợ.
+      - speaker: A
+        text: Oh no! Have you reported it to the police?
+        vi: Trời ơi! Cậu đã báo cảnh sát chưa?
+      - speaker: B
+        text: Yes. They said many bikes have been stolen in that area recently.
+        vi: Rồi. Họ bảo dạo này nhiều xe bị mất ở khu đó lắm.
+      - speaker: A
+        text: Were there any witnesses?
+        vi: Có ai làm chứng không?
+      - speaker: B
+        text: A shop owner saw a young man, and the whole thing was recorded by a security camera.
+        vi: Một chủ cửa hàng thấy một thanh niên, và mọi chuyện đều được camera an ninh ghi lại.
+      - speaker: A
+        text: That's good news. The thief will probably be caught soon.
+        vi: Tin tốt đấy. Chắc tên trộm sẽ sớm bị bắt thôi.
+      - speaker: B
+        text: I hope so. The police are checking the video now.
+        vi: Hy vọng vậy. Cảnh sát đang kiểm tra video.
+      - speaker: A
+        text: In the meantime, you can borrow my bike.
+        vi: Trong lúc chờ, cậu cứ mượn xe tớ.
+  - type: exercises
+    items:
+      - id: b29-x1
+        bank_no: 14
+        kind: mcq
+        instructions_vi: "Matching headings: chọn tiêu đề đúng cho mỗi đoạn. Có 2 tiêu đề thừa; mỗi tiêu đề chỉ dùng một lần."
+        passage: |-
+          Headings:
+          i    Punishments that keep offenders out of prison
+          ii   A fall in one type of crime
+          iii  Why prison does not always work
+          iv   Technology that helps the police
+          v    The history of prisons in Asia
+          vi   Crimes committed by young people online
+
+          A  Over the last decade, the number of house burglaries in many European cities has dropped. Experts say this is because more homes have strong locks and alarms, and because fewer people keep cash at home.
+
+          B  Many people believe that sending criminals to prison makes society safer. However, research shows that about half of all prisoners commit another crime within two years of leaving. In prison, young offenders often meet more experienced criminals and learn new ways to break the law.
+
+          C  For this reason, some countries are trying other punishments. Offenders may be ordered to do unpaid community work, such as cleaning parks, or they may have to wear an electronic tag that shows where they are. These punishments are much cheaper than prison.
+
+          D  Modern tools have also changed police work. Security cameras now cover most city centres, and computer programs can recognise faces or car number plates in seconds. In some cities, drones are being used to follow suspects.
+        questions:
+          - q: Paragraph A
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: b
+            explain_vi: "Ý chính: một loại tội phạm (trộm đột nhập nhà) giảm."
+          - q: Paragraph B
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: c
+            explain_vi: "Ý chính nằm sau However: tù không hiệu quả (tái phạm, học thêm cách phạm tội)."
+          - q: Paragraph C
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: a
+            explain_vi: community work, electronic tag = hình phạt thay cho tù.
+          - q: Paragraph D
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: d
+            explain_vi: cameras, face recognition, drones = công nghệ giúp cảnh sát. vi là bẫy (có 'online' nhưng đoạn không nói tội phạm trẻ trên mạng).
+      - id: b29-x2
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc ở dạng bị động, đúng thì.
+        questions:
+          - q: A new police station (build) ___ near my house at the moment.
+            answer: is being built
+          - q: Five people (arrest) ___ since Monday.
+            answer: have been arrested
+          - q: My wallet (steal) ___ on the bus yesterday.
+            answer: was stolen
+          - q: The thief (send) ___ to prison next month.
+            answer: will be sent
+            accept:
+              - is going to be sent
+          - q: When I arrived, the victim (question) ___ by the police.
+            answer: was being questioned
+          - q: More security cameras (install) ___ in the city this year.
+            answer: have been installed
+      - id: b29-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu ở dạng bị động (bỏ người làm nếu không cần thiết).
+        questions:
+          - q: The police have arrested two teenagers. → Two teenagers ___
+            answer: have been arrested.
+            accept:
+              - have been arrested by the police.
+          - q: They are building a new prison. → A new prison ___
+            answer: is being built.
+            accept:
+              - is being built by them.
+          - q: The judge will punish the offender. → The offender ___
+            answer: will be punished by the judge.
+            accept:
+              - will be punished.
+          - q: Someone has stolen my bike. → My bike ___
+            answer: has been stolen.
+      - id: b29-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ trong khung vào chỗ trống.
+        bank:
+          - committed
+          - victim
+          - witness
+          - illegal
+          - fine
+          - criminal
+          - law
+          - punishment
+        questions:
+          - q: It is ___ to drive after drinking alcohol.
+            answer: illegal
+          - q: He had to pay a ___ of two million dong for speeding.
+            answer: fine
+          - q: Most crimes are ___ by people the victim knows.
+            answer: committed
+          - q: A ___ told the police that the car was red.
+            answer: witness
+          - q: The ___ of the robbery was an old woman.
+            answer: victim
+          - q: The police are looking for the ___ who stole the painting.
+            answer: criminal
+          - q: Prison is not always the best ___ for young offenders.
+            answer: punishment
+          - q: If you break the ___, you may be punished.
+            answer: law
+      - id: b29-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: The police caught the ___ at the airport.
+            base: crime
+            answer: criminal
+          - q: Selling fake medicine is ___.
+            base: legal
+            answer: illegal
+          - q: Do you think prison is a fair ___?
+            base: punish
+            answer: punishment
+          - q: Two ___ broke into the shop last night.
+            base: thief
+            answer: thieves
+          - q: The robber was ___ outside the bank.
+            base: arrest
+            answer: arrested
+      - id: b29-x6
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn tin ngắn có 5 lỗi (bị động, từ loại, số nhiều). Sửa trực tiếp.
+        text: A jewellery shop in District 1 was rob last night. Two thief took rings and necklaces. The crime was recorded by a security camera, and the criminals have arrested this morning. They will sent to court next week. The owner said the robbery were a big shock for his family.
+        errors:
+          - wrong: was rob last
+            right: was robbed last
+            why: "Bị động: was + V3."
+          - wrong: Two thief
+            right: Two thieves
+            why: Số nhiều của thief là thieves.
+          - wrong: have arrested this morning
+            right: were arrested this morning
+            why: Bị động; có mốc this morning (đã qua) → quá khứ đơn bị động.
+          - wrong: will sent
+            right: will be sent
+            why: "Tương lai bị động: will + be + V3."
+          - wrong: the robbery were
+            right: the robbery was
+            why: robbery số ít → was.
+      - id: b29-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Did you hear? The bank on Tran Phu Street was robbed last night.
+          Woman: Really? Has anyone been arrested?
+          Man: Yes, two men have been arrested.
+          Woman: Was anyone hurt?
+          Man: No, luckily. The robbery was recorded by security cameras, so the police found the men quickly.
+        questions:
+          - { q: What was robbed?, options: [ a shop, a bank, a house, a car ], answer: b }
+          - { q: How many men have been arrested?, options: [ one, two, three, nobody ], answer: b }
+          - { q: How did the police find them quickly?, options: [ A witness called them., The robbery was recorded by cameras., The men went back to the bank., They left a phone. ], answer: b }
+      - id: b29-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: A new law is being discussed by the city council. Under the new law, drivers who use their phones while driving will be fined five million dong. Last year, more than three hundred accidents were caused by drivers who were using their phones.
+        questions:
+          - { q: The new law is being discussed., answer: T }
+          - { q: The fine will be five hundred thousand dong., answer: F }
+          - { q: "Last year, over 300 accidents were caused by drivers using phones.", answer: T }
+          - { q: The law has already started., answer: F }
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết một bản tin ngắn 120–150 từ (tự nghĩ ra) về một vụ trộm ở thành phố của bạn: chuyện gì đã xảy ra, ai bị bắt, điều gì đang được làm, điều gì sẽ xảy ra tiếp theo. Dùng ít nhất 5 câu bị động ở 4 thì khác nhau. Sau đó tự đặt một tiêu đề (heading) cho bản tin — tiêu đề phải tóm được ý chính, không chỉ một chi tiết."
+    prompt_en: Write a short news report about a crime in your city. Use the passive in different tenses.
+    words:
+      min: 120
+      max: 150
+    minutes: 25

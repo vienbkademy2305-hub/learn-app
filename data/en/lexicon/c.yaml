@@ -1127,3 +1127,456 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: curriculum|n
+    headword: curriculum
+    pos: n
+    forms:
+      plural: curricula
+    ipa:
+      uk: /kəˈrɪk.jə.ləm/
+      us: /kəˈrɪk.jə.ləm/
+    stress: cu-RI-cu-lum
+    cefr: B2
+    meaning_vi:
+      - chương trình học
+      - chương trình giảng dạy
+    collocations:
+      - the school curriculum
+      - change the curriculum
+      - on the curriculum
+    notes_vi:
+      - "Số nhiều: curricula (trang trọng) hoặc curriculums."
+      - "Môn học nằm TRÊN chương trình: Coding is on the curriculum."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curriculum, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curriculum, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curriculum, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: compulsory|adj
+    headword: compulsory
+    pos: adj
+    ipa:
+      uk: /kəmˈpʌl.sər.i/
+      us: /kəmˈpʌl.sɚ.i/
+    stress: com-PUL-so-ry
+    cefr: B2
+    meaning_vi:
+      - bắt buộc
+    collocations:
+      - compulsory subject
+      - compulsory education
+      - make something compulsory
+    notes_vi:
+      - "Trái nghĩa: optional (tự chọn)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compulsory, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compulsory, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compulsory, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: creativity|n
+    headword: creativity
+    pos: n
+    ipa:
+      uk: /ˌkriː.eɪˈtɪv.ə.ti/
+      us: /ˌkriː.eɪˈtɪv.ə.t̬i/
+    stress: cre-a-TI-vi-ty
+    cefr: B2
+    meaning_vi:
+      - sự sáng tạo
+      - khả năng sáng tạo
+    collocations:
+      - develop creativity
+      - encourage creativity
+    notes_vi:
+      - "Tính từ: creative (cre-A-tive). Đuôi -ity: trọng âm rơi vào âm tiết ngay trước -ity."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/creativity, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/creativity, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/creativity, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: critical-thinking|phr-n
+    headword: critical thinking
+    pos: phr-n
+    ipa:
+      uk: /ˌkrɪt.ɪ.kəl ˈθɪŋ.kɪŋ/
+      us: /ˌkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ/
+    cefr: null
+    meaning_vi:
+      - tư duy phản biện
+    collocations:
+      - develop critical thinking
+      - critical thinking skills
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: climate-change|phr-n
+    headword: climate change
+    pos: phr-n
+    ipa:
+      uk: /ˈklaɪ.mət ˌtʃeɪndʒ/
+      us: /ˈklaɪ.mət ˌtʃeɪndʒ/
+    cefr: null
+    meaning_vi:
+      - biến đổi khí hậu
+    collocations:
+      - tackle climate change
+      - the effects of climate change
+    notes_vi:
+      - "Không có mạo từ: Climate change is a serious problem."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/climate-change, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/climate-change, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: carbon-emissions|phr-n
+    headword: carbon emissions
+    pos: phr-n
+    ipa:
+      uk: /ˌkɑː.bən iˈmɪʃ.ənz/
+      us: /ˌkɑːr.bən iˈmɪʃ.ənz/
+    cefr: null
+    meaning_vi:
+      - khí thải carbon
+    collocations:
+      - reduce carbon emissions
+      - cut carbon emissions
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: countryside|n
+    headword: countryside
+    pos: n
+    ipa:
+      uk: /ˈkʌn.tri.saɪd/
+      us: /ˈkʌn.tri.saɪd/
+    stress: COUN-try-side
+    cefr: B1
+    meaning_vi:
+      - vùng nông thôn
+      - miền quê
+    collocations:
+      - live in the countryside
+      - the beautiful countryside
+    notes_vi:
+      - "Thường đi với 'the': in the countryside."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/countryside, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/countryside, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/countryside, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: changing-room|phr-n
+    headword: changing room
+    pos: phr-n
+    ipa:
+      uk: /ˈtʃeɪn.dʒɪŋ ˌruːm/
+      us: /ˈtʃeɪn.dʒɪŋ ˌruːm/
+    cefr: null
+    meaning_vi:
+      - phòng thay đồ
+    notes_vi:
+      - "Thường số nhiều: the changing rooms."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/changing-room, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/changing-room, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: car-park|phr-n
+    headword: car park
+    pos: phr-n
+    ipa:
+      uk: /ˈkɑː ˌpɑːk/
+      us: /ˈkɑːr ˌpɑːrk/
+    cefr: null
+    meaning_vi:
+      - bãi đỗ xe
+    notes_vi:
+      - "Anh-Anh: car park; Anh-Mỹ: parking lot."
+    topics:
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/car-park, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/car-park, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: court|n
+    headword: court
+    pos: n
+    ipa:
+      uk: /kɔːt/
+      us: /kɔːrt/
+    cefr: B1
+    meaning_vi:
+      - sân (tennis, cầu lông, bóng rổ)
+    collocations:
+      - a tennis court
+      - a badminton court
+      - a basketball court
+    notes_vi:
+      - Sân bóng đá là pitch (Anh-Anh) / field (Anh-Mỹ), không phải court.
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/court, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/court, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/court, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: compete|v
+    headword: compete
+    pos: v
+    ipa:
+      uk: /kəmˈpiːt/
+      us: /kəmˈpiːt/
+    stress: com-PETE
+    cefr: A2
+    meaning_vi:
+      - thi đấu
+      - cạnh tranh
+    collocations:
+      - compete in a tournament
+      - compete against
+      - compete with
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compete, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compete, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compete, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: competition|n
+    headword: competition
+    pos: n
+    ipa:
+      uk: /ˌkɒm.pəˈtɪʃ.ən/
+      us: /ˌkɑːm.pəˈtɪʃ.ən/
+    stress: com-pe-TI-tion
+    cefr: A2
+    meaning_vi:
+      - cuộc thi
+      - sự cạnh tranh
+    collocations:
+      - enter a competition
+      - win a competition
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/competition, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/competition, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/competition, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: champion|n
+    headword: champion
+    pos: n
+    ipa:
+      uk: /ˈtʃæm.pi.ən/
+      us: /ˈtʃæm.pi.ən/
+    stress: CHAM-pi-on
+    cefr: B1
+    meaning_vi:
+      - nhà vô địch
+    collocations:
+      - world champion
+      - become champion
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/champion, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/champion, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/champion, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cheer|v
+    headword: cheer
+    pos: v
+    ipa:
+      uk: /tʃɪər/
+      us: /tʃɪr/
+    cefr: B2
+    meaning_vi:
+      - cổ vũ
+      - reo hò
+    collocations:
+      - cheer for a team
+      - cheer loudly
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: crime|n
+    headword: crime
+    pos: n
+    ipa:
+      uk: /kraɪm/
+      us: /kraɪm/
+    cefr: A2
+    meaning_vi:
+      - tội phạm
+      - tội ác
+    collocations:
+      - commit a crime
+      - the crime rate
+      - reduce crime
+      - violent crime
+    notes_vi:
+      - Nói 'commit a crime' (không nói *do a crime*, *make a crime*).
+      - "Không đếm được khi nói chung: Crime has fallen; đếm được khi nói một vụ: a serious crime."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crime, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crime, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crime, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: criminal|n
+    headword: criminal
+    pos: n
+    ipa:
+      uk: /ˈkrɪm.ɪ.nəl/
+      us: /ˈkrɪm.ə.nəl/
+    stress: CRI-mi-nal
+    cefr: A2
+    meaning_vi:
+      - tội phạm (người)
+    notes_vi:
+      - "crime = tội (hành vi), criminal = kẻ phạm tội (người). Lỗi hay gặp: *The crime was arrested*."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/criminal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/criminal, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/criminal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: commit|v
+    headword: commit
+    pos: v
+    forms:
+      past: committed
+      ing: committing
+    ipa:
+      uk: /kəˈmɪt/
+      us: /kəˈmɪt/
+    stress: com-MIT
+    cefr: B1
+    meaning_vi:
+      - phạm (tội)
+    collocations:
+      - commit a crime
+      - commit an offence
+    notes_vi:
+      - "Nhấn âm 2 nên gấp đôi t: committed, committing."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commit, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commit, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: community-service|phr-n
+    headword: community service
+    pos: phr-n
+    ipa:
+      uk: /kəˌmjuː.nə.ti ˈsɜː.vɪs/
+      us: /kəˌmjuː.nə.t̬i ˈsɝː.vɪs/
+    cefr: null
+    meaning_vi:
+      - lao động công ích (hình phạt thay tù)
+    collocations:
+      - do community service
+      - be sentenced to community service
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/community-service, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/community-service, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: crime-rate|phr-n
+    headword: crime rate
+    pos: phr-n
+    ipa:
+      uk: /ˈkraɪm ˌreɪt/
+      us: /ˈkraɪm ˌreɪt/
+    cefr: null
+    meaning_vi:
+      - tỉ lệ tội phạm
+    collocations:
+      - reduce the crime rate
+      - a high crime rate
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

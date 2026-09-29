@@ -311,3 +311,314 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rabbit, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rabbit, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: rote-learning|phr-n
+    headword: rote learning
+    pos: phr-n
+    ipa:
+      uk: /ˌrəʊt ˈlɜː.nɪŋ/
+      us: /ˌroʊt ˈlɝː.nɪŋ/
+    cefr: null
+    meaning_vi:
+      - học vẹt
+      - học thuộc lòng máy móc
+    collocations:
+      - rely on rote learning
+      - learn by rote
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reason|n
+    headword: reason
+    pos: n
+    ipa:
+      uk: /ˈriː.zən/
+      us: /ˈriː.zən/
+    stress: REA-son
+    cefr: A1
+    meaning_vi:
+      - lý do
+    collocations:
+      - the main reason
+      - for two reasons
+      - the reason why…
+    notes_vi:
+      - "'The reason is THAT…' — không nói *The reason is because…* trong văn viết trang trọng."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reason, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reason, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reason, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rubbish|n
+    headword: rubbish
+    pos: n
+    ipa:
+      uk: /ˈrʌb.ɪʃ/
+      us: /ˈrʌb.ɪʃ/
+    stress: RUB-bish
+    cefr: A2
+    meaning_vi:
+      - rác
+    collocations:
+      - throw away rubbish
+      - a rubbish bin
+      - pick up rubbish
+    notes_vi:
+      - "Anh-Anh: rubbish; Anh-Mỹ: trash/garbage. Không đếm được: a lot of rubbish."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rubbish, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rubbish, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rubbish, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: renewable-energy|phr-n
+    headword: renewable energy
+    pos: phr-n
+    ipa:
+      uk: /rɪˌnjuː.ə.bəl ˈen.ə.dʒi/
+      us: /rɪˌnuː.ə.bəl ˈen.ɚ.dʒi/
+    cefr: null
+    meaning_vi:
+      - năng lượng tái tạo
+    collocations:
+      - use renewable energy
+      - invest in renewable energy
+    notes_vi:
+      - "Ví dụ: solar power (điện mặt trời), wind power (điện gió)."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reduce|v
+    headword: reduce
+    pos: v
+    ipa:
+      uk: /rɪˈdʒuːs/
+      us: /rɪˈduːs/
+    stress: re-DUCE
+    cefr: A2
+    meaning_vi:
+      - giảm
+      - cắt giảm
+    collocations:
+      - reduce pollution
+      - reduce waste
+      - reduce the number of…
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reduce, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/reduce, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reduce, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: reusable|adj
+    headword: reusable
+    pos: adj
+    ipa:
+      uk: /ˌriːˈjuː.zə.bəl/
+      us: /ˌriːˈjuː.zə.bəl/
+    stress: re-U-sa-ble
+    cefr: null
+    meaning_vi:
+      - dùng lại được
+    collocations:
+      - a reusable bag
+      - a reusable bottle
+    notes_vi:
+      - re- (lại) + use + -able (có thể) → dùng lại được.
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reusable, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reusable, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: robot|n
+    headword: robot
+    pos: n
+    ipa:
+      uk: /ˈrəʊ.bɒt/
+      us: /ˈroʊ.bɑːt/
+    stress: RO-bot
+    cefr: B1
+    meaning_vi:
+      - rô-bốt
+      - người máy
+    collocations:
+      - industrial robots
+      - a robot vacuum cleaner
+    notes_vi:
+      - "Nhấn âm 1: RO-bot; âm cuối /t/ phải bật."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/robot, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/robot, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/robot, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rise|v
+    headword: rise
+    pos: v
+    forms:
+      past: rose
+      pp: risen
+    ipa:
+      uk: /raɪz/
+      us: /raɪz/
+    cefr: A2
+    meaning_vi:
+      - tăng, tăng lên (số liệu, giá cả)
+    collocations:
+      - rise steadily
+      - rise to a peak
+    notes_vi:
+      - "Bất quy tắc: rise – rose – risen. Danh từ: a rise in…"
+      - "Không có tân ngữ: Prices rose (không nói *rose the prices* — muốn có tân ngữ dùng raise)."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rise, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rise, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rise, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: remain-stable|colloc
+    headword: remain stable
+    pos: colloc
+    ipa:
+      uk: /rɪˌmeɪn ˈsteɪ.bəl/
+      us: /rɪˌmeɪn ˈsteɪ.bəl/
+    cefr: null
+    meaning_vi:
+      - giữ ổn định
+      - không thay đổi
+    collocations:
+      - remain stable at 20%
+      - stay the same
+      - level off
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reach-a-peak|colloc
+    headword: reach a peak
+    pos: colloc
+    ipa:
+      uk: /ˌriːtʃ ə ˈpiːk/
+      us: /ˌriːtʃ ə ˈpiːk/
+    cefr: null
+    meaning_vi:
+      - đạt đỉnh
+    collocations:
+      - reach a peak of 60% in 2020
+      - peak at 60%
+    notes_vi:
+      - "Trái nghĩa: hit a low / reach the lowest point."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reception|n
+    headword: reception
+    pos: n
+    ipa:
+      uk: /rɪˈsep.ʃən/
+      us: /rɪˈsep.ʃən/
+    stress: re-CEP-tion
+    cefr: A2
+    meaning_vi:
+      - quầy lễ tân
+    collocations:
+      - at reception
+      - the reception desk
+    notes_vi:
+      - "Nói 'at reception' (thường không có the). Người làm lễ tân: receptionist."
+    topics:
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reception, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reception, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reception, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: running-track|phr-n
+    headword: running track
+    pos: phr-n
+    ipa:
+      uk: /ˈrʌn.ɪŋ ˌtræk/
+      us: /ˈrʌn.ɪŋ ˌtræk/
+    cefr: null
+    meaning_vi:
+      - đường chạy
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: referee|n
+    headword: referee
+    pos: n
+    ipa:
+      uk: /ˌref.əˈriː/
+      us: /ˌref.əˈriː/
+    stress: re-fe-REE
+    cefr: B2
+    meaning_vi:
+      - trọng tài
+    notes_vi:
+      - "Nhấn âm cuối: re-fe-REE."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-29, field: ipa.us }
+    status: draft

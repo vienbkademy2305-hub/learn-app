@@ -271,6 +271,31 @@ steps:
               - a little
               - much
             answer: a
+      - id: b08-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Do we need anything for dinner?
+          Man: We don't have any rice, and there are only a few eggs.
+          Woman: How much milk is there?
+          Man: Not much. We need two bottles.
+          Woman: And some fruit?
+          Man: Yes, some bananas. But we have enough vegetables.
+        questions:
+          - { q: What don't they have?, options: [ eggs, rice, milk, vegetables ], answer: b }
+          - { q: How many bottles of milk do they need?, options: [ one, two, three, none ], answer: b }
+          - { q: What do they have enough of?, options: [ fruit, milk, rice, vegetables ], answer: d }
+      - id: b08-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: In Vietnam, many people eat rice two or three times a day. For breakfast, they often have noodle soup or bread. Vietnamese food uses a lot of vegetables, and not much cheese or butter. Some dishes are spicy, but most are not.
+        questions:
+          - { q: Many Vietnamese people eat rice only once a week., answer: F }
+          - { q: People often have noodle soup or bread for breakfast., answer: T }
+          - { q: Vietnamese food uses a lot of cheese., answer: F }
+          - { q: All Vietnamese dishes are spicy., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 60–90 từ về những gì bạn thường ăn và uống trong một ngày. Dùng đúng some/any, much/many/a lot of và danh từ đếm được/không đếm được.

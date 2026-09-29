@@ -2,9 +2,9 @@
  * Shape of the English snapshot `.data/content/en.json` (importers/en/export.ts).
  * Item types mirror the YAML schema in importers/en/load.ts.
  */
-import type { EnTest as Test, Exercise, GrammarPoint, LexEntry, Lesson, Sentence, Sound, Step } from "../../importers/en/load";
+import type { EnTest as Test, Exercise, GrammarPoint, LexEntry, Lesson, Sentence, SkillStep, Sound, Step } from "../../importers/en/load";
 
-export type { Exercise, Step };
+export type { Exercise, SkillStep, Step };
 export type EnWord = LexEntry & { slug: string; /** first lesson whose vocabulary lists it */ lesson: number | null };
 export type EnSentence = Sentence;
 export type EnGrammar = GrammarPoint;
@@ -28,6 +28,7 @@ export const EN_STEPS = [
   { type: "vocabulary", label: "Từ vựng", path: "" },
   { type: "pronunciation", label: "Phát âm", path: "/pronunciation" },
   { type: "grammar", label: "Ngữ pháp", path: "/grammar" },
+  { type: "skill", label: "Kỹ năng", path: "/skill" },
   { type: "examples", label: "Câu ví dụ", path: "/examples" },
   { type: "dialogue", label: "Hội thoại", path: "/dialogue" },
   { type: "exercises", label: "Bài tập", path: "/exercises" },

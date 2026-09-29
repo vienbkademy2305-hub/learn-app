@@ -219,6 +219,31 @@ steps:
           - wrong: I will to be
             right: I will be
             why: Sau will không có to.
+      - id: b15-x6
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: What are you going to do after you graduate?
+          Man: I'm going to look for a job in Da Nang. I hope to work for a travel company.
+          Woman: Will you move there?
+          Man: Probably, next spring. What about you?
+          Woman: I'm starting a course in Australia in September.
+          Man: That's great! I'm sure you'll love it.
+        questions:
+          - { q: Where does the man want to work?, options: [ in Hanoi, in Da Nang, in Australia, abroad ], answer: b }
+          - { q: When will he probably move?, options: [ this summer, next spring, in September, next year in winter ], answer: b }
+          - { q: What is the woman doing in September?, options: [ starting a job, starting a course in Australia, moving to Da Nang, travelling in Vietnam ], answer: b }
+      - id: b15-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My goal this year is to save money. I'm going to cook at home more, and I won't buy any new clothes. Next month I'm moving to a smaller flat, so I will pay less. Maybe I will buy a motorbike next year.
+        questions:
+          - { q: The speaker's goal is to save money., answer: T }
+          - { q: She is going to eat in restaurants more often., answer: F }
+          - { q: She is moving next month., answer: T }
+          - { q: She will definitely buy a motorbike next year., answer: F, explain_vi: "Maybe = có thể, không chắc chắn." }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 90–120 từ về kế hoạch của bạn trong năm tới: bạn định làm gì (be going to), bạn nghĩ điều gì sẽ xảy ra (will), và mục tiêu học tiếng Anh của bạn."

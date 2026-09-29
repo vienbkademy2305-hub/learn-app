@@ -255,6 +255,30 @@ steps:
               - park
           - q: It takes about ten minutes ___.
             answer: on foot
+      - id: b10-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Excuse me, how do I get to the train station?
+          Man: Go straight on along this street, then turn left at the corner.
+          Woman: Is it far? Can I go on foot?
+          Man: It's about fifteen minutes on foot. Or you can take the number nine bus. The bus stop is across the road.
+          Woman: Thank you very much!
+        questions:
+          - { q: Where does the woman turn left?, options: [ at the station, at the corner, at the bus stop, at the traffic lights ], answer: b }
+          - { q: How long does it take on foot?, options: [ five minutes, fifteen minutes, fifty minutes, an hour ], answer: b }
+          - { q: Which bus can she take?, options: [ number 5, number 9, number 19, number 90 ], answer: b }
+      - id: b10-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: I commute to work by motorbike. The journey usually takes twenty minutes, but in the rush hour it takes forty, because of the traffic jams. My wife goes to work by bus. It's slower but cheaper, and she can read on the bus.
+        questions:
+          - { q: The speaker goes to work by bus., answer: F }
+          - { q: "In the rush hour, the journey takes forty minutes.", answer: T }
+          - { q: His wife goes to work by motorbike., answer: F }
+          - { q: The bus is cheaper than the motorbike., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ: bạn đi làm/đi học bằng gì, mất bao lâu, giá bao nhiêu, và so sánh với một phương tiện khác. Dùng đúng by/on/in."

@@ -4,7 +4,7 @@ title_vi: "Kiểm tra đầu ra Giai đoạn 1"
 stage: 1
 kind: final
 after_lesson: 20
-minutes: 60
+minutes: 70
 pass_percent: 80
 intro_vi: >-
   Bài kiểm tra tổng hợp 20 buổi của Giai đoạn 1: từ vựng, ngữ pháp, đọc hiểu, nghe và viết. Đạt từ 80% phần
@@ -134,6 +134,39 @@ sections:
         lesson: 13
         instructions_vi: "Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -s, -ed và mạo từ."
         text: "Last weekend my family visited a small village in the north. We stayed in a wooden house and walked along the river. The people there were very friendly."
+      - id: gd1-final-x9
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe cuộc gọi đặt phòng khách sạn (hai giọng, nghe tối đa 2 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Woman: Good morning, Sunrise Hotel. How can I help you?
+          Man: Hello. I'd like to book a room for my wife and me, please.
+          Woman: Of course. When are you arriving?
+          Man: On the twelfth of May. We're going to stay for three nights.
+          Woman: We have a double room with a sea view. It's eight hundred thousand dong a night, and breakfast is included.
+          Man: That's fine. How do we get to the hotel from the airport?
+          Woman: You can take a taxi. It takes about twenty minutes. Or there's a bus, but it's slower.
+          Man: We'll take a taxi, then. And is there a swimming pool?
+          Woman: Yes, it's on the roof. It's open from seven in the morning until ten at night.
+        questions:
+          - { q: "Who is the man travelling with?", options: [his mother, his wife, his friend, his children], answer: b, lesson: 1 }
+          - { q: "When are they arriving?", options: [2 May, 12 May, 20 May, 12 March], answer: b, lesson: 4 }
+          - { q: "How long are they staying?", options: [one night, two nights, three nights, a week], answer: c, lesson: 15 }
+          - { q: "How much is the room per night?", options: ["80,000 dong", "800,000 dong", "8,000,000 dong", "180,000 dong"], answer: b, lesson: 9 }
+          - { q: "How are they going to get to the hotel?", options: [by bus, by taxi, on foot, by train], answer: b, lesson: 10 }
+          - { q: "Where is the swimming pool?", options: [next to the hotel, in the garden, on the roof, near the beach], answer: c, lesson: 3 }
+      - id: gd1-final-x10
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe Nam kể về công việc và sức khỏe. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "I'm an engineer, and I work for a big company in Ho Chi Minh City. I usually work from eight to five, but this month I'm working late because we have a new project. Last week I felt very tired and I had a bad headache, so I went to the doctor. She told me that I should sleep more and do some exercise. Now I go swimming twice a week, and I feel much better. My house was built by my grandfather fifty years ago, and there is a small garden where I grow vegetables."
+        questions:
+          - { q: "Nam is a teacher.", answer: F, lesson: 7 }
+          - { q: "This month he is working late.", answer: T, lesson: 7 }
+          - { q: "Last week he had a stomachache.", answer: F, lesson: 12 }
+          - { q: "The doctor told him to sleep more.", answer: T, lesson: 12 }
+          - { q: "He goes swimming every day.", answer: F, explain_vi: "twice a week.", lesson: 5 }
+          - { q: "His house was built by his father.", answer: F, explain_vi: "by his grandfather.", lesson: 19 }
 writing:
   prompt_vi: "Phần 5 · Viết (không chấm tự động): Viết đoạn văn 100–120 từ giới thiệu bản thân, gia đình, một ngày bình thường của bạn và kế hoạch học tiếng Anh sắp tới. Dùng ít nhất 3 thì khác nhau."
   prompt_en: "Write about yourself, your family, your daily routine and your plans for learning English."

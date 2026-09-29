@@ -197,3 +197,158 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: improve|v
+    headword: improve
+    pos: v
+    ipa:
+      uk: /ɪmˈpruːv/
+      us: /ɪmˈpruːv/
+    stress: im-PROVE
+    cefr: A1
+    meaning_vi:
+      - cải thiện
+      - tiến bộ
+    collocations:
+      - improve your English
+      - improve skills
+      - improve quickly
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/improve, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/improve, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/improve, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: independent|adj
+    headword: independent
+    pos: adj
+    ipa:
+      uk: /ˌɪn.dɪˈpen.dənt/
+      us: /ˌɪn.dɪˈpen.dənt/
+    stress: in-de-PEN-dent
+    cefr: A2
+    meaning_vi:
+      - tự lập
+      - độc lập
+    collocations:
+      - become independent
+      - independent learners
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/independent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/independent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/independent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: increase|v
+    headword: increase
+    pos: v
+    ipa:
+      uk: /ɪnˈkriːs/
+      us: /ɪnˈkriːs/
+    stress: in-CREASE
+    cefr: A2
+    meaning_vi:
+      - tăng
+    collocations:
+      - increase sharply
+      - increase by 10%
+      - increase from X to Y
+    notes_vi:
+      - "Danh từ cùng dạng nhưng nhấn âm 1: an IN-crease in sales."
+      - "Không dùng bị động khi nói số liệu tự tăng: The number increased (không nói *was increased*)."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/increase, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/increase, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/increase, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: injury|n
+    headword: injury
+    pos: n
+    forms:
+      plural: injuries
+    ipa:
+      uk: /ˈɪn.dʒər.i/
+      us: /ˈɪn.dʒɚ.i/
+    stress: IN-ju-ry
+    cefr: A2
+    meaning_vi:
+      - chấn thương
+      - vết thương
+    collocations:
+      - a sports injury
+      - a knee injury
+      - avoid injury
+    notes_vi:
+      - "Động từ: injure; tính từ: injured (He was injured)."
+    topics:
+      - health
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/injury, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/injury, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/injury, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: illegal|adj
+    headword: illegal
+    pos: adj
+    ipa:
+      uk: /ɪˈliː.ɡəl/
+      us: /ɪˈliː.ɡəl/
+    stress: il-LE-gal
+    cefr: B1
+    meaning_vi:
+      - bất hợp pháp
+    collocations:
+      - illegal drugs
+      - it is illegal to…
+    notes_vi:
+      - "il- + legal. Tiền tố phủ định: il- trước l, im- trước m/p, ir- trước r, in- còn lại (illegal, impossible, irregular, incorrect)."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/illegal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/illegal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/illegal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: in-addition|idiom
+    headword: in addition
+    pos: idiom
+    ipa:
+      uk: /ɪn əˈdɪʃ.ən/
+      us: /ɪn əˈdɪʃ.ən/
+    cefr: null
+    meaning_vi:
+      - thêm vào đó
+      - ngoài ra
+    collocations:
+      - In addition, …
+      - in addition to + N/V-ing
+    notes_vi:
+      - "Đứng đầu câu + dấu phẩy. in addition TO + danh từ/V-ing: In addition to reducing crime, …"
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

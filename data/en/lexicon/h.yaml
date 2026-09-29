@@ -541,3 +541,93 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: higher-education|phr-n
+    headword: higher education
+    pos: phr-n
+    ipa:
+      uk: /ˌhaɪ.ər ˌedʒ.uˈkeɪ.ʃən/
+      us: /ˌhaɪ.ɚ ˌedʒ.uˈkeɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - giáo dục đại học
+      - bậc học sau phổ thông
+    collocations:
+      - access to higher education
+      - the cost of higher education
+    notes_vi:
+      - "Không có mạo từ: go into higher education (không nói *the higher education*)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/higher-education, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/higher-education, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: healthy-lifestyle|phr-n
+    headword: healthy lifestyle
+    pos: phr-n
+    ipa:
+      uk: /ˌhel.θi ˈlaɪf.staɪl/
+      us: /ˌhel.θi ˈlaɪf.staɪl/
+    cefr: null
+    meaning_vi:
+      - lối sống lành mạnh
+    collocations:
+      - lead a healthy lifestyle
+      - have a healthy lifestyle
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: harsh|adj
+    headword: harsh
+    pos: adj
+    ipa:
+      uk: /hɑːʃ/
+      us: /hɑːrʃ/
+    cefr: C1
+    meaning_vi:
+      - khắc nghiệt
+      - nghiêm khắc
+    collocations:
+      - a harsh punishment
+      - harsh laws
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harsh, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harsh, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harsh, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: however|adv
+    headword: however
+    pos: adv
+    ipa:
+      uk: /haʊˈev.ər/
+      us: /haʊˈev.ɚ/
+    stress: how-E-ver
+    cefr: A1
+    meaning_vi:
+      - tuy nhiên
+    notes_vi:
+      - "Đứng đầu câu + dấu phẩy: However, … Không nối hai câu bằng dấu phẩy + however (*…, however …*)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-29, field: ipa.us }
+    status: draft

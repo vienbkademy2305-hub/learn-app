@@ -265,3 +265,83 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: negative|adj
+    headword: negative
+    pos: adj
+    ipa:
+      uk: /ˈneɡ.ə.tɪv/
+      us: /ˈneɡ.ə.t̬ɪv/
+    stress: NE-ga-tive
+    cefr: A1
+    meaning_vi:
+      - tiêu cực
+    collocations:
+      - a negative effect on…
+      - negative impact
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/negative, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/negative, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/negative, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nature|n
+    headword: nature
+    pos: n
+    ipa:
+      uk: /ˈneɪ.tʃər/
+      us: /ˈneɪ.tʃɚ/
+    stress: NA-ture
+    cefr: A2
+    meaning_vi:
+      - thiên nhiên
+      - tự nhiên
+    collocations:
+      - in nature
+      - close to nature
+      - spend time in nature
+      - nature lover
+    notes_vi:
+      - "Không dùng 'the': I love nature (không nói *the nature*)."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nature, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nature, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nature, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: noisy|adj
+    headword: noisy
+    pos: adj
+    forms:
+      comparative: noisier
+      superlative: noisiest
+    ipa:
+      uk: /ˈnɔɪ.zi/
+      us: /ˈnɔɪ.zi/
+    stress: NOI-sy
+    cefr: A2
+    meaning_vi:
+      - ồn ào
+    collocations:
+      - a noisy street
+      - noisy neighbours
+    notes_vi:
+      - "-s- đọc /z/: /ˈnɔɪ.zi/."
+    topics:
+      - environment
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-29, field: ipa.us }
+    status: draft

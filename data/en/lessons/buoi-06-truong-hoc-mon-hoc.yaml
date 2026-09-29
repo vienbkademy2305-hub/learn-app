@@ -256,6 +256,31 @@ steps:
           - q: I ___ too much time playing games. I need to study more.
             answer: spend
             explain_vi: "spend time + V-ing: dành thời gian làm gì."
+      - id: b06-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Hi Tom, what are you doing?
+          Man: I'm revising for my chemistry exam. It's tomorrow.
+          Woman: Are you studying alone?
+          Man: No, I'm studying with two classmates in the library.
+          Woman: Is chemistry difficult?
+          Man: Yes, it isn't my favourite subject. My favourite subject is history.
+        questions:
+          - { q: What is Tom doing?, options: [ taking an exam, revising for an exam, reading a history book, playing with classmates ], answer: b }
+          - { q: Where is he?, options: [ at home, in the classroom, in the library, at a café ], answer: c }
+          - { q: What is Tom's favourite subject?, options: [ chemistry, maths, history, geography ], answer: c }
+      - id: b06-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Look at my class in this photo. Our teacher is writing on the board. Some students are taking notes, and two boys are talking at the back. Lan is using a calculator, because we have maths now.
+        questions:
+          - { q: The teacher is writing on the board., answer: T }
+          - { q: All the students are taking notes., answer: F }
+          - { q: Two girls are talking at the back., answer: F }
+          - { q: It is a maths lesson., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Bây giờ là 8 giờ tối. Viết đoạn văn 60–80 từ: mọi người trong nhà bạn đang làm gì? Dùng ít nhất 5 câu hiện tại tiếp diễn (có câu phủ định)."

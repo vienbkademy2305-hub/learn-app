@@ -254,6 +254,33 @@ steps:
             answer: carpet
           - q: The chairs are ___, so they are very cold in winter.
             answer: metal
+      - id: b03-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Is there a balcony in the apartment?
+          Man: Yes, there is. It's next to the living room.
+          Woman: How many bedrooms are there?
+          Man: There are two bedrooms and one bathroom.
+          Woman: Is there a fridge in the kitchen?
+          Man: Yes, there is. And there is a big wardrobe in each bedroom.
+          Woman: Great. Is there a garage?
+          Man: No, there isn't, sorry.
+        questions:
+          - { q: Where is the balcony?, options: [ next to the kitchen, next to the living room, behind the bedroom, under the stairs ], answer: b }
+          - { q: How many bedrooms are there?, options: [ one, two, three, four ], answer: b }
+          - { q: Is there a garage?, options: [ "Yes, there is.", "No, there isn't.", "Yes, two garages.", The man doesn't know. ], answer: b }
+      - id: b03-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My bedroom is small, but I love it. There is a bed, a desk and a wooden chair. My books are on a shelf next to the desk. There isn't a TV. The wardrobe is behind the door, and there is a soft carpet on the floor.
+        questions:
+          - { q: There is a TV in the bedroom., answer: F }
+          - { q: The chair is made of wood., answer: T }
+          - { q: The books are on a shelf next to the desk., answer: T }
+          - { q: The wardrobe is in front of the door., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 60–90 từ tả nhà hoặc phòng của bạn: có những phòng/đồ vật gì, mỗi thứ ở đâu (dùng There is/are và ít nhất 4 giới từ nơi chốn)."

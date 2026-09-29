@@ -248,6 +248,30 @@ steps:
           - wrong: on the my laptop
             right: on my laptop
             why: Không dùng the cùng tính từ sở hữu.
+      - id: b18-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Can you help me? I'm looking for my phone.
+          Woman: Is it on the table?
+          Man: No. I think I left it in the car.
+          Woman: Wait… listen! It's ringing. It's under the sofa!
+          Man: Thanks! I'm waiting for an important email from my boss.
+        questions:
+          - { q: What is the man looking for?, options: [ his keys, his phone, his laptop, his wallet ], answer: b }
+          - { q: Where is it?, options: [ on the table, in the car, under the sofa, in his bag ], answer: c }
+          - { q: What is he waiting for?, options: [ a phone call from his mother, an email from his boss, a taxi, a delivery ], answer: b }
+      - id: b18-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: I use an app to learn English. Every day I listen to a short story and answer ten questions. The app is free, but you need an internet connection. My password is very long, so I write it in a notebook at home.
+        questions:
+          - { q: The app costs money., answer: F }
+          - { q: The speaker listens to a story every day., answer: T }
+          - { q: The app works without the internet., answer: F }
+          - { q: The password is very short., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 80–100 từ giới thiệu thành phố hoặc thị trấn của bạn. Trước khi nộp, gạch chân mọi danh từ số ít đếm được và kiểm tra a/an/the.

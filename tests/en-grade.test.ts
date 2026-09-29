@@ -51,11 +51,31 @@ describe("English answer grading", () => {
 describe("English snapshot", () => {
   const snap = buildEnSnapshot();
 
-  it("has the 20 lessons of stage 1 with unique word slugs", () => {
-    expect(snap.lessons.map((l) => l.number)).toEqual(Array.from({ length: 20 }, (_, i) => i + 1));
+  it("has the 20 lessons of stage 1, numbered without gaps, with unique word slugs", () => {
+    expect(snap.lessons.filter((l) => l.stage === 1).map((l) => l.number)).toEqual(Array.from({ length: 20 }, (_, i) => i + 1));
+    expect(snap.lessons.map((l) => l.number)).toEqual(Array.from({ length: snap.lessons.length }, (_, i) => i + 1));
     const slugs = Object.values(snap.words).map((w) => w.slug);
     expect(new Set(slugs).size).toBe(slugs.length);
     expect(slugs.every((s) => /^[a-z0-9-]+$/.test(s))).toBe(true);
+  });
+
+  it("every stage 2+ lesson teaches its IELTS task in a skill step", () => {
+    for (const l of snap.lessons.filter((x) => x.stage >= 2)) {
+      const skill = l.steps.find((s) => s.type === "skill");
+      expect(skill, l.slug).toBeDefined();
+      expect(l.focus?.skill, l.slug).toBeTruthy();
+    }
+  });
+
+  it("listening exercises never show their script in the visible passage", () => {
+    for (const l of snap.lessons)
+      for (const s of l.steps)
+        if (s.type === "exercises")
+          for (const ex of s.items.filter((x) => x.audio_text))
+            for (const q of ex.questions ?? []) {
+              if (ex.kind === "mcq" || ex.kind === "tfng" || ex.kind === "ynng" || ex.kind === "tf") continue;
+              expect(ex.passage ?? "", `${ex.id} ${q.q}`).not.toContain(String(q.answer));
+            }
   });
 
   it("every gradable question has an answer the grader can accept", () => {
@@ -80,5 +100,30 @@ describe("English snapshot", () => {
             expect(gradeCorrection(ex.text!, ex.errors!).some(Boolean), `${ex.id} original`).toBe(false);
             expect(gradeCorrection(fixed, ex.errors!).every(Boolean), `${ex.id} fixed`).toBe(true);
           }
+  });
+});
+
+describe("English listening dialogues", () => {
+  it("splits a labelled dialogue into turns and leaves plain text alone", async () => {
+    const { dialogueTurns } = await import("../src/features/en/speech");
+    expect(dialogueTurns("Man: Hi, I'm Tom.\nWoman: Nice to meet you.\nMan: You too.")).toEqual([
+      { speaker: "Man", text: "Hi, I'm Tom." },
+      { speaker: "Woman", text: "Nice to meet you." },
+      { speaker: "Man", text: "You too." },
+    ]);
+    expect(dialogueTurns("Welcome to Green Lake Park. We're at the main gate.")).toBeNull();
+    expect(dialogueTurns("Note: this is one speaker.\nNote: still one.")).toBeNull();
+  });
+});
+
+describe("English lesson listening", () => {
+  const snap = buildEnSnapshot();
+  it("every lesson has a two-voice dialogue and a listening true/false task", async () => {
+    const { dialogueTurns } = await import("../src/features/en/speech");
+    for (const l of snap.lessons) {
+      const items = l.steps.flatMap((s) => (s.type === "exercises" ? s.items : [])).filter((e) => e.audio_text);
+      expect(items.some((e) => dialogueTurns(e.audio_text!)), `${l.slug} dialogue`).toBe(true);
+      expect(items.some((e) => e.kind === "tf"), `${l.slug} true/false`).toBe(true);
+    }
   });
 });

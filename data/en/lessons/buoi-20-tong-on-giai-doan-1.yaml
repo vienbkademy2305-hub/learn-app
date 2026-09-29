@@ -221,6 +221,31 @@ steps:
           - q: What did you do last weekend?
           - q: What are you going to do next summer?
         sample: I work as an accountant in a small company. I usually go to the office by motorbike, and I really enjoy working with my colleagues.
+      - id: b20-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: Hi Lan! How are you? What are you doing these days?
+          Woman: I'm working at a bank. I started in January.
+          Man: Do you like it?
+          Woman: Yes, but I usually finish late. What about you?
+          Man: I'm going to study in Singapore next year, so I'm saving money now.
+          Woman: That's exciting!
+        questions:
+          - { q: Where does Lan work?, options: [ at a school, at a bank, at a hotel, at a hospital ], answer: b }
+          - { q: When did she start?, options: [ in January, in June, last week, two years ago ], answer: a }
+          - { q: What is the man going to do next year?, options: [ work at a bank, study in Singapore, travel to Japan, buy a car ], answer: b }
+      - id: b20-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: My hometown is famous for its beaches. When I was a child, I swam in the sea every summer. Now I live in Hanoi and I work as a nurse. I'm going to visit my parents next month, and I'm very excited.
+        questions:
+          - { q: The speaker's hometown is famous for its mountains., answer: F }
+          - { q: She swam in the sea every summer as a child., answer: T }
+          - { q: Now she works as a teacher., answer: F }
+          - { q: She is going to visit her parents next month., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 100–120 từ về cuộc sống của bạn: năm ngoái bạn đã làm gì, hiện tại bạn đang làm gì, và năm tới bạn định làm gì. Dùng ít nhất 4 thì khác nhau. Tự rà 5 lỗi thường gặp (to be, -s, mạo từ, số nhiều, dấu phẩy) trước khi nộp."

@@ -1,0 +1,365 @@
+# Buổi 23 — Môi trường · Listening: điền form & bảng. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-23-moi-truong-listening-form
+number: 23
+stage: 2
+title_vi: "Môi trường · Listening: điền form & bảng"
+focus:
+  grammar: Hiện tại hoàn thành vs quá khứ đơn
+  skill: Listening — form/note/table completion
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - environment|n
+      - pollution|n
+      - waste|n
+      - rubbish|n
+      - climate-change|phr-n
+      - global-warming|phr-n
+      - carbon-emissions|phr-n
+      - renewable-energy|phr-n
+      - protect|v
+      - reduce|v
+      - recycle|v
+      - volunteer|n
+      - deforestation|n
+      - endangered-species|phr-n
+      - single-use-plastic|phr-n
+      - reusable|adj
+      - environmentally-friendly|adj
+  - type: pronunciation
+    notes:
+      - word: environment|n
+        text_vi: "en-VI-ron-ment: nhấn âm 2, -ment đọc nhẹ /mənt/ có /t/ cuối."
+      - word: volunteer|n
+        text_vi: "vo-lun-TEER: nhấn âm CUỐI — người Việt hay nhấn sai vào âm 1."
+      - word: deforestation|n
+        text_vi: "Quy tắc -tion: de-fo-res-TA-tion, pol-LU-tion."
+      - sound: snd-s
+        text_vi: "Cụm phụ âm cuối /st/, /kt/: waste /weɪst/, protect /prəˈtekt/. Đọc đủ hai âm, không bỏ âm cuối."
+      - word: reduce|v
+        text_vi: "re-DUCE: Anh-Anh /rɪˈdʒuːs/ (nghe như 'ri-giút'), Anh-Mỹ /rɪˈduːs/. Nghe được cả hai trong IELTS."
+      - sound: snd-th
+        text_vi: "Listening hay kiểm tra số: thirTEEN /θɜːˈtiːn/ nhấn âm 2 và kéo dài; THIRty /ˈθɜː.ti/ nhấn âm 1, /t/ ngắn. Tương tự 14/40, 15/50…"
+  - type: grammar
+    items:
+      - en-g2-03
+  - type: skill
+    skill: listening
+    title_vi: Listening — điền form, ghi chú, bảng (form/note/table completion)
+    intro_vi: "Bài Listening IELTS có 4 phần, 40 câu, nghe đúng MỘT lần. Phần 1 thường là hội thoại đời thường (đặt chỗ, đăng ký, hỏi thông tin) với dạng điền form: tên, số điện thoại, ngày, giá tiền, địa chỉ. Đây là phần dễ lấy điểm nhất — nếu đoán trước được loại thông tin và không sai chính tả."
+    steps:
+      - title_vi: Đọc kỹ giới hạn số từ
+        text_vi: "'NO MORE THAN TWO WORDS AND/OR A NUMBER' nghĩa là tối đa 2 từ + 1 số. Viết 3 từ là sai dù đúng ý. 'ONE WORD ONLY' thì chỉ 1 từ."
+      - title_vi: Tận dụng thời gian đọc trước (khoảng 30 giây)
+        text_vi: "Đọc lướt cả form, gạch từ khóa quanh mỗi chỗ trống: Name, Date, Cost, Address…"
+      - title_vi: Đoán LOẠI thông tin
+        text_vi: "Mỗi chỗ trống là gì: tên (cần đánh vần), số điện thoại, ngày tháng, giá tiền, giờ, địa điểm, nghề nghiệp? Ghi nhanh ký hiệu bên cạnh: tên / số / ngày / $."
+      - title_vi: Đoán TỪ LOẠI bằng ngữ pháp
+        text_vi: Sau a/an → danh từ số ít; sau many/several → danh từ số nhiều; sau very/quite → tính từ; sau to → động từ nguyên mẫu.
+      - title_vi: Nghe theo thứ tự và bám từ khóa
+        text_vi: Đáp án đi theo thứ tự câu hỏi. Khi nghe thấy từ khóa (hoặc từ đồng nghĩa) của câu 3, đáp án câu 3 sắp tới. Lỡ một câu thì bỏ qua ngay, theo dõi câu tiếp — đừng để mất cả loạt.
+      - title_vi: Cảnh giác khi người nói sửa lại
+        text_vi: "'Actually…', 'Oh no, sorry…', 'I mean…', 'Let me check…' → thông tin đầu bị thay thế; đáp án là thông tin SAU CÙNG."
+      - title_vi: Soát lại khi hết bài
+        text_vi: Chính tả, -s số nhiều, viết hoa tên riêng, định dạng ngày (12 May / May 12) và tiền ($15 / 15 dollars).
+    tips:
+      - "Luyện bảng chữ cái: người Việt hay nhầm A /eɪ/ – E /iː/ – I /aɪ/, G /dʒiː/ – J /dʒeɪ/, B – V – P."
+      - "Số: 'double five' = 55; 'oh' = 0 trong số điện thoại; 13 (thirTEEN, nhấn sau) ≠ 30 (THIRty, nhấn trước)."
+      - Nếu form đã in sẵn đơn vị ('£ ___', '___ km'), chỉ viết con số — viết thêm đơn vị có thể bị thừa từ.
+      - Nghe thấy người nói đánh vần là gần như chắc chắn chỗ đó là đáp án — viết từng chữ ngay.
+    traps:
+      - trap_vi: "Ghi luôn thông tin đầu tiên nghe được: 'It's on the 15th… oh no, sorry, the 16th.'"
+        fix_vi: Chờ đến hết câu nói; đáp án là thông tin sau khi người nói sửa (16th).
+      - trap_vi: Nghe đúng nhưng viết sai chính tả (enviroment, recieve).
+        fix_vi: Sai chính tả = sai. Học thuộc chính tả các từ chủ đề hay gặp.
+      - trap_vi: "Quên -s: 'two ___' mà viết 'bottle'."
+        fix_vi: Nhìn từ đứng trước chỗ trống (two, several, many) → cần số nhiều.
+      - trap_vi: Mải nghĩ một câu khó, bỏ lỡ 3 câu sau.
+        fix_vi: Không nghe được thì bỏ trống, đoán sau; mắt luôn đi trước tai một câu.
+    phrases:
+      - en: Can I take your name, please?
+        vi: Cho tôi xin tên anh/chị?
+        note_vi: Ngay sau đó thường là đánh vần.
+      - en: Could you spell that for me?
+        vi: Anh/chị đánh vần giúp tôi được không?
+      - en: What's the best number to contact you on?
+        vi: Số nào tiện liên lạc với anh/chị nhất?
+      - en: Sorry, I mean …
+        vi: Xin lỗi, ý tôi là …
+        note_vi: Báo hiệu thông tin được sửa lại.
+      - en: So that's … Is that right?
+        vi: Vậy là … đúng không ạ?
+        note_vi: Người nói nhắc lại để xác nhận — cơ hội nghe lại đáp án.
+    demo:
+      title_vi: "Làm mẫu: đoán trước khi nghe"
+      text_en: |-
+        GREEN DAY TREE PLANTING — REGISTRATION
+        Name: Lan (1) __________
+        Phone number: (2) __________
+        Date of the event: Saturday (3) __________ April
+        Meeting point: the (4) __________ of Thong Nhat Park
+        Please bring: a hat and a (5) __________ bottle
+      notes:
+        - label: (1) Lan ___
+          text_vi: "Sau tên riêng Lan → HỌ. Người nói gần như chắc chắn sẽ đánh vần: chuẩn bị viết từng chữ."
+        - label: (2) Phone number
+          text_vi: Dãy số. Chú ý 'double', 'oh' và cách ngắt nhóm số.
+        - label: (3) Saturday ___ April
+          text_vi: "Ngày trong tháng (số thứ tự: 12th, 20th). Bẫy hay gặp: nói một ngày rồi sửa lại."
+        - label: (4) the ___ of Thong Nhat Park
+          text_vi: "Sau 'the' và trước 'of' → danh từ chỉ vị trí: main gate / north entrance / car park…"
+        - label: (5) a hat and a ___ bottle
+          text_vi: Giữa 'a' và danh từ 'bottle' → TÍNH TỪ. Chủ đề môi trường → đoán reusable / water. Tối đa số từ theo yêu cầu đề.
+  - type: examples
+    items:
+      - b23-001
+      - b23-002
+      - b23-003
+      - b23-004
+      - b23-005
+      - b23-006
+      - b23-007
+      - b23-008
+      - b23-010
+      - b23-012
+  - type: dialogue
+    title_vi: Hỏi về câu lạc bộ xanh
+    lines:
+      - speaker: A
+        text: Hi, I'd like to join the Green Club. What do members do?
+        vi: Chào anh, em muốn tham gia Câu lạc bộ Xanh. Thành viên thường làm gì ạ?
+      - speaker: B
+        text: We pick up rubbish and plant trees. We have planted over two thousand trees since 2021.
+        vi: Bọn anh nhặt rác và trồng cây. Từ năm 2021 bọn anh đã trồng hơn hai nghìn cây.
+      - speaker: A
+        text: That's amazing. When did the club start?
+        vi: Tuyệt quá. Câu lạc bộ thành lập khi nào ạ?
+      - speaker: B
+        text: It started six years ago with only ten volunteers.
+        vi: Câu lạc bộ bắt đầu từ sáu năm trước với chỉ mười tình nguyện viên.
+      - speaker: A
+        text: Have you worked on any big projects?
+        vi: Câu lạc bộ đã làm dự án lớn nào chưa ạ?
+      - speaker: B
+        text: Yes. Last year we cleaned the To Lich River for three months.
+        vi: Rồi. Năm ngoái bọn anh làm sạch sông Tô Lịch trong ba tháng.
+      - speaker: A
+        text: Great. Can I register now?
+        vi: Hay quá. Em đăng ký bây giờ được không ạ?
+      - speaker: B
+        text: Sure. Can I take your name, please?
+        vi: Được chứ. Cho anh xin tên em nhé?
+      - speaker: A
+        text: Nguyen Thu Ha. That's H-A.
+        vi: Nguyễn Thu Hà. H-A ạ.
+      - speaker: B
+        text: Thanks. Please bring a reusable bottle to every event. We don't use single-use plastic.
+        vi: Cảm ơn em. Nhớ mang chai dùng lại được đến mọi buổi nhé. Bọn anh không dùng nhựa dùng một lần.
+  - type: exercises
+    items:
+      - id: b23-x1
+        bank_no: 18
+        kind: mcq
+        instructions_vi: "Trước khi nghe: mỗi chỗ trống cần LOẠI thông tin gì?"
+        questions:
+          - q: "Contact number: ______"
+            options:
+              - a name
+              - a number
+              - a date
+              - a place
+            answer: b
+          - q: "Surname: ______"
+            options:
+              - a name that may be spelled
+              - a price
+              - a time
+              - an adjective
+            answer: a
+          - q: The tour costs £ ______ per person.
+            options:
+              - a word like 'cheap'
+              - a number only
+              - a number and '£'
+              - a date
+            answer: b
+            explain_vi: £ đã in sẵn → chỉ viết số.
+          - q: Please bring a ______ jacket.
+            options:
+              - a noun
+              - a verb
+              - an adjective
+              - a number
+            answer: c
+            explain_vi: "Giữa a và danh từ jacket → tính từ (VD: waterproof, warm)."
+          - q: Volunteers need to arrive at ______ a.m.
+            options:
+              - a time
+              - a place
+              - a name
+              - a plural noun
+            answer: a
+          - q: Each group will collect several ______ of rubbish.
+            options:
+              - a singular noun
+              - a plural noun
+              - an adjective
+              - a verb
+            answer: b
+            explain_vi: several + danh từ số nhiều (bags).
+      - id: b23-x2
+        bank_no: 18
+        kind: completion
+        instructions_vi: Nghe cuộc gọi đăng ký làm tình nguyện viên (nghe 1 lần như thi thật) và điền form. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ cho mỗi chỗ trống.
+        max_words: 2
+        audio_text: |-
+          Woman: Good morning, Clean Beach Project. How can I help you?
+          Man: Hi. I'd like to register as a volunteer for the beach clean-up.
+          Woman: Great. Can I take your name, please?
+          Man: Yes, it's David Parker. That's P-A-R-K-E-R.
+          Woman: Thank you. And what's the best number to contact you on?
+          Man: It's 0 9 1 2, double 5, 7 3 8 6.
+          Woman: So that's 0 9 1 2 5 5 7 3 8 6. And which clean-up would you like to join? We have one on the 14th of June and another on the 21st.
+          Man: The 14th, please. Oh no, sorry, I'm busy that weekend. The 21st, then.
+          Woman: No problem. We meet at the car park next to the lighthouse at half past six in the morning.
+          Man: That's early! How long does it last?
+          Woman: About four hours. We finish at 10.30. And please don't bring any plastic water bottles. Bring a reusable bottle instead.
+          Man: OK. Do I need to bring gloves?
+          Woman: No, we give everyone gloves and bags.
+        passage: |-
+          CLEAN BEACH PROJECT — VOLUNTEER FORM
+          Name: David (1) __________
+          Phone: (2) __________
+          Date of clean-up: (3) __________ June
+          Meeting point: the car park next to the (4) __________
+          Start time: (5) __________ a.m.
+          Please bring: a (6) __________ bottle
+        questions:
+          - q: (1)
+            answer: Parker
+          - q: (2)
+            answer: "0912557386"
+            accept:
+              - 0912 557 386
+              - 0912 55 7386
+              - 091 255 7386
+          - q: (3)
+            answer: 21st
+            accept:
+              - "21"
+              - twenty-first
+              - the 21st
+            explain_vi: "Người nói chọn 14th rồi sửa lại: 'Oh no, sorry… The 21st, then.'"
+          - q: (4)
+            answer: lighthouse
+            accept:
+              - the lighthouse
+          - q: (5)
+            answer: "6.30"
+            accept:
+              - 6:30
+              - half past six
+              - 6.30 a.m.
+            explain_vi: 10.30 là giờ KẾT THÚC — bẫy.
+          - q: (6)
+            answer: reusable
+      - id: b23-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: "Chia động từ: hiện tại hoàn thành hay quá khứ đơn?"
+        questions:
+          - q: The government (ban) ___ single-use plastic bags in 2022.
+            answer: banned
+          - q: We (plant) ___ over 500 trees so far this year.
+            answer: have planted
+            accept:
+              - "'ve planted"
+          - q: When ___ you start volunteering? (do)
+            answer: did
+            explain_vi: When did you start…? — câu hỏi When dùng quá khứ đơn.
+          - q: Air quality in Hanoi (become) ___ worse since 2015.
+            answer: has become
+          - q: I (never / see) ___ an endangered animal in the wild.
+            answer: have never seen
+            accept:
+              - "'ve never seen"
+          - q: Two years ago, the river (be) ___ very dirty.
+            answer: was
+          - q: ___ you ever worked at a recycling centre? (have / do)
+            answer: Have
+            explain_vi: "ever + V3 (worked) → hiện tại hoàn thành: Have you ever worked…?"
+          - q: My town (not / have) ___ a recycling bin until last month.
+            answer: didn't have
+            accept:
+              - did not have
+      - id: b23-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank:
+          - pollution
+          - deforestation
+          - renewable energy
+          - carbon emissions
+          - endangered species
+          - rubbish
+          - volunteer
+          - environmentally friendly
+        questions:
+          - q: Wind and solar power are types of ___.
+            answer: renewable energy
+          - q: Cars produce a lot of ___.
+            answer: carbon emissions
+          - q: Cutting down forests for farms causes ___.
+            answer: deforestation
+          - q: The tiger is an ___ in many countries.
+            answer: endangered species
+          - q: Please put your ___ in the bin.
+            answer: rubbish
+          - q: Air ___ in big cities is getting worse.
+            answer: pollution
+          - q: She works as a ___ at the national park every summer.
+            answer: volunteer
+          - q: Bamboo straws are more ___ than plastic ones.
+            answer: environmentally friendly
+      - id: b23-x5
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép động từ với cụm danh từ phù hợp.
+        pairs:
+          - left: reduce
+            right: carbon emissions
+          - left: protect
+            right: endangered species
+          - left: recycle
+            right: plastic bottles
+          - left: use
+            right: renewable energy
+          - left: pick up
+            right: rubbish on the beach
+      - id: b23-x6
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (nghe tối đa 3 lần). Chú ý đuôi -s, -ed và have/has.
+        text: Our city has built two new recycling centres since last year. Many people have stopped using plastic bags, and the river is cleaner now.
+      - id: b23-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Our apartment building started recycling two years ago. Since then, we have reduced our rubbish by half. Plastic bottles go in the blue bin and paper goes in the green bin. Food waste is collected on Tuesdays and Fridays. Last month, volunteers from a local school showed residents how to sort their rubbish.
+        questions:
+          - { q: The building started recycling two years ago., answer: T }
+          - { q: They have reduced their rubbish by half., answer: T }
+          - { q: Plastic bottles go in the green bin., answer: F }
+          - { q: Food waste is collected every day., answer: F }
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ: môi trường ở quê bạn đã thay đổi thế nào trong 10 năm qua (tốt lên hay xấu đi, vì sao). Dùng ít nhất 4 câu hiện tại hoàn thành (since, so far, in the last ten years) và 3 câu quá khứ đơn có mốc thời gian. Bắt buộc dùng: pollution, rubbish, protect, reduce. Bài này là bước đệm cho Writing Task 2 chủ đề môi trường."
+    prompt_en: How has the environment in your hometown changed in the last ten years?
+    words:
+      min: 150
+      max: 180
+    minutes: 30

@@ -223,3 +223,151 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: opinion|n
+    headword: opinion
+    pos: n
+    ipa:
+      uk: /əˈpɪn.jən/
+      us: /əˈpɪn.jən/
+    stress: o-PI-nion
+    cefr: A1
+    meaning_vi:
+      - ý kiến
+      - quan điểm
+    collocations:
+      - in my opinion
+      - express an opinion
+      - a different opinion
+    notes_vi:
+      - Nói 'In my opinion, …' — không nói *According to my opinion*.
+      - Không dùng 'In my opinion, I think…' (lặp ý).
+    topics:
+      - education
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opinion, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opinion, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opinion, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: outdoor|adj
+    headword: outdoor
+    pos: adj
+    ipa:
+      uk: /ˈaʊt.dɔː/
+      us: /ˈaʊt.dɔːr/
+    cefr: B1
+    meaning_vi:
+      - ngoài trời
+    collocations:
+      - outdoor activities
+      - outdoor sports
+    notes_vi:
+      - outdoor là tính từ, đứng trước danh từ (outdoor activities); outdoors là trạng từ (I spend time outdoors).
+    topics:
+      - environment
+      - hobbies
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/outdoor, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outdoor, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outdoor, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outdoor, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: overall|adv
+    headword: overall
+    pos: adv
+    ipa:
+      uk: /ˌəʊ.vərˈɔːl/
+      us: /ˌoʊ.vɚˈɑːl/
+    cefr: B2
+    meaning_vi:
+      - nhìn chung
+      - tổng thể
+    collocations:
+      - Overall, …
+    notes_vi:
+      - "Mở đầu đoạn Overview trong Task 1: Overall, …"
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overall_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overall_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overall_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: offender|n
+    headword: offender
+    pos: n
+    ipa:
+      uk: /əˈfen.dər/
+      us: /əˈfen.dɚ/
+    stress: of-FEN-der
+    cefr: B2
+    meaning_vi:
+      - người phạm tội
+    collocations:
+      - young offenders
+      - first-time offenders
+    notes_vi:
+      - Từ trang trọng hơn criminal, rất hay gặp trong Writing chủ đề tội phạm.
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/offender, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/offender, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/offender, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: outweigh|v
+    headword: outweigh
+    pos: v
+    ipa:
+      uk: /ˌaʊtˈweɪ/
+      us: /ˌaʊtˈweɪ/
+    stress: out-WEIGH
+    cefr: null
+    meaning_vi:
+      - lớn hơn
+      - quan trọng hơn (khi cân nhắc)
+    collocations:
+      - the advantages outweigh the disadvantages
+    notes_vi:
+      - "gh câm: /ˌaʊtˈweɪ/. Không cần 'than': A outweighs B (không nói *outweigh than*)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outweigh, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outweigh, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: on-the-other-hand|idiom
+    headword: on the other hand
+    pos: idiom
+    ipa:
+      uk: /ɒn ði ˈʌð.ər ˌhænd/
+      us: /ɑːn ði ˈʌð.ɚ ˌhænd/
+    cefr: null
+    meaning_vi:
+      - mặt khác (nêu ý đối lập)
+    notes_vi:
+      - Chỉ dùng để nêu mặt ĐỐI LẬP — không dùng để thêm ý cùng chiều (lỗi rất hay gặp).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

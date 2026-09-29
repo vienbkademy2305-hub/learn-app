@@ -35,6 +35,7 @@ export default async function EnLessonLayout({ children, params }: { children: R
               {lesson.status === "draft" && <Badge tone="amber">Bản nháp</Badge>}
             </p>
             <h1 className="text-2xl font-bold text-stone-900 sm:text-3xl">{lesson.title_vi}</h1>
+            {lesson.focus?.skill && <p className="mt-1 text-sm text-stone-500">Kỹ năng: {lesson.focus.skill}</p>}
             {lesson.focus?.grammar && <p className="mt-1 text-sm text-stone-500">Ngữ pháp: {lesson.focus.grammar}</p>}
           </div>
           <div className="flex gap-2 text-sm">

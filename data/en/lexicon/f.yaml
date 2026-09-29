@@ -430,6 +430,7 @@ entries:
     meaning_vi:
       - ngã
       - rơi
+      - giảm (số liệu, giá cả)
     collocations:
       - fall off a bike
       - fall down
@@ -705,4 +706,227 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fresh-air|phr-n
+    headword: fresh air
+    pos: phr-n
+    ipa:
+      uk: /ˌfreʃ ˈeər/
+      us: /ˌfreʃ ˈer/
+    cefr: null
+    meaning_vi:
+      - không khí trong lành
+    collocations:
+      - get some fresh air
+      - breathe fresh air
+    notes_vi:
+      - "Không đếm được: không nói *a fresh air*."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: fake-news|phr-n
+    headword: fake news
+    pos: phr-n
+    ipa:
+      uk: /ˌfeɪk ˈnjuːz/
+      us: /ˌfeɪk ˈnuːz/
+    cefr: null
+    meaning_vi:
+      - tin giả
+    collocations:
+      - spread fake news
+      - fake news on social media
+    notes_vi:
+      - "news không đếm được, động từ số ít: Fake news spreads quickly."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fake-news, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fake-news, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fluctuate|v
+    headword: fluctuate
+    pos: v
+    ipa:
+      uk: /ˈflʌk.tʃu.eɪt/
+      us: /ˈflʌk.tʃu.eɪt/
+    stress: FLUC-tu-ate
+    cefr: null
+    meaning_vi:
+      - dao động
+      - lên xuống thất thường
+    collocations:
+      - fluctuate between X and Y
+      - fluctuate wildly
+    notes_vi:
+      - "Danh từ: fluctuation (fluc-tu-A-tion)."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fluctuate, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fluctuate, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: figure|n
+    headword: figure
+    pos: n
+    ipa:
+      uk: /ˈfɪɡ.ər/
+      us: /ˈfɪɡ.jɚ/
+    stress: FI-gure
+    cefr: A2
+    meaning_vi:
+      - con số
+      - số liệu
+    collocations:
+      - the figure for…
+      - sales figures
+    notes_vi:
+      - "'The figure for Vietnam' = số liệu của Việt Nam — cách tránh lặp lại cả cụm dài."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/figure, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/figure, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/figure, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: facility|n
+    headword: facility
+    pos: n
+    forms:
+      plural: facilities
+    ipa:
+      uk: /fəˈsɪl.ə.ti/
+      us: /fəˈsɪl.ə.t̬i/
+    stress: fa-CI-li-ty
+    cefr: B2
+    meaning_vi:
+      - cơ sở vật chất
+      - tiện ích
+    collocations:
+      - sports facilities
+      - modern facilities
+      - excellent facilities
+    notes_vi:
+      - "Thường dùng số nhiều: facilities."
+    topics:
+      - sport
+      - places
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/facility, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/facility, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/facility, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fitness|n
+    headword: fitness
+    pos: n
+    ipa:
+      uk: /ˈfɪt.nəs/
+      us: /ˈfɪt.nəs/
+    cefr: B1
+    meaning_vi:
+      - sự khỏe mạnh
+      - thể lực
+    collocations:
+      - a fitness class
+      - improve your fitness
+      - physical fitness
+    topics:
+      - health
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fitness, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fitness, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fitness, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: first-aid|phr-n
+    headword: first aid
+    pos: phr-n
+    ipa:
+      uk: /ˌfɜːst ˈeɪd/
+      us: /ˌfɝːst ˈeɪd/
+    cefr: null
+    meaning_vi:
+      - sơ cứu
+    collocations:
+      - a first aid room
+      - give first aid
+      - a first aid kit
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first-aid, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first-aid, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fine|n
+    headword: fine
+    pos: n
+    ipa:
+      uk: /faɪn/
+      us: /faɪn/
+    cefr: C1
+    meaning_vi:
+      - tiền phạt
+    collocations:
+      - pay a fine
+      - a heavy fine
+      - get a fine for speeding
+    notes_vi:
+      - "Khác tính từ fine (khỏe, ổn). Động từ: be fined 500,000 dong."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fine_3, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fine_3, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fine_3, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: freedom|n
+    headword: freedom
+    pos: n
+    ipa:
+      uk: /ˈfriː.dəm/
+      us: /ˈfriː.dəm/
+    stress: FREE-dom
+    cefr: B2
+    meaning_vi:
+      - sự tự do
+    collocations:
+      - personal freedom
+      - freedom of speech
+      - lose your freedom
+    topics:
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-29, field: ipa.us }
     status: draft

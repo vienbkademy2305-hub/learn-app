@@ -1,0 +1,339 @@
+# Buổi 25 — Công nghệ · Reading: True / False / Not Given. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-25-cong-nghe-true-false-not-given
+number: 25
+stage: 2
+title_vi: "Công nghệ · Reading: True / False / Not Given"
+focus:
+  grammar: Mệnh đề quan hệ who / which / that
+  skill: Reading — True / False / Not Given (và Yes / No / Not Given)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - technology|n
+      - device|n
+      - artificial-intelligence|phr-n
+      - automation|n
+      - digital-literacy|phr-n
+      - social-media|phr-n
+      - screen-time|phr-n
+      - software|n
+      - robot|n
+      - user|n
+      - data|n
+      - access|v
+      - addicted-to|colloc
+      - privacy|n
+      - fake-news|phr-n
+      - convenient|adj
+  - type: pronunciation
+    notes:
+      - word: technology|n
+        text_vi: "tech-NO-lo-gy: ch = /k/; đuôi -logy nhấn âm tiết trước nó (bi-O-lo-gy, tech-NO-lo-gy)."
+      - word: device|n
+        text_vi: "de-VICE /dɪˈvaɪs/: nhấn âm 2, âm cuối /s/ (không phải /z/)."
+      - word: automation|n
+        text_vi: "au-to-MA-tion: quy tắc -tion. au đọc /ɔː/."
+      - word: data|n
+        text_vi: "Hai cách đọc đều đúng: /ˈdeɪ.tə/ (phổ biến) và /ˈdɑː.tə/."
+      - word: privacy|n
+        text_vi: Anh-Anh PRI-va-cy /ˈprɪv.ə.si/, Anh-Mỹ /ˈpraɪ.və.si/.
+      - sound: snd-w
+        text_vi: "which /wɪtʃ/: tròn môi /w/ rồi mở ra; who /huː/ lại bắt đầu bằng /h/ — chữ w câm!"
+  - type: grammar
+    items:
+      - en-g2-05
+  - type: skill
+    skill: reading
+    title_vi: Reading — True / False / Not Given (và Yes / No / Not Given)
+    intro_vi: "Dạng câu hỏi gặp nhiều nhất trong IELTS Reading và cũng khiến người Việt mất điểm nhiều nhất. Cho một loạt nhận định, bạn quyết định: TRUE — bài đọc nói đúng như vậy; FALSE — bài đọc nói NGƯỢC LẠI; NOT GIVEN — bài đọc không có thông tin để khẳng định hay phủ định. Dạng Yes / No / Not Given làm y hệt, nhưng so với QUAN ĐIỂM của tác giả thay vì sự kiện."
+    steps:
+      - title_vi: Gạch từ khóa trong nhận định
+        text_vi: "Ba loại: CHỦ THỂ (ai/cái gì), HÀNH ĐỘNG/TÍNH CHẤT, và TỪ HẠN ĐỊNH (all, only, most, always, never, the first, more than). Từ hạn định là nơi hay 'cài bẫy' nhất."
+      - title_vi: Scan tìm đúng chỗ trong bài
+        text_vi: "Dùng tên riêng, số, thuật ngữ để định vị. Câu hỏi đi theo thứ tự bài đọc: đáp án câu 4 nằm sau câu 3."
+      - title_vi: Đọc kỹ 2–3 câu quanh đó
+        text_vi: "So sánh TỪNG phần của nhận định với bài: chủ thể có đúng không? hành động? mức độ, số lượng, thời gian?"
+      - title_vi: Quyết định bằng ba câu hỏi
+        text_vi: Bài có nói đúng ý này không? → TRUE. Bài có nói điều NGƯỢC LẠI không? → FALSE. Bài không đề cập, hoặc chỉ nói một phần mà không đủ để kết luận? → NOT GIVEN.
+      - title_vi: Chỉ dựa vào bài đọc
+        text_vi: Không dùng hiểu biết bên ngoài. Một nhận định đúng ngoài đời vẫn là NOT GIVEN nếu bài không nói tới.
+    tips:
+      - "Câu NOT GIVEN thường thêm một chi tiết nhỏ mà bài không có: một so sánh (more popular than), một lý do (because…), một ngôi thứ (the first, the most)."
+      - FALSE cần một câu trong bài MÂU THUẪN trực tiếp. Nếu không chỉ ra được câu mâu thuẫn đó → nghiêng về NOT GIVEN.
+      - Thường mỗi bộ câu hỏi có đủ cả T, F và NG — nếu chưa có NG nào, xem lại.
+      - "Không kẹt quá 2 phút một câu: đánh dấu, làm câu sau, quay lại cuối giờ. Không bao giờ bỏ trống."
+    traps:
+      - trap_vi: Không tìm thấy thông tin trong bài → chọn FALSE.
+        fix_vi: "Không thấy = NOT GIVEN. FALSE chỉ khi bài nói ngược lại. (Lỗi bạn hay mắc — luôn tự hỏi: 'Câu nào trong bài phủ định điều này?')"
+      - trap_vi: Bài có hai đối tượng giống nhau (hai công ty, hai ứng dụng, bố mẹ ruột và bố mẹ vợ…) → lấy thông tin của đối tượng này gán cho đối tượng kia.
+        fix_vi: "Kiểm tra CHỦ THỂ trước tiên: ai/cái gì thực sự làm việc đó? Đọc kỹ từ đứng trước who/which và các đại từ he, it, they."
+      - trap_vi: Thấy trùng từ khóa là chọn TRUE.
+        fix_vi: "So từ hạn định: 'most users' ≠ 'all users'; 'increased' ≠ 'doubled'; 'can' ≠ 'always'."
+      - trap_vi: "Nhầm dạng: đề Yes/No/NG mà ghi True/False."
+        fix_vi: Đọc kỹ yêu cầu và ghi đúng ký hiệu — ghi sai loại là mất điểm.
+    phrases:
+      - en: all / every – most – many / some – few – none
+        vi: tất cả – phần lớn – nhiều/một số – ít – không ai
+        note_vi: Đổi từ hạn định là đổi nghĩa.
+      - en: always – usually – sometimes – rarely – never
+        vi: luôn luôn – thường – thỉnh thoảng – hiếm khi – không bao giờ
+      - en: only / just
+        vi: chỉ
+        note_vi: Thêm 'only' vào nhận định thường tạo câu FALSE hoặc NOT GIVEN.
+      - en: the first / the largest / the most popular
+        vi: đầu tiên / lớn nhất / phổ biến nhất
+        note_vi: Bài phải nói rõ ngôi thứ này thì mới là TRUE.
+      - en: more than / less than / twice as many as
+        vi: hơn / ít hơn / gấp đôi
+    demo:
+      title_vi: "Làm mẫu: bốn nhận định, bốn cách suy luận"
+      text_en: |-
+        Two Vietnamese start-ups, GreenRide and FastFood, launched their mobile apps in 2019. GreenRide, which offers electric motorbike taxis, now has about two million users, mostly in Hanoi. FastFood delivers meals in Ho Chi Minh City and Da Nang. Last year FastFood's number of users doubled, but the company has not made a profit yet.
+
+        1. GreenRide's app was launched in 2019.
+        2. Most GreenRide users live in Ho Chi Minh City.
+        3. GreenRide is the most popular taxi app in Vietnam.
+        4. GreenRide's users doubled last year.
+      notes:
+        - label: 1 → TRUE
+          text_vi: "'Two start-ups, GreenRide and FastFood, launched their mobile apps in 2019' — khớp chủ thể, hành động, thời gian."
+        - label: 2 → FALSE
+          text_vi: "Bài: 'mostly in Hanoi' — nói NGƯỢC với Ho Chi Minh City. Có câu mâu thuẫn trực tiếp → FALSE."
+        - label: 3 → NOT GIVEN
+          text_vi: Bài nói có hai triệu người dùng, nhưng không so với app nào khác. 'the most popular' là chi tiết thêm → NOT GIVEN.
+        - label: 4 → NOT GIVEN (bẫy chủ thể)
+          text_vi: Người dùng tăng gấp đôi là của FASTFOOD, không phải GreenRide. Bài không nói gì về GreenRide năm ngoái → NOT GIVEN. Nếu không kiểm tra chủ thể, bạn sẽ chọn nhầm TRUE vì thấy trùng từ 'doubled'.
+  - type: examples
+    items:
+      - b25-001
+      - b25-002
+      - b25-003
+      - b25-004
+      - b25-005
+      - b25-006
+      - b25-007
+      - b25-008
+      - b25-011
+      - b25-013
+      - b25-014
+  - type: dialogue
+    title_vi: Con nghiện điện thoại?
+    lines:
+      - speaker: A
+        text: My son spends six hours a day on his phone. I'm worried.
+        vi: Con trai tôi dùng điện thoại sáu tiếng mỗi ngày. Tôi lo quá.
+      - speaker: B
+        text: That's a lot of screen time. What does he do on it?
+        vi: Nhiều thời gian màn hình quá. Cháu làm gì trên đó?
+      - speaker: A
+        text: Mostly games and social media. I think he's addicted to them.
+        vi: Chủ yếu là chơi game và mạng xã hội. Tôi nghĩ cháu nghiện rồi.
+      - speaker: B
+        text: My daughter was the same. We found an app that limits screen time.
+        vi: Con gái tôi cũng từng như vậy. Chúng tôi tìm được một ứng dụng giới hạn thời gian dùng màn hình.
+      - speaker: A
+        text: Does it really work?
+        vi: Nó có hiệu quả thật không?
+      - speaker: B
+        text: Yes. It turns off the games after two hours, but she can still access her school websites.
+        vi: Có. Nó tắt game sau hai tiếng, nhưng con bé vẫn vào được các trang web của trường.
+      - speaker: A
+        text: That sounds useful. Is it safe? I don't want the company to collect his data.
+        vi: Nghe hữu ích đấy. Có an toàn không? Tôi không muốn công ty đó thu thập dữ liệu của cháu.
+      - speaker: B
+        text: Read the privacy rules first. Choose an app which doesn't share data with other companies.
+        vi: Chị đọc quy định về quyền riêng tư trước. Chọn ứng dụng nào không chia sẻ dữ liệu với công ty khác.
+      - speaker: A
+        text: Good idea. Technology causes the problem, and technology helps us fix it!
+        vi: Ý hay. Công nghệ gây ra vấn đề, và công nghệ giúp ta giải quyết nó!
+  - type: exercises
+    items:
+      - id: b25-x1
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc bài và chọn T (TRUE), F (FALSE) hoặc NG (NOT GIVEN). Nhớ: không thấy thông tin → NG, không phải F. Kiểm tra chủ thể trước khi chọn."
+        passage: |-
+          Robots in Vietnamese factories
+
+          In the past ten years, many factories in Vietnam have started to use robots. The first large group of industrial robots arrived at a car factory in Hai Phong in 2017. Today, robots which weld metal parts can work 24 hours a day without a break, and they make fewer mistakes than human workers.
+
+          However, automation has not replaced all factory jobs. Most clothing factories still need thousands of workers, because robots cannot yet sew soft materials as well as people. In electronics factories, on the other hand, robots now do most of the work on the production line.
+
+          Some workers who lost their jobs to robots have joined training courses. A programme in Binh Duong, which started in 2021, teaches workers how to repair and control robots. So far, about 3,000 people have finished the course, and most of them have found new jobs in the same factories.
+        questions:
+          - q: Vietnamese factories have used robots for more than twenty years.
+            answer: F
+            explain_vi: "Bài: 'In the past ten years… have started to use robots' → ngược với 'hơn 20 năm'."
+          - q: The first big group of industrial robots went to a car factory.
+            answer: T
+          - q: Welding robots make more mistakes than people.
+            answer: F
+            explain_vi: "Bài: 'they make fewer mistakes than human workers'."
+          - q: Robots are cheaper than workers in clothing factories.
+            answer: NG
+            explain_vi: Bài nói robot chưa may vải mềm tốt, không nói gì về giá.
+          - q: In clothing factories, robots do most of the work.
+            answer: F
+            explain_vi: "Bẫy chủ thể: robot làm phần lớn việc là ở nhà máy ĐIỆN TỬ; nhà máy may vẫn cần hàng nghìn công nhân."
+          - q: The training programme in Binh Duong started in 2021.
+            answer: T
+          - q: The training course is free for workers.
+            answer: NG
+            explain_vi: Bài không nói khóa học có mất phí hay không.
+          - q: Most people who finished the course found new jobs.
+            answer: T
+            explain_vi: "'most of them have found new jobs' — chú ý từ hạn định most khớp."
+      - id: b25-x2
+        bank_no: 13
+        kind: ynng
+        instructions_vi: Bài viết thể hiện QUAN ĐIỂM của tác giả. Chọn Y (YES — đúng quan điểm tác giả), N (NO — trái quan điểm tác giả) hoặc NG (NOT GIVEN — không biết tác giả nghĩ gì).
+        passage: "Many parents believe that smartphones are bad for children. In my view, the problem is not the phone itself but how long children use it. A phone can be a useful learning tool: my students use dictionary apps and watch science videos that make lessons more interesting. However, I believe that children under ten should not have their own phones, because they cannot control their screen time. Schools also have a role to play. Instead of banning phones completely, schools should teach digital literacy, so that students learn to find reliable information and avoid fake news."
+        questions:
+          - q: Smartphones are always harmful to children.
+            answer: N
+            explain_vi: "Tác giả: vấn đề không phải ở điện thoại mà ở thời gian dùng."
+          - q: Phones can help children learn.
+            answer: Y
+          - q: Children under ten should not own a phone.
+            answer: Y
+          - q: Schools should ban phones completely.
+            answer: N
+            explain_vi: "'Instead of banning phones completely…'"
+          - q: Parents should use apps to check their children's messages.
+            answer: NG
+            explain_vi: Tác giả không nói gì về việc phụ huynh kiểm tra tin nhắn.
+      - id: b25-x3
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu thành một câu, dùng who, which hoặc where.
+        questions:
+          - q: I have a friend. She works for a software company.
+            answer: I have a friend who works for a software company.
+            accept:
+              - I have a friend that works for a software company.
+          - q: This is the robot. It cleans our office every night.
+            answer: This is the robot which cleans our office every night.
+            accept:
+              - This is the robot that cleans our office every night.
+          - q: Users download this app. They can learn English for free.
+            answer: Users who download this app can learn English for free.
+            accept:
+              - Users that download this app can learn English for free.
+          - q: That is the café. I usually work online there.
+            answer: That is the café where I usually work online.
+            accept:
+              - That is the cafe where I usually work online.
+          - q: The laptop was expensive. I bought it last week.
+            answer: The laptop which I bought last week was expensive.
+            accept:
+              - The laptop that I bought last week was expensive.
+              - The laptop I bought last week was expensive.
+      - id: b25-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (mệnh đề quan hệ, số nhiều, chia động từ). Sửa trực tiếp.
+        text: My uncle is an engineer which designs robots for factories. The robots that he builds them can lift heavy boxes. People who works with these robots need special training. He has trained many worker in Bac Ninh. The factory where he works there is very modern.
+        errors:
+          - wrong: an engineer which designs
+            right: an engineer who designs
+            why: Người → who/that.
+          - wrong: that he builds them can
+            right: that he builds can
+            why: that đã thay cho the robots — bỏ them.
+          - wrong: People who works
+            right: People who work
+            why: Chia theo People (số nhiều).
+          - wrong: many worker
+            right: many workers
+            why: many + danh từ số nhiều.
+          - wrong: where he works there is
+            right: where he works is
+            why: where đã mang nghĩa 'ở đó' — bỏ there.
+      - id: b25-x5
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank:
+          - device
+          - software
+          - social media
+          - screen time
+          - privacy
+          - fake news
+          - digital literacy
+          - automation
+        questions:
+          - q: Doctors say children should have less than two hours of ___ a day.
+            answer: screen time
+          - q: A tablet is a small ___ with a touch screen.
+            answer: device
+          - q: Don't share your password — protect your ___.
+            answer: privacy
+          - q: Always check the source before you share a story. It may be ___.
+            answer: fake news
+          - q: My brother writes ___ for a bank.
+            answer: software
+          - q: Older people need ___ to use online banking safely.
+            answer: digital literacy
+          - q: Most young people get their news from ___ like Facebook and TikTok.
+            answer: social media
+          - q: ___ has changed the way factories work.
+            answer: automation
+            explain_vi: "Đầu câu viết hoa: Automation."
+      - id: b25-x6
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Smartphone ___ in Vietnam are getting younger.
+            base: use
+            answer: users
+          - q: Many factories have become fully ___.
+            base: automation
+            answer: automated
+          - q: The internet has made shopping more ___.
+            base: convenience
+            answer: convenient
+          - q: He is ___ to online games.
+            base: addict
+            answer: addicted
+          - q: We live in a ___ world.
+            base: technology
+            answer: technological
+            explain_vi: "Tính từ: tech-no-LO-gi-cal."
+      - id: b25-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Which app do you use to learn English?
+          Man: I use an app that gives me ten new words every day. It was made by a company which is based in Da Nang.
+          Woman: Is it free?
+          Man: Yes, but users who pay get more exercises.
+          Woman: Does it collect your data?
+          Man: I read the privacy rules. It only keeps your email address.
+        questions:
+          - { q: What does the app give the man every day?, options: [ ten new words, a short video, a test, a story ], answer: a }
+          - { q: Where is the company based?, options: [ Hanoi, Da Nang, Ho Chi Minh City, abroad ], answer: b }
+          - { q: What data does the app keep?, options: [ his phone number, only his email address, his photos, nothing at all ], answer: b }
+      - id: b25-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: A recent survey asked one thousand teenagers about their screen time. Most of them spend more than five hours a day on their phones. Teenagers who use social media late at night often sleep badly. However, only twenty per cent said they wanted to reduce their screen time.
+        questions:
+          - { q: The survey asked one thousand teenagers., answer: T }
+          - { q: Most teenagers spend less than five hours a day on their phones., answer: F }
+          - { q: Teenagers who use social media late at night often sleep well., answer: F }
+          - { q: Most teenagers want to reduce their screen time., answer: F, explain_vi: Chỉ 20%. }
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ: công nghệ đã thay đổi cuộc sống hằng ngày của bạn thế nào (tích cực và tiêu cực). Dùng ít nhất 4 mệnh đề quan hệ (who/which/that/where) và 2 câu hiện tại hoàn thành. Sau đó tự viết 3 nhận định T/F/NG về đoạn văn của chính mình (1 câu mỗi loại) — cách tốt nhất để hiểu vì sao NG khác F."
+    prompt_en: How has technology changed your daily life? Write about good and bad effects.
+    words:
+      min: 150
+      max: 180
+    minutes: 30

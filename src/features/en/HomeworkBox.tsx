@@ -49,7 +49,7 @@ export function HomeworkBox({
       <div>
         <h2 className="text-xl font-bold text-stone-900">Bài viết về nhà</h2>
         <p className="mt-2 text-stone-800">{prompt}</p>
-        {promptEn && <p lang="en" className="mt-1 text-stone-500 italic">{promptEn}</p>}
+        {promptEn && <p lang="en" className="mt-1 whitespace-pre-wrap text-stone-500 italic">{promptEn}</p>}
         <p className="mt-2 text-sm text-stone-500">
           {words && `${words.min}–${words.max} từ`}
           {minutes && ` · khoảng ${minutes} phút`} · Tự đọc lại và sửa lỗi trước khi nộp (a/an/the, -s số nhiều, viết hoa I, dấu phẩy nối câu).

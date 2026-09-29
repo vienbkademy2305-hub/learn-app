@@ -12,6 +12,25 @@ describe("English stage tests — data", () => {
     for (const t of snap.tests) expect(t.pass_percent).toBe(80);
   });
 
+  it("every stage 2 mini test covers its five lessons, error by error", () => {
+    for (const t of snap.tests.filter((x) => x.stage === 2 && x.kind === "mini")) {
+      const lessons = new Set(testExercises(t).flatMap(itemLessons));
+      const want = [0, 1, 2, 3, 4].map((i) => t.after_lesson - 4 + i);
+      expect([...lessons].sort((a, b) => a - b), t.id).toEqual(want);
+      for (const ex of testExercises(t).filter((e) => e.kind === "error-correction"))
+        expect(itemLessons(ex), ex.id).toEqual(ex.errors!.map((e) => e.lesson ?? ex.lesson));
+    }
+  });
+
+  it("every stage test has a two-voice listening dialogue and a listening true/false task", async () => {
+    const { dialogueTurns } = await import("../src/features/en/speech");
+    for (const t of snap.tests) {
+      const listening = testExercises(t).filter((ex) => ex.audio_text);
+      expect(listening.some((ex) => dialogueTurns(ex.audio_text!)), `${t.id} dialogue`).toBe(true);
+      expect(listening.some((ex) => ex.kind === "tf"), `${t.id} true/false`).toBe(true);
+    }
+  });
+
   it("every item is tagged with a lesson the test covers", () => {
     for (const t of snap.tests)
       for (const ex of testExercises(t))
@@ -26,7 +45,7 @@ describe("English stage tests — data", () => {
       for (const ex of testExercises(t)) {
         for (const q of ex.questions ?? []) {
           if (ex.kind === "mcq") expect(mcqIndex(q.answer), `${ex.id} ${q.q}`).toBeLessThan(q.options!.length);
-          else if (ex.kind !== "tfng") expect(isCorrect(String(q.answer), q.answer, q.accept), `${ex.id} ${q.q}`).toBe(true);
+          else if (!["tfng", "ynng", "tf"].includes(ex.kind)) expect(isCorrect(String(q.answer), q.answer, q.accept), `${ex.id} ${q.q}`).toBe(true);
         }
         if (ex.kind === "error-correction") {
           let fixed = ex.text!;

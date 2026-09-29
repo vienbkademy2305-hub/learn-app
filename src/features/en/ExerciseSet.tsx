@@ -12,7 +12,7 @@ import { Say } from "./speech";
 
 const KIND_VI: Record<string, string> = {
   "gap-fill": "Điền từ", "verb-form": "Chia động từ", "word-form": "Dạng từ", paraphrase: "Viết lại câu", transformation: "Biến đổi câu",
-  combine: "Nối câu", mcq: "Trắc nghiệm", tfng: "True / False / Not Given", ynng: "Yes / No / Not Given", completion: "Điền thông tin",
+  combine: "Nối câu", mcq: "Trắc nghiệm", tfng: "True / False / Not Given", tf: "Đúng / Sai (True / False)", ynng: "Yes / No / Not Given", completion: "Điền thông tin",
   "match-definition": "Nối từ – định nghĩa", collocation: "Ghép cụm từ", "error-correction": "Tìm và sửa lỗi", dictation: "Nghe chép",
   "speaking-part1": "Nói – Part 1", "speaking-part2": "Nói – Part 2", "speaking-part3": "Nói – Part 3",
 };
@@ -64,7 +64,7 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
       ok = (ex.pairs ?? []).map((p, i) => answers[i] === p.right);
     } else if (ex.kind === "mcq") {
       ok = qs.map((q, i) => answers[i] !== undefined && Number(answers[i]) === mcqIndex(q.answer));
-    } else if (ex.kind === "tfng" || ex.kind === "ynng") {
+    } else if (ex.kind === "tfng" || ex.kind === "ynng" || ex.kind === "tf") {
       ok = qs.map((q, i) => answers[i] === String(q.answer));
     } else {
       ok = qs.map((q, i) => isCorrect(answers[i] ?? "", q.answer, q.accept));
@@ -118,7 +118,12 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
           ))}
         </div>
       )}
-      {ex.passage && <p lang="en" className="rounded-xl bg-stone-50 p-4 leading-relaxed whitespace-pre-line text-stone-800">{ex.passage}</p>}
+      {ex.audio_text && (
+        <div className="flex flex-wrap items-center gap-2 rounded-xl bg-sky-50 p-3 text-sm text-sky-950">
+          Nghe bài (thi thật chỉ nghe 1 lần — cố gắng làm sau lần nghe đầu): <Say text={ex.audio_text} slow dialogue label="Nghe" />
+        </div>
+      )}
+      {ex.passage && <p lang="en" className="rounded-xl bg-stone-50 p-4 leading-relaxed whitespace-pre-wrap text-stone-800">{ex.passage}</p>}
       {ex.max_words && <p className="text-xs text-stone-500">Tối đa {ex.max_words} từ mỗi chỗ trống.</p>}
 
       {/* Question bodies by kind */}
@@ -175,13 +180,13 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
         </ol>
       )}
 
-      {(ex.kind === "tfng" || ex.kind === "ynng") && (
+      {(ex.kind === "tfng" || ex.kind === "ynng" || ex.kind === "tf") && (
         <ol className="space-y-3">
           {qs.map((q, i) => (
             <li key={i}>
               <p lang="en" className="text-stone-900">{i + 1}. {q.q}</p>
               <div className="mt-1.5 flex gap-2">
-                {(ex.kind === "tfng" ? ["T", "F", "NG"] : ["Y", "N", "NG"]).map((o) => {
+                {(ex.kind === "tfng" ? ["T", "F", "NG"] : ex.kind === "tf" ? ["T", "F"] : ["Y", "N", "NG"]).map((o) => {
                   const chosen = answers[i] === o;
                   const right = result && o === String(q.answer);
                   return (
@@ -321,6 +326,13 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
         <p className={`text-lg font-bold ${result.correct === result.total ? "text-jade-700" : "text-stone-900"}`}>
           {result.correct}/{result.total}
         </p>
+      )}
+
+      {result && ex.audio_text && (
+        <details className="rounded-xl bg-stone-50 p-3 text-sm">
+          <summary className="cursor-pointer font-medium text-stone-700">Xem lời bài nghe</summary>
+          <p lang="en" className="mt-2 leading-relaxed whitespace-pre-line text-stone-800">{ex.audio_text}</p>
+        </details>
       )}
 
       {!speaking && !test && (

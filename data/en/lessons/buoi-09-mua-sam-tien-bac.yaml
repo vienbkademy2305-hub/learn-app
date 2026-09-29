@@ -272,6 +272,34 @@ steps:
               - expensive
               - uniform
             answer: a
+      - id: b09-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Can I help you?
+          Man: Yes, how much is this jumper?
+          Woman: It's three hundred thousand dong. It's in the sale, so there's a twenty per cent discount.
+          Man: Can I try it on?
+          Woman: Of course.
+          Man: It's a bit small. Do you have a bigger size?
+          Woman: Yes, here's a large one. It's the last one.
+          Man: Great. Can I pay by credit card?
+          Woman: Sorry, only cash.
+        questions:
+          - { q: How much is the jumper before the discount?, options: [ "200,000 dong", "300,000 dong", "320,000 dong", "30,000 dong" ], answer: b }
+          - { q: How big is the discount?, options: [ 10%, 20%, 30%, no discount ], answer: b }
+          - { q: How can the man pay?, options: [ by credit card, in cash, by phone, He can't pay. ], answer: b }
+      - id: b09-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Ben Thanh Market is one of the oldest markets in Ho Chi Minh City. Things there are not as cheap as in small local markets, but you can bargain. The shopping centre across the road is more expensive, but it is the most comfortable place in hot weather.
+        questions:
+          - { q: Ben Thanh is one of the oldest markets in the city., answer: T }
+          - { q: Ben Thanh is cheaper than small local markets., answer: F }
+          - { q: You can bargain at Ben Thanh., answer: T }
+          - { q: The shopping centre is the cheapest place., answer: F }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 60–90 từ so sánh ba nơi mua sắm ở nơi bạn sống. Dùng ít nhất 2 câu so sánh nhất và 1 câu not as … as.

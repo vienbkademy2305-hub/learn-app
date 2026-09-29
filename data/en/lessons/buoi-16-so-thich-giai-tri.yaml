@@ -287,6 +287,30 @@ steps:
             answer: go
           - q: My brother wants to ___ karate.
             answer: do
+      - id: b16-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: What do you like doing at the weekend?
+          Woman: I enjoy painting, and I'm learning to play the guitar.
+          Man: Cool! I love watching football. Do you want to come to a match on Sunday?
+          Woman: I'd love to, but I promised to visit my grandmother.
+          Man: No problem. Maybe next time.
+        questions:
+          - { q: What does the woman enjoy?, options: [ playing football, painting, cooking, swimming ], answer: b }
+          - { q: What is she learning?, options: [ to play the piano, to play the guitar, to paint, to cook ], answer: b }
+          - { q: Why can't she go to the match?, options: [ She hates football., She is ill., She is visiting her grandmother., She has to work. ], answer: c }
+      - id: b16-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: I joined a photography club last year. We meet every Saturday and practise taking photos in different parts of the city. I don't mind getting up early, because the light is beautiful in the morning. Next month our club is showing our photos at a café.
+        questions:
+          - { q: The speaker joined the club two years ago., answer: F }
+          - { q: The club meets every Saturday., answer: T }
+          - { q: The speaker hates getting up early., answer: F }
+          - { q: Next month the club is showing photos at a café., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: "Viết đoạn văn 70–100 từ về sở thích của bạn: bạn thích làm gì, bắt đầu khi nào, và dự định gì cho sở thích đó. Dùng ít nhất 3 động từ + V-ing và 3 động từ + to V."

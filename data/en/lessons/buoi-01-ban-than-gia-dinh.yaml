@@ -212,6 +212,33 @@ steps:
               - it's
               - them
             answer: a
+      - id: b01-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Woman: Hello. What's your full name, please?
+          Man: My name is Tran Van Nam.
+          Woman: Where are you from, Nam?
+          Man: I'm from Hue, but I live in Da Nang with my family.
+          Woman: What do you do?
+          Man: I work as an engineer. My wife is a teacher.
+          Woman: Do you have any children?
+          Man: Yes, we have a son and a daughter. Our son is six and our daughter is three.
+        questions:
+          - { q: Where is Nam from?, options: [ Da Nang, Hue, Hanoi, Hai Phong ], answer: b }
+          - { q: What is Nam's job?, options: [ a teacher, a doctor, an engineer, a driver ], answer: c }
+          - { q: How old is Nam's daughter?, options: [ three, six, nine, two ], answer: a }
+      - id: b01-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Hi, I'm Mai. I'm Vietnamese and I'm twenty years old. I live with my parents and my younger brother in Hanoi. My brother is a student. My aunt and uncle live in Japan, so I speak a little Japanese.
+        questions:
+          - { q: Mai is twenty years old., answer: T }
+          - { q: Mai lives with her grandparents., answer: F }
+          - { q: Her brother is a student., answer: T }
+          - { q: Her aunt and uncle live in China., answer: F }
 
   - type: homework
     kind: paragraph

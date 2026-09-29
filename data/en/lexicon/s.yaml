@@ -1291,3 +1291,341 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: skill|n
+    headword: skill
+    pos: n
+    ipa:
+      uk: /skɪl/
+      us: /skɪl/
+    cefr: A1
+    meaning_vi:
+      - kỹ năng
+    collocations:
+      - improve your skills
+      - language skills
+      - soft skills
+      - practical skills
+    notes_vi:
+      - "Đếm được: many skills — nhớ -s khi nói nhiều kỹ năng."
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skill, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skill, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skill, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: scholarship|n
+    headword: scholarship
+    pos: n
+    ipa:
+      uk: /ˈskɒl.ə.ʃɪp/
+      us: /ˈskɑː.lɚ.ʃɪp/
+    stress: SCHO-lar-ship
+    cefr: B2
+    meaning_vi:
+      - học bổng
+    collocations:
+      - win a scholarship
+      - get a scholarship
+      - apply for a scholarship
+      - a full scholarship
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scholarship, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scholarship, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scholarship, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: single-use-plastic|phr-n
+    headword: single-use plastic
+    pos: phr-n
+    ipa:
+      uk: /ˌsɪŋ.ɡəl.juːs ˈplæs.tɪk/
+      us: /ˌsɪŋ.ɡəl.juːs ˈplæs.tɪk/
+    cefr: null
+    meaning_vi:
+      - nhựa dùng một lần
+    collocations:
+      - ban single-use plastic
+      - single-use plastic bags
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: social-media|phr-n
+    headword: social media
+    pos: phr-n
+    ipa:
+      uk: /ˌsəʊ.ʃəl ˈmiː.di.ə/
+      us: /ˌsoʊ.ʃəl ˈmiː.di.ə/
+    cefr: null
+    meaning_vi:
+      - mạng xã hội
+    collocations:
+      - use social media
+      - on social media
+      - social media platforms
+    notes_vi:
+      - "Nói 'on social media' (không nói *in social media*). Không thêm -s: *social medias*."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/social-media, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/social-media, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: screen-time|phr-n
+    headword: screen time
+    pos: phr-n
+    ipa:
+      uk: /ˈskriːn ˌtaɪm/
+      us: /ˈskriːn ˌtaɪm/
+    cefr: null
+    meaning_vi:
+      - thời gian dùng màn hình (điện thoại, máy tính, TV)
+    collocations:
+      - limit screen time
+      - too much screen time
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen-time, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen-time, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: software|n
+    headword: software
+    pos: n
+    ipa:
+      uk: /ˈsɒft.weər/
+      us: /ˈsɑːft.wer/
+    stress: SOFT-ware
+    cefr: B1
+    meaning_vi:
+      - phần mềm
+    collocations:
+      - install software
+      - a software engineer
+    notes_vi:
+      - "Không đếm được: a piece of software (không nói *a software*, *softwares*)."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/software, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/software, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/software, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: sharply|adv
+    headword: sharply
+    pos: adv
+    ipa:
+      uk: /ˈʃɑːp.li/
+      us: /ˈʃɑːrp.li/
+    cefr: null
+    meaning_vi:
+      - mạnh
+      - đột ngột (tăng/giảm)
+    collocations:
+      - rise sharply
+      - fall sharply
+    notes_vi:
+      - "Tính từ: sharp → a sharp rise."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sharply, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sharply, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: significantly|adv
+    headword: significantly
+    pos: adv
+    ipa:
+      uk: /sɪɡˈnɪf.ɪ.kənt.li/
+      us: /sɪɡˈnɪf.ɪ.kənt.li/
+    stress: sig-NI-fi-cant-ly
+    cefr: B2
+    meaning_vi:
+      - đáng kể
+    collocations:
+      - grow significantly
+      - significantly higher
+    notes_vi:
+      - "Tính từ: significant → a significant increase."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/significantly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/significantly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/significantly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: slightly|adv
+    headword: slightly
+    pos: adv
+    ipa:
+      uk: /ˈslaɪt.li/
+      us: /ˈslaɪt.li/
+    cefr: B1
+    meaning_vi:
+      - nhẹ
+      - một chút
+    collocations:
+      - fall slightly
+      - slightly higher than
+    notes_vi:
+      - "Tính từ: slight → a slight fall."
+    topics:
+      - writing-task1
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slightly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slightly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slightly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: swimming-pool|phr-n
+    headword: swimming pool
+    pos: phr-n
+    ipa:
+      uk: /ˈswɪm.ɪŋ ˌpuːl/
+      us: /ˈswɪm.ɪŋ ˌpuːl/
+    cefr: null
+    meaning_vi:
+      - bể bơi
+    collocations:
+      - an indoor swimming pool
+      - an outdoor swimming pool
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming-pool, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming-pool, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: stretch|v
+    headword: stretch
+    pos: v
+    ipa:
+      uk: /stretʃ/
+      us: /stretʃ/
+    cefr: B2
+    meaning_vi:
+      - giãn cơ
+      - duỗi người
+    collocations:
+      - stretch before running
+      - stretch your legs
+    topics:
+      - health
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stretch, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stretch, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stretch, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: steal|v
+    headword: steal
+    pos: v
+    forms:
+      past: stole
+      pp: stolen
+    ipa:
+      uk: /stiːl/
+      us: /stiːl/
+    cefr: A2
+    meaning_vi:
+      - ăn trộm
+      - lấy cắp
+    collocations:
+      - steal a phone
+      - have something stolen
+    notes_vi:
+      - steal ĐỒ VẬT (steal a bag); rob NGƯỜI/NƠI (rob a bank, rob someone). Không nói *steal a person*.
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/steal, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/steal, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/steal, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: security-camera|phr-n
+    headword: security camera
+    pos: phr-n
+    ipa:
+      uk: /sɪˈkjʊə.rə.ti ˌkæm.rə/
+      us: /səˈkjʊr.ə.t̬i ˌkæm.rə/
+    cefr: null
+    meaning_vi:
+      - camera an ninh
+    collocations:
+      - install security cameras
+      - CCTV
+    topics:
+      - crime
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: society|n
+    headword: society
+    pos: n
+    ipa:
+      uk: /səˈsaɪ.ə.ti/
+      us: /səˈsaɪ.ə.t̬i/
+    stress: so-CI-e-ty
+    cefr: A2
+    meaning_vi:
+      - xã hội
+    collocations:
+      - modern society
+      - in society
+      - society as a whole
+    notes_vi:
+      - "Nói chung không có the: Crime harms society. Tính từ: social."
+    topics:
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-29, field: ipa.us }
+    status: draft

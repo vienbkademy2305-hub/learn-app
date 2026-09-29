@@ -1,0 +1,179 @@
+# Kiểm tra ngắn 2 Giai đoạn 2 — sau Buổi 30 (Buổi 26–30). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd2-mini-2
+title_vi: "Kiểm tra ngắn 2: Buổi 26–30"
+stage: 2
+kind: mini
+after_lesson: 30
+minutes: 40
+pass_percent: 80
+intro_vi: "Miêu tả xu hướng (Task 1), vị trí trên bản đồ, used to, bị động các thì, từ nối và từ quy chiếu; từ vựng Công nghệ – Sức khỏe & thể thao – Tội phạm; nghe bản đồ, matching headings."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd2-mini-2-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "The number of users rose ___ from 2 to 8 million.", options: [sharp, sharply, sharpness, more sharp], answer: b, lesson: 26 }
+          - { q: "There was a ___ fall in sales in 2020.", options: [gradually, gradual, graduate, gradualness], answer: b, lesson: 26 }
+          - { q: "The price increased ___ 10%, from 50% to 60%.", options: [to, at, by, of], answer: c, lesson: 26 }
+          - { q: "The gym is ___ the end of the corridor.", options: [in, on, at, to], answer: c, lesson: 27 }
+          - { q: "The car park is outside the building, ___ the south of it.", options: [in, to, at, on], answer: b, lesson: 27 }
+          - { q: "When I was a child, I ___ swim in the river every summer.", options: [use to, used to, am used to, was used to], answer: b, lesson: 28 }
+          - { q: "I'm used to ___ up early now.", options: [get, got, getting, to get], answer: c, lesson: 28 }
+          - { q: "A new prison ___ at the moment.", options: [is building, is being built, has built, builds], answer: b, lesson: 29 }
+          - { q: "Two men ___ since Monday.", options: [have arrested, were arrested, have been arrested, are arresting], answer: c, lesson: 29 }
+          - { q: "Cameras reduce crime. ___, they help the police find witnesses.", options: [On the other hand, In addition, However, Although], answer: b, lesson: 30 }
+          - { q: "Prison is expensive. ___, it keeps dangerous people away from the public.", options: [In addition, For example, However, As a result], answer: c, lesson: 30 }
+      - id: gd2-mini-2-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: "Viết lại câu theo yêu cầu."
+        questions:
+          - { q: "Online sales increased significantly. → There was ___", answer: "a significant increase in online sales.", accept: ["a significant rise in online sales."], lesson: 26 }
+          - { q: "Someone has stolen my bike. → My bike ___", answer: "has been stolen.", lesson: 29 }
+          - { q: "The judge will punish the thief. → The thief ___", answer: "will be punished.", accept: ["will be punished by the judge."], lesson: 29 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd2-mini-2-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [fluctuated, remained stable, injury, facilities, took up, exhausted, victim, outweigh]
+        questions:
+          - { q: "The price ___ between $20 and $30 during the year.", answer: fluctuated, lesson: 26 }
+          - { q: "The number of visitors ___ at 5,000 from 2018 to 2020.", answer: remained stable, lesson: 26 }
+          - { q: "The sports centre has excellent ___: a pool, a gym and four courts.", answer: facilities, lesson: 27 }
+          - { q: "He couldn't play in the final because of a knee ___.", answer: injury, lesson: 27 }
+          - { q: "My mother ___ yoga when she was fifty.", answer: took up, lesson: 28 }
+          - { q: "After the marathon, I was completely ___.", answer: exhausted, lesson: 28 }
+          - { q: "The ___ of the robbery gave the police a description of the thief.", answer: victim, lesson: 29 }
+          - { q: "I believe the benefits of cameras ___ the drawbacks.", answer: outweigh, lesson: 30 }
+      - id: gd2-mini-2-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "Smartphone use has grown ___ since 2015.", base: significant, answer: significantly, lesson: 26 }
+          - { q: "Always ___ before running to avoid injury.", base: stretching, answer: stretch, lesson: 27 }
+          - { q: "Winning the medal was a ___ moment.", base: memory, answer: memorable, lesson: 28 }
+          - { q: "The ___ was caught at the airport.", base: crime, answer: criminal, lesson: 29 }
+          - { q: "Too many cameras may reduce personal ___.", base: free, answer: freedom, lesson: 30 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd2-mini-2-x5
+        bank_no: 14
+        kind: mcq
+        instructions_vi: "Matching headings: chọn tiêu đề đúng cho mỗi đoạn. Có 1 tiêu đề thừa."
+        lesson: 29
+        passage: |-
+          Headings:
+          i    Why teenagers join sports clubs
+          ii   The cost of a healthy lifestyle
+          iii  A change in how young people spend free time
+          iv   Ways schools can help
+
+          A  Twenty years ago, most teenagers in Vietnamese cities spent their afternoons playing football in the street or swimming in rivers. Today, many of them spend the same hours in front of a screen, playing games or watching videos.
+
+          B  Doctors say this is a problem that schools can help to solve. Some schools have added a second PE lesson each week, while others keep their sports facilities open after classes so that students can play for free.
+
+          C  However, staying active is not cheap for every family. A gym membership, a pair of running shoes or badminton lessons can cost more than some parents earn in a week.
+        questions:
+          - { q: "Paragraph A", options: ["i", "ii", "iii", "iv"], answer: c }
+          - { q: "Paragraph B", options: ["i", "ii", "iii", "iv"], answer: d }
+          - { q: "Paragraph C", options: ["i", "ii", "iii", "iv"], answer: b }
+      - id: gd2-mini-2-x6
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc bảng số liệu (giả định) và hoàn thành câu. Viết MỘT TỪ hoặc MỘT SỐ."
+        max_words: 1
+        lesson: 26
+        passage: |-
+          Number of bicycles sold in one city (thousands)
+                       2019   2020   2021   2022   2023
+          Bicycles       40     42     70     55     55
+        questions:
+          - { q: "Sales rose sharply ___ 2020 and 2021.", answer: between }
+          - { q: "Sales reached a ___ of 70,000 in 2021.", answer: peak }
+          - { q: "From 2022 to 2023, sales remained ___ at 55,000.", answer: stable }
+          - { q: "In 2022, sales fell ___ 15,000.", answer: by }
+  - title_vi: Nghe
+    exercises:
+      - id: gd2-mini-2-x7
+        bank_no: 19
+        kind: mcq
+        instructions_vi: "Nghe và chọn chữ cái đúng (A–F) cho mỗi địa điểm. Có 2 chữ cái thừa."
+        lesson: 27
+        audio_text: |-
+          Welcome to the Riverside Sports Centre. You're now at the main entrance, on the south side of the building. Reception is directly opposite the entrance, so you can't miss it. The swimming pool is on the east side of the building, that's on your right as you come in. The changing rooms are next to the pool, just past reception. And if you walk to the far end of the building, on your left you'll find the gym. The café used to be on the ground floor, but it has moved upstairs.
+        passage: |-
+          Plan of the ground floor (entrance in the south):
+          A – directly opposite the entrance
+          B – east side of the building
+          C – just past reception, next to B
+          D – far end, left (north-west)
+          E – far end, right (north-east)
+          F – west side, near the entrance
+        questions:
+          - { q: "reception", options: [A, B, C, D, E, F], answer: a }
+          - { q: "swimming pool", options: [A, B, C, D, E, F], answer: b }
+          - { q: "changing rooms", options: [A, B, C, D, E, F], answer: c }
+          - { q: "gym", options: [A, B, C, D, E, F], answer: d }
+      - id: gd2-mini-2-x8
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 29
+        text: "Three men have been arrested, and the stolen motorbikes will be returned to their owners."
+      - id: gd2-mini-2-x10
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai người bạn nói chuyện (hai giọng, nghe 1 lần như thi thật) rồi chọn đáp án đúng."
+        audio_text: |-
+          Man: You look tired, Hoa. Are you OK?
+          Woman: I'm exhausted! I ran my first half marathon yesterday.
+          Man: Wow, congratulations! I didn't know you were a runner.
+          Woman: I wasn't. I used to hate running, but I took it up last year to keep fit.
+          Man: Did you have any problems during the race?
+          Woman: I pulled a muscle in my leg after fifteen kilometres, but I didn't give up. I should stretch more before races.
+          Man: Good for you. By the way, did you hear the news? A bike was stolen outside our office this morning.
+          Woman: Really? Have they found the thief?
+          Man: Not yet, but the whole thing was recorded by a security camera, so I think he'll be caught soon.
+        questions:
+          - { q: "Why is Hoa tired?", options: [She worked late., She ran a half marathon., She is ill., She didn't sleep.], answer: b, lesson: 28 }
+          - { q: "Which is true about Hoa?", options: ["She has always loved running.", "She used to hate running.", "She runs because of her job.", "She started running as a child."], answer: b, lesson: 28 }
+          - { q: "What happened during the race?", options: ["She fell and broke her arm.", "She pulled a muscle in her leg.", "She stopped after 15 km.", "She got lost."], answer: b, lesson: 27 }
+          - { q: "What was stolen outside the office?", options: [a car, a phone, a bike, a bag], answer: c, lesson: 29 }
+          - { q: "Why does the man think the thief will be caught?", options: ["A witness saw him.", "The event was recorded by a camera.", "The police arrested him.", "He left his phone."], answer: b, lesson: 29 }
+      - id: gd2-mini-2-x11
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe đoạn trình bày về lao động công ích. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "Today I'd like to talk about community service for young offenders. The main advantage is that it is much cheaper than prison. In addition, offenders help society, for example by cleaning parks or working in hospitals. On the other hand, some people believe it is not harsh enough, so it may not deter crime. In our city, the number of young people who were given community service rose sharply from two hundred in 2020 to six hundred in 2024. Overall, I believe the advantages outweigh the disadvantages."
+        questions:
+          - { q: "Community service is more expensive than prison.", answer: F, lesson: 30 }
+          - { q: "Offenders may work in hospitals.", answer: T, lesson: 30 }
+          - { q: "Some people think community service is too harsh.", answer: F, explain_vi: "Họ cho rằng nó KHÔNG đủ nghiêm khắc.", lesson: 30 }
+          - { q: "The number of young people given community service rose sharply.", answer: T, lesson: 26 }
+          - { q: "In 2024, four hundred young people were given community service.", answer: F, explain_vi: "Con số là 600; 400 là mức tăng.", lesson: 26 }
+          - { q: "The speaker thinks the disadvantages are more important.", answer: F, lesson: 30 }
+  - title_vi: Viết câu
+    exercises:
+      - id: gd2-mini-2-x9
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp; lỗi dấu phẩy thì tách câu."
+        text: "The number of cyclists was increased sharply in 2021. I use to cycle to school every day. My bike has stole last month. Cycling is cheap, however roads can be dangerous. Cameras reduce crime. On the other hand, they help the police find thieves."
+        errors:
+          - { wrong: "was increased sharply", right: "increased sharply", why: "Số liệu tự tăng: chủ động.", lesson: 26 }
+          - { wrong: "I use to cycle", right: "I used to cycle", why: "used to + V.", lesson: 28 }
+          - { wrong: "has stole", right: "was stolen", why: "Bị động + last month → was stolen.", lesson: 29 }
+          - { wrong: "Cycling is cheap, however roads", right: "Cycling is cheap. However, roads", why: "however không nối câu bằng dấu phẩy.", lesson: 30 }
+          - { wrong: "On the other hand, they help", right: "In addition, they help", why: "Ý cùng chiều → In addition.", lesson: 30 }
+writing:
+  prompt_vi: "Không chấm tự động — tự viết rồi gửi để chữa: đoạn Overview + một đoạn thân bài (khoảng 100 từ) cho bảng số liệu xe đạp ở phần Đọc hiểu."
+  prompt_en: "Describe the main trends in the bicycle sales table (2019–2023)."
+  words: { min: 90, max: 120 }

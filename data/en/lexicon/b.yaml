@@ -725,3 +725,78 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: believe|v
+    headword: believe
+    pos: v
+    ipa:
+      uk: /bɪˈliːv/
+      us: /bɪˈliːv/
+    stress: be-LIEVE
+    cefr: A1
+    meaning_vi:
+      - tin
+      - cho rằng
+    collocations:
+      - believe that…
+      - strongly believe
+      - firmly believe
+    notes_vi:
+      - "Không dùng dạng tiếp diễn: I believe (không nói *I am believing*)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/believe, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/believe, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/believe, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: benefit|n
+    headword: benefit
+    pos: n
+    ipa:
+      uk: /ˈben.ɪ.fɪt/
+      us: /ˈben.ə.fɪt/
+    stress: BE-ne-fit
+    cefr: A2
+    meaning_vi:
+      - lợi ích
+    collocations:
+      - the benefits of…
+      - a major benefit
+      - bring benefits
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/benefit, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/benefit, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/benefit, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: badminton|n
+    headword: badminton
+    pos: n
+    ipa:
+      uk: /ˈbæd.mɪn.tən/
+      us: /ˈbæd.mɪn.tən/
+    stress: BAD-min-ton
+    cefr: null
+    meaning_vi:
+      - cầu lông
+    collocations:
+      - play badminton
+      - a badminton court
+    notes_vi:
+      - "Không có mạo từ: play badminton (không nói *play the badminton*)."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badminton, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badminton, checked: 2026-09-29, field: ipa.us }
+    status: draft

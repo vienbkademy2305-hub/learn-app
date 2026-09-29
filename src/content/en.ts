@@ -8,7 +8,8 @@ import { EN_STEPS, type EnContentSnapshot, type EnLesson, type EnSentence, type 
 let cache: EnContentSnapshot | undefined;
 
 export function enContent(): EnContentSnapshot {
-  if (!cache) {
+  // in `next dev` re-read on every request so `pnpm content:export:en` shows up without a restart
+  if (!cache || process.env.NODE_ENV === "development") {
     const file = path.join(process.cwd(), ".data", "content", "en.json");
     try {
       cache = JSON.parse(readFileSync(file, "utf8")) as EnContentSnapshot;

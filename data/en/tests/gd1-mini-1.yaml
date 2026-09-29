@@ -4,7 +4,7 @@ title_vi: "Kiểm tra ngắn 1: Buổi 1–5"
 stage: 1
 kind: mini
 after_lesson: 5
-minutes: 20
+minutes: 30
 pass_percent: 80
 intro_vi: "Ôn lại to be, hiện tại đơn, tính từ & so sánh hơn, There is/are, giới từ, ngày giờ và thói quen hằng ngày."
 source: editorial
@@ -66,3 +66,39 @@ sections:
           - { q: "Hoa's work starts at half past five.", answer: F, explain_vi: "Hoa DẬY lúc 5:30; công việc bắt đầu lúc 7:00.", lesson: 4 }
           - { q: "Linh gets up early.", answer: F, explain_vi: "Người dậy sớm là Hoa; Linh luôn dậy muộn — chú ý chủ thể.", lesson: 5 }
           - { q: "Linh studies at a university in Hanoi.", answer: NG, explain_vi: "Bài chỉ nói Linh là sinh viên, không nói học ở đâu.", lesson: 5 }
+  - title_vi: Nghe
+    exercises:
+      - id: gd1-mini-1-x5
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai bạn mới làm quen (hai giọng khác nhau, nghe tối đa 2 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Man: Hi, I'm Minh. I'm new in this class.
+          Woman: Nice to meet you, Minh. I'm Lan. Where are you from?
+          Man: I'm from Hai Phong, but now I live in Hanoi with my aunt.
+          Woman: Do you have any brothers or sisters?
+          Man: Yes, I have an older sister. She is a nurse, and she is taller than me!
+          Woman: What time do you usually get up?
+          Man: At six o'clock. I always go to school by bike.
+          Woman: Me too. My house is next to the park, and there is a nice café in the park.
+          Man: Great. Are you free on Saturday morning? We can have a coffee there at nine.
+          Woman: Yes, Saturday at nine is fine.
+        questions:
+          - { q: "Where is Minh from?", options: [Hanoi, Hai Phong, Da Nang, Hue], answer: b, lesson: 1 }
+          - { q: "Who does Minh live with now?", options: [his parents, his sister, his aunt, his friends], answer: c, lesson: 1 }
+          - { q: "Minh's sister is…", options: [shorter than him, taller than him, younger than him, a teacher], answer: b, lesson: 2 }
+          - { q: "What is next to Lan's house?", options: [a café, a school, a park, a market], answer: c, explain_vi: "Quán cà phê ở TRONG công viên; cạnh nhà Lan là công viên.", lesson: 3 }
+          - { q: "When do they meet?", options: ["Saturday at 9", "Sunday at 9", "Saturday at 6", "Friday at 9"], answer: a, lesson: 4 }
+          - { q: "What time does Minh usually get up?", options: ["5 o'clock", "6 o'clock", "7 o'clock", "9 o'clock"], answer: b, lesson: 5 }
+      - id: gd1-mini-1-x6
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe Hoa nói về một ngày của mình. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "My name is Hoa and I'm twenty-five. I work in a bank in Da Nang. I get up at half past six every day, and I usually have bread and milk for breakfast. I never drive to work, because my office is very near my flat. I walk. In the evening I often cook dinner with my mother, and on Sundays I visit my grandparents."
+        questions:
+          - { q: "Hoa is twenty-five years old.", answer: T, lesson: 1 }
+          - { q: "Hoa works in a hospital.", answer: F, lesson: 1 }
+          - { q: "Her office is far from her flat.", answer: F, lesson: 3 }
+          - { q: "She gets up at 6.30.", answer: T, lesson: 4 }
+          - { q: "She usually drives to work.", answer: F, explain_vi: "never drive — cô ấy đi bộ.", lesson: 5 }
+          - { q: "She visits her grandparents on Sundays.", answer: T, lesson: 5 }

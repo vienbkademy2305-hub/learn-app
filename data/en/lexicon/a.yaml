@@ -664,3 +664,278 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: academic|adj
+    headword: academic
+    pos: adj
+    ipa:
+      uk: /ˌæk.əˈdem.ɪk/
+      us: /ˌæk.əˈdem.ɪk/
+    stress: a-ca-DE-mic
+    cefr: B1
+    meaning_vi:
+      - (thuộc) học thuật
+      - học tập
+    collocations:
+      - academic subjects
+      - academic performance
+      - academic year
+    notes_vi:
+      - Danh từ 'học viện' là academy (a-CA-de-my) — trọng âm khác hẳn.
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: attend|v
+    headword: attend
+    pos: v
+    ipa:
+      uk: /əˈtend/
+      us: /əˈtend/
+    stress: at-TEND
+    cefr: A2
+    meaning_vi:
+      - theo học
+      - tham dự (lớp, buổi học, sự kiện)
+    collocations:
+      - attend a class
+      - attend school
+      - attend a meeting
+    notes_vi:
+      - "KHÔNG có 'to' sau attend khi nghĩa là tham dự: attend a class (không nói *attend to a class*)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: achieve|v
+    headword: achieve
+    pos: v
+    ipa:
+      uk: /əˈtʃiːv/
+      us: /əˈtʃiːv/
+    stress: a-CHIEVE
+    cefr: A2
+    meaning_vi:
+      - đạt được (mục tiêu, kết quả)
+    collocations:
+      - achieve a goal
+      - achieve good results
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: argue|v
+    headword: argue
+    pos: v
+    ipa:
+      uk: /ˈɑːɡ.juː/
+      us: /ˈɑːrɡ.juː/
+    stress: AR-gue
+    cefr: A2
+    meaning_vi:
+      - lập luận
+      - cho rằng
+      - tranh cãi
+    collocations:
+      - argue that…
+      - it is often argued that…
+    notes_vi:
+      - "Trong Writing: 'Some people argue that…' = một số người cho rằng. Danh từ: argument (lập luận; cuộc cãi nhau)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: artificial-intelligence|phr-n
+    headword: artificial intelligence
+    pos: phr-n
+    ipa:
+      uk: /ˌɑː.tɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/
+      us: /ˌɑːr.t̬ɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/
+    cefr: null
+    meaning_vi:
+      - trí tuệ nhân tạo (AI)
+    collocations:
+      - use artificial intelligence
+      - AI tools
+    notes_vi:
+      - "Viết tắt AI /ˌeɪˈaɪ/. Không đếm được, không có mạo từ: Artificial intelligence is changing…"
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: automation|n
+    headword: automation
+    pos: n
+    ipa:
+      uk: /ˌɔː.təˈmeɪ.ʃən/
+      us: /ˌɑː.t̬əˈmeɪ.ʃən/
+    stress: au-to-MA-tion
+    cefr: null
+    meaning_vi:
+      - tự động hóa
+    collocations:
+      - automation in factories
+      - jobs lost to automation
+    topics:
+      - technology
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: access|v
+    headword: access
+    pos: v
+    ipa:
+      uk: /ˈæk.ses/
+      us: /ˈæk.ses/
+    stress: AC-cess
+    cefr: B1
+    meaning_vi:
+      - truy cập
+      - tiếp cận
+    collocations:
+      - access the internet
+      - access information
+    notes_vi:
+      - "Động từ KHÔNG có to: access the internet (không nói *access to the internet*). Danh từ thì có: have access to the internet."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: addicted-to|colloc
+    headword: addicted to
+    pos: colloc
+    ipa:
+      uk: /əˈdɪk.tɪd tuː/
+      us: /əˈdɪk.tɪd tuː/
+    cefr: null
+    meaning_vi:
+      - nghiện (cái gì)
+    collocations:
+      - be addicted to social media
+      - addicted to games
+    notes_vi:
+      - "to là giới từ → sau nó là danh từ/V-ing: addicted to playing games."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: athlete|n
+    headword: athlete
+    pos: n
+    ipa:
+      uk: /ˈæθ.liːt/
+      us: /ˈæθ.liːt/
+    stress: ATH-lete
+    cefr: A2
+    meaning_vi:
+      - vận động viên
+    notes_vi:
+      - "Chỉ 2 âm tiết: ATH-lete /ˈæθ.liːt/ — không đọc *a-tơ-lét*. th = /θ/."
+    topics:
+      - sport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: arrest|v
+    headword: arrest
+    pos: v
+    ipa:
+      uk: /əˈrest/
+      us: /əˈrest/
+    stress: ar-REST
+    cefr: B1
+    meaning_vi:
+      - bắt giữ
+    collocations:
+      - be arrested for stealing
+      - arrest a suspect
+    notes_vi:
+      - "Thường dùng bị động: He was arrested for …"
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: advantage|n
+    headword: advantage
+    pos: n
+    ipa:
+      uk: /ədˈvɑːn.tɪdʒ/
+      us: /ədˈvæn.t̬ɪdʒ/
+    stress: ad-VAN-tage
+    cefr: A2
+    meaning_vi:
+      - ưu điểm
+      - lợi thế
+    collocations:
+      - the main advantage of…
+      - have an advantage
+      - a big advantage
+    notes_vi:
+      - advantage OF something (không nói *advantage for*).
+      - "Đồng nghĩa: benefit (Buổi 22), strength."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.us }
+    status: draft

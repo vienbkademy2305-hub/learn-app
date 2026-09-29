@@ -263,6 +263,31 @@ steps:
               - spoke
               - talked to
             answer: b
+      - id: b14-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hội thoại (mỗi người một giọng) rồi chọn đáp án đúng. Cố gắng làm sau lần nghe đầu, chưa được thì nghe lại.
+        audio_text: |-
+          Man: What happened to your arm?
+          Woman: I fell off my bike yesterday. I was riding to work when a dog suddenly ran in front of me.
+          Man: Oh no! Did you break it?
+          Woman: No, luckily. A kind man helped me and gave me some water.
+          Man: Did you go to hospital?
+          Woman: Yes, my sister took me there. The doctor told me to rest.
+        questions:
+          - { q: What was the woman doing when she fell?, options: [ walking to work, riding to work, driving home, running in the park ], answer: b }
+          - { q: Why did she fall?, options: [ The road was wet., A dog ran in front of her., A car hit her., She was tired. ], answer: b }
+          - { q: Who took her to hospital?, options: [ a kind man, her sister, her husband, the man ], answer: b }
+      - id: b14-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể, con số và các từ như always / never / only.
+        audio_text: Last Saturday I lost my wallet. I was shopping in the market when I suddenly saw that my bag was open. I went to the police, but they didn't find it. Then, on Monday, a woman called me. She found my wallet near the market and brought it to my house.
+        questions:
+          - { q: The speaker lost the wallet on Sunday., answer: F }
+          - { q: She was shopping in the market., answer: T }
+          - { q: The police found the wallet., answer: F }
+          - { q: A woman brought the wallet back., answer: T }
   - type: homework
     kind: paragraph
     prompt_vi: Viết đoạn văn 90–120 từ kể một chuyện đáng nhớ (vui hoặc xui) đã xảy ra với bạn. Dùng at first / then / suddenly / finally, ít nhất 5 động từ bất quy tắc và 2 câu quá khứ tiếp diễn.
