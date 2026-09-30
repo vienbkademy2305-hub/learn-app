@@ -9,6 +9,7 @@
 import { useCallback, useSyncExternalStore } from "react";
 import type { Cached } from "@/domain/en-sync";
 import { BOX_INTERVAL_DAYS, MAX_BOX } from "@/domain/progress";
+import type { Mastery } from "@/domain/word-game";
 
 export interface EnProgress {
   /** lesson slug → step types opened */
@@ -21,6 +22,10 @@ export interface EnProgress {
   cards: Record<string, { box: number; due: string; reviews: number }>;
   /** test id → every attempt (newest last) */
   tests: Record<string, TestAttempt[]>;
+  /** lexicon id → word-game level (src/domain/word-game.ts) */
+  mastery: Record<string, Mastery>;
+  /** days with word-game answers (YYYY-MM-DD) */
+  gameDays: string[];
 }
 
 export interface TestAttempt {
@@ -36,7 +41,7 @@ export interface TestAttempt {
 
 const GUEST_KEY = "chinese-app:en:progress:v1";
 const userKey = (uid: string) => `${GUEST_KEY}:user:${uid}`;
-export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {}, tests: {} };
+export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {}, tests: {}, mastery: {}, gameDays: [] };
 const listeners = new Set<() => void>();
 let scope: string | null = null;
 let current: EnProgress | null = null;
@@ -44,10 +49,10 @@ let changeHook: ((state: EnProgress, updatedAt: string) => void) | null = null;
 
 export function parseEnProgress(raw: unknown): EnProgress {
   const r = (raw && typeof raw === "object" ? raw : {}) as Partial<EnProgress>;
-  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {}, tests: r.tests ?? {} };
+  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {}, tests: r.tests ?? {}, mastery: r.mastery ?? {}, gameDays: Array.isArray(r.gameDays) ? r.gameDays : [] };
 }
 export const isEmptyEn = (p: EnProgress) =>
-  !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length && !Object.keys(p.tests).length;
+  !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length && !Object.keys(p.tests).length && !Object.keys(p.mastery).length;
 
 export const saveTestAttempt = (id: string, attempt: TestAttempt) => (p: EnProgress): EnProgress => ({
   ...p,

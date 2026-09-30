@@ -23,7 +23,7 @@ Quy trình soạn (dùng lại khi sửa): bundle YAML ở thư mục tạm → 
 
 ### 2.3 Tự chấm bài viết (`EN_WRITING_GRADER_PLAN.md`) — chờ người dùng
 Đã chốt: mô hình `claude-opus-5`. Người dùng cần làm trước:
-1. Tắt đăng ký tự do trên Supabase (`disable_signup = true`).
+1. (Người dùng quyết định 2026-09-30: **giữ đăng ký tự do**.) Vì ai cũng tạo được tài khoản, máy chủ chấm bài chỉ chấm cho **danh sách tài khoản được phép** (VD `vienthao`) — người dùng đã chọn.
 2. Tạo khóa Claude API và lưu làm secret Supabase (`supabase secrets set ANTHROPIC_API_KEY=…`) — **không gửi khóa qua chat**.
 Sau đó làm W1 → W4 trong kế hoạch.
 
@@ -31,8 +31,8 @@ Sau đó làm W1 → W4 trong kế hoạch.
 Người dùng có tài liệu ở thư mục Google Drive riêng tư `1dQlXWNkJRl_4Ryyzm0918N2K11C46RQb` — Claude không đọc được, cần tải về `D:\Lean - Ngoại ngữ\tai-lieu-nguon\tieng-anh\`. GĐ4 = luyện đề tổng hợp (mock test), không dạy nội dung mới.
 
 ### 2.5 Kế hoạch từ phiên khác (`NANG_CAP_4_VIEC_PLAN.md`) — chờ duyệt
-Gồm: giọng nữ, Giai đoạn 3, tự chấm bài viết, **game học thuộc từ**. Ba việc đầu trùng với mục 2.1–2.3; game học từ chưa làm.
+Gồm: giọng nữ, Giai đoạn 3, tự chấm bài viết, **game học thuộc từ**. Ba việc đầu trùng với mục 2.1–2.3. **Game học thuộc từ: F1 + F2 xong 2026-09-30** (tab "Học thuộc" ở /en/flashcards, /zh/flashcards); còn F3 (định nghĩa tiếng Anh tự viết cho game "nghĩa tiếng Anh → từ") và F4 (game trong bước Luyện tập của buổi học).
 
 ## 3. Deploy
-- `pnpm deploy:pages` (GitHub Pages, >10 phút). Hiện deploy với **tài khoản TẮT** vì Supabase còn `disable_signup=false`: build với biến `NEXT_PUBLIC_SUPABASE_URL=` và `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=` rỗng. Khi người dùng tắt đăng ký tự do → deploy bình thường.
+- `pnpm deploy:pages` (GitHub Pages, >10 phút). Từ 2026-09-30 deploy **bình thường, bật tài khoản** — người dùng quyết định giữ đăng ký tự do (`disable_signup=false`).
 - Âm thanh MP3 tiếng Anh chưa tạo xong thì web vẫn chạy (lùi về giọng trình duyệt cho phần thiếu).

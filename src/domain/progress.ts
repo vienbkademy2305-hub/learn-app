@@ -30,6 +30,10 @@ export interface ProgressState {
   listening?: Record<string, ListenState>;
   /** "word:<slug>" | "sentence:<key>" → speaking practice results (docs/SPEAKING_PLAN.md §2) */
   speaking?: Record<string, SpeakState>;
+  /** word slug → word-game level (src/domain/word-game.ts) */
+  mastery?: Record<string, import("./word-game").Mastery>;
+  /** days with word-game answers (YYYY-MM-DD) */
+  gameDays?: string[];
 }
 
 export interface SpeakState {
@@ -204,5 +208,5 @@ export function parseProgress(raw: unknown): ProgressState {
   const r = raw as Partial<ProgressState>;
   if (r.v !== 1 || typeof r.learned !== "object" || typeof r.lessons !== "object" || !r.learned || !r.lessons) return EMPTY_PROGRESS;
   const obj = <T extends object>(v: T | undefined): T => (v && typeof v === "object" ? { ...v } : ({} as T));
-  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes), listening: obj(r.listening), speaking: obj(r.speaking) };
+  return { v: 1, learned: { ...r.learned }, lessons: { ...r.lessons }, exercises: obj(r.exercises), saved: obj(r.saved), cards: obj(r.cards), notes: obj(r.notes), listening: obj(r.listening), speaking: obj(r.speaking), mastery: obj(r.mastery), gameDays: Array.isArray(r.gameDays) ? [...r.gameDays] : [] };
 }

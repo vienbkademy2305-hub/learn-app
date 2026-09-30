@@ -2,6 +2,7 @@
 import { getLesson, getLessons, getSentence, getWord } from "@/content/load";
 import type { WordData } from "@/content/types";
 import { joinSinoViet } from "@/domain/display";
+import type { GameWord } from "@/domain/word-game";
 
 export const PRACTICE_TYPES = [
   { type: "vocab", path: "vocab", title: "Nhớ từ vựng", icon: "🧠", description: "Nhìn chữ chọn nghĩa, nhìn nghĩa hoặc pinyin chọn chữ." },
@@ -81,4 +82,19 @@ export function modelSentences(slug: string, wordSlug: string, max = 3) {
     .map(getSentence)
     .filter((s) => s !== undefined)
     .map((s) => ({ simplified: s.simplified, pinyin: s.pinyin, vi: s.vi?.text ?? null, audio: s.audio, audioMs: s.audioMs }));
+}
+
+/** Every curriculum word as a word-game item (docs/NANG_CAP_4_VIEC_PLAN.md, Việc 4), under the lesson that first teaches it. */
+export function allGameWords(): GameWord[] {
+  const seen = new Set<string>();
+  const out: GameWord[] = [];
+  for (const l of getLessons())
+    for (const slug of l.words) {
+      const w = getWord(slug);
+      if (!w || seen.has(slug) || !w.meanings.length) continue;
+      seen.add(slug);
+      const en = w.meaningsEn.slice(0, 2).join("; ");
+      out.push({ id: w.slug, term: w.simplified, reading: w.pinyin, meaning: w.meanings.slice(0, 2).join("; "), definitionEn: en || null, lesson: l.number });
+    }
+  return out;
 }

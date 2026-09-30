@@ -53,7 +53,7 @@ Giả định: ~4 000 token vào (phần lớn được cache), ~4 000–5 000 t
 
 ## 6. Điều kiện trước khi làm
 
-1. **Tài khoản phải bật trên web.** Hiện site deploy với tài khoản TẮT vì Supabase còn `disable_signup = false`. Cần tắt đăng ký tự do trước (nếu không, người lạ tạo tài khoản và dùng chấm bài tốn tiền của bạn).
+1. **Tài khoản phải bật trên web.** Hiện site deploy với tài khoản TẮT vì Supabase còn `disable_signup = false`. Người dùng quyết định GIỮ đăng ký tự do (2026-09-30) → máy chủ chấm bài chỉ chấm cho danh sách tài khoản được phép (allowlist), để người lạ không dùng chấm bài tốn tiền.
 2. **Khóa Claude API** (tạo ở console.anthropic.com, nạp tiền trả trước). Khóa chỉ lưu làm secret của Supabase (`supabase secrets set ANTHROPIC_API_KEY=…`), **không gửi qua chat**.
 3. Cài Supabase CLI để deploy Edge Function (hoặc dán code qua dashboard).
 
