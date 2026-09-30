@@ -12,9 +12,9 @@ entries:
     source: editorial
     provenance:
       - { source: ai-draft, field: meaning_vi }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: good-looking|adj
     headword: good-looking
@@ -36,8 +36,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: get-up|phr-v
     headword: get up
@@ -119,9 +119,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: good-at|colloc
     headword: good at
@@ -205,9 +205,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: graduate|v
     headword: graduate
@@ -232,9 +232,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: gardening|n
     headword: gardening
@@ -251,8 +251,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-29, field: ipa.us }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: go-out|phr-v
     headword: go out
@@ -299,9 +299,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: give|v
     headword: give
@@ -326,9 +326,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: glass|n
     headword: glass
@@ -352,9 +352,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: garage|n
     headword: garage
@@ -374,9 +374,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: go-shopping|colloc
     headword: go shopping
@@ -437,8 +437,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: green-space|phr-n
     headword: green space
@@ -506,9 +506,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: gym|n
     headword: gym
@@ -532,9 +532,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: give-up|phr-v
     headword: give up
@@ -687,9 +687,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: globalisation|n
     headword: globalisation
@@ -714,7 +714,7 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/globalisation, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/globalisation, checked: 2026-09-30, field: ipa.uk }
     status: draft
   - id: global|adj
     headword: global
@@ -735,9 +735,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: goods|n
     headword: goods
@@ -760,9 +760,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: graduate|n
     headword: graduate
@@ -770,7 +770,7 @@ entries:
     ipa:
       uk: /ˈɡrædʒ.u.ət/
       us: /ˈɡrædʒ.u.ət/
-    cefr: null
+    cefr: B1
     meaning_vi:
       - người đã tốt nghiệp (đại học)
     collocations:
@@ -784,9 +784,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: guilty|adj
     headword: guilty
@@ -794,7 +795,7 @@ entries:
     ipa:
       uk: /ˈɡɪl.ti/
       us: /ˈɡɪl.ti/
-    cefr: null
+    cefr: B1
     meaning_vi:
       - có tội; cảm thấy có lỗi
     collocations:
@@ -807,9 +808,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/guilty, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/guilty, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/guilty, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: generate|v
     headword: generate
@@ -817,7 +819,7 @@ entries:
     ipa:
       uk: /ˈdʒen.ə.reɪt/
       us: /ˈdʒen.ə.reɪt/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - tạo ra
       - sinh ra
@@ -830,9 +832,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generate, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generate, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: give-rise-to|phr-v
     headword: give rise to
@@ -866,7 +869,7 @@ entries:
     ipa:
       uk: /ˌdʒen.əˈreɪ.ʃən/
       us: /ˌdʒen.əˈreɪ.ʃən/
-    cefr: null
+    cefr: B1
     meaning_vi:
       - thế hệ
     collocations:
@@ -878,9 +881,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generation, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generation, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generation, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: get-the-hang-of|idiom
     headword: get the hang of
@@ -924,6 +928,142 @@ entries:
       - grow up in the countryside
       - when I was growing up
     topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: groceries|n
+    headword: groceries
+    pos: n
+    ipa:
+      uk: /ˈɡrəʊ.sər.iz/
+      us: /ˈɡroʊ.sɚ.iz/
+    cefr: null
+    meaning_vi:
+      - thực phẩm và đồ dùng hằng ngày (mua ở siêu thị)
+    collocations:
+      - spend on groceries
+      - grocery shopping
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/groceries, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/groceries, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: gallery|n
+    headword: gallery
+    pos: n
+    ipa:
+      uk: /ˈɡæl.ər.i/
+      us: /ˈɡæl.ɚ.i/
+    cefr: A2
+    meaning_vi:
+      - phòng trưng bày tranh
+      - bảo tàng mỹ thuật
+    collocations:
+      - an art gallery
+      - the national gallery
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gallery, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gallery, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gallery, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: genre|n
+    headword: genre
+    pos: n
+    ipa:
+      uk: /ˈʒɒn.rə/
+      us: /ˈʒɑːn.rə/
+    cefr: B2
+    meaning_vi:
+      - thể loại
+    collocations:
+      - a film genre
+      - my favourite genre
+    notes_vi:
+      - "Gốc Pháp: đọc /ˈʒɒn.rə/ (âm /ʒ/ như trong 'measure')."
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/genre, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/genre, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: galaxy|n
+    headword: galaxy
+    pos: n
+    forms:
+      plural: galaxies
+    ipa:
+      uk: /ˈɡæl.ək.si/
+      us: /ˈɡæl.ək.si/
+    cefr: null
+    meaning_vi:
+      - thiên hà
+    collocations:
+      - our galaxy
+      - distant galaxies
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/galaxy, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/galaxy, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: gravity|n
+    headword: gravity
+    pos: n
+    ipa:
+      uk: /ˈɡræv.ə.ti/
+      us: /ˈɡræv.ə.t̬i/
+    cefr: C1
+    meaning_vi:
+      - trọng lực
+      - lực hấp dẫn
+    collocations:
+      - zero gravity
+      - the force of gravity
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gravity, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gravity, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gravity, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: grammatical-range|phr-n
+    headword: grammatical range
+    pos: phr-n
+    ipa:
+      uk: /ɡrəˌmæt.ɪ.kəl ˈreɪndʒ/
+      us: /ɡrəˌmæt̬.ɪ.kəl ˈreɪndʒ/
+    cefr: null
+    meaning_vi:
+      - độ đa dạng ngữ pháp (tiêu chí chấm)
+    collocations:
+      - grammatical range and accuracy
+    topics:
+      - writing
       - speaking
     source: editorial
     provenance:

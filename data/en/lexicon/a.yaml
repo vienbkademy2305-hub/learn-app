@@ -11,9 +11,9 @@ entries:
     source: editorial
     provenance:
       - { source: ai-draft, field: meaning_vi }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/address, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/address, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: appearance|n
     headword: appearance
@@ -32,9 +32,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: apartment|n
     headword: apartment
@@ -54,9 +54,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: afternoon|n
     headword: afternoon
@@ -76,9 +76,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: always|adv
     headword: always
@@ -95,9 +95,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: autumn|n
     headword: autumn
@@ -116,9 +116,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: afraid-of|colloc
     headword: afraid of
@@ -158,9 +158,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: apply-for|phr-v
     headword: apply for
@@ -204,9 +204,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: arrive|v
     headword: arrive
@@ -227,9 +227,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: abroad|adv
     headword: abroad
@@ -249,9 +249,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: ago|adv
     headword: ago
@@ -270,9 +270,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: afford|v
     headword: afford
@@ -291,9 +291,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: accident|n
     headword: accident
@@ -315,9 +315,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/accident, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/accident, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: at-first|colloc
     headword: at first
@@ -357,9 +357,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: agree-with|phr-v
     headword: agree with
@@ -441,9 +441,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: actor|n
     headword: actor
@@ -462,9 +462,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: american|adj
     headword: American
@@ -484,8 +484,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: aunt|n
     headword: aunt
@@ -508,9 +508,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: a-few|det
     headword: a few
@@ -530,8 +530,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-29, field: ipa.us }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: a-little|det
     headword: a little
@@ -571,9 +571,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: across|prep
     headword: across
@@ -594,9 +594,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: animal|n
     headword: animal
@@ -618,9 +618,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: arm|n
     headword: arm
@@ -639,9 +639,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: app|n
     headword: app
@@ -660,9 +660,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: academic|adj
     headword: academic
@@ -687,9 +687,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: attend|v
     headword: attend
@@ -714,9 +714,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: achieve|v
     headword: achieve
@@ -738,9 +738,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: argue|v
     headword: argue
@@ -765,9 +765,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: artificial-intelligence|phr-n
     headword: artificial intelligence
@@ -812,8 +812,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: access|v
     headword: access
@@ -837,9 +837,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: addicted-to|colloc
     headword: addicted to
@@ -882,9 +882,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: arrest|v
     headword: arrest
@@ -907,9 +907,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: advantage|n
     headword: advantage
@@ -935,9 +935,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: attitude|n
     headword: attitude
@@ -964,8 +964,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attitude, checked: 2026-09-29, field: cefr }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/attitude, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attitude, checked: 2026-09-30, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/attitude, checked: 2026-09-30, field: ipa.uk }
     status: draft
   - id: ancient|adj
     headword: ancient
@@ -989,9 +989,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: authentic|adj
     headword: authentic
@@ -1014,9 +1014,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: accommodation|n
     headword: accommodation
@@ -1040,9 +1040,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: approximately|adv
     headword: approximately
@@ -1068,8 +1068,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-30, field: ipa.uk }
     status: draft
   - id: amenity|n
     headword: amenity
@@ -1093,8 +1093,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: apart-from|prep
     headword: apart from
@@ -1139,8 +1139,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-29, field: ipa.us }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: actually|adv
     headword: actually
@@ -1161,9 +1161,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: audience|n
     headword: audience
@@ -1188,9 +1188,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: although|conj
     headword: although
@@ -1210,9 +1210,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: advertising|n
     headword: advertising
@@ -1235,9 +1235,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: account-for|phr-v
     headword: account for
@@ -1284,9 +1284,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: address|v
     headword: address
@@ -1310,9 +1310,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: accessible|adj
     headword: accessible
@@ -1321,7 +1321,7 @@ entries:
       uk: /əkˈses.ə.bəl/
       us: /əkˈses.ə.bəl/
     stress: ac-CES-si-ble
-    cefr: null
+    cefr: C1
     meaning_vi:
       - dễ tiếp cận
       - dễ đến
@@ -1333,9 +1333,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accessible, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accessible, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accessible, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: academic-performance|phr-n
     headword: academic performance
@@ -1364,7 +1365,7 @@ entries:
     ipa:
       uk: /əˈses/
       us: /əˈses/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - đánh giá
     collocations:
@@ -1377,9 +1378,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assess, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assess, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assess, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: assessment|n
     headword: assessment
@@ -1387,7 +1389,7 @@ entries:
     ipa:
       uk: /əˈses.mənt/
       us: /əˈses.mənt/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - sự đánh giá
       - bài kiểm tra đánh giá
@@ -1399,9 +1401,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assessment, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assessment, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assessment, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: as-a-result|idiom
     headword: as a result
@@ -1430,7 +1433,7 @@ entries:
       uk: /ˈæl.ɡə.rɪ.ðəm/
       us: /ˈæl.ɡə.rɪ.ðəm/
     stress: AL-go-ri-thm
-    cefr: null
+    cefr: C1
     meaning_vi:
       - thuật toán
     collocations:
@@ -1443,9 +1446,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/algorithm, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/algorithm, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/algorithm, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: autonomous|adj
     headword: autonomous
@@ -1466,9 +1470,9 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autonomous, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autonomous, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: arguably|adv
     headword: arguably
@@ -1476,7 +1480,7 @@ entries:
     ipa:
       uk: /ˈɑːɡ.ju.ə.bli/
       us: /ˈɑːrɡ.ju.ə.bli/
-    cefr: null
+    cefr: C1
     meaning_vi:
       - có thể nói là (có cơ sở để cho rằng)
     notes_vi:
@@ -1486,9 +1490,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arguably, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arguably, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arguably, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: accurate|adj
     headword: accurate
@@ -1496,7 +1501,7 @@ entries:
     ipa:
       uk: /ˈæk.jə.rət/
       us: /ˈæk.jɚ.ət/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - chính xác
     collocations:
@@ -1509,9 +1514,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accurate, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accurate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accurate, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: admittedly|adv
     headword: admittedly
@@ -1529,9 +1535,9 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/admittedly, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/admittedly, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: adverse|adj
     headword: adverse
@@ -1539,7 +1545,7 @@ entries:
     ipa:
       uk: /ˈæd.vɜːs/
       us: /ædˈvɝːs/
-    cefr: null
+    cefr: C1
     meaning_vi:
       - bất lợi
       - tiêu cực
@@ -1554,6 +1560,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/adverse, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/adverse, checked: 2026-09-30, field: ipa.uk }
     status: draft
   - id: assimilate|v
     headword: assimilate
@@ -1576,9 +1584,9 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/assimilate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assimilate, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: ancestor|n
     headword: ancestor
@@ -1586,7 +1594,7 @@ entries:
     ipa:
       uk: /ˈæn.ses.tər/
       us: /ˈæn.ses.tɚ/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - tổ tiên
     collocations:
@@ -1600,9 +1608,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancestor, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancestor, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancestor, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: a-far-cry-from|idiom
     headword: a far cry from
@@ -1623,4 +1632,254 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
+    status: draft
+  - id: allocate|v
+    headword: allocate
+    pos: v
+    ipa:
+      uk: /ˈæl.ə.keɪt/
+      us: /ˈæl.ə.keɪt/
+    cefr: C1
+    meaning_vi:
+      - phân bổ
+      - dành (tiền, thời gian) cho
+    collocations:
+      - allocate 30% of income to housing
+    topics:
+      - writing
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/allocate, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/allocate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/allocate, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: abstract|adj
+    headword: abstract
+    pos: adj
+    ipa:
+      uk: /ˈæb.strækt/
+      us: /ˈæb.strækt/
+    cefr: B2
+    meaning_vi:
+      - trừu tượng
+    collocations:
+      - abstract art
+      - abstract ideas
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abstract, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abstract, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abstract, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: accomplishment|n
+    headword: accomplishment
+    pos: n
+    ipa:
+      uk: /əˈkʌm.plɪʃ.mənt/
+      us: /əˈkɑːm.plɪʃ.mənt/
+    stress: ac-COM-plish-ment
+    cefr: C1
+    meaning_vi:
+      - thành tựu
+      - việc đã làm được
+    collocations:
+      - a sense of accomplishment
+      - a great accomplishment
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accomplishment, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accomplishment, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accomplishment, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: applause|n
+    headword: applause
+    pos: n
+    ipa:
+      uk: /əˈplɔːz/
+      us: /əˈplɑːz/
+    cefr: null
+    meaning_vi:
+      - tràng pháo tay
+    collocations:
+      - loud applause
+      - a round of applause
+    notes_vi:
+      - "Không đếm được: a round of applause (KHÔNG an applause)."
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/applause, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/applause, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: audition|n
+    headword: audition
+    pos: n
+    ipa:
+      uk: /ɔːˈdɪʃ.ən/
+      us: /ɑːˈdɪʃ.ən/
+    cefr: null
+    meaning_vi:
+      - buổi thử giọng
+      - thử vai
+    collocations:
+      - pass an audition
+      - go to an audition
+      - audition for a role
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audition, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audition, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: astronaut|n
+    headword: astronaut
+    pos: n
+    ipa:
+      uk: /ˈæs.trə.nɔːt/
+      us: /ˈæs.trə.nɑːt/
+    stress: AS-tro-naut
+    cefr: null
+    meaning_vi:
+      - phi hành gia
+    collocations:
+      - train as an astronaut
+      - astronauts on the space station
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronaut, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronaut, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: atmosphere|n
+    headword: atmosphere
+    pos: n
+    ipa:
+      uk: /ˈæt.mə.sfɪər/
+      us: /ˈæt.mə.sfɪr/
+    stress: AT-mos-phere
+    cefr: B1
+    meaning_vi:
+      - khí quyển; bầu không khí
+    collocations:
+      - the Earth's atmosphere
+      - a friendly atmosphere
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/atmosphere, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/atmosphere, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/atmosphere, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: astronomical|adj
+    headword: astronomical
+    pos: adj
+    ipa:
+      uk: /ˌæs.trəˈnɒm.ɪ.kəl/
+      us: /ˌæs.trəˈnɑː.mɪ.kəl/
+    stress: as-tro-NOM-i-cal
+    cefr: null
+    meaning_vi:
+      - (chi phí) cực kỳ lớn; thuộc thiên văn học
+    collocations:
+      - astronomical costs
+      - an astronomical sum
+    topics:
+      - science
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronomical, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronomical, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: accountable|adj
+    headword: accountable
+    pos: adj
+    ipa:
+      uk: /əˈkaʊn.tə.bəl/
+      us: /əˈkaʊn.t̬ə.bəl/
+    cefr: C1
+    meaning_vi:
+      - chịu trách nhiệm (giải trình)
+    collocations:
+      - be held accountable for
+      - accountable to the public
+    topics:
+      - law
+      - ethics
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountable, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountable, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountable, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: animal-testing|phr-n
+    headword: animal testing
+    pos: phr-n
+    ipa:
+      uk: /ˈæn.ɪ.məl ˌtes.tɪŋ/
+      us: /ˈæn.ə.məl ˌtes.tɪŋ/
+    cefr: null
+    meaning_vi:
+      - thử nghiệm trên động vật
+    collocations:
+      - ban animal testing
+      - animal testing for cosmetics
+    topics:
+      - ethics
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: accuracy|n
+    headword: accuracy
+    pos: n
+    ipa:
+      uk: /ˈæk.jə.rə.si/
+      us: /ˈæk.jɚ.ə.si/
+    cefr: B2
+    meaning_vi:
+      - độ chính xác
+    collocations:
+      - grammatical accuracy
+      - with great accuracy
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accuracy, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accuracy, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accuracy, checked: 2026-09-30, field: ipa.us }
     status: draft

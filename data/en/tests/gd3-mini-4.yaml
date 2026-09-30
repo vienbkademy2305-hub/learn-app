@@ -1,0 +1,139 @@
+# Kiểm tra ngắn 4 Giai đoạn 3 — sau Buổi 65 (Buổi 61–65). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd3-mini-4
+title_vi: "Kiểm tra ngắn 4 (Giai đoạn 3): Buổi 61–65"
+stage: 3
+kind: mini
+after_lesson: 65
+minutes: 40
+pass_percent: 80
+intro_vi: "Quá khứ hoàn thành khi kể chuyện, lỗi đặc trưng người Việt, câu chẻ, paraphrase, 4 tiêu chí chấm Writing; từ vựng Nghệ thuật – Không gian & khoa học – Luật pháp & đạo đức."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd3-mini-4-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "When I arrived at the theatre, the play ___.", options: [already started, had already started, has already started, was already start], answer: b, lesson: 61 }
+          - { q: "We ___ for months, so we felt ready for the show.", options: [have rehearsed, had been rehearsing, were rehearse, rehearse], answer: b, lesson: 61 }
+          - { q: "There ___ eight planets in our solar system.", options: [is, are, have, has], answer: b, lesson: 62 }
+          - { q: "Scientists ___ an experiment on the space station.", options: [made, carried out, did make, learnt], answer: b, lesson: 62 }
+          - { q: "What worries taxpayers most ___ the cost.", options: [are, is, be, being], answer: b, lesson: 63 }
+          - { q: "It is the private sector ___ is leading space exploration.", options: [what, that, where, whose], answer: b, lesson: 63 }
+          - { q: "Animal testing ___ in many countries.", options: [has banned, has been banned, have banned, is banning], answer: b, lesson: 64 }
+          - { q: "Companies must comply ___ the new regulations.", options: [to, for, with, on], answer: c, lesson: 64 }
+          - { q: "Which criterion covers 'answering every part of the question'?", options: [Task Response, Coherence and Cohesion, Lexical Resource, Grammatical Range and Accuracy], answer: a, lesson: 65 }
+      - id: gd3-mini-4-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: "Viết lại câu theo yêu cầu."
+        questions:
+          - { q: "I had never sung in public. Then I joined the choir. → Before I joined the choir, I ___", answer: "had never sung in public.", lesson: 61 }
+          - { q: "The cost worries me most. → What ___", answer: "worries me most is the cost.", lesson: 63 }
+          - { q: "The government introduced stricter laws, and pollution fell. → The introduction ___", answer: "of stricter laws led to a fall in pollution.", accept: ["of stricter laws resulted in a fall in pollution.", "of stricter laws led to a reduction in pollution."], lesson: 64 }
+          - { q: "Many countries have prohibited animal testing. → Animal testing ___", answer: "has been prohibited in many countries.", accept: ["has been prohibited by many countries.", "has been banned in many countries."], lesson: 64 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd3-mini-4-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [stage fright, turning point, gravity, hypothesis, feasible, space debris, loophole, consent, overview, underdeveloped]
+        questions:
+          - { q: "Many famous singers still suffer from ___.", answer: stage fright, lesson: 61 }
+          - { q: "Moving to the city was a ___ in my career.", answer: turning point, lesson: 61 }
+          - { q: "In zero ___, water forms floating balls.", answer: gravity, lesson: 62 }
+          - { q: "The results did not support their ___.", answer: hypothesis, lesson: 62 }
+          - { q: "Building a city on Mars is not yet ___.", answer: feasible, lesson: 63 }
+          - { q: "Thousands of pieces of ___ now circle the Earth.", answer: space debris, lesson: 63 }
+          - { q: "The company used a legal ___ to avoid paying tax.", answer: loophole, lesson: 64 }
+          - { q: "Data must not be collected without the user's ___.", answer: consent, lesson: 64 }
+          - { q: "A Task 1 report without an ___ rarely scores above band 5.", answer: overview, lesson: 65 }
+          - { q: "Your second idea is ___; add an example.", answer: underdeveloped, lesson: 65 }
+      - id: gd3-mini-4-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "Finishing the marathon gave me a real sense of ___.", base: accomplish, answer: accomplishment, lesson: 61 }
+          - { q: "The samples were tested for ___ evidence of water.", base: science, answer: scientific, lesson: 62 }
+          - { q: "Collecting data without consent is a ___ of privacy.", base: violate, answer: violation, lesson: 64 }
+          - { q: "Grammatical range and ___ is one of the four criteria.", base: accurate, answer: accuracy, lesson: 65 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd3-mini-4-x5
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc đoạn văn và chọn T, F hoặc NG. Câu hỏi paraphrase bài."
+        lesson: 64
+        passage: |-
+          In 2021, the city of Riverton introduced a law that requires shops to inform customers before using facial recognition cameras. Businesses with fewer than twenty employees were exempt. Supporters say the law protects privacy without banning the technology completely. Critics, however, argue that it contains a serious loophole: the police can still use the same cameras without a court order. The city council has promised to review the law in 2026, but it has not said what changes it will consider.
+        questions:
+          - { q: "Shops in Riverton must tell customers before using facial recognition.", answer: T }
+          - { q: "Every business, whatever its size, has to comply with the law.", answer: F }
+          - { q: "Supporters want facial recognition to be prohibited completely.", answer: F }
+          - { q: "Police need permission from a court to use the cameras.", answer: F }
+          - { q: "The council plans to make the law stricter in 2026.", answer: NG }
+      - id: gd3-mini-4-x6
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "Phân tích đề Task 2: chọn đáp án đúng."
+        lesson: 63
+        questions:
+          - { q: "'Discuss both views and give your opinion. Who should pay?' — how many parts?", options: [two, three, four, one], answer: c }
+          - { q: "'Why is this happening? Is it positive or negative?' — best plan:", options: ["Body 1: reasons; Body 2: my opinion", "Body 1: problems; Body 2: solutions", "Body 1: view A; Body 2: view B", "Body 1: advantages; Body 2: disadvantages"], answer: a }
+  - title_vi: Nghe
+    exercises:
+      - id: gd3-mini-4-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe thí sinh kể Part 2 và trả lời giám khảo (hai giọng), rồi chọn đáp án đúng."
+        lesson: 61
+        audio_text: |-
+          Examiner: Please describe an achievement you are proud of.
+          Candidate: I'd like to talk about passing my driving test. Before that, I had failed twice, so I was really nervous.
+          Examiner: What was different the third time?
+          Candidate: I had been practising with my uncle every weekend for two months. On the day, it was raining, but I stayed calm.
+          Examiner: How did you feel afterwards?
+          Candidate: Proud, of course. Looking back, it was a turning point: I stopped giving up so easily.
+        questions:
+          - { q: "How many times had the candidate failed before?", options: [once, twice, three times, never], answer: b }
+          - { q: "Who did the candidate practise with?", options: [a teacher, a friend, an uncle, a brother], answer: c }
+          - { q: "What was the weather like on the day?", options: [sunny, windy, rainy, snowy], answer: c }
+          - { q: "What changed after this experience?", options: [The candidate bought a car., The candidate stopped giving up easily., The candidate became a driving teacher., The candidate moved house.], answer: b }
+      - id: gd3-mini-4-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe bản tin rồi chọn T (đúng) hoặc F (sai)."
+        audio_text: "A new space telescope was launched last week. Scientists hope it will observe galaxies that formed soon after the beginning of the universe. The mission cost more than two billion dollars, which some taxpayers have criticised. However, it is research like this that has given us many useful spin-offs, from better cameras to water filters."
+        questions:
+          - { q: "The telescope was launched last month.", answer: F, lesson: 62 }
+          - { q: "Scientists want to study very old galaxies.", answer: T, lesson: 62 }
+          - { q: "Everyone agrees the cost is justified.", answer: F, lesson: 63 }
+          - { q: "Space research has produced useful everyday products.", answer: T, lesson: 63 }
+      - id: gd3-mini-4-x9
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 62
+        text: "There are thousands of satellites in space, and many of them help farmers."
+  - title_vi: Viết câu
+    exercises:
+      - id: gd3-mini-4-x10
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp."
+        text: "Before that day, I have never performed on stage. In the universe have billions of galaxies. What concerns scientists are the cost. The company must comply the law. Moreover, the essay very short, so its task response is weak."
+        errors:
+          - { wrong: "I have never performed", right: "I had never performed", why: "Trước mốc quá khứ → had + V3.", lesson: 61 }
+          - { wrong: "In the universe have billions of galaxies", right: "There are billions of galaxies in the universe", why: "'có' → there are.", lesson: 62 }
+          - { wrong: "What concerns scientists are", right: "What concerns scientists is", why: "What-clause + is.", lesson: 63 }
+          - { wrong: "comply the law", right: "comply with the law", why: "comply WITH.", lesson: 64 }
+          - { wrong: "the essay very short", right: "the essay is very short", why: "Thiếu to be.", lesson: 65 }
+writing:
+  prompt_vi: "Không chấm tự động — viết mở bài và một đoạn thân bài (khoảng 180 từ) cho đề dưới đây, rồi tự chấm theo 4 tiêu chí (Buổi 65)."
+  prompt_en: "Some people think governments should spend money on space research, while others believe the money should be used to solve problems on Earth. Discuss both views and give your opinion."
+  words: { min: 160, max: 200 }

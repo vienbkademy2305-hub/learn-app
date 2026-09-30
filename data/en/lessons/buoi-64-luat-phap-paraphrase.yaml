@@ -1,0 +1,327 @@
+# Buổi 64 — Luật pháp & đạo đức xã hội · Ôn collocation + paraphrase toàn bộ chủ đề. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-64-luat-phap-paraphrase
+number: 64
+stage: 3
+title_vi: Luật pháp & đạo đức xã hội · Ôn collocation + paraphrase toàn bộ chủ đề
+focus:
+  grammar: "Ôn paraphrase: chủ động ↔ bị động, danh từ hóa, đồng nghĩa theo ngữ cảnh"
+  skill: Reading & Listening — nhận ra paraphrase giữa câu hỏi và bài
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - legislation|n
+      - regulation|n
+      - moral|adj
+      - dilemma|n
+      - violate|v
+      - human-rights|phr-n
+      - discrimination|n
+      - consent|n
+      - accountable|adj
+      - integrity|n
+      - loophole|n
+      - comply-with|phr-v
+      - impose|v
+      - law-abiding|adj
+      - unethical|adj
+      - animal-testing|phr-n
+      - prohibit|v
+      - obligation|n
+  - type: pronunciation
+    notes:
+      - word: legislation|n
+        text_vi: "le-gis-LA-tion: -tion kéo trọng âm về ngay trước; g đọc /dʒ/."
+      - word: violate|v
+        text_vi: "VI-o-late /ˈvaɪə.leɪt/: 3 âm tiết, nhấn âm 1; danh từ vi-o-LA-tion."
+      - word: integrity|n
+        text_vi: "in-TEG-ri-ty: nhấn âm 2."
+      - word: prohibit|v
+        text_vi: "pro-HIB-it: h đọc rõ; danh từ pro-hi-BI-tion thì h thường câm /ˌprəʊ.ɪˈbɪʃ.ən/."
+      - word: dilemma|n
+        text_vi: "di-LEM-ma: nhấn âm 2, âm cuối /ə/ nhẹ."
+  - type: grammar
+    items:
+      - en-g3-19
+  - type: skill
+    skill: reading
+    title_vi: Reading & Listening — nhận ra paraphrase giữa câu hỏi và bài
+    intro_vi: "Gần như mọi câu hỏi Reading và Listening đều PARAPHRASE bài: câu hỏi nói 'prohibited', bài nói 'banned'; câu hỏi nói 'the introduction of new laws', bài nói 'when the government introduced new laws'. Người học band 5 tìm TỪ GIỐNG; người học band 6.5+ tìm Ý GIỐNG. Buổi này luyện nhận ra 4 kiểu paraphrase đã học để định vị đáp án nhanh hơn."
+    steps:
+      - title_vi: Dự đoán paraphrase trước khi đọc bài
+        text_vi: "Với mỗi từ khóa trong câu hỏi, nghĩ nhanh 1–2 cách bài có thể viết khác: prohibited → banned / not allowed / illegal."
+      - title_vi: Neo bằng từ KHÔNG đổi được
+        text_vi: Tên riêng, số, năm, thuật ngữ (animal testing, human rights) thường giữ nguyên — dùng chúng để tìm vị trí, rồi đọc kỹ quanh đó.
+      - title_vi: Nhận ra đổi cấu trúc
+        text_vi: "Bị động ↔ chủ động, động từ ↔ danh từ: 'The law was changed in 2015' = 'the 2015 change to the law'."
+      - title_vi: Kiểm tra mức độ và phủ định
+        text_vi: some/most/all, may/will, not/never — bẫy F/NG hay nằm ở đây, dù từ vựng giống.
+      - title_vi: "Listening: nghe ý, không chờ từ"
+        text_vi: Đáp án thường đến sau câu paraphrase trong phiếu. Nghe thấy 'the main reason' khi phiếu ghi 'Cause:' là đến lúc viết.
+    tips:
+      - "Sổ paraphrase: mỗi bài đọc làm xong, chép 5 cặp (câu hỏi ↔ bài) — sau 20 bài bạn có 100 cặp hay gặp."
+      - "Các cặp hay gặp chủ đề luật: ban ≈ prohibit ≈ make illegal; obey ≈ comply with ≈ follow; punish ≈ penalise ≈ impose a penalty."
+      - "Câu hỏi thường dùng từ CHUNG hơn bài: bài 'cosmetics', câu hỏi 'beauty products'."
+    traps:
+      - trap_vi: Chọn đáp án vì thấy từ giống hệt trong bài.
+        fix_vi: Từ giống hệt thường là bẫy; kiểm tra ý cả câu.
+      - trap_vi: Bỏ qua từ chỉ mức độ (some, most, may).
+        fix_vi: Gạch chân chúng trong câu hỏi trước khi đọc.
+      - trap_vi: "Không nhận ra bị động: 'X was banned by Y' ≠ 'X banned Y'."
+        fix_vi: Xác định ai làm gì với ai.
+    phrases:
+      - en: ban → prohibit / make illegal
+        vi: cấm
+      - en: obey → comply with / follow
+        vi: tuân thủ
+      - en: punish → impose a penalty on
+        vi: trừng phạt
+      - en: introduce a law → the introduction of a law
+        vi: ban hành luật
+      - en: not allowed → prohibited / illegal
+        vi: không được phép
+    demo:
+      title_vi: "Làm mẫu: nối câu hỏi với câu trong bài"
+      text_en: |-
+        Passage sentence: In 2013, the European Union made it illegal to sell cosmetics that had been tested on animals.
+
+        Question A (TFNG): The sale of beauty products tested on animals was prohibited in the EU. → TRUE
+        made it illegal to sell → the sale … was prohibited (danh từ hóa + bị động + đồng nghĩa); cosmetics → beauty products (từ chung hơn).
+
+        Question B (TFNG): All countries in the world have banned animal testing for cosmetics. → NOT GIVEN (or FALSE if the passage mentions countries that still allow it)
+        The passage only mentions the EU; 'all countries' changes the scope.
+
+        Question C (completion): The EU ban on selling animal-tested cosmetics was introduced in ______. → 2013
+        'was introduced' = 'made it illegal'; the number is the anchor.
+      notes:
+        - label: Question A
+          text_vi: Ba kỹ thuật paraphrase cùng lúc trong một câu hỏi.
+        - label: Question B
+          text_vi: "Bẫy mức độ: 'All countries' — bài không nói."
+        - label: Question C
+          text_vi: Neo bằng thuật ngữ (cosmetics, EU) và tìm số.
+  - type: examples
+    items:
+      - b64-001
+      - b64-002
+      - b64-003
+      - b64-004
+      - b64-005
+      - b64-006
+      - b64-007
+      - b64-008
+      - b64-009
+      - b64-010
+      - b64-011
+      - b64-012
+  - type: dialogue
+    title_vi: Tranh luận về camera giám sát
+    lines:
+      - speaker: A
+        text: Our city wants to install cameras on every street. Do you think it's a good idea?
+        vi: Thành phố muốn lắp camera trên mọi con phố. Bạn thấy ý đó hay không?
+      - speaker: B
+        text: It's a dilemma. Law-abiding people have nothing to hide, but it still violates our privacy.
+        vi: Khó xử lắm. Người tuân thủ pháp luật chẳng có gì phải giấu, nhưng nó vẫn xâm phạm quyền riêng tư.
+      - speaker: A
+        text: Maybe the city should ask for residents' consent first.
+        vi: Có lẽ thành phố nên hỏi ý kiến đồng ý của cư dân trước.
+      - speaker: B
+        text: Yes, and there should be strict regulations on how the data is used.
+        vi: Đúng, và cần có quy định chặt chẽ về cách dùng dữ liệu.
+      - speaker: A
+        text: And whoever misuses it must be held accountable.
+        vi: Và ai lạm dụng thì phải chịu trách nhiệm.
+      - speaker: B
+        text: Exactly. Otherwise, companies will just find a loophole.
+        vi: Chính xác. Nếu không, các công ty sẽ tìm ra kẽ hở ngay.
+  - type: exercises
+    items:
+      - id: b64-x1
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Paraphrase câu dùng từ trong ngoặc, giữ nguyên nghĩa.
+        questions:
+          - q: Many countries have banned animal testing. (been prohibited)
+            answer: Animal testing has been prohibited in many countries.
+            accept:
+              - Animal testing has been prohibited by many countries.
+          - q: The government introduced a new law in 2020. (introduction)
+            answer: The introduction of a new law took place in 2020.
+            accept:
+              - The introduction of the new law was in 2020.
+              - The introduction of a new law was in 2020.
+              - The introduction of the new law took place in 2020.
+          - q: All companies must obey the new rules. (comply with)
+            answer: All companies must comply with the new rules.
+            accept:
+              - All companies must comply with the new regulations.
+          - q: The city fined drivers who parked illegally. (imposed)
+            answer: The city imposed fines on drivers who parked illegally.
+            accept:
+              - The city imposed a fine on drivers who parked illegally.
+          - q: It is not legal to sell alcohol to children. (illegal)
+            answer: It is illegal to sell alcohol to children.
+      - id: b64-x2
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Nối động từ với cụm danh từ phù hợp (ôn collocation chủ đề luật – đạo đức).
+        pairs:
+          - left: impose
+            right: a ban on plastic bags
+          - left: comply with
+            right: safety regulations
+          - left: violate
+            right: human rights
+          - left: close
+            right: a legal loophole
+          - left: face
+            right: a moral dilemma
+          - left: give
+            right: your consent
+      - id: b64-x3
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc đoạn văn và chọn T, F hoặc NG. Mỗi câu hỏi đều paraphrase bài — tìm Ý giống, không tìm TỪ giống.
+        passage: "In 2013, the European Union made it illegal to sell cosmetics that had been tested on animals. Supporters of the law argued that modern alternatives, such as tests on human skin cells grown in laboratories, are often cheaper and more reliable. Some scientists, however, warned that for certain chemicals no alternative method yet exists. Since the ban, a number of other countries, including India and Norway, have introduced similar legislation. Critics point out that animal testing is still required for many medicines, and that the law has a loophole: ingredients tested on animals for other purposes may still appear in cosmetics."
+        questions:
+          - q: The EU prohibited the sale of animal-tested beauty products.
+            answer: T
+          - q: According to supporters, alternative tests are always more expensive.
+            answer: F
+            explain_vi: "'often cheaper' — bài nói thường RẺ hơn."
+          - q: Every scientist agreed that alternatives exist for all chemicals.
+            answer: F
+          - q: Several other countries have passed comparable laws.
+            answer: T
+          - q: The EU plans to ban animal testing for medicines.
+            answer: NG
+          - q: Some ingredients tested on animals can still be used in cosmetics.
+            answer: T
+      - id: b64-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Collecting data without consent is a clear ___ of privacy.
+            base: violate
+            answer: violation
+          - q: The ___ of stricter laws reduced drink-driving.
+            base: introduce
+            answer: introduction
+          - q: Some experiments on animals are considered ___.
+            base: ethical
+            answer: unethical
+          - q: Companies have a legal ___ to protect customers' data.
+            base: oblige
+            answer: obligation
+          - q: ___ against people with disabilities should be punished.
+            base: discriminate
+            answer: Discrimination
+            accept:
+              - discrimination
+      - id: b64-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (bị động, collocation, danh từ không đếm được). Sửa trực tiếp.
+        text: Animal testing has banned in many countries. Companies must comply the new regulations. The government introduced many new legislations last year. It also imposed a ban for single-use plastics. Politicians should be held accountable of their decisions.
+        errors:
+          - wrong: has banned
+            right: has been banned
+            why: "Bị động: has been + V3."
+          - wrong: comply the new
+            right: comply with the new
+            why: comply WITH.
+          - wrong: many new legislations
+            right: a lot of new legislation
+            why: legislation không đếm được.
+          - wrong: a ban for single-use
+            right: a ban on single-use
+            why: a ban ON something.
+          - wrong: accountable of
+            right: accountable for
+            why: accountable FOR.
+      - id: b64-x6
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Nghe cuộc trao đổi giữa hai sinh viên luật (hai giọng) và hoàn thành ghi chú. Chú ý: phiếu dùng từ khác với lời nói. Viết MỘT TỪ cho mỗi chỗ trống."
+        max_words: 1
+        audio_text: |-
+          Man: So what's our presentation about?
+          Woman: The new rules on facial recognition cameras. From January, shops aren't allowed to use them without telling customers.
+          Man: Who has to follow the rules?
+          Woman: Any business with more than fifty employees. Smaller businesses are exempt for now.
+          Man: And what happens if a company breaks them?
+          Woman: It'll have to pay a fine. At first it was going to be ten thousand euros, but they changed it. It's twenty thousand now.
+          Man: What do critics say?
+          Woman: That the law has a loophole. Police can still use the cameras without a warrant.
+        passage: |-
+          FACIAL RECOGNITION LAW
+          Shops are prohibited from using cameras without informing (1) ___
+          Must comply: businesses with over (2) ___ employees
+          Penalty: a (3) ___ of €20,000
+          Criticism: police do not need a (4) ___
+        questions:
+          - q: (1)
+            answer: customers
+          - q: (2)
+            answer: fifty
+            accept:
+              - "50"
+          - q: (3)
+            answer: fine
+          - q: (4)
+            answer: warrant
+      - id: b64-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe bản tin rồi chọn T (đúng) hoặc F (sai). Câu hỏi paraphrase lời nói.
+        audio_text: From next month, it will be illegal to use a mobile phone while riding an electric scooter. The police say the number of scooter accidents has doubled in two years. Riders who break the rule will have to pay a penalty of one hundred dollars. However, the law does not apply to riders under sixteen, who are already banned from using scooters on public roads.
+        questions:
+          - q: Using a phone while riding an e-scooter will be prohibited.
+            answer: T
+          - q: Scooter accidents have halved in two years.
+            answer: F
+          - q: Riders who do not comply will be fined.
+            answer: T
+          - q: Riders under sixteen are allowed to ride on public roads.
+            answer: F
+      - id: b64-x8
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn câu paraphrase ĐÚNG NGHĨA nhất.
+        questions:
+          - q: "'Some people believe that the death penalty deters crime.'"
+            options:
+              - Everyone agrees that the death penalty reduces crime.
+              - It is sometimes argued that capital punishment discourages people from committing crimes.
+              - The death penalty has been proven to reduce crime.
+              - Some people believe that crime causes the death penalty.
+            answer: b
+          - q: "'Companies may be required to delete users' data.'"
+            options:
+              - Companies will definitely delete users' data.
+              - Companies could be obliged to remove users' data.
+              - Users must delete companies' data.
+              - Companies have deleted users' data.
+            answer: b
+          - q: "'The government has not yet closed the loophole.'"
+            options:
+              - The loophole still exists.
+              - The loophole was closed.
+              - There was never a loophole.
+              - The government created the loophole recently.
+            answer: a
+  - type: homework
+    kind: paragraph
+    prompt_vi: "(1) Viết mở bài (2 câu: paraphrase đề + thesis) cho 3 đề dưới đây, mỗi đề dùng ít nhất 2 kỹ thuật paraphrase khác nhau. (2) Làm 'sổ paraphrase': chép 15 cặp từ/cụm đồng nghĩa theo chủ đề luật – đạo đức từ bài học này và các buổi 29–30, 50–51."
+    prompt_en: |-
+      1. Some people think that animal testing should be banned completely. To what extent do you agree or disagree?
+      2. Governments should impose heavier fines on companies that break environmental laws. Do you agree or disagree?
+      3. In many countries, cameras are used in public places to reduce crime. Do the advantages outweigh the disadvantages?
+    words:
+      min: 120
+      max: 180
+    minutes: 25

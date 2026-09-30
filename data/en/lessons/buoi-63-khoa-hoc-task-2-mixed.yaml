@@ -1,0 +1,363 @@
+# Buổi 63 — Không gian & khoa học · Writing Task 2: đề kết hợp nhiều dạng (mixed). Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-63-khoa-hoc-task-2-mixed
+number: 63
+stage: 3
+title_vi: "Không gian & khoa học · Writing Task 2: đề kết hợp nhiều dạng (mixed)"
+focus:
+  grammar: "Câu chẻ nhấn mạnh: It is … that … / What … is …"
+  skill: Writing Task 2 — đề kết hợp (mixed / combined questions)
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - space-exploration|phr-n
+      - colonise|v
+      - justify|v
+      - taxpayer|n
+      - mission|n
+      - cutting-edge|adj
+      - feasible|adj
+      - space-debris|phr-n
+      - pressing|adj
+      - habitable|adj
+      - astronomical|adj
+      - rocket|n
+      - spin-off|n
+      - humanity|n
+      - frontier|n
+      - commercial|adj
+      - private-sector|phr-n
+      - outer-space|phr-n
+  - type: pronunciation
+    notes:
+      - word: space-debris|phr-n
+        text_vi: "debris /ˈdeb.riː/: s câm (Anh-Mỹ /dəˈbriː/)."
+      - word: astronomical|adj
+        text_vi: "as-tro-NOM-i-cal: nhấn âm 3 (khác as-TRON-o-my)."
+      - word: habitable|adj
+        text_vi: "HAB-it-a-ble: nhấn âm 1, 4 âm tiết."
+      - word: frontier|n
+        text_vi: Anh-Anh FRON-tier /ˈfrʌn.tɪə/, Anh-Mỹ fron-TIER /frʌnˈtɪr/; o đọc /ʌ/.
+      - word: justify|v
+        text_vi: "JUS-ti-fy: nhấn âm 1. Câu chẻ khi nói: nhấn phần được làm nổi bật — 'It's the COST that worries me' — rồi hạ giọng ở that-clause."
+  - type: grammar
+    items:
+      - en-g3-18
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — đề kết hợp nhiều dạng (mixed / combined questions)
+    intro_vi: "Nhiều đề thật không thuộc gọn một dạng: 'Discuss both views and give your opinion' là Discussion + Opinion; 'Why is this happening? Is it positive or negative?' là Cause + Opinion (đã gặp ở Buổi 58); 'What problems … and what should governments do? Who should pay?' là Problem–Solution + câu hỏi thêm. Tiêu chí Task Response band 6: 'addresses all parts of the task, although some parts may be more fully covered than others'. Band 7: 'addresses all parts … presents a clear position throughout'. Bỏ sót MỘT phần câu hỏi là TR khó quá 5."
+    steps:
+      - title_vi: Tách đề thành từng câu hỏi
+        text_vi: "Gạch và đánh số mọi phần phải trả lời: (1) discuss view A, (2) discuss view B, (3) give your opinion. Hoặc (1) problems, (2) solutions, (3) who should pay."
+      - title_vi: Gán mỗi phần vào một đoạn
+        text_vi: 2 phần → 2 thân bài. 3 phần → 2 thân bài, trong đó quan điểm cá nhân nằm ở mở bài + kết bài và cuối thân bài 2, HOẶC 3 thân bài ngắn.
+      - title_vi: Nêu quan điểm ngay từ mở bài
+        text_vi: "Nếu đề có 'your opinion', câu thesis phải nêu rõ bạn nghiêng về bên nào. Câu chẻ giúp làm rõ: 'It is research into Earth's problems that should come first, in my view.'"
+      - title_vi: Mỗi thân bài 1 ý chính + giải thích + ví dụ
+        text_vi: Không liệt kê 4–5 ý mỏng. 2 ý phát triển kỹ ghi điểm TR cao hơn.
+      - title_vi: Kết bài trả lời lại TẤT CẢ phần
+        text_vi: Một câu tóm tắt cho mỗi phần của đề. Không thêm ý mới.
+    tips:
+      - Viết lại đề thành checklist 2–3 dòng ở giấy nháp; đánh dấu khi đã trả lời.
+      - "Thời gian: 5 phút phân tích đề + dàn ý, 32 phút viết, 3 phút soát (Buổi 62)."
+      - "Quan điểm phải nhất quán: nếu mở bài nói 'partly agree', thân bài phải thể hiện cả hai phía."
+    traps:
+      - trap_vi: Chỉ trả lời câu hỏi đầu, quên câu hỏi thứ hai.
+        fix_vi: Checklist phần của đề; mỗi phần ít nhất một đoạn hoặc nửa đoạn.
+      - trap_vi: Đề 'discuss both views' nhưng chỉ viết một phía.
+        fix_vi: Mỗi quan điểm một thân bài, kể cả quan điểm bạn không đồng ý.
+      - trap_vi: Quan điểm đổi giữa bài.
+        fix_vi: Viết thesis trước, đọc lại trước khi viết kết bài.
+    phrases:
+      - en: This essay will discuss both views before explaining why I believe …
+        vi: Bài luận sẽ thảo luận cả hai quan điểm rồi giải thích vì sao tôi tin rằng …
+        note_vi: Thesis đề Discussion + Opinion.
+      - en: It is … that should be the priority.
+        vi: Chính … mới nên là ưu tiên.
+        note_vi: Câu chẻ nêu quan điểm.
+      - en: What concerns critics most is …
+        vi: Điều khiến những người phản đối lo nhất là …
+      - en: As for who should pay, …
+        vi: Còn về việc ai nên chi trả, …
+        note_vi: Chuyển sang câu hỏi thứ ba.
+      - en: In conclusion, although …, I believe …
+        vi: Tóm lại, mặc dù …, tôi tin rằng …
+    demo:
+      title_vi: "Làm mẫu: dàn ý và mở bài – kết bài cho đề ba phần"
+      text_en: |-
+        Question: Some people believe that space exploration is a waste of money, while others think it is essential for humanity's future. Discuss both views and give your own opinion. Who should pay for space exploration?
+
+        Checklist: (1) view A — waste of money; (2) view B — essential; (3) my opinion; (4) who should pay.
+
+        Plan: Body 1 = view A (astronomical costs; pressing problems on Earth such as poverty). Body 2 = view B (spin-offs such as satellite weather forecasts; long-term survival) + my opinion. Body 3 (short) = who should pay: governments for scientific research, the private sector for commercial projects.
+
+        Introduction: Space exploration has become one of the most expensive scientific activities in history. While some argue that this money would be better spent on Earth, others see space as the final frontier for humanity. This essay will discuss both views before explaining why I believe space exploration is worthwhile, and it will then consider who should pay for it.
+
+        Conclusion: In conclusion, although the cost of space exploration is difficult to justify when people still live in poverty, I believe its long-term benefits are greater. It is not governments alone that should fund it, however: commercial missions should be paid for by the private sector, leaving public money for research that benefits everyone.
+      notes:
+        - label: Checklist
+          text_vi: Bốn phần; câu hỏi phụ 'who should pay' dễ bị bỏ sót nhất.
+        - label: Plan
+          text_vi: Quan điểm cá nhân gộp cuối thân bài 2; câu hỏi thứ tư có thân bài ngắn riêng.
+        - label: Introduction
+          text_vi: Paraphrase hai quan điểm + thesis nêu rõ ý kiến + báo trước phần 'who should pay'.
+        - label: It is not governments alone that …
+          text_vi: Câu chẻ ở kết bài, trả lời lại câu hỏi thứ tư.
+  - type: examples
+    items:
+      - b63-001
+      - b63-002
+      - b63-003
+      - b63-004
+      - b63-005
+      - b63-006
+      - b63-007
+      - b63-008
+      - b63-009
+      - b63-010
+      - b63-011
+  - type: dialogue
+    title_vi: "Tranh luận: tiền cho vũ trụ hay cho Trái Đất?"
+    lines:
+      - speaker: A
+        text: Did you see the news? Another mission to Mars is planned for next year.
+        vi: Bạn xem tin chưa? Lại có một sứ mệnh lên sao Hỏa dự kiến năm sau.
+      - speaker: B
+        text: Honestly, what bothers me is the cost. It's astronomical.
+        vi: Thật lòng, điều làm mình khó chịu là chi phí. Khổng lồ.
+      - speaker: A
+        text: But it's partly paid for by the private sector now, not only taxpayers.
+        vi: Nhưng giờ khu vực tư nhân trả một phần, không chỉ người đóng thuế.
+      - speaker: B
+        text: Even so, we have more pressing problems on Earth, like climate change.
+        vi: Dù vậy, Trái Đất còn nhiều vấn đề cấp bách hơn, như biến đổi khí hậu.
+      - speaker: A
+        text: Actually, it's satellites that give us most of our climate data.
+        vi: Thật ra, chính vệ tinh cung cấp phần lớn dữ liệu khí hậu cho chúng ta.
+      - speaker: B
+        text: Fair point. I just don't think colonising Mars is feasible.
+        vi: Có lý. Mình chỉ không nghĩ lập thuộc địa trên sao Hỏa là khả thi.
+      - speaker: A
+        text: Maybe not yet. But fifty years ago, reusable rockets weren't feasible either.
+        vi: Có lẽ chưa. Nhưng năm mươi năm trước, tên lửa tái sử dụng cũng đâu khả thi.
+  - type: exercises
+    items:
+      - id: b63-x1
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu thành câu chẻ, bắt đầu bằng từ cho sẵn.
+        questions:
+          - q: The cost worries most people. → What ___
+            answer: worries most people is the cost.
+          - q: Private companies are leading the space race. → It is ___
+            answer: private companies that are leading the space race.
+            accept:
+              - private companies who are leading the space race.
+          - q: Humans first landed on the Moon in 1969. → It was in 1969 ___
+            answer: that humans first landed on the Moon.
+          - q: Space research is worthwhile because it produces useful technology. → The reason ___
+            answer: space research is worthwhile is that it produces useful technology.
+            accept:
+              - why space research is worthwhile is that it produces useful technology.
+      - id: b63-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: What we need most ___ better education, not rockets.
+            options:
+              - are
+              - is
+              - be
+              - being
+            answer: b
+          - q: It was Yuri Gagarin ___ first travelled into space.
+            options:
+              - which
+              - who
+              - what
+              - whom
+            answer: b
+          - q: The reason many people oppose it is ___ it is too expensive.
+            options:
+              - because
+              - that
+              - why
+              - so
+            answer: b
+          - q: It is not the government ___ the private sector that should pay for tourist flights.
+            options:
+              - or
+              - but
+              - and
+              - nor
+            answer: b
+          - q: "'Discuss both views and give your opinion. Who should pay?' How many parts must you answer?"
+            options:
+              - one
+              - two
+              - three
+              - four
+            answer: d
+            explain_vi: View A, view B, opinion, who should pay.
+      - id: b63-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank:
+          - astronomical
+          - justify
+          - pressing
+          - feasible
+          - habitable
+          - space debris
+          - spin-offs
+          - taxpayers
+        questions:
+          - q: Building a city on Mars is not yet technically ___.
+            answer: feasible
+          - q: Scientists are searching for ___ planets outside our solar system.
+            answer: habitable
+          - q: The ___ cost of the mission shocked the public.
+            answer: astronomical
+          - q: Politicians find it hard to ___ spending billions on space.
+            answer: justify
+          - q: Poverty and climate change are more ___ problems.
+            answer: pressing
+          - q: Thousands of pieces of ___ now circle the Earth.
+            answer: space debris
+          - q: Memory foam and water filters are ___ from space research.
+            answer: spin-offs
+          - q: The project is paid for by ___, so it must be good value.
+            answer: taxpayers
+      - id: b63-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "Phân tích đề: với mỗi đề, chọn dàn ý phù hợp nhất."
+        questions:
+          - q: "'More and more private companies are sending people into space. Why is this happening? Is it a positive or negative development?'"
+            options:
+              - "Body 1: advantages; Body 2: disadvantages"
+              - "Body 1: reasons for the trend; Body 2: my opinion (positive or negative)"
+              - "Body 1: problems; Body 2: solutions"
+              - "Body 1: view A; Body 2: view B"
+            answer: b
+          - q: "'Space debris is increasing. What problems does this cause, and what can be done?'"
+            options:
+              - "Body 1: causes; Body 2: effects"
+              - "Body 1: problems; Body 2: solutions"
+              - "Body 1: my opinion; Body 2: other opinion"
+              - One body paragraph only
+            answer: b
+          - q: Which thesis answers ALL parts of 'Discuss both views and give your opinion'?
+            options:
+              - This essay will discuss both views.
+              - Space exploration is very interesting.
+              - This essay will discuss both views before explaining why I believe the benefits outweigh the costs.
+              - There are many advantages of space exploration.
+            answer: c
+      - id: b63-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (câu chẻ, lỗi người Việt từ Buổi 62). Sửa trực tiếp.
+        text: What worries many taxpayers are the cost of each mission. It is the private sector which leading the industry now. The reason is because governments cannot afford it. Space exploration very expensive. However, it has produced many useful spin-off.
+        errors:
+          - wrong: What worries many taxpayers are
+            right: What worries many taxpayers is
+            why: What-clause + is.
+          - wrong: which leading the industry
+            right: that is leading the industry
+            why: Sau that/which cần động từ đầy đủ.
+          - wrong: The reason is because
+            right: The reason is that
+            why: The reason is that …
+          - wrong: Space exploration very expensive
+            right: Space exploration is very expensive
+            why: Thiếu to be.
+          - wrong: many useful spin-off.
+            right: many useful spin-offs.
+            why: many + số nhiều.
+      - id: b63-x6
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên phân tích một đề Task 2 (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Man: OK, the question says: some people think governments should stop funding space research and spend the money on healthcare. Discuss both views and give your opinion.
+          Woman: So that's three parts: both views, and our opinion.
+          Man: Right. What's your opinion?
+          Woman: I think we need both, but healthcare should come first. It's healthcare that affects everyone every day.
+          Man: I'd argue the opposite. What people forget is that satellites help doctors reach remote areas.
+          Woman: Good example, but it doesn't change my view. Let's each write a plan and compare.
+        questions:
+          - q: How many parts does the question have, according to the woman?
+            options:
+              - two
+              - three
+              - four
+              - five
+            answer: b
+          - q: What is the woman's opinion?
+            options:
+              - Stop space research completely.
+              - Healthcare should be the priority.
+              - Space research is more important.
+              - Both are useless.
+            answer: b
+          - q: What example does the man give?
+            options:
+              - rockets carry medicine
+              - satellites help doctors reach remote areas
+              - astronauts become doctors
+              - space hospitals
+            answer: b
+          - q: What do they decide to do next?
+            options:
+              - write one essay together
+              - each write a plan and compare
+              - ask the teacher
+              - change the question
+            answer: b
+      - id: b63-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe bản tin rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Scientists say there are now more than thirty thousand pieces of space debris large enough to track. It is these objects that pose the greatest danger to satellites and astronauts. Several companies are testing ways to remove debris, for example with nets and magnets. However, experts warn that no solution will be feasible unless countries agree on international rules.
+        questions:
+          - q: There are fewer than thirty thousand trackable pieces of debris.
+            answer: F
+          - q: Space debris is a danger to astronauts.
+            answer: T
+          - q: Companies are testing nets and magnets to remove debris.
+            answer: T
+          - q: Experts believe the problem can be solved without international rules.
+            answer: F
+      - id: b63-x8
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với nghĩa tiếng Anh.
+        pairs:
+          - left: feasible
+            right: possible to do
+          - left: pressing
+            right: needing to be dealt with immediately
+          - left: spin-off
+            right: a useful product that develops from something else
+          - left: habitable
+            right: suitable for people to live in
+          - left: taxpayer
+            right: a person who pays money to the government
+          - left: cutting-edge
+            right: the most modern and advanced
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 (≥ 250 từ, 40 phút). Trước khi viết: ghi checklist các phần của đề. Dùng 1–2 câu chẻ (It is … that / What … is). 3 phút cuối soát 3 lượt như Buổi 62."
+    prompt_en: |-
+      Some people believe that space exploration is a waste of money, while others think it is essential for humanity's future.
+      Discuss both views and give your own opinion. Who should pay for space exploration?
+    words:
+      min: 250
+      max: 300
+    minutes: 40

@@ -26,9 +26,9 @@ entries:
     source: editorial
     provenance:
       - { source: ai-draft, field: meaning_vi }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/married, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/married, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: month|n
     headword: month
@@ -47,9 +47,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: morning|n
     headword: morning
@@ -68,9 +68,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: midnight|n
     headword: midnight
@@ -89,9 +89,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: maths|n
     headword: maths
@@ -110,9 +110,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: manager|n
     headword: manager
@@ -131,9 +131,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manager, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manager, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: medicine|n
     headword: medicine
@@ -157,8 +157,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medicine, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: meat|n
     headword: meat
@@ -177,9 +177,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: milk|n
     headword: milk
@@ -198,9 +198,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: museum|n
     headword: museum
@@ -219,9 +219,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: market|n
     headword: market
@@ -239,9 +239,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: meet|v
     headword: meet
@@ -261,9 +261,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: motorbike|n
     headword: motorbike
@@ -284,8 +284,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: move|v
     headword: move
@@ -308,9 +308,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: maybe|adv
     headword: maybe
@@ -330,9 +330,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: musical-instrument|phr-n
     headword: musical instrument
@@ -354,8 +354,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mind|v
     headword: mind
@@ -375,9 +375,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: material|n
     headword: material
@@ -396,9 +396,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: metal|n
     headword: metal
@@ -418,9 +418,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: make-the-bed|colloc
     headword: make the bed
@@ -521,9 +521,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mouth|n
     headword: mouth
@@ -542,9 +542,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: match|n
     headword: match
@@ -566,9 +566,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: main-idea|phr-n
     headword: main idea
@@ -614,9 +614,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: memorable|adj
     headword: memorable
@@ -637,9 +637,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: marathon|n
     headword: marathon
@@ -660,9 +660,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/marathon, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/marathon, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: medal|n
     headword: medal
@@ -683,9 +683,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mass-tourism|phr-n
     headword: mass tourism
@@ -731,8 +731,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: migration|n
     headword: migration
@@ -754,9 +754,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mention|v
     headword: mention
@@ -779,9 +779,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: modern|adj
     headword: modern
@@ -804,9 +804,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mainstream-media|phr-n
     headword: mainstream media
@@ -828,8 +828,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: misinformation|n
     headword: misinformation
@@ -852,8 +852,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: media-literacy|phr-n
     headword: media literacy
@@ -901,8 +901,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: minimum-wage|phr-n
     headword: minimum wage
@@ -923,8 +923,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minimum-wage, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/minimum_wage, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minimum-wage, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/minimum_wage, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: multinational-corporation|phr-n
     headword: multinational corporation
@@ -973,8 +973,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manufacture, checked: 2026-09-29, field: cefr }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manufacture, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manufacture, checked: 2026-09-30, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manufacture, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: make-up|phr-v
     headword: make up
@@ -1000,8 +1000,8 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-29, field: ipa.uk }
-      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-29, field: ipa.us }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-30, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: minority|n
     headword: minority
@@ -1025,9 +1025,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: measure|n
     headword: measure
@@ -1050,9 +1050,9 @@ entries:
     provenance:
       - source: ai-draft
         field: meaning_vi
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: cefr }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: ipa.uk }
-      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: ipa.us }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: melt|v
     headword: melt
@@ -1060,7 +1060,7 @@ entries:
     ipa:
       uk: /melt/
       us: /melt/
-    cefr: null
+    cefr: B2
     meaning_vi:
       - làm tan chảy
       - nung chảy
@@ -1072,9 +1072,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/melt, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/melt, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/melt, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: make-way-for|phr-v
     headword: make way for
@@ -1108,7 +1109,7 @@ entries:
       uk: /ˌməʊ.tɪˈveɪ.ʃən/
       us: /ˌmoʊ.t̬əˈveɪ.ʃən/
     stress: mo-ti-VA-tion
-    cefr: null
+    cefr: B2
     meaning_vi:
       - động lực
     collocations:
@@ -1125,6 +1126,8 @@ entries:
         field: ipa
       - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motivation, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motivation, checked: 2026-09-30, field: ipa.uk }
     status: draft
   - id: mentor|n
     headword: mentor
@@ -1132,7 +1135,7 @@ entries:
     ipa:
       uk: /ˈmen.tɔːr/
       us: /ˈmen.tɔːr/
-    cefr: null
+    cefr: C1
     meaning_vi:
       - người cố vấn
       - người dìu dắt
@@ -1145,9 +1148,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mentor, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mentor, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mentor, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: memorise|v
     headword: memorise
@@ -1180,7 +1184,7 @@ entries:
       uk: /mɔːˈrəʊ.vər/
       us: /mɔːrˈoʊ.vɚ/
     stress: more-O-ver
-    cefr: null
+    cefr: B2
     meaning_vi:
       - hơn nữa (thêm ý mạnh hơn)
     notes_vi:
@@ -1190,9 +1194,10 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moreover, checked: 2026-09-30, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/moreover, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moreover, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: machine-learning|phr-n
     headword: machine learning
@@ -1211,9 +1216,9 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
-      - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/machine-learning, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/machine-learning, checked: 2026-09-30, field: ipa.us }
     status: draft
   - id: mental-health|phr-n
     headword: mental health
@@ -1232,7 +1237,142 @@ entries:
     source: editorial
     provenance:
       - source: ai-draft
-        field: ipa
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mental-health, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mental-health, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: materialistic|adj
+    headword: materialistic
+    pos: adj
+    ipa:
+      uk: /məˌtɪə.ri.əˈlɪs.tɪk/
+      us: /məˌtɪr.i.əˈlɪs.tɪk/
+    stress: ma-te-ri-a-LIS-tic
+    cefr: null
+    meaning_vi:
+      - thực dụng
+      - coi trọng vật chất
+    collocations:
+      - a materialistic society
+      - become more materialistic
+    topics:
+      - economy
+      - society
+    source: editorial
+    provenance:
       - source: ai-draft
         field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/materialistic, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/materialistic, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: marginally|adv
+    headword: marginally
+    pos: adv
+    ipa:
+      uk: /ˈmɑː.dʒɪ.nəl.i/
+      us: /ˈmɑːr.dʒɪ.nəl.i/
+    cefr: null
+    meaning_vi:
+      - không đáng kể
+      - nhỉnh hơn một chút
+    collocations:
+      - marginally lower
+      - marginally more popular
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marginally, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marginally, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: masterpiece|n
+    headword: masterpiece
+    pos: n
+    ipa:
+      uk: /ˈmɑː.stə.piːs/
+      us: /ˈmæs.tɚ.piːs/
+    cefr: null
+    meaning_vi:
+      - kiệt tác
+    collocations:
+      - a true masterpiece
+      - be regarded as a masterpiece
+    topics:
+      - arts
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/masterpiece, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/masterpiece, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: milestone|n
+    headword: milestone
+    pos: n
+    ipa:
+      uk: /ˈmaɪl.stəʊn/
+      us: /ˈmaɪl.stoʊn/
+    cefr: C1
+    meaning_vi:
+      - cột mốc (quan trọng)
+    collocations:
+      - an important milestone
+      - reach a milestone
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milestone, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milestone, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milestone, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: mission|n
+    headword: mission
+    pos: n
+    ipa:
+      uk: /ˈmɪʃ.ən/
+      us: /ˈmɪʃ.ən/
+    cefr: B2
+    meaning_vi:
+      - sứ mệnh
+      - chuyến (bay) nhiệm vụ
+    collocations:
+      - a space mission
+      - a mission to Mars
+    topics:
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mission, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mission, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mission, checked: 2026-09-30, field: ipa.us }
+    status: draft
+  - id: moral|adj
+    headword: moral
+    pos: adj
+    ipa:
+      uk: /ˈmɒr.əl/
+      us: /ˈmɔːr.əl/
+    cefr: B2
+    meaning_vi:
+      - (thuộc) đạo đức
+    collocations:
+      - a moral duty
+      - moral values
+      - a moral question
+    topics:
+      - ethics
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moral, checked: 2026-09-30, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moral, checked: 2026-09-30, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moral, checked: 2026-09-30, field: ipa.us }
     status: draft

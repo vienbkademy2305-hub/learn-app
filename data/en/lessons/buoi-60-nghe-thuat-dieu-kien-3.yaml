@@ -1,0 +1,349 @@
+# Buổi 60 — Nghệ thuật & giải trí · Câu điều kiện loại 3 + hỗn hợp · Reading: Matching features. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-60-nghe-thuat-dieu-kien-3
+number: 60
+stage: 3
+title_vi: "Nghệ thuật & giải trí · Câu điều kiện loại 3 + hỗn hợp · Reading: Matching features"
+focus:
+  grammar: Câu điều kiện loại 3 và điều kiện hỗn hợp
+  skill: Reading — Matching features (nối nhận định với người/nhóm)
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - exhibition|n
+      - gallery|n
+      - sculpture|n
+      - masterpiece|n
+      - performance|n
+      - critic|n
+      - review|n
+      - box-office|phr-n
+      - sequel|n
+      - soundtrack|n
+      - playwright|n
+      - sold-out|adj
+      - premiere|n
+      - blockbuster|n
+      - portrait|n
+      - abstract|adj
+      - critically-acclaimed|adj
+      - genre|n
+  - type: pronunciation
+    notes:
+      - word: exhibition|n
+        text_vi: "ex-hi-BI-tion: h câm, đọc /ˌek.sɪˈbɪʃ.ən/. Động từ exhibit /ɪɡˈzɪb.ɪt/ cũng câm h."
+      - word: genre|n
+        text_vi: "/ˈʒɒn.rə/: âm đầu /ʒ/, không đọc 'gen-rơ'."
+      - word: sculpture|n
+        text_vi: "SCULP-ture /ˈskʌlp.tʃə/: đủ cụm /lp/ rồi /tʃə/."
+      - word: premiere|n
+        text_vi: Anh-Anh /ˈprem.i.eə/, Anh-Mỹ /prɪˈmɪr/ — hai cách đều gặp trong bài nghe.
+      - word: critic|n
+        text_vi: "CRIT-ic /ˈkrɪt.ɪk/: nhấn âm 1. Khi nghe câu loại 3, chú ý dạng yếu would have → /ˈwʊd.əv/ (I would've gone)."
+  - type: grammar
+    items:
+      - en-g3-15
+  - type: skill
+    skill: reading
+    title_vi: Reading — Matching features (nối nhận định với người/nhóm)
+    intro_vi: Đề cho một danh sách người (nhà nghiên cứu, nhà phê bình), địa điểm hoặc mốc thời gian, và một danh sách nhận định. Bạn nối mỗi nhận định với đúng người. Một người có thể được dùng nhiều lần hoặc không lần nào. Khó vì tên xuất hiện rải rác, và nhận định đã được PARAPHRASE.
+    steps:
+      - title_vi: Khoanh tất cả tên trong bài trước
+        text_vi: "Scan và khoanh mọi chỗ tên xuất hiện (cả họ đơn lẻ: 'Chen argues…', và đại từ he/she ngay sau). Một người thường xuất hiện 2–3 chỗ."
+      - title_vi: Đọc nhận định, gạch từ khóa ý
+        text_vi: Nhận định không lặp từ của bài; gạch ý chính (VD 'public money should support the arts').
+      - title_vi: Đọc quanh từng tên
+        text_vi: Đọc 2–3 câu quanh mỗi chỗ tên xuất hiện, so với các nhận định. Làm theo TÊN (ít) thay vì theo NHẬN ĐỊNH (nhiều) thường nhanh hơn.
+      - title_vi: Phân biệt ý của người đó và ý người khác
+        text_vi: Câu như 'Unlike Chen, Moreno believes…' — ý sau thuộc về Moreno, không phải Chen.
+      - title_vi: Không đúng thứ tự
+        text_vi: Dạng này KHÔNG theo thứ tự bài. Đừng bỏ qua nhận định khó; đánh dấu và quay lại.
+    tips:
+      - "Động từ tường thuật cho biết thái độ: argues, claims (quan điểm), found, showed (kết quả nghiên cứu), warns (cảnh báo)."
+      - "Chú ý câu điều kiện loại 3 trong bài: 'If X had …, Y would have …' nghĩa là X ĐÃ KHÔNG xảy ra."
+      - "Thời gian gợi ý: 1 phút/nhận định."
+    traps:
+      - trap_vi: Thấy tên và từ khóa gần nhau là chọn ngay.
+        fix_vi: "Đọc cả câu: có thể người đó đang PHẢN BÁC ý đó."
+      - trap_vi: Nghĩ mỗi người chỉ dùng một lần.
+        fix_vi: Đề ghi 'You may use any letter more than once'.
+      - trap_vi: Hiểu nhầm câu loại 3 thành việc đã xảy ra.
+        fix_vi: "'would have succeeded' = đã KHÔNG thành công."
+    phrases:
+      - en: X argues that …
+        vi: X lập luận rằng …
+      - en: Unlike X, Y believes …
+        vi: Khác với X, Y tin rằng …
+      - en: According to X, …
+        vi: Theo X, …
+      - en: X's research found that …
+        vi: Nghiên cứu của X phát hiện rằng …
+    demo:
+      title_vi: "Làm mẫu: tìm người cho nhận định"
+      text_en: |-
+        Passage extract: Critic Laura Moreno argues that public funding keeps theatres alive. 'If the city had not paid for the Riverside Theatre in the 1990s, it would have closed,' she says. Economist Daniel Chen disagrees. In his view, audiences, not governments, should decide which arts survive. However, Chen's own study found that free museum entry doubled the number of young visitors.
+
+        Statement 1: Government money has saved at least one theatre. → Moreno ('If the city had not paid …, it would have closed' = the city paid, so it did not close).
+        Statement 2: Ticket buyers should choose which arts continue. → Chen ('audiences … should decide').
+        Statement 3: Removing entry fees attracts more young people. → Chen (his STUDY found this, even though he disagrees with funding in general).
+      notes:
+        - label: Statement 1
+          text_vi: "Câu loại 3 là chìa khóa: hiểu đúng 'if … had not … would have closed' = nhà hát KHÔNG đóng cửa nhờ tiền của thành phố."
+        - label: Statement 2
+          text_vi: "Paraphrase: audiences → ticket buyers; decide which arts survive → choose which arts continue."
+        - label: Statement 3
+          text_vi: Một người có thể xuất hiện nhiều lần; kết quả nghiên cứu khác quan điểm cá nhân.
+  - type: examples
+    items:
+      - b60-001
+      - b60-002
+      - b60-003
+      - b60-004
+      - b60-005
+      - b60-006
+      - b60-007
+      - b60-008
+      - b60-009
+      - b60-010
+      - b60-011
+  - type: dialogue
+    title_vi: Lỡ buổi hòa nhạc
+    lines:
+      - speaker: A
+        text: Did you go to the concert on Saturday?
+        vi: Bạn có đi buổi hòa nhạc thứ Bảy không?
+      - speaker: B
+        text: No, it was sold out. If I had booked a week earlier, I would have got a ticket.
+        vi: Không, hết vé rồi. Nếu mình đặt sớm một tuần thì đã có vé.
+      - speaker: A
+        text: What a shame! The reviews say it was an amazing performance.
+        vi: Tiếc quá! Các bài đánh giá nói đó là một màn trình diễn tuyệt vời.
+      - speaker: B
+        text: Don't remind me. If I weren't so disorganised, I would have been there.
+        vi: Đừng nhắc nữa. Nếu mình không đoảng như vậy thì đã có mặt ở đó.
+      - speaker: A
+        text: Well, there's an exhibition at the city gallery next week. Shall we go?
+        vi: Thôi, tuần sau có triển lãm ở phòng tranh thành phố. Đi không?
+      - speaker: B
+        text: Sure. What kind of art is it?
+        vi: Được. Nghệ thuật kiểu gì vậy?
+      - speaker: A
+        text: Mostly abstract paintings and some sculptures. And entry is free, so it can't sell out!
+        vi: Chủ yếu là tranh trừu tượng và vài tác phẩm điêu khắc. Mà vào cửa miễn phí nên không thể hết vé đâu!
+  - type: exercises
+    items:
+      - id: b60-x1
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc (điều kiện loại 3 hoặc hỗn hợp).
+        questions:
+          - q: If we (leave) ___ earlier, we wouldn't have missed the start of the film.
+            answer: had left
+          - q: If the critics had liked it, the play (run) ___ for longer.
+            answer: would have run
+          - q: If I had learnt the guitar as a child, I (play) ___ in a band now.
+            answer: would be playing
+            accept:
+              - would play
+          - q: If she weren't so shy, she (audition) ___ for the lead role last month.
+            answer: would have auditioned
+          - q: The film might (win) ___ an award if the ending had been better.
+            answer: have won
+      - id: b60-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: Viết một câu điều kiện loại 3 hoặc hỗn hợp nói về điều ngược lại.
+        questions:
+          - q: The tickets sold out. We didn't see the show.
+            answer: If the tickets hadn't sold out, we would have seen the show.
+            accept:
+              - If the tickets had not sold out, we would have seen the show.
+          - q: The gallery didn't get funding. It closed.
+            answer: If the gallery had got funding, it wouldn't have closed.
+            accept:
+              - If the gallery had got funding, it would not have closed.
+              - If the gallery had received funding, it wouldn't have closed.
+              - If the gallery had received funding, it would not have closed.
+          - q: I didn't study music. I'm not a musician now.
+            answer: If I had studied music, I would be a musician now.
+          - q: The sequel was boring. It didn't do well at the box office.
+            answer: If the sequel hadn't been boring, it would have done well at the box office.
+            accept:
+              - If the sequel had not been boring, it would have done well at the box office.
+      - id: b60-x3
+        bank_no: 17
+        kind: mcq
+        instructions_vi: "Matching features: đọc bài và chọn người phù hợp với mỗi nhận định (A Moreno, B Chen, C Park). Một người có thể được chọn nhiều lần."
+        passage: |-
+          WHO SHOULD PAY FOR THE ARTS?
+
+          Theatre critic Laura Moreno believes that public money is essential for the arts. She points to the Riverside Theatre, which almost closed in the 1990s. 'If the city had not stepped in, the theatre would have disappeared,' she says. Today it attracts over 100,000 visitors a year.
+
+          Economist Daniel Chen takes a different view. He argues that audiences, rather than governments, should decide which art forms survive. Blockbuster films, he notes, make huge profits without any public support. Nevertheless, his own research found that when a museum removed its entry fee, the number of visitors under 25 doubled.
+
+          Film director Min-ji Park agrees with Moreno but for a different reason. She says that critically acclaimed films rarely make money at the box office. 'My first film had excellent reviews, but if I hadn't received a government grant, I could never have made a second one.' Park also warns that without public funding, only safe, commercial projects would be made.
+        questions:
+          - q: Government support once saved a building from closing.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: a
+          - q: People who buy tickets should choose which arts continue.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: b
+          - q: Free entry attracts more young visitors.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: b
+          - q: Public money allowed this person to continue working.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: c
+          - q: Without subsidies, artists would avoid taking risks.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: c
+          - q: Some forms of entertainment can succeed without help from the state.
+            options:
+              - Moreno
+              - Chen
+              - Park
+            answer: b
+      - id: b60-x4
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Đọc lại bài ở bài 3 (đã cho lại dưới đây) và chọn T, F hoặc NG.
+        passage: |-
+          Theatre critic Laura Moreno believes that public money is essential for the arts. She points to the Riverside Theatre, which almost closed in the 1990s. 'If the city had not stepped in, the theatre would have disappeared,' she says. Today it attracts over 100,000 visitors a year.
+
+          Economist Daniel Chen takes a different view. He argues that audiences, rather than governments, should decide which art forms survive. Blockbuster films, he notes, make huge profits without any public support. Nevertheless, his own research found that when a museum removed its entry fee, the number of visitors under 25 doubled.
+
+          Film director Min-ji Park agrees with Moreno but for a different reason. She says that critically acclaimed films rarely make money at the box office. 'My first film had excellent reviews, but if I hadn't received a government grant, I could never have made a second one.'
+        questions:
+          - q: The Riverside Theatre closed in the 1990s.
+            answer: F
+            explain_vi: "'If the city had not stepped in, … would have disappeared' → thành phố đã giúp, nhà hát KHÔNG đóng."
+          - q: The Riverside Theatre now has more than 100,000 visitors each year.
+            answer: T
+          - q: Chen believes museums should charge higher fees.
+            answer: NG
+          - q: Park's first film was praised by critics.
+            answer: T
+          - q: Park made her second film without government money.
+            answer: F
+      - id: b60-x5
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ trong khung vào chỗ trống.
+        bank:
+          - premiere
+          - sequel
+          - soundtrack
+          - masterpiece
+          - genre
+          - playwright
+          - portrait
+          - box office
+        questions:
+          - q: The actors walked on the red carpet at the ___ last night.
+            answer: premiere
+          - q: The first film was so popular that they made a ___.
+            answer: sequel
+          - q: I still listen to the ___ of that film every day.
+            answer: soundtrack
+          - q: Many experts consider the painting a ___.
+            answer: masterpiece
+          - q: Horror is not my favourite ___.
+            answer: genre
+          - q: Shakespeare is the most famous English ___.
+            answer: playwright
+          - q: The artist painted a ___ of her grandmother.
+            answer: portrait
+          - q: The film earned $200 million at the ___.
+            answer: box office
+      - id: b60-x6
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 4 lỗi. Sửa trực tiếp.
+        text: Last year I missed a concert because the tickets was sold out. If I would have booked earlier, I would have seen my favourite band. If I had saved more money, I would buy a better seat. We would of enjoyed it so much.
+        errors:
+          - wrong: the tickets was sold out
+            right: the tickets were sold out
+            why: tickets số nhiều → were.
+          - wrong: If I would have booked
+            right: If I had booked
+            why: "Mệnh đề if loại 3: had + V3."
+          - wrong: I would buy a better seat
+            right: I would have bought a better seat
+            why: Kết quả trong quá khứ (buổi hòa nhạc năm ngoái) → would have + V3.
+          - wrong: would of enjoyed
+            right: would have enjoyed
+            why: Không viết 'would of'.
+      - id: b60-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai người nói về một bộ phim (hai giọng) rồi chọn đáp án đúng. Chú ý câu điều kiện loại 3.
+        audio_text: |-
+          Woman: Did you enjoy the film last night?
+          Man: Not really. If they had cut the middle part, it would have been much better. It was nearly three hours long!
+          Woman: Really? The reviews were excellent.
+          Man: The acting was great, I admit. And the soundtrack was beautiful. But if I had read the reviews more carefully, I would have seen that it was very slow.
+          Woman: So would you see the sequel?
+          Man: Only if my friends go. If I hadn't gone with them last night, I would have left halfway through.
+        questions:
+          - q: What did the man think of the film?
+            options:
+              - It was excellent.
+              - It was too long.
+              - It was too short.
+              - It was frightening.
+            answer: b
+          - q: What did he like?
+            options:
+              - the story and the ending
+              - the acting and the soundtrack
+              - the middle part
+              - the reviews
+            answer: b
+          - q: What happened last night?
+            options:
+              - He left halfway through.
+              - He stayed until the end.
+              - He didn't go.
+              - He went alone.
+            answer: b
+            explain_vi: "'If I hadn't gone with them, I would have left' → thật ra anh ấy ĐÃ ở lại."
+      - id: b60-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe đoạn giới thiệu triển lãm rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Welcome to the City Gallery. This exhibition almost didn't happen. Two years ago, our building was badly damaged by a flood, and if local businesses hadn't raised money for repairs, we would have closed for good. Today you can see more than eighty works, including portraits, abstract paintings and sculptures. Please note that photography is allowed, but only without flash.
+        questions:
+          - q: The gallery was damaged by a fire.
+            answer: F
+          - q: The gallery closed permanently after the damage.
+            answer: F
+          - q: The exhibition contains more than eighty works.
+            answer: T
+          - q: Visitors may take photos without flash.
+            answer: T
+  - type: homework
+    kind: paragraph
+    prompt_vi: Viết một đoạn (120–150 từ) kể về một sự kiện nghệ thuật/giải trí bạn đã bỏ lỡ hoặc tiếc nuối (buổi hòa nhạc, phim, triển lãm). Dùng ít nhất 2 câu điều kiện loại 3 và 1 câu hỗn hợp. Sau đó làm lại bài 3 trong 6 phút, không xem đáp án.
+    prompt_en: Describe an arts or entertainment event you missed or regret. What happened, and what would have been different?
+    words:
+      min: 120
+      max: 150
+    minutes: 25

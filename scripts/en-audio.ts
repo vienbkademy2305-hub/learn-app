@@ -29,7 +29,8 @@ const RATE = 24000;
 /** British voices chosen by the user (2026-09-29): female Emma / Isabella, male George / Lewis. */
 const VOICES = { female: ["bf_emma", "bf_isabella"], male: ["bm_george", "bm_lewis"] } as const;
 const WORD_VOICE = "bf_emma";
-const MONOLOGUE_VOICE = "bm_george";
+/** Monologues and dictations: female, as the user asked (2026-09-30). */
+const MONOLOGUE_VOICE = "bf_emma";
 const FEMALE = /^(woman|girl|mother|mum|anna|lan|mai|linh|hoa|sarah|emma|lisa|linda|jane|she)$/i;
 const MALE = /^(man|boy|father|dad|tom|nam|duc|khoa|minh|john|david|peter|james|he)$/i;
 const SPEAKER_LINE = /^([A-Z][A-Za-z .'-]{0,20}):\s*(.+)$/; // same rule as src/features/en/speech.tsx

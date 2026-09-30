@@ -1,0 +1,346 @@
+# Buổi 58 — Kinh tế & tiêu dùng · Đảo ngữ cho câu văn học thuật. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-58-kinh-te-dao-ngu
+number: 58
+stage: 3
+title_vi: Kinh tế & tiêu dùng · Đảo ngữ cho câu văn học thuật
+focus:
+  grammar: "Đảo ngữ: Never / Rarely / Seldom, Not only … but also, Only when / Only by"
+  skill: Writing Task 2 — đa dạng cấu trúc câu (Grammatical Range) mà không gượng
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - consumerism|n
+      - purchase|v
+      - impulse-buying|phr-n
+      - disposable-income|phr-n
+      - luxury-goods|phr-n
+      - materialistic|adj
+      - status-symbol|phr-n
+      - inflation|n
+      - recession|n
+      - debt|n
+      - frugal|adj
+      - splash-out|phr-v
+      - second-hand|adj
+      - instant-gratification|phr-n
+      - seldom|adv
+      - loan|n
+      - retailer|n
+      - e-commerce|n
+  - type: pronunciation
+    notes:
+      - word: purchase|v
+        text_vi: "PUR-chase /ˈpɜː.tʃəs/: âm 2 đọc yếu /tʃəs/, không đọc 'chây-s'."
+      - word: debt|n
+        text_vi: "b câm: /det/ — giống 'det'. Tương tự doubt /daʊt/."
+      - word: consumerism|n
+        text_vi: "con-SU-mer-ism: nhấn âm 2, như consumer."
+      - word: materialistic|adj
+        text_vi: "Đuôi -ic kéo trọng âm về ngay trước: ma-te-ri-a-LIS-tic."
+      - word: seldom|adv
+        text_vi: "Câu đảo ngữ khi nói: nhấn mạnh từ đầu câu — RARELY do people…, NEVER have I… — rồi đọc trợ động từ lướt."
+  - type: grammar
+    items:
+      - en-g3-13
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — đa dạng cấu trúc câu (Grammatical Range & Accuracy)
+    intro_vi: "Tiêu chí GRA band 6: 'uses a mix of simple and complex sentence forms'. Band 7: 'uses a variety of complex structures … frequent error-free sentences'. Nghĩa là để lên 7 bạn cần NHIỀU LOẠI câu phức (quan hệ, điều kiện, bị động, mệnh đề danh từ, phân từ, đảo ngữ…) và phần lớn câu không lỗi. Đảo ngữ là một 'màu' trong bảng — dùng 1 lần đúng chỗ thì ghi điểm, dùng 4 lần thì bài nghe như học thuộc."
+    steps:
+      - title_vi: Viết ý trước, chọn cấu trúc sau
+        text_vi: Đừng bắt đầu bằng 'mình phải dùng đảo ngữ'. Viết ý rõ ràng trước, rồi xem câu nào cần NHẤN MẠNH — đó là chỗ đặt đảo ngữ (thường ở câu chủ đề hoặc câu kết).
+      - title_vi: Rà bảng cấu trúc
+        text_vi: "Sau khi viết nháp, đánh dấu: đã có mệnh đề quan hệ? điều kiện? bị động? mệnh đề danh từ? phân từ? Thiếu 2–3 loại thì sửa vài câu, không viết lại cả bài."
+      - title_vi: Đảo ngữ ở câu cần nhấn mạnh
+        text_vi: "Mở bài/kết bài: 'Never before have consumers had so much choice.' Thân bài: 'Not only does …, but it also …' để nối hai lợi ích/tác hại."
+      - title_vi: Kiểm tra trợ động từ
+        text_vi: Thì gì → trợ động từ gì (do/does/did/have/has/can). Sau do/does/did là V nguyên thể.
+      - title_vi: Giữ câu đơn khi cần
+        text_vi: "Câu ngắn rõ ràng vẫn có chỗ: sau một câu dài, một câu ngắn giúp người đọc theo kịp. Band 7 không có nghĩa là mọi câu đều phức."
+    tips:
+      - Một bài Task 2 band 7 thường có 5–6 loại câu phức khác nhau, mỗi loại 1–2 lần.
+      - Câu đúng đơn giản > câu phức sai. Giám khảo trừ điểm Accuracy khi câu phức có lỗi.
+      - "Đảo ngữ an toàn nhất: Not only … but also, Only by + V-ing, Never before have …"
+    traps:
+      - trap_vi: "Đảo ngữ quên trợ động từ: 'Rarely people save'."
+        fix_vi: Rarely DO people save.
+      - trap_vi: "Chia động từ chính sau does: 'Not only does it saves'."
+        fix_vi: "does + V nguyên thể: does it save."
+      - trap_vi: Dùng đảo ngữ ở mọi đoạn.
+        fix_vi: Tối đa 1–2 câu đảo ngữ cả bài.
+    phrases:
+      - en: Never before have consumers had so much choice.
+        vi: Chưa bao giờ người tiêu dùng có nhiều lựa chọn như vậy.
+        note_vi: Mở bài chủ đề tiêu dùng.
+      - en: Not only does …, but it also …
+        vi: … không chỉ … mà còn …
+      - en: Only by … can we …
+        vi: Chỉ bằng cách … chúng ta mới có thể …
+        note_vi: Câu giải pháp/kết bài.
+      - en: Rarely do people stop to consider …
+        vi: Hiếm khi người ta dừng lại để cân nhắc …
+      - en: Only when … do people realise …
+        vi: Chỉ khi … người ta mới nhận ra …
+    demo:
+      title_vi: "Làm mẫu: nâng một đoạn thân bài từ band 6 lên band 7 bằng đa dạng cấu trúc"
+      text_en: |-
+        Question: In many countries, people are buying more and more things they do not need. Why is this happening? Is it a positive or negative development?
+
+        Band 6: People buy more things now because shopping online is easy. Companies advertise a lot on social media. People see the ads and they buy things. This is negative because people get into debt and there is a lot of waste.
+
+        Band 7: The main reason for this trend is the rise of e-commerce. Not only does online shopping save time, but it also offers instant gratification, which makes impulse buying almost effortless. What makes matters worse is that advertisements are now tailored to each user's interests, so products seem to appear exactly when people want them. Having bought items they did not need, many consumers end up in debt. Only by becoming aware of these tactics can shoppers resist them.
+      notes:
+        - label: Not only does … but it also
+          text_vi: Đảo ngữ nối hai lợi ích — dùng một lần.
+        - label: ", which makes …"
+          text_vi: Mệnh đề quan hệ không xác định (Buổi 48).
+        - label: What makes matters worse is that …
+          text_vi: Mệnh đề danh từ (Buổi 54).
+        - label: Having bought …
+          text_vi: Mệnh đề phân từ (Buổi 56).
+        - label: Only by … can shoppers resist
+          text_vi: Đảo ngữ thứ hai, ở câu kết đoạn — nhấn mạnh giải pháp.
+  - type: examples
+    items:
+      - b58-001
+      - b58-002
+      - b58-003
+      - b58-004
+      - b58-005
+      - b58-006
+      - b58-007
+      - b58-008
+      - b58-009
+      - b58-010
+      - b58-011
+  - type: dialogue
+    title_vi: Tháng lương đầu tiên
+    lines:
+      - speaker: A
+        text: I've just got my first salary. I'm thinking of splashing out on a new phone.
+        vi: Mình vừa nhận lương tháng đầu. Mình đang định chi mạnh tay mua điện thoại mới.
+      - speaker: B
+        text: But your phone is only a year old! Is it just a status symbol?
+        vi: Nhưng điện thoại của bạn mới dùng một năm! Chỉ để khoe thôi à?
+      - speaker: A
+        text: Maybe a little. Everyone at work has the latest model.
+        vi: Có lẽ một chút. Ai ở chỗ làm cũng có đời mới nhất.
+      - speaker: B
+        text: Not only would you spend two months' salary, but you'd also need a loan.
+        vi: Bạn không chỉ tiêu hai tháng lương mà còn phải vay nữa.
+      - speaker: A
+        text: True. I really don't want to get into debt.
+        vi: Đúng. Mình thật sự không muốn mắc nợ.
+      - speaker: B
+        text: Why don't you save part of it and buy a good second-hand one later?
+        vi: Sao bạn không để dành một phần rồi sau mua một chiếc cũ tốt?
+      - speaker: A
+        text: Good idea. Only when I have enough savings will I buy a new one.
+        vi: Ý hay. Chỉ khi có đủ tiền tiết kiệm mình mới mua cái mới.
+  - type: exercises
+    items:
+      - id: b58-x1
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu bằng đảo ngữ, bắt đầu bằng từ cho sẵn.
+        questions:
+          - q: People rarely read the small print. → Rarely ___
+            answer: do people read the small print.
+          - q: I have never seen such high prices. → Never ___
+            answer: have I seen such high prices.
+          - q: Online shopping saves time. It also encourages impulse buying. → Not only ___
+            answer: does online shopping save time, but it also encourages impulse buying.
+          - q: People save more only when prices rise. → Only when ___
+            answer: prices rise do people save more.
+          - q: We can reduce waste only by buying less. → Only by ___
+            answer: buying less can we reduce waste.
+      - id: b58-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Seldom ___ about the environmental cost of cheap clothes.
+            options:
+              - people think
+              - do people think
+              - people do think
+              - do people thinks
+            answer: b
+          - q: Never before ___ so easy to borrow money.
+            options:
+              - it has been
+              - has it been
+              - it was being
+              - was it be
+            answer: b
+          - q: Not only ___ prices, but it also reduces wages.
+            options:
+              - inflation raises
+              - does inflation raise
+              - does inflation raises
+              - inflation does raise
+            answer: b
+          - q: Only when the recession ended ___ to spend again.
+            options:
+              - consumers started
+              - did consumers start
+              - consumers did start
+              - did consumers started
+            answer: b
+          - q: Which sentence is NOT correct?
+            options:
+              - Advertising not only creates desire but also encourages debt.
+              - Not only does advertising create desire, but it also encourages debt.
+              - Not only advertising creates desire, but it also encourages debt.
+              - Advertising creates desire and also encourages debt.
+            answer: c
+            explain_vi: "Not only ở đầu câu phải đảo: Not only does advertising create …"
+      - id: b58-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank:
+          - disposable income
+          - impulse buying
+          - luxury goods
+          - materialistic
+          - inflation
+          - frugal
+          - second-hand
+          - retailers
+        questions:
+          - q: Supermarkets put sweets near the checkout to encourage ___.
+            answer: impulse buying
+          - q: After paying rent and bills, young workers have little ___.
+            answer: disposable income
+          - q: When ___ is high, the same money buys fewer things.
+            answer: inflation
+          - q: Many online ___ offer free delivery.
+            answer: retailers
+          - q: My grandparents lived a very ___ life and never wasted food.
+            answer: frugal
+          - q: Buying ___ clothes is cheaper and better for the environment.
+            answer: second-hand
+          - q: Some critics say modern society has become too ___.
+            answer: materialistic
+          - q: Designer handbags and expensive watches are examples of ___.
+            answer: luxury goods
+      - id: b58-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (đảo ngữ, trợ động từ, số nhiều). Sửa trực tiếp.
+        text: Never consumers have had so much choice. Rarely do people stops to think before they buy. Not only e-commerce saves time, but it also encourages impulse buying. Only when they receive the bill people realise how much they spent. Luxury goods is often bought as status symbols.
+        errors:
+          - wrong: Never consumers have had
+            right: Never have consumers had
+            why: Never đầu câu → đảo have.
+          - wrong: do people stops
+            right: do people stop
+            why: Sau do là V nguyên thể.
+          - wrong: Not only e-commerce saves
+            right: Not only does e-commerce save
+            why: Not only đầu câu → mượn does, V nguyên thể.
+          - wrong: the bill people realise
+            right: the bill do people realise
+            why: Only when … → đảo ở mệnh đề chính.
+          - wrong: Luxury goods is
+            right: Luxury goods are
+            why: goods luôn số nhiều.
+      - id: b58-x5
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: recession
+            right: a period when the economy stops growing and many people lose jobs
+          - left: inflation
+            right: a general rise in prices
+          - left: debt
+            right: money that you owe
+          - left: status symbol
+            right: something you own to show that you are rich or important
+          - left: frugal
+            right: careful not to spend much money
+          - left: consumerism
+            right: the idea that buying more things is good
+      - id: b58-x6
+        bank_no: 18
+        kind: completion
+        instructions_vi: Nghe cuộc phỏng vấn khảo sát người mua sắm (hai giọng) và hoàn thành phiếu. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ.
+        max_words: 1
+        audio_text: |-
+          Woman: Excuse me, have you got a minute for a short survey about shopping habits?
+          Man: Sure, go ahead.
+          Woman: How often do you buy things online?
+          Man: About twice a week, mostly clothes.
+          Woman: And how much do you spend each month?
+          Man: Around two hundred pounds. Oh no, sorry, it's more like three hundred now, because of inflation.
+          Woman: Do you ever buy second-hand items?
+          Man: Yes, furniture. It's much cheaper.
+          Woman: Finally, what makes you buy things you don't need?
+          Man: Probably the discounts. When I see fifty per cent off, I can't resist.
+        passage: |-
+          SHOPPING HABITS SURVEY
+          Buys online: (1) ___ a week
+          Mostly buys: (2) ___
+          Monthly spending: £(3) ___
+          Buys second-hand: (4) ___
+          Reason for impulse buying: (5) ___
+        questions:
+          - q: (1)
+            answer: twice
+          - q: (2)
+            answer: clothes
+          - q: (3)
+            answer: "300"
+            accept:
+              - three hundred
+          - q: (4)
+            answer: furniture
+          - q: (5)
+            answer: discounts
+      - id: b58-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe bản tin kinh tế rồi chọn T (đúng) hoặc F (sai).
+        audio_text: New figures show that online sales rose by twelve per cent last year, while sales in traditional shops fell slightly. Not only are more people shopping online, but they are also spending more on each order. However, economists warn that household debt has also increased. Rarely have so many young people used buy-now-pay-later services, and many do not understand the fees involved.
+        questions:
+          - q: Online sales grew last year.
+            answer: T
+          - q: Sales in traditional shops rose slightly.
+            answer: F
+          - q: People are spending less on each online order.
+            answer: F
+          - q: Economists are worried about household debt.
+            answer: T
+      - id: b58-x8
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Lỗi đặc trưng người Việt khi viết về tiêu dùng: 4 lỗi (số nhiều, to be, giới từ). Sửa trực tiếp."
+        text: Nowadays, many young people spend a lot of money for luxury goods. They buy it because it is a status symbol. This trend very common in big cities. Many student take out loans to buy phones.
+        errors:
+          - wrong: money for luxury goods
+            right: money on luxury goods
+            why: spend money ON something.
+          - wrong: They buy it because it is a status symbol
+            right: They buy them because they are status symbols
+            why: goods số nhiều → them, they are.
+          - wrong: This trend very common
+            right: This trend is very common
+            why: Thiếu to be trước tính từ.
+          - wrong: Many student take
+            right: Many students take
+            why: many + danh từ số nhiều.
+  - type: homework
+    kind: task2
+    prompt_vi: Viết Task 2 (≥ 250 từ, 40 phút). Dùng đúng 1–2 câu đảo ngữ, và ít nhất 4 loại câu phức khác (quan hệ, mệnh đề danh từ, phân từ, điều kiện…). Gạch chân các loại câu đã dùng.
+    prompt_en: |-
+      In many countries, people are buying more and more things that they do not really need.
+      Why is this happening? Is this a positive or negative development?
+    words:
+      min: 250
+      max: 300
+    minutes: 40

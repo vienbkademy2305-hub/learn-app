@@ -632,3 +632,440 @@ points:
     provenance: []
     source: editorial
     status: draft
+  - id: en-g3-13
+    lesson: buoi-58-kinh-te-dao-ngu
+    title: "Đảo ngữ cơ bản: Never / Rarely / Seldom · Not only … but also · Only when / Only by"
+    cefr: C1
+    structures:
+      - Never / Rarely / Seldom + trợ động từ + S + V
+      - Not only + trợ động từ + S + V, but + S + also + V
+      - Only when / Only after + mệnh đề, + trợ động từ + S + V
+      - Only by + V-ing + trợ động từ + S + V
+    explain: 'Đảo ngữ là đưa một trạng từ mang nghĩa phủ định hoặc hạn chế (never, rarely, seldom, not only, only when) lên đầu câu để NHẤN MẠNH, rồi đặt trợ động từ trước chủ ngữ giống câu hỏi. Trợ động từ lấy theo thì: hiện tại đơn → do/does, quá khứ đơn → did, hiện tại hoàn thành → have/has, có be → is/are/was, có modal → can/will/should. Động từ chính trở về nguyên thể sau do/does/did. Với "Only when / Only after", phần đảo nằm ở MỆNH ĐỀ CHÍNH, không phải mệnh đề sau when. Trong IELTS Writing, một câu đảo ngữ đúng trong cả bài là đủ để thể hiện đa dạng ngữ pháp; dùng nhiều sẽ gượng.'
+    table:
+      - - Câu thường
+        - Câu đảo ngữ
+      - - People rarely save money.
+        - Rarely do people save money.
+      - - Consumers have never had so much choice.
+        - Never have consumers had so much choice.
+      - - Advertising creates desire and it also encourages debt.
+        - Not only does advertising create desire, but it also encourages debt.
+      - - People save more only when prices rise.
+        - Only when prices rise do people save more.
+      - - We can reduce waste only by buying less.
+        - Only by buying less can we reduce waste.
+    notes:
+      - "Sau do/does/did động từ chính về nguyên thể: Rarely does he buys ❌ → Rarely does he buy."
+      - "Not only đứng giữa câu thì KHÔNG đảo: Advertising not only creates desire but also …"
+      - "Only when: đảo ở mệnh đề sau — Only when prices rise do people save (không đảo 'Only when do prices rise')."
+    mistakes:
+      - wrong: Never I have seen such high prices.
+        right: Never have I seen such high prices.
+        why: Never ở đầu câu → đảo trợ động từ have lên trước I.
+      - wrong: Rarely people save money.
+        right: Rarely do people save money.
+        why: Hiện tại đơn không có trợ động từ → mượn do/does.
+      - wrong: Not only it saves money, but also protects the environment.
+        right: Not only does it save money, but it also protects the environment.
+        why: Not only ở đầu → đảo does; vế sau cần chủ ngữ it.
+      - wrong: Only when do prices rise people save more.
+        right: Only when prices rise do people save more.
+        why: Đảo ở mệnh đề chính, không phải mệnh đề when.
+    examples:
+      - b58-001
+      - b58-002
+      - b58-003
+      - b58-004
+      - b58-005
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Grammar trung cấp — Inversion (đảo ngữ): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-14
+    lesson: buoi-59-kinh-te-table-chart
+    title: "So sánh nâng cao: considerably / marginally + so sánh hơn · by far the + so sánh nhất · the + so sánh hơn …, the + so sánh hơn"
+    cefr: B2
+    structures:
+      - much / considerably / significantly / substantially + so sánh hơn (than …)
+      - slightly / marginally / a little + so sánh hơn (than …)
+      - by far + the + so sánh nhất
+      - nearly / almost / just as + adj + as
+      - The + so sánh hơn + S + V, the + so sánh hơn + S + V
+    explain: "Task 1 dạng bảng + biểu đồ có rất nhiều con số để so sánh. Band 6 chỉ viết 'higher than'; band 7 cho biết CHÊNH NHIỀU HAY ÍT: considerably higher (chênh nhiều), marginally lower (chênh rất ít). Khi một hạng mục vượt trội, dùng 'by far the largest'. Khi hai số gần bằng nhau: 'almost as high as'. Cấu trúc 'the + so sánh hơn …, the + so sánh hơn …' diễn tả hai thứ thay đổi cùng nhau — hợp với Task 2 hoặc câu nhận xét xu hướng, dùng ít trong Task 1."
+    table:
+      - - Mức chênh
+        - Ví dụ
+      - - Rất nhiều
+        - Spending on housing was considerably higher than on transport.
+      - - Rất ít
+        - Country B's figure was marginally lower (29% compared with 30%).
+      - - Vượt trội
+        - Housing was by far the largest expense.
+      - - Gần bằng
+        - Leisure spending was almost as high as spending on food.
+      - - Cùng thay đổi
+        - The higher people's income, the more they spend on leisure.
+    notes:
+      - "KHÔNG dùng very trước so sánh hơn: very higher ❌ → much/considerably higher."
+      - by far đi với so sánh nhất (the largest); much/far đi với so sánh hơn (far larger).
+      - "the + so sánh hơn: hai vế đều có 'the': The more you earn, the more you spend."
+    mistakes:
+      - wrong: Housing was very higher than food.
+        right: Housing was considerably higher than food.
+        why: very không bổ nghĩa cho so sánh hơn.
+      - wrong: Housing was by far larger than the others.
+        right: Housing was by far the largest expense.
+        why: "by far + the + so sánh nhất (hoặc: far larger than)."
+      - wrong: More people earn, more they spend.
+        right: The more people earn, the more they spend.
+        why: Cấu trúc càng … càng cần 'the' ở hai vế.
+      - wrong: Food spending exceeded than transport.
+        right: Food spending exceeded spending on transport.
+        why: exceed + tân ngữ, không có than.
+    examples:
+      - b59-001
+      - b59-002
+      - b59-003
+      - b59-004
+      - b59-005
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Writing Task 1 trung cấp — Table / mixed charts, so sánh số liệu: đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-15
+    lesson: buoi-60-nghe-thuat-dieu-kien-3
+    title: Câu điều kiện loại 3 (If + had + V3, would have + V3) và điều kiện hỗn hợp
+    cefr: B2
+    structures:
+      - "If + S + had + V3, S + would/could/might + have + V3   (loại 3: quá khứ không có thật)"
+      - "If + S + had + V3, S + would + V   (hỗn hợp: quá khứ → kết quả bây giờ)"
+      - "If + S + V2 (were), S + would have + V3   (hỗn hợp: đặc điểm hiện tại → quá khứ)"
+      - Had + S + V3, S + would have + V3   (đảo ngữ, trang trọng)
+    explain: "Loại 3 nói về một điều KHÔNG xảy ra trong quá khứ và kết quả tưởng tượng của nó: If the tickets hadn't sold out, we would have gone (thật ra vé đã hết, chúng tôi không đi). 'had + V3' là quá khứ hoàn thành — thì xảy ra trước một mốc quá khứ. Điều kiện hỗn hợp nối hai mốc thời gian khác nhau: một việc trong quá khứ dẫn tới kết quả BÂY GIỜ (If I had studied music, I would be a musician now), hoặc một đặc điểm hiện tại giải thích việc đã không làm (If I weren't so shy, I would have auditioned). Trong Speaking Part 2 kể kỷ niệm, một câu loại 3 hoặc hỗn hợp cho thấy ngữ pháp linh hoạt."
+    table:
+      - - Loại
+        - Ví dụ
+        - Nghĩa thật
+      - - Loại 3
+        - If we had booked earlier, we would have got tickets.
+        - Không đặt sớm → không có vé.
+      - - Loại 3 (could/might)
+        - If the film had had a better ending, it might have won the award.
+        - Kết phim không hay → không đoạt giải.
+      - - "Hỗn hợp: quá khứ → nay"
+        - If I had learnt the piano as a child, I would play much better now.
+        - Hồi nhỏ không học → giờ chơi chưa giỏi.
+      - - "Hỗn hợp: nay → quá khứ"
+        - If I weren't afraid of heights, I would have tried the rooftop concert.
+        - Vẫn sợ độ cao → đã không thử.
+    notes:
+      - "Không dùng would trong mệnh đề if: If I would have known ❌ → If I had known."
+      - "Nói nhanh: would have → /ˈwʊd.əv/ (would've); viết không được viết 'would of'."
+      - "Đảo ngữ: Had I known = If I had known (trang trọng, hợp Writing)."
+    mistakes:
+      - wrong: If I would have known, I would have come.
+        right: If I had known, I would have come.
+        why: Mệnh đề if loại 3 dùng had + V3.
+      - wrong: If she had practised more, she would win the competition last year.
+        right: If she had practised more, she would have won the competition last year.
+        why: Kết quả trong quá khứ → would have + V3.
+      - wrong: If I had studied art, I would have been a designer now.
+        right: If I had studied art, I would be a designer now.
+        why: Có 'now' → kết quả hiện tại → would + V (hỗn hợp).
+      - wrong: We would of enjoyed it.
+        right: We would have enjoyed it.
+        why: "'would of' là lỗi chính tả do nghe /wʊd.əv/."
+    examples:
+      - b60-001
+      - b60-002
+      - b60-003
+      - b60-004
+      - b60-005
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Grammar trung cấp — Conditionals type 3 & mixed: đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-16
+    lesson: buoi-61-nghe-thuat-speaking-part-2
+    title: Quá khứ hoàn thành (had + V3) và quá khứ hoàn thành tiếp diễn (had been + V-ing) khi kể chuyện
+    cefr: B2
+    structures:
+      - S + had + V3   (việc xảy ra TRƯỚC một mốc/việc khác trong quá khứ)
+      - S + had been + V-ing (for …)   (việc kéo dài đến trước mốc quá khứ)
+      - By the time + S + V2, S + had + V3
+      - S + had never + V3 + before
+    explain: "Khi kể một câu chuyện (Speaking Part 2), thì chính là quá khứ đơn. Muốn quay lui về việc xảy ra TRƯỚC đó, dùng quá khứ hoàn thành: When I walked on stage, I realised I had forgotten my notes (quên trước, nhận ra sau). Quá khứ hoàn thành tiếp diễn nhấn mạnh một việc KÉO DÀI đến trước mốc đó: I had been rehearsing for three months, so I felt ready. Không cần dùng quá khứ hoàn thành khi thứ tự đã rõ (after, before, then) — dùng một hai lần đúng chỗ là đủ để giám khảo thấy ngữ pháp đa dạng."
+    table:
+      - - Cấu trúc
+        - Ví dụ
+      - - had + V3
+        - By the time I arrived, the performance had already started.
+      - - had never + V3 + before
+        - I had never performed in front of so many people before.
+      - - had been + V-ing
+        - I had been practising for months, so I knew every line.
+      - - Quá khứ đơn (thứ tự rõ)
+        - I finished the race and then I cried with joy.
+    notes:
+      - Quá khứ hoàn thành luôn cần một mốc quá khứ khác làm tham chiếu.
+      - "Động từ trạng thái (know, be, have) dùng had + V3, không dùng dạng tiếp diễn: I had known her for years."
+      - "Nói nhanh: I had → I'd /aɪd/: I'd never done it before."
+    mistakes:
+      - wrong: When I arrived, the show already started.
+        right: When I arrived, the show had already started.
+        why: Buổi diễn bắt đầu TRƯỚC khi tôi đến → had started.
+      - wrong: I have never performed on stage before that day.
+        right: I had never performed on stage before that day.
+        why: Mốc 'that day' ở quá khứ → quá khứ hoàn thành.
+      - wrong: I had been knowing her for years.
+        right: I had known her for years.
+        why: know là động từ trạng thái → không dùng dạng tiếp diễn.
+    examples:
+      - b61-001
+      - b61-002
+      - b61-003
+      - b61-004
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Grammar trung cấp — Past perfect & past perfect continuous: đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-17
+    lesson: buoi-62-khoa-hoc-loi-nguoi-viet
+    title: "Tổng hợp lỗi đặc trưng người Việt: -s, to be, dịch word-by-word, trật tự tính từ, giới từ cố định"
+    cefr: B2
+    structures:
+      - "Danh từ đếm được số nhiều: many / several / two + N-s; chủ ngữ số ít ở hiện tại → V-s"
+      - S + be + adj / N   (không bỏ to be trước tính từ)
+      - There is/are … ≠ 'have' (có)
+      - Ý kiến + chất lượng + kích thước + tuổi + màu + nguồn gốc + chất liệu + N
+      - "Giới từ cố định: interested IN, depend ON, research INTO, the reason FOR, an increase IN"
+    explain: "Tiếng Việt không chia động từ, không có số nhiều bằng đuôi, không cần 'là' trước tính từ, và nói 'có' cho cả sở hữu lẫn tồn tại. Vì thế người Việt học tiếng Anh hay lặp lại cùng một nhóm lỗi, kể cả ở band 6: quên -s (many planet), bỏ to be (The universe very big), dịch 'có' thành have (In space have many stars), dịch sát từng chữ (make an experiment, learn knowledge), sai trật tự tính từ, và sai giới từ cố định. Đây là lỗi 'hệ thống': giám khảo thấy chúng lặp lại thì GRA khó vượt band 6. Buổi này gom tất cả vào một bảng để tự soát."
+    table:
+      - - Nhóm lỗi
+        - Sai
+        - Đúng
+      - - Thiếu -s số nhiều
+        - There are eight planet in our solar system.
+        - There are eight planets in our solar system.
+      - - Thiếu -s ngôi 3
+        - The Moon orbit the Earth.
+        - The Moon orbits the Earth.
+      - - Bỏ to be
+        - The universe very big.
+        - The universe is very big.
+      - - "'có' → have"
+        - In space have many satellites.
+        - There are many satellites in space.
+      - - Word-by-word
+        - Scientists make an experiment.
+        - Scientists carry out an experiment.
+      - - Trật tự tính từ
+        - a Japanese new small satellite
+        - a small new Japanese satellite
+      - - Giới từ cố định
+        - research about Mars
+        - research into / on Mars
+      - - Danh từ không đếm được
+        - many researches
+        - a lot of research
+    notes:
+      - "Soát -s: gạch mọi danh từ sau many/several/số đếm; gạch mọi động từ sau he/she/it/danh từ số ít."
+      - "Soát to be: mọi câu có tính từ đứng sau chủ ngữ phải có is/are/was/were."
+      - "Không đếm được hay gặp trong IELTS: research, information, advice, equipment, knowledge, evidence."
+    mistakes:
+      - wrong: In the universe have billions of galaxy.
+        right: There are billions of galaxies in the universe.
+        why: "'có' tồn tại → there are; billions of + N số nhiều."
+      - wrong: Space exploration very expensive.
+        right: Space exploration is very expensive.
+        why: Thiếu to be trước tính từ.
+      - wrong: Scientists make many researches about Mars.
+        right: Scientists carry out a lot of research into Mars.
+        why: carry out research (không make); research không đếm được; research into.
+      - wrong: It is a Chinese big new telescope.
+        right: It is a big new Chinese telescope.
+        why: Kích thước → tuổi → nguồn gốc.
+    examples:
+      - b62-001
+      - b62-002
+      - b62-003
+      - b62-004
+      - b62-005
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: Lỗi ngữ pháp phổ biến của người Việt (tổng hợp) — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g3-18
+    lesson: buoi-63-khoa-hoc-task-2-mixed
+    title: "Câu chẻ nhấn mạnh: It is/was … that/who … · What … is/was …"
+    cefr: B2
+    structures:
+      - It is / was + phần nhấn mạnh + that (who với người) + phần còn lại
+      - What + S + V + is / was + phần nhấn mạnh
+      - The reason (why) … is that …
+      - It is not … but … that …
+    explain: "Câu chẻ tách một câu thành hai phần để làm nổi bật MỘT thông tin. 'Governments should fund research' → 'It is governments that should fund research' (nhấn mạnh ai phải làm) → 'What governments should fund is research' (nhấn mạnh làm gì). Trong Task 2, câu chẻ rất hữu ích ở câu luận điểm và câu kết: nó cho người đọc thấy ngay ý chính của bạn là gì. Dạng What … is … là mệnh đề danh từ đã học ở Buổi 54; động từ is/was chia theo phần sau thường là số ít."
+    table:
+      - - Câu gốc
+        - Câu chẻ
+      - - Private companies are now leading space exploration.
+        - It is private companies that are now leading space exploration.
+      - - The cost worries me most.
+        - What worries me most is the cost.
+      - - Satellites, not rockets, bring the greatest benefits.
+        - It is not rockets but satellites that bring the greatest benefits.
+      - - We should solve poverty first because resources are limited.
+        - The reason we should solve poverty first is that resources are limited.
+    notes:
+      - "It is … that: thì của is/was theo thời gian (It was in 1969 that …)."
+      - "Với người có thể dùng who: It was Yuri Gagarin who first travelled into space."
+      - The reason … is THAT (không phải 'is because') trong văn trang trọng.
+    mistakes:
+      - wrong: It is private companies which leading the industry.
+        right: It is private companies that are leading the industry.
+        why: Sau that cần mệnh đề đầy đủ (are leading).
+      - wrong: What worries me most are the cost.
+        right: What worries me most is the cost.
+        why: What-clause + is (the cost số ít).
+      - wrong: The reason is because it costs too much.
+        right: The reason is that it costs too much.
+        why: The reason … is that … (tránh lặp nghĩa 'because').
+    examples:
+      - b63-001
+      - b63-002
+      - b63-003
+      - b63-004
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Grammar trung cấp — Cleft sentences (câu chẻ): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-19
+    lesson: buoi-64-luat-phap-paraphrase
+    title: "Ôn paraphrase: chủ động ↔ bị động · danh từ hóa · đổi từ loại · đồng nghĩa theo ngữ cảnh"
+    cefr: B2
+    structures:
+      - "Chủ động ↔ bị động: The government banned X → X was banned (by the government)"
+      - "Động từ → danh từ: ban → the ban on; introduce → the introduction of; violate → a violation of"
+      - "Tính từ → danh từ / trạng từ: responsible → responsibility; strict → strictly"
+      - "Đồng nghĩa theo ngữ cảnh: ban ≈ prohibit; obey ≈ comply with; punish ≈ impose a penalty on"
+      - "Câu phủ định ↔ khẳng định: not legal ≈ illegal; not allowed ≈ prohibited"
+    explain: "Paraphrase là kỹ năng xuất hiện ở MỌI phần thi: mở bài Writing (paraphrase đề), Reading và Listening (câu hỏi luôn paraphrase bài), Speaking (tránh lặp từ của giám khảo). Buổi này ôn 4 kỹ thuật đã học ở Giai đoạn 2–3 và kết hợp chúng. Paraphrase tốt đổi CẤU TRÚC lẫn TỪ, nhưng giữ đúng nghĩa và đúng sắc thái. Đồng nghĩa chỉ đúng trong ngữ cảnh: 'rule' ≈ 'regulation' trong luật, nhưng 'rule a country' không thể thành 'regulation a country'. Giữ nguyên thuật ngữ không có đồng nghĩa (animal testing, human rights) thay vì cố đổi."
+    table:
+      - - Kỹ thuật
+        - Gốc
+        - Paraphrase
+      - - Bị động
+        - Many countries have banned animal testing.
+        - Animal testing has been banned in many countries.
+      - - Danh từ hóa
+        - The government introduced stricter laws.
+        - The introduction of stricter laws …
+      - - Đồng nghĩa
+        - Companies must obey the rules.
+        - Companies are required to comply with the regulations.
+      - - Kết hợp
+        - People should not be punished without evidence.
+        - Imposing penalties without evidence is unjust.
+    notes:
+      - "Paraphrase đề trong mở bài: dùng 2 kỹ thuật là đủ; không đổi mọi từ."
+      - "Kiểm tra nghĩa sau khi paraphrase: 'Some people' ≠ 'Most people'; 'may' ≠ 'will'."
+      - "Collocation phải đi cùng: impose a ban ON, comply WITH, a violation OF."
+    mistakes:
+      - wrong: Animal testing has banned in many countries.
+        right: Animal testing has been banned in many countries.
+        why: "Bị động hiện tại hoàn thành: has been + V3."
+      - wrong: The introduce of new laws reduced crime.
+        right: The introduction of new laws reduced crime.
+        why: "Danh từ hóa: introduce → introduction."
+      - wrong: Companies must comply the regulations.
+        right: Companies must comply with the regulations.
+        why: comply WITH.
+      - wrong: Some people think X. → Everyone agrees that X.
+        right: Some people think X. → It is sometimes argued that X.
+        why: Paraphrase không được đổi mức độ (some ≠ everyone).
+    examples:
+      - b64-001
+      - b64-002
+      - b64-003
+      - b64-004
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: "Writing trung cấp — Paraphrasing techniques (ôn tập): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-20
+    lesson: buoi-65-tong-on-giai-doan-3
+    title: "Tổng ôn Giai đoạn 3: bảng cấu trúc câu phức cho band 6.5–7 và lỗi hay lặp lại"
+    cefr: B2
+    structures:
+      - "Mệnh đề quan hệ không xác định: …, which …"
+      - "Mệnh đề danh từ / câu chẻ: What … is … · It is … that …"
+      - "Mệnh đề phân từ: Having + V3, … · V-ing …, …"
+      - "Điều kiện 2 / 3 / hỗn hợp: If + had + V3, would (have) …"
+      - "Đảo ngữ: Not only … but also · Only by … can …"
+      - Bị động + từ chỉ trình tự (process) · so sánh có mức độ (considerably, marginally)
+    explain: Giai đoạn 3 thêm vào 'bảng màu' ngữ pháp của bạn khoảng 10 loại câu phức. Mục tiêu band 6.5 không phải dùng hết, mà dùng 5–6 loại TỰ NHIÊN và ĐÚNG trong một bài 250 từ. Bảng dưới đây gom các cấu trúc đã học kèm vị trí hay dùng trong bài Writing, để bạn tự kiểm tra bài viết của mình. Kèm theo là các lỗi đã lặp lại nhiều lần trong Giai đoạn 3.
+    table:
+      - - Cấu trúc
+        - Vị trí hay dùng
+        - Ví dụ
+      - - …, which …
+        - "Thân bài: giải thích hệ quả"
+        - Online shopping offers instant gratification, which makes impulse buying easy.
+      - - What … is …
+        - Câu chủ đề
+        - What worries experts most is the rise in household debt.
+      - - Having + V3
+        - Nối hai hành động
+        - Having bought items they did not need, many consumers end up in debt.
+      - - If + had + V3
+        - Ví dụ / phản chứng
+        - If the city had not funded the theatre, it would have closed.
+      - - Not only … but also
+        - Nối hai lợi ích/tác hại
+        - Not only does it save time, but it also reduces costs.
+      - - considerably / by far
+        - Task 1
+        - Housing was by far the largest expense.
+    notes:
+      - Một loại câu dùng 1–2 lần/bài; đa dạng hơn là lặp một cấu trúc khó.
+      - Soát lỗi hệ thống (Buổi 62) vẫn quan trọng hơn thêm câu phức.
+      - "Band 7 GRA: 'frequent error-free sentences' — đa số câu phải không lỗi."
+    mistakes:
+      - wrong: Not only it saves time, but also reduces costs.
+        right: Not only does it save time, but it also reduces costs.
+        why: Đảo ngữ sau Not only (Buổi 58).
+      - wrong: What worries experts most are the debt.
+        right: What worries experts most is the debt.
+        why: What-clause + is (Buổi 54, 63).
+      - wrong: If I would have known, I would have come.
+        right: If I had known, I would have come.
+        why: "Loại 3: had + V3 (Buổi 60)."
+      - wrong: Having finished the course, the certificate was given to me.
+        right: Having finished the course, I was given a certificate.
+        why: Chủ ngữ của phân từ phải trùng chủ ngữ mệnh đề chính (Buổi 56).
+    examples:
+      - b65-001
+      - b65-002
+      - b65-003
+      - b65-004
+    provenance:
+      - source: prep-trung-cap
+        field: scope
+        ref: Tổng ôn trung cấp — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft

@@ -1,0 +1,383 @@
+# Buổi 59 — Kinh tế & tiêu dùng · Writing Task 1: bảng số liệu kết hợp biểu đồ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-59-kinh-te-table-chart
+number: 59
+stage: 3
+title_vi: "Kinh tế & tiêu dùng · Writing Task 1: bảng số liệu kết hợp biểu đồ"
+focus:
+  grammar: "So sánh nâng cao: considerably / marginally, by far, the … the …"
+  skill: Writing Task 1 — bảng + biểu đồ (mixed charts)
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - considerably|adv
+      - marginally|adv
+      - substantially|adv
+      - by-far|idiom
+      - exceed|v
+      - overtake|v
+      - triple|v
+      - halve|v
+      - the-former|pron
+      - the-latter|pron
+      - negligible|adj
+      - comparable|adj
+      - allocate|v
+      - utilities|n
+      - leisure|n
+      - groceries|n
+      - income|n
+      - revenue|n
+  - type: pronunciation
+    notes:
+      - word: comparable|adj
+        text_vi: "COM-pa-ra-ble /ˈkɒm.pər.ə.bəl/: nhấn âm 1, khác com-PARE."
+      - word: halve|v
+        text_vi: "l câm: halve /hɑːv/, half /hɑːf/ — như calm, walk."
+      - word: revenue|n
+        text_vi: "REV-e-nue /ˈrev.ən.juː/: nhấn âm 1, cuối đọc /juː/."
+      - word: negligible|adj
+        text_vi: "NEG-li-gi-ble: g thứ hai đọc /dʒ/."
+      - word: considerably|adv
+        text_vi: "con-SID-er-a-bly: 5 âm tiết, đọc lướt -er-a- thành /ər.ə/."
+  - type: grammar
+    items:
+      - en-g3-14
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 1 — bảng số liệu kết hợp biểu đồ (mixed charts)
+    intro_vi: "Đề cho HAI hình (VD bảng + biểu đồ tròn, hoặc biểu đồ đường + cột). Lỗi hay gặp: mô tả từng hình riêng lẻ như hai bài khác nhau, và chép hết số liệu trong bảng. Giám khảo muốn thấy bạn CHỌN số liệu nổi bật và (nếu được) LIÊN HỆ hai hình. Vẫn 150+ từ, 20 phút, bố cục 4 đoạn."
+    steps:
+      - title_vi: Tìm mối liên hệ giữa hai hình
+        text_vi: "Hai hình cùng chủ đề (VD: bảng thu nhập và biểu đồ tròn chi tiêu). Hỏi: hình này giải thích hình kia không? Có số nào lặp lại không?"
+      - title_vi: "Mở bài: paraphrase CẢ HAI hình"
+        text_vi: "'The table shows … and the pie chart illustrates …' → 'The table compares …, while the pie chart breaks down …'"
+      - title_vi: "Overview: 1 ý chính cho mỗi hình"
+        text_vi: "Overview hai câu: điểm nổi bật nhất của bảng + điểm nổi bật nhất của biểu đồ. Không có số liệu."
+      - title_vi: Mỗi thân bài một hình
+        text_vi: "Thân bài 1: bảng (so sánh hàng/cột lớn nhất – nhỏ nhất). Thân bài 2: biểu đồ. Nếu có liên hệ, thêm một câu nối ở cuối thân bài 2."
+      - title_vi: Chọn số liệu, không chép bảng
+        text_vi: "Bảng 4×4 có 16 con số — chỉ chọn 6–8 số: lớn nhất, nhỏ nhất, ngoại lệ, và số có chênh lệch thú vị."
+      - title_vi: So sánh có mức độ
+        text_vi: Dùng considerably / marginally / by far / almost as … as thay cho 'higher than' lặp lại.
+    tips:
+      - Bảng không có xu hướng thì đừng viết 'increase'; chỉ so sánh.
+      - Nếu hai hình khác mốc thời gian, nói rõ năm của từng hình.
+      - "Thời gian: 3 phút đọc + tìm liên hệ, 14 phút viết, 3 phút soát."
+    traps:
+      - trap_vi: Viết hai overview dài, hết thời gian cho thân bài.
+        fix_vi: Overview 2 câu ngắn là đủ.
+      - trap_vi: Chép mọi con số của bảng.
+        fix_vi: "Nhóm số giống nhau: 'Countries B and C spent a comparable amount (around 20%)'."
+      - trap_vi: "'very higher', 'more higher'."
+        fix_vi: much / considerably / significantly higher.
+    phrases:
+      - en: The table compares …, while the pie chart breaks down …
+        vi: Bảng so sánh …, còn biểu đồ tròn chia nhỏ …
+        note_vi: Mở bài hai hình.
+      - en: Overall, … was by far the largest …, and …
+        vi: Nhìn chung, … là … lớn nhất với cách biệt xa, và …
+      - en: … was considerably higher than …
+        vi: … cao hơn đáng kể so với …
+      - en: … was marginally lower, at …
+        vi: … thấp hơn một chút, ở mức …
+      - en: This is reflected in the chart, which shows …
+        vi: Điều này được phản ánh trong biểu đồ, cho thấy …
+        note_vi: Câu nối hai hình.
+    demo:
+      title_vi: "Làm mẫu: bảng thu nhập + biểu đồ tròn chi tiêu (số liệu giả định, mô tả bằng lời)"
+      text_en: |-
+        Table: average monthly household income (hypothetical figures) — City X $2,400; City Y $1,500; City Z $1,450.
+        Pie chart: how households in City X spend their income — housing 38%, food 20%, transport 15%, leisure 14%, utilities 8%, other 5%.
+
+        Introduction: The table compares the average monthly household income in three cities, while the pie chart breaks down how families in City X spend their money.
+
+        Overview: Overall, households in City X earned by far the most, and housing was the largest expense in that city's budget.
+
+        Body 1: At $2,400 a month, the average income in City X was considerably higher than in the other two cities. Families in City Y earned $1,500, which was only marginally more than the figure for City Z ($1,450).
+
+        Body 2: Turning to spending in City X, housing accounted for 38% of the budget, almost twice as much as food (20%). Transport and leisure took comparable shares, at 15% and 14% respectively. By contrast, utilities made up just 8%. The relatively large share spent on leisure may reflect the city's higher income.
+      notes:
+        - label: compares … while … breaks down
+          text_vi: Mở bài nêu cả hai hình, mỗi hình một động từ khác.
+        - label: Overview
+          text_vi: Một ý cho bảng (City X cao nhất) + một ý cho biểu đồ (housing lớn nhất). Không số liệu.
+        - label: considerably / marginally
+          text_vi: "Cho biết mức chênh: 2,400 vs 1,500 là nhiều; 1,500 vs 1,450 là ít."
+        - label: comparable … respectively
+          text_vi: Gộp hai số gần nhau thay vì viết hai câu.
+        - label: may reflect
+          text_vi: Câu nối hai hình, dùng may vì là suy đoán hợp lý, không khẳng định.
+  - type: examples
+    items:
+      - b59-001
+      - b59-002
+      - b59-003
+      - b59-004
+      - b59-005
+      - b59-006
+      - b59-007
+      - b59-008
+      - b59-009
+      - b59-010
+      - b59-011
+  - type: dialogue
+    title_vi: Chuẩn bị bài Task 1
+    lines:
+      - speaker: A
+        text: There are so many numbers in this table. Do I need to mention all of them?
+        vi: Bảng này nhiều số quá. Mình có cần nhắc hết không?
+      - speaker: B
+        text: No. Pick the biggest, the smallest and anything unusual.
+        vi: Không. Chọn số lớn nhất, nhỏ nhất và cái gì bất thường.
+      - speaker: A
+        text: OK. Housing is by far the largest expense in every country.
+        vi: Được. Nhà ở là khoản chi lớn nhất với cách biệt xa ở mọi nước.
+      - speaker: B
+        text: Good, that's your overview. What about food?
+        vi: Tốt, đó là overview. Còn thực phẩm?
+      - speaker: A
+        text: It's marginally higher in Country B than in Country C, 21 and 20 per cent.
+        vi: Ở nước B cao hơn nước C một chút, 21 và 20 phần trăm.
+      - speaker: B
+        text: "Then group them: 'comparable, at around 20%'. It saves words."
+        vi: "Vậy gộp lại: 'tương đương, khoảng 20%'. Đỡ tốn chữ."
+      - speaker: A
+        text: And the pie chart shows the same pattern, so I can link them.
+        vi: Và biểu đồ tròn cho thấy cùng xu hướng, nên mình có thể liên hệ hai hình.
+  - type: exercises
+    items:
+      - id: b59-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Housing (40%) was ___ higher than clothing (5%).
+            options:
+              - very
+              - considerably
+              - marginally
+              - by far
+            answer: b
+          - q: City A (30.1%) was ___ higher than City B (29.8%).
+            options:
+              - substantially
+              - marginally
+              - considerably
+              - by far
+            answer: b
+          - q: Food was ___ the largest category.
+            options:
+              - very
+              - much
+              - by far
+              - considerably
+            answer: c
+          - q: ___ income people have, the more they spend on leisure.
+            options:
+              - More
+              - The more
+              - The most
+              - Most
+            answer: b
+          - q: Spending on transport was almost ___ spending on food.
+            options:
+              - as high as
+              - higher as
+              - as high than
+              - so high than
+            answer: a
+          - q: Online sales ___ 50% of the total in 2020.
+            options:
+              - exceeded than
+              - exceeded
+              - were exceeded
+              - exceeding over
+            answer: b
+      - id: b59-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu theo gợi ý, giữ nguyên nghĩa.
+        questions:
+          - q: People earn more. They spend more. → The more ___
+            answer: people earn, the more they spend.
+          - q: No other category was nearly as large as housing. → Housing was by far ___
+            answer: the largest category.
+          - q: Spending on food was 20% and spending on transport was 19%. → Spending on transport was marginally ___
+            answer: lower than spending on food.
+            accept:
+              - lower than on food.
+              - lower than food.
+          - q: The number of online shoppers became three times higher. → The number of online shoppers ___
+            answer: tripled.
+      - id: b59-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ trong khung vào chỗ trống.
+        bank:
+          - overtook
+          - halved
+          - negligible
+          - allocated
+          - utilities
+          - the latter
+          - comparable
+          - revenue
+        questions:
+          - q: The difference between 12.1% and 12.2% is ___.
+            answer: negligible
+          - q: By 2015, spending on transport ___ spending on food.
+            answer: overtook
+          - q: The number of shops was ___, from 200 to 100.
+            answer: halved
+          - q: Families ___ about a third of their income to rent.
+            answer: allocated
+          - q: Electricity, water and gas are called ___.
+            answer: utilities
+          - q: The chart shows cars and buses; ___ was used more by students.
+            answer: the latter
+          - q: The figures for Spain and Italy were ___, at around 15%.
+            answer: comparable
+          - q: The company's ___ from online sales rose sharply.
+            answer: revenue
+      - id: b59-x4
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc bảng (số liệu giả định) và hoàn thành đoạn thân bài. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: |-
+          Percentage of household budget (hypothetical figures)
+          Category     Country A   Country B
+          Housing        35          28
+          Food           22          27
+          Transport      14          13
+          Leisure        12           4
+
+          In Country A, housing was by (1) ___ the largest expense, at 35%. The figure for Country B was considerably (2) ___, at 28%. Food, however, took a larger share in Country B (27%), almost as (3) ___ as its spending on housing. Spending on transport was (4) ___ lower in Country B (13% compared with 14%). The most striking difference was in leisure: households in Country A spent three (5) ___ as much as those in Country B.
+        questions:
+          - q: (1)
+            answer: far
+          - q: (2)
+            answer: lower
+          - q: (3)
+            answer: high
+            accept:
+              - much
+          - q: (4)
+            answer: marginally
+            accept:
+              - slightly
+          - q: (5)
+            answer: times
+      - id: b59-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi. Sửa trực tiếp.
+        text: Overall, housing was by far larger expense. Spending on food was very higher in Country A than in Country B. More people earn, the more they spend on leisure. In 2020, online sales exceeded than shop sales. The figure of utilities were negligible.
+        errors:
+          - wrong: by far larger expense
+            right: by far the largest expense
+            why: by far + the + so sánh nhất.
+          - wrong: very higher
+            right: considerably higher
+            why: very không đi với so sánh hơn.
+          - wrong: More people earn, the more
+            right: The more people earn, the more
+            why: Hai vế đều cần the.
+          - wrong: exceeded than
+            right: exceeded
+            why: exceed + tân ngữ trực tiếp.
+          - wrong: The figure of utilities were
+            right: The figure for utilities was
+            why: the figure FOR; chủ ngữ số ít → was.
+      - id: b59-x6
+        bank_no: 19
+        kind: completion
+        instructions_vi: Nghe hai sinh viên bàn về bài thuyết trình (hai giọng) và hoàn thành ghi chú. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ.
+        max_words: 1
+        audio_text: |-
+          Man: So, what does our table show?
+          Woman: It's about how students spend their monthly allowance. Rent is by far the biggest cost, at forty-five per cent.
+          Man: And food?
+          Woman: Food is second, at twenty-five. Oh wait, sorry, it's twenty-two. Twenty-five is for last year.
+          Man: OK. What about the chart?
+          Woman: The chart shows transport. Most students travel by bus, but cycling has almost tripled since last year.
+          Man: So we should say cycling has overtaken walking?
+          Woman: Exactly. And we'll finish with leisure, which is the smallest category.
+        passage: |-
+          PRESENTATION NOTES: STUDENT SPENDING
+          Largest cost: (1) ___ (45%)
+          Food this year: (2) ___ %
+          Most common transport: (3) ___
+          Cycling has almost (4) ___
+          Cycling has overtaken: (5) ___
+          Last point: (6) ___ (smallest category)
+        questions:
+          - q: (1)
+            answer: rent
+          - q: (2)
+            answer: "22"
+            accept:
+              - twenty-two
+          - q: (3)
+            answer: bus
+          - q: (4)
+            answer: tripled
+          - q: (5)
+            answer: walking
+          - q: (6)
+            answer: leisure
+      - id: b59-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe đoạn mô tả biểu đồ rồi chọn T (đúng) hoặc F (sai).
+        audio_text: The chart compares how much families in two cities spend on leisure. In the capital, families spend around three hundred dollars a month, which is considerably more than in the smaller city, where the figure is just one hundred and twenty. However, spending on groceries is almost the same in both cities. Interestingly, the gap in leisure spending has widened over the last five years.
+        questions:
+          - q: Families in the capital spend much more on leisure.
+            answer: T
+          - q: Spending on groceries is very different in the two cities.
+            answer: F
+          - q: Families in the smaller city spend two hundred dollars on leisure.
+            answer: F
+          - q: The difference in leisure spending has grown.
+            answer: T
+      - id: b59-x8
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn câu phù hợp nhất cho bài Task 1 (bảng thu nhập + biểu đồ tròn chi tiêu).
+        questions:
+          - q: Best introduction?
+            options:
+              - The table and the chart show information about money.
+              - The table compares average incomes in three cities, while the pie chart breaks down how one city's households spend their money.
+              - I will describe the table and the pie chart.
+              - Money is very important for families in cities.
+            answer: b
+          - q: Best overview?
+            options:
+              - Overall, City X earned $2,400 and spent 38% on housing.
+              - Overall, City X had by far the highest income, and housing was its largest expense.
+              - Overall, everything increased.
+              - Overall, people should spend less on leisure.
+            answer: b
+            explain_vi: Overview không có số liệu cụ thể.
+          - q: Best way to link the two charts?
+            options:
+              - The high share spent on leisure may reflect the city's higher income.
+              - Leisure is good for people.
+              - The table is more interesting than the chart.
+              - Housing is expensive because of inflation.
+            answer: a
+  - type: homework
+    kind: task1
+    prompt_vi: Viết Task 1 (≥ 150 từ, 20 phút) cho bảng + biểu đồ (số liệu giả định, mô tả bằng lời). Overview 2 ý (một cho mỗi hình). Dùng ít nhất 3 cách so sánh có mức độ (considerably, marginally, by far, almost as … as) và 1 câu nối hai hình.
+    prompt_en: |-
+      The table shows the percentage of shoppers who bought goods online in three age groups in 2015 and 2025 (hypothetical figures): 18–30: 45% → 88%; 31–50: 30% → 70%; 51+: 8% → 41%.
+      The bar chart shows what online shoppers bought most in 2025: clothes 34%, groceries 22%, electronics 18%, travel 15%, other 11%.
+      Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+    words:
+      min: 150
+      max: 190
+    minutes: 20

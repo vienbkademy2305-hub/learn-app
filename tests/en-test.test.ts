@@ -70,6 +70,18 @@ describe("English stage tests — data", () => {
     const lessons = new Set(testExercises(final).flatMap(itemLessons));
     for (let n = 21; n <= 44; n++) expect(lessons.has(n), `lesson ${n}`).toBe(true);
   });
+
+  it("stage 3 has 4 mini tests covering their five lessons and an exit test that covers Buổi 46–64", () => {
+    expect(snap.tests.filter((t) => t.stage === 3).map((t) => t.id)).toEqual(["gd3-mini-1", "gd3-mini-2", "gd3-mini-3", "gd3-mini-4", "gd3-final"]);
+    for (const t of snap.tests.filter((x) => x.stage === 3 && x.kind === "mini")) {
+      const lessons = new Set(testExercises(t).flatMap(itemLessons));
+      expect([...lessons].sort((a, b) => a - b), t.id).toEqual([0, 1, 2, 3, 4].map((i) => t.after_lesson - 4 + i));
+    }
+    const final = byId("gd3-final");
+    expect(testItemCount(final)).toBeGreaterThanOrEqual(50);
+    const lessons = new Set(testExercises(final).flatMap(itemLessons));
+    for (let n = 46; n <= 64; n++) expect(lessons.has(n), `lesson ${n}`).toBe(true);
+  });
 });
 
 describe("English stage tests — scoring", () => {

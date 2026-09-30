@@ -1,0 +1,159 @@
+# Kiểm tra ngắn 3 Giai đoạn 3 — sau Buổi 60 (Buổi 56–60). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd3-mini-3
+title_vi: "Kiểm tra ngắn 3 (Giai đoạn 3): Buổi 56–60"
+stage: 3
+kind: mini
+after_lesson: 60
+minutes: 40
+pass_percent: 80
+intro_vi: "Mệnh đề phân từ, cụm động từ và thành ngữ tự nhiên, đảo ngữ, so sánh nâng cao, câu điều kiện loại 3 và hỗn hợp; từ vựng Văn hóa – Kinh tế & tiêu dùng – Nghệ thuật; đọc Matching features, nghe số liệu chi tiêu."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd3-mini-3-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "___ in a small village, she knows every local festival.", options: [Grow up, Having grown up, Grown up, To grow up], answer: b, lesson: 56 }
+          - { q: "___ by millions of tourists, the old town is now very crowded.", options: [Visiting, Visited, Having visiting, Visit], answer: b, lesson: 56 }
+          - { q: "I'm really looking forward to ___ my grandparents.", options: [visit, visiting, visited, be visiting], answer: b, lesson: 57 }
+          - { q: "Rarely ___ the small print before buying online.", options: [people read, do people read, people do read, do people reads], answer: b, lesson: 58 }
+          - { q: "Not only ___ money, but it also saves time.", options: [it saves, does it save, does it saves, it does save], answer: b, lesson: 58 }
+          - { q: "Housing was ___ the largest expense.", options: [very, much, by far, considerably], answer: c, lesson: 59 }
+          - { q: "30.1% is ___ higher than 29.9%.", options: [considerably, marginally, substantially, by far], answer: b, lesson: 59 }
+          - { q: "If we had booked earlier, we ___ tickets.", options: [would get, would have got, had got, will get], answer: b, lesson: 60 }
+          - { q: "If I had studied music, I ___ a musician now.", options: [would have been, would be, had been, will be], answer: b, lesson: 60 }
+      - id: gd3-mini-3-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: "Viết lại câu theo yêu cầu."
+        questions:
+          - { q: "After she had finished her studies, she returned to her hometown. → Having ___", answer: "finished her studies, she returned to her hometown.", lesson: 56 }
+          - { q: "I have never seen such high prices. → Never ___", answer: "have I seen such high prices.", lesson: 58 }
+          - { q: "People earn more. They spend more. → The more ___", answer: "people earn, the more they spend.", lesson: 59 }
+          - { q: "The concert was sold out, so I didn't go. → If the concert ___", answer: "hadn't been sold out, I would have gone.", accept: ["had not been sold out, I would have gone.", "hadn't sold out, I would have gone.", "had not sold out, I would have gone."], lesson: 60 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd3-mini-3-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [handed down, dialect, fit in, a far cry from, impulse buying, disposable income, negligible, allocated, premiere, sequel]
+        questions:
+          - { q: "These recipes have been ___ from generation to generation.", answer: handed down, lesson: 56 }
+          - { q: "My grandmother speaks a local ___ that I can hardly understand.", answer: dialect, lesson: 56 }
+          - { q: "It took me a few months to ___ at my new school.", answer: fit in, lesson: 57 }
+          - { q: "Modern Hanoi is ___ the city my parents grew up in.", answer: a far cry from, lesson: 57 }
+          - { q: "Supermarkets put sweets near the checkout to encourage ___.", answer: impulse buying, lesson: 58 }
+          - { q: "After rent and bills, students have little ___.", answer: disposable income, lesson: 58 }
+          - { q: "The change from 12.1% to 12.2% was ___.", answer: negligible, lesson: 59 }
+          - { q: "Families ___ about a third of their budget to housing.", answer: allocated, lesson: 59 }
+          - { q: "The actors walked on the red carpet at the ___.", answer: premiere, lesson: 60 }
+          - { q: "The first film was so popular that they made a ___.", answer: sequel, lesson: 60 }
+      - id: gd3-mini-3-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "The ___ of old buildings for tourism can destroy their character.", base: commercialise, answer: commercialisation, accept: [commercialization], lesson: 56 }
+          - { q: "The rise of ___ has made society more materialistic.", base: consumer, answer: consumerism, lesson: 58 }
+          - { q: "The figures for the two countries are ___.", base: compare, answer: comparable, lesson: 59 }
+          - { q: "It was a very moving ___ by the young pianist.", base: perform, answer: performance, lesson: 60 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd3-mini-3-x5
+        bank_no: 17
+        kind: mcq
+        instructions_vi: "Matching features: chọn người phù hợp với mỗi nhận định (A Tran, B Walker, C Okafor). Một người có thể được chọn nhiều lần."
+        lesson: 60
+        passage: |-
+          SHOULD MUSEUMS BE FREE?
+
+          Museum director Linh Tran believes that free entry is the best way to reach young people. When her museum stopped charging in 2018, the number of visitors under 25 almost tripled. 'If we had kept the fee, most of these students would never have come,' she says.
+
+          Economist Peter Walker is less convinced. He points out that free museums depend heavily on public money, and that in a recession this funding is often the first to be cut. In his view, a small fee is fairer than closing galleries.
+
+          Artist Grace Okafor agrees with Tran, but warns that visitor numbers are not everything. 'Not only do museums need visitors, but they also need money to look after the collections,' she says. She suggests free entry for students and a voluntary donation for everyone else.
+        questions:
+          - { q: "Removing the entrance fee attracted many more young visitors.", options: [Tran, Walker, Okafor], answer: a }
+          - { q: "Public funding may be reduced when the economy is weak.", options: [Tran, Walker, Okafor], answer: b }
+          - { q: "Charging a little money is better than losing museums.", options: [Tran, Walker, Okafor], answer: b }
+          - { q: "Museums must pay to protect the objects they hold.", options: [Tran, Walker, Okafor], answer: c }
+          - { q: "Different groups of visitors should be treated differently.", options: [Tran, Walker, Okafor], answer: c }
+      - id: gd3-mini-3-x6
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Đọc lại đoạn văn ở bài 5 và chọn T, F hoặc NG."
+        lesson: 60
+        passage: |-
+          Museum director Linh Tran believes that free entry is the best way to reach young people. When her museum stopped charging in 2018, the number of visitors under 25 almost tripled. 'If we had kept the fee, most of these students would never have come,' she says. Economist Peter Walker is less convinced. He points out that free museums depend heavily on public money, and that in a recession this funding is often the first to be cut.
+        questions:
+          - { q: "Tran's museum kept its entrance fee after 2018.", answer: F, explain_vi: "'If we had kept the fee …' → thật ra đã bỏ phí." }
+          - { q: "Young visitors to Tran's museum increased about threefold.", answer: T }
+          - { q: "Walker thinks free museums are too crowded.", answer: NG }
+  - title_vi: Nghe
+    exercises:
+      - id: gd3-mini-3-x7
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Nghe cuộc phỏng vấn (hai giọng) và hoàn thành ghi chú. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ. Nghe 1 lần."
+        lesson: 59
+        max_words: 1
+        audio_text: |-
+          Woman: Thanks for taking part in our survey. How much of your income do you spend on rent?
+          Man: About forty per cent. It's by far my biggest expense.
+          Woman: And food?
+          Man: Around twenty per cent. Oh, sorry, it's more like twenty-five now, because prices have gone up.
+          Woman: Do you spend much on leisure?
+          Man: Marginally less than on transport. I mostly go to the cinema.
+          Woman: And do you ever splash out on anything?
+          Man: Concert tickets. I can't resist them.
+        passage: |-
+          SPENDING SURVEY
+          Biggest expense: (1) ___ (40%)
+          Food: (2) ___ %
+          Leisure: slightly less than (3) ___
+          Usual leisure activity: the (4) ___
+          Splashes out on: concert (5) ___
+        questions:
+          - { q: "(1)", answer: rent }
+          - { q: "(2)", answer: "25", accept: [twenty-five] }
+          - { q: "(3)", answer: transport }
+          - { q: "(4)", answer: cinema }
+          - { q: "(5)", answer: tickets }
+      - id: gd3-mini-3-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe đoạn kể chuyện rồi chọn T (đúng) hoặc F (sai)."
+        audio_text: "Having lived abroad for five years, I found it hard to fit in when I came home. Everything seemed to have changed. At first I felt a bit of reverse culture shock, but it didn't take long to get the hang of things again. Looking back, if I hadn't gone abroad, I wouldn't be so open-minded today."
+        questions:
+          - { q: "The speaker lived abroad for five years.", answer: T, lesson: 56 }
+          - { q: "Settling back home was easy at first.", answer: F, lesson: 57 }
+          - { q: "It took the speaker a very long time to adjust.", answer: F, lesson: 57 }
+          - { q: "The speaker thinks living abroad made them more open-minded.", answer: T, lesson: 60 }
+      - id: gd3-mini-3-x9
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 58
+        text: "Not only does online shopping save time, but it also encourages impulse buying."
+  - title_vi: Viết câu
+    exercises:
+      - id: gd3-mini-3-x10
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp."
+        text: "Having grown up in the countryside, the city was strange to me. I'm looking forward to visit my village again. Rarely people save money nowadays. Spending on housing was very higher than on food. If I would have booked earlier, I would have seen the show."
+        errors:
+          - { wrong: "Having grown up in the countryside, the city was strange to me", right: "Having grown up in the countryside, I found the city strange", why: "Chủ ngữ của phân từ phải là người lớn lên.", lesson: 56 }
+          - { wrong: "looking forward to visit", right: "looking forward to visiting", why: "look forward to + V-ing.", lesson: 57 }
+          - { wrong: "Rarely people save", right: "Rarely do people save", why: "Đảo ngữ sau Rarely.", lesson: 58 }
+          - { wrong: "very higher", right: "considerably higher", why: "very không đi với so sánh hơn.", lesson: 59 }
+          - { wrong: "If I would have booked", right: "If I had booked", why: "Loại 3: had + V3.", lesson: 60 }
+writing:
+  prompt_vi: "Không chấm tự động — viết một đoạn (khoảng 150 từ) về một sự kiện văn hóa hoặc nghệ thuật bạn đã bỏ lỡ, dùng ít nhất 1 mệnh đề phân từ, 1 câu đảo ngữ và 2 câu điều kiện loại 3/hỗn hợp."
+  prompt_en: "Describe a cultural or arts event you missed. What happened, and what would have been different?"
+  words: { min: 130, max: 170 }
