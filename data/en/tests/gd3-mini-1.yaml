@@ -1,0 +1,166 @@
+# Kiểm tra ngắn 1 Giai đoạn 3 — sau Buổi 50 (Buổi 46–50). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd3-mini-1
+title_vi: "Kiểm tra ngắn 1 (Giai đoạn 3): Buổi 46–50"
+stage: 3
+kind: mini
+after_lesson: 50
+minutes: 40
+pass_percent: 80
+intro_vi: "Bị động mô tả quy trình và bản đồ, mệnh đề quan hệ không xác định, nói mềm có mức độ, danh từ hóa và collocation; từ vựng Môi trường – Giáo dục – Tội phạm (nâng cao); nghe sơ đồ quy trình và bản đồ, đọc hiểu đoạn văn học thuật."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd3-mini-1-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "In the first stage, the raw materials ___ to the factory.", options: [transport, are transported, transporting, have transport], answer: b, lesson: 46 }
+          - { q: "After ___, the bricks are packed.", options: [cool, cooled, being cooled, to cool], answer: c, lesson: 46 }
+          - { q: "In the water cycle, water ___ from the sea.", options: [evaporates, is evaporated, evaporated by, is evaporating by], answer: a, lesson: 46 }
+          - { q: "The old factory ___ in 2005.", options: [demolished, was demolished, has demolished, demolishes], answer: b, lesson: 47 }
+          - { q: "The woodland ___ a car park.", options: [was made way for, made way for, was making way to, make way], answer: b, lesson: 47 }
+          - { q: "My university, ___ is in Hue, has a big library.", options: [that, which, who, where], answer: b, lesson: 48 }
+          - { q: "Students have a heavy workload, ___ leaves them little free time.", options: [this, it, which, that], answer: c, lesson: 48 }
+          - { q: "I ___ procrastinate before exams.", options: [am tend to, tend to, tend, tending to], answer: b, lesson: 49 }
+          - { q: "It was ___ difficult exam.", options: [a quite, quite a, quite, a bit a], answer: b, lesson: 49 }
+          - { q: "There has been a sharp increase ___ cybercrime.", options: [of, on, in, for], answer: c, lesson: 50 }
+      - id: gd3-mini-1-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: "Viết lại câu theo yêu cầu."
+        questions:
+          - { q: "The bottles are sorted. Then they are crushed. (Once) → Once ___", answer: "the bottles have been sorted, they are crushed.", lesson: 46 }
+          - { q: "The warehouse became a hotel. (converted into) → The warehouse ___", answer: "was converted into a hotel.", lesson: 47 }
+          - { q: "Fees have doubled. This means many families cannot pay. (which) → Fees have doubled, ___", answer: "which means many families cannot pay.", accept: ["which means that many families cannot pay."], lesson: 48 }
+          - { q: "Petty crime has reduced significantly. → There has been a significant ___", answer: "reduction in petty crime.", lesson: 50 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd3-mini-1-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [filtered, reservoir, relocated, residential, vocational training, employability, cram, deadline, reoffend, root causes]
+        questions:
+          - { q: "The water is ___ through sand to remove dirt.", answer: filtered, lesson: 46 }
+          - { q: "Clean water is stored in a ___ on the hill.", answer: reservoir, lesson: 46 }
+          - { q: "The market was ___ from the centre to the west of the town.", answer: relocated, lesson: 47 }
+          - { q: "The farmland was replaced by a ___ area with hundreds of houses.", answer: residential, lesson: 47 }
+          - { q: "My brother chose ___ instead of university and became an electrician.", answer: vocational training, lesson: 48 }
+          - { q: "Internships improve graduates' ___.", answer: employability, lesson: 48 }
+          - { q: "I tend to ___ the night before an exam.", answer: cram, lesson: 49 }
+          - { q: "I've never missed a ___ for an essay.", answer: deadline, lesson: 49 }
+          - { q: "Offenders who get education in prison are less likely to ___.", answer: reoffend, lesson: 50 }
+          - { q: "We must tackle the ___ of crime, such as poverty.", answer: root causes, lesson: 50 }
+      - id: gd3-mini-1-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "The ___ of the old factory took three months.", base: demolish, answer: demolition, lesson: 47 }
+          - { q: "Our course was too ___; we never practised.", base: theory, answer: theoretical, lesson: 48 }
+          - { q: "My history teacher was really ___.", base: inspire, answer: inspiring, lesson: 49 }
+          - { q: "The ___ of young offenders should be a priority.", base: rehabilitate, answer: rehabilitation, lesson: 50 }
+          - { q: "Long sentences are not always an effective ___.", base: deter, answer: deterrent, lesson: 50 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd3-mini-1-x5
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc đoạn văn và hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+        max_words: 2
+        lesson: 48
+        passage: |-
+          In many Asian countries, education has traditionally been exam-oriented, with students spending long hours memorising facts for standardised tests. However, employers increasingly complain that graduates lack soft skills, such as teamwork and communication, which are difficult to measure in a written exam. In response, some universities have introduced continuous assessment, where students are graded on projects and presentations throughout the year. Supporters say this reduces stress and rewards hands-on learning. Critics, on the other hand, argue that it gives teachers too much power and may be less fair than an anonymous final exam.
+        questions:
+          - { q: "Traditionally, students have spent many hours ___ facts.", answer: memorising, accept: [memorizing] }
+          - { q: "Employers say graduates do not have enough ___, such as teamwork.", answer: soft skills }
+          - { q: "With continuous assessment, students are graded on projects and ___.", answer: presentations }
+          - { q: "Supporters believe the new system rewards ___ learning.", answer: hands-on }
+          - { q: "Critics fear it may be less fair than an anonymous ___.", answer: final exam }
+      - id: gd3-mini-1-x6
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Dựa vào đoạn văn ở bài 5, chọn T (True), F (False) hoặc NG (Not Given)."
+        lesson: 48
+        passage: |-
+          In many Asian countries, education has traditionally been exam-oriented, with students spending long hours memorising facts for standardised tests. However, employers increasingly complain that graduates lack soft skills, such as teamwork and communication, which are difficult to measure in a written exam. In response, some universities have introduced continuous assessment, where students are graded on projects and presentations throughout the year. Supporters say this reduces stress and rewards hands-on learning. Critics, on the other hand, argue that it gives teachers too much power and may be less fair than an anonymous final exam.
+        questions:
+          - { q: "Soft skills are easy to measure in a written exam.", answer: F }
+          - { q: "All Asian universities now use continuous assessment.", answer: F, explain_vi: "'some universities' — không phải tất cả." }
+          - { q: "Continuous assessment is more expensive than final exams.", answer: NG }
+  - title_vi: Nghe
+    exercises:
+      - id: gd3-mini-1-x7
+        bank_no: 19
+        kind: completion
+        instructions_vi: "Nghe mô tả quy trình (hai giọng) và hoàn thành sơ đồ. Viết MỘT TỪ cho mỗi chỗ trống. Nghe 1 lần."
+        lesson: 46
+        max_words: 1
+        audio_text: |-
+          Woman: So how is the paper recycled here?
+          Man: First, old paper is collected from offices and schools. Then it's mixed with water to make a kind of soup called pulp.
+          Woman: And the ink?
+          Man: Once the pulp has been made, the ink is removed with soap. After being cleaned, the pulp is pressed flat and dried on hot rollers.
+          Woman: And finally?
+          Man: Finally, it's cut into sheets and packaged.
+        passage: |-
+          PAPER RECYCLING
+          Paper collected from offices and schools → mixed with (1) ___ to make pulp → ink removed with (2) ___ → pulp pressed flat and dried on hot (3) ___ → cut into (4) ___ and packaged
+        questions:
+          - { q: "(1)", answer: water }
+          - { q: "(2)", answer: soap }
+          - { q: "(3)", answer: rollers }
+          - { q: "(4)", answer: sheets }
+      - id: gd3-mini-1-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai người nói về thay đổi của một thị trấn (hai giọng) và chọn đáp án đúng."
+        lesson: 47
+        audio_text: |-
+          Man: Have you been back to your hometown recently?
+          Woman: Yes, last summer. The old cinema in the centre has been converted into a shopping mall.
+          Man: What about the park by the river?
+          Woman: Luckily, it has remained unchanged. But the rice fields in the north have made way for a factory.
+          Man: And the school?
+          Woman: It's been relocated to the east, near the new bridge.
+        questions:
+          - { q: "What happened to the old cinema?", options: [It was demolished., It was converted into a shopping mall., It was relocated., It remained unchanged.], answer: b }
+          - { q: "What happened to the park by the river?", options: [It became a car park., It remained unchanged., It was expanded., It was removed.], answer: b }
+          - { q: "What replaced the rice fields in the north?", options: [a school, a factory, houses, a bridge], answer: b }
+          - { q: "Where is the school now?", options: [in the centre, in the north, in the east, by the river], answer: c }
+      - id: gd3-mini-1-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe một thí sinh trả lời Speaking Part 1 rồi chọn T (đúng) hoặc F (sai)."
+        audio_text: "I'd say I'm a fairly organised student, although I tend to procrastinate when a subject is boring. When I was at school, I used to cram the night before every exam, but these days I try to study a little every day. I find it quite hard to concentrate at home, so I usually go to the library."
+        questions:
+          - { q: "The speaker says they never procrastinate.", answer: F, lesson: 49 }
+          - { q: "The speaker used to cram before exams.", answer: T, lesson: 49 }
+          - { q: "The speaker finds it easy to concentrate at home.", answer: F, lesson: 49 }
+          - { q: "The speaker usually studies in the library.", answer: T, lesson: 49 }
+      - id: gd3-mini-1-x10
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 50
+        text: "There has been a significant reduction in petty crime, which the police believe is the result of better street lighting."
+  - title_vi: Viết câu
+    exercises:
+      - id: gd3-mini-1-x11
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp."
+        text: "First, the glass collected from bins. The old station was converted to a museum. Many graduates lack soft skills, this makes it hard to find jobs. I am tend to study late at night. Poor is one of the root causes of crime."
+        errors:
+          - { wrong: "the glass collected from", right: "the glass is collected from", why: "Bị động thiếu be.", lesson: 46 }
+          - { wrong: "was converted to a museum", right: "was converted into a museum", why: "convert INTO.", lesson: 47 }
+          - { wrong: "soft skills, this makes", right: "soft skills, which makes", why: "Comma splice → , which.", lesson: 48 }
+          - { wrong: "I am tend to study", right: "I tend to study", why: "tend không đi với be.", lesson: 49 }
+          - { wrong: "Poor is one of", right: "Poverty is one of", why: "Chủ ngữ cần danh từ.", lesson: 50 }
+writing:
+  prompt_vi: "Không chấm tự động — viết rồi gửi để chữa: mở bài + overview (khoảng 70 từ) cho sơ đồ quy trình tái chế giấy ở phần Nghe."
+  prompt_en: "The diagram shows how paper is recycled. Write the introduction and overview."
+  words: { min: 60, max: 90 }

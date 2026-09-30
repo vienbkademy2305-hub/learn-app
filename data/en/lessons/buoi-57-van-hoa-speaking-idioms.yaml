@@ -1,0 +1,331 @@
+# Buổi 57 — Văn hóa & bản sắc · Speaking: thành ngữ và cụm động từ tự nhiên. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-57-van-hoa-speaking-idioms
+number: 57
+stage: 3
+title_vi: "Văn hóa & bản sắc · Speaking: thành ngữ và cụm động từ tự nhiên"
+focus:
+  grammar: Cụm động từ và thành ngữ trong văn nói
+  skill: "Speaking — Lexical Resource band 7: diễn đạt tự nhiên, không sáo rỗng"
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - get-the-hang-of|idiom
+      - look-forward-to|phr-v
+      - bring-back-memories|idiom
+      - in-the-long-run|idiom
+      - keep-up-with|phr-v
+      - take-for-granted|idiom
+      - broaden-your-horizons|idiom
+      - a-far-cry-from|idiom
+      - come-across|phr-v
+      - stand-out|phr-v
+      - fit-in|phr-v
+      - grow-up|phr-v
+      - catch-up-on|phr-v
+      - culture-shock|phr-n
+      - feel-at-home|idiom
+      - homesick|adj
+      - open-minded|adj
+      - pick-up|phr-v
+  - type: pronunciation
+    notes:
+      - word: get-the-hang-of|idiom
+        text_vi: "Nối âm: get the hang of → /ˈɡet ðə ˈhæŋ əv/, 'of' đọc lướt /əv/."
+      - word: take-for-granted|idiom
+        text_vi: for đọc yếu /fə/; GRAN-ted nhấn âm 1.
+      - word: come-across|phr-v
+        text_vi: "Cụm động từ nhấn vào tiểu từ: come a-CROSS, grow UP, fit IN, stand OUT."
+      - word: broaden-your-horizons|idiom
+        text_vi: "ho-RI-zons /həˈraɪ.zənz/: nhấn âm 2."
+      - word: homesick|adj
+        text_vi: "HOME-sick: nhấn âm 1 (từ ghép)."
+  - type: grammar
+    items:
+      - en-g3-12
+  - type: skill
+    skill: speaking
+    title_vi: "Speaking — Lexical Resource band 7: tự nhiên, không sáo rỗng"
+    intro_vi: "Giám khảo không chấm số lượng từ khó, mà chấm việc bạn chọn từ CHÍNH XÁC và TỰ NHIÊN cho ngữ cảnh. Band 6: 'has a wide enough vocabulary to discuss topics at length'. Band 7: 'uses vocabulary resource flexibly … uses some less common and idiomatic vocabulary and shows some awareness of style and collocation'. Cụm động từ (grow up, fit in, come across) và thành ngữ phổ biến (take for granted, a far cry from) làm câu trả lời nghe như người thật đang nói, không như đọc bài."
+    steps:
+      - title_vi: Chuẩn bị theo chủ đề, không theo danh sách thành ngữ
+        text_vi: "Với mỗi chủ đề Part 2 hay gặp (tuổi thơ, du lịch, thay đổi, người quan trọng), chuẩn bị 3–4 cụm tự nhiên. VD tuổi thơ: grow up, bring back memories, take for granted."
+      - title_vi: Dùng khi kể chuyện và so sánh
+        text_vi: Thành ngữ tự nhiên nhất khi kể trải nghiệm (It took me a while to get the hang of it) hoặc so sánh quá khứ–hiện tại (a far cry from…).
+      - title_vi: Kiểm tra ngữ pháp của cụm
+        text_vi: look forward to + V-ing; take + O + for granted; pick it up. Cụm đúng ý nhưng sai cấu trúc vẫn bị trừ điểm GRA.
+      - title_vi: Tránh sáo ngữ
+        text_vi: Không mở câu bằng 'It's a piece of cake', 'raining cats and dogs', 'every cloud has a silver lining' — giám khảo biết đó là câu học thuộc.
+    tips:
+      - "Paraphrase tự nhiên khi quên từ: 'the thing you use to…', 'a kind of…' — cũng được tính là linh hoạt."
+      - "Cụm động từ làm câu nói trôi hơn động từ Latin: find out > discover, come across > encounter (trong văn nói)."
+      - Một câu trả lời Part 2 dùng 3–4 cụm tự nhiên là đủ cho band 7 về Lexical Resource.
+    traps:
+      - trap_vi: Nhét thành ngữ không liên quan để 'khoe'.
+        fix_vi: Chỉ dùng khi nghĩa khớp đúng tình huống.
+      - trap_vi: look forward to + V nguyên thể.
+        fix_vi: look forward to + V-ing.
+      - trap_vi: "Đặt sai vị trí tân ngữ: 'take for granted my family'."
+        fix_vi: take my family for granted.
+    phrases:
+      - en: It took me a while to get the hang of it.
+        vi: Tôi mất một thời gian mới quen tay.
+      - en: It really brings back memories of …
+        vi: Nó thật sự gợi lại kỷ niệm về …
+      - en: It's a far cry from …
+        vi: Nó khác xa so với …
+      - en: I used to take … for granted.
+        vi: Tôi từng coi … là điều hiển nhiên.
+      - en: What stood out most was …
+        vi: Điều nổi bật nhất là …
+    demo:
+      title_vi: "Làm mẫu: cùng một ý, band 6 và band 7"
+      text_en: |-
+        Question (Part 2): Describe a time you lived or stayed in a different place.
+
+        Band 6: When I went to Australia, it was very difficult at first. The culture was very different and I missed my family very much. After some months I became familiar with the life there and I was happy.
+
+        Band 7: When I first moved to Australia to study, I went through quite a bit of culture shock. Everything was a far cry from what I was used to, and I felt really homesick for the first few months. It took me a while to fit in, but once I got the hang of the local way of life, I started to feel at home. Looking back, it made me far more open-minded, and I realised how much I'd taken my family for granted.
+      notes:
+        - label: culture shock, homesick
+          text_vi: Thay 'very difficult', 'missed my family very much' bằng từ chính xác.
+        - label: a far cry from
+          text_vi: Thay 'very different' — thành ngữ phổ biến, đúng ngữ cảnh.
+        - label: fit in, got the hang of, feel at home
+          text_vi: Ba cụm động từ/thành ngữ kể quá trình thích nghi tự nhiên.
+        - label: taken … for granted
+          text_vi: Đúng cấu trúc take + O + for granted, thì quá khứ hoàn thành.
+  - type: examples
+    items:
+      - b57-001
+      - b57-002
+      - b57-003
+      - b57-004
+      - b57-005
+      - b57-006
+      - b57-007
+      - b57-008
+      - b57-009
+      - b57-010
+      - b57-011
+      - b57-012
+  - type: dialogue
+    title_vi: "Part 1: Quê hương và thay đổi"
+    lines:
+      - speaker: Examiner
+        text: Where did you grow up?
+        vi: Bạn lớn lên ở đâu?
+      - speaker: Candidate
+        text: I grew up in a small town near Hue. Whenever I go back, it really brings back memories of riding my bike along the river.
+        vi: Tôi lớn lên ở một thị trấn nhỏ gần Huế. Mỗi lần về, nó gợi lại kỷ niệm đạp xe dọc bờ sông.
+      - speaker: Examiner
+        text: Has it changed much?
+        vi: Nó có thay đổi nhiều không?
+      - speaker: Candidate
+        text: Enormously. It's a far cry from the quiet place I remember. There are hotels and cafés everywhere now.
+        vi: Rất nhiều. Nó khác xa nơi yên tĩnh tôi còn nhớ. Giờ khách sạn và quán cà phê ở khắp nơi.
+      - speaker: Examiner
+        text: Would you like to live there again?
+        vi: Bạn có muốn sống ở đó lần nữa không?
+      - speaker: Candidate
+        text: Maybe in the long run. For now, I've got used to city life, and I think I'd find it hard to fit in again.
+        vi: Có thể về lâu dài. Giờ thì tôi đã quen với cuộc sống thành phố, và chắc sẽ khó hòa nhập lại.
+      - speaker: Examiner
+        text: Do you miss anything about it?
+        vi: Bạn có nhớ điều gì ở đó không?
+      - speaker: Candidate
+        text: The clean air, definitely. I used to take it for granted, but after living in the city, I really appreciate it.
+        vi: Chắc chắn là không khí trong lành. Trước tôi coi đó là hiển nhiên, nhưng sau khi sống ở thành phố, tôi thật sự trân trọng nó.
+  - type: exercises
+    items:
+      - id: b57-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền cụm phù hợp (chia động từ nếu cần theo gợi ý trong câu).
+        bank:
+          - fit in
+          - get the hang of
+          - brings back memories
+          - a far cry from
+          - take it for granted
+          - keep up with
+        questions:
+          - q: Driving on the left was strange, but I soon managed to ___ it.
+            answer: get the hang of
+          - q: This old song always ___ of my school days.
+            answer: brings back memories
+          - q: Modern Saigon is ___ the city my grandparents knew.
+            answer: a far cry from
+          - q: New students sometimes find it hard to ___.
+            answer: fit in
+          - q: Clean water is precious; we shouldn't ___.
+            answer: take it for granted
+          - q: It's hard to ___ all the new apps.
+            answer: keep up with
+      - id: b57-x2
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lại câu cho tự nhiên hơn bằng cụm trong ngoặc.
+        questions:
+          - q: I learnt to cook Vietnamese food after some time. (get the hang of)
+            answer: It took me some time to get the hang of cooking Vietnamese food.
+            accept:
+              - I got the hang of cooking Vietnamese food after some time.
+              - After some time, I got the hang of cooking Vietnamese food.
+          - q: I am excited about seeing my friends next week. (look forward to)
+            answer: I'm looking forward to seeing my friends next week.
+            accept:
+              - I am looking forward to seeing my friends next week.
+              - I look forward to seeing my friends next week.
+          - q: I found an interesting old book by chance. (come across)
+            answer: I came across an interesting old book.
+            accept:
+              - I came across an interesting old book by chance.
+          - q: When I lived abroad, I missed my home a lot. (homesick)
+            answer: When I lived abroad, I felt very homesick.
+            accept:
+              - When I lived abroad, I was very homesick.
+              - When I lived abroad, I felt homesick.
+              - When I lived abroad, I was homesick.
+      - id: b57-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Câu trả lời (đã chép ra) có 4 lỗi. Sửa trực tiếp.
+        text: I'm looking forward to visit Japan next year. When I was grow up, I took for granted my family. I learnt some Japanese from anime and picked up it quickly. It's raining cats and dogs of opportunities there.
+        errors:
+          - wrong: looking forward to visit
+            right: looking forward to visiting
+            why: look forward to + V-ing.
+          - wrong: When I was grow up, I took for granted my family
+            right: When I was growing up, I took my family for granted
+            why: was growing up; take + O + for granted.
+          - wrong: picked up it quickly
+            right: picked it up quickly
+            why: "Đại từ đứng giữa: pick it up."
+          - wrong: It's raining cats and dogs of opportunities there.
+            right: There are lots of opportunities there.
+            why: Thành ngữ sai nghĩa, sai chỗ — dùng câu đơn giản chính xác.
+      - id: b57-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn cách diễn đạt TỰ NHIÊN nhất cho Speaking.
+        questions:
+          - q: "'Describe your first week at university.' Best sentence?"
+            options:
+              - It was a piece of cake.
+              - It took me a while to fit in, but my roommates made me feel at home.
+              - Every cloud has a silver lining.
+              - It was raining cats and dogs.
+            answer: b
+          - q: Which is grammatically correct?
+            options:
+              - I look forward to hear from you.
+              - I look forward to hearing from you.
+              - I look forward hearing from you.
+              - I look forward for hearing from you.
+            answer: b
+          - q: Which is grammatically correct?
+            options:
+              - I took for granted my health.
+              - I took my health for granted.
+              - I took granted my health.
+              - I for granted took my health.
+            answer: b
+          - q: "'Has your hometown changed?' Most natural answer:"
+            options:
+              - Yes, change is the only constant.
+              - Yes, it's a far cry from the quiet town I grew up in.
+              - Yes, it changes very very much.
+              - Yes, as the saying goes, time flies.
+            answer: b
+      - id: b57-x5
+        bank_no: 30
+        kind: speaking-part2
+        instructions_vi: "Chuẩn bị 1 phút, nói 2 phút, ghi âm. Dùng 3–4 cụm tự nhiên của buổi này (không dùng thành ngữ sáo). Nghe lại: cụm nào nghe gượng? Thay bằng câu đơn giản."
+        cue_card:
+          topic: Describe a place you visited that was very different from your hometown.
+          points:
+            - where it was
+            - when you went there
+            - what was different about it
+            - and explain how you felt about the experience
+        sample: I'd like to talk about Seoul, which I visited two years ago. Coming from a small town, I found it a far cry from what I was used to. At first, I felt a bit of culture shock — everything was so fast and organised. It took me a couple of days to get the hang of the subway…
+      - id: b57-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối cụm với nghĩa tiếng Anh.
+        pairs:
+          - left: get the hang of
+            right: to learn how to do something
+          - left: take for granted
+            right: to not value something because it is always there
+          - left: a far cry from
+            right: very different from
+          - left: fit in
+            right: to be accepted by a group
+          - left: come across
+            right: to find something by chance
+          - left: catch up on
+            right: to do something you did not have time for before
+      - id: b57-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một thí sinh nói Part 2 và câu hỏi thêm (hai giọng) rồi chọn đáp án đúng.
+        audio_text: |-
+          Examiner: So, how did you feel when you first arrived in Canada?
+          Candidate: Honestly, I felt really homesick. It was minus twenty degrees, which was a far cry from Ho Chi Minh City!
+          Examiner: How long did it take you to settle in?
+          Candidate: About three months. It took me a while to get the hang of the bus system, but my classmates helped me fit in.
+          Examiner: Would you go back?
+          Candidate: Definitely. I'm already looking forward to visiting my friends there next winter.
+        questions:
+          - q: How did the candidate feel at first?
+            options:
+              - excited
+              - homesick
+              - bored
+              - angry
+            answer: b
+          - q: What was very different from Ho Chi Minh City?
+            options:
+              - the food
+              - the temperature
+              - the language
+              - the people
+            answer: b
+          - q: What took a while to learn?
+            options:
+              - the language
+              - the bus system
+              - cooking
+              - skiing
+            answer: b
+          - q: What is the candidate looking forward to?
+            options:
+              - studying again
+              - visiting friends there
+              - finding a job
+              - moving home
+            answer: b
+      - id: b57-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Moving to a new country usually happens in stages. At first, everything seems exciting. Then, after a few weeks, many people experience culture shock and feel homesick. Most people get the hang of their new life within six months, although some never fully fit in. Researchers say that people who are open-minded and make local friends adapt fastest.
+        questions:
+          - q: People usually feel homesick immediately after they arrive.
+            answer: F
+            explain_vi: Lúc đầu thấy hào hứng; sốc văn hóa sau vài tuần.
+          - q: Most people adapt within six months.
+            answer: T
+          - q: Everyone eventually fits in completely.
+            answer: F
+          - q: Making local friends helps people adapt faster.
+            answer: T
+  - type: homework
+    kind: speaking
+    prompt_vi: Ghi âm 2 thẻ Part 2 dưới đây (1 phút chuẩn bị, 2 phút nói). Mỗi thẻ dùng 3–4 cụm tự nhiên của buổi, không dùng thành ngữ sáo. Chép lại một bài, gạch dưới các cụm; đánh dấu cụm nào bạn thấy chưa tự nhiên để hỏi lại ở buổi sau.
+    prompt_en: 1. Describe a skill that took you a long time to learn. 2. Describe a place that has changed a lot since you were a child.
+    minutes: 25

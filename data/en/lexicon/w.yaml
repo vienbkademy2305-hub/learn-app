@@ -516,3 +516,329 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: work-life-balance|phr-n
+    headword: work-life balance
+    pos: phr-n
+    ipa:
+      uk: /ˌwɜːk ˈlaɪf ˌbæl.əns/
+      us: /ˌwɝːk ˈlaɪf ˌbæl.əns/
+    cefr: null
+    meaning_vi:
+      - cân bằng giữa công việc và cuộc sống
+    collocations:
+      - have a good work-life balance
+      - improve your work-life balance
+    topics:
+      - family
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: whereas|conj
+    headword: whereas
+    pos: conj
+    ipa:
+      uk: /weərˈæz/
+      us: /werˈæz/
+    stress: where-AS
+    cefr: B2
+    meaning_vi:
+      - trong khi (đối lập)
+    collocations:
+      - …, whereas …
+    notes_vi:
+      - "Nối hai mệnh đề trong CÙNG một câu để đối chiếu hai số liệu: X rose, whereas Y fell. Không đứng một mình thành câu."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/whereas, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/whereas, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/whereas, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: walking-distance|phr-n
+    headword: walking distance
+    pos: phr-n
+    ipa:
+      uk: /ˈwɔː.kɪŋ ˌdɪs.təns/
+      us: /ˈwɑː.kɪŋ ˌdɪs.təns/
+    cefr: null
+    meaning_vi:
+      - khoảng cách đi bộ được
+    collocations:
+      - within walking distance of
+      - a short walking distance
+    notes_vi:
+      - "within walking distance OF somewhere: My flat is within walking distance of the lake."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: wage|n
+    headword: wage
+    pos: n
+    ipa:
+      uk: /weɪdʒ/
+      us: /weɪdʒ/
+    cefr: B2
+    meaning_vi:
+      - tiền công (thường trả theo giờ/tuần)
+    collocations:
+      - a low wage
+      - an hourly wage
+      - wages rise
+    notes_vi:
+      - wage (theo giờ/tuần, lao động phổ thông) khác salary (lương tháng/năm cố định, Buổi 7).
+    topics:
+      - work
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wage, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wage, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: work-from-home|phr-v
+    headword: work from home
+    pos: phr-v
+    ipa:
+      uk: /ˌwɜːk frəm ˈhəʊm/
+      us: /ˌwɝːk frəm ˈhoʊm/
+    cefr: null
+    meaning_vi:
+      - làm việc tại nhà
+    collocations:
+      - work from home twice a week
+      - the right to work from home
+    notes_vi:
+      - FROM home (không nói *work at home* với nghĩa làm việc từ xa — vẫn hiểu nhưng from home tự nhiên hơn).
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: workplace|n
+    headword: workplace
+    pos: n
+    ipa:
+      uk: /ˈwɜːk.pleɪs/
+      us: /ˈwɝːk.pleɪs/
+    cefr: B2
+    meaning_vi:
+      - nơi làm việc
+    collocations:
+      - in the workplace
+      - a safe workplace
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workplace, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workplace, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workplace, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: workforce|n
+    headword: workforce
+    pos: n
+    ipa:
+      uk: /ˈwɜːk.fɔːs/
+      us: /ˈwɝːk.fɔːrs/
+    cefr: B2
+    meaning_vi:
+      - lực lượng lao động
+    collocations:
+      - a skilled workforce
+      - join the workforce
+    topics:
+      - work
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workforce, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workforce, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workforce, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: wealthy|adj
+    headword: wealthy
+    pos: adj
+    ipa:
+      uk: /ˈwel.θi/
+      us: /ˈwel.θi/
+    cefr: B2
+    meaning_vi:
+      - giàu có
+    collocations:
+      - wealthy families
+      - the gap between wealthy and poor people
+    notes_vi:
+      - "th = /θ/. Danh từ: wealth. Đồng nghĩa trang trọng hơn rich."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wealthy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wealthy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wealthy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: welfare|n
+    headword: welfare
+    pos: n
+    ipa:
+      uk: /ˈwel.feər/
+      us: /ˈwel.fer/
+    cefr: B2
+    meaning_vi:
+      - phúc lợi xã hội
+    collocations:
+      - the welfare system
+      - welfare benefits
+      - a welfare state
+    topics:
+      - government
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/welfare, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/welfare, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/welfare, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: woodland|n
+    headword: woodland
+    pos: n
+    ipa:
+      uk: /ˈwʊd.lənd/
+      us: /ˈwʊd.lənd/
+    cefr: null
+    meaning_vi:
+      - khu rừng nhỏ
+      - đất rừng
+    collocations:
+      - an area of woodland
+      - woodland was cleared
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: well-rounded|adj
+    headword: well-rounded
+    pos: adj
+    ipa:
+      uk: /ˌwelˈraʊn.dɪd/
+      us: /ˌwelˈraʊn.dɪd/
+    cefr: null
+    meaning_vi:
+      - toàn diện (về kiến thức, kỹ năng, nhân cách)
+    collocations:
+      - a well-rounded education
+      - well-rounded students
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: workload|n
+    headword: workload
+    pos: n
+    ipa:
+      uk: /ˈwɜːk.ləʊd/
+      us: /ˈwɝːk.loʊd/
+    cefr: null
+    meaning_vi:
+      - khối lượng công việc
+      - bài vở
+    collocations:
+      - a heavy workload
+      - reduce students' workload
+    notes_vi:
+      - a heavy workload (không nói *a big workload* — vẫn hiểu nhưng collocation chuẩn là heavy).
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: well-being|n
+    headword: well-being
+    pos: n
+    ipa:
+      uk: /ˌwelˈbiː.ɪŋ/
+      us: /ˌwelˈbiː.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - sự khỏe mạnh và hạnh phúc (thể chất + tinh thần)
+    collocations:
+      - physical and mental well-being
+      - improve well-being
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: worship|v
+    headword: worship
+    pos: v
+    forms:
+      past: worshipped
+      ing: worshipping
+    ipa:
+      uk: /ˈwɜː.ʃɪp/
+      us: /ˈwɝː.ʃɪp/
+    cefr: null
+    meaning_vi:
+      - thờ cúng
+    collocations:
+      - worship ancestors
+      - a place of worship
+    notes_vi:
+      - "Danh từ cùng dạng: ancestor worship (tục thờ cúng tổ tiên)."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

@@ -1,0 +1,317 @@
+# Buổi 54 — Sức khỏe cộng đồng · Mệnh đề danh từ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-54-suc-khoe-noun-clauses
+number: 54
+stage: 3
+title_vi: Sức khỏe cộng đồng · Mệnh đề danh từ
+focus:
+  grammar: Mệnh đề danh từ (What … is, It is clear that, whether, how/why)
+  skill: "Listening Part 4 — bài giảng: ý chính, số liệu và thái độ người nói"
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - public-health|phr-n
+      - vaccination|n
+      - epidemic|n
+      - outbreak|n
+      - infectious|adj
+      - life-expectancy|phr-n
+      - chronic-disease|phr-n
+      - mental-health|phr-n
+      - preventive|adj
+      - nutrition|n
+      - well-being|n
+      - hygiene|n
+      - sanitation|n
+      - check-up|n
+      - balanced-diet|phr-n
+      - healthcare|n
+      - diet|n
+  - type: pronunciation
+    notes:
+      - word: epidemic|n
+        text_vi: "ep-i-DEM-ic: nhấn âm 3 (đuôi -ic kéo trọng âm về ngay trước)."
+      - word: hygiene|n
+        text_vi: "HAI-jeen /ˈhaɪ.dʒiːn/: y đọc /aɪ/, g đọc /dʒ/."
+      - word: chronic-disease|phr-n
+        text_vi: "KRON-ik di-ZEEZ: ch = /k/; disease có /z/ hai lần."
+      - word: nutrition|n
+        text_vi: "nu-TRI-tion: nhấn âm 2 (đuôi -tion)."
+      - word: life-expectancy|phr-n
+        text_vi: "ex-PEC-tan-cy: nhấn âm 2 của expectancy."
+  - type: grammar
+    items:
+      - en-g3-09
+  - type: skill
+    skill: listening
+    title_vi: Listening Part 4 — ý chính, số liệu và thái độ người nói
+    intro_vi: "Buổi 39 và 43 đã luyện theo dõi bài giảng dài và dạng flowchart/diagram. Ở band 6.5+, Part 4 thử thách thêm hai điểm: (1) phân biệt SỐ LIỆU gần nhau (người nói nhắc nhiều con số, năm, phần trăm — chỉ một cái là đáp án); (2) nhận ra THÁI ĐỘ và mức độ chắc chắn của người nói (surprisingly, unfortunately, it is unclear whether…). Mệnh đề danh từ xuất hiện rất nhiều trong bài giảng: 'What is interesting is that…', 'The question is whether…' — đó là tín hiệu thông tin quan trọng sắp tới."
+    steps:
+      - title_vi: Đọc câu hỏi, gạch loại thông tin
+        text_vi: "Số (năm? phần trăm? tuổi?), danh từ, tính từ thái độ. Ghi chú bên cạnh: %, yr, adj."
+      - title_vi: Nghe tín hiệu nhấn mạnh
+        text_vi: "'What is surprising is that…', 'The key point is…', 'What researchers found was…' → thông tin ngay sau là đáp án thường gặp."
+      - title_vi: Ghi mọi con số, gạch sau
+        text_vi: "Khi có nhiều số, ghi nhanh cả hai ('1990: 67 → now: 74'), rồi chọn theo câu hỏi (năm nào? tăng bao nhiêu?)."
+      - title_vi: Nghe từ chỉ thái độ
+        text_vi: surprisingly, unfortunately, encouragingly, it remains unclear whether → câu hỏi về ý kiến người nói dựa vào những từ này.
+      - title_vi: Kiểm tra chính tả thuật ngữ
+        text_vi: vaccination, nutrition, sanitation, hygiene — đáp án đúng nghĩa nhưng sai chính tả vẫn bị tính sai.
+    tips:
+      - "'It is unclear whether…' = người nói KHÔNG chắc; đừng chọn đáp án khẳng định."
+      - "Số tăng: rose from X to Y — câu hỏi 'now' là Y, câu hỏi 'in the past' là X, câu hỏi 'by how much' là Y − X."
+      - Part 4 có thể không có ví dụ đầu — luôn đọc câu 31 trước khi bài nghe bắt đầu.
+    traps:
+      - trap_vi: Điền con số nghe đầu tiên.
+        fix_vi: "Nghe hết câu: '…fell from 30% to 12%' — câu hỏi hỏi con số nào?"
+      - trap_vi: Bỏ qua 'not' hoặc 'unclear'.
+        fix_vi: Gạch ý phủ định/không chắc chắn khi ghi chú.
+      - trap_vi: Sai chính tả thuật ngữ y tế.
+        fix_vi: "Học chính tả các từ của buổi: hygiene, sanitation, vaccination."
+    phrases:
+      - en: What is interesting is that …
+        vi: Điều thú vị là …
+        note_vi: Tín hiệu thông tin quan trọng.
+      - en: The question is whether …
+        vi: Vấn đề là liệu …
+      - en: It remains unclear whether …
+        vi: Vẫn chưa rõ liệu …
+        note_vi: Người nói không chắc chắn.
+      - en: Surprisingly, …
+        vi: Đáng ngạc nhiên là, …
+      - en: The main reason why … is that …
+        vi: Lý do chính khiến … là …
+    demo:
+      title_vi: "Làm mẫu: chọn đúng con số và thái độ"
+      text_en: |-
+        Lecture: "In 1990, average life expectancy in the country was sixty-seven. By 2020, it had risen to seventy-four. What is surprising is that the biggest improvement came not from new medicines but from clean water and better sanitation. However, it remains unclear whether this trend will continue, as chronic diseases are becoming more common."
+
+        Notes:  Life expectancy in 2020: ______   Main cause of improvement: clean water and ______   Speaker's view of the future: ______ (certain / uncertain)
+      notes:
+        - label: "74"
+          text_vi: Câu hỏi 2020 → số thứ hai. 67 là năm 1990 (bẫy).
+        - label: sanitation
+          text_vi: Sau 'What is surprising is that…' — tín hiệu đáp án. 'not from new medicines' loại bẫy.
+        - label: uncertain
+          text_vi: "'it remains unclear whether' = không chắc chắn."
+  - type: examples
+    items:
+      - b54-001
+      - b54-002
+      - b54-003
+      - b54-004
+      - b54-005
+      - b54-006
+      - b54-007
+      - b54-008
+      - b54-009
+      - b54-010
+      - b54-011
+  - type: dialogue
+    title_vi: Khám sức khỏe định kỳ
+    lines:
+      - speaker: A
+        text: When did you last have a check-up?
+        vi: Lần cuối cậu khám sức khỏe định kỳ là khi nào?
+      - speaker: B
+        text: Honestly, I can't remember whether it was two or three years ago.
+        vi: Thật lòng tớ không nhớ là hai hay ba năm trước nữa.
+      - speaker: A
+        text: That's quite a long time. What my doctor always says is that prevention is better than cure.
+        vi: Khá lâu đấy. Điều bác sĩ của tớ luôn nói là phòng bệnh hơn chữa bệnh.
+      - speaker: B
+        text: I know, but I feel fine. I eat a balanced diet and I exercise.
+        vi: Tớ biết, nhưng tớ thấy khỏe mà. Tớ ăn uống cân bằng và có tập thể dục.
+      - speaker: A
+        text: The problem is that many chronic diseases have no symptoms at first.
+        vi: Vấn đề là nhiều bệnh mãn tính lúc đầu không có triệu chứng.
+      - speaker: B
+        text: Really? I didn't know that high blood pressure could be silent.
+        vi: Thật à? Tớ không biết là huyết áp cao có thể không có dấu hiệu.
+      - speaker: A
+        text: Exactly. And it's also worth asking how your mental health is, not just your body.
+        vi: Chính xác. Và cũng nên hỏi về sức khỏe tinh thần của cậu nữa, không chỉ cơ thể.
+      - speaker: B
+        text: OK, you've convinced me. I'll book an appointment this week.
+        vi: Được rồi, cậu thuyết phục được tớ rồi. Tuần này tớ sẽ đặt lịch khám.
+  - type: exercises
+    items:
+      - id: b54-x1
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Part 4: nghe bài giảng (nghe 1 lần) và hoàn thành ghi chú. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ cho mỗi chỗ trống. Chú ý các con số gần nhau và từ chỉ thái độ. (Quốc gia và số liệu là giả định.)"
+        max_words: 1
+        audio_text: "Today I want to look at how one country improved public health over thirty years. In 1990, average life expectancy was sixty-seven. By 2020, it had reached seventy-four. What is interesting is that the biggest improvement did not come from hospitals or new medicines. It came from simple things: clean water, better sanitation and free vaccination for children. In 1990, only forty per cent of children were vaccinated; by 2020, the figure was ninety-five per cent. Consequently, outbreaks of infectious diseases became rare. However, the country now faces a different problem. Chronic diseases such as diabetes are increasing, mainly because of poor nutrition and a lack of exercise. The government has started a programme of free check-ups for everyone over forty. Unfortunately, it remains unclear whether people will actually use it, because in the first year, only a quarter of those invited came."
+        passage: |-
+          PUBLIC HEALTH: 1990–2020
+          • Life expectancy in 2020: (1) ___ years
+          • Main causes of improvement: clean water, better (2) ___ and free vaccination
+          • Children vaccinated in 2020: (3) ___ %
+          • Result: fewer outbreaks of (4) ___ diseases
+          • New problem: chronic diseases, e.g. (5) ___
+          • Free check-ups for people over (6) ___
+          • First-year attendance: about a (7) ___
+        questions:
+          - q: (1)
+            answer: "74"
+            accept:
+              - seventy-four
+          - q: (2)
+            answer: sanitation
+          - q: (3)
+            answer: "95"
+            accept:
+              - ninety-five
+          - q: (4)
+            answer: infectious
+          - q: (5)
+            answer: diabetes
+          - q: (6)
+            answer: "40"
+            accept:
+              - forty
+          - q: (7)
+            answer: quarter
+      - id: b54-x2
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Dựa vào bài giảng ở bài 1, chọn đáp án đúng về thái độ người nói.
+        audio_text: "Today I want to look at how one country improved public health over thirty years. In 1990, average life expectancy was sixty-seven. By 2020, it had reached seventy-four. What is interesting is that the biggest improvement did not come from hospitals or new medicines. It came from simple things: clean water, better sanitation and free vaccination for children. In 1990, only forty per cent of children were vaccinated; by 2020, the figure was ninety-five per cent. Consequently, outbreaks of infectious diseases became rare. However, the country now faces a different problem. Chronic diseases such as diabetes are increasing, mainly because of poor nutrition and a lack of exercise. The government has started a programme of free check-ups for everyone over forty. Unfortunately, it remains unclear whether people will actually use it, because in the first year, only a quarter of those invited came."
+        questions:
+          - q: What does the speaker find interesting?
+            options:
+              - Life expectancy fell.
+              - The biggest improvement came from simple measures.
+              - Hospitals improved dramatically.
+              - New medicines were very cheap.
+            answer: b
+          - q: What was the vaccination rate in 1990?
+            options:
+              - 40%
+              - 67%
+              - 74%
+              - 95%
+            answer: a
+          - q: How does the speaker feel about the check-up programme?
+            options:
+              - certain it will succeed
+              - uncertain whether people will use it
+              - sure it will fail
+              - not interested
+            answer: b
+      - id: b54-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu bằng mệnh đề danh từ, bắt đầu bằng từ cho sẵn.
+        questions:
+          - q: The rise in obesity worries doctors. → What ___
+            answer: worries doctors is the rise in obesity.
+          - q: Everyone accepts that smoking is harmful. → It is widely ___
+            answer: accepted that smoking is harmful.
+          - q: Will the campaign work? Nobody knows. → Nobody knows ___
+            answer: whether the campaign will work.
+            accept:
+              - if the campaign will work.
+              - whether or not the campaign will work.
+              - whether the campaign will work or not.
+          - q: Why do some people live longer? Scientists are studying this. → Scientists are studying ___
+            answer: why some people live longer.
+          - q: Vaccination is free. This has increased coverage. → The fact that ___
+            answer: vaccination is free has increased coverage.
+      - id: b54-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: What worries parents most ___ the lack of exercise.
+            options:
+              - are
+              - is
+              - be
+              - were being
+            answer: b
+          - q: Researchers want to know how ___ the disease.
+            options:
+              - does it spread
+              - it spreads
+              - spreads it
+              - did it spread
+            answer: b
+          - q: It is unclear ___ the new tax will reduce sugar consumption.
+            options:
+              - that
+              - whether
+              - what
+              - which
+            answer: b
+          - q: It is clear ___ good sanitation saves lives.
+            options:
+              - whether
+              - what
+              - that
+              - if
+            answer: c
+      - id: b54-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 4 lỗi. Sửa trực tiếp.
+        text: What concerns experts are the rise in mental health problems. Nobody knows that social media is the main cause or not. Researchers are trying to understand why do teenagers feel more anxious. It is clear good sleep improves well-being.
+        errors:
+          - wrong: What concerns experts are
+            right: What concerns experts is
+            why: Chủ ngữ What … → số ít.
+          - wrong: Nobody knows that social media
+            right: Nobody knows whether social media
+            why: Điều chưa chắc (… or not) → whether.
+          - wrong: why do teenagers feel
+            right: why teenagers feel
+            why: Mệnh đề danh từ không đảo ngữ.
+          - wrong: It is clear good sleep
+            right: It is clear that good sleep
+            why: Văn viết giữ that sau It is + adj.
+      - id: b54-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: outbreak
+            right: the sudden start of a disease in an area
+          - left: chronic disease
+            right: an illness that lasts for a long time
+          - left: sanitation
+            right: systems for clean water and removing waste
+          - left: life expectancy
+            right: the average number of years people live
+          - left: preventive
+            right: intended to stop something bad from happening
+          - left: well-being
+            right: the state of being healthy and happy
+      - id: b54-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe hai người nói chuyện rồi chọn T (đúng) hoặc F (sai).
+        audio_text: |-
+          Woman: I read that the city is going to make vaccination compulsory for all schoolchildren.
+          Man: Really? Is that already decided?
+          Woman: Not yet. The council will vote next month. What surprised me is that most parents support it.
+          Man: Do you know why some parents are against it?
+          Woman: Mostly they worry about side effects, although doctors say the risks are very small.
+        questions:
+          - q: Compulsory vaccination has already been decided.
+            answer: F
+          - q: The council will vote next month.
+            answer: T
+          - q: Most parents oppose the plan.
+            answer: F
+          - q: Some parents worry about side effects.
+            answer: T
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 180–200 từ trả lời câu hỏi bên dưới. Dùng ít nhất 4 mệnh đề danh từ khác nhau (What … is, It is + adj + that, whether, why/how, The fact that) và 6 từ của buổi này. Tự kiểm tra: không đảo ngữ sau why/how; What … is dùng động từ số ít."
+    prompt_en: Should governments spend more money on preventing illness than on treating it?
+    words:
+      min: 180
+      max: 200
+    minutes: 30

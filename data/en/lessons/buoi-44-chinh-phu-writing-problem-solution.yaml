@@ -1,0 +1,357 @@
+# Buổi 44 — Chính phủ & chính sách công · Writing Task 2: Problem / Solution. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-44-chinh-phu-writing-problem-solution
+number: 44
+stage: 2
+title_vi: "Chính phủ & chính sách công · Writing Task 2: Problem / Solution"
+focus:
+  grammar: Nguyên nhân – hậu quả – giải pháp (lead to, result in, be caused by, One solution is to…)
+  skill: Writing Task 2 — dạng Causes/Problems – Solutions
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - problem|n
+      - issue|n
+      - cause|n
+      - solution|n
+      - solve|v
+      - consequence|n
+      - lead-to|phr-v
+      - result-in|phr-v
+      - tackle|v
+      - address|v
+      - effective|adj
+      - priority|n
+      - campaign|n
+      - raise-awareness|colloc
+      - fund|v
+      - incentive|n
+      - penalty|n
+      - long-term|adj
+  - type: pronunciation
+    notes:
+      - word: campaign|n
+        text_vi: "kam-PAIN /kæmˈpeɪn/: g câm, nhấn âm 2."
+      - word: issue|n
+        text_vi: "ISH-oo /ˈɪʃ.uː/: ss = /ʃ/."
+      - word: consequence|n
+        text_vi: "CON-se-quence: nhấn âm 1; qu = /kw/."
+      - word: priority|n
+        text_vi: "pri-OR-i-ty: -ity kéo trọng âm về ngay trước."
+      - word: address|v
+        text_vi: "Động từ ad-DRESS: nhấn âm 2."
+  - type: grammar
+    items:
+      - en-g2-24
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — Problem / Solution (nguyên nhân và giải pháp)
+    intro_vi: "Đề nêu một vấn đề xã hội và hỏi hai câu, thường là: 'What are the causes (hoặc problems/effects) of this? What solutions can you suggest?'. Đây là dạng 'two-part question': phải trả lời ĐỦ CẢ HAI câu hỏi, và thường không cần nêu quan điểm đồng ý/không đồng ý. Bố cục 4 đoạn: Mở bài → Thân bài 1 (nguyên nhân/vấn đề) → Thân bài 2 (giải pháp) → Kết bài. Mẹo quan trọng nhất: mỗi giải pháp nên trả lời đúng một nguyên nhân đã nêu."
+    steps:
+      - title_vi: Đọc kỹ hai câu hỏi
+        text_vi: causes (nguyên nhân) khác problems/effects (hậu quả). Viết nhầm hậu quả khi đề hỏi nguyên nhân là lạc đề một nửa bài.
+      - title_vi: Brainstorm 2 nguyên nhân → 2 giải pháp tương ứng
+        text_vi: "Ghép thành cặp: nguyên nhân 1 ↔ giải pháp 1, nguyên nhân 2 ↔ giải pháp 2. Bài sẽ logic và Coherence tốt."
+      - title_vi: "Mở bài: paraphrase + hướng bài"
+        text_vi: "'In recent years, … has become a serious issue in many countries. This essay will examine the main causes of this problem and suggest some effective solutions.'"
+      - title_vi: "Thân bài 1: nguyên nhân"
+        text_vi: "'There are two main causes of this problem. The first is that … This leads to … Another cause is …' Mỗi nguyên nhân có giải thích hoặc ví dụ."
+      - title_vi: "Thân bài 2: giải pháp"
+        text_vi: "'Several measures could be taken to tackle this issue. Firstly, the government should … This would … Secondly, … can be addressed by + V-ing.' Nói rõ AI làm và VÌ SAO hiệu quả."
+      - title_vi: "Kết bài: tóm tắt"
+        text_vi: "'In conclusion, … is mainly caused by … and …, but it can be tackled if …'. Có thể dùng câu điều kiện loại 1."
+    tips:
+      - "Giải pháp cụ thể > giải pháp chung chung: 'tax sugary drinks' tốt hơn 'the government should do something'."
+      - "Dùng bị động modal (Buổi 43) cho giải pháp: 'Stricter penalties should be introduced.'"
+      - "Xoay vòng từ: problem / issue / challenge; solve / tackle / address; cause / lead to / result in."
+    traps:
+      - trap_vi: Viết hậu quả khi đề hỏi nguyên nhân (và ngược lại).
+        fix_vi: Gạch chân từ causes / effects / problems trong đề trước khi lập dàn ý.
+      - trap_vi: Nguyên nhân và giải pháp không liên quan nhau.
+        fix_vi: Lập bảng cặp nguyên nhân–giải pháp trước khi viết.
+      - trap_vi: Nhầm results in / results from.
+        fix_vi: Nguyên nhân + results IN + kết quả; kết quả + results FROM + nguyên nhân.
+      - trap_vi: lead to + động từ nguyên mẫu.
+        fix_vi: lead to + danh từ/V-ing.
+    phrases:
+      - en: … has become a serious issue in many countries.
+        vi: … đã trở thành một vấn đề nghiêm trọng ở nhiều nước.
+        note_vi: Câu 1 mở bài.
+      - en: This essay will examine the main causes and suggest some solutions.
+        vi: Bài luận sẽ xem xét các nguyên nhân chính và đề xuất một số giải pháp.
+      - en: The main cause of this problem is that …
+        vi: Nguyên nhân chính của vấn đề này là …
+      - en: Several measures could be taken to tackle this issue.
+        vi: Có thể áp dụng một số biện pháp để giải quyết vấn đề này.
+        note_vi: Câu chủ đề thân bài 2.
+      - en: Since the main cause is …, the most effective solution would be …
+        vi: Vì nguyên nhân chính là …, giải pháp hiệu quả nhất sẽ là …
+        note_vi: Nối giải pháp với nguyên nhân.
+    demo:
+      title_vi: "Làm mẫu: thân bài 1 và thân bài 2"
+      text_en: |-
+        Question: Childhood obesity is increasing in many countries. What are the main causes of this problem? What solutions can you suggest?
+
+        Body 1: There are two main causes of this problem. The first is that children's diets have changed. Fast food and sugary drinks are cheap and heavily advertised, so many children consume far more sugar than they need. The second cause is a lack of exercise. Nowadays, children spend hours on phones and computers instead of playing outside, which leads to fewer calories being burned.
+
+        Body 2: Several measures could be taken to tackle this issue. Since unhealthy food is a major cause, the government should introduce a tax on sugary drinks and ban advertising aimed at children. This would make these products less attractive. Secondly, the lack of exercise can be addressed by giving schools more funding for sports facilities, so that every child has at least one hour of physical activity a day.
+      notes:
+        - label: Body 1 — 2 nguyên nhân
+          text_vi: The first is that … / The second cause is … — mỗi nguyên nhân có giải thích (cheap, advertised / hours on phones).
+        - label: leads to …
+          text_vi: lead to + cụm danh từ (fewer calories being burned).
+        - label: Body 2 — giải pháp ghép cặp
+          text_vi: Giải pháp 1 trả lời nguyên nhân 1 (thuế + cấm quảng cáo) — 'Since unhealthy food is a major cause…'. Giải pháp 2 trả lời nguyên nhân 2 (thể thao ở trường).
+        - label: can be addressed by giving …
+          text_vi: Bị động + by + V-ing; so that (Buổi 39) nói mục đích.
+  - type: examples
+    items:
+      - b44-001
+      - b44-002
+      - b44-003
+      - b44-004
+      - b44-005
+      - b44-006
+      - b44-007
+      - b44-008
+      - b44-009
+      - b44-010
+      - b44-011
+  - type: dialogue
+    title_vi: Lập dàn ý Problem/Solution
+    lines:
+      - speaker: A
+        text: "The question is: many young people in cities cannot afford to buy a home. What are the causes, and what are the solutions?"
+        vi: "Đề là: nhiều người trẻ ở thành phố không đủ tiền mua nhà. Nguyên nhân là gì, giải pháp là gì?"
+      - speaker: B
+        text: Causes first. House prices have risen much faster than salaries.
+        vi: Nguyên nhân trước. Giá nhà tăng nhanh hơn lương nhiều.
+      - speaker: A
+        text: And rich people buy flats as an investment, which leads to even higher prices.
+        vi: Và người giàu mua căn hộ để đầu tư, điều đó càng đẩy giá lên cao hơn.
+      - speaker: B
+        text: Good. Now match each cause with a solution.
+        vi: Tốt. Giờ ghép mỗi nguyên nhân với một giải pháp.
+      - speaker: A
+        text: For the first one, the government could build more affordable housing for young workers.
+        vi: Với cái thứ nhất, chính phủ có thể xây thêm nhà ở giá rẻ cho người lao động trẻ.
+      - speaker: B
+        text: And for the second, a higher tax should be introduced on people who own many empty flats.
+        vi: Còn cái thứ hai, nên áp thuế cao hơn với người sở hữu nhiều căn hộ bỏ trống.
+      - speaker: A
+        text: That gives them an incentive to sell or rent them out.
+        vi: Điều đó khuyến khích họ bán hoặc cho thuê.
+      - speaker: B
+        text: Perfect. Two causes, two solutions, and each solution tackles one cause.
+        vi: Hoàn hảo. Hai nguyên nhân, hai giải pháp, mỗi giải pháp giải quyết một nguyên nhân.
+  - type: exercises
+    items:
+      - id: b44-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Eating too much fast food can ___ obesity.
+            options:
+              - result from
+              - lead to
+              - be caused by
+              - cause by
+            answer: b
+          - q: Obesity is often ___ poor diet and lack of exercise.
+            options:
+              - leads to
+              - results in
+              - caused by
+              - result from
+            answer: c
+            explain_vi: "Câu đầy đủ: is (often) caused by. 'caused by' đi sau is."
+          - q: Low wages ___ many workers leaving the countryside.
+            options:
+              - result in
+              - result from
+              - are caused by
+              - lead
+            answer: a
+          - q: One solution is ___ public transport cheaper.
+            options:
+              - make
+              - making
+              - to make
+              - made
+            answer: c
+          - q: This problem can be tackled by ___ stricter laws.
+            options:
+              - introduce
+              - introducing
+              - to introduce
+              - introduced
+            answer: b
+          - q: The question asks 'What are the EFFECTS of…?' What should body paragraph 1 describe?
+            options:
+              - the causes
+              - the results or consequences
+              - your opinion
+              - the history
+            answer: b
+      - id: b44-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu bằng từ trong ngoặc.
+        questions:
+          - q: People use private cars. There is heavy traffic congestion. (leads to)
+            answer: Using private cars leads to heavy traffic congestion.
+            accept:
+              - People using private cars leads to heavy traffic congestion.
+              - The use of private cars leads to heavy traffic congestion.
+          - q: Many young people are unemployed. They lack practical skills. (is caused by)
+            answer: Youth unemployment is caused by a lack of practical skills.
+            accept:
+              - Unemployment among young people is caused by a lack of practical skills.
+          - q: The problem is homelessness. We can tax empty flats. (One solution … is to)
+            answer: One solution to homelessness is to tax empty flats.
+            accept:
+              - One solution to the problem of homelessness is to tax empty flats.
+      - id: b44-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi. Sửa trực tiếp.
+        text: There are two main causes for this problem. Firstly, low wages lead to leave the countryside. Secondly, the lack of good schools in villages results from young people moving away. One solution is improve schools in rural areas. This would raise the awareness of young people about local job opportunities.
+        errors:
+          - wrong: causes for this problem
+            right: causes of this problem
+            why: the cause OF something.
+          - wrong: lead to leave the countryside
+            right: lead to people leaving the countryside
+            why: lead to + danh từ/V-ing.
+          - wrong: results from young people moving away
+            right: results in young people moving away
+            why: Thiếu trường học là NGUYÊN NHÂN → results in; results from đảo ngược ý.
+          - wrong: One solution is improve
+            right: One solution is to improve
+            why: One solution is TO + V.
+          - wrong: raise the awareness of young people about
+            right: raise young people's awareness of
+            why: "Collocation: raise awareness of something."
+      - id: b44-x4
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép để tạo cụm từ đúng.
+        pairs:
+          - left: raise
+            right: awareness of the problem
+          - left: tackle
+            right: the issue of obesity
+          - left: launch
+            right: a national campaign
+          - left: introduce
+            right: heavy penalties
+          - left: give
+            right: people an incentive
+          - left: a long-term
+            right: solution
+      - id: b44-x5
+        bank_no: 27
+        kind: completion
+        instructions_vi: Hoàn thành đoạn thân bài giải pháp. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: Several measures could be taken to (1) ___ this issue. Since high rents are the main (2) ___, the government should build more affordable housing for young workers. This would be an (3) ___ long-term solution. In addition, owners of empty flats could be given a financial (4) ___ to rent them out. Finally, a public (5) ___ could raise awareness of housing support that young people can already receive.
+        questions:
+          - q: (1)
+            answer: tackle
+            accept:
+              - address
+              - solve
+          - q: (2)
+            answer: cause
+          - q: (3)
+            answer: effective
+          - q: (4)
+            answer: incentive
+          - q: (5)
+            answer: campaign
+      - id: b44-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: consequence
+            right: a result of something, usually a bad one
+          - left: incentive
+            right: something that encourages people to do something
+          - left: penalty
+            right: a punishment for breaking a rule
+          - left: tackle
+            right: to make an effort to deal with a difficult problem
+          - left: priority
+            right: something that is more important than other things
+          - left: campaign
+            right: a planned series of activities to achieve a goal
+      - id: b44-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên lập dàn ý (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Woman: The essay question is about air pollution in big cities. It asks for causes and solutions.
+          Man: OK. I think the main cause is motorbikes and cars.
+          Woman: Agreed. And the second cause?
+          Man: Maybe factories near the city? Or building work — there's so much dust.
+          Woman: Let's choose factories. It's easier to find a solution for that.
+          Man: Fine. So, solutions: better public transport for the first cause.
+          Woman: Yes, and for factories, heavy penalties if they pollute. The government should also give them incentives to move outside the city.
+          Man: Great. Two causes, and each one has a matching solution.
+        questions:
+          - q: What is the essay about?
+            options:
+              - traffic accidents
+              - air pollution in big cities
+              - factory jobs
+              - building work
+            answer: b
+          - q: What do they choose as the second cause?
+            options:
+              - building work
+              - factories
+              - motorbikes
+              - cars
+            answer: b
+            explain_vi: Người nam gợi ý hai ý; 'Let's choose factories' là quyết định cuối.
+          - q: What is the solution for the first cause?
+            options:
+              - heavy penalties
+              - better public transport
+              - moving factories
+              - more roads
+            answer: b
+          - q: What should the government give factories?
+            options:
+              - free land
+              - incentives to move outside the city
+              - more workers
+              - lower wages
+            answer: b
+      - id: b44-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chiều nguyên nhân – kết quả.
+        audio_text: Experts say that the rise in road accidents among teenagers is mainly caused by speeding and a lack of experience. Using a phone while riding also leads to many accidents. To tackle this problem, the city has launched a campaign in secondary schools, and penalties for riding without a helmet will be increased next year.
+        questions:
+          - q: Speeding is one cause of accidents among teenagers.
+            answer: T
+          - q: Road accidents cause teenagers to use their phones.
+            answer: F
+            explain_vi: "Đảo chiều: dùng điện thoại DẪN ĐẾN tai nạn, không phải ngược lại."
+          - q: The campaign takes place in secondary schools.
+            answer: T
+          - q: Penalties for riding without a helmet have already increased.
+            answer: F
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút) theo bố cục 4 đoạn. Lập bảng 2 nguyên nhân ↔ 2 giải pháp trước khi viết. Dùng ít nhất: 2 cấu trúc nguyên nhân–kết quả (lead to / result in / be caused by), 1 câu 'One solution is to …', 1 câu bị động modal (should be / can be + V3), và 5 từ của buổi này."
+    prompt_en: In many cities, young people cannot afford to buy or rent a home. What are the causes of this problem, and what solutions can you suggest?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

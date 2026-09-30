@@ -1,0 +1,332 @@
+# Buổi 38 — Truyền thông & internet · Writing Task 2: Discuss both views. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-38-truyen-thong-writing-discussion
+number: 38
+stage: 2
+title_vi: "Truyền thông & internet · Writing Task 2: Discuss both views"
+focus:
+  grammar: Trình bày quan điểm (Some people argue that… / It is often claimed that…)
+  skill: "Writing Task 2 — dạng Discussion: hai quan điểm + ý kiến riêng"
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - censorship|n
+      - freedom-of-speech|phr-n
+      - freedom-of-the-press|phr-n
+      - regulate|v
+      - government|n
+      - entertainment|n
+      - educational|adj
+      - mislead|v
+      - biased|adj
+      - objective|adj
+      - public-opinion|phr-n
+      - claim|v
+      - view|n
+      - point-of-view|phr-n
+      - on-the-one-hand|idiom
+      - advertising|n
+      - harmful|adj
+      - content|n
+  - type: pronunciation
+    notes:
+      - word: government|n
+        text_vi: "GOV-ern-ment: nhấn âm 1; nói nhanh n gần như mất: /ˈɡʌv.əm.mənt/. Viết thì phải đủ n."
+      - word: biased|adj
+        text_vi: "BAI-əst: -ed sau /s/ đọc /t/, không thêm âm tiết."
+      - word: content|n
+        text_vi: Danh từ CON-tent (nội dung) — tính từ con-TENT (hài lòng). Trọng âm đổi nghĩa.
+      - word: educational|adj
+        text_vi: "ed-u-CA-tion-al: -tion kéo trọng âm về CA."
+      - word: censorship|n
+        text_vi: "CEN-sor-ship: c đọc /s/; -sor đọc lướt /sə/."
+  - type: grammar
+    items:
+      - en-g2-18
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — Discuss both views and give your own opinion
+    intro_vi: "Đề nêu hai quan điểm đối lập ('Some people think A, while others think B') và yêu cầu: bàn CẢ HAI và nêu ý kiến riêng. Giám khảo kiểm tra 3 thứ: (1) có bàn quan điểm A không, (2) có bàn quan điểm B không, (3) ý kiến của bạn có rõ và nhất quán từ mở bài đến kết bài không. Thiếu một trong ba → Task Response khó qua band 5. Bố cục 4 đoạn: Mở bài → Thân bài 1 (quan điểm A) → Thân bài 2 (quan điểm B = quan điểm bạn đồng ý) → Kết bài."
+    steps:
+      - title_vi: Tách đề thành 3 nhiệm vụ
+        text_vi: "Gạch quan điểm A, quan điểm B và cụm 'give your own opinion'. Quyết định trước: bạn nghiêng về bên nào? (Có thể đồng ý một phần cả hai, nhưng phải nói rõ.)"
+      - title_vi: "Mở bài: paraphrase + ý kiến"
+        text_vi: "Câu 1: 'While some people believe …, others argue that …'. Câu 2: 'This essay will discuss both views, but I believe that …'. Ý kiến có ngay từ mở bài."
+      - title_vi: "Thân bài 1: quan điểm bạn KHÔNG chọn"
+        text_vi: "'On the one hand, some people argue that … This is because … For example, …'. Trình bày công bằng — đây là ý của người khác, không phản bác ngay."
+      - title_vi: "Thân bài 2: quan điểm bạn chọn"
+        text_vi: "'On the other hand, I believe that … The main reason is that … In addition, …'. Có thể thêm 1 câu giải thích vì sao lý lẽ của bên kia yếu hơn."
+      - title_vi: "Kết bài: tóm tắt + nhắc lại ý kiến"
+        text_vi: "'In conclusion, although …, I believe that …' — dùng although (Buổi 37) để gói cả hai bên trong một câu. Không thêm ý mới."
+    tips:
+      - Đặt quan điểm của bạn ở thân bài 2 — bài dẫn dắt tự nhiên tới kết luận.
+      - Mỗi thân bài 2 lý do × (giải thích + ví dụ) là đủ cho band 6.
+      - "Đổi cách gọi 'some people': supporters of censorship, critics, many parents, those who work in the media."
+      - "Viết 260–290 từ: đủ ý mà không lan man. Dưới 250 từ bị trừ điểm."
+    traps:
+      - trap_vi: Chỉ bàn quan điểm mình đồng ý, bỏ qua bên kia.
+        fix_vi: Thân bài 1 dành trọn cho quan điểm A, kể cả khi bạn không đồng ý.
+      - trap_vi: Quên ý kiến riêng hoặc ý kiến ở mở bài khác ở kết bài.
+        fix_vi: Viết câu ý kiến trước khi viết bài; chép lại ý đó (bằng từ khác) ở kết bài.
+      - trap_vi: Dùng 'I think' ở thân bài 1 khi đang trình bày ý người khác.
+        fix_vi: "Thân bài 1: Some people argue / It is claimed. Thân bài 2 mới dùng I believe."
+      - trap_vi: Viết 'Although …, but …' ở kết bài.
+        fix_vi: Although … , I believe … — không có but (Buổi 37).
+    phrases:
+      - en: While some people believe that …, others argue that …
+        vi: Trong khi một số người tin rằng …, những người khác lại cho rằng …
+        note_vi: Câu 1 mở bài.
+      - en: This essay will discuss both views, but I believe that …
+        vi: Bài luận sẽ bàn cả hai quan điểm, nhưng tôi cho rằng …
+        note_vi: Câu 2 mở bài — có ý kiến.
+      - en: On the one hand, supporters of … argue that …
+        vi: Một mặt, những người ủng hộ … lập luận rằng …
+      - en: It is often claimed that …
+        vi: Người ta thường cho rằng …
+      - en: On the other hand, I would argue that …
+        vi: Mặt khác, tôi cho rằng …
+      - en: In conclusion, although …, I believe that …
+        vi: Tóm lại, mặc dù …, tôi cho rằng …
+    demo:
+      title_vi: "Làm mẫu: mở bài, thân bài 1 và kết bài"
+      text_en: |-
+        Question: Some people think that newspapers and TV are the best way to get the news, while others believe that social media is better. Discuss both views and give your own opinion.
+
+        Introduction: While some people believe that traditional media such as newspapers and television are the most reliable sources of news, others argue that social media is a better choice. This essay will discuss both views, but I believe that traditional media is still more trustworthy.
+
+        Body 1: On the one hand, supporters of social media argue that it is faster and more convenient. News appears on platforms like Facebook or TikTok within minutes, while a newspaper has to wait until the next morning. In addition, it is often claimed that social media shows many points of view, not only the view of large companies. For example, ordinary people can post videos of events that journalists have not reported.
+
+        Conclusion: In conclusion, although social media is quick and offers different perspectives, I believe that newspapers and TV remain the best way to get the news because they check their sources and are more objective.
+      notes:
+        - label: Introduction
+          text_vi: "Câu 1: While… others argue… (paraphrase cả hai quan điểm). Câu 2: nêu rõ ý kiến ngay."
+        - label: Body 1 = quan điểm KHÔNG chọn
+          text_vi: Trình bày công bằng bằng 'supporters … argue', 'it is often claimed' — không có 'I think'.
+        - label: 2 lý do + ví dụ
+          text_vi: Nhanh hơn (so sánh với báo giấy) và nhiều góc nhìn (ví dụ người dân quay video).
+        - label: Conclusion
+          text_vi: although gói quan điểm A; I believe nhắc lại ý kiến + lý do chính của thân bài 2 (không viết ra ở đây — bạn tự viết thân bài 2 ở bài tập).
+  - type: examples
+    items:
+      - b38-001
+      - b38-002
+      - b38-003
+      - b38-004
+      - b38-005
+      - b38-006
+      - b38-007
+      - b38-008
+      - b38-009
+      - b38-010
+  - type: dialogue
+    title_vi: Lập dàn ý trước khi viết
+    lines:
+      - speaker: A
+        text: "The question says: some people think the government should control online content, while others think people should be free to post anything."
+        vi: "Đề nói: một số người cho rằng chính phủ nên kiểm soát nội dung trên mạng, số khác cho rằng mọi người nên được tự do đăng bất cứ thứ gì."
+      - speaker: B
+        text: So we need both views and our opinion. What do you think?
+        vi: Vậy mình cần cả hai quan điểm và ý kiến riêng. Cậu nghĩ sao?
+      - speaker: A
+        text: I think some control is necessary, especially for harmful content.
+        vi: Tớ nghĩ cần kiểm soát ở mức nào đó, nhất là với nội dung có hại.
+      - speaker: B
+        text: "OK, then body paragraph one is the other side: freedom of speech."
+        vi: "Được, vậy thân bài một là phía bên kia: tự do ngôn luận."
+      - speaker: A
+        text: Right. Supporters argue that censorship can be used to hide the truth.
+        vi: Đúng. Những người ủng hộ lập luận rằng kiểm duyệt có thể bị dùng để che giấu sự thật.
+      - speaker: B
+        text: "And body two: harmful content and misinformation can mislead children."
+        vi: "Còn thân bài hai: nội dung có hại và tin sai lệch có thể đánh lừa trẻ em."
+      - speaker: A
+        text: Good. Let's give an example for each reason.
+        vi: Tốt. Mỗi lý do mình đưa một ví dụ nhé.
+      - speaker: B
+        text: "And in the conclusion: although freedom of speech matters, some regulation is needed."
+        vi: "Và kết bài: mặc dù tự do ngôn luận quan trọng, vẫn cần có quy định ở mức nào đó."
+  - type: exercises
+    items:
+      - id: b38-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Đọc đề và chọn đáp án đúng về cách viết bài Discussion.
+        questions:
+          - q: "'Some people think A, while others think B. Discuss both views and give your own opinion.' What must the essay include?"
+            options:
+              - only view A
+              - only your opinion
+              - view A, view B and your opinion
+              - view B and an example
+            answer: c
+          - q: Where should your opinion appear first?
+            options:
+              - only in the conclusion
+              - in the introduction
+              - in body paragraph 1
+              - nowhere
+            answer: b
+          - q: You agree with view B. What is the best plan?
+            options:
+              - "Body 1: view B; Body 2: view A"
+              - "Body 1: view A; Body 2: view B"
+              - "Body 1 and 2: view B only"
+              - "Body 1: your life story"
+            answer: b
+          - q: Which sentence is best for body paragraph 1 (the view you don't agree with)?
+            options:
+              - I strongly think censorship is wrong.
+              - On the one hand, supporters of censorship argue that it protects children.
+              - In conclusion, censorship is bad.
+              - Censorship is a word.
+            answer: b
+      - id: b38-x2
+        bank_no: 26
+        kind: mcq
+        instructions_vi: "Chọn mở bài tốt nhất cho đề sau: 'Some people believe that advertising aimed at children should be banned, while others think it is acceptable. Discuss both views and give your opinion.'"
+        questions:
+          - q: Which introduction is best?
+            options:
+              - Advertising is everywhere. I will write about it.
+              - While some people argue that advertisements targeting children should be prohibited, others believe they are acceptable. This essay will discuss both views, but I believe that such advertising should be strictly limited.
+              - Some people believe that advertising aimed at children should be banned, while others think it is acceptable.
+              - In my opinion, children like advertisements, and advertisements are good, and parents are busy.
+            answer: b
+            explain_vi: "a: không paraphrase, không ý kiến. c: chép nguyên đề, thiếu ý kiến. d: không nhắc hai quan điểm, câu nối lỏng."
+      - id: b38-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu theo gợi ý, giữ nguyên nghĩa.
+        questions:
+          - q: People often say that social media is harmful. → It is often said ___
+            answer: that social media is harmful.
+          - q: Some people think TV is educational. Other people think it is only for entertainment. → While some people ___
+            answer: think TV is educational, others think it is only for entertainment.
+            accept:
+              - think TV is educational, other people think it is only for entertainment.
+          - q: In my opinion, the press should be free. → From my ___
+            answer: point of view, the press should be free.
+      - id: b38-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi. Sửa trực tiếp.
+        text: On the one hand, some people argue about that the goverment should control online content. It is often claimed harmful content can mislead children. For example, many videos contain violence. In my point of view, this is true. Although censorship has some benefits, but it can limit freedom of speech.
+        errors:
+          - wrong: argue about that
+            right: argue that
+            why: argue that + mệnh đề.
+          - wrong: the goverment should
+            right: the government should
+            why: "Chính tả: government có chữ n."
+          - wrong: It is often claimed harmful content
+            right: It is often claimed that harmful content
+            why: Giữ that sau It is claimed trong văn viết.
+          - wrong: In my point of view
+            right: From my point of view
+            why: "from my point of view. (Thêm nữa: thân bài 1 nên trình bày ý người khác, không chen ý kiến.)"
+          - wrong: has some benefits, but it can
+            right: has some benefits, it can
+            why: Although … không đi với but.
+      - id: b38-x5
+        bank_no: 27
+        kind: completion
+        instructions_vi: Hoàn thành đoạn thân bài 2 bằng từ trong bài học. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: On the other hand, I believe that some (1) ___ of online content is necessary. The main reason is that children can easily find (2) ___ videos, such as those showing violence. In addition, false stories can (3) ___ the public and change public (4) ___ very quickly. For example, during elections, fake posts are often shared millions of times. However, any rules must be fair and (5) ___, so that they do not limit freedom of the press.
+        questions:
+          - q: (1)
+            answer: regulation
+            accept:
+              - control
+          - q: (2)
+            answer: harmful
+          - q: (3)
+            answer: mislead
+          - q: (4)
+            answer: opinion
+          - q: (5)
+            answer: objective
+      - id: b38-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: censorship
+            right: stopping people from publishing or showing certain information
+          - left: biased
+            right: unfairly supporting one side
+          - left: objective
+            right: based on facts, not on personal feelings
+          - left: mislead
+            right: to make somebody believe something that is not true
+          - left: regulate
+            right: to control something with rules
+          - left: public opinion
+            right: what most people in a society think
+      - id: b38-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên tranh luận (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Man: I think advertising aimed at children should be banned completely.
+          Woman: Completely? That seems too strong. Some ads are educational, like ones for books or healthy food.
+          Man: Maybe, but most of them are for sweets and toys. Children can't tell the difference between an ad and a normal video.
+          Woman: That's true. So perhaps we should ban ads for unhealthy food, but not all advertising.
+          Man: OK, I can agree with that. And TV channels should show fewer ads during children's programmes.
+          Woman: Yes. Although companies won't like it, I think it's fair.
+        questions:
+          - q: What is the man's first opinion?
+            options:
+              - Ads for children are fine.
+              - All advertising for children should be banned.
+              - Only TV ads should be banned.
+              - Parents should decide.
+            answer: b
+          - q: Why does the woman disagree at first?
+            options:
+              - Ads are cheap.
+              - Some ads are educational.
+              - Children don't watch ads.
+              - Companies need money.
+            answer: b
+          - q: What do they finally agree on?
+            options:
+              - banning all ads
+              - banning ads for unhealthy food
+              - showing more ads
+              - doing nothing
+            answer: b
+            explain_vi: Đáp án là điều họ ĐỒNG Ý CUỐI CÙNG, không phải ý kiến đầu tiên.
+          - q: What does the woman say about companies?
+            options:
+              - They will be happy.
+              - They won't like it.
+              - They agree completely.
+              - They make educational ads.
+            answer: b
+      - id: b38-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe đoạn giới thiệu một cuộc khảo sát rồi chọn T (đúng) hoặc F (sai).
+        audio_text: In a recent survey, one thousand adults were asked where they got their news. It is often claimed that young people only use social media, but the results were more mixed. About sixty per cent of people under thirty used social media as their main source. However, almost half of them said they did not trust it completely. Older people preferred television, and very few people of any age still read printed newspapers every day.
+        questions:
+          - q: The survey asked one thousand adults.
+            answer: T
+          - q: All young people use only social media for news.
+            answer: F
+          - q: About sixty per cent of people under thirty used social media as their main source.
+            answer: T
+          - q: Most young people trust social media completely.
+            answer: F
+          - q: Many people still read printed newspapers every day.
+            answer: F
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút) theo bố cục 4 đoạn của buổi này. Thân bài 1 = quan điểm bạn không chọn (không dùng 'I think'); thân bài 2 = quan điểm bạn chọn. Dùng ít nhất: 1 câu While … others …, 1 câu It is often argued/claimed that …, 1 câu although ở kết bài, và 5 từ của buổi này."
+    prompt_en: Some people believe that the government should control what is posted on social media, while others think that people should be free to post whatever they want. Discuss both views and give your own opinion.
+    words:
+      min: 250
+      max: 290
+    minutes: 40

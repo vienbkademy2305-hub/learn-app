@@ -1,0 +1,374 @@
+# Buổi 56 — Văn hóa & bản sắc · Mệnh đề rút gọn bằng phân từ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-56-van-hoa-participle-clauses
+number: 56
+stage: 3
+title_vi: Văn hóa & bản sắc · Mệnh đề rút gọn bằng phân từ
+focus:
+  grammar: "Participle clauses: V-ing, Having + V3, V3"
+  skill: Reading — Matching sentence endings
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - identity|n
+      - assimilate|v
+      - ethnic-minority|phr-n
+      - indigenous|adj
+      - folklore|n
+      - handicraft|n
+      - craftsmanship|n
+      - dialect|n
+      - hand-down|phr-v
+      - ritual|n
+      - ancestor|n
+      - worship|v
+      - revive|v
+      - commercialise|v
+      - intangible|adj
+      - generation|n
+      - descendant|n
+      - cultural-heritage|phr-n
+  - type: pronunciation
+    notes:
+      - word: indigenous|adj
+        text_vi: "in-DIG-e-nous /ɪnˈdɪdʒ.ɪ.nəs/: nhấn âm 2, g đọc /dʒ/."
+      - word: folklore|n
+        text_vi: "FOLK-lore /ˈfəʊk.lɔː/: l trong folk câm."
+      - word: ritual|n
+        text_vi: "RI-chu-əl /ˈrɪtʃ.u.əl/: tu đọc /tʃu/."
+      - word: assimilate|v
+        text_vi: "as-SIM-i-late: nhấn âm 2."
+      - word: descendant|n
+        text_vi: "de-SCEN-dant: sc = /s/."
+  - type: grammar
+    items:
+      - en-g3-11
+  - type: skill
+    skill: reading
+    title_vi: Reading — Matching sentence endings
+    intro_vi: "Đề cho các NỬA ĐẦU câu (theo thứ tự bài đọc) và một danh sách NỬA SAU A–G (nhiều hơn số câu). Bạn ghép để tạo câu đúng với bài. Dạng này kiểm tra cả NGHĨA và NGỮ PHÁP: nhiều phương án ghép vào nghe hợp ngữ pháp nhưng sai ý bài. Lợi thế: nửa đầu đi theo thứ tự bài, nên định vị nhanh."
+    steps:
+      - title_vi: Đọc các nửa đầu, gạch từ khóa
+        text_vi: Nửa đầu chứa chủ đề + từ khóa để tìm trong bài (thường là tên, thuật ngữ).
+      - title_vi: Đọc lướt các nửa sau, đoán loại
+        text_vi: Nửa sau bắt đầu bằng gì? động từ số ít/số nhiều, to V, V-ing, because…? Loại những nửa sau không khớp ngữ pháp với từng nửa đầu.
+      - title_vi: Tìm vị trí trong bài
+        text_vi: Scan từ khóa của nửa đầu. Đọc kỹ 2–3 câu quanh đó.
+      - title_vi: Chọn theo NGHĨA trong bài
+        text_vi: Từ các nửa sau còn lại, chọn cái diễn đạt đúng ý bài (thường bị paraphrase). Đọc lại cả câu ghép hoàn chỉnh.
+      - title_vi: Kiểm tra phương án 'bẫy'
+        text_vi: Các nửa sau thừa thường dùng từ trong bài nhưng nói sai chủ thể hoặc sai quan hệ.
+    tips:
+      - Mỗi nửa sau chỉ dùng một lần (trừ khi đề nói khác).
+      - Cụm phân từ (Having lived…, Built in…) hay xuất hiện trong bài đọc học thuật — nhận ra chủ ngữ thật của câu để hiểu đúng.
+      - Nếu hai nửa sau đều hợp, xem cái nào khớp chính xác mức độ (some/all, may/will).
+    traps:
+      - trap_vi: Chọn nửa sau chỉ vì hợp ngữ pháp.
+        fix_vi: Luôn kiểm tra với ý trong bài.
+      - trap_vi: Chọn nửa sau có chứa từ giống bài nhưng nói về đối tượng khác.
+        fix_vi: "Kiểm tra chủ thể: ai/cái gì làm gì."
+      - trap_vi: Hiểu sai câu có cụm phân từ.
+        fix_vi: "Chủ ngữ của cụm phân từ = chủ ngữ câu chính: 'Having moved to the city, young people…' → young people đã chuyển lên thành phố."
+    phrases:
+      - en: Complete each sentence with the correct ending, A–G.
+        vi: Hoàn thành mỗi câu với phần kết đúng, A–G.
+      - en: Write the correct letter, A–G, next to questions 1–5.
+        vi: Viết chữ cái đúng, A–G, bên cạnh câu hỏi 1–5.
+    demo:
+      title_vi: "Làm mẫu: loại theo ngữ pháp rồi chọn theo nghĩa"
+      text_en: |-
+        Passage: "Handed down through families for centuries, the craft of silk weaving almost disappeared in the 1990s. Having found new markets through tourism, however, many villages have revived it."
+
+        1  The craft of silk weaving …
+        A  was introduced by tourists.
+        B  nearly died out in the 1990s.
+        C  having found new markets.
+      notes:
+        - label: Loại C
+          text_vi: "'having found' không tạo thành câu hoàn chỉnh sau 'The craft … ' → sai ngữ pháp."
+        - label: Loại A
+          text_vi: "Hợp ngữ pháp nhưng sai ý: nghề được truyền trong gia đình, không phải do du khách mang đến."
+        - label: Đáp án B
+          text_vi: "'almost disappeared' = 'nearly died out' (paraphrase)."
+  - type: examples
+    items:
+      - b56-001
+      - b56-002
+      - b56-003
+      - b56-004
+      - b56-005
+      - b56-006
+      - b56-007
+      - b56-008
+      - b56-009
+      - b56-010
+      - b56-011
+  - type: dialogue
+    title_vi: Thăm làng nghề
+    lines:
+      - speaker: A
+        text: This pottery village is amazing. How long have people made pottery here?
+        vi: Làng gốm này tuyệt thật. Người ta làm gốm ở đây bao lâu rồi?
+      - speaker: B
+        text: For about five hundred years. The skills have been handed down from generation to generation.
+        vi: Khoảng năm trăm năm. Tay nghề được truyền từ đời này sang đời khác.
+      - speaker: A
+        text: Do young people still want to learn?
+        vi: Người trẻ còn muốn học không?
+      - speaker: B
+        text: Fewer than before. Having seen their parents earn very little, many moved to the city.
+        vi: Ít hơn trước. Thấy bố mẹ kiếm được rất ít, nhiều người đã lên thành phố.
+      - speaker: A
+        text: That's a pity. It's such a unique craft.
+        vi: Tiếc thật. Nghề này độc đáo như vậy.
+      - speaker: B
+        text: But tourism has helped to revive it. Some young people have come back to open workshops.
+        vi: Nhưng du lịch đã giúp hồi sinh nó. Một số người trẻ đã quay về mở xưởng.
+      - speaker: A
+        text: Isn't there a risk it becomes too commercialised?
+        vi: Chẳng phải có nguy cơ nó bị thương mại hóa quá mức sao?
+      - speaker: B
+        text: Yes, but made by hand, each piece is still special. That's what visitors pay for.
+        vi: Có, nhưng được làm bằng tay, mỗi sản phẩm vẫn đặc biệt. Đó là thứ du khách sẵn sàng trả tiền.
+  - type: exercises
+    items:
+      - id: b56-x1
+        bank_no: 15
+        kind: mcq
+        instructions_vi: "Matching sentence endings: đọc bài và chọn phần kết đúng (A–G) cho mỗi câu. Có 2 phần kết thừa."
+        passage: |-
+          DISAPPEARING VOICES
+
+          Of the roughly seven thousand languages spoken today, linguists estimate that almost half may disappear by the end of this century. Most of them are indigenous languages spoken by small communities. When the last speakers die, songs, stories and knowledge handed down for generations are lost with them.
+
+          The main cause is not violence but choice. Having moved to cities for work, young people often stop using the language of their parents. They need the national language to find jobs, and their children grow up hearing it at school and on television. Within two or three generations, a language can go from being spoken by a whole community to being remembered by a few elderly people.
+
+          Some communities are fighting back. In New Zealand, "language nests", run by grandparents who still speak Maori fluently, allow toddlers to hear the language every day. Encouraged by these projects, more parents now choose to raise their children bilingually. Technology has also helped: recorded by linguists before their last speakers died, some languages survive in online dictionaries and apps.
+
+          Critics argue that such efforts are too late for many languages. Yet supporters point out that a language, once written down and recorded, can be revived. Hebrew, used for centuries mainly in religious texts, became the everyday language of millions in the twentieth century.
+
+          ENDINGS
+          A  are spoken by small indigenous communities.
+          B  allow very young children to hear the language daily.
+          C  was revived as an everyday language.
+          D  often stop speaking their parents' language.
+          E  are caused mainly by violence.
+          F  survive in online dictionaries and apps.
+          G  have been banned by most governments.
+        questions:
+          - q: 1  Most of the languages at risk …
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: a
+          - q: 2  Having moved to cities, young people …
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: d
+          - q: 3  In New Zealand, language nests …
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: b
+          - q: 4  Some languages recorded by linguists …
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: f
+          - q: 5  Hebrew …
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+            answer: c
+            explain_vi: "E: bài nói 'not violence but choice' — bẫy. G: không có thông tin."
+      - id: b56-x2
+        bank_no: 13
+        kind: tfng
+        instructions_vi: Dựa vào bài 'Disappearing voices' ở bài 1, chọn T, F hoặc NG.
+        passage: |-
+          Of the roughly seven thousand languages spoken today, linguists estimate that almost half may disappear by the end of this century. Most of them are indigenous languages spoken by small communities. When the last speakers die, songs, stories and knowledge handed down for generations are lost with them.
+
+          The main cause is not violence but choice. Having moved to cities for work, young people often stop using the language of their parents. They need the national language to find jobs, and their children grow up hearing it at school and on television.
+
+          Some communities are fighting back. In New Zealand, "language nests", run by grandparents who still speak Maori fluently, allow toddlers to hear the language every day. Encouraged by these projects, more parents now choose to raise their children bilingually.
+        questions:
+          - q: Linguists say nearly half of today's languages could disappear this century.
+            answer: T
+          - q: Violence is the main reason languages disappear.
+            answer: F
+          - q: Language nests are run by trained teachers.
+            answer: F
+            explain_vi: run by GRANDPARENTS.
+          - q: The New Zealand government pays for the language nests.
+            answer: NG
+      - id: b56-x3
+        bank_no: 9
+        kind: combine
+        instructions_vi: Rút gọn thành cụm phân từ (V-ing / Having + V3 / V3). Chủ ngữ hai vế phải giống nhau.
+        questions:
+          - q: The temple was built in 1600. It is still used today. (V3)
+            answer: Built in 1600, the temple is still used today.
+          - q: She had lived abroad for ten years. She forgot some of her dialect. (Having + V3)
+            answer: Having lived abroad for ten years, she forgot some of her dialect.
+          - q: Tourists walk through the market. They can buy handicrafts. (V-ing)
+            answer: Walking through the market, tourists can buy handicrafts.
+          - q: Songs are handed down from parents. They are easy to remember. (rút gọn mệnh đề quan hệ)
+            answer: Songs handed down from parents are easy to remember.
+      - id: b56-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ in the 15th century, the village is famous for pottery.
+            options:
+              - Founding
+              - Founded
+              - Having founded
+              - Found
+            answer: b
+          - q: ___ the course, she opened her own workshop.
+            options:
+              - Having finished
+              - Finished
+              - Having finish
+              - To finish
+            answer: a
+          - q: Which sentence is correct?
+            options:
+              - Walking through the old town, many temples can be seen.
+              - Walking through the old town, visitors can see many temples.
+              - Walked through the old town, visitors see temples.
+              - Having walk through the old town, temples are seen.
+            answer: b
+          - q: People ___ in the mountains often speak two languages.
+            options:
+              - live
+              - lived
+              - living
+              - are living
+            answer: c
+      - id: b56-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 4 lỗi (cụm phân từ, collocation). Sửa trực tiếp.
+        text: Building in 1500, the pagoda is the oldest in the region. Having visit it twice, I can say it is beautiful. Songs handing down from our ancestors are sung at the festival. Walking around the village, many handicrafts can be bought.
+        errors:
+          - wrong: Building in 1500
+            right: Built in 1500
+            why: Ngôi chùa được xây → V3.
+          - wrong: Having visit it
+            right: Having visited it
+            why: Having + V3.
+          - wrong: Songs handing down
+            right: Songs handed down
+            why: Bài hát được truyền lại → V3 (bị động).
+          - wrong: many handicrafts can be bought
+            right: visitors can buy many handicrafts
+            why: Chủ ngữ phải là người đi dạo (visitors), không phải đồ thủ công.
+      - id: b56-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: indigenous
+            right: belonging to a place originally
+          - left: dialect
+            right: a form of a language spoken in one area
+          - left: ritual
+            right: a ceremony that is always done in the same way
+          - left: intangible
+            right: that cannot be touched, such as music or skills
+          - left: assimilate
+            right: to become part of a new culture
+          - left: descendant
+            right: a person related to someone who lived long ago
+      - id: b56-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai người nói chuyện ở lễ hội (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Woman: This festival is wonderful. How old is it?
+          Man: About three hundred years. It started as a ritual to thank the river god for a good harvest.
+          Woman: Is it still religious?
+          Man: Partly. Having become popular with tourists, it's now more of a cultural event. Some older people think it's too commercialised.
+          Woman: What do you think?
+          Man: I think tourism has actually saved it. Twenty years ago, only a few families took part. Now the whole village is involved.
+        questions:
+          - q: How did the festival begin?
+            options:
+              - as a sports event
+              - as a ritual to thank the river god
+              - as a tourist show
+              - as a market
+            answer: b
+          - q: What do some older people think?
+            options:
+              - It is too commercialised.
+              - It is too small.
+              - It should be longer.
+              - It is too religious.
+            answer: a
+          - q: What is the man's view?
+            options:
+              - Tourism has ruined it.
+              - Tourism has saved it.
+              - It should be stopped.
+              - He has no opinion.
+            answer: b
+          - q: How many people took part twenty years ago?
+            options:
+              - the whole village
+              - only a few families
+              - thousands of tourists
+              - nobody
+            answer: b
+      - id: b56-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Known as ca tru, a traditional form of Vietnamese sung poetry, the art almost disappeared in the twentieth century. Having been recognised as intangible cultural heritage in 2009, it has attracted new interest. Today, several clubs in Hanoi teach young people to sing it, although the number of professional performers is still small.
+        questions:
+          - q: Ca tru is a form of sung poetry.
+            answer: T
+          - q: It became more popular in the twentieth century.
+            answer: F
+          - q: It was recognised as intangible heritage in 2009.
+            answer: T
+          - q: There are now many professional performers.
+            answer: F
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 180–200 từ: 'Làm thế nào để giữ gìn văn hóa truyền thống trong khi đất nước hiện đại hóa?' Dùng ít nhất 3 cụm phân từ khác nhau (V-ing / Having + V3 / V3) và 2 mệnh đề quan hệ rút gọn, cùng 6 từ của buổi này. Kiểm tra chủ ngữ mỗi câu có cụm phân từ."
+    prompt_en: How can a country preserve its traditional culture while it modernises?
+    words:
+      min: 180
+      max: 200
+    minutes: 30

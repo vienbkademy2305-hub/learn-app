@@ -1,0 +1,344 @@
+# Buổi 50 — Tội phạm (nâng cao) · Collocation học thuật + paraphrase. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-50-toi-pham-collocation-paraphrase
+number: 50
+stage: 3
+title_vi: Tội phạm (nâng cao) · Collocation học thuật + paraphrase
+focus:
+  grammar: Paraphrase bằng danh từ hóa (nominalisation)
+  skill: Writing — collocation học thuật và paraphrase đề bài
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - offence|n
+      - juvenile-crime|phr-n
+      - law-enforcement|phr-n
+      - rehabilitate|v
+      - rehabilitation|n
+      - reoffend|v
+      - deterrent|n
+      - sentence|n
+      - surveillance|n
+      - petty-crime|phr-n
+      - cybercrime|n
+      - violent-crime|phr-n
+      - crack-down-on|phr-v
+      - root-cause|phr-n
+      - reduction|n
+      - increase|n
+      - prevention|n
+      - deter|v
+  - type: pronunciation
+    notes:
+      - word: rehabilitation|n
+        text_vi: "re-ha-bil-i-TA-tion: 6 âm tiết, nhấn TA. Động từ re-ha-BIL-i-tate."
+      - word: surveillance|n
+        text_vi: "sur-VEIL-lance /səˈveɪ.ləns/: -eill- đọc /eɪ/."
+      - word: juvenile-crime|phr-n
+        text_vi: "JU-ve-nile /ˈdʒuː.vən.aɪl/ (Anh-Anh): -nile đọc /naɪl/."
+      - word: increase|n
+        text_vi: "Danh từ IN-crease, động từ in-CREASE — cùng quy tắc: a DE-crease / to de-CREASE."
+      - word: deterrent|n
+        text_vi: "de-TER-rent: nhấn âm 2; động từ de-TER."
+  - type: grammar
+    items:
+      - en-g3-05
+  - type: skill
+    skill: writing
+    title_vi: Collocation học thuật và paraphrase đề bài
+    intro_vi: "Tiêu chí Lexical Resource band 6.5 yêu cầu dùng 'less common lexical items with some awareness of style and collocation'. Nói đơn giản: dùng CỤM TỪ đi đúng với nhau (commit an offence, tackle the root causes) thay vì từ đơn lẻ, và paraphrase được đề bài mà không chép lại. Hai lỗi kéo điểm nhiều nhất: collocation sai (do a crime, make a crime) và từ đồng nghĩa 'tra từ điển' không hợp ngữ cảnh."
+    steps:
+      - title_vi: Học từ theo CỤM, không theo từ đơn
+        text_vi: "Mỗi từ mới ghi kèm động từ/tính từ đi cùng: offence → commit / serious / first. Tab Từ vựng có sẵn mục collocations — học cả cụm."
+      - title_vi: "Paraphrase đề: 3 cách an toàn"
+        text_vi: "(1) Danh từ hóa: crime is rising → the rise in crime. (2) Chủ động ↔ bị động: The government should punish… → Offenders should be punished… (3) Đồng nghĩa ĐÚNG NGỮ CẢNH: young people → teenagers / juveniles."
+      - title_vi: Kiểm tra từ đồng nghĩa trước khi dùng
+        text_vi: Không chắc thì giữ từ gốc. 'crime' → 'criminality' nghe học thuật nhưng thường không tự nhiên trong câu của bạn.
+      - title_vi: Xoay vòng trong bài
+        text_vi: "Lần 1: crime; lần 2: criminal activity; lần 3: offences; lần 4: it/this problem. Không cần đổi mọi lần."
+    tips:
+      - "Collocation hay gặp chủ đề tội phạm: commit an offence, serve a sentence, crack down on, act as a deterrent, tackle the root causes, reoffend."
+      - Paraphrase mở bài chỉ cần đổi 2–3 cụm chính, không cần đổi mọi từ.
+      - Dùng Oxford Collocations Dictionary (bản online) khi tự học để kiểm tra cụm từ.
+    traps:
+      - trap_vi: do / make a crime.
+        fix_vi: commit a crime / an offence.
+      - trap_vi: "Đổi từ đồng nghĩa sai sắc thái: 'kids' trong Writing, 'baby criminals'."
+        fix_vi: young offenders / juveniles.
+      - trap_vi: "Giới từ sai sau danh từ hóa: a reduction of, an increase of."
+        fix_vi: reduction/increase IN.
+    phrases:
+      - en: tackle the root causes of crime
+        vi: giải quyết nguyên nhân gốc rễ của tội phạm
+      - en: act as an effective deterrent
+        vi: có tác dụng răn đe hiệu quả
+      - en: reduce the likelihood of reoffending
+        vi: giảm khả năng tái phạm
+      - en: focus on rehabilitation rather than punishment
+        vi: tập trung vào cải tạo hơn là trừng phạt
+      - en: There has been a significant rise in …
+        vi: Đã có sự gia tăng đáng kể về …
+    demo:
+      title_vi: "Làm mẫu: paraphrase một đề Task 2"
+      text_en: |-
+        Question: Crime rates among young people are increasing in many countries. Some people think that longer prison sentences are the best solution.
+
+        Paraphrase 1 (nominalisation): The rise in juvenile crime in many parts of the world has led some to argue that longer sentences are the most effective response.
+
+        Paraphrase 2 (passive + collocation): In many countries, more offences are being committed by teenagers, and it is often argued that harsher punishments would act as a deterrent.
+      notes:
+        - label: Crime rates … are increasing → the rise in juvenile crime
+          text_vi: Danh từ hóa (increase → rise) + từ học thuật (juvenile).
+        - label: Some people think → has led some to argue
+          text_vi: Đổi cấu trúc câu, không chỉ đổi từ.
+        - label: more offences are being committed by teenagers
+          text_vi: Bị động tiếp diễn + collocation commit an offence.
+        - label: act as a deterrent
+          text_vi: Collocation thay cho 'stop people doing crime'.
+  - type: examples
+    items:
+      - b50-001
+      - b50-002
+      - b50-003
+      - b50-004
+      - b50-005
+      - b50-006
+      - b50-007
+      - b50-008
+      - b50-009
+      - b50-010
+      - b50-011
+  - type: dialogue
+    title_vi: Bàn luận về tội phạm vị thành niên
+    lines:
+      - speaker: A
+        text: Did you see the report? There's been a sharp increase in juvenile crime in our city.
+        vi: Cậu xem báo cáo chưa? Tội phạm vị thành niên ở thành phố mình tăng mạnh.
+      - speaker: B
+        text: Yes. Mostly petty crime, like shoplifting and stealing phones.
+        vi: Rồi. Chủ yếu là tội vặt, như ăn cắp ở cửa hàng và trộm điện thoại.
+      - speaker: A
+        text: Some people want longer sentences to act as a deterrent.
+        vi: Một số người muốn án tù dài hơn để răn đe.
+      - speaker: B
+        text: I'm not convinced. Young people who go to prison often reoffend when they come out.
+        vi: Tớ không tin lắm. Người trẻ đi tù thường tái phạm khi ra tù.
+      - speaker: A
+        text: So what's the alternative?
+        vi: Vậy phương án khác là gì?
+      - speaker: B
+        text: Rehabilitation. And we need to tackle the root causes, like poverty and dropping out of school.
+        vi: Cải tạo. Và cần giải quyết nguyên nhân gốc rễ, như nghèo đói và bỏ học.
+      - speaker: A
+        text: But the police should still crack down on serious offences.
+        vi: Nhưng cảnh sát vẫn nên trấn áp mạnh các tội nghiêm trọng.
+      - speaker: B
+        text: Of course. Prevention and law enforcement should work together.
+        vi: Tất nhiên. Phòng ngừa và thực thi pháp luật phải đi cùng nhau.
+  - type: exercises
+    items:
+      - id: b50-x1
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép để tạo collocation đúng.
+        pairs:
+          - left: commit
+            right: a serious offence
+          - left: serve
+            right: a prison sentence
+          - left: tackle
+            right: the root causes of crime
+          - left: act as
+            right: a deterrent
+          - left: crack down
+            right: on drink-driving
+          - left: be less likely
+            right: to reoffend
+      - id: b50-x2
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lại câu bằng cách danh từ hóa từ in hoa, bắt đầu bằng từ cho sẵn.
+        questions:
+          - q: Petty crime has REDUCED significantly. → There has been a significant ___
+            answer: reduction in petty crime.
+            accept:
+              - reduction in petty crime
+          - q: Cybercrime has INCREASED sharply. → There has been a sharp ___
+            answer: increase in cybercrime.
+            accept:
+              - increase in cybercrime
+              - rise in cybercrime.
+          - q: Many people are POOR, and this causes crime. → ___
+            answer: Poverty causes crime.
+            accept:
+              - Poverty is a cause of crime.
+              - Poverty is one of the root causes of crime.
+          - q: We should PREVENT crime rather than punish it. → The ___
+            answer: prevention of crime is better than punishment.
+            accept:
+              - prevention of crime is better than punishing it.
+              - prevention of crime should come before punishment.
+      - id: b50-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: He ___ a serious offence and was sent to prison.
+            options:
+              - did
+              - made
+              - committed
+              - had
+            answer: c
+          - q: There has been a sharp increase ___ violent crime.
+            options:
+              - of
+              - in
+              - on
+              - for
+            answer: b
+          - q: Poverty is one of the root causes ___ crime.
+            options:
+              - for
+              - to
+              - of
+              - in
+            answer: c
+          - q: Harsh punishments do not always act ___ a deterrent.
+            options:
+              - like
+              - as
+              - for
+              - to
+            answer: b
+          - q: Which is the best paraphrase of 'Young people are committing more crimes'?
+            options:
+              - Kids are doing more bad things.
+              - There has been a rise in juvenile crime.
+              - Young people are criminality.
+              - Crimes are young.
+            answer: b
+      - id: b50-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi collocation và danh từ hóa. Sửa trực tiếp.
+        text: In recent years, there has been an increase of juvenile crime. Many teenagers do crimes because they are poor. Poor is a root cause for this problem. Longer sentences may act like a deterrent, but they do not reduce the likelihood of reoffending.
+        errors:
+          - wrong: an increase of juvenile crime
+            right: an increase in juvenile crime
+            why: an increase IN.
+          - wrong: teenagers do crimes
+            right: teenagers commit crimes
+            why: commit a crime (không dùng do).
+          - wrong: Poor is a root cause
+            right: Poverty is a root cause
+            why: "Chủ ngữ cần danh từ: poverty."
+          - wrong: root cause for this problem
+            right: root cause of this problem
+            why: the cause OF.
+          - wrong: act like a deterrent
+            right: act as a deterrent
+            why: act AS a deterrent.
+      - id: b50-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: The ___ of young offenders takes time.
+            base: rehabilitate
+            answer: rehabilitation
+          - q: Crime ___ programmes are cheaper than prisons.
+            base: prevent
+            answer: prevention
+          - q: There has been a sharp ___ in cybercrime.
+            base: rise
+            answer: rise
+            accept:
+              - increase
+          - q: Long sentences are not always an effective ___.
+            base: deter
+            answer: deterrent
+          - q: Stricter law ___ could reduce drink-driving.
+            base: enforce
+            answer: enforcement
+      - id: b50-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: reoffend
+            right: to commit a crime again
+          - left: rehabilitation
+            right: helping someone return to a normal life after prison
+          - left: petty crime
+            right: crime that is not very serious
+          - left: surveillance
+            right: watching people, often with cameras
+          - left: deterrent
+            right: something that makes people decide not to do something
+          - left: root cause
+            right: the most basic reason for a problem
+      - id: b50-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe đoạn phỏng vấn (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Interviewer: Your programme works with young offenders. What exactly do you do?
+          Director: We offer education and job training to teenagers who have committed petty crimes. Instead of prison, they spend six months with us.
+          Interviewer: Does it work?
+          Director: The figures are encouraging. Only about one in five of our young people reoffend, compared with more than half of those who go to prison.
+          Interviewer: Some people say it's too soft.
+          Director: I understand that. But prison doesn't tackle the root causes. Most of these teenagers have left school early and come from very poor families.
+        questions:
+          - q: Who does the programme work with?
+            options:
+              - victims of crime
+              - young people who committed petty crimes
+              - prison officers
+              - violent criminals
+            answer: b
+          - q: How long do the teenagers spend on the programme?
+            options:
+              - three months
+              - six months
+              - one year
+              - two years
+            answer: b
+          - q: What proportion of the programme's young people reoffend?
+            options:
+              - about 20%
+              - about 50%
+              - more than half
+              - almost none
+            answer: a
+          - q: According to the director, what are the root causes?
+            options:
+              - bad friends and video games
+              - leaving school early and poverty
+              - weak laws
+              - a lack of police
+            answer: b
+      - id: b50-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe bản tin rồi chọn T (đúng) hoặc F (sai). Chú ý danh từ hóa trong bài nghe.
+        audio_text: According to new police figures, there has been a twelve per cent reduction in burglaries in the city over the past year. However, the same report shows a sharp increase in cybercrime, especially online shopping fraud. The police believe the fall in burglaries is the result of better street lighting and more neighbourhood patrols.
+        questions:
+          - q: The number of burglaries has fallen.
+            answer: T
+          - q: Cybercrime has also decreased.
+            answer: F
+          - q: Online shopping fraud is a problem mentioned in the report.
+            answer: T
+          - q: The police think the fall in burglaries is due to longer prison sentences.
+            answer: F
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Bài 1 (15 phút): viết 2 cách paraphrase khác nhau cho mỗi đề dưới đây (chỉ câu mở bài). Bài 2 (25 phút): viết một đoạn thân bài 150–180 từ trả lời đề thứ hai, dùng ít nhất 6 collocation và 3 danh từ hóa của buổi này. Không dùng 'do a crime', 'reduction of'."
+    prompt_en: 1. The number of crimes committed online is growing rapidly. 2. Some people believe that the best way to reduce crime among young people is to educate them rather than punish them. To what extent do you agree?
+    words:
+      min: 150
+      max: 180
+    minutes: 40

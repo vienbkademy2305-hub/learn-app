@@ -800,3 +800,335 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badminton, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badminton, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: bring-up|phr-v
+    headword: bring up
+    pos: phr-v
+    forms:
+      past: brought up
+      pp: brought up
+    ipa:
+      uk: /ˌbrɪŋ ˈʌp/
+      us: /ˌbrɪŋ ˈʌp/
+    cefr: null
+    meaning_vi:
+      - nuôi dạy (con cái)
+    collocations:
+      - bring up children
+      - be brought up by your grandparents
+    notes_vi:
+      - "Bị động rất hay dùng: I was brought up in Hue. Quá khứ: brought /brɔːt/, không phải *bringed*."
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: behaviour|n
+    headword: behaviour
+    pos: n
+    ipa:
+      uk: /bɪˈheɪ.vjər/
+      us: /bɪˈheɪ.vjɚ/
+    stress: be-HA-viour
+    cefr: A2
+    meaning_vi:
+      - hành vi
+      - cách cư xử
+    collocations:
+      - good behaviour
+      - children's behaviour
+      - change your behaviour
+    notes_vi:
+      - "Không đếm được: *behaviours* chỉ dùng trong ngữ cảnh khoa học. Anh-Mỹ viết behavior. Động từ: behave /bɪˈheɪv/."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behaviour, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behaviour, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behaviour, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bar-chart|phr-n
+    headword: bar chart
+    pos: phr-n
+    ipa:
+      uk: /ˈbɑː ˌtʃɑːt/
+      us: /ˈbɑːr ˌtʃɑːrt/
+    cefr: null
+    meaning_vi:
+      - biểu đồ cột
+    collocations:
+      - the bar chart compares
+      - the bar chart shows
+    notes_vi:
+      - "Anh-Mỹ còn gọi bar graph. Paraphrase: the chart, the graph."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bar-chart, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bar-chart, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: besides|adv
+    headword: besides
+    pos: adv
+    ipa:
+      uk: /bɪˈsaɪdz/
+      us: /bɪˈsaɪdz/
+    cefr: B2
+    meaning_vi:
+      - ngoài ra
+      - hơn nữa
+    notes_vi:
+      - Đứng đầu câu (Besides, …) để thêm một lý do nữa. Khác beside (bên cạnh — vị trí).
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/besides_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/besides_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/besides_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: biased|adj
+    headword: biased
+    pos: adj
+    ipa:
+      uk: /ˈbaɪ.əst/
+      us: /ˈbaɪ.əst/
+    cefr: null
+    meaning_vi:
+      - thiên vị
+      - phiến diện
+    collocations:
+      - biased reporting
+      - be biased against/towards
+    notes_vi:
+      - "-ed đọc /t/: BAI-əst (2 âm tiết), không đọc 'bai-ơ-sơ-đơ'."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biased, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biased, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: benefit-from|phr-v
+    headword: benefit from
+    pos: phr-v
+    ipa:
+      uk: /ˈben.ɪ.fɪt frəm/
+      us: /ˈben.ə.fɪt frəm/
+    cefr: null
+    meaning_vi:
+      - được hưởng lợi từ
+    collocations:
+      - benefit from trade
+      - benefit from globalisation
+    notes_vi:
+      - A benefits FROM B (A được lợi). B benefits A (B mang lợi cho A — không có giới từ).
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ban|v
+    headword: ban
+    pos: v
+    forms:
+      past: banned
+      ing: banning
+    ipa:
+      uk: /bæn/
+      us: /bæn/
+    cefr: B1
+    meaning_vi:
+      - cấm
+    collocations:
+      - ban smoking in public places
+      - be banned from
+    notes_vi:
+      - "Nhân đôi n: banned, banning. Danh từ cùng dạng: a ban ON something."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ban, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ban, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ban, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: budget|n
+    headword: budget
+    pos: n
+    ipa:
+      uk: /ˈbʌdʒ.ɪt/
+      us: /ˈbʌdʒ.ɪt/
+    cefr: B2
+    meaning_vi:
+      - ngân sách
+    collocations:
+      - the national budget
+      - a limited budget
+    topics:
+      - government
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/budget, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/budget, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/budget, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: bias|n
+    headword: bias
+    pos: n
+    ipa:
+      uk: /ˈbaɪ.əs/
+      us: /ˈbaɪ.əs/
+    cefr: null
+    meaning_vi:
+      - sự thiên lệch
+      - thành kiến
+    collocations:
+      - racial bias
+      - a bias against women
+      - algorithmic bias
+    topics:
+      - technology
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: breakthrough|n
+    headword: breakthrough
+    pos: n
+    ipa:
+      uk: /ˈbreɪk.θruː/
+      us: /ˈbreɪk.θruː/
+    cefr: null
+    meaning_vi:
+      - bước đột phá
+    collocations:
+      - a major breakthrough in
+      - a scientific breakthrough
+    topics:
+      - technology
+      - science
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: balanced-diet|phr-n
+    headword: balanced diet
+    pos: phr-n
+    ipa:
+      uk: /ˌbæl.ənst ˈdaɪ.ət/
+      us: /ˌbæl.ənst ˈdaɪ.ət/
+    cefr: null
+    meaning_vi:
+      - chế độ ăn cân bằng
+    collocations:
+      - eat a balanced diet
+    topics:
+      - health
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: burden|n
+    headword: burden
+    pos: n
+    ipa:
+      uk: /ˈbɜː.dən/
+      us: /ˈbɝː.dən/
+    cefr: null
+    meaning_vi:
+      - gánh nặng
+    collocations:
+      - a burden on the healthcare system
+      - a heavy burden
+    notes_vi:
+      - a burden ON somebody/something.
+    topics:
+      - health
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: bring-back-memories|idiom
+    headword: bring back memories
+    pos: idiom
+    forms:
+      past: brought back memories
+    ipa:
+      uk: /ˌbrɪŋ ˌbæk ˈmem.ər.iz/
+      us: /ˌbrɪŋ ˌbæk ˈmem.ɚ.iz/
+    cefr: null
+    meaning_vi:
+      - gợi lại kỷ niệm
+    collocations:
+      - this song brings back memories of my childhood
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: broaden-your-horizons|idiom
+    headword: broaden your horizons
+    pos: idiom
+    ipa:
+      uk: /ˌbrɔː.dən jɔː həˈraɪ.zənz/
+      us: /ˌbrɑː.dən jɚ həˈraɪ.zənz/
+    cefr: null
+    meaning_vi:
+      - mở rộng tầm nhìn
+      - hiểu biết
+    collocations:
+      - travel broadens your horizons
+    notes_vi:
+      - Rất hay bị học thuộc — chỉ dùng khi thật hợp ngữ cảnh, không mở mọi câu về du lịch bằng cụm này.
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

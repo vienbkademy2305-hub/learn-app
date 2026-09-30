@@ -62,6 +62,14 @@ describe("English stage tests — data", () => {
     const lessons = new Set(testExercises(final).flatMap(itemLessons));
     for (let n = 1; n <= 19; n++) expect(lessons.has(n), `lesson ${n}`).toBe(true);
   });
+
+  it("stage 2 has 4 mini tests and an exit test that covers Buổi 21–44", () => {
+    expect(snap.tests.filter((t) => t.stage === 2).map((t) => t.id)).toEqual(["gd2-mini-1", "gd2-mini-2", "gd2-mini-3", "gd2-mini-4", "gd2-final"]);
+    const final = byId("gd2-final");
+    expect(testItemCount(final)).toBeGreaterThanOrEqual(50);
+    const lessons = new Set(testExercises(final).flatMap(itemLessons));
+    for (let n = 21; n <= 44; n++) expect(lessons.has(n), `lesson ${n}`).toBe(true);
+  });
 });
 
 describe("English stage tests — scoring", () => {

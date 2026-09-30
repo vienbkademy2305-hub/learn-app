@@ -610,3 +610,784 @@ points:
         ref: Writing cơ bản L6 'Phương pháp đảm bảo sự mạch lạc', 'Referencing language' (Task 2 Adv/Disadv) — đối chiếu phạm vi, không chép
     source: editorial
     status: draft
+  - id: en-g2-11
+    lesson: buoi-31-gia-dinh-listening-multiple-choice
+    title: Câu điều kiện loại 1 (If + hiện tại, will + V) và unless
+    cefr: B1
+    structures:
+      - If + S + V(hiện tại đơn), S + will / can / may + V
+      - S + will + V + if + S + V(hiện tại đơn)   (không có dấu phẩy)
+      - Unless + S + V(hiện tại đơn) = If + S + don't/doesn't + V
+    explain: Dùng để nói về một việc CÓ THỂ xảy ra ở hiện tại hoặc tương lai và kết quả của nó. Mệnh đề if dùng hiện tại đơn dù ý là tương lai; mệnh đề kết quả dùng will (chắc chắn), can (có thể làm được), may/might (có thể xảy ra) hoặc câu mệnh lệnh. If đứng đầu câu thì có dấu phẩy ngăn hai vế; if đứng giữa thì không. unless mang sẵn nghĩa phủ định.
+    table:
+      - - Vế điều kiện
+        - Vế kết quả
+        - Ví dụ
+      - - If + hiện tại đơn
+        - will + V
+        - If parents work long hours, children will spend more time alone.
+      - - If + hiện tại đơn
+        - may / might + V
+        - If grandparents live with us, they may help with childcare.
+      - - If + hiện tại đơn
+        - câu mệnh lệnh
+        - If you feel lonely, call your family.
+      - - Unless + hiện tại đơn
+        - will + V
+        - Unless we talk more, the generation gap will grow.
+    notes:
+      - "Không dùng will trong vế if: If it rains … (không phải If it will rain …)."
+      - "when khác if: when = chắc chắn sẽ xảy ra (When my father retires next year …); if = chưa chắc."
+      - "Trong bài nghe Multiple choice, câu điều kiện hay dùng để cài bẫy: 'If the weather is bad, we'll go to the museum' — chưa chắc đã đi bảo tàng."
+    mistakes:
+      - wrong: If my parents will retire, they will move to the countryside.
+        right: If my parents retire, they will move to the countryside.
+        why: Vế if dùng hiện tại đơn, không dùng will.
+      - wrong: Unless you don't share the chores, your mother will be tired.
+        right: Unless you share the chores, your mother will be tired.
+        why: unless đã có nghĩa 'nếu không' — không thêm don't.
+      - wrong: If children do chores they learn responsibility, they will become independent.
+        right: If children do chores, they will learn responsibility and become more independent.
+        why: Một câu chỉ một vế if và một vế kết quả; if đứng đầu cần dấu phẩy.
+    examples:
+      - b31-001
+      - b31-002
+      - b31-003
+      - b31-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — unit if / when (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-12
+    lesson: buoi-32-xa-hoi-speaking-part-3
+    title: "Nêu lý do và ví dụ: because / because of / due to · for example / for instance / such as"
+    cefr: B1
+    structures:
+      - "because / since + MỆNH ĐỀ (S + V):   because parents are busy"
+      - "because of / due to + DANH TỪ:   because of work pressure"
+      - For example, / For instance, + CÂU ĐẦY ĐỦ
+      - "… such as + DANH TỪ (trong câu):   chores such as cooking"
+    explain: "Part 3 và Writing Task 2 chấm việc bạn phát triển ý. Cách đơn giản nhất: nêu ý kiến → lý do → ví dụ. Lý do: dùng because/since trước một mệnh đề, because of/due to trước một danh từ. Ví dụ: For example/For instance mở đầu một câu mới hoàn chỉnh; such as đứng giữa câu, theo sau là danh từ. Nhầm hai nhóm này là lỗi ngữ pháp rất hay gặp."
+    table:
+      - - Từ
+        - Theo sau là
+        - Ví dụ
+      - - because / since
+        - mệnh đề (S + V)
+        - Children copy their parents because they spend a lot of time together.
+      - - because of / due to
+        - danh từ / V-ing
+        - Many young couples delay having children because of the high cost of living.
+      - - For example, / For instance,
+        - câu đầy đủ
+        - For example, my father cooks dinner every weekend.
+      - - such as
+        - danh từ (liệt kê)
+        - Parents should teach skills such as cooking and saving money.
+    notes:
+      - "This is because + mệnh đề: cách nối lý do sang câu mới rất tự nhiên khi nói: 'Families are smaller now. This is because…'"
+      - "Không dùng Because đứng một mình như một câu hoàn chỉnh: *Because they are busy.* ❌ (chỉ chấp nhận khi trả lời câu hỏi Why? trong hội thoại)."
+      - "Ví dụ trong Part 3 có thể là: bản thân/gia đình bạn, nước bạn (In Vietnam, …), hoặc một xu hướng chung (Many companies now …)."
+    mistakes:
+      - wrong: Many parents are stressed because of they work long hours.
+        right: Many parents are stressed because they work long hours.
+        why: because of + danh từ; trước mệnh đề (they work…) dùng because.
+      - wrong: Children learn many skills. Such as cooking and cleaning.
+        right: Children learn many skills, such as cooking and cleaning.
+        why: such as không mở đầu câu mới; đặt trong câu, sau dấu phẩy.
+      - wrong: Due to parents are busy, children spend time online.
+        right: Due to their busy parents, children spend a lot of time online.
+        why: "due to + danh từ, không + mệnh đề. Hoặc: Because parents are busy, …"
+    examples:
+      - b32-001
+      - b32-002
+      - b32-003
+      - b32-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản — 3 cách mở rộng câu trả lời; Writing cơ bản — supporting sentences (explanation / example). Đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-13
+    lesson: buoi-33-du-lich-sentence-completion
+    title: Câu điều kiện loại 2 (If + quá khứ đơn, would + V)
+    cefr: B1
+    structures:
+      - If + S + V(quá khứ đơn), S + would / could / might + V
+      - If + I / he / she / it + were …   (were cho mọi ngôi)
+      - S + would + V + if + S + V(quá khứ đơn)
+    explain: "Dùng cho điều KHÔNG CÓ THẬT hoặc rất khó xảy ra ở hiện tại/tương lai, và kết quả tưởng tượng của nó. Động từ ở vế if lùi về quá khứ nhưng ý vẫn là hiện tại. Vế kết quả dùng would (sẽ), could (có thể), might (có lẽ). Với to be, văn viết dùng were cho mọi ngôi: If I were you… So với loại 1: loại 1 = có thể xảy ra thật; loại 2 = giả định, không thật."
+    table:
+      - - Loại
+        - Vế if
+        - Vế kết quả
+        - Ý nghĩa
+      - - Loại 1
+        - If fewer tourists come,
+        - the town will be quieter.
+        - có thể xảy ra thật
+      - - Loại 2
+        - If fewer tourists came,
+        - the town would be quieter.
+        - giả định, khó xảy ra
+      - - Lời khuyên
+        - If I were you,
+        - I would visit in the rainy season.
+        - đặt mình vào vị trí người khác
+    notes:
+      - "Không dùng would ở vế if: *If I would have more money…* ❌."
+      - If I were you, I would … là mẫu câu khuyên rất tự nhiên trong Speaking.
+      - Trong Reading, câu điều kiện loại 2 cho biết điều CHƯA xảy ra — câu hỏi hỏi 'điều gì đang xảy ra' thì đừng lấy đáp án từ câu giả định.
+    mistakes:
+      - wrong: If I have a lot of money, I would travel around the world.
+        right: If I had a lot of money, I would travel around the world.
+        why: "Loại 2: vế if dùng quá khứ đơn (had) để khớp với would."
+      - wrong: If the town would limit visitors, the streets would be less crowded.
+        right: If the town limited visitors, the streets would be less crowded.
+        why: Không dùng would trong vế if.
+      - wrong: If I was the mayor, I will ban cars in the old town.
+        right: If I were the mayor, I would ban cars in the old town.
+        why: Vế kết quả của loại 2 là would, không phải will; văn viết dùng were.
+    examples:
+      - b33-001
+      - b33-002
+      - b33-003
+      - b33-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — unit if I had / if we went (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-14
+    lesson: buoi-34-du-lich-writing-task-1-bar-chart
+    title: "So sánh số liệu: twice as many as, more/fewer/less than, whereas, respectively"
+    cefr: B1
+    structures:
+      - twice / three times / half + as many (N đếm được) / as much (N không đếm được) + as …
+      - more / fewer + N đếm được + than ·  more / less + N không đếm được + than
+      - A + V …, whereas / while + B + V …
+      - A and B + V + X and Y, respectively
+      - the highest / the lowest figure · the second most popular …
+    explain: "Biểu đồ cột thường so sánh nhiều nhóm tại cùng một thời điểm, nên điểm cần là so sánh CHÍNH XÁC. Gấp mấy lần: twice as many as (danh từ đếm được) / twice as much as (không đếm được). Ít hơn: fewer với danh từ đếm được (fewer tourists), less với không đếm được (less money). Đối chiếu hai nhóm trong một câu: whereas/while. Hai số liệu cho hai nhóm trong một câu: respectively ở cuối câu. So sánh nhất: the most popular, the second highest."
+    table:
+      - - Ý
+        - Cấu trúc
+        - Ví dụ
+      - - gấp đôi
+        - twice as many … as
+        - Hanoi had twice as many visitors as Hue.
+      - - ít hơn (đếm được)
+        - fewer … than
+        - Fewer tourists visited in 2021 than in 2019.
+      - - ít hơn (không đếm được)
+        - less … than
+        - Tourists spent less money on shopping than on food.
+      - - đối chiếu
+        - …, whereas …
+        - Domestic visitors rose, whereas international visitors fell.
+      - - lần lượt
+        - …, respectively
+        - Food and hotels made up 30% and 45%, respectively.
+      - - xếp hạng
+        - the second most …
+        - Da Nang was the second most popular destination.
+    notes:
+      - "Chủ ngữ số liệu hay dùng: the number of + N số nhiều (đếm được) · the amount of + N không đếm được · the figure for + nhóm · the percentage of."
+      - "Không so sánh con số với một nhóm: *The figure for Hanoi was higher than Hue.* → higher than THAT OF Hue / than the figure for Hue."
+      - "Nhắc lại: mô tả số liệu quá khứ dùng quá khứ đơn."
+    mistakes:
+      - wrong: Hanoi had two times more visitors as Hue.
+        right: Hanoi had twice as many visitors as Hue.
+        why: "Cấu trúc gấp đôi: twice as many … as (không trộn more với as)."
+      - wrong: Tourists spent fewer money on shopping than on accommodation.
+        right: Tourists spent less money on shopping than on accommodation.
+        why: money không đếm được → less; fewer chỉ dùng với danh từ đếm được số nhiều.
+      - wrong: The number of visitors to Hue was lower than Da Nang.
+        right: The number of visitors to Hue was lower than that to Da Nang.
+        why: "So sánh số với số: than that to/for Da Nang (hoặc than the number for Da Nang)."
+    examples:
+      - b34-001
+      - b34-002
+      - b34-003
+      - b34-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L4 'Task 1 — biểu đồ xu hướng + so sánh' — đối chiếu phạm vi, không chép
+      - source: prep-trung-cap
+        field: scope
+        ref: Writing trung cấp bài 4 'Charts of Comparison' — chỉ biết tên bài (video, chưa xem)
+    source: editorial
+    status: draft
+  - id: en-g2-15
+    lesson: buoi-35-do-thi-hoa-listening-matching
+    title: "Câu tường thuật cơ bản (reported speech): said / told + lùi thì"
+    cefr: B1
+    structures:
+      - S + said (that) + S + V (lùi một thì)
+      - S + told + NGƯỜI NGHE + (that) + S + V (lùi một thì)
+      - S + asked (me) + if / whether + S + V   (câu hỏi Yes/No)
+      - S + asked (me) + wh-word + S + V   (không đảo ngữ)
+    explain: "Khi thuật lại lời người khác bằng said/told, động từ trong lời nói thường lùi một thì: hiện tại → quá khứ, will → would, can → could, is doing → was doing, has done → had done. Đại từ và từ chỉ thời gian/nơi chốn cũng đổi theo người nói: I → he/she, today → that day, tomorrow → the next day, here → there. say KHÔNG có người nghe ngay sau; tell BẮT BUỘC có. Câu hỏi tường thuật trở thành câu kể: không còn đảo trợ động từ, không có dấu hỏi."
+    table:
+      - - Lời nói trực tiếp
+        - Tường thuật
+      - - '"Rents are rising."'
+        - She said (that) rents were rising.
+      - - '"The new metro line will open next year."'
+        - He said the new metro line would open the following year.
+      - - "\"I can't afford a flat in the city centre.\""
+        - Nam told me he couldn't afford a flat in the city centre.
+      - - '"We have moved to the suburbs."'
+        - They said they had moved to the suburbs.
+      - - '"Do you live near here?"'
+        - She asked me if I lived near there.
+      - - '"Where do you work?"'
+        - He asked me where I worked.
+    notes:
+      - "Nếu điều được nói VẪN ĐÚNG hiện tại, có thể không lùi thì: He said Hanoi is the capital."
+      - "Trong IELTS Listening, người nói hay thuật lại ý kiến người khác: 'My tutor said I should…' — phân biệt ý kiến của AI để trả lời câu matching."
+      - "Trong Writing Task 2 dùng mẫu gần giống: Some people say that …, Experts argue that … (thì hiện tại)."
+    mistakes:
+      - wrong: She said me that rents were too high.
+        right: She told me that rents were too high.
+        why: say không đi thẳng với người nghe; có người nghe thì dùng tell somebody (hoặc said to me).
+      - wrong: He told that the traffic was terrible.
+        right: He said that the traffic was terrible.
+        why: "tell phải có người nghe: He told me/us that …"
+      - wrong: She asked me where did I live.
+        right: She asked me where I lived.
+        why: Câu hỏi tường thuật không đảo ngữ, không dùng did.
+    examples:
+      - b35-001
+      - b35-002
+      - b35-003
+      - b35-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — unit say/tell, reported speech (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-16
+    lesson: buoi-36-do-thi-hoa-speaking-part-1-2
+    title: "Từ nối trong văn nói: besides, apart from, as well as · actually, to be honest · anyway"
+    cefr: B1
+    structures:
+      - "Thêm ý:  Besides, + câu  ·  Apart from + N/V-ing, …  ·  … as well as + N/V-ing"
+      - "Sửa ý / nói thật:  Actually, …  ·  To be honest, …"
+      - "Quay lại ý chính:  Anyway, …"
+      - "Nhấn mạnh:  What I like most about … is (that) …  ·  The thing is, …"
+    explain: "Giám khảo chấm Fluency & Coherence: câu trả lời có trôi và có liên kết không. Văn nói dùng bộ từ nối KHÁC văn viết — nói 'Furthermore' hay 'Moreover' nghe như đọc bài. Trong Speaking, dùng: Besides/Apart from that (thêm ý), Actually/To be honest (nói điều thật hoặc hơi trái kỳ vọng), Anyway (quay về ý chính sau khi lạc đề), What I like most is… (nhấn mạnh). Lưu ý ngữ pháp: apart from và as well as + danh từ/V-ing, không + mệnh đề."
+    table:
+      - - Chức năng
+        - Văn nói (Speaking)
+        - Văn viết (Writing)
+      - - thêm ý
+        - Besides, … / Apart from that, … / Also, …
+        - In addition, … / Furthermore, …
+      - - đối lập
+        - But … / Actually, … / Having said that, …
+        - However, … / On the other hand, …
+      - - nói thật
+        - To be honest, … / Honestly, …
+        - (không dùng)
+      - - quay lại ý
+        - Anyway, …
+        - (không dùng)
+      - - nhấn mạnh
+        - What I like most is … / The thing is, …
+        - The main reason is that …
+    notes:
+      - actually ≠ hiện nay. 'Hiện nay tôi sống ở Hà Nội' = At the moment / Currently, I live in Hanoi.
+      - Đừng mở MỌI câu trả lời bằng 'Well, …' hoặc 'To be honest, …' — lặp lại cũng bị trừ điểm.
+      - Nói tự nhiên thì ghép ý bằng and/but/so/because (Buổi 22) vẫn là tốt nhất; từ nối trên chỉ thêm 'gia vị'.
+    mistakes:
+      - wrong: Actually, I am a third-year student at university.
+        right: At the moment, I'm a third-year student at university.
+        why: actually = thật ra, không phải 'hiện nay'.
+      - wrong: Apart from it is noisy, I love my district.
+        right: Apart from the noise, I love my district.
+        why: apart from + danh từ/V-ing, không + mệnh đề.
+      - wrong: Furthermore, my district has moreover a big market.
+        right: Besides, my district has a big market.
+        why: Văn nói dùng từ nối nhẹ; không chồng hai từ nối cùng nghĩa.
+    examples:
+      - b36-001
+      - b36-002
+      - b36-003
+      - b36-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản — cách mở rộng câu trả lời, FANBOYS; nói về sự việc xung quanh — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-17
+    lesson: buoi-37-truyen-thong-matching-information
+    title: "Nhượng bộ: although / even though + mệnh đề · despite / in spite of + danh từ, V-ing"
+    cefr: B1
+    structures:
+      - Although / Even though + S + V, S + V   (không có 'but')
+      - Despite / In spite of + N / V-ing, S + V
+      - Despite / In spite of + the fact that + S + V, S + V
+      - S + V. However, S + V.   (Buổi 30 — nối hai câu)
+    explain: "Dùng để nói hai ý trái ngược: một điều xảy ra dù có điều khác cản trở. Although/even though đứng trước một MỆNH ĐỀ (có chủ ngữ + động từ); despite/in spite of đứng trước DANH TỪ hoặc V-ing. Muốn dùng despite với mệnh đề thì thêm the fact that. Vì although đã mang nghĩa đối lập, vế còn lại không được thêm but. Đây là cấu trúc câu phức giúp tăng điểm Grammatical Range trong Writing."
+    table:
+      - - Cấu trúc
+        - Theo sau là
+        - Ví dụ
+      - - Although / Even though
+        - mệnh đề
+        - Although the story was false, it spread quickly.
+      - - Despite / In spite of
+        - danh từ
+        - Despite the warnings, many people shared the video.
+      - - Despite / In spite of
+        - V-ing
+        - In spite of being a journalist, he didn't check the source.
+      - - Despite the fact that
+        - mệnh đề
+        - Despite the fact that the post was fake, it got a million likes.
+    notes:
+      - "Chuyển đổi: Although it rained → Despite the rain / Despite it raining. Although he was tired → Despite being tired (cùng chủ ngữ)."
+      - Trong Reading, although/despite/however báo hiệu ý đối lập — thông tin sau từ này thường là trọng tâm.
+      - "Dấu phẩy: Although … đứng đầu thì có dấu phẩy ngăn hai vế; đứng giữa câu thì thường không cần."
+    mistakes:
+      - wrong: Although the news was fake, but many people believed it.
+        right: Although the news was fake, many people believed it.
+        why: Although đã mang nghĩa đối lập — bỏ but.
+      - wrong: Despite the news was fake, many people believed it.
+        right: Despite the fact that the news was fake, many people believed it.
+        why: despite + danh từ/V-ing; muốn dùng mệnh đề thì thêm the fact that (hoặc dùng Although).
+      - wrong: Despite of the warnings, he shared the post.
+        right: Despite the warnings, he shared the post.
+        why: despite không có of; in spite of mới có of.
+    examples:
+      - b37-001
+      - b37-002
+      - b37-003
+      - b37-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — unit although / but (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-18
+    lesson: buoi-38-truyen-thong-writing-discussion
+    title: "Trình bày quan điểm: Some people argue that … / Others believe … / It is often claimed that …"
+    cefr: B2
+    structures:
+      - Some people argue / believe / claim that + S + V
+      - Others think / feel that + S + V
+      - It is often argued / said / claimed that + S + V   (bị động khách quan)
+      - While some people think …, others believe …
+      - "Ý kiến riêng:  I believe / In my view, / From my point of view, …"
+    explain: "Dạng Discussion yêu cầu trình bày quan điểm của NGƯỜI KHÁC rồi mới đến quan điểm của bạn. Để giám khảo thấy rõ ai nghĩ gì, dùng động từ tường thuật ở hiện tại: argue (lập luận), claim (cho rằng, có thể chưa đúng), believe, feel. Mẫu bị động khách quan 'It is often argued that …' nghe học thuật và giúp tránh lặp 'some people'. Chuyển sang ý kiến của bạn bằng I believe / In my view — đừng trộn lẫn hai phần."
+    table:
+      - - Mục đích
+        - Mẫu câu
+      - - giới thiệu quan điểm 1
+        - Some people argue that … / It is often claimed that …
+      - - giới thiệu quan điểm 2
+        - Others, however, believe that … / On the other hand, many people feel that …
+      - - gộp hai quan điểm (mở bài)
+        - While some people think …, others believe …
+      - - ý kiến riêng
+        - I believe that … / In my view, … / From my point of view, …
+    notes:
+      - Dùng thì HIỆN TẠI cho các động từ này trong Task 2 (argue, claim, believe) — không lùi thì như câu tường thuật ở Buổi 35.
+      - "'Some people' chỉ dùng 1–2 lần; đổi sang: supporters of …, critics of …, those who …, many parents, some experts."
+      - It is argued that + mệnh đề (không phải *It is argued about …*).
+    mistakes:
+      - wrong: Some people argue about that the government should control social media.
+        right: Some people argue that the government should control social media.
+        why: argue that + mệnh đề; argue about + danh từ.
+      - wrong: It is often claimed social media is harmful.
+        right: It is often claimed that social media is harmful.
+        why: Trong văn viết giữ that sau It is claimed/argued.
+      - wrong: In my point of view, both sides are right.
+        right: From my point of view, both sides have a point.
+        why: from my point of view; in my view/opinion.
+    examples:
+      - b38-001
+      - b38-002
+      - b38-003
+      - b38-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L7 'Discuss both views and give your own opinion' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-19
+    lesson: buoi-39-viec-lam-listening-part-3-4
+    title: "Mục đích: to V / in order to V / so as to V / so that + S + can/will"
+    cefr: B1
+    structures:
+      - S + V + (in order) to + V   ·   in order not to + V
+      - S + V + so as to + V   ·   so as not to + V
+      - S + V + so that + S + can / could / will / would + V
+    explain: "Dùng để nói ai đó làm gì NHẰM MỤC ĐÍCH gì. Cách đơn giản nhất: to + V (I work part-time to pay my fees). in order to và so as to trang trọng hơn, hợp với Writing; phủ định đặt not ngay trước to. Khi hai vế có CHỦ NGỮ KHÁC NHAU hoặc có can/will, dùng so that + mệnh đề. Không dùng 'for + V' để nói mục đích — đây là lỗi dịch từ 'để' rất hay gặp."
+    table:
+      - - Cấu trúc
+        - Ví dụ
+      - - to + V
+        - She did an internship to gain experience.
+      - - in order to + V
+        - Many graduates move to Hanoi in order to find better jobs.
+      - - in order not to + V
+        - He left early in order not to miss the interview.
+      - - so as to + V
+        - The company recruits students so as to train them early.
+      - - so that + S + can/could
+        - I work from home on Mondays so that I can take my son to school.
+      - - so that + S + won't/wouldn't
+        - She saved money so that she wouldn't need a loan.
+    notes:
+      - "for + DANH TỪ thì đúng: I went there for an interview. for + V (for to find, for find) thì sai."
+      - "Quá khứ: so that + could/would (She studied hard so that she could get a promotion)."
+      - Trong Listening Part 3–4, câu hỏi 'Why did…?' / 'What was the purpose of…?' → nghe to / in order to / so that.
+    mistakes:
+      - wrong: I learn English for find a better job.
+        right: I learn English to find a better job.
+        why: "Mục đích + động từ: to V (không dùng for + V)."
+      - wrong: She works hard so that get a promotion.
+        right: She works hard so that she can get a promotion.
+        why: so that + MỆNH ĐỀ (có chủ ngữ + can/will).
+      - wrong: He left early in order to not miss the bus.
+        right: He left early in order not to miss the bus.
+        why: "Phủ định: in order not to + V."
+    examples:
+      - b39-001
+      - b39-002
+      - b39-003
+      - b39-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — unit to … (I went out to post a letter) / for and to (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-20
+    lesson: buoi-40-viec-lam-speaking-part-3
+    title: "Paraphrase câu hỏi: đổi từ loại (danh từ hóa) và When it comes to + N/V-ing"
+    cefr: B2
+    structures:
+      - When it comes to + N / V-ing, S + V …
+      - As for + N, …   ·   In terms of + N, …
+      - "Đổi từ loại:  unemployed (adj) → unemployment (n)  ·  grow (v) → growth (n)  ·  poor (adj) → poverty (n)"
+      - "Đổi cấu trúc:  Why do …? → The main reason (why) … is that …"
+    explain: "Ở Part 3, mở đầu bằng cách nhắc lại câu hỏi bằng từ KHÁC giúp bạn có vài giây suy nghĩ và cho giám khảo thấy vốn từ (Lexical Resource). Hai kỹ thuật: (1) đổi từ loại — biến động từ/tính từ trong câu hỏi thành danh từ (Why are young people unemployed? → youth unemployment); (2) dùng khung 'When it comes to + N/V-ing' để giới thiệu chủ đề. Sau phần paraphrase ngắn, trả lời ngay theo A-R-E-A (Buổi 32). Không lặp nguyên văn câu hỏi."
+    table:
+      - - Câu hỏi của giám khảo
+        - Paraphrase mở đầu
+      - - Why are so many young people unemployed?
+        - When it comes to youth unemployment, I think the main reason is …
+      - - Will robots take people's jobs?
+        - As for automation replacing workers, I'd say it will happen in some industries …
+      - - How can the government help poor people?
+        - In terms of reducing poverty, the government could …
+      - - Is it good to change jobs often?
+        - Changing jobs frequently can have both benefits and drawbacks …
+    notes:
+      - "When it comes to + V-ing (không phải to V): When it comes to finding a job, …"
+      - Paraphrase chỉ 1 câu ngắn — rồi trả lời. Paraphrase dài không trả lời gì là lạc đề.
+      - Không cần từ hiếm; đổi từ loại (grow → growth, employ → employment) là đủ và an toàn.
+    mistakes:
+      - wrong: When it comes to find a job, experience is important.
+        right: When it comes to finding a job, experience is important.
+        why: to ở đây là giới từ → + V-ing.
+      - wrong: About the unemployment, I think it is a big problem because unemployment.
+        right: As for unemployment, I think it is a big problem because young people cannot earn money.
+        why: Dùng As for/When it comes to; lý do phải là một mệnh đề có nội dung, không lặp từ.
+      - wrong: The economical growth of Vietnam is fast.
+        right: The economic growth of Vietnam is fast.
+        why: economic = thuộc kinh tế; economical = tiết kiệm.
+    examples:
+      - b40-001
+      - b40-002
+      - b40-003
+      - b40-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản — tiêu chí chấm, Lexical Resource (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-21
+    lesson: buoi-41-toan-cau-hoa-summary-completion
+    title: Danh động từ và động từ nguyên mẫu (V-ing vs to V) — mở rộng
+    cefr: B1
+    structures:
+      - "V-ing làm CHỦ NGỮ:  Travelling abroad is expensive."
+      - "Giới từ + V-ing:  interested in learning · instead of buying · by working · without asking"
+      - "It + be + tính từ + to V:  It is important to protect local businesses."
+      - avoid / consider / suggest / admit / risk + V-ing  ·  afford / refuse / manage / fail / tend + to V
+      - "Đổi nghĩa:  stop / remember / forget / try + V-ing vs + to V"
+    explain: "Buổi 16 đã học nhóm cơ bản (enjoy + V-ing, want + to V). Buổi này mở rộng ba quy tắc chắc chắn: (1) V-ing làm chủ ngữ ở đầu câu; (2) sau MỌI giới từ (in, on, of, by, without, instead of…) là V-ing; (3) sau tính từ trong mẫu It is + adj là to V. Thêm một nhóm động từ đổi nghĩa: stop smoking (bỏ hút) ≠ stop to smoke (dừng lại để hút); remember locking (nhớ là đã khóa) ≠ remember to lock (nhớ phải khóa). Trong Reading summary, loại từ này quyết định từ điền."
+    table:
+      - - Động từ
+        - + V-ing
+        - + to V
+      - - stop
+        - "ngừng hẳn việc đó: He stopped buying imported goods."
+        - "dừng lại ĐỂ làm việc khác: He stopped to buy a coffee."
+      - - remember
+        - "nhớ việc đã làm: I remember visiting Japan."
+        - "nhớ việc cần làm: Remember to bring your passport."
+      - - try
+        - "thử làm xem sao: Try selling online."
+        - "cố gắng: She tried to learn Japanese."
+      - - forget
+        - "quên việc đã làm (thường I'll never forget …): I'll never forget meeting her."
+        - "quên làm: Don't forget to pay the tax."
+    notes:
+      - to trong look forward to, be used to (Buổi 28), when it comes to (Buổi 40) là GIỚI TỪ → + V-ing.
+      - "Chủ ngữ V-ing đi với động từ số ít: Buying foreign goods IS popular."
+      - "Nhóm hay bị sai: suggest + V-ing (không *suggest to do*), afford + to V (không *afford buying*)."
+    mistakes:
+      - wrong: Buy imported goods are popular among young people.
+        right: Buying imported goods is popular among young people.
+        why: Chủ ngữ là hành động → V-ing, động từ số ít.
+      - wrong: Many people are interested in learn about other cultures.
+        right: Many people are interested in learning about other cultures.
+        why: Sau giới từ (in) → V-ing.
+      - wrong: The teacher suggested to read the passage first.
+        right: The teacher suggested reading the passage first.
+        why: suggest + V-ing.
+    examples:
+      - b41-001
+      - b41-002
+      - b41-003
+      - b41-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — units verb + -ing / verb + to …, preposition + -ing (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-22
+    lesson: buoi-42-toan-cau-hoa-writing-task-1-pie-chart
+    title: "Diễn đạt tỉ lệ: account for / make up / represent · phân số (a quarter, a third, half) · just over / nearly"
+    cefr: B2
+    structures:
+      - A + accounts for / makes up / represents + X% + of + tổng
+      - X% of + N + be/V …   ·   The proportion / percentage of + N + was X%
+      - "Phân số:  a quarter (25%) · a third (33%) · half (50%) · two thirds (67%) · three quarters (75%)"
+      - "Ước lượng:  just over / just under / nearly / roughly + số hoặc phân số"
+    explain: "Biểu đồ tròn cho thấy các PHẦN của một TỔNG. Bạn cần nhiều cách nói 'chiếm X%' để không lặp: account for, make up, represent (chủ động, không bị động). Dùng phân số để bài tự nhiên hơn: 26% = just over a quarter; 48% = nearly half; 65% = roughly two thirds. Với danh từ không đếm được sau 'X% of' động từ chia số ít (30% of the money WAS…); danh từ số nhiều thì chia số nhiều (30% of exports WERE…)."
+    table:
+      - - Số liệu
+        - Cách diễn đạt
+      - - 24%
+        - nearly a quarter / just under a quarter
+      - - 26%
+        - just over a quarter
+      - - 33%
+        - a third / one in three
+      - - 49%
+        - nearly half / just under half
+      - - 52%
+        - just over half / the majority
+      - - 67%
+        - two thirds
+      - - 74%
+        - nearly three quarters
+      - - 5%
+        - a small minority / only one in twenty
+    notes:
+      - "account FOR (có for); make up (không có of ngay sau: make up 20% OF exports); represent (không giới từ)."
+      - "Hai biểu đồ tròn hai năm → có thay đổi: 'The share of X rose from 20% to 35%' (dùng ngôn ngữ xu hướng Buổi 26)."
+      - "Mixed charts: overview phải nói về CẢ HAI biểu đồ; nối hai biểu đồ bằng 'This is reflected in the table, which shows…'."
+    mistakes:
+      - wrong: Electronics were accounted for 40% of exports.
+        right: Electronics accounted for 40% of exports.
+        why: account for là chủ động.
+      - wrong: Clothes made up of 15% of the total.
+        right: Clothes made up 15% of the total.
+        why: make up + X% of …; không 'made up of' ở nghĩa chiếm tỉ lệ (made up of = được tạo thành từ).
+      - wrong: The 30 percentage of exports went to China.
+        right: Thirty per cent of exports went to China.
+        why: Có con số → per cent / %; percentage đi một mình (a high percentage).
+    examples:
+      - b42-001
+      - b42-002
+      - b42-003
+      - b42-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L5 'Task 1 — các dạng biểu đồ khác' — đối chiếu phạm vi, không chép
+      - source: prep-trung-cap
+        field: scope
+        ref: Writing trung cấp bài 5 'Mixed charts' — chỉ biết tên bài (video, chưa xem)
+    source: editorial
+    status: draft
+  - id: en-g2-23
+    lesson: buoi-43-chinh-phu-listening-part-4
+    title: "Bị động với động từ khuyết thiếu: should / must / can / will + be + V3"
+    cefr: B1
+    structures:
+      - S + should / must / can / could / will / might + be + V3 (+ by …)
+      - S + have to / need to + be + V3
+      - "Phủ định: S + should not / cannot + be + V3"
+    explain: "Buổi 29 đã học bị động ở các thì. Với động từ khuyết thiếu, công thức luôn là modal + BE + V3 (be không chia). Mẫu này rất hay dùng để đưa ra đề xuất khách quan trong Writing Task 2 và trong bài giảng Part 4: thay vì 'The government should ban plastic bags', viết 'Plastic bags should be banned' — nhấn vào VIỆC cần làm, không cần nói ai làm. Trong bài nghe, các câu 'X must be done', 'X could be reduced' thường chứa đáp án cho phần giải pháp."
+    table:
+      - - Chủ động
+        - Bị động
+      - - The government should introduce a sugar tax.
+        - A sugar tax should be introduced.
+      - - The police must enforce the law.
+        - The law must be enforced.
+      - - We can reduce pollution.
+        - Pollution can be reduced.
+      - - They will not raise taxes.
+        - Taxes will not be raised.
+      - - Someone needs to fund the scheme.
+        - The scheme needs to be funded.
+    notes:
+      - "be KHÔNG chia: *should is banned* ❌, *must being enforced* ❌."
+      - "V3 bất quy tắc hay gặp: spend → spent, cut → cut, build → built, give → given."
+      - "Đừng lạm dụng: mỗi đoạn 1–2 câu bị động modal là đủ, còn lại dùng chủ động cho rõ ràng."
+    mistakes:
+      - wrong: Plastic bags should banned in supermarkets.
+        right: Plastic bags should be banned in supermarkets.
+        why: "Thiếu be: modal + be + V3."
+      - wrong: More money must be spend on healthcare.
+        right: More money must be spent on healthcare.
+        why: Sau be là V3 (spent), không phải V nguyên thể.
+      - wrong: Smoking in public places should is banned.
+        right: Smoking in public places should be banned.
+        why: Sau modal, be giữ nguyên dạng.
+    examples:
+      - b43-001
+      - b43-002
+      - b43-003
+      - b43-004
+    provenance:
+      - source: egiu
+        field: scope
+        ref: Essential Grammar in Use — passive units (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g2-24
+    lesson: buoi-44-chinh-phu-writing-problem-solution
+    title: "Nguyên nhân – hậu quả – giải pháp: lead to / result in / be caused by · One solution is to V / can be solved by V-ing"
+    cefr: B2
+    structures:
+      - "Nguyên nhân → kết quả:  A + leads to / results in / causes + B"
+      - "Kết quả ← nguyên nhân:  B + is caused by / results from + A"
+      - One (possible) solution is to + V   ·   Another way to tackle this is to + V
+      - This problem can be solved / tackled / addressed by + V-ing
+    explain: "Dạng Problem–Solution cần nối rõ NGUYÊN NHÂN với KẾT QUẢ, rồi GIẢI PHÁP với vấn đề. lead to, result in, cause đi từ nguyên nhân tới kết quả; is caused by, results from đi ngược lại — đổi chiều là đổi nghĩa. lead to/result in là giới từ + danh từ/V-ing. Giải pháp nên có hai khung: 'One solution is to + V' và bị động 'can be solved by + V-ing' (nối Buổi 43). Mỗi giải pháp cần nói AI làm và VÌ SAO hiệu quả."
+    table:
+      - - Chiều
+        - Cấu trúc
+        - Ví dụ
+      - - nguyên nhân → kết quả
+        - lead to / result in / cause
+        - Fast food leads to obesity.
+      - - kết quả ← nguyên nhân
+        - be caused by / result from
+        - Obesity is often caused by poor diet.
+      - - giải pháp (chủ động)
+        - One solution is to + V
+        - One solution is to tax sugary drinks.
+      - - giải pháp (bị động)
+        - can be tackled by + V-ing
+        - This problem can be tackled by educating parents.
+    notes:
+      - lead to + V-ING (không *lead to eat*); result in + danh từ/V-ing.
+      - "Nhắc lại: One solution is TO + V (to ở đây là 'để') khác lead TO + V-ing (to là giới từ)."
+      - "Liên kết giải pháp với nguyên nhân: 'Since the main cause is…, the most effective solution would be…'."
+    mistakes:
+      - wrong: Eating too much sugar leads to have health problems.
+        right: Eating too much sugar leads to health problems.
+        why: lead to + danh từ/V-ing.
+      - wrong: Obesity results in poor diet.
+        right: Obesity results from poor diet.
+        why: Chế độ ăn là nguyên nhân → results FROM (hoặc Poor diet results in obesity).
+      - wrong: One solution is educate parents about healthy food.
+        right: One solution is to educate parents about healthy food.
+        why: One solution is TO + V.
+    examples:
+      - b44-001
+      - b44-002
+      - b44-003
+      - b44-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L8 'Problems – Causes – Solutions' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g2-25
+    lesson: buoi-45-tong-on-giai-doan-2
+    title: "Tổng ôn Giai đoạn 2: câu phức và các lỗi hay lặp lại"
+    cefr: B2
+    structures:
+      - Hiện tại hoàn thành / quá khứ đơn (21, 23) · bị động các thì + modal (29, 43)
+      - Mệnh đề quan hệ who/which/that (25) · câu tường thuật said/told/asked (35)
+      - Điều kiện loại 1 và 2 (31, 33) · nhượng bộ although/despite (37)
+      - Lý do – ví dụ (32) · mục đích to/so that (39) · nguyên nhân – kết quả lead to/result in (44)
+      - So sánh số liệu, tỉ lệ, xu hướng (26, 34, 42) · V-ing vs to V (41)
+    explain: "Giai đoạn 2 thêm vào bài viết và bài nói của bạn các câu PHỨC — thứ giúp tiêu chí Grammatical Range lên band 6. Bảng dưới gom mỗi cấu trúc về MỘT công thức cần nhớ và lỗi điển hình nhất. Trước khi thi hoặc nộp bài, rà lại theo đúng danh sách này: đây là những lỗi xuất hiện nhiều nhất ở người học Việt Nam trong giai đoạn này."
+    table:
+      - - Cấu trúc
+        - Công thức
+        - Lỗi hay gặp
+      - - Điều kiện loại 1
+        - If + hiện tại, will + V
+        - "*If it will rain* → If it rains"
+      - - Điều kiện loại 2
+        - If + quá khứ, would + V
+        - "*If I have money, I would* → If I had"
+      - - Nhượng bộ
+        - Although + mệnh đề / Despite + N, V-ing
+        - "*Although…, but…* · *Despite of*"
+      - - Lý do
+        - because + mệnh đề / because of + N
+        - "*because of they are busy*"
+      - - Mục đích
+        - to V / so that + S + can
+        - "*for find a job* → to find"
+      - - Bị động modal
+        - should / must + be + V3
+        - "*should banned* → should be banned"
+      - - Tường thuật
+        - said (that) / told + người nghe
+        - "*said me* → told me"
+      - - Nguyên nhân – kết quả
+        - A leads to / results in B
+        - "*lead to have* → lead to having"
+      - - Nối câu
+        - Câu 1. However, câu 2.
+        - "*…, however …* (comma splice)"
+    notes:
+      - "Ba lỗi riêng cần tự kiểm tra ở MỌI bài viết: viết hoa I, -s số nhiều, và nối câu bằng dấu phẩy (comma splice)."
+      - "Từ loại: analysis/analyst, journalism/journalist, economic/economical, responsible/responsibility."
+      - "Reading T/F/NG: không có thông tin → NG (không phải F); đọc đúng chủ thể của câu hỏi."
+    mistakes:
+      - wrong: Although many people use social media, but few of them check their sources.
+        right: Although many people use social media, few of them check their sources.
+        why: Although không đi với but (Buổi 37).
+      - wrong: Young people move to cities for find better jobs, this leads to overcrowding.
+        right: Young people move to cities to find better jobs. This leads to overcrowding.
+        why: "Mục đích: to V (Buổi 39); không nối hai câu bằng dấu phẩy."
+      - wrong: If the government will invest in public transport, traffic congestion would be reduced.
+        right: If the government invests in public transport, traffic congestion will be reduced.
+        why: "Loại 1: If + hiện tại, will + V (Buổi 31); không trộn will với would."
+    examples:
+      - b45-001
+      - b45-002
+      - b45-003
+      - b45-004
+    provenance: []
+    source: editorial
+    status: draft

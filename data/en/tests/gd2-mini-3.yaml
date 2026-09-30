@@ -1,0 +1,172 @@
+# Kiểm tra ngắn 3 Giai đoạn 2 — sau Buổi 35 (Buổi 31–35). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd2-mini-3
+title_vi: "Kiểm tra ngắn 3: Buổi 31–35"
+stage: 2
+kind: mini
+after_lesson: 35
+minutes: 40
+pass_percent: 80
+intro_vi: "Câu điều kiện loại 1 và 2, nêu lý do và ví dụ (because / because of / such as), so sánh số liệu, câu tường thuật; từ vựng Gia đình & xã hội – Du lịch & văn hóa – Đô thị hóa; nghe Multiple choice và Matching, đọc Sentence completion."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd2-mini-3-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "If my grandmother ___ with us, she will help with the cooking.", options: [will live, lives, lived, would live], answer: b, lesson: 31 }
+          - { q: "___ you share the chores, your mother will be exhausted.", options: [If, Unless, When, Because], answer: b, lesson: 31 }
+          - { q: "Many young couples delay having children ___ the high cost of living.", options: [because, because of, since, such as], answer: b, lesson: 32 }
+          - { q: "Teenagers argue with their parents ___ they want more freedom.", options: [due to, because of, because, for example], answer: c, lesson: 32 }
+          - { q: "If I ___ the mayor, I would ban cars in the old town.", options: [am, will be, were, would be], answer: c, lesson: 33 }
+          - { q: "If fewer tourists came, the town ___ quieter.", options: [will be, would be, is, was], answer: b, lesson: 33 }
+          - { q: "Hanoi had twice as ___ visitors as Hue.", options: [much, many, more, most], answer: b, lesson: 34 }
+          - { q: "Tourists spent ___ money on shopping than on hotels.", options: [fewer, less, little, few], answer: b, lesson: 34 }
+          - { q: "My neighbour ___ me that the rent had gone up.", options: [said, told, spoke, asked], answer: b, lesson: 35 }
+          - { q: "She asked me where ___.", options: [did I work, do I work, I worked, do I worked], answer: c, lesson: 35 }
+      - id: gd2-mini-3-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: "Viết lại câu theo yêu cầu."
+        questions:
+          - { q: "If you don't respect your elders, they won't respect you. → Unless ___", answer: "you respect your elders, they won't respect you.", accept: ["you respect your elders, they will not respect you."], lesson: 31 }
+          - { q: "I don't have enough money, so I can't travel abroad. → If I ___", answer: "had enough money, I could travel abroad.", accept: ["had enough money, I would travel abroad."], lesson: 33 }
+          - { q: "Food: 30%. Hotels: 45%. → Food and hotels accounted for ___", answer: "30% and 45%, respectively.", lesson: 34 }
+          - { q: "\"The metro line will open next year.\" → The mayor said ___", answer: "the metro line would open the following year.", accept: ["that the metro line would open the following year.", "the metro line would open the next year.", "that the metro line would open the next year."], lesson: 35 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd2-mini-3-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [generation gap, household chores, role model, peer pressure, preserve, overcrowded, domestic, whereas, infrastructure, suburbs]
+        questions:
+          - { q: "Parents and teenagers often disagree because of the ___.", answer: generation gap, lesson: 31 }
+          - { q: "Children should help with ___ such as washing the dishes.", answer: household chores, lesson: 31 }
+          - { q: "A good teacher can be a ___ for young people.", answer: role model, lesson: 32 }
+          - { q: "Some teenagers start smoking because of ___.", answer: peer pressure, lesson: 32 }
+          - { q: "We must ___ our old temples for future generations.", answer: preserve, lesson: 33 }
+          - { q: "In summer, the beaches are so ___ that you can't find a place to sit.", answer: overcrowded, lesson: 33 }
+          - { q: "Most visitors to Sapa are ___ tourists, not foreigners.", answer: domestic, lesson: 34 }
+          - { q: "Da Nang grew by 20%, ___ Sapa fell by 10%.", answer: whereas, lesson: 34 }
+          - { q: "The city needs to invest in ___ such as roads and hospitals.", answer: infrastructure, lesson: 35 }
+          - { q: "Many families have moved to the ___ because rents are lower there.", answer: suburbs, lesson: 35 }
+      - id: gd2-mini-3-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "Children who do chores learn a sense of ___.", base: responsible, answer: responsibility, lesson: 31 }
+          - { q: "Gender ___ starts at home.", base: equal, answer: equality, lesson: 32 }
+          - { q: "Hoi An is famous for its ___ festivals.", base: tradition, answer: traditional, lesson: 33 }
+          - { q: "Tourist ___ on food rose last year.", base: spend, answer: expenditure, accept: [spending], lesson: 34 }
+          - { q: "Rural-urban ___ has changed Vietnamese cities.", base: migrate, answer: migration, lesson: 35 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd2-mini-3-x5
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc đoạn văn và hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+        max_words: 2
+        lesson: 33
+        passage: |-
+          Ten years ago, the village of Ban Lac in the northern mountains received fewer than a thousand visitors a year. Most families grew rice and made traditional cloth, which they sold at the weekly market in the nearest town. Then a travel website described the village as "the most authentic place in the north", and everything changed. Today, around 50,000 tourists arrive every year. Many families now run homestays, where visitors sleep in wooden houses and eat meals with the family.
+
+          Not everyone is happy about this. Older residents say that young people are forgetting local customs, and the village festival, once a religious event, has become a show for tourists. The village leader believes the solution is education. Since 2022, children have had weekly lessons on the history and songs of their community. "If we don't teach them," he says, "our culture will disappear in one generation."
+        questions:
+          - { q: "In the past, most families earned money by growing rice and making ___.", answer: traditional cloth, accept: [cloth] }
+          - { q: "The village became popular after it appeared on a ___.", answer: travel website, accept: [website] }
+          - { q: "In homestays, tourists sleep in ___.", answer: wooden houses }
+          - { q: "Older people worry that the young are losing their ___.", answer: local customs, accept: [customs] }
+          - { q: "Children now study the history and ___ of their community.", answer: songs }
+      - id: gd2-mini-3-x6
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc bảng số liệu (giả định) và hoàn thành câu. Viết MỘT TỪ hoặc MỘT SỐ."
+        max_words: 1
+        lesson: 34
+        passage: |-
+          Average daily spending of tourists in one city, 2024 (US$)
+                            Hotel   Food   Shopping
+          Domestic            20     10       10
+          International       60     20       30
+        questions:
+          - { q: "International tourists spent three times as ___ on hotels as domestic tourists.", answer: much }
+          - { q: "Domestic tourists spent $10 on food and $10 on shopping, ___.", answer: respectively }
+          - { q: "Hotels were the largest ___ of spending for both groups.", answer: category }
+          - { q: "Domestic tourists spent ___ money than international tourists in every category.", answer: less }
+  - title_vi: Nghe
+    exercises:
+      - id: gd2-mini-3-x7
+        bank_no: 21
+        kind: mcq
+        instructions_vi: "Matching: nghe và chọn A–E cho mỗi khu vực. Có 1 phương án thừa. Nghe 1 lần như thi thật."
+        lesson: 35
+        audio_text: "Let me tell you about four areas of the city where we are planning changes. In the North District, people often complain about noise from the airport, but the biggest problem, according to our survey, is the lack of parks. In the old Market Area, the streets are very narrow, and at rush hour cars can hardly move, so our first project there is to reduce traffic. The Riverside area has lovely views and plenty of green space, but rents have doubled in five years, so ordinary families can no longer live there. Finally, the Eastern Suburbs. Housing is cheap and the air is clean, but there are very few jobs, so most people spend hours travelling to work."
+        passage: |-
+          A  noise
+          B  lack of green space
+          C  traffic congestion
+          D  high cost of housing
+          E  few job opportunities
+        questions:
+          - { q: "North District", options: [A, B, C, D, E], answer: b }
+          - { q: "Market Area", options: [A, B, C, D, E], answer: c }
+          - { q: "Riverside", options: [A, B, C, D, E], answer: d }
+          - { q: "Eastern Suburbs", options: [A, B, C, D, E], answer: e }
+      - id: gd2-mini-3-x8
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Nghe hai người nói chuyện (hai giọng, nghe 1 lần) rồi chọn đáp án đúng."
+        audio_text: |-
+          Woman: How was the family meeting last night?
+          Man: Better than I expected. We talked about who should look after Grandma now that she's elderly.
+          Woman: What did you decide?
+          Man: My aunt wanted her to move into a care home. But in the end, we agreed she'll live with my parents.
+          Woman: That's a big responsibility for them.
+          Man: Yes, so we'll share it. My sister and I will visit every weekend. And if my father retires next year, he'll have more time too.
+          Woman: That sounds like a close-knit family.
+          Man: It is. My mother said that grandparents gave us everything, so now it's our turn.
+        questions:
+          - { q: "What was the meeting about?", options: [a family holiday, looking after the grandmother, the father's job, selling a house], answer: b, lesson: 31 }
+          - { q: "Where will the grandmother live?", options: [in a care home, with the aunt, with the man's parents, alone], answer: c, lesson: 31 }
+          - { q: "When will the man and his sister visit?", options: [every day, every weekend, once a month, only on holidays], answer: b, lesson: 31 }
+          - { q: "What will happen if the father retires?", options: [He will move away., He will have more time., He will get a new job., He will sell the house.], answer: b, lesson: 31 }
+          - { q: "What did the mother say?", options: ["Grandparents should live alone.", "Grandparents gave the family everything.", "Care homes are the best choice.", "She was too busy."], answer: b, lesson: 35 }
+      - id: gd2-mini-3-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe một thí sinh trả lời Speaking Part 3. Chọn T (đúng) hoặc F (sai)."
+        audio_text: "I'd say that gender roles in Vietnam have changed a lot. In the past, men earned money, whereas women did all the housework. Nowadays, most women work, so couples share the chores. Take my parents, for example. My father cooks dinner three times a week. However, I think there is still some pressure on women, because people expect them to look after the children as well as work. If I were a parent, I would share everything equally."
+        questions:
+          - { q: "The speaker thinks gender roles have not changed.", answer: F, lesson: 32 }
+          - { q: "In the past, women did all the housework.", answer: T, lesson: 32 }
+          - { q: "The speaker's mother cooks dinner three times a week.", answer: F, explain_vi: "Người bố nấu — chú ý chủ thể.", lesson: 32 }
+          - { q: "The speaker believes women still face some pressure.", answer: T, lesson: 32 }
+          - { q: "The speaker is a parent.", answer: F, explain_vi: "'If I were a parent…' — câu giả định loại 2.", lesson: 33 }
+      - id: gd2-mini-3-x10
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 34
+        text: "Da Nang attracted twice as many visitors as Hue, whereas Sapa had fewer tourists than before."
+  - title_vi: Viết câu
+    exercises:
+      - id: gd2-mini-3-x11
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp."
+        text: "If my parents will retire, they will move to the countryside. Many people leave the city because of rents are high. If I was rich, I would buy a house in the old town. Hanoi had two times more visitors as Hue last year. My friend said me that the suburbs were quieter."
+        errors:
+          - { wrong: "If my parents will retire", right: "If my parents retire", why: "Vế if loại 1 dùng hiện tại đơn.", lesson: 31 }
+          - { wrong: "because of rents are high", right: "because rents are high", why: "because + mệnh đề.", lesson: 32 }
+          - { wrong: "If I was rich, I would", right: "If I were rich, I would", why: "Loại 2: văn viết dùng were cho mọi ngôi.", lesson: 33 }
+          - { wrong: "two times more visitors as Hue", right: "twice as many visitors as Hue", why: "twice as many … as.", lesson: 34 }
+          - { wrong: "said me that", right: "told me that", why: "Có người nghe → told somebody.", lesson: 35 }
+writing:
+  prompt_vi: "Không chấm tự động — tự viết rồi gửi để chữa: trả lời câu hỏi Part 3 dưới đây thành một đoạn 100–120 từ theo khung A-R-E-A, có ít nhất 1 câu điều kiện và 1 câu có because of/such as."
+  prompt_en: "Do you think young people should move to big cities to work, or stay in their hometown?"
+  words: { min: 100, max: 120 }

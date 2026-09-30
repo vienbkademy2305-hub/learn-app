@@ -1,12 +1,54 @@
 "use client";
 /**
- * English text-to-speech with the browser's voices (ENGLISH_SPLIT_PLAN Q3): no recorded audio yet.
- * Prefers a British voice, falls back to American, then to any English voice.
+ * English audio. Texts synthesised by `pnpm en:audio` (docs/EN_AUDIO_PLAN.md) play from MP3 files listed in
+ * assets/en-audio/manifest.json; anything else falls back to the browser's voices (ENGLISH_SPLIT_PLAN Q3),
+ * preferring a British voice, then American, then any English voice.
  */
 import { useEffect, useState } from "react";
 import { SpeakerIcon } from "@/features/audio/SpeakerIcon";
+import { assetUrl } from "@/lib/storage-url";
 
 type VoiceState = "loading" | "available" | "unavailable";
+/** n: normal speed file, s: slow file (words, sentences, listening) */
+type AudioEntry = { n: string; s?: string };
+
+let manifest: Record<string, AudioEntry> | null = null;
+let manifestLoad: Promise<void> | null = null;
+function loadManifest(): Promise<void> {
+  manifestLoad ??= fetch(assetUrl("en-audio/manifest.json"))
+    .then((r) => (r.ok ? r.json() : null))
+    .then((m: { items?: Record<string, AudioEntry> } | null) => void (manifest = m?.items ?? {}))
+    .catch(() => void (manifest = {}));
+  return manifestLoad;
+}
+const hasFiles = () => !!manifest && Object.keys(manifest).length > 0;
+
+let current: HTMLAudioElement | null = null;
+
+/** Stops whatever English audio is playing (file or browser voice). */
+export function stopEnglish() {
+  current?.pause();
+  current = null;
+  if (typeof window !== "undefined" && "speechSynthesis" in window) window.speechSynthesis.cancel();
+}
+
+/** Plays the recorded file for `text` if there is one; slow rates use the slow file (or 0.8× of the normal one). */
+function playFile(text: string, rate: number, onEnd?: () => void): boolean {
+  const entry = manifest?.[text];
+  if (!entry) return false;
+  const slow = rate < 0.8;
+  const audio = new Audio(assetUrl(`en-audio/${slow && entry.s ? entry.s : entry.n}`));
+  if (slow && !entry.s) audio.playbackRate = 0.8;
+  const done = () => {
+    if (current === audio) current = null;
+    onEnd?.();
+  };
+  audio.onended = done;
+  audio.onerror = done;
+  current = audio;
+  audio.play().catch(done);
+  return true;
+}
 
 function findEnglishVoice(): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis.getVoices();
@@ -22,12 +64,16 @@ function findEnglishVoice(): SpeechSynthesisVoice | null {
 export function useEnglishVoice(): VoiceState {
   const [state, setState] = useState<VoiceState>("loading");
   useEffect(() => {
-    if (!("speechSynthesis" in window)) return setState("unavailable");
-    const check = () => setState(findEnglishVoice() ? "available" : "unavailable");
+    let alive = true;
+    const tts = "speechSynthesis" in window;
+    const check = () => alive && setState(hasFiles() || (tts && findEnglishVoice()) ? "available" : "unavailable");
+    void loadManifest().then(check);
+    if (!tts) return () => void (alive = false);
     check();
     window.speechSynthesis.addEventListener("voiceschanged", check);
     const timer = window.setTimeout(check, 1500);
     return () => {
+      alive = false;
       window.speechSynthesis.removeEventListener("voiceschanged", check);
       window.clearTimeout(timer);
     };
@@ -36,9 +82,11 @@ export function useEnglishVoice(): VoiceState {
 }
 
 export function speakEnglish(text: string, rate = 1, onEnd?: () => void) {
+  stopEnglish();
+  if (playFile(text, rate, onEnd)) return;
+  if (!("speechSynthesis" in window)) return onEnd?.();
   const synth = window.speechSynthesis;
   const voice = findEnglishVoice();
-  synth.cancel();
   const u = new SpeechSynthesisUtterance(text);
   if (voice) {
     u.voice = voice;
@@ -65,7 +113,8 @@ export function dialogueTurns(text: string): Array<{ speaker: string; text: stri
  */
 export function speakDialogue(text: string, rate = 1, onEnd?: () => void) {
   const turns = dialogueTurns(text);
-  if (!turns) return speakEnglish(text, rate, onEnd);
+  if (!turns || manifest?.[text]) return speakEnglish(text, rate, onEnd);
+  stopEnglish();
   const synth = window.speechSynthesis;
   const first = findEnglishVoice();
   const english = synth.getVoices().filter((v) => /^en[-_]/i.test(v.lang));
@@ -73,7 +122,8 @@ export function speakDialogue(text: string, rate = 1, onEnd?: () => void) {
   const speakers = [...new Set(turns.map((t) => t.speaker))];
   synth.cancel();
   turns.forEach((t, i) => {
-    const k = speakers.indexOf(t.speaker) % 2;
+    const n = speakers.indexOf(t.speaker);
+    const k = n % 2;
     const voice = k === 0 ? first : (second ?? first);
     const u = new SpeechSynthesisUtterance(t.text);
     if (voice) {
@@ -82,6 +132,7 @@ export function speakDialogue(text: string, rate = 1, onEnd?: () => void) {
     } else u.lang = "en-GB";
     u.rate = rate;
     if (k === 1 && !second) u.pitch = 0.7; // one voice only: a lower pitch for the second speaker
+    if (n >= 2) u.pitch = 1.3; // a third speaker (tutor + two students in Part 3): same voices, higher pitch
     if (i === turns.length - 1) {
       u.onend = () => onEnd?.();
       u.onerror = () => onEnd?.();

@@ -742,3 +742,499 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deter, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deter, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: discipline|n
+    headword: discipline
+    pos: n
+    ipa:
+      uk: /ˈdɪs.ə.plɪn/
+      us: /ˈdɪs.ə.plɪn/
+    stress: DIS-ci-pline
+    cefr: B2
+    meaning_vi:
+      - kỷ luật
+      - sự rèn luyện kỷ luật
+    collocations:
+      - strict discipline
+      - self-discipline
+      - lack of discipline
+    notes_vi:
+      - "sc đọc /s/: DIS-ə-plin, không đọc 'đít-xíp-lai'."
+    topics:
+      - family
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discipline, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discipline, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discipline, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: due-to|prep
+    headword: due to
+    pos: prep
+    ipa:
+      uk: /ˈdʒuː tuː/
+      us: /ˈduː tuː/
+    cefr: null
+    meaning_vi:
+      - do
+      - bởi vì (+ danh từ)
+    collocations:
+      - due to work pressure
+      - due to the high cost
+    notes_vi:
+      - "Theo sau là DANH TỪ/cụm danh từ như because of: due to stress (không nói *due to they are busy*)."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: damage|v
+    headword: damage
+    pos: v
+    ipa:
+      uk: /ˈdæm.ɪdʒ/
+      us: /ˈdæm.ɪdʒ/
+    stress: DAM-age
+    cefr: B1
+    meaning_vi:
+      - làm hư hại
+    collocations:
+      - damage old buildings
+      - be badly damaged
+    notes_vi:
+      - "-age đọc /ɪdʒ/: DAM-ij. Danh từ cùng dạng: cause damage TO something (không đếm được)."
+    topics:
+      - culture
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/damage_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/damage_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/damage_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: destination|n
+    headword: destination
+    pos: n
+    ipa:
+      uk: /ˌdes.tɪˈneɪ.ʃən/
+      us: /ˌdes.təˈneɪ.ʃən/
+    stress: des-ti-NA-tion
+    cefr: B1
+    meaning_vi:
+      - điểm đến
+    collocations:
+      - a popular tourist destination
+      - a holiday destination
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/destination, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/destination, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: domestic|adj
+    headword: domestic
+    pos: adj
+    ipa:
+      uk: /dəˈmes.tɪk/
+      us: /dəˈmes.tɪk/
+    stress: do-MES-tic
+    cefr: B2
+    meaning_vi:
+      - trong nước
+      - nội địa
+    collocations:
+      - domestic tourists
+      - domestic flights
+    notes_vi:
+      - domestic tourists = khách nội địa (không phải 'khách trong nhà').
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/domestic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/domestic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/domestic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: double|v
+    headword: double
+    pos: v
+    ipa:
+      uk: /ˈdʌb.əl/
+      us: /ˈdʌb.əl/
+    cefr: null
+    meaning_vi:
+      - tăng gấp đôi
+    collocations:
+      - double in size
+      - the number doubled
+    notes_vi:
+      - "The number doubled (chủ động, không *was doubled*). Tăng gấp ba: tripled."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/double, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: district|n
+    headword: district
+    pos: n
+    ipa:
+      uk: /ˈdɪs.trɪkt/
+      us: /ˈdɪs.trɪkt/
+    cefr: B2
+    meaning_vi:
+      - quận
+      - khu vực
+    collocations:
+      - District 1
+      - the business district
+      - a residential district
+    notes_vi:
+      - Âm cuối /kt/ — district, không đọc 'đít-trích'.
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/district, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/district, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/district, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: despite|prep
+    headword: despite
+    pos: prep
+    ipa:
+      uk: /dɪˈspaɪt/
+      us: /dɪˈspaɪt/
+    stress: de-SPITE
+    cefr: B1
+    meaning_vi:
+      - mặc dù
+      - bất chấp (+ danh từ / V-ing)
+    notes_vi:
+      - "despite + N / V-ing (không có 'of'): *despite of the rain* ❌ → despite the rain / in spite of the rain."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/despite, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/despite, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/despite, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: diagram|n
+    headword: diagram
+    pos: n
+    ipa:
+      uk: /ˈdaɪ.ə.ɡræm/
+      us: /ˈdaɪ.ə.ɡræm/
+    cefr: null
+    meaning_vi:
+      - sơ đồ
+    collocations:
+      - the diagram illustrates
+      - a process diagram
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: deliver|v
+    headword: deliver
+    pos: v
+    ipa:
+      uk: /dɪˈlɪv.ər/
+      us: /dɪˈlɪv.ɚ/
+    stress: de-LIV-er
+    cefr: null
+    meaning_vi:
+      - giao
+      - chuyển đến
+    collocations:
+      - be delivered to shops
+      - deliver water to homes
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: demolish|v
+    headword: demolish
+    pos: v
+    ipa:
+      uk: /dɪˈmɒl.ɪʃ/
+      us: /dɪˈmɑː.lɪʃ/
+    stress: de-MOL-ish
+    cefr: null
+    meaning_vi:
+      - phá dỡ (công trình)
+    collocations:
+      - be demolished to make way for
+      - demolish old houses
+    notes_vi:
+      - "Danh từ: demolition. Đồng nghĩa: knock down, pull down (văn nói)."
+    topics:
+      - writing
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: dramatic|adj
+    headword: dramatic
+    pos: adj
+    ipa:
+      uk: /drəˈmæt.ɪk/
+      us: /drəˈmæt̬.ɪk/
+    stress: dra-MAT-ic
+    cefr: null
+    meaning_vi:
+      - đáng kể
+      - mạnh mẽ (thay đổi)
+    collocations:
+      - dramatic changes
+      - a dramatic transformation
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: distance-learning|phr-n
+    headword: distance learning
+    pos: phr-n
+    ipa:
+      uk: /ˈdɪs.təns ˌlɜː.nɪŋ/
+      us: /ˈdɪs.təns ˌlɝː.nɪŋ/
+    cefr: null
+    meaning_vi:
+      - học từ xa
+    collocations:
+      - distance learning courses
+    topics:
+      - education
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: deadline|n
+    headword: deadline
+    pos: n
+    ipa:
+      uk: /ˈded.laɪn/
+      us: /ˈded.laɪn/
+    cefr: null
+    meaning_vi:
+      - hạn chót
+    collocations:
+      - meet a deadline
+      - miss a deadline
+      - a tight deadline
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: deterrent|n
+    headword: deterrent
+    pos: n
+    ipa:
+      uk: /dɪˈter.ənt/
+      us: /dɪˈtɝː.ənt/
+    cefr: null
+    meaning_vi:
+      - biện pháp răn đe
+    collocations:
+      - act as a deterrent
+      - an effective deterrent to crime
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: death-penalty|phr-n
+    headword: death penalty
+    pos: phr-n
+    ipa:
+      uk: /ˈdeθ ˌpen.əl.ti/
+      us: /ˈdeθ ˌpen.əl.t̬i/
+    cefr: null
+    meaning_vi:
+      - án tử hình
+    collocations:
+      - abolish the death penalty
+      - support the death penalty
+    notes_vi:
+      - "Đồng nghĩa trang trọng: capital punishment."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: deepfake|n
+    headword: deepfake
+    pos: n
+    ipa:
+      uk: /ˈdiːp.feɪk/
+      us: /ˈdiːp.feɪk/
+    cefr: null
+    meaning_vi:
+      - video/âm thanh giả mạo bằng AI
+    collocations:
+      - deepfake videos
+      - spot a deepfake
+    topics:
+      - technology
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: digital-divide|phr-n
+    headword: digital divide
+    pos: phr-n
+    ipa:
+      uk: /ˌdɪdʒ.ɪ.təl dɪˈvaɪd/
+      us: /ˌdɪdʒ.ə.t̬əl dɪˈvaɪd/
+    cefr: null
+    meaning_vi:
+      - khoảng cách số (giữa người có và không có công nghệ)
+    collocations:
+      - widen the digital divide
+      - bridge the digital divide
+    topics:
+      - technology
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: detrimental|adj
+    headword: detrimental
+    pos: adj
+    ipa:
+      uk: /ˌdet.rɪˈmen.təl/
+      us: /ˌdet.rəˈmen.t̬əl/
+    stress: det-ri-MEN-tal
+    cefr: null
+    meaning_vi:
+      - có hại
+    collocations:
+      - have a detrimental effect on
+      - detrimental to health
+    notes_vi:
+      - detrimental TO something; have a detrimental effect ON something. Trang trọng hơn harmful (Buổi 38).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: dialect|n
+    headword: dialect
+    pos: n
+    ipa:
+      uk: /ˈdaɪ.ə.lekt/
+      us: /ˈdaɪ.ə.lekt/
+    cefr: null
+    meaning_vi:
+      - phương ngữ
+      - tiếng địa phương
+    collocations:
+      - a regional dialect
+      - speak a local dialect
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: descendant|n
+    headword: descendant
+    pos: n
+    ipa:
+      uk: /dɪˈsen.dənt/
+      us: /dɪˈsen.dənt/
+    cefr: null
+    meaning_vi:
+      - con cháu
+      - hậu duệ
+    collocations:
+      - direct descendants
+      - descendants of immigrants
+    notes_vi:
+      - "Đối lập: ancestor."
+    topics:
+      - culture
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

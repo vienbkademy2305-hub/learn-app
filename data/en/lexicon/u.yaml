@@ -151,3 +151,199 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: unless|conj
+    headword: unless
+    pos: conj
+    ipa:
+      uk: /ənˈles/
+      us: /ənˈles/
+    stress: un-LESS
+    cefr: B1
+    meaning_vi:
+      - trừ khi
+      - nếu … không
+    collocations:
+      - unless you hurry
+      - unless it rains
+    notes_vi:
+      - "unless = if … not. KHÔNG dùng thêm not: *Unless you don't study* ❌ → Unless you study / If you don't study."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unless, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unless, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unless, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: unique|adj
+    headword: unique
+    pos: adj
+    ipa:
+      uk: /juːˈniːk/
+      us: /juːˈniːk/
+    stress: u-NIQUE
+    cefr: B2
+    meaning_vi:
+      - độc nhất
+      - độc đáo
+    collocations:
+      - a unique culture
+      - unique to this region
+    notes_vi:
+      - "Mạo từ: a unique (vì phát âm /j/), không phải *an unique*."
+    topics:
+      - culture
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unique, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unique, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unique, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: urbanisation|n
+    headword: urbanisation
+    pos: n
+    ipa:
+      uk: /ˌɜː.bən.aɪˈzeɪ.ʃən/
+      us: /ˌɝː.bən.əˈzeɪ.ʃən/
+    stress: ur-ban-i-SA-tion
+    cefr: null
+    meaning_vi:
+      - đô thị hóa
+    collocations:
+      - rapid urbanisation
+      - the effects of urbanisation
+    notes_vi:
+      - Anh-Mỹ viết urbanization (z). Trong IELTS dùng cách viết nào cũng được, miễn nhất quán cả bài.
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: urban|adj
+    headword: urban
+    pos: adj
+    ipa:
+      uk: /ˈɜː.bən/
+      us: /ˈɝː.bən/
+    cefr: B2
+    meaning_vi:
+      - thuộc đô thị
+      - thành thị
+    collocations:
+      - urban areas
+      - urban life
+      - urban planning
+    notes_vi:
+      - "Đối lập: rural. Chỉ đứng trước danh từ: urban areas (không nói *The area is urban* trong văn tự nhiên)."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/urban, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/urban, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/urban, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: urban-sprawl|phr-n
+    headword: urban sprawl
+    pos: phr-n
+    ipa:
+      uk: /ˌɜː.bən ˈsprɔːl/
+      us: /ˌɝː.bən ˈsprɑːl/
+    cefr: null
+    meaning_vi:
+      - sự lan rộng tràn lan của đô thị ra vùng ven
+    collocations:
+      - control urban sprawl
+      - the problem of urban sprawl
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: unemployment|n
+    headword: unemployment
+    pos: n
+    ipa:
+      uk: /ˌʌn.ɪmˈplɔɪ.mənt/
+      us: /ˌʌn.ɪmˈplɔɪ.mənt/
+    stress: un-em-PLOY-ment
+    cefr: B1
+    meaning_vi:
+      - tình trạng thất nghiệp
+    collocations:
+      - high unemployment
+      - youth unemployment
+      - the unemployment rate
+    notes_vi:
+      - "Không đếm được. Người thất nghiệp: unemployed people / the unemployed (Buổi 7 có unemployed)."
+    topics:
+      - economy
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: unprecedented|adj
+    headword: unprecedented
+    pos: adj
+    ipa:
+      uk: /ʌnˈpres.ɪ.den.tɪd/
+      us: /ʌnˈpres.ə.den.t̬ɪd/
+    stress: un-PREC-e-den-ted
+    cefr: null
+    meaning_vi:
+      - chưa từng có
+    collocations:
+      - at an unprecedented speed
+      - unprecedented change
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: upskill|v
+    headword: upskill
+    pos: v
+    ipa:
+      uk: /ˈʌp.skɪl/
+      us: /ˈʌp.skɪl/
+    cefr: null
+    meaning_vi:
+      - nâng cao kỹ năng
+    collocations:
+      - upskill workers
+      - need to upskill
+    notes_vi:
+      - "Gần nghĩa retrain (Buổi 40): retrain = học nghề mới; upskill = nâng cấp kỹ năng nghề hiện tại."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

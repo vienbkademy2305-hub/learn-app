@@ -955,3 +955,596 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: traditional|adj
+    headword: traditional
+    pos: adj
+    ipa:
+      uk: /trəˈdɪʃ.ən.əl/
+      us: /trəˈdɪʃ.ən.əl/
+    stress: tra-DI-tion-al
+    cefr: A2
+    meaning_vi:
+      - truyền thống
+    collocations:
+      - traditional values
+      - traditional gender roles
+      - a traditional family
+    notes_vi:
+      - "Danh từ: tradition. Nhầm từ loại: *a tradition family* ❌ → a traditional family."
+    topics:
+      - family
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traditional, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/traditional, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/traditional, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: teenager|n
+    headword: teenager
+    pos: n
+    ipa:
+      uk: /ˈtiːnˌeɪ.dʒər/
+      us: /ˈtiːnˌeɪ.dʒɚ/
+    stress: TEEN-a-ger
+    cefr: A1
+    meaning_vi:
+      - thiếu niên (13–19 tuổi)
+    collocations:
+      - as a teenager
+      - teenagers and their parents
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/teenager, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/teenager, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/teenager, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tourism|n
+    headword: tourism
+    pos: n
+    ipa:
+      uk: /ˈtʊə.rɪ.zəm/
+      us: /ˈtʊr.ɪ.zəm/
+    stress: TOU-ri-sm
+    cefr: A2
+    meaning_vi:
+      - ngành du lịch
+      - hoạt động du lịch
+    collocations:
+      - the tourism industry
+      - promote tourism
+      - eco-tourism
+    notes_vi:
+      - tourism = ngành/hoạt động; tourist = khách du lịch (Buổi 13). *Tourism is visiting the town* ❌.
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourism, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourism, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourism, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tradition|n
+    headword: tradition
+    pos: n
+    ipa:
+      uk: /trəˈdɪʃ.ən/
+      us: /trəˈdɪʃ.ən/
+    stress: tra-DI-tion
+    cefr: A2
+    meaning_vi:
+      - truyền thống
+    collocations:
+      - keep a tradition alive
+      - follow a tradition
+      - local traditions
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tradition, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tradition, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tradition, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tourist-attraction|phr-n
+    headword: tourist attraction
+    pos: phr-n
+    ipa:
+      uk: /ˈtʊə.rɪst əˌtræk.ʃən/
+      us: /ˈtʊr.ɪst əˌtræk.ʃən/
+    cefr: null
+    meaning_vi:
+      - điểm tham quan du lịch
+    collocations:
+      - a major tourist attraction
+      - visit tourist attractions
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: the-majority-of|colloc
+    headword: the majority of
+    pos: colloc
+    ipa:
+      uk: /ðə məˈdʒɒr.ə.ti əv/
+      us: /ðə məˈdʒɔːr.ə.t̬i əv/
+    cefr: null
+    meaning_vi:
+      - phần lớn
+      - đa số
+    collocations:
+      - the majority of tourists
+      - a large majority of
+    notes_vi:
+      - "the majority of + danh từ số nhiều + động từ số nhiều: The majority of visitors were domestic. Đối lập: a minority of."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: traffic-congestion|phr-n
+    headword: traffic congestion
+    pos: phr-n
+    ipa:
+      uk: /ˈtræf.ɪk kənˌdʒes.tʃən/
+      us: /ˈtræf.ɪk kənˌdʒes.tʃən/
+    cefr: null
+    meaning_vi:
+      - ùn tắc giao thông
+    collocations:
+      - reduce traffic congestion
+      - heavy traffic congestion
+    notes_vi:
+      - Trang trọng hơn traffic jam (Buổi 10) — dùng trong Writing. Không đếm được.
+    topics:
+      - city
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: to-be-honest|idiom
+    headword: to be honest
+    pos: idiom
+    ipa:
+      uk: /tə bi ˈɒn.ɪst/
+      us: /tə bi ˈɑː.nɪst/
+    cefr: null
+    meaning_vi:
+      - thật lòng mà nói
+    notes_vi:
+      - "h câm: /ˈɒn.ɪst/. Dùng trước một ý hơi bất ngờ hoặc tiêu cực: To be honest, I don't like it much."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: trade|n
+    headword: trade
+    pos: n
+    ipa:
+      uk: /treɪd/
+      us: /treɪd/
+    cefr: B1
+    meaning_vi:
+      - thương mại
+      - buôn bán
+    collocations:
+      - international trade
+      - free trade
+      - trade between countries
+    notes_vi:
+      - "Không đếm được khi nói chung. Động từ cùng dạng: trade with other countries."
+    topics:
+      - globalisation
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trade, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trade, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trade, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: trade-barrier|phr-n
+    headword: trade barrier
+    pos: phr-n
+    forms:
+      plural: trade barriers
+    ipa:
+      uk: /ˈtreɪd ˌbær.i.ər/
+      us: /ˈtreɪd ˌber.i.ɚ/
+    cefr: null
+    meaning_vi:
+      - rào cản thương mại (thuế, hạn ngạch…)
+    collocations:
+      - remove trade barriers
+      - reduce trade barriers
+    topics:
+      - globalisation
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: table|n
+    headword: table
+    pos: n
+    ipa:
+      uk: /ˈteɪ.bəl/
+      us: /ˈteɪ.bəl/
+    cefr: A1
+    meaning_vi:
+      - bảng (số liệu)
+    collocations:
+      - the table shows
+      - according to the table
+    notes_vi:
+      - Task 1 'mixed charts' thường là pie chart + table hoặc bar + line.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/table, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/table, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/table, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tax|n
+    headword: tax
+    pos: n
+    ipa:
+      uk: /tæks/
+      us: /tæks/
+    cefr: B1
+    meaning_vi:
+      - thuế
+    collocations:
+      - pay tax
+      - raise taxes
+      - a tax on sugary drinks
+    notes_vi:
+      - "a tax ON something. Động từ: tax (đánh thuế)."
+    topics:
+      - government
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tax, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tax, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tax, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: taxation|n
+    headword: taxation
+    pos: n
+    ipa:
+      uk: /tækˈseɪ.ʃən/
+      us: /tækˈseɪ.ʃən/
+    stress: tax-A-tion
+    cefr: null
+    meaning_vi:
+      - hệ thống thuế
+      - việc đánh thuế
+    collocations:
+      - high taxation
+      - fair taxation
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/taxation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/taxation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: tackle|v
+    headword: tackle
+    pos: v
+    ipa:
+      uk: /ˈtæk.əl/
+      us: /ˈtæk.əl/
+    cefr: B2
+    meaning_vi:
+      - giải quyết
+      - đối phó với (vấn đề khó)
+    collocations:
+      - tackle the problem of
+      - tackle obesity
+    notes_vi:
+      - Mạnh và học thuật hơn solve/deal with — hợp Task 2.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tackle, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tackle, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tackle, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: transport|v
+    headword: transport
+    pos: v
+    ipa:
+      uk: /trænˈspɔːt/
+      us: /trænˈspɔːrt/
+    stress: trans-PORT
+    cefr: null
+    meaning_vi:
+      - vận chuyển
+    collocations:
+      - be transported to a factory
+      - transport goods by lorry
+    notes_vi:
+      - Động từ nhấn âm 2 (trans-PORT), danh từ nhấn âm 1 (TRANS-port).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: transform|v
+    headword: transform
+    pos: v
+    ipa:
+      uk: /trænsˈfɔːm/
+      us: /trænsˈfɔːrm/
+    stress: trans-FORM
+    cefr: null
+    meaning_vi:
+      - biến đổi hoàn toàn
+    collocations:
+      - be transformed into
+      - transform the area
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: tertiary-education|phr-n
+    headword: tertiary education
+    pos: phr-n
+    ipa:
+      uk: /ˈtɜː.ʃər.i ˌedʒ.uˈkeɪ.ʃən/
+      us: /ˈtɝː.ʃi.er.i ˌedʒ.əˈkeɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - giáo dục bậc cao (đại học, cao đẳng)
+    collocations:
+      - access to tertiary education
+      - go on to tertiary education
+    notes_vi:
+      - Paraphrase của university education / higher education (Buổi 21).
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: theoretical|adj
+    headword: theoretical
+    pos: adj
+    ipa:
+      uk: /ˌθɪəˈret.ɪ.kəl/
+      us: /ˌθiː.əˈret̬.ɪ.kəl/
+    stress: the-o-RET-i-cal
+    cefr: null
+    meaning_vi:
+      - (thuộc) lý thuyết
+    collocations:
+      - theoretical knowledge
+      - too theoretical
+    notes_vi:
+      - "Danh từ: theory /ˈθɪə.ri/. Đối lập: practical (Buổi 22)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: tend-to|phr-v
+    headword: tend to
+    pos: phr-v
+    ipa:
+      uk: /ˈtend tuː/
+      us: /ˈtend tuː/
+    cefr: null
+    meaning_vi:
+      - thường có xu hướng (làm gì)
+    collocations:
+      - I tend to study late at night
+      - students tend to
+    notes_vi:
+      - tend to + V nguyên thể. Cách nói thói quen tự nhiên, mềm hơn always/usually — điểm cộng Fluency & Lexical.
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: thus|adv
+    headword: thus
+    pos: adv
+    ipa:
+      uk: /ðʌs/
+      us: /ðʌs/
+    cefr: null
+    meaning_vi:
+      - vì vậy
+      - do đó; như thế
+    collocations:
+      - …, thus reducing crime
+    notes_vi:
+      - "Cấu trúc học thuật: '…, thus + V-ing' (câu kết quả gọn): Cameras deter criminals, thus reducing crime."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: trial|n
+    headword: trial
+    pos: n
+    ipa:
+      uk: /traɪəl/
+      us: /traɪəl/
+    cefr: null
+    meaning_vi:
+      - phiên tòa
+      - sự xét xử
+    collocations:
+      - a fair trial
+      - go on trial
+      - stand trial
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: transparency|n
+    headword: transparency
+    pos: n
+    ipa:
+      uk: /trænˈspær.ən.si/
+      us: /trænˈsper.ən.si/
+    stress: trans-PAR-en-cy
+    cefr: null
+    meaning_vi:
+      - sự minh bạch
+    collocations:
+      - a lack of transparency
+      - increase transparency
+    topics:
+      - technology
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: tech-savvy|adj
+    headword: tech-savvy
+    pos: adj
+    ipa:
+      uk: /ˌtekˈsæv.i/
+      us: /ˌtekˈsæv.i/
+    cefr: null
+    meaning_vi:
+      - rành công nghệ
+    collocations:
+      - tech-savvy young people
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: trigger|v
+    headword: trigger
+    pos: v
+    ipa:
+      uk: /ˈtrɪɡ.ər/
+      us: /ˈtrɪɡ.ɚ/
+    cefr: null
+    meaning_vi:
+      - gây ra
+      - kích hoạt (đột ngột)
+    collocations:
+      - trigger stress
+      - trigger an allergic reaction
+    topics:
+      - health
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: take-for-granted|idiom
+    headword: take for granted
+    pos: idiom
+    forms:
+      past: took for granted
+    ipa:
+      uk: /ˌteɪk fə ˈɡrɑːn.tɪd/
+      us: /ˌteɪk fɚ ˈɡræn.t̬ɪd/
+    cefr: null
+    meaning_vi:
+      - coi là hiển nhiên (không trân trọng)
+    collocations:
+      - take something for granted
+      - we take clean water for granted
+    notes_vi:
+      - "Trật tự: take + tân ngữ + for granted: I used to take my parents for granted."
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

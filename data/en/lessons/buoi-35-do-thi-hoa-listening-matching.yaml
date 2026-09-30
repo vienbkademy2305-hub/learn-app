@@ -1,0 +1,383 @@
+# Buổi 35 — Đô thị hóa · Listening: Matching + note completion. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-35-do-thi-hoa-listening-matching
+number: 35
+stage: 2
+title_vi: "Đô thị hóa · Listening: Matching + note completion"
+focus:
+  grammar: Câu tường thuật cơ bản (said / told / asked)
+  skill: Listening — Matching và note completion
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - urbanisation|n
+      - urban|adj
+      - rural|adj
+      - urban-sprawl|phr-n
+      - infrastructure|n
+      - traffic-congestion|phr-n
+      - housing|n
+      - rent|n
+      - migrate|v
+      - migration|n
+      - population|n
+      - high-rise|adj
+      - suburb|n
+      - city-centre|phr-n
+      - cost-of-living|phr-n
+      - job-opportunity|phr-n
+      - skyscraper|n
+      - neighbourhood|n
+      - mention|v
+  - type: pronunciation
+    notes:
+      - word: rural|adj
+        text_vi: "ROO-rəl /ˈrʊə.rəl/: hai âm /r/ gần nhau — cong lưỡi, không chạm vòm miệng. Người bản ngữ cũng thấy khó, đọc chậm là được."
+      - word: infrastructure|n
+        text_vi: "IN-fra-struc-ture: nhấn âm 1; cụm /str/ không chèn nguyên âm; -ture = /tʃə/."
+      - word: housing|n
+        text_vi: "HOW-zing: s đọc /z/, khác house /haʊs/ (s)."
+      - word: suburb|n
+        text_vi: "SUB-urb /ˈsʌb.ɜːb/: nhấn âm 1, âm cuối /b/ phải khép môi."
+      - word: population|n
+        text_vi: "pop-u-LA-tion: đuôi -tion kéo trọng âm về ngay trước (LA). Tương tự: migration, urbanisation."
+  - type: grammar
+    items:
+      - en-g2-15
+  - type: skill
+    skill: listening
+    title_vi: Listening — Matching và note completion
+    intro_vi: "Matching: bạn ghép một danh sách câu hỏi (người, địa điểm, hoạt động) với một danh sách phương án A–G. Thường gặp ở Part 2 và Part 3 (hai sinh viên và giảng viên bàn luận). Số phương án NHIỀU HƠN số câu hỏi, và người nói thường nhắc tới nhiều phương án cho cùng một câu hỏi rồi mới chốt. Note completion: điền từ vào một bản ghi chú có tiêu đề và gạch đầu dòng — cách làm giống điền form (Buổi 23), nhưng thông tin học thuật hơn và hay bị paraphrase."
+    steps:
+      - title_vi: Matching — đọc câu hỏi (danh sách bên trái)
+        text_vi: Đây là các mốc sẽ được nhắc THEO THỨ TỰ (the eldest child, a middle child…). Gạch tên từng mục để nghe ra khi người nói chuyển sang mục đó.
+      - title_vi: Matching — đọc và đoán paraphrase các phương án A–G
+        text_vi: Phương án gần như không bao giờ được nói nguyên văn. 'low risk of injury' có thể thành 'you're unlikely to hurt yourself'; 'not dependent on season' thành 'you can do it all year round'. Viết 1–2 từ gợi ý cạnh mỗi phương án.
+      - title_vi: Matching — nghe hết ý rồi mới chọn
+        text_vi: "Người nói có thể nhắc một phương án rồi bác: 'Some people think it's sociable, but actually…'. Ghi chữ cái sau khi ý kết thúc. Phương án dùng rồi thường không lặp lại (trừ khi đề cho phép)."
+      - title_vi: Note completion — đọc tiêu đề và gạch đầu dòng
+        text_vi: Tiêu đề cho biết chủ đề; mỗi gạch đầu dòng là một ý. Đoán loại từ cho từng chỗ trống (danh từ? số? tính từ?) và đọc giới hạn từ.
+      - title_vi: Note completion — nghe từ khóa, điền, kiểm tra
+        text_vi: Ghi chú dùng từ khác bài nói. Khi nghe thấy ý khớp, điền đúng từ bạn nghe. Cuối cùng kiểm tra chính tả, số ít/số nhiều, giới hạn từ.
+    tips:
+      - Trong bài có hai người tranh luận (Part 3), đáp án là điều họ ĐỒNG Ý CUỐI CÙNG, không phải ý kiến đầu tiên.
+      - Người nói hay thuật lại lời người khác (My tutor said…, The report mentioned…). Nghe kỹ AI là chủ thể của ý kiến.
+      - "Note completion: đáp án phổ biến nhất là danh từ; chính tả sai = mất điểm, kể cả từ quen như 'environment', 'government'."
+    traps:
+      - trap_vi: Chọn phương án đầu tiên được nhắc tới.
+        fix_vi: "Đợi xác nhận: 'So, that's the main advantage' / 'I'd say the most important thing is…'."
+      - trap_vi: Nhầm ý kiến của hai người trong hội thoại.
+        fix_vi: "Ghi chú kiểu 'M: …  W: …' khi nghe. Câu hỏi hỏi 'According to the woman…' thì chỉ lấy ý của người phụ nữ."
+      - trap_vi: "Viết thiếu -s: bài nói 'high rents', bạn ghi 'rent'."
+        fix_vi: Đây là lỗi quên -s quen thuộc của bạn — đọc lại cả câu ghi chú với đáp án để kiểm tra.
+    phrases:
+      - en: What about …?
+        vi: Còn … thì sao?
+        note_vi: Chuyển sang mục tiếp theo trong câu hỏi matching.
+      - en: The main advantage of … is that …
+        vi: Ưu điểm chính của … là …
+      - en: I'm not sure about that. I think …
+        vi: Tớ không chắc lắm. Tớ nghĩ …
+        note_vi: Người nói bác ý cũ — đổi đáp án.
+      - en: According to the report, …
+        vi: Theo báo cáo, …
+      - en: She said that …
+        vi: Cô ấy nói rằng …
+        note_vi: Tường thuật — ý kiến của người thứ ba.
+    demo:
+      title_vi: "Làm mẫu: matching với paraphrase và bẫy"
+      text_en: |-
+        Question: What problem does the speaker mention for each area?
+        1  Riverside    2  Old Town
+        A  noise   B  high rents   C  traffic congestion   D  lack of parks
+
+        Speaker: "Riverside is lovely and green, with lots of parks. But because so many people want to live there, flats now cost twice as much as five years ago. As for the Old Town, people often think the traffic is the problem, but it's actually closed to cars. The real issue is the bars — they stay open until 2 a.m., so residents can't sleep."
+      notes:
+        - label: Riverside → B
+          text_vi: "'lots of parks' loại D. 'flats now cost twice as much' = high rents (paraphrase)."
+        - label: Old Town → A
+          text_vi: "'people often think the traffic… but it's actually closed to cars' → C bị bác. 'bars… residents can't sleep' = noise."
+  - type: examples
+    items:
+      - b35-001
+      - b35-002
+      - b35-003
+      - b35-004
+      - b35-005
+      - b35-006
+      - b35-007
+      - b35-008
+      - b35-009
+      - b35-010
+      - b35-011
+      - b35-012
+  - type: dialogue
+    title_vi: Chuyển nhà ra ngoại ô?
+    lines:
+      - speaker: A
+        text: Guess what? My sister and her husband have moved to the suburbs.
+        vi: Đoán xem? Chị tớ với anh rể vừa chuyển ra ngoại ô.
+      - speaker: B
+        text: Really? Why? They loved living in the city centre.
+        vi: Thật à? Sao vậy? Họ thích sống ở trung tâm lắm mà.
+      - speaker: A
+        text: She told me the rent was too high. They paid almost half their salary for a tiny flat.
+        vi: Chị ấy bảo tiền thuê nhà cao quá. Họ trả gần nửa lương cho một căn hộ bé tí.
+      - speaker: B
+        text: That's the cost of living in a big city. But isn't the commute terrible now?
+        vi: Chi phí sinh hoạt ở thành phố lớn là thế. Nhưng giờ đi làm có vất vả không?
+      - speaker: A
+        text: Her husband said it took an hour because of the traffic congestion.
+        vi: Anh rể bảo mất một tiếng vì tắc đường.
+      - speaker: B
+        text: An hour each way? That's awful.
+        vi: Một tiếng mỗi chiều à? Kinh khủng thật.
+      - speaker: A
+        text: Yes, but the city has announced a new metro line. They said it would open in two years.
+        vi: Ừ, nhưng thành phố đã công bố tuyến tàu điện mới. Họ nói hai năm nữa sẽ mở.
+      - speaker: B
+        text: Good. If the infrastructure improves, more people will move out of the centre.
+        vi: Tốt. Nếu hạ tầng cải thiện, sẽ có nhiều người chuyển ra khỏi trung tâm hơn.
+  - type: exercises
+    items:
+      - id: b35-x1
+        bank_no: 21
+        kind: mcq
+        instructions_vi: "Matching: nghe chuyên gia quy hoạch nói về 4 khu vực của thành phố. Mỗi khu vực có vấn đề chính gì? Chọn A–F. Có 2 phương án thừa. Đọc và đoán paraphrase trước khi nghe."
+        audio_text: Today I'd like to talk about four districts of our city and the main challenge each one faces. Let's start with the Old Quarter. Many people assume the problem there is noise, and yes, it can be noisy, but what really worries residents is that there's almost no space for trees or parks. Moving on to Riverside. This area has grown very fast, and new apartment blocks are everywhere. The result is that the roads simply can't cope. At rush hour, it can take forty minutes to drive two kilometres. Next, the Western Suburbs. Housing there is cheap, and the air is clean, but there's very little work. Most people have to travel into the centre every day to earn a living. Finally, the New Business District. It has the best roads and the tallest buildings in the city, but it's become so expensive that ordinary families can't afford to live there. Rents have tripled in ten years.
+        passage: |-
+          Main problem:
+          A  noise
+          B  lack of green space
+          C  traffic congestion
+          D  few job opportunities
+          E  high cost of housing
+          F  air pollution
+        questions:
+          - q: Old Quarter
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: b
+            explain_vi: "Bẫy: 'Many people assume… noise' rồi 'but what really worries residents… no space for trees or parks'."
+          - q: Riverside
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: c
+            explain_vi: "'the roads simply can't cope… forty minutes to drive two kilometres' = traffic congestion."
+          - q: Western Suburbs
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: d
+            explain_vi: "'the air is clean' loại F; 'very little work' = few job opportunities."
+          - q: New Business District
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: e
+      - id: b35-x2
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Note completion: nghe phần giảng về đô thị hóa ở Việt Nam và hoàn thành ghi chú. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ. (Số liệu trong bài nghe là giả định để luyện tập.)"
+        max_words: 2
+        audio_text: "In this part of the lecture, I'll look at urbanisation in Vietnam. In the 1990s, only about twenty per cent of people lived in towns and cities. Today, the figure is closer to forty per cent. The main cause is migration from the countryside, and most of the migrants are young people between eighteen and thirty. The reason they give most often is not money in general, but the job opportunities in factories and offices. However, this has put a lot of pressure on the cities. First, housing: many migrants live in very small rented rooms, often shared by four or five people. Second, infrastructure: roads, schools and hospitals have not grown as fast as the population. And third, there's the environment. Air quality in the two largest cities is now a serious concern, especially in winter. So what are the solutions? Some experts suggest developing smaller cities, so that people don't all move to Hanoi and Ho Chi Minh City. Others say the government should invest more in public transport, because it helps cities grow without more cars."
+        passage: |-
+          URBANISATION IN VIETNAM
+          • 1990s: about (1) ___ % of people lived in urban areas
+          • Main cause: migration from the countryside
+          • Most migrants aged 18 to (2) ___
+          • Main reason for moving: (3) ___ in factories and offices
+          Problems
+          • Housing: small rented (4) ___, shared by 4–5 people
+          • Roads, schools and hospitals grew more slowly than the (5) ___
+          • Air quality is worst in (6) ___
+          Solutions
+          • Develop (7) ___ cities
+          • Invest in (8) ___
+        questions:
+          - q: (1)
+            answer: "20"
+            accept:
+              - twenty
+          - q: (2)
+            answer: "30"
+            accept:
+              - thirty
+          - q: (3)
+            answer: job opportunities
+            explain_vi: "'not money in general, but the job opportunities' — money bị bác."
+          - q: (4)
+            answer: rooms
+            explain_vi: "Chú ý số nhiều: 'small rented rooms'."
+          - q: (5)
+            answer: population
+          - q: (6)
+            answer: winter
+          - q: (7)
+            answer: smaller
+          - q: (8)
+            answer: public transport
+      - id: b35-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Chuyển sang câu tường thuật, bắt đầu bằng từ cho sẵn. Nhớ lùi thì và đổi đại từ.
+        questions:
+          - q: '"The rent is too high." → My sister said ___'
+            answer: the rent was too high.
+            accept:
+              - that the rent was too high.
+          - q: '"I will move to the suburbs." → Nam told me ___'
+            answer: he would move to the suburbs.
+            accept:
+              - that he would move to the suburbs.
+          - q: "\"We can't find a cheap flat.\" → They said ___"
+            answer: they couldn't find a cheap flat.
+            accept:
+              - that they couldn't find a cheap flat.
+              - they could not find a cheap flat.
+              - that they could not find a cheap flat.
+          - q: '"The city is building a new metro line." → The mayor said ___'
+            answer: the city was building a new metro line.
+            accept:
+              - that the city was building a new metro line.
+          - q: '"Do you live in the city centre?" → She asked me ___'
+            answer: if I lived in the city centre.
+            accept:
+              - whether I lived in the city centre.
+          - q: '"Where do you work?" → He asked me ___'
+            answer: where I worked.
+      - id: b35-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: My neighbour ___ me that the new park would open in May.
+            options:
+              - said
+              - told
+              - asked
+              - spoke
+            answer: b
+          - q: The report ___ that the population had doubled.
+            options:
+              - told
+              - said
+              - told us that
+              - asked
+            answer: b
+          - q: She asked me where ___.
+            options:
+              - did I live
+              - do I live
+              - I lived
+              - do I lived
+            answer: c
+          - q: He said, "I'm moving next week." → He said he ___ the following week.
+            options:
+              - is moving
+              - was moving
+              - moves
+              - will move
+            answer: b
+          - q: The officer ___ us if we had any children.
+            options:
+              - said
+              - told
+              - asked
+              - mentioned
+            answer: c
+      - id: b35-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Rapid ___ has changed the face of many Asian cities.
+            base: urban
+            answer: urbanisation
+            accept:
+              - urbanization
+          - q: Rural-urban ___ is increasing every year.
+            base: migrate
+            answer: migration
+          - q: The ___ of the city is now over 8 million.
+            base: populate
+            answer: population
+          - q: Most ___ of this street have lived here for over twenty years.
+            base: reside
+            answer: residents
+          - q: The new bridge has reduced traffic ___ in the east of the city.
+            base: congested
+            answer: congestion
+      - id: b35-x6
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép để tạo cụm từ đúng.
+        pairs:
+          - left: invest in
+            right: infrastructure
+          - left: reduce
+            right: traffic congestion
+          - left: affordable
+            right: housing
+          - left: the high cost
+            right: of living
+          - left: create more
+            right: job opportunities
+          - left: rural-urban
+            right: migration
+      - id: b35-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý AI nói điều gì.
+        audio_text: |-
+          Man: Did you go to the meeting about the new apartment buildings?
+          Woman: Yes. The builder said the towers would have thirty floors.
+          Man: Thirty? That's huge. What did the residents say?
+          Woman: Most of them were worried about traffic. One old man told everyone that the street was already too crowded.
+          Man: And did anyone mention parks?
+          Woman: Yes, I did. I asked the builder if there would be any green space, and he said there would be a small garden on the roof.
+        questions:
+          - q: The builder said the towers would have thirty floors.
+            answer: T
+          - q: Most residents were worried about noise.
+            answer: F
+          - q: An old man said the street was too crowded.
+            answer: T
+          - q: The builder asked the woman about green space.
+            answer: F
+            explain_vi: "Đảo chủ thể: người PHỤ NỮ hỏi, người xây dựng trả lời."
+          - q: There will be a garden on the roof.
+            answer: T
+      - id: b35-x8
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe và chép lại chính xác (tối đa 3 lần). Chú ý -s cuối từ và đuôi -ed.
+        text: The report said that rents in the city centre had doubled, so many young families moved to the suburbs.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Hỏi 3 người quen (bạn bè, bố mẹ, đồng nghiệp) câu: 'Bạn thích sống ở trung tâm thành phố hay ở ngoại ô/nông thôn? Vì sao?'. Viết đoạn văn 150–180 từ thuật lại câu trả lời của họ bằng tiếng Anh, rồi nêu ý kiến riêng của bạn ở câu cuối. Dùng ít nhất 5 câu tường thuật (có cả said, told + người nghe, asked if) và 6 từ của buổi này. Không dùng tên thật đầy đủ — dùng 'my friend', 'my aunt'…"
+    prompt_en: Report what three people told you about living in the city centre, the suburbs or the countryside. Then give your own opinion.
+    words:
+      min: 150
+      max: 180
+    minutes: 30

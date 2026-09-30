@@ -1,0 +1,333 @@
+# Buổi 48 — Giáo dục (nâng cao) · Writing Task 2: Two-part question. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-48-giao-duc-two-part-question
+number: 48
+stage: 3
+title_vi: "Giáo dục (nâng cao) · Writing Task 2: Two-part question"
+focus:
+  grammar: Mệnh đề quan hệ không xác định, which thay cho cả mệnh đề
+  skill: Writing Task 2 — dạng câu hỏi hai phần (two-part / direct questions)
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - academic-performance|phr-n
+      - tertiary-education|phr-n
+      - vocational-training|phr-n
+      - standardised-test|phr-n
+      - well-rounded|adj
+      - graduate|n
+      - assess|v
+      - hands-on|adj
+      - theoretical|adj
+      - employability|n
+      - soft-skills|phr-n
+      - exam-oriented|adj
+      - workload|n
+      - distance-learning|phr-n
+      - curriculum|n
+      - critical-thinking|phr-n
+      - rote-learning|phr-n
+      - qualification|n
+  - type: pronunciation
+    notes:
+      - word: graduate|n
+        text_vi: Danh từ GRAD-u-ət (/-ət/), động từ GRAD-u-ate (/-eɪt/). Cùng chữ, khác âm cuối.
+      - word: theoretical|adj
+        text_vi: "the-o-RET-i-cal: nhấn âm 3; th = /θ/."
+      - word: employability|n
+        text_vi: "em-ploy-a-BIL-i-ty: 6 âm tiết, đuôi -ity kéo trọng âm về BIL."
+      - word: tertiary-education|phr-n
+        text_vi: "TER-sha-ry /ˈtɜː.ʃər.i/: ti đọc /ʃ/."
+      - word: assess|v
+        text_vi: "as-SESS /əˈses/: nhấn âm 2, hai âm /s/ rõ."
+  - type: grammar
+    items:
+      - en-g3-03
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — Two-part question (câu hỏi hai phần)
+    intro_vi: "Đề nêu một tình huống rồi hỏi HAI câu trực tiếp, VD: 'Why is this happening? Is it a positive or negative development?' hoặc 'What are the reasons? What can be done?'. Không có công thức 'agree/disagree' — giám khảo chỉ chấm bạn có trả lời ĐÚNG và ĐỦ cả hai câu không. Bố cục dễ nhất: Mở bài → Thân bài 1 trả lời câu hỏi 1 → Thân bài 2 trả lời câu hỏi 2 → Kết bài. Buổi 45 đã có một đề dạng này làm bài về nhà."
+    steps:
+      - title_vi: Tách và gạch hai câu hỏi
+        text_vi: "Ghi Q1 và Q2 ra nháp. Xác định LOẠI câu hỏi: Why (lý do), Is it positive/negative (đánh giá — cần quan điểm), What can be done (giải pháp), How (cách thức)."
+      - title_vi: "Mở bài: paraphrase + trả lời ngắn cả hai câu"
+        text_vi: "Câu 1 paraphrase tình huống. Câu 2: 'This essay will argue that this is mainly due to …, and that it is a largely positive development.' Giám khảo thấy ngay bạn trả lời cả hai."
+      - title_vi: Thân bài 1 = câu hỏi 1
+        text_vi: Câu chủ đề nhắc lại câu hỏi 1 bằng từ khác. 2 ý, mỗi ý giải thích + ví dụ. Dùng ', which' để nối nguyên nhân với hệ quả.
+      - title_vi: Thân bài 2 = câu hỏi 2
+        text_vi: Câu chủ đề trả lời thẳng câu hỏi 2 (VD 'In my view, this trend is largely positive.'). Có thể thừa nhận một mặt ngược lại bằng although (Buổi 37).
+      - title_vi: "Kết bài: tóm tắt hai câu trả lời"
+        text_vi: "'In conclusion, … is mainly caused by …, and I believe it is …' — không ý mới."
+    tips:
+      - "Câu hỏi 'Is it positive or negative?' là câu hỏi quan điểm: phải chọn (có thể 'mostly positive'), không chỉ liệt kê hai mặt."
+      - Đừng dành 3 đoạn cho câu 1 và 2 câu cho câu 2 — hai thân bài nên dài tương đương.
+      - "Nhắc lại chính xác phạm vi đề: 'young adults in cities', không mở rộng thành 'everyone'."
+    traps:
+      - trap_vi: Viết theo khuôn 'agree/disagree' quen thuộc.
+        fix_vi: "Đọc lại đề: nếu có hai dấu hỏi thì trả lời HAI câu hỏi, không nêu đồng ý hay không."
+      - trap_vi: Trả lời câu hỏi 2 ở kết bài một câu cho xong.
+        fix_vi: Câu hỏi 2 cần một thân bài riêng.
+      - trap_vi: "Comma splice với this: '…workload, this leaves…'."
+        fix_vi: Dùng ', which leaves …' hoặc tách câu.
+    phrases:
+      - en: There are several reasons why …
+        vi: Có một số lý do khiến …
+        note_vi: Câu chủ đề cho câu hỏi Why.
+      - en: The main reason for this trend is that …
+        vi: Lý do chính của xu hướng này là …
+      - en: In my view, this is a largely positive development.
+        vi: Theo tôi, đây phần lớn là một bước phát triển tích cực.
+        note_vi: Câu hỏi đánh giá.
+      - en: …, which means that …
+        vi: …, điều đó có nghĩa là …
+      - en: This essay will explain why … and argue that …
+        vi: Bài luận sẽ giải thích vì sao … và lập luận rằng …
+        note_vi: Câu 2 mở bài.
+    demo:
+      title_vi: "Làm mẫu: mở bài và thân bài 1"
+      text_en: |-
+        Question: Nowadays, more and more young people choose vocational training instead of going to university. Why is this happening? Is this a positive or negative development?
+
+        Introduction: In recent years, a growing number of school leavers have chosen practical vocational courses rather than tertiary education. This essay will explain why this is happening and argue that it is a largely positive development.
+
+        Body 1: There are two main reasons for this trend. Firstly, university fees have risen sharply, which means that many families can no longer afford a four-year degree. Secondly, many graduates struggle to find work because their courses are too theoretical. By contrast, vocational training offers hands-on experience in skills that employers need, such as electrical work or cooking, so students often find jobs immediately after finishing their course.
+      notes:
+        - label: Mở bài trả lời cả hai
+          text_vi: "'explain why …' (Q1) + 'argue that it is a largely positive development' (Q2 — có quan điểm)."
+        - label: …, which means that …
+          text_vi: which thay cho cả ý 'fees have risen sharply' — nối nguyên nhân với hệ quả trong một câu.
+        - label: Hai lý do song song
+          text_vi: Firstly (chi phí) / Secondly (việc làm). Lý do 2 có so sánh với vocational training → dẫn sang thân bài 2.
+  - type: examples
+    items:
+      - b48-001
+      - b48-002
+      - b48-003
+      - b48-004
+      - b48-005
+      - b48-006
+      - b48-007
+      - b48-008
+      - b48-009
+      - b48-010
+  - type: dialogue
+    title_vi: Học đại học hay học nghề?
+    lines:
+      - speaker: A
+        text: My cousin is choosing between university and a vocational course in cooking.
+        vi: Em họ tớ đang phân vân giữa đại học và khóa học nghề nấu ăn.
+      - speaker: B
+        text: What do her parents want?
+        vi: Bố mẹ em ấy muốn gì?
+      - speaker: A
+        text: University, of course. My aunt, who never went to university herself, really wants a degree for her.
+        vi: Đại học, tất nhiên. Dì tớ, người chưa từng học đại học, rất muốn con có bằng.
+      - speaker: B
+        text: I understand, but a lot of graduates can't find jobs, which is quite worrying.
+        vi: Tớ hiểu, nhưng nhiều người tốt nghiệp không tìm được việc, điều đó khá đáng lo.
+      - speaker: A
+        text: True. The cooking course is two years long and very hands-on.
+        vi: Đúng. Khóa nấu ăn dài hai năm và rất thiên về thực hành.
+      - speaker: B
+        text: And restaurants always need skilled chefs, which improves her employability.
+        vi: Mà nhà hàng lúc nào cũng cần đầu bếp giỏi, điều đó giúp em ấy dễ được tuyển hơn.
+      - speaker: A
+        text: She could still go to university later, through distance learning, for example.
+        vi: Em ấy vẫn có thể học đại học sau này, ví dụ học từ xa.
+      - speaker: B
+        text: Exactly. The best choice is the one that matches her interests.
+        vi: Chính xác. Lựa chọn tốt nhất là cái phù hợp với sở thích của em ấy.
+  - type: exercises
+    items:
+      - id: b48-x1
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu bằng mệnh đề quan hệ không xác định (, who / , which / , where). Nhớ dấu phẩy.
+        questions:
+          - q: My teacher has taught for thirty years. She still loves her job. (who)
+            answer: My teacher, who has taught for thirty years, still loves her job.
+          - q: Many students have a heavy workload. This leaves them little time for sport. (which)
+            answer: Many students have a heavy workload, which leaves them little time for sport.
+          - q: I studied in Da Nang. My family lives there. (where)
+            answer: I studied in Da Nang, where my family lives.
+          - q: University fees have doubled. This means many families cannot afford a degree. (which)
+            answer: University fees have doubled, which means many families cannot afford a degree.
+            accept:
+              - University fees have doubled, which means that many families cannot afford a degree.
+      - id: b48-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: My university, ___ is in Hue, has a beautiful campus.
+            options:
+              - that
+              - which
+              - who
+              - where
+            answer: b
+          - q: Students have too many exams, ___ causes a lot of stress.
+            options:
+              - this
+              - that
+              - which
+              - it
+            answer: c
+          - q: Which sentence is correct?
+            options:
+              - Students who study abroad become more independent.
+              - Students, who study abroad become more independent.
+              - Students that, study abroad, become more independent.
+              - Students which study abroad become more independent.
+            answer: a
+            explain_vi: Mệnh đề XÁC ĐỊNH (chỉ rõ nhóm sinh viên nào) → không dấu phẩy.
+          - q: "'Why is this happening? Is it positive or negative?' How many body paragraphs are best?"
+            options:
+              - one
+              - two — one for each question
+              - three about reasons
+              - four
+            answer: b
+          - q: Which sentence gives a clear opinion for 'Is this positive or negative?'
+            options:
+              - There are good and bad points.
+              - In my view, this is a largely positive development.
+              - Some people think it is good.
+              - It depends on many things.
+            answer: b
+      - id: b48-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi (mệnh đề quan hệ, comma splice, -s, từ loại). Sửa trực tiếp.
+        text: There are two main reasons for this trend. Firstly, university fees have risen, this means many families cannot pay. Secondly, many graduate cannot find jobs because their courses are too theory. Vocational training, that is shorter and cheaper, offers hands-on experience, which help students find work quickly.
+        errors:
+          - wrong: fees have risen, this means
+            right: fees have risen, which means
+            why: "Comma splice: dùng which (hoặc tách câu)."
+          - wrong: many graduate cannot
+            right: many graduates cannot
+            why: "many + danh từ số nhiều: thêm -s."
+          - wrong: too theory
+            right: too theoretical
+            why: "Sau too cần tính từ: theoretical."
+          - wrong: training, that is shorter
+            right: training, which is shorter
+            why: Mệnh đề có dấu phẩy không dùng that.
+          - wrong: which help students
+            right: which helps students
+            why: "which thay cho cả ý / cho 'hands-on experience' → số ít: helps."
+      - id: b48-x4
+        bank_no: 26
+        kind: mcq
+        instructions_vi: "Chọn mở bài tốt nhất cho đề: 'More and more students choose to study online rather than on campus. Why is this? Do the advantages outweigh the disadvantages?'"
+        questions:
+          - q: Which introduction is best?
+            options:
+              - Online learning is very popular. There are many advantages and disadvantages.
+              - An increasing number of students now take courses online instead of attending classes in person. This essay will explain the reasons for this trend and argue that its benefits outweigh its drawbacks.
+              - More and more students choose to study online rather than on campus. Why is this?
+              - I think online learning is good because I like it.
+            answer: b
+            explain_vi: "a: không trả lời gì. c: chép đề. d: quá cá nhân, không paraphrase."
+      - id: b48-x5
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: The course is too ___; students never practise.
+            base: theory
+            answer: theoretical
+          - q: Internships improve graduates' ___.
+            base: employ
+            answer: employability
+          - q: Continuous ___ is fairer than one final exam.
+            base: assess
+            answer: assessment
+          - q: Recent ___ often lack practical skills.
+            base: graduate
+            answer: graduates
+          - q: Her academic ___ improved after she joined a study group.
+            base: perform
+            answer: performance
+      - id: b48-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: vocational training
+            right: education for a particular job or skill
+          - left: tertiary education
+            right: education at university or college
+          - left: well-rounded
+            right: having a wide range of knowledge and skills
+          - left: hands-on
+            right: involving doing things yourself
+          - left: workload
+            right: the amount of work a person has to do
+          - left: employability
+            right: how easily a person can get a job
+      - id: b48-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên lập dàn ý (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Woman: The question has two parts: why do more young people choose vocational training, and is this positive or negative?
+          Man: For the first part, I'd say cost is the main reason. University fees keep rising.
+          Woman: Agreed. And the second reason could be that graduates can't find jobs.
+          Man: Good. Now, is it positive or negative?
+          Woman: I think it's mostly positive, although society still sees university as more respectable.
+          Man: So body paragraph two says it's positive, and we mention that social attitude as the other side.
+          Woman: Exactly. And we must answer both questions in the introduction too.
+        questions:
+          - q: What is the main reason, according to the man?
+            options:
+              - social attitudes
+              - rising university fees
+              - a lack of teachers
+              - parents' wishes
+            answer: b
+          - q: What is the woman's opinion about the trend?
+            options:
+              - completely negative
+              - mostly positive
+              - she has no opinion
+              - it depends on the student
+            answer: b
+          - q: What will they use as the 'other side' in body paragraph two?
+            options:
+              - university is cheaper
+              - society sees university as more respectable
+              - vocational courses are too long
+              - graduates earn more
+            answer: b
+          - q: Where must they answer both questions, besides the body paragraphs?
+            options:
+              - only in the conclusion
+              - in the introduction
+              - in the title
+              - nowhere else
+            answer: b
+      - id: b48-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai).
+        audio_text: A recent survey of five hundred employers found that most of them valued soft skills, such as teamwork and communication, more than exam results. Only a quarter said that a degree from a top university was essential. However, almost all employers agreed that graduates need hands-on experience, which many of them do not get at university.
+        questions:
+          - q: The survey asked five hundred employers.
+            answer: T
+          - q: Most employers valued exam results more than soft skills.
+            answer: F
+          - q: A quarter of employers said a top university degree was essential.
+            answer: T
+          - q: Employers think most graduates already have enough hands-on experience.
+            answer: F
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút). Đề hai câu hỏi: mở bài trả lời ngắn cả hai; thân bài 1 = câu hỏi 1, thân bài 2 = câu hỏi 2. Dùng ít nhất 3 mệnh đề quan hệ không xác định (có ít nhất 1 câu ', which' thay cho cả mệnh đề) và 5 từ của buổi này."
+    prompt_en: In many countries, students spend more and more time preparing for exams. Why is this happening? What effects does this have on young people?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

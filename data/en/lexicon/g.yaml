@@ -565,3 +565,370 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: generation-gap|phr-n
+    headword: generation gap
+    pos: phr-n
+    ipa:
+      uk: /ˌdʒen.əˈreɪ.ʃən ɡæp/
+      us: /ˌdʒen.əˈreɪ.ʃən ɡæp/
+    stress: gen-e-RA-tion gap
+    cefr: null
+    meaning_vi:
+      - khoảng cách thế hệ
+    collocations:
+      - bridge the generation gap
+      - a wide generation gap
+    notes_vi:
+      - bridge the gap = thu hẹp khoảng cách (không nói *close the generation gap* trong văn phong tự nhiên, dù vẫn hiểu được).
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: get-on-with|phr-v
+    headword: get on with
+    pos: phr-v
+    forms:
+      past: got on with
+    ipa:
+      uk: /ˌɡet ˈɒn wɪð/
+      us: /ˌɡet ˈɑːn wɪð/
+    cefr: null
+    meaning_vi:
+      - hòa hợp với (ai)
+    collocations:
+      - get on well with
+      - not get on with
+    notes_vi:
+      - I get on well with my sister. Tiếng Anh-Mỹ hay nói get along with.
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: gender-role|phr-n
+    headword: gender role
+    pos: phr-n
+    forms:
+      plural: gender roles
+    ipa:
+      uk: /ˈdʒen.də ˌrəʊl/
+      us: /ˈdʒen.dɚ ˌroʊl/
+    cefr: null
+    meaning_vi:
+      - vai trò giới (việc được cho là của nam hoặc nữ)
+    collocations:
+      - traditional gender roles
+      - challenge gender roles
+    notes_vi:
+      - "Thường ở số nhiều: gender roles are changing."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: get-around|phr-v
+    headword: get around
+    pos: phr-v
+    forms:
+      past: got around
+    ipa:
+      uk: /ˌɡet əˈraʊnd/
+      us: /ˌɡet əˈraʊnd/
+    cefr: null
+    meaning_vi:
+      - đi lại (trong một khu vực)
+    collocations:
+      - easy to get around
+      - get around by motorbike
+    topics:
+      - city
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: government|n
+    headword: government
+    pos: n
+    ipa:
+      uk: /ˈɡʌv.ən.mənt/
+      us: /ˈɡʌv.ɚn.mənt/
+    stress: GOV-ern-ment
+    cefr: A2
+    meaning_vi:
+      - chính phủ
+    collocations:
+      - the government should
+      - government control
+      - local government
+    notes_vi:
+      - "Chính tả: gover-N-ment (hay quên chữ n). Đọc thường nuốt n: /ˈɡʌv.əm.mənt/."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: globalisation|n
+    headword: globalisation
+    pos: n
+    ipa:
+      uk: /ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/
+      us: /ˌɡloʊ.bəl.əˈzeɪ.ʃən/
+    stress: glo-bal-i-SA-tion
+    cefr: null
+    meaning_vi:
+      - toàn cầu hóa
+    collocations:
+      - the effects of globalisation
+      - economic globalisation
+    notes_vi:
+      - "Anh-Mỹ: globalization. Nhất quán một cách viết trong cả bài."
+    topics:
+      - globalisation
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/globalisation, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: global|adj
+    headword: global
+    pos: adj
+    ipa:
+      uk: /ˈɡləʊ.bəl/
+      us: /ˈɡloʊ.bəl/
+    cefr: B1
+    meaning_vi:
+      - toàn cầu
+    collocations:
+      - the global economy
+      - a global brand
+      - global warming
+    topics:
+      - globalisation
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: goods|n
+    headword: goods
+    pos: n
+    ipa:
+      uk: /ɡʊdz/
+      us: /ɡʊdz/
+    cefr: B1
+    meaning_vi:
+      - hàng hóa
+    collocations:
+      - imported goods
+      - cheap goods
+      - goods and services
+    notes_vi:
+      - "Luôn số nhiều, động từ số nhiều: The goods ARE… Không nói *a goods*."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: graduate|n
+    headword: graduate
+    pos: n
+    ipa:
+      uk: /ˈɡrædʒ.u.ət/
+      us: /ˈɡrædʒ.u.ət/
+    cefr: null
+    meaning_vi:
+      - người đã tốt nghiệp (đại học)
+    collocations:
+      - university graduates
+      - a recent graduate
+    notes_vi:
+      - Danh từ đọc /-ət/; động từ graduate đọc /-eɪt/. graduate FROM a university.
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: guilty|adj
+    headword: guilty
+    pos: adj
+    ipa:
+      uk: /ˈɡɪl.ti/
+      us: /ˈɡɪl.ti/
+    cefr: null
+    meaning_vi:
+      - có tội; cảm thấy có lỗi
+    collocations:
+      - be found guilty of
+      - feel guilty
+    notes_vi:
+      - "guilty OF a crime. u câm: GIL-ti."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: generate|v
+    headword: generate
+    pos: v
+    ipa:
+      uk: /ˈdʒen.ə.reɪt/
+      us: /ˈdʒen.ə.reɪt/
+    cefr: null
+    meaning_vi:
+      - tạo ra
+      - sinh ra
+    collocations:
+      - generate text
+      - generate income
+      - AI-generated images
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: give-rise-to|phr-v
+    headword: give rise to
+    pos: phr-v
+    forms:
+      past: gave rise to
+      pp: given rise to
+    ipa:
+      uk: /ˌɡɪv ˈraɪz tuː/
+      us: /ˌɡɪv ˈraɪz tuː/
+    cefr: null
+    meaning_vi:
+      - dẫn đến
+      - làm nảy sinh
+    collocations:
+      - give rise to health problems
+    notes_vi:
+      - Nguyên nhân + gives rise to + kết quả (= lead to, Buổi 44) — học thuật hơn.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: generation|n
+    headword: generation
+    pos: n
+    ipa:
+      uk: /ˌdʒen.əˈreɪ.ʃən/
+      us: /ˌdʒen.əˈreɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - thế hệ
+    collocations:
+      - from generation to generation
+      - the younger generation
+    topics:
+      - family
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: get-the-hang-of|idiom
+    headword: get the hang of
+    pos: idiom
+    forms:
+      past: got the hang of
+    ipa:
+      uk: /ˌɡet ðə ˈhæŋ əv/
+      us: /ˌɡet ðə ˈhæŋ əv/
+    cefr: null
+    meaning_vi:
+      - bắt đầu quen tay
+      - nắm được cách làm
+    collocations:
+      - get the hang of chopsticks
+      - it took me a while to get the hang of it
+    notes_vi:
+      - "+ danh từ / V-ing: get the hang of driving."
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: grow-up|phr-v
+    headword: grow up
+    pos: phr-v
+    forms:
+      past: grew up
+      pp: grown up
+    ipa:
+      uk: /ˌɡrəʊ ˈʌp/
+      us: /ˌɡroʊ ˈʌp/
+    cefr: null
+    meaning_vi:
+      - lớn lên
+    collocations:
+      - grow up in the countryside
+      - when I was growing up
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

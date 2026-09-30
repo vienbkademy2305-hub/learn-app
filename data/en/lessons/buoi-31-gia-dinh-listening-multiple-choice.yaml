@@ -1,0 +1,384 @@
+# Buổi 31 — Gia đình & xã hội · Listening: Multiple choice. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-31-gia-dinh-listening-multiple-choice
+number: 31
+stage: 2
+title_vi: "Gia đình & xã hội · Listening: Multiple choice"
+focus:
+  grammar: Câu điều kiện loại 1 và unless
+  skill: Listening — Multiple choice (chọn 1 đáp án)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - nuclear-family|phr-n
+      - extended-family|phr-n
+      - generation-gap|phr-n
+      - work-life-balance|phr-n
+      - bring-up|phr-v
+      - household-chore|phr-n
+      - look-after|phr-v
+      - elderly|adj
+      - retire|v
+      - responsibility|n
+      - support|v
+      - relationship|n
+      - respect|v
+      - get-on-with|phr-v
+      - single-parent|phr-n
+      - traditional|adj
+      - close-knit|adj
+      - unless|conj
+  - type: pronunciation
+    notes:
+      - word: responsibility|n
+        text_vi: "re-spon-si-BI-li-ty: 6 âm tiết, đuôi -ity kéo trọng âm về ngay trước (BI). Tính từ: re-SPON-si-ble."
+      - word: close-knit|adj
+        text_vi: "knit /nɪt/: k câm (như know, knife). close ở đây đọc /kləʊs/ — âm s, không phải z."
+      - word: elderly|adj
+        text_vi: "EL-der-ly /ˈel.dəl.i/: 3 âm tiết, nhấn âm đầu; -er đọc lướt /ə/."
+      - word: respect|v
+        text_vi: "re-SPECT: cụm âm cuối /kt/ — bật /k/ rồi /t/, đừng nuốt thành 'rì-spéc'."
+      - word: unless|conj
+        text_vi: "un-LESS: nhấn âm 2. Trong câu nói nhanh, 'unless' dễ bị nghe nhầm thành 'and less' — nghe cả câu để hiểu nghĩa phủ định."
+  - type: grammar
+    items:
+      - en-g2-11
+  - type: skill
+    skill: listening
+    title_vi: "Listening — Multiple choice: chọn đáp án đúng khi cả 3 phương án đều được nhắc"
+    intro_vi: "Dạng bài xuất hiện nhiều ở Part 2 và Part 3 (đôi khi Part 1, 4): một câu hỏi và 3 phương án A, B, C. Câu hỏi đi theo thứ tự của bài nghe. Cái khó: người nói thường nhắc tới CẢ BA phương án, nhưng chỉ một phương án khớp với câu hỏi — hai phương án kia bị phủ định, bị sửa lại hoặc nói về đối tượng khác. Vì vậy nghe thấy từ khóa chưa đủ, phải nghe hết ý."
+    steps:
+      - title_vi: Đọc câu hỏi, gạch từ khóa
+        text_vi: Gạch ai (the man? the woman? most employees?), cái gì, thời gian (last year / this year). Từ khóa trong câu hỏi thường được giữ nguyên hoặc paraphrase nhẹ — đó là tín hiệu 'sắp tới câu này'.
+      - title_vi: Đọc 3 phương án, gạch điểm KHÁC nhau
+        text_vi: Ba phương án thường giống nhau phần lớn, chỉ khác 1–2 từ (two hours per week / one day per month). Gạch đúng chỗ khác đó — đáp án nằm ở đấy.
+      - title_vi: Đoán cách paraphrase
+        text_vi: "Hỏi: người nói có thể nói ý này bằng từ khác thế nào? job satisfaction → enjoy their work more; unemployed people → people who are looking for work."
+      - title_vi: Nghe tín hiệu chuyển ý (signposting)
+        text_vi: Những cụm như 'Now, moving on to…', 'Another thing…', 'But the main reason is…', 'Actually…' báo hiệu câu hỏi mới hoặc đáp án thật sắp tới.
+      - title_vi: Ghi chú ✓ / ✗ cạnh từng phương án
+        text_vi: Khi một phương án bị phủ định (not, no longer, we decided against…), đánh ✗ ngay. Phương án được xác nhận cuối cùng mới chọn.
+      - title_vi: Không kịp thì bỏ, sang câu sau
+        text_vi: Câu hỏi đã qua thì không quay lại được. Đoán tạm một đáp án và tập trung vào câu tiếp theo.
+    tips:
+      - Đáp án đúng thường được nói bằng từ KHÁC với phương án; phương án lặp y nguyên từ trong bài nghe thường là bẫy.
+      - "Chú ý chủ thể: câu hỏi 'What does the WOMAN think?' — bỏ qua ý kiến của người đàn ông."
+      - "Chú ý thời gian: last year / this year / in the future. Bẫy hay gặp: nói về việc năm ngoái rồi mới tới năm nay."
+      - "Câu điều kiện là bẫy: 'If it rains, we'll use the hall' — chưa chắc đã dùng hall."
+    traps:
+      - trap_vi: Chọn phương án vì nghe thấy đúng từ đó.
+        fix_vi: "Nghe thêm 1–2 câu sau: 'Some people think it's the money, but actually…' — ý sau 'actually/but' mới là đáp án."
+      - trap_vi: Nhầm chủ thể khi có hai người/hai nhóm tương tự (bố mẹ và ông bà, năm ngoái và năm nay).
+        fix_vi: Gạch chủ thể trong câu hỏi và chỉ ghi chú thông tin của đúng chủ thể đó. Đây là lỗi bạn đã hay mắc ở dạng T/F/NG.
+      - trap_vi: "Người nói tự sửa: 'We meet on Tuesdays — oh no, sorry, it's Thursdays now.'"
+        fix_vi: Luôn chọn thông tin CUỐI CÙNG sau các cụm sorry / I mean / actually / not any more.
+    phrases:
+      - en: Now, moving on to …
+        vi: Bây giờ, chuyển sang …
+        note_vi: Tín hiệu câu hỏi mới.
+      - en: The main reason is that …
+        vi: Lý do chính là …
+        note_vi: Đáp án cho câu hỏi 'why'.
+      - en: Actually, …
+        vi: Thật ra thì …
+        note_vi: Thường sửa lại ý trước đó.
+      - en: We decided not to …
+        vi: Chúng tôi quyết định không …
+        note_vi: Loại phương án đó.
+      - en: One thing to remember is …
+        vi: Một điều cần nhớ là …
+        note_vi: Nhấn mạnh thông tin quan trọng.
+      - en: That's no longer the case.
+        vi: Giờ không còn như thế nữa.
+        note_vi: Phủ định thông tin cũ.
+    demo:
+      title_vi: "Làm mẫu: loại hai phương án nhiễu"
+      text_en: |-
+        Question: What is the main reason why older people join the Family Centre?
+        A  to learn new skills
+        B  to meet other people
+        C  to get help with their health
+
+        Speaker: "We do offer computer classes, and some older people come for those. We also have a nurse who visits once a month. But when we asked our members, most of them said they come because they feel lonely at home — they want to talk to people of their own age."
+      notes:
+        - label: A — computer classes
+          text_vi: Được nhắc ('some older people come for those') nhưng chỉ là MỘT SỐ người → không phải lý do chính. ✗
+        - label: C — a nurse
+          text_vi: Có nhắc sức khỏe nhưng chỉ là dịch vụ, không phải lý do người ta tới. ✗
+        - label: B — đáp án
+          text_vi: "'But … most of them said … feel lonely … want to talk to people' = meet other people. Tín hiệu 'But' + 'most of them' + paraphrase."
+  - type: examples
+    items:
+      - b31-001
+      - b31-002
+      - b31-003
+      - b31-004
+      - b31-005
+      - b31-006
+      - b31-007
+      - b31-008
+      - b31-009
+      - b31-010
+      - b31-011
+      - b31-012
+  - type: dialogue
+    title_vi: Ai làm việc nhà?
+    lines:
+      - speaker: A
+        text: Mum looks really tired these days. She does all the household chores after work.
+        vi: Dạo này mẹ trông mệt lắm. Mẹ làm hết việc nhà sau giờ làm.
+      - speaker: B
+        text: I know. If we share the chores, she'll have more time to rest.
+        vi: Tớ biết. Nếu tụi mình chia nhau việc nhà, mẹ sẽ có thêm thời gian nghỉ.
+      - speaker: A
+        text: OK. I'll do the washing-up every evening. What about you?
+        vi: Được. Tớ sẽ rửa bát mỗi tối. Còn cậu?
+      - speaker: B
+        text: I can clean the house at the weekend. And Dad can do the shopping.
+        vi: Tớ có thể dọn nhà vào cuối tuần. Còn bố có thể đi chợ.
+      - speaker: A
+        text: Dad works until nine. Unless he finishes earlier, he won't have time.
+        vi: Bố làm tới chín giờ. Trừ khi bố xong việc sớm hơn, không thì bố sẽ không có thời gian.
+      - speaker: B
+        text: Then Grandma may help. She lives near the market.
+        vi: Vậy thì bà có thể giúp. Bà sống gần chợ mà.
+      - speaker: A
+        text: Good idea. But she's elderly now, so we shouldn't ask her to carry heavy bags.
+        vi: Ý hay. Nhưng bà có tuổi rồi, nên mình không nên nhờ bà xách đồ nặng.
+      - speaker: B
+        text: True. Let's talk to Mum tonight. If she agrees, we'll start tomorrow.
+        vi: Đúng. Tối nay mình nói với mẹ. Nếu mẹ đồng ý, mai mình bắt đầu luôn.
+  - type: exercises
+    items:
+      - id: b31-x1
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe người phụ trách giới thiệu Trung tâm Gia đình (độc thoại kiểu Part 2) và chọn A, B hoặc C. Đọc câu hỏi và gạch từ khóa trước khi nghe. Cả ba phương án đều có thể được nhắc — chọn phương án khớp với câu hỏi.
+        audio_text: Good morning, everyone, and thank you for coming to the Riverside Family Centre. I'd like to tell you a little about what we do. The centre opened in 2015. At first, it was only for young mothers with babies, but now we welcome everyone, from teenagers to elderly people. Our most popular service used to be the free childcare, but these days more people come for our weekend workshops. Last year, the workshops were mainly about cooking, but this year we're focusing on communication between parents and teenagers, because many families told us the generation gap is their biggest problem. The workshops are free for members. If you aren't a member, they cost ten dollars each, and membership itself costs twenty dollars a year. Now, some of you have asked about volunteering. We need volunteers mainly to help elderly people with shopping. We don't need help with cleaning or cooking at the moment. If you're interested, please don't call the office — just talk to Linda at the front desk after this talk.
+        questions:
+          - q: When the centre opened, it was for…
+            options:
+              - elderly people
+              - young mothers
+              - teenagers
+            answer: b
+          - q: What do most people come to the centre for now?
+            options:
+              - free childcare
+              - weekend workshops
+              - cheap meals
+            answer: b
+            explain_vi: "'used to be the free childcare, but these days more people come for our weekend workshops' — used to = trước đây."
+          - q: This year, the workshops are mainly about…
+            options:
+              - cooking
+              - communication in families
+              - looking after babies
+            answer: b
+            explain_vi: "'Last year … cooking, but this year … communication between parents and teenagers'. Bẫy thời gian: cooking là năm ngoái."
+          - q: How much does a workshop cost for a non-member?
+            options:
+              - nothing
+              - $10
+              - $20
+            answer: b
+            explain_vi: $20 là phí thành viên cả năm; $10 là giá một workshop cho người chưa là thành viên.
+          - q: Volunteers are needed to…
+            options:
+              - clean the centre
+              - cook meals
+              - help elderly people with shopping
+            answer: c
+          - q: People who want to volunteer should…
+            options:
+              - call the office
+              - speak to Linda
+              - send an email
+            answer: b
+      - id: b31-x2
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên bàn về bài thuyết trình (hội thoại kiểu Part 3, mỗi người một giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Anna: So, Tom, what topic shall we choose for our presentation on family life?
+          Tom: I was thinking about single-parent families, but there's already a group doing that.
+          Anna: Right. What about work-life balance? Lots of parents work very long hours.
+          Tom: Hmm, that's interesting, but I think the generation gap is better. We can interview our own grandparents.
+          Anna: Good point. OK, let's do that. How many people should we interview?
+          Tom: Maybe ten? Actually, no. If we interview ten, we won't have time to analyse everything. Let's say six.
+          Anna: Fine. And what's the most surprising thing you found in your reading so far?
+          Tom: Well, I expected older people to complain about technology. But in fact, most of them said the biggest problem is that young people don't have time to visit them.
+          Anna: That's sad. I think we should end the presentation with some ideas to bridge the gap, then.
+        questions:
+          - q: Why don't they choose single-parent families?
+            options:
+              - It is too difficult.
+              - Another group has chosen it.
+              - The teacher doesn't like it.
+            answer: b
+          - q: What topic do they finally choose?
+            options:
+              - single-parent families
+              - work-life balance
+              - the generation gap
+            answer: c
+          - q: How many people will they interview?
+            options:
+              - six
+              - ten
+              - sixteen
+            answer: a
+            explain_vi: "'Maybe ten? Actually, no … Let's say six.' — thông tin cuối cùng sau 'Actually'."
+          - q: According to Tom's reading, what do older people complain about most?
+            options:
+              - new technology
+              - young people not visiting them
+              - the cost of living
+            answer: b
+            explain_vi: "'I expected … technology. But in fact, most of them said …' — phương án A là điều Tom ĐOÁN, không phải kết quả."
+      - id: b31-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc theo câu điều kiện loại 1. Dùng will cho vế kết quả (trừ khi đề cho sẵn can/may).
+        questions:
+          - q: If my mother (retire) ___ next year, she will look after my son.
+            answer: retires
+          - q: If you share the household chores, your parents (be) ___ less tired.
+            answer: will be
+            accept:
+              - "'ll be"
+          - q: Unless he (leave) ___ work earlier, he won't see his children before bedtime.
+            answer: leaves
+          - q: The generation gap (not / get) ___ smaller if families don't talk more.
+            answer: won't get
+            accept:
+              - will not get
+          - q: If grandparents (live) ___ with the family, children can learn traditional values.
+            answer: live
+          - q: If Lan (not / finish) ___ her homework, her father won't let her go out.
+            answer: doesn't finish
+            accept:
+              - does not finish
+      - id: b31-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ you tell your parents the truth, they will be angry.
+            options:
+              - If
+              - Unless
+              - When
+              - Because
+            answer: b
+            explain_vi: "Unless = If … not: nếu bạn KHÔNG nói thật, bố mẹ sẽ giận."
+          - q: If it ___ this weekend, we will visit our grandparents.
+            options:
+              - won't rain
+              - doesn't rain
+              - didn't rain
+              - not rain
+            answer: b
+          - q: ___ my brother finishes university next June, he will look for a job.
+            options:
+              - Unless
+              - If not
+              - When
+              - Although
+            answer: c
+            explain_vi: Việc chắc chắn sẽ xảy ra (tốt nghiệp vào tháng 6 tới) → when.
+          - q: Which sentence is correct?
+            options:
+              - If parents will spend more time at home, children will be happier.
+              - If parents spend more time at home, children will be happier.
+              - If parents spend more time at home children are happier will.
+              - Unless parents don't spend time at home, children will be sad.
+            answer: b
+          - q: Which sentence has the correct punctuation?
+            options:
+              - If you respect your elders they will respect you.
+              - If you respect your elders, they will respect you.
+              - They will respect you, if you respect your elders.
+              - If you respect your elders. They will respect you.
+            answer: b
+            explain_vi: If đứng đầu → dấu phẩy giữa hai vế. If đứng giữa → không dấu phẩy. Không tách thành hai câu.
+      - id: b31-x5
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép động từ với cụm danh từ phù hợp.
+        pairs:
+          - left: bridge
+            right: the generation gap
+          - left: do
+            right: household chores
+          - left: take
+            right: responsibility for your actions
+          - left: support
+            right: your elderly parents
+          - left: have
+            right: a good work-life balance
+          - left: respect
+            right: other people's opinions
+      - id: b31-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ/cụm từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: nuclear family
+            right: parents and their children living together
+          - left: extended family
+            right: a family that includes grandparents, aunts and uncles
+          - left: close-knit
+            right: having strong relationships and helping each other
+          - left: bring up
+            right: to look after a child until he or she is an adult
+          - left: get on with
+            right: to have a friendly relationship with somebody
+          - left: single parent
+            right: a mother or father who brings up a child alone
+      - id: b31-x7
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Tín hiệu chuyển ý (signposting) giúp bạn biết bài nghe đang ở đâu. Nối mỗi cụm với chức năng của nó.
+        pairs:
+          - left: Today I'm going to tell you about …
+            right: introducing the topic
+          - left: Then … / After that …
+            right: showing the order of events
+          - left: Don't forget to …
+            right: stressing important information
+          - left: because / since / as
+            right: giving a reason
+          - left: so that / in order to
+            right: giving a purpose
+          - left: although / but / however
+            right: showing a contrast
+          - left: Also … / In addition …
+            right: adding more information
+      - id: b31-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chủ thể (parents / grandparents) và mốc thời gian.
+        audio_text: In the past, most Vietnamese families were extended families, and three generations often lived under one roof. Grandparents looked after the children while the parents worked in the fields. Today, many young couples move to big cities for work, so the nuclear family has become more common. However, grandparents still play an important role. In many families, they come to the city to help with childcare. If this trend continues, experts say the relationship between grandparents and grandchildren will stay strong.
+        questions:
+          - q: In the past, three generations often lived together.
+            answer: T
+          - q: In the past, parents looked after the children while grandparents worked.
+            answer: F
+            explain_vi: "Đảo chủ thể: ông bà trông cháu, bố mẹ làm đồng."
+          - q: Today, the extended family has become more common.
+            answer: F
+          - q: Many grandparents move to the city to help with childcare.
+            answer: T
+          - q: Experts think the relationship between grandparents and grandchildren will become weaker.
+            answer: F
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ trả lời câu hỏi bên dưới. Nêu rõ quan điểm ở câu đầu, đưa 2 lý do, mỗi lý do có ví dụ. Dùng ít nhất 3 câu điều kiện loại 1 (có ít nhất 1 câu với unless) và 5 từ của buổi này. Tự kiểm tra: vế if không có will; if đứng đầu câu có dấu phẩy."
+    prompt_en: Should elderly parents live with their adult children? What will happen if they do?
+    words:
+      min: 150
+      max: 180
+    minutes: 30

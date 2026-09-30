@@ -1,0 +1,336 @@
+# Buổi 49 — Giáo dục (nâng cao) · Speaking Part 1 chuẩn band 6.5. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-49-giao-duc-speaking-part-1
+number: 49
+stage: 3
+title_vi: Giáo dục (nâng cao) · Speaking Part 1 chuẩn band 6.5
+focus:
+  grammar: Nói mềm và có mức độ (tend to, fairly, quite, I'd say)
+  skill: Speaking Part 1 — từ band 5.5 lên 6.5
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - motivation|n
+      - peer|n
+      - mentor|n
+      - assessment|n
+      - learner|n
+      - procrastinate|v
+      - cram|v
+      - deadline|n
+      - self-study|n
+      - concentrate|v
+      - tend-to|phr-v
+      - fairly|adv
+      - quite|adv
+      - memorise|v
+      - inspiring|adj
+      - challenging|adj
+      - revise|v
+      - subject|n
+  - type: pronunciation
+    notes:
+      - word: quite|adv
+        text_vi: quite /kwaɪt/ (1 âm tiết, khá) ≠ quiet /ˈkwaɪ.ət/ (2 âm tiết, yên tĩnh). Nói nhầm là đổi nghĩa.
+      - word: procrastinate|v
+        text_vi: "pro-CRAS-ti-nate: nhấn âm 2; cụm /kr/ và /st/."
+      - word: concentrate|v
+        text_vi: "CON-cen-trate: nhấn âm 1 (khác con-cen-TRA-tion)."
+      - word: challenging|adj
+        text_vi: "CHAL-len-ging /ˈtʃæl.ɪn.dʒɪŋ/: âm cuối -ng nhẹ, không thành 'ghing'."
+      - word: motivation|n
+        text_vi: "Ngữ điệu Part 1: xuống giọng ở cuối câu trả lời, không lên giọng như đang hỏi — nghe tự tin hơn."
+  - type: grammar
+    items:
+      - en-g3-04
+  - type: skill
+    skill: speaking
+    title_vi: Speaking Part 1 — từ band 5.5 lên 6.5
+    intro_vi: "Buổi 24 đã học công thức Answer + Reason + Detail cho Part 1. Band 6.5 khác band 5.5 không phải ở độ dài mà ở CHẤT: (1) từ vựng tự nhiên, cụ thể theo chủ đề (cram, procrastinate, challenging), không lặp 'good/bad/very'; (2) thì linh hoạt — nói về hiện tại, quá khứ và thay đổi trong cùng một câu trả lời; (3) nói mềm có mức độ (tend to, fairly); (4) ít ngập ngừng dài. Part 1 kéo dài 4–5 phút với 2–3 chủ đề quen thuộc: học tập/công việc, quê hương, sở thích, thói quen hằng ngày."
+    steps:
+      - title_vi: Trả lời thẳng, không lặp câu hỏi
+        text_vi: "Hỏi 'Do you like studying?' → không nói 'Yes, I like studying'. Nói: 'Yes, most of the time, especially when …'."
+      - title_vi: Thêm lý do bằng từ cụ thể
+        text_vi: "Thay 'because it's interesting' bằng lý do có hình ảnh: 'because I get to do experiments instead of just memorising facts'."
+      - title_vi: Thêm một chi tiết khác THÌ
+        text_vi: "So sánh quá khứ – hiện tại: 'When I was at school, I used to cram, but these days I tend to study a little every day.' Một câu, ba thì — điểm Grammatical Range."
+      - title_vi: Dừng đúng lúc
+        text_vi: 20–30 giây mỗi câu. Part 1 không cần nói hết; giám khảo cần thời gian hỏi các câu khác.
+    tips:
+      - Chuẩn bị sẵn 'câu chuyện nhỏ' về 4 chủ đề quen thuộc — dùng lại được cho nhiều câu hỏi.
+      - "Hỏi lại khi không nghe rõ: 'Sorry, could you repeat the question?' — không bị trừ điểm."
+      - Tránh câu học thuộc kiểu 'Well, to be honest, that's an interesting question' cho câu hỏi Part 1 đơn giản.
+    traps:
+      - trap_vi: Trả lời 'Yes' / 'No' rồi im.
+        fix_vi: Luôn thêm lý do + chi tiết (2–3 câu).
+      - trap_vi: Dùng very / good / bad / interesting liên tục.
+        fix_vi: "Đổi: fairly challenging, really inspiring, a bit tedious, pretty strict."
+      - trap_vi: "'I am tend to…' hoặc 'I tend to studying'."
+        fix_vi: I tend to + V nguyên thể.
+      - trap_vi: Nói cả phút cho một câu Part 1 và bị ngắt.
+        fix_vi: 20–30 giây; ý dài để dành cho Part 2 và 3.
+    phrases:
+      - en: Most of the time, yes, especially when …
+        vi: Phần lớn là có, nhất là khi …
+      - en: Not particularly, to be honest. I'd rather …
+        vi: Thật ra là không lắm. Tôi thích … hơn.
+      - en: I used to …, but these days I tend to …
+        vi: Trước đây tôi hay …, nhưng dạo này tôi thường …
+        note_vi: Ba thì trong một câu.
+      - en: It was fairly …, although …
+        vi: Nó khá …, dù …
+      - en: I'd say it depends on …
+        vi: Tôi cho là còn tùy vào …
+    demo:
+      title_vi: "Làm mẫu: cùng một câu hỏi, band 5.5 và band 6.5"
+      text_en: |-
+        Examiner: How do you usually prepare for exams?
+
+        Band 5.5: I study very hard before the exam. I read my books and I do many exercises. It is very tiring but it is good.
+
+        Band 6.5: I have to admit I tend to procrastinate, so I usually end up cramming the night before. When I was in high school, I used to memorise everything, but these days I try to review a little every day, which is far less stressful.
+      notes:
+        - label: Từ vựng cụ thể
+          text_vi: procrastinate, cramming, memorise, review thay cho 'study very hard', 'read my books'.
+        - label: Nói mềm
+          text_vi: "'I have to admit', 'tend to', 'try to' — nghe thật và tự nhiên."
+        - label: Thì linh hoạt
+          text_vi: Hiện tại (tend to) → quá khứ (used to) → hiện tại (these days) trong 2 câu.
+        - label: ", which is …"
+          text_vi: Mệnh đề quan hệ không xác định (Buổi 48) để kết câu gọn.
+  - type: examples
+    items:
+      - b49-001
+      - b49-002
+      - b49-003
+      - b49-004
+      - b49-005
+      - b49-006
+      - b49-007
+      - b49-008
+      - b49-009
+      - b49-010
+  - type: dialogue
+    title_vi: "Part 1: Học tập"
+    lines:
+      - speaker: Examiner
+        text: Do you work or are you a student?
+        vi: Bạn đi làm hay đang là sinh viên?
+      - speaker: Candidate
+        text: I'm working at the moment, as an accountant, but I'm also doing an online course in data analysis.
+        vi: Hiện tôi đang đi làm, làm kế toán, nhưng tôi cũng đang học một khóa trực tuyến về phân tích dữ liệu.
+      - speaker: Examiner
+        text: What was your favourite subject at school?
+        vi: Môn học yêu thích của bạn ở trường là gì?
+      - speaker: Candidate
+        text: I'd say history. It was fairly challenging, but my teacher was really inspiring. She turned every lesson into a story.
+        vi: Tôi cho là môn sử. Nó khá khó, nhưng cô giáo tôi rất truyền cảm hứng. Cô biến mỗi bài học thành một câu chuyện.
+      - speaker: Examiner
+        text: Do you prefer studying alone or with other people?
+        vi: Bạn thích học một mình hay học cùng người khác?
+      - speaker: Candidate
+        text: It depends. For memorising vocabulary, I tend to study alone, but for difficult topics, I learn a lot from my peers.
+        vi: Còn tùy. Để học thuộc từ vựng, tôi thường học một mình, nhưng với chủ đề khó, tôi học được nhiều từ bạn bè.
+      - speaker: Examiner
+        text: Is there anything you find difficult about studying now?
+        vi: Hiện giờ có điều gì bạn thấy khó khi học không?
+      - speaker: Candidate
+        text: Finding the motivation, to be honest. After a full day at work, it's quite hard to concentrate, so I study early in the morning instead.
+        vi: Thật lòng là khó tìm động lực. Sau một ngày làm việc, khá khó tập trung, nên tôi học vào sáng sớm thay vì buổi tối.
+  - type: exercises
+    items:
+      - id: b49-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn câu trả lời Part 1 tốt nhất (band 6.5).
+        questions:
+          - q: "'Do you like your school/university?'"
+            options:
+              - Yes, I like my university.
+              - Yes, most of the time. The campus is fairly small, but the lecturers are really supportive, which makes a big difference.
+              - My university is very very good.
+              - Yes.
+            answer: b
+          - q: "'How much time do you spend studying each day?'"
+            options:
+              - I study.
+              - About two hours. I used to study late at night, but these days I tend to get up early and do some self-study before work.
+              - Many hours every day because study is very important for me and I must study hard.
+              - I don't know.
+            answer: b
+          - q: Which is correct?
+            options:
+              - I am tend to cram.
+              - I tend to cram.
+              - I tend to cramming.
+              - I tending cram.
+            answer: b
+          - q: Which is correct?
+            options:
+              - It was a quite long exam.
+              - It was quite a long exam.
+              - It was quite long a exam.
+              - It was a long quite exam.
+            answer: b
+      - id: b49-x2
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lại câu cho tự nhiên hơn, dùng từ trong ngoặc.
+        questions:
+          - q: I always study the night before exams. (tend to, cram)
+            answer: I tend to cram the night before exams.
+            accept:
+              - I tend to cram before exams.
+              - I tend to cram the night before an exam.
+          - q: Chemistry was very difficult but interesting. (challenging)
+            answer: Chemistry was challenging.
+            accept:
+              - Chemistry was quite challenging.
+              - Chemistry was fairly challenging.
+              - Chemistry was really challenging.
+          - q: I always wait until the last minute. (procrastinate)
+            answer: I tend to procrastinate.
+            accept:
+              - I procrastinate.
+              - I often procrastinate.
+          - q: My teacher gave me a lot of energy to learn. (inspiring)
+            answer: My teacher was inspiring.
+            accept:
+              - My teacher was really inspiring.
+              - My teacher was very inspiring.
+      - id: b49-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ phù hợp.
+        bank:
+          - deadline
+          - peers
+          - motivation
+          - concentrate
+          - memorise
+          - mentor
+        questions:
+          - q: I find it hard to ___ in noisy cafés.
+            answer: concentrate
+          - q: We have to ___ fifty new words every week.
+            answer: memorise
+            accept:
+              - memorize
+          - q: The ___ for the essay is next Friday.
+            answer: deadline
+          - q: Group projects help students learn from their ___.
+            answer: peers
+          - q: When I study alone, I sometimes lose ___.
+            answer: motivation
+          - q: My first manager was also my ___; she taught me everything.
+            answer: mentor
+      - id: b49-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Câu trả lời Part 1 (đã chép ra) có 4 lỗi. Sửa trực tiếp.
+        text: I am tend to study in the library because it's quiet. At school, I use to memorise everything, but now I prefer understanding. It was a quite difficult change. I also concentrate to my phone too much.
+        errors:
+          - wrong: I am tend to study
+            right: I tend to study
+            why: tend không đi với be.
+          - wrong: I use to memorise
+            right: I used to memorise
+            why: "Thói quen quá khứ: used to (Buổi 28)."
+          - wrong: a quite difficult change
+            right: quite a difficult change
+            why: quite đứng trước a/an.
+          - wrong: concentrate to my phone
+            right: concentrate on my phone
+            why: concentrate ON.
+      - id: b49-x5
+        bank_no: 29
+        kind: speaking-part1
+        instructions_vi: Trả lời 6 câu Part 1 (20–30 giây mỗi câu). Mỗi câu dùng ít nhất 1 từ chỉ mức độ (fairly/quite/a bit/tend to) và 1 từ của buổi này. Có ít nhất 2 câu so sánh quá khứ – hiện tại. Ghi âm, nghe lại, đánh dấu chỗ lặp 'very/good'.
+        questions:
+          - q: Do you work or are you a student?
+          - q: What subjects did you enjoy at school?
+          - q: How do you usually prepare for exams?
+          - q: Do you prefer studying in the morning or in the evening?
+          - q: Who was your favourite teacher? Why?
+          - q: Would you like to study something new in the future?
+        sample: I'd say the evening, although that's changed recently. When I was a student, I used to study until midnight, but now that I'm working, I'm usually too tired by then, so I tend to get up early and do an hour of self-study before work.
+      - id: b49-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: procrastinate
+            right: to delay doing something you should do
+          - left: cram
+            right: to study a lot in a short time before an exam
+          - left: peer
+            right: a person of the same age or level as you
+          - left: mentor
+            right: an experienced person who advises someone less experienced
+          - left: challenging
+            right: difficult in a way that tests your ability
+          - left: self-study
+            right: learning by yourself without a teacher
+      - id: b49-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một thí sinh trả lời Part 1 (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Examiner: Did you enjoy your time at secondary school?
+          Candidate: Mostly, yes. The teachers were pretty strict, but I made some great friends there.
+          Examiner: What was the most difficult subject for you?
+          Candidate: Physics, definitely. It was quite challenging because we had to memorise lots of formulas.
+          Examiner: How do you study now?
+          Candidate: I tend to study with an app for twenty minutes on the bus every morning. It's a bit boring, but it works.
+        questions:
+          - q: What does the candidate say about the teachers?
+            options:
+              - They were relaxed.
+              - They were quite strict.
+              - They were inspiring.
+              - They were young.
+            answer: b
+          - q: Why was physics difficult?
+            options:
+              - The teacher was bad.
+              - There were many formulas to memorise.
+              - There was too much homework.
+              - The exams were long.
+            answer: b
+          - q: How does the candidate study now?
+            options:
+              - in a library
+              - with an app on the bus
+              - with a private teacher
+              - late at night
+            answer: b
+          - q: How does the candidate feel about the method?
+            options:
+              - It is exciting.
+              - It is a bit boring but effective.
+              - It doesn't work.
+              - It is too expensive.
+            answer: b
+      - id: b49-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý các từ chỉ mức độ.
+        audio_text: In a small study, researchers asked two hundred university students about their study habits. Most students said they tend to procrastinate, and about half admitted that they usually cram the night before an exam. However, students who studied a little every day got slightly higher marks and reported feeling far less stressed. Interestingly, studying with peers helped only when the group was small.
+        questions:
+          - q: Most students said they tend to procrastinate.
+            answer: T
+          - q: All of the students cram the night before an exam.
+            answer: F
+            explain_vi: Chỉ khoảng một nửa (about half).
+          - q: Students who studied every day got much higher marks.
+            answer: F
+            explain_vi: "'slightly higher' — cao hơn một chút, không phải 'much'."
+          - q: Studying with peers always helped.
+            answer: F
+  - type: homework
+    kind: speaking
+    prompt_vi: "Ghi âm 8 câu Part 1 dưới đây (20–30 giây mỗi câu, không đọc giấy). Nghe lại và chép một câu trả lời, gạch dưới: từ chỉ mức độ, thì khác nhau, từ vựng cụ thể của buổi. Viết lại câu yếu nhất theo mẫu band 6.5 rồi ghi âm lại."
+    prompt_en: 1. What are you studying or what is your job? 2. Why did you choose it? 3. What do you find most challenging about it? 4. Do you usually meet your deadlines? 5. Where do you like to study? 6. Have your study habits changed since you were a child? 7. Do you think you are a good learner? 8. What would you like to learn next?
+    minutes: 25

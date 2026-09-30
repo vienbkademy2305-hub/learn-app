@@ -930,3 +930,453 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: for-instance|idiom
+    headword: for instance
+    pos: idiom
+    ipa:
+      uk: /fər ˈɪn.stəns/
+      us: /fɚ ˈɪn.stəns/
+    cefr: null
+    meaning_vi:
+      - ví dụ (= for example)
+    notes_vi:
+      - "Đứng đầu câu có dấu phẩy: For instance, my aunt …"
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: festival|n
+    headword: festival
+    pos: n
+    ipa:
+      uk: /ˈfes.tɪ.vəl/
+      us: /ˈfes.tə.vəl/
+    cefr: A1
+    meaning_vi:
+      - lễ hội
+    collocations:
+      - a lantern festival
+      - hold a festival
+      - a traditional festival
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/festival, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/festival, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/festival, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fact-check|v
+    headword: fact-check
+    pos: v
+    ipa:
+      uk: /ˈfækt.tʃek/
+      us: /ˈfækt.tʃek/
+    cefr: null
+    meaning_vi:
+      - kiểm chứng thông tin
+    collocations:
+      - fact-check a story
+      - fact-checking websites
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fact-check, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fact-check, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: freedom-of-speech|phr-n
+    headword: freedom of speech
+    pos: phr-n
+    ipa:
+      uk: /ˌfriː.dəm əv ˈspiːtʃ/
+      us: /ˌfriː.dəm əv ˈspiːtʃ/
+    cefr: null
+    meaning_vi:
+      - quyền tự do ngôn luận
+    collocations:
+      - protect freedom of speech
+      - limit freedom of speech
+    topics:
+      - media
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: freedom-of-the-press|phr-n
+    headword: freedom of the press
+    pos: phr-n
+    ipa:
+      uk: /ˌfriː.dəm əv ðə ˈpres/
+      us: /ˌfriː.dəm əv ðə ˈpres/
+    cefr: null
+    meaning_vi:
+      - tự do báo chí
+    collocations:
+      - respect freedom of the press
+    topics:
+      - media
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: freelance|adj
+    headword: freelance
+    pos: adj
+    ipa:
+      uk: /ˈfriː.lɑːns/
+      us: /ˈfriː.læns/
+    cefr: null
+    meaning_vi:
+      - làm tự do (không thuộc biên chế công ty nào)
+    collocations:
+      - freelance work
+      - a freelance designer
+      - work freelance
+    notes_vi:
+      - "Người làm tự do: freelancer."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freelance, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freelance, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: flexible|adj
+    headword: flexible
+    pos: adj
+    ipa:
+      uk: /ˈflek.sə.bəl/
+      us: /ˈflek.sə.bəl/
+    stress: FLEX-i-ble
+    cefr: B2
+    meaning_vi:
+      - linh hoạt
+    collocations:
+      - flexible working hours
+      - a flexible job
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flexible, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flexible, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flexible, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fast-food|phr-n
+    headword: fast food
+    pos: phr-n
+    ipa:
+      uk: /ˌfɑːst ˈfuːd/
+      us: /ˌfæst ˈfuːd/
+    cefr: null
+    meaning_vi:
+      - đồ ăn nhanh
+    collocations:
+      - fast-food chains
+      - eat fast food
+    notes_vi:
+      - "Trước danh từ có gạch nối: fast-food restaurants."
+    topics:
+      - food
+      - globalisation
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fast-food, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fast-food, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: funding|n
+    headword: funding
+    pos: n
+    ipa:
+      uk: /ˈfʌn.dɪŋ/
+      us: /ˈfʌn.dɪŋ/
+    cefr: B2
+    meaning_vi:
+      - nguồn kinh phí
+      - tài trợ
+    collocations:
+      - government funding
+      - funding for research
+    notes_vi:
+      - Không đếm được. funding FOR something.
+    topics:
+      - government
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funding, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funding, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funding, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: fund|v
+    headword: fund
+    pos: v
+    ipa:
+      uk: /fʌnd/
+      us: /fʌnd/
+    cefr: B2
+    meaning_vi:
+      - cấp kinh phí
+      - tài trợ
+    collocations:
+      - be funded by the government
+      - fund research
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fund_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fund_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fund_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: filter|v
+    headword: filter
+    pos: v
+    ipa:
+      uk: /ˈfɪl.tər/
+      us: /ˈfɪl.tɚ/
+    cefr: null
+    meaning_vi:
+      - lọc
+    collocations:
+      - be filtered through sand
+      - filter out dirt
+    topics:
+      - writing
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: farmland|n
+    headword: farmland
+    pos: n
+    ipa:
+      uk: /ˈfɑːm.lænd/
+      us: /ˈfɑːrm.lænd/
+    cefr: null
+    meaning_vi:
+      - đất nông nghiệp
+    collocations:
+      - farmland was replaced by houses
+    notes_vi:
+      - "Không đếm được: *a farmland* ❌ → an area of farmland."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: footpath|n
+    headword: footpath
+    pos: n
+    ipa:
+      uk: /ˈfʊt.pɑːθ/
+      us: /ˈfʊt.pæθ/
+    cefr: null
+    meaning_vi:
+      - lối đi bộ
+    collocations:
+      - a new footpath
+      - a footpath along the river
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: fairly|adv
+    headword: fairly
+    pos: adv
+    ipa:
+      uk: /ˈfeə.li/
+      us: /ˈfer.li/
+    cefr: null
+    meaning_vi:
+      - khá (mức vừa phải)
+    collocations:
+      - fairly easy
+      - fairly often
+    notes_vi:
+      - fairly < quite < pretty (văn nói) < very. fairly thường cho ý tích cực vừa phải.
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: furthermore|adv
+    headword: furthermore
+    pos: adv
+    ipa:
+      uk: /ˌfɜː.ðəˈmɔːr/
+      us: /ˌfɝː.ðɚˈmɔːr/
+    cefr: null
+    meaning_vi:
+      - ngoài ra
+      - hơn nữa
+    notes_vi:
+      - Gần nghĩa moreover / in addition (Buổi 30). Mỗi bài chỉ nên dùng 1 lần mỗi từ.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: facial-recognition|phr-n
+    headword: facial recognition
+    pos: phr-n
+    ipa:
+      uk: /ˌfeɪ.ʃəl ˌrek.əɡˈnɪʃ.ən/
+      us: /ˌfeɪ.ʃəl ˌrek.əɡˈnɪʃ.ən/
+    cefr: null
+    meaning_vi:
+      - nhận diện khuôn mặt
+    collocations:
+      - facial recognition technology
+      - facial recognition cameras
+    topics:
+      - technology
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: factor|n
+    headword: factor
+    pos: n
+    ipa:
+      uk: /ˈfæk.tər/
+      us: /ˈfæk.tɚ/
+    cefr: null
+    meaning_vi:
+      - yếu tố
+    collocations:
+      - a key factor
+      - a contributing factor
+      - one factor behind
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: folklore|n
+    headword: folklore
+    pos: n
+    ipa:
+      uk: /ˈfəʊk.lɔːr/
+      us: /ˈfoʊk.lɔːr/
+    cefr: null
+    meaning_vi:
+      - văn hóa dân gian
+      - truyện dân gian
+    collocations:
+      - Vietnamese folklore
+      - stories from folklore
+    notes_vi:
+      - "l câm trong folk: /fəʊk/."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: fit-in|phr-v
+    headword: fit in
+    pos: phr-v
+    forms:
+      past: fitted in / fit in
+    ipa:
+      uk: /ˌfɪt ˈɪn/
+      us: /ˌfɪt ˈɪn/
+    cefr: null
+    meaning_vi:
+      - hòa nhập
+      - thích nghi (với nhóm)
+    collocations:
+      - fit in with new classmates
+      - find it hard to fit in
+    topics:
+      - speaking
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: feel-at-home|idiom
+    headword: feel at home
+    pos: idiom
+    ipa:
+      uk: /ˌfiːl ət ˈhəʊm/
+      us: /ˌfiːl ət ˈhoʊm/
+    cefr: null
+    meaning_vi:
+      - cảm thấy thoải mái như ở nhà
+    collocations:
+      - make someone feel at home
+      - I never felt at home there
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

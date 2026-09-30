@@ -1,0 +1,339 @@
+# Buổi 55 — Sức khỏe cộng đồng · Writing Task 2: Cause / Effect. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-55-suc-khoe-cause-effect
+number: 55
+stage: 3
+title_vi: "Sức khỏe cộng đồng · Writing Task 2: Cause / Effect"
+focus:
+  grammar: Nguyên nhân – hệ quả nâng cao (contribute to, stem from, give rise to)
+  skill: Writing Task 2 — dạng Causes and Effects
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - obesity|n
+      - sedentary|adj
+      - processed-food|phr-n
+      - sugary|adj
+      - consumption|n
+      - contribute-to|phr-v
+      - stem-from|phr-v
+      - give-rise-to|phr-v
+      - detrimental|adj
+      - adverse|adj
+      - vulnerable|adj
+      - burden|n
+      - sleep-deprivation|phr-n
+      - owing-to|prep
+      - factor|n
+      - trigger|v
+      - lead-to|phr-v
+      - consequence|n
+  - type: pronunciation
+    notes:
+      - word: obesity|n
+        text_vi: "o-BE-si-ty /əʊˈbiː.sə.ti/: nhấn âm 2; tính từ obese /əʊˈbiːs/."
+      - word: sedentary|adj
+        text_vi: "SED-en-ta-ry: nhấn âm 1 (Anh-Anh 3 âm tiết /ˈsed.ən.tri/ khi nói nhanh)."
+      - word: detrimental|adj
+        text_vi: "det-ri-MEN-tal: nhấn âm 3."
+      - word: vulnerable|adj
+        text_vi: "VUL-ner-a-ble: nhấn âm 1; -ner- đọc lướt."
+      - word: consumption|n
+        text_vi: "con-SUMP-tion: p gần như câm khi nói nhanh /kənˈsʌm.ʃən/."
+  - type: grammar
+    items:
+      - en-g3-10
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 2 — Causes and Effects
+    intro_vi: "Đề nêu một xu hướng/vấn đề và hỏi: 'What are the causes of this? What effects does it have (on individuals and society)?'. Khác Problem/Solution (Buổi 44): không hỏi giải pháp — viết giải pháp là lạc đề một phần. Bố cục: Mở bài → Thân bài 1 (2 nguyên nhân) → Thân bài 2 (2 hệ quả) → Kết bài. Ở band 6.5, điểm khác biệt là CHUỖI NHÂN QUẢ rõ ràng: nguyên nhân → cơ chế → hệ quả, và hệ quả ở hai cấp độ (cá nhân và xã hội)."
+    steps:
+      - title_vi: "Đọc kỹ: causes / effects / problems / solutions"
+        text_vi: Gạch các từ này trong đề. Hỏi effects thì không cần giải pháp; nếu có câu 'What can be done?' thì mới thêm giải pháp.
+      - title_vi: Brainstorm theo chuỗi
+        text_vi: "Nguyên nhân 1 → cơ chế → hệ quả. VD: cheap processed food → high sugar intake → obesity → burden on healthcare."
+      - title_vi: "Thân bài 1: nguyên nhân"
+        text_vi: "'There are several factors behind this trend.' Mỗi nguyên nhân: nêu + giải thích cơ chế + ví dụ. Dùng contribute to / stem from."
+      - title_vi: "Thân bài 2: hệ quả — cá nhân và xã hội"
+        text_vi: "'This trend has serious consequences for both individuals and society.' Hệ quả 1 (cá nhân: sức khỏe, thu nhập), hệ quả 2 (xã hội: gánh nặng y tế, năng suất)."
+      - title_vi: Kết bài
+        text_vi: "'In conclusion, … stems mainly from … and …, and it has a detrimental effect on …' — không thêm giải pháp nếu đề không hỏi."
+    tips:
+      - "Chuỗi nhân quả là thứ giám khảo chấm ở Coherence: mỗi câu phải NỐI được với câu trước."
+      - Hệ quả ở hai cấp độ (individual / society) giúp bài sâu hơn mà không cần thêm ý.
+      - "Dùng mức độ: 'is likely to', 'may' cho hệ quả dự đoán."
+    traps:
+      - trap_vi: Viết giải pháp trong khi đề chỉ hỏi causes và effects.
+        fix_vi: Chỉ trả lời đúng hai câu hỏi của đề.
+      - trap_vi: Lặp 'cause' / 'because' trong mọi câu.
+        fix_vi: "Xoay vòng: contribute to, stem from, give rise to, owing to, lead to, result in."
+      - trap_vi: "Nhầm chiều: 'Obesity contributes to fast food'."
+        fix_vi: Nguyên nhân đứng trước contribute to / give rise to.
+    phrases:
+      - en: There are several factors behind this trend.
+        vi: Có một số yếu tố đằng sau xu hướng này.
+        note_vi: Câu chủ đề thân bài 1.
+      - en: This problem stems largely from …
+        vi: Vấn đề này phần lớn bắt nguồn từ …
+      - en: … is another key factor contributing to …
+        vi: … là một yếu tố then chốt khác góp phần gây ra …
+      - en: This trend has serious consequences for both individuals and society.
+        vi: Xu hướng này có hậu quả nghiêm trọng cho cả cá nhân lẫn xã hội.
+        note_vi: Câu chủ đề thân bài 2.
+      - en: … places a heavy burden on …
+        vi: … tạo gánh nặng lớn cho …
+    demo:
+      title_vi: "Làm mẫu: hai đoạn thân bài"
+      text_en: |-
+        Question: In many countries, the number of children who are overweight is increasing. What are the causes of this? What effects does it have?
+
+        Body 1: There are several factors behind this trend. The most important is diet. Processed food and sugary drinks have become cheap and widely available, and they are heavily advertised to children; consequently, many young people consume far more sugar than they need. Another key factor contributing to obesity is a sedentary lifestyle. Owing to the popularity of smartphones and computer games, children now spend much less time playing outside than previous generations did.
+
+        Body 2: This trend has serious consequences for both individuals and society. For children themselves, obesity may give rise to health problems such as diabetes at a young age, and it can also have a detrimental effect on their confidence. For society, the effects are mainly economic: overweight children are likely to become overweight adults, which places a heavy burden on the healthcare system for decades.
+      notes:
+        - label: Chuỗi nhân quả
+          text_vi: cheap + advertised → consume more sugar (consequently) — nguyên nhân có cơ chế, không chỉ liệt kê.
+        - label: Đa dạng cấu trúc
+          text_vi: contributing to, Owing to, give rise to, have a detrimental effect on, places a burden on.
+        - label: Hai cấp độ hệ quả
+          text_vi: Cá nhân (sức khỏe, tự tin) và xã hội (gánh nặng y tế).
+        - label: Không có giải pháp
+          text_vi: Đề chỉ hỏi causes và effects.
+  - type: examples
+    items:
+      - b55-001
+      - b55-002
+      - b55-003
+      - b55-004
+      - b55-005
+      - b55-006
+      - b55-007
+      - b55-008
+      - b55-009
+  - type: dialogue
+    title_vi: Lập dàn ý Cause/Effect
+    lines:
+      - speaker: A
+        text: The question is about why more young adults suffer from stress, and what the effects are.
+        vi: Đề hỏi vì sao ngày càng nhiều người trẻ bị căng thẳng, và hậu quả là gì.
+      - speaker: B
+        text: OK, causes first. Long working hours are an obvious factor.
+        vi: Được, nguyên nhân trước. Làm việc nhiều giờ là một yếu tố rõ ràng.
+      - speaker: A
+        text: And social media. Comparing yourself to others can trigger anxiety.
+        vi: Và mạng xã hội. So sánh bản thân với người khác có thể gây lo âu.
+      - speaker: B
+        text: Good. Now effects. For individuals, stress can give rise to sleep deprivation and health problems.
+        vi: Tốt. Giờ đến hậu quả. Với cá nhân, căng thẳng có thể dẫn đến thiếu ngủ và các vấn đề sức khỏe.
+      - speaker: A
+        text: And for society, it places a burden on the healthcare system and reduces productivity.
+        vi: Còn với xã hội, nó tạo gánh nặng cho y tế và làm giảm năng suất.
+      - speaker: B
+        text: Should we add solutions?
+        vi: Mình có nên thêm giải pháp không?
+      - speaker: A
+        text: No. The question only asks for causes and effects, so solutions would be off-topic.
+        vi: Không. Đề chỉ hỏi nguyên nhân và hậu quả, nên giải pháp sẽ lạc đề.
+      - speaker: B
+        text: Right. Two causes, two effects, and a clear chain between them.
+        vi: Đúng. Hai nguyên nhân, hai hậu quả, và một chuỗi liên kết rõ ràng giữa chúng.
+  - type: exercises
+    items:
+      - id: b55-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: A sedentary lifestyle ___ obesity.
+            options:
+              - stems from
+              - contributes to
+              - is contributed by
+              - results from
+            answer: b
+          - q: Much stress at work ___ long working hours.
+            options:
+              - gives rise to
+              - stems from
+              - contributes
+              - triggers to
+            answer: b
+          - q: Sleep deprivation has a detrimental effect ___ memory.
+            options:
+              - to
+              - for
+              - on
+              - in
+            answer: c
+          - q: ___ a lack of exercise, many office workers have back pain.
+            options:
+              - Owing to
+              - Because
+              - Since
+              - So
+            answer: a
+          - q: "The question asks: 'What are the causes? What are the effects?' Which paragraph is NOT needed?"
+            options:
+              - a paragraph on causes
+              - a paragraph on effects
+              - a paragraph on solutions
+              - an introduction
+            answer: c
+      - id: b55-x2
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu với từ trong ngoặc, giữ nguyên nghĩa (chú ý chiều nhân quả).
+        questions:
+          - q: Fast food is one cause of obesity. (contributes to) → Fast food ___
+            answer: contributes to obesity.
+          - q: Stress is caused by long working hours. (stems from) → Stress ___
+            answer: stems from long working hours.
+          - q: Social media can lead to anxiety. (give rise to) → Social media can ___
+            answer: give rise to anxiety.
+          - q: Smoking harms the lungs. (detrimental effect) → Smoking has ___
+            answer: a detrimental effect on the lungs.
+      - id: b55-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi. Sửa trực tiếp.
+        text: Obesity is contributed by several factors. Much of it stems processed food. Owing to children spend hours online, they exercise less. This has a detrimental effect to their health. Moreover, it places a heavy burden to the healthcare system.
+        errors:
+          - wrong: Obesity is contributed by several factors
+            right: Several factors contribute to obesity
+            why: contribute to là chủ động; nguyên nhân làm chủ ngữ.
+          - wrong: stems processed food
+            right: stems from processed food
+            why: stem FROM.
+          - wrong: Owing to children spend hours online
+            right: Because children spend hours online
+            why: owing to + danh từ; trước mệnh đề dùng because.
+          - wrong: detrimental effect to their health
+            right: detrimental effect on their health
+            why: effect ON.
+          - wrong: heavy burden to the healthcare system
+            right: heavy burden on the healthcare system
+            why: a burden ON.
+      - id: b55-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ phù hợp.
+        bank:
+          - sedentary
+          - sugary
+          - consumption
+          - vulnerable
+          - burden
+          - factor
+        questions:
+          - q: Office work is a very ___ job; you sit all day.
+            answer: sedentary
+          - q: Children should drink fewer ___ drinks.
+            answer: sugary
+          - q: The ___ of alcohol has risen among young people.
+            answer: consumption
+          - q: Children and the elderly are the most ___ to air pollution.
+            answer: vulnerable
+          - q: An ageing population places a heavy ___ on young workers.
+            answer: burden
+          - q: Genetics is one ___, but lifestyle matters more.
+            answer: factor
+      - id: b55-x5
+        bank_no: 27
+        kind: completion
+        instructions_vi: Hoàn thành đoạn thân bài hệ quả. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: "This trend has serious (1) ___ for both individuals and society. For individuals, stress may give (2) ___ to sleep deprivation, which in turn has a detrimental effect (3) ___ concentration at work. For society, the effects are mainly economic: stressed employees take more sick days, (4) ___ reduces productivity and places a heavy burden (5) ___ the healthcare system."
+        questions:
+          - q: (1)
+            answer: consequences
+            accept:
+              - effects
+          - q: (2)
+            answer: rise
+          - q: (3)
+            answer: on
+          - q: (4)
+            answer: which
+          - q: (5)
+            answer: on
+      - id: b55-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: sedentary
+            right: involving a lot of sitting and little exercise
+          - left: detrimental
+            right: causing harm
+          - left: vulnerable
+            right: easily harmed
+          - left: burden
+            right: something difficult that you have to deal with
+          - left: stem from
+            right: to be caused by
+          - left: trigger
+            right: to make something start suddenly
+      - id: b55-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe đoạn phỏng vấn bác sĩ (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Interviewer: Doctor, why are so many young adults having sleep problems?
+          Doctor: There are several factors. The biggest, I think, is screen use late at night. The light from phones can delay sleep by up to an hour.
+          Interviewer: Is work also a factor?
+          Doctor: Definitely. Long working hours give rise to stress, and stress is a common trigger for insomnia.
+          Interviewer: What are the effects?
+          Doctor: In the short term, poor concentration and more accidents. In the long term, sleep deprivation contributes to obesity and heart disease.
+        questions:
+          - q: According to the doctor, what is the biggest factor?
+            options:
+              - coffee
+              - screen use late at night
+              - noise
+              - diet
+            answer: b
+          - q: How much can phone light delay sleep?
+            options:
+              - up to 10 minutes
+              - up to half an hour
+              - up to an hour
+              - up to two hours
+            answer: c
+          - q: What does stress trigger?
+            options:
+              - obesity
+              - insomnia
+              - accidents
+              - headaches
+            answer: b
+          - q: Which is a LONG-term effect mentioned?
+            options:
+              - poor concentration
+              - more accidents
+              - heart disease
+              - late meetings
+            answer: c
+      - id: b55-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý chiều nhân quả.
+        audio_text: A new study suggests that the rise in childhood obesity stems mainly from diet rather than a lack of exercise. Children in the study who drank sugary drinks every day were twice as likely to be overweight. Exercise still mattered, but it contributed less than diet. The researchers warn that obesity at a young age is likely to give rise to diabetes later in life.
+        questions:
+          - q: The study says diet is a bigger factor than exercise.
+            answer: T
+          - q: Children who drank sugary drinks daily were three times as likely to be overweight.
+            answer: F
+          - q: The study found exercise did not matter at all.
+            answer: F
+          - q: The researchers warn that childhood obesity may lead to diabetes.
+            answer: T
+  - type: homework
+    kind: task2
+    prompt_vi: Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút) dạng Causes/Effects. Lập chuỗi nhân quả trước khi viết. Dùng ít nhất 5 cấu trúc nhân quả khác nhau (contribute to, stem from, give rise to, owing to, have a detrimental effect on, lead to…). KHÔNG viết giải pháp.
+    prompt_en: Nowadays, more and more young adults suffer from stress and mental health problems. What are the causes of this? What effects does it have on individuals and society?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

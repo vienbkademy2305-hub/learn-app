@@ -301,15 +301,13 @@ steps:
           - left: referee
             right: the person who controls a football match
           - left: injury
-            right: damage to your body
-            for example in an accident: null
+            right: "damage to your body, for example in an accident"
           - left: facilities
             right: buildings and equipment for a particular use
           - left: entrance
             right: the door or gate where you go in
           - left: stretch
-            right: to make your arms
-            legs or body long to relax the muscles: null
+            right: "to make your arms, legs or body long to relax the muscles"
       - id: b27-x6
         bank_no: 23
         kind: dictation

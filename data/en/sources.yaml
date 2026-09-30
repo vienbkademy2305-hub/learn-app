@@ -87,7 +87,7 @@ sources:
     notes: "Khóa học trả phí của PREP; nhiều bài nghe/đọc trong khóa lấy từ đề Cambridge IELTS. Chỉ dùng để đối chiếu phạm vi và thứ tự chiến thuật kỹ năng (skimming, scanning, T/F/NG, dự đoán đáp án, cấu trúc đoạn, dạng Task 1/Task 2, mở rộng câu trả lời Speaking). Tự viết lại mọi giải thích, bài đọc, bài tập; không dùng audio, video, bài đọc, đề của khóa. Phần 002 (sha256 7c74c8f7851852bfdf8b5c8ad3efe9b7bebc37e5c8bb6d153919b2590955145a) chỉ có video. Giải nén ở tai-lieu-nguon/tieng-anh/2. IELTS CƠ BẢN PREP.VN/. Bản đồ nội dung: skill english-content references/ban-do-tai-lieu.md §5."
 
   - id: prep-trung-cap
-    name: Khóa "IELTS Trung cấp 5.0–6.0" (PREP.VN) — video (mới có phần nén 004)
+    name: Khóa "IELTS Trung cấp 5.0–6.0" (PREP.VN) — 26 PDF bài tập Listening/Reading + video (21 phần nén 001–021)
     type: book
     license: copyrighted
     usage: reference
@@ -96,4 +96,4 @@ sources:
     path: "3. PREP - IELTS Trung Cấp - Từ 5. đến 6. IELTS-20260929T080804Z-1-004.zip"
     sha256: c9eaba9737f48687dcfffc7ffaddf641d1f8587d195e013f2f0ba981b95bd649
     added: 2026-09-29
-    notes: "Phần 004 chỉ có 2 video: Reading 'Multiple Choice / Picking from a list' và Listening 'Labelling a map'. Chưa xem (máy chưa có ffmpeg để trích khung hình). Chỉ reference."
+    notes: "Đủ 21 phần (khoảng 41 GB, gần hết là video). Đã đọc 26 PDF (13 Listening: overview, form/table, summary, sentence completion, flowchart, short answer, MCQ, pick from a list, matching, map, diagram + đề tổng hợp; 13 Reading: skimming/scanning, changeable vs unchangeable keywords, matching headings, summary with/without a box, short answer/notes/table, T/F/NG, MCQ/pick from a list, matching information + đề tổng hợp). Giải nén riêng PDF ở tai-lieu-nguon/tieng-anh/3. PREP - IELTS Trung Cấp - Từ 5. đến 6. IELTS/. Bài nghe/đọc phần lớn lấy từ Cambridge IELTS → chỉ reference: đối chiếu phạm vi, thứ tự các bước làm bài; tự viết lại mọi bài đọc, lời nghe, câu hỏi. Video Writing (Task 1 trends/comparison/mixed/maps, Task 2) và Speaking (events, media, hobbies, others) CHƯA XEM — máy chưa có ffmpeg. sha256 là của phần 004. Dùng cho Buổi 31–45 (2026-09-29)."

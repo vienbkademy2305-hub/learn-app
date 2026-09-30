@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { Say, speakEnglish, useEnglishVoice } from "./speech";
+import { Say, speakEnglish, stopEnglish, useEnglishVoice } from "./speech";
 
 type Line = { speaker: string; text: string; vi: string };
 
@@ -24,7 +24,7 @@ export function DialoguePlayer({ title, lines }: { title: string; lines: Line[] 
   const toggleAll = () => {
     if (playing !== null) {
       stopRef.current = true;
-      window.speechSynthesis.cancel();
+      stopEnglish();
       setPlaying(null);
     } else {
       stopRef.current = false;

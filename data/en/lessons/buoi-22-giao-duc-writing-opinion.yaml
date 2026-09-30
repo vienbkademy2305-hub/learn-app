@@ -302,8 +302,7 @@ steps:
           - left: essential
             right: very important and necessary
           - left: practical
-            right: useful in real life
-            not only in theory: null
+            right: "useful in real life, not only in theory"
       - id: b22-x7
         bank_no: 20
         kind: mcq

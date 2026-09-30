@@ -352,3 +352,711 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: influence|v
+    headword: influence
+    pos: v
+    ipa:
+      uk: /ˈɪn.flu.əns/
+      us: /ˈɪn.flu.əns/
+    stress: IN-flu-ence
+    cefr: B1
+    meaning_vi:
+      - ảnh hưởng đến
+    collocations:
+      - influence children's behaviour
+      - be influenced by friends
+    notes_vi:
+      - "Động từ KHÔNG cần giới từ: influence somebody (không nói *influence to somebody*). Danh từ: have an influence ON somebody."
+      - "Trọng âm âm 1: IN-flu-ence, dù là động từ."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influence_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influence_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influence_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: international|adj
+    headword: international
+    pos: adj
+    ipa:
+      uk: /ˌɪn.təˈnæʃ.ən.əl/
+      us: /ˌɪn.t̬ɚˈnæʃ.ən.əl/
+    stress: in-ter-NA-tion-al
+    cefr: A2
+    meaning_vi:
+      - quốc tế
+    collocations:
+      - international tourists
+      - international flights
+    notes_vi:
+      - "Đồng nghĩa: foreign, overseas. Đối lập: domestic."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/international, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/international, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/international, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: in-contrast|idiom
+    headword: in contrast
+    pos: idiom
+    ipa:
+      uk: /ɪn ˈkɒn.trɑːst/
+      us: /ɪn ˈkɑːn.træst/
+    cefr: null
+    meaning_vi:
+      - ngược lại
+    notes_vi:
+      - In contrast, … / By contrast, … đứng đầu câu mới, có dấu phẩy. Không nối hai mệnh đề bằng dấu phẩy + in contrast.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: infrastructure|n
+    headword: infrastructure
+    pos: n
+    ipa:
+      uk: /ˈɪn.frəˌstrʌk.tʃər/
+      us: /ˈɪn.frəˌstrʌk.tʃɚ/
+    stress: IN-fra-struc-ture
+    cefr: B2
+    meaning_vi:
+      - cơ sở hạ tầng
+    collocations:
+      - invest in infrastructure
+      - poor infrastructure
+      - transport infrastructure
+    notes_vi:
+      - "Không đếm được: *infrastructures* ❌ (trong văn thường)."
+    topics:
+      - city
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/infrastructure, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/infrastructure, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/infrastructure, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: influencer|n
+    headword: influencer
+    pos: n
+    ipa:
+      uk: /ˈɪn.flu.ən.sər/
+      us: /ˈɪn.flu.ən.sɚ/
+    stress: IN-flu-en-cer
+    cefr: null
+    meaning_vi:
+      - người có ảnh hưởng trên mạng
+    collocations:
+      - a social media influencer
+      - follow influencers
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influencer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influencer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: in-spite-of|prep
+    headword: in spite of
+    pos: prep
+    ipa:
+      uk: /ɪn ˈspaɪt əv/
+      us: /ɪn ˈspaɪt əv/
+    cefr: null
+    meaning_vi:
+      - mặc dù
+      - bất chấp (+ danh từ / V-ing)
+    notes_vi:
+      - = despite, nhưng CÓ 'of'. Ba từ, không viết liền.
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: internship|n
+    headword: internship
+    pos: n
+    ipa:
+      uk: /ˈɪn.tɜːn.ʃɪp/
+      us: /ˈɪn.tɝːn.ʃɪp/
+    cefr: null
+    meaning_vi:
+      - kỳ thực tập
+    collocations:
+      - do an internship
+      - a three-month internship
+      - an unpaid internship
+    notes_vi:
+      - "Người thực tập: intern. do/complete an internship AT a company."
+    topics:
+      - work
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internship, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internship, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: in-order-to|idiom
+    headword: in order to
+    pos: idiom
+    ipa:
+      uk: /ɪn ˈɔː.də tə/
+      us: /ɪn ˈɔːr.dɚ tə/
+    cefr: null
+    meaning_vi:
+      - để (+ động từ nguyên thể)
+    collocations:
+      - in order to save money
+      - in order not to be late
+    notes_vi:
+      - "Phủ định: in order NOT to + V. Trang trọng hơn 'to V'. *in order to getting* ❌."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: income-inequality|phr-n
+    headword: income inequality
+    pos: phr-n
+    ipa:
+      uk: /ˈɪn.kʌm ˌɪn.ɪˈkwɒl.ə.ti/
+      us: /ˈɪn.kʌm ˌɪn.ɪˈkwɑː.lə.t̬i/
+    cefr: null
+    meaning_vi:
+      - bất bình đẳng thu nhập
+    collocations:
+      - reduce income inequality
+      - growing income inequality
+    topics:
+      - economy
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: industry|n
+    headword: industry
+    pos: n
+    forms:
+      plural: industries
+    ipa:
+      uk: /ˈɪn.də.stri/
+      us: /ˈɪn.də.stri/
+    stress: IN-dus-try
+    cefr: A2
+    meaning_vi:
+      - ngành công nghiệp
+      - ngành
+    collocations:
+      - the tourism industry
+      - the IT industry
+      - manufacturing industry
+    notes_vi:
+      - "Nhấn âm 1: IN-dus-try (không phải in-DUS-try). Tính từ industrial nhấn in-DUS-tri-al."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/industry, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/industry, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/industry, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: invest|v
+    headword: invest
+    pos: v
+    ipa:
+      uk: /ɪnˈvest/
+      us: /ɪnˈvest/
+    cefr: B1
+    meaning_vi:
+      - đầu tư
+    collocations:
+      - invest in education
+      - invest money in
+    notes_vi:
+      - "invest IN something. Danh từ: investment."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invest, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invest, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invest, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: in-demand|adj
+    headword: in-demand
+    pos: adj
+    ipa:
+      uk: /ɪn dɪˈmɑːnd/
+      us: /ɪn dɪˈmænd/
+    cefr: null
+    meaning_vi:
+      - đang được săn đón
+      - có nhu cầu cao
+    collocations:
+      - in-demand skills
+      - be in demand
+    notes_vi:
+      - "Sau động từ viết rời: IT workers are in demand. Trước danh từ có gạch nối: in-demand jobs."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: interconnected|adj
+    headword: interconnected
+    pos: adj
+    ipa:
+      uk: /ˌɪn.tə.kəˈnek.tɪd/
+      us: /ˌɪn.t̬ɚ.kəˈnek.tɪd/
+    cefr: null
+    meaning_vi:
+      - kết nối chặt chẽ với nhau
+    collocations:
+      - an interconnected world
+      - closely interconnected
+    topics:
+      - globalisation
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: impact|n
+    headword: impact
+    pos: n
+    ipa:
+      uk: /ˈɪm.pækt/
+      us: /ˈɪm.pækt/
+    cefr: B1
+    meaning_vi:
+      - tác động
+      - ảnh hưởng
+    collocations:
+      - have an impact on
+      - a positive/negative impact
+    notes_vi:
+      - "have an impact ON something (không dùng *to*). Danh từ nhấn âm 1: IM-pact."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impact, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impact, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impact, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: implement|v
+    headword: implement
+    pos: v
+    ipa:
+      uk: /ˈɪm.plɪ.ment/
+      us: /ˈɪm.plə.ment/
+    stress: IM-ple-ment
+    cefr: B2
+    meaning_vi:
+      - thực thi
+      - triển khai
+    collocations:
+      - implement a policy
+      - implement changes
+    notes_vi:
+      - "Danh từ: implementation. Hay dùng bị động: The plan was implemented in 2020."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/implement, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/implement, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: introduce|v
+    headword: introduce
+    pos: v
+    ipa:
+      uk: /ˌɪn.trəˈdʒuːs/
+      us: /ˌɪn.trəˈduːs/
+    stress: in-tro-DUCE
+    cefr: A1
+    meaning_vi:
+      - đưa ra
+      - ban hành (luật, chính sách); giới thiệu
+    collocations:
+      - introduce a law
+      - introduce a tax
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/introduce, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/introduce, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/introduce, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: issue|n
+    headword: issue
+    pos: n
+    ipa:
+      uk: /ˈɪʃ.uː/
+      us: /ˈɪʃ.uː/
+    cefr: B1
+    meaning_vi:
+      - vấn đề (cần bàn, cần giải quyết)
+    collocations:
+      - a social issue
+      - address an issue
+      - a serious issue
+    notes_vi:
+      - "ss đọc /ʃ/: ISH-oo."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/issue, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/issue, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/issue, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: incentive|n
+    headword: incentive
+    pos: n
+    ipa:
+      uk: /ɪnˈsen.tɪv/
+      us: /ɪnˈsen.t̬ɪv/
+    stress: in-CEN-tive
+    cefr: B2
+    meaning_vi:
+      - biện pháp khuyến khích (thường bằng lợi ích)
+    collocations:
+      - tax incentives
+      - an incentive to save
+      - give people an incentive
+    topics:
+      - government
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/incentive, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/incentive, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/incentive, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: industrial|adj
+    headword: industrial
+    pos: adj
+    ipa:
+      uk: /ɪnˈdʌs.tri.əl/
+      us: /ɪnˈdʌs.tri.əl/
+    stress: in-DUS-tri-al
+    cefr: null
+    meaning_vi:
+      - (thuộc) công nghiệp
+    collocations:
+      - an industrial area
+      - industrial zone
+    topics:
+      - city
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: inspiring|adj
+    headword: inspiring
+    pos: adj
+    ipa:
+      uk: /ɪnˈspaɪə.rɪŋ/
+      us: /ɪnˈspaɪr.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - truyền cảm hứng
+    collocations:
+      - an inspiring teacher
+      - inspiring stories
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: increase|n
+    headword: increase
+    pos: n
+    ipa:
+      uk: /ˈɪŋ.kriːs/
+      us: /ˈɪŋ.kriːs/
+    stress: IN-crease
+    cefr: null
+    meaning_vi:
+      - sự gia tăng
+    collocations:
+      - an increase in crime
+      - a sharp increase
+    notes_vi:
+      - Danh từ nhấn âm 1 (IN-crease), động từ nhấn âm 2 (in-CREASE, Buổi 26). an increase IN.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: imprisonment|n
+    headword: imprisonment
+    pos: n
+    ipa:
+      uk: /ɪmˈprɪz.ən.mənt/
+      us: /ɪmˈprɪz.ən.mənt/
+    cefr: null
+    meaning_vi:
+      - sự bỏ tù
+      - án tù
+    collocations:
+      - life imprisonment
+      - five years' imprisonment
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: innocent|adj
+    headword: innocent
+    pos: adj
+    ipa:
+      uk: /ˈɪn.ə.sənt/
+      us: /ˈɪn.ə.sənt/
+    cefr: null
+    meaning_vi:
+      - vô tội
+    collocations:
+      - innocent people
+      - be found innocent
+    notes_vi:
+      - "Đối lập: guilty. innocent OF a crime."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: innovation|n
+    headword: innovation
+    pos: n
+    ipa:
+      uk: /ˌɪn.əˈveɪ.ʃən/
+      us: /ˌɪn.əˈveɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự đổi mới
+      - sáng kiến
+    collocations:
+      - technological innovation
+      - encourage innovation
+    topics:
+      - technology
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: inevitable|adj
+    headword: inevitable
+    pos: adj
+    ipa:
+      uk: /ɪˈnev.ɪ.tə.bəl/
+      us: /ɪˈnev.ə.t̬ə.bəl/
+    stress: in-EV-i-ta-ble
+    cefr: null
+    meaning_vi:
+      - không thể tránh khỏi
+    collocations:
+      - it is inevitable that
+      - an inevitable result
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: infectious|adj
+    headword: infectious
+    pos: adj
+    ipa:
+      uk: /ɪnˈfek.ʃəs/
+      us: /ɪnˈfek.ʃəs/
+    cefr: null
+    meaning_vi:
+      - truyền nhiễm
+      - dễ lây
+    collocations:
+      - infectious diseases
+      - highly infectious
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: identity|n
+    headword: identity
+    pos: n
+    forms:
+      plural: identities
+    ipa:
+      uk: /aɪˈden.tə.ti/
+      us: /aɪˈden.t̬ə.t̬i/
+    stress: i-DEN-ti-ty
+    cefr: null
+    meaning_vi:
+      - bản sắc
+      - danh tính
+    collocations:
+      - national identity
+      - a sense of identity
+      - lose your identity
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: indigenous|adj
+    headword: indigenous
+    pos: adj
+    ipa:
+      uk: /ɪnˈdɪdʒ.ɪ.nəs/
+      us: /ɪnˈdɪdʒ.ə.nəs/
+    stress: in-DIG-e-nous
+    cefr: null
+    meaning_vi:
+      - bản địa
+    collocations:
+      - indigenous peoples
+      - indigenous languages
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: intangible|adj
+    headword: intangible
+    pos: adj
+    ipa:
+      uk: /ɪnˈtæn.dʒə.bəl/
+      us: /ɪnˈtæn.dʒə.bəl/
+    cefr: null
+    meaning_vi:
+      - phi vật thể
+      - vô hình
+    collocations:
+      - intangible cultural heritage
+    notes_vi:
+      - intangible heritage = di sản phi vật thể (âm nhạc, lễ hội, tay nghề).
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: in-the-long-run|idiom
+    headword: in the long run
+    pos: idiom
+    ipa:
+      uk: /ɪn ðə ˌlɒŋ ˈrʌn/
+      us: /ɪn ðə ˌlɑːŋ ˈrʌn/
+    cefr: null
+    meaning_vi:
+      - về lâu dài
+    notes_vi:
+      - "Đồng nghĩa: in the long term (Buổi 44). Đối lập: in the short term."
+    topics:
+      - speaking
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

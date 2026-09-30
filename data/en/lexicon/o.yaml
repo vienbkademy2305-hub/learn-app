@@ -371,3 +371,281 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: overcrowded|adj
+    headword: overcrowded
+    pos: adj
+    ipa:
+      uk: /ˌəʊ.vəˈkraʊ.dɪd/
+      us: /ˌoʊ.vɚˈkraʊ.dɪd/
+    stress: o-ver-CROW-ded
+    cefr: null
+    meaning_vi:
+      - quá đông đúc
+    collocations:
+      - overcrowded streets
+      - become overcrowded
+    notes_vi:
+      - -ded đọc /dɪd/ (thêm âm tiết) vì gốc crowd tận cùng bằng /d/.
+    topics:
+      - travel
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overcrowded, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overcrowded, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: objective|adj
+    headword: objective
+    pos: adj
+    ipa:
+      uk: /əbˈdʒek.tɪv/
+      us: /əbˈdʒek.tɪv/
+    stress: ob-JEC-tive
+    cefr: B2
+    meaning_vi:
+      - khách quan
+    collocations:
+      - objective reporting
+      - an objective view
+    notes_vi:
+      - "Đối lập: subjective / biased. Danh từ cùng dạng nghĩa là 'mục tiêu'."
+    topics:
+      - media
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/objective_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/objective_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/objective_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: on-the-one-hand|idiom
+    headword: on the one hand
+    pos: idiom
+    ipa:
+      uk: /ɒn ðə ˈwʌn ˌhænd/
+      us: /ɑːn ðə ˈwʌn ˌhænd/
+    cefr: null
+    meaning_vi:
+      - một mặt
+    notes_vi:
+      - Đi cặp với On the other hand, … (Buổi 30). Không viết *On one hand* trong văn trang trọng.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: outsource|v
+    headword: outsource
+    pos: v
+    ipa:
+      uk: /ˈaʊt.sɔːs/
+      us: /ˈaʊt.sɔːrs/
+    cefr: null
+    meaning_vi:
+      - thuê ngoài (chuyển công việc cho công ty/nước khác làm)
+    collocations:
+      - outsource production
+      - outsource jobs to
+    topics:
+      - globalisation
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outsource, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outsource, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: once|conj
+    headword: once
+    pos: conj
+    ipa:
+      uk: /wʌns/
+      us: /wʌns/
+    cefr: null
+    meaning_vi:
+      - một khi
+      - sau khi
+    collocations:
+      - once the water has been filtered, …
+    notes_vi:
+      - "once + mệnh đề (thường hiện tại hoàn thành bị động): Once the bottles have been sorted, they are …"
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: offence|n
+    headword: offence
+    pos: n
+    ipa:
+      uk: /əˈfens/
+      us: /əˈfens/
+    cefr: null
+    meaning_vi:
+      - hành vi phạm tội
+      - tội
+    collocations:
+      - commit an offence
+      - a serious offence
+      - a first offence
+    notes_vi:
+      - commit an offence / a crime (không dùng *do/make a crime*). Anh-Mỹ viết offense.
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: obsolete|adj
+    headword: obsolete
+    pos: adj
+    ipa:
+      uk: /ˈɒb.səl.iːt/
+      us: /ˌɑːb.səlˈiːt/
+    cefr: null
+    meaning_vi:
+      - lỗi thời
+    collocations:
+      - become obsolete
+      - obsolete skills
+    topics:
+      - technology
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: overestimate|v
+    headword: overestimate
+    pos: v
+    ipa:
+      uk: /ˌəʊ.vərˈes.tɪ.meɪt/
+      us: /ˌoʊ.vɚˈes.tə.meɪt/
+    cefr: null
+    meaning_vi:
+      - đánh giá quá cao
+    collocations:
+      - overestimate the risks
+      - tend to overestimate
+    notes_vi:
+      - "Đối lập: underestimate (đánh giá thấp)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: outbreak|n
+    headword: outbreak
+    pos: n
+    ipa:
+      uk: /ˈaʊt.breɪk/
+      us: /ˈaʊt.breɪk/
+    cefr: null
+    meaning_vi:
+      - sự bùng phát (dịch)
+    collocations:
+      - an outbreak of flu
+      - control an outbreak
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: obesity|n
+    headword: obesity
+    pos: n
+    ipa:
+      uk: /əʊˈbiː.sə.ti/
+      us: /oʊˈbiː.sə.t̬i/
+    stress: o-BE-si-ty
+    cefr: null
+    meaning_vi:
+      - bệnh béo phì
+    collocations:
+      - childhood obesity
+      - rising obesity rates
+      - tackle obesity
+    notes_vi:
+      - "Tính từ: obese /əʊˈbiːs/. Trang trọng hơn 'being too fat'."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: owing-to|prep
+    headword: owing to
+    pos: prep
+    ipa:
+      uk: /ˈəʊ.ɪŋ tuː/
+      us: /ˈoʊ.ɪŋ tuː/
+    cefr: null
+    meaning_vi:
+      - do
+      - vì (+ danh từ)
+    collocations:
+      - owing to a lack of exercise
+    notes_vi:
+      - = due to / because of (Buổi 32) + DANH TỪ. Trang trọng.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: open-minded|adj
+    headword: open-minded
+    pos: adj
+    ipa:
+      uk: /ˌəʊ.pənˈmaɪn.dɪd/
+      us: /ˌoʊ.pənˈmaɪn.dɪd/
+    cefr: null
+    meaning_vi:
+      - cởi mở
+      - dễ tiếp thu cái mới
+    collocations:
+      - become more open-minded
+      - an open-minded person
+    topics:
+      - speaking
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

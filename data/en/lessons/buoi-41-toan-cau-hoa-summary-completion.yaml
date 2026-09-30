@@ -1,0 +1,363 @@
+# Buổi 41 — Toàn cầu hóa · Reading: Summary completion. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-41-toan-cau-hoa-summary-completion
+number: 41
+stage: 2
+title_vi: "Toàn cầu hóa · Reading: Summary completion"
+focus:
+  grammar: "V-ing vs to V (mở rộng: chủ ngữ, sau giới từ, động từ đổi nghĩa)"
+  skill: Reading — Summary completion (có hộp từ / không có hộp từ)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - globalisation|n
+      - global|adj
+      - multinational-corporation|phr-n
+      - supply-chain|phr-n
+      - trade|n
+      - trade-barrier|phr-n
+      - cultural-homogenisation|phr-n
+      - consumer|n
+      - goods|n
+      - local-business|phr-n
+      - fast-food|phr-n
+      - interconnected|adj
+      - benefit-from|phr-v
+      - impact|n
+      - manufacture|v
+      - outsource|v
+      - brand|n
+      - export|v
+  - type: pronunciation
+    notes:
+      - word: globalisation|n
+        text_vi: "glo-bal-i-SA-tion: 5 âm tiết, nhấn SA. Gốc GLO-bal nhấn âm 1."
+      - word: manufacture|v
+        text_vi: "man-u-FAC-ture: nhấn âm 3; -ture = /tʃə/."
+      - word: consumer|n
+        text_vi: "con-SU-mer /kənˈsjuː.mə/: nhấn âm 2."
+      - word: goods|n
+        text_vi: "/ɡʊdz/: âm cuối /dz/ — không đọc 'gút'."
+      - word: impact|n
+        text_vi: Danh từ IM-pact (nhấn âm 1), động từ im-PACT (nhấn âm 2).
+  - type: grammar
+    items:
+      - en-g2-21
+  - type: skill
+    skill: reading
+    title_vi: "Reading — Summary completion: có hộp từ và không có hộp từ"
+    intro_vi: "Đề cho một đoạn TÓM TẮT (summary) một phần của bài đọc, có các chỗ trống. Hai kiểu: (1) KHÔNG có hộp từ — chép từ trong bài, đúng giới hạn từ (giống Sentence completion ở Buổi 33); (2) CÓ hộp từ (A–H) — chọn từ trong hộp; từ trong hộp thường là TỪ ĐỒNG NGHĨA với từ trong bài, không trùng nguyên văn. Summary thường chỉ tóm tắt 1–3 đoạn, và các chỗ trống thường theo thứ tự bài."
+    steps:
+      - title_vi: Đọc yêu cầu và tiêu đề summary
+        text_vi: Có hộp từ hay không? Giới hạn bao nhiêu từ? Tiêu đề summary cho biết phần nào của bài được tóm tắt.
+      - title_vi: "Scan summary: từ khóa + loại từ"
+        text_vi: Với mỗi chỗ trống, gạch từ khóa xung quanh và đoán loại từ (sau a/the → danh từ; sau to → động từ; sau giới từ → danh từ/V-ing; sau be → tính từ/V-ing/V3).
+      - title_vi: Skim tìm đoạn chứa summary
+        text_vi: Đọc câu đầu của summary và tìm đoạn có ý tương tự. Từ khóa không đổi (tên, số, năm) giúp định vị nhanh.
+      - title_vi: Scan từng vùng thông tin
+        text_vi: Trong đoạn đã tìm, xác định câu tương ứng với từng chỗ trống. Chỗ trống sau thường nằm sau chỗ trống trước.
+      - title_vi: Đọc kỹ và chọn đáp án
+        text_vi: "Không hộp: chép đúng từ trong bài. Có hộp: tìm từ trong hộp CÙNG NGHĨA với từ trong bài VÀ đúng loại từ. Loại những từ sai ngữ pháp trước."
+      - title_vi: Đọc lại toàn bộ summary
+        text_vi: Summary hoàn chỉnh phải đúng ngữ pháp và đúng ý bài. Kiểm tra số ít/số nhiều và -ing.
+    tips:
+      - "Có hộp từ: số từ trong hộp nhiều hơn số chỗ trống, và thường có 2 từ cùng chủ đề nhưng trái nghĩa (increase/decrease) — đọc kỹ chiều của ý."
+      - "Không hộp: nếu đáp án bạn tìm được làm câu sai ngữ pháp, nhiều khả năng bạn chọn sai vị trí."
+      - Summary có thể dùng từ khác hoàn toàn bài đọc — đọc hiểu Ý, không săn chữ giống.
+    traps:
+      - trap_vi: Có hộp từ nhưng chọn từ giống hệt từ trong bài.
+        fix_vi: Từ giống nguyên văn thường là bẫy; đáp án đúng hay là từ đồng nghĩa.
+      - trap_vi: Chọn đúng nghĩa nhưng sai loại từ (VD cần danh từ, chọn tính từ).
+        fix_vi: Luôn kiểm tra chữ trước và sau chỗ trống.
+      - trap_vi: Sau giới từ điền động từ nguyên mẫu (by reduce).
+        fix_vi: "Giới từ + V-ing: by reducing."
+    phrases:
+      - en: Complete the summary using the list of words, A–H, below.
+        vi: Hoàn thành đoạn tóm tắt bằng danh sách từ A–H bên dưới.
+        note_vi: Kiểu có hộp từ.
+      - en: Choose NO MORE THAN TWO WORDS from the passage for each answer.
+        vi: Chọn không quá hai từ từ bài đọc cho mỗi đáp án.
+        note_vi: Kiểu không hộp.
+    demo:
+      title_vi: "Làm mẫu: summary có hộp từ"
+      text_en: |-
+        Passage: "When the factory closed, hundreds of workers lost their jobs. However, many of them later found work in the new tourist hotels, which paid slightly higher wages."
+
+        Summary: After the factory closed, many workers were left (1) ______ . Later, a large number found jobs in tourism, where the pay was a little (2) ______ .
+
+        Box:  A unemployed   B lower   C better   D employed   E hotels
+      notes:
+        - label: (1) → A unemployed
+          text_vi: "'lost their jobs' = unemployed. Sau 'were left' cần tính từ. D employed ngược nghĩa."
+        - label: (2) → C better
+          text_vi: "'slightly higher wages' = the pay was a little better. B lower ngược chiều. E hotels đúng chủ đề nhưng sai loại từ (sau 'a little' cần tính từ)."
+  - type: examples
+    items:
+      - b41-001
+      - b41-002
+      - b41-003
+      - b41-004
+      - b41-005
+      - b41-006
+      - b41-007
+      - b41-008
+      - b41-009
+      - b41-010
+  - type: dialogue
+    title_vi: Toàn cầu hóa trong đời sống
+    lines:
+      - speaker: A
+        text: Look at this T-shirt. It's an American brand, but it was manufactured in Vietnam.
+        vi: Nhìn chiếc áo này xem. Thương hiệu Mỹ nhưng sản xuất ở Việt Nam.
+      - speaker: B
+        text: That's globalisation. Big companies outsource production to save money.
+        vi: Toàn cầu hóa đấy. Các công ty lớn thuê ngoài sản xuất để tiết kiệm tiền.
+      - speaker: A
+        text: Is that good for Vietnam?
+        vi: Điều đó có tốt cho Việt Nam không?
+      - speaker: B
+        text: In some ways. It creates jobs, and exporting goods helps the economy grow.
+        vi: Ở một số mặt. Nó tạo việc làm, và xuất khẩu hàng hóa giúp kinh tế tăng trưởng.
+      - speaker: A
+        text: But I worry about local businesses. It's hard for them to compete with global brands.
+        vi: Nhưng tớ lo cho doanh nghiệp địa phương. Họ khó cạnh tranh với các thương hiệu toàn cầu.
+      - speaker: B
+        text: True. And every shopping mall looks the same now — the same fast-food chains everywhere.
+        vi: Đúng. Mà giờ trung tâm thương mại nào cũng giống nhau — chuỗi đồ ăn nhanh ở khắp nơi.
+      - speaker: A
+        text: So instead of eating burgers, let's try that new pho place tonight.
+        vi: Vậy thay vì ăn burger, tối nay mình thử quán phở mới đi.
+      - speaker: B
+        text: Good idea. Supporting local businesses is the least we can do!
+        vi: Ý hay. Ủng hộ doanh nghiệp địa phương là điều tối thiểu mình có thể làm!
+  - type: exercises
+    items:
+      - id: b41-x1
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Summary KHÔNG có hộp từ: đọc bài và hoàn thành đoạn tóm tắt. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+        max_words: 2
+        passage: |-
+          THE JOURNEY OF A SMARTPHONE
+
+          A  A modern smartphone is a truly global product. It may be designed in California, but its parts come from dozens of countries. The screen might be made in South Korea, the memory chips in Taiwan, and the battery in China. Finally, all the parts are shipped to a factory, often in Vietnam or India, where the phone is put together.
+
+          B  This system, known as a global supply chain, allows companies to keep prices low. Each country does what it can do most cheaply or most skilfully, and consumers around the world benefit from cheaper and better products. For developing countries, joining these supply chains has brought millions of factory jobs.
+
+          C  However, the system is also fragile. In 2021, a shortage of computer chips stopped production in car and phone factories on three continents. Because every step depends on the one before, a problem in a single factory can delay products all over the world. Since then, some multinational corporations have started moving part of their production closer to home, even though this increases costs.
+
+          SUMMARY
+          A smartphone's parts are made in many countries and finally (1) ___ in a factory, often in Vietnam or India. This global supply chain keeps (2) ___ low, and consumers get better products. It has also created millions of (3) ___ in developing countries. But the system can easily break: in 2021, a lack of (4) ___ stopped production on three continents. As a result, some companies are moving production closer to home, despite the higher (5) ___.
+        questions:
+          - q: (1)
+            answer: put together
+            explain_vi: "'the phone is put together' ↔ 'finally ___ in a factory'. Sau 'are' + phân từ."
+          - q: (2)
+            answer: prices
+          - q: (3)
+            answer: factory jobs
+            accept:
+              - jobs
+          - q: (4)
+            answer: computer chips
+            accept:
+              - chips
+          - q: (5)
+            answer: costs
+            explain_vi: "'even though this increases costs' ↔ 'despite the higher costs' (Buổi 37)."
+      - id: b41-x2
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Summary CÓ hộp từ: chọn một từ trong hộp cho mỗi chỗ trống (viết nguyên từ). Có 3 từ thừa. Đáp án thường là từ ĐỒNG NGHĨA với từ trong bài."
+        max_words: 1
+        passage: |-
+          Passage: "In many Asian cities, global fast-food chains have become extremely popular with teenagers. Some sociologists fear that traditional family meals are disappearing, as young people prefer to eat quickly and cheaply outside the home. Others point out that local restaurants have also changed, adding modern dishes to attract younger customers, so local food culture is adapting rather than dying."
+
+          SUMMARY
+          International fast-food restaurants are very (1) ___ among young people in Asia. Some experts are (2) ___ that families no longer eat traditional meals together. However, local restaurants have (3) ___ new dishes to their menus, which shows that food culture is changing, not (4) ___.
+
+          BOX:  popular · worried · added · disappearing · removed · happy · unpopular
+        questions:
+          - q: (1)
+            answer: popular
+            explain_vi: "Duy nhất từ trong hộp trùng nguyên văn — đôi khi vẫn có; kiểm tra nghĩa: 'extremely popular with teenagers'."
+          - q: (2)
+            answer: worried
+            explain_vi: "'fear' → worried. happy ngược nghĩa."
+          - q: (3)
+            answer: added
+            explain_vi: "'adding modern dishes' → added. removed ngược nghĩa."
+          - q: (4)
+            answer: disappearing
+            explain_vi: "'adapting rather than dying' → changing, not disappearing."
+      - id: b41-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: "Chia động từ trong ngoặc: V-ing hay to V."
+        questions:
+          - q: (travel) ___ abroad has become cheaper for young Vietnamese.
+            answer: Travelling
+            accept:
+              - Traveling
+              - travelling
+              - traveling
+          - q: Many consumers are interested in (buy) ___ local products.
+            answer: buying
+          - q: It is difficult for small shops (compete) ___ with global brands.
+            answer: to compete
+          - q: The company avoided (raise) ___ its prices.
+            answer: raising
+          - q: Most families can't afford (buy) ___ imported cars.
+            answer: to buy
+          - q: You can learn about other cultures by (watch) ___ foreign films.
+            answer: watching
+          - q: The manager suggested (move) ___ production to Vietnam.
+            answer: moving
+          - q: The factory refused (pay) ___ higher wages.
+            answer: to pay
+      - id: b41-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng nghĩa.
+        questions:
+          - q: "'He stopped buying imported goods.' means…"
+            options:
+              - He no longer buys them.
+              - He paused in order to buy them.
+              - He is buying them now.
+              - He never bought them.
+            answer: a
+          - q: "'She stopped to buy a coffee.' means…"
+            options:
+              - She gave up coffee.
+              - She paused so that she could buy a coffee.
+              - She never drinks coffee.
+              - She couldn't buy coffee.
+            answer: b
+          - q: Please remember ___ your passport — you'll need it at the airport.
+            options:
+              - bringing
+              - to bring
+              - bring
+              - brought
+            answer: b
+          - q: I'll never forget ___ Japan for the first time.
+            options:
+              - visiting
+              - to visit
+              - visit
+              - visited
+            answer: a
+          - q: If your shop isn't making money, try ___ online.
+            options:
+              - to selling
+              - selling
+              - sold
+              - sell
+            answer: b
+            explain_vi: try + V-ing = thử làm xem có hiệu quả không.
+      - id: b41-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi V-ing/to V và giới từ. Sửa trực tiếp.
+        text: Buy foreign brands is very popular in Vietnam. Many young people are interested in follow global trends. However, it is important protect local businesses. Some experts suggest to reduce taxes for small shops. Globalisation has a big impact to our culture.
+        errors:
+          - wrong: Buy foreign brands is
+            right: Buying foreign brands is
+            why: Chủ ngữ là hành động → V-ing.
+          - wrong: interested in follow
+            right: interested in following
+            why: Sau giới từ → V-ing.
+          - wrong: it is important protect
+            right: it is important to protect
+            why: It is + tính từ + to V.
+          - wrong: suggest to reduce
+            right: suggest reducing
+            why: suggest + V-ing.
+          - wrong: impact to our culture
+            right: impact on our culture
+            why: have an impact ON.
+      - id: b41-x6
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép để tạo cụm từ đúng.
+        pairs:
+          - left: remove
+            right: trade barriers
+          - left: support
+            right: local businesses
+          - left: benefit
+            right: from free trade
+          - left: have an impact
+            right: on local culture
+          - left: outsource
+            right: production to Asia
+          - left: global
+            right: supply chains
+      - id: b41-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe đoạn phỏng vấn (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Interviewer: Your company makes coffee. How has globalisation affected you?
+          Owner: In a good way, mostly. We started exporting to Korea five years ago, and now half of our sales are abroad.
+          Interviewer: Was it difficult?
+          Owner: At first, yes. We had to change our packaging to meet their rules. But removing some trade barriers helped a lot.
+          Interviewer: Any problems now?
+          Owner: The main problem is competition. Big global brands are opening cafés in every city, and it's hard for us to compete with their advertising.
+          Interviewer: What are you planning to do?
+          Owner: Instead of competing on price, we're focusing on quality and telling customers the story of our farmers.
+        questions:
+          - q: When did the company start exporting?
+            options:
+              - one year ago
+              - three years ago
+              - five years ago
+              - ten years ago
+            answer: c
+          - q: What proportion of sales are abroad?
+            options:
+              - a quarter
+              - a third
+              - half
+              - most
+            answer: c
+          - q: What is the main problem now?
+            options:
+              - trade barriers
+              - packaging rules
+              - competition from global brands
+              - a lack of coffee
+            answer: c
+          - q: What is the company's plan?
+            options:
+              - to lower its prices
+              - to focus on quality and its farmers' story
+              - to stop exporting
+              - to open cafés abroad
+            answer: b
+      - id: b41-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Globalisation has changed what people eat. Twenty years ago, it was difficult to find pizza in most Vietnamese towns. Today, international fast-food chains are common, especially in big cities. However, a recent survey found that most young people still prefer eating Vietnamese food at home. Only about one in ten said they ate fast food more than twice a week.
+        questions:
+          - q: Twenty years ago, pizza was easy to find in most Vietnamese towns.
+            answer: F
+          - q: Fast-food chains are common in big cities today.
+            answer: T
+          - q: Most young people prefer fast food to Vietnamese food.
+            answer: F
+          - q: About ten per cent of young people eat fast food more than twice a week.
+            answer: T
+            explain_vi: one in ten = 10%.
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ: 'Toàn cầu hóa đã thay đổi cuộc sống ở nơi bạn sống như thế nào (đồ ăn, mua sắm, việc làm…)? Thay đổi đó tích cực hay tiêu cực?' Dùng ít nhất 2 câu có V-ing làm chủ ngữ, 3 lần giới từ + V-ing (instead of, by, without…), 1 câu It is + tính từ + to V, và 6 từ của buổi này."
+    prompt_en: How has globalisation changed life in the place where you live? Are these changes positive or negative?
+    words:
+      min: 150
+      max: 180
+    minutes: 30

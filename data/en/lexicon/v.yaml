@@ -120,3 +120,248 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/victim, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/victim, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: value|n
+    headword: value
+    pos: n
+    forms:
+      plural: values
+    ipa:
+      uk: /ˈvæl.juː/
+      us: /ˈvæl.juː/
+    cefr: B1
+    meaning_vi:
+      - "giá trị, quan niệm sống (số nhiều: values)"
+      - giá trị (của đồ vật)
+    collocations:
+      - family values
+      - traditional values
+      - share the same values
+    notes_vi:
+      - "Nghĩa 'quan niệm, chuẩn mực' luôn ở số nhiều: values."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/value, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/value, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/value, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: visitor|n
+    headword: visitor
+    pos: n
+    ipa:
+      uk: /ˈvɪz.ɪ.tər/
+      us: /ˈvɪz.ɪ.t̬ɚ/
+    cefr: A1
+    meaning_vi:
+      - khách tham quan
+      - du khách
+    collocations:
+      - attract visitors
+      - international visitors
+      - visitor numbers
+    notes_vi:
+      - "Paraphrase của tourist trong đề Task 1: the number of tourists → visitor numbers."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visitor, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visitor, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visitor, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: vibrant|adj
+    headword: vibrant
+    pos: adj
+    ipa:
+      uk: /ˈvaɪ.brənt/
+      us: /ˈvaɪ.brənt/
+    cefr: C1
+    meaning_vi:
+      - sôi động
+      - đầy sức sống
+    collocations:
+      - a vibrant city
+      - vibrant nightlife
+      - vibrant colours
+    notes_vi:
+      - Hay hơn 'very busy' khi khen một thành phố trong Speaking.
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vibrant, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vibrant, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vibrant, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: viral|adj
+    headword: viral
+    pos: adj
+    ipa:
+      uk: /ˈvaɪə.rəl/
+      us: /ˈvaɪ.rəl/
+    cefr: C1
+    meaning_vi:
+      - lan truyền rất nhanh trên mạng
+    collocations:
+      - go viral
+      - a viral video
+    notes_vi:
+      - go viral (không nói *become viral* — vẫn hiểu nhưng kém tự nhiên).
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/viral, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/viral, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: view|n
+    headword: view
+    pos: n
+    ipa:
+      uk: /vjuː/
+      us: /vjuː/
+    cefr: A2
+    meaning_vi:
+      - quan điểm
+      - cách nhìn
+    collocations:
+      - both views
+      - in my view
+      - hold the view that
+    notes_vi:
+      - "'Discuss both views' = bàn cả hai quan điểm. in my view = in my opinion."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/view, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/view, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/view, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: vocational-training|phr-n
+    headword: vocational training
+    pos: phr-n
+    ipa:
+      uk: /vəʊˌkeɪ.ʃən.əl ˈtreɪ.nɪŋ/
+      us: /voʊˌkeɪ.ʃən.əl ˈtreɪ.nɪŋ/
+    cefr: null
+    meaning_vi:
+      - đào tạo nghề
+    collocations:
+      - vocational training courses
+      - receive vocational training
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: violent-crime|phr-n
+    headword: violent crime
+    pos: phr-n
+    ipa:
+      uk: /ˌvaɪə.lənt ˈkraɪm/
+      us: /ˌvaɪ.lənt ˈkraɪm/
+    cefr: null
+    meaning_vi:
+      - tội phạm bạo lực
+    collocations:
+      - a fall in violent crime
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: valid|adj
+    headword: valid
+    pos: adj
+    ipa:
+      uk: /ˈvæl.ɪd/
+      us: /ˈvæl.ɪd/
+    cefr: null
+    meaning_vi:
+      - có cơ sở
+      - hợp lý (lập luận)
+    collocations:
+      - a valid point
+      - a valid concern
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: vaccination|n
+    headword: vaccination
+    pos: n
+    ipa:
+      uk: /ˌvæk.sɪˈneɪ.ʃən/
+      us: /ˌvæk.səˈneɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự tiêm chủng
+    collocations:
+      - vaccination programmes
+      - free vaccination
+      - compulsory vaccination
+    notes_vi:
+      - "Động từ: vaccinate somebody AGAINST a disease."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: vulnerable|adj
+    headword: vulnerable
+    pos: adj
+    ipa:
+      uk: /ˈvʌl.nər.ə.bəl/
+      us: /ˈvʌl.nɚ.ə.bəl/
+    stress: VUL-ner-a-ble
+    cefr: null
+    meaning_vi:
+      - dễ bị tổn thương
+    collocations:
+      - vulnerable groups
+      - particularly vulnerable to
+    notes_vi:
+      - vulnerable TO something.
+    topics:
+      - health
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

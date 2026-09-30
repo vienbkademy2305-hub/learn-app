@@ -680,3 +680,567 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: extended-family|phr-n
+    headword: extended family
+    pos: phr-n
+    ipa:
+      uk: /ɪkˌsten.dɪd ˈfæm.əl.i/
+      us: /ɪkˌsten.dɪd ˈfæm.əl.i/
+    cefr: null
+    meaning_vi:
+      - đại gia đình (ông bà, cô chú… sống chung hoặc gắn bó)
+    collocations:
+      - live with your extended family
+      - members of the extended family
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/extended-family, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/extended-family, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: elderly|adj
+    headword: elderly
+    pos: adj
+    ipa:
+      uk: /ˈel.dəl.i/
+      us: /ˈel.dɚ.li/
+    stress: EL-der-ly
+    cefr: B2
+    meaning_vi:
+      - cao tuổi (cách nói lịch sự)
+    collocations:
+      - elderly parents
+      - the elderly
+      - elderly people
+    notes_vi:
+      - the elderly = người cao tuổi nói chung (động từ số nhiều). Lịch sự hơn 'old people'.
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/elderly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/elderly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/elderly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: equality|n
+    headword: equality
+    pos: n
+    ipa:
+      uk: /iˈkwɒl.ə.ti/
+      us: /iˈkwɑː.lə.t̬i/
+    stress: e-QUAL-i-ty
+    cefr: C1
+    meaning_vi:
+      - sự bình đẳng
+    collocations:
+      - gender equality
+      - equality between men and women
+    notes_vi:
+      - "Họ từ: equal (adj), equally (adv). *Men and women should be equality* ❌ → should be equal."
+    topics:
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/equality, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/equality, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/equality, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: expectation|n
+    headword: expectation
+    pos: n
+    ipa:
+      uk: /ˌek.spekˈteɪ.ʃən/
+      us: /ˌek.spekˈteɪ.ʃən/
+    stress: ex-pec-TA-tion
+    cefr: B2
+    meaning_vi:
+      - sự kỳ vọng
+    collocations:
+      - high expectations
+      - parents' expectations
+      - meet expectations
+    notes_vi:
+      - meet/live up to expectations = đáp ứng kỳ vọng.
+    topics:
+      - family
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expectation, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expectation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expectation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: expenditure|n
+    headword: expenditure
+    pos: n
+    ipa:
+      uk: /ɪkˈspen.dɪ.tʃər/
+      us: /ɪkˈspen.dɪ.tʃɚ/
+    stress: ex-PEN-di-ture
+    cefr: C1
+    meaning_vi:
+      - khoản chi tiêu
+    collocations:
+      - expenditure on food
+      - total expenditure
+      - tourist expenditure
+    notes_vi:
+      - Trang trọng hơn spending. expenditure ON something (không dùng *for*).
+    topics:
+      - writing
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expenditure, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expenditure, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expenditure, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: even-though|conj
+    headword: even though
+    pos: conj
+    ipa:
+      uk: /ˌiː.vən ˈðəʊ/
+      us: /ˌiː.vən ˈðoʊ/
+    cefr: null
+    meaning_vi:
+      - mặc dù (nhấn mạnh hơn although)
+    notes_vi:
+      - + mệnh đề, giống although nhưng mạnh hơn. Không viết *even although*.
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: entertainment|n
+    headword: entertainment
+    pos: n
+    ipa:
+      uk: /ˌen.təˈteɪn.mənt/
+      us: /ˌen.t̬ɚˈteɪn.mənt/
+    stress: en-ter-TAIN-ment
+    cefr: B1
+    meaning_vi:
+      - sự giải trí
+    collocations:
+      - a form of entertainment
+      - for entertainment
+    notes_vi:
+      - "Không đếm được khi chỉ chung: *an entertainment* ❌ (trong nghĩa giải trí nói chung)."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entertainment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entertainment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entertainment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: educational|adj
+    headword: educational
+    pos: adj
+    ipa:
+      uk: /ˌedʒ.uˈkeɪ.ʃən.əl/
+      us: /ˌedʒ.əˈkeɪ.ʃən.əl/
+    stress: ed-u-CA-tion-al
+    cefr: B1
+    meaning_vi:
+      - mang tính giáo dục
+    collocations:
+      - educational programmes
+      - educational value
+    notes_vi:
+      - "Nhầm từ loại: *an education programme* (vẫn gặp) nhưng khi muốn nói 'có tính giáo dục' → educational."
+    topics:
+      - media
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/educational, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/educational, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: employee|n
+    headword: employee
+    pos: n
+    ipa:
+      uk: /ɪmˈplɔɪ.iː/
+      us: /ɪmˈplɔɪ.iː/
+    stress: em-ploy-EE
+    cefr: A2
+    meaning_vi:
+      - nhân viên
+      - người lao động
+    collocations:
+      - full-time employees
+      - the company's employees
+    notes_vi:
+      - -ee = người ĐƯỢC thuê; -er = người thuê (employer). Nhầm hai từ này làm câu sai nghĩa hoàn toàn.
+      - "Trọng âm có thể ở âm cuối: em-ploy-EE (hoặc em-PLOY-ee)."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employee, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employee, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employee, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: employer|n
+    headword: employer
+    pos: n
+    ipa:
+      uk: /ɪmˈplɔɪ.ər/
+      us: /ɪmˈplɔɪ.ɚ/
+    stress: em-PLOY-er
+    cefr: A2
+    meaning_vi:
+      - người sử dụng lao động
+      - chủ (công ty)
+    collocations:
+      - a good employer
+      - employers look for
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: experience|n
+    headword: experience
+    pos: n
+    ipa:
+      uk: /ɪkˈspɪə.ri.əns/
+      us: /ɪkˈspɪr.i.əns/
+    stress: ex-PE-ri-ence
+    cefr: A2
+    meaning_vi:
+      - kinh nghiệm (không đếm được)
+      - trải nghiệm (đếm được)
+    collocations:
+      - work experience
+      - have experience in
+      - gain experience
+    notes_vi:
+      - "Kinh nghiệm làm việc: không đếm được — *I have many experiences in marketing* ❌ → a lot of experience in marketing."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/experience, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/experience, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/experience, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: economic-growth|phr-n
+    headword: economic growth
+    pos: phr-n
+    ipa:
+      uk: /ˌiː.kəˌnɒm.ɪk ˈɡrəʊθ/
+      us: /ˌiː.kəˌnɑː.mɪk ˈɡroʊθ/
+    cefr: null
+    meaning_vi:
+      - tăng trưởng kinh tế
+    collocations:
+      - rapid economic growth
+      - lead to economic growth
+    notes_vi:
+      - economic (thuộc kinh tế) ≠ economical (tiết kiệm). *economical growth* ❌.
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: economy|n
+    headword: economy
+    pos: n
+    forms:
+      plural: economies
+    ipa:
+      uk: /iˈkɒn.ə.mi/
+      us: /iˈkɑː.nə.mi/
+    stress: e-CON-o-my
+    cefr: B1
+    meaning_vi:
+      - nền kinh tế
+    collocations:
+      - a strong economy
+      - the global economy
+      - boost the economy
+    notes_vi:
+      - "Trọng âm di chuyển theo từ loại: e-CON-o-my, e-CON-o-mist → ec-o-NOM-ic, ec-o-NOM-i-cal."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/economy, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/economy, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/economy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: enforce|v
+    headword: enforce
+    pos: v
+    ipa:
+      uk: /ɪnˈfɔːs/
+      us: /ɪnˈfɔːrs/
+    cefr: C1
+    meaning_vi:
+      - thực thi (luật) một cách nghiêm
+    collocations:
+      - enforce the law
+      - strictly enforced
+    notes_vi:
+      - Có luật nhưng không enforce thì luật vô tác dụng — ý hay cho Task 2.
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enforce, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enforce, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enforce, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: effective|adj
+    headword: effective
+    pos: adj
+    ipa:
+      uk: /ɪˈfek.tɪv/
+      us: /ɪˈfek.tɪv/
+    stress: ef-FEC-tive
+    cefr: B1
+    meaning_vi:
+      - hiệu quả
+    collocations:
+      - an effective solution
+      - highly effective
+      - effective measures
+    notes_vi:
+      - effective (có hiệu quả) ≠ efficient (hiệu suất, ít lãng phí).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/effective, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/effective, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/effective, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: extend|v
+    headword: extend
+    pos: v
+    ipa:
+      uk: /ɪkˈstend/
+      us: /ɪkˈstend/
+    cefr: null
+    meaning_vi:
+      - kéo dài
+      - mở rộng (theo chiều dài)
+    collocations:
+      - the road was extended to the coast
+      - extend the railway line
+    notes_vi:
+      - extend = kéo dài (đường, tuyến); expand = mở rộng diện tích (khu dân cư, bệnh viện).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: expand|v
+    headword: expand
+    pos: v
+    ipa:
+      uk: /ɪkˈspænd/
+      us: /ɪkˈspænd/
+    cefr: null
+    meaning_vi:
+      - mở rộng
+      - phát triển (quy mô)
+    collocations:
+      - the car park was expanded
+      - expand significantly
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: employability|n
+    headword: employability
+    pos: n
+    ipa:
+      uk: /ɪmˌplɔɪ.əˈbɪl.ə.ti/
+      us: /ɪmˌplɔɪ.əˈbɪl.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - khả năng được tuyển dụng
+    collocations:
+      - improve graduates' employability
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: exam-oriented|adj
+    headword: exam-oriented
+    pos: adj
+    ipa:
+      uk: /ɪɡˈzæm ˌɔː.ri.en.tɪd/
+      us: /ɪɡˈzæm ˌɔːr.i.en.t̬ɪd/
+    cefr: null
+    meaning_vi:
+      - nặng về thi cử
+    collocations:
+      - an exam-oriented education system
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: evidence|n
+    headword: evidence
+    pos: n
+    ipa:
+      uk: /ˈev.ɪ.dəns/
+      us: /ˈev.ə.dəns/
+    cefr: null
+    meaning_vi:
+      - bằng chứng
+    collocations:
+      - there is little evidence that
+      - strong evidence
+    notes_vi:
+      - "Không đếm được: *evidences* ❌, *an evidence* ❌ → a piece of evidence. Rất hay dùng trong Task 2: There is no clear evidence that …"
+    topics:
+      - crime
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ethical|adj
+    headword: ethical
+    pos: adj
+    ipa:
+      uk: /ˈeθ.ɪ.kəl/
+      us: /ˈeθ.ɪ.kəl/
+    cefr: null
+    meaning_vi:
+      - (thuộc) đạo đức
+      - hợp đạo đức
+    collocations:
+      - ethical questions
+      - ethical concerns
+      - it is not ethical to
+    notes_vi:
+      - "Danh từ: ethics (luôn có s). Đối lập: unethical."
+    topics:
+      - technology
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: epidemic|n
+    headword: epidemic
+    pos: n
+    ipa:
+      uk: /ˌep.ɪˈdem.ɪk/
+      us: /ˌep.əˈdem.ɪk/
+    stress: ep-i-DEM-ic
+    cefr: null
+    meaning_vi:
+      - dịch bệnh (lan rộng trong một vùng)
+    collocations:
+      - an epidemic of obesity
+      - stop the epidemic
+    notes_vi:
+      - "epidemic (một vùng/nước) < pandemic (toàn cầu). Nghĩa bóng: an obesity epidemic."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ethnic-minority|phr-n
+    headword: ethnic minority
+    pos: phr-n
+    forms:
+      plural: ethnic minorities
+    ipa:
+      uk: /ˌeθ.nɪk maɪˈnɒr.ə.ti/
+      us: /ˌeθ.nɪk maɪˈnɔːr.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - dân tộc thiểu số
+    collocations:
+      - ethnic minority groups
+      - the languages of ethnic minorities
+    topics:
+      - culture
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

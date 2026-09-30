@@ -622,3 +622,850 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: retire|v
+    headword: retire
+    pos: v
+    ipa:
+      uk: /rɪˈtaɪər/
+      us: /rɪˈtaɪr/
+    stress: re-TIRE
+    cefr: B1
+    meaning_vi:
+      - nghỉ hưu
+    collocations:
+      - retire at 60
+      - retire from work
+    notes_vi:
+      - "Danh từ: retirement. 'My father retired last year' (không cần bị động)."
+    topics:
+      - family
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retire, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retire, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: responsibility|n
+    headword: responsibility
+    pos: n
+    forms:
+      plural: responsibilities
+    ipa:
+      uk: /rɪˌspɒn.səˈbɪl.ə.ti/
+      us: /rɪˌspɑːn.səˈbɪl.ə.t̬i/
+    stress: re-spon-si-BI-li-ty
+    cefr: B1
+    meaning_vi:
+      - trách nhiệm
+    collocations:
+      - take responsibility for
+      - share the responsibility
+      - a sense of responsibility
+    notes_vi:
+      - "Họ từ: responsible (adj) — be responsible FOR something. Nhầm từ loại: *He is very responsibility* ❌."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/responsibility, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/responsibility, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/responsibility, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: relationship|n
+    headword: relationship
+    pos: n
+    ipa:
+      uk: /rɪˈleɪ.ʃən.ʃɪp/
+      us: /rɪˈleɪ.ʃən.ʃɪp/
+    stress: re-LA-tion-ship
+    cefr: A2
+    meaning_vi:
+      - mối quan hệ
+    collocations:
+      - a close relationship with
+      - build a good relationship
+    notes_vi:
+      - relationship WITH somebody; relationship BETWEEN A and B.
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relationship, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relationship, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relationship, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: respect|v
+    headword: respect
+    pos: v
+    ipa:
+      uk: /rɪˈspekt/
+      us: /rɪˈspekt/
+    stress: re-SPECT
+    cefr: B1
+    meaning_vi:
+      - tôn trọng
+      - kính trọng
+    collocations:
+      - respect your elders
+      - respect other people's opinions
+    notes_vi:
+      - "Âm cuối /kt/ phải bật rõ. Danh từ cùng dạng: show respect FOR somebody."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respect_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respect_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respect_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: role-model|phr-n
+    headword: role model
+    pos: phr-n
+    ipa:
+      uk: /ˈrəʊl ˌmɒd.əl/
+      us: /ˈroʊl ˌmɑː.dəl/
+    cefr: null
+    meaning_vi:
+      - tấm gương (để noi theo)
+    collocations:
+      - a good role model for
+      - act as a role model
+    notes_vi:
+      - a role model FOR young people.
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/role-model, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/role-model, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: restore|v
+    headword: restore
+    pos: v
+    ipa:
+      uk: /rɪˈstɔːr/
+      us: /rɪˈstɔːr/
+    stress: re-STORE
+    cefr: B2
+    meaning_vi:
+      - trùng tu
+      - khôi phục
+    collocations:
+      - restore an old house
+      - be carefully restored
+    notes_vi:
+      - "Danh từ: restoration. Thường ở bị động: The temple was restored in 2010."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/restore, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/restore, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/restore, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: region|n
+    headword: region
+    pos: n
+    ipa:
+      uk: /ˈriː.dʒən/
+      us: /ˈriː.dʒən/
+    cefr: A2
+    meaning_vi:
+      - vùng
+      - khu vực
+    collocations:
+      - the northern region
+      - in the Mekong Delta region
+    notes_vi:
+      - "g đọc /dʒ/: REE-jən. Tính từ: regional."
+    topics:
+      - travel
+      - geography
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/region, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/region, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/region, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: respectively|adv
+    headword: respectively
+    pos: adv
+    ipa:
+      uk: /rɪˈspek.tɪv.li/
+      us: /rɪˈspek.tɪv.li/
+    stress: re-SPEC-tive-ly
+    cefr: C1
+    meaning_vi:
+      - lần lượt
+      - tương ứng
+    collocations:
+      - A and B were 20% and 30%, respectively
+    notes_vi:
+      - Đứng cuối câu, sau dấu phẩy. Thứ tự số phải khớp thứ tự danh từ.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respectively, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respectively, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respectively, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rural|adj
+    headword: rural
+    pos: adj
+    ipa:
+      uk: /ˈrʊə.rəl/
+      us: /ˈrʊr.əl/
+    cefr: B2
+    meaning_vi:
+      - thuộc nông thôn
+    collocations:
+      - rural areas
+      - rural-urban migration
+      - rural life
+    notes_vi:
+      - "Khó phát âm: hai âm /r/ liền nhau — ROO-rəl. Đọc chậm trước rồi nhanh dần."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rural, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rural, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rural, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: rent|n
+    headword: rent
+    pos: n
+    ipa:
+      uk: /rent/
+      us: /rent/
+    cefr: B1
+    meaning_vi:
+      - tiền thuê nhà
+    collocations:
+      - pay the rent
+      - high rents
+      - rent increases
+    notes_vi:
+      - "Động từ cùng dạng: rent a flat (thuê căn hộ)."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: reliable|adj
+    headword: reliable
+    pos: adj
+    ipa:
+      uk: /rɪˈlaɪ.ə.bəl/
+      us: /rɪˈlaɪ.ə.bəl/
+    stress: re-LI-a-ble
+    cefr: B1
+    meaning_vi:
+      - đáng tin cậy
+    collocations:
+      - a reliable source
+      - reliable information
+    notes_vi:
+      - "Động từ: rely ON. Đối lập: unreliable."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reliable, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reliable, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reliable, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: regulate|v
+    headword: regulate
+    pos: v
+    ipa:
+      uk: /ˈreɡ.jə.leɪt/
+      us: /ˈreɡ.jə.leɪt/
+    stress: REG-u-late
+    cefr: B2
+    meaning_vi:
+      - quản lý
+      - điều tiết (bằng luật lệ)
+    collocations:
+      - regulate social media
+      - strictly regulated
+    notes_vi:
+      - "Danh từ: regulation (quy định). Trang trọng hơn control."
+    topics:
+      - government
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/regulate, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/regulate, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: recruit|v
+    headword: recruit
+    pos: v
+    ipa:
+      uk: /rɪˈkruːt/
+      us: /rɪˈkruːt/
+    stress: re-CRUIT
+    cefr: B2
+    meaning_vi:
+      - tuyển dụng
+    collocations:
+      - recruit new staff
+      - recruit graduates
+    notes_vi:
+      - "ui đọc /uː/: re-CROOT. Danh từ: recruitment."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recruit, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recruit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recruit, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: resign|v
+    headword: resign
+    pos: v
+    ipa:
+      uk: /rɪˈzaɪn/
+      us: /rɪˈzaɪn/
+    cefr: B2
+    meaning_vi:
+      - từ chức
+      - xin nghỉ việc
+    collocations:
+      - resign from a job
+      - decide to resign
+    notes_vi:
+      - "g câm, s đọc /z/: ri-ZAIN. Danh từ: resignation."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/resign, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/resign, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/resign, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: replace|v
+    headword: replace
+    pos: v
+    ipa:
+      uk: /rɪˈpleɪs/
+      us: /rɪˈpleɪs/
+    cefr: A2
+    meaning_vi:
+      - thay thế
+    collocations:
+      - be replaced by machines
+      - replace A with B
+    notes_vi:
+      - "A replaces B = A thay chỗ B. Bị động hay dùng: Many jobs will be replaced by robots."
+    topics:
+      - work
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/replace, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/replace, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/replace, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: retrain|v
+    headword: retrain
+    pos: v
+    ipa:
+      uk: /ˌriːˈtreɪn/
+      us: /ˌriːˈtreɪn/
+    cefr: null
+    meaning_vi:
+      - đào tạo lại (cho nghề mới)
+    collocations:
+      - retrain workers
+      - retrain as a programmer
+    topics:
+      - work
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retrain, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retrain, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: represent|v
+    headword: represent
+    pos: v
+    ipa:
+      uk: /ˌrep.rɪˈzent/
+      us: /ˌrep.rɪˈzent/
+    stress: rep-re-SENT
+    cefr: B1
+    meaning_vi:
+      - chiếm
+      - tương ứng với; đại diện cho
+    collocations:
+      - represent 15% of the total
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/represent, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/represent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/represent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: remainder|n
+    headword: remainder
+    pos: n
+    ipa:
+      uk: /rɪˈmeɪn.dər/
+      us: /rɪˈmeɪn.dɚ/
+    cefr: C1
+    meaning_vi:
+      - phần còn lại
+    collocations:
+      - the remainder
+      - the remaining 10%
+    notes_vi:
+      - "the remainder = phần còn lại của tổng; dùng khi gộp các mục nhỏ: The remainder was made up of other goods."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/remainder, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/remainder, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/remainder, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: result-in|phr-v
+    headword: result in
+    pos: phr-v
+    ipa:
+      uk: /rɪˈzʌlt ɪn/
+      us: /rɪˈzʌlt ɪn/
+    cefr: null
+    meaning_vi:
+      - gây ra
+      - dẫn đến (kết quả)
+    collocations:
+      - result in higher prices
+      - result in serious damage
+    notes_vi:
+      - A results IN B (A là nguyên nhân). A results FROM B (A là kết quả). Nhầm hai giới từ là đảo ngược ý.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: raise-awareness|colloc
+    headword: raise awareness
+    pos: colloc
+    ipa:
+      uk: /ˌreɪz əˈweə.nəs/
+      us: /ˌreɪz əˈwer.nəs/
+    cefr: null
+    meaning_vi:
+      - nâng cao nhận thức
+    collocations:
+      - raise awareness of the problem
+      - raise public awareness
+    notes_vi:
+      - raise awareness OF/ABOUT. Không dùng *increase awareness* (vẫn hiểu nhưng collocation chuẩn là raise).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: raw-material|phr-n
+    headword: raw material
+    pos: phr-n
+    forms:
+      plural: raw materials
+    ipa:
+      uk: /ˌrɔː məˈtɪə.ri.əl/
+      us: /ˌrɑː məˈtɪr.i.əl/
+    cefr: null
+    meaning_vi:
+      - nguyên liệu thô
+    collocations:
+      - raw materials such as clay
+      - use recycled raw materials
+    topics:
+      - writing
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reservoir|n
+    headword: reservoir
+    pos: n
+    ipa:
+      uk: /ˈrez.ə.vwɑːr/
+      us: /ˈrez.ɚ.vwɑːr/
+    cefr: null
+    meaning_vi:
+      - hồ chứa nước
+    collocations:
+      - be stored in a reservoir
+    notes_vi:
+      - "Đọc REZ-ə-vwah (gốc tiếng Pháp): -voir đọc /vwɑː/."
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: relocate|v
+    headword: relocate
+    pos: v
+    ipa:
+      uk: /ˌriː.ləʊˈkeɪt/
+      us: /ˌriːˈloʊ.keɪt/
+    stress: re-lo-CATE
+    cefr: null
+    meaning_vi:
+      - di dời
+      - chuyển đến chỗ khác
+    collocations:
+      - be relocated to the north
+      - relocate the market
+    topics:
+      - writing
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: remove|v
+    headword: remove
+    pos: v
+    ipa:
+      uk: /rɪˈmuːv/
+      us: /rɪˈmuːv/
+    cefr: null
+    meaning_vi:
+      - dỡ bỏ
+      - loại bỏ
+    collocations:
+      - the trees were removed
+      - remove the fence
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: residential|adj
+    headword: residential
+    pos: adj
+    ipa:
+      uk: /ˌrez.ɪˈden.ʃəl/
+      us: /ˌrez.əˈden.ʃəl/
+    stress: res-i-DEN-tial
+    cefr: null
+    meaning_vi:
+      - (thuộc) khu dân cư
+    collocations:
+      - a residential area
+      - residential buildings
+    topics:
+      - city
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: redevelopment|n
+    headword: redevelopment
+    pos: n
+    ipa:
+      uk: /ˌriː.dɪˈvel.əp.mənt/
+      us: /ˌriː.dɪˈvel.əp.mənt/
+    cefr: null
+    meaning_vi:
+      - sự tái phát triển
+      - cải tạo (khu vực)
+    collocations:
+      - after the redevelopment
+      - a major redevelopment
+    topics:
+      - city
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: rehabilitate|v
+    headword: rehabilitate
+    pos: v
+    ipa:
+      uk: /ˌriː.həˈbɪl.ɪ.teɪt/
+      us: /ˌriː.həˈbɪl.ə.teɪt/
+    stress: re-ha-BIL-i-tate
+    cefr: null
+    meaning_vi:
+      - cải tạo
+      - giúp tái hòa nhập
+    collocations:
+      - rehabilitate offenders
+      - be rehabilitated
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: rehabilitation|n
+    headword: rehabilitation
+    pos: n
+    ipa:
+      uk: /ˌriː.həˌbɪl.ɪˈteɪ.ʃən/
+      us: /ˌriː.həˌbɪl.əˈteɪ.ʃən/
+    stress: re-ha-bil-i-TA-tion
+    cefr: null
+    meaning_vi:
+      - sự cải tạo
+      - phục hồi
+    collocations:
+      - rehabilitation programmes
+      - focus on rehabilitation rather than punishment
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reoffend|v
+    headword: reoffend
+    pos: v
+    ipa:
+      uk: /ˌriː.əˈfend/
+      us: /ˌriː.əˈfend/
+    cefr: null
+    meaning_vi:
+      - tái phạm
+    collocations:
+      - are less likely to reoffend
+      - the reoffending rate
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: root-cause|phr-n
+    headword: root cause
+    pos: phr-n
+    ipa:
+      uk: /ˌruːt ˈkɔːz/
+      us: /ˌruːt ˈkɑːz/
+    cefr: null
+    meaning_vi:
+      - nguyên nhân gốc rễ
+    collocations:
+      - tackle the root causes of crime
+      - the root cause of the problem
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reduction|n
+    headword: reduction
+    pos: n
+    ipa:
+      uk: /rɪˈdʌk.ʃən/
+      us: /rɪˈdʌk.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự giảm bớt
+    collocations:
+      - a significant reduction in
+      - lead to a reduction in
+    notes_vi:
+      - a reduction IN something. Danh từ hóa của reduce — kỹ thuật paraphrase của buổi này.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: rely-on|phr-v
+    headword: rely on
+    pos: phr-v
+    forms:
+      past: relied on
+      3sg: relies on
+    ipa:
+      uk: /rɪˈlaɪ ɒn/
+      us: /rɪˈlaɪ ɑːn/
+    cefr: null
+    meaning_vi:
+      - dựa vào
+      - phụ thuộc vào
+    collocations:
+      - rely too much on technology
+      - rely on smartphones
+    notes_vi:
+      - "rely ON (không *rely in*). Danh từ: reliance on; tính từ: reliable (Buổi 37)."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: reliance|n
+    headword: reliance
+    pos: n
+    ipa:
+      uk: /rɪˈlaɪ.əns/
+      us: /rɪˈlaɪ.əns/
+    cefr: null
+    meaning_vi:
+      - sự phụ thuộc
+    collocations:
+      - our reliance on technology
+      - heavy reliance on
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ritual|n
+    headword: ritual
+    pos: n
+    ipa:
+      uk: /ˈrɪtʃ.u.əl/
+      us: /ˈrɪtʃ.u.əl/
+    cefr: null
+    meaning_vi:
+      - nghi lễ
+      - nghi thức
+    collocations:
+      - religious rituals
+      - a daily ritual
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: revive|v
+    headword: revive
+    pos: v
+    ipa:
+      uk: /rɪˈvaɪv/
+      us: /rɪˈvaɪv/
+    cefr: null
+    meaning_vi:
+      - phục hồi
+      - làm sống lại
+    collocations:
+      - revive a tradition
+      - revive interest in
+    notes_vi:
+      - "Danh từ: revival."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

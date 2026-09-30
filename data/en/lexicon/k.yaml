@@ -164,3 +164,26 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: keep-up-with|phr-v
+    headword: keep up with
+    pos: phr-v
+    forms:
+      past: kept up with
+    ipa:
+      uk: /ˌkiːp ˈʌp wɪð/
+      us: /ˌkiːp ˈʌp wɪð/
+    cefr: null
+    meaning_vi:
+      - theo kịp
+    collocations:
+      - keep up with technology
+      - keep up with the latest trends
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

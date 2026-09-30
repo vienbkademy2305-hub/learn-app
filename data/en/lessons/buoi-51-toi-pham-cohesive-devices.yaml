@@ -1,0 +1,357 @@
+# Buổi 51 — Tội phạm (nâng cao) · Cohesive devices: từ nối nâng cao. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-51-toi-pham-cohesive-devices
+number: 51
+stage: 3
+title_vi: "Tội phạm (nâng cao) · Cohesive devices: từ nối nâng cao"
+focus:
+  grammar: Từ nối học thuật (moreover, nevertheless, consequently, thus, whereas, conversely)
+  skill: Writing — Coherence & Cohesion band 6.5–7
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - moreover|adv
+      - furthermore|adv
+      - nevertheless|adv
+      - nonetheless|adv
+      - consequently|adv
+      - thus|adv
+      - conversely|adv
+      - as-a-result|idiom
+      - whereas|conj
+      - justice|n
+      - trial|n
+      - death-penalty|phr-n
+      - corruption|n
+      - legal-system|phr-n
+      - imprisonment|n
+      - innocent|adj
+      - guilty|adj
+      - evidence|n
+  - type: pronunciation
+    notes:
+      - word: nevertheless|adv
+        text_vi: "nev-er-the-LESS: 4 âm tiết, nhấn âm cuối; the = /ðə/."
+      - word: moreover|adv
+        text_vi: "more-O-ver /mɔːˈrəʊ.və/: nhấn âm 2."
+      - word: consequently|adv
+        text_vi: "CON-se-quent-ly: nhấn âm 1, qu = /kw/."
+      - word: thus|adv
+        text_vi: "/ðʌs/: th rung (/ð/), âm cuối /s/ — không đọc 'thớt' hay 'đớt'."
+      - word: guilty|adj
+        text_vi: "GIL-ti: u câm, đọc như 'gilt'."
+  - type: grammar
+    items:
+      - en-g3-06
+  - type: skill
+    skill: writing
+    title_vi: Coherence & Cohesion — mạch lạc và liên kết ở band 6.5–7
+    intro_vi: "Coherence (mạch lạc) là THỨ TỰ và LOGIC của ý: mỗi đoạn một ý chính, câu sau phát triển câu trước. Cohesion (liên kết) là CÔNG CỤ nối: từ nối, từ quy chiếu (this, these, such), từ đồng nghĩa. Band 6: 'cohesive devices used effectively, but cohesion within and/or between sentences may be faulty or mechanical'. Band 7: 'uses a range of cohesive devices appropriately although there may be some under-/over-use'. Muốn lên 7, bạn cần đa dạng VÀ tiết chế: ít từ nối hơn nhưng đúng hơn."
+    steps:
+      - title_vi: Mỗi đoạn một ý chính rõ ràng
+        text_vi: Câu chủ đề đầu đoạn nói ý chính; mọi câu sau phục vụ ý đó. Ý mới → đoạn mới.
+      - title_vi: "Chuỗi phát triển ý: nêu → giải thích → ví dụ → hệ quả"
+        text_vi: Đây là 'xương sống' mạch lạc; từ nối chỉ đánh dấu các bước chuyển.
+      - title_vi: Chọn từ nối theo QUAN HỆ, không theo độ 'sang'
+        text_vi: "Tự hỏi: câu sau THÊM, ĐỐI LẬP, KẾT QUẢ hay VÍ DỤ so với câu trước? Rồi chọn từ trong bảng Ngữ pháp."
+      - title_vi: Thay một nửa từ nối bằng từ quy chiếu
+        text_vi: "'This problem…', 'Such policies…', 'These offenders…' nối câu tự nhiên hơn và cho thấy kiểm soát ngôn ngữ."
+      - title_vi: Soát 'mechanical'
+        text_vi: "Đếm: nếu hơn 1/2 số câu bắt đầu bằng từ nối → bỏ bớt. Không lặp một từ nối 2 lần trong bài."
+    tips:
+      - Đoạn thân bài 5–6 câu thường chỉ cần 2–3 từ nối.
+      - "'Firstly, Secondly, Thirdly, Finally' ở MỌI đoạn nghe như danh sách — thay bằng câu chủ đề rõ ràng."
+      - Ở Speaking, KHÔNG dùng moreover/furthermore/thus — dùng Also, Besides, So (Buổi 36).
+    traps:
+      - trap_vi: Moreover cho ý đối lập, Nevertheless cho ý cùng chiều.
+        fix_vi: Kiểm tra quan hệ giữa hai câu trước khi chọn từ.
+      - trap_vi: Nối hai câu bằng dấu phẩy + moreover/however/consequently.
+        fix_vi: Dấu chấm + từ nối + dấu phẩy.
+      - trap_vi: Từ nối ở mọi câu.
+        fix_vi: Dùng this/these/such + danh từ để nối.
+    phrases:
+      - en: Moreover, …
+        vi: Hơn nữa, …
+        note_vi: Ý cùng chiều, mạnh hơn.
+      - en: Nevertheless, …
+        vi: Dù vậy, …
+        note_vi: Thừa nhận rồi giữ quan điểm.
+      - en: …, thus reducing …
+        vi: …, qua đó làm giảm …
+      - en: A case in point is …
+        vi: Một ví dụ điển hình là …
+      - en: This approach …
+        vi: Cách tiếp cận này …
+        note_vi: Từ quy chiếu thay cho từ nối.
+    demo:
+      title_vi: "Làm mẫu: một đoạn 'mechanical' và bản sửa"
+      text_en: |-
+        Mechanical (band 5.5–6): Firstly, prisons are expensive. Moreover, they do not reduce crime. Furthermore, prisoners meet other criminals. In addition, they cannot find jobs later. Therefore, prison is not a good solution.
+
+        Improved (band 6.5–7): The most obvious drawback of prison is its cost, which is paid by taxpayers. More importantly, there is little evidence that it reduces crime. Offenders often meet experienced criminals inside, and many leave prison with no job prospects. Consequently, a large proportion of them reoffend within a few years, which suggests that such a system fails to protect society in the long term.
+      notes:
+        - label: Bản 1
+          text_vi: 5 câu, 5 từ nối ở đầu câu, các câu rời rạc như danh sách → 'mechanical'.
+        - label: More importantly
+          text_vi: Thay Moreover — chỉ rõ ý sau quan trọng hơn.
+        - label: Không từ nối ở câu 3
+          text_vi: Câu 3 tự nối bằng nội dung (giải thích cho 'does not reduce crime').
+        - label: Consequently + which + such a system
+          text_vi: 1 từ nối kết quả, 1 mệnh đề which (Buổi 48), 1 từ quy chiếu such — cohesion đa dạng.
+  - type: examples
+    items:
+      - b51-001
+      - b51-002
+      - b51-003
+      - b51-004
+      - b51-005
+      - b51-006
+      - b51-007
+      - b51-008
+      - b51-009
+      - b51-010
+      - b51-011
+  - type: dialogue
+    title_vi: Có nên giữ án tử hình?
+    lines:
+      - speaker: A
+        text: Our debate topic is the death penalty. Which side are you on?
+        vi: Chủ đề tranh biện của tụi mình là án tử hình. Cậu ủng hộ bên nào?
+      - speaker: B
+        text: I'm against it. The main problem is that innocent people can be executed.
+        vi: Tớ phản đối. Vấn đề chính là người vô tội có thể bị xử tử.
+      - speaker: A
+        text: But in most cases, the evidence is very strong.
+        vi: Nhưng trong hầu hết trường hợp, bằng chứng rất rõ ràng.
+      - speaker: B
+        text: Most cases, not all. And if the legal system makes a mistake, it can't be corrected.
+        vi: Hầu hết, không phải tất cả. Và nếu hệ thống pháp luật sai, thì không sửa được.
+      - speaker: A
+        text: Fair point. Nevertheless, some people believe it deters serious crime.
+        vi: Có lý. Dù vậy, một số người tin là nó răn đe tội nghiêm trọng.
+      - speaker: B
+        text: Actually, there's little evidence of that. Countries without it don't have higher murder rates.
+        vi: Thật ra, có rất ít bằng chứng cho điều đó. Các nước không có án tử hình cũng không có tỉ lệ giết người cao hơn.
+      - speaker: A
+        text: So what would you use instead?
+        vi: Vậy cậu dùng gì thay thế?
+      - speaker: B
+        text: Life imprisonment. It protects society, and it still gives justice to the victims' families.
+        vi: Tù chung thân. Nó bảo vệ xã hội, và vẫn mang lại công lý cho gia đình nạn nhân.
+  - type: exercises
+    items:
+      - id: b51-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn từ nối đúng quan hệ giữa hai câu.
+        questions:
+          - q: Prison is expensive. ___, it rarely rehabilitates offenders.
+            options:
+              - Nevertheless
+              - Moreover
+              - Conversely
+              - Whereas
+            answer: b
+          - q: The death penalty may deter some criminals. ___, innocent people may be executed.
+            options:
+              - Furthermore
+              - Consequently
+              - Nevertheless
+              - Thus
+            answer: c
+          - q: More police officers were hired. ___, the crime rate fell.
+            options:
+              - Consequently
+              - Nevertheless
+              - Moreover
+              - Conversely
+            answer: a
+          - q: Adults respond to harsh punishments, ___ teenagers often become more rebellious.
+            options:
+              - moreover
+              - whereas
+              - consequently
+              - furthermore
+            answer: b
+          - q: Cameras deter criminals, ___ reducing theft in shops.
+            options:
+              - thus
+              - moreover
+              - whereas
+              - nevertheless
+            answer: a
+          - q: Which sentence is punctuated correctly?
+            options:
+              - Prison is costly, moreover it rarely works.
+              - Prison is costly. Moreover, it rarely works.
+              - Prison is costly moreover, it rarely works.
+              - Prison is costly, Moreover it rarely works.
+            answer: b
+      - id: b51-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối hai câu bằng từ trong ngoặc. Viết đúng dấu câu.
+        questions:
+          - q: Education gives prisoners new skills. This reduces the chance that they will reoffend. (thus + V-ing)
+            answer: Education gives prisoners new skills, thus reducing the chance that they will reoffend.
+          - q: Some countries punish drug users. Others offer treatment. (whereas)
+            answer: Some countries punish drug users, whereas others offer treatment.
+          - q: The law was unpopular. It reduced drink-driving. (Nevertheless)
+            answer: The law was unpopular. Nevertheless, it reduced drink-driving.
+      - id: b51-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (từ nối sai quan hệ, dấu câu, evidence, giới từ). Sửa trực tiếp.
+        text: Long prison sentences are popular with voters. Moreover, there are few evidences that they work. Many prisoners reoffend, consequently the system is failing. Some innocent people are found guilty for crimes they did not commit. Nevertheless, the death penalty makes this problem worse, because such mistakes cannot be corrected.
+        errors:
+          - wrong: voters. Moreover,
+            right: voters. Nevertheless,
+            why: Ý đối lập với câu trước (được ủng hộ ↔ không hiệu quả) → Nevertheless.
+          - wrong: are few evidences
+            right: is little evidence
+            why: "evidence không đếm được: there is little evidence."
+          - wrong: reoffend, consequently the system
+            right: reoffend. Consequently, the system
+            why: consequently là trạng từ — tách câu, thêm dấu phẩy.
+          - wrong: guilty for crimes
+            right: guilty of crimes
+            why: guilty OF.
+          - wrong: commit. Nevertheless, the death penalty
+            right: commit. Moreover, the death penalty
+            why: Ý cùng chiều, mạnh hơn (thêm một lý do chống án tử hình) → Moreover.
+      - id: b51-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ phù hợp.
+        bank:
+          - evidence
+          - trial
+          - corruption
+          - innocent
+          - imprisonment
+          - justice
+        questions:
+          - q: Everyone deserves a fair ___.
+            answer: trial
+          - q: There is little ___ that harsh punishments reduce crime.
+            answer: evidence
+          - q: He spent ten years in prison, although he was ___.
+            answer: innocent
+          - q: Life ___ is an alternative to the death penalty.
+            answer: imprisonment
+          - q: "Many people believe that ___ makes them lose trust in the government."
+            answer: corruption
+          - q: The victims' families want ___.
+            answer: justice
+      - id: b51-x5
+        bank_no: 27
+        kind: completion
+        instructions_vi: Hoàn thành đoạn thân bài bằng từ nối phù hợp. Viết MỘT TỪ cho mỗi chỗ trống. Không lặp từ.
+        max_words: 1
+        passage: Supporters of the death penalty argue that it deters serious crime. (1) ___, there is little evidence to support this claim. Countries that have abolished it do not have higher murder rates; (2) ___, some of them have lower rates. (3) ___, the risk of executing an innocent person can never be completely removed. For these reasons, many countries now use life imprisonment instead, (4) ___ protecting society without taking a life.
+        questions:
+          - q: (1)
+            answer: Nevertheless
+            accept:
+              - However
+              - Nonetheless
+              - nevertheless
+              - however
+              - nonetheless
+          - q: (2)
+            answer: conversely
+            accept:
+              - Conversely
+              - indeed
+              - in fact
+          - q: (3)
+            answer: Moreover
+            accept:
+              - Furthermore
+              - moreover
+              - furthermore
+          - q: (4)
+            answer: thus
+      - id: b51-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ nối với chức năng.
+        pairs:
+          - left: moreover
+            right: adds a stronger point
+          - left: nevertheless
+            right: accepts a point but keeps the opposite view
+          - left: consequently
+            right: introduces a result
+          - left: whereas
+            right: compares two different things in one sentence
+          - left: conversely
+            right: introduces the opposite situation
+          - left: thus + V-ing
+            right: adds a result at the end of a sentence
+      - id: b51-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên tranh luận (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Man: I think longer prison sentences are the best way to reduce crime.
+          Woman: Really? The evidence suggests otherwise. Countries with the longest sentences don't have the lowest crime rates.
+          Man: But surely criminals are afraid of prison.
+          Woman: Some are. Nevertheless, most crimes are committed by people who don't expect to be caught at all.
+          Man: So what would you do?
+          Woman: Increase the chance of being caught. More police on the streets, better cameras. Consequently, people would think twice.
+          Man: Hmm. I suppose that makes sense, although it would be expensive.
+        questions:
+          - q: What does the man believe at first?
+            options:
+              - Cameras are useless.
+              - Longer sentences reduce crime.
+              - Prison is too expensive.
+              - Police are unnecessary.
+            answer: b
+          - q: According to the woman, what does the evidence show?
+            options:
+              - Long sentences work well.
+              - Countries with the longest sentences don't have the lowest crime.
+              - Crime is falling everywhere.
+              - Prisons are empty.
+            answer: b
+          - q: What does the woman suggest?
+            options:
+              - the death penalty
+              - increasing the chance of being caught
+              - shorter sentences
+              - closing prisons
+            answer: b
+          - q: What is the man's final concern?
+            options:
+              - It would be unfair.
+              - It would be expensive.
+              - It wouldn't work.
+              - It would take too long.
+            answer: b
+      - id: b51-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe đoạn bài giảng rồi chọn T (đúng) hoặc F (sai). Chú ý từ nối báo hiệu quan hệ.
+        audio_text: In the 1990s, one country introduced very long sentences for repeat offenders. Supporters expected crime to fall sharply. Crime did fall slightly. Nevertheless, researchers found that similar falls happened in neighbouring countries without the new law. Moreover, the cost of keeping so many people in prison doubled within ten years. Consequently, the law was changed in 2012.
+        questions:
+          - q: Crime fell sharply after the new law.
+            answer: F
+            explain_vi: "'fell slightly' — giảm nhẹ."
+          - q: Neighbouring countries also saw crime fall.
+            answer: T
+          - q: The cost of prisons doubled.
+            answer: T
+          - q: The law is still unchanged today.
+            answer: F
+  - type: homework
+    kind: task2
+    prompt_vi: "Viết Task 2 hoàn chỉnh (≥ 250 từ, 40 phút). Sau khi viết: đếm từ nối ở đầu câu — tối đa 1 từ cho 2–3 câu; dùng ít nhất 3 từ nối nâng cao KHÁC nhau (đúng quan hệ) và 3 từ quy chiếu (this/these/such + N). Không nối câu bằng dấu phẩy + moreover/consequently."
+    prompt_en: Some people think that the best way to reduce crime is to give longer prison sentences. Others, however, believe there are better alternative ways of reducing crime. Discuss both views and give your opinion.
+    words:
+      min: 250
+      max: 290
+    minutes: 40

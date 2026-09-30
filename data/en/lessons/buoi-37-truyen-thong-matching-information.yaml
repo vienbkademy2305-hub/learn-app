@@ -1,0 +1,418 @@
+# Buổi 37 — Truyền thông & internet · Reading: Matching information. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-37-truyen-thong-matching-information
+number: 37
+stage: 2
+title_vi: "Truyền thông & internet · Reading: Matching information"
+focus:
+  grammar: "Nhượng bộ: although / even though / despite / in spite of"
+  skill: Reading — Matching information (đoạn nào chứa thông tin)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - mainstream-media|phr-n
+      - misinformation|n
+      - media-literacy|phr-n
+      - journalist|n
+      - headline|n
+      - source|n
+      - reliable|adj
+      - spread|v
+      - publish|v
+      - audience|n
+      - viral|adj
+      - platform|n
+      - influencer|n
+      - fact-check|v
+      - although|conj
+      - even-though|conj
+      - despite|prep
+      - in-spite-of|prep
+  - type: pronunciation
+    notes:
+      - word: although|conj
+        text_vi: "al-THOUGH /ɔːlˈðəʊ/: th = /ð/ (rung), gh câm, ou đọc /əʊ/ như 'âu'."
+      - word: misinformation|n
+        text_vi: "mis-in-for-MA-tion: 5 âm tiết, nhấn MA (đuôi -tion)."
+      - word: journalist|n
+        text_vi: "JOUR-nal-ist /ˈdʒɜː.nə.lɪst/: our đọc /ɜː/ như 'ơ' dài. Âm cuối /st/ phải có."
+      - word: audience|n
+        text_vi: "AU-di-ence /ˈɔː.di.əns/: au đọc /ɔː/, không đọc 'âu'."
+      - word: reliable|adj
+        text_vi: "re-LI-a-ble: nhấn LI /laɪ/; 4 âm tiết."
+  - type: grammar
+    items:
+      - en-g2-17
+  - type: skill
+    skill: reading
+    title_vi: "Reading — Matching information: đoạn nào chứa thông tin?"
+    intro_vi: "Đề cho một bài đọc có các đoạn A, B, C… và một danh sách câu mô tả thông tin (VD 'an example of…', 'a reason why…'). Bạn phải tìm ĐOẠN chứa từng thông tin. Khác Matching headings (Buổi 29): ở đây thông tin là một CHI TIẾT nhỏ trong đoạn, không phải ý chính; câu hỏi KHÔNG theo thứ tự bài; một đoạn có thể dùng nhiều lần hoặc không dùng. Đây là dạng khó và tốn thời gian, nên thường làm SAU các dạng khác cùng bài."
+    steps:
+      - title_vi: Đọc yêu cầu
+        text_vi: "'You may use any letter more than once' → một đoạn có thể là đáp án của 2 câu. Ghi nhớ điều này để không loại đoạn quá sớm."
+      - title_vi: Gạch LOẠI thông tin + từ khóa
+        text_vi: "Mỗi câu có 2 phần: loại thông tin (an example / a reason / a comparison / a description / a warning / a suggestion) + nội dung (… of fake news spreading). Loại thông tin giúp nhận ra câu đúng: 'a reason' → tìm because, due to, the main cause…; 'an example' → for example, such as, tên người, năm."
+      - title_vi: Đọc lướt cả bài một lần
+        text_vi: "Ghi 3–5 từ tóm tắt nội dung mỗi đoạn bên lề (A: history, B: why people share, C: example Vietnam…)."
+      - title_vi: Làm câu dễ trước
+        text_vi: Câu có tên riêng, số, năm → scan là tìm ra. Câu trừu tượng để sau.
+      - title_vi: Đọc kỹ đoạn nghi ngờ
+        text_vi: So sánh cả LOẠI và NỘI DUNG. Đoạn chỉ nhắc tới chủ đề nhưng không đưa đúng loại thông tin (VD có nói về fake news nhưng không có ví dụ) → không phải đáp án.
+    tips:
+      - "Từ khóa trong câu hỏi hầu như luôn bị paraphrase: 'a suggestion for young people' ↔ 'students should…'."
+      - Nếu hết giờ, đoán đoạn có nhiều chi tiết nhất (đoạn dài, nhiều số liệu) — xác suất cao hơn.
+      - although / despite / however trong bài báo hiệu thông tin đối lập — hay là chỗ đặt câu hỏi 'a contrast between…'.
+    traps:
+      - trap_vi: Chọn đoạn vì thấy trùng một từ.
+        fix_vi: "Kiểm tra LOẠI thông tin: câu hỏi cần 'a reason', đoạn chỉ có 'an example' → sai."
+      - trap_vi: Nghĩ mỗi đoạn chỉ dùng một lần.
+        fix_vi: Đọc kỹ yêu cầu; nhiều đề cho dùng lại chữ cái.
+      - trap_vi: Làm dạng này đầu tiên và mất 10 phút.
+        fix_vi: Làm các dạng khác của bài trước — lúc đó bạn đã quen nội dung từng đoạn.
+    phrases:
+      - en: Which paragraph contains the following information?
+        vi: Đoạn nào chứa thông tin sau?
+      - en: NB You may use any letter more than once.
+        vi: "Lưu ý: bạn có thể dùng một chữ cái nhiều lần."
+      - en: a reference to …
+        vi: một chỗ nhắc tới …
+      - en: an explanation of why …
+        vi: lời giải thích vì sao …
+      - en: a comparison between … and …
+        vi: sự so sánh giữa … và …
+    demo:
+      title_vi: "Làm mẫu: loại thông tin quyết định đáp án"
+      text_en: |-
+        B  Researchers have found that false stories are shared more often than true ones. The main reason seems to be emotion: fake news is usually more surprising or frightening, and people like to share surprising things.
+
+        C  For example, in 2020 a post claimed that drinking hot water every fifteen minutes could stop a virus. Although doctors said it was false, the post was shared millions of times.
+
+        Question: Which paragraph contains … an explanation of why people share false stories?
+      notes:
+        - label: Loại thông tin
+          text_vi: "'an explanation of why' → tìm lý do: because, the reason is…"
+        - label: Đoạn C — bẫy
+          text_vi: Có nói về tin giả được chia sẻ, nhưng là MỘT VÍ DỤ (For example, in 2020…), không giải thích vì sao.
+        - label: "Đáp án: B"
+          text_vi: "'The main reason seems to be emotion…' = explanation of why. Paraphrase: shared more often ↔ people share."
+  - type: examples
+    items:
+      - b37-001
+      - b37-002
+      - b37-003
+      - b37-004
+      - b37-005
+      - b37-006
+      - b37-007
+      - b37-008
+      - b37-009
+      - b37-010
+      - b37-011
+  - type: dialogue
+    title_vi: Có nên chia sẻ tin này không?
+    lines:
+      - speaker: A
+        text: Look at this headline! It says drinking coffee makes you live ten years longer.
+        vi: Xem tiêu đề này! Nó bảo uống cà phê giúp sống lâu thêm mười năm.
+      - speaker: B
+        text: Hmm. Where does it come from? Is it a reliable source?
+        vi: Hừm. Tin này từ đâu? Nguồn có đáng tin không?
+      - speaker: A
+        text: An influencer posted it. It's gone viral — two million views.
+        vi: Một người có ảnh hưởng đăng. Nó đang lan truyền mạnh — hai triệu lượt xem.
+      - speaker: B
+        text: Although lots of people have watched it, that doesn't mean it's true.
+        vi: Dù nhiều người xem, điều đó không có nghĩa là nó đúng.
+      - speaker: A
+        text: Fair enough. How can I check?
+        vi: Cũng đúng. Làm sao để kiểm tra?
+      - speaker: B
+        text: Search for the study. If a journalist from a real newspaper has published it, it's probably OK.
+        vi: Tìm nghiên cứu gốc. Nếu một nhà báo của tờ báo thật đã đăng, chắc là ổn.
+      - speaker: A
+        text: Nothing. Only small websites mention it.
+        vi: Không có gì. Chỉ mấy trang nhỏ nhắc đến.
+      - speaker: B
+        text: Then don't share it. Despite the big numbers, it's probably misinformation.
+        vi: Thế thì đừng chia sẻ. Dù số lượt xem lớn, nhiều khả năng đó là tin sai lệch.
+  - type: exercises
+    items:
+      - id: b37-x1
+        bank_no: 15
+        kind: mcq
+        instructions_vi: "Matching information: đọc bài (khoảng 10 phút). Đoạn nào (A–F) chứa thông tin sau? Có thể dùng một chữ cái nhiều lần. Gạch LOẠI thông tin trong mỗi câu trước."
+        passage: |-
+          WHY FALSE NEWS TRAVELS FAST
+
+          A  False stories are nothing new. Long before the internet, rumours spread through markets, letters and newspapers. What has changed is speed. In the past, a rumour might take weeks to travel from one town to another. Today, a false post can reach millions of people in a few hours, and by the time journalists correct it, most readers have already moved on.
+
+          B  Researchers who studied millions of posts found that false stories were shared about six times more often than true ones. The main reason, they believe, is emotion. False news is usually more surprising, frightening or angry than real news, and people enjoy passing on information that makes others react strongly.
+
+          C  The design of social media platforms also plays a part. Although most platforms say they want to stop misinformation, their systems are built to show users whatever gets the most clicks and comments. A shocking headline, true or not, is therefore more likely to appear at the top of your screen.
+
+          D  In Vietnam, one widely shared post in 2021 claimed that eating a particular fruit could protect people from a serious illness. Despite warnings from doctors on national television, the price of the fruit doubled in some markets within a week, and several people became ill after eating large amounts.
+
+          E  So what can be done? Some countries have introduced laws that fine people for spreading false information. However, critics argue that such laws could also be used to stop people from criticising the government, which would damage freedom of speech.
+
+          F  Many experts believe that the best long-term solution is education. In Finland, for instance, children learn media literacy from primary school: they practise checking sources, comparing news reports and recognising emotional language. Studies suggest that young people who receive this training are much less likely to share fake stories.
+        questions:
+          - q: a real example of false information causing harm
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: d
+          - q: an explanation of why people share false stories
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: b
+          - q: a comparison between the past and the present
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: a
+            explain_vi: "'In the past … Today …' — so sánh quá khứ và hiện tại."
+          - q: a possible danger of using the law against fake news
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: e
+          - q: a reference to a country that teaches students to check information
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: f
+          - q: a contrast between what companies say and how their systems work
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: c
+            explain_vi: "'Although most platforms say they want to stop misinformation, their systems are built to…' — although báo hiệu đối lập."
+          - q: a figure showing how much more often false stories are shared
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: b
+            explain_vi: Đoạn B dùng lần hai — 'about six times more often'.
+      - id: b37-x2
+        bank_no: 16
+        kind: completion
+        instructions_vi: Dựa vào bài ở bài 1, hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc.
+        max_words: 2
+        passage: |-
+          WHY FALSE NEWS TRAVELS FAST
+
+          A  False stories are nothing new. Long before the internet, rumours spread through markets, letters and newspapers. What has changed is speed. In the past, a rumour might take weeks to travel from one town to another. Today, a false post can reach millions of people in a few hours, and by the time journalists correct it, most readers have already moved on.
+
+          B  Researchers who studied millions of posts found that false stories were shared about six times more often than true ones. The main reason, they believe, is emotion. False news is usually more surprising, frightening or angry than real news, and people enjoy passing on information that makes others react strongly.
+
+          C  The design of social media platforms also plays a part. Although most platforms say they want to stop misinformation, their systems are built to show users whatever gets the most clicks and comments. A shocking headline, true or not, is therefore more likely to appear at the top of your screen.
+
+          D  In Vietnam, one widely shared post in 2021 claimed that eating a particular fruit could protect people from a serious illness. Despite warnings from doctors on national television, the price of the fruit doubled in some markets within a week, and several people became ill after eating large amounts.
+
+          E  So what can be done? Some countries have introduced laws that fine people for spreading false information. However, critics argue that such laws could also be used to stop people from criticising the government, which would damage freedom of speech.
+
+          F  Many experts believe that the best long-term solution is education. In Finland, for instance, children learn media literacy from primary school: they practise checking sources, comparing news reports and recognising emotional language. Studies suggest that young people who receive this training are much less likely to share fake stories.
+        questions:
+          - q: Before the internet, rumours spread through markets, letters and ___.
+            answer: newspapers
+          - q: According to researchers, the main reason for sharing false news is ___.
+            answer: emotion
+          - q: Platforms show users content that gets the most clicks and ___.
+            answer: comments
+          - q: In 2021, the price of a fruit ___ in some markets.
+            answer: doubled
+          - q: Critics say laws against false information could harm freedom of ___.
+            answer: speech
+      - id: b37-x3
+        bank_no: 9
+        kind: combine
+        instructions_vi: "Nối hai câu bằng từ trong ngoặc. Nhớ: although + mệnh đề; despite + danh từ/V-ing."
+        questions:
+          - q: The story was false. Many people believed it. (Although)
+            answer: Although the story was false, many people believed it.
+          - q: There were warnings. People shared the video. (Despite)
+            answer: Despite the warnings, people shared the video.
+            accept:
+              - Despite warnings, people shared the video.
+          - q: He is a journalist. He didn't check the source. (In spite of)
+            answer: In spite of being a journalist, he didn't check the source.
+            accept:
+              - In spite of being a journalist, he did not check the source.
+          - q: The newspaper corrected the article. The fake version was still popular. (Even though)
+            answer: Even though the newspaper corrected the article, the fake version was still popular.
+      - id: b37-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: ___ the video was fake, it got a million views.
+            options:
+              - Despite
+              - In spite of
+              - Although
+              - However
+            answer: c
+          - q: ___ the doctors' warnings, people bought the fruit.
+            options:
+              - Although
+              - Even though
+              - Despite
+              - But
+            answer: c
+          - q: In spite ___ checking the source, she still made a mistake.
+            options:
+              - from
+              - of
+              - that
+              - to
+            answer: b
+          - q: Which sentence is correct?
+            options:
+              - Although it was late, but I read the news.
+              - Despite it was late, I read the news.
+              - Although it was late, I read the news.
+              - Despite of the time, I read the news.
+            answer: c
+          - q: The post was fake. ___, it spread very quickly.
+            options:
+              - Although
+              - However
+              - Despite
+              - Even though
+            answer: b
+            explain_vi: Nối hai câu tách rời → However + dấu phẩy (Buổi 30).
+      - id: b37-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn văn có 5 lỗi (although/despite, spread, từ loại journalist). Sửa trực tiếp.
+        text: Although the story was not true, but it spreaded very fast. Despite of the warnings, many people shared it. Despite the post was fake, it got many likes. My brother wants to study journalist at university.
+        errors:
+          - wrong: was not true, but it
+            right: was not true, it
+            why: Although + mệnh đề, không thêm but.
+          - wrong: it spreaded
+            right: it spread
+            why: spread – spread – spread (bất quy tắc).
+          - wrong: Despite of the warnings
+            right: Despite the warnings
+            why: despite không có of.
+          - wrong: Despite the post was fake
+            right: Although the post was fake
+            why: Trước mệnh đề dùng although (hoặc despite the fact that).
+          - wrong: study journalist at
+            right: study journalism at
+            why: "Ngành học: journalism; journalist là người. Nhầm từ loại như analysis/analyst."
+      - id: b37-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: misinformation
+            right: false or wrong information
+          - left: headline
+            right: the title of a news story in large letters
+          - left: reliable
+            right: that you can trust
+          - left: go viral
+            right: to spread very quickly on the internet
+          - left: media literacy
+            right: the ability to understand and judge news and information
+          - left: audience
+            right: the people who watch, read or listen to something
+      - id: b37-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên bàn về bài tập (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Man: For our media project, shall we write about influencers or newspapers?
+          Woman: Influencers, I think. Although newspapers are important, most students don't read them.
+          Man: OK. How should we collect information? A survey?
+          Woman: We did a survey last time. Let's interview five influencers instead.
+          Man: Five? That's a lot. Despite having lots of followers, most of them won't reply.
+          Woman: True. Let's contact ten and hope that five answer.
+          Man: And the deadline is Friday, right?
+          Woman: No, it's been moved to next Monday.
+        questions:
+          - q: What will the project be about?
+            options:
+              - newspapers
+              - influencers
+              - television
+              - advertising
+            answer: b
+          - q: How will they collect information?
+            options:
+              - a survey
+              - interviews
+              - reading articles
+              - watching videos
+            answer: b
+          - q: How many influencers will they contact?
+            options:
+              - five
+              - ten
+              - fifteen
+              - twenty
+            answer: b
+          - q: When is the deadline?
+            options:
+              - this Friday
+              - next Monday
+              - next Friday
+              - tomorrow
+            answer: b
+      - id: b37-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe bản tin ngắn rồi chọn T (đúng) hoặc F (sai). Chú ý although/despite.
+        audio_text: A video that claimed a famous bridge in the city was about to collapse went viral yesterday. Although city engineers checked the bridge and said it was completely safe, the video was shared more than half a million times. Despite the official statement, some drivers avoided the bridge all day, causing traffic jams on other roads. Police are now trying to find the person who published the video.
+        questions:
+          - q: The video said the bridge was safe.
+            answer: F
+          - q: Engineers said the bridge was safe.
+            answer: T
+          - q: The video was shared fewer than half a million times.
+            answer: F
+          - q: Some drivers did not use the bridge.
+            answer: T
+          - q: The police have found the person who published the video.
+            answer: F
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ trả lời câu hỏi bên dưới. Câu chủ đề nêu rõ ý kiến; 2 lý do, mỗi lý do có ví dụ. Dùng ít nhất 2 câu với although/even though và 2 câu với despite/in spite of (đúng cấu trúc), cùng 6 từ của buổi này. Tự kiểm tra: không 'Although … but', không 'despite of'."
+    prompt_en: "Who should be responsible for stopping fake news: social media companies, the government, or ordinary users?"
+    words:
+      min: 150
+      max: 180
+    minutes: 30

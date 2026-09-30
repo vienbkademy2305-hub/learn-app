@@ -1,0 +1,353 @@
+# Buổi 36 — Đô thị hóa · Speaking Part 1 + 2: luyện phối hợp. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-36-do-thi-hoa-speaking-part-1-2
+number: 36
+stage: 2
+title_vi: "Đô thị hóa · Speaking Part 1 + 2: luyện phối hợp"
+focus:
+  grammar: Từ nối trong văn nói (besides, apart from, actually, anyway…)
+  skill: Speaking Part 1 + Part 2 — nói trôi chảy, liên kết ý
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - vibrant|adj
+      - lively|adj
+      - nightlife|n
+      - street-food|phr-n
+      - district|n
+      - pedestrian|n
+      - spacious|adj
+      - amenity|n
+      - modern|adj
+      - get-around|phr-v
+      - walking-distance|phr-n
+      - shopping-mall|phr-n
+      - hustle-and-bustle|idiom
+      - quality-of-life|phr-n
+      - besides|adv
+      - apart-from|prep
+      - as-well-as|prep
+      - actually|adv
+      - to-be-honest|idiom
+  - type: pronunciation
+    notes:
+      - word: actually|adv
+        text_vi: "AC-tu-al-ly /ˈæk.tʃu.ə.li/: tu đọc /tʃu/. Nói nhanh thành 2–3 âm tiết /ˈæk.tʃə.li/ vẫn đúng."
+      - word: pedestrian|n
+        text_vi: "pe-DES-tri-an: nhấn âm 2; cụm /str/ không chèn nguyên âm."
+      - word: hustle-and-bustle|idiom
+        text_vi: "t câm: /ˈhʌs.əl ən ˈbʌs.əl/. and nói lướt thành /ən/."
+      - word: modern|adj
+        text_vi: "MOD-ern: nhấn âm 1, -ern đọc nhẹ /ən/."
+      - word: district|n
+        text_vi: "DIS-trict: hai cụm phụ âm /str/ và /kt/ — đọc đủ, không nuốt âm cuối."
+  - type: grammar
+    items:
+      - en-g2-16
+  - type: skill
+    skill: speaking
+    title_vi: Speaking Part 1 + Part 2 — nói trôi và liên kết ý
+    intro_vi: "Part 1 (4–5 phút): câu hỏi ngắn về bản thân, quê hương, nơi ở. Part 2 (3–4 phút): nhận thẻ đề (cue card), 1 phút chuẩn bị, nói 1–2 phút. Hai phần thường cùng một mạch chủ đề — hỏi về nơi bạn sống ở Part 1 rồi Part 2 bảo 'Describe a place in your city…'. Buổi này luyện nối hai phần: dùng lại ý và từ của Part 1 để Part 2 không bị bí, và dùng từ nối văn nói để câu trôi chảy."
+    steps:
+      - title_vi: "Part 1: trả lời 2–4 câu"
+        text_vi: "Công thức Buổi 24: Answer + Reason + Detail. Thêm 1 từ nối văn nói cho tự nhiên: 'Actually, …', 'Apart from that, …'."
+      - title_vi: "Part 1: ghi nhớ ý hay của chính mình"
+        text_vi: Nếu bạn vừa kể về một con phố, một khu chợ ở Part 1, rất có thể dùng lại được ở Part 2. Đừng sợ lặp chủ đề — chỉ cần khác câu chữ.
+      - title_vi: "Part 2: 1 phút chuẩn bị = 4 dòng ghi chú"
+        text_vi: Mỗi gợi ý trên thẻ ghi 2–3 từ khóa, không viết câu. Dòng cuối (explain why…) ghi nhiều hơn vì đó là phần dài nhất.
+      - title_vi: "Part 2: mở – thân – kết"
+        text_vi: "Mở: 'I'd like to talk about …'. Thân: đi lần lượt các gợi ý, nối bằng 'As for …', 'Apart from that, …', 'What I like most is …'. Kết: 'So that's why …'."
+      - title_vi: Nói tiếp khi giám khảo chưa dừng
+        text_vi: "Còn thời gian mà hết ý? Thêm một kỷ niệm cụ thể: 'I remember one time when …' (quá khứ đơn, Buổi 14/28)."
+    tips:
+      - Part 1 không cần dùng từ khó; cần câu trọn vẹn và tự nhiên.
+      - "Part 2: nhìn giám khảo khi nói, chỉ liếc ghi chú. Đọc ghi chú làm mất Fluency."
+      - "Nếu bí từ, diễn đạt vòng: 'the place where people sell fresh food' thay cho từ bạn quên."
+    traps:
+      - trap_vi: Dùng 'actually' với nghĩa 'hiện nay'.
+        fix_vi: Hiện nay = at the moment / currently / these days. Actually = thật ra.
+      - trap_vi: Mở mọi câu bằng 'Well' hoặc 'To be honest'.
+        fix_vi: "Đổi cách mở: trả lời thẳng, hoặc 'Yes, definitely…', 'Not really, because…'."
+      - trap_vi: Part 2 dừng sau 40 giây.
+        fix_vi: Thêm chi tiết giác quan (thấy gì, nghe gì, ăn gì) và một kỷ niệm. 1 phút 30 giây trở lên là an toàn.
+      - trap_vi: "Dùng từ nối văn viết khi nói: 'Furthermore', 'In conclusion'."
+        fix_vi: Nói 'Also', 'Besides', 'So that's why…'.
+    phrases:
+      - en: I'd like to talk about …
+        vi: Tôi muốn nói về …
+        note_vi: Mở Part 2.
+      - en: As for …,
+        vi: Còn về …,
+        note_vi: Chuyển sang gợi ý tiếp theo trên thẻ.
+      - en: What I like most about it is (that) …
+        vi: Điều tôi thích nhất ở đó là …
+      - en: Apart from that, …
+        vi: Ngoài ra, …
+      - en: Anyway, …
+        vi: Dù sao thì, …
+        note_vi: Quay về ý chính sau khi nói lan man.
+      - en: So that's why I …
+        vi: Vì thế nên tôi …
+        note_vi: Kết Part 2.
+    demo:
+      title_vi: "Làm mẫu: từ Part 1 sang Part 2"
+      text_en: |-
+        Part 1 — Examiner: Do you like the area where you live?
+        Candidate: Yes, I do. It's quite lively, and it's within walking distance of Hoan Kiem Lake. Apart from the traffic, it's a great place to live.
+
+        Part 2 — Cue card: Describe a place in your city that you like to visit. You should say: where it is · what you can do there · how often you go there · and explain why you like it.
+
+        Candidate: I'd like to talk about the pedestrian zone around Hoan Kiem Lake, which is just ten minutes from my flat. On weekend evenings, the streets are closed to cars, so the whole area becomes very lively. As for what you can do there, there are street performers, games for children, and of course lots of street food. I usually go there with my friends about twice a month, normally on Saturday nights. What I like most about it is the atmosphere. Everyone is relaxed, and you can see families, tourists and teenagers all enjoying the same space. I remember one evening when a group of students started singing traditional songs, and soon everyone was joining in. Anyway, for me, it's the best place to escape the stress of the week, so that's why I love going there.
+      notes:
+        - label: Dùng lại ý Part 1
+          text_vi: "'within walking distance of Hoan Kiem Lake' ở Part 1 thành chủ đề Part 2."
+        - label: As for …
+          text_vi: Chuyển sang gợi ý 2 mà không cần 'Secondly'.
+        - label: What I like most …
+          text_vi: Mở gợi ý cuối (explain why) — phần dài nhất.
+        - label: I remember one evening when …
+          text_vi: Kỷ niệm cụ thể giúp kéo dài và tự nhiên. Quá khứ đơn.
+        - label: Anyway, … so that's why …
+          text_vi: Quay về ý chính và kết. Toàn bài khoảng 1 phút 40 giây.
+  - type: examples
+    items:
+      - b36-001
+      - b36-002
+      - b36-003
+      - b36-004
+      - b36-005
+      - b36-006
+      - b36-007
+      - b36-008
+      - b36-009
+      - b36-010
+      - b36-011
+      - b36-012
+  - type: dialogue
+    title_vi: "Part 1: Nơi bạn sống"
+    lines:
+      - speaker: Examiner
+        text: Where do you live at the moment?
+        vi: Hiện bạn đang sống ở đâu?
+      - speaker: Candidate
+        text: I live in a flat in Cau Giay District, in the west of Hanoi. It's quite a modern area with lots of high-rise buildings.
+        vi: Tôi sống ở một căn hộ tại quận Cầu Giấy, phía tây Hà Nội. Đó là khu khá hiện đại với nhiều nhà cao tầng.
+      - speaker: Examiner
+        text: What do you like about your area?
+        vi: Bạn thích gì ở khu bạn sống?
+      - speaker: Candidate
+        text: What I like most is the amenities. There's a big park as well as two shopping malls, and everything is within walking distance.
+        vi: Điều tôi thích nhất là các tiện ích. Có một công viên lớn cũng như hai trung tâm thương mại, và mọi thứ đều đi bộ được.
+      - speaker: Examiner
+        text: Is there anything you don't like?
+        vi: Có điều gì bạn không thích không?
+      - speaker: Candidate
+        text: To be honest, the traffic is terrible at rush hour. Apart from that, it's a great place to live.
+        vi: Thật lòng mà nói, giao thông giờ cao điểm rất tệ. Ngoài chuyện đó ra, đây là nơi sống tuyệt vời.
+      - speaker: Examiner
+        text: Would you like to live somewhere else in the future?
+        vi: Bạn có muốn sống ở nơi khác trong tương lai không?
+      - speaker: Candidate
+        text: Actually, yes. I'd like to live near the sea one day. Besides, I think a quieter place would be better for my health.
+        vi: Thật ra là có. Một ngày nào đó tôi muốn sống gần biển. Hơn nữa, tôi nghĩ một nơi yên tĩnh hơn sẽ tốt cho sức khỏe.
+  - type: exercises
+    items:
+      - id: b36-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn từ nối phù hợp nhất trong văn nói.
+        questions:
+          - q: I love my neighbourhood. ___ the noise, it's perfect.
+            options:
+              - Besides
+              - Apart from
+              - As well
+              - Actually
+            answer: b
+          - q: People think my hometown is boring, but ___ it has a lot of great cafés.
+            options:
+              - actually
+              - currently
+              - besides
+              - anyway
+            answer: a
+          - q: My street has a market ___ two supermarkets.
+            options:
+              - apart
+              - besides that
+              - as well as
+              - actually
+            answer: c
+          - q: The park is beautiful. ___, it's free, so everyone can go.
+            options:
+              - Besides
+              - Apart from
+              - As well as
+              - To be honest that
+            answer: a
+          - q: I was talking about my school… ___, back to the question — yes, I like my district.
+            options:
+              - Actually
+              - Anyway
+              - Besides
+              - As well as
+            answer: b
+          - q: "'Hiện nay tôi làm việc ở một ngân hàng.' → ___, I work in a bank."
+            options:
+              - Actually
+              - At the moment
+              - Anyway
+              - Besides
+            answer: b
+            explain_vi: actually ≠ hiện nay.
+      - id: b36-x2
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Câu trả lời Part 1 (đã chép ra) có 4 lỗi: actually, apart from, as well as, lively. Sửa trực tiếp."
+        text: Actually, I am living in District 3 with my family. Apart from it is noisy, I like it a lot. There are many cafés as well as there is a big market. On weekends, the streets are very lively and people chat lively with each other.
+        errors:
+          - wrong: Actually, I am living
+            right: At the moment, I am living
+            why: actually ≠ hiện nay; dùng At the moment / Currently.
+          - wrong: Apart from it is noisy
+            right: Apart from the noise
+            why: apart from + danh từ.
+          - wrong: as well as there is a big market
+            right: as well as a big market
+            why: as well as + danh từ, không + mệnh đề.
+          - wrong: people chat lively with each other
+            right: people chat happily with each other
+            why: lively là tính từ, không làm trạng từ bổ nghĩa cho động từ.
+      - id: b36-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ phù hợp.
+        bank:
+          - vibrant
+          - pedestrian
+          - walking distance
+          - amenities
+          - get around
+          - street food
+          - spacious
+          - quality of life
+        questions:
+          - q: The best way to ___ the old quarter is on foot.
+            answer: get around
+          - q: My office is within ___ of my flat, so I never take the bus.
+            answer: walking distance
+          - q: Saigon is a ___ city — it never sleeps.
+            answer: vibrant
+          - q: The new district has good ___, such as schools, parks and a hospital.
+            answer: amenities
+          - q: Tourists love the ___ in Hanoi, especially bun cha and pho.
+            answer: street food
+          - q: The street is closed to cars at weekends — it becomes a ___ zone.
+            answer: pedestrian
+          - q: Our new flat is much more ___ than the old one; we have three bedrooms now.
+            answer: spacious
+          - q: Green spaces improve people's ___.
+            answer: quality of life
+      - id: b36-x4
+        bank_no: 29
+        kind: speaking-part1
+        instructions_vi: Trả lời từng câu 2–4 câu (15–25 giây). Mỗi câu dùng ít nhất một từ nối văn nói khác nhau. Ghi âm, nghe lại, đếm xem có lặp 'Well' hay 'To be honest' không.
+        questions:
+          - q: Where do you live at the moment?
+          - q: What do you like most about your area?
+          - q: Is it easy to get around your city?
+          - q: Has your city changed much in recent years?
+          - q: Would you prefer to live in the city centre or in the suburbs?
+        sample: Actually, it's changed a lot. When I was a child, there were only a few tall buildings, but now there are skyscrapers everywhere. Apart from that, we have a new metro line, which makes it much easier to get around.
+      - id: b36-x5
+        bank_no: 30
+        kind: speaking-part2
+        instructions_vi: "Chuẩn bị 1 phút (ghi 4 dòng từ khóa), nói 1–2 phút, ghi âm. Tự kiểm tra: đủ 4 gợi ý? có 'As for…', 'What I like most…', một kỷ niệm cụ thể và câu kết 'So that's why…' không?"
+        cue_card:
+          topic: Describe a place in your city (or town) that has changed a lot.
+          points:
+            - where it is
+            - what it was like before
+            - what it is like now
+            - and explain how you feel about the change
+        sample: I'd like to talk about a street near my old primary school in Da Nang. When I was a child, it was a quiet street with small houses and a few food stalls. As for what it's like now, it's completely different. There are high-rise hotels, a shopping mall and lots of tourists…
+      - id: b36-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: vibrant
+            right: full of energy and activity
+          - left: pedestrian
+            right: a person who is walking in a street
+          - left: amenities
+            right: useful places and services in an area
+          - left: spacious
+            right: having a lot of space
+          - left: nightlife
+            right: entertainment that is available in the evening
+          - left: hustle and bustle
+            right: busy, noisy activity
+      - id: b36-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một thí sinh trả lời Part 1 (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Examiner: Do you live in a house or a flat?
+          Candidate: A flat. It's on the twelfth floor of a building in District 7. It's quite spacious, and we can see the river from the balcony.
+          Examiner: Is it a good area for young people?
+          Candidate: Yes, definitely. There's a big shopping mall as well as lots of cafés. To be honest, the nightlife isn't very exciting, but we can get to District 1 in twenty minutes by motorbike.
+          Examiner: Is there anything you would change?
+          Candidate: Actually, I'd like more green spaces. Apart from one small park, there's nowhere to go jogging.
+        questions:
+          - q: Which floor does the candidate live on?
+            options:
+              - the second
+              - the tenth
+              - the twelfth
+              - the twentieth
+            answer: c
+          - q: What can the candidate see from the balcony?
+            options:
+              - a park
+              - the river
+              - a shopping mall
+              - the sea
+            answer: b
+          - q: What does the candidate say about the nightlife in District 7?
+            options:
+              - It's very exciting.
+              - It isn't very exciting.
+              - There is none.
+              - It's too noisy.
+            answer: b
+          - q: What would the candidate change?
+            options:
+              - add more cafés
+              - add more green spaces
+              - build a metro
+              - move to District 1
+            answer: b
+      - id: b36-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe một thí sinh nói Part 2 rồi chọn T (đúng) hoặc F (sai).
+        audio_text: I'd like to talk about Ben Thanh Market in Ho Chi Minh City. It's in the city centre, so it's easy to get to. As for what you can do there, you can buy almost anything, from clothes to souvenirs, and there's a great food section as well. I go there about once a month, usually with my cousin. What I like most about it is the atmosphere. It's always busy and lively. Having said that, the prices are higher than in other markets, so I don't buy much. Anyway, it's a place every visitor should see.
+        questions:
+          - q: The market is in the suburbs.
+            answer: F
+          - q: You can buy food at the market.
+            answer: T
+          - q: The speaker goes there every week.
+            answer: F
+          - q: The speaker thinks the market is cheaper than others.
+            answer: F
+          - q: The speaker recommends the market to visitors.
+            answer: T
+  - type: homework
+    kind: speaking
+    prompt_vi: "Ghi âm một 'mini test' Part 1 + Part 2 liền nhau (khoảng 5 phút): trả lời 4 câu Part 1 dưới đây, sau đó 1 phút chuẩn bị và nói thẻ Part 2. Nghe lại và ghi: (1) số lần dùng từ nối văn nói và có lặp không; (2) Part 2 dài bao nhiêu giây; (3) có dùng sai 'actually' không. Nộp bản ghi âm hoặc bản chép."
+    prompt_en: "Part 1: 1. What part of your city do you live in? 2. What do you usually do in your free time there? 3. Is your city a good place for tourists? 4. What would you change about your city? — Part 2: Describe a street or area in your city that you like. You should say: where it is · what it looks like · what people do there · and explain why you like it."
+    minutes: 25

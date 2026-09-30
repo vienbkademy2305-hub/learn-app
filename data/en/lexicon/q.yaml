@@ -95,3 +95,48 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: quality-of-life|phr-n
+    headword: quality of life
+    pos: phr-n
+    ipa:
+      uk: /ˌkwɒl.ə.ti əv ˈlaɪf/
+      us: /ˌkwɑː.lə.t̬i əv ˈlaɪf/
+    cefr: null
+    meaning_vi:
+      - chất lượng cuộc sống
+    collocations:
+      - improve the quality of life
+      - a high quality of life
+    topics:
+      - city
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quality-of-life, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quality-of-life, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: quite|adv
+    headword: quite
+    pos: adv
+    ipa:
+      uk: /kwaɪt/
+      us: /kwaɪt/
+    cefr: null
+    meaning_vi:
+      - khá
+    collocations:
+      - quite difficult
+      - quite a lot of
+    notes_vi:
+      - "Đứng trước 'a/an': quite a long time (không nói *a quite long time*). Phân biệt quite /kwaɪt/ và quiet /ˈkwaɪ.ət/."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

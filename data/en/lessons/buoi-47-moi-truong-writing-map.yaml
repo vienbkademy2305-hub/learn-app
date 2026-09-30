@@ -1,0 +1,383 @@
+# Buổi 47 — Môi trường (nâng cao) · Writing Task 1: so sánh bản đồ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-47-moi-truong-writing-map
+number: 47
+stage: 3
+title_vi: "Môi trường (nâng cao) · Writing Task 1: so sánh bản đồ"
+focus:
+  grammar: Bị động quá khứ / hiện tại hoàn thành + cụm thay thế
+  skill: Writing Task 1 — maps (trước và sau)
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - demolish|v
+      - construct|v
+      - convert|v
+      - extend|v
+      - expand|v
+      - relocate|v
+      - remove|v
+      - residential|adj
+      - industrial|adj
+      - woodland|n
+      - farmland|n
+      - footpath|n
+      - redevelopment|n
+      - cycle-lane|phr-n
+      - make-way-for|phr-v
+      - layout|n
+      - dramatic|adj
+      - transform|v
+      - accessible|adj
+  - type: pronunciation
+    notes:
+      - word: demolish|v
+        text_vi: "de-MOL-ish: nhấn âm 2. Danh từ dem-o-LI-tion: trọng âm dịch về trước -tion."
+      - word: residential|adj
+        text_vi: "res-i-DEN-tial /ˌrez.ɪˈden.ʃəl/: s đọc /z/; -tial = /ʃəl/."
+      - word: industrial|adj
+        text_vi: "in-DUS-tri-al: nhấn âm 2 (khác IN-dus-try, Buổi 40)."
+      - word: relocate|v
+        text_vi: re-lo-CATE (Anh-Anh) — nhấn âm cuối.
+      - word: construct|v
+        text_vi: "con-STRUCT: hai cụm phụ âm /str/ và /kt/, đọc đủ."
+  - type: grammar
+    items:
+      - en-g3-02
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 1 — so sánh bản đồ (maps)
+    intro_vi: "Đề cho hai hoặc ba bản đồ của một nơi (làng, trường, khu phố, hòn đảo) ở các thời điểm khác nhau, hoặc bản đồ hiện tại và bản kế hoạch tương lai. Không có số liệu: điểm Task Achievement đến từ việc nêu đủ các THAY ĐỔI chính kèm VỊ TRÍ, và một overview nói đúng 'bức tranh lớn' (VD: từ làng nông nghiệp thành khu đô thị)."
+    steps:
+      - title_vi: Xác định thời điểm và thì
+        text_vi: Hai năm quá khứ → quá khứ đơn bị động. Quá khứ → hiện nay → hiện tại hoàn thành bị động. Kế hoạch tương lai → will be + V3 / is planned to be + V3.
+      - title_vi: "Liệt kê thay đổi: mới, mất, đổi, giữ nguyên"
+        text_vi: "Đặt hai bản đồ cạnh nhau, đánh dấu: cái gì được xây mới, bị phá, đổi công năng, mở rộng, giữ nguyên. Nhóm theo khu vực (bắc/nam) hoặc theo loại thay đổi."
+      - title_vi: "Overview: 2 thay đổi lớn nhất"
+        text_vi: "'Overall, the area became much more developed, with farmland giving way to housing, while the river and the church remained unchanged.' Không cần năm hay chi tiết."
+      - title_vi: Thân bài theo khu vực
+        text_vi: "Thân bài 1: nửa bắc (hoặc khu dân cư); thân bài 2: nửa nam (hoặc giao thông, tiện ích). Mỗi câu: thay đổi + vị trí."
+      - title_vi: Đa dạng động từ
+        text_vi: was built / constructed / was replaced by / made way for / was converted into / was extended / was relocated / remained unchanged.
+    tips:
+      - "Dùng la bàn: in the north-east, to the west of the school, along the coast. Không có la bàn thì dùng top/bottom/left/right of the map."
+      - Một câu có thể gộp hai thay đổi bằng while/whereas (Buổi 34) hoặc which (Buổi 25).
+      - Nhắc cả những gì KHÔNG đổi — đó cũng là đặc điểm chính.
+    traps:
+      - trap_vi: Mô tả từng bản đồ riêng lẻ (thân bài 1 = bản đồ 1990, thân bài 2 = bản đồ 2020).
+        fix_vi: Luôn mô tả THAY ĐỔI giữa hai bản đồ, không mô tả tĩnh từng cái.
+      - trap_vi: "Chủ động sai: 'The factory demolished'."
+        fix_vi: "was demolished. Nhưng: made way for, remained là chủ động."
+      - trap_vi: "Quên vị trí: 'A school was built.'"
+        fix_vi: "'A school was built to the north of the park.'"
+    phrases:
+      - en: The maps illustrate the changes that took place in … between … and …
+        vi: Các bản đồ minh họa những thay đổi đã diễn ra ở … từ … đến …
+        note_vi: Mở bài.
+      - en: Overall, the most noticeable change was …
+        vi: Nhìn chung, thay đổi dễ thấy nhất là …
+      - en: … was replaced by …
+        vi: … được thay bằng …
+      - en: … was converted into …
+        vi: … được chuyển thành …
+      - en: … made way for …
+        vi: … nhường chỗ cho …
+      - en: …, whereas … remained unchanged.
+        vi: …, trong khi … vẫn giữ nguyên.
+    demo:
+      title_vi: "Làm mẫu: một ngôi làng ven biển 1995 và 2025 (bản đồ mô tả bằng lời để luyện tập)"
+      text_en: |-
+        1995: fishing village; small harbour in the south; farmland in the north; a narrow road from the east; woodland in the west; a church in the centre.
+        2025: harbour converted into a marina with a café; farmland replaced by houses; road widened and extended to the beach; woodland partly cut down for a car park; church unchanged; a footpath added along the coast.
+
+        Introduction: The maps illustrate the changes that took place in a coastal village between 1995 and 2025.
+
+        Overview: Overall, the village was transformed from a fishing community into a residential and tourist area, although the church in the centre remained unchanged.
+
+        Body 1: In the north, the farmland was replaced by a large housing estate. The narrow road from the east was widened and extended all the way to the beach, and a footpath was added along the coast.
+
+        Body 2: In the south, the small fishing harbour was converted into a marina with a café. Meanwhile, part of the woodland in the west made way for a car park, which made the beach more accessible to visitors.
+      notes:
+        - label: Thì
+          text_vi: Hai mốc đều ở quá khứ (1995, 2025 được xem như hai thời điểm đã xảy ra) → quá khứ đơn bị động.
+        - label: Overview
+          text_vi: "Bức tranh lớn: từ làng chài → khu dân cư + du lịch; và điều không đổi (nhà thờ)."
+        - label: Chia theo khu vực
+          text_vi: Thân bài 1 = phía bắc + đường; thân bài 2 = phía nam + phía tây.
+        - label: made way for / which
+          text_vi: Chủ động make way for; which nối thêm hệ quả.
+  - type: examples
+    items:
+      - b47-001
+      - b47-002
+      - b47-003
+      - b47-004
+      - b47-005
+      - b47-006
+      - b47-007
+      - b47-008
+      - b47-009
+      - b47-010
+      - b47-011
+      - b47-012
+  - type: dialogue
+    title_vi: Quê tôi đã thay đổi
+    lines:
+      - speaker: A
+        text: Have you been back to your hometown recently?
+        vi: Gần đây cậu có về quê không?
+      - speaker: B
+        text: Yes, last month. I hardly recognised it. The whole layout has changed.
+        vi: Có, tháng trước. Tớ suýt không nhận ra. Toàn bộ bố cục đã thay đổi.
+      - speaker: A
+        text: Really? What's different?
+        vi: Thật à? Khác thế nào?
+      - speaker: B
+        text: The rice fields near my house have been replaced by an industrial zone.
+        vi: Cánh đồng lúa gần nhà tớ đã bị thay bằng một khu công nghiệp.
+      - speaker: A
+        text: What about the old market?
+        vi: Còn chợ cũ thì sao?
+      - speaker: B
+        text: It was demolished, and a new one was built to the west of the town.
+        vi: Nó bị phá bỏ, và một chợ mới được xây ở phía tây thị trấn.
+      - speaker: A
+        text: That's a dramatic change. Is anything the same?
+        vi: Thay đổi lớn thật. Có gì còn giữ nguyên không?
+      - speaker: B
+        text: The temple on the hill remained unchanged. It's the only place that feels like home now.
+        vi: Ngôi chùa trên đồi vẫn như cũ. Giờ đó là nơi duy nhất còn cảm giác như quê nhà.
+  - type: exercises
+    items:
+      - id: b47-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền động từ phù hợp (dạng V3) để mô tả thay đổi.
+        bank:
+          - demolished
+          - converted
+          - extended
+          - relocated
+          - replaced
+          - constructed
+        questions:
+          - q: The old cinema was ___ into a shopping centre.
+            answer: converted
+          - q: The railway line was ___ to the airport.
+            answer: extended
+          - q: The factory was ___, and the land is now a park.
+            answer: demolished
+          - q: The farmland was ___ by a housing estate.
+            answer: replaced
+          - q: The market was ___ from the centre to the edge of the town.
+            answer: relocated
+          - q: A new bridge was ___ across the river.
+            answer: constructed
+      - id: b47-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: "Maps: 2000 and now. 'Since 2000, a hospital ___ in the north.'"
+            options:
+              - built
+              - was built
+              - has been built
+              - is building
+            answer: c
+          - q: "Maps: 1980 and 2010. 'In 2010, the farm ___ by houses.'"
+            options:
+              - has been replaced
+              - was replaced
+              - replaced
+              - is replaced
+            answer: b
+          - q: The woodland ___ a car park.
+            options:
+              - was made way for
+              - made way for
+              - has made way
+              - was making way
+            answer: b
+          - q: The church in the centre ___.
+            options:
+              - was remained unchanged
+              - remained unchanged
+              - has remained change
+              - remains unchange
+            answer: b
+          - q: Which sentence is best for Task 1 maps?
+            options:
+              - A school was built.
+              - A school was built to the north of the park.
+              - There is a school.
+              - The school is very nice.
+            answer: b
+            explain_vi: Có cả thay đổi và vị trí.
+      - id: b47-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu dùng từ trong ngoặc, giữ nguyên nghĩa.
+        questions:
+          - q: They knocked down the old houses and built a car park there. (replaced by)
+            answer: The old houses were replaced by a car park.
+          - q: The warehouse became a hotel. (converted into)
+            answer: The warehouse was converted into a hotel.
+          - q: The trees were removed and a road was built. (made way for)
+            answer: The trees made way for a road.
+          - q: Nobody changed the school. (remained unchanged)
+            answer: The school remained unchanged.
+      - id: b47-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi. Sửa trực tiếp.
+        text: In the north, the farmland replaced by a shopping mall. The old factory demolished and a park was built on its place. The harbour was converted to a marina. The woodland was made way for a car park. The church remain unchanged.
+        errors:
+          - wrong: the farmland replaced by
+            right: the farmland was replaced by
+            why: Bị động thiếu be.
+          - wrong: The old factory demolished
+            right: The old factory was demolished
+            why: Bị động thiếu be.
+          - wrong: built on its place
+            right: built in its place
+            why: in its place = ở chỗ của nó.
+          - wrong: was converted to a marina
+            right: was converted into a marina
+            why: convert INTO.
+          - wrong: was made way for
+            right: made way for
+            why: make way for là chủ động.
+      - id: b47-x5
+        bank_no: 24
+        kind: completion
+        instructions_vi: Hoàn thành bài map (bản đồ mô tả bằng lời). Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: |-
+          2005: a school with a sports field in the east; a car park in the west; trees in the south.
+          Now: sports field → new science building; car park expanded; trees removed → bus stop; main building unchanged.
+
+          The maps show how a school has changed since 2005. Overall, the school has become more developed, although the main building has (1) ___ unchanged. In the east, the sports field has been (2) ___ by a new science building. The car park in the west has been (3) ___, and the trees in the south have been (4) ___ to make (5) ___ for a bus stop.
+        questions:
+          - q: (1)
+            answer: remained
+            accept:
+              - stayed
+          - q: (2)
+            answer: replaced
+          - q: (3)
+            answer: expanded
+            accept:
+              - extended
+              - enlarged
+          - q: (4)
+            answer: removed
+            accept:
+              - cut
+          - q: (5)
+            answer: way
+      - id: b47-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: demolish
+            right: to destroy a building completely
+          - left: convert
+            right: to change something so it can be used for a different purpose
+          - left: relocate
+            right: to move to a new place
+          - left: residential
+            right: used for people to live in
+          - left: layout
+            right: the way the parts of a place are arranged
+          - left: accessible
+            right: easy to reach or enter
+      - id: b47-x7
+        bank_no: 19
+        kind: mcq
+        instructions_vi: Nghe hai người nói về kế hoạch cải tạo công viên (hai giọng) và chọn chữ cái đúng (A–F) cho mỗi địa điểm MỚI. Có 2 chữ cái thừa.
+        audio_text: |-
+          Man: Have you seen the plan for the new park?
+          Woman: Yes. The old car park by the main gate in the south will be converted into a playground.
+          Man: So where will people park?
+          Woman: A new car park will be built outside the park, to the east of the gate.
+          Man: And the café?
+          Woman: It's being relocated from the lake to the north-west corner, next to the new garden.
+          Man: What about the tennis courts in the north-east?
+          Woman: They'll stay where they are, but a cycle lane will be added along the west side.
+        passage: |-
+          Park plan (main gate in the south):
+          A – inside the park, just north of the main gate
+          B – outside the park, east of the main gate
+          C – beside the lake, in the centre
+          D – north-west corner
+          E – north-east corner
+          F – along the west side of the park
+        questions:
+          - q: new playground
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: a
+          - q: new car park
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: b
+          - q: café (new position)
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: d
+            explain_vi: "Bẫy: café CŨ ở cạnh hồ (C); vị trí mới là góc tây bắc."
+          - q: cycle lane
+            options:
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+            answer: f
+      - id: b47-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe mô tả thay đổi của một hòn đảo rồi chọn T (đúng) hoặc F (sai).
+        audio_text: Twenty years ago, the island had no buildings except a small fishermen's hut on the west coast. Since then, it has been transformed into a tourist resort. A hotel has been constructed in the centre, and a pier has been built on the south coast so that boats can bring visitors. The fishermen's hut has been converted into a restaurant. However, the trees in the east have been kept, and a footpath now leads through them to the beach.
+        questions:
+          - q: Twenty years ago, the island had several hotels.
+            answer: F
+          - q: The hotel is in the centre of the island.
+            answer: T
+          - q: The fishermen's hut was demolished.
+            answer: F
+            explain_vi: Nó được chuyển thành nhà hàng (converted), không bị phá.
+          - q: The trees in the east have been removed.
+            answer: F
+  - type: homework
+    kind: task1
+    prompt_vi: Viết Task 1 (≥ 150 từ, 20 phút) cho hai bản đồ mô tả bằng lời dưới đây. Overview nêu 'bức tranh lớn' + điều không đổi. Mỗi câu thân bài có thay đổi + vị trí. Dùng ít nhất 5 động từ thay đổi khác nhau (was replaced by, was converted into, made way for, was extended, remained unchanged…).
+    prompt_en: |-
+      The maps show a town centre in 2000 and today.
+      2000: a bus station in the north; small shops along the main street; a car park in the east; a river in the south with no bridge; a library in the west.
+      Today: bus station → shopping mall; main street → pedestrian zone; car park → multi-storey car park; a bridge built across the river; library unchanged; a cycle lane added along the river.
+      Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+    words:
+      min: 150
+      max: 190
+    minutes: 20

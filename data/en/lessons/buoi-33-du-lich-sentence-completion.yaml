@@ -1,0 +1,364 @@
+# Buổi 33 — Du lịch & văn hóa · Reading: Sentence completion. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-33-du-lich-sentence-completion
+number: 33
+stage: 2
+title_vi: "Du lịch & văn hóa · Reading: Sentence completion"
+focus:
+  grammar: Câu điều kiện loại 2
+  skill: Reading — Sentence completion (điền từ lấy từ bài đọc)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - cultural-heritage|phr-n
+      - mass-tourism|phr-n
+      - tourism|n
+      - culture|n
+      - cultural-identity|phr-n
+      - preserve|v
+      - tradition|n
+      - custom|n
+      - ancient|adj
+      - historic|adj
+      - landmark|n
+      - overcrowded|adj
+      - authentic|adj
+      - local-resident|phr-n
+      - restore|v
+      - damage|v
+      - unique|adj
+      - festival|n
+  - type: pronunciation
+    notes:
+      - word: ancient|adj
+        text_vi: "AIN-shənt /ˈeɪn.ʃənt/: a đọc /eɪ/, ci đọc /ʃ/. Không đọc 'an-xi-en'."
+      - word: cultural-heritage|phr-n
+        text_vi: "HER-i-tage /ˈher.ɪ.tɪdʒ/: h bật hơi, -tage đọc /tɪdʒ/ như trong advantage (Buổi 30)."
+      - word: authentic|adj
+        text_vi: "au-THEN-tic: th = /θ/ (lưỡi giữa răng, không rung). Không đọc 'ô-then-tích' với /t/."
+      - word: unique|adj
+        text_vi: "u-NIQUE /juːˈniːk/: nhấn âm 2, -que đọc /k/. Mở đầu bằng /j/ nên dùng a unique."
+      - word: tourism|n
+        text_vi: "TOU-ri-sm /ˈtʊə.rɪ.zəm/: -ism đọc /ɪ.zəm/ — 3 âm tiết, không đọc 'tu-rism'."
+  - type: grammar
+    items:
+      - en-g2-13
+  - type: skill
+    skill: reading
+    title_vi: "Reading — Sentence completion: hoàn thành câu bằng từ trong bài"
+    intro_vi: "Bạn nhận một số câu chưa hoàn chỉnh và phải điền từ LẤY NGUYÊN TỪ BÀI ĐỌC, đúng giới hạn từ (VD: NO MORE THAN TWO WORDS). Các câu đi theo thứ tự của bài. Câu trong đề đã được viết lại (paraphrase) so với bài đọc, nên việc chính là: nhận ra câu nào trong bài mang cùng ý, rồi lấy đúng từ còn thiếu. Điền đúng ý nhưng sai chính tả hoặc vượt số từ vẫn bị tính sai."
+    steps:
+      - title_vi: Đọc kỹ giới hạn từ
+        text_vi: ONE WORD ONLY / NO MORE THAN TWO WORDS / ONE WORD AND/OR A NUMBER. Khoanh tròn yêu cầu này. 'a lot of visitors' = 4 từ — không được nếu giới hạn là 2.
+      - title_vi: Gạch từ khóa và phân loại
+        text_vi: "Từ khóa KHÔNG ĐỔI: tên riêng, năm, con số, thuật ngữ (Minh Chau, 1999, UNESCO) — dùng để tìm vị trí trong bài. Từ khóa CÓ THỂ ĐỔI: động từ, tính từ, danh từ chung (visitors → tourists, damage → harm) — dùng để khớp ý."
+      - title_vi: Đoán loại từ cần điền
+        text_vi: "Nhìn chữ đứng trước và sau chỗ trống: sau a/the/tính từ → danh từ; sau to be và trước danh từ → tính từ; sau to hoặc will → động từ nguyên thể; có 'in + ___' với năm → số."
+      - title_vi: Scan tìm vùng thông tin
+        text_vi: Tìm từ khóa không đổi (nếu có), hoặc từ đồng nghĩa của từ khóa có thể đổi. Vì câu đi theo thứ tự, đáp án câu 3 nằm sau đáp án câu 2.
+      - title_vi: Đọc kỹ 1–2 câu quanh đó
+        text_vi: "So sánh từng phần của câu đề với câu trong bài. Phần còn thiếu chính là đáp án. Kiểm tra ý nghĩa: có đúng chủ thể, đúng thời gian không?"
+      - title_vi: Chép đúng và đọc lại cả câu
+        text_vi: Chép nguyên chữ trong bài (đúng số ít/số nhiều), không tự đổi dạng từ. Đọc lại câu hoàn chỉnh xem có đúng ngữ pháp không.
+    tips:
+      - Đáp án thường là DANH TỪ (khoảng 70%). Nếu bạn đoán động từ mà điền danh từ, xem lại.
+      - "Số: có thể viết 5,000 hoặc five thousand — nhưng số tính là MỘT từ khi đề cho 'and/or a number'."
+      - Không cần hiểu hết bài. Mỗi câu chỉ cần hiểu kỹ 1–2 câu văn chứa đáp án.
+    traps:
+      - trap_vi: Điền từ của mình (đúng nghĩa) thay vì từ trong bài.
+        fix_vi: Đề yêu cầu 'from the passage' — chỉ chép từ có trong bài.
+      - trap_vi: "Sai số ít/số nhiều: bài viết 'temples', bạn chép 'temple'."
+        fix_vi: Chép đúng như trong bài và kiểm tra với mạo từ trong câu đề (a ___ → số ít).
+      - trap_vi: Lấy đáp án từ câu giả định (loại 2) hoặc câu nói về quá khứ khi đề hỏi hiện tại.
+        fix_vi: "Đối chiếu thời gian và chủ thể: 'In the past…' vs 'Today…', 'If … would…' = chưa xảy ra."
+      - trap_vi: Vượt giới hạn từ vì chép cả mạo từ đã có trong câu đề.
+        fix_vi: Câu đề có sẵn 'the ___' thì không chép lại 'the'.
+    phrases:
+      - en: NO MORE THAN TWO WORDS from the passage
+        vi: Không quá hai từ lấy từ bài đọc
+        note_vi: 1 hoặc 2 từ đều được.
+      - en: ONE WORD AND/OR A NUMBER
+        vi: Một từ và/hoặc một số
+      - en: Complete the sentences below.
+        vi: Hoàn thành các câu bên dưới.
+      - en: Choose ONE WORD ONLY from the passage for each answer.
+        vi: Chọn CHỈ MỘT TỪ trong bài cho mỗi đáp án.
+    demo:
+      title_vi: "Làm mẫu: từ câu đề về câu trong bài"
+      text_en: |-
+        Passage: "Before the town became famous, most families earned their living from fishing. Today, more than half of them run small hotels or souvenir shops."
+
+        Question: In the past, the majority of local people worked in __________ .  (ONE WORD ONLY)
+      notes:
+        - label: Từ khóa
+          text_vi: "'In the past' ↔ 'Before the town became famous'; 'the majority of local people' ↔ 'most families'; 'worked in' ↔ 'earned their living from'."
+        - label: Loại từ
+          text_vi: Sau 'worked in' → danh từ chỉ nghề/ngành.
+        - label: "Đáp án: fishing"
+          text_vi: "Một từ, chép nguyên. Bẫy: 'hotels' là việc làm HIỆN NAY (Today) — sai thời gian."
+  - type: examples
+    items:
+      - b33-001
+      - b33-002
+      - b33-003
+      - b33-004
+      - b33-005
+      - b33-006
+      - b33-007
+      - b33-008
+      - b33-009
+      - b33-010
+      - b33-011
+      - b33-012
+  - type: dialogue
+    title_vi: Nên đi đâu dịp lễ?
+    lines:
+      - speaker: A
+        text: I'm thinking of visiting the old town during the lantern festival.
+        vi: Tớ đang tính đi phố cổ dịp lễ hội đèn lồng.
+      - speaker: B
+        text: It's beautiful, but it gets really overcrowded. If I were you, I would go on a weekday.
+        vi: Đẹp lắm, nhưng đông kinh khủng. Nếu tớ là cậu, tớ sẽ đi vào ngày thường.
+      - speaker: A
+        text: Good idea. Is it still authentic, or is it just for tourists now?
+        vi: Ý hay. Ở đó còn giữ nét nguyên bản không, hay giờ chỉ phục vụ khách du lịch?
+      - speaker: B
+        text: Both, really. Many old houses have been restored, and local residents still keep their traditions.
+        vi: Cả hai. Nhiều nhà cổ đã được trùng tu, và người dân địa phương vẫn giữ truyền thống.
+      - speaker: A
+        text: But mass tourism has changed a lot of things, hasn't it?
+        vi: Nhưng du lịch đại trà đã làm thay đổi nhiều thứ, đúng không?
+      - speaker: B
+        text: Yes. If there were fewer tourists, the town would feel more peaceful.
+        vi: Ừ. Nếu ít khách hơn, phố sẽ yên bình hơn.
+      - speaker: A
+        text: Any tips for food?
+        vi: Có gợi ý gì về đồ ăn không?
+      - speaker: B
+        text: Avoid the restaurants near the landmark. Walk a bit further and you'll find authentic local dishes at half the price.
+        vi: Tránh mấy nhà hàng gần chỗ nổi tiếng. Đi xa thêm một chút là có món địa phương đúng vị, giá bằng nửa.
+  - type: exercises
+    items:
+      - id: b33-x1
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc bài (khoảng 8 phút) và hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc cho mỗi chỗ trống. Làm theo 6 bước ở tab Kỹ năng.
+        max_words: 2
+        passage: |-
+          THE PRICE OF POPULARITY
+
+          A  Thirty years ago, Minh Chau was a quiet fishing town on the central coast of Vietnam, known only for its ancient wooden houses and a small covered bridge. Most families earned their living from the sea, and very few outsiders visited. Everything changed in 1999, when the old quarter was named a World Heritage Site. Within ten years, the number of visitors rose from about 20,000 to more than one million a year.
+
+          B  Tourism has brought obvious benefits. Unemployment has almost disappeared, and many young people who used to move to big cities for work now stay at home. Money from ticket sales has been used to restore more than 200 old buildings, and the town's lantern festival, which was almost forgotten in the 1980s, is now held every month.
+
+          C  However, local residents have also paid a price. In the old quarter, rents have increased so much that many families have sold their houses to businesses. Today, fewer than a third of the historic houses are still homes; the rest have become cafés, hotels and souvenir shops. "The buildings are preserved, but the life inside them has gone," says Nguyen Van Tam, a retired teacher who has lived in the town all his life.
+
+          D  The town's leaders are trying to find a balance. Since 2018, cars and large buses have not been allowed in the old quarter, and visitors must buy a ticket to enter. Some people want the town to go further. If visitor numbers were limited to 5,000 a day, they argue, the streets would no longer be overcrowded and residents could return. So far, however, the town council has rejected this idea, because it fears a fall in income.
+        questions:
+          - q: Before the 1990s, most families in Minh Chau depended on the ___ for their income.
+            answer: sea
+            explain_vi: "'earned their living from the sea' ↔ 'depended on … for their income'. Một từ đủ; 'the' đã có sẵn trong câu đề."
+          - q: In 1999, the old quarter was given the status of a World ___.
+            answer: Heritage Site
+            explain_vi: "'was named a World Heritage Site'. 'World' đã có sẵn trong câu đề → chỉ chép 2 từ còn lại."
+          - q: Tourism has helped young people avoid moving to ___ to find jobs.
+            answer: big cities
+            accept:
+              - cities
+          - q: Ticket money has paid for the restoration of over 200 ___.
+            answer: old buildings
+            accept:
+              - buildings
+          - q: The lantern festival now takes place every ___.
+            answer: month
+          - q: Because of higher ___, many families have sold their homes.
+            answer: rents
+            explain_vi: "Chép đúng số nhiều như trong bài: 'rents have increased'."
+          - q: Nowadays, most of the historic houses are used as businesses, not as ___.
+            answer: homes
+          - q: The town council is worried about a fall in ___ if visitor numbers are limited.
+            answer: income
+            explain_vi: "'If visitor numbers were limited…' là ý kiến GIẢ ĐỊNH (loại 2) của một số người — hội đồng thành phố đã bác bỏ."
+      - id: b33-x2
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Dựa vào bài 'The price of popularity' ở bài 1, chọn T (True), F (False) hoặc NG (Not Given). Nhớ: không có thông tin → NG, đừng chọn F."
+        passage: |-
+          THE PRICE OF POPULARITY
+
+          A  Thirty years ago, Minh Chau was a quiet fishing town on the central coast of Vietnam, known only for its ancient wooden houses and a small covered bridge. Most families earned their living from the sea, and very few outsiders visited. Everything changed in 1999, when the old quarter was named a World Heritage Site. Within ten years, the number of visitors rose from about 20,000 to more than one million a year.
+
+          B  Tourism has brought obvious benefits. Unemployment has almost disappeared, and many young people who used to move to big cities for work now stay at home. Money from ticket sales has been used to restore more than 200 old buildings, and the town's lantern festival, which was almost forgotten in the 1980s, is now held every month.
+
+          C  However, local residents have also paid a price. In the old quarter, rents have increased so much that many families have sold their houses to businesses. Today, fewer than a third of the historic houses are still homes; the rest have become cafés, hotels and souvenir shops. "The buildings are preserved, but the life inside them has gone," says Nguyen Van Tam, a retired teacher who has lived in the town all his life.
+
+          D  The town's leaders are trying to find a balance. Since 2018, cars and large buses have not been allowed in the old quarter, and visitors must buy a ticket to enter. Some people want the town to go further. If visitor numbers were limited to 5,000 a day, they argue, the streets would no longer be overcrowded and residents could return. So far, however, the town council has rejected this idea, because it fears a fall in income.
+        questions:
+          - q: Minh Chau had more than one million visitors a year by around 2009.
+            answer: T
+            explain_vi: 1999 + 'within ten years' → khoảng 2009.
+          - q: The lantern festival was invented for tourists.
+            answer: F
+            explain_vi: Lễ hội 'was almost forgotten in the 1980s' → đã có từ trước, không phải tạo ra cho khách.
+          - q: Nguyen Van Tam used to work in a hotel.
+            answer: F
+            explain_vi: Ông là 'a retired teacher'. Đọc đúng chủ thể.
+          - q: Most tourists in Minh Chau come from other countries.
+            answer: NG
+            explain_vi: Bài không nói khách đến từ đâu.
+          - q: Motorbikes are banned in the old quarter.
+            answer: NG
+            explain_vi: Bài chỉ nói cars and large buses. Không nhắc xe máy → NG, không phải F.
+          - q: The town council has agreed to limit visitors to 5,000 a day.
+            answer: F
+      - id: b33-x3
+        bank_no: 6
+        kind: verb-form
+        instructions_vi: Chia động từ trong ngoặc theo câu điều kiện loại 2.
+        questions:
+          - q: If I (have) ___ more free time, I would learn about my hometown's history.
+            answer: had
+          - q: If the town limited visitors, the streets (be) ___ less crowded.
+            answer: would be
+            accept:
+              - "'d be"
+          - q: If I (be) ___ you, I would book a hotel outside the old quarter.
+            answer: were
+          - q: Tourists (not / damage) ___ the temple if they followed the rules.
+            answer: wouldn't damage
+            accept:
+              - would not damage
+          - q: If there (be) ___ no tourists, many local people would lose their jobs.
+            answer: were
+          - q: What (you / do) ___ if you were the mayor of Hoi An?
+            answer: would you do
+      - id: b33-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Loại 1 hay loại 2? Chọn đáp án đúng.
+        questions:
+          - q: The weather forecast says it may rain. If it ___, we'll visit the museum.
+            options:
+              - rains
+              - rained
+              - would rain
+              - will rain
+            answer: a
+            explain_vi: Có khả năng xảy ra thật → loại 1.
+          - q: I don't have a passport. If I ___ one, I would travel to Japan.
+            options:
+              - have
+              - had
+              - will have
+              - would have
+            answer: b
+            explain_vi: Sự thật là không có hộ chiếu → giả định → loại 2.
+          - q: If the town ___ all cars, the air would be cleaner.
+            options:
+              - bans
+              - banned
+              - will ban
+              - would ban
+            answer: b
+          - q: Which sentence gives advice?
+            options:
+              - If I am you, I will go early.
+              - If I were you, I would go early.
+              - If I was you, I will go early.
+              - If I were you, I will go early.
+            answer: b
+      - id: b33-x5
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết lại câu dùng từ trong ngoặc, giữ nguyên nghĩa. Đây chính là cách đề Reading paraphrase bài đọc.
+        questions:
+          - q: The town wants to keep its old buildings in good condition. (preserve)
+            answer: The town wants to preserve its old buildings.
+            accept:
+              - The town wants to preserve its old buildings in good condition.
+          - q: The streets have too many people. (overcrowded)
+            answer: The streets are overcrowded.
+          - q: People who live in the town are unhappy. (local residents)
+            answer: Local residents are unhappy.
+          - q: The food tastes exactly like real local food. (authentic)
+            answer: The food is authentic.
+            accept:
+              - The food tastes authentic.
+      - id: b33-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: cultural heritage
+            right: traditions and old buildings passed down from the past
+          - left: mass tourism
+            right: very large numbers of people travelling to the same places
+          - left: landmark
+            right: a famous building or place that is easy to recognise
+          - left: restore
+            right: to repair an old building so it looks as it did before
+          - left: custom
+            right: a traditional way of doing something in a society
+          - left: unique
+            right: being the only one of its kind
+      - id: b33-x7
+        bank_no: 22
+        kind: completion
+        instructions_vi: Nghe hướng dẫn viên và hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ.
+        max_words: 2
+        audio_text: "Good afternoon and welcome to the walking tour of the old quarter. The tour takes about ninety minutes, and we'll stop at five places. Our first stop is the covered bridge, which was built by traders about four hundred years ago. It was badly damaged by a flood in 2006, but it was restored the following year. After that, we'll visit an old family house. Please take off your shoes before you go inside, because this is still someone's home. Photos are allowed, but please don't use a flash. We'll finish at the night market, where you can try authentic local food. Oh, and one more thing: the tour price includes a bottle of water, but not the entrance tickets to the temples."
+        passage: |-
+          WALKING TOUR — OLD QUARTER
+          Length of tour: (1) ___ minutes
+          The covered bridge was built by (2) ___
+          It was restored in (3) ___
+          In the family house, visitors must remove their (4) ___
+          Photos are OK, but no (5) ___
+          The price does NOT include tickets to the (6) ___
+        questions:
+          - q: (1)
+            answer: "90"
+            accept:
+              - ninety
+          - q: (2)
+            answer: traders
+          - q: (3)
+            answer: "2007"
+            explain_vi: "Bị hư năm 2006, trùng tu 'the following year' = 2007. Bẫy: nghe thấy 2006 đừng điền ngay."
+          - q: (4)
+            answer: shoes
+          - q: (5)
+            answer: flash
+          - q: (6)
+            answer: temples
+      - id: b33-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe hai người nói chuyện rồi chọn T (đúng) hoặc F (sai).
+        audio_text: |-
+          Woman: How was your trip to Sapa?
+          Man: Amazing. But it was more crowded than I expected. There were hotels everywhere.
+          Woman: Did you visit any villages?
+          Man: Yes, one. If I had more time, I would stay with a local family next time. That's the best way to learn about their customs.
+          Woman: And the food?
+          Man: I loved it. I tried some authentic dishes at the market, and they were really cheap.
+        questions:
+          - q: Sapa was less crowded than the man expected.
+            answer: F
+          - q: The man stayed with a local family.
+            answer: F
+            explain_vi: "'If I had more time, I would stay…' — câu giả định, chưa xảy ra."
+          - q: The man thinks staying with a family is a good way to learn about customs.
+            answer: T
+          - q: The food at the market was expensive.
+            answer: F
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Viết đoạn văn 150–180 từ: 'Nếu bạn là lãnh đạo một thành phố du lịch nổi tiếng ở Việt Nam, bạn sẽ làm gì để bảo vệ di sản văn hóa mà vẫn giữ được thu nhập từ du lịch?' Dùng ít nhất 4 câu điều kiện loại 2 (có 1 câu If I were…) và 6 từ của buổi này. Tự kiểm tra: vế if không có would."
+    prompt_en: If you were the leader of a famous tourist city in Vietnam, what would you do to protect its cultural heritage and still earn money from tourism?
+    words:
+      min: 150
+      max: 180
+    minutes: 30

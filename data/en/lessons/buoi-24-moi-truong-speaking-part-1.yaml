@@ -263,8 +263,7 @@ steps:
         instructions_vi: Nối từ với định nghĩa tiếng Anh.
         pairs:
           - left: countryside
-            right: land outside towns and cities
-            with fields and farms: null
+            right: "land outside towns and cities, with fields and farms"
           - left: peaceful
             right: calm and quiet
           - left: polluted
@@ -272,8 +271,7 @@ steps:
           - left: green space
             right: an area of grass or trees in a town
           - left: outdoor
-            right: happening outside
-            not in a building: null
+            right: "happening outside, not in a building"
       - id: b24-x6
         bank_no: 29
         kind: speaking-part1

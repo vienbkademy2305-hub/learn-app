@@ -519,3 +519,369 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: look-after|phr-v
+    headword: look after
+    pos: phr-v
+    ipa:
+      uk: /ˌlʊk ˈɑːf.tər/
+      us: /ˌlʊk ˈæf.tɚ/
+    cefr: null
+    meaning_vi:
+      - chăm sóc
+      - trông nom
+    collocations:
+      - look after children
+      - look after elderly parents
+    notes_vi:
+      - "= take care of. Tân ngữ đứng SAU after: look after my grandmother (không tách *look my grandmother after*)."
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: landmark|n
+    headword: landmark
+    pos: n
+    ipa:
+      uk: /ˈlænd.mɑːk/
+      us: /ˈlænd.mɑːrk/
+    cefr: C1
+    meaning_vi:
+      - công trình/địa danh biểu tượng
+    collocations:
+      - a famous landmark
+      - a national landmark
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/landmark, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/landmark, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/landmark, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: local-resident|phr-n
+    headword: local resident
+    pos: phr-n
+    ipa:
+      uk: /ˌləʊ.kəl ˈrez.ɪ.dənt/
+      us: /ˌloʊ.kəl ˈrez.ə.dənt/
+    cefr: null
+    meaning_vi:
+      - cư dân địa phương
+    collocations:
+      - local residents complain about
+      - the needs of local residents
+    notes_vi:
+      - "Paraphrase hay gặp: local people, people who live there, the local community."
+    topics:
+      - travel
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: lively|adj
+    headword: lively
+    pos: adj
+    ipa:
+      uk: /ˈlaɪv.li/
+      us: /ˈlaɪv.li/
+    cefr: B2
+    meaning_vi:
+      - náo nhiệt
+      - sinh động
+    collocations:
+      - a lively street
+      - a lively atmosphere
+    notes_vi:
+      - "lively là TÍNH TỪ dù có đuôi -ly: *The street is lively* ✓, *She talks lively* ❌ → in a lively way."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lively, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lively, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lively, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: lifelong-learning|phr-n
+    headword: lifelong learning
+    pos: phr-n
+    ipa:
+      uk: /ˌlaɪf.lɒŋ ˈlɜː.nɪŋ/
+      us: /ˌlaɪf.lɑːŋ ˈlɝː.nɪŋ/
+    cefr: null
+    meaning_vi:
+      - học tập suốt đời
+    collocations:
+      - encourage lifelong learning
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lifelong-learning, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lifelong-learning, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: local-business|phr-n
+    headword: local business
+    pos: phr-n
+    forms:
+      plural: local businesses
+    ipa:
+      uk: /ˌləʊ.kəl ˈbɪz.nɪs/
+      us: /ˌloʊ.kəl ˈbɪz.nɪs/
+    cefr: null
+    meaning_vi:
+      - doanh nghiệp địa phương
+    collocations:
+      - support local businesses
+      - compete with local businesses
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: lead-to|phr-v
+    headword: lead to
+    pos: phr-v
+    forms:
+      past: led to
+      pp: led to
+    ipa:
+      uk: /ˈliːd tuː/
+      us: /ˈliːd tuː/
+    cefr: null
+    meaning_vi:
+      - dẫn đến
+    collocations:
+      - lead to health problems
+      - lead to an increase in
+    notes_vi:
+      - "lead to + DANH TỪ/V-ing (to là giới từ): lead to eating more (không *lead to eat*). Quá khứ: led."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: long-term|adj
+    headword: long-term
+    pos: adj
+    ipa:
+      uk: /ˌlɒŋˈtɜːm/
+      us: /ˌlɑːŋˈtɝːm/
+    cefr: B2
+    meaning_vi:
+      - dài hạn
+    collocations:
+      - a long-term solution
+      - in the long term
+    notes_vi:
+      - "Trước danh từ có gạch nối (a long-term plan); cụm trạng ngữ không gạch: in the long term. Đối lập: short-term."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/long-term, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/long-term, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/long-term, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: landfill|n
+    headword: landfill
+    pos: n
+    ipa:
+      uk: /ˈlænd.fɪl/
+      us: /ˈlænd.fɪl/
+    cefr: null
+    meaning_vi:
+      - bãi chôn lấp rác
+    collocations:
+      - send waste to landfill
+      - landfill sites
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: layout|n
+    headword: layout
+    pos: n
+    ipa:
+      uk: /ˈleɪ.aʊt/
+      us: /ˈleɪ.aʊt/
+    cefr: null
+    meaning_vi:
+      - bố cục
+      - cách bố trí
+    collocations:
+      - the layout of the village
+      - change the layout
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: learner|n
+    headword: learner
+    pos: n
+    ipa:
+      uk: /ˈlɜː.nər/
+      us: /ˈlɝː.nɚ/
+    cefr: null
+    meaning_vi:
+      - người học
+    collocations:
+      - a slow learner
+      - independent learners
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: law-enforcement|phr-n
+    headword: law enforcement
+    pos: phr-n
+    ipa:
+      uk: /ˈlɔː ɪnˌfɔːs.mənt/
+      us: /ˈlɑː ɪnˌfɔːrs.mənt/
+    cefr: null
+    meaning_vi:
+      - việc thực thi pháp luật (cảnh sát, cơ quan chức năng)
+    collocations:
+      - law enforcement agencies
+      - strict law enforcement
+    topics:
+      - crime
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: legal-system|phr-n
+    headword: legal system
+    pos: phr-n
+    ipa:
+      uk: /ˌliː.ɡəl ˈsɪs.təm/
+      us: /ˌliː.ɡəl ˈsɪs.təm/
+    cefr: null
+    meaning_vi:
+      - hệ thống pháp luật
+    collocations:
+      - reform the legal system
+      - trust in the legal system
+    topics:
+      - crime
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: likely|adj
+    headword: likely
+    pos: adj
+    ipa:
+      uk: /ˈlaɪ.kli/
+      us: /ˈlaɪ.kli/
+    cefr: null
+    meaning_vi:
+      - có khả năng xảy ra
+    collocations:
+      - be likely to + V
+      - it is likely that
+      - highly likely
+    notes_vi:
+      - "likely là TÍNH TỪ: AI is likely to replace some jobs (không *AI likely replaces*). Mức độ: certain > likely > possible > unlikely."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: life-expectancy|phr-n
+    headword: life expectancy
+    pos: phr-n
+    ipa:
+      uk: /ˈlaɪf ɪkˌspek.tən.si/
+      us: /ˈlaɪf ɪkˌspek.tən.si/
+    cefr: null
+    meaning_vi:
+      - tuổi thọ trung bình
+    collocations:
+      - average life expectancy
+      - life expectancy has risen
+    topics:
+      - health
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: look-forward-to|phr-v
+    headword: look forward to
+    pos: phr-v
+    ipa:
+      uk: /ˌlʊk ˈfɔː.wəd tuː/
+      us: /ˌlʊk ˈfɔːr.wɚd tuː/
+    cefr: null
+    meaning_vi:
+      - mong chờ
+    collocations:
+      - look forward to the holiday
+      - look forward to seeing you
+    notes_vi:
+      - "to là giới từ → + V-ing: I look forward to MEETING you (không *to meet*)."
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

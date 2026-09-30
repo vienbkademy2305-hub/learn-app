@@ -345,3 +345,189 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: nuclear-family|phr-n
+    headword: nuclear family
+    pos: phr-n
+    ipa:
+      uk: /ˌnjuː.kli.ə ˈfæm.əl.i/
+      us: /ˌnuː.kli.ɚ ˈfæm.əl.i/
+    cefr: null
+    meaning_vi:
+      - gia đình hạt nhân (bố mẹ và con cái)
+    collocations:
+      - live in a nuclear family
+      - the traditional nuclear family
+    notes_vi:
+      - "Đối lập: extended family (nhiều thế hệ sống chung)."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nuclear-family, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nuclear-family, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nowadays|adv
+    headword: nowadays
+    pos: adv
+    ipa:
+      uk: /ˈnaʊ.ə.deɪz/
+      us: /ˈnaʊ.ə.deɪz/
+    cefr: B2
+    meaning_vi:
+      - ngày nay
+    notes_vi:
+      - "Viết liền một từ. Đi với hiện tại đơn: Nowadays, many women work (không phải hiện tại hoàn thành)."
+    topics:
+      - time
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nowadays, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nowadays, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nowadays, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: neighbourhood|n
+    headword: neighbourhood
+    pos: n
+    ipa:
+      uk: /ˈneɪ.bə.hʊd/
+      us: /ˈneɪ.bɚ.hʊd/
+    stress: NEIGH-bour-hood
+    cefr: B1
+    meaning_vi:
+      - khu phố
+      - khu dân cư
+    collocations:
+      - a friendly neighbourhood
+      - in my neighbourhood
+    notes_vi:
+      - "gh câm: NAY-bə-hood. Anh-Mỹ viết neighborhood."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neighbourhood, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neighbourhood, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neighbourhood, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nightlife|n
+    headword: nightlife
+    pos: n
+    ipa:
+      uk: /ˈnaɪt.laɪf/
+      us: /ˈnaɪt.laɪf/
+    cefr: null
+    meaning_vi:
+      - cuộc sống về đêm (hoạt động vui chơi buổi tối)
+    collocations:
+      - exciting nightlife
+      - the city's nightlife
+    notes_vi:
+      - Không đếm được, viết liền một từ.
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nightlife, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nightlife, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nearly|adv
+    headword: nearly
+    pos: adv
+    ipa:
+      uk: /ˈnɪə.li/
+      us: /ˈnɪr.li/
+    cefr: A2
+    meaning_vi:
+      - gần
+      - suýt (hơi dưới một con số)
+    collocations:
+      - nearly half
+      - nearly 30%
+    notes_vi:
+      - nearly/almost = hơi DƯỚI; just over = hơi TRÊN. 49% = nearly half; 52% = just over half.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nearly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nearly, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nearly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: nevertheless|adv
+    headword: nevertheless
+    pos: adv
+    ipa:
+      uk: /ˌnev.ə.ðəˈles/
+      us: /ˌnev.ɚ.ðəˈles/
+    stress: nev-er-the-LESS
+    cefr: null
+    meaning_vi:
+      - tuy vậy
+      - dù vậy
+    notes_vi:
+      - "Mạnh hơn however: thừa nhận ý trước đúng nhưng vẫn giữ quan điểm. Đứng đầu câu + dấu phẩy."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: nonetheless|adv
+    headword: nonetheless
+    pos: adv
+    ipa:
+      uk: /ˌnʌn.ðəˈles/
+      us: /ˌnʌn.ðəˈles/
+    cefr: null
+    meaning_vi:
+      - tuy nhiên
+      - dù sao đi nữa
+    notes_vi:
+      - "= nevertheless. Có thể đứng cuối câu: The policy was unpopular; it worked, nonetheless."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: nutrition|n
+    headword: nutrition
+    pos: n
+    ipa:
+      uk: /njuːˈtrɪʃ.ən/
+      us: /nuːˈtrɪʃ.ən/
+    cefr: null
+    meaning_vi:
+      - dinh dưỡng
+    collocations:
+      - good nutrition
+      - poor nutrition
+    notes_vi:
+      - "Tính từ: nutritious (bổ dưỡng)."
+    topics:
+      - health
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

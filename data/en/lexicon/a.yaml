@@ -939,3 +939,688 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: attitude|n
+    headword: attitude
+    pos: n
+    ipa:
+      uk: /ˈæt.ɪ.tʃuːd/
+      us: /ˈæt̬.ə.tuːd/
+    stress: AT-ti-tude
+    cefr: B1
+    meaning_vi:
+      - thái độ
+      - quan điểm
+    collocations:
+      - attitude to/towards
+      - a positive attitude
+      - change people's attitudes
+    notes_vi:
+      - attitude TO/TOWARDS something (không dùng *attitude about*).
+    topics:
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attitude, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/attitude, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: ancient|adj
+    headword: ancient
+    pos: adj
+    ipa:
+      uk: /ˈeɪn.ʃənt/
+      us: /ˈeɪn.ʃənt/
+    cefr: A2
+    meaning_vi:
+      - cổ
+      - cổ xưa
+    collocations:
+      - an ancient town
+      - ancient temples
+    notes_vi:
+      - "a đọc /eɪ/: AIN-shənt, không đọc 'an-xi-ăng'."
+    topics:
+      - culture
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: authentic|adj
+    headword: authentic
+    pos: adj
+    ipa:
+      uk: /ɔːˈθen.tɪk/
+      us: /ɑːˈθen.t̬ɪk/
+    stress: au-THEN-tic
+    cefr: C1
+    meaning_vi:
+      - đích thực
+      - nguyên bản
+    collocations:
+      - authentic local food
+      - an authentic experience
+    topics:
+      - travel
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: accommodation|n
+    headword: accommodation
+    pos: n
+    ipa:
+      uk: /əˌkɒm.əˈdeɪ.ʃən/
+      us: /əˌkɑː.məˈdeɪ.ʃən/
+    stress: ac-com-mo-DA-tion
+    cefr: B1
+    meaning_vi:
+      - chỗ ở (khách sạn, nhà nghỉ…)
+    collocations:
+      - spend money on accommodation
+      - cheap accommodation
+    notes_vi:
+      - "Anh-Anh: KHÔNG đếm được — *accommodations* ❌, *an accommodation* ❌."
+      - "Chính tả: hai c, hai m — accommodation."
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: approximately|adv
+    headword: approximately
+    pos: adv
+    ipa:
+      uk: /əˈprɒk.sɪ.mət.li/
+      us: /əˈprɑːk.sə.mət.li/
+    stress: ap-PROX-i-mate-ly
+    cefr: B1
+    meaning_vi:
+      - xấp xỉ
+      - khoảng
+    collocations:
+      - approximately 40%
+      - approximately half
+    notes_vi:
+      - "Đồng nghĩa: about, around, roughly. Dùng khi đọc số trên biểu đồ cột không rõ ràng."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/approximately, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: amenity|n
+    headword: amenity
+    pos: n
+    forms:
+      plural: amenities
+    ipa:
+      uk: /əˈmiː.nə.ti/
+      us: /əˈmen.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - tiện ích (công viên, bệnh viện, cửa hàng…)
+    collocations:
+      - local amenities
+      - modern amenities
+    notes_vi:
+      - "Thường ở số nhiều: amenities. Gần nghĩa facilities (Buổi 27)."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: apart-from|prep
+    headword: apart from
+    pos: prep
+    ipa:
+      uk: /əˈpɑːt frəm/
+      us: /əˈpɑːrt frəm/
+    cefr: null
+    meaning_vi:
+      - ngoài … ra; trừ …
+    collocations:
+      - apart from that
+      - apart from the traffic
+    notes_vi:
+      - "+ danh từ / V-ing: Apart from shopping, … (không + mệnh đề)."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: as-well-as|prep
+    headword: as well as
+    pos: prep
+    ipa:
+      uk: /əz ˈwel əz/
+      us: /əz ˈwel əz/
+    cefr: null
+    meaning_vi:
+      - cũng như
+      - bên cạnh
+    collocations:
+      - cafés as well as restaurants
+    notes_vi:
+      - "+ danh từ / V-ing: The area has parks as well as shopping malls."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: actually|adv
+    headword: actually
+    pos: adv
+    ipa:
+      uk: /ˈæk.tʃu.ə.li/
+      us: /ˈæk.tʃu.ə.li/
+    stress: AC-tu-al-ly
+    cefr: A2
+    meaning_vi:
+      - thật ra
+      - thực ra
+    notes_vi:
+      - "BẪY 'bạn giả': actually KHÔNG có nghĩa 'hiện nay' (= currently, at the moment). *Actually I am a student* khi muốn nói 'hiện tôi là sinh viên' ❌ → At the moment, I'm a student."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: audience|n
+    headword: audience
+    pos: n
+    ipa:
+      uk: /ˈɔː.di.əns/
+      us: /ˈɑː.di.əns/
+    stress: AU-di-ence
+    cefr: A2
+    meaning_vi:
+      - khán giả
+      - độc giả
+      - người xem
+    collocations:
+      - a large audience
+      - reach a young audience
+    notes_vi:
+      - "Một nhóm người → dùng số ít: a large audience (không nói *many audiences* khi chỉ số người)."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: although|conj
+    headword: although
+    pos: conj
+    ipa:
+      uk: /ɔːlˈðəʊ/
+      us: /ɑːlˈðoʊ/
+    stress: al-THOUGH
+    cefr: A2
+    meaning_vi:
+      - mặc dù (+ mệnh đề)
+    notes_vi:
+      - "although + S + V. KHÔNG dùng 'but' ở vế sau: *Although…, but…* ❌ (ôn Buổi 22)."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: advertising|n
+    headword: advertising
+    pos: n
+    ipa:
+      uk: /ˈæd.və.taɪ.zɪŋ/
+      us: /ˈæd.vɚ.taɪ.zɪŋ/
+    stress: AD-ver-tis-ing
+    cefr: A2
+    meaning_vi:
+      - ngành/hoạt động quảng cáo
+    collocations:
+      - online advertising
+      - advertising aimed at children
+    notes_vi:
+      - advertising (không đếm được, nói chung) ≠ an advertisement / an advert / an ad (một mẩu quảng cáo).
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: account-for|phr-v
+    headword: account for
+    pos: phr-v
+    ipa:
+      uk: /əˈkaʊnt fɔːr/
+      us: /əˈkaʊnt fɔːr/
+    cefr: null
+    meaning_vi:
+      - chiếm (một tỉ lệ)
+    collocations:
+      - account for 40% of
+      - account for the largest share
+    notes_vi:
+      - "Chủ động: Rice accounted for 30%. *Rice was accounted for 30%* ❌."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: authority|n
+    headword: authority
+    pos: n
+    forms:
+      plural: authorities
+    ipa:
+      uk: /ɔːˈθɒr.ə.ti/
+      us: /əˈθɔːr.ə.t̬i/
+    stress: au-THOR-i-ty
+    cefr: B1
+    meaning_vi:
+      - chính quyền
+      - "nhà chức trách (số nhiều: the authorities)"
+    collocations:
+      - the local authorities
+      - the authorities should
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: address|v
+    headword: address
+    pos: v
+    ipa:
+      uk: /əˈdres/
+      us: /əˈdres/
+    stress: ad-DRESS
+    cefr: B2
+    meaning_vi:
+      - giải quyết
+      - xử lý (một vấn đề)
+    collocations:
+      - address the issue
+      - address this problem
+    notes_vi:
+      - Động từ nhấn âm 2 (ad-DRESS). Danh từ 'địa chỉ' ở Anh-Mỹ nhấn âm 1.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: accessible|adj
+    headword: accessible
+    pos: adj
+    ipa:
+      uk: /əkˈses.ə.bəl/
+      us: /əkˈses.ə.bəl/
+    stress: ac-CES-si-ble
+    cefr: null
+    meaning_vi:
+      - dễ tiếp cận
+      - dễ đến
+    collocations:
+      - more accessible to visitors
+      - easily accessible by bus
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: academic-performance|phr-n
+    headword: academic performance
+    pos: phr-n
+    ipa:
+      uk: /ˌæk.əˈdem.ɪk pəˈfɔː.məns/
+      us: /ˌæk.əˈdem.ɪk pɚˈfɔːr.məns/
+    cefr: null
+    meaning_vi:
+      - kết quả học tập
+    collocations:
+      - improve academic performance
+      - poor academic performance
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: assess|v
+    headword: assess
+    pos: v
+    ipa:
+      uk: /əˈses/
+      us: /əˈses/
+    cefr: null
+    meaning_vi:
+      - đánh giá
+    collocations:
+      - assess students' progress
+      - be assessed by exams
+    notes_vi:
+      - "Danh từ: assessment (continuous assessment = đánh giá thường xuyên)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: assessment|n
+    headword: assessment
+    pos: n
+    ipa:
+      uk: /əˈses.mənt/
+      us: /əˈses.mənt/
+    cefr: null
+    meaning_vi:
+      - sự đánh giá
+      - bài kiểm tra đánh giá
+    collocations:
+      - continuous assessment
+      - an online assessment
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: as-a-result|idiom
+    headword: as a result
+    pos: idiom
+    ipa:
+      uk: /æz ə rɪˈzʌlt/
+      us: /æz ə rɪˈzʌlt/
+    cefr: null
+    meaning_vi:
+      - kết quả là
+    notes_vi:
+      - "as a result (+ câu) ≠ as a result of (+ danh từ): As a result of the new law, crime fell."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: algorithm|n
+    headword: algorithm
+    pos: n
+    ipa:
+      uk: /ˈæl.ɡə.rɪ.ðəm/
+      us: /ˈæl.ɡə.rɪ.ðəm/
+    stress: AL-go-ri-thm
+    cefr: null
+    meaning_vi:
+      - thuật toán
+    collocations:
+      - a computer algorithm
+      - algorithms decide what we see
+    notes_vi:
+      - "th = /ð/ (rung): AL-gə-ri-ðəm."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: autonomous|adj
+    headword: autonomous
+    pos: adj
+    ipa:
+      uk: /ɔːˈtɒn.ə.məs/
+      us: /ɑːˈtɑː.nə.məs/
+    stress: au-TON-o-mous
+    cefr: null
+    meaning_vi:
+      - tự hành
+      - tự chủ
+    collocations:
+      - autonomous vehicles
+      - autonomous weapons
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: arguably|adv
+    headword: arguably
+    pos: adv
+    ipa:
+      uk: /ˈɑːɡ.ju.ə.bli/
+      us: /ˈɑːrɡ.ju.ə.bli/
+    cefr: null
+    meaning_vi:
+      - có thể nói là (có cơ sở để cho rằng)
+    notes_vi:
+      - "Cách nêu ý kiến mềm trong Writing: AI is arguably the most important technology of our time."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: accurate|adj
+    headword: accurate
+    pos: adj
+    ipa:
+      uk: /ˈæk.jə.rət/
+      us: /ˈæk.jɚ.ət/
+    cefr: null
+    meaning_vi:
+      - chính xác
+    collocations:
+      - highly accurate
+      - accurate results
+    notes_vi:
+      - "-ate đọc /ət/ (tính từ): AK-yə-rət. Danh từ: accuracy."
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: admittedly|adv
+    headword: admittedly
+    pos: adv
+    ipa:
+      uk: /ədˈmɪt.ɪd.li/
+      us: /ədˈmɪt̬.ɪd.li/
+    cefr: null
+    meaning_vi:
+      - phải thừa nhận rằng
+    notes_vi:
+      - "Mở đầu câu nhượng bộ: Admittedly, …; however, … — thừa nhận ý bên kia trước khi phản bác."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: adverse|adj
+    headword: adverse
+    pos: adj
+    ipa:
+      uk: /ˈæd.vɜːs/
+      us: /ædˈvɝːs/
+    cefr: null
+    meaning_vi:
+      - bất lợi
+      - tiêu cực
+    collocations:
+      - adverse effects
+      - adverse consequences
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: assimilate|v
+    headword: assimilate
+    pos: v
+    ipa:
+      uk: /əˈsɪm.ɪ.leɪt/
+      us: /əˈsɪm.ə.leɪt/
+    stress: as-SIM-i-late
+    cefr: null
+    meaning_vi:
+      - hòa nhập
+      - đồng hóa (vào nền văn hóa khác)
+    collocations:
+      - assimilate into a new culture
+    notes_vi:
+      - "assimilate INTO. Danh từ: assimilation."
+    topics:
+      - culture
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: ancestor|n
+    headword: ancestor
+    pos: n
+    ipa:
+      uk: /ˈæn.ses.tər/
+      us: /ˈæn.ses.tɚ/
+    cefr: null
+    meaning_vi:
+      - tổ tiên
+    collocations:
+      - ancestor worship
+      - honour our ancestors
+    notes_vi:
+      - "Tính từ: ancestral (ancestral home = nhà thờ họ / quê gốc)."
+    topics:
+      - culture
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: a-far-cry-from|idiom
+    headword: a far cry from
+    pos: idiom
+    ipa:
+      uk: /ə ˌfɑː ˈkraɪ frəm/
+      us: /ə ˌfɑːr ˈkraɪ frəm/
+    cefr: null
+    meaning_vi:
+      - khác xa với
+    collocations:
+      - life today is a far cry from the 1990s
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

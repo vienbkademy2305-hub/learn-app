@@ -1,0 +1,334 @@
+# Buổi 40 — Việc làm & kinh tế · Speaking Part 3 nâng cao. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-40-viec-lam-speaking-part-3
+number: 40
+stage: 2
+title_vi: Việc làm & kinh tế · Speaking Part 3 nâng cao
+focus:
+  grammar: "Paraphrase câu hỏi: đổi từ loại, When it comes to + N/V-ing"
+  skill: Speaking Part 3 nâng cao — paraphrase câu hỏi, câu hỏi dự đoán và đánh giá
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - unemployment|n
+      - job-security|phr-n
+      - income-inequality|phr-n
+      - minimum-wage|phr-n
+      - economic-growth|phr-n
+      - economy|n
+      - industry|n
+      - replace|v
+      - skilled|adj
+      - retrain|v
+      - workforce|n
+      - flexible|adj
+      - poverty|n
+      - wealthy|adj
+      - invest|v
+      - lifelong-learning|phr-n
+      - in-demand|adj
+      - automation|n
+  - type: pronunciation
+    notes:
+      - word: economy|n
+        text_vi: "e-CON-o-my (nền kinh tế) → ec-o-NOM-ic (thuộc kinh tế): trọng âm dịch chuyển khi đổi từ loại — nói sai trọng âm dễ bị nghe nhầm."
+      - word: industry|n
+        text_vi: "IN-dus-try: nhấn âm 1. Nhưng in-DUS-tri-al: nhấn âm 2."
+      - word: unemployment|n
+        text_vi: "un-em-PLOY-ment: 4 âm tiết, nhấn PLOY."
+      - word: poverty|n
+        text_vi: "POV-er-ty /ˈpɒv.ə.ti/: /v/ rung môi-răng, không đọc thành /b/."
+      - word: wealthy|adj
+        text_vi: "WEL-thy: /lθ/ — đầu lưỡi từ lợi (l) chuyển ra giữa răng (th)."
+  - type: grammar
+    items:
+      - en-g2-20
+  - type: skill
+    skill: speaking
+    title_vi: Speaking Part 3 nâng cao — paraphrase, dự đoán, đánh giá
+    intro_vi: "Buổi 32 đã có khung A-R-E-A. Buổi này nâng cấp cho band 6+: (1) mở đầu bằng paraphrase câu hỏi để có thời gian nghĩ và thể hiện vốn từ; (2) xử lý ba loại câu hỏi khó: DỰ ĐOÁN (Will … in the future?), ĐÁNH GIÁ (Is it a good or bad thing that…?), và SO SÁNH (Which is more important, A or B?). Giám khảo Part 3 hay hỏi dồn 'Why?' 'Can you give an example?' — đó là dấu hiệu tốt, nghĩa là họ đang đẩy bạn lên band cao hơn."
+    steps:
+      - title_vi: Paraphrase 1 câu
+        text_vi: "Đổi từ loại hoặc dùng When it comes to / As for: 'Will robots take our jobs?' → 'As for automation replacing workers, …'. Chỉ 1 câu, rồi trả lời."
+      - title_vi: "Câu dự đoán: dùng mức độ chắc chắn"
+        text_vi: will definitely / will probably / may / might / I doubt that … Đừng chỉ nói 'will' — thêm mức độ cho tự nhiên và chính xác.
+      - title_vi: "Câu đánh giá: hai mặt rồi kết luận"
+        text_vi: "'It's a positive development in some ways, because… However, … Overall, I'd say it's more positive than negative.'"
+      - title_vi: "Câu so sánh: chọn rõ một bên"
+        text_vi: "'Which is more important, salary or job satisfaction?' → chọn một bên, giải thích, rồi thừa nhận bên kia: 'Of course, salary matters, but…'."
+      - title_vi: Khi không biết gì về chủ đề
+        text_vi: "Thành thật + suy luận: 'I don't know much about the economy, but I imagine that…' — vẫn nói được 30 giây."
+    tips:
+      - Không học thuộc câu paraphrase cho mọi câu hỏi — chỉ nhớ 3–4 khung (When it comes to, As for, In terms of, That's an interesting question…).
+      - "Dùng ví dụ cấp XÃ HỘI: 'In Vietnam, many factory workers…', 'A lot of companies now…'."
+      - Giám khảo ngắt lời bạn là bình thường — Part 3 là thảo luận, không phải độc thoại.
+    traps:
+      - trap_vi: "Lặp nguyên văn câu hỏi: 'Why are many young people unemployed? Many young people are unemployed because…'"
+        fix_vi: "Đổi sang danh từ: 'When it comes to youth unemployment, …'."
+      - trap_vi: Paraphrase dài 3–4 câu mà chưa trả lời.
+        fix_vi: Paraphrase tối đa 1 câu; câu thứ hai phải là câu trả lời.
+      - trap_vi: When it comes to + to V.
+        fix_vi: When it comes to + V-ing / danh từ.
+      - trap_vi: Nhầm economic / economical.
+        fix_vi: economic growth (kinh tế) — an economical car (tiết kiệm).
+    phrases:
+      - en: When it comes to …, I'd say …
+        vi: Khi nói đến …, tôi cho là …
+      - en: As for …, I think …
+        vi: Còn về …, tôi nghĩ …
+      - en: It will probably …, although I doubt that …
+        vi: Có lẽ nó sẽ …, dù tôi không chắc là …
+        note_vi: Câu dự đoán có mức độ.
+      - en: Overall, I'd say it's more positive than negative.
+        vi: Nhìn chung, tôi cho là tích cực nhiều hơn tiêu cực.
+        note_vi: Câu đánh giá.
+      - en: Of course, … matters, but …
+        vi: Tất nhiên … cũng quan trọng, nhưng …
+        note_vi: Thừa nhận bên kia trong câu so sánh.
+      - en: I don't know much about …, but I imagine that …
+        vi: Tôi không biết nhiều về …, nhưng tôi đoán là …
+    demo:
+      title_vi: "Làm mẫu: câu hỏi dự đoán"
+      text_en: |-
+        Examiner: Do you think robots will replace most workers in the future?
+
+        Candidate: As for machines replacing human workers, I'd say it will probably happen in some industries, but not in most of them. When it comes to factory work, robots are already cheaper and faster, so jobs like packing and assembling will definitely disappear. However, I doubt that robots will replace nurses or teachers, because these jobs need human feelings and communication. For example, a robot can check a patient's temperature, but it can't really comfort a frightened child. So overall, I think the workforce will change rather than disappear, and people will need lifelong learning to keep up.
+      notes:
+        - label: Paraphrase
+          text_vi: "'robots will replace most workers' → 'machines replacing human workers' (đổi sang danh động từ)."
+        - label: Mức độ chắc chắn
+          text_vi: probably / definitely / I doubt that — không chỉ dùng will.
+        - label: When it comes to factory work
+          text_vi: "Chia chủ đề thành hai nhóm nghề: nhà máy vs chăm sóc con người."
+        - label: For example …
+          text_vi: Ví dụ cụ thể (robot đo nhiệt độ vs an ủi trẻ).
+        - label: So overall …
+          text_vi: Kết luận + từ vựng buổi học (workforce, lifelong learning). Khoảng 45 giây.
+  - type: examples
+    items:
+      - b40-001
+      - b40-002
+      - b40-003
+      - b40-004
+      - b40-005
+      - b40-006
+      - b40-007
+      - b40-008
+      - b40-009
+      - b40-010
+      - b40-011
+      - b40-012
+  - type: dialogue
+    title_vi: "Part 3: Việc làm và tương lai"
+    lines:
+      - speaker: Examiner
+        text: Why do some young people find it difficult to get a job after university?
+        vi: Vì sao một số người trẻ khó tìm việc sau khi tốt nghiệp?
+      - speaker: Candidate
+        text: When it comes to graduate unemployment, I think the main reason is a lack of practical experience. Universities teach theory, but employers want skills.
+        vi: Nói về tình trạng cử nhân thất nghiệp, tôi nghĩ lý do chính là thiếu kinh nghiệm thực tế. Đại học dạy lý thuyết, còn nhà tuyển dụng cần kỹ năng.
+      - speaker: Examiner
+        text: What could universities do about that?
+        vi: Các trường đại học có thể làm gì?
+      - speaker: Candidate
+        text: They could work with companies so that every student does an internship. Some universities in Vietnam already do this.
+        vi: Họ có thể hợp tác với doanh nghiệp để mọi sinh viên đều đi thực tập. Một số trường ở Việt Nam đã làm vậy.
+      - speaker: Examiner
+        text: "Which is more important when choosing a job: salary or job satisfaction?"
+        vi: Khi chọn việc, lương hay sự hài lòng với công việc quan trọng hơn?
+      - speaker: Candidate
+        text: Of course, salary matters, especially with the cost of living in big cities. But I'd say job satisfaction is more important in the long term, because people who hate their jobs often resign.
+        vi: Tất nhiên lương quan trọng, nhất là với chi phí sinh hoạt ở thành phố lớn. Nhưng tôi cho là sự hài lòng quan trọng hơn về lâu dài, vì người ghét công việc thường nghỉ việc.
+      - speaker: Examiner
+        text: Will people still work in offices in twenty years?
+        vi: Hai mươi năm nữa người ta còn làm việc ở văn phòng không?
+      - speaker: Candidate
+        text: As for office work, I think offices will probably still exist, but they'll be smaller. Most people will have flexible jobs and work from home a few days a week.
+        vi: Còn về công việc văn phòng, tôi nghĩ có lẽ văn phòng vẫn tồn tại nhưng nhỏ hơn. Phần lớn mọi người sẽ có công việc linh hoạt và làm ở nhà vài ngày mỗi tuần.
+  - type: exercises
+    items:
+      - id: b40-x1
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: Viết câu mở đầu paraphrase câu hỏi, dùng khung trong ngoặc và đổi từ in hoa sang danh từ.
+        questions:
+          - q: Why are many young people UNEMPLOYED? (When it comes to youth …)
+            answer: When it comes to youth unemployment,
+            accept:
+              - When it comes to youth unemployment
+          - q: How can the government help POOR families? (In terms of reducing …)
+            answer: In terms of reducing poverty,
+            accept:
+              - In terms of reducing poverty
+          - q: Is it good that the economy is GROWING fast? (As for fast economic …)
+            answer: As for fast economic growth,
+            accept:
+              - As for fast economic growth
+          - q: Should companies EMPLOY older people? (When it comes to … older people)
+            answer: When it comes to employing older people,
+            accept:
+              - When it comes to employing older people
+              - When it comes to the employment of older people,
+      - id: b40-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn câu mở đầu tốt nhất cho mỗi câu hỏi Part 3.
+        questions:
+          - q: "'Will robots take people's jobs in the future?'"
+            options:
+              - Will robots take people's jobs in the future? Yes.
+              - As for automation replacing workers, I'd say it will probably happen in some industries.
+              - Robots. Robots are machines.
+              - When it comes to take jobs, robots will.
+            answer: b
+          - q: "'Which is more important, a high salary or job security?'"
+            options:
+              - Both.
+              - Of course, a high salary matters, but I'd say job security is more important, because…
+              - Salary is salary.
+              - I don't know. Next question, please.
+            answer: b
+          - q: "'Is it a good thing that many people now work freelance?'"
+            options:
+              - It's good in some ways because they have more freedom. However, they don't have job security. Overall, …
+              - Freelance is freelance work.
+              - Yes, it is a good thing that many people now work freelance.
+              - No.
+            answer: a
+          - q: Which sentence is grammatically correct?
+            options:
+              - When it comes to find a job, …
+              - When it comes to finding a job, …
+              - When it comes to finds a job, …
+              - When it come to finding a job, …
+            answer: b
+      - id: b40-x3
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - q: Youth ___ is a serious problem in many countries.
+            base: employ
+            answer: unemployment
+          - q: Vietnam has seen rapid ___ growth since 1990.
+            base: economy
+            answer: economic
+          - q: Millions of people still live in ___.
+            base: poor
+            answer: poverty
+          - q: The government should increase ___ in public schools.
+            base: invest
+            answer: investment
+          - q: The ___ sector employs millions of workers.
+            base: industry
+            answer: industrial
+          - q: Buying a smaller car is more ___.
+            base: economy
+            answer: economical
+            explain_vi: economical = tiết kiệm (tiền, xăng).
+      - id: b40-x4
+        bank_no: 3
+        kind: collocation
+        instructions_vi: Ghép để tạo cụm từ đúng.
+        pairs:
+          - left: raise
+            right: the minimum wage
+          - left: reduce
+            right: income inequality
+          - left: invest
+            right: in education
+          - left: be replaced
+            right: by machines
+          - left: live
+            right: in poverty
+          - left: retrain
+            right: as a programmer
+      - id: b40-x5
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Câu trả lời Part 3 (đã chép ra) có 4 lỗi. Sửa trực tiếp.
+        text: When it comes to find a good job, I think skills are more important than degrees. The economical growth in Vietnam has created many jobs. However, a lot of people still live in poor. The government should invest more on training.
+        errors:
+          - wrong: When it comes to find
+            right: When it comes to finding
+            why: When it comes to + V-ing.
+          - wrong: The economical growth
+            right: The economic growth
+            why: economic = thuộc kinh tế.
+          - wrong: live in poor
+            right: live in poverty
+            why: live in + danh từ poverty.
+          - wrong: invest more on training
+            right: invest more in training
+            why: invest IN something.
+      - id: b40-x6
+        bank_no: 31
+        kind: speaking-part3
+        instructions_vi: "Trả lời từng câu 30–45 giây. Mỗi câu: 1 câu paraphrase mở đầu (không lặp nguyên văn) → A-R-E-A. Câu dự đoán dùng mức độ chắc chắn (probably, I doubt that…). Ghi âm và đếm số giây."
+        questions:
+          - q: Why do some people stay in the same job for their whole life?
+          - q: Do you think the government should raise the minimum wage?
+          - q: Will artificial intelligence create more jobs than it destroys?
+          - q: Is it a good thing that more young people are working freelance?
+          - q: "Which is more important for a country: economic growth or protecting the environment?"
+        sample: When it comes to staying in one job for life, I think the main reason is job security, especially for older people. My parents' generation, for example, worked for the same state company for thirty years because it was safe and stable. However, I doubt that my generation will do the same, since we care more about flexibility and learning new skills.
+      - id: b40-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một đoạn Part 3 (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Examiner: Should older workers retire early so that young people can get jobs?
+          Candidate: As for early retirement, I don't think it's a good solution. Older workers have a lot of experience, and companies need that. Take my uncle, for example. He's sixty and he trains all the new engineers in his factory.
+          Examiner: But what about youth unemployment?
+          Candidate: When it comes to young people, I'd say the problem isn't old workers. It's that many graduates don't have practical skills. So the government should invest in training rather than force people to retire.
+        questions:
+          - q: What is the candidate's opinion about early retirement?
+            options:
+              - It is a good solution.
+              - It is not a good solution.
+              - It should be compulsory.
+              - He hasn't decided.
+            answer: b
+          - q: What does the uncle do?
+            options:
+              - He is retired.
+              - He trains new engineers.
+              - He is unemployed.
+              - He is a teacher.
+            answer: b
+          - q: According to the candidate, what is the real cause of youth unemployment?
+            options:
+              - older workers
+              - a lack of practical skills
+              - low wages
+              - too many universities
+            answer: b
+          - q: What should the government do?
+            options:
+              - force people to retire
+              - invest in training
+              - raise taxes
+              - close factories
+            answer: b
+      - id: b40-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai). Chú ý các từ chỉ mức độ chắc chắn.
+        audio_text: According to a new report, about a quarter of jobs in Vietnamese factories could be done by machines within ten years. However, the report says this will probably not lead to mass unemployment, because new jobs will appear in areas such as software, repair and customer service. The authors believe the government should help workers retrain, and they suggest that companies should pay for part of the cost.
+        questions:
+          - q: The report says about half of factory jobs could be done by machines.
+            answer: F
+          - q: The report says mass unemployment will definitely happen.
+            answer: F
+            explain_vi: "'will probably NOT lead to mass unemployment'."
+          - q: New jobs may appear in software and repair.
+            answer: T
+          - q: The authors think companies should pay part of the cost of retraining.
+            answer: T
+  - type: homework
+    kind: speaking
+    prompt_vi: "Ghi âm 5 câu trả lời Part 3 (mỗi câu 40–50 giây, không đọc giấy). Mỗi câu phải mở đầu bằng một câu paraphrase khác nhau. Nghe lại và ghi: (1) câu nào bạn lặp nguyên văn câu hỏi; (2) câu dự đoán có dùng mức độ chắc chắn không; (3) lỗi economic/economical, When it comes to + V-ing. Nộp bản ghi âm hoặc bản chép."
+    prompt_en: 1. Why do some jobs pay much more than others? 2. Should the government give money to unemployed people? 3. Will people work fewer hours in the future? 4. Is it better to work for a big company or a small one? 5. What skills will be most in demand in the next twenty years?
+    minutes: 25

@@ -1,0 +1,316 @@
+# Buổi 53 — Công nghệ & AI · Speaking Part 3: phản biện quan điểm trái chiều. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-53-cong-nghe-speaking-part-3
+number: 53
+stage: 3
+title_vi: "Công nghệ & AI · Speaking Part 3: phản biện quan điểm trái chiều"
+focus:
+  grammar: Nhượng bộ rồi phản bác (While it is true that…, Admittedly…, Having said that…)
+  skill: Speaking Part 3 — cân nhắc và phản biện quan điểm trái chiều
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - job-displacement|phr-n
+      - rely-on|phr-v
+      - reliance|n
+      - digital-divide|phr-n
+      - social-isolation|phr-n
+      - convenience|n
+      - innovation|n
+      - obsolete|adj
+      - upskill|v
+      - counterargument|n
+      - perspective|n
+      - admittedly|adv
+      - having-said-that|idiom
+      - valid|adj
+      - overestimate|v
+      - inevitable|adj
+      - tech-savvy|adj
+  - type: pronunciation
+    notes:
+      - word: inevitable|adj
+        text_vi: "in-EV-i-ta-ble: 5 âm tiết, nhấn âm 2."
+      - word: obsolete|adj
+        text_vi: "OB-so-lete (Anh-Anh) /ˈɒb.səl.iːt/: nhấn âm 1; Anh-Mỹ nhấn âm cuối."
+      - word: perspective|n
+        text_vi: "per-SPEC-tive: nhấn âm 2, cụm /sp/ và /kt/."
+      - word: convenience|n
+        text_vi: "con-VEN-ience /kənˈviː.ni.əns/: -ven- đọc /viː/ dài."
+      - word: admittedly|adv
+        text_vi: "ad-MIT-ted-ly: 4 âm tiết; -ted đọc /tɪd/."
+  - type: grammar
+    items:
+      - en-g3-08
+  - type: skill
+    skill: speaking
+    title_vi: Speaking Part 3 — cân nhắc và phản biện quan điểm trái chiều
+    intro_vi: "Buổi 32 (A-R-E-A) và 40 (paraphrase, dự đoán) đã cho bạn khung trả lời. Ở band 6.5+, giám khảo Part 3 thường 'đẩy' bằng câu hỏi trái chiều: 'Some people say technology makes us lonely. What do you think?' hoặc hỏi lại 'But isn't it true that…?'. Người nói band cao không né và không chỉ đồng ý/không đồng ý: họ THỪA NHẬN phần đúng, rồi đưa quan điểm CÓ ĐIỀU KIỆN kèm lý do và ví dụ. Đây là 'phát triển ý' mà tiêu chí Fluency & Coherence tìm kiếm."
+    steps:
+      - title_vi: Nhận ra câu hỏi 'hai phía'
+        text_vi: Some people say… / Isn't it true that… / Do you agree that… → giám khảo mời bạn cân nhắc hai phía.
+      - title_vi: Thừa nhận ngắn (1 câu)
+        text_vi: "'I can see why some people think that, especially when…' — cho thấy bạn hiểu góc nhìn kia."
+      - title_vi: Phản bác bằng lý do chính
+        text_vi: "'But I'd argue that…' + lý do rõ nhất của bạn."
+      - title_vi: Ví dụ cụ thể
+        text_vi: "'For example, my grandparents video-call us every week, which they couldn't do ten years ago.'"
+      - title_vi: Kết bằng quan điểm có điều kiện
+        text_vi: "'So I think it depends on how we use it: …' — nghe chín chắn hơn một câu tuyệt đối."
+    tips:
+      - "Khi giám khảo phản bác lại bạn ('But what about…?'), đó là tín hiệu tốt: trả lời bình tĩnh bằng 'That's a valid point. Having said that…'."
+      - Không cần thay đổi quan điểm; chỉ cần cho thấy bạn đã cân nhắc.
+      - "Dùng ngôn ngữ mức độ (Buổi 49, 52): may, tend to, is likely to — tránh 'always/never'."
+    traps:
+      - trap_vi: Chỉ nói 'I agree' / 'I disagree' rồi dừng.
+        fix_vi: Thừa nhận → phản bác → ví dụ → kết có điều kiện.
+      - trap_vi: Nhượng bộ quá dài, quên quan điểm của mình.
+        fix_vi: Nhượng bộ 1 câu, phần còn lại cho quan điểm của bạn.
+      - trap_vi: "'While …, but …'."
+        fix_vi: While (mặc dù) không đi với but.
+      - trap_vi: Dùng từ viết trang trọng khi nói (Moreover, Consequently).
+        fix_vi: "Nói: Also, So, Having said that, The thing is…"
+    phrases:
+      - en: I can see why some people think that, but …
+        vi: Tôi hiểu vì sao một số người nghĩ vậy, nhưng …
+      - en: That's a valid point. Having said that, …
+        vi: Ý đó có cơ sở. Nói vậy chứ, …
+      - en: To some extent, yes, but …
+        vi: Ở một mức độ nào đó thì đúng, nhưng …
+      - en: It depends on how we use it.
+        vi: Còn tùy vào cách chúng ta sử dụng nó.
+      - en: I wouldn't go as far as saying …
+        vi: Tôi sẽ không đến mức nói rằng …
+    demo:
+      title_vi: "Làm mẫu: trả lời câu hỏi trái chiều"
+      text_en: |-
+        Examiner: Some people say technology has made people more isolated. Do you agree?
+
+        Candidate: I can see why some people think that, especially when you see a whole family at dinner looking at their phones. But I'd argue that, overall, technology has brought people closer. For example, my grandparents live in the countryside, and they video-call us every weekend, which simply wasn't possible ten years ago. Having said that, I think it depends on how we use it: if we use it to replace face-to-face contact completely, then yes, it can lead to social isolation.
+      notes:
+        - label: Thừa nhận
+          text_vi: "'I can see why some people think that, especially when…' + hình ảnh cụ thể."
+        - label: Phản bác
+          text_vi: "'But I'd argue that, overall…' — quan điểm rõ."
+        - label: Ví dụ
+          text_vi: Ông bà gọi video — cá nhân nhưng tiêu biểu; which (Buổi 48) nối hệ quả.
+        - label: Kết có điều kiện
+          text_vi: "'Having said that, it depends…' + câu điều kiện loại 1 (Buổi 31)."
+  - type: examples
+    items:
+      - b53-001
+      - b53-002
+      - b53-003
+      - b53-004
+      - b53-005
+      - b53-006
+      - b53-007
+      - b53-008
+      - b53-009
+      - b53-010
+      - b53-011
+      - b53-012
+  - type: dialogue
+    title_vi: "Part 3: Công nghệ và việc làm"
+    lines:
+      - speaker: Examiner
+        text: Some people say robots will take most jobs in the future. What's your view?
+        vi: Một số người nói robot sẽ lấy phần lớn việc làm trong tương lai. Quan điểm của bạn thế nào?
+      - speaker: Candidate
+        text: I can see why people worry, because some jobs, like checking tickets, have already disappeared.
+        vi: Tôi hiểu vì sao người ta lo, vì một số việc, như soát vé, đã biến mất rồi.
+      - speaker: Candidate
+        text: But I wouldn't go as far as saying robots will take most jobs. New technology usually creates new kinds of work too.
+        vi: Nhưng tôi không đến mức nói robot sẽ lấy phần lớn việc làm. Công nghệ mới thường cũng tạo ra những loại việc mới.
+      - speaker: Examiner
+        text: But isn't it true that older workers find it hard to learn new skills?
+        vi: Nhưng chẳng phải người lao động lớn tuổi khó học kỹ năng mới sao?
+      - speaker: Candidate
+        text: That's a valid point. Having said that, I think the problem is a lack of training, not age.
+        vi: Đó là ý có cơ sở. Nói vậy chứ, tôi nghĩ vấn đề là thiếu đào tạo, không phải tuổi tác.
+      - speaker: Candidate
+        text: My uncle is fifty, and after a free course, he now manages the machines in his factory.
+        vi: Chú tôi năm mươi tuổi, sau một khóa học miễn phí, giờ chú quản lý máy móc trong nhà máy.
+      - speaker: Examiner
+        text: So who should pay for that training?
+        vi: Vậy ai nên trả tiền cho việc đào tạo đó?
+      - speaker: Candidate
+        text: Ideally both. Companies benefit directly, so they should pay part of it, and the government could help people who have already lost their jobs.
+        vi: Lý tưởng là cả hai. Công ty được lợi trực tiếp nên nên trả một phần, còn chính phủ có thể hỗ trợ những người đã mất việc.
+  - type: exercises
+    items:
+      - id: b53-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn câu trả lời Part 3 tốt nhất (có thừa nhận + phản bác).
+        questions:
+          - q: "'Some people say children spend too much time on screens. Do you agree?'"
+            options:
+              - Yes, I agree.
+              - I can see why parents worry, but I'd argue that screen time can be educational if it's limited. For example, my niece learnt English from cartoons.
+              - Screens are bad. Children must not use them.
+              - No. Children love screens.
+            answer: b
+          - q: Which sentence is correct?
+            options:
+              - While it is true that phones are useful, but they are addictive.
+              - While it is true that phones are useful, they can be addictive.
+              - While true phones useful, they addictive.
+              - It is true while phones are useful, but addictive.
+            answer: b
+          - q: Which is the best response when the examiner challenges you?
+            options:
+              - No, you are wrong.
+              - That's a valid point. Having said that, …
+              - I don't know.
+              - Moreover, consequently, …
+            answer: b
+          - q: Which linking phrase is best for SPEAKING?
+            options:
+              - Consequently
+              - Having said that
+              - Nevertheless
+              - Furthermore
+            answer: b
+      - id: b53-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: Nối thành câu nhượng bộ – phản bác với từ trong ngoặc.
+        questions:
+          - q: AI is useful. It may cause job displacement. (While it is true that)
+            answer: While it is true that AI is useful, it may cause job displacement.
+          - q: Online shopping is convenient. It hurts small shops. (Admittedly … However)
+            answer: Admittedly, online shopping is convenient. However, it hurts small shops.
+          - q: Some people think technology isolates us. I disagree. (I can see why … but)
+            answer: I can see why some people think technology isolates us, but I disagree.
+            accept:
+              - I can see why some people think that technology isolates us, but I disagree.
+      - id: b53-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Câu trả lời (đã chép ra) có 4 lỗi. Sửa trực tiếp.
+        text: While it is true that technology is convenient, but it can cause problems. Many old people rely in their children to use apps. Admittedly online banking is fast, however it is not safe for everyone. Some skills will become obsolete, so workers must to upskill.
+        errors:
+          - wrong: convenient, but it can
+            right: convenient, it can
+            why: While (mặc dù) không đi với but.
+          - wrong: rely in their children
+            right: rely on their children
+            why: rely ON.
+          - wrong: Admittedly online banking is fast, however it
+            right: Admittedly, online banking is fast. However, it
+            why: Dấu phẩy sau Admittedly; tách câu trước However.
+          - wrong: must to upskill
+            right: must upskill
+            why: must + V nguyên thể (không có to).
+      - id: b53-x4
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ phù hợp.
+        bank:
+          - digital divide
+          - obsolete
+          - upskill
+          - reliance
+          - inevitable
+          - tech-savvy
+        questions:
+          - q: Our ___ on smartphones has grown dramatically.
+            answer: reliance
+          - q: Typewriters became ___ when computers arrived.
+            answer: obsolete
+          - q: Workers need to ___ as their jobs change.
+            answer: upskill
+          - q: The ___ means rural children have fewer online learning opportunities.
+            answer: digital divide
+          - q: Some change is ___; we cannot stop technology.
+            answer: inevitable
+          - q: My grandmother is surprisingly ___; she uses three apps every day.
+            answer: tech-savvy
+      - id: b53-x5
+        bank_no: 31
+        kind: speaking-part3
+        instructions_vi: "Trả lời từng câu 40–50 giây theo 5 bước: nhận ra 'hai phía' → thừa nhận (1 câu) → phản bác + lý do → ví dụ → kết có điều kiện. Ghi âm và kiểm tra đã dùng ít nhất 1 cụm nhượng bộ mỗi câu chưa."
+        questions:
+          - q: Some people say technology has made people lazier. What do you think?
+          - q: Is it true that older people cannot keep up with technology?
+          - q: Some people believe children should not have smartphones until they are sixteen. Do you agree?
+          - q: Will artificial intelligence create more problems than it solves?
+          - q: Isn't online shopping bad for local businesses?
+        sample: I can see why people say that, because we now order food without leaving the sofa. But I'd argue that technology has actually saved us time for more important things. For example, my mother used to spend two hours at the market every morning; now she orders online and uses that time to exercise. Having said that, if we use technology to avoid all effort, then yes, it can make us lazy.
+      - id: b53-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: digital divide
+            right: the gap between people with and without access to technology
+          - left: obsolete
+            right: no longer used because something newer exists
+          - left: upskill
+            right: to learn new skills for your job
+          - left: counterargument
+            right: an argument against another argument
+          - left: inevitable
+            right: certain to happen
+          - left: tech-savvy
+            right: good at using modern technology
+      - id: b53-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một đoạn Part 3 (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Examiner: Some people believe that online learning will replace schools. What's your opinion?
+          Candidate: I can see why people say that, since so many courses are online now. But I don't think it will replace schools completely. Schools teach social skills, like working in a team, which are hard to learn through a screen.
+          Examiner: But isn't online learning cheaper?
+          Candidate: That's a valid point. Having said that, many families in rural areas don't have fast internet, so online-only education might widen the digital divide.
+        questions:
+          - q: What does the candidate think?
+            options:
+              - Online learning will replace schools.
+              - Online learning won't replace schools completely.
+              - Schools are too expensive.
+              - Online learning is useless.
+            answer: b
+          - q: What reason does the candidate give?
+            options:
+              - Teachers are cheap.
+              - Schools teach social skills.
+              - Online courses are boring.
+              - Students prefer books.
+            answer: b
+          - q: How does the candidate respond to 'isn't online learning cheaper?'
+            options:
+              - disagrees completely
+              - accepts the point but adds a problem
+              - changes opinion
+              - ignores it
+            answer: b
+          - q: What problem does the candidate mention?
+            options:
+              - the digital divide
+              - social isolation
+              - job displacement
+              - deepfakes
+            answer: a
+      - id: b53-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe rồi chọn T (đúng) hoặc F (sai).
+        audio_text: A survey of three thousand adults found that people over sixty are the fastest-growing group of smartphone users. Admittedly, many of them still rely on younger relatives for help. However, the survey also found that more than half had learned to use video calls on their own. The researchers believe that the digital divide between generations is narrowing, although it remains wide between cities and rural areas.
+        questions:
+          - q: People over sixty are the fastest-growing group of smartphone users.
+            answer: T
+          - q: None of the older people need help from relatives.
+            answer: F
+          - q: More than half learned video calls by themselves.
+            answer: T
+          - q: The divide between cities and rural areas is now very small.
+            answer: F
+  - type: homework
+    kind: speaking
+    prompt_vi: "Ghi âm 5 câu trả lời Part 3 (mỗi câu 45–60 giây). Với mỗi câu, bạn tự đóng vai giám khảo: sau khi trả lời, tự hỏi lại một câu phản bác ('But isn't it true that…?') và trả lời tiếp 15–20 giây bằng 'That's a valid point. Having said that…'. Chép lại một câu trả lời và gạch dưới 4 bước."
+    prompt_en: 1. Some people say social media has made us less sociable. Do you agree? 2. Should children learn to code at primary school? 3. Is it a problem that people rely on their phones for directions? 4. Will robots ever replace teachers? 5. Some people say new technology benefits only rich people. What do you think?
+    minutes: 30

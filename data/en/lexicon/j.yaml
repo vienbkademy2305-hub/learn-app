@@ -178,3 +178,188 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/judge, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/judge, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: job-opportunity|phr-n
+    headword: job opportunity
+    pos: phr-n
+    forms:
+      plural: job opportunities
+    ipa:
+      uk: /ˈdʒɒb ɒp.əˌtjuː.nə.ti/
+      us: /ˈdʒɑːb ɑː.pɚˌtuː.nə.t̬i/
+    cefr: null
+    meaning_vi:
+      - cơ hội việc làm
+    collocations:
+      - more job opportunities
+      - create job opportunities
+    topics:
+      - city
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: journalist|n
+    headword: journalist
+    pos: n
+    ipa:
+      uk: /ˈdʒɜː.nə.lɪst/
+      us: /ˈdʒɝː.nə.lɪst/
+    stress: JOUR-nal-ist
+    cefr: A2
+    meaning_vi:
+      - nhà báo
+    collocations:
+      - a professional journalist
+      - journalists report
+    notes_vi:
+      - "Ngành báo chí: journalism. Người: journalist — nhầm từ loại như analysis/analyst."
+    topics:
+      - media
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journalist, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journalist, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/journalist, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: job-satisfaction|phr-n
+    headword: job satisfaction
+    pos: phr-n
+    ipa:
+      uk: /ˈdʒɒb sæt.ɪsˌfæk.ʃən/
+      us: /ˈdʒɑːb sæt̬.ɪsˌfæk.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự hài lòng với công việc
+    collocations:
+      - high job satisfaction
+      - improve job satisfaction
+    notes_vi:
+      - "Paraphrase hay gặp trong bài nghe: enjoy their work, be happy at work."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: job-security|phr-n
+    headword: job security
+    pos: phr-n
+    ipa:
+      uk: /ˈdʒɒb sɪˌkjʊə.rə.ti/
+      us: /ˈdʒɑːb sɪˌkjʊr.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - sự ổn định
+      - an toàn của công việc (ít nguy cơ mất việc)
+    collocations:
+      - have job security
+      - a lack of job security
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/job-security, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/job-security, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: just-over|colloc
+    headword: just over
+    pos: colloc
+    ipa:
+      uk: /ˌdʒʌst ˈəʊ.vər/
+      us: /ˌdʒʌst ˈoʊ.vɚ/
+    cefr: null
+    meaning_vi:
+      - nhỉnh hơn một chút
+    collocations:
+      - just over a third
+      - just over 20%
+    notes_vi:
+      - "Đối lập: just under (hơi dưới)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: juvenile-crime|phr-n
+    headword: juvenile crime
+    pos: phr-n
+    ipa:
+      uk: /ˈdʒuː.vən.aɪl ˌkraɪm/
+      us: /ˈdʒuː.vən.əl ˌkraɪm/
+    cefr: null
+    meaning_vi:
+      - tội phạm vị thành niên
+    collocations:
+      - a rise in juvenile crime
+      - tackle juvenile crime
+    notes_vi:
+      - "Học thuật hơn 'crimes by young people'. Đồng nghĩa: youth crime."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: justice|n
+    headword: justice
+    pos: n
+    ipa:
+      uk: /ˈdʒʌs.tɪs/
+      us: /ˈdʒʌs.tɪs/
+    cefr: null
+    meaning_vi:
+      - công lý
+      - sự công bằng
+    collocations:
+      - the justice system
+      - bring someone to justice
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: job-displacement|phr-n
+    headword: job displacement
+    pos: phr-n
+    ipa:
+      uk: /ˈdʒɒb dɪsˌpleɪs.mənt/
+      us: /ˈdʒɑːb dɪsˌpleɪs.mənt/
+    cefr: null
+    meaning_vi:
+      - việc người lao động bị thay thế
+      - mất việc (do công nghệ)
+    collocations:
+      - job displacement caused by automation
+    topics:
+      - technology
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

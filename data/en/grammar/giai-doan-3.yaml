@@ -1,0 +1,634 @@
+# Ngữ pháp Giai đoạn 3 (Buổi 46–65). Tự soạn (editorial), BẢN NHÁP chờ duyệt.
+points:
+  - id: en-g3-01
+    lesson: buoi-46-moi-truong-writing-process
+    title: "Mô tả quy trình: bị động hiện tại + từ chỉ trình tự (first, then, once, after being + V3)"
+    cefr: B2
+    structures:
+      - S + is/are + V3 (+ by / in / into …)
+      - First, … · Next, … · After that, … · Subsequently, … · Finally, …
+      - Once + S + has/have been + V3, S + is/are + V3
+      - After being + V3, S + is/are + V3
+      - …, where / which + mệnh đề   (nối hai bước)
+    explain: "Sơ đồ quy trình cho thấy các bước làm ra hoặc xử lý một thứ gì đó. Người làm các bước không quan trọng, nên câu mô tả dùng BỊ ĐỘNG hiện tại (is collected, are heated). Để bài không thành danh sách rời rạc, nối các bước bằng từ chỉ trình tự, và thỉnh thoảng gộp hai bước vào một câu bằng once/after being/where. Quy trình tự nhiên (vòng đời con ếch, chu trình nước) thì dùng CHỦ ĐỘNG vì không có người làm: Water evaporates, the tadpole grows legs."
+    table:
+      - - Cách nối
+        - Ví dụ
+      - - First / Then
+        - First, the bottles are collected. Then they are sorted by colour.
+      - - Once … has been V3
+        - Once the bottles have been sorted, they are crushed into flakes.
+      - - After being V3
+        - After being washed, the flakes are melted down.
+      - - …, where …
+        - The water is pumped to a tank, where it is filtered through sand.
+      - - …, which …
+        - The plastic is made into pellets, which are sold to factories.
+    notes:
+      - "Sau giới từ (after, before, by) dùng V-ing: after being washed (bị động) / after washing (chủ động)."
+      - "Không bỏ 'be': *The bottles collected* ❌ → The bottles are collected."
+      - Trong 20 phút, chỉ cần 2–3 câu gộp bước; còn lại câu đơn bị động rõ ràng là đủ.
+    mistakes:
+      - wrong: First, the bottles collect from homes.
+        right: First, the bottles are collected from homes.
+        why: Chai không tự thu gom → bị động is/are + V3.
+      - wrong: After washed, the flakes are dried.
+        right: After being washed, the flakes are dried.
+        why: "Sau after cần being + V3 (hoặc: After they have been washed, …)."
+      - wrong: Water is evaporated from the sea.
+        right: Water evaporates from the sea.
+        why: Quy trình tự nhiên, không có người làm → chủ động.
+    examples:
+      - b46-001
+      - b46-002
+      - b46-003
+      - b46-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: "Writing cơ bản — Diagrams (process, bị động hiện tại): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-02
+    lesson: buoi-47-moi-truong-writing-map
+    title: "Mô tả thay đổi trên bản đồ: bị động quá khứ / hiện tại hoàn thành + cụm thay thế (was replaced by, made way for)"
+    cefr: B2
+    structures:
+      - "Hai mốc quá khứ (1990 → 2020):  S + was/were + V3"
+      - "Quá khứ → hiện nay (then → now):  S + has/have been + V3"
+      - "Thay thế:  A was replaced by B · A made way for B · A was converted into B"
+      - "Vị trí:  to the north of · in the south-east · next to · opposite · along the river (Buổi 27)"
+      - "Không đổi:  … remained unchanged / stayed the same"
+    explain: "Dạng map cho hai (hoặc ba) bản đồ của cùng một nơi ở các thời điểm khác nhau. Việc cần làm là mô tả CÁI GÌ thay đổi và Ở ĐÂU. Hầu hết thay đổi do con người làm nên dùng BỊ ĐỘNG. Chọn thì theo mốc: cả hai mốc đều ở quá khứ thì dùng quá khứ đơn bị động (was built); so sánh quá khứ với hiện tại thì dùng hiện tại hoàn thành bị động (has been built). Dùng cụm thay thế để gộp hai thông tin trong một câu: the farmland was replaced by a housing estate."
+    table:
+      - - Thay đổi
+        - Cấu trúc
+        - Ví dụ
+      - - xây mới
+        - was built / constructed
+        - A new school was built to the north of the park.
+      - - phá bỏ
+        - was demolished / knocked down
+        - The old factory was demolished.
+      - - đổi công năng
+        - was converted into
+        - The warehouse was converted into flats.
+      - - thay thế
+        - was replaced by / made way for
+        - The woodland made way for a car park.
+      - - mở rộng
+        - was extended / expanded
+        - The road was extended to the coast.
+      - - không đổi
+        - remained unchanged
+        - The church in the centre remained unchanged.
+    notes:
+      - "made way for / remained là CHỦ ĐỘNG: *was made way for* ❌."
+      - "Chủ ngữ có thể là nơi chốn: The village has been transformed. / The north of the island saw the biggest changes."
+      - Mỗi câu nên có cả THAY ĐỔI và VỊ TRÍ — đây là cách lấy điểm Task Achievement ở dạng map.
+    mistakes:
+      - wrong: The factory demolished and a park built.
+        right: The factory was demolished and a park was built.
+        why: Thiếu be ở cả hai vế bị động.
+      - wrong: The trees were made way for a car park.
+        right: The trees made way for a car park.
+        why: "make way for là chủ động (hoặc: The trees were cut down to make way for …)."
+      - wrong: The warehouse was converted to flats in 2010.
+        right: The warehouse was converted into flats in 2010.
+        why: convert A INTO B.
+    examples:
+      - b47-001
+      - b47-002
+      - b47-003
+      - b47-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: "Writing cơ bản — Maps (widen, remove, replace, give place to, giới từ vị trí): đối chiếu phạm vi, không chép"
+      - source: prep-trung-cap
+        field: scope
+        ref: Writing trung cấp bài 6 'Maps' — chỉ biết tên bài (video, chưa xem)
+    source: editorial
+    status: draft
+  - id: en-g3-03
+    lesson: buoi-48-giao-duc-two-part-question
+    title: Mệnh đề quan hệ không xác định (, which / , who / , where) và which thay cho cả mệnh đề
+    cefr: B2
+    structures:
+      - N (đã rõ là ai/cái gì), who/which + V …, V …   (có hai dấu phẩy)
+      - …, which + V   (which thay cho CẢ ý phía trước)
+      - …, where + S + V   (nơi chốn)
+      - Không dùng that trong mệnh đề có dấu phẩy
+    explain: "Buổi 25 đã học mệnh đề quan hệ XÁC ĐỊNH (không dấu phẩy) để chỉ rõ người/vật nào. Mệnh đề KHÔNG xác định thêm thông tin phụ về một danh từ đã rõ, nên đặt giữa hai dấu phẩy và bỏ đi câu vẫn đủ nghĩa. Dạng rất có giá trị trong Writing Task 2 là ', which' thay cho CẢ Ý phía trước: 'Many graduates lack soft skills, which makes it hard for them to find jobs.' — một câu phức nối nguyên nhân và hệ quả, giúp tăng điểm Grammatical Range. Trong mệnh đề có dấu phẩy không dùng that."
+    table:
+      - - Loại
+        - Ví dụ
+        - Ghi chú
+      - - xác định (Buổi 25)
+        - Students who study abroad often become more independent.
+        - không dấu phẩy — chỉ rõ nhóm nào
+      - - không xác định (người)
+        - My teacher, who has taught for 30 years, still loves her job.
+        - thông tin thêm, hai dấu phẩy
+      - - không xác định (vật)
+        - Vietnam's education system, which is very exam-oriented, is changing.
+        - không dùng that
+      - - which thay cả mệnh đề
+        - Many students have a heavy workload, which leaves them little time for sport.
+        - which = việc đó
+      - - nơi chốn
+        - They studied in Hanoi, where most universities are located.
+        - ""
+    notes:
+      - Tên riêng / danh từ duy nhất (my mother, Hanoi) luôn đi với mệnh đề KHÔNG xác định → có dấu phẩy.
+      - "which thay cả mệnh đề đi với động từ số ít: …, which MAKES / which MEANS …"
+      - "Lỗi hay gặp: dùng this thay which rồi nối bằng dấu phẩy (comma splice): *…workload, this leaves…* ❌."
+    mistakes:
+      - wrong: Many graduates lack soft skills, this makes it hard to find jobs.
+        right: Many graduates lack soft skills, which makes it hard for them to find jobs.
+        why: "this sau dấu phẩy tạo comma splice; dùng which (hoặc tách câu: …skills. This makes …)."
+      - wrong: My university, that is in Hue, has a good library.
+        right: My university, which is in Hue, has a good library.
+        why: Mệnh đề có dấu phẩy không dùng that.
+      - wrong: Students have a heavy workload, which make them stressed.
+        right: Students have a heavy workload, which makes them stressed.
+        why: which thay cho cả ý → động từ số ít.
+    examples:
+      - b48-001
+      - b48-002
+      - b48-003
+      - b48-004
+    provenance:
+      - source: prep-mat-goc
+        field: scope
+        ref: Ngữ pháp trung cấp L11 'Mệnh đề quan hệ' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g3-04
+    lesson: buoi-49-giao-duc-speaking-part-1
+    title: "Nói mềm và có mức độ: tend to, quite / fairly / a bit, I'd say, I suppose"
+    cefr: B2
+    structures:
+      - S + tend to + V   (thói quen, xu hướng)
+      - a bit / fairly / quite / pretty / really + tính từ
+      - I'd say (that) … · I suppose … · I guess … · To some extent, …
+      - not particularly + tính từ · not really
+    explain: "Câu trả lời band 5 thường 'đen trắng': always, never, very. Người nói band 6.5+ dùng từ chỉ MỨC ĐỘ và cụm NÓI MỀM, nghe tự nhiên và chính xác hơn: 'I tend to study late at night' thay cho 'I always study at night'; 'it's fairly challenging' thay cho 'it's very difficult'. Đây là điểm cộng cho Lexical Resource và Fluency ở Part 1, nơi câu hỏi đơn giản nhưng giám khảo nghe cách bạn diễn đạt. Không lạm dụng: mỗi câu trả lời 1 cụm là đủ."
+    table:
+      - - Mức độ
+        - Từ
+        - Ví dụ
+      - - thấp
+        - a bit / slightly / not particularly
+        - It was a bit boring at first.
+      - - vừa
+        - fairly / quite
+        - Maths was fairly easy for me.
+      - - khá cao (văn nói)
+        - pretty / really
+        - The teachers were pretty strict.
+      - - thói quen
+        - tend to + V
+        - I tend to cram before exams.
+      - - ý kiến mềm
+        - I'd say / I suppose / To some extent
+        - I'd say my school was quite traditional.
+    notes:
+      - "quite + a/an + N: quite a big school (không *a quite big school*)."
+      - "a bit + tính từ / a bit of + danh từ: a bit tired, a bit of time."
+      - Part 1 không cần cấu trúc phức; cần câu tự nhiên + 1 lý do + 1 chi tiết (Buổi 24).
+    mistakes:
+      - wrong: I am tend to study at night.
+        right: I tend to study at night.
+        why: tend là động từ thường — không có be.
+      - wrong: It was a quite difficult exam.
+        right: It was quite a difficult exam.
+        why: quite đứng trước a/an.
+      - wrong: I tend to studying in the library.
+        right: I tend to study in the library.
+        why: tend to + V nguyên thể.
+    examples:
+      - b49-001
+      - b49-002
+      - b49-003
+      - b49-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Speaking cơ bản — tiêu chí chấm, mở rộng câu trả lời (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g3-05
+    lesson: buoi-50-toi-pham-collocation-paraphrase
+    title: "Paraphrase chủ động bằng danh từ hóa (nominalisation): reduce → a reduction in"
+    cefr: B2
+    structures:
+      - "Động từ → danh từ:  crime has increased → the increase in crime"
+      - "Tính từ → danh từ:  people are poor → poverty · prisons are expensive → the high cost of prisons"
+      - "Câu → cụm danh từ làm chủ ngữ:  The rise in cybercrime has worried many governments."
+      - "Danh từ + giới từ đi kèm:  a reduction IN · the cause OF · a solution TO · an effect ON"
+    explain: "Văn học thuật ở band 6.5+ hay dùng DANH TỪ thay cho động từ và tính từ: thay vì 'Crime has fallen because the police patrol more', viết 'The fall in crime is the result of increased police patrols.' Kỹ thuật này có hai lợi ích: (1) paraphrase đề bài mà không phải tìm từ đồng nghĩa khó; (2) câu gọn và học thuật hơn (Lexical Resource + Grammatical Range). Khi đổi sang danh từ, nhớ giới từ đi kèm cố định và đừng biến mọi câu thành danh từ — câu sẽ nặng và khó hiểu."
+    table:
+      - - Gốc
+        - Danh từ hóa
+        - Ví dụ
+      - - reduce (v)
+        - a reduction in
+        - There has been a reduction in petty crime.
+      - - increase (v)
+        - an increase in
+        - An increase in surveillance may deter criminals.
+      - - prevent (v)
+        - the prevention of
+        - The prevention of crime is cheaper than punishment.
+      - - rehabilitate (v)
+        - the rehabilitation of
+        - The rehabilitation of young offenders should be a priority.
+      - - poor (adj)
+        - poverty
+        - Poverty is one of the root causes of crime.
+      - - enforce the law (v)
+        - law enforcement
+        - Stricter law enforcement is needed.
+    notes:
+      - "Paraphrase đề: 'Crime rates are rising in many cities' → 'the rise in crime rates in many urban areas'."
+      - Không dùng từ đồng nghĩa 'lạ' chỉ để khác đề — đổi từ loại an toàn hơn.
+      - "Giới từ sau danh từ: increase/rise/fall/reduction IN; cause/effect/prevention OF; effect/impact ON; solution TO."
+    mistakes:
+      - wrong: There has been a reduction of crime in the city.
+        right: There has been a reduction in crime in the city.
+        why: a reduction IN something.
+      - wrong: The increase of cybercrime is worrying.
+        right: The increase in cybercrime is worrying.
+        why: an increase IN.
+      - wrong: Poor is one of the root causes of crime.
+        right: Poverty is one of the root causes of crime.
+        why: "Chủ ngữ cần danh từ: poverty (không dùng tính từ poor)."
+    examples:
+      - b50-001
+      - b50-002
+      - b50-003
+      - b50-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản — ngôn ngữ học thuật, collocation 6 dạng (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g3-06
+    lesson: buoi-51-toi-pham-cohesive-devices
+    title: "Từ nối học thuật: moreover, furthermore · nevertheless, nonetheless · consequently, thus · whereas, conversely"
+    cefr: B2
+    structures:
+      - Câu 1. Moreover / Furthermore, câu 2.   (thêm ý mạnh hơn)
+      - Câu 1. Nevertheless / Nonetheless, câu 2.   (thừa nhận nhưng giữ quan điểm)
+      - Câu 1. Consequently / As a result, câu 2.   ·   …, thus + V-ing
+      - Mệnh đề 1, whereas mệnh đề 2.   ·   Câu 1. Conversely, câu 2.
+    explain: "Buổi 30 đã học từ nối cơ bản (in addition, however, therefore). Band 6.5 cần từ nối ĐA DẠNG nhưng ĐÚNG CHỨC NĂNG và KHÔNG DÀY ĐẶC. Tiêu chí Coherence & Cohesion band 7 viết rõ: dùng từ nối 'appropriately although there may be some under-/over-use'. Nghĩa là: dùng sai quan hệ (moreover cho ý đối lập) hoặc nhồi từ nối vào mọi câu đều bị trừ điểm. Phần lớn các từ này là TRẠNG TỪ: đứng đầu câu mới, sau dấu chấm, có dấu phẩy — không nối hai câu bằng dấu phẩy."
+    table:
+      - - Chức năng
+        - Cơ bản (GĐ2)
+        - Nâng cao (GĐ3)
+      - - thêm ý
+        - In addition, / Also,
+        - Moreover, / Furthermore, / What is more,
+      - - đối lập
+        - However, / But
+        - Nevertheless, / Nonetheless, / Conversely,
+      - - so sánh hai bên
+        - while
+        - whereas / by contrast
+      - - kết quả
+        - So / Therefore, / As a result,
+        - Consequently, / …, thus + V-ing
+      - - ví dụ
+        - For example, / such as
+        - For instance, / A case in point is …
+    notes:
+      - Tối đa 1 từ nối 'nặng' cho 2–3 câu. Câu còn lại dùng từ quy chiếu (this, these, such) — Buổi 30.
+      - Không dùng Moreover để thêm một ý YẾU hơn — dùng Also / In addition.
+      - "thus + V-ing đứng SAU dấu phẩy trong cùng câu: …, thus reducing costs (không *…, thus it reduces costs* trong văn chuẩn)."
+    mistakes:
+      - wrong: Prison is expensive, moreover it rarely reduces crime.
+        right: Prison is expensive. Moreover, it rarely reduces crime.
+        why: moreover là trạng từ — tách câu, không nối bằng dấu phẩy.
+      - wrong: Harsh punishments may deter crime. Moreover, they can be unfair to first-time offenders.
+        right: Harsh punishments may deter crime. Nevertheless, they can be unfair to first-time offenders.
+        why: Ý đối lập → Nevertheless; Moreover chỉ để thêm ý cùng chiều.
+      - wrong: There are many evidences that education reduces crime.
+        right: There is a lot of evidence that education reduces crime.
+        why: evidence không đếm được.
+    examples:
+      - b51-001
+      - b51-002
+      - b51-003
+      - b51-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L6 'Phương pháp đảm bảo sự mạch lạc' — đối chiếu phạm vi, không chép
+    source: editorial
+    status: draft
+  - id: en-g3-07
+    lesson: buoi-52-cong-nghe-yes-no-not-given
+    title: "Mức độ chắc chắn trong câu nhận định: will / is likely to / may / might · appears to · arguably"
+    cefr: B2
+    structures:
+      - "chắc chắn:  S + will + V · It is certain that …"
+      - "khả năng cao:  S + is likely to + V · It is likely that …"
+      - "có thể:  S + may / might / could + V · It is possible that …"
+      - "khả năng thấp:  S + is unlikely to + V"
+      - "giữ khoảng cách:  S + appears / seems to + V · arguably, …"
+    explain: "Người viết học thuật hiếm khi khẳng định tuyệt đối. Họ chọn MỨC ĐỘ: 'AI will replace all drivers' (chắc chắn) khác xa 'AI may replace some drivers' (có thể). Trong Reading Yes/No/Not Given, đây là bẫy chính: đề nói 'The writer believes AI WILL replace doctors' nhưng bài viết 'AI MAY help doctors' → NO (hoặc NOT GIVEN nếu không nhắc). Trong Writing, dùng đúng mức độ giúp lập luận đáng tin hơn (Task Response) và thể hiện ngữ pháp đa dạng."
+    table:
+      - - Mức độ
+        - Cấu trúc
+        - Ví dụ
+      - - 100%
+        - will / It is certain that
+        - Computers will become faster.
+      - - ~80%
+        - is likely to / probably
+        - AI is likely to change most office jobs.
+      - - ~50%
+        - may / might / could
+        - Autonomous cars may reduce accidents.
+      - - ~20%
+        - is unlikely to
+        - Robots are unlikely to replace nurses soon.
+      - - ý kiến mềm
+        - appears to / arguably
+        - Arguably, privacy is the biggest risk.
+    notes:
+      - "likely là tính từ: be likely to + V. Không nói *AI likely to replace* (thiếu be)."
+      - Trong Y/N/NG, gạch chân mọi từ mức độ trong câu hỏi (all, always, will, only, most) và so với bài.
+      - Không lạm dụng may/might trong Writing — quan điểm chính vẫn cần rõ ràng.
+    mistakes:
+      - wrong: AI likely to replace many jobs.
+        right: AI is likely to replace many jobs.
+        why: be likely to + V.
+      - wrong: Robots are unlikely replacing nurses.
+        right: Robots are unlikely to replace nurses.
+        why: be unlikely to + V nguyên thể.
+      - wrong: It is likely AI will to change education.
+        right: It is likely that AI will change education.
+        why: It is likely that + S + will + V.
+    examples:
+      - b52-001
+      - b52-002
+      - b52-003
+      - b52-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: "Writing cơ bản — Hedging language (modal, trạng từ mức độ chắc chắn): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-08
+    lesson: buoi-53-cong-nghe-speaking-part-3
+    title: "Nhượng bộ rồi phản bác: While it is true that …, … · Admittedly, …; however, … · I can see why …, but …"
+    cefr: B2
+    structures:
+      - While it is true that + S + V, + S + V (quan điểm của bạn)
+      - Admittedly, + câu (thừa nhận). However, + câu (phản bác).
+      - I can see why some people think …, but …
+      - That's a valid point. Having said that, …
+    explain: "Ở band 6.5+ Part 3 và Task 2, giám khảo muốn thấy bạn CÂN NHẮC quan điểm trái chiều chứ không chỉ khẳng định một chiều. Cách làm: THỪA NHẬN ý bên kia có phần đúng, rồi PHẢN BÁC bằng lý do mạnh hơn. Cấu trúc câu nhượng bộ này là câu phức nhiều mệnh đề (Grammatical Range) và làm lập luận chín chắn hơn (Task Response / Coherence). Nói: 'I can see why…, but…', 'Having said that…'; viết: 'While it is true that…', 'Admittedly…; however…'."
+    table:
+      - - Văn phong
+        - Thừa nhận
+        - Phản bác
+      - - nói (Part 3)
+        - I can see why some people think …
+        - but I'd argue that …
+      - - nói (Part 3)
+        - That's a valid point.
+        - Having said that, …
+      - - viết (Task 2)
+        - While it is true that …,
+        - … (quan điểm của bạn)
+      - - viết (Task 2)
+        - Admittedly, …
+        - However, / Nevertheless, …
+    notes:
+      - While đứng đầu câu ở đây = 'mặc dù' (như although, Buổi 37) — không thêm but ở vế sau.
+      - Phản bác mạnh nhất khi đưa được lý do + ví dụ, không chỉ 'but I disagree'.
+      - Ở Part 3, nhượng bộ ngắn (1 câu) rồi dành thời gian cho quan điểm của bạn.
+    mistakes:
+      - wrong: While it is true that AI is useful, but it causes job losses.
+        right: While it is true that AI is useful, it causes job losses.
+        why: While (= mặc dù) không đi với but.
+      - wrong: Admittedly technology is convenient, however it isolates people.
+        right: Admittedly, technology is convenient. However, it can isolate people.
+        why: Tách câu; Admittedly và However đều cần dấu phẩy.
+      - wrong: I can see why some people think so, and I disagree.
+        right: I can see why some people think so, but I disagree.
+        why: Cần từ đối lập (but) giữa thừa nhận và phản bác.
+    examples:
+      - b53-001
+      - b53-002
+      - b53-003
+      - b53-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: "Speaking cơ bản — nêu quan điểm, cảm xúc (In my view, If you ask me…): đối chiếu phạm vi, không chép"
+    source: editorial
+    status: draft
+  - id: en-g3-09
+    lesson: buoi-54-suc-khoe-noun-clauses
+    title: "Mệnh đề danh từ: What … is … · that … · whether … · how/why …"
+    cefr: B2
+    structures:
+      - "What + S + V + is/was …   (làm chủ ngữ):  What worries doctors is the rise in obesity."
+      - "It is + adj + that + S + V:  It is clear that prevention is cheaper than cure."
+      - "S + V + whether / if + S + V:  Nobody knows whether the campaign will work."
+      - "S + V + how / why / what + S + V (không đảo ngữ):  Researchers want to know why life expectancy fell."
+      - "The fact that + S + V + …:  The fact that vaccination is free has increased coverage."
+    explain: "Mệnh đề danh từ là một mệnh đề đóng vai trò như DANH TỪ trong câu (chủ ngữ hoặc tân ngữ). Chúng giúp bạn nói về một Ý TƯỞNG, một SỰ VIỆC chứ không chỉ một vật. Trong Writing Task 2, 'What worries experts most is …' và 'It is widely accepted that …' là cách mở câu nhấn mạnh, học thuật; 'whether' giúp bàn về điều chưa chắc. Lưu ý quan trọng: sau how/why/what/whether, câu KHÔNG đảo trợ động từ (như câu hỏi tường thuật ở Buổi 35)."
+    table:
+      - - Mở đầu
+        - Chức năng
+        - Ví dụ
+      - - What … is …
+        - nhấn mạnh (chủ ngữ)
+        - What concerns doctors is the lack of exercise.
+      - - It is + adj + that …
+        - nêu nhận định
+        - It is widely accepted that smoking causes cancer.
+      - - The fact that …
+        - nêu sự thật làm chủ ngữ
+        - The fact that sugar is cheap makes it hard to reduce.
+      - - whether …
+        - điều chưa chắc
+        - It is unclear whether the tax will change habits.
+      - - why / how …
+        - tân ngữ, không đảo ngữ
+        - Scientists are studying why some people never get ill.
+    notes:
+      - "What … is: động từ is/was chia theo MỆNH ĐỀ, thường số ít: What worries me IS …"
+      - "whether (or not) dùng tốt hơn if khi đứng đầu câu hoặc sau giới từ: Whether the plan works depends on funding."
+      - Không bỏ 'that' trong văn viết sau It is + adj.
+    mistakes:
+      - wrong: What worries doctors are the rise in obesity.
+        right: What worries doctors is the rise in obesity.
+        why: Chủ ngữ là cả mệnh đề What … → động từ số ít.
+      - wrong: Scientists want to know why do some people live longer.
+        right: Scientists want to know why some people live longer.
+        why: Mệnh đề danh từ không đảo trợ động từ.
+      - wrong: Nobody knows that the campaign will work or not.
+        right: Nobody knows whether the campaign will work (or not).
+        why: Điều chưa chắc → whether, không dùng that.
+    examples:
+      - b54-001
+      - b54-002
+      - b54-003
+      - b54-004
+    provenance: []
+    source: editorial
+    status: draft
+  - id: en-g3-10
+    lesson: buoi-55-suc-khoe-cause-effect
+    title: "Nguyên nhân – hệ quả nâng cao: contribute to, stem from, give rise to, owing to, have a detrimental effect on"
+    cefr: C1
+    structures:
+      - Nguyên nhân + contributes to / gives rise to / triggers + kết quả
+      - Kết quả + stems from / results from / is caused by + nguyên nhân
+      - Owing to / Due to + danh từ, …
+      - X has a detrimental / an adverse effect on Y
+      - One key factor behind X is Y
+    explain: "Buổi 44 đã có lead to / result in / be caused by. Dạng Cause/Effect ở band 6.5+ cần thêm cách diễn đạt MỨC ĐỘ và ĐA DẠNG: contribute to (góp phần — mềm hơn cause, hợp với vấn đề nhiều nguyên nhân), stem from (bắt nguồn sâu xa), give rise to (làm nảy sinh), have a detrimental effect on (tác động có hại). Chú ý CHIỀU: nguyên nhân đứng trước contribute to / give rise to; kết quả đứng trước stem from / result from. Và 'to' trong contribute to / give rise to là giới từ → + danh từ/V-ing."
+    table:
+      - - Chiều
+        - Cấu trúc
+        - Ví dụ
+      - - nguyên nhân →
+        - contributes to
+        - A sedentary lifestyle contributes to obesity.
+      - - nguyên nhân →
+        - gives rise to
+        - Long working hours give rise to stress.
+      - - ← nguyên nhân
+        - stems from
+        - Much childhood obesity stems from sugary drinks.
+      - - tác động
+        - has a detrimental effect on
+        - Sleep deprivation has a detrimental effect on memory.
+      - - lý do (+ N)
+        - owing to
+        - Owing to cheap fast food, diets have worsened.
+    notes:
+      - "Không bị động: *is contributed to*, *is stemmed from* ❌."
+      - Một bài Cause/Effect band 7 thường dùng 4–5 cách diễn đạt nguyên nhân–hệ quả khác nhau, không lặp 'cause' 6 lần.
+      - "Dùng mức độ (Buổi 52): 'is likely to contribute to', 'may give rise to' khi không chắc chắn."
+    mistakes:
+      - wrong: Obesity is contributed by a sedentary lifestyle.
+        right: A sedentary lifestyle contributes to obesity.
+        why: contribute to là chủ động; nguyên nhân làm chủ ngữ.
+      - wrong: Stress stems long working hours.
+        right: Stress stems from long working hours.
+        why: stem FROM.
+      - wrong: Sleep deprivation has a detrimental effect to memory.
+        right: Sleep deprivation has a detrimental effect on memory.
+        why: effect ON.
+    examples:
+      - b55-001
+      - b55-002
+      - b55-003
+      - b55-004
+    provenance:
+      - source: prep-co-ban
+        field: scope
+        ref: Writing cơ bản L8 'Problems – Causes – Solutions' (đối chiếu phạm vi, không chép)
+    source: editorial
+    status: draft
+  - id: en-g3-11
+    lesson: buoi-56-van-hoa-participle-clauses
+    title: "Mệnh đề rút gọn bằng phân từ (participle clauses): V-ing · Having + V3 · V3"
+    cefr: C1
+    structures:
+      - "V-ing …, S + V   (chủ động, cùng lúc):  Walking through the old town, visitors can see …"
+      - "Having + V3 …, S + V   (việc xảy ra trước):  Having lived abroad for years, she …"
+      - "V3 …, S + V   (bị động):  Built in 1600, the temple is …"
+      - "N + V-ing / V3 (rút gọn mệnh đề quan hệ):  people living in cities · crafts made by hand"
+    explain: "Khi hai mệnh đề có CÙNG CHỦ NGỮ, bạn có thể rút gọn một mệnh đề thành cụm phân từ: 'Because she grew up in Hue, she speaks the local dialect' → 'Having grown up in Hue, she speaks the local dialect.' Dùng V-ing cho nghĩa chủ động, V3 cho nghĩa bị động, Having + V3 khi hành động xảy ra TRƯỚC. Rút gọn mệnh đề quan hệ cũng dùng cách này: 'songs that are handed down' → 'songs handed down'. Đây là cấu trúc band 7 trong Grammatical Range — nhưng chủ ngữ của cụm phân từ PHẢI trùng chủ ngữ câu chính, nếu không câu sẽ sai nghĩa (dangling participle)."
+    table:
+      - - Câu đầy đủ
+        - Rút gọn
+      - - As she grew up in Hue, she speaks the dialect.
+        - Having grown up in Hue, she speaks the dialect.
+      - - The temple, which was built in 1600, is still used.
+        - Built in 1600, the temple is still used.
+      - - When tourists walk through the market, they see many crafts.
+        - Walking through the market, tourists see many crafts.
+      - - Songs that are handed down from parents are easy to remember.
+        - Songs handed down from parents are easy to remember.
+      - - People who live in rural areas keep more traditions.
+        - People living in rural areas keep more traditions.
+    notes:
+      - "Kiểm tra chủ ngữ: *Walking through the market, many crafts can be seen.* ❌ (đồ thủ công không 'đi bộ')."
+      - "Bị động ở thì quá khứ/hoàn thành: Built … / Having been built … — phần lớn dùng dạng ngắn V3."
+      - Dùng 1–2 câu mỗi bài viết; lạm dụng làm văn khó đọc.
+    mistakes:
+      - wrong: Walking through the old town, many temples can be seen.
+        right: Walking through the old town, visitors can see many temples.
+        why: Chủ ngữ phải là người đi bộ (visitors) — không phải temples.
+      - wrong: Building in 1600, the pagoda is very famous.
+        right: Built in 1600, the pagoda is very famous.
+        why: "Ngôi chùa ĐƯỢC xây → bị động: V3 (built)."
+      - wrong: Having finish the course, she became a craftswoman.
+        right: Having finished the course, she became a craftswoman.
+        why: Having + V3.
+    examples:
+      - b56-001
+      - b56-002
+      - b56-003
+      - b56-004
+    provenance: []
+    source: editorial
+    status: draft
+  - id: en-g3-12
+    lesson: buoi-57-van-hoa-speaking-idioms
+    title: "Cụm động từ và thành ngữ trong văn nói: dùng tự nhiên, đúng cấu trúc"
+    cefr: B2
+    structures:
+      - "Cụm động từ không tách: look after · come across · keep up with + tân ngữ"
+      - "Cụm động từ tách được: pick up a language / pick a language up · bring back memories"
+      - "Giới từ + V-ing: look forward to meeting · get the hang of driving"
+      - "Thành ngữ cố định: take something for granted · a far cry from · in the long run"
+    explain: "Tiêu chí Lexical Resource band 7 (Speaking) yêu cầu 'uses some less common and idiomatic vocabulary'. Nhưng giám khảo cũng trừ điểm khi thành ngữ học thuộc bị nhét vào sai chỗ ('It's raining cats and dogs' khi được hỏi về sở thích). Cách an toàn: dùng CỤM ĐỘNG TỪ và thành ngữ PHỔ BIẾN trong đời sống (grow up, fit in, get the hang of, take for granted), đúng cấu trúc ngữ pháp, 1–2 lần mỗi câu trả lời. Chú ý to trong look forward to là giới từ (+ V-ing)."
+    table:
+      - - Thay vì
+        - Nói tự nhiên hơn
+      - - I learnt how to use it after some time.
+        - It took me a while to get the hang of it.
+      - - I remember my childhood when I hear this song.
+        - This song brings back memories of my childhood.
+      - - Life is very different from before.
+        - Life today is a far cry from what it was.
+      - - I didn't value clean water.
+        - I used to take clean water for granted.
+      - - It was hard to become friends with the local people.
+        - I found it hard to fit in at first.
+    notes:
+      - "Tránh thành ngữ sáo và cổ: raining cats and dogs, a piece of cake, once in a blue moon — người bản ngữ hiếm dùng trong phỏng vấn."
+      - Một cụm tự nhiên + đúng ngữ pháp > ba thành ngữ hoa mỹ sai chỗ.
+      - "Cụm động từ có tân ngữ là đại từ phải tách: pick it up (không *pick up it*)."
+    mistakes:
+      - wrong: I'm looking forward to visit my hometown.
+        right: I'm looking forward to visiting my hometown.
+        why: look forward to + V-ing.
+      - wrong: I took for granted my parents.
+        right: I took my parents for granted.
+        why: take + tân ngữ + for granted.
+      - wrong: I picked up it when I lived in Hue.
+        right: I picked it up when I lived in Hue.
+        why: Đại từ tân ngữ đứng giữa cụm động từ tách được.
+    examples:
+      - b57-001
+      - b57-002
+      - b57-003
+      - b57-004
+    provenance: []
+    source: editorial
+    status: draft

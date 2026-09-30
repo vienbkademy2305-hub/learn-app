@@ -631,3 +631,400 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: household-chore|phr-n
+    headword: household chore
+    pos: phr-n
+    forms:
+      plural: household chores
+    ipa:
+      uk: /ˌhaʊs.həʊld ˈtʃɔːr/
+      us: /ˌhaʊs.hoʊld ˈtʃɔːr/
+    cefr: null
+    meaning_vi:
+      - việc nhà
+    collocations:
+      - do household chores
+      - share the household chores
+    notes_vi:
+      - "Dùng DO: do the chores (không nói *make the chores*). Thường ở số nhiều."
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: historic|adj
+    headword: historic
+    pos: adj
+    ipa:
+      uk: /hɪˈstɒr.ɪk/
+      us: /hɪˈstɔːr.ɪk/
+    stress: his-TOR-ic
+    cefr: B1
+    meaning_vi:
+      - có tính lịch sử
+      - quan trọng về mặt lịch sử
+    collocations:
+      - a historic building
+      - the historic centre
+    notes_vi:
+      - historic = nổi tiếng/quan trọng trong lịch sử; historical = thuộc về lịch sử (historical documents).
+    topics:
+      - culture
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/historic, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/historic, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/historic, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: housing|n
+    headword: housing
+    pos: n
+    ipa:
+      uk: /ˈhaʊ.zɪŋ/
+      us: /ˈhaʊ.zɪŋ/
+    cefr: B2
+    meaning_vi:
+      - nhà ở (nói chung)
+    collocations:
+      - affordable housing
+      - housing costs
+      - a housing shortage
+    notes_vi:
+      - "s đọc /z/: HOW-zing (khác house /haʊs/). Không đếm được: *housings* ❌."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/housing, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/housing, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/housing, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: high-rise|adj
+    headword: high-rise
+    pos: adj
+    ipa:
+      uk: /ˈhaɪ.raɪz/
+      us: /ˈhaɪ.raɪz/
+    cefr: null
+    meaning_vi:
+      - cao tầng
+    collocations:
+      - high-rise buildings
+      - high-rise apartments
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/high-rise_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/high-rise_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: hustle-and-bustle|idiom
+    headword: hustle and bustle
+    pos: idiom
+    ipa:
+      uk: /ˌhʌs.əl ən ˈbʌs.əl/
+      us: /ˌhʌs.əl ən ˈbʌs.əl/
+    cefr: null
+    meaning_vi:
+      - sự hối hả
+      - nhộn nhịp
+    collocations:
+      - the hustle and bustle of city life
+      - escape the hustle and bustle
+    notes_vi:
+      - "t câm trong cả hai từ: HUS-əl, BUS-əl. Dùng vừa phải — cụm này rất hay bị 'học thuộc' nên dùng tự nhiên 1 lần là đủ."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: headline|n
+    headword: headline
+    pos: n
+    ipa:
+      uk: /ˈhed.laɪn/
+      us: /ˈhed.laɪn/
+    cefr: B1
+    meaning_vi:
+      - tiêu đề (bài báo)
+    collocations:
+      - a shocking headline
+      - read only the headlines
+      - hit the headlines
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headline, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headline, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headline, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: harmful|adj
+    headword: harmful
+    pos: adj
+    ipa:
+      uk: /ˈhɑːm.fəl/
+      us: /ˈhɑːrm.fəl/
+    cefr: B2
+    meaning_vi:
+      - có hại
+    collocations:
+      - harmful content
+      - harmful to children
+    notes_vi:
+      - harmful TO somebody/something.
+    topics:
+      - media
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harmful, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harmful, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harmful, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: half|n
+    headword: half
+    pos: n
+    forms:
+      plural: halves
+    ipa:
+      uk: /hɑːf/
+      us: /hæf/
+    cefr: A1
+    meaning_vi:
+      - một nửa
+    collocations:
+      - just over half
+      - half of the total
+      - almost half
+    notes_vi:
+      - "l câm: /hɑːf/. 'half of the total' hoặc 'half the total' đều đúng."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/half, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/half, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/half, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: healthcare|n
+    headword: healthcare
+    pos: n
+    ipa:
+      uk: /ˈhelθ.keər/
+      us: /ˈhelθ.ker/
+    cefr: B2
+    meaning_vi:
+      - chăm sóc y tế
+    collocations:
+      - free healthcare
+      - access to healthcare
+    topics:
+      - government
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthcare, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthcare, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthcare, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: heat|v
+    headword: heat
+    pos: v
+    ipa:
+      uk: /hiːt/
+      us: /hiːt/
+    cefr: null
+    meaning_vi:
+      - làm nóng
+      - đun nóng
+    collocations:
+      - be heated to 200°C
+      - heat the mixture
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: hands-on|adj
+    headword: hands-on
+    pos: adj
+    ipa:
+      uk: /ˌhændzˈɒn/
+      us: /ˌhændzˈɑːn/
+    cefr: null
+    meaning_vi:
+      - thực hành
+      - trực tiếp làm
+    collocations:
+      - hands-on experience
+      - hands-on learning
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: human-oversight|phr-n
+    headword: human oversight
+    pos: phr-n
+    ipa:
+      uk: /ˌhjuː.mən ˈəʊ.və.saɪt/
+      us: /ˌhjuː.mən ˈoʊ.vɚ.saɪt/
+    cefr: null
+    meaning_vi:
+      - sự giám sát của con người
+    collocations:
+      - without human oversight
+      - require human oversight
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: having-said-that|idiom
+    headword: having said that
+    pos: idiom
+    ipa:
+      uk: /ˌhæv.ɪŋ ˈsed ðæt/
+      us: /ˌhæv.ɪŋ ˈsed ðæt/
+    cefr: null
+    meaning_vi:
+      - nói vậy chứ
+      - dù vậy
+    notes_vi:
+      - "Văn nói rất tự nhiên (Part 3): chuyển sang mặt ngược lại sau khi đã nêu một ý."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: hygiene|n
+    headword: hygiene
+    pos: n
+    ipa:
+      uk: /ˈhaɪ.dʒiːn/
+      us: /ˈhaɪ.dʒiːn/
+    cefr: null
+    meaning_vi:
+      - vệ sinh
+    collocations:
+      - personal hygiene
+      - good hygiene
+    notes_vi:
+      - Đọc HAI-jeen /ˈhaɪ.dʒiːn/.
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: handicraft|n
+    headword: handicraft
+    pos: n
+    ipa:
+      uk: /ˈhæn.di.krɑːft/
+      us: /ˈhæn.di.kræft/
+    cefr: null
+    meaning_vi:
+      - đồ thủ công
+      - nghề thủ công
+    collocations:
+      - traditional handicrafts
+      - a handicraft village
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: hand-down|phr-v
+    headword: hand down
+    pos: phr-v
+    forms:
+      past: handed down
+    ipa:
+      uk: /ˌhænd ˈdaʊn/
+      us: /ˌhænd ˈdaʊn/
+    cefr: null
+    meaning_vi:
+      - truyền lại (cho thế hệ sau)
+    collocations:
+      - be handed down from generation to generation
+    notes_vi:
+      - "Hay dùng bị động: These songs have been handed down for centuries."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: homesick|adj
+    headword: homesick
+    pos: adj
+    ipa:
+      uk: /ˈhəʊm.sɪk/
+      us: /ˈhoʊm.sɪk/
+    cefr: null
+    meaning_vi:
+      - nhớ nhà
+    collocations:
+      - feel homesick
+      - get homesick
+    topics:
+      - speaking
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

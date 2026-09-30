@@ -1,0 +1,388 @@
+# Buổi 42 — Toàn cầu hóa · Writing Task 1: biểu đồ tròn + nhiều biểu đồ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-42-toan-cau-hoa-writing-task-1-pie-chart
+number: 42
+stage: 2
+title_vi: "Toàn cầu hóa · Writing Task 1: biểu đồ tròn + nhiều biểu đồ"
+focus:
+  grammar: Diễn đạt tỉ lệ phần trăm và phân số
+  skill: Writing Task 1 — pie chart và mixed charts (biểu đồ tròn + bảng)
+target_band: 5.0-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - pie-chart|phr-n
+      - account-for|phr-v
+      - make-up|phr-v
+      - represent|v
+      - percentage|n
+      - half|n
+      - segment|n
+      - minority|n
+      - comprise|v
+      - remainder|n
+      - combined|adj
+      - table|n
+      - nearly|adv
+      - share|n
+      - just-over|colloc
+      - proportion|n
+      - quarter|n
+      - the-majority-of|colloc
+  - type: pronunciation
+    notes:
+      - word: percentage|n
+        text_vi: "per-CEN-tage /pəˈsen.tɪdʒ/: nhấn âm 2; -tage /tɪdʒ/."
+      - word: half|n
+        text_vi: "/hɑːf/: l câm (như calm, walk). Số nhiều halves /hɑːvz/."
+      - word: represent|v
+        text_vi: "rep-re-SENT: nhấn âm cuối."
+      - word: minority|n
+        text_vi: "mi-NOR-i-ty: -ity kéo trọng âm về ngay trước (NOR) — giống majority, quality."
+      - word: comprise|v
+        text_vi: "com-PRISE /kəmˈpraɪz/: s đọc /z/."
+  - type: grammar
+    items:
+      - en-g2-22
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 1 — pie chart và mixed charts
+    intro_vi: "Biểu đồ tròn cho biết các PHẦN của một TỔNG (100%). Thường gặp: một biểu đồ tròn (so sánh các phần), hai hoặc ba biểu đồ tròn của các năm khác nhau (so sánh phần + thay đổi), hoặc mixed charts — biểu đồ tròn kết hợp bảng / biểu đồ cột. Bố cục vẫn 4 đoạn (Buổi 26, 34). Điểm mới: với mixed charts, overview phải tóm tắt CẢ HAI biểu đồ, và mỗi thân bài thường dành cho một biểu đồ."
+    steps:
+      - title_vi: "Nhận dạng: 1 pie / nhiều pie / mixed"
+        text_vi: Nhiều pie của các năm → có thay đổi (xu hướng). Mixed → hai loại thông tin khác nhau (VD tỉ lệ và tổng giá trị) — tìm mối liên hệ giữa chúng.
+      - title_vi: "Mở bài: paraphrase cả hai biểu đồ"
+        text_vi: "'The pie chart illustrates …, while the table shows …'. Không bỏ sót biểu đồ nào."
+      - title_vi: "Overview: phần lớn nhất + thay đổi chính"
+        text_vi: "'Overall, X made up the largest share in both years, and the share of Y increased significantly.' Mixed: thêm 1 ý cho biểu đồ thứ hai."
+      - title_vi: "Thân bài: nhóm phần lớn / phần nhỏ"
+        text_vi: "Một pie: thân bài 1 = 2–3 phần lớn nhất; thân bài 2 = các phần nhỏ (gộp bằng 'the remainder'). Mixed: thân bài 1 = pie, thân bài 2 = table."
+      - title_vi: Xoay vòng cách nói tỉ lệ
+        text_vi: account for / make up / represent / X% of … was … / nearly half / just over a quarter. Không dùng 'is' + % cho mọi câu.
+    tips:
+      - Tổng các phần = 100% → đừng nói 'increased' khi chỉ có MỘT biểu đồ tròn (không có thời gian).
+      - "Hai pie hai năm: so sánh cùng một phần qua hai năm là cách viết hiệu quả nhất (The share of X rose from … to …)."
+      - "Gộp các phần rất nhỏ: 'The remaining three categories combined made up less than 10%.'"
+    traps:
+      - trap_vi: Mô tả từng miếng pie một cách rời rạc theo chiều kim đồng hồ.
+        fix_vi: Sắp xếp theo độ lớn và so sánh giữa các phần.
+      - trap_vi: Mixed charts nhưng overview chỉ nói về một biểu đồ.
+        fix_vi: "Overview 2 câu: một câu cho mỗi biểu đồ."
+      - trap_vi: "Viết bị động: 'was accounted for 30%'."
+        fix_vi: account for / make up / represent đều chủ động.
+      - trap_vi: "Chủ ngữ và động từ không khớp: '30% of exports was…'."
+        fix_vi: exports (số nhiều) → were; money (không đếm được) → was.
+    phrases:
+      - en: The pie charts compare the proportion of … in … and …
+        vi: Các biểu đồ tròn so sánh tỉ lệ … vào năm … và …
+        note_vi: Mở bài.
+      - en: … made up the largest share, at …%.
+        vi: … chiếm tỉ phần lớn nhất, ở mức …%.
+      - en: The share of … rose from …% to …%.
+        vi: Tỉ phần của … tăng từ …% lên …%.
+      - en: The remaining categories combined accounted for …
+        vi: Các nhóm còn lại gộp lại chiếm …
+      - en: This is reflected in the table, which shows …
+        vi: Điều này được phản ánh trong bảng, cho thấy …
+        note_vi: Nối pie với table trong mixed charts.
+    demo:
+      title_vi: "Làm mẫu: hai biểu đồ tròn + bảng (số liệu giả định để luyện tập)"
+      text_en: |-
+        Question: The pie charts show the main destinations of Vietnam's exports in 2014 and 2024, and the table shows the total value of exports in those years.
+
+        Destination (%)    2014   2024
+        USA                  19     30
+        China                10     17
+        EU                   19     13
+        Japan                10      6
+        Others               42     34
+
+        Total value of exports (billion US$):  2014 — 150    2024 — 405
+
+        Introduction: The pie charts compare the proportion of Vietnam's exports sent to five destinations in 2014 and 2024, while the table gives the total value of exports in each year.
+
+        Overview: Overall, the USA became by far the largest single market over the period, and the total value of exports rose dramatically.
+
+        Body 1: In 2014, the USA and the EU each accounted for 19% of exports. Ten years later, the USA's share had risen to almost a third (30%), whereas the EU's fell to 13%. China's share also grew, from 10% to 17%. In contrast, Japan's share dropped from 10% to just 6%, and other countries combined made up about a third of the total in 2024, compared with 42% in 2014.
+
+        Body 2: The table shows that the value of exports increased from 150 to 405 billion dollars, which is nearly three times as much. This means that although the EU's share fell, the actual value of goods sent there probably still rose.
+      notes:
+        - label: Introduction
+          text_vi: Paraphrase cả pie (proportion … sent to five destinations) và table (total value).
+        - label: Overview
+          text_vi: Một ý cho pie (USA lớn nhất), một ý cho table (tổng giá trị tăng mạnh). Không số.
+        - label: Body 1 — pie
+          text_vi: So sánh từng thị trường qua hai năm; xoay vòng account for / share had risen / made up. almost a third (30%), whereas, in contrast.
+        - label: Body 2 — table + liên hệ
+          text_vi: "'nearly three times as much' (Buổi 34). Câu cuối nối hai biểu đồ: tỉ lệ giảm nhưng giá trị có thể vẫn tăng — đây là điểm cộng cho Task Achievement."
+  - type: examples
+    items:
+      - b42-001
+      - b42-002
+      - b42-003
+      - b42-004
+      - b42-005
+      - b42-006
+      - b42-007
+      - b42-008
+      - b42-009
+      - b42-010
+      - b42-011
+  - type: dialogue
+    title_vi: Đọc hai biểu đồ tròn
+    lines:
+      - speaker: A
+        text: These two pie charts are about how households spent their money in 2004 and 2024.
+        vi: Hai biểu đồ tròn này nói về cách các hộ gia đình chi tiêu năm 2004 và 2024.
+      - speaker: B
+        text: Food made up the largest share in both years, right?
+        vi: Ăn uống chiếm tỉ phần lớn nhất cả hai năm, đúng không?
+      - speaker: A
+        text: Yes, but it fell from nearly half to just over a third.
+        vi: Đúng, nhưng giảm từ gần một nửa xuống hơn một phần ba một chút.
+      - speaker: B
+        text: And housing? It looks much bigger in 2024.
+        vi: Còn nhà ở? Năm 2024 trông lớn hơn nhiều.
+      - speaker: A
+        text: It rose from 15% to 25%, so a quarter of spending.
+        vi: Nó tăng từ 15% lên 25%, tức là một phần tư chi tiêu.
+      - speaker: B
+        text: What about the small segments?
+        vi: Còn mấy phần nhỏ?
+      - speaker: A
+        text: We can group them. Combined, entertainment and travel accounted for about 10%.
+        vi: Mình gộp lại được. Cộng lại, giải trí và du lịch chiếm khoảng 10%.
+      - speaker: B
+        text: "Great. So the overview is: food was always the biggest, but housing grew the most."
+        vi: "Tuyệt. Vậy overview là: ăn uống luôn lớn nhất, nhưng nhà ở tăng nhiều nhất."
+  - type: exercises
+    items:
+      - id: b42-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Chọn cách diễn đạt phân số phù hợp với con số trong ngoặc.
+        bank:
+          - nearly half
+          - just over a quarter
+          - a third
+          - three quarters
+          - a small minority
+          - just over half
+        questions:
+          - q: Electronics made up ___ of exports. (48%)
+            answer: nearly half
+          - q: Clothes accounted for ___ of the total. (26%)
+            answer: just over a quarter
+          - q: Rice represented only ___ of exports. (3%)
+            answer: a small minority
+          - q: ___ of the goods went to Asia. (75%)
+            answer: three quarters
+          - q: The USA received ___ of all exports. (33%)
+            answer: a third
+          - q: ___ of households owned a car. (53%)
+            answer: just over half
+      - id: b42-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: Coal ___ 40% of the energy used.
+            options:
+              - was accounted for
+              - accounted for
+              - accounted
+              - made up of
+            answer: b
+          - q: Oil ___ a quarter of the total.
+            options:
+              - made up
+              - made up of
+              - was made up
+              - making up
+            answer: a
+          - q: 30% of the money ___ spent on food.
+            options:
+              - were
+              - was
+              - are
+              - been
+            answer: b
+            explain_vi: money không đếm được → was.
+          - q: 40% of exports ___ electronics.
+            options:
+              - was
+              - were
+              - is
+              - be
+            answer: b
+          - q: There is only ONE pie chart for one year. Which sentence is WRONG?
+            options:
+              - Food made up the largest share.
+              - Food increased to 40%.
+              - Food accounted for 40%.
+              - Food represented two fifths of spending.
+            answer: b
+            explain_vi: Một biểu đồ, một năm → không có thay đổi, không dùng increased.
+      - id: b42-x3
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại câu với từ trong ngoặc, giữ nguyên nghĩa.
+        questions:
+          - q: Electronics were 45% of exports. (accounted for)
+            answer: Electronics accounted for 45% of exports.
+          - q: Tourism was 12% of the total. (made up)
+            answer: Tourism made up 12% of the total.
+          - q: Food was 20% and housing was 35%. (respectively)
+            answer: Food and housing accounted for 20% and 35%, respectively.
+            accept:
+              - Food and housing made up 20% and 35%, respectively.
+              - Food and housing represented 20% and 35%, respectively.
+              - Food and housing were 20% and 35%, respectively.
+          - q: Oil and gas together were 18%. (Combined)
+            answer: Combined, oil and gas accounted for 18%.
+            accept:
+              - Combined, oil and gas made up 18%.
+              - Combined, oil and gas represented 18%.
+      - id: b42-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi. Sửa trực tiếp.
+        text: In 2024, electronics were accounted for 45% of exports. Clothes made up of 20% of the total. The 10 percentage of exports was rice. 30% of exports was sent to the USA. Overall, the pie chart shows that electronics increased.
+        errors:
+          - wrong: electronics were accounted for
+            right: electronics accounted for
+            why: account for là chủ động.
+          - wrong: Clothes made up of 20%
+            right: Clothes made up 20%
+            why: make up + X% (không of).
+          - wrong: The 10 percentage of exports was rice
+            right: Ten per cent of exports was rice
+            why: "Có số → per cent; không 'the … percentage'. (Chấp nhận: Rice accounted for 10% of exports.)"
+          - wrong: 30% of exports was sent
+            right: 30% of exports were sent
+            why: exports số nhiều → were.
+          - wrong: electronics increased
+            right: electronics made up the largest share
+            why: Một biểu đồ, một năm → không có 'increased'.
+      - id: b42-x5
+        bank_no: 16
+        kind: completion
+        instructions_vi: Đọc số liệu (giả định) và hoàn thành đoạn văn. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: |-
+          Household spending in one city (%)     2004    2024
+          Food                                    48      35
+          Housing                                 15      25
+          Transport                               12      14
+          Education                               10      16
+          Other                                   15      10
+
+          Overall, food made up the largest (1) ___ of spending in both years, although it fell from (2) ___ half to just over a third. Housing rose to a (3) ___ of the total in 2024. Education and transport accounted for 16% and 14%, (4) ___, in 2024. The (5) ___ was made up of other items.
+        questions:
+          - q: (1)
+            answer: share
+            accept:
+              - proportion
+              - segment
+          - q: (2)
+            answer: nearly
+            accept:
+              - almost
+          - q: (3)
+            answer: quarter
+          - q: (4)
+            answer: respectively
+          - q: (5)
+            answer: remainder
+      - id: b42-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: account for
+            right: to form a particular part of a total
+          - left: remainder
+            right: the part that is left
+          - left: minority
+            right: the smaller part of a group
+          - left: segment
+            right: one of the parts of a pie chart
+          - left: combined
+            right: added together
+          - left: comprise
+            right: to consist of parts
+      - id: b42-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai sinh viên đọc biểu đồ tròn (hai giọng) và chọn đáp án đúng.
+        audio_text: |-
+          Woman: So, what does this pie chart show?
+          Man: How international students at one Australian university paid for their studies last year.
+          Woman: And the biggest group?
+          Man: Just over half were supported by their families.
+          Woman: What about scholarships? I thought that would be tiny.
+          Man: Me too, but actually scholarships accounted for about a quarter.
+          Woman: Really? And bank loans?
+          Man: Around fifteen per cent. The remainder, less than one in ten, paid with money from part-time jobs.
+        questions:
+          - q: How did the largest group pay?
+            options:
+              - scholarships
+              - family support
+              - bank loans
+              - part-time jobs
+            answer: b
+          - q: What proportion had scholarships?
+            options:
+              - about 10%
+              - about 15%
+              - about 25%
+              - just over 50%
+            answer: c
+          - q: What surprised the speaker?
+            options:
+              - the number of loans
+              - the high percentage of scholarships
+              - the low family support
+              - the part-time jobs
+            answer: b
+          - q: What proportion paid with money from part-time jobs?
+            options:
+              - less than 10%
+              - about 15%
+              - about a quarter
+              - half
+            answer: a
+      - id: b42-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe mô tả hai biểu đồ tròn rồi chọn T (đúng) hoặc F (sai).
+        audio_text: The two pie charts compare the sources of electricity in one country in 2010 and 2024. In 2010, coal was the main source, at nearly two thirds of the total. By 2024, its share had fallen to just under half. Meanwhile, solar and wind power combined rose from only three per cent to a quarter. Hydropower remained roughly the same, at about twenty per cent.
+        questions:
+          - q: Coal was the main source in 2010.
+            answer: T
+          - q: In 2024, coal made up more than half of electricity.
+            answer: F
+            explain_vi: just under half = hơi dưới 50%.
+          - q: Solar and wind together made up a quarter in 2024.
+            answer: T
+          - q: Hydropower increased significantly.
+            answer: F
+  - type: homework
+    kind: task1
+    prompt_vi: "Viết Task 1 (≥ 150 từ, 20 phút). Đây là mixed charts: overview phải nói về CẢ biểu đồ tròn và bảng. Dùng ít nhất 3 cách nói tỉ lệ khác nhau (account for / make up / represent), 2 phân số (a quarter, nearly half…), và 1 câu nối hai biểu đồ ('This is reflected in the table…'). Số liệu giả định."
+    prompt_en: |-
+      The pie charts show the proportion of international tourists visiting Vietnam from different regions in 2015 and 2025. The table shows the total number of international tourists.
+      Region (%):          2015    2025
+      East Asia              55      48
+      Southeast Asia         15      17
+      Europe                 12      15
+      North America           8      10
+      Others                 10      10
+      Total tourists (millions):  2015 — 8     2025 — 20
+      Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+    words:
+      min: 150
+      max: 190
+    minutes: 20

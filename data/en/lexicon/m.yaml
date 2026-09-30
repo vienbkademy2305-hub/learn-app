@@ -687,3 +687,552 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: mass-tourism|phr-n
+    headword: mass tourism
+    pos: phr-n
+    ipa:
+      uk: /ˌmæs ˈtʊə.rɪ.zəm/
+      us: /ˌmæs ˈtʊr.ɪ.zəm/
+    cefr: null
+    meaning_vi:
+      - du lịch đại trà (lượng khách rất đông)
+    collocations:
+      - the effects of mass tourism
+      - suffer from mass tourism
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: migrate|v
+    headword: migrate
+    pos: v
+    ipa:
+      uk: /maɪˈɡreɪt/
+      us: /ˈmaɪ.ɡreɪt/
+    cefr: null
+    meaning_vi:
+      - di cư
+      - chuyển đến nơi khác (để sống, làm việc)
+    collocations:
+      - migrate to the cities
+      - migrate from rural areas
+    notes_vi:
+      - Anh-Anh nhấn âm 2 (mai-GRATE), Anh-Mỹ nhấn âm 1 (MAI-grate).
+      - "migrate TO/FROM. Danh từ: migration; người: migrant."
+    topics:
+      - city
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: migration|n
+    headword: migration
+    pos: n
+    ipa:
+      uk: /maɪˈɡreɪ.ʃən/
+      us: /maɪˈɡreɪ.ʃən/
+    stress: mi-GRA-tion
+    cefr: C1
+    meaning_vi:
+      - sự di cư
+    collocations:
+      - rural-urban migration
+      - mass migration
+    topics:
+      - city
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: mention|v
+    headword: mention
+    pos: v
+    ipa:
+      uk: /ˈmen.ʃən/
+      us: /ˈmen.ʃən/
+    cefr: A2
+    meaning_vi:
+      - nhắc đến
+      - đề cập
+    collocations:
+      - mention a problem
+      - as I mentioned
+    notes_vi:
+      - "mention something (không có about): *mention about the traffic* ❌ → mention the traffic."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: modern|adj
+    headword: modern
+    pos: adj
+    ipa:
+      uk: /ˈmɒd.ən/
+      us: /ˈmɑː.dɚn/
+    stress: MOD-ern
+    cefr: A1
+    meaning_vi:
+      - hiện đại
+    collocations:
+      - modern buildings
+      - a modern city
+    notes_vi:
+      - "Nhấn âm 1: MOD-ern (không phải mo-DERN)."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: mainstream-media|phr-n
+    headword: mainstream media
+    pos: phr-n
+    ipa:
+      uk: /ˌmeɪn.striːm ˈmiː.di.ə/
+      us: /ˌmeɪn.striːm ˈmiː.di.ə/
+    cefr: null
+    meaning_vi:
+      - truyền thông chính thống (báo, đài lớn)
+    collocations:
+      - trust the mainstream media
+      - reported by the mainstream media
+    notes_vi:
+      - "media là danh từ số nhiều về gốc, nhưng hiện nay thường dùng như số ít cũng được: The media is/are …"
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: misinformation|n
+    headword: misinformation
+    pos: n
+    ipa:
+      uk: /ˌmɪs.ɪn.fəˈmeɪ.ʃən/
+      us: /ˌmɪs.ɪn.fɚˈmeɪ.ʃən/
+    stress: mis-in-for-MA-tion
+    cefr: null
+    meaning_vi:
+      - thông tin sai lệch
+    collocations:
+      - spread misinformation
+      - a source of misinformation
+    notes_vi:
+      - "Không đếm được: *a misinformation* ❌, *misinformations* ❌. Gần nghĩa: fake news (Buổi 25)."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: media-literacy|phr-n
+    headword: media literacy
+    pos: phr-n
+    ipa:
+      uk: /ˌmiː.di.ə ˈlɪt.ər.ə.si/
+      us: /ˌmiː.di.ə ˈlɪt̬.ɚ.ə.si/
+    cefr: null
+    meaning_vi:
+      - năng lực hiểu và đánh giá thông tin truyền thông
+    collocations:
+      - teach media literacy
+      - improve media literacy
+    topics:
+      - media
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: mislead|v
+    headword: mislead
+    pos: v
+    forms:
+      past: misled
+      pp: misled
+    ipa:
+      uk: /mɪsˈliːd/
+      us: /mɪsˈliːd/
+    cefr: null
+    meaning_vi:
+      - đánh lừa
+      - làm hiểu sai
+    collocations:
+      - mislead the public
+      - misleading information
+    notes_vi:
+      - "Bất quy tắc: mislead – misled – misled. Tính từ: misleading (gây hiểu lầm)."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: minimum-wage|phr-n
+    headword: minimum wage
+    pos: phr-n
+    ipa:
+      uk: /ˌmɪn.ɪ.məm ˈweɪdʒ/
+      us: /ˌmɪn.ə.məm ˈweɪdʒ/
+    cefr: null
+    meaning_vi:
+      - lương tối thiểu
+    collocations:
+      - raise the minimum wage
+      - earn the minimum wage
+    topics:
+      - economy
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minimum-wage, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/minimum_wage, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: multinational-corporation|phr-n
+    headword: multinational corporation
+    pos: phr-n
+    ipa:
+      uk: /ˌmʌl.tiˌnæʃ.ən.əl ˌkɔː.pəˈreɪ.ʃən/
+      us: /ˌmʌl.t̬iˌnæʃ.ən.əl ˌkɔːr.pəˈreɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - tập đoàn đa quốc gia
+    collocations:
+      - large multinational corporations
+      - work for a multinational
+    notes_vi:
+      - "Nói gọn: a multinational. Viết tắt trong ghi chú: MNC."
+    topics:
+      - globalisation
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: manufacture|v
+    headword: manufacture
+    pos: v
+    ipa:
+      uk: /ˌmæn.jəˈfæk.tʃər/
+      us: /ˌmæn.jəˈfæk.tʃɚ/
+    stress: man-u-FAC-ture
+    cefr: B2
+    meaning_vi:
+      - sản xuất (hàng loạt, trong nhà máy)
+    collocations:
+      - manufacture goods
+      - be manufactured in Vietnam
+    notes_vi:
+      - "Thường ở bị động: Many phones are manufactured in Vietnam."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manufacture, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/manufacture, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: make-up|phr-v
+    headword: make up
+    pos: phr-v
+    forms:
+      past: made up
+      pp: made up
+    ipa:
+      uk: /ˌmeɪk ˈʌp/
+      us: /ˌmeɪk ˈʌp/
+    cefr: null
+    meaning_vi:
+      - chiếm
+      - tạo thành (một phần của tổng)
+    collocations:
+      - make up a quarter of
+      - make up the majority
+    notes_vi:
+      - Đồng nghĩa account for / represent — xoay vòng ba từ để tránh lặp trong bài pie chart.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-29, field: ipa.uk }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: minority|n
+    headword: minority
+    pos: n
+    ipa:
+      uk: /maɪˈnɒr.ə.ti/
+      us: /maɪˈnɔːr.ə.t̬i/
+    stress: mi-NOR-i-ty
+    cefr: B2
+    meaning_vi:
+      - thiểu số
+      - phần nhỏ
+    collocations:
+      - a small minority of
+      - only a minority
+    notes_vi:
+      - "Đối lập: majority (Buổi 34)."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: measure|n
+    headword: measure
+    pos: n
+    ipa:
+      uk: /ˈmeʒ.ər/
+      us: /ˈmeʒ.ɚ/
+    cefr: B1
+    meaning_vi:
+      - biện pháp
+    collocations:
+      - take measures to
+      - effective measures
+      - a new measure
+    notes_vi:
+      - "take measures TO + V. s đọc /ʒ/: MEZH-ə."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: melt|v
+    headword: melt
+    pos: v
+    ipa:
+      uk: /melt/
+      us: /melt/
+    cefr: null
+    meaning_vi:
+      - làm tan chảy
+      - nung chảy
+    collocations:
+      - be melted down
+      - melt plastic
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: make-way-for|phr-v
+    headword: make way for
+    pos: phr-v
+    forms:
+      past: made way for
+    ipa:
+      uk: /ˌmeɪk ˈweɪ fɔːr/
+      us: /ˌmeɪk ˈweɪ fɔːr/
+    cefr: null
+    meaning_vi:
+      - nhường chỗ cho (bị thay bằng)
+    collocations:
+      - the trees were cut down to make way for a car park
+      - the farm made way for houses
+    notes_vi:
+      - "Cách viết hay trong map: A made way for B = A bị bỏ đi, B xuất hiện."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: motivation|n
+    headword: motivation
+    pos: n
+    ipa:
+      uk: /ˌməʊ.tɪˈveɪ.ʃən/
+      us: /ˌmoʊ.t̬əˈveɪ.ʃən/
+    stress: mo-ti-VA-tion
+    cefr: null
+    meaning_vi:
+      - động lực
+    collocations:
+      - lack motivation
+      - a source of motivation
+      - stay motivated
+    notes_vi:
+      - "Tính từ: motivated (có động lực), motivating (tạo động lực) — như -ed/-ing ở Buổi 17."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: mentor|n
+    headword: mentor
+    pos: n
+    ipa:
+      uk: /ˈmen.tɔːr/
+      us: /ˈmen.tɔːr/
+    cefr: null
+    meaning_vi:
+      - người cố vấn
+      - người dìu dắt
+    collocations:
+      - a good mentor
+      - act as a mentor
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: memorise|v
+    headword: memorise
+    pos: v
+    ipa:
+      uk: /ˈmem.ə.raɪz/
+      us: /ˈmem.ə.raɪz/
+    cefr: null
+    meaning_vi:
+      - học thuộc
+      - ghi nhớ
+    collocations:
+      - memorise vocabulary
+      - memorise facts
+    notes_vi:
+      - "Anh-Mỹ: memorize. Gần nghĩa rote learning (Buổi 21)."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: moreover|adv
+    headword: moreover
+    pos: adv
+    ipa:
+      uk: /mɔːˈrəʊ.vər/
+      us: /mɔːrˈoʊ.vɚ/
+    stress: more-O-ver
+    cefr: null
+    meaning_vi:
+      - hơn nữa (thêm ý mạnh hơn)
+    notes_vi:
+      - Đứng đầu câu mới + dấu phẩy. Dùng để thêm một ý MẠNH HƠN ý trước; trang trọng — chỉ dùng trong Writing.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: machine-learning|phr-n
+    headword: machine learning
+    pos: phr-n
+    ipa:
+      uk: /məˌʃiːn ˈlɜː.nɪŋ/
+      us: /məˌʃiːn ˈlɝː.nɪŋ/
+    cefr: null
+    meaning_vi:
+      - học máy
+    collocations:
+      - machine learning systems
+      - use machine learning to
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: mental-health|phr-n
+    headword: mental health
+    pos: phr-n
+    ipa:
+      uk: /ˌmen.təl ˈhelθ/
+      us: /ˌmen.t̬əl ˈhelθ/
+    cefr: null
+    meaning_vi:
+      - sức khỏe tinh thần
+    collocations:
+      - mental health problems
+      - look after your mental health
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

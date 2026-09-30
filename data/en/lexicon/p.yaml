@@ -1106,3 +1106,750 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: peer-pressure|phr-n
+    headword: peer pressure
+    pos: phr-n
+    ipa:
+      uk: /ˈpɪə ˌpreʃ.ər/
+      us: /ˈpɪr ˌpreʃ.ɚ/
+    cefr: null
+    meaning_vi:
+      - áp lực đồng trang lứa
+    collocations:
+      - give in to peer pressure
+      - under peer pressure
+    notes_vi:
+      - "peer = người cùng tuổi/cùng nhóm. Không đếm được: *a peer pressure* ❌."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peer-pressure, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peer-pressure, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: preserve|v
+    headword: preserve
+    pos: v
+    ipa:
+      uk: /prɪˈzɜːv/
+      us: /prɪˈzɝːv/
+    stress: pre-SERVE
+    cefr: B2
+    meaning_vi:
+      - bảo tồn
+      - giữ gìn
+    collocations:
+      - preserve traditions
+      - preserve old buildings
+    notes_vi:
+      - "Danh từ: preservation. Đồng nghĩa gần: protect, keep, maintain — dạng paraphrase rất hay gặp trong Reading."
+    topics:
+      - culture
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/preserve, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/preserve, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/preserve, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: popular|adj
+    headword: popular
+    pos: adj
+    ipa:
+      uk: /ˈpɒp.jə.lər/
+      us: /ˈpɑː.pjə.lɚ/
+    stress: POP-u-lar
+    cefr: A1
+    meaning_vi:
+      - phổ biến
+      - được ưa chuộng
+    collocations:
+      - the most popular destination
+      - popular with young people
+    notes_vi:
+      - popular WITH somebody (không dùng *popular for somebody*).
+    topics:
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/popular, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/popular, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/popular, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: population|n
+    headword: population
+    pos: n
+    ipa:
+      uk: /ˌpɒp.jəˈleɪ.ʃən/
+      us: /ˌpɑː.pjəˈleɪ.ʃən/
+    stress: pop-u-LA-tion
+    cefr: A2
+    meaning_vi:
+      - dân số
+    collocations:
+      - a growing population
+      - the population of Hanoi
+      - population density
+    notes_vi:
+      - "Nói dân số lớn/nhỏ: a large/small population (không nói *many/much population*)."
+    topics:
+      - city
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/population, checked: 2026-09-29, field: cefr }
+      - { source: wiktionary, ref: https://en.wiktionary.org/wiki/population, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pedestrian|n
+    headword: pedestrian
+    pos: n
+    ipa:
+      uk: /pəˈdes.tri.ən/
+      us: /pəˈdes.tri.ən/
+    stress: pe-DES-tri-an
+    cefr: null
+    meaning_vi:
+      - người đi bộ
+    collocations:
+      - a pedestrian street
+      - pedestrian zone
+      - safe for pedestrians
+    notes_vi:
+      - "Dùng như tính từ: a pedestrian street = phố đi bộ."
+    topics:
+      - city
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pedestrian, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pedestrian, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: publish|v
+    headword: publish
+    pos: v
+    ipa:
+      uk: /ˈpʌb.lɪʃ/
+      us: /ˈpʌb.lɪʃ/
+    cefr: A2
+    meaning_vi:
+      - đăng
+      - xuất bản
+    collocations:
+      - publish an article
+      - be published online
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/publish, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/publish, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/publish, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: platform|n
+    headword: platform
+    pos: n
+    ipa:
+      uk: /ˈplæt.fɔːm/
+      us: /ˈplæt.fɔːrm/
+    cefr: A2
+    meaning_vi:
+      - nền tảng (mạng xã hội, trực tuyến)
+    collocations:
+      - social media platforms
+      - online platforms
+    topics:
+      - media
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/platform, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/platform, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/platform, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: public-opinion|phr-n
+    headword: public opinion
+    pos: phr-n
+    ipa:
+      uk: /ˌpʌb.lɪk əˈpɪn.jən/
+      us: /ˌpʌb.lɪk əˈpɪn.jən/
+    cefr: null
+    meaning_vi:
+      - dư luận
+    collocations:
+      - influence public opinion
+      - shape public opinion
+    topics:
+      - media
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-opinion, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-opinion, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: point-of-view|phr-n
+    headword: point of view
+    pos: phr-n
+    ipa:
+      uk: /ˌpɔɪnt əv ˈvjuː/
+      us: /ˌpɔɪnt əv ˈvjuː/
+    cefr: null
+    meaning_vi:
+      - quan điểm
+      - góc nhìn
+    collocations:
+      - from my point of view
+      - a different point of view
+    notes_vi:
+      - from my point of view (không nói *in my point of view*).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/point-of-view, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/point-of-view, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: promotion|n
+    headword: promotion
+    pos: n
+    ipa:
+      uk: /prəˈməʊ.ʃən/
+      us: /prəˈmoʊ.ʃən/
+    stress: pro-MO-tion
+    cefr: B2
+    meaning_vi:
+      - sự thăng chức
+    collocations:
+      - get a promotion
+      - chances of promotion
+    notes_vi:
+      - "Động từ bị động: be promoted to manager. Nghĩa khác: khuyến mãi (a sales promotion)."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promotion, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promotion, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promotion, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: poverty|n
+    headword: poverty
+    pos: n
+    ipa:
+      uk: /ˈpɒv.ə.ti/
+      us: /ˈpɑː.vɚ.t̬i/
+    cefr: B1
+    meaning_vi:
+      - sự nghèo đói
+    collocations:
+      - live in poverty
+      - reduce poverty
+    notes_vi:
+      - "Tính từ: poor. *People live in poor* ❌ → live in poverty."
+    topics:
+      - economy
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/poverty, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/poverty, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/poverty, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: pie-chart|phr-n
+    headword: pie chart
+    pos: phr-n
+    ipa:
+      uk: /ˈpaɪ ˌtʃɑːt/
+      us: /ˈpaɪ ˌtʃɑːrt/
+    cefr: null
+    meaning_vi:
+      - biểu đồ tròn
+    collocations:
+      - the two pie charts compare
+      - the pie chart illustrates
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pie-chart, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pie-chart, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: percentage|n
+    headword: percentage
+    pos: n
+    ipa:
+      uk: /pəˈsen.tɪdʒ/
+      us: /pɚˈsen.t̬ɪdʒ/
+    stress: per-CEN-tage
+    cefr: B1
+    meaning_vi:
+      - tỉ lệ phần trăm
+    collocations:
+      - a high percentage of
+      - the percentage of people who
+    notes_vi:
+      - "the percentage OF + N. Không có số đi kèm: *the 20 percentage* ❌ → 20 per cent / 20%."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/percentage, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/percentage, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/percentage, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: public-spending|phr-n
+    headword: public spending
+    pos: phr-n
+    ipa:
+      uk: /ˌpʌb.lɪk ˈspen.dɪŋ/
+      us: /ˌpʌb.lɪk ˈspen.dɪŋ/
+    cefr: null
+    meaning_vi:
+      - chi tiêu công
+    collocations:
+      - increase public spending on
+      - cuts in public spending
+    notes_vi:
+      - public spending ON something (on education, on healthcare).
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-spending, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-spending, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: policy|n
+    headword: policy
+    pos: n
+    forms:
+      plural: policies
+    ipa:
+      uk: /ˈpɒl.ə.si/
+      us: /ˈpɑː.lə.si/
+    cefr: B1
+    meaning_vi:
+      - chính sách
+    collocations:
+      - government policy
+      - introduce a new policy
+      - a policy on
+    notes_vi:
+      - Không nhầm với police (cảnh sát) và politics (chính trị).
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/policy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/policy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/policy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: public-service|phr-n
+    headword: public service
+    pos: phr-n
+    forms:
+      plural: public services
+    ipa:
+      uk: /ˌpʌb.lɪk ˈsɜː.vɪs/
+      us: /ˌpʌb.lɪk ˈsɝː.vɪs/
+    cefr: null
+    meaning_vi:
+      - dịch vụ công
+    collocations:
+      - improve public services
+      - public services such as healthcare
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-service, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-service, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: problem|n
+    headword: problem
+    pos: n
+    ipa:
+      uk: /ˈprɒb.ləm/
+      us: /ˈprɑː.bləm/
+    cefr: A1
+    meaning_vi:
+      - vấn đề
+    collocations:
+      - a serious problem
+      - solve a problem
+      - the main problem is that
+    notes_vi:
+      - "Đồng nghĩa để xoay vòng trong Task 2: issue, challenge."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/problem, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/problem, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/problem, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: priority|n
+    headword: priority
+    pos: n
+    forms:
+      plural: priorities
+    ipa:
+      uk: /praɪˈɒr.ə.ti/
+      us: /praɪˈɔːr.ə.t̬i/
+    stress: pri-OR-i-ty
+    cefr: B2
+    meaning_vi:
+      - sự ưu tiên
+      - việc ưu tiên
+    collocations:
+      - a top priority
+      - give priority to
+    topics:
+      - government
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/priority, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/priority, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/priority, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: penalty|n
+    headword: penalty
+    pos: n
+    forms:
+      plural: penalties
+    ipa:
+      uk: /ˈpen.əl.ti/
+      us: /ˈpen.əl.t̬i/
+    cefr: B2
+    meaning_vi:
+      - hình phạt
+      - mức phạt
+    collocations:
+      - heavy penalties
+      - a penalty for
+    notes_vi:
+      - "Đối lập với incentive: incentive = cà rốt, penalty = cây gậy."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/penalty, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/penalty, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/penalty, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: process|n
+    headword: process
+    pos: n
+    forms:
+      plural: processes
+    ipa:
+      uk: /ˈprəʊ.ses/
+      us: /ˈprɑː.ses/
+    cefr: null
+    meaning_vi:
+      - quy trình
+      - quá trình
+    collocations:
+      - the production process
+      - a five-stage process
+      - the whole process
+    notes_vi:
+      - Số nhiều processes /ˈprəʊ.ses.ɪz/ — thêm một âm tiết.
+    topics:
+      - writing
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: purify|v
+    headword: purify
+    pos: v
+    forms:
+      past: purified
+      3sg: purifies
+    ipa:
+      uk: /ˈpjʊə.rɪ.faɪ/
+      us: /ˈpjʊr.ə.faɪ/
+    stress: PU-ri-fy
+    cefr: null
+    meaning_vi:
+      - làm sạch
+      - tinh lọc
+    collocations:
+      - purify water
+      - be purified with chemicals
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: package|v
+    headword: package
+    pos: v
+    ipa:
+      uk: /ˈpæk.ɪdʒ/
+      us: /ˈpæk.ɪdʒ/
+    cefr: null
+    meaning_vi:
+      - đóng gói
+    collocations:
+      - be packaged and sold
+      - packaged in boxes
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: peer|n
+    headword: peer
+    pos: n
+    ipa:
+      uk: /pɪər/
+      us: /pɪr/
+    cefr: null
+    meaning_vi:
+      - bạn cùng trang lứa
+      - bạn học cùng lớp
+    collocations:
+      - learn from your peers
+      - peer feedback
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: procrastinate|v
+    headword: procrastinate
+    pos: v
+    ipa:
+      uk: /prəˈkræs.tɪ.neɪt/
+      us: /proʊˈkræs.tə.neɪt/
+    stress: pro-CRAS-ti-nate
+    cefr: null
+    meaning_vi:
+      - trì hoãn
+      - chần chừ
+    collocations:
+      - tend to procrastinate
+      - stop procrastinating
+    notes_vi:
+      - "Từ rất tự nhiên trong Part 1 khi nói về thói quen học: I tend to procrastinate until the deadline."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: petty-crime|phr-n
+    headword: petty crime
+    pos: phr-n
+    ipa:
+      uk: /ˌpet.i ˈkraɪm/
+      us: /ˌpet̬.i ˈkraɪm/
+    cefr: null
+    meaning_vi:
+      - tội phạm nhỏ
+      - tội vặt (móc túi, trộm vặt)
+    collocations:
+      - petty crime such as shoplifting
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: prevention|n
+    headword: prevention
+    pos: n
+    ipa:
+      uk: /prɪˈven.ʃən/
+      us: /prɪˈven.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự phòng ngừa
+    collocations:
+      - crime prevention
+      - prevention is better than cure
+    topics:
+      - crime
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: potential|n
+    headword: potential
+    pos: n
+    ipa:
+      uk: /pəˈten.ʃəl/
+      us: /pəˈten.ʃəl/
+    cefr: null
+    meaning_vi:
+      - tiềm năng
+    collocations:
+      - the potential to transform
+      - huge potential
+      - reach your potential
+    topics:
+      - technology
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: perspective|n
+    headword: perspective
+    pos: n
+    ipa:
+      uk: /pəˈspek.tɪv/
+      us: /pɚˈspek.tɪv/
+    cefr: null
+    meaning_vi:
+      - góc nhìn
+      - quan điểm
+    collocations:
+      - from a different perspective
+      - from an economic perspective
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: public-health|phr-n
+    headword: public health
+    pos: phr-n
+    ipa:
+      uk: /ˌpʌb.lɪk ˈhelθ/
+      us: /ˌpʌb.lɪk ˈhelθ/
+    cefr: null
+    meaning_vi:
+      - sức khỏe cộng đồng
+      - y tế công cộng
+    collocations:
+      - a threat to public health
+      - improve public health
+      - public health campaigns
+    topics:
+      - health
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: preventive|adj
+    headword: preventive
+    pos: adj
+    ipa:
+      uk: /prɪˈven.tɪv/
+      us: /prɪˈven.t̬ɪv/
+    cefr: null
+    meaning_vi:
+      - phòng ngừa
+    collocations:
+      - preventive medicine
+      - preventive measures
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: processed-food|phr-n
+    headword: processed food
+    pos: phr-n
+    ipa:
+      uk: /ˌprəʊ.sest ˈfuːd/
+      us: /ˌprɑː.sest ˈfuːd/
+    cefr: null
+    meaning_vi:
+      - thực phẩm chế biến sẵn
+    collocations:
+      - eat too much processed food
+    topics:
+      - health
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

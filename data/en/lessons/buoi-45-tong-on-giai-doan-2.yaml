@@ -1,0 +1,440 @@
+# Buổi 45 — Tổng ôn Giai đoạn 2 · Mini mock test 4 kỹ năng. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-45-tong-on-giai-doan-2
+number: 45
+stage: 2
+title_vi: Tổng ôn Giai đoạn 2 · Mini mock test 4 kỹ năng
+focus:
+  grammar: Hệ thống câu phức Giai đoạn 2 + rà lỗi lặp lại
+  skill: Mini mock test rút gọn — chiến lược làm bài và phân bổ thời gian 4 kỹ năng
+target_band: 5.5-6.0
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - curriculum|n
+      - critical-thinking|phr-n
+      - climate-change|phr-n
+      - renewable-energy|phr-n
+      - artificial-intelligence|phr-n
+      - fluctuate|v
+      - facility|n
+      - healthy-lifestyle|phr-n
+      - offender|n
+      - outweigh|v
+      - generation-gap|phr-n
+      - peer-pressure|phr-n
+      - cultural-heritage|phr-n
+      - respectively|adv
+      - urbanisation|n
+      - misinformation|n
+      - freedom-of-speech|phr-n
+      - job-security|phr-n
+      - globalisation|n
+      - tackle|v
+  - type: pronunciation
+    notes:
+      - word: urbanisation|n
+        text_vi: "Ôn quy tắc -tion: trọng âm rơi vào âm tiết ngay trước (ur-ban-i-SA-tion, glo-bal-i-SA-tion, mis-in-for-MA-tion)."
+      - word: curriculum|n
+        text_vi: "cu-RRIC-u-lum: nhấn âm 2 (Buổi 21)."
+      - word: fluctuate|v
+        text_vi: "FLUC-tu-ate: nhấn âm 1; -tu- đọc /tʃu/ (Buổi 26)."
+      - word: respectively|adv
+        text_vi: "re-SPEC-tive-ly: đọc đủ /kt/ ở giữa (Buổi 34)."
+      - word: misinformation|n
+        text_vi: "Âm cuối: ôn nhanh -s/-ed ở mọi bài nói — spreads /z/, reduced /t/, restored /d/."
+  - type: grammar
+    items:
+      - en-g2-25
+  - type: skill
+    skill: reading
+    title_vi: Mini mock test — chiến lược và thời gian cho 4 kỹ năng
+    intro_vi: "Buổi này mô phỏng một bài thi RÚT GỌN để bạn luyện nhịp độ trước khi sang Giai đoạn 3. Bài thi thật: Listening 30 phút (+ thời gian chép đáp án), Reading 60 phút cho 3 bài đọc, Writing 60 phút (Task 1 + Task 2), Speaking 11–14 phút. Điểm yếu lớn nhất ở giai đoạn này thường không phải kiến thức mà là THỜI GIAN: mắc kẹt ở một câu khó và bỏ lỡ nhiều câu dễ phía sau."
+    steps:
+      - title_vi: "Reading: 20 phút mỗi bài đọc"
+        text_vi: Làm dạng dễ trước (T/F/NG, completion — theo thứ tự bài), dạng khó sau (matching headings, matching information). Một câu quá 2 phút → đoán, đánh dấu, quay lại nếu còn thời gian. Không bao giờ để trống.
+      - title_vi: "Listening: đọc trước là tất cả"
+        text_vi: Dùng mọi khoảng nghỉ để đọc câu hỏi phần TIẾP THEO, không ngồi kiểm tra phần vừa nghe. Lạc thì bám từ khóa câu sau.
+      - title_vi: "Writing: Task 2 trước hoặc chia 20/40"
+        text_vi: "Task 2 chiếm 2/3 điểm Writing. Chia cứng: 20 phút Task 1, 40 phút Task 2 (gồm 5 phút dàn ý, 3 phút soát lỗi). Thiếu từ bị trừ điểm nhiều hơn một vài lỗi nhỏ."
+      - title_vi: "Speaking: phát triển ý, không học thuộc"
+        text_vi: "Part 1: 2–4 câu. Part 2: đủ 4 gợi ý, 1 phút 30 trở lên. Part 3: paraphrase → A-R-E-A."
+      - title_vi: "Sau bài thi: lập danh sách lỗi"
+        text_vi: "Ghi mỗi câu sai vào một trong 3 cột: (1) không biết từ/ngữ pháp, (2) hiểu sai câu hỏi/bẫy, (3) hết thời gian. Cột nào dài nhất là việc cần làm ở Giai đoạn 3."
+    tips:
+      - Viết đáp án Listening/Reading bằng chữ IN HOA nếu chữ viết tay khó đọc — cả hai đều được chấp nhận.
+      - "Reading: đáp án T/F/NG viết đúng kiểu đề yêu cầu (TRUE/FALSE/NOT GIVEN hoặc YES/NO/NOT GIVEN)."
+      - "Trước ngày thi: không học mới. Ôn danh sách lỗi của riêng bạn."
+    traps:
+      - trap_vi: Dành 10 phút cho một câu matching headings.
+        fix_vi: Đặt giới hạn 2 phút/câu; đoán và đi tiếp.
+      - trap_vi: Task 1 viết 250 từ, Task 2 chỉ còn 15 phút.
+        fix_vi: Task 1 chỉ cần 160–180 từ. Đồng hồ là giám khảo nghiêm nhất.
+      - trap_vi: Chọn F khi bài không đề cập (T/F/NG).
+        fix_vi: Không có thông tin → NG. Đây là lỗi riêng bạn hay mắc — kiểm tra kỹ từng câu F.
+      - trap_vi: Nối câu bằng dấu phẩy, quên -s, quên viết hoa I.
+        fix_vi: 3 phút cuối Writing chỉ để soát đúng 3 lỗi này.
+    phrases:
+      - en: Could you repeat the question, please?
+        vi: Xin nhắc lại câu hỏi được không ạ?
+        note_vi: Speaking — được phép hỏi lại, không bị trừ điểm.
+      - en: That's an interesting question. Let me think…
+        vi: Câu hỏi thú vị đấy. Để tôi nghĩ…
+        note_vi: Mua thời gian Part 3.
+      - en: Could I start again?
+        vi: Tôi nói lại từ đầu được không?
+        note_vi: Khi nói nhầm ngay đầu Part 2.
+    demo:
+      title_vi: "Làm mẫu: phân bổ 60 phút Reading"
+      text_en: |-
+        Passage 1 (13 questions): 17 minutes  — easier text, gain time here
+        Passage 2 (13 questions): 20 minutes
+        Passage 3 (14 questions): 23 minutes  — hardest text, most time
+
+        Inside each passage:
+        1. Read the title and skim the first line of each paragraph (2 min)
+        2. Do questions that follow the text order first (T/F/NG, completion)
+        3. Do matching questions last
+        4. Transfer answers immediately — there is NO extra time in Reading
+      notes:
+        - label: No extra time
+          text_vi: "Khác Listening: Reading không có thời gian chép đáp án — viết thẳng vào phiếu."
+        - label: Passage 1 nhanh hơn
+          text_vi: Bài đầu dễ nhất; tiết kiệm được phút nào dành cho bài 3.
+        - label: Matching làm sau
+          text_vi: Khi làm xong các dạng khác, bạn đã quen nội dung từng đoạn (Buổi 37).
+  - type: examples
+    items:
+      - b45-001
+      - b45-002
+      - b45-003
+      - b45-004
+      - b45-005
+      - b45-006
+      - b45-007
+      - b45-008
+  - type: dialogue
+    title_vi: Rà lỗi sau bài thi thử
+    lines:
+      - speaker: A
+        text: How did the mock test go?
+        vi: Bài thi thử thế nào?
+      - speaker: B
+        text: Listening was OK, but I ran out of time in Reading. I spent ages on the matching headings.
+        vi: Nghe thì ổn, nhưng phần Đọc tớ hết giờ. Tớ mất quá nhiều thời gian cho matching headings.
+      - speaker: A
+        text: Next time, do them last. If you do the T/F/NG questions first, you'll know the paragraphs better.
+        vi: Lần sau làm phần đó cuối cùng. Nếu cậu làm T/F/NG trước, cậu sẽ nắm các đoạn rõ hơn.
+      - speaker: B
+        text: Good point. And in Writing, my teacher said I had made the same mistake five times.
+        vi: Đúng. Còn phần Viết, cô bảo tớ mắc cùng một lỗi năm lần.
+      - speaker: A
+        text: Which one?
+        vi: Lỗi gì?
+      - speaker: B
+        text: Joining sentences with a comma instead of a full stop.
+        vi: Nối câu bằng dấu phẩy thay vì dấu chấm.
+      - speaker: A
+        text: That's easy to fix. Check every 'however' before you finish so that you don't lose marks.
+        vi: Dễ sửa mà. Kiểm tra mọi chữ 'however' trước khi nộp để không mất điểm.
+      - speaker: B
+        text: I will. Despite the mistakes, I feel ready for Stage 3.
+        vi: Tớ sẽ làm vậy. Dù còn lỗi, tớ thấy sẵn sàng cho Giai đoạn 3 rồi.
+  - type: exercises
+    items:
+      - id: b45-x1
+        bank_no: 13
+        kind: tfng
+        instructions_vi: "Reading (mô phỏng, 8 phút cho bài 1 và bài 2): đọc bài và chọn T (True), F (False) hoặc NG (Not Given)."
+        passage: |-
+          THE SHARING ECONOMY
+
+          A  In the past ten years, a new kind of business has grown quickly in Asian cities. Instead of owning things, people now share them through apps: cars, bicycles, rooms and even clothes. Supporters say this 'sharing economy' saves money and reduces waste, because fewer products need to be manufactured.
+
+          B  Ride-sharing apps are the best-known example. In Ho Chi Minh City, a survey in 2023 found that almost two thirds of young office workers had used a ride-sharing app in the previous week. Many said they had sold their own motorbike, since sharing was cheaper than paying for parking and repairs.
+
+          C  However, the sharing economy has also created problems. Drivers usually work as freelancers, so they have little job security and no paid holidays. In addition, some cities have complained that shared bicycles are left on pavements, where they block pedestrians.
+
+          D  Governments are now trying to find a balance. Some have introduced rules so that app companies must pay part of their drivers' insurance. Others have limited the number of shared bicycles that each company can put on the streets. Experts believe that if these rules are enforced, the sharing economy can continue to grow without harming workers or cities.
+        questions:
+          - q: The sharing economy has developed quickly in Asian cities over the last decade.
+            answer: T
+          - q: The sharing economy increases the number of products that need to be made.
+            answer: F
+          - q: Most young office workers in the survey owned a car.
+            answer: NG
+            explain_vi: Bài nói về ride-sharing và bán xe máy — không có thông tin về sở hữu ô tô. NG, không phải F.
+          - q: Ride-sharing drivers usually have good job security.
+            answer: F
+          - q: All cities have banned shared bicycles.
+            answer: F
+            explain_vi: Một số thành phố GIỚI HẠN số lượng — không cấm.
+          - q: Experts think the rules must be enforced for the sharing economy to grow safely.
+            answer: T
+      - id: b45-x2
+        bank_no: 14
+        kind: mcq
+        instructions_vi: "Matching headings: chọn tiêu đề đúng cho mỗi đoạn của bài 'The sharing economy' ở bài 1. Có 2 tiêu đề thừa."
+        passage: |-
+          THE SHARING ECONOMY
+
+          A  In the past ten years, a new kind of business has grown quickly in Asian cities. Instead of owning things, people now share them through apps: cars, bicycles, rooms and even clothes. Supporters say this 'sharing economy' saves money and reduces waste, because fewer products need to be manufactured.
+
+          B  Ride-sharing apps are the best-known example. In Ho Chi Minh City, a survey in 2023 found that almost two thirds of young office workers had used a ride-sharing app in the previous week. Many said they had sold their own motorbike, since sharing was cheaper than paying for parking and repairs.
+
+          C  However, the sharing economy has also created problems. Drivers usually work as freelancers, so they have little job security and no paid holidays. In addition, some cities have complained that shared bicycles are left on pavements, where they block pedestrians.
+
+          D  Governments are now trying to find a balance. Some have introduced rules so that app companies must pay part of their drivers' insurance. Others have limited the number of shared bicycles that each company can put on the streets. Experts believe that if these rules are enforced, the sharing economy can continue to grow without harming workers or cities.
+
+          Headings:
+          i    Negative effects on workers and the street
+          ii   How governments are responding
+          iii  The history of car ownership
+          iv   What the sharing economy is and why people like it
+          v    A popular example from Vietnam
+          vi   Why apps are expensive
+        questions:
+          - q: Paragraph A
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: d
+          - q: Paragraph B
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: e
+          - q: Paragraph C
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: a
+          - q: Paragraph D
+            options:
+              - i
+              - ii
+              - iii
+              - iv
+              - v
+              - vi
+            answer: b
+      - id: b45-x3
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Listening Part 1 (mô phỏng): nghe cuộc gọi và điền form. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ. Nghe 1 lần."
+        max_words: 2
+        audio_text: |-
+          Woman: Good morning, City Language Centre. How can I help?
+          Man: Hi, I'd like to book an IELTS mock test for my sister.
+          Woman: Of course. What's her name?
+          Man: Nguyen Thi Hoa. H-O-A.
+          Woman: And her date of birth?
+          Man: The fourteenth of March, 2004.
+          Woman: Which test would she like — the full test or the short version?
+          Man: The full test, please. Oh, sorry — she only has a morning free, so the short version.
+          Woman: No problem. The short version is on Saturdays at 8.30. It costs 350,000 dong.
+          Man: Can she pay by card?
+          Woman: Yes, or by bank transfer. And please tell her to bring her ID card and a pencil.
+        passage: |-
+          MOCK TEST BOOKING FORM
+          Name: Nguyen Thi (1) ___
+          Date of birth: (2) ___ March 2004
+          Test type: (3) ___ version
+          Day: (4) ___
+          Start time: (5) ___
+          Bring: ID card and a (6) ___
+        questions:
+          - q: (1)
+            answer: Hoa
+          - q: (2)
+            answer: "14"
+            accept:
+              - 14th
+              - fourteenth
+          - q: (3)
+            answer: short
+            explain_vi: "Bẫy tự sửa: 'The full test, please. Oh, sorry — … the short version'."
+          - q: (4)
+            answer: Saturday
+            accept:
+              - Saturdays
+          - q: (5)
+            answer: "8.30"
+            accept:
+              - 8:30
+              - 8.30 am
+              - 8:30 am
+          - q: (6)
+            answer: pencil
+      - id: b45-x4
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Listening Part 3 (mô phỏng): nghe hai sinh viên và giảng viên (nhiều giọng) rồi chọn đáp án đúng."
+        audio_text: |-
+          Tutor: So, what did you find in your survey about part-time jobs?
+          Linh: Well, about seventy per cent of students have a part-time job. Most of them work in cafés or teach private lessons.
+          Tutor: Did that surprise you?
+          Khoa: A little. We expected money to be the main reason, but most students said they work to gain experience.
+          Tutor: Interesting. Any negative effects?
+          Linh: Yes. Students who work more than twenty hours a week had lower marks. So we think universities should give advice about working hours.
+          Khoa: I'm not sure advice is enough. I think the limit should be written into the rules.
+          Tutor: Well, you'll need to agree before you write the conclusion.
+        questions:
+          - q: What proportion of students have a part-time job?
+            options:
+              - about half
+              - about 70%
+              - about a third
+            answer: b
+          - q: What was the main reason students gave for working?
+            options:
+              - money
+              - experience
+              - friends
+            answer: b
+            explain_vi: "'We expected money… but most students said… to gain experience'."
+          - q: What was the negative effect of working more than 20 hours?
+            options:
+              - lower marks
+              - poor health
+              - less sleep
+            answer: a
+          - q: What does Khoa think?
+            options:
+              - Advice is enough.
+              - A limit should be in the rules.
+              - Students should not work.
+            answer: b
+      - id: b45-x5
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Listening Part 4 (đoạn ngắn): nghe rồi chọn T (đúng) hoặc F (sai)."
+        audio_text: In the final part of today's lecture, I'll summarise the effects of the four-day week trial. Productivity did not fall; in fact, it rose slightly in most companies. Staff reported less stress, and fewer people resigned. However, customer service teams found it difficult, so a rota system was introduced. The researchers recommend that the trial should be extended to hospitals next year.
+        questions:
+          - q: Productivity fell during the trial.
+            answer: F
+          - q: Fewer employees resigned.
+            answer: T
+          - q: Customer service teams had no problems.
+            answer: F
+          - q: The trial has already been extended to hospitals.
+            answer: F
+            explain_vi: "'should be extended … next year' — khuyến nghị cho tương lai."
+      - id: b45-x6
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Rà lỗi lặp lại: đoạn Task 2 có 6 lỗi thuộc danh sách ở tab Ngữ pháp (comma splice, although…but, because of, for + V, bị động modal, viết hoa I). Sửa trực tiếp."
+        text: Many young people move to big cities for find jobs, however this causes problems. Although cities offer more opportunities, but the cost of living is very high. Some people cannot buy a house because of prices are rising. In my opinion, more affordable housing should built. i believe this is the best solution.
+        errors:
+          - wrong: for find jobs
+            right: to find jobs
+            why: "Mục đích: to V (Buổi 39)."
+          - wrong: find jobs, however this causes
+            right: find jobs. However, this causes
+            why: "Comma splice: tách câu, However + dấu phẩy (Buổi 30)."
+          - wrong: more opportunities, but the cost
+            right: more opportunities, the cost
+            why: Although không đi với but (Buổi 37).
+          - wrong: because of prices are rising
+            right: because prices are rising
+            why: because + mệnh đề (Buổi 32).
+          - wrong: should built
+            right: should be built
+            why: "Bị động modal: should be + V3 (Buổi 43)."
+          - wrong: i believe
+            right: I believe
+            why: Luôn viết hoa I — lỗi riêng cần tự kiểm tra.
+      - id: b45-x7
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "Ngữ pháp tổng hợp Giai đoạn 2: chọn đáp án đúng."
+        questions:
+          - q: I ___ in Hanoi since 2019.
+            options:
+              - live
+              - lived
+              - have lived
+              - am living
+            answer: c
+          - q: The woman ___ lives next door is a journalist.
+            options:
+              - which
+              - who
+              - whose
+              - where
+            answer: b
+          - q: If fewer tourists ___, the old town would be quieter.
+            options:
+              - come
+              - came
+              - will come
+              - would come
+            answer: b
+          - q: Three men ___ yesterday.
+            options:
+              - arrested
+              - were arrested
+              - have arrested
+              - are arrested
+            answer: b
+          - q: She asked me ___ I lived near the lake.
+            options:
+              - that
+              - if
+              - what
+              - do
+            answer: b
+          - q: ___ being a journalist, he didn't check the source.
+            options:
+              - Although
+              - Despite
+              - However
+              - Even though
+            answer: b
+          - q: Rising rents ___ many families moving to the suburbs.
+            options:
+              - result from
+              - result in
+              - are caused
+              - lead
+            answer: b
+          - q: Hanoi had twice as ___ visitors as Hue.
+            options:
+              - much
+              - many
+              - more
+              - most
+            answer: b
+      - id: b45-x8
+        bank_no: 30
+        kind: speaking-part2
+        instructions_vi: "Speaking (mô phỏng): 1 phút chuẩn bị, nói 2 phút, ghi âm. Sau đó tự hỏi 2 câu Part 3 bên dưới và trả lời theo A-R-E-A. Tự kiểm tra: đủ 4 gợi ý? có ít nhất 3 cấu trúc câu phức của Giai đoạn 2 không?"
+        cue_card:
+          topic: Describe a change in your city or town that you think is positive.
+          points:
+            - what the change is
+            - when it happened
+            - how it has affected people
+            - and explain why you think it is positive
+        sample: "I'd like to talk about the new metro line in my city, which opened a couple of years ago. Before it was built, it used to take me an hour to get to work because of the traffic congestion. Now it takes only twenty-five minutes… (Part 3: Should governments spend more on public transport than on roads? · Will cities have fewer cars in the future?)"
+  - type: homework
+    kind: task2
+    prompt_vi: "Mini mock Writing: viết Task 2 hoàn chỉnh trong ĐÚNG 40 phút (bấm giờ), ≥ 250 từ. Đây là dạng two-part question. Sau khi viết, dùng danh sách lỗi ở tab Ngữ pháp để tự rà trong 5 phút và gạch chân mọi lỗi tìm được trước khi nộp."
+    prompt_en: In many countries, more and more people are moving from rural areas to big cities. Why is this happening? Is it a positive or negative development?
+    words:
+      min: 250
+      max: 290
+    minutes: 40

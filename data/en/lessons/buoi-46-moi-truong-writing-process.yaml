@@ -1,0 +1,343 @@
+# Buổi 46 — Môi trường (nâng cao) · Writing Task 1: sơ đồ quy trình. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-46-moi-truong-writing-process
+number: 46
+stage: 3
+title_vi: "Môi trường (nâng cao) · Writing Task 1: sơ đồ quy trình"
+focus:
+  grammar: Bị động hiện tại + từ chỉ trình tự (once, after being V3)
+  skill: Writing Task 1 — process diagram
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: vocabulary
+    items:
+      - process|n
+      - stage|n
+      - diagram|n
+      - raw-material|phr-n
+      - transport|v
+      - heat|v
+      - filter|v
+      - purify|v
+      - store|v
+      - sort|v
+      - crush|v
+      - melt|v
+      - package|v
+      - deliver|v
+      - reservoir|n
+      - subsequently|adv
+      - once|conj
+      - landfill|n
+      - compost|n
+  - type: pronunciation
+    notes:
+      - word: transport|v
+        text_vi: "Động từ trans-PORT, danh từ TRANS-port. Trong bài process chủ yếu là động từ bị động: are trans-PORT-ed /ɪd/."
+      - word: reservoir|n
+        text_vi: "REZ-ə-vwah /ˈrez.ə.vwɑː/: -voir đọc /vwɑː/, không đọc 'vơ'."
+      - word: purify|v
+        text_vi: "PU-ri-fy /ˈpjʊə.rɪ.faɪ/: u đọc /jʊə/ như 'pure'."
+      - word: subsequently|adv
+        text_vi: "SUB-se-quent-ly: 4 âm tiết, nhấn âm 1."
+      - word: heat|v
+        text_vi: "Đuôi -ed sau /t/, /d/ đọc /ɪd/: heated, collected, transported, sorted — thêm một âm tiết."
+  - type: grammar
+    items:
+      - en-g3-01
+  - type: skill
+    skill: writing
+    title_vi: Writing Task 1 — sơ đồ quy trình (process diagram)
+    intro_vi: "Đề cho một sơ đồ các bước (sản xuất gạch, tái chế chai nhựa, xử lý nước…). Không có số liệu để so sánh, nên nhiều bạn thấy 'dễ' nhưng hay mất điểm vì (1) bỏ sót bước, (2) viết như danh sách rời rạc, (3) sai bị động. Bố cục 4 đoạn vẫn giữ: mở bài → overview (số bước, điểm đầu → điểm cuối) → thân bài 1 (nửa đầu quy trình) → thân bài 2 (nửa sau)."
+    steps:
+      - title_vi: Đếm bước và xác định điểm đầu, điểm cuối
+        text_vi: Có mấy bước? Bắt đầu từ đâu (nguyên liệu), kết thúc ở đâu (sản phẩm)? Là quy trình nhân tạo (bị động) hay tự nhiên (chủ động)? Có phải vòng tròn (cycle) không?
+      - title_vi: "Mở bài: paraphrase"
+        text_vi: The diagram shows how… → The diagram illustrates the process by which… / the stages involved in…
+      - title_vi: "Overview: số bước + đầu → cuối"
+        text_vi: "'Overall, there are six main stages in the process, beginning with the collection of used bottles and ending with the production of new plastic items.' Không đi vào chi tiết từng bước."
+      - title_vi: Chia thân bài theo nửa quy trình
+        text_vi: "Thân bài 1: bước 1–3; thân bài 2: bước 4–6. Mỗi bước ít nhất một câu; giữ đúng thứ tự mũi tên."
+      - title_vi: Dùng từ trong sơ đồ, đổi dạng
+        text_vi: Nhãn trong sơ đồ thường là danh từ (collection, sorting) → đổi thành động từ bị động (are collected, are sorted). Giữ thuật ngữ kỹ thuật, không cố tìm từ đồng nghĩa.
+      - title_vi: Soát lỗi
+        text_vi: Mỗi câu bị động có đủ be + V3? -ed đúng? Có bỏ sót bước nào không?
+    tips:
+      - Cần tối thiểu 150 từ — sơ đồ ít chữ, nên thêm chi tiết có trong hình (nhiệt độ, thời gian, địa điểm).
+      - "Luân phiên: First → Next → After that → Once … → Subsequently → Finally. Không lặp 'Then' năm lần."
+      - Không thêm thông tin ngoài sơ đồ (không giải thích vì sao phải lọc nước).
+    traps:
+      - trap_vi: "Viết chủ động sai: 'The bottles collect'."
+        fix_vi: "Quy trình nhân tạo → bị động: are collected."
+      - trap_vi: Overview liệt kê từng bước.
+        fix_vi: "Overview chỉ: số bước + bắt đầu + kết thúc (+ vòng tròn hay không)."
+      - trap_vi: Bỏ sót bước nhỏ (VD bước làm khô).
+        fix_vi: Đánh số các bước trên đề trước khi viết, gạch khi đã viết xong.
+    phrases:
+      - en: The diagram illustrates the process by which …
+        vi: Sơ đồ minh họa quy trình mà qua đó …
+        note_vi: Mở bài.
+      - en: Overall, there are … main stages, beginning with … and ending with …
+        vi: Nhìn chung, có … giai đoạn chính, bắt đầu với … và kết thúc với …
+        note_vi: Overview.
+      - en: At the first stage, …
+        vi: Ở giai đoạn đầu, …
+      - en: Once … has been …, it is …
+        vi: Sau khi … đã được …, nó được …
+      - en: After being …, the … is …
+        vi: Sau khi được …, … được …
+      - en: In the final stage, …
+        vi: Ở giai đoạn cuối, …
+    demo:
+      title_vi: "Làm mẫu: bài process tái chế chai nhựa (sơ đồ mô tả bằng lời để luyện tập)"
+      text_en: |-
+        Diagram (6 stages): 1 used bottles collected from homes → 2 taken to a recycling plant and sorted by colour → 3 crushed into flakes → 4 washed and dried → 5 melted and formed into pellets → 6 pellets sold to factories to make new products (clothes, bottles, furniture).
+
+        Introduction: The diagram illustrates the process by which used plastic bottles are recycled to make new products.
+
+        Overview: Overall, there are six main stages in the process, beginning with the collection of used bottles and ending with the production of new items such as clothes and furniture.
+
+        Body 1: At the first stage, used bottles are collected from homes and taken to a recycling plant. There, they are sorted according to their colour. Once the bottles have been sorted, they are crushed into small flakes.
+
+        Body 2: After being washed and dried, the flakes are melted down and formed into small pellets. Finally, these pellets are sold to factories, where they are used as raw materials to make a range of new products, including clothes, bottles and furniture.
+      notes:
+        - label: process by which
+          text_vi: Paraphrase 'shows how' — cụm học thuật, dùng một lần ở mở bài.
+        - label: Overview
+          text_vi: "Số bước (six) + bắt đầu (collection) + kết thúc (new items). Danh từ hóa: the collection of, the production of."
+        - label: Once … have been sorted
+          text_vi: Gộp bước 2 và 3; hiện tại hoàn thành bị động sau once.
+        - label: After being washed … where …
+          text_vi: Hai cách gộp bước khác; where nối bước 6 với nơi dùng pellets.
+  - type: examples
+    items:
+      - b46-001
+      - b46-002
+      - b46-003
+      - b46-004
+      - b46-005
+      - b46-006
+      - b46-007
+      - b46-008
+      - b46-009
+      - b46-010
+      - b46-011
+  - type: dialogue
+    title_vi: Tham quan nhà máy nước
+    lines:
+      - speaker: A
+        text: So where does the water come from?
+        vi: Vậy nước đến từ đâu ạ?
+      - speaker: B
+        text: It's pumped from the river into this tank. At this stage, it's still very dirty.
+        vi: Nó được bơm từ sông vào bể này. Ở giai đoạn này, nước vẫn rất bẩn.
+      - speaker: A
+        text: And then it's cleaned?
+        vi: Rồi nó được làm sạch?
+      - speaker: B
+        text: Yes. First, it's filtered through sand and small stones to remove the mud.
+        vi: Đúng. Đầu tiên, nước được lọc qua cát và sỏi nhỏ để loại bỏ bùn.
+      - speaker: A
+        text: What about bacteria?
+        vi: Còn vi khuẩn thì sao?
+      - speaker: B
+        text: Once it has been filtered, chemicals are added to purify it.
+        vi: Sau khi được lọc, hóa chất được thêm vào để làm sạch.
+      - speaker: A
+        text: Where is it kept after that?
+        vi: Sau đó nó được giữ ở đâu?
+      - speaker: B
+        text: It's stored in a reservoir on the hill, and finally it's delivered to homes through pipes.
+        vi: Nó được trữ trong hồ chứa trên đồi, và cuối cùng được đưa đến các nhà qua đường ống.
+  - type: exercises
+    items:
+      - id: b46-x1
+        bank_no: 8
+        kind: transformation
+        instructions_vi: Viết lại các bước dưới dạng câu bị động hiện tại.
+        questions:
+          - q: Workers collect the bottles. → The bottles ___
+            answer: are collected by workers.
+            accept:
+              - are collected.
+          - q: The machine crushes the glass into small pieces. → The glass ___
+            answer: is crushed into small pieces.
+            accept:
+              - is crushed into small pieces by the machine.
+          - q: They heat the mixture to 900°C. → The mixture ___
+            answer: is heated to 900°C.
+          - q: Lorries deliver the bricks to building sites. → The bricks ___
+            answer: are delivered to building sites.
+            accept:
+              - are delivered to building sites by lorries.
+              - are delivered to building sites by lorry.
+      - id: b46-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: Gộp hai bước thành một câu bằng từ trong ngoặc.
+        questions:
+          - q: The bottles are sorted. Then they are crushed into flakes. (Once)
+            answer: Once the bottles have been sorted, they are crushed into flakes.
+          - q: The flakes are washed. Then they are melted down. (After being)
+            answer: After being washed, the flakes are melted down.
+          - q: The water is pumped into a tank. In the tank, it is filtered. (where)
+            answer: The water is pumped into a tank, where it is filtered.
+            accept:
+              - The water is pumped into a tank, where it is filtered through sand.
+      - id: b46-x3
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - q: In the first stage, the clay ___ from the ground.
+            options:
+              - digs
+              - is dug
+              - is digging
+              - dug
+            answer: b
+          - q: In the water cycle, water ___ from the sea because of the sun's heat.
+            options:
+              - evaporates
+              - is evaporated
+              - has evaporated by
+              - evaporating
+            answer: a
+            explain_vi: Quy trình tự nhiên → chủ động.
+          - q: After ___, the bricks are packed.
+            options:
+              - cool
+              - cooling down
+              - being cooled
+              - cooled
+            answer: c
+          - q: Which is the best overview?
+            options:
+              - Overall, first the bottles are collected, then sorted, then crushed, then washed.
+              - Overall, there are six main stages, beginning with the collection of bottles and ending with the production of new items.
+              - Overall, recycling is good for the environment.
+              - Overall, the bottles are melted at a high temperature.
+            answer: b
+          - q: "Choose the best linking word: 'The bricks are dried for 48 hours. ___, they are heated in a kiln.'"
+            options:
+              - Subsequently
+              - However
+              - Although
+              - Because
+            answer: a
+      - id: b46-x4
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài có 5 lỗi (bị động, -ed, after being, giới từ). Sửa trực tiếp.
+        text: At the first stage, the food waste collect from restaurants. It is then transport to a composting plant. After mixed with dry leaves, the waste is left for eight weeks. Once it has turned into compost, it is packaged on bags. Finally, the compost sold to farmers.
+        errors:
+          - wrong: the food waste collect from
+            right: the food waste is collected from
+            why: "Bị động: is + V3."
+          - wrong: is then transport to
+            right: is then transported to
+            why: Sau be là V3 (transported).
+          - wrong: After mixed with
+            right: After being mixed with
+            why: after + being + V3.
+          - wrong: packaged on bags
+            right: packaged in bags
+            why: packaged IN bags/boxes.
+          - wrong: the compost sold to
+            right: the compost is sold to
+            why: Thiếu be.
+      - id: b46-x5
+        bank_no: 24
+        kind: completion
+        instructions_vi: Hoàn thành bài mô tả quy trình làm phân hữu cơ (sơ đồ mô tả bằng lời). Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        passage: |-
+          Diagram: food waste collected → (sorted: plastic removed) → mixed with leaves → left 8 weeks (turned regularly) → compost packaged → sold to farmers
+
+          The diagram illustrates the process (1) ___ which food waste is turned into compost. Overall, there are six main (2) ___, beginning with the collection of waste and ending with the sale of compost. First, food waste is (3) ___ from homes and restaurants. After (4) ___ sorted to remove plastic, it is mixed with dry leaves. The mixture is then left for eight weeks and turned regularly. (5) ___ it has become compost, it is packaged and sold to farmers.
+        questions:
+          - q: (1)
+            answer: by
+          - q: (2)
+            answer: stages
+            accept:
+              - steps
+          - q: (3)
+            answer: collected
+          - q: (4)
+            answer: being
+          - q: (5)
+            answer: Once
+            accept:
+              - once
+      - id: b46-x6
+        bank_no: 2
+        kind: match-definition
+        instructions_vi: Nối động từ với định nghĩa tiếng Anh.
+        pairs:
+          - left: filter
+            right: to pass a liquid through something to remove dirt
+          - left: purify
+            right: to make something completely clean
+          - left: crush
+            right: to press something until it breaks into small pieces
+          - left: melt
+            right: to make something solid become liquid by heating it
+          - left: sort
+            right: to put things into groups by type
+          - left: store
+            right: to keep something somewhere until it is needed
+      - id: b46-x7
+        bank_no: 19
+        kind: completion
+        instructions_vi: Nghe hướng dẫn viên ở nhà máy tái chế (hai giọng) và hoàn thành sơ đồ. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        audio_text: |-
+          Woman: Welcome to the glass recycling plant. The process has five stages. First, glass bottles are collected from special bins in the street.
+          Man: Are they all mixed together?
+          Woman: At first, yes. So at the second stage, they're sorted by colour: clear, green and brown.
+          Man: And then?
+          Woman: Then they're crushed into tiny pieces called cullet. After being cleaned, the cullet is melted in a furnace at about fifteen hundred degrees.
+          Man: That's hot! And finally?
+          Woman: Finally, the liquid glass is shaped into new bottles and jars.
+        passage: |-
+          GLASS RECYCLING
+          Bottles collected from bins → sorted by (1) ___ → crushed into small pieces (called (2) ___) → cleaned and melted in a (3) ___ at about 1,500°C → shaped into new bottles and (4) ___
+        questions:
+          - q: (1)
+            answer: colour
+            accept:
+              - color
+          - q: (2)
+            answer: cullet
+          - q: (3)
+            answer: furnace
+          - q: (4)
+            answer: jars
+      - id: b46-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe đoạn mô tả chu trình nước rồi chọn T (đúng) hoặc F (sai). Chú ý: quy trình tự nhiên dùng chủ động."
+        audio_text: The water cycle is a natural process with four main stages. First, the sun heats water in the sea, and it evaporates. The water vapour rises and cools, forming clouds. When the clouds become heavy, the water falls back to the ground as rain or snow. Finally, the water flows through rivers back to the sea, and the cycle begins again.
+        questions:
+          - q: The water cycle has four main stages.
+            answer: T
+          - q: Water vapour cools as it rises.
+            answer: T
+          - q: Clouds form before the water evaporates.
+            answer: F
+          - q: The water cycle has a clear end point.
+            answer: F
+            explain_vi: "'the cycle begins again' — quy trình vòng tròn."
+  - type: homework
+    kind: task1
+    prompt_vi: Viết Task 1 (≥ 150 từ, 20 phút) cho sơ đồ quy trình dưới đây (sơ đồ mô tả bằng lời). Bố cục 4 đoạn; overview nêu số bước + đầu → cuối. Dùng ít nhất 2 câu gộp bước (once / after being / where) và 4 từ chỉ trình tự khác nhau.
+    prompt_en: |-
+      The diagram shows how bricks are made for the building industry.
+      1 Clay is dug from the ground by a large digger → 2 clay is put through a metal grid and mixed with sand and water → 3 the mixture is shaped into bricks using a mould or a wire cutter → 4 bricks are dried in a drying oven for 24–48 hours → 5 bricks are heated in a kiln at 200–1,300°C → 6 bricks are cooled for 48–72 hours → 7 bricks are packaged and delivered to building sites.
+      Summarise the information by selecting and reporting the main features.
+    words:
+      min: 150
+      max: 190
+    minutes: 20

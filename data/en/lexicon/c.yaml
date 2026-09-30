@@ -1580,3 +1580,1130 @@ entries:
       - source: ai-draft
         field: meaning_vi
     status: draft
+  - id: close-knit|adj
+    headword: close-knit
+    pos: adj
+    ipa:
+      uk: /ˌkləʊsˈnɪt/
+      us: /ˌkloʊsˈnɪt/
+    cefr: null
+    meaning_vi:
+      - gắn bó khăng khít
+    collocations:
+      - a close-knit family
+      - a close-knit community
+    notes_vi:
+      - "k câm: knit /nɪt/. close đọc /kləʊs/ (âm s), không phải /kləʊz/ như động từ close."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/close-knit, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/close-knit, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: communicate|v
+    headword: communicate
+    pos: v
+    ipa:
+      uk: /kəˈmjuː.nɪ.keɪt/
+      us: /kəˈmjuː.nə.keɪt/
+    stress: com-MU-ni-cate
+    cefr: A2
+    meaning_vi:
+      - giao tiếp
+      - trao đổi
+    collocations:
+      - communicate with your parents
+      - communicate clearly
+    notes_vi:
+      - "communicate WITH somebody. Danh từ: communication (com-mu-ni-CA-tion)."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/communicate, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/communicate, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: childhood|n
+    headword: childhood
+    pos: n
+    ipa:
+      uk: /ˈtʃaɪld.hʊd/
+      us: /ˈtʃaɪld.hʊd/
+    cefr: B1
+    meaning_vi:
+      - thời thơ ấu
+    collocations:
+      - a happy childhood
+      - in my childhood
+      - childhood memories
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/childhood, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/childhood, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/childhood, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cultural-heritage|phr-n
+    headword: cultural heritage
+    pos: phr-n
+    ipa:
+      uk: /ˌkʌl.tʃər.əl ˈher.ɪ.tɪdʒ/
+      us: /ˌkʌl.tʃɚ.əl ˈher.ə.t̬ɪdʒ/
+    cefr: null
+    meaning_vi:
+      - di sản văn hóa
+    collocations:
+      - protect cultural heritage
+      - part of our cultural heritage
+      - a World Heritage Site
+    notes_vi:
+      - "heritage không đếm được: *heritages* ❌."
+    topics:
+      - travel
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: culture|n
+    headword: culture
+    pos: n
+    ipa:
+      uk: /ˈkʌl.tʃər/
+      us: /ˈkʌl.tʃɚ/
+    cefr: A1
+    meaning_vi:
+      - văn hóa
+    collocations:
+      - local culture
+      - learn about a different culture
+    notes_vi:
+      - "Tính từ: cultural. *a culture festival* → a cultural festival."
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/culture, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/culture, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/culture, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cultural-identity|phr-n
+    headword: cultural identity
+    pos: phr-n
+    ipa:
+      uk: /ˌkʌl.tʃər.əl aɪˈden.tə.ti/
+      us: /ˌkʌl.tʃɚ.əl aɪˈden.t̬ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - bản sắc văn hóa
+    collocations:
+      - lose its cultural identity
+      - keep a strong cultural identity
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: custom|n
+    headword: custom
+    pos: n
+    ipa:
+      uk: /ˈkʌs.təm/
+      us: /ˈkʌs.təm/
+    cefr: B1
+    meaning_vi:
+      - phong tục
+    collocations:
+      - local customs
+      - respect the customs of
+    notes_vi:
+      - customs (số nhiều, có s) còn có nghĩa là HẢI QUAN ở sân bay.
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/custom, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/custom, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/custom, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: category|n
+    headword: category
+    pos: n
+    forms:
+      plural: categories
+    ipa:
+      uk: /ˈkæt.ə.ɡər.i/
+      us: /ˈkæt̬.ə.ɡɔːr.i/
+    stress: CAT-e-go-ry
+    cefr: B1
+    meaning_vi:
+      - hạng mục
+      - loại
+    collocations:
+      - in each category
+      - the largest category
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/category, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/category, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/category, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: compared-with|colloc
+    headword: compared with
+    pos: colloc
+    ipa:
+      uk: /kəmˈpeəd wɪð/
+      us: /kəmˈperd wɪð/
+    cefr: null
+    meaning_vi:
+      - so với
+    collocations:
+      - compared with last year
+      - compared to 2010
+    notes_vi:
+      - compared with = compared to (đều đúng). Theo sau là danh từ.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: city-centre|phr-n
+    headword: city centre
+    pos: phr-n
+    ipa:
+      uk: /ˌsɪt.i ˈsen.tər/
+      us: /ˌsɪt̬.i ˈsen.t̬ɚ/
+    cefr: null
+    meaning_vi:
+      - trung tâm thành phố
+    collocations:
+      - in the city centre
+      - move out of the city centre
+    notes_vi:
+      - "Anh-Mỹ: downtown."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/city-centre, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/city-centre, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cost-of-living|phr-n
+    headword: cost of living
+    pos: phr-n
+    ipa:
+      uk: /ˌkɒst əv ˈlɪv.ɪŋ/
+      us: /ˌkɑːst əv ˈlɪv.ɪŋ/
+    cefr: null
+    meaning_vi:
+      - chi phí sinh hoạt
+    collocations:
+      - the high cost of living
+      - the cost of living in big cities
+    topics:
+      - city
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: censorship|n
+    headword: censorship
+    pos: n
+    ipa:
+      uk: /ˈsen.sə.ʃɪp/
+      us: /ˈsen.sɚ.ʃɪp/
+    stress: CEN-sor-ship
+    cefr: null
+    meaning_vi:
+      - sự kiểm duyệt
+    collocations:
+      - media censorship
+      - strict censorship
+      - internet censorship
+    notes_vi:
+      - "Động từ: censor (kiểm duyệt). Không nhầm với sensor (cảm biến) — cùng cách đọc."
+    topics:
+      - media
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/censorship, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/censorship, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: claim|v
+    headword: claim
+    pos: v
+    ipa:
+      uk: /kleɪm/
+      us: /kleɪm/
+    cefr: B1
+    meaning_vi:
+      - cho rằng
+      - khẳng định (thường chưa chắc đúng)
+    collocations:
+      - claim that …
+      - some people claim
+    notes_vi:
+      - claim that + mệnh đề. Mạnh hơn say, và người viết thường không hoàn toàn tin — dùng để thuật ý người khác trong Discussion.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/claim, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/claim, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/claim, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: content|n
+    headword: content
+    pos: n
+    ipa:
+      uk: /ˈkɒn.tent/
+      us: /ˈkɑːn.tent/
+    stress: CON-tent
+    cefr: B1
+    meaning_vi:
+      - nội dung
+    collocations:
+      - online content
+      - violent content
+      - content creators
+    notes_vi:
+      - Danh từ nhấn âm 1 (CON-tent); tính từ con-TENT nghĩa là 'hài lòng'.
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/content_1, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/content_1, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/content_1, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: cultural-homogenisation|phr-n
+    headword: cultural homogenisation
+    pos: phr-n
+    ipa:
+      uk: /ˌkʌl.tʃər.əl həˌmɒdʒ.ən.aɪˈzeɪ.ʃən/
+      us: /ˌkʌl.tʃɚ.əl həˌmɑː.dʒə.nəˈzeɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự đồng nhất hóa văn hóa (các nền văn hóa trở nên giống nhau)
+    collocations:
+      - lead to cultural homogenisation
+    notes_vi:
+      - "Từ học thuật, dùng tốt trong Writing Task 2 về toàn cầu hóa. Nói đơn giản: cultures becoming the same."
+    topics:
+      - globalisation
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: consumer|n
+    headword: consumer
+    pos: n
+    ipa:
+      uk: /kənˈsjuː.mər/
+      us: /kənˈsuː.mɚ/
+    stress: con-SU-mer
+    cefr: B1
+    meaning_vi:
+      - người tiêu dùng
+    collocations:
+      - consumers can choose
+      - consumer goods
+    notes_vi:
+      - "Động từ: consume; danh từ trừu tượng: consumption (sự tiêu thụ)."
+    topics:
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumer, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumer, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumer, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: comprise|v
+    headword: comprise
+    pos: v
+    ipa:
+      uk: /kəmˈpraɪz/
+      us: /kəmˈpraɪz/
+    cefr: B2
+    meaning_vi:
+      - bao gồm
+      - gồm có
+    collocations:
+      - the total comprises five categories
+    notes_vi:
+      - The total comprises A, B and C (không dùng *comprises of* trong văn chuẩn; dùng is made up of / consists of).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/comprise, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/comprise, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/comprise, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: combined|adj
+    headword: combined
+    pos: adj
+    ipa:
+      uk: /kəmˈbaɪnd/
+      us: /kəmˈbaɪnd/
+    cefr: null
+    meaning_vi:
+      - gộp lại
+      - cộng lại
+    collocations:
+      - "Combined, they accounted for …"
+      - the combined total
+    notes_vi:
+      - "-ed đọc /d/: kəm-BAIND."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/combined, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/combined, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: citizen|n
+    headword: citizen
+    pos: n
+    ipa:
+      uk: /ˈsɪt.ɪ.zən/
+      us: /ˈsɪt̬.ə.zən/
+    cefr: B2
+    meaning_vi:
+      - công dân
+    collocations:
+      - ordinary citizens
+      - the rights of citizens
+    topics:
+      - government
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/citizen, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/citizen, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: cause|n
+    headword: cause
+    pos: n
+    ipa:
+      uk: /kɔːz/
+      us: /kɑːz/
+    cefr: A2
+    meaning_vi:
+      - nguyên nhân
+    collocations:
+      - the main cause of
+      - one cause of the problem
+    notes_vi:
+      - "the cause OF something (không dùng *for*). Động từ cùng dạng: cause a problem."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cause, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cause, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cause, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: consequence|n
+    headword: consequence
+    pos: n
+    ipa:
+      uk: /ˈkɒn.sɪ.kwəns/
+      us: /ˈkɑːn.sə.kwens/
+    stress: CON-se-quence
+    cefr: B1
+    meaning_vi:
+      - hậu quả
+    collocations:
+      - serious consequences
+      - as a consequence
+      - the consequences of
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consequence, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consequence, checked: 2026-09-29, field: ipa.uk }
+    status: draft
+  - id: campaign|n
+    headword: campaign
+    pos: n
+    ipa:
+      uk: /kæmˈpeɪn/
+      us: /kæmˈpeɪn/
+    cefr: B1
+    meaning_vi:
+      - chiến dịch
+    collocations:
+      - an advertising campaign
+      - launch a campaign
+      - a public awareness campaign
+    notes_vi:
+      - "g câm: kam-PAIN."
+    topics:
+      - government
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/campaign, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/campaign, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/campaign, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: crush|v
+    headword: crush
+    pos: v
+    ipa:
+      uk: /krʌʃ/
+      us: /krʌʃ/
+    cefr: null
+    meaning_vi:
+      - nghiền
+      - ép nát
+    collocations:
+      - be crushed into small pieces
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: compost|n
+    headword: compost
+    pos: n
+    ipa:
+      uk: /ˈkɒm.pɒst/
+      us: /ˈkɑːm.poʊst/
+    cefr: null
+    meaning_vi:
+      - phân hữu cơ (ủ từ rác thực vật)
+    collocations:
+      - turn food waste into compost
+      - make compost
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: construct|v
+    headword: construct
+    pos: v
+    ipa:
+      uk: /kənˈstrʌkt/
+      us: /kənˈstrʌkt/
+    stress: con-STRUCT
+    cefr: null
+    meaning_vi:
+      - xây dựng
+    collocations:
+      - be constructed in the centre
+      - construct a bridge
+    notes_vi:
+      - "Đồng nghĩa: build, erect. Danh từ: construction."
+    topics:
+      - writing
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: convert|v
+    headword: convert
+    pos: v
+    ipa:
+      uk: /kənˈvɜːt/
+      us: /kənˈvɝːt/
+    stress: con-VERT
+    cefr: null
+    meaning_vi:
+      - chuyển đổi (mục đích sử dụng)
+    collocations:
+      - be converted into a hotel
+      - convert A into B
+    notes_vi:
+      - "convert A INTO B (không dùng *to* trong văn chuẩn Task 1). Danh từ: conversion."
+    topics:
+      - writing
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: cycle-lane|phr-n
+    headword: cycle lane
+    pos: phr-n
+    ipa:
+      uk: /ˈsaɪ.kəl ˌleɪn/
+      us: /ˈsaɪ.kəl ˌleɪn/
+    cefr: null
+    meaning_vi:
+      - làn đường xe đạp
+    topics:
+      - city
+      - transport
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: cram|v
+    headword: cram
+    pos: v
+    forms:
+      past: crammed
+      ing: cramming
+    ipa:
+      uk: /kræm/
+      us: /kræm/
+    cefr: null
+    meaning_vi:
+      - học nhồi (sát ngày thi)
+    collocations:
+      - cram for an exam
+      - cram the night before
+    notes_vi:
+      - Văn nói, hợp Speaking; trong Writing dùng 'study intensively at the last minute'.
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: concentrate|v
+    headword: concentrate
+    pos: v
+    ipa:
+      uk: /ˈkɒn.sən.treɪt/
+      us: /ˈkɑːn.sən.treɪt/
+    stress: CON-cen-trate
+    cefr: null
+    meaning_vi:
+      - tập trung
+    collocations:
+      - concentrate on your studies
+      - find it hard to concentrate
+    notes_vi:
+      - concentrate ON something (không dùng *concentrate to*).
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: challenging|adj
+    headword: challenging
+    pos: adj
+    ipa:
+      uk: /ˈtʃæl.ɪn.dʒɪŋ/
+      us: /ˈtʃæl.ən.dʒɪŋ/
+    cefr: null
+    meaning_vi:
+      - khó nhưng thú vị
+      - đầy thử thách
+    collocations:
+      - a challenging subject
+      - find something challenging
+    notes_vi:
+      - Hay hơn 'difficult' trong Speaking vì mang sắc thái tích cực.
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: cybercrime|n
+    headword: cybercrime
+    pos: n
+    ipa:
+      uk: /ˈsaɪ.bə.kraɪm/
+      us: /ˈsaɪ.bɚ.kraɪm/
+    cefr: null
+    meaning_vi:
+      - tội phạm mạng
+    collocations:
+      - a rise in cybercrime
+      - victims of cybercrime
+    topics:
+      - crime
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: crack-down-on|phr-v
+    headword: crack down on
+    pos: phr-v
+    forms:
+      past: cracked down on
+    ipa:
+      uk: /ˌkræk ˈdaʊn ɒn/
+      us: /ˌkræk ˈdaʊn ɑːn/
+    cefr: null
+    meaning_vi:
+      - trấn áp mạnh tay
+    collocations:
+      - crack down on drink-driving
+      - the police cracked down on theft
+    notes_vi:
+      - "Danh từ: a crackdown on … (một đợt trấn áp)."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: consequently|adv
+    headword: consequently
+    pos: adv
+    ipa:
+      uk: /ˈkɒn.sɪ.kwənt.li/
+      us: /ˈkɑːn.sə.kwənt.li/
+    stress: CON-se-quent-ly
+    cefr: null
+    meaning_vi:
+      - do đó
+      - hậu quả là
+    notes_vi:
+      - Trang trọng hơn so/as a result. Đứng đầu câu mới + dấu phẩy — không nối hai mệnh đề bằng dấu phẩy.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: conversely|adv
+    headword: conversely
+    pos: adv
+    ipa:
+      uk: /ˈkɒn.vɜːs.li/
+      us: /ˈkɑːn.vɝːs.li/
+    cefr: null
+    meaning_vi:
+      - ngược lại (chiều ngược)
+    notes_vi:
+      - "Dùng khi ý sau là CHIỀU NGƯỢC của ý trước: Harsh sentences may deter adults. Conversely, they may make teenagers more likely to reoffend."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: corruption|n
+    headword: corruption
+    pos: n
+    ipa:
+      uk: /kəˈrʌp.ʃən/
+      us: /kəˈrʌp.ʃən/
+    cefr: null
+    meaning_vi:
+      - tham nhũng
+    collocations:
+      - fight corruption
+      - political corruption
+    topics:
+      - crime
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: capability|n
+    headword: capability
+    pos: n
+    forms:
+      plural: capabilities
+    ipa:
+      uk: /ˌkeɪ.pəˈbɪl.ə.ti/
+      us: /ˌkeɪ.pəˈbɪl.ə.t̬i/
+    cefr: null
+    meaning_vi:
+      - khả năng
+      - năng lực
+    collocations:
+      - the capabilities of AI
+      - beyond human capability
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: chatbot|n
+    headword: chatbot
+    pos: n
+    ipa:
+      uk: /ˈtʃæt.bɒt/
+      us: /ˈtʃæt.bɑːt/
+    cefr: null
+    meaning_vi:
+      - chatbot
+      - phần mềm trò chuyện tự động
+    collocations:
+      - an AI chatbot
+      - ask a chatbot
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: convenience|n
+    headword: convenience
+    pos: n
+    ipa:
+      uk: /kənˈviː.ni.əns/
+      us: /kənˈviː.ni.əns/
+    stress: con-VEN-ience
+    cefr: null
+    meaning_vi:
+      - sự tiện lợi
+    collocations:
+      - for convenience
+      - the convenience of online shopping
+    topics:
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: counterargument|n
+    headword: counterargument
+    pos: n
+    ipa:
+      uk: /ˈkaʊn.təˌrɑːɡ.jə.mənt/
+      us: /ˈkaʊn.t̬ɚˌɑːrɡ.jə.mənt/
+    cefr: null
+    meaning_vi:
+      - lập luận phản bác
+    collocations:
+      - consider the counterargument
+      - a strong counterargument
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: chronic-disease|phr-n
+    headword: chronic disease
+    pos: phr-n
+    forms:
+      plural: chronic diseases
+    ipa:
+      uk: /ˌkrɒn.ɪk dɪˈziːz/
+      us: /ˌkrɑː.nɪk dɪˈziːz/
+    cefr: null
+    meaning_vi:
+      - bệnh mãn tính
+    collocations:
+      - chronic diseases such as diabetes
+    notes_vi:
+      - "ch đọc /k/: KRON-ik."
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: check-up|n
+    headword: check-up
+    pos: n
+    ipa:
+      uk: /ˈtʃek.ʌp/
+      us: /ˈtʃek.ʌp/
+    cefr: null
+    meaning_vi:
+      - khám sức khỏe định kỳ
+    collocations:
+      - a regular check-up
+      - an annual check-up
+      - go for a check-up
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: consumption|n
+    headword: consumption
+    pos: n
+    ipa:
+      uk: /kənˈsʌmp.ʃən/
+      us: /kənˈsʌmp.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự tiêu thụ
+    collocations:
+      - sugar consumption
+      - the consumption of alcohol
+      - reduce consumption
+    topics:
+      - health
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: contribute-to|phr-v
+    headword: contribute to
+    pos: phr-v
+    ipa:
+      uk: /kənˈtrɪb.juːt tuː/
+      us: /kənˈtrɪb.juːt tuː/
+    stress: con-TRIB-ute to
+    cefr: null
+    meaning_vi:
+      - góp phần gây ra
+    collocations:
+      - contribute to obesity
+      - a major factor contributing to
+    notes_vi:
+      - "contribute to + danh từ/V-ing (to là giới từ). Mềm hơn cause: 'một trong các nguyên nhân'."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: craftsmanship|n
+    headword: craftsmanship
+    pos: n
+    ipa:
+      uk: /ˈkrɑːfts.mən.ʃɪp/
+      us: /ˈkræfts.mən.ʃɪp/
+    cefr: null
+    meaning_vi:
+      - tay nghề
+      - sự khéo léo của người thợ
+    collocations:
+      - fine craftsmanship
+      - traditional craftsmanship
+    topics:
+      - culture
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: commercialise|v
+    headword: commercialise
+    pos: v
+    ipa:
+      uk: /kəˈmɜː.ʃəl.aɪz/
+      us: /kəˈmɝː.ʃəl.aɪz/
+    cefr: null
+    meaning_vi:
+      - thương mại hóa
+    collocations:
+      - festivals have become commercialised
+    notes_vi:
+      - "Anh-Mỹ: commercialize. Thường dùng bị động với sắc thái tiêu cực."
+    topics:
+      - culture
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: come-across|phr-v
+    headword: come across
+    pos: phr-v
+    forms:
+      past: came across
+    ipa:
+      uk: /ˌkʌm əˈkrɒs/
+      us: /ˌkʌm əˈkrɑːs/
+    cefr: null
+    meaning_vi:
+      - tình cờ gặp/thấy
+    collocations:
+      - come across an old photo
+      - come across a new word
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: catch-up-on|phr-v
+    headword: catch up on
+    pos: phr-v
+    forms:
+      past: caught up on
+    ipa:
+      uk: /ˌkætʃ ˈʌp ɒn/
+      us: /ˌkætʃ ˈʌp ɑːn/
+    cefr: null
+    meaning_vi:
+      - bù lại (việc bị lỡ)
+      - cập nhật
+    collocations:
+      - catch up on sleep
+      - catch up on the news
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: culture-shock|phr-n
+    headword: culture shock
+    pos: phr-n
+    ipa:
+      uk: /ˈkʌl.tʃə ˌʃɒk/
+      us: /ˈkʌl.tʃɚ ˌʃɑːk/
+    cefr: null
+    meaning_vi:
+      - sốc văn hóa
+    collocations:
+      - experience culture shock
+      - suffer from culture shock
+    topics:
+      - culture
+      - travel
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

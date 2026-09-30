@@ -1629,3 +1629,889 @@ entries:
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-29, field: ipa.uk }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-29, field: ipa.us }
     status: draft
+  - id: support|v
+    headword: support
+    pos: v
+    ipa:
+      uk: /səˈpɔːt/
+      us: /səˈpɔːrt/
+    stress: sup-PORT
+    cefr: A2
+    meaning_vi:
+      - hỗ trợ
+      - nuôi (về tài chính)
+      - ủng hộ
+    collocations:
+      - support your family
+      - support elderly parents financially
+    notes_vi:
+      - "support somebody (không cần giới từ): support my parents, không nói *support for my parents* khi là động từ."
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/support, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/support, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/support, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: single-parent|phr-n
+    headword: single parent
+    pos: phr-n
+    ipa:
+      uk: /ˌsɪŋ.ɡəl ˈpeə.rənt/
+      us: /ˌsɪŋ.ɡəl ˈper.ənt/
+    cefr: null
+    meaning_vi:
+      - cha/mẹ đơn thân
+    collocations:
+      - a single-parent family
+      - be brought up by a single parent
+    topics:
+      - family
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single-parent, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single-parent, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: strict|adj
+    headword: strict
+    pos: adj
+    ipa:
+      uk: /strɪkt/
+      us: /strɪkt/
+    cefr: B2
+    meaning_vi:
+      - nghiêm khắc
+    collocations:
+      - strict parents
+      - be strict with children
+      - strict rules
+    notes_vi:
+      - be strict WITH somebody. Âm cuối /kt/ phải bật.
+    topics:
+      - family
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/strict, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/strict, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/strict, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: spoil|v
+    headword: spoil
+    pos: v
+    forms:
+      past: spoiled / spoilt
+      pp: spoiled / spoilt
+    ipa:
+      uk: /spɔɪl/
+      us: /spɔɪl/
+    cefr: B2
+    meaning_vi:
+      - nuông chiều (làm hư)
+      - làm hỏng
+    collocations:
+      - spoil a child
+      - spoiled children
+    notes_vi:
+      - a spoiled child = đứa trẻ được nuông chiều quá mức.
+    topics:
+      - family
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spoil, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spoil, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spoil, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: such-as|prep
+    headword: such as
+    pos: prep
+    ipa:
+      uk: /ˈsʌtʃ əz/
+      us: /ˈsʌtʃ əz/
+    cefr: null
+    meaning_vi:
+      - chẳng hạn như (+ danh từ, đứng trong câu)
+    collocations:
+      - household chores such as cooking and cleaning
+    notes_vi:
+      - "such as + danh từ, KHÔNG đứng đầu câu với cả mệnh đề: *Such as my mother cooks.* ❌ → For example, my mother cooks."
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: similarly|adv
+    headword: similarly
+    pos: adv
+    ipa:
+      uk: /ˈsɪm.ɪ.lə.li/
+      us: /ˈsɪm.ə.lɚ.li/
+    cefr: B1
+    meaning_vi:
+      - tương tự như vậy
+    notes_vi:
+      - "Dùng khi hai cột/nhóm có cùng xu hướng: Similarly, the figure for …"
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/similarly, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/similarly, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: suburb|n
+    headword: suburb
+    pos: n
+    ipa:
+      uk: /ˈsʌb.ɜːb/
+      us: /ˈsʌb.ɝːb/
+    cefr: B2
+    meaning_vi:
+      - vùng ngoại ô
+    collocations:
+      - live in the suburbs
+      - a quiet suburb
+    notes_vi:
+      - "Thường dùng số nhiều: in the suburbs. Tính từ: suburban."
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suburb, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suburb, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suburb, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: skyscraper|n
+    headword: skyscraper
+    pos: n
+    ipa:
+      uk: /ˈskaɪˌskreɪ.pər/
+      us: /ˈskaɪˌskreɪ.pɚ/
+    cefr: null
+    meaning_vi:
+      - nhà chọc trời
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skyscraper, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skyscraper, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: street-food|phr-n
+    headword: street food
+    pos: phr-n
+    ipa:
+      uk: /ˈstriːt ˌfuːd/
+      us: /ˈstriːt ˌfuːd/
+    cefr: null
+    meaning_vi:
+      - đồ ăn đường phố
+    collocations:
+      - famous for its street food
+      - try street food
+    topics:
+      - city
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/street-food, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/street-food, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: spacious|adj
+    headword: spacious
+    pos: adj
+    ipa:
+      uk: /ˈspeɪ.ʃəs/
+      us: /ˈspeɪ.ʃəs/
+    cefr: null
+    meaning_vi:
+      - rộng rãi
+    collocations:
+      - a spacious park
+      - spacious streets
+    topics:
+      - city
+      - home
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spacious, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spacious, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: shopping-mall|phr-n
+    headword: shopping mall
+    pos: phr-n
+    ipa:
+      uk: /ˈʃɒp.ɪŋ ˌmɔːl/
+      us: /ˈʃɑː.pɪŋ ˌmɑːl/
+    cefr: null
+    meaning_vi:
+      - trung tâm thương mại
+    collocations:
+      - go to the shopping mall
+      - a huge shopping mall
+    topics:
+      - city
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-mall, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-mall, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: source|n
+    headword: source
+    pos: n
+    ipa:
+      uk: /sɔːs/
+      us: /sɔːrs/
+    cefr: A2
+    meaning_vi:
+      - nguồn (thông tin)
+    collocations:
+      - a reliable source
+      - check the source
+      - sources of information
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/source, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/source, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/source, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: spread|v
+    headword: spread
+    pos: v
+    forms:
+      past: spread
+      pp: spread
+    ipa:
+      uk: /spred/
+      us: /spred/
+    cefr: B1
+    meaning_vi:
+      - lan truyền
+      - lan rộng
+    collocations:
+      - spread quickly
+      - spread fake news
+      - spread online
+    notes_vi:
+      - "Bất quy tắc, 3 dạng giống nhau: spread – spread – spread. *spreaded* ❌."
+    topics:
+      - media
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spread, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spread, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spread, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: so-that|conj
+    headword: so that
+    pos: conj
+    ipa:
+      uk: /ˈsəʊ ðæt/
+      us: /ˈsoʊ ðæt/
+    cefr: null
+    meaning_vi:
+      - để mà (+ mệnh đề)
+    collocations:
+      - so that I can
+      - so that they won't
+    notes_vi:
+      - so that + S + can/could/will/would + V. Khác so (vì vậy) — 'so that' chỉ MỤC ĐÍCH.
+    topics:
+      - grammar
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: skilled|adj
+    headword: skilled
+    pos: adj
+    ipa:
+      uk: /skɪld/
+      us: /skɪld/
+    cefr: B2
+    meaning_vi:
+      - có tay nghề
+      - lành nghề
+    collocations:
+      - skilled workers
+      - highly skilled
+    notes_vi:
+      - "Đối lập: unskilled. -ed đọc /d/: một âm tiết."
+    topics:
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skilled, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skilled, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skilled, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: supply-chain|phr-n
+    headword: supply chain
+    pos: phr-n
+    ipa:
+      uk: /səˈplaɪ ˌtʃeɪn/
+      us: /səˈplaɪ ˌtʃeɪn/
+    cefr: null
+    meaning_vi:
+      - chuỗi cung ứng
+    collocations:
+      - global supply chains
+      - a break in the supply chain
+    topics:
+      - globalisation
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supply-chain, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supply-chain, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: segment|n
+    headword: segment
+    pos: n
+    ipa:
+      uk: /ˈseɡ.mənt/
+      us: /ˈseɡ.mənt/
+    cefr: C1
+    meaning_vi:
+      - phần
+      - miếng (của biểu đồ tròn)
+    collocations:
+      - the largest segment
+      - the smallest segment of the pie
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/segment, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/segment, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/segment, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: share|n
+    headword: share
+    pos: n
+    ipa:
+      uk: /ʃeər/
+      us: /ʃer/
+    cefr: B1
+    meaning_vi:
+      - phần
+      - tỉ phần
+    collocations:
+      - the largest share of
+      - a smaller share
+      - market share
+    topics:
+      - writing
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/share_3, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/share_3, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/share_3, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: subsidy|n
+    headword: subsidy
+    pos: n
+    forms:
+      plural: subsidies
+    ipa:
+      uk: /ˈsʌb.sə.di/
+      us: /ˈsʌb.sə.di/
+    stress: SUB-si-dy
+    cefr: C1
+    meaning_vi:
+      - trợ cấp (của nhà nước)
+    collocations:
+      - government subsidies
+      - a subsidy for farmers
+    notes_vi:
+      - "Động từ: subsidise (Anh-Mỹ: subsidize)."
+    topics:
+      - government
+      - economy
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subsidy, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subsidy, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subsidy, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: scheme|n
+    headword: scheme
+    pos: n
+    ipa:
+      uk: /skiːm/
+      us: /skiːm/
+    cefr: B2
+    meaning_vi:
+      - chương trình
+      - kế hoạch (của chính phủ, tổ chức)
+    collocations:
+      - a government scheme
+      - a recycling scheme
+    notes_vi:
+      - "ch đọc /k/: SKEEM. Anh-Mỹ hay dùng program thay cho scheme."
+    topics:
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scheme, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scheme, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scheme, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: solution|n
+    headword: solution
+    pos: n
+    ipa:
+      uk: /səˈluː.ʃən/
+      us: /səˈluː.ʃən/
+    stress: so-LU-tion
+    cefr: A2
+    meaning_vi:
+      - giải pháp
+    collocations:
+      - a solution to the problem
+      - find a solution
+      - an effective solution
+    notes_vi:
+      - a solution TO a problem (không dùng *of/for* trong văn chuẩn).
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solution, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solution, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solution, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: solve|v
+    headword: solve
+    pos: v
+    ipa:
+      uk: /sɒlv/
+      us: /sɑːlv/
+    cefr: A2
+    meaning_vi:
+      - giải quyết
+    collocations:
+      - solve a problem
+      - be solved by
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: meaning_vi
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solve, checked: 2026-09-29, field: cefr }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solve, checked: 2026-09-29, field: ipa.uk }
+      - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solve, checked: 2026-09-29, field: ipa.us }
+    status: draft
+  - id: stage|n
+    headword: stage
+    pos: n
+    ipa:
+      uk: /steɪdʒ/
+      us: /steɪdʒ/
+    cefr: null
+    meaning_vi:
+      - giai đoạn
+      - bước
+    collocations:
+      - at the first stage
+      - the final stage
+      - in five stages
+    notes_vi:
+      - "AT this stage / IN the next stage đều gặp; an toàn nhất: at the first stage, in the final stage."
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: store|v
+    headword: store
+    pos: v
+    ipa:
+      uk: /stɔːr/
+      us: /stɔːr/
+    cefr: null
+    meaning_vi:
+      - lưu trữ
+      - cất giữ
+    collocations:
+      - be stored in tanks
+      - store water
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sort|v
+    headword: sort
+    pos: v
+    ipa:
+      uk: /sɔːt/
+      us: /sɔːrt/
+    cefr: null
+    meaning_vi:
+      - phân loại
+    collocations:
+      - be sorted by type
+      - sort rubbish
+    topics:
+      - environment
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: subsequently|adv
+    headword: subsequently
+    pos: adv
+    ipa:
+      uk: /ˈsʌb.sɪ.kwənt.li/
+      us: /ˈsʌb.sə.kwənt.li/
+    stress: SUB-se-quent-ly
+    cefr: null
+    meaning_vi:
+      - sau đó
+    notes_vi:
+      - Trang trọng hơn then/after that — dùng 1 lần trong bài process để đa dạng từ nối.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: standardised-test|phr-n
+    headword: standardised test
+    pos: phr-n
+    forms:
+      plural: standardised tests
+    ipa:
+      uk: /ˌstæn.də.daɪzd ˈtest/
+      us: /ˌstæn.dɚ.daɪzd ˈtest/
+    cefr: null
+    meaning_vi:
+      - bài thi chuẩn hóa (cùng đề, cùng cách chấm cho mọi người)
+    collocations:
+      - national standardised tests
+      - prepare for standardised tests
+    notes_vi:
+      - "Anh-Mỹ: standardized. -ised đọc /aɪzd/."
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: soft-skills|phr-n
+    headword: soft skills
+    pos: phr-n
+    ipa:
+      uk: /ˈsɒft ˌskɪlz/
+      us: /ˈsɑːft ˌskɪlz/
+    cefr: null
+    meaning_vi:
+      - kỹ năng mềm
+    collocations:
+      - develop soft skills such as teamwork
+    topics:
+      - education
+      - work
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: self-study|n
+    headword: self-study
+    pos: n
+    ipa:
+      uk: /ˌselfˈstʌd.i/
+      us: /ˌselfˈstʌd.i/
+    cefr: null
+    meaning_vi:
+      - tự học
+    collocations:
+      - hours of self-study
+      - prefer self-study
+    topics:
+      - education
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sentence|n
+    headword: sentence
+    pos: n
+    ipa:
+      uk: /ˈsen.təns/
+      us: /ˈsen.təns/
+    cefr: null
+    meaning_vi:
+      - bản án
+      - mức án
+    collocations:
+      - a prison sentence
+      - a long sentence
+      - serve a sentence
+    notes_vi:
+      - "Cùng chữ với 'câu' (ngữ pháp). Động từ: be sentenced to five years in prison."
+    topics:
+      - crime
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: surveillance|n
+    headword: surveillance
+    pos: n
+    ipa:
+      uk: /səˈveɪ.ləns/
+      us: /sɚˈveɪ.ləns/
+    stress: sur-VEIL-lance
+    cefr: null
+    meaning_vi:
+      - sự giám sát
+    collocations:
+      - video surveillance
+      - under surveillance
+    notes_vi:
+      - Trang trọng hơn 'security cameras' (Buổi 29).
+    topics:
+      - crime
+      - technology
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: social-isolation|phr-n
+    headword: social isolation
+    pos: phr-n
+    ipa:
+      uk: /ˌsəʊ.ʃəl ˌaɪ.səˈleɪ.ʃən/
+      us: /ˌsoʊ.ʃəl ˌaɪ.səˈleɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - sự cô lập xã hội
+    collocations:
+      - lead to social isolation
+    topics:
+      - society
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sanitation|n
+    headword: sanitation
+    pos: n
+    ipa:
+      uk: /ˌsæn.ɪˈteɪ.ʃən/
+      us: /ˌsæn.əˈteɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - hệ thống vệ sinh (nước sạch, thoát nước)
+    collocations:
+      - poor sanitation
+      - improve sanitation
+    topics:
+      - health
+      - government
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sedentary|adj
+    headword: sedentary
+    pos: adj
+    ipa:
+      uk: /ˈsed.ən.tər.i/
+      us: /ˈsed.ən.ter.i/
+    stress: SED-en-ta-ry
+    cefr: null
+    meaning_vi:
+      - ít vận động
+    collocations:
+      - a sedentary lifestyle
+      - sedentary jobs
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sugary|adj
+    headword: sugary
+    pos: adj
+    ipa:
+      uk: /ˈʃʊɡ.ər.i/
+      us: /ˈʃʊɡ.ɚ.i/
+    cefr: null
+    meaning_vi:
+      - nhiều đường
+    collocations:
+      - sugary drinks
+      - sugary snacks
+    topics:
+      - health
+      - food
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: stem-from|phr-v
+    headword: stem from
+    pos: phr-v
+    forms:
+      past: stemmed from
+    ipa:
+      uk: /ˈstem frəm/
+      us: /ˈstem frəm/
+    cefr: null
+    meaning_vi:
+      - bắt nguồn từ
+    collocations:
+      - the problem stems from
+      - stem largely from
+    notes_vi:
+      - Kết quả + stems from + nguyên nhân (giống result from, Buổi 44). Không dùng bị động.
+    topics:
+      - writing
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: sleep-deprivation|phr-n
+    headword: sleep deprivation
+    pos: phr-n
+    ipa:
+      uk: /ˈsliːp ˌdep.rɪˈveɪ.ʃən/
+      us: /ˈsliːp ˌdep.rəˈveɪ.ʃən/
+    cefr: null
+    meaning_vi:
+      - tình trạng thiếu ngủ
+    collocations:
+      - suffer from sleep deprivation
+    topics:
+      - health
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft
+  - id: stand-out|phr-v
+    headword: stand out
+    pos: phr-v
+    forms:
+      past: stood out
+    ipa:
+      uk: /ˌstænd ˈaʊt/
+      us: /ˌstænd ˈaʊt/
+    cefr: null
+    meaning_vi:
+      - nổi bật
+    collocations:
+      - stand out from the crowd
+      - what stood out most was
+    topics:
+      - speaking
+    source: editorial
+    provenance:
+      - source: ai-draft
+        field: ipa
+      - source: ai-draft
+        field: meaning_vi
+    status: draft

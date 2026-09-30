@@ -1,0 +1,175 @@
+# Kiểm tra ngắn 4 Giai đoạn 2 — sau Buổi 40 (Buổi 36–40). Tự soạn, BẢN NHÁP chờ duyệt.
+id: gd2-mini-4
+title_vi: "Kiểm tra ngắn 4: Buổi 36–40"
+stage: 2
+kind: mini
+after_lesson: 40
+minutes: 40
+pass_percent: 80
+intro_vi: "Từ nối văn nói, although/despite, trình bày quan điểm (Some people argue that…), mục đích (to / in order to / so that), paraphrase với When it comes to; từ vựng Đô thị – Truyền thông – Việc làm & kinh tế; đọc Matching information, nghe hội thoại dài Part 3–4."
+source: editorial
+status: draft
+sections:
+  - title_vi: Ngữ pháp
+    exercises:
+      - id: gd2-mini-4-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Chọn đáp án đúng.
+        questions:
+          - { q: "___ the traffic, I love living in the city centre.", options: [Apart from, Besides that, Actually, As well], answer: a, lesson: 36 }
+          - { q: "'Hiện nay tôi là sinh viên.' → ___, I'm a student.", options: [Actually, At the moment, Anyway, Besides], answer: b, lesson: 36 }
+          - { q: "___ the story was false, it spread very quickly.", options: [Despite, In spite of, Although, However], answer: c, lesson: 37 }
+          - { q: "___ the warnings, many people shared the post.", options: [Although, Despite, Even though, But], answer: b, lesson: 37 }
+          - { q: "It is often ___ that social media is harmful to children.", options: [claim, claimed, claiming, to claim], answer: b, lesson: 38 }
+          - { q: "Some people argue ___ the government should control online content.", options: [about, that, for, to], answer: b, lesson: 38 }
+          - { q: "I'm learning English ___ a better job.", options: [for find, to find, so that find, for to find], answer: b, lesson: 39 }
+          - { q: "She works from home ___ she can look after her son.", options: [in order to, so that, for, so as], answer: b, lesson: 39 }
+          - { q: "When it comes to ___ a job, experience matters.", options: [find, finding, found, to find], answer: b, lesson: 40 }
+          - { q: "Vietnam has had rapid ___ growth.", options: [economy, economical, economic, economist], answer: c, lesson: 40 }
+      - id: gd2-mini-4-x2
+        bank_no: 9
+        kind: combine
+        instructions_vi: "Nối hai câu bằng từ trong ngoặc."
+        questions:
+          - { q: "The video was fake. Millions of people watched it. (Although)", answer: "Although the video was fake, millions of people watched it.", lesson: 37 }
+          - { q: "There was heavy rain. The festival continued. (Despite)", answer: "Despite the heavy rain, the festival continued.", accept: ["Despite heavy rain, the festival continued."], lesson: 37 }
+          - { q: "He did an internship. He wanted to gain experience. (in order to)", answer: "He did an internship in order to gain experience.", lesson: 39 }
+          - { q: "They left early. They didn't want to miss the interview. (so that)", answer: "They left early so that they wouldn't miss the interview.", accept: ["They left early so that they would not miss the interview."], lesson: 39 }
+  - title_vi: Từ vựng
+    exercises:
+      - id: gd2-mini-4-x3
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền từ/cụm từ trong khung vào chỗ trống.
+        bank: [walking distance, amenities, misinformation, reliable, biased, freedom of speech, internship, resigned, unemployment, retrain]
+        questions:
+          - { q: "My office is within ___ of my flat.", answer: walking distance, lesson: 36 }
+          - { q: "The new district has good ___, such as parks and a hospital.", answer: amenities, lesson: 36 }
+          - { q: "___ spreads faster than the truth on social media.", answer: misinformation, lesson: 37 }
+          - { q: "Always check whether a source is ___ before you share a story.", answer: reliable, lesson: 37 }
+          - { q: "Good journalists should be objective, not ___.", answer: biased, lesson: 38 }
+          - { q: "Critics say censorship limits ___.", answer: freedom of speech, lesson: 38 }
+          - { q: "She did a three-month ___ at a bank.", answer: internship, lesson: 39 }
+          - { q: "He ___ from his job because of stress.", answer: resigned, lesson: 39 }
+          - { q: "Youth ___ is a serious problem in some countries.", answer: unemployment, lesson: 40 }
+          - { q: "Factory workers who lose their jobs need to ___ for new careers.", answer: retrain, lesson: 40 }
+      - id: gd2-mini-4-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc.
+        questions:
+          - { q: "Ho Chi Minh City is a ___ city with exciting nightlife.", base: vibrancy, answer: vibrant, lesson: 36 }
+          - { q: "My brother wants to study ___ at university.", base: journalist, answer: journalism, lesson: 37 }
+          - { q: "Some advertising is ___ to children.", base: harm, answer: harmful, lesson: 38 }
+          - { q: "The company has 300 ___.", base: employ, answer: employees, lesson: 39 }
+          - { q: "Millions of people still live in ___.", base: poor, answer: poverty, lesson: 40 }
+  - title_vi: Đọc hiểu
+    exercises:
+      - id: gd2-mini-4-x5
+        bank_no: 15
+        kind: mcq
+        instructions_vi: "Matching information: đoạn nào (A–D) chứa thông tin sau? Có thể dùng một chữ cái nhiều lần."
+        lesson: 37
+        passage: |-
+          A  Ten years ago, most people in Vietnam got their news from television and newspapers. Today, the majority of people under thirty say social media is their main source of news.
+
+          B  This change has benefits. News travels faster, and ordinary people can report events that journalists miss. During the floods in 2020, for example, many villagers posted videos that helped rescue teams find people who needed help.
+
+          C  However, social media also spreads false stories. Researchers say the main reason is that platforms show users the posts that get the most reactions, and shocking stories get more reactions than true ones.
+
+          D  To deal with this problem, some schools have started media literacy classes. Students learn to check sources and recognise emotional headlines before they share anything.
+        questions:
+          - { q: "an explanation of why false stories are shown to many users", options: [A, B, C, D], answer: c }
+          - { q: "a real example of social media helping people", options: [A, B, C, D], answer: b }
+          - { q: "a comparison between the past and the present", options: [A, B, C, D], answer: a }
+          - { q: "a description of what students learn", options: [A, B, C, D], answer: d }
+      - id: gd2-mini-4-x6
+        bank_no: 16
+        kind: completion
+        instructions_vi: "Đọc đoạn văn và hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+        max_words: 2
+        lesson: 38
+        passage: |-
+          While some people believe that the government should regulate social media, others argue that such rules would damage freedom of speech. Supporters of regulation point out that harmful content, such as violent videos, can easily reach children. Critics, however, fear that governments could use the same laws to hide their own mistakes. A possible middle way is to let independent organisations, rather than politicians, decide which posts are removed.
+        questions:
+          - { q: "Critics believe rules on social media would damage ___.", answer: freedom of speech, accept: [freedom] }
+          - { q: "Supporters worry that violent videos can reach ___.", answer: children }
+          - { q: "Critics fear governments might use the laws to hide their ___.", answer: own mistakes, accept: [mistakes] }
+          - { q: "One suggestion is that ___ organisations should decide which posts are removed.", answer: independent }
+  - title_vi: Nghe
+    exercises:
+      - id: gd2-mini-4-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: "Part 3: nghe hai sinh viên và giảng viên (nhiều giọng, nghe 1 lần) rồi chọn đáp án đúng."
+        lesson: 39
+        audio_text: |-
+          Tutor: So, what have you decided for your project on working life?
+          Mai: We want to compare employees who work from home with those who work in an office.
+          Tutor: How will you do that?
+          Nam: At first I wanted to use a survey, but Mai thinks we should interview people.
+          Mai: Interviews give us more detail. In the end, we agreed to interview twelve people.
+          Tutor: Why twelve?
+          Nam: So that we have six from each group.
+          Tutor: Sensible. And what do you expect to find?
+          Mai: I think home workers will have better work-life balance, although they may feel lonely.
+        questions:
+          - { q: "What is the project about?", options: [freelance work, working from home vs working in an office, unemployment, part-time jobs], answer: b }
+          - { q: "How will they collect information?", options: [a survey, interviews, a survey and interviews, reading reports], answer: b }
+          - { q: "Why will they interview twelve people?", options: [It is cheap., to have six from each group, The tutor asked for it., They have twelve friends.], answer: b }
+          - { q: "What does Mai expect home workers to have?", options: [higher salaries, better work-life balance, more promotions, less work], answer: b }
+      - id: gd2-mini-4-x8
+        bank_no: 18
+        kind: completion
+        instructions_vi: "Part 4: nghe đoạn bài giảng và hoàn thành ghi chú. Viết MỘT TỪ cho mỗi chỗ trống."
+        max_words: 1
+        lesson: 40
+        audio_text: "Today I'll talk about automation in Vietnamese factories. First, the causes. Wages have risen, so companies use machines in order to reduce costs. Moving on to the effects. Some unskilled jobs have disappeared, but there is now high demand for workers who can repair and program machines. Finally, solutions. Most experts say the key is lifelong learning, and they believe the government should help workers retrain."
+        passage: |-
+          AUTOMATION IN FACTORIES
+          Cause: rising (1) ___ → machines reduce costs
+          Effect: fewer unskilled jobs; more demand for workers who can repair and (2) ___ machines
+          Solution: (3) ___ learning; government should help workers (4) ___
+        questions:
+          - { q: "(1)", answer: wages }
+          - { q: "(2)", answer: program }
+          - { q: "(3)", answer: lifelong }
+          - { q: "(4)", answer: retrain }
+      - id: gd2-mini-4-x9
+        bank_no: 20
+        kind: tf
+        instructions_vi: "Nghe thí sinh trả lời Part 1 rồi chọn T (đúng) hoặc F (sai)."
+        audio_text: |-
+          Examiner: Where do you live at the moment?
+          Candidate: I live in District 7. It's quite modern, and there's a big park as well as a shopping mall.
+          Examiner: Is there anything you don't like about it?
+          Candidate: To be honest, it's a bit far from the city centre. Apart from that, it's a great place to live.
+        questions:
+          - { q: "The candidate lives in the city centre.", answer: F, lesson: 36 }
+          - { q: "There is a park in the candidate's area.", answer: T, lesson: 36 }
+          - { q: "The candidate thinks the area is too noisy.", answer: F, lesson: 36 }
+          - { q: "The candidate likes the area overall.", answer: T, lesson: 36 }
+      - id: gd2-mini-4-x10
+        bank_no: 23
+        kind: dictation
+        instructions_vi: "Nghe và chép lại chính xác (tối đa 3 lần)."
+        lesson: 38
+        text: "Some people argue that the government should regulate social media, while others believe it would limit freedom of speech."
+  - title_vi: Viết câu
+    exercises:
+      - id: gd2-mini-4-x11
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn có 5 lỗi. Sửa trực tiếp."
+        text: "Actually, I am working at a bank in Hanoi. Although the pay is good, but the hours are long. Some people argue about that banks should close at weekends. I study at night for get a promotion. When it comes to find a new job, experience matters most."
+        errors:
+          - { wrong: "Actually, I am working", right: "At the moment, I am working", why: "actually ≠ hiện nay.", lesson: 36 }
+          - { wrong: "the pay is good, but the hours", right: "the pay is good, the hours", why: "Although … không đi với but.", lesson: 37 }
+          - { wrong: "argue about that", right: "argue that", why: "argue that + mệnh đề.", lesson: 38 }
+          - { wrong: "for get a promotion", right: "to get a promotion", why: "Mục đích: to V, không dùng for + V.", lesson: 39 }
+          - { wrong: "When it comes to find", right: "When it comes to finding", why: "When it comes to + V-ing.", lesson: 40 }
+writing:
+  prompt_vi: "Không chấm tự động — tự viết rồi gửi để chữa: mở bài + một đoạn thân bài (khoảng 120 từ) cho đề Discussion dưới đây."
+  prompt_en: "Some people think that working from home is better for employees, while others believe that working in an office is better. Discuss both views and give your own opinion."
+  words: { min: 110, max: 140 }

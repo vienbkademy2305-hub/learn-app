@@ -1,0 +1,324 @@
+lexicon:
+  - id: public-health|phr-n
+    headword: public health
+    pos: phr-n
+    ipa: { uk: "/ˌpʌb.lɪk ˈhelθ/", us: "/ˌpʌb.lɪk ˈhelθ/" }
+    meaning_vi: [sức khỏe cộng đồng, y tế công cộng]
+    collocations: [a threat to public health, improve public health, public health campaigns]
+    topics: [health, government]
+  - id: vaccination|n
+    headword: vaccination
+    pos: n
+    ipa: { uk: "/ˌvæk.sɪˈneɪ.ʃən/", us: "/ˌvæk.səˈneɪ.ʃən/" }
+    meaning_vi: [sự tiêm chủng]
+    collocations: [vaccination programmes, free vaccination, compulsory vaccination]
+    notes_vi: ["Động từ: vaccinate somebody AGAINST a disease."]
+    topics: [health]
+  - id: epidemic|n
+    headword: epidemic
+    pos: n
+    ipa: { uk: "/ˌep.ɪˈdem.ɪk/", us: "/ˌep.əˈdem.ɪk/" }
+    stress: ep-i-DEM-ic
+    meaning_vi: [dịch bệnh (lan rộng trong một vùng)]
+    collocations: [an epidemic of obesity, stop the epidemic]
+    notes_vi: ["epidemic (một vùng/nước) < pandemic (toàn cầu). Nghĩa bóng: an obesity epidemic."]
+    topics: [health]
+  - id: outbreak|n
+    headword: outbreak
+    pos: n
+    ipa: { uk: "/ˈaʊt.breɪk/", us: "/ˈaʊt.breɪk/" }
+    meaning_vi: [sự bùng phát (dịch)]
+    collocations: [an outbreak of flu, control an outbreak]
+    topics: [health]
+  - id: infectious|adj
+    headword: infectious
+    pos: adj
+    ipa: { uk: "/ɪnˈfek.ʃəs/", us: "/ɪnˈfek.ʃəs/" }
+    meaning_vi: [truyền nhiễm, dễ lây]
+    collocations: [infectious diseases, highly infectious]
+    topics: [health]
+  - id: life-expectancy|phr-n
+    headword: life expectancy
+    pos: phr-n
+    ipa: { uk: "/ˈlaɪf ɪkˌspek.tən.si/", us: "/ˈlaɪf ɪkˌspek.tən.si/" }
+    meaning_vi: [tuổi thọ trung bình]
+    collocations: [average life expectancy, life expectancy has risen]
+    topics: [health, society]
+  - id: chronic-disease|phr-n
+    headword: chronic disease
+    pos: phr-n
+    forms: { plural: chronic diseases }
+    ipa: { uk: "/ˌkrɒn.ɪk dɪˈziːz/", us: "/ˌkrɑː.nɪk dɪˈziːz/" }
+    meaning_vi: [bệnh mãn tính]
+    collocations: [chronic diseases such as diabetes]
+    notes_vi: ["ch đọc /k/: KRON-ik."]
+    topics: [health]
+  - id: mental-health|phr-n
+    headword: mental health
+    pos: phr-n
+    ipa: { uk: "/ˌmen.təl ˈhelθ/", us: "/ˌmen.t̬əl ˈhelθ/" }
+    meaning_vi: [sức khỏe tinh thần]
+    collocations: [mental health problems, look after your mental health]
+    topics: [health]
+  - id: preventive|adj
+    headword: preventive
+    pos: adj
+    ipa: { uk: "/prɪˈven.tɪv/", us: "/prɪˈven.t̬ɪv/" }
+    meaning_vi: [phòng ngừa]
+    collocations: [preventive medicine, preventive measures]
+    word_family: [prevention|n]
+    topics: [health]
+  - id: nutrition|n
+    headword: nutrition
+    pos: n
+    ipa: { uk: "/njuːˈtrɪʃ.ən/", us: "/nuːˈtrɪʃ.ən/" }
+    meaning_vi: [dinh dưỡng]
+    collocations: [good nutrition, poor nutrition]
+    notes_vi: ["Tính từ: nutritious (bổ dưỡng)."]
+    topics: [health, food]
+  - id: well-being|n
+    headword: well-being
+    pos: n
+    ipa: { uk: "/ˌwelˈbiː.ɪŋ/", us: "/ˌwelˈbiː.ɪŋ/" }
+    meaning_vi: [sự khỏe mạnh và hạnh phúc (thể chất + tinh thần)]
+    collocations: [physical and mental well-being, improve well-being]
+    topics: [health]
+  - id: hygiene|n
+    headword: hygiene
+    pos: n
+    ipa: { uk: "/ˈhaɪ.dʒiːn/", us: "/ˈhaɪ.dʒiːn/" }
+    meaning_vi: [vệ sinh]
+    collocations: [personal hygiene, good hygiene]
+    notes_vi: ["Đọc HAI-jeen /ˈhaɪ.dʒiːn/."]
+    topics: [health]
+  - id: sanitation|n
+    headword: sanitation
+    pos: n
+    ipa: { uk: "/ˌsæn.ɪˈteɪ.ʃən/", us: "/ˌsæn.əˈteɪ.ʃən/" }
+    meaning_vi: ["hệ thống vệ sinh (nước sạch, thoát nước)"]
+    collocations: [poor sanitation, improve sanitation]
+    topics: [health, government]
+  - id: check-up|n
+    headword: check-up
+    pos: n
+    ipa: { uk: "/ˈtʃek.ʌp/", us: "/ˈtʃek.ʌp/" }
+    meaning_vi: [khám sức khỏe định kỳ]
+    collocations: [a regular check-up, an annual check-up, go for a check-up]
+    topics: [health]
+  - id: balanced-diet|phr-n
+    headword: balanced diet
+    pos: phr-n
+    ipa: { uk: "/ˌbæl.ənst ˈdaɪ.ət/", us: "/ˌbæl.ənst ˈdaɪ.ət/" }
+    meaning_vi: [chế độ ăn cân bằng]
+    collocations: [eat a balanced diet]
+    word_family: [diet|n]
+    topics: [health, food]
+
+grammar:
+  - id: en-g3-09
+    lesson: buoi-54-suc-khoe-noun-clauses
+    title: "Mệnh đề danh từ: What … is … · that … · whether … · how/why …"
+    cefr: B2
+    structures:
+      - "What + S + V + is/was …   (làm chủ ngữ):  What worries doctors is the rise in obesity."
+      - "It is + adj + that + S + V:  It is clear that prevention is cheaper than cure."
+      - "S + V + whether / if + S + V:  Nobody knows whether the campaign will work."
+      - "S + V + how / why / what + S + V (không đảo ngữ):  Researchers want to know why life expectancy fell."
+      - "The fact that + S + V + …:  The fact that vaccination is free has increased coverage."
+    explain: >-
+      Mệnh đề danh từ là một mệnh đề đóng vai trò như DANH TỪ trong câu (chủ ngữ hoặc tân ngữ). Chúng giúp bạn nói về một
+      Ý TƯỞNG, một SỰ VIỆC chứ không chỉ một vật. Trong Writing Task 2, 'What worries experts most is …' và 'It is widely
+      accepted that …' là cách mở câu nhấn mạnh, học thuật; 'whether' giúp bàn về điều chưa chắc. Lưu ý quan trọng: sau
+      how/why/what/whether, câu KHÔNG đảo trợ động từ (như câu hỏi tường thuật ở Buổi 35).
+    table:
+      - [Mở đầu, Chức năng, Ví dụ]
+      - ["What … is …", "nhấn mạnh (chủ ngữ)", "What concerns doctors is the lack of exercise."]
+      - ["It is + adj + that …", "nêu nhận định", "It is widely accepted that smoking causes cancer."]
+      - ["The fact that …", "nêu sự thật làm chủ ngữ", "The fact that sugar is cheap makes it hard to reduce."]
+      - ["whether …", "điều chưa chắc", "It is unclear whether the tax will change habits."]
+      - ["why / how …", "tân ngữ, không đảo ngữ", "Scientists are studying why some people never get ill."]
+    notes:
+      - "What … is: động từ is/was chia theo MỆNH ĐỀ, thường số ít: What worries me IS …"
+      - "whether (or not) dùng tốt hơn if khi đứng đầu câu hoặc sau giới từ: Whether the plan works depends on funding."
+      - "Không bỏ 'that' trong văn viết sau It is + adj."
+    mistakes:
+      - { wrong: "What worries doctors are the rise in obesity.", right: "What worries doctors is the rise in obesity.", why: "Chủ ngữ là cả mệnh đề What … → động từ số ít." }
+      - { wrong: "Scientists want to know why do some people live longer.", right: "Scientists want to know why some people live longer.", why: "Mệnh đề danh từ không đảo trợ động từ." }
+      - { wrong: "Nobody knows that the campaign will work or not.", right: "Nobody knows whether the campaign will work (or not).", why: "Điều chưa chắc → whether, không dùng that." }
+    examples: [b54-001, b54-002, b54-003, b54-004]
+    provenance: []
+
+sentences:
+  - { id: b54-001, text: "What worries doctors most is the rise in chronic diseases among young people.", vi: "Điều khiến các bác sĩ lo nhất là sự gia tăng bệnh mãn tính ở người trẻ.", words: [chronic-disease|phr-n], grammar: [en-g3-09], cefr: B2 }
+  - { id: b54-002, text: "It is widely accepted that prevention is cheaper than treatment.", vi: "Người ta thừa nhận rộng rãi rằng phòng ngừa rẻ hơn điều trị.", words: [prevention|n], grammar: [en-g3-09], cefr: B2 }
+  - { id: b54-003, text: "Nobody knows whether the new campaign will improve people's mental health.", vi: "Không ai biết liệu chiến dịch mới có cải thiện sức khỏe tinh thần của người dân không.", words: [mental-health|phr-n, campaign|n], grammar: [en-g3-09], cefr: B2 }
+  - { id: b54-004, text: "Researchers are studying why life expectancy is higher in some regions.", vi: "Các nhà nghiên cứu đang tìm hiểu vì sao tuổi thọ ở một số vùng cao hơn.", words: [life-expectancy|phr-n], grammar: [en-g3-09], cefr: B2 }
+  - { id: b54-005, text: "The fact that vaccination is free has helped to stop several outbreaks.", vi: "Việc tiêm chủng miễn phí đã giúp ngăn chặn một số đợt bùng phát.", words: [vaccination|n, outbreak|n], grammar: [en-g3-09], cefr: C1 }
+  - { id: b54-006, text: "Good hygiene and clean water reduce the spread of infectious diseases.", vi: "Vệ sinh tốt và nước sạch giảm sự lây lan của bệnh truyền nhiễm.", words: [hygiene|n, infectious|adj], grammar: [], cefr: B2 }
+  - { id: b54-007, text: "Better sanitation has improved public health in many developing countries.", vi: "Hệ thống vệ sinh tốt hơn đã cải thiện sức khỏe cộng đồng ở nhiều nước đang phát triển.", words: [sanitation|n, public-health|phr-n], grammar: [en-g2-01], cefr: B2 }
+  - { id: b54-008, text: "Regular check-ups are a simple form of preventive medicine.", vi: "Khám định kỳ là một hình thức y học phòng ngừa đơn giản.", words: [check-up|n, preventive|adj], grammar: [], cefr: B2 }
+  - { id: b54-009, text: "Good nutrition and a balanced diet are essential for children's development.", vi: "Dinh dưỡng tốt và chế độ ăn cân bằng là thiết yếu cho sự phát triển của trẻ.", words: [nutrition|n, balanced-diet|phr-n], grammar: [], cefr: B1 }
+  - { id: b54-010, text: "Spending time in nature improves both physical and mental well-being.", vi: "Dành thời gian với thiên nhiên cải thiện cả sức khỏe thể chất lẫn tinh thần.", words: [well-being|n], grammar: [en-g2-21], cefr: B2 }
+  - { id: b54-011, text: "Some experts warn that there is an epidemic of loneliness in big cities.", vi: "Một số chuyên gia cảnh báo có một 'đại dịch' cô đơn ở các thành phố lớn.", words: [epidemic|n], grammar: [en-g3-09], cefr: C1 }
+
+lesson:
+  slug: buoi-54-suc-khoe-noun-clauses
+  number: 54
+  stage: 3
+  title_vi: "Sức khỏe cộng đồng · Mệnh đề danh từ"
+  focus: { grammar: "Mệnh đề danh từ (What … is, It is clear that, whether, how/why)", skill: "Listening Part 4 — bài giảng: ý chính, số liệu và thái độ người nói" }
+  target_band: "6.0-6.5"
+  steps:
+    - type: vocabulary
+      items: [public-health|phr-n, vaccination|n, epidemic|n, outbreak|n, infectious|adj, life-expectancy|phr-n, chronic-disease|phr-n, mental-health|phr-n, preventive|adj, nutrition|n, well-being|n, hygiene|n, sanitation|n, check-up|n, balanced-diet|phr-n, healthcare|n, diet|n]
+    - type: pronunciation
+      notes:
+        - { word: epidemic|n, text_vi: "ep-i-DEM-ic: nhấn âm 3 (đuôi -ic kéo trọng âm về ngay trước)." }
+        - { word: hygiene|n, text_vi: "HAI-jeen /ˈhaɪ.dʒiːn/: y đọc /aɪ/, g đọc /dʒ/." }
+        - { word: chronic-disease|phr-n, text_vi: "KRON-ik di-ZEEZ: ch = /k/; disease có /z/ hai lần." }
+        - { word: nutrition|n, text_vi: "nu-TRI-tion: nhấn âm 2 (đuôi -tion)." }
+        - { word: life-expectancy|phr-n, text_vi: "ex-PEC-tan-cy: nhấn âm 2 của expectancy." }
+    - type: grammar
+      items: [en-g3-09]
+    - type: skill
+      skill: listening
+      title_vi: "Listening Part 4 — ý chính, số liệu và thái độ người nói"
+      intro_vi: "Buổi 39 và 43 đã luyện theo dõi bài giảng dài và dạng flowchart/diagram. Ở band 6.5+, Part 4 thử thách thêm hai điểm: (1) phân biệt SỐ LIỆU gần nhau (người nói nhắc nhiều con số, năm, phần trăm — chỉ một cái là đáp án); (2) nhận ra THÁI ĐỘ và mức độ chắc chắn của người nói (surprisingly, unfortunately, it is unclear whether…). Mệnh đề danh từ xuất hiện rất nhiều trong bài giảng: 'What is interesting is that…', 'The question is whether…' — đó là tín hiệu thông tin quan trọng sắp tới."
+      steps:
+        - { title_vi: "Đọc câu hỏi, gạch loại thông tin", text_vi: "Số (năm? phần trăm? tuổi?), danh từ, tính từ thái độ. Ghi chú bên cạnh: %, yr, adj." }
+        - { title_vi: "Nghe tín hiệu nhấn mạnh", text_vi: "'What is surprising is that…', 'The key point is…', 'What researchers found was…' → thông tin ngay sau là đáp án thường gặp." }
+        - { title_vi: "Ghi mọi con số, gạch sau", text_vi: "Khi có nhiều số, ghi nhanh cả hai ('1990: 67 → now: 74'), rồi chọn theo câu hỏi (năm nào? tăng bao nhiêu?)." }
+        - { title_vi: "Nghe từ chỉ thái độ", text_vi: "surprisingly, unfortunately, encouragingly, it remains unclear whether → câu hỏi về ý kiến người nói dựa vào những từ này." }
+        - { title_vi: "Kiểm tra chính tả thuật ngữ", text_vi: "vaccination, nutrition, sanitation, hygiene — đáp án đúng nghĩa nhưng sai chính tả vẫn bị tính sai." }
+      tips:
+        - "'It is unclear whether…' = người nói KHÔNG chắc; đừng chọn đáp án khẳng định."
+        - "Số tăng: rose from X to Y — câu hỏi 'now' là Y, câu hỏi 'in the past' là X, câu hỏi 'by how much' là Y − X."
+        - "Part 4 có thể không có ví dụ đầu — luôn đọc câu 31 trước khi bài nghe bắt đầu."
+      traps:
+        - { trap_vi: "Điền con số nghe đầu tiên.", fix_vi: "Nghe hết câu: '…fell from 30% to 12%' — câu hỏi hỏi con số nào?" }
+        - { trap_vi: "Bỏ qua 'not' hoặc 'unclear'.", fix_vi: "Gạch ý phủ định/không chắc chắn khi ghi chú." }
+        - { trap_vi: "Sai chính tả thuật ngữ y tế.", fix_vi: "Học chính tả các từ của buổi: hygiene, sanitation, vaccination." }
+      phrases:
+        - { en: "What is interesting is that …", vi: "Điều thú vị là …", note_vi: "Tín hiệu thông tin quan trọng." }
+        - { en: "The question is whether …", vi: "Vấn đề là liệu …" }
+        - { en: "It remains unclear whether …", vi: "Vẫn chưa rõ liệu …", note_vi: "Người nói không chắc chắn." }
+        - { en: "Surprisingly, …", vi: "Đáng ngạc nhiên là, …" }
+        - { en: "The main reason why … is that …", vi: "Lý do chính khiến … là …" }
+      demo:
+        title_vi: "Làm mẫu: chọn đúng con số và thái độ"
+        text_en: |-
+          Lecture: "In 1990, average life expectancy in the country was sixty-seven. By 2020, it had risen to seventy-four. What is surprising is that the biggest improvement came not from new medicines but from clean water and better sanitation. However, it remains unclear whether this trend will continue, as chronic diseases are becoming more common."
+
+          Notes:  Life expectancy in 2020: ______   Main cause of improvement: clean water and ______   Speaker's view of the future: ______ (certain / uncertain)
+        notes:
+          - { label: "74", text_vi: "Câu hỏi 2020 → số thứ hai. 67 là năm 1990 (bẫy)." }
+          - { label: "sanitation", text_vi: "Sau 'What is surprising is that…' — tín hiệu đáp án. 'not from new medicines' loại bẫy." }
+          - { label: "uncertain", text_vi: "'it remains unclear whether' = không chắc chắn." }
+    - type: examples
+      items: [b54-001, b54-002, b54-003, b54-004, b54-005, b54-006, b54-007, b54-008, b54-009, b54-010, b54-011]
+    - type: dialogue
+      title_vi: "Khám sức khỏe định kỳ"
+      lines:
+        - { speaker: A, text: "When did you last have a check-up?", vi: "Lần cuối cậu khám sức khỏe định kỳ là khi nào?" }
+        - { speaker: B, text: "Honestly, I can't remember whether it was two or three years ago.", vi: "Thật lòng tớ không nhớ là hai hay ba năm trước nữa." }
+        - { speaker: A, text: "That's quite a long time. What my doctor always says is that prevention is better than cure.", vi: "Khá lâu đấy. Điều bác sĩ của tớ luôn nói là phòng bệnh hơn chữa bệnh." }
+        - { speaker: B, text: "I know, but I feel fine. I eat a balanced diet and I exercise.", vi: "Tớ biết, nhưng tớ thấy khỏe mà. Tớ ăn uống cân bằng và có tập thể dục." }
+        - { speaker: A, text: "The problem is that many chronic diseases have no symptoms at first.", vi: "Vấn đề là nhiều bệnh mãn tính lúc đầu không có triệu chứng." }
+        - { speaker: B, text: "Really? I didn't know that high blood pressure could be silent.", vi: "Thật à? Tớ không biết là huyết áp cao có thể không có dấu hiệu." }
+        - { speaker: A, text: "Exactly. And it's also worth asking how your mental health is, not just your body.", vi: "Chính xác. Và cũng nên hỏi về sức khỏe tinh thần của cậu nữa, không chỉ cơ thể." }
+        - { speaker: B, text: "OK, you've convinced me. I'll book an appointment this week.", vi: "Được rồi, cậu thuyết phục được tớ rồi. Tuần này tớ sẽ đặt lịch khám." }
+    - type: exercises
+      items:
+        - id: b54-x1
+          bank_no: 18
+          kind: completion
+          instructions_vi: "Part 4: nghe bài giảng (nghe 1 lần) và hoàn thành ghi chú. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ cho mỗi chỗ trống. Chú ý các con số gần nhau và từ chỉ thái độ. (Quốc gia và số liệu là giả định.)"
+          max_words: 1
+          audio_text: "Today I want to look at how one country improved public health over thirty years. In 1990, average life expectancy was sixty-seven. By 2020, it had reached seventy-four. What is interesting is that the biggest improvement did not come from hospitals or new medicines. It came from simple things: clean water, better sanitation and free vaccination for children. In 1990, only forty per cent of children were vaccinated; by 2020, the figure was ninety-five per cent. Consequently, outbreaks of infectious diseases became rare. However, the country now faces a different problem. Chronic diseases such as diabetes are increasing, mainly because of poor nutrition and a lack of exercise. The government has started a programme of free check-ups for everyone over forty. Unfortunately, it remains unclear whether people will actually use it, because in the first year, only a quarter of those invited came."
+          passage: |-
+            PUBLIC HEALTH: 1990–2020
+            • Life expectancy in 2020: (1) ___ years
+            • Main causes of improvement: clean water, better (2) ___ and free vaccination
+            • Children vaccinated in 2020: (3) ___ %
+            • Result: fewer outbreaks of (4) ___ diseases
+            • New problem: chronic diseases, e.g. (5) ___
+            • Free check-ups for people over (6) ___
+            • First-year attendance: about a (7) ___
+          questions:
+            - { q: "(1)", answer: "74", accept: [seventy-four] }
+            - { q: "(2)", answer: sanitation }
+            - { q: "(3)", answer: "95", accept: [ninety-five] }
+            - { q: "(4)", answer: infectious }
+            - { q: "(5)", answer: diabetes }
+            - { q: "(6)", answer: "40", accept: [forty] }
+            - { q: "(7)", answer: quarter }
+        - id: b54-x2
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Dựa vào bài giảng ở bài 1, chọn đáp án đúng về thái độ người nói."
+          audio_text: "Today I want to look at how one country improved public health over thirty years. In 1990, average life expectancy was sixty-seven. By 2020, it had reached seventy-four. What is interesting is that the biggest improvement did not come from hospitals or new medicines. It came from simple things: clean water, better sanitation and free vaccination for children. In 1990, only forty per cent of children were vaccinated; by 2020, the figure was ninety-five per cent. Consequently, outbreaks of infectious diseases became rare. However, the country now faces a different problem. Chronic diseases such as diabetes are increasing, mainly because of poor nutrition and a lack of exercise. The government has started a programme of free check-ups for everyone over forty. Unfortunately, it remains unclear whether people will actually use it, because in the first year, only a quarter of those invited came."
+          questions:
+            - { q: "What does the speaker find interesting?", options: [Life expectancy fell., The biggest improvement came from simple measures., Hospitals improved dramatically., New medicines were very cheap.], answer: b }
+            - { q: "What was the vaccination rate in 1990?", options: ["40%", "67%", "74%", "95%"], answer: a }
+            - { q: "How does the speaker feel about the check-up programme?", options: [certain it will succeed, uncertain whether people will use it, sure it will fail, not interested], answer: b }
+        - id: b54-x3
+          bank_no: 8
+          kind: transformation
+          instructions_vi: "Viết lại câu bằng mệnh đề danh từ, bắt đầu bằng từ cho sẵn."
+          questions:
+            - { q: "The rise in obesity worries doctors. → What ___", answer: "worries doctors is the rise in obesity." }
+            - { q: "Everyone accepts that smoking is harmful. → It is widely ___", answer: "accepted that smoking is harmful." }
+            - { q: "Will the campaign work? Nobody knows. → Nobody knows ___", answer: "whether the campaign will work.", accept: ["if the campaign will work.", "whether or not the campaign will work.", "whether the campaign will work or not."] }
+            - { q: "Why do some people live longer? Scientists are studying this. → Scientists are studying ___", answer: "why some people live longer." }
+            - { q: "Vaccination is free. This has increased coverage. → The fact that ___", answer: "vaccination is free has increased coverage." }
+        - id: b54-x4
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Chọn đáp án đúng."
+          questions:
+            - { q: "What worries parents most ___ the lack of exercise.", options: [are, is, be, were being], answer: b }
+            - { q: "Researchers want to know how ___ the disease.", options: [does it spread, it spreads, spreads it, did it spread], answer: b }
+            - { q: "It is unclear ___ the new tax will reduce sugar consumption.", options: [that, whether, what, which], answer: b }
+            - { q: "It is clear ___ good sanitation saves lives.", options: [whether, what, that, if], answer: c }
+        - id: b54-x5
+          bank_no: 7
+          kind: error-correction
+          instructions_vi: "Đoạn văn có 4 lỗi. Sửa trực tiếp."
+          text: "What concerns experts are the rise in mental health problems. Nobody knows that social media is the main cause or not. Researchers are trying to understand why do teenagers feel more anxious. It is clear good sleep improves well-being."
+          errors:
+            - { wrong: "What concerns experts are", right: "What concerns experts is", why: "Chủ ngữ What … → số ít." }
+            - { wrong: "Nobody knows that social media", right: "Nobody knows whether social media", why: "Điều chưa chắc (… or not) → whether." }
+            - { wrong: "why do teenagers feel", right: "why teenagers feel", why: "Mệnh đề danh từ không đảo ngữ." }
+            - { wrong: "It is clear good sleep", right: "It is clear that good sleep", why: "Văn viết giữ that sau It is + adj." }
+        - id: b54-x6
+          bank_no: 2
+          kind: match-definition
+          instructions_vi: "Nối từ với định nghĩa tiếng Anh."
+          pairs:
+            - { left: outbreak, right: "the sudden start of a disease in an area" }
+            - { left: chronic disease, right: "an illness that lasts for a long time" }
+            - { left: sanitation, right: "systems for clean water and removing waste" }
+            - { left: life expectancy, right: "the average number of years people live" }
+            - { left: preventive, right: "intended to stop something bad from happening" }
+            - { left: well-being, right: "the state of being healthy and happy" }
+        - id: b54-x7
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe hai người nói chuyện rồi chọn T (đúng) hoặc F (sai)."
+          audio_text: |-
+            Woman: I read that the city is going to make vaccination compulsory for all schoolchildren.
+            Man: Really? Is that already decided?
+            Woman: Not yet. The council will vote next month. What surprised me is that most parents support it.
+            Man: Do you know why some parents are against it?
+            Woman: Mostly they worry about side effects, although doctors say the risks are very small.
+          questions:
+            - { q: "Compulsory vaccination has already been decided.", answer: F }
+            - { q: "The council will vote next month.", answer: T }
+            - { q: "Most parents oppose the plan.", answer: F }
+            - { q: "Some parents worry about side effects.", answer: T }
+    - type: homework
+      kind: paragraph
+      prompt_vi: "Viết đoạn văn 180–200 từ trả lời câu hỏi bên dưới. Dùng ít nhất 4 mệnh đề danh từ khác nhau (What … is, It is + adj + that, whether, why/how, The fact that) và 6 từ của buổi này. Tự kiểm tra: không đảo ngữ sau why/how; What … is dùng động từ số ít."
+      prompt_en: "Should governments spend more money on preventing illness than on treating it?"
+      words: { min: 180, max: 200 }
+      minutes: 30
