@@ -97,3 +97,51 @@ sources:
     sha256: c9eaba9737f48687dcfffc7ffaddf641d1f8587d195e013f2f0ba981b95bd649
     added: 2026-09-29
     notes: "Đủ 21 phần (khoảng 41 GB, gần hết là video). Đã đọc 26 PDF (13 Listening: overview, form/table, summary, sentence completion, flowchart, short answer, MCQ, pick from a list, matching, map, diagram + đề tổng hợp; 13 Reading: skimming/scanning, changeable vs unchangeable keywords, matching headings, summary with/without a box, short answer/notes/table, T/F/NG, MCQ/pick from a list, matching information + đề tổng hợp). Giải nén riêng PDF ở tai-lieu-nguon/tieng-anh/3. PREP - IELTS Trung Cấp - Từ 5. đến 6. IELTS/. Bài nghe/đọc phần lớn lấy từ Cambridge IELTS → chỉ reference: đối chiếu phạm vi, thứ tự các bước làm bài; tự viết lại mọi bài đọc, lời nghe, câu hỏi. Video Writing (Task 1 trends/comparison/mixed/maps, Task 2) và Speaking (events, media, hobbies, others) CHƯA XEM — máy chưa có ffmpeg. sha256 là của phần 004. Dùng cho Buổi 31–45 (2026-09-29)."
+
+  - id: prep-cs-listening
+    name: Khóa "Listening Chuyên Sâu" (PREP.VN) — 10 video bài giảng theo dạng câu hỏi (1 phần nén)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "1. Listening Chuyên Sâu-20260930T100240Z-1-001.zip"
+    sha256: 9a18e86b0bbeffe9527897f61ec7c8ab0aed401b52456b4c92e1cf82c9451f82
+    added: 2026-10-02
+    notes: "Chỉ có video (không PDF): form filling, MCQ một/nhiều đáp án, map/diagram labelling, matching, sentence completion/short answer, summary/table/flow-chart, note completion. Đọc qua bản chép lời tự động (whisper.cpp, model small, tiếng Việt) + ảnh chụp 1 khung/phút. Chỉ reference: đối chiếu chiến thuật làm bài; tự viết lại mọi bài nghe, câu hỏi. Dùng cho GĐ4 (Buổi 66–80). Bản đồ: skill english-content references/ban-do-tai-lieu.md §7."
+
+  - id: prep-cs-reading
+    name: Khóa "Reading Chuyên Sâu" (PREP.VN) — video bài giảng theo Passage/dạng câu hỏi (8 phần nén 001–008)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "2. Reading Chuyên Sâu-20261001T090651Z-1-001.zip"
+    sha256: 356af51fa7bd2be21769fbc1f74ef9691b06d53185ab06ada449f25e80369d93
+    added: 2026-10-02
+    notes: "Chỉ có video. sha256 là của phần 001 (bản 20261001); phần 008 thuộc lượt tải 20260930. Đọc qua bản chép lời tự động + ảnh khung hình. Bài đọc trong video có thể lấy từ Cambridge IELTS → tuyệt đối không dùng lại bài đọc/đề/đáp án; chỉ đối chiếu chiến thuật. Dùng cho GĐ4."
+
+  - id: prep-cs-speaking
+    name: Khóa "Speaking Chuyên Sâu" (PREP.VN) — video bài giảng (6 phần nén 001–006)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "3. Speaking Chuyên Sâu-20261002T065207Z-1-001.zip"
+    sha256: 520e05a7e29d3842d2d765a68ba578d1baa18d336f2b442f7d799ebf79123c9a
+    added: 2026-10-02
+    notes: "Chỉ có video. Đọc qua bản chép lời tự động + ảnh khung hình. Chỉ reference: đối chiếu cách triển khai câu trả lời Part 1–3; tự viết lại mọi câu hỏi, câu trả lời mẫu. Dùng cho GĐ4."
+
+  - id: prep-cs-writing
+    name: Khóa "Writing Chuyên Sâu" (PREP.VN) — video Task 1 (trend, comparative, process, maps) + Task 2 (academic style, adv/disadv, discussion, opinion, problem–solution, two-part) (11 phần nén 001–011 + 6 zip lẻ 12–18)
+    type: book
+    license: copyrighted
+    usage: reference
+    publishable: false
+    url: null
+    path: "4. Writing Chuyên Sâu-20260930T022045Z-1-001.zip"
+    sha256: 5ad6c8ac4fb3b9bc4b6e2213d0a785e96df1f8f95f60a12be2113d3341187b8a
+    added: 2026-10-02
+    notes: "Chỉ có video. Các zip lẻ '12. Two-part Question essays', '14. Học một biết nhiều…', '15. Graphs with a trend', '16. Comparative Graphs', '17. Process Diagrams', '18. Maps' phần lớn trùng thư mục trong khóa (đã loại trùng theo tên + dung lượng). Đọc qua bản chép lời tự động + ảnh khung hình. Chỉ reference: đối chiếu khung Ideas–Structure–Linking, dạng đề; tự viết lại mọi đề, bài mẫu, câu mẫu. Dùng cho GĐ4."
