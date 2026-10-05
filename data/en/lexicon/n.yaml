@@ -3,6 +3,7 @@ entries:
   - id: nationality|n
     headword: nationality
     pos: n
+    definition_en: "the country that you are a legal citizen of"
     ipa: { uk: "/ˌnæʃ.ənˈæl.ə.ti/", us: "/ˌnæʃ.ənˈæl.ə.t̬i/" }
     cefr: null
     meaning_vi: [ quốc tịch ]
@@ -10,12 +11,14 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: next-to|prep
     headword: next to
     pos: prep
+    definition_en: "very close to, at the side of"
     ipa:
       uk: /ˈnekst tə/
       us: /ˈnekst tə/
@@ -26,6 +29,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next-to, checked: 2026-09-30, field: cefr }
@@ -35,6 +39,7 @@ entries:
   - id: never|adv
     headword: never
     pos: adv
+    definition_en: "not at any time"
     ipa:
       uk: /ˈnev.ə/
       us: /ˈnev.ɚ/
@@ -47,6 +52,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/never, checked: 2026-09-30, field: cefr }
@@ -56,6 +62,7 @@ entries:
   - id: nurse|n
     headword: nurse
     pos: n
+    definition_en: "a person who looks after sick people in a hospital"
     ipa:
       uk: /nɜːs/
       us: /nɝːs/
@@ -67,6 +74,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nurse, checked: 2026-09-30, field: cefr }
@@ -76,6 +84,7 @@ entries:
   - id: next|det
     headword: next
     pos: det
+    definition_en: "coming straight after this one"
     ipa:
       uk: /nekst/
       us: /nekst/
@@ -93,6 +102,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/next, checked: 2026-09-30, field: cefr }
@@ -102,6 +112,7 @@ entries:
   - id: nervous|adj
     headword: nervous
     pos: adj
+    definition_en: "worried about something that will happen"
     ipa:
       uk: /ˈnɜː.vəs/
       us: /ˈnɝː.vəs/
@@ -115,6 +126,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nervous, checked: 2026-09-30, field: cefr }
@@ -124,6 +136,7 @@ entries:
   - id: nephew|n
     headword: nephew
     pos: n
+    definition_en: "the son of your brother or sister"
     ipa:
       uk: /ˈnef.juː/
       us: /ˈnef.juː/
@@ -134,6 +147,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nephew, checked: 2026-09-30, field: ipa.uk }
@@ -142,6 +156,7 @@ entries:
   - id: niece|n
     headword: niece
     pos: n
+    definition_en: "the daughter of your brother or sister"
     ipa:
       uk: /niːs/
       us: /niːs/
@@ -154,6 +169,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/niece, checked: 2026-09-30, field: ipa.uk }
@@ -162,6 +178,7 @@ entries:
   - id: new|adj
     headword: new
     pos: adj
+    definition_en: "recently made, bought or started"
     forms:
       comparative: newer
     ipa:
@@ -175,6 +192,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/new, checked: 2026-09-30, field: cefr }
@@ -184,6 +202,7 @@ entries:
   - id: narrow|adj
     headword: narrow
     pos: adj
+    definition_en: "small from one side to the other"
     forms:
       comparative: narrower
     ipa:
@@ -198,6 +217,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/narrow, checked: 2026-09-30, field: cefr }
@@ -207,6 +227,7 @@ entries:
   - id: north|n
     headword: north
     pos: n
+    definition_en: "the direction towards the top of a map"
     ipa:
       uk: /nɔːθ/
       us: /nɔːrθ/
@@ -221,6 +242,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/north, checked: 2026-09-30, field: cefr }
@@ -230,6 +252,7 @@ entries:
   - id: nose|n
     headword: nose
     pos: n
+    definition_en: "the part of your face you smell with"
     ipa:
       uk: /nəʊz/
       us: /noʊz/
@@ -240,6 +263,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nose, checked: 2026-09-30, field: cefr }
@@ -249,6 +273,7 @@ entries:
   - id: neck|n
     headword: neck
     pos: n
+    definition_en: "the part between your head and shoulders"
     ipa:
       uk: /nek/
       us: /nek/
@@ -259,6 +284,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neck, checked: 2026-09-30, field: cefr }
@@ -268,6 +294,7 @@ entries:
   - id: negative|adj
     headword: negative
     pos: adj
+    definition_en: "bad or harmful"
     ipa:
       uk: /ˈneɡ.ə.tɪv/
       us: /ˈneɡ.ə.t̬ɪv/
@@ -282,6 +309,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/negative, checked: 2026-09-30, field: cefr }
@@ -291,6 +319,7 @@ entries:
   - id: nature|n
     headword: nature
     pos: n
+    definition_en: "plants, animals, and the physical world not made by people"
     ipa:
       uk: /ˈneɪ.tʃər/
       us: /ˈneɪ.tʃɚ/
@@ -310,6 +339,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nature, checked: 2026-09-30, field: cefr }
@@ -319,6 +349,7 @@ entries:
   - id: noisy|adj
     headword: noisy
     pos: adj
+    definition_en: "making a lot of loud sounds"
     forms:
       comparative: noisier
       superlative: noisiest
@@ -339,6 +370,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/noisy, checked: 2026-09-30, field: cefr }
@@ -348,6 +380,7 @@ entries:
   - id: nuclear-family|phr-n
     headword: nuclear family
     pos: phr-n
+    definition_en: "a family of just parents and their children"
     ipa:
       uk: /ˌnjuː.kli.ə ˈfæm.əl.i/
       us: /ˌnuː.kli.ɚ ˈfæm.əl.i/
@@ -364,6 +397,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nuclear-family, checked: 2026-09-30, field: ipa.uk }
@@ -372,6 +406,7 @@ entries:
   - id: nowadays|adv
     headword: nowadays
     pos: adv
+    definition_en: "at the present time"
     ipa:
       uk: /ˈnaʊ.ə.deɪz/
       us: /ˈnaʊ.ə.deɪz/
@@ -384,6 +419,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nowadays, checked: 2026-09-30, field: cefr }
@@ -393,6 +429,7 @@ entries:
   - id: neighbourhood|n
     headword: neighbourhood
     pos: n
+    definition_en: "the area around your home"
     ipa:
       uk: /ˈneɪ.bə.hʊd/
       us: /ˈneɪ.bɚ.hʊd/
@@ -410,6 +447,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/neighbourhood, checked: 2026-09-30, field: cefr }
@@ -419,6 +457,7 @@ entries:
   - id: nightlife|n
     headword: nightlife
     pos: n
+    definition_en: "entertainment available in the evening, e.g. bars"
     ipa:
       uk: /ˈnaɪt.laɪf/
       us: /ˈnaɪt.laɪf/
@@ -434,6 +473,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nightlife, checked: 2026-09-30, field: ipa.uk }
@@ -442,6 +482,7 @@ entries:
   - id: nearly|adv
     headword: nearly
     pos: adv
+    definition_en: "almost; a little less than"
     ipa:
       uk: /ˈnɪə.li/
       us: /ˈnɪr.li/
@@ -458,6 +499,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nearly, checked: 2026-09-30, field: cefr }
@@ -467,6 +509,7 @@ entries:
   - id: nevertheless|adv
     headword: nevertheless
     pos: adv
+    definition_en: "in spite of that"
     ipa:
       uk: /ˌnev.ə.ðəˈles/
       us: /ˌnev.ɚ.ðəˈles/
@@ -481,6 +524,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nevertheless, checked: 2026-09-30, field: cefr }
@@ -490,6 +534,7 @@ entries:
   - id: nonetheless|adv
     headword: nonetheless
     pos: adv
+    definition_en: "even so; despite this"
     ipa:
       uk: /ˌnʌn.ðəˈles/
       us: /ˌnʌn.ðəˈles/
@@ -503,6 +548,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nonetheless, checked: 2026-09-30, field: cefr }
@@ -512,6 +558,7 @@ entries:
   - id: nutrition|n
     headword: nutrition
     pos: n
+    definition_en: "the food your body needs to stay healthy"
     ipa:
       uk: /njuːˈtrɪʃ.ən/
       us: /nuːˈtrɪʃ.ən/
@@ -528,6 +575,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/nutrition, checked: 2026-09-30, field: cefr }
@@ -537,6 +585,7 @@ entries:
   - id: negligible|adj
     headword: negligible
     pos: adj
+    definition_en: "so small it is not important"
     ipa:
       uk: /ˈneɡ.lɪ.dʒə.bəl/
       us: /ˈneɡ.lə.dʒə.bəl/
@@ -551,6 +600,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -560,6 +610,7 @@ entries:
   - id: nostalgic|adj
     headword: nostalgic
     pos: adj
+    definition_en: "thinking happily about the past"
     ipa:
       uk: /nɒsˈtæl.dʒɪk/
       us: /nɑːˈstæl.dʒɪk/
@@ -576,6 +627,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

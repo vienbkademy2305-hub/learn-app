@@ -1,0 +1,610 @@
+lesson:
+  slug: buoi-77-full-mock-4-ky-nang
+  number: 77
+  stage: 4
+  title_vi: "Mock test đầy đủ 4 kỹ năng · Mô phỏng ngày thi thật (khoảng 3 giờ)"
+  focus:
+    grammar: Không học điểm mới
+    skill: "Full IELTS Academic: Listening 30' → Reading 60' → Writing 60' → Speaking 11–14', liên tục như ngày thi"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: listening
+      title_vi: "Ngày thi thử: bốn kỹ năng, một buổi, đúng thứ tự"
+      intro_vi: "Ngày thi thật, Listening, Reading và Writing làm liền nhau khoảng 2 giờ 40 phút, không nghỉ giữa các phần. Speaking có thể cùng ngày hoặc cách vài ngày. Buổi này mô phỏng đúng như vậy để bạn biết sức tập trung của mình giữ được đến đâu. Làm theo thứ tự: Listening (Bài tập 1–7) → Reading (Bài tập 8–15) → Writing (phần Về nhà) → Speaking (Bài tập 16–18). Không xem đáp án cho tới khi xong cả Writing. Buổi 78 sẽ chữa chi tiết đề này."
+      steps:
+        - title_vi: "Chuẩn bị (10 phút trước khi bắt đầu)"
+          text_vi: "Ăn nhẹ, uống nước, đi vệ sinh — thi thật không được rời phòng giữa Listening và Writing. Đặt tờ ghi 5 lỗi cá nhân (Buổi 76) và các 'luật' (Buổi 75) cạnh bàn, đọc một lần rồi úp xuống."
+        - title_vi: "Listening 30 phút — nghe một lần"
+          text_vi: "Bấm nghe mỗi phần một lần duy nhất. Sau Part 4, dành 2 phút soát chính tả và -s (thi máy tính không có 10 phút chép đáp án)."
+        - title_vi: "Reading 60 phút — mốc 18 / 38 / 60"
+          text_vi: "Xong bài 1 trước phút 18, bài 2 trước phút 38. Câu kẹt quá 90 giây: đoán, đánh dấu, đi tiếp."
+        - title_vi: "Writing 60 phút — Task 1 tối đa 20 phút"
+          text_vi: "Làm ngay sau Reading, không nghỉ. Mệt là bình thường; dàn ý 5 phút cho Task 2 giúp bạn không bị 'trôi' khi mệt."
+        - title_vi: "Speaking — nghỉ 15 phút rồi làm"
+          text_vi: "Ghi âm đủ 3 Part. Sau đó mới chấm Listening/Reading, quy đổi band, tự chấm Writing và Speaking theo 4 tiêu chí. Tính band tổng = trung bình 4 kỹ năng, làm tròn đến 0.5 gần nhất."
+      tips:
+        - "Cách làm tròn band tổng: trung bình kết thúc bằng .25 → làm tròn lên .5; .75 → làm tròn lên số nguyên tiếp theo. VD: (6 + 6.5 + 6 + 6.5)/4 = 6.25 → 6.5."
+        - "Ghi giờ thực tế bạn hoàn thành từng phần. Phần nào lố giờ là phần cần chiến thuật ở Buổi 79."
+        - "Nếu mất tập trung ở Reading bài 3 hoặc Writing Task 2 — đó là dấu hiệu sức bền, không phải trình độ. Ghi lại để Buổi 79 xử lý."
+      traps:
+        - trap_vi: "Dừng giữa chừng để xem đáp án Listening trước khi làm Reading."
+          fix_vi: "Không chấm gì cho tới khi xong Writing — giống thi thật, bạn không biết điểm khi đang thi."
+        - trap_vi: "Viết Writing ngắn vì mệt sau 90 phút Listening + Reading."
+          fix_vi: "Dàn ý trước, viết theo dàn ý; kiểm tra số từ trước khi hết giờ."
+      phrases:
+        - en: "Overall band score"
+          vi: "Điểm tổng (trung bình 4 kỹ năng)"
+        - en: "I'd like to start with Part 1, please."
+          vi: "(Tự nhắc) Bắt đầu Part 1."
+          note_vi: "Không cần nói trong phòng thi; dùng khi tự ghi âm để đánh dấu các phần."
+    - type: exercises
+      items:
+        - id: b77-x1
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 1 · Câu 1–10. Đặt tour đi bộ có hướng dẫn viên. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ. Chỉ nghe MỘT lần."
+          max_words: 3
+          audio_text: |-
+            Man: Old Town Walking Tours, good afternoon.
+            Woman: Hi. I'd like to book a tour for a group from my office.
+            Man: Sure. Which tour are you interested in? We have the history tour and the food tour.
+            Woman: The food tour, please. Most of my colleagues have done the history one already.
+            Man: Great. How many people?
+            Woman: There'll be nine of us. Sorry, eleven — two people from another team want to join.
+            Man: No problem. The maximum is fifteen. Which date?
+            Woman: Friday the twenty-third of May.
+            Man: The food tour starts at eleven in the morning or at half past five. Which do you prefer?
+            Woman: Half past five, because we finish work at five.
+            Man: Fine. The meeting point is outside the town hall, by the fountain. Not the main entrance — the fountain is on the side facing the river.
+            Woman: Got it. How long does it last?
+            Man: About three hours, and it includes six tastings.
+            Woman: Does anyone in the group need to tell you about allergies?
+            Man: Yes, please email us at least two days before. Our email is tours at oldtown dot com.
+            Woman: And the price?
+            Man: Normally forty-two pounds per person, but for groups of ten or more it's thirty-six.
+            Woman: Excellent. Can I have the booking in my name? Caroline Pryce. P-R-Y-C-E.
+            Man: Thank you, Caroline. And a contact number?
+            Woman: Oh-two-oh, seven-nine-four-six, three-one-one-eight.
+            Man: One last thing: wear comfortable shoes. There are a lot of steps on the route.
+          passage: |-
+            OLD TOWN WALKING TOURS — BOOKING
+            Tour: (1) ___ tour
+            Number of people: (2) ___
+            Date: Friday 23 May
+            Start time: (3) ___
+            Meeting point: outside the town hall, by the (4) ___
+            Length: about (5) ___ hours, including six tastings
+            Allergies: email at least (6) ___ days before
+            Price per person: £(7) ___
+            Booking name: Caroline (8) ___
+            Phone: (9) ___
+            Advice: wear comfortable (10) ___
+          questions:
+            - q: (1)
+              answer: food
+            - q: (2)
+              answer: "11"
+              accept:
+                - eleven
+              explain_vi: "Bẫy: 9 người, rồi sửa thành 11."
+            - q: (3)
+              answer: "5.30"
+              accept:
+                - "5:30"
+                - "17:30"
+                - half past five
+                - "5.30 pm"
+            - q: (4)
+              answer: fountain
+            - q: (5)
+              answer: three
+              accept:
+                - "3"
+            - q: (6)
+              answer: two
+              accept:
+                - "2"
+            - q: (7)
+              answer: "36"
+              accept:
+                - thirty-six
+              explain_vi: "Nhóm từ 10 người trở lên → £36 (nhóm có 11 người)."
+            - q: (8)
+              answer: Pryce
+            - q: (9)
+              answer: "02079463118"
+              accept:
+                - 020 7946 3118
+            - q: (10)
+              answer: shoes
+        - id: b77-x2
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "LISTENING PART 2 · Câu 11–15. Buổi định hướng cho tình nguyện viên lễ hội âm nhạc. Chọn đáp án đúng."
+          audio_text: "Welcome, everyone, to the volunteer briefing for the Harbour Music Festival. I'm Grace, the volunteer manager. First, thank you. This year we have over three hundred volunteers, which is the most we've ever had. Let me start with your shifts. Each shift is six hours long, and in return for three shifts you get a free ticket for the whole weekend. Please check in at the volunteer tent at least thirty minutes before your shift starts. You'll be given a festival T-shirt there, and you must wear it at all times so that visitors can find you. Some of you have asked about food. You'll get a meal voucher for each shift, which you can use at any food stall except the ones selling alcohol. Now, the most common question visitors ask is where the toilets are, closely followed by questions about lost children. If a child is lost, don't try to search for them yourself. Take the child to the information point and stay with them until a member of staff arrives. Finally, if the weather is bad, check the festival app for updates. We don't cancel for rain, but very strong winds can stop performances on the main stage."
+          questions:
+            - q: "11 · What does Grace say about this year's volunteers?"
+              options:
+                - There are fewer than last year.
+                - There are more than ever before.
+                - Most are students.
+                - Most have volunteered before.
+              answer: b
+            - q: "12 · How many shifts must volunteers do to get a free weekend ticket?"
+              options:
+                - one
+                - two
+                - three
+                - six
+              answer: c
+            - q: "13 · Volunteers must wear their T-shirt so that"
+              options:
+                - they can get free food.
+                - visitors can recognise them.
+                - they can enter the volunteer tent.
+                - security staff know their shift times.
+              answer: b
+            - q: "14 · What should a volunteer do if a child is lost?"
+              options:
+                - search the festival site
+                - call the child's parents
+                - take the child to the information point
+                - make an announcement on the main stage
+              answer: c
+            - q: "15 · What might stop performances on the main stage?"
+              options:
+                - heavy rain
+                - strong winds
+                - power cuts
+                - too many visitors
+              answer: b
+              explain_vi: "'We don't cancel for rain' — mưa là phương án nhiễu."
+        - id: b77-x3
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 2 · Câu 16–20. Nhiệm vụ của các nhóm tình nguyện. Viết MỘT TỪ cho mỗi chỗ trống."
+          max_words: 1
+          audio_text: "Now, the different teams. The welcome team works at the gates, checking tickets and giving out maps. The green team is responsible for recycling. Every bin has three sections, and your job is to help visitors put things in the right one. The access team helps visitors with disabilities. You'll be based at the viewing platform next to the main stage, and you'll also look after the wheelchairs that people can borrow. The family team runs activities in the children's area, mainly painting and storytelling. And the stage team helps the technical crew move equipment between performances, so you need to be fairly strong, and you must wear gloves, which we'll provide."
+          passage: |-
+            VOLUNTEER TEAMS
+            Welcome team: check tickets and give out (16) ___
+            Green team: help visitors use the right section of each (17) ___
+            Access team: based at the viewing (18) ___; also look after borrowed wheelchairs
+            Family team: painting and (19) ___
+            Stage team: move equipment; must wear (20) ___
+          questions:
+            - q: (16)
+              answer: maps
+            - q: (17)
+              answer: bin
+            - q: (18)
+              answer: platform
+            - q: (19)
+              answer: storytelling
+            - q: (20)
+              answer: gloves
+        - id: b77-x4
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "LISTENING PART 3 · Câu 21–25. Hai sinh viên Ella và Sam bàn dự án nghiên cứu về tiếng ồn đô thị. Chọn đáp án đúng."
+          audio_text: |-
+            Woman: Sam, I've been thinking about our research on traffic noise. I'm worried our original plan is too big.
+            Man: You mean measuring noise in ten different streets?
+            Woman: Yes. We only have six weeks. I think we should choose four streets and measure them more often.
+            Man: That makes sense. More data from fewer places is probably more reliable.
+            Woman: Exactly. Now, the noise meters. The department has two, but one of them isn't working properly.
+            Man: Could we use a phone app instead?
+            Woman: I checked. The apps aren't accurate enough for a university project. I've asked to borrow one from the engineering department.
+            Man: Good thinking. What about the residents' questionnaire?
+            Woman: I'd like to ask people how noise affects their sleep. That seemed to be the biggest issue in the articles we read.
+            Man: I agree, although I'd add a question about whether they keep their windows closed. In one study, that changed the results a lot.
+            Woman: OK, let's include that. Who should we ask?
+            Man: People who live on the four streets. But only adults, because otherwise we'd need permission from the ethics committee.
+          questions:
+            - q: "21 · Why does Ella want to change the original plan?"
+              options:
+                - The streets are too far apart.
+                - There is not enough time.
+                - The tutor rejected it.
+                - The noise meters are expensive.
+              answer: b
+            - q: "22 · What do they decide to do?"
+              options:
+                - measure ten streets less often
+                - measure four streets more often
+                - measure only one street
+                - use data from other studies
+              answer: b
+            - q: "23 · Why will they not use a phone app?"
+              options:
+                - It is too expensive.
+                - It is not accurate enough.
+                - It is difficult to use.
+                - The department does not allow it.
+              answer: b
+            - q: "24 · What extra question will Sam add to the questionnaire?"
+              options:
+                - how long people have lived there
+                - whether people keep their windows closed
+                - how many hours people sleep
+                - whether people own a car
+              answer: b
+            - q: "25 · Why will they only ask adults?"
+              options:
+                - Children are not affected by noise.
+                - Asking children needs special permission.
+                - Adults are at home more often.
+                - Children cannot answer questionnaires.
+              answer: b
+        - id: b77-x5
+          bank_no: 22
+          kind: completion
+          instructions_vi: "LISTENING PART 3 · Câu 26–30. Kế hoạch công việc. Viết KHÔNG QUÁ HAI TỪ."
+          max_words: 2
+          audio_text: |-
+            Woman: Let's make a timetable. Week one: we visit the streets and choose the exact places to stand.
+            Man: And we should take photos, so we can find the same spots every time.
+            Woman: Good. Weeks two to four, we take measurements. Morning, afternoon and evening.
+            Man: And in week three we deliver the questionnaires. We could put them through letterboxes with a return envelope.
+            Woman: Then week five is analysis. I'll do the statistics.
+            Man: And I'll make the maps showing noise levels on each street.
+            Woman: Week six, we write the report. And remember, the tutor wants a short presentation as well.
+          passage: |-
+            PROJECT TIMETABLE
+            Week 1: visit streets; take (26) ___ of measuring points
+            Weeks 2–4: measurements — morning, afternoon and (27) ___
+            Week 3: deliver questionnaires with a return (28) ___
+            Week 5: Ella — statistics; Sam — (29) ___
+            Week 6: report and a short (30) ___
+          questions:
+            - q: (26)
+              answer: photos
+              accept:
+                - photographs
+            - q: (27)
+              answer: evening
+            - q: (28)
+              answer: envelope
+            - q: (29)
+              answer: maps
+            - q: (30)
+              answer: presentation
+        - id: b77-x6
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 4 · Câu 31–40. Bài giảng về lịch sử của muối. Viết MỘT TỪ cho mỗi chỗ trống."
+          max_words: 1
+          audio_text: "Today we're looking at a substance so common that we rarely think about it: salt. Yet for most of human history, salt was extremely valuable. The main reason was preservation. Before refrigerators, salt was one of the only ways to keep meat and fish from going bad, which made it essential for long journeys and for surviving the winter. Salt was produced in two main ways. Near the coast, sea water was left in shallow pools so that the sun could evaporate it. Inland, salt was mined from underground deposits, or salty water from springs was boiled over fires, which required huge amounts of wood. Because salt was so important, it was often controlled and taxed by governments. In China, a state monopoly on salt provided a large share of government income for more than two thousand years. In France, a hated salt tax called the gabelle was one of the complaints that led to the Revolution. And in India in 1930, Gandhi led a march of nearly four hundred kilometres to the sea to make salt, in protest against British salt laws. Salt also left its mark on language. Roman soldiers were sometimes given money to buy salt, and some historians connect this with the word salary, although the evidence for this is weaker than many people assume. Today, salt is cheap, and the main concern is health. Most people eat far more than they need, mostly from processed food rather than from the salt they add themselves. High salt intake is linked to high blood pressure, and several countries have persuaded manufacturers to gradually reduce the salt in products such as bread, so slowly that customers don't notice the difference."
+          passage: |-
+            THE HISTORY OF SALT
+            Why it was valuable
+            • Used for (31) ___ of meat and fish before refrigerators
+            Production
+            • Coast: sea water in shallow pools; the (32) ___ evaporates it
+            • Inland: mined, or salty spring water (33) ___ over fires — needed a lot of (34) ___
+            Salt and governments
+            • China: state (35) ___ on salt for over 2,000 years
+            • France: the gabelle — one cause of the (36) ___
+            • India, 1930: Gandhi's (37) ___ to the sea
+            Language
+            • 'salary' may come from money given to Roman (38) ___ (evidence is weak)
+            Today
+            • Most salt comes from (39) ___ food
+            • Some countries: manufacturers reduce salt in products like (40) ___ gradually
+          questions:
+            - q: (31)
+              answer: preservation
+            - q: (32)
+              answer: sun
+            - q: (33)
+              answer: boiled
+            - q: (34)
+              answer: wood
+            - q: (35)
+              answer: monopoly
+            - q: (36)
+              answer: Revolution
+            - q: (37)
+              answer: march
+            - q: (38)
+              answer: soldiers
+            - q: (39)
+              answer: processed
+            - q: (40)
+              answer: bread
+        - id: b77-x7
+          bank_no: 20
+          kind: tf
+          instructions_vi: "SAU KHI CHẤM · Nghe lại một đoạn ngắn về muối (độc thoại). Chọn Đúng (T) hoặc Sai (F). Không tính vào điểm 40 câu."
+          audio_text: "The link between salt and the word salary is often repeated, but historians are not certain about it. What is certain is that salt was taxed in many places, and that these taxes were unpopular. Today, the problem is the opposite: salt is so cheap and so widely used in processed food that most people eat more than is healthy."
+          questions:
+            - q: Historians are sure that 'salary' comes from salt.
+              answer: F
+            - q: Salt taxes were unpopular in many places.
+              answer: T
+            - q: Most people today eat too little salt.
+              answer: F
+        - id: b77-x8
+          bank_no: 13
+          kind: tfng
+          instructions_vi: "READING PASSAGE 1 · Câu 1–7. Bắt đầu 60 phút Reading. Chọn TRUE / FALSE / NOT GIVEN."
+          passage: &p1 |-
+            THE SECRET OF ROMAN CONCRETE
+
+            Many Roman structures have survived for two thousand years. The Pantheon in Rome, completed around 125 CE, still has the largest unreinforced concrete dome in the world. Harbour walls built by the Romans have stood in sea water for centuries, while modern concrete in similar conditions often begins to crack within decades. For a long time, engineers wondered why.
+
+            Roman concrete was made from lime, volcanic ash and pieces of rock. The volcanic ash, much of it from the area around the Bay of Naples, reacted with the lime to create an extremely strong material. Roman writers described the recipe, but their descriptions were incomplete, and modern attempts to copy it were not very successful.
+
+            A key discovery came from studying the small white lumps of lime that are found throughout Roman concrete. These had long been seen as a sign of poor mixing or low-quality materials. In 2023, however, a team of researchers suggested that the lumps were deliberate. They argued that the Romans mixed in 'quicklime', a very reactive form of lime, which heated the mixture and left behind these lumps.
+
+            The lumps, the team believe, give the concrete the ability to repair itself. When a small crack forms and water gets in, the water dissolves some of the lime from the lumps. This then reacts to form a new mineral that fills the crack. To test the idea, the researchers made concrete using the Roman method, deliberately cracked it, and ran water through it. Within two weeks, the cracks had closed, while cracks in a sample made without quicklime did not.
+
+            Harbour concrete has a further secret. Sea water, which damages modern concrete, appears to have strengthened Roman harbour walls by encouraging the growth of rare minerals inside them.
+
+            Some companies are now experimenting with these ideas. If self-repairing concrete could be produced on a large scale, buildings might last longer and need less maintenance, which would reduce the large carbon emissions produced by making new cement.
+          questions:
+            - q: "1 · The Pantheon's dome contains steel reinforcement."
+              answer: F
+              explain_vi: "'unreinforced' = không có cốt thép."
+            - q: "2 · Most of the volcanic ash came from Greece."
+              answer: F
+              explain_vi: "'much of it from the area around the Bay of Naples' (Ý)."
+            - q: "3 · Roman writers left complete instructions for making concrete."
+              answer: F
+            - q: "4 · The white lumps were once thought to show that the concrete was badly made."
+              answer: T
+            - q: "5 · The 2023 research team was based in Italy."
+              answer: NG
+            - q: "6 · In the experiment, the cracks closed within two weeks."
+              answer: T
+            - q: "7 · Self-repairing concrete is already used in most new buildings."
+              answer: F
+              explain_vi: "Mới 'experimenting'; 'If … could be produced on a large scale' → chưa phổ biến. Bài nói ngược với 'already used in most'."
+        - id: b77-x9
+          bank_no: 16
+          kind: completion
+          instructions_vi: "READING PASSAGE 1 · Câu 8–13. Hoàn thành ghi chú. Viết MỘT TỪ lấy từ bài đọc."
+          max_words: 1
+          passage: *p1
+          questions:
+            - q: "(8) Ingredients: lime, volcanic ash and pieces of ___"
+              answer: rock
+            - q: "(9) Researchers think the Romans added ___, a very reactive form of lime."
+              answer: quicklime
+            - q: "(10) This made the mixture become hot and left white ___."
+              answer: lumps
+            - q: "(11) When water enters a crack, it ___ some of the lime."
+              answer: dissolves
+            - q: "(12) A new ___ forms and fills the crack."
+              answer: mineral
+            - q: "(13) Longer-lasting buildings would reduce carbon ___ from cement production."
+              answer: emissions
+        - id: b77-x10
+          bank_no: 14
+          kind: mcq
+          instructions_vi: "READING PASSAGE 2 · Câu 14–19. Chọn tiêu đề đúng (i–viii) cho mỗi đoạn A–F. Có 2 tiêu đề thừa."
+          passage: &p2 |-
+            THE DISAPPEARING NIGHT
+
+            A  For most of human history, the night sky was dark enough for people to see thousands of stars. Today, about eighty per cent of the world's population lives under skies affected by artificial light, and in many cities the Milky Way has not been visible for generations. Scientists call this light pollution, and satellite images show that it is spreading by around two per cent a year.
+
+            B  Light pollution is not only a problem for astronomers. Many animals depend on darkness. Young sea turtles find the sea by moving towards the brightest horizon, which used to be the moonlight over the water; now they often crawl towards roads and hotels instead. Migrating birds can become confused by brightly lit buildings, and millions die each year after flying into them.
+
+            C  Insects are affected too. Many species are attracted to street lights, where they circle until they are exhausted or eaten. Researchers in Germany estimated that a single street light can kill an average of 150 insects per summer night. Because insects pollinate plants and feed other animals, their decline can affect whole ecosystems.
+
+            D  There may also be effects on human health. Our bodies produce the hormone melatonin when it is dark, and this helps to regulate sleep. Some studies have linked exposure to artificial light at night with poor sleep, and possibly with other health problems, although researchers stress that the evidence is still limited.
+
+            E  Unlike many environmental problems, light pollution is relatively easy to reduce. Lights can be shielded so that they point downwards, switched off when not needed, or replaced with warmer colours, which have less effect on wildlife. A town in the French Alps that turned off its street lights after midnight found that crime did not increase, and saved a third of its lighting budget.
+
+            F  Some places have gone further by applying to become official 'dark sky reserves'. These areas agree to strict rules on outdoor lighting, and in return they attract visitors who want to see the stars. For remote rural communities, this 'astro-tourism' has become a valuable new source of income.
+          questions:
+            - q: "14 · Paragraph A"
+              options: &h2
+                - "i. Simple and inexpensive solutions"
+                - "ii. A growing global problem"
+                - "iii. Possible risks to people"
+                - "iv. Turning darkness into a business"
+                - "v. Wildlife that is led in the wrong direction"
+                - "vi. A threat to small creatures and the systems they support"
+                - "vii. The invention of the electric light"
+                - "viii. Why astronomers are moving abroad"
+              answer: b
+            - q: "15 · Paragraph B"
+              options: *h2
+              answer: e
+            - q: "16 · Paragraph C"
+              options: *h2
+              answer: f
+            - q: "17 · Paragraph D"
+              options: *h2
+              answer: c
+            - q: "18 · Paragraph E"
+              options: *h2
+              answer: a
+            - q: "19 · Paragraph F"
+              options: *h2
+              answer: d
+        - id: b77-x11
+          bank_no: 15
+          kind: mcq
+          instructions_vi: "READING PASSAGE 2 · Câu 20–23. Đoạn nào (A–F) chứa thông tin sau?"
+          passage: *p2
+          questions:
+            - q: "20 · a figure for the number of insects killed by one light"
+              options: &pp2
+                - A
+                - B
+                - C
+                - D
+                - E
+                - F
+              answer: c
+            - q: "21 · an example of a place that saved money on lighting"
+              options: *pp2
+              answer: e
+            - q: "22 · a reference to the rate at which light pollution is increasing"
+              options: *pp2
+              answer: a
+            - q: "23 · a caution about the strength of scientific evidence"
+              options: *pp2
+              answer: d
+        - id: b77-x12
+          bank_no: 16
+          kind: completion
+          instructions_vi: "READING PASSAGE 2 · Câu 24–26. Hoàn thành câu. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+          max_words: 2
+          passage: *p2
+          questions:
+            - q: "(24) Young sea turtles used to find the sea by following the ___ over the water."
+              answer: moonlight
+            - q: "(25) Lights with ___ have less effect on wildlife."
+              answer: warmer colours
+            - q: "(26) For remote areas, astro-tourism provides a new source of ___."
+              answer: income
+        - id: b77-x13
+          bank_no: 13
+          kind: ynng
+          instructions_vi: "READING PASSAGE 3 · Câu 27–32. Câu nhận định có khớp với QUAN ĐIỂM của tác giả không? Chọn YES / NO / NOT GIVEN."
+          passage: &p3 |-
+            CAN WE TRUST WHAT WE REMEMBER?
+
+            A  Most of us think of memory as a kind of recording: an event happens, it is stored, and later we play it back. Decades of research suggest that this picture is wrong. Memories are rebuilt each time we recall them, and in the process they can change — sometimes a great deal — without our noticing. I find this one of the most unsettling discoveries in psychology.
+
+            B  In a classic series of experiments, participants watched a film of a car accident and were then asked how fast the cars were going when they 'hit' or 'smashed into' each other. Those who heard the word 'smashed' gave higher estimates of speed, and a week later they were more likely to remember seeing broken glass, although there had been none. A single word, in other words, was enough to add a detail to their memory.
+
+            C  Later studies went further. By using a mixture of true family stories and one invented event, researchers persuaded a significant minority of participants that they had once been lost in a shopping centre as a child. Some described the imaginary event in rich detail. These participants were not lying; they genuinely believed what they remembered.
+
+            D  The consequences are most serious in courts of law. Eyewitness evidence is extremely persuasive to juries, yet mistaken identification has played a part in a large proportion of the convictions later overturned by DNA evidence in the United States. Confidence is a poor guide: a witness who is completely certain may still be wrong, especially if they were repeatedly questioned or shown the suspect's photograph before the identity parade.
+
+            E  None of this means that memory is generally unreliable. For the everyday purposes of life — remembering where we live, who our friends are, what we did yesterday — it works remarkably well. The problem is that we tend to trust a vivid memory more than it deserves. A memory can feel clear and detailed precisely because we have recalled and rebuilt it many times.
+
+            F  Some practical lessons follow. Police forces in several countries have changed how they interview witnesses, avoiding leading questions and recording a witness's confidence at the first identification, when it is most meaningful. For the rest of us, a little humility seems appropriate. When two people remember the same event differently, it is quite possible that neither is lying — and that neither is entirely right.
+          questions:
+            - q: "27 · Memory works like a recording that we play back."
+              answer: N
+            - q: "28 · The writer finds the idea that memories change disturbing."
+              answer: Y
+              explain_vi: "'one of the most unsettling discoveries' — unsettling = disturbing."
+            - q: "29 · The participants in the shopping-centre study were deliberately lying."
+              answer: N
+              explain_vi: "'These participants were not lying'."
+            - q: "30 · Juries should not be allowed to hear eyewitness evidence."
+              answer: NG
+              explain_vi: "Tác giả nói về rủi ro nhưng không đề xuất cấm."
+            - q: "31 · Human memory is generally unreliable in daily life."
+              answer: N
+            - q: "32 · Changes to police interviews have reduced the number of wrongful convictions."
+              answer: NG
+              explain_vi: "Bài chỉ nói cách phỏng vấn đã thay đổi, không nói kết quả."
+        - id: b77-x14
+          bank_no: 17
+          kind: mcq
+          instructions_vi: "READING PASSAGE 3 · Câu 33–36. Chọn đáp án đúng."
+          passage: *p3
+          questions:
+            - q: "33 · The car accident experiment showed that"
+              options:
+                - people are bad at estimating speed.
+                - the wording of a question can change a memory.
+                - most people remember broken glass.
+                - films are less memorable than real events.
+              answer: b
+            - q: "34 · In paragraph D, the writer suggests that a witness's confidence"
+              options:
+                - is the best sign of an accurate memory.
+                - always decreases over time.
+                - may not show whether the witness is correct.
+                - is ignored by juries.
+              answer: c
+            - q: "35 · According to paragraph E, why can a false memory feel clear?"
+              options:
+                - It was recorded on film.
+                - It has been recalled and rebuilt many times.
+                - It happened recently.
+                - Other people share it.
+              answer: b
+            - q: "36 · When is a witness's confidence 'most meaningful'?"
+              options:
+                - at the trial
+                - after seeing a photograph
+                - at the first identification
+                - after DNA testing
+              answer: c
+        - id: b77-x15
+          bank_no: 1
+          kind: gap-fill
+          instructions_vi: "READING PASSAGE 3 · Câu 37–40. Hoàn thành tóm tắt bằng các từ trong hộp. Có nhiều từ hơn số chỗ trống."
+          bank:
+            - rebuilt
+            - recorded
+            - invented
+            - leading
+            - humility
+            - certainty
+            - persuasive
+            - rare
+          questions:
+            - q: "(37) Research shows that memories are ___ each time we recall them."
+              answer: rebuilt
+            - q: "(38) Some participants came to believe in an ___ childhood event."
+              answer: invented
+            - q: "(39) Eyewitness evidence is very ___ to juries, even though it can be mistaken."
+              answer: persuasive
+            - q: "(40) Police now try to avoid ___ questions when interviewing witnesses."
+              answer: leading
+        - id: b77-x16
+          bank_no: 29
+          kind: speaking-part1
+          instructions_vi: "SPEAKING PART 1 (sau Writing, nghỉ 15 phút). Trả lời ngay, ghi âm liên tục cả 3 Part."
+          questions:
+            - q: Where do you live at the moment?
+            - q: What do you like about the area?
+            - q: Let's talk about walking. Do you walk much in your daily life?
+            - q: Did you walk more when you were younger?
+            - q: Let's talk about festivals. What's the most popular festival in your country?
+            - q: Do you prefer big festivals or small local ones?
+          sample: "Honestly, not as much as I should. I take a motorbike to work, like most people in my city, so I mainly walk at the weekend, usually in the park near my flat in the early morning when it's still cool."
+        - id: b77-x17
+          bank_no: 30
+          kind: speaking-part2
+          instructions_vi: "SPEAKING PART 2. Chuẩn bị 1 phút, nói 2 phút."
+          cue_card:
+            topic: Describe a memorable event you attended with a group of people.
+            points:
+              - what the event was
+              - who you went with
+              - what happened
+              - and explain why it was memorable
+          sample: "I'd like to talk about the lantern festival in Hội An, which I went to with five colleagues after a work conference two years ago. None of us had been there during the full moon before, so we didn't know what to expect. In the evening, the electric lights in the old town were switched off, and the streets were lit only by hundreds of silk lanterns. We hired a small boat, and the boatman gave each of us a paper lantern with a candle inside to put on the river. What made it memorable was the atmosphere. Usually my colleagues and I only talk about deadlines, but that night we talked about our families and our plans, and it felt like we really got to know each other. Since then, we've worked together much better, and we still have a photo of that evening on the office wall."
+        - id: b77-x18
+          bank_no: 31
+          kind: speaking-part3
+          instructions_vi: "SPEAKING PART 3. Mỗi câu 30–45 giây."
+          questions:
+            - q: Why do people enjoy attending events in large groups?
+            - q: How have traditional festivals changed in recent years?
+            - q: Do you think tourism helps or harms local festivals?
+            - q: Should governments spend public money on festivals and celebrations?
+          sample: "I think it does both. On the positive side, tourism brings money that helps local communities keep their traditions alive — the lantern makers in Hội An, for example, depend heavily on visitors. Having said that, when a festival becomes mainly a show for tourists, local people sometimes stop taking part, and it can lose its original meaning. So on balance, I'd say tourism helps as long as local residents are still involved in organising it."
+    - type: homework
+      kind: task2
+      prompt_vi: "WRITING (làm NGAY sau Reading, 60 phút): Task 1 trước (≥ 150 từ, 20 phút), xuống dòng ghi 'TASK 2', rồi Task 2 (≥ 250 từ, 40 phút). Sau cả buổi: chấm Listening/Reading, quy đổi band, tự chấm Writing và Speaking, tính band tổng. Ghi lại giờ bạn hoàn thành từng phần. Số liệu Task 1 là giả định."
+      prompt_en: |-
+        TASK 1 (20 minutes, at least 150 words)
+        The bar chart shows the percentage of people in one country who used four types of transport to travel to work in 2005 and 2025.
+        Car: 2005: 52% · 2025: 41%
+        Bus: 2005: 23% · 2025: 19%
+        Bicycle: 2005: 6% · 2025: 15%
+        Train: 2005: 12% · 2025: 18%
+        (Other: 2005: 7% · 2025: 7%)
+        Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+
+        TASK 2 (40 minutes, at least 250 words)
+        Some people believe that university education should be free for all students, while others think that students should pay for their own studies.
+        Discuss both views and give your own opinion.
+        Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+      words:
+        min: 400
+        max: 520
+      minutes: 60

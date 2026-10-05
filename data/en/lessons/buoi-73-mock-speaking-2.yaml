@@ -1,0 +1,181 @@
+# Buổi 73 — Mock Speaking 2 · Đủ 3 Part — một lần thay đổi kế hoạch; luyện trôi chảy & phát âm. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-73-mock-speaking-2
+number: 73
+stage: 4
+title_vi: Mock Speaking 2 · Đủ 3 Part — một lần thay đổi kế hoạch; luyện trôi chảy & phát âm
+focus:
+  grammar: Không học điểm mới — quá khứ hoàn thành, câu điều kiện loại 3 khi kể chuyện
+  skill: "Speaking — mock thứ hai: tập trung vào độ trôi chảy (từ nối khi nói) và phát âm (âm cuối, trọng âm câu)"
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: skill
+    skill: speaking
+    title_vi: Mock 2 — nói trôi chảy hơn và rõ hơn
+    intro_vi: "Sau Mock Speaking 1, hầu hết người học thấy hai vấn đề: ngắt quãng dài khi tìm ý, và âm cuối bị mất khiến câu nghe sai ngữ pháp dù trong đầu đã chia đúng. Lần này, bạn vẫn làm đủ 3 Part như thi thật, nhưng trước đó luyện hai công cụ: từ nối khi nói (để giữ mạch) và trọng âm câu (để nghe tự nhiên, rõ ý). Sau khi ghi âm, so điểm FC và P với Mock 1."
+    steps:
+      - title_vi: Từ nối khi nói (spoken discourse markers)
+        text_vi: "Khác văn viết. Bắt đầu câu trả lời: 'Well,…', 'Actually,…', 'To be honest,…'. Thêm ý: 'On top of that,…', 'What's more,…'. Đổi hướng: 'Having said that,…', 'Then again,…'. Đưa ví dụ: 'Take … for example.' Mỗi câu trả lời Part 3 dùng 1–2 cụm, đừng nhồi."
+      - title_vi: "Trọng âm câu: nhấn từ mang nghĩa"
+        text_vi: "Trong câu tiếng Anh, danh từ, động từ chính, tính từ và từ phủ định được nhấn; mạo từ, giới từ, trợ động từ đọc lướt. VD: 'I'd CHANGED my PLANS because the WEATHER was TERRIBLE.' Người Việt hay đọc đều mọi từ như nhau → nghe 'đọc từng chữ'."
+      - title_vi: Âm cuối và -ed
+        text_vi: "-ed có 3 cách đọc: /t/ sau âm vô thanh (stopped, booked), /d/ sau âm hữu thanh (changed, planned), /ɪd/ sau t/d (decided, wanted). Khi kể Part 2 ở quá khứ, âm này xuất hiện liên tục — mất âm là giám khảo nghe thành hiện tại."
+      - title_vi: Ghi âm, nghe lại, so với Mock 1
+        text_vi: "Đếm số lần ngắt quãng quá 3 giây và số âm cuối bị mất trong Part 2. So với Mock 1: giảm chưa? Ghi 2 con số này vào nhật ký Speaking."
+    tips:
+      - Ngắt quãng ngắn để suy nghĩ là bình thường. Thay im lặng bằng 'Let me think…' hoặc 'How can I put it…' — nghe tự nhiên hơn 'uhm' kéo dài.
+      - "Part 2 kể chuyện quá khứ: một câu quá khứ hoàn thành ('I had already booked…') và một câu điều kiện loại 3 ('If I hadn't…, I would have…') là đủ để thể hiện GRA."
+      - Đừng nói quá nhanh để tỏ ra trôi chảy. Tốc độ vừa, đều, rõ âm cuối được điểm cao hơn.
+    traps:
+      - trap_vi: Nhồi từ nối học thuộc vào mọi câu ('Moreover', 'Furthermore' khi nói chuyện) nghe như đọc văn viết.
+        fix_vi: "Dùng từ nối của văn nói: 'Also', 'Plus', 'On top of that', 'Then again'."
+      - trap_vi: "Đọc '-ed' thành âm tiết riêng ở mọi từ: 'chang-ed', 'stopp-ed'."
+        fix_vi: "Chỉ thêm âm tiết /ɪd/ sau t/d: wanted, decided. Changed = 1 âm tiết."
+      - trap_vi: "Kể chuyện mà không có 'twist': nói đủ 2 phút nhưng đều đều."
+        fix_vi: "Cấu trúc 4 nhịp như Buổi 61: bối cảnh → trước đó → khoảnh khắc thay đổi → nhìn lại."
+    phrases:
+      - en: Well, to be honest, …
+        vi: À, thật lòng mà nói thì, …
+      - en: Having said that, …
+        vi: Dù đã nói vậy, … (nhưng mặt khác…)
+      - en: Take my cousin, for example.
+        vi: Lấy em họ tôi làm ví dụ.
+      - en: In the end, it turned out to be a blessing in disguise.
+        vi: Cuối cùng, hóa ra đó lại là trong cái rủi có cái may.
+        note_vi: Thành ngữ dùng được khi câu chuyện thật sự có kết quả tốt ngoài dự kiến.
+      - en: If I hadn't changed my plans, I would never have met…
+        vi: Nếu tôi không đổi kế hoạch, tôi đã không bao giờ gặp…
+  - type: exercises
+    items:
+      - id: b73-x1
+        bank_no: 29
+        kind: speaking-part1
+        instructions_vi: PART 1 (4–5 phút). Trả lời ngay 15–25 giây mỗi câu, bắt đầu ít nhất 3 câu bằng một từ nối văn nói. Ghi âm liên tục.
+        questions:
+          - q: Let's talk about food. What do you usually have for breakfast?
+          - q: Do you prefer eating at home or eating out?
+          - q: Has your diet changed since you were a child?
+          - q: Now let's talk about weather. What's the weather like where you live?
+          - q: Does the weather ever affect your plans?
+          - q: Which season do you like best?
+        sample: Well, to be honest, it depends on how busy I am. On weekdays I usually grab a bánh mì on the way to work, because it's quick and cheap. At the weekend, though, I like to have a proper breakfast at home with my family — usually phở or sticky rice.
+      - id: b73-x2
+        bank_no: 30
+        kind: speaking-part2
+        instructions_vi: PART 2. Chuẩn bị 1 phút, nói 2 phút. Dùng ít nhất 1 câu quá khứ hoàn thành và 1 câu điều kiện loại 3. Ghi âm.
+        cue_card:
+          topic: Describe a time when you had to change your plans.
+          points:
+            - what your original plan was
+            - why you had to change it
+            - what you did instead
+            - and explain how you felt about the change
+        sample: I'd like to talk about a trip to Đà Lạt that I'd planned with three friends a couple of years ago. We had booked a homestay, bought bus tickets and even planned a day of hiking. But two days before we left, a typhoon warning was announced for the Central Highlands, and the bus company cancelled all its services. At first, I was really disappointed, because I'd been looking forward to it for months. Instead of cancelling everything, we decided to rent a small house by the beach in Vũng Tàu, which was only two hours from Saigon. It turned out to be a blessing in disguise. The weather there was perfect, we spent most of the time cooking together and talking, and it was much cheaper. Looking back, I think it taught me to be more flexible. If we hadn't changed our plans, we would probably have spent the whole weekend stuck in a hotel room, waiting for the rain to stop.
+      - id: b73-x3
+        bank_no: 31
+        kind: speaking-part3
+        instructions_vi: PART 3 (4–5 phút). Mỗi câu 30–45 giây. Dùng 1–2 từ nối văn nói mỗi câu (Well, Having said that, Take … for example). Ghi âm.
+        questions:
+          - q: Why do some people prefer to plan everything in detail?
+          - q: Is it better to make decisions quickly or slowly?
+          - q: Do young people today find it harder to plan their future than in the past?
+          - q: How do unexpected events, like bad weather, affect businesses?
+          - q: Should schools teach students how to plan and manage their time?
+        sample: Well, I'd say it's harder in some ways. Young people today have far more choices than their parents did — they can study abroad, work online or change careers several times — and having so many options can make planning quite stressful. Take my younger brother, for example. He's changed his university major twice because new kinds of jobs keep appearing. Having said that, they also have much better access to information, so once they decide, they can plan more effectively.
+      - id: b73-x4
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe hai thí sinh trả lời cùng một câu hỏi Part 3 (giám khảo và thí sinh hai giọng). Chọn đáp án đúng.
+        audio_text: |-
+          Examiner: Is it better to make decisions quickly or slowly?
+          Candidate A: Slowly. Because quickly is not good. You can make mistake.
+          Examiner: Is it better to make decisions quickly or slowly?
+          Candidate B: Well, it depends on the type of decision. For small, everyday choices, like what to eat, deciding quickly saves time and energy. But for big decisions, such as changing jobs, it's worth taking your time and getting advice. Having said that, some people think about a decision for so long that they miss the opportunity altogether.
+        questions:
+          - q: What is the main weakness of the first answer?
+            options:
+              - It is too long.
+              - It is too short and has no example.
+              - It uses too many idioms.
+              - It is off topic.
+            answer: b
+          - q: Which grammar mistake does the first candidate make?
+            options:
+              - "'make mistake' instead of 'make a mistake'"
+              - "'is' instead of 'are'"
+              - "'slowly' instead of 'slow'"
+              - "'can' instead of 'could'"
+            answer: a
+          - q: What does the second candidate say about small decisions?
+            options:
+              - They should be made slowly.
+              - Making them quickly saves time and energy.
+              - People should ask for advice.
+              - They are often the most important.
+            answer: b
+          - q: What is the function of 'Having said that' in the second answer?
+            options:
+              - to give an example
+              - to repeat the main point
+              - to introduce a different point of view
+              - to end the conversation
+            answer: c
+      - id: b73-x5
+        bank_no: 10
+        kind: mcq
+        instructions_vi: Luyện phát âm -ed. Chọn từ có đuôi -ed đọc KHÁC các từ còn lại.
+        questions:
+          - q: Which word is different?
+            options:
+              - changed
+              - planned
+              - decided
+              - arrived
+            answer: c
+            explain_vi: decided /ɪd/ (sau d); ba từ kia /d/.
+          - q: Which word is different?
+            options:
+              - booked
+              - stopped
+              - wanted
+              - watched
+            answer: c
+            explain_vi: wanted /ɪd/; ba từ kia /t/.
+          - q: Which word is different?
+            options:
+              - cancelled
+              - hoped
+              - rained
+              - stayed
+            answer: b
+            explain_vi: hoped /t/ (sau âm vô thanh /p/); ba từ kia /d/.
+          - q: In 'I'd CHANGED my PLANS because the WEATHER was TERRIBLE', which words are NOT stressed?
+            options:
+              - changed, plans
+              - weather, terrible
+              - I'd, my, because, the, was
+              - all words equally
+            answer: c
+            explain_vi: Từ chức năng (đại từ, mạo từ, liên từ, trợ động từ) đọc lướt; từ mang nghĩa được nhấn.
+      - id: b73-x6
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe một thí sinh kể Part 2 (độc thoại). Chọn Đúng (T) hoặc Sai (F).
+        audio_text: I'd planned to study for my exam all weekend, but on Saturday morning my best friend called. Her car had broken down on the motorway, and she needed help. I drove out to meet her and we waited three hours for a mechanic. I was stressed at first, because I'd only revised half the material. In the end, though, I passed the exam, and my friend still says I saved her that day. If I hadn't gone, I would have felt guilty for a long time.
+        questions:
+          - q: The speaker's original plan was to go on a trip.
+            answer: F
+            explain_vi: "'I'd planned to study for my exam'."
+          - q: The friend's car broke down before she called.
+            answer: T
+            explain_vi: "'Her car had broken down' — quá khứ hoàn thành = xảy ra trước cuộc gọi."
+          - q: They waited three hours for a mechanic.
+            answer: T
+          - q: The speaker failed the exam.
+            answer: F
+  - type: homework
+    kind: speaking
+    prompt_vi: "MOCK SPEAKING 2 — ghi âm TOÀN BỘ bài thi (Part 1 → 2 → 3) theo câu hỏi trong phần Bài tập. Nghe lại và đếm: (1) số lần ngắt quãng trên 3 giây, (2) số âm cuối -s/-ed bị mất trong Part 2. Chấm 4 tiêu chí, so với Mock Speaking 1. Chép lại một câu trả lời Part 3 và đánh dấu các từ được nhấn."
+    prompt_en: "Part 1: food, weather · Part 2: Describe a time when you had to change your plans · Part 3: planning, decision-making, young people's future, unexpected events and business, time management at school"
+    minutes: 30

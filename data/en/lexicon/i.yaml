@@ -3,6 +3,7 @@ entries:
   - id: in-front-of|prep
     headword: in front of
     pos: prep
+    definition_en: "at the place directly ahead of something"
     ipa:
       uk: /ɪn ˈfrʌnt əv/
       us: /ɪn ˈfrʌnt əv/
@@ -15,6 +16,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -23,6 +25,7 @@ entries:
   - id: interested-in|colloc
     headword: interested in
     pos: colloc
+    definition_en: "wanting to know more about something"
     ipa:
       uk: /ˈɪn.trəs.tɪd ɪn/
       us: /ˈɪn.trəs.tɪd ɪn/
@@ -36,6 +39,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -44,6 +48,7 @@ entries:
   - id: interview|n
     headword: interview
     pos: n
+    definition_en: "a meeting where someone asks you questions for a job"
     ipa:
       uk: /ˈɪn.tə.vjuː/
       us: /ˈɪn.t̬ɚ.vjuː/
@@ -57,6 +62,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interview, checked: 2026-09-30, field: cefr }
@@ -66,6 +72,7 @@ entries:
   - id: ill|adj
     headword: ill
     pos: adj
+    definition_en: "not well; sick"
     ipa:
       uk: /ɪl/
       us: /ɪl/
@@ -79,6 +86,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ill, checked: 2026-09-30, field: cefr }
@@ -88,6 +96,7 @@ entries:
   - id: interesting|adj
     headword: interesting
     pos: adj
+    definition_en: "making you want to know more"
     forms:
       comparative: more interesting
     ipa:
@@ -103,6 +112,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/interesting, checked: 2026-09-30, field: cefr }
@@ -112,6 +122,7 @@ entries:
   - id: invent|v
     headword: invent
     pos: v
+    definition_en: "to create something that did not exist before"
     ipa:
       uk: /ɪnˈvent/
       us: /ɪnˈvent/
@@ -124,6 +135,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invent, checked: 2026-09-30, field: cefr }
@@ -133,6 +145,7 @@ entries:
   - id: invention|n
     headword: invention
     pos: n
+    definition_en: "something completely new that someone has created"
     ipa:
       uk: /ɪnˈven.ʃən/
       us: /ɪnˈven.ʃən/
@@ -145,6 +158,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invention, checked: 2026-09-30, field: cefr }
@@ -154,6 +168,7 @@ entries:
   - id: import|v
     headword: import
     pos: v
+    definition_en: "to buy goods from another country"
     ipa:
       uk: /ɪmˈpɔːt/
       us: /ɪmˈpɔːrt/
@@ -166,6 +181,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/import_2, checked: 2026-09-30, field: cefr }
@@ -175,6 +191,7 @@ entries:
   - id: internet|n
     headword: internet
     pos: n
+    definition_en: "the global network that connects computers"
     ipa:
       uk: /ˈɪn.tə.net/
       us: /ˈɪn.t̬ɚ.net/
@@ -191,6 +208,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internet, checked: 2026-09-30, field: cefr }
@@ -200,6 +218,7 @@ entries:
   - id: improve|v
     headword: improve
     pos: v
+    definition_en: "to become better or make something better"
     ipa:
       uk: /ɪmˈpruːv/
       us: /ɪmˈpruːv/
@@ -216,6 +235,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/improve, checked: 2026-09-30, field: cefr }
@@ -225,6 +245,7 @@ entries:
   - id: independent|adj
     headword: independent
     pos: adj
+    definition_en: "able to do things without help from others"
     ipa:
       uk: /ˌɪn.dɪˈpen.dənt/
       us: /ˌɪn.dɪˈpen.dənt/
@@ -240,6 +261,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/independent, checked: 2026-09-30, field: cefr }
@@ -249,6 +271,7 @@ entries:
   - id: increase|v
     headword: increase
     pos: v
+    definition_en: "to become larger in number or amount"
     ipa:
       uk: /ɪnˈkriːs/
       us: /ɪnˈkriːs/
@@ -267,6 +290,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/increase, checked: 2026-09-30, field: cefr }
@@ -276,6 +300,7 @@ entries:
   - id: injury|n
     headword: injury
     pos: n
+    definition_en: "harm done to your body"
     forms:
       plural: injuries
     ipa:
@@ -297,6 +322,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/injury, checked: 2026-09-30, field: cefr }
@@ -306,6 +332,7 @@ entries:
   - id: illegal|adj
     headword: illegal
     pos: adj
+    definition_en: "against the law"
     ipa:
       uk: /ɪˈliː.ɡəl/
       us: /ɪˈliː.ɡəl/
@@ -322,6 +349,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/illegal, checked: 2026-09-30, field: cefr }
@@ -331,6 +359,7 @@ entries:
   - id: in-addition|idiom
     headword: in addition
     pos: idiom
+    definition_en: "also; used to add another point"
     ipa:
       uk: /ɪn əˈdɪʃ.ən/
       us: /ɪn əˈdɪʃ.ən/
@@ -347,6 +376,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -355,6 +385,7 @@ entries:
   - id: influence|v
     headword: influence
     pos: v
+    definition_en: "to have an effect on someone's behaviour or ideas"
     ipa:
       uk: /ˈɪn.flu.əns/
       us: /ˈɪn.flu.əns/
@@ -373,6 +404,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influence_2, checked: 2026-09-30, field: cefr }
@@ -382,6 +414,7 @@ entries:
   - id: international|adj
     headword: international
     pos: adj
+    definition_en: "involving more than one country"
     ipa:
       uk: /ˌɪn.təˈnæʃ.ən.əl/
       us: /ˌɪn.t̬ɚˈnæʃ.ən.əl/
@@ -398,6 +431,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/international, checked: 2026-09-30, field: cefr }
@@ -407,6 +441,7 @@ entries:
   - id: in-contrast|idiom
     headword: in contrast
     pos: idiom
+    definition_en: "used to show a big difference"
     ipa:
       uk: /ɪn ˈkɒn.trɑːst/
       us: /ɪn ˈkɑːn.træst/
@@ -419,6 +454,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -427,6 +463,7 @@ entries:
   - id: infrastructure|n
     headword: infrastructure
     pos: n
+    definition_en: "basic systems a country needs, e.g. roads and power"
     ipa:
       uk: /ˈɪn.frəˌstrʌk.tʃər/
       us: /ˈɪn.frəˌstrʌk.tʃɚ/
@@ -445,6 +482,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/infrastructure, checked: 2026-09-30, field: cefr }
@@ -454,6 +492,7 @@ entries:
   - id: influencer|n
     headword: influencer
     pos: n
+    definition_en: "a person paid to promote products to their online followers"
     ipa:
       uk: /ˈɪn.flu.ən.sər/
       us: /ˈɪn.flu.ən.sɚ/
@@ -468,6 +507,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/influencer, checked: 2026-09-30, field: ipa.uk }
@@ -476,6 +516,7 @@ entries:
   - id: in-spite-of|prep
     headword: in spite of
     pos: prep
+    definition_en: "without being affected by; despite"
     ipa:
       uk: /ɪn ˈspaɪt əv/
       us: /ɪn ˈspaɪt əv/
@@ -489,6 +530,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -497,6 +539,7 @@ entries:
   - id: internship|n
     headword: internship
     pos: n
+    definition_en: "a short period of work to gain experience, often unpaid"
     ipa:
       uk: /ˈɪn.tɜːn.ʃɪp/
       us: /ˈɪn.tɝːn.ʃɪp/
@@ -514,6 +557,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/internship, checked: 2026-09-30, field: ipa.uk }
@@ -522,6 +566,7 @@ entries:
   - id: in-order-to|idiom
     headword: in order to
     pos: idiom
+    definition_en: "with the purpose of"
     ipa:
       uk: /ɪn ˈɔː.də tə/
       us: /ɪn ˈɔːr.dɚ tə/
@@ -537,6 +582,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -545,6 +591,7 @@ entries:
   - id: income-inequality|phr-n
     headword: income inequality
     pos: phr-n
+    definition_en: "the large gap between the rich and the poor"
     ipa:
       uk: /ˈɪn.kʌm ˌɪn.ɪˈkwɒl.ə.ti/
       us: /ˈɪn.kʌm ˌɪn.ɪˈkwɑː.lə.t̬i/
@@ -559,6 +606,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -567,6 +615,7 @@ entries:
   - id: industry|n
     headword: industry
     pos: n
+    definition_en: "the production of goods in factories; a type of business"
     forms:
       plural: industries
     ipa:
@@ -587,6 +636,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/industry, checked: 2026-09-30, field: cefr }
@@ -596,6 +646,7 @@ entries:
   - id: invest|v
     headword: invest
     pos: v
+    definition_en: "to put money into something to make a profit"
     ipa:
       uk: /ɪnˈvest/
       us: /ɪnˈvest/
@@ -611,6 +662,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/invest, checked: 2026-09-30, field: cefr }
@@ -620,6 +672,7 @@ entries:
   - id: in-demand|adj
     headword: in-demand
     pos: adj
+    definition_en: "wanted by many employers or customers"
     ipa:
       uk: /ɪn dɪˈmɑːnd/
       us: /ɪn dɪˈmænd/
@@ -636,6 +689,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -644,6 +698,7 @@ entries:
   - id: interconnected|adj
     headword: interconnected
     pos: adj
+    definition_en: "closely linked to each other"
     ipa:
       uk: /ˌɪn.tə.kəˈnek.tɪd/
       us: /ˌɪn.t̬ɚ.kəˈnek.tɪd/
@@ -657,6 +712,7 @@ entries:
       - globalisation
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -665,6 +721,7 @@ entries:
   - id: impact|n
     headword: impact
     pos: n
+    definition_en: "a strong effect"
     ipa:
       uk: /ˈɪm.pækt/
       us: /ˈɪm.pækt/
@@ -681,6 +738,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impact, checked: 2026-09-30, field: cefr }
@@ -690,6 +748,7 @@ entries:
   - id: implement|v
     headword: implement
     pos: v
+    definition_en: "to put a plan into action"
     ipa:
       uk: /ˈɪm.plɪ.ment/
       us: /ˈɪm.plə.ment/
@@ -707,6 +766,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -717,6 +777,7 @@ entries:
   - id: introduce|v
     headword: introduce
     pos: v
+    definition_en: "to bring in a new law or system"
     ipa:
       uk: /ˌɪn.trəˈdʒuːs/
       us: /ˌɪn.trəˈduːs/
@@ -732,6 +793,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/introduce, checked: 2026-09-30, field: cefr }
@@ -741,6 +803,7 @@ entries:
   - id: issue|n
     headword: issue
     pos: n
+    definition_en: "a topic that people discuss or worry about"
     ipa:
       uk: /ˈɪʃ.uː/
       us: /ˈɪʃ.uː/
@@ -757,6 +820,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/issue, checked: 2026-09-30, field: cefr }
@@ -766,6 +830,7 @@ entries:
   - id: incentive|n
     headword: incentive
     pos: n
+    definition_en: "something that encourages people to do something"
     ipa:
       uk: /ɪnˈsen.tɪv/
       us: /ɪnˈsen.t̬ɪv/
@@ -782,6 +847,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/incentive, checked: 2026-09-30, field: cefr }
@@ -791,6 +857,7 @@ entries:
   - id: industrial|adj
     headword: industrial
     pos: adj
+    definition_en: "having factories"
     ipa:
       uk: /ɪnˈdʌs.tri.əl/
       us: /ɪnˈdʌs.tri.əl/
@@ -806,6 +873,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/industrial, checked: 2026-09-30, field: cefr }
@@ -815,6 +883,7 @@ entries:
   - id: inspiring|adj
     headword: inspiring
     pos: adj
+    definition_en: "making you want to do something great"
     ipa:
       uk: /ɪnˈspaɪə.rɪŋ/
       us: /ɪnˈspaɪr.ɪŋ/
@@ -828,6 +897,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/inspiring, checked: 2026-09-30, field: ipa.uk }
@@ -836,6 +906,7 @@ entries:
   - id: increase|n
     headword: increase
     pos: n
+    definition_en: "a rise in amount or number"
     ipa:
       uk: /ˈɪŋ.kriːs/
       us: /ˈɪŋ.kriːs/
@@ -852,6 +923,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/increase_2, checked: 2026-09-30, field: cefr }
@@ -861,6 +933,7 @@ entries:
   - id: imprisonment|n
     headword: imprisonment
     pos: n
+    definition_en: "the punishment of being kept in jail"
     ipa:
       uk: /ɪmˈprɪz.ən.mənt/
       us: /ɪmˈprɪz.ən.mənt/
@@ -875,6 +948,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/imprisonment, checked: 2026-09-30, field: cefr }
@@ -884,6 +958,7 @@ entries:
   - id: innocent|adj
     headword: innocent
     pos: adj
+    definition_en: "not guilty of a crime"
     ipa:
       uk: /ˈɪn.ə.sənt/
       us: /ˈɪn.ə.sənt/
@@ -899,6 +974,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/innocent, checked: 2026-09-30, field: cefr }
@@ -908,6 +984,7 @@ entries:
   - id: innovation|n
     headword: innovation
     pos: n
+    definition_en: "a new idea, method or product"
     ipa:
       uk: /ˌɪn.əˈveɪ.ʃən/
       us: /ˌɪn.əˈveɪ.ʃən/
@@ -923,6 +1000,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/innovation, checked: 2026-09-30, field: cefr }
@@ -932,6 +1010,7 @@ entries:
   - id: inevitable|adj
     headword: inevitable
     pos: adj
+    definition_en: "certain to happen"
     ipa:
       uk: /ɪˈnev.ɪ.tə.bəl/
       us: /ɪˈnev.ə.t̬ə.bəl/
@@ -946,6 +1025,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -956,6 +1036,7 @@ entries:
   - id: infectious|adj
     headword: infectious
     pos: adj
+    definition_en: "(of a disease) passing easily from person to person"
     ipa:
       uk: /ɪnˈfek.ʃəs/
       us: /ɪnˈfek.ʃəs/
@@ -970,6 +1051,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/infectious, checked: 2026-09-30, field: cefr }
@@ -979,6 +1061,7 @@ entries:
   - id: identity|n
     headword: identity
     pos: n
+    definition_en: "who a person or group is"
     forms:
       plural: identities
     ipa:
@@ -997,6 +1080,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/identity, checked: 2026-09-30, field: cefr }
@@ -1006,6 +1090,7 @@ entries:
   - id: indigenous|adj
     headword: indigenous
     pos: adj
+    definition_en: "originally living in a place"
     ipa:
       uk: /ɪnˈdɪdʒ.ɪ.nəs/
       us: /ɪnˈdɪdʒ.ə.nəs/
@@ -1020,6 +1105,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/indigenous, checked: 2026-09-30, field: cefr }
@@ -1029,6 +1115,7 @@ entries:
   - id: intangible|adj
     headword: intangible
     pos: adj
+    definition_en: "not physical; unable to be touched"
     ipa:
       uk: /ɪnˈtæn.dʒə.bəl/
       us: /ɪnˈtæn.dʒə.bəl/
@@ -1044,6 +1131,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/intangible_2, checked: 2026-09-30, field: ipa.uk }
@@ -1052,6 +1140,7 @@ entries:
   - id: in-the-long-run|idiom
     headword: in the long run
     pos: idiom
+    definition_en: "eventually, after an extended period of time"
     ipa:
       uk: /ɪn ðə ˌlɒŋ ˈrʌn/
       us: /ɪn ðə ˌlɑːŋ ˈrʌn/
@@ -1065,6 +1154,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1073,6 +1163,7 @@ entries:
   - id: impulse-buying|phr-n
     headword: impulse buying
     pos: phr-n
+    definition_en: "buying things suddenly without planning"
     ipa:
       uk: /ˈɪm.pʌls ˌbaɪ.ɪŋ/
       us: /ˈɪm.pʌls ˌbaɪ.ɪŋ/
@@ -1086,6 +1177,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impulse-buying, checked: 2026-09-30, field: ipa.uk }
@@ -1094,6 +1186,7 @@ entries:
   - id: inflation|n
     headword: inflation
     pos: n
+    definition_en: "a general rise in prices"
     ipa:
       uk: /ɪnˈfleɪ.ʃən/
       us: /ɪnˈfleɪ.ʃən/
@@ -1108,6 +1201,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/inflation, checked: 2026-09-30, field: cefr }
@@ -1117,6 +1211,7 @@ entries:
   - id: instant-gratification|phr-n
     headword: instant gratification
     pos: phr-n
+    definition_en: "getting pleasure immediately instead of waiting"
     ipa:
       uk: /ˌɪn.stənt ˌɡræt.ɪ.fɪˈkeɪ.ʃən/
       us: /ˌɪn.stənt ˌɡræt̬.ə.fəˈkeɪ.ʃən/
@@ -1130,6 +1225,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1138,6 +1234,7 @@ entries:
   - id: income|n
     headword: income
     pos: n
+    definition_en: "money you receive regularly from work or investments"
     ipa:
       uk: /ˈɪn.kʌm/
       us: /ˈɪn.kʌm/
@@ -1152,6 +1249,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/income, checked: 2026-09-30, field: cefr }
@@ -1161,6 +1259,7 @@ entries:
   - id: in-hindsight|idiom
     headword: in hindsight
     pos: idiom
+    definition_en: "when thinking about the past with what you know now"
     ipa:
       uk: /ɪn ˈhaɪnd.saɪt/
       us: /ɪn ˈhaɪnd.saɪt/
@@ -1174,6 +1273,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1182,6 +1282,7 @@ entries:
   - id: integrity|n
     headword: integrity
     pos: n
+    definition_en: "being honest and having strong principles"
     ipa:
       uk: /ɪnˈteɡ.rə.ti/
       us: /ɪnˈteɡ.rə.t̬i/
@@ -1195,6 +1296,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/integrity, checked: 2026-09-30, field: cefr }
@@ -1204,6 +1306,7 @@ entries:
   - id: impose|v
     headword: impose
     pos: v
+    definition_en: "to force a rule or tax on someone"
     ipa:
       uk: /ɪmˈpəʊz/
       us: /ɪmˈpoʊz/
@@ -1218,6 +1321,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/impose, checked: 2026-09-30, field: cefr }
@@ -1227,6 +1331,7 @@ entries:
   - id: irrelevant|adj
     headword: irrelevant
     pos: adj
+    definition_en: "not connected with the topic"
     ipa:
       uk: /ɪˈrel.ə.vənt/
       us: /ɪˈrel.ə.vənt/
@@ -1241,6 +1346,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/irrelevant, checked: 2026-09-30, field: cefr }

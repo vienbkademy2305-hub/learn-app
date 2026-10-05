@@ -3,6 +3,7 @@ entries:
   - id: address|n
     headword: address
     pos: n
+    definition_en: "the number, street and town where you live"
     ipa: { uk: "/əˈdres/", us: "/ˈæd.res/" }
     cefr: A1
     meaning_vi: [ địa chỉ ]
@@ -10,6 +11,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address, checked: 2026-09-30, field: ipa.uk }
@@ -18,6 +20,7 @@ entries:
   - id: appearance|n
     headword: appearance
     pos: n
+    definition_en: "the way someone or something looks"
     ipa:
       uk: /əˈpɪə.rəns/
       us: /əˈpɪr.əns/
@@ -30,6 +33,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appearance, checked: 2026-09-30, field: cefr }
@@ -39,6 +43,7 @@ entries:
   - id: apartment|n
     headword: apartment
     pos: n
+    definition_en: "a set of rooms for living in, inside a larger building"
     ipa:
       uk: /əˈpɑːt.mənt/
       us: /əˈpɑːrt.mənt/
@@ -52,6 +57,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/apartment, checked: 2026-09-30, field: cefr }
@@ -61,6 +67,7 @@ entries:
   - id: afternoon|n
     headword: afternoon
     pos: n
+    definition_en: "the part of the day between noon and evening"
     ipa:
       uk: /ˌɑːf.təˈnuːn/
       us: /ˌæf.tɚˈnuːn/
@@ -74,6 +81,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afternoon, checked: 2026-09-30, field: cefr }
@@ -83,6 +91,7 @@ entries:
   - id: always|adv
     headword: always
     pos: adv
+    definition_en: "every time; at all times"
     ipa:
       uk: /ˈɔːl.weɪz/
       us: /ˈɑːl.weɪz/
@@ -93,6 +102,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/always, checked: 2026-09-30, field: cefr }
@@ -102,6 +112,7 @@ entries:
   - id: autumn|n
     headword: autumn
     pos: n
+    definition_en: "the season between summer and winter"
     ipa:
       uk: /ˈɔː.təm/
       us: /ˈɑː.t̬əm/
@@ -114,6 +125,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autumn, checked: 2026-09-30, field: cefr }
@@ -123,6 +135,7 @@ entries:
   - id: afraid-of|colloc
     headword: afraid of
     pos: colloc
+    definition_en: "frightened by something"
     ipa:
       uk: /əˈfreɪd əv/
       us: /əˈfreɪd əv/
@@ -135,6 +148,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -143,6 +157,7 @@ entries:
   - id: accountant|n
     headword: accountant
     pos: n
+    definition_en: "a person whose job is to keep financial records"
     ipa:
       uk: /əˈkaʊn.tənt/
       us: /əˈkaʊn.tənt/
@@ -156,6 +171,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountant, checked: 2026-09-30, field: cefr }
@@ -165,6 +181,7 @@ entries:
   - id: apply-for|phr-v
     headword: apply for
     pos: phr-v
+    definition_en: "to formally ask for a job, place or scholarship"
     forms:
       3sg: applies for
       past: applied for
@@ -180,6 +197,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -188,6 +206,7 @@ entries:
   - id: appointment|n
     headword: appointment
     pos: n
+    definition_en: "an arranged time to meet someone, e.g. a doctor"
     ipa:
       uk: /əˈpɔɪnt.mənt/
       us: /əˈpɔɪnt.mənt/
@@ -202,6 +221,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/appointment, checked: 2026-09-30, field: cefr }
@@ -211,6 +231,7 @@ entries:
   - id: arrive|v
     headword: arrive
     pos: v
+    definition_en: "to reach a place"
     forms:
       past: arrived
     ipa:
@@ -225,6 +246,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrive, checked: 2026-09-30, field: cefr }
@@ -234,6 +256,7 @@ entries:
   - id: abroad|adv
     headword: abroad
     pos: adv
+    definition_en: "in or to a foreign country"
     ipa:
       uk: /əˈbrɔːd/
       us: /əˈbrɑːd/
@@ -247,6 +270,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abroad, checked: 2026-09-30, field: cefr }
@@ -256,6 +280,7 @@ entries:
   - id: ago|adv
     headword: ago
     pos: adv
+    definition_en: "before now (used after a period, e.g. two years)"
     ipa:
       uk: /əˈɡəʊ/
       us: /əˈɡoʊ/
@@ -268,6 +293,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ago, checked: 2026-09-30, field: cefr }
@@ -277,6 +303,7 @@ entries:
   - id: afford|v
     headword: afford
     pos: v
+    definition_en: "to have enough money to buy or do something"
     ipa:
       uk: /əˈfɔːd/
       us: /əˈfɔːrd/
@@ -289,6 +316,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/afford, checked: 2026-09-30, field: cefr }
@@ -298,6 +326,7 @@ entries:
   - id: accident|n
     headword: accident
     pos: n
+    definition_en: "a crash or event that causes damage or injury"
     ipa:
       uk: /ˈæk.sɪ.dənt/
       us: /ˈæk.sə.dənt/
@@ -313,6 +342,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accident, checked: 2026-09-30, field: cefr }
@@ -322,6 +352,7 @@ entries:
   - id: at-first|colloc
     headword: at first
     pos: colloc
+    definition_en: "at the beginning, before things changed"
     ipa:
       uk: /ət ˈfɜːst/
       us: /ət ˈfɝːst/
@@ -335,6 +366,7 @@ entries:
       - linking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -343,6 +375,7 @@ entries:
   - id: airport|n
     headword: airport
     pos: n
+    definition_en: "a place where planes take off and land"
     ipa:
       uk: /ˈeə.pɔːt/
       us: /ˈer.pɔːrt/
@@ -355,6 +388,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/airport, checked: 2026-09-30, field: cefr }
@@ -364,6 +398,7 @@ entries:
   - id: agree-with|phr-v
     headword: agree with
     pos: phr-v
+    definition_en: "to have the same opinion as someone"
     ipa:
       uk: /əˈɡriː wɪð/
       us: /əˈɡriː wɪð/
@@ -376,6 +411,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -384,6 +420,7 @@ entries:
   - id: ask-for|phr-v
     headword: ask for
     pos: phr-v
+    definition_en: "to say that you want something"
     forms:
       past: asked for
     ipa:
@@ -400,6 +437,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -408,6 +446,7 @@ entries:
   - id: apologise-for|phr-v
     headword: apologise for
     pos: phr-v
+    definition_en: "to say sorry about something you did"
     ipa:
       uk: /əˈpɒl.ə.dʒaɪz fɔː/
       us: /əˈpɑː.lə.dʒaɪz fɔːr/
@@ -420,6 +459,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -428,6 +468,7 @@ entries:
   - id: art|n
     headword: art
     pos: n
+    definition_en: "painting, drawing and other creative work"
     ipa:
       uk: /ɑːt/
       us: /ɑːrt/
@@ -439,6 +480,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/art, checked: 2026-09-30, field: cefr }
@@ -448,6 +490,7 @@ entries:
   - id: actor|n
     headword: actor
     pos: n
+    definition_en: "a person who performs in films or plays"
     ipa:
       uk: /ˈæk.tə/
       us: /ˈæk.tɚ/
@@ -460,6 +503,7 @@ entries:
       - entertainment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actor, checked: 2026-09-30, field: cefr }
@@ -469,6 +513,7 @@ entries:
   - id: american|adj
     headword: American
     pos: adj
+    definition_en: "from or connected with the USA"
     ipa:
       uk: /əˈmer.ɪ.kən/
       us: /əˈmer.ɪ.kən/
@@ -482,6 +527,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/american_2, checked: 2026-09-30, field: ipa.uk }
@@ -490,6 +536,7 @@ entries:
   - id: aunt|n
     headword: aunt
     pos: n
+    definition_en: "the sister of your mother or father"
     ipa:
       uk: /ɑːnt/
       us: /ænt/
@@ -506,6 +553,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/aunt, checked: 2026-09-30, field: cefr }
@@ -515,6 +563,7 @@ entries:
   - id: a-few|det
     headword: a few
     pos: det
+    definition_en: "a small number of"
     ipa:
       uk: /ə ˈfjuː/
       us: /ə ˈfjuː/
@@ -528,6 +577,7 @@ entries:
       - quantity
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/a_few, checked: 2026-09-30, field: ipa.uk }
@@ -536,6 +586,7 @@ entries:
   - id: a-little|det
     headword: a little
     pos: det
+    definition_en: "a small amount of"
     ipa:
       uk: /ə ˈlɪt.əl/
       us: /ə ˈlɪt̬.əl/
@@ -549,6 +600,7 @@ entries:
       - quantity
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -557,6 +609,7 @@ entries:
   - id: along|prep
     headword: along
     pos: prep
+    definition_en: "from one end towards the other end of a road or river"
     ipa:
       uk: /əˈlɒŋ/
       us: /əˈlɑːŋ/
@@ -569,6 +622,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/along, checked: 2026-09-30, field: cefr }
@@ -578,6 +632,7 @@ entries:
   - id: across|prep
     headword: across
     pos: prep
+    definition_en: "from one side to the other side of something"
     ipa:
       uk: /əˈkrɒs/
       us: /əˈkrɑːs/
@@ -592,6 +647,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/across, checked: 2026-09-30, field: cefr }
@@ -601,6 +657,7 @@ entries:
   - id: animal|n
     headword: animal
     pos: n
+    definition_en: "a living creature that is not a plant or a human"
     ipa:
       uk: /ˈæn.ɪ.məl/
       us: /ˈæn.ɪ.məl/
@@ -616,6 +673,7 @@ entries:
       - nature
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/animal, checked: 2026-09-30, field: cefr }
@@ -625,6 +683,7 @@ entries:
   - id: arm|n
     headword: arm
     pos: n
+    definition_en: "the long part of your body from shoulder to hand"
     ipa:
       uk: /ɑːm/
       us: /ɑːrm/
@@ -637,6 +696,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arm, checked: 2026-09-30, field: cefr }
@@ -646,6 +706,7 @@ entries:
   - id: app|n
     headword: app
     pos: n
+    definition_en: "a program you download onto a phone or tablet"
     ipa:
       uk: /æp/
       us: /æp/
@@ -658,6 +719,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/app, checked: 2026-09-30, field: cefr }
@@ -667,6 +729,7 @@ entries:
   - id: academic|adj
     headword: academic
     pos: adj
+    definition_en: "connected with studying and schools or universities"
     ipa:
       uk: /ˌæk.əˈdem.ɪk/
       us: /ˌæk.əˈdem.ɪk/
@@ -685,6 +748,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/academic, checked: 2026-09-30, field: cefr }
@@ -694,6 +758,7 @@ entries:
   - id: attend|v
     headword: attend
     pos: v
+    definition_en: "to go to a class, meeting or event"
     ipa:
       uk: /əˈtend/
       us: /əˈtend/
@@ -712,6 +777,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/attend, checked: 2026-09-30, field: cefr }
@@ -721,6 +787,7 @@ entries:
   - id: achieve|v
     headword: achieve
     pos: v
+    definition_en: "to succeed in doing something after effort"
     ipa:
       uk: /əˈtʃiːv/
       us: /əˈtʃiːv/
@@ -736,6 +803,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/achieve, checked: 2026-09-30, field: cefr }
@@ -745,6 +813,7 @@ entries:
   - id: argue|v
     headword: argue
     pos: v
+    definition_en: "to give reasons to support an idea"
     ipa:
       uk: /ˈɑːɡ.juː/
       us: /ˈɑːrɡ.juː/
@@ -763,6 +832,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/argue, checked: 2026-09-30, field: cefr }
@@ -772,6 +842,7 @@ entries:
   - id: artificial-intelligence|phr-n
     headword: artificial intelligence
     pos: phr-n
+    definition_en: "computer systems that can learn and make decisions"
     ipa:
       uk: /ˌɑː.tɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/
       us: /ˌɑːr.t̬ɪ.fɪʃ.əl ɪnˈtel.ɪ.dʒəns/
@@ -787,6 +858,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -795,6 +867,7 @@ entries:
   - id: automation|n
     headword: automation
     pos: n
+    definition_en: "using machines to do work that people used to do"
     ipa:
       uk: /ˌɔː.təˈmeɪ.ʃən/
       us: /ˌɑː.t̬əˈmeɪ.ʃən/
@@ -810,6 +883,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/automation, checked: 2026-09-30, field: ipa.uk }
@@ -818,6 +892,7 @@ entries:
   - id: access|v
     headword: access
     pos: v
+    definition_en: "to be able to enter or use something"
     ipa:
       uk: /ˈæk.ses/
       us: /ˈæk.ses/
@@ -835,6 +910,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/access_2, checked: 2026-09-30, field: cefr }
@@ -844,6 +920,7 @@ entries:
   - id: addicted-to|colloc
     headword: addicted to
     pos: colloc
+    definition_en: "unable to stop doing or using something"
     ipa:
       uk: /əˈdɪk.tɪd tuː/
       us: /əˈdɪk.tɪd tuː/
@@ -859,6 +936,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -867,6 +945,7 @@ entries:
   - id: athlete|n
     headword: athlete
     pos: n
+    definition_en: "a person who is very good at sport"
     ipa:
       uk: /ˈæθ.liːt/
       us: /ˈæθ.liːt/
@@ -880,6 +959,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/athlete, checked: 2026-09-30, field: cefr }
@@ -889,6 +969,7 @@ entries:
   - id: arrest|v
     headword: arrest
     pos: v
+    definition_en: "(of police) to take someone away because of a crime"
     ipa:
       uk: /əˈrest/
       us: /əˈrest/
@@ -905,6 +986,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arrest, checked: 2026-09-30, field: cefr }
@@ -914,6 +996,7 @@ entries:
   - id: advantage|n
     headword: advantage
     pos: n
+    definition_en: "something that helps you or makes a situation better"
     ipa:
       uk: /ədˈvɑːn.tɪdʒ/
       us: /ədˈvæn.t̬ɪdʒ/
@@ -933,6 +1016,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advantage, checked: 2026-09-30, field: cefr }
@@ -942,6 +1026,7 @@ entries:
   - id: attitude|n
     headword: attitude
     pos: n
+    definition_en: "the way you think or feel about something"
     ipa:
       uk: /ˈæt.ɪ.tʃuːd/
       us: /ˈæt̬.ə.tuːd/
@@ -960,6 +1045,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -970,6 +1056,7 @@ entries:
   - id: ancient|adj
     headword: ancient
     pos: adj
+    definition_en: "very old; from a long time ago"
     ipa:
       uk: /ˈeɪn.ʃənt/
       us: /ˈeɪn.ʃənt/
@@ -987,6 +1074,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancient, checked: 2026-09-30, field: cefr }
@@ -996,6 +1084,7 @@ entries:
   - id: authentic|adj
     headword: authentic
     pos: adj
+    definition_en: "real and original, not a copy"
     ipa:
       uk: /ɔːˈθen.tɪk/
       us: /ɑːˈθen.t̬ɪk/
@@ -1012,6 +1101,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authentic, checked: 2026-09-30, field: cefr }
@@ -1021,6 +1111,7 @@ entries:
   - id: accommodation|n
     headword: accommodation
     pos: n
+    definition_en: "a place to stay, e.g. a hotel"
     ipa:
       uk: /əˌkɒm.əˈdeɪ.ʃən/
       us: /əˌkɑː.məˈdeɪ.ʃən/
@@ -1038,6 +1129,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accommodation, checked: 2026-09-30, field: cefr }
@@ -1047,6 +1139,7 @@ entries:
   - id: approximately|adv
     headword: approximately
     pos: adv
+    definition_en: "about; close to an exact number"
     ipa:
       uk: /əˈprɒk.sɪ.mət.li/
       us: /əˈprɑːk.sə.mət.li/
@@ -1064,6 +1157,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1074,6 +1168,7 @@ entries:
   - id: amenity|n
     headword: amenity
     pos: n
+    definition_en: "a useful service or building, e.g. a park or hospital"
     forms:
       plural: amenities
     ipa:
@@ -1091,6 +1186,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/amenity, checked: 2026-09-30, field: ipa.uk }
@@ -1099,6 +1195,7 @@ entries:
   - id: apart-from|prep
     headword: apart from
     pos: prep
+    definition_en: "except for; or in addition to"
     ipa:
       uk: /əˈpɑːt frəm/
       us: /əˈpɑːrt frəm/
@@ -1114,6 +1211,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1122,6 +1220,7 @@ entries:
   - id: as-well-as|prep
     headword: as well as
     pos: prep
+    definition_en: "and also"
     ipa:
       uk: /əz ˈwel əz/
       us: /əz ˈwel əz/
@@ -1137,6 +1236,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/as_well_as, checked: 2026-09-30, field: ipa.uk }
@@ -1145,6 +1245,7 @@ entries:
   - id: actually|adv
     headword: actually
     pos: adv
+    definition_en: "used to say what is really true"
     ipa:
       uk: /ˈæk.tʃu.ə.li/
       us: /ˈæk.tʃu.ə.li/
@@ -1159,6 +1260,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/actually, checked: 2026-09-30, field: cefr }
@@ -1168,6 +1270,7 @@ entries:
   - id: audience|n
     headword: audience
     pos: n
+    definition_en: "the people who watch, read or listen to something"
     ipa:
       uk: /ˈɔː.di.əns/
       us: /ˈɑː.di.əns/
@@ -1186,6 +1289,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audience, checked: 2026-09-30, field: cefr }
@@ -1195,6 +1299,7 @@ entries:
   - id: although|conj
     headword: although
     pos: conj
+    definition_en: "used before a clause that contrasts with the main idea"
     ipa:
       uk: /ɔːlˈðəʊ/
       us: /ɑːlˈðoʊ/
@@ -1208,6 +1313,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/although, checked: 2026-09-30, field: cefr }
@@ -1217,6 +1323,7 @@ entries:
   - id: advertising|n
     headword: advertising
     pos: n
+    definition_en: "the business of telling people about products to sell them"
     ipa:
       uk: /ˈæd.və.taɪ.zɪŋ/
       us: /ˈæd.vɚ.taɪ.zɪŋ/
@@ -1233,6 +1340,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/advertising, checked: 2026-09-30, field: cefr }
@@ -1242,6 +1350,7 @@ entries:
   - id: account-for|phr-v
     headword: account for
     pos: phr-v
+    definition_en: "to form a certain part of a total"
     ipa:
       uk: /əˈkaʊnt fɔːr/
       us: /əˈkaʊnt fɔːr/
@@ -1257,6 +1366,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1265,6 +1375,7 @@ entries:
   - id: authority|n
     headword: authority
     pos: n
+    definition_en: "an official organisation with power to make decisions"
     forms:
       plural: authorities
     ipa:
@@ -1282,6 +1393,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/authority, checked: 2026-09-30, field: cefr }
@@ -1291,6 +1403,7 @@ entries:
   - id: address|v
     headword: address
     pos: v
+    definition_en: "to start dealing with a problem"
     ipa:
       uk: /əˈdres/
       us: /əˈdres/
@@ -1308,6 +1421,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/address_2, checked: 2026-09-30, field: cefr }
@@ -1317,6 +1431,7 @@ entries:
   - id: accessible|adj
     headword: accessible
     pos: adj
+    definition_en: "easy to reach or use"
     ipa:
       uk: /əkˈses.ə.bəl/
       us: /əkˈses.ə.bəl/
@@ -1332,6 +1447,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accessible, checked: 2026-09-30, field: cefr }
@@ -1341,6 +1457,7 @@ entries:
   - id: academic-performance|phr-n
     headword: academic performance
     pos: phr-n
+    definition_en: "how well a student does at school"
     ipa:
       uk: /ˌæk.əˈdem.ɪk pəˈfɔː.məns/
       us: /ˌæk.əˈdem.ɪk pɚˈfɔːr.məns/
@@ -1354,6 +1471,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1362,6 +1480,7 @@ entries:
   - id: assess|v
     headword: assess
     pos: v
+    definition_en: "to judge the quality or level of something"
     ipa:
       uk: /əˈses/
       us: /əˈses/
@@ -1377,6 +1496,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assess, checked: 2026-09-30, field: cefr }
@@ -1386,6 +1506,7 @@ entries:
   - id: assessment|n
     headword: assessment
     pos: n
+    definition_en: "a test or judgement of someone's ability"
     ipa:
       uk: /əˈses.mənt/
       us: /əˈses.mənt/
@@ -1400,6 +1521,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/assessment, checked: 2026-09-30, field: cefr }
@@ -1409,6 +1531,7 @@ entries:
   - id: as-a-result|idiom
     headword: as a result
     pos: idiom
+    definition_en: "because of this"
     ipa:
       uk: /æz ə rɪˈzʌlt/
       us: /æz ə rɪˈzʌlt/
@@ -1421,6 +1544,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1429,6 +1553,7 @@ entries:
   - id: algorithm|n
     headword: algorithm
     pos: n
+    definition_en: "a set of steps a computer follows to solve a problem"
     ipa:
       uk: /ˈæl.ɡə.rɪ.ðəm/
       us: /ˈæl.ɡə.rɪ.ðəm/
@@ -1445,6 +1570,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/algorithm, checked: 2026-09-30, field: cefr }
@@ -1454,6 +1580,7 @@ entries:
   - id: autonomous|adj
     headword: autonomous
     pos: adj
+    definition_en: "able to operate without human control"
     ipa:
       uk: /ɔːˈtɒn.ə.məs/
       us: /ɑːˈtɑː.nə.məs/
@@ -1469,6 +1596,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/autonomous, checked: 2026-09-30, field: ipa.uk }
@@ -1477,6 +1605,7 @@ entries:
   - id: arguably|adv
     headword: arguably
     pos: adv
+    definition_en: "used to say something can be supported with good reasons"
     ipa:
       uk: /ˈɑːɡ.ju.ə.bli/
       us: /ˈɑːrɡ.ju.ə.bli/
@@ -1489,6 +1618,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/arguably, checked: 2026-09-30, field: cefr }
@@ -1498,6 +1628,7 @@ entries:
   - id: accurate|adj
     headword: accurate
     pos: adj
+    definition_en: "correct and exact"
     ipa:
       uk: /ˈæk.jə.rət/
       us: /ˈæk.jɚ.ət/
@@ -1513,6 +1644,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accurate, checked: 2026-09-30, field: cefr }
@@ -1522,6 +1654,7 @@ entries:
   - id: admittedly|adv
     headword: admittedly
     pos: adv
+    definition_en: "used to accept that something is true"
     ipa:
       uk: /ədˈmɪt.ɪd.li/
       us: /ədˈmɪt̬.ɪd.li/
@@ -1534,6 +1667,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/admittedly, checked: 2026-09-30, field: ipa.uk }
@@ -1542,6 +1676,7 @@ entries:
   - id: adverse|adj
     headword: adverse
     pos: adj
+    definition_en: "negative and harmful"
     ipa:
       uk: /ˈæd.vɜːs/
       us: /ædˈvɝːs/
@@ -1556,6 +1691,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1566,6 +1702,7 @@ entries:
   - id: assimilate|v
     headword: assimilate
     pos: v
+    definition_en: "to become part of a new culture or group"
     ipa:
       uk: /əˈsɪm.ɪ.leɪt/
       us: /əˈsɪm.ə.leɪt/
@@ -1583,6 +1720,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/assimilate, checked: 2026-09-30, field: ipa.uk }
@@ -1591,6 +1729,7 @@ entries:
   - id: ancestor|n
     headword: ancestor
     pos: n
+    definition_en: "a family member who lived long ago"
     ipa:
       uk: /ˈæn.ses.tər/
       us: /ˈæn.ses.tɚ/
@@ -1607,6 +1746,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ancestor, checked: 2026-09-30, field: cefr }
@@ -1616,6 +1756,7 @@ entries:
   - id: a-far-cry-from|idiom
     headword: a far cry from
     pos: idiom
+    definition_en: "very different from"
     ipa:
       uk: /ə ˌfɑː ˈkraɪ frəm/
       us: /ə ˌfɑːr ˈkraɪ frəm/
@@ -1628,6 +1769,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1636,6 +1778,7 @@ entries:
   - id: allocate|v
     headword: allocate
     pos: v
+    definition_en: "to give an amount of money or time for a purpose"
     ipa:
       uk: /ˈæl.ə.keɪt/
       us: /ˈæl.ə.keɪt/
@@ -1650,6 +1793,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/allocate, checked: 2026-09-30, field: cefr }
@@ -1659,6 +1803,7 @@ entries:
   - id: abstract|adj
     headword: abstract
     pos: adj
+    definition_en: "(of art) using shapes and colours, not real objects"
     ipa:
       uk: /ˈæb.strækt/
       us: /ˈæb.strækt/
@@ -1672,6 +1817,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/abstract, checked: 2026-09-30, field: cefr }
@@ -1681,6 +1827,7 @@ entries:
   - id: accomplishment|n
     headword: accomplishment
     pos: n
+    definition_en: "something you have succeeded in doing"
     ipa:
       uk: /əˈkʌm.plɪʃ.mənt/
       us: /əˈkɑːm.plɪʃ.mənt/
@@ -1696,6 +1843,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accomplishment, checked: 2026-09-30, field: cefr }
@@ -1705,6 +1853,7 @@ entries:
   - id: applause|n
     headword: applause
     pos: n
+    definition_en: "the sound of people clapping"
     ipa:
       uk: /əˈplɔːz/
       us: /əˈplɑːz/
@@ -1720,6 +1869,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/applause, checked: 2026-09-30, field: ipa.uk }
@@ -1728,6 +1878,7 @@ entries:
   - id: audition|n
     headword: audition
     pos: n
+    definition_en: "a short performance to test if someone is suitable for a role"
     ipa:
       uk: /ɔːˈdɪʃ.ən/
       us: /ɑːˈdɪʃ.ən/
@@ -1743,6 +1894,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/audition, checked: 2026-09-30, field: ipa.uk }
@@ -1751,6 +1903,7 @@ entries:
   - id: astronaut|n
     headword: astronaut
     pos: n
+    definition_en: "a person who travels into space"
     ipa:
       uk: /ˈæs.trə.nɔːt/
       us: /ˈæs.trə.nɑːt/
@@ -1765,6 +1918,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronaut, checked: 2026-09-30, field: ipa.uk }
@@ -1773,6 +1927,7 @@ entries:
   - id: atmosphere|n
     headword: atmosphere
     pos: n
+    definition_en: "the layer of gases around the Earth; the mood of a place"
     ipa:
       uk: /ˈæt.mə.sfɪər/
       us: /ˈæt.mə.sfɪr/
@@ -1787,6 +1942,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/atmosphere, checked: 2026-09-30, field: cefr }
@@ -1796,6 +1952,7 @@ entries:
   - id: astronomical|adj
     headword: astronomical
     pos: adj
+    definition_en: "(of costs) extremely large; connected with stars"
     ipa:
       uk: /ˌæs.trəˈnɒm.ɪ.kəl/
       us: /ˌæs.trəˈnɑː.mɪ.kəl/
@@ -1811,6 +1968,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/astronomical, checked: 2026-09-30, field: ipa.uk }
@@ -1819,6 +1977,7 @@ entries:
   - id: accountable|adj
     headword: accountable
     pos: adj
+    definition_en: "responsible and expected to explain actions"
     ipa:
       uk: /əˈkaʊn.tə.bəl/
       us: /əˈkaʊn.t̬ə.bəl/
@@ -1833,6 +1992,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accountable, checked: 2026-09-30, field: cefr }
@@ -1842,6 +2002,7 @@ entries:
   - id: animal-testing|phr-n
     headword: animal testing
     pos: phr-n
+    definition_en: "using animals in experiments for products or medicine"
     ipa:
       uk: /ˈæn.ɪ.məl ˌtes.tɪŋ/
       us: /ˈæn.ə.məl ˌtes.tɪŋ/
@@ -1856,6 +2017,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1864,6 +2026,7 @@ entries:
   - id: accuracy|n
     headword: accuracy
     pos: n
+    definition_en: "being correct and without mistakes"
     ipa:
       uk: /ˈæk.jə.rə.si/
       us: /ˈæk.jɚ.ə.si/
@@ -1877,6 +2040,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/accuracy, checked: 2026-09-30, field: cefr }

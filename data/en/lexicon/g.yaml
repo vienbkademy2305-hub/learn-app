@@ -3,6 +3,7 @@ entries:
   - id: grandparent|n
     headword: grandparent
     pos: n
+    definition_en: "the mother or father of your mother or father"
     ipa: { uk: "/ˈɡræn.peə.rənt/", us: "/ˈɡræn.per.ənt/" }
     cefr: A1
     meaning_vi: [ ông hoặc bà ]
@@ -11,6 +12,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grandparent, checked: 2026-09-30, field: ipa.uk }
@@ -19,6 +21,7 @@ entries:
   - id: good-looking|adj
     headword: good-looking
     pos: adj
+    definition_en: "attractive to look at (for men or women)"
     forms:
       comparative: better-looking
     ipa:
@@ -34,6 +37,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/good-looking, checked: 2026-09-30, field: ipa.uk }
@@ -42,6 +46,7 @@ entries:
   - id: get-up|phr-v
     headword: get up
     pos: phr-v
+    definition_en: "to leave your bed after sleeping"
     ipa:
       uk: /ɡet ˈʌp/
       us: /ɡet ˈʌp/
@@ -56,6 +61,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -64,6 +70,7 @@ entries:
   - id: go-to-work|colloc
     headword: go to work
     pos: colloc
+    definition_en: "to travel to your job"
     ipa:
       uk: /ɡəʊ tə ˈwɜːk/
       us: /ɡoʊ tə ˈwɝːk/
@@ -77,6 +84,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -85,6 +93,7 @@ entries:
   - id: go-to-bed|colloc
     headword: go to bed
     pos: colloc
+    definition_en: "to lie down to sleep at night"
     ipa:
       uk: /ɡəʊ tə ˈbed/
       us: /ɡoʊ tə ˈbed/
@@ -97,6 +106,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -105,6 +115,7 @@ entries:
   - id: geography|n
     headword: geography
     pos: n
+    definition_en: "the study of countries, rivers, mountains and climate"
     ipa:
       uk: /dʒiˈɒɡ.rə.fi/
       us: /dʒiˈɑː.ɡrə.fi/
@@ -117,6 +128,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/geography, checked: 2026-09-30, field: cefr }
@@ -126,6 +138,7 @@ entries:
   - id: good-at|colloc
     headword: good at
     pos: colloc
+    definition_en: "able to do something well"
     ipa:
       uk: /ˈɡʊd ət/
       us: /ˈɡʊd ət/
@@ -138,6 +151,7 @@ entries:
       - ability
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -146,6 +160,7 @@ entries:
   - id: get-on|phr-v
     headword: get on
     pos: phr-v
+    definition_en: "to enter a bus, train or plane"
     forms:
       past: got on
     ipa:
@@ -160,6 +175,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -168,6 +184,7 @@ entries:
   - id: get-off|phr-v
     headword: get off
     pos: phr-v
+    definition_en: "to leave a bus, train or plane"
     forms:
       past: got off
     ipa:
@@ -182,6 +199,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -190,6 +208,7 @@ entries:
   - id: goal|n
     headword: goal
     pos: n
+    definition_en: "something you want to achieve"
     ipa:
       uk: /ɡəʊl/
       us: /ɡoʊl/
@@ -203,6 +222,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goal, checked: 2026-09-30, field: cefr }
@@ -212,6 +232,7 @@ entries:
   - id: graduate|v
     headword: graduate
     pos: v
+    definition_en: "to finish university and receive a degree"
     forms:
       past: graduated
     ipa:
@@ -230,6 +251,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate_2, checked: 2026-09-30, field: cefr }
@@ -239,6 +261,7 @@ entries:
   - id: gardening|n
     headword: gardening
     pos: n
+    definition_en: "taking care of plants and flowers"
     ipa:
       uk: /ˈɡɑː.dən.ɪŋ/
       us: /ˈɡɑːr.dən.ɪŋ/
@@ -249,6 +272,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/gardening, checked: 2026-09-30, field: ipa.uk }
@@ -257,6 +281,7 @@ entries:
   - id: go-out|phr-v
     headword: go out
     pos: phr-v
+    definition_en: "to leave home to have fun"
     forms:
       past: went out
     ipa:
@@ -272,6 +297,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -280,6 +306,7 @@ entries:
   - id: grow|v
     headword: grow
     pos: v
+    definition_en: "to make plants develop; to get bigger"
     forms:
       past: grew
       pp: grown
@@ -297,6 +324,7 @@ entries:
       - industry
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/grow, checked: 2026-09-30, field: cefr }
@@ -306,6 +334,7 @@ entries:
   - id: give|v
     headword: give
     pos: v
+    definition_en: "to hand something to someone"
     forms:
       past: gave
       pp: given
@@ -324,6 +353,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/give, checked: 2026-09-30, field: cefr }
@@ -333,6 +363,7 @@ entries:
   - id: glass|n
     headword: glass
     pos: n
+    definition_en: "a hard clear material used for windows"
     ipa:
       uk: /ɡlɑːs/
       us: /ɡlæs/
@@ -350,6 +381,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/glass, checked: 2026-09-30, field: cefr }
@@ -359,6 +391,7 @@ entries:
   - id: garage|n
     headword: garage
     pos: n
+    definition_en: "a building where you keep a car"
     ipa:
       uk: /ˈɡær.ɑːʒ/
       us: /ɡəˈrɑːʒ/
@@ -372,6 +405,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/garage, checked: 2026-09-30, field: cefr }
@@ -381,6 +415,7 @@ entries:
   - id: go-shopping|colloc
     headword: go shopping
     pos: colloc
+    definition_en: "to visit shops to buy things"
     ipa:
       uk: /ˌɡəʊ ˈʃɒp.ɪŋ/
       us: /ˌɡoʊ ˈʃɑː.pɪŋ/
@@ -394,6 +429,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -402,6 +438,7 @@ entries:
   - id: go-straight-on|colloc
     headword: go straight on
     pos: colloc
+    definition_en: "to continue ahead without turning"
     ipa:
       uk: /ˌɡəʊ ˈstreɪt ɒn/
       us: /ˌɡoʊ ˈstreɪt ɑːn/
@@ -414,6 +451,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -422,6 +460,7 @@ entries:
   - id: global-warming|phr-n
     headword: global warming
     pos: phr-n
+    definition_en: "the rise in the Earth's average temperature"
     ipa:
       uk: /ˌɡləʊ.bəl ˈwɔː.mɪŋ/
       us: /ˌɡloʊ.bəl ˈwɔːr.mɪŋ/
@@ -435,6 +474,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global-warming, checked: 2026-09-30, field: ipa.uk }
@@ -443,6 +483,7 @@ entries:
   - id: green-space|phr-n
     headword: green space
     pos: phr-n
+    definition_en: "an area of grass and trees in a city"
     ipa:
       uk: /ˌɡriːn ˈspeɪs/
       us: /ˌɡriːn ˈspeɪs/
@@ -456,6 +497,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -464,6 +506,7 @@ entries:
   - id: go-for-a-walk|colloc
     headword: go for a walk
     pos: colloc
+    definition_en: "to leave the house and move on foot for pleasure"
     ipa:
       uk: /ɡəʊ fər ə ˈwɔːk/
       us: /ɡoʊ fɚ ə ˈwɑːk/
@@ -479,6 +522,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -487,6 +531,7 @@ entries:
   - id: gradually|adv
     headword: gradually
     pos: adv
+    definition_en: "slowly over a period of time"
     ipa:
       uk: /ˈɡrædʒ.u.ə.li/
       us: /ˈɡrædʒ.u.ə.li/
@@ -504,6 +549,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gradually, checked: 2026-09-30, field: cefr }
@@ -513,6 +559,7 @@ entries:
   - id: gym|n
     headword: gym
     pos: n
+    definition_en: "a room or building with equipment for exercise"
     ipa:
       uk: /dʒɪm/
       us: /dʒɪm/
@@ -530,6 +577,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gym, checked: 2026-09-30, field: cefr }
@@ -539,6 +587,7 @@ entries:
   - id: give-up|phr-v
     headword: give up
     pos: phr-v
+    definition_en: "to stop doing something"
     forms:
       past: gave up
       pp: given up
@@ -560,6 +609,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -568,6 +618,7 @@ entries:
   - id: generation-gap|phr-n
     headword: generation gap
     pos: phr-n
+    definition_en: "differences in ideas between young and old people"
     ipa:
       uk: /ˌdʒen.əˈreɪ.ʃən ɡæp/
       us: /ˌdʒen.əˈreɪ.ʃən ɡæp/
@@ -585,6 +636,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -593,6 +645,7 @@ entries:
   - id: get-on-with|phr-v
     headword: get on with
     pos: phr-v
+    definition_en: "to have a friendly relationship with someone"
     forms:
       past: got on with
     ipa:
@@ -610,6 +663,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -618,6 +672,7 @@ entries:
   - id: gender-role|phr-n
     headword: gender role
     pos: phr-n
+    definition_en: "behaviour society expects from men or from women"
     forms:
       plural: gender roles
     ipa:
@@ -636,6 +691,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -644,6 +700,7 @@ entries:
   - id: get-around|phr-v
     headword: get around
     pos: phr-v
+    definition_en: "to travel from place to place in an area"
     forms:
       past: got around
     ipa:
@@ -660,6 +717,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -668,6 +726,7 @@ entries:
   - id: government|n
     headword: government
     pos: n
+    definition_en: "the group of people who run a country"
     ipa:
       uk: /ˈɡʌv.ən.mənt/
       us: /ˈɡʌv.ɚn.mənt/
@@ -685,6 +744,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/government, checked: 2026-09-30, field: cefr }
@@ -694,6 +754,7 @@ entries:
   - id: globalisation|n
     headword: globalisation
     pos: n
+    definition_en: "the process of countries becoming more connected through trade"
     ipa:
       uk: /ˌɡləʊ.bəl.aɪˈzeɪ.ʃən/
       us: /ˌɡloʊ.bəl.əˈzeɪ.ʃən/
@@ -710,6 +771,7 @@ entries:
       - globalisation
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -719,6 +781,7 @@ entries:
   - id: global|adj
     headword: global
     pos: adj
+    definition_en: "affecting the whole world"
     ipa:
       uk: /ˈɡləʊ.bəl/
       us: /ˈɡloʊ.bəl/
@@ -733,6 +796,7 @@ entries:
       - globalisation
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/global, checked: 2026-09-30, field: cefr }
@@ -742,6 +806,7 @@ entries:
   - id: goods|n
     headword: goods
     pos: n
+    definition_en: "things that are made to be sold"
     ipa:
       uk: /ɡʊdz/
       us: /ɡʊdz/
@@ -758,6 +823,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/goods, checked: 2026-09-30, field: cefr }
@@ -767,6 +833,7 @@ entries:
   - id: graduate|n
     headword: graduate
     pos: n
+    definition_en: "a person who has finished a university degree"
     ipa:
       uk: /ˈɡrædʒ.u.ət/
       us: /ˈɡrædʒ.u.ət/
@@ -783,6 +850,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/graduate, checked: 2026-09-30, field: cefr }
@@ -792,6 +860,7 @@ entries:
   - id: guilty|adj
     headword: guilty
     pos: adj
+    definition_en: "having done something wrong"
     ipa:
       uk: /ˈɡɪl.ti/
       us: /ˈɡɪl.ti/
@@ -807,6 +876,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/guilty, checked: 2026-09-30, field: cefr }
@@ -816,6 +886,7 @@ entries:
   - id: generate|v
     headword: generate
     pos: v
+    definition_en: "to produce or create something"
     ipa:
       uk: /ˈdʒen.ə.reɪt/
       us: /ˈdʒen.ə.reɪt/
@@ -831,6 +902,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generate, checked: 2026-09-30, field: cefr }
@@ -840,6 +912,7 @@ entries:
   - id: give-rise-to|phr-v
     headword: give rise to
     pos: phr-v
+    definition_en: "to cause something to happen"
     forms:
       past: gave rise to
       pp: given rise to
@@ -858,6 +931,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -866,6 +940,7 @@ entries:
   - id: generation|n
     headword: generation
     pos: n
+    definition_en: "all the people born at about the same time"
     ipa:
       uk: /ˌdʒen.əˈreɪ.ʃən/
       us: /ˌdʒen.əˈreɪ.ʃən/
@@ -880,6 +955,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/generation, checked: 2026-09-30, field: cefr }
@@ -889,6 +965,7 @@ entries:
   - id: get-the-hang-of|idiom
     headword: get the hang of
     pos: idiom
+    definition_en: "to learn how to do something"
     forms:
       past: got the hang of
     ipa:
@@ -907,6 +984,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -915,6 +993,7 @@ entries:
   - id: grow-up|phr-v
     headword: grow up
     pos: phr-v
+    definition_en: "to become an adult"
     forms:
       past: grew up
       pp: grown up
@@ -931,6 +1010,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -939,6 +1019,7 @@ entries:
   - id: groceries|n
     headword: groceries
     pos: n
+    definition_en: "food and household items bought at a supermarket"
     ipa:
       uk: /ˈɡrəʊ.sər.iz/
       us: /ˈɡroʊ.sɚ.iz/
@@ -952,6 +1033,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/groceries, checked: 2026-09-30, field: ipa.uk }
@@ -960,6 +1042,7 @@ entries:
   - id: gallery|n
     headword: gallery
     pos: n
+    definition_en: "a building where art is shown"
     ipa:
       uk: /ˈɡæl.ər.i/
       us: /ˈɡæl.ɚ.i/
@@ -974,6 +1057,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gallery, checked: 2026-09-30, field: cefr }
@@ -983,6 +1067,7 @@ entries:
   - id: genre|n
     headword: genre
     pos: n
+    definition_en: "a type of film, music or book"
     ipa:
       uk: /ˈʒɒn.rə/
       us: /ˈʒɑːn.rə/
@@ -998,6 +1083,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1008,6 +1094,7 @@ entries:
   - id: galaxy|n
     headword: galaxy
     pos: n
+    definition_en: "a huge group of stars"
     forms:
       plural: galaxies
     ipa:
@@ -1023,6 +1110,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/galaxy, checked: 2026-09-30, field: ipa.uk }
@@ -1031,6 +1119,7 @@ entries:
   - id: gravity|n
     headword: gravity
     pos: n
+    definition_en: "the force that pulls objects towards the ground"
     ipa:
       uk: /ˈɡræv.ə.ti/
       us: /ˈɡræv.ə.t̬i/
@@ -1045,6 +1134,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/gravity, checked: 2026-09-30, field: cefr }
@@ -1054,6 +1144,7 @@ entries:
   - id: grammatical-range|phr-n
     headword: grammatical range
     pos: phr-n
+    definition_en: "the variety of sentence structures you use"
     ipa:
       uk: /ɡrəˌmæt.ɪ.kəl ˈreɪndʒ/
       us: /ɡrəˌmæt̬.ɪ.kəl ˈreɪndʒ/
@@ -1067,6 +1158,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

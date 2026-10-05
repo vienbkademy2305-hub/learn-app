@@ -1,0 +1,607 @@
+lesson:
+  slug: buoi-80-mock-cuoi-tong-ket
+  number: 80
+  stage: 4
+  title_vi: "Mock test cuối cùng + Tổng kết lộ trình · Bạn đang ở band nào so với mục tiêu 6.5?"
+  focus:
+    grammar: Không học điểm mới
+    skill: "Mock test cuối đủ 4 kỹ năng; so sánh với Mock 1 và Mock 77; đánh giá band hiện tại và kế hoạch sau lộ trình"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: reading
+      title_vi: "Mock cuối — và nhìn lại 80 buổi"
+      intro_vi: "Đây là buổi cuối cùng của lộ trình IELTS 6.5. Bạn làm một đề đầy đủ lần cuối, theo đúng kế hoạch ngày thi đã viết ở Buổi 79, với danh sách lỗi ở Buổi 78 bên cạnh. Sau khi chấm, đặt kết quả cạnh Mock 1 (Buổi 66) và Mock 77 để thấy quãng đường đã đi, rồi quyết định bước tiếp theo: đăng ký thi, hay luyện thêm một kỹ năng trước."
+      steps:
+        - title_vi: "Làm đề như ngày thi"
+          text_vi: "Listening (Bài tập 1–7) → Reading (Bài tập 8–15) → Writing (phần Về nhà) → nghỉ → Speaking (Bài tập 16–18). Đọc danh sách lỗi ngày thi trước khi bắt đầu, không đọc lại trong lúc làm."
+        - title_vi: "So sánh ba mốc"
+          text_vi: "Lập bảng: Mock 1 (Buổi 66) · Mock 77 · Mock 80 cho Listening, Reading (số câu và band), Writing, Speaking (tự chấm). Kỹ năng nào tăng nhiều nhất? Kỹ năng nào đi ngang?"
+        - title_vi: "Đánh giá so với mục tiêu 6.5"
+          text_vi: "Band tổng ≥ 6.5 ở cả Mock 77 và Mock 80 → sẵn sàng đăng ký thi. Đạt 6.0 → luyện thêm 2–4 tuần, tập trung kỹ năng thấp nhất (thường Writing). Dưới 6.0 ở một kỹ năng → ôn lại các buổi Giai đoạn 3 của kỹ năng đó trước khi thi."
+        - title_vi: "Kế hoạch sau lộ trình"
+          text_vi: "Giữ thói quen: 1 bài nghe/đọc tiếng Anh thật mỗi ngày (podcast, báo), 1 bài Task 2 mỗi tuần, 10 phút nói to mỗi ngày. Kỹ năng ngôn ngữ giảm nhanh nếu ngừng hoàn toàn."
+      tips:
+        - "Tự chấm Writing và Speaking thường lệch ±0.5 band so với giám khảo thật. Nếu có thể, nhờ giáo viên chấm một bài Writing của Mock 80 trước khi đăng ký thi."
+        - "Đăng ký thi khi kết quả ổn định ở hai lần mock liên tiếp, không phải khi có một lần may mắn."
+        - "Nếu thi lại, IELTS cho phép thi lại một kỹ năng (One Skill Retake) ở một số địa điểm — kiểm tra trên trang chính thức của đơn vị tổ chức."
+      traps:
+        - trap_vi: "Thất vọng vì Mock 80 thấp hơn Mock 77 một chút."
+          fix_vi: "Điểm dao động ±0.5 giữa các đề là bình thường. Nhìn xu hướng của cả ba mốc, không nhìn một lần."
+        - trap_vi: "Dừng học hoàn toàn trong thời gian chờ ngày thi."
+          fix_vi: "Giữ nhịp nhẹ theo lịch tuần trước thi ở Buổi 79."
+      phrases:
+        - en: "My overall band has risen from 5.5 to 6.5."
+          vi: "Điểm tổng của tôi đã tăng từ 5.5 lên 6.5."
+        - en: "Writing is still my weakest skill."
+          vi: "Writing vẫn là kỹ năng yếu nhất của tôi."
+        - en: "I'm planning to take the test in two months."
+          vi: "Tôi dự định thi trong hai tháng tới."
+    - type: exercises
+      items:
+        - id: b80-x1
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 1 · Câu 1–10. Đăng ký khám tại phòng khám nha khoa. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ. Chỉ nghe MỘT lần."
+          max_words: 3
+          audio_text: |-
+            Woman: Brookfield Dental Clinic, good morning.
+            Man: Good morning. I've just moved to the area and I'd like to register as a new patient.
+            Woman: Of course. Can I have your full name?
+            Man: It's Adam Fletcher. F-L-E-T-C-H-E-R.
+            Woman: Thank you. And your address?
+            Man: Flat 3, 27 Linden Avenue.
+            Woman: Was that Linden with an E?
+            Man: Yes, L-I-N-D-E-N.
+            Woman: Lovely. Date of birth?
+            Man: The fifth of September, nineteen eighty-nine.
+            Woman: And who's your employer? We ask in case of emergencies during working hours.
+            Man: I work for Harlow Engineering.
+            Woman: Thanks. Are you having any problems at the moment?
+            Man: Yes, one of my back teeth is quite sensitive to cold drinks.
+            Woman: OK, I'll note that. The first appointment is a check-up, which costs twenty-five pounds. If you need an X-ray, that's an extra fifteen.
+            Man: Fine. When's the earliest appointment?
+            Woman: We have Monday at nine. Oh, no, sorry, that's just been taken. Tuesday at nine fifteen?
+            Man: Tuesday's fine.
+            Woman: Please arrive ten minutes early to fill in a medical history form. And bring a list of any medication you're taking.
+            Man: Will do. Is there parking?
+            Woman: Not at the clinic, but there's a public car park at the library, just across the road.
+          passage: |-
+            BROOKFIELD DENTAL CLINIC — NEW PATIENT
+            Name: Adam (1) ___
+            Address: Flat 3, 27 (2) ___ Avenue
+            Date of birth: (3) ___ September 1989
+            Employer: (4) ___ Engineering
+            Current problem: back tooth sensitive to (5) ___
+            Check-up fee: £(6) ___ (X-ray extra)
+            Appointment: (7) ___ at 9.15
+            Arrive early to complete a medical (8) ___ form
+            Bring: a list of (9) ___
+            Parking: public car park at the (10) ___
+          questions:
+            - q: (1)
+              answer: Fletcher
+            - q: (2)
+              answer: Linden
+            - q: (3)
+              answer: fifth
+              accept:
+                - 5th
+                - "5"
+            - q: (4)
+              answer: Harlow
+            - q: (5)
+              answer: cold drinks
+            - q: (6)
+              answer: "25"
+              accept:
+                - twenty-five
+              explain_vi: "£15 là phí chụp X-quang thêm."
+            - q: (7)
+              answer: Tuesday
+              explain_vi: "Thứ Hai vừa có người đặt."
+            - q: (8)
+              answer: history
+            - q: (9)
+              answer: medication
+              accept:
+                - medications
+            - q: (10)
+              answer: library
+        - id: b80-x2
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "LISTENING PART 2 · Câu 11–15. Hướng dẫn viên tại trung tâm du khách của một vườn quốc gia. Chọn đáp án đúng."
+          audio_text: "Good morning and welcome to Ashdown National Park. I'm Leo, one of the rangers here. The park covers about two hundred square kilometres, and it was created in 1962, mainly to protect the ancient woodland, although today we're just as well known for our birdlife. There are four marked walking trails. The shortest, the Lakeside Trail, is flat and suitable for wheelchairs and pushchairs. The longest is the Ridge Trail, which takes about five hours, so if you're planning to do it, please start before eleven in the morning. A lot of visitors ask about wildlife. You may well see deer in the early morning, and there are otters in the river, but they're very shy, so it's rare to spot them. Please remember that the park is home to ground-nesting birds, so from March to July all dogs must be kept on a lead. Finally, there's no charge to enter the park, but the car parks are pay-and-display, and that money goes directly to path repairs."
+          questions:
+            - q: "11 · The park was originally created to protect"
+              options:
+                - its birdlife.
+                - ancient woodland.
+                - the river.
+                - deer.
+              answer: b
+            - q: "12 · Which trail is suitable for wheelchairs?"
+              options:
+                - the Ridge Trail
+                - the Lakeside Trail
+                - all four trails
+                - none of the trails
+              answer: b
+            - q: "13 · Visitors doing the Ridge Trail should start before"
+              options:
+                - 9 am.
+                - 10 am.
+                - 11 am.
+                - midday.
+              answer: c
+            - q: "14 · Which animal is visitors least likely to see?"
+              options:
+                - deer
+                - otters
+                - birds
+                - dogs
+              answer: b
+            - q: "15 · Money from the car parks is used for"
+              options:
+                - entry to the park.
+                - wildlife research.
+                - repairing paths.
+                - paying rangers.
+              answer: c
+        - id: b80-x3
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 2 · Câu 16–20. Hoàn thành thông tin về các dịch vụ. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ."
+          max_words: 2
+          audio_text: "A few practical points. The visitor centre is open from eight until six, and the café closes an hour earlier, at five. You can hire bicycles from the shed behind the café. They cost twelve pounds for half a day. Children's bikes are available, but we don't have child seats, I'm afraid. If you'd like to join a guided walk, they leave from the main door at two o'clock every Saturday and Sunday. And please take a map before you go — mobile phone signal is very poor in the valleys."
+          passage: |-
+            VISITOR INFORMATION
+            Café closes at: (16) ___ pm
+            Bike hire: from the shed behind the café; £(17) ___ for half a day
+            Not available: child (18) ___
+            Guided walks: 2 pm on (19) ___ (leave from main door)
+            Take a map: phone (20) ___ is poor in the valleys
+          questions:
+            - q: (16)
+              answer: "5"
+              accept:
+                - five
+            - q: (17)
+              answer: "12"
+              accept:
+                - twelve
+            - q: (18)
+              answer: seats
+            - q: (19)
+              answer: weekends
+              accept:
+                - Saturday and Sunday
+                - Saturdays and Sundays
+            - q: (20)
+              answer: signal
+        - id: b80-x4
+          bank_no: 21
+          kind: mcq
+          instructions_vi: "LISTENING PART 3 · Câu 21–25. Hai sinh viên Hannah và Luke phân tích một nghiên cứu tình huống kinh doanh (quán cà phê gia đình). Ý kiến là của ai? Chọn A (Hannah), B (Luke) hoặc C (cả hai)."
+          audio_text: |-
+            Woman: So, Luke, what did you think the café's biggest mistake was?
+            Man: Opening a second branch too quickly. They didn't have enough money to support both.
+            Woman: I agree, that was clearly the main problem.
+            Man: I also think their prices were too low. They were cheaper than everyone else, but their costs were higher.
+            Woman: Hmm, I'm not sure. I think customers would have left if prices had gone up. To me, the bigger issue was the menu — it was far too long.
+            Man: Maybe. What about the social media campaign? I thought it worked well.
+            Woman: So did I. It brought in a lot of young customers.
+            Man: But I don't think they trained their staff properly. The reviews kept mentioning slow service.
+            Woman: That's true, but the case study says the staff were new. I'd blame the managers, not the training.
+          questions:
+            - q: "21 · Opening a second branch was the main mistake."
+              options:
+                - Hannah
+                - Luke
+                - both
+              answer: c
+            - q: "22 · The café's prices were too low."
+              options:
+                - Hannah
+                - Luke
+                - both
+              answer: b
+            - q: "23 · The menu was too long."
+              options:
+                - Hannah
+                - Luke
+                - both
+              answer: a
+            - q: "24 · The social media campaign was successful."
+              options:
+                - Hannah
+                - Luke
+                - both
+              answer: c
+            - q: "25 · Poor staff training caused slow service."
+              options:
+                - Hannah
+                - Luke
+                - both
+              answer: b
+              explain_vi: "Hannah đổ lỗi cho người quản lý, không phải việc đào tạo."
+        - id: b80-x5
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "LISTENING PART 3 · Câu 26–30. Hannah và Luke chuẩn bị bài thuyết trình. Chọn đáp án đúng."
+          audio_text: |-
+            Man: How should we organise the presentation?
+            Woman: Let's start with a short summary of the case, but no more than two minutes. Everyone in the class has read it.
+            Man: Good point. Then our analysis. Should we use a SWOT table?
+            Woman: Our tutor said she's seen too many of those. Let's use a timeline instead, showing what went wrong and when.
+            Man: Nice. And recommendations at the end. I'd suggest three.
+            Woman: Three is fine. And we should finish with a question for the class.
+            Man: Who's going to do the slides?
+            Woman: I'll do them, if you prepare the handout.
+            Man: Deal. And let's rehearse on Thursday afternoon, in the library study room.
+            Woman: Not the library — it's closed for repairs this week. Let's use the seminar room on the third floor.
+          questions:
+            - q: "26 · Why will the case summary be short?"
+              options:
+                - The tutor asked for it.
+                - The other students have already read the case.
+                - They have little time to prepare.
+                - It is the least important part.
+              answer: b
+            - q: "27 · What will they use to show their analysis?"
+              options:
+                - a SWOT table
+                - a timeline
+                - a pie chart
+                - a video
+              answer: b
+            - q: "28 · How many recommendations will they give?"
+              options:
+                - two
+                - three
+                - four
+                - five
+              answer: b
+            - q: "29 · What will Luke prepare?"
+              options:
+                - the slides
+                - the handout
+                - the timeline
+                - the question for the class
+              answer: b
+            - q: "30 · Where will they rehearse?"
+              options:
+                - in the library study room
+                - in the café
+                - in the seminar room on the third floor
+                - at Hannah's flat
+              answer: c
+        - id: b80-x6
+          bank_no: 18
+          kind: completion
+          instructions_vi: "LISTENING PART 4 · Câu 31–40. Bài giảng về thói quen (habits). Viết MỘT TỪ cho mỗi chỗ trống."
+          max_words: 1
+          audio_text: "Today's topic is habits — the actions we perform automatically, often without being aware of them. Researchers estimate that around forty per cent of our daily actions are habits rather than conscious decisions. A useful way to understand a habit is as a loop with three parts. First, there is a cue, something in our environment that triggers the behaviour, such as a time of day or a place. Then comes the routine, the behaviour itself. Finally, there is a reward, which makes the brain more likely to repeat the loop next time. How long does it take to form a new habit? A popular claim says twenty-one days, but this has little scientific basis. In one well-known study, the average was sixty-six days, and it varied enormously between people and between behaviours. Simple habits, like drinking a glass of water at breakfast, formed much faster than complex ones, like exercising every day. Missing a single day, interestingly, made little difference to the final result. What about breaking bad habits? Research suggests that willpower alone is surprisingly ineffective. A better strategy is to change the environment, so that the cue doesn't appear. For example, people who want to use their phones less are more successful if they keep the phone in another room, rather than simply trying to resist it. Another effective approach is to replace the routine while keeping the same cue and reward. Someone who snacks when they feel stressed might go for a short walk instead. Finally, habits are strongly connected to identity. People who think of themselves as, say, a runner, rather than as someone who is trying to run, find it easier to keep the habit going."
+          passage: |-
+            HABITS
+            • About 40% of daily actions are habits, not conscious (31) ___
+            The habit loop
+            • Cue: something in the (32) ___ triggers the behaviour (time, place)
+            • Routine: the behaviour itself
+            • Reward: makes the brain likely to (33) ___ the loop
+            Forming habits
+            • '21 days' claim has little scientific (34) ___
+            • Study: average of (35) ___ days; simple habits formed faster
+            • Missing one day made little (36) ___
+            Breaking habits
+            • (37) ___ alone is ineffective
+            • Change your surroundings so the cue does not appear (e.g. keep phone in another (38) ___)
+            • Replace the routine; keep the same cue and reward (e.g. a short (39) ___ instead of snacking)
+            • Habits are linked to (40) ___ (seeing yourself as 'a runner')
+          questions:
+            - q: (31)
+              answer: decisions
+            - q: (32)
+              answer: environment
+            - q: (33)
+              answer: repeat
+            - q: (34)
+              answer: basis
+            - q: (35)
+              answer: "66"
+              accept:
+                - sixty-six
+            - q: (36)
+              answer: difference
+            - q: (37)
+              answer: willpower
+            - q: (38)
+              answer: room
+            - q: (39)
+              answer: walk
+            - q: (40)
+              answer: identity
+        - id: b80-x7
+          bank_no: 20
+          kind: tf
+          instructions_vi: "SAU KHI CHẤM · Nghe lời nhắn của giáo viên khi kết thúc khóa (độc thoại). Chọn Đúng (T) hoặc Sai (F). Không tính vào điểm 40 câu."
+          audio_text: "Congratulations on finishing all eighty lessons. Whatever your score today, remember that a mock test is only a guide. Look at the trend across your last three tests rather than a single result. If you've reached six point five twice in a row, you're ready to book the real exam. If not, choose your weakest skill and give it a few more weeks of focused practice. And whatever you decide, keep using English every day."
+          questions:
+            - q: The speaker says one mock result is the best guide to your level.
+              answer: F
+            - q: Reaching 6.5 twice in a row means you are ready to book the exam.
+              answer: T
+            - q: The speaker recommends stopping study after the course.
+              answer: F
+        - id: b80-x8
+          bank_no: 13
+          kind: tfng
+          instructions_vi: "READING PASSAGE 1 · Câu 1–7. Bắt đầu 60 phút Reading. Chọn TRUE / FALSE / NOT GIVEN."
+          passage: &p1 |-
+            THE HIDDEN VALUE OF MANGROVES
+
+            Mangroves are trees and shrubs that grow along tropical and subtropical coastlines, in the zone between high and low tide. Few plants can survive there: the soil is salty, low in oxygen and flooded twice a day. Mangroves cope in a variety of ways. Some species filter salt out at their roots, while others get rid of it through their leaves. Many have roots that grow upwards out of the mud, allowing them to take in air.
+
+            For a long time, mangrove forests were seen as wasteland. Between 1980 and 2000, roughly a third of the world's mangroves were cleared, mainly for shrimp farms, rice fields and coastal development. Only recently has their true value been widely recognised.
+
+            The most obvious benefit is protection. Dense mangrove forests reduce the height of waves and slow down storm surges, protecting villages behind them. After the Indian Ocean tsunami of 2004, several studies reported that areas with healthy mangroves suffered less damage than similar areas without them, although researchers have debated how strong this effect was.
+
+            Mangroves are also extremely important for fisheries. Their roots provide shelter for young fish, crabs and shrimp, and many species that are caught at sea spend the early part of their lives in mangrove forests. Coastal communities in South-East Asia depend on these catches for both food and income.
+
+            Perhaps the most surprising discovery concerns carbon. Mangroves store large amounts of carbon, not only in their trees but especially in the waterlogged soil beneath them, where dead plant material decays very slowly. Per hectare, a mangrove forest can store several times more carbon than a typical tropical rainforest. When mangroves are cleared, much of this carbon is released.
+
+            Efforts to restore mangroves have had mixed results. Early projects often planted a single species in large numbers, frequently in places where mangroves had never grown naturally, and many of the young trees died. More successful projects first restore the natural flow of water, for example by removing old walls around abandoned shrimp ponds, and then allow mangroves to return on their own or plant species suited to each part of the shore.
+          questions:
+            - q: "1 · Mangrove soil contains a lot of oxygen."
+              answer: F
+            - q: "2 · All mangrove species remove salt through their leaves."
+              answer: F
+              explain_vi: "'Some species … at their roots, while others … through their leaves' — không phải tất cả."
+            - q: "3 · Shrimp farming was one reason for the loss of mangroves."
+              answer: T
+            - q: "4 · Researchers fully agree about how much mangroves reduced tsunami damage in 2004."
+              answer: F
+              explain_vi: "'researchers have debated how strong this effect was' → không đồng thuận."
+            - q: "5 · Fish caught in mangrove forests are sold mainly to foreign markets."
+              answer: NG
+            - q: "6 · Most of the carbon in mangrove forests is stored in the soil."
+              answer: T
+              explain_vi: "'not only in their trees but especially in the waterlogged soil'."
+            - q: "7 · Vietnam has the largest area of restored mangroves in Asia."
+              answer: NG
+        - id: b80-x9
+          bank_no: 16
+          kind: completion
+          instructions_vi: "READING PASSAGE 1 · Câu 8–13. Hoàn thành ghi chú. Viết KHÔNG QUÁ HAI TỪ lấy từ bài đọc."
+          max_words: 2
+          passage: *p1
+          questions:
+            - q: "(8) Some mangrove roots grow upwards out of the ___."
+              answer: mud
+            - q: "(9) Mangroves were previously regarded as ___."
+              answer: wasteland
+            - q: "(10) They slow down ___ and protect villages."
+              answer: storm surges
+            - q: "(11) Their roots give ___ to young fish, crabs and shrimp."
+              answer: shelter
+            - q: "(12) Early restoration projects often planted only a ___."
+              answer: single species
+            - q: "(13) Better projects first restore the natural ___ of water."
+              answer: flow
+        - id: b80-x10
+          bank_no: 15
+          kind: mcq
+          instructions_vi: "READING PASSAGE 2 · Câu 14–18. Đoạn nào (A–F) chứa thông tin sau? Một đoạn có thể được chọn nhiều lần."
+          passage: &p2 |-
+            THE RETURN OF THE TRAM
+
+            A  In the first half of the twentieth century, trams ran through the streets of hundreds of cities in Europe, North America and Asia. Hà Nội had its own network from 1900 until 1991. Yet in most places they were removed between the 1930s and 1960s, as buses became cheaper and cars more common. Trams came to be seen as old-fashioned and an obstacle to traffic.
+
+            B  Since the 1980s, however, trams — now usually called 'light rail' — have been making a comeback. France has been particularly enthusiastic: Strasbourg reintroduced trams in 1994, and more than twenty French cities have followed. Transport planner Claire Dubois argues that the success of these schemes came from treating the tram as part of a wider plan to redesign the city centre, not simply as a means of transport.
+
+            C  Supporters point to several advantages. Trams can carry far more passengers than buses, produce no exhaust fumes on the street and give a smoother ride. Research by economist Daniel Hughes suggests that property values near new tram stops often rise, which he believes shows that people value permanent rail lines more than bus routes that could be changed at any time.
+
+            D  The main disadvantage is cost. Building a tram line requires moving underground pipes and cables and rebuilding the road, and can cost many times more than an equivalent bus service. Construction can also disrupt businesses for years. Professor Ruth Okoye, who has studied several projects, warns that cities often underestimate both the cost and the time involved, and that some lines have carried far fewer passengers than predicted.
+
+            E  For this reason, some cities have chosen bus rapid transit (BRT) instead: buses that run on their own lanes, with stations where passengers pay before boarding. Okoye points out that BRT can provide many of the benefits of trams at a fraction of the price, as long as cities are willing to give buses truly separate lanes.
+
+            F  The debate is likely to continue, but one thing is clear: the choice depends less on the vehicle than on the political will to give public transport priority over private cars. As Dubois puts it, 'A tram stuck in traffic is no better than a bus.'
+          questions:
+            - q: "14 · an example of a city in Asia that once had trams"
+              options: &pp
+                - A
+                - B
+                - C
+                - D
+                - E
+                - F
+              answer: a
+            - q: "15 · a reference to the effect of trams on house prices"
+              options: *pp
+              answer: c
+            - q: "16 · a description of how passengers pay on a cheaper alternative"
+              options: *pp
+              answer: e
+            - q: "17 · reasons why trams were removed in the past"
+              options: *pp
+              answer: a
+            - q: "18 · a reference to lines that attracted fewer users than expected"
+              options: *pp
+              answer: d
+        - id: b80-x11
+          bank_no: 17
+          kind: mcq
+          instructions_vi: "READING PASSAGE 2 · Câu 19–22. Nối mỗi nhận định với đúng người: A (Claire Dubois), B (Daniel Hughes), C (Ruth Okoye)."
+          passage: *p2
+          questions:
+            - q: "19 · A cheaper system can be almost as good if it has its own lanes."
+              options: &ppl
+                - A Claire Dubois
+                - B Daniel Hughes
+                - C Ruth Okoye
+              answer: c
+            - q: "20 · Successful tram schemes were linked to changes in the whole city centre."
+              options: *ppl
+              answer: a
+            - q: "21 · People appear to prefer transport routes that are permanent."
+              options: *ppl
+              answer: b
+            - q: "22 · Cities frequently fail to predict how long projects will take."
+              options: *ppl
+              answer: c
+        - id: b80-x12
+          bank_no: 16
+          kind: completion
+          instructions_vi: "READING PASSAGE 2 · Câu 23–26. Hoàn thành tóm tắt. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ lấy từ bài đọc."
+          max_words: 1
+          passage: *p2
+          questions:
+            - q: "(23) Hà Nội's tram network closed in ___."
+              answer: "1991"
+            - q: "(24) Strasbourg brought back trams in ___."
+              answer: "1994"
+            - q: "(25) Trams produce no exhaust ___ on the street."
+              answer: fumes
+            - q: "(26) Building a line can ___ businesses for years."
+              answer: disrupt
+        - id: b80-x13
+          bank_no: 13
+          kind: ynng
+          instructions_vi: "READING PASSAGE 3 · Câu 27–32. Câu nhận định có khớp với QUAN ĐIỂM của tác giả không? Chọn YES / NO / NOT GIVEN."
+          passage: &p3 |-
+            WHY DO WE PUT THINGS OFF?
+
+            A  Almost everyone procrastinates sometimes, delaying a task even though we know the delay will probably make things worse. The common explanation is that procrastinators are lazy or poor at managing their time. I have come to believe that this explanation is, for the most part, mistaken.
+
+            B  A growing body of research suggests that procrastination is mainly a problem of managing emotions, not time. When a task makes us feel anxious, bored or insecure — a difficult report, a tax form, an email we are afraid to send — putting it off provides immediate relief. The relief is real but short-lived, and the task, along with the bad feelings, is still waiting for us later, often larger than before.
+
+            C  This helps to explain why time-management techniques so often fail. A detailed timetable does nothing to reduce the anxiety a task produces; indeed, seeing a long list of unfinished tasks may make the feeling worse. It also explains why procrastination is not related to how busy people are: some of the most chronic procrastinators have plenty of free time.
+
+            D  Interestingly, one of the most effective responses appears to be self-compassion. In a study of university students, those who forgave themselves for procrastinating before their first exam procrastinated less before the next one. Being hard on ourselves, it seems, adds to the negative feelings that caused the delay in the first place.
+
+            E  Other practical strategies target the emotions directly. Making the first step very small — 'open the document and write one sentence' — reduces the feeling of threat. Focusing on how we will feel once a task is finished, rather than on the task itself, can also help. I would add that it is worth noticing which tasks we repeatedly avoid: they often reveal something about our fears, or about work we are doing for the wrong reasons.
+
+            F  None of this means that procrastination is harmless. Chronic procrastination has been linked to stress, poorer health and lower performance. But treating it as a moral failing is unhelpful. Understanding it as an emotional habit — one that can be changed — is both kinder and, the evidence suggests, more effective.
+          questions:
+            - q: "27 · Laziness is the main cause of procrastination."
+              answer: N
+            - q: "28 · Putting off a task gives a feeling of relief that does not last."
+              answer: Y
+            - q: "29 · Time-management techniques usually solve the problem of procrastination."
+              answer: N
+            - q: "30 · People with very busy jobs procrastinate more than others."
+              answer: N
+              explain_vi: "'procrastination is not related to how busy people are' → mâu thuẫn trực tiếp."
+            - q: "31 · Self-compassion is more effective for students than for older adults."
+              answer: NG
+            - q: "32 · Tasks we avoid repeatedly may tell us something about ourselves."
+              answer: Y
+        - id: b80-x14
+          bank_no: 17
+          kind: mcq
+          instructions_vi: "READING PASSAGE 3 · Câu 33–36. Chọn đáp án đúng."
+          passage: *p3
+          questions:
+            - q: "33 · According to paragraph B, procrastination is mainly a problem of"
+              options:
+                - poor planning.
+                - managing emotions.
+                - having too much work.
+                - lack of intelligence.
+              answer: b
+            - q: "34 · Why might a detailed timetable make procrastination worse?"
+              options:
+                - It takes too long to write.
+                - Seeing many unfinished tasks can increase anxiety.
+                - It is usually inaccurate.
+                - People forget to follow it.
+              answer: b
+            - q: "35 · In the university study, students who forgave themselves"
+              options:
+                - got better exam results.
+                - procrastinated less before the next exam.
+                - studied for longer hours.
+                - felt more anxious.
+              answer: b
+            - q: "36 · What is the writer's main conclusion?"
+              options:
+                - Procrastination is harmless.
+                - Procrastination is a moral failing.
+                - Procrastination is an emotional habit that can be changed.
+                - Procrastination cannot be changed.
+              answer: c
+        - id: b80-x15
+          bank_no: 1
+          kind: gap-fill
+          instructions_vi: "READING PASSAGE 3 · Câu 37–40. Hoàn thành tóm tắt bằng các từ trong hộp. Có nhiều từ hơn số chỗ trống."
+          bank:
+            - small
+            - finished
+            - large
+            - fears
+            - started
+            - health
+            - wealth
+            - kinder
+          questions:
+            - q: "(37) Making the first step very ___ reduces the sense of threat."
+              answer: small
+            - q: "(38) It also helps to imagine how we will feel when a task is ___."
+              answer: finished
+            - q: "(39) Avoided tasks may reveal our ___."
+              answer: fears
+            - q: "(40) Chronic procrastination is linked to stress and poorer ___."
+              answer: health
+        - id: b80-x16
+          bank_no: 29
+          kind: speaking-part1
+          instructions_vi: "SPEAKING PART 1. Ghi âm liên tục cả 3 Part."
+          questions:
+            - q: Can you tell me about your hometown?
+            - q: Has it changed much since you were a child?
+            - q: Let's talk about sleep. How many hours do you usually sleep?
+            - q: Do you ever have a nap during the day?
+            - q: Let's talk about learning languages. Why are you learning English?
+            - q: What's the most difficult thing about learning English for you?
+          sample: "For me, the hardest part has been writing accurately. I can usually express my ideas, but small things like articles and plural endings kept slipping through. I've improved a lot by keeping a list of my typical mistakes and checking for them every time."
+        - id: b80-x17
+          bank_no: 30
+          kind: speaking-part2
+          instructions_vi: "SPEAKING PART 2. Chuẩn bị 1 phút, nói 2 phút."
+          cue_card:
+            topic: Describe a goal you have worked hard to achieve.
+            points:
+              - what the goal was
+              - when you set it
+              - what you did to achieve it
+              - and explain how you felt when you achieved it (or how you feel now)
+          sample: "The goal I'd like to talk about is reaching band 6.5 in IELTS, which I set about a year ago when my company announced a scholarship for a master's course abroad. At that point, my level was around 4, so I knew it would be a long journey. I followed a structured plan of eighty lessons, studying four or five times a week, usually early in the morning before work. The hardest part was writing. For months I kept making the same mistakes with articles and plurals, so I started a notebook of my own errors and checked every essay against it. I also recorded myself speaking and listened back, which was quite embarrassing at first. Looking back, what I'm proudest of is not the score itself but the habit of studying every day. Even if I hadn't reached my target, I think I'd have become a much more disciplined learner."
+        - id: b80-x18
+          bank_no: 31
+          kind: speaking-part3
+          instructions_vi: "SPEAKING PART 3. Mỗi câu 30–45 giây."
+          questions:
+            - q: Why do some people give up on their goals?
+            - q: Is it better to set big goals or small goals?
+            - q: How important is it for children to learn to set goals?
+            - q: Do you think success depends more on hard work or on luck?
+          sample: "I'd say hard work matters more in the long run, although luck certainly plays a part. Things like where you're born or meeting the right person at the right time are clearly a matter of luck. But hard work determines whether you're ready to use those opportunities when they appear. Take language learning, for example: someone might be lucky enough to get a scholarship interview, but without years of practice, they won't pass it. So on balance, I think luck opens doors, but hard work is what gets you through them."
+    - type: homework
+      kind: task2
+      prompt_vi: "WRITING MOCK CUỐI (làm NGAY sau Reading, 60 phút): Task 1 (≥ 150 từ, 20 phút), xuống dòng ghi 'TASK 2', rồi Task 2 (≥ 250 từ, 40 phút). Sau đó hoàn thành bảng so sánh Mock 1 (Buổi 66) · Mock 77 · Mock 80 cho cả 4 kỹ năng và viết ra quyết định của bạn: đăng ký thi ngay, hay luyện thêm kỹ năng nào trong bao lâu. Số liệu Task 1 là giả định."
+      prompt_en: |-
+        TASK 1 (20 minutes, at least 150 words)
+        The pie charts show how an average household in one country spent its income in 2000 and 2025.
+        2000: Food 35% · Housing 22% · Transport 14% · Education 8% · Entertainment 6% · Other 15%
+        2025: Food 21% · Housing 33% · Transport 13% · Education 12% · Entertainment 9% · Other 12%
+        Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+
+        TASK 2 (40 minutes, at least 250 words)
+        More and more people are working from home rather than in an office.
+        Do the advantages of this trend outweigh the disadvantages?
+        Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+      words:
+        min: 400
+        max: 520
+      minutes: 60

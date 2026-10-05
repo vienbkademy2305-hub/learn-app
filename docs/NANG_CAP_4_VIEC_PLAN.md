@@ -145,7 +145,7 @@ Làm theo `EN_WRITING_GRADER_PLAN.md` (Supabase Edge Function giữ khóa Claude
   - Bạn tạo khóa Claude API và tự đặt khóa vào Supabase secret. Không gửi khóa qua chat.
 
 ### Các bước
-**Trạng thái (2026-09-30):** F1 + F2 xong — logic `src/domain/word-game.ts` (test `tests/word-game.test.ts`), giao diện `src/features/wordgame/WordGame.tsx`, tab "Học thuộc (game)" ở `/en/flashcards` và `/zh/flashcards` (`?mode=game`), kiểm tra trình duyệt `scripts/check-word-game.ts`. Tiếng Trung đã có game nghĩa tiếng Anh → chữ (CC-CEDICT). Khác kế hoạch: từ trả lời đúng xuống cuối hàng; từ sai quá 3 lần trong một lượt cũng xuống cuối hàng để không chặn các từ khác. Còn lại: F3 (`definition_en` cho tiếng Anh), F4 (đưa game vào bước Luyện tập của từng buổi).
+**Trạng thái (2026-09-30):** F1 + F2 xong — logic `src/domain/word-game.ts` (test `tests/word-game.test.ts`), giao diện `src/features/wordgame/WordGame.tsx`, tab "Học thuộc (game)" ở `/en/flashcards` và `/zh/flashcards` (`?mode=game`), kiểm tra trình duyệt `scripts/check-word-game.ts`. Tiếng Trung đã có game nghĩa tiếng Anh → chữ (CC-CEDICT). Khác kế hoạch: từ trả lời đúng xuống cuối hàng; từ sai quá 3 lần trong một lượt cũng xuống cuối hàng để không chặn các từ khác. **2026-10-05: F3 + F4 xong** — `definition_en` cho đủ 1.244 từ tiếng Anh (`scripts/en-apply-definitions.mjs`); game trong bước Luyện tập tiếng Trung (`/zh/lesson/<slug>/practice/game/`) và cuối bước Từ vựng tiếng Anh (`EnLessonGame`).
 
 | Bước | Việc |
 |---|---|

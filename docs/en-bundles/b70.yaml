@@ -1,0 +1,235 @@
+lesson:
+  slug: buoi-70-mock-writing-2
+  number: 70
+  stage: 4
+  title_vi: "Mock Writing 2 · Task 1 quy trình + Task 2 Discuss both views (60 phút)"
+  focus:
+    grammar: Không học điểm mới — câu bị động trong quy trình, cân bằng hai quan điểm
+    skill: "Writing — mock thứ hai: quy trình (process) và đề thảo luận hai quan điểm; so sánh điểm tự chấm với Mock Writing 1"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: writing
+      title_vi: "Quy trình + Discussion: hai dạng 'dễ viết dài, khó viết gọn'"
+      intro_vi: "Task 1 dạng quy trình không có số liệu: điểm nằm ở việc mô tả đủ và đúng thứ tự các bước, dùng câu bị động và từ nối trình tự. Task 2 dạng 'Discuss both views and give your own opinion' có BA yêu cầu: quan điểm thứ nhất, quan điểm thứ hai, và ý kiến của bạn. Thiếu một trong ba thì Task Response khó vượt band 5. Làm đề đủ 60 phút, tự chấm, rồi so với Mock Writing 1."
+      steps:
+        - title_vi: "Quy trình: đếm bước, tìm điểm đầu và điểm cuối"
+          text_vi: "Đánh số các bước trên hình. Overview nêu: tổng số bước (hoặc số giai đoạn lớn), bắt đầu bằng gì, kết thúc bằng gì, và quy trình là tuần hoàn (cycle) hay tuyến tính. Chia thân bài theo hai giai đoạn lớn."
+        - title_vi: "Quy trình: bị động + từ nối trình tự"
+          text_vi: "Người làm không quan trọng, nên dùng bị động: 'the water is filtered', 'it is then pumped'. Từ nối: first, next, after that, once …, at this stage, subsequently, finally. Không lặp 'then' ở mọi câu."
+        - title_vi: "Discussion: một đoạn cho mỗi quan điểm"
+          text_vi: "Đoạn thân bài 1: quan điểm A (vì sao một số người nghĩ vậy + ví dụ). Đoạn 2: quan điểm B. Ý kiến của bạn đặt ở mở bài + kết luận, và có thể nghiêng rõ ở đoạn 2 ('However, I believe…'). Không dùng 'I' trong đoạn trình bày quan điểm của người khác."
+        - title_vi: "So sánh với Mock Writing 1"
+          text_vi: "Đặt điểm tự chấm 4 tiêu chí của hai lần cạnh nhau. Tiêu chí nào không tăng? Lỗi nào trong nhật ký xuất hiện lại? Ghi lại để chuẩn bị Buổi 71."
+      tips:
+        - "Quy trình thường viết 160–180 từ là đủ: đừng thêm chi tiết không có trong hình."
+        - "Nếu hình có từ chuyên ngành (filter, pump, tank), dùng lại đúng các từ đó. Không cần paraphrase thuật ngữ."
+        - "Discussion: 'Some people believe…' / 'Others argue…' / 'In my view…' — ba cụm báo hiệu cho giám khảo thấy bạn trả lời đủ ba phần."
+      traps:
+        - trap_vi: "Quy trình viết bằng chủ động có chủ ngữ 'people', 'they' ở mọi câu."
+          fix_vi: "Chuyển sang bị động: 'People collect the water' → 'The water is collected'."
+        - trap_vi: "Discussion: chỉ viết về quan điểm mình đồng ý, bỏ qua quan điểm kia."
+          fix_vi: "Kiểm tra dàn ý: có đủ một đoạn cho MỖI quan điểm không?"
+        - trap_vi: "Dùng sai bị động: 'The water is filter', 'It is pump into a tank'."
+          fix_vi: "Bị động = be + V3/-ed: is filtered, is pumped. Đây là lỗi -ed tương tự lỗi -s của bạn."
+      phrases:
+        - en: "The process consists of six stages, beginning with … and ending with …"
+          vi: "Quy trình gồm sáu giai đoạn, bắt đầu bằng … và kết thúc bằng …"
+        - en: "Once the water has been filtered, it is …"
+          vi: "Sau khi nước đã được lọc, nó được …"
+        - en: "At this stage, …"
+          vi: "Ở giai đoạn này, …"
+        - en: "Those who support this view argue that …"
+          vi: "Những người ủng hộ quan điểm này cho rằng …"
+        - en: "Personally, I side with the second view, since …"
+          vi: "Cá nhân tôi đứng về quan điểm thứ hai, vì …"
+      demo:
+        title_vi: "Bài mẫu Task 2 (khoảng band 7) cho đề Discuss both views ở phần Về nhà"
+        text_en: |-
+          The age at which children should start formal schooling is a matter of debate. While some people believe that starting at four gives children an early advantage, others argue that it is better to wait until seven. In my view, a later start is more beneficial, provided that young children have access to good pre-school care.
+
+          Those who support an early start argue that young children learn extremely quickly, so beginning lessons at four allows them to develop reading and number skills before their peers. In addition, school provides a structured environment where children from disadvantaged families can receive the support they may not get at home. For working parents, an early start also reduces the cost of childcare.
+
+          On the other hand, many educators believe that children under seven learn best through play rather than formal lessons. Activities such as building, drawing and role-play develop language, creativity and social skills, which form the foundation for later academic learning. Finland, where children usually begin school at seven, is often cited as an example: its pupils typically catch up quickly and perform well in international comparisons. Starting formal lessons too early, by contrast, may cause stress and a dislike of learning.
+
+          Overall, although an early start offers some practical benefits, I believe that the risks outweigh them. Children should begin formal schooling at around seven, but governments should ensure that high-quality, play-based pre-schools are available to all families before that age.
+        notes:
+          - label: Mở bài
+            text_vi: "Câu 1 paraphrase chủ đề; câu 2 nêu hai quan điểm; câu 3 là ý kiến riêng (có điều kiện 'provided that')."
+          - label: Thân bài 1
+            text_vi: "Trình bày quan điểm A khách quan: 'Those who support…'. Ba lý do, không dùng 'I'."
+          - label: Thân bài 2
+            text_vi: "Quan điểm B + ví dụ cụ thể (Phần Lan). Đây là phía người viết đồng ý nên được phát triển kỹ hơn."
+          - label: Kết luận
+            text_vi: "Nhắc lại ý kiến bằng từ khác + thêm điều kiện, không đưa lý do mới."
+          - label: Liên kết
+            text_vi: "In addition, On the other hand, by contrast, Overall — đa dạng, đặt ở đầu câu hoặc giữa câu."
+    - type: exercises
+      items:
+        - id: b70-x1
+          bank_no: 6
+          kind: verb-form
+          instructions_vi: "Quy trình thu gom nước mưa (đề Task 1 ở phần Về nhà). Chia động từ trong ngoặc ở dạng BỊ ĐỘNG hiện tại đơn."
+          questions:
+            - q: "First, rainwater (collect) ___ from the roof through gutters."
+              answer: is collected
+            - q: "Next, the water (pass) ___ through a filter to remove leaves."
+              answer: is passed
+            - q: "It (then / store) ___ in an underground tank."
+              answer: is then stored
+              accept:
+                - then is stored
+            - q: "When it is needed, the water (pump) ___ to a treatment unit."
+              answer: is pumped
+            - q: "At this stage, harmful bacteria (kill) ___ by ultraviolet light."
+              answer: are killed
+              explain_vi: "Chủ ngữ số nhiều 'bacteria' → are killed."
+        - id: b70-x2
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Chọn câu Overview tốt nhất cho quy trình thu gom và xử lý nước mưa (6 bước: thu từ mái → lọc → trữ trong bể ngầm → bơm → diệt khuẩn bằng tia UV → dùng trong nhà)."
+          questions:
+            - q: "Which is the best overview?"
+              options:
+                - "Overall, the water is pumped to a treatment unit."
+                - "Overall, there are six stages in the process, beginning with the collection of rainwater from the roof and ending with its use in the home."
+                - "Overall, I think this process is very useful for saving money."
+                - "Overall, rainwater is clean and safe to drink."
+              answer: b
+              explain_vi: "Overview của quy trình = số bước + bước đầu + bước cuối. C có ý kiến cá nhân; D là thông tin không có trong hình."
+            - q: "Which linking word is best? '___ the water has been treated, it is ready for use in the kitchen and bathroom.'"
+              options:
+                - Once
+                - Although
+                - Despite
+                - Because of
+              answer: a
+        - id: b70-x3
+          bank_no: 7
+          kind: error-correction
+          instructions_vi: "Đoạn thân bài Task 2 có 5 lỗi. Tìm và sửa."
+          text: "Those who support early start argue that children learn very quick. In addition, school provide a structured environment, this helps children from poor families. For example Finland children start school at seven."
+          errors:
+            - wrong: "support early start"
+              right: "support an early start"
+              why: "'start' là danh từ đếm được số ít → cần mạo từ 'an'."
+            - wrong: "learn very quick"
+              right: "learn very quickly"
+              why: "Bổ nghĩa cho động từ 'learn' → trạng từ quickly."
+            - wrong: "school provide"
+              right: "school provides"
+              why: "Chủ ngữ số ít 'school' → provides."
+            - wrong: "environment, this helps"
+              right: "environment, which helps"
+              why: "Dấu phẩy nối hai câu → dùng mệnh đề quan hệ 'which' hoặc tách thành hai câu."
+            - wrong: "For example Finland children"
+              right: "For example, Finnish children"
+              why: "Sau 'For example' có dấu phẩy; tính từ quốc tịch là Finnish."
+        - id: b70-x4
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Đề Task 2: 'Some people believe children should start school at the age of four. Others think they should start at seven. Discuss both views and give your own opinion.' Chọn đáp án đúng."
+          questions:
+            - q: "How many things must this essay do?"
+              options:
+                - "one: give your opinion"
+                - "two: discuss the advantages and disadvantages"
+                - "three: explain view 1, explain view 2, give your opinion"
+                - "four: two advantages and two disadvantages"
+              answer: c
+            - q: "Which sentence presents the first view WITHOUT the writer's own opinion?"
+              options:
+                - "I strongly believe that four is the best age."
+                - "Those who favour an early start point out that young children learn very quickly."
+                - "It is obvious that starting at four is a terrible idea."
+                - "Everyone knows that children love school."
+              answer: b
+            - q: "Where should the writer's opinion appear?"
+              options:
+                - only in the conclusion
+                - in the introduction and the conclusion (and it may be developed in the body)
+                - only in the first body paragraph
+                - nowhere — this question type does not ask for an opinion
+              answer: b
+        - id: b70-x5
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe hai học viên so sánh kết quả Mock Writing 1 và 2 (hai giọng). Chọn đáp án đúng."
+          audio_text: |-
+            Woman: How did your second writing mock go, Kevin?
+            Man: Better, I think. I gave myself a six for Task Response this time, up from five and a half.
+            Woman: Why the improvement?
+            Man: Last time I forgot to give my opinion clearly. This time I put it in the introduction and again in the conclusion.
+            Woman: Nice. My problem is still grammar. I keep forgetting the -ed in passive sentences.
+            Man: In the process task? Like 'the water is filter'?
+            Woman: Exactly. I found four of those.
+            Man: What helped me was checking only one thing at a time. First structure, then grammar, then spelling.
+            Woman: I'll try that. And my vocabulary score stayed the same, because I repeated 'children' about fifteen times.
+            Man: You could use 'young learners' or 'pupils' sometimes.
+          questions:
+            - q: "Why did Kevin's Task Response score improve?"
+              options:
+                - He wrote more words.
+                - He stated his opinion clearly in two places.
+                - He used more examples.
+                - He planned for ten minutes.
+              answer: b
+            - q: "What is the woman's main grammar problem?"
+              options:
+                - articles
+                - forgetting -ed in passive verbs
+                - plural -s
+                - comma splices
+              answer: b
+            - q: "What checking method does Kevin recommend?"
+              options:
+                - reading everything twice
+                - asking a friend to check
+                - checking one type of thing at a time
+                - checking only spelling
+              answer: c
+            - q: "Why did the woman's vocabulary score not improve?"
+              options:
+                - She repeated the same word too often.
+                - She used informal words.
+                - Her spelling was poor.
+                - She wrote too few words.
+              answer: a
+        - id: b70-x6
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe lời giải thích về dạng đề Discussion (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "In a discussion essay, you need to cover both views in a balanced way, but that doesn't mean you have to stay neutral. The question also asks for your opinion, and you should make it clear from the introduction. A common mistake is to write two paragraphs about the view you agree with and only one sentence about the other view. Examiners notice this, and it lowers your Task Response score."
+          questions:
+            - q: In a discussion essay, you must stay neutral.
+              answer: F
+              explain_vi: "'that doesn't mean you have to stay neutral'."
+            - q: Your opinion should be clear from the introduction.
+              answer: T
+            - q: Writing much more about one view is a common mistake.
+              answer: T
+            - q: This mistake affects your Lexical Resource score.
+              answer: F
+              explain_vi: "Ảnh hưởng tiêu chí Task Response, không phải Lexical Resource."
+    - type: homework
+      kind: task2
+      prompt_vi: "MOCK WRITING 2 — làm ĐỦ HAI TASK liên tục trong 60 phút. Task 1 trước (≥ 150 từ, 20 phút), xuống dòng ghi 'TASK 2', rồi Task 2 (≥ 250 từ, 40 phút). Tự chấm 4 tiêu chí và so với Mock Writing 1. Đề Task 1 mô tả hình bằng lời."
+      prompt_en: |-
+        TASK 1 (20 minutes, at least 150 words)
+        The diagram shows how rainwater is collected and treated for use in a house.
+        Stage 1: Rain falls on the roof and runs into gutters.
+        Stage 2: The water passes through a leaf filter.
+        Stage 3: It is stored in an underground tank (capacity 5,000 litres).
+        Stage 4: When needed, a pump sends the water to a treatment unit.
+        Stage 5: An ultraviolet (UV) lamp kills bacteria.
+        Stage 6: The water is used for washing, toilets and the garden. (Overflow from the tank goes to a drain.)
+        Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+
+        TASK 2 (40 minutes, at least 250 words)
+        Some people believe that children should start school at the age of four. Others think they should start at seven.
+        Discuss both views and give your own opinion.
+        Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+      words:
+        min: 400
+        max: 520
+      minutes: 60

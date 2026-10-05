@@ -3,6 +3,7 @@ entries:
   - id: marital-status|phr-n
     headword: marital status
     pos: phr-n
+    definition_en: "whether you are single, married or divorced"
     ipa: { uk: "/ˈmær.ɪ.təl ˌsteɪ.təs/", us: "/ˈmer.ə.t̬əl ˌsteɪ.t̬əs/" }
     cefr: null
     meaning_vi: [ tình trạng hôn nhân ]
@@ -10,12 +11,14 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: married|adj
     headword: married
     pos: adj
+    definition_en: "having a husband or wife"
     ipa: { uk: "/ˈmær.id/", us: "/ˈmer.id/" }
     cefr: A1
     meaning_vi: [ đã kết hôn ]
@@ -25,6 +28,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/married, checked: 2026-09-30, field: ipa.uk }
@@ -33,6 +37,7 @@ entries:
   - id: month|n
     headword: month
     pos: n
+    definition_en: "one of the twelve parts of a year, e.g. May"
     ipa:
       uk: /mʌnθ/
       us: /mʌnθ/
@@ -45,6 +50,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/month, checked: 2026-09-30, field: cefr }
@@ -54,6 +60,7 @@ entries:
   - id: morning|n
     headword: morning
     pos: n
+    definition_en: "the early part of the day, before 12 noon"
     ipa:
       uk: /ˈmɔː.nɪŋ/
       us: /ˈmɔːr.nɪŋ/
@@ -66,6 +73,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/morning, checked: 2026-09-30, field: cefr }
@@ -75,6 +83,7 @@ entries:
   - id: midnight|n
     headword: midnight
     pos: n
+    definition_en: "twelve o'clock at night"
     ipa:
       uk: /ˈmɪd.naɪt/
       us: /ˈmɪd.naɪt/
@@ -87,6 +96,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/midnight, checked: 2026-09-30, field: cefr }
@@ -96,6 +106,7 @@ entries:
   - id: maths|n
     headword: maths
     pos: n
+    definition_en: "the study of numbers and shapes"
     ipa:
       uk: /mæθs/
       us: /mæθs/
@@ -108,6 +119,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maths, checked: 2026-09-30, field: cefr }
@@ -117,6 +129,7 @@ entries:
   - id: manager|n
     headword: manager
     pos: n
+    definition_en: "a person in charge of a team or business"
     ipa:
       uk: /ˈmæn.ɪ.dʒə/
       us: /ˈmæn.ə.dʒɚ/
@@ -129,6 +142,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/manager, checked: 2026-09-30, field: cefr }
@@ -138,6 +152,7 @@ entries:
   - id: medicine|n
     headword: medicine
     pos: n
+    definition_en: "something you take to treat an illness"
     ipa:
       uk: /ˈmed.ɪ.sən/
       us: /ˈmed.ɪ.sən/
@@ -153,6 +168,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -163,6 +179,7 @@ entries:
   - id: meat|n
     headword: meat
     pos: n
+    definition_en: "the flesh of animals eaten as food"
     ipa:
       uk: /miːt/
       us: /miːt/
@@ -175,6 +192,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meat, checked: 2026-09-30, field: cefr }
@@ -184,6 +202,7 @@ entries:
   - id: milk|n
     headword: milk
     pos: n
+    definition_en: "the white liquid from cows that people drink"
     ipa:
       uk: /mɪlk/
       us: /mɪlk/
@@ -196,6 +215,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milk, checked: 2026-09-30, field: cefr }
@@ -205,6 +225,7 @@ entries:
   - id: museum|n
     headword: museum
     pos: n
+    definition_en: "a building where old or interesting objects are shown"
     ipa:
       uk: /mjuːˈziː.əm/
       us: /mjuːˈziː.əm/
@@ -217,6 +238,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/museum, checked: 2026-09-30, field: cefr }
@@ -226,6 +248,7 @@ entries:
   - id: market|n
     headword: market
     pos: n
+    definition_en: "a place where people buy and sell food and goods at stalls"
     ipa:
       uk: /ˈmɑː.kɪt/
       us: /ˈmɑːr.kɪt/
@@ -237,6 +260,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/market, checked: 2026-09-30, field: cefr }
@@ -246,6 +270,7 @@ entries:
   - id: meet|v
     headword: meet
     pos: v
+    definition_en: "to see and talk to someone, for the first time or by arrangement"
     forms:
       past: met
       pp: met
@@ -259,6 +284,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/meet, checked: 2026-09-30, field: cefr }
@@ -268,6 +294,7 @@ entries:
   - id: motorbike|n
     headword: motorbike
     pos: n
+    definition_en: "a two-wheeled vehicle with an engine"
     ipa:
       uk: /ˈməʊ.tə.baɪk/
       us: /ˈmoʊ.t̬ɚ.baɪk/
@@ -282,6 +309,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/motorbike, checked: 2026-09-30, field: ipa.uk }
@@ -290,6 +318,7 @@ entries:
   - id: move|v
     headword: move
     pos: v
+    definition_en: "to go to live in a different place"
     forms:
       past: moved
     ipa:
@@ -306,6 +335,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/move, checked: 2026-09-30, field: cefr }
@@ -315,6 +345,7 @@ entries:
   - id: maybe|adv
     headword: maybe
     pos: adv
+    definition_en: "perhaps; possibly"
     ipa:
       uk: /ˈmeɪ.bi/
       us: /ˈmeɪ.bi/
@@ -328,6 +359,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/maybe, checked: 2026-09-30, field: cefr }
@@ -337,6 +369,7 @@ entries:
   - id: musical-instrument|phr-n
     headword: musical instrument
     pos: phr-n
+    definition_en: "something you play to make music, e.g. a guitar"
     ipa:
       uk: /ˌmjuː.zɪ.kəl ˈɪn.strə.mənt/
       us: /ˌmjuː.zɪ.kəl ˈɪn.strə.mənt/
@@ -352,6 +385,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/musical-instrument, checked: 2026-09-30, field: ipa.uk }
@@ -360,6 +394,7 @@ entries:
   - id: mind|v
     headword: mind
     pos: v
+    definition_en: "to feel annoyed or worried about something"
     ipa:
       uk: /maɪnd/
       us: /maɪnd/
@@ -373,6 +408,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mind_2, checked: 2026-09-30, field: cefr }
@@ -382,6 +418,7 @@ entries:
   - id: material|n
     headword: material
     pos: n
+    definition_en: "what something is made from, e.g. wood or cloth"
     ipa:
       uk: /məˈtɪə.ri.əl/
       us: /məˈtɪr.i.əl/
@@ -394,6 +431,7 @@ entries:
       - industry
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/material, checked: 2026-09-30, field: cefr }
@@ -403,6 +441,7 @@ entries:
   - id: metal|n
     headword: metal
     pos: n
+    definition_en: "a hard material such as iron, steel or gold"
     ipa:
       uk: /ˈmet.əl/
       us: /ˈmet̬.əl/
@@ -416,6 +455,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/metal, checked: 2026-09-30, field: cefr }
@@ -425,6 +465,7 @@ entries:
   - id: make-the-bed|colloc
     headword: make the bed
     pos: colloc
+    definition_en: "to tidy the sheets and covers after sleeping"
     ipa:
       uk: /ˌmeɪk ðə ˈbed/
       us: /ˌmeɪk ðə ˈbed/
@@ -439,6 +480,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -447,6 +489,7 @@ entries:
   - id: make-a-mistake|colloc
     headword: make a mistake
     pos: colloc
+    definition_en: "to do something wrong without meaning to"
     ipa:
       uk: /ˌmeɪk ə mɪˈsteɪk/
       us: /ˌmeɪk ə mɪˈsteɪk/
@@ -460,6 +503,7 @@ entries:
       - study
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -468,6 +512,7 @@ entries:
   - id: make-a-phone-call|colloc
     headword: make a phone call
     pos: colloc
+    definition_en: "to use a phone to talk to someone"
     ipa:
       uk: /ˌmeɪk ə ˈfəʊn ˌkɔːl/
       us: /ˌmeɪk ə ˈfoʊn ˌkɑːl/
@@ -478,6 +523,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -486,6 +532,7 @@ entries:
   - id: make-money|colloc
     headword: make money
     pos: colloc
+    definition_en: "to earn money"
     ipa:
       uk: /ˌmeɪk ˈmʌn.i/
       us: /ˌmeɪk ˈmʌn.i/
@@ -497,6 +544,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -505,6 +553,7 @@ entries:
   - id: map|n
     headword: map
     pos: n
+    definition_en: "a drawing that shows roads, towns and places"
     ipa:
       uk: /mæp/
       us: /mæp/
@@ -519,6 +568,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/map, checked: 2026-09-30, field: cefr }
@@ -528,6 +578,7 @@ entries:
   - id: mouth|n
     headword: mouth
     pos: n
+    definition_en: "the part of your face you eat and speak with"
     ipa:
       uk: /maʊθ/
       us: /maʊθ/
@@ -540,6 +591,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mouth, checked: 2026-09-30, field: cefr }
@@ -549,6 +601,7 @@ entries:
   - id: match|n
     headword: match
     pos: n
+    definition_en: "a game between two teams or players"
     forms:
       plural: matches
     ipa:
@@ -564,6 +617,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/match, checked: 2026-09-30, field: cefr }
@@ -573,6 +627,7 @@ entries:
   - id: main-idea|phr-n
     headword: main idea
     pos: phr-n
+    definition_en: "the most important point of a text"
     ipa:
       uk: /ˌmeɪn aɪˈdɪə/
       us: /ˌmeɪn aɪˈdiː.ə/
@@ -587,6 +642,7 @@ entries:
       - reading
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -595,6 +651,7 @@ entries:
   - id: muscle|n
     headword: muscle
     pos: n
+    definition_en: "a part of the body that helps you move"
     ipa:
       uk: /ˈmʌs.əl/
       us: /ˈmʌs.əl/
@@ -612,6 +669,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/muscle, checked: 2026-09-30, field: cefr }
@@ -621,6 +679,7 @@ entries:
   - id: memorable|adj
     headword: memorable
     pos: adj
+    definition_en: "worth remembering; special"
     ipa:
       uk: /ˈmem.ər.ə.bəl/
       us: /ˈmem.ɚ.ə.bəl/
@@ -635,6 +694,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/memorable, checked: 2026-09-30, field: cefr }
@@ -644,6 +704,7 @@ entries:
   - id: marathon|n
     headword: marathon
     pos: n
+    definition_en: "a running race of about 42 kilometres"
     ipa:
       uk: /ˈmær.ə.θən/
       us: /ˈmer.ə.θɑːn/
@@ -658,6 +719,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marathon_2, checked: 2026-09-30, field: cefr }
@@ -667,6 +729,7 @@ entries:
   - id: medal|n
     headword: medal
     pos: n
+    definition_en: "a metal disc given as a prize"
     ipa:
       uk: /ˈmed.əl/
       us: /ˈmed.əl/
@@ -681,6 +744,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/medal, checked: 2026-09-30, field: cefr }
@@ -690,6 +754,7 @@ entries:
   - id: mass-tourism|phr-n
     headword: mass tourism
     pos: phr-n
+    definition_en: "travel by very large numbers of people to the same places"
     ipa:
       uk: /ˌmæs ˈtʊə.rɪ.zəm/
       us: /ˌmæs ˈtʊr.ɪ.zəm/
@@ -703,6 +768,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -711,6 +777,7 @@ entries:
   - id: migrate|v
     headword: migrate
     pos: v
+    definition_en: "to move to another place to live or work"
     ipa:
       uk: /maɪˈɡreɪt/
       us: /ˈmaɪ.ɡreɪt/
@@ -729,6 +796,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migrate, checked: 2026-09-30, field: ipa.uk }
@@ -737,6 +805,7 @@ entries:
   - id: migration|n
     headword: migration
     pos: n
+    definition_en: "the movement of people from one place to another"
     ipa:
       uk: /maɪˈɡreɪ.ʃən/
       us: /maɪˈɡreɪ.ʃən/
@@ -752,6 +821,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/migration, checked: 2026-09-30, field: cefr }
@@ -761,6 +831,7 @@ entries:
   - id: mention|v
     headword: mention
     pos: v
+    definition_en: "to talk about something briefly"
     ipa:
       uk: /ˈmen.ʃən/
       us: /ˈmen.ʃən/
@@ -777,6 +848,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mention, checked: 2026-09-30, field: cefr }
@@ -786,6 +858,7 @@ entries:
   - id: modern|adj
     headword: modern
     pos: adj
+    definition_en: "new and using the latest ideas"
     ipa:
       uk: /ˈmɒd.ən/
       us: /ˈmɑː.dɚn/
@@ -802,6 +875,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/modern, checked: 2026-09-30, field: cefr }
@@ -811,6 +885,7 @@ entries:
   - id: mainstream-media|phr-n
     headword: mainstream media
     pos: phr-n
+    definition_en: "large, well-known newspapers and TV channels"
     ipa:
       uk: /ˌmeɪn.striːm ˈmiː.di.ə/
       us: /ˌmeɪn.striːm ˈmiː.di.ə/
@@ -826,6 +901,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mainstream-media, checked: 2026-09-30, field: ipa.uk }
@@ -834,6 +910,7 @@ entries:
   - id: misinformation|n
     headword: misinformation
     pos: n
+    definition_en: "false or wrong information"
     ipa:
       uk: /ˌmɪs.ɪn.fəˈmeɪ.ʃən/
       us: /ˌmɪs.ɪn.fɚˈmeɪ.ʃən/
@@ -850,6 +927,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/misinformation, checked: 2026-09-30, field: ipa.uk }
@@ -858,6 +936,7 @@ entries:
   - id: media-literacy|phr-n
     headword: media literacy
     pos: phr-n
+    definition_en: "the ability to judge news and media critically"
     ipa:
       uk: /ˌmiː.di.ə ˈlɪt.ər.ə.si/
       us: /ˌmiː.di.ə ˈlɪt̬.ɚ.ə.si/
@@ -872,6 +951,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -880,6 +960,7 @@ entries:
   - id: mislead|v
     headword: mislead
     pos: v
+    definition_en: "to make someone believe something that is not true"
     forms:
       past: misled
       pp: misled
@@ -899,6 +980,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mislead, checked: 2026-09-30, field: ipa.uk }
@@ -907,6 +989,7 @@ entries:
   - id: minimum-wage|phr-n
     headword: minimum wage
     pos: phr-n
+    definition_en: "the lowest hourly pay allowed by law"
     ipa:
       uk: /ˌmɪn.ɪ.məm ˈweɪdʒ/
       us: /ˌmɪn.ə.məm ˈweɪdʒ/
@@ -921,6 +1004,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minimum-wage, checked: 2026-09-30, field: ipa.uk }
@@ -929,6 +1013,7 @@ entries:
   - id: multinational-corporation|phr-n
     headword: multinational corporation
     pos: phr-n
+    definition_en: "a large company operating in many countries"
     ipa:
       uk: /ˌmʌl.tiˌnæʃ.ən.əl ˌkɔː.pəˈreɪ.ʃən/
       us: /ˌmʌl.t̬iˌnæʃ.ən.əl ˌkɔːr.pəˈreɪ.ʃən/
@@ -945,6 +1030,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -953,6 +1039,7 @@ entries:
   - id: manufacture|v
     headword: manufacture
     pos: v
+    definition_en: "to make goods in large numbers in a factory"
     ipa:
       uk: /ˌmæn.jəˈfæk.tʃər/
       us: /ˌmæn.jəˈfæk.tʃɚ/
@@ -969,6 +1056,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -979,6 +1067,7 @@ entries:
   - id: make-up|phr-v
     headword: make up
     pos: phr-v
+    definition_en: "to form a part of a whole"
     forms:
       past: made up
       pp: made up
@@ -998,6 +1087,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/make_up, checked: 2026-09-30, field: ipa.uk }
@@ -1006,6 +1096,7 @@ entries:
   - id: minority|n
     headword: minority
     pos: n
+    definition_en: "a smaller part of a group, less than half"
     ipa:
       uk: /maɪˈnɒr.ə.ti/
       us: /maɪˈnɔːr.ə.t̬i/
@@ -1023,6 +1114,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/minority, checked: 2026-09-30, field: cefr }
@@ -1032,6 +1124,7 @@ entries:
   - id: measure|n
     headword: measure
     pos: n
+    definition_en: "an action taken to deal with a problem"
     ipa:
       uk: /ˈmeʒ.ər/
       us: /ˈmeʒ.ɚ/
@@ -1048,6 +1141,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/measure_2, checked: 2026-09-30, field: cefr }
@@ -1057,6 +1151,7 @@ entries:
   - id: melt|v
     headword: melt
     pos: v
+    definition_en: "to turn something solid into liquid by heating it"
     ipa:
       uk: /melt/
       us: /melt/
@@ -1071,6 +1166,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/melt, checked: 2026-09-30, field: cefr }
@@ -1080,6 +1176,7 @@ entries:
   - id: make-way-for|phr-v
     headword: make way for
     pos: phr-v
+    definition_en: "to be removed so something new can replace it"
     forms:
       past: made way for
     ipa:
@@ -1097,6 +1194,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1105,6 +1203,7 @@ entries:
   - id: motivation|n
     headword: motivation
     pos: n
+    definition_en: "the desire to do something"
     ipa:
       uk: /ˌməʊ.tɪˈveɪ.ʃən/
       us: /ˌmoʊ.t̬əˈveɪ.ʃən/
@@ -1122,6 +1221,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1132,6 +1232,7 @@ entries:
   - id: mentor|n
     headword: mentor
     pos: n
+    definition_en: "an experienced person who advises someone less experienced"
     ipa:
       uk: /ˈmen.tɔːr/
       us: /ˈmen.tɔːr/
@@ -1147,6 +1248,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mentor, checked: 2026-09-30, field: cefr }
@@ -1156,6 +1258,7 @@ entries:
   - id: memorise|v
     headword: memorise
     pos: v
+    definition_en: "to learn something so you remember it exactly"
     ipa:
       uk: /ˈmem.ə.raɪz/
       us: /ˈmem.ə.raɪz/
@@ -1172,6 +1275,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1180,6 +1284,7 @@ entries:
   - id: moreover|adv
     headword: moreover
     pos: adv
+    definition_en: "in addition, and more importantly"
     ipa:
       uk: /mɔːˈrəʊ.vər/
       us: /mɔːrˈoʊ.vɚ/
@@ -1193,6 +1298,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moreover, checked: 2026-09-30, field: cefr }
@@ -1202,6 +1308,7 @@ entries:
   - id: machine-learning|phr-n
     headword: machine learning
     pos: phr-n
+    definition_en: "computers improving their tasks by learning from data"
     ipa:
       uk: /məˌʃiːn ˈlɜː.nɪŋ/
       us: /məˌʃiːn ˈlɝː.nɪŋ/
@@ -1215,6 +1322,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/machine-learning, checked: 2026-09-30, field: ipa.uk }
@@ -1223,6 +1331,7 @@ entries:
   - id: mental-health|phr-n
     headword: mental health
     pos: phr-n
+    definition_en: "the condition of a person's mind and emotions"
     ipa:
       uk: /ˌmen.təl ˈhelθ/
       us: /ˌmen.t̬əl ˈhelθ/
@@ -1236,6 +1345,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mental-health, checked: 2026-09-30, field: ipa.uk }
@@ -1244,6 +1354,7 @@ entries:
   - id: materialistic|adj
     headword: materialistic
     pos: adj
+    definition_en: "caring too much about money and possessions"
     ipa:
       uk: /məˌtɪə.ri.əˈlɪs.tɪk/
       us: /məˌtɪr.i.əˈlɪs.tɪk/
@@ -1260,6 +1371,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/materialistic, checked: 2026-09-30, field: ipa.uk }
@@ -1268,6 +1380,7 @@ entries:
   - id: marginally|adv
     headword: marginally
     pos: adv
+    definition_en: "by a very small amount"
     ipa:
       uk: /ˈmɑː.dʒɪ.nəl.i/
       us: /ˈmɑːr.dʒɪ.nəl.i/
@@ -1282,6 +1395,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/marginally, checked: 2026-09-30, field: ipa.uk }
@@ -1290,6 +1404,7 @@ entries:
   - id: masterpiece|n
     headword: masterpiece
     pos: n
+    definition_en: "an extremely good work of art"
     ipa:
       uk: /ˈmɑː.stə.piːs/
       us: /ˈmæs.tɚ.piːs/
@@ -1303,6 +1418,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/masterpiece, checked: 2026-09-30, field: ipa.uk }
@@ -1311,6 +1427,7 @@ entries:
   - id: milestone|n
     headword: milestone
     pos: n
+    definition_en: "an important event in a process or life"
     ipa:
       uk: /ˈmaɪl.stəʊn/
       us: /ˈmaɪl.stoʊn/
@@ -1324,6 +1441,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/milestone, checked: 2026-09-30, field: cefr }
@@ -1333,6 +1451,7 @@ entries:
   - id: mission|n
     headword: mission
     pos: n
+    definition_en: "an important journey or task"
     ipa:
       uk: /ˈmɪʃ.ən/
       us: /ˈmɪʃ.ən/
@@ -1347,6 +1466,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/mission, checked: 2026-09-30, field: cefr }
@@ -1356,6 +1476,7 @@ entries:
   - id: moral|adj
     headword: moral
     pos: adj
+    definition_en: "connected with right and wrong"
     ipa:
       uk: /ˈmɒr.əl/
       us: /ˈmɔːr.əl/
@@ -1370,6 +1491,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/moral, checked: 2026-09-30, field: cefr }

@@ -3,18 +3,21 @@ entries:
   - id: full-name|phr-n
     headword: full name
     pos: phr-n
+    definition_en: "your first name and family name together"
     ipa: { uk: "/ˌfʊl ˈneɪm/", us: "/ˌfʊl ˈneɪm/" }
     cefr: null
     meaning_vi: [ họ tên đầy đủ ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: friendly|adj
     headword: friendly
     pos: adj
+    definition_en: "kind and pleasant to other people"
     forms:
       comparative: friendlier
     ipa:
@@ -29,6 +32,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/friendly, checked: 2026-09-30, field: cefr }
@@ -38,6 +42,7 @@ entries:
   - id: funny|adj
     headword: funny
     pos: adj
+    definition_en: "making you laugh"
     forms:
       comparative: funnier
       superlative: funniest
@@ -54,6 +59,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funny, checked: 2026-09-30, field: cefr }
@@ -63,6 +69,7 @@ entries:
   - id: fridge|n
     headword: fridge
     pos: n
+    definition_en: "a machine that keeps food cold"
     ipa:
       uk: /frɪdʒ/
       us: /frɪdʒ/
@@ -75,6 +82,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fridge, checked: 2026-09-30, field: cefr }
@@ -84,6 +92,7 @@ entries:
   - id: floor|n
     headword: floor
     pos: n
+    definition_en: "one level of a building; also the surface you walk on"
     ipa:
       uk: /flɔː/
       us: /flɔːr/
@@ -100,6 +109,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/floor, checked: 2026-09-30, field: cefr }
@@ -109,6 +119,7 @@ entries:
   - id: first|num
     headword: first
     pos: num
+    definition_en: "coming before all others"
     ipa:
       uk: /fɜːst/
       us: /fɝːst/
@@ -123,6 +134,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first_3, checked: 2026-09-30, field: cefr }
@@ -132,6 +144,7 @@ entries:
   - id: fifth|num
     headword: fifth
     pos: num
+    definition_en: "number 5 in a series"
     ipa:
       uk: /fɪfθ/
       us: /fɪfθ/
@@ -145,6 +158,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fifth, checked: 2026-09-30, field: cefr }
@@ -154,6 +168,7 @@ entries:
   - id: foreign-language|phr-n
     headword: foreign language
     pos: phr-n
+    definition_en: "a language from another country"
     ipa:
       uk: /ˌfɒr.ən ˈlæŋ.ɡwɪdʒ/
       us: /ˌfɔːr.ən ˈlæŋ.ɡwɪdʒ/
@@ -166,6 +181,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -174,6 +190,7 @@ entries:
   - id: fail|v
     headword: fail
     pos: v
+    definition_en: "to not succeed in a test"
     ipa:
       uk: /feɪl/
       us: /feɪl/
@@ -189,6 +206,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fail, checked: 2026-09-30, field: cefr }
@@ -198,6 +216,7 @@ entries:
   - id: freezing|adj
     headword: freezing
     pos: adj
+    definition_en: "extremely cold"
     ipa:
       uk: /ˈfriː.zɪŋ/
       us: /ˈfriː.zɪŋ/
@@ -211,6 +230,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freezing, checked: 2026-09-30, field: ipa.uk }
@@ -219,6 +239,7 @@ entries:
   - id: forecast|n
     headword: forecast
     pos: n
+    definition_en: "a statement about what will happen, especially the weather"
     ipa:
       uk: /ˈfɔː.kɑːst/
       us: /ˈfɔːr.kæst/
@@ -232,6 +253,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forecast, checked: 2026-09-30, field: cefr }
@@ -241,6 +263,7 @@ entries:
   - id: famous-for|colloc
     headword: famous for
     pos: colloc
+    definition_en: "known by many people because of something"
     ipa:
       uk: /ˈfeɪ.məs fə/
       us: /ˈfeɪ.məs fɚ/
@@ -253,6 +276,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -261,6 +285,7 @@ entries:
   - id: full-time|adj
     headword: full-time
     pos: adj
+    definition_en: "working all the normal hours of a week"
     ipa:
       uk: /ˌfʊlˈtaɪm/
       us: /ˌfʊlˈtaɪm/
@@ -273,6 +298,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/full-time_2, checked: 2026-09-30, field: cefr }
@@ -282,6 +308,7 @@ entries:
   - id: fever|n
     headword: fever
     pos: n
+    definition_en: "a body temperature that is higher than normal"
     ipa:
       uk: /ˈfiː.və/
       us: /ˈfiː.vɚ/
@@ -295,6 +322,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fever, checked: 2026-09-30, field: cefr }
@@ -304,6 +332,7 @@ entries:
   - id: flu|n
     headword: flu
     pos: n
+    definition_en: "an illness like a bad cold, with fever and aches"
     ipa:
       uk: /fluː/
       us: /fluː/
@@ -318,6 +347,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flu, checked: 2026-09-30, field: cefr }
@@ -327,6 +357,7 @@ entries:
   - id: fish|n
     headword: fish
     pos: n
+    definition_en: "an animal that lives in water, or its meat"
     forms:
       plural: fish
     ipa:
@@ -343,6 +374,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fish, checked: 2026-09-30, field: cefr }
@@ -352,6 +384,7 @@ entries:
   - id: fruit|n
     headword: fruit
     pos: n
+    definition_en: "the sweet part of a plant, e.g. an apple or mango"
     ipa:
       uk: /fruːt/
       us: /fruːt/
@@ -365,6 +398,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fruit, checked: 2026-09-30, field: cefr }
@@ -374,6 +408,7 @@ entries:
   - id: flight|n
     headword: flight
     pos: n
+    definition_en: "a journey by plane"
     ipa:
       uk: /flaɪt/
       us: /flaɪt/
@@ -387,6 +422,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flight, checked: 2026-09-30, field: cefr }
@@ -396,6 +432,7 @@ entries:
   - id: find|v
     headword: find
     pos: v
+    definition_en: "to discover something you were looking for"
     forms:
       past: found
       pp: found
@@ -411,6 +448,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/find, checked: 2026-09-30, field: cefr }
@@ -420,6 +458,7 @@ entries:
   - id: fall|v
     headword: fall
     pos: v
+    definition_en: "to drop down towards the ground"
     forms:
       past: fell
       pp: fallen
@@ -438,6 +477,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fall, checked: 2026-09-30, field: cefr }
@@ -447,6 +487,7 @@ entries:
   - id: forget|v
     headword: forget
     pos: v
+    definition_en: "to not remember"
     forms:
       past: forgot
       pp: forgotten
@@ -460,6 +501,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/forget, checked: 2026-09-30, field: cefr }
@@ -469,6 +511,7 @@ entries:
   - id: finally|adv
     headword: finally
     pos: adv
+    definition_en: "after a long time; at the end"
     ipa:
       uk: /ˈfaɪ.nəl.i/
       us: /ˈfaɪ.nəl.i/
@@ -480,6 +523,7 @@ entries:
       - linking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finally, checked: 2026-09-30, field: cefr }
@@ -489,6 +533,7 @@ entries:
   - id: future|n
     headword: future
     pos: n
+    definition_en: "the time that will come after now"
     ipa:
       uk: /ˈfjuː.tʃə/
       us: /ˈfjuː.tʃɚ/
@@ -502,6 +547,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/future, checked: 2026-09-30, field: cefr }
@@ -511,6 +557,7 @@ entries:
   - id: free-time|phr-n
     headword: free time
     pos: phr-n
+    definition_en: "time when you are not working or studying"
     ipa:
       uk: /ˌfriː ˈtaɪm/
       us: /ˌfriː ˈtaɪm/
@@ -525,6 +572,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -533,6 +581,7 @@ entries:
   - id: factory|n
     headword: factory
     pos: n
+    definition_en: "a building where goods are made by machines"
     forms:
       plural: factories
     ipa:
@@ -545,6 +594,7 @@ entries:
       - industry
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/factory, checked: 2026-09-30, field: cefr }
@@ -554,6 +604,7 @@ entries:
   - id: film|n
     headword: film
     pos: n
+    definition_en: "a story shown in moving pictures"
     ipa:
       uk: /fɪlm/
       us: /fɪlm/
@@ -570,6 +621,7 @@ entries:
       - entertainment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/film, checked: 2026-09-30, field: cefr }
@@ -579,6 +631,7 @@ entries:
   - id: fan|n
     headword: fan
     pos: n
+    definition_en: "a person who loves a singer, team or activity"
     ipa:
       uk: /fæn/
       us: /fæn/
@@ -594,6 +647,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fan, checked: 2026-09-30, field: cefr }
@@ -603,6 +657,7 @@ entries:
   - id: french|adj
     headword: French
     pos: adj
+    definition_en: "from or connected with France"
     ipa:
       uk: /frentʃ/
       us: /frentʃ/
@@ -615,6 +670,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/french, checked: 2026-09-30, field: ipa.uk }
@@ -623,6 +679,7 @@ entries:
   - id: face|n
     headword: face
     pos: n
+    definition_en: "the front of your head"
     ipa:
       uk: /feɪs/
       us: /feɪs/
@@ -633,6 +690,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/face, checked: 2026-09-30, field: cefr }
@@ -642,6 +700,7 @@ entries:
   - id: finger|n
     headword: finger
     pos: n
+    definition_en: "one of the five long parts of your hand"
     ipa:
       uk: /ˈfɪŋ.ɡə/
       us: /ˈfɪŋ.ɡɚ/
@@ -654,6 +713,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/finger, checked: 2026-09-30, field: cefr }
@@ -663,6 +723,7 @@ entries:
   - id: foot|n
     headword: foot
     pos: n
+    definition_en: "the part at the end of your leg that you stand on"
     forms:
       plural: feet
     ipa:
@@ -677,6 +738,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/foot, checked: 2026-09-30, field: cefr }
@@ -686,6 +748,7 @@ entries:
   - id: football|n
     headword: football
     pos: n
+    definition_en: "a game where two teams kick a ball into a goal"
     ipa:
       uk: /ˈfʊt.bɔːl/
       us: /ˈfʊt.bɑːl/
@@ -701,6 +764,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/football, checked: 2026-09-30, field: cefr }
@@ -710,6 +774,7 @@ entries:
   - id: fresh-air|phr-n
     headword: fresh air
     pos: phr-n
+    definition_en: "clean air outside, away from pollution"
     ipa:
       uk: /ˌfreʃ ˈeər/
       us: /ˌfreʃ ˈer/
@@ -725,6 +790,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -733,6 +799,7 @@ entries:
   - id: fake-news|phr-n
     headword: fake news
     pos: phr-n
+    definition_en: "false stories that look like real reports"
     ipa:
       uk: /ˌfeɪk ˈnjuːz/
       us: /ˌfeɪk ˈnuːz/
@@ -748,6 +815,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fake-news, checked: 2026-09-30, field: ipa.uk }
@@ -756,6 +824,7 @@ entries:
   - id: fluctuate|v
     headword: fluctuate
     pos: v
+    definition_en: "to go up and down many times"
     ipa:
       uk: /ˈflʌk.tʃu.eɪt/
       us: /ˈflʌk.tʃu.eɪt/
@@ -773,6 +842,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fluctuate, checked: 2026-09-30, field: ipa.uk }
@@ -781,6 +851,7 @@ entries:
   - id: figure|n
     headword: figure
     pos: n
+    definition_en: "a number, especially in official data"
     ipa:
       uk: /ˈfɪɡ.ər/
       us: /ˈfɪɡ.jɚ/
@@ -798,6 +869,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/figure, checked: 2026-09-30, field: cefr }
@@ -807,6 +879,7 @@ entries:
   - id: facility|n
     headword: facility
     pos: n
+    definition_en: "a building or equipment provided for a purpose"
     forms:
       plural: facilities
     ipa:
@@ -828,6 +901,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/facility, checked: 2026-09-30, field: cefr }
@@ -837,6 +911,7 @@ entries:
   - id: fitness|n
     headword: fitness
     pos: n
+    definition_en: "being strong and healthy through exercise"
     ipa:
       uk: /ˈfɪt.nəs/
       us: /ˈfɪt.nəs/
@@ -853,6 +928,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fitness, checked: 2026-09-30, field: cefr }
@@ -862,6 +938,7 @@ entries:
   - id: first-aid|phr-n
     headword: first aid
     pos: phr-n
+    definition_en: "simple medical help given before a doctor arrives"
     ipa:
       uk: /ˌfɜːst ˈeɪd/
       us: /ˌfɝːst ˈeɪd/
@@ -876,6 +953,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/first-aid, checked: 2026-09-30, field: ipa.uk }
@@ -884,6 +962,7 @@ entries:
   - id: fine|n
     headword: fine
     pos: n
+    definition_en: "money you must pay as a penalty"
     ipa:
       uk: /faɪn/
       us: /faɪn/
@@ -900,6 +979,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fine_3, checked: 2026-09-30, field: cefr }
@@ -909,6 +989,7 @@ entries:
   - id: freedom|n
     headword: freedom
     pos: n
+    definition_en: "the right to do what you want"
     ipa:
       uk: /ˈfriː.dəm/
       us: /ˈfriː.dəm/
@@ -924,6 +1005,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freedom, checked: 2026-09-30, field: cefr }
@@ -933,6 +1015,7 @@ entries:
   - id: for-instance|idiom
     headword: for instance
     pos: idiom
+    definition_en: "for example"
     ipa:
       uk: /fər ˈɪn.stəns/
       us: /fɚ ˈɪn.stəns/
@@ -945,6 +1028,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -953,6 +1037,7 @@ entries:
   - id: festival|n
     headword: festival
     pos: n
+    definition_en: "a special time of celebration"
     ipa:
       uk: /ˈfes.tɪ.vəl/
       us: /ˈfes.tə.vəl/
@@ -967,6 +1052,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/festival, checked: 2026-09-30, field: cefr }
@@ -976,6 +1062,7 @@ entries:
   - id: fact-check|v
     headword: fact-check
     pos: v
+    definition_en: "to make sure information is true before using it"
     ipa:
       uk: /ˈfækt.tʃek/
       us: /ˈfækt.tʃek/
@@ -989,6 +1076,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fact-check, checked: 2026-09-30, field: ipa.uk }
@@ -997,6 +1085,7 @@ entries:
   - id: freedom-of-speech|phr-n
     headword: freedom of speech
     pos: phr-n
+    definition_en: "the right to say what you think"
     ipa:
       uk: /ˌfriː.dəm əv ˈspiːtʃ/
       us: /ˌfriː.dəm əv ˈspiːtʃ/
@@ -1011,6 +1100,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1019,6 +1109,7 @@ entries:
   - id: freedom-of-the-press|phr-n
     headword: freedom of the press
     pos: phr-n
+    definition_en: "the right of newspapers to report without government control"
     ipa:
       uk: /ˌfriː.dəm əv ðə ˈpres/
       us: /ˌfriː.dəm əv ðə ˈpres/
@@ -1032,6 +1123,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1040,6 +1132,7 @@ entries:
   - id: freelance|adj
     headword: freelance
     pos: adj
+    definition_en: "working for different companies, not employed by one"
     ipa:
       uk: /ˈfriː.lɑːns/
       us: /ˈfriː.læns/
@@ -1056,6 +1149,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/freelance, checked: 2026-09-30, field: ipa.uk }
@@ -1064,6 +1158,7 @@ entries:
   - id: flexible|adj
     headword: flexible
     pos: adj
+    definition_en: "able to change easily"
     ipa:
       uk: /ˈflek.sə.bəl/
       us: /ˈflek.sə.bəl/
@@ -1078,6 +1173,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/flexible, checked: 2026-09-30, field: cefr }
@@ -1087,6 +1183,7 @@ entries:
   - id: fast-food|phr-n
     headword: fast food
     pos: phr-n
+    definition_en: "quick, cheap meals like burgers and fries"
     ipa:
       uk: /ˌfɑːst ˈfuːd/
       us: /ˌfæst ˈfuːd/
@@ -1103,6 +1200,7 @@ entries:
       - globalisation
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fast-food, checked: 2026-09-30, field: ipa.uk }
@@ -1111,6 +1209,7 @@ entries:
   - id: funding|n
     headword: funding
     pos: n
+    definition_en: "money provided for a particular purpose"
     ipa:
       uk: /ˈfʌn.dɪŋ/
       us: /ˈfʌn.dɪŋ/
@@ -1128,6 +1227,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/funding, checked: 2026-09-30, field: cefr }
@@ -1137,6 +1237,7 @@ entries:
   - id: fund|v
     headword: fund
     pos: v
+    definition_en: "to provide money for something"
     ipa:
       uk: /fʌnd/
       us: /fʌnd/
@@ -1151,6 +1252,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fund_2, checked: 2026-09-30, field: cefr }
@@ -1160,6 +1262,7 @@ entries:
   - id: filter|v
     headword: filter
     pos: v
+    definition_en: "to remove dirt by passing a liquid through something"
     ipa:
       uk: /ˈfɪl.tər/
       us: /ˈfɪl.tɚ/
@@ -1174,6 +1277,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/filter_2, checked: 2026-09-30, field: cefr }
@@ -1183,6 +1287,7 @@ entries:
   - id: farmland|n
     headword: farmland
     pos: n
+    definition_en: "land used for growing crops or keeping animals"
     ipa:
       uk: /ˈfɑːm.lænd/
       us: /ˈfɑːrm.lænd/
@@ -1197,6 +1302,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/farmland, checked: 2026-09-30, field: ipa.uk }
@@ -1205,6 +1311,7 @@ entries:
   - id: footpath|n
     headword: footpath
     pos: n
+    definition_en: "a narrow path for walking"
     ipa:
       uk: /ˈfʊt.pɑːθ/
       us: /ˈfʊt.pæθ/
@@ -1218,6 +1325,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/footpath, checked: 2026-09-30, field: ipa.uk }
@@ -1226,6 +1334,7 @@ entries:
   - id: fairly|adv
     headword: fairly
     pos: adv
+    definition_en: "to some degree; not very"
     ipa:
       uk: /ˈfeə.li/
       us: /ˈfer.li/
@@ -1241,6 +1350,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/fairly, checked: 2026-09-30, field: cefr }
@@ -1250,6 +1360,7 @@ entries:
   - id: furthermore|adv
     headword: furthermore
     pos: adv
+    definition_en: "in addition"
     ipa:
       uk: /ˌfɜː.ðəˈmɔːr/
       us: /ˌfɝː.ðɚˈmɔːr/
@@ -1263,6 +1374,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/furthermore, checked: 2026-09-30, field: cefr }
@@ -1272,6 +1384,7 @@ entries:
   - id: facial-recognition|phr-n
     headword: facial recognition
     pos: phr-n
+    definition_en: "technology that identifies people from their faces"
     ipa:
       uk: /ˌfeɪ.ʃəl ˌrek.əɡˈnɪʃ.ən/
       us: /ˌfeɪ.ʃəl ˌrek.əɡˈnɪʃ.ən/
@@ -1286,6 +1399,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/facial-recognition, checked: 2026-09-30, field: ipa.uk }
@@ -1294,6 +1408,7 @@ entries:
   - id: factor|n
     headword: factor
     pos: n
+    definition_en: "one of the things that cause a result"
     ipa:
       uk: /ˈfæk.tər/
       us: /ˈfæk.tɚ/
@@ -1308,6 +1423,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/factor, checked: 2026-09-30, field: cefr }
@@ -1317,6 +1433,7 @@ entries:
   - id: folklore|n
     headword: folklore
     pos: n
+    definition_en: "traditional stories and beliefs of a community"
     ipa:
       uk: /ˈfəʊk.lɔːr/
       us: /ˈfoʊk.lɔːr/
@@ -1333,6 +1450,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/folklore, checked: 2026-09-30, field: ipa.uk }
@@ -1341,6 +1459,7 @@ entries:
   - id: fit-in|phr-v
     headword: fit in
     pos: phr-v
+    definition_en: "to feel accepted in a group"
     forms:
       past: fitted in / fit in
     ipa:
@@ -1358,6 +1477,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1366,6 +1486,7 @@ entries:
   - id: feel-at-home|idiom
     headword: feel at home
     pos: idiom
+    definition_en: "to feel comfortable and relaxed somewhere"
     ipa:
       uk: /ˌfiːl ət ˈhəʊm/
       us: /ˌfiːl ət ˈhoʊm/
@@ -1379,6 +1500,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1387,6 +1509,7 @@ entries:
   - id: frugal|adj
     headword: frugal
     pos: adj
+    definition_en: "careful not to waste money"
     ipa:
       uk: /ˈfruː.ɡəl/
       us: /ˈfruː.ɡəl/
@@ -1401,6 +1524,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/frugal, checked: 2026-09-30, field: ipa.uk }
@@ -1409,6 +1533,7 @@ entries:
   - id: feasible|adj
     headword: feasible
     pos: adj
+    definition_en: "possible to do"
     ipa:
       uk: /ˈfiː.zə.bəl/
       us: /ˈfiː.zə.bəl/
@@ -1422,6 +1547,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/feasible, checked: 2026-09-30, field: ipa.uk }
@@ -1430,6 +1556,7 @@ entries:
   - id: frontier|n
     headword: frontier
     pos: n
+    definition_en: "the limit of what is known or explored"
     ipa:
       uk: /ˈfrʌn.tɪər/
       us: /frʌnˈtɪr/
@@ -1444,6 +1571,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/frontier, checked: 2026-09-30, field: ipa.uk }

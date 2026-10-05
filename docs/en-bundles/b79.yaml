@@ -1,0 +1,217 @@
+lesson:
+  slug: buoi-79-chien-thuat-phong-thi
+  number: 79
+  stage: 4
+  title_vi: "Chiến thuật phòng thi · Thời gian, đọc câu hỏi nhanh, xử lý khi bí ý"
+  focus:
+    grammar: Không học điểm mới
+    skill: "Chiến thuật ngày thi cho cả 4 kỹ năng: phân bổ thời gian, đọc câu hỏi trong 30 giây, lấy ý Task 2 trong 3 phút, xử lý câu hỏi Speaking khó hoặc không hiểu"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: writing
+      title_vi: "Bộ chiến thuật ngày thi — những gì làm khi mọi thứ không như kế hoạch"
+      intro_vi: "Ở band 6–6.5, chênh lệch nửa band thường không do kiến thức mà do xử lý tình huống: hết giờ Reading, không nghe kịp một câu Listening rồi mất luôn ba câu sau, không nghĩ ra ý Task 2, hoặc không hiểu câu hỏi Speaking. Buổi này gom các chiến thuật đó thành quy trình cụ thể và luyện qua tình huống. Kết thúc buổi, bạn có một kế hoạch ngày thi một trang."
+      steps:
+        - title_vi: "Listening — mất một câu, đừng mất ba"
+          text_vi: "Nếu lỡ một đáp án, bỏ ngay, nhìn sang câu tiếp theo và nghe tiếp. Đáp án đi theo thứ tự; nếu nghe thấy đáp án câu sau thì câu trước đã qua. Dùng 30 giây trước mỗi phần để đọc câu hỏi, không để kiểm tra phần vừa nghe."
+        - title_vi: "Reading — cắt lỗ theo mốc giờ"
+          text_vi: "Mốc 18 / 38 / 60 phút. Đến mốc mà chưa xong bài: đoán các câu còn lại của bài đó, chuyển bài. Không bao giờ để trống. Làm dạng dễ trước (completion, T/F/NG theo thứ tự), dạng tìm khắp bài (matching information, headings khó) sau."
+        - title_vi: "Writing — 3 phút lấy ý Task 2 khi bí"
+          text_vi: "Hỏi nhanh 4 góc: Cá nhân (ảnh hưởng tới từng người) · Kinh tế (tiền, việc làm) · Xã hội (cộng đồng, gia đình) · Môi trường/Sức khỏe. Chọn 2 góc có ví dụ rõ nhất, bỏ qua phần còn lại. Ý đơn giản nhưng phát triển kỹ được điểm cao hơn ý hay mà viết hời hợt."
+        - title_vi: "Speaking — không hiểu hoặc không biết"
+          text_vi: "Không hiểu câu hỏi: được phép hỏi lại ('Could you repeat the question, please?'). Ở Part 3 bạn có thể hỏi nghĩa một từ. Không có ý kiến: nói thật rồi suy luận ('I've never really thought about it, but I'd imagine…'). Không bao giờ im lặng hoặc nói 'I don't know' rồi dừng."
+        - title_vi: "Tuần trước ngày thi"
+          text_vi: "Không học từ mới. Làm 1 đề Listening + Reading để giữ nhịp, đọc lại danh sách lỗi ngày thi (Buổi 78), luyện nói to 15 phút mỗi ngày. Đêm trước thi: ngủ đủ — giấc ngủ giúp củng cố trí nhớ (bài nghe Mock 2)."
+      tips:
+        - "Thi trên máy tính: dùng chức năng tô sáng (highlight) và ghi chú trong Reading; Listening có thời gian xem lại ngắn hơn thi giấy."
+        - "Thi trên giấy: Listening có 10 phút chép đáp án, Reading thì không — ghi thẳng vào phiếu trả lời."
+        - "Mang giấy tờ tùy thân đúng loại đã đăng ký. Đến sớm ít nhất 30 phút."
+        - "Speaking: giám khảo không chấm ý kiến của bạn đúng hay sai, chỉ chấm cách bạn diễn đạt."
+      traps:
+        - trap_vi: "Cố viết Task 1 thật hoàn hảo rồi chỉ còn 30 phút cho Task 2."
+          fix_vi: "Hết phút 20 là chuyển sang Task 2, dù Task 1 chưa hoàn hảo."
+        - trap_vi: "Học thuộc bài mẫu để 'chế' vào đề thi — giám khảo được hướng dẫn trừ điểm phần học thuộc không khớp đề."
+          fix_vi: "Học khung và cụm từ, không học nguyên đoạn."
+        - trap_vi: "Hoảng khi gặp chủ đề lạ ở Reading (sinh học, khảo cổ…)."
+          fix_vi: "Câu hỏi IELTS không cần kiến thức chuyên ngành — mọi đáp án đều nằm trong bài."
+      phrases:
+        - en: "Could you repeat the question, please?"
+          vi: "Xin vui lòng nhắc lại câu hỏi."
+        - en: "Sorry, what do you mean by 'sustainable'?"
+          vi: "Xin lỗi, 'sustainable' ở đây nghĩa là gì ạ?"
+          note_vi: "Được phép ở Part 3 (Part 1 giám khảo chỉ nhắc lại câu hỏi)."
+        - en: "I've never really thought about it, but I'd imagine…"
+          vi: "Tôi chưa bao giờ nghĩ về điều này, nhưng tôi đoán là…"
+        - en: "That's not something I know much about, but from what I've read…"
+          vi: "Đó không phải điều tôi biết nhiều, nhưng theo những gì tôi đọc được…"
+      demo:
+        title_vi: "Lấy ý Task 2 trong 3 phút — làm mẫu"
+        text_en: |-
+          Question: Some people think that cities should ban cars from their centres. To what extent do you agree or disagree?
+
+          Personal: walking/cycling is healthier; but elderly or disabled people may struggle → (keep: health; note: exceptions)
+          Economic: shops may lose customers who drive; but pedestrian streets often attract more shoppers → (keep: example — pedestrian streets)
+          Social: city centres become safer and more pleasant for families → (keep)
+          Environment: cleaner air, less noise → (keep: strongest point)
+
+          Thesis: I largely agree, provided that good public transport and exceptions for disabled drivers are in place.
+          Body 1: environment + health (cleaner air, more walking) — example: a car-free street in a city centre.
+          Body 2: concerns (businesses, access for elderly) — and how they can be managed (deliveries at night, disabled permits).
+        notes:
+          - label: 4 góc
+            text_vi: "Cá nhân · Kinh tế · Xã hội · Môi trường/Sức khỏe — mỗi góc 1 dòng ghi chú, không viết câu đầy đủ."
+          - label: Chọn lọc
+            text_vi: "Giữ 2–3 ý có ví dụ, gộp thành 2 đoạn thân bài. Ý 'kinh tế' chuyển thành phản biện ở đoạn 2."
+          - label: Thesis có điều kiện
+            text_vi: "'I largely agree, provided that…' cho thấy mức độ đồng ý rõ ràng và cân nhắc — phù hợp đề To what extent."
+    - type: exercises
+      items:
+        - id: b79-x1
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "TÌNH HUỐNG PHÒNG THI. Chọn cách xử lý tốt nhất."
+          questions:
+            - q: "Listening Part 2: bạn lỡ đáp án câu 13 và đang nghe thấy thông tin của câu 14."
+              options:
+                - Cố nhớ lại câu 13, bỏ qua câu 14.
+                - Bỏ câu 13 (đoán sau), tập trung vào câu 14 ngay.
+                - Dừng làm, chờ phần tiếp theo.
+                - Xem lại câu 11 và 12.
+              answer: b
+            - q: "Reading: phút 40, bạn mới làm xong 8/13 câu của Passage 2."
+              options:
+                - Làm tiếp cho xong Passage 2 dù mất bao lâu.
+                - Đoán 5 câu còn lại, chuyển sang Passage 3 ngay.
+                - Bỏ trống 5 câu, chuyển sang Passage 3.
+                - Đọc lại Passage 2 từ đầu.
+              answer: b
+              explain_vi: "Không bao giờ để trống; đã quá mốc 38 phút nên phải cắt lỗ."
+            - q: "Writing: phút 22, Task 1 mới 120 từ."
+              options:
+                - Viết thêm 1–2 câu số liệu thật nhanh (2–3 phút), rồi chuyển sang Task 2.
+                - Viết Task 1 đến khi hoàn hảo.
+                - Bỏ Task 1, viết Task 2.
+                - Viết lại Task 1 từ đầu.
+              answer: a
+              explain_vi: "Dưới 150 từ bị trừ điểm, nhưng Task 2 cần đủ 40 phút. Thêm nhanh rồi chuyển."
+            - q: "Speaking Part 3: bạn không hiểu từ 'urbanisation' trong câu hỏi."
+              options:
+                - Im lặng chờ giám khảo hỏi câu khác.
+                - Đoán nghĩa và trả lời lạc đề.
+                - "Hỏi: 'Sorry, what do you mean by urbanisation?'"
+                - Nói 'I don't know.'
+              answer: c
+            - q: "Speaking Part 2: bạn đã nói hết 4 ý nhưng mới được 1 phút 10 giây."
+              options:
+                - Dừng lại và chờ.
+                - "Mở rộng phần 'explain': cảm xúc lúc đó, nhìn lại bây giờ, điều sẽ làm khác đi."
+                - Bắt đầu kể một câu chuyện khác.
+                - Nhắc lại các ý đã nói.
+              answer: b
+        - id: b79-x2
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "LẤY Ý NHANH. Đề Task 2: 'Some people think that cities should ban cars from their centres. To what extent do you agree or disagree?' Chọn đáp án đúng."
+          questions:
+            - q: "Which idea belongs to the ECONOMIC angle?"
+              options:
+                - Cleaner air in city centres
+                - Shops may lose customers who drive
+                - Families feel safer walking
+                - People walk more and get fitter
+              answer: b
+            - q: "Which idea is NOT relevant to this question?"
+              options:
+                - Disabled people may need special access.
+                - Pedestrian streets can attract more shoppers.
+                - Electric cars are cheaper to run than petrol cars.
+                - Noise levels would fall.
+              answer: c
+              explain_vi: "Đề hỏi về cấm xe ở trung tâm, không hỏi so sánh xe điện và xe xăng."
+            - q: "Which thesis statement shows a clear EXTENT of agreement?"
+              options:
+                - "Cars are a problem in cities."
+                - "There are advantages and disadvantages."
+                - "I largely agree, provided that public transport is improved and disabled drivers are given exceptions."
+                - "This essay will talk about cars."
+              answer: c
+        - id: b79-x3
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "MUA THỜI GIAN TỰ NHIÊN. Chọn câu thay thế tốt nhất cho câu trả lời cụt trong Speaking."
+          questions:
+            - q: "Thay cho: 'I don't know.'"
+              options:
+                - "I don't know, sorry."
+                - "I've never really thought about it, but I'd imagine that…"
+                - "Next question, please."
+                - "Umm… umm… umm…"
+              answer: b
+            - q: "Thay cho: 'What?' (khi không nghe rõ câu hỏi)"
+              options:
+                - "What did you say?"
+                - "Could you repeat the question, please?"
+                - "Again."
+                - "I didn't listen."
+              answer: b
+            - q: "Thay cho im lặng 5 giây khi đang nghĩ"
+              options:
+                - "Let me think for a moment…"
+                - "(im lặng tiếp)"
+                - "I can't answer."
+                - "This question is too hard."
+              answer: a
+        - id: b79-x4
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe một đoạn thi Speaking Part 3 (giám khảo và thí sinh hai giọng). Thí sinh xử lý tình huống khó thế nào?"
+          audio_text: |-
+            Examiner: Do you think urbanisation has had a positive effect on family life?
+            Candidate: Sorry, could you explain what you mean by urbanisation?
+            Examiner: People moving from the countryside to cities.
+            Candidate: Ah, I see. Thank you. Well, I've never really thought about it in terms of family life, but I'd imagine it's had mixed effects. On the one hand, families in cities usually have better access to schools and hospitals. On the other hand, young people often move to the city alone, so grandparents are left in the village. Take my own family, for example. My parents moved to Hà Nội in the nineties, and we only see my grandparents at Tết.
+          questions:
+            - q: "What does the candidate do first?"
+              options:
+                - answers immediately
+                - asks for the meaning of a word
+                - says she doesn't know
+                - changes the topic
+              answer: b
+            - q: "How does she start her answer after understanding the question?"
+              options:
+                - "with a phrase that admits she hasn't thought about it, then gives an opinion"
+                - "with a memorised introduction"
+                - "with a question to the examiner"
+                - "with a long silence"
+              answer: a
+            - q: "What example does she give?"
+              options:
+                - her school
+                - her parents moving to Hà Nội
+                - a news report
+                - her neighbours
+              answer: b
+        - id: b79-x5
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe lời khuyên cho tuần trước khi thi (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "In the last week before your exam, don't try to learn long lists of new vocabulary. Your brain won't have time to make them part of your active language. Instead, do one practice test to stay in rhythm, read through your list of common mistakes, and speak English aloud for a few minutes every day. On the night before the test, stop studying early and get a good night's sleep. And on the day itself, arrive at least thirty minutes early with the correct identity document."
+          questions:
+            - q: The speaker recommends learning a lot of new words in the final week.
+              answer: F
+            - q: Doing one practice test helps you stay in rhythm.
+              answer: T
+            - q: You should study late on the night before the exam.
+              answer: F
+            - q: You should arrive at least thirty minutes early.
+              answer: T
+    - type: homework
+      kind: paragraph
+      prompt_vi: "KẾ HOẠCH NGÀY THI MỘT TRANG. Viết bằng tiếng Việt: (1) mốc giờ cho Listening, Reading, Writing; (2) việc làm khi lỡ câu Listening, khi quá mốc Reading, khi bí ý Task 2, khi không hiểu câu Speaking; (3) lịch 7 ngày trước thi. Sau đó viết một đoạn tiếng Anh mô tả kế hoạch của bạn cho phần thi bạn lo nhất."
+      prompt_en: "Describe your plan for the part of the IELTS test you feel most nervous about, including what you will do if something goes wrong."
+      words:
+        min: 100
+        max: 150
+      minutes: 25

@@ -3,6 +3,7 @@
  */
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import type { GameWord } from "@/domain/word-game";
 import { EN_STEPS, type EnContentSnapshot, type EnLesson, type EnSentence, type EnStepType, type EnWord, type Step } from "./en-types";
 
 let cache: EnContentSnapshot | undefined;
@@ -57,4 +58,17 @@ export function enSentencesFor(wordId: string): EnSentence[] {
 
 export function enLessonWords(lesson: EnLesson): EnWord[] {
   return (enStep(lesson, "vocabulary")?.items ?? []).map((id) => enWord(id)).filter((w): w is EnWord => !!w);
+}
+
+/** Every vocabulary word as a word-game item, under the lesson that first teaches it (later lessons only review). */
+export function enGameWords(): GameWord[] {
+  const seen = new Set<string>();
+  const out: GameWord[] = [];
+  for (const l of enLessons())
+    for (const w of enLessonWords(l)) {
+      if (seen.has(w.id)) continue;
+      seen.add(w.id);
+      out.push({ id: w.id, term: w.headword, reading: w.ipa?.uk ?? w.ipa?.us ?? null, meaning: w.meaning_vi.slice(0, 2).join("; "), definitionEn: w.definition_en ?? null, lesson: l.number, pos: w.pos });
+    }
+  return out;
 }

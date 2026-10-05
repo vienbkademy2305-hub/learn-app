@@ -1,0 +1,168 @@
+lesson:
+  slug: buoi-72-mock-speaking-1
+  number: 72
+  stage: 4
+  title_vi: "Mock Speaking 1 · Đủ 3 Part (11–14 phút) — người dạy bạn điều quan trọng"
+  focus:
+    grammar: Không học điểm mới — soát lỗi thì và -s/-ed khi nói
+    skill: "Speaking — mô phỏng phòng thi đủ 3 Part, ghi âm, tự chấm 4 tiêu chí (FC · LR · GRA · P)"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: speaking
+      title_vi: "Một bài thi Speaking hoàn chỉnh — ghi âm và tự chấm"
+      intro_vi: "Bài thi Speaking kéo dài 11–14 phút, gồm 3 phần liên tục: Part 1 (4–5 phút, câu hỏi về bản thân), Part 2 (1 phút chuẩn bị + 1–2 phút nói theo thẻ đề), Part 3 (4–5 phút, thảo luận sâu hơn về chủ đề của Part 2). Buổi 72–74 là ba lần Mock Speaking. Bạn tự đóng vai giám khảo bằng cách đọc to câu hỏi (hoặc bấm nghe), trả lời ngay, ghi âm toàn bộ, rồi nghe lại và chấm theo 4 tiêu chí."
+      steps:
+        - title_vi: Chuẩn bị như phòng thi
+          text_vi: "Đặt điện thoại ghi âm, bấm giờ. Không ghi sẵn câu trả lời. Part 2 chỉ được ghi chú trong 1 phút. Nói liên tục từ Part 1 đến Part 3, không dừng để sửa."
+        - title_vi: "Part 1: 2–3 câu cho mỗi câu hỏi"
+          text_vi: "Trả lời thẳng → thêm một lý do hoặc chi tiết → (tùy chọn) một ví dụ nhỏ. Khoảng 15–25 giây. Đừng trả lời một từ ('Yes.'), cũng đừng nói quá dài như Part 3."
+        - title_vi: "Part 2: dùng hết 2 phút"
+          text_vi: "Ghi chú 4 dòng theo các gạch đầu dòng trên thẻ, chỉ ghi từ khóa. Nói theo thứ tự các ý, rồi mở rộng phần 'explain' — đây là chỗ dễ nói dài nhất. Nếu giám khảo cắt lời ở phút thứ 2, đó là dấu hiệu tốt."
+        - title_vi: "Part 3: A-R-E-A (Answer – Reason – Example – Alternative)"
+          text_vi: "Câu hỏi trừu tượng, cần 30–45 giây. Trả lời thẳng → lý do → ví dụ (chung, không nhất thiết là chuyện cá nhân) → góc nhìn khác hoặc điều kiện ('However, in rural areas…')."
+        - title_vi: "Nghe lại và tự chấm 4 tiêu chí"
+          text_vi: "FC (độ trôi chảy và mạch lạc): có ngắt quãng dài, lặp 'um' nhiều không? LR (từ vựng): có lặp từ, có collocation tự nhiên không? GRA (ngữ pháp): thì quá khứ trong Part 2 đúng chưa, có câu phức không? P (phát âm): âm cuối -s/-ed, trọng âm từ, ngữ điệu. Ghi mỗi tiêu chí một con số và một lỗi cụ thể."
+      tips:
+        - "Không biết từ? Diễn đạt vòng: 'the thing you use to…', 'a kind of…'. Giám khảo chấm khả năng xử lý, không chấm việc bạn biết mọi từ."
+        - "Câu hỏi khó trong Part 3: dùng câu câu giờ tự nhiên ('That's an interesting question. I've never really thought about it, but…') rồi trả lời."
+        - "Ghi âm bằng điện thoại cách miệng khoảng 30 cm: nghe lại sẽ thấy rõ âm cuối bị nuốt."
+      traps:
+        - trap_vi: "Học thuộc câu trả lời mẫu rồi đọc lại — giám khảo nhận ra ngữ điệu 'đọc thuộc' và có thể hạ điểm FC."
+          fix_vi: "Chỉ học ý và cụm từ. Mỗi lần nói, diễn đạt lại theo cách khác."
+        - trap_vi: "Part 2 dùng sai thì: kể chuyện quá khứ bằng hiện tại đơn."
+          fix_vi: "Gạch chân động từ khi chép lại lời nói. Câu chuyện quá khứ → quá khứ đơn; trải nghiệm đến nay → hiện tại hoàn thành."
+        - trap_vi: "Nuốt âm cuối -s/-ed (lỗi người Việt rất hay gặp) khiến 'He teaches' nghe như 'He teach'."
+          fix_vi: "Khi nghe lại, chọn 5 câu và đếm âm cuối bị mất. Nói chậm lại một chút ở cuối từ."
+        - trap_vi: "Lặp danh từ ('my teacher… my teacher… my teacher') thay vì dùng đại từ (điểm nghẽn CC/LR của bạn)."
+          fix_vi: "Nhắc tên một lần, sau đó dùng 'she', 'this person', 'my mentor'."
+      phrases:
+        - en: "That's a tricky question, but I'd say…"
+          vi: "Câu hỏi khó đấy, nhưng tôi cho là…"
+          note_vi: "Câu giờ tự nhiên trong Part 3."
+        - en: "The person I'd like to talk about is…"
+          vi: "Người tôi muốn kể là…"
+        - en: "What I admire most about her is…"
+          vi: "Điều tôi ngưỡng mộ nhất ở cô ấy là…"
+        - en: "Looking back, I realise that…"
+          vi: "Nhìn lại, tôi nhận ra rằng…"
+          note_vi: "Mở phần 'explain' của Part 2."
+        - en: "It depends on the situation. For instance…"
+          vi: "Còn tùy tình huống. Ví dụ như…"
+    - type: exercises
+      items:
+        - id: b72-x1
+          bank_no: 29
+          kind: speaking-part1
+          instructions_vi: "PART 1 (4–5 phút). Bấm nghe hoặc đọc to từng câu, trả lời ngay 15–25 giây, ghi âm liên tục."
+          questions:
+            - q: Do you work or are you a student?
+            - q: What do you like most about your job or studies?
+            - q: Is there anything you would like to change about it?
+            - q: Let's talk about music. What kind of music do you listen to?
+            - q: Did you learn to play a musical instrument when you were a child?
+            - q: Do you prefer listening to music alone or with other people?
+          sample: "I work as an accountant at a logistics company. What I like most is that every day is slightly different, because we deal with clients from several countries. If I could change one thing, I'd reduce the number of meetings — some of them could easily be an email."
+        - id: b72-x2
+          bank_no: 30
+          kind: speaking-part2
+          instructions_vi: "PART 2. Chuẩn bị đúng 1 phút (ghi chú từ khóa), nói 2 phút không dừng. Ghi âm."
+          cue_card:
+            topic: Describe a person who taught you something important.
+            points:
+              - who this person is
+              - what he or she taught you
+              - how he or she taught it
+              - and explain why it was important to you
+          sample: "The person I'd like to talk about is my first manager, Ms Hoa, who I worked for after graduating. She taught me how to give and receive feedback, which I'd never really learned at university. At first, whenever she corrected my reports, I felt embarrassed and a bit defensive. But she had a very clear way of doing it: she always started with one thing I had done well, then pointed out one specific thing to improve, and finally asked me how I would fix it. Looking back, I realise that she never simply gave me the answer. She made me think. It was important to me because it changed how I see mistakes. Now, when someone criticises my work, I try to treat it as useful information rather than as a personal attack, and I use the same method when I help new colleagues."
+        - id: b72-x3
+          bank_no: 31
+          kind: speaking-part3
+          instructions_vi: "PART 3 (4–5 phút). Trả lời mỗi câu 30–45 giây theo A-R-E-A. Ghi âm."
+          questions:
+            - q: What qualities make a good teacher?
+            - q: Do you think people learn more from teachers or from their own experience?
+            - q: How has technology changed the way people learn new skills?
+            - q: Should employers be responsible for training their staff, or should employees train themselves?
+            - q: Is it ever too late to learn something new?
+          sample: "I'd say people learn more from their own experience, at least when it comes to practical skills. This is mainly because experience involves making mistakes, and mistakes tend to stay in our memory much longer than instructions. For example, most people only really learn how to manage money after they've run out of it once. However, a good teacher can save us a lot of time by helping us avoid the most costly mistakes, so ideally the two should work together."
+        - id: b72-x4
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe một thí sinh làm Part 1 và Part 3 (giám khảo và thí sinh hai giọng). Chọn đáp án đúng."
+          audio_text: |-
+            Examiner: Do you prefer listening to music alone or with other people?
+            Candidate: Alone, mostly. I usually listen on my way to work, so it helps me relax before a busy day. But I do enjoy concerts with friends now and then.
+            Examiner: Is it ever too late to learn something new?
+            Candidate: I don't think so, although it probably gets harder. Older people often have less free time and more responsibilities. For example, my father started learning English at fifty, and it took him longer than it took me. But he had one advantage: he was much more patient. So I'd say age changes how we learn, not whether we can learn.
+          questions:
+            - q: "When does the candidate usually listen to music?"
+              options:
+                - before going to bed
+                - on the way to work
+                - at concerts
+                - while studying
+              answer: b
+            - q: "Why, according to the candidate, does learning get harder with age?"
+              options:
+                - Older people have worse memories.
+                - Older people have less time and more responsibilities.
+                - Courses are too expensive.
+                - Teachers prefer younger students.
+              answer: b
+            - q: "What advantage did the candidate's father have?"
+              options:
+                - more free time
+                - better pronunciation
+                - more patience
+                - a good teacher
+              answer: c
+            - q: "Which part of the A-R-E-A structure is 'But he had one advantage…'?"
+              options:
+                - Answer
+                - Reason
+                - Example
+                - Alternative
+              answer: d
+              explain_vi: "Góc nhìn khác (Alternative) làm câu trả lời cân bằng và dài hơn tự nhiên."
+        - id: b72-x5
+          bank_no: 7
+          kind: error-correction
+          instructions_vi: "Đây là bản chép lời Part 2 của một thí sinh. Có 5 lỗi ngữ pháp hay gặp khi nói. Tìm và sửa."
+          text: "The person I want to talk about is my uncle. He teach me how to swim when I am eight. Every summer he take me to the river. He was very patient, he never shouted at me. Now I can swim very good."
+          errors:
+            - wrong: "He teach me"
+              right: "He taught me"
+              why: "Kể chuyện quá khứ → quá khứ đơn."
+            - wrong: "when I am eight"
+              right: "when I was eight"
+              why: "Mốc thời gian trong quá khứ."
+            - wrong: "he take me"
+              right: "he took me"
+              why: "Thói quen trong quá khứ → quá khứ đơn (hoặc 'used to take')."
+            - wrong: "patient, he never"
+              right: "patient, and he never"
+              why: "Dấu phẩy nối hai câu → thêm 'and' (khi nói không thấy dấu câu, nhưng chép ra để luyện thói quen câu đầy đủ)."
+            - wrong: "swim very good"
+              right: "swim very well"
+              why: "Bổ nghĩa cho động từ 'swim' → trạng từ well."
+        - id: b72-x6
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe một giám khảo cũ chia sẻ về cách chấm (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "Many candidates think they need to use rare, impressive words to get a high score. In fact, what examiners notice first is whether you can keep talking without long pauses, and whether your ideas are connected. Using a few less common words correctly is good, but forcing in idioms that don't fit the situation usually sounds unnatural. Pronunciation is not about having a British or American accent. It's about being easy to understand."
+          questions:
+            - q: Rare words are the first thing examiners notice.
+              answer: F
+              explain_vi: "Điều đầu tiên giám khảo để ý là độ trôi chảy và mạch lạc."
+            - q: Idioms that do not fit the situation can sound unnatural.
+              answer: T
+            - q: You need a British or American accent for a high pronunciation score.
+              answer: F
+            - q: Being easy to understand is important for pronunciation.
+              answer: T
+    - type: homework
+      kind: speaking
+      prompt_vi: "MOCK SPEAKING 1 — ghi âm TOÀN BỘ bài thi liên tục (Part 1 → Part 2 → Part 3) theo các câu hỏi trong phần Bài tập. Nghe lại một lần, chấm 4 tiêu chí (FC · LR · GRA · P) mỗi tiêu chí một con số, và chép lại lời nói của Part 2. Trong bản chép, gạch chân mọi động từ và kiểm tra thì, -s, -ed. Ghi 3 lỗi cụ thể vào nhật ký Speaking."
+      prompt_en: "Part 1: work/studies, music · Part 2: Describe a person who taught you something important · Part 3: teachers, learning from experience, technology and learning, workplace training, learning at an older age"
+      minutes: 30

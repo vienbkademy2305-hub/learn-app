@@ -3,6 +3,7 @@ entries:
   - id: live-with|phr-v
     headword: live with
     pos: phr-v
+    definition_en: "to share a home with someone"
     ipa: { uk: "/ˈlɪv wɪð/", us: "/ˈlɪv wɪð/" }
     cefr: null
     meaning_vi: [ sống cùng ]
@@ -10,12 +11,14 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: lazy|adj
     headword: lazy
     pos: adj
+    definition_en: "not wanting to work or make an effort"
     forms:
       comparative: lazier
       superlative: laziest
@@ -29,6 +32,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lazy, checked: 2026-09-30, field: cefr }
@@ -38,6 +42,7 @@ entries:
   - id: look-like|phr-v
     headword: look like
     pos: phr-v
+    definition_en: "to be similar in appearance to someone"
     ipa:
       uk: /lʊk laɪk/
       us: /lʊk laɪk/
@@ -53,6 +58,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -61,6 +67,7 @@ entries:
   - id: living-room|phr-n
     headword: living room
     pos: phr-n
+    definition_en: "the room where a family relaxes and watches TV"
     ipa:
       uk: /ˈlɪv.ɪŋ ˌruːm/
       us: /ˈlɪv.ɪŋ ˌruːm/
@@ -72,6 +79,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/living-room, checked: 2026-09-30, field: ipa.uk }
@@ -80,6 +88,7 @@ entries:
   - id: literature|n
     headword: literature
     pos: n
+    definition_en: "books, poems and plays studied as art"
     ipa:
       uk: /ˈlɪt.rə.tʃə/
       us: /ˈlɪt̬.ɚ.ə.tʃɚ/
@@ -92,6 +101,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/literature, checked: 2026-09-30, field: cefr }
@@ -101,6 +111,7 @@ entries:
   - id: luggage|n
     headword: luggage
     pos: n
+    definition_en: "bags and cases you take on a journey"
     ipa:
       uk: /ˈlʌɡ.ɪdʒ/
       us: /ˈlʌɡ.ɪdʒ/
@@ -113,6 +124,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/luggage, checked: 2026-09-30, field: ipa.uk }
@@ -121,6 +133,7 @@ entries:
   - id: last|det
     headword: last
     pos: det
+    definition_en: "the one before this one, e.g. the week before this"
     ipa:
       uk: /lɑːst/
       us: /læst/
@@ -137,6 +150,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/last_1, checked: 2026-09-30, field: cefr }
@@ -146,6 +160,7 @@ entries:
   - id: lose|v
     headword: lose
     pos: v
+    definition_en: "to be unable to find something; or to not win"
     forms:
       past: lost
       pp: lost
@@ -162,6 +177,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lose, checked: 2026-09-30, field: cefr }
@@ -171,6 +187,7 @@ entries:
   - id: leave|v
     headword: leave
     pos: v
+    definition_en: "to go away from a place"
     forms:
       past: left
       pp: left
@@ -188,6 +205,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leave, checked: 2026-09-30, field: cefr }
@@ -197,6 +215,7 @@ entries:
   - id: luckily|adv
     headword: luckily
     pos: adv
+    definition_en: "because of good luck"
     ipa:
       uk: /ˈlʌk.əl.i/
       us: /ˈlʌk.əl.i/
@@ -210,6 +229,7 @@ entries:
       - linking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -219,6 +239,7 @@ entries:
   - id: lonely|adj
     headword: lonely
     pos: adj
+    definition_en: "sad because you are alone"
     forms:
       comparative: lonelier
     ipa:
@@ -233,6 +254,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lonely, checked: 2026-09-30, field: cefr }
@@ -242,6 +264,7 @@ entries:
   - id: listen-to|phr-v
     headword: listen to
     pos: phr-v
+    definition_en: "to pay attention to sounds or someone speaking"
     ipa:
       uk: /ˈlɪs.ən tuː/
       us: /ˈlɪs.ən tuː/
@@ -255,6 +278,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -263,6 +287,7 @@ entries:
   - id: look-at|phr-v
     headword: look at
     pos: phr-v
+    definition_en: "to turn your eyes towards something"
     ipa:
       uk: /ˈlʊk æt/
       us: /ˈlʊk æt/
@@ -275,6 +300,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -283,6 +309,7 @@ entries:
   - id: look-for|phr-v
     headword: look for
     pos: phr-v
+    definition_en: "to try to find something"
     ipa:
       uk: /ˈlʊk fɔː/
       us: /ˈlʊk fɔːr/
@@ -295,6 +322,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -303,6 +331,7 @@ entries:
   - id: laugh-at|phr-v
     headword: laugh at
     pos: phr-v
+    definition_en: "to make fun of someone; to find something funny"
     ipa:
       uk: /ˈlɑːf æt/
       us: /ˈlæf æt/
@@ -316,6 +345,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -324,6 +354,7 @@ entries:
   - id: lend|v
     headword: lend
     pos: v
+    definition_en: "to let someone use something that they will return"
     forms:
       past: lent
       pp: lent
@@ -339,6 +370,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lend, checked: 2026-09-30, field: cefr }
@@ -348,6 +380,7 @@ entries:
   - id: language|n
     headword: language
     pos: n
+    definition_en: "the system of words people use to speak and write"
     ipa:
       uk: /ˈlæŋ.ɡwɪdʒ/
       us: /ˈlæŋ.ɡwɪdʒ/
@@ -363,6 +396,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/language, checked: 2026-09-30, field: cefr }
@@ -372,6 +406,7 @@ entries:
   - id: leather|n
     headword: leather
     pos: n
+    definition_en: "animal skin used to make shoes, bags and jackets"
     ipa:
       uk: /ˈleð.ə/
       us: /ˈleð.ɚ/
@@ -385,6 +420,7 @@ entries:
       - materials
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leather, checked: 2026-09-30, field: cefr }
@@ -394,6 +430,7 @@ entries:
   - id: leg|n
     headword: leg
     pos: n
+    definition_en: "the part of your body you stand and walk on"
     ipa:
       uk: /leɡ/
       us: /leɡ/
@@ -404,6 +441,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leg, checked: 2026-09-30, field: cefr }
@@ -413,6 +451,7 @@ entries:
   - id: loudly|adv
     headword: loudly
     pos: adv
+    definition_en: "making a lot of noise"
     ipa:
       uk: /ˈlaʊd.li/
       us: /ˈlaʊd.li/
@@ -424,6 +463,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loudly, checked: 2026-09-30, field: cefr }
@@ -433,6 +473,7 @@ entries:
   - id: laptop|n
     headword: laptop
     pos: n
+    definition_en: "a small computer that you can carry"
     ipa:
       uk: /ˈlæp.tɒp/
       us: /ˈlæp.tɑːp/
@@ -445,6 +486,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laptop, checked: 2026-09-30, field: cefr }
@@ -454,6 +496,7 @@ entries:
   - id: lecturer|n
     headword: lecturer
     pos: n
+    definition_en: "a teacher at a university"
     ipa:
       uk: /ˈlek.tʃər.ər/
       us: /ˈlek.tʃɚ.ɚ/
@@ -467,6 +510,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lecturer, checked: 2026-09-30, field: ipa.uk }
@@ -475,6 +519,7 @@ entries:
   - id: line-graph|phr-n
     headword: line graph
     pos: phr-n
+    definition_en: "a chart that shows changes over time with lines"
     ipa:
       uk: /ˈlaɪn ˌɡrɑːf/
       us: /ˈlaɪn ˌɡræf/
@@ -489,6 +534,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/line-graph, checked: 2026-09-30, field: ipa.uk }
@@ -497,6 +543,7 @@ entries:
   - id: law|n
     headword: law
     pos: n
+    definition_en: "the system of rules of a country"
     ipa:
       uk: /lɔː/
       us: /lɑː/
@@ -513,6 +560,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law, checked: 2026-09-30, field: cefr }
@@ -522,6 +570,7 @@ entries:
   - id: look-after|phr-v
     headword: look after
     pos: phr-v
+    definition_en: "to take care of someone or something"
     ipa:
       uk: /ˌlʊk ˈɑːf.tər/
       us: /ˌlʊk ˈæf.tɚ/
@@ -538,6 +587,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -546,6 +596,7 @@ entries:
   - id: landmark|n
     headword: landmark
     pos: n
+    definition_en: "a famous building or place that is easy to recognise"
     ipa:
       uk: /ˈlænd.mɑːk/
       us: /ˈlænd.mɑːrk/
@@ -559,6 +610,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/landmark, checked: 2026-09-30, field: cefr }
@@ -568,6 +620,7 @@ entries:
   - id: local-resident|phr-n
     headword: local resident
     pos: phr-n
+    definition_en: "a person who lives in a particular area"
     ipa:
       uk: /ˌləʊ.kəl ˈrez.ɪ.dənt/
       us: /ˌloʊ.kəl ˈrez.ə.dənt/
@@ -584,6 +637,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -592,6 +646,7 @@ entries:
   - id: lively|adj
     headword: lively
     pos: adj
+    definition_en: "full of activity and energy"
     ipa:
       uk: /ˈlaɪv.li/
       us: /ˈlaɪv.li/
@@ -608,6 +663,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lively, checked: 2026-09-30, field: cefr }
@@ -617,6 +673,7 @@ entries:
   - id: lifelong-learning|phr-n
     headword: lifelong learning
     pos: phr-n
+    definition_en: "continuing to study and gain skills throughout your life"
     ipa:
       uk: /ˌlaɪf.lɒŋ ˈlɜː.nɪŋ/
       us: /ˌlaɪf.lɑːŋ ˈlɝː.nɪŋ/
@@ -630,6 +687,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/lifelong-learning, checked: 2026-09-30, field: ipa.uk }
@@ -638,6 +696,7 @@ entries:
   - id: local-business|phr-n
     headword: local business
     pos: phr-n
+    definition_en: "a small company that serves people in its area"
     forms:
       plural: local businesses
     ipa:
@@ -653,6 +712,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -661,6 +721,7 @@ entries:
   - id: lead-to|phr-v
     headword: lead to
     pos: phr-v
+    definition_en: "to cause something to happen"
     forms:
       past: led to
       pp: led to
@@ -679,6 +740,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -687,6 +749,7 @@ entries:
   - id: long-term|adj
     headword: long-term
     pos: adj
+    definition_en: "lasting for a long time into the future"
     ipa:
       uk: /ˌlɒŋˈtɜːm/
       us: /ˌlɑːŋˈtɝːm/
@@ -702,6 +765,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/long-term, checked: 2026-09-30, field: cefr }
@@ -711,6 +775,7 @@ entries:
   - id: landfill|n
     headword: landfill
     pos: n
+    definition_en: "a place where rubbish is buried in the ground"
     ipa:
       uk: /ˈlænd.fɪl/
       us: /ˈlænd.fɪl/
@@ -724,6 +789,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/landfill, checked: 2026-09-30, field: ipa.uk }
@@ -732,6 +798,7 @@ entries:
   - id: layout|n
     headword: layout
     pos: n
+    definition_en: "the way things are arranged in a space"
     ipa:
       uk: /ˈleɪ.aʊt/
       us: /ˈleɪ.aʊt/
@@ -746,6 +813,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/layout, checked: 2026-09-30, field: cefr }
@@ -755,6 +823,7 @@ entries:
   - id: learner|n
     headword: learner
     pos: n
+    definition_en: "a person who is studying something"
     ipa:
       uk: /ˈlɜː.nər/
       us: /ˈlɝː.nɚ/
@@ -768,6 +837,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/learner, checked: 2026-09-30, field: ipa.uk }
@@ -776,6 +846,7 @@ entries:
   - id: law-enforcement|phr-n
     headword: law enforcement
     pos: phr-n
+    definition_en: "police and officials who make people obey laws"
     ipa:
       uk: /ˈlɔː ɪnˌfɔːs.mənt/
       us: /ˈlɑː ɪnˌfɔːrs.mənt/
@@ -790,6 +861,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -798,6 +870,7 @@ entries:
   - id: legal-system|phr-n
     headword: legal system
     pos: phr-n
+    definition_en: "the laws and courts of a country"
     ipa:
       uk: /ˌliː.ɡəl ˈsɪs.təm/
       us: /ˌliː.ɡəl ˈsɪs.təm/
@@ -812,6 +885,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -820,6 +894,7 @@ entries:
   - id: likely|adj
     headword: likely
     pos: adj
+    definition_en: "probably going to happen"
     ipa:
       uk: /ˈlaɪ.kli/
       us: /ˈlaɪ.kli/
@@ -836,6 +911,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/likely, checked: 2026-09-30, field: cefr }
@@ -845,6 +921,7 @@ entries:
   - id: life-expectancy|phr-n
     headword: life expectancy
     pos: phr-n
+    definition_en: "the average number of years people live"
     ipa:
       uk: /ˈlaɪf ɪkˌspek.tən.si/
       us: /ˈlaɪf ɪkˌspek.tən.si/
@@ -859,6 +936,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/life-expectancy, checked: 2026-09-30, field: ipa.uk }
@@ -867,6 +945,7 @@ entries:
   - id: look-forward-to|phr-v
     headword: look forward to
     pos: phr-v
+    definition_en: "to feel happy about something that will happen"
     ipa:
       uk: /ˌlʊk ˈfɔː.wəd tuː/
       us: /ˌlʊk ˈfɔːr.wɚd tuː/
@@ -882,6 +961,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -890,6 +970,7 @@ entries:
   - id: luxury-goods|phr-n
     headword: luxury goods
     pos: phr-n
+    definition_en: "expensive items that are not necessary"
     ipa:
       uk: /ˈlʌk.ʃər.i ˌɡʊdz/
       us: /ˈlʌk.ʃɚ.i ˌɡʊdz/
@@ -905,6 +986,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -913,6 +995,7 @@ entries:
   - id: loan|n
     headword: loan
     pos: n
+    definition_en: "money that you borrow"
     ipa:
       uk: /ləʊn/
       us: /loʊn/
@@ -927,6 +1010,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loan, checked: 2026-09-30, field: cefr }
@@ -936,6 +1020,7 @@ entries:
   - id: leisure|n
     headword: leisure
     pos: n
+    definition_en: "free time when you can relax"
     ipa:
       uk: /ˈleʒ.ər/
       us: /ˈliː.ʒɚ/
@@ -952,6 +1037,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/leisure, checked: 2026-09-30, field: cefr }
@@ -961,6 +1047,7 @@ entries:
   - id: look-back-on|phr-v
     headword: look back on
     pos: phr-v
+    definition_en: "to think about something in the past"
     ipa:
       uk: /ˌlʊk ˈbæk ɒn/
       us: /ˌlʊk ˈbæk ɑːn/
@@ -975,6 +1062,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -983,6 +1071,7 @@ entries:
   - id: launch|v
     headword: launch
     pos: v
+    definition_en: "to send a rocket into the sky; to start something new"
     ipa:
       uk: /lɔːntʃ/
       us: /lɑːntʃ/
@@ -996,6 +1085,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/launch, checked: 2026-09-30, field: cefr }
@@ -1005,6 +1095,7 @@ entries:
   - id: laboratory|n
     headword: laboratory
     pos: n
+    definition_en: "a room for scientific experiments"
     ipa:
       uk: /ləˈbɒr.ə.tər.i/
       us: /ˈlæb.rə.tɔːr.i/
@@ -1020,6 +1111,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/laboratory, checked: 2026-09-30, field: cefr }
@@ -1029,6 +1121,7 @@ entries:
   - id: legislation|n
     headword: legislation
     pos: n
+    definition_en: "laws passed by a parliament"
     ipa:
       uk: /ˌledʒ.ɪˈsleɪ.ʃən/
       us: /ˌledʒ.əˈsleɪ.ʃən/
@@ -1046,6 +1139,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1056,6 +1150,7 @@ entries:
   - id: loophole|n
     headword: loophole
     pos: n
+    definition_en: "a gap in a law that lets people avoid it"
     ipa:
       uk: /ˈluːp.həʊl/
       us: /ˈluːp.hoʊl/
@@ -1070,6 +1165,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/loophole, checked: 2026-09-30, field: ipa.uk }
@@ -1078,6 +1174,7 @@ entries:
   - id: law-abiding|adj
     headword: law-abiding
     pos: adj
+    definition_en: "obeying the law"
     ipa:
       uk: /ˈlɔː.əˌbaɪ.dɪŋ/
       us: /ˈlɑː.əˌbaɪ.dɪŋ/
@@ -1090,6 +1187,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/law-abiding, checked: 2026-09-30, field: ipa.uk }
@@ -1098,6 +1196,7 @@ entries:
   - id: lexical-resource|phr-n
     headword: lexical resource
     pos: phr-n
+    definition_en: "the range and accuracy of vocabulary (IELTS criterion)"
     ipa:
       uk: /ˌlek.sɪ.kəl rɪˈzɔːs/
       us: /ˌlek.sɪ.kəl ˈriː.sɔːrs/
@@ -1109,6 +1208,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

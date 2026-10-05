@@ -3,6 +3,7 @@ entries:
   - id: date-of-birth|phr-n
     headword: date of birth
     pos: phr-n
+    definition_en: "the day, month and year when you were born"
     ipa: { uk: "/ˌdeɪt əv ˈbɜːθ/", us: "/ˌdeɪt əv ˈbɝːθ/" }
     cefr: null
     meaning_vi: [ ngày sinh ]
@@ -10,12 +11,14 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: daughter|n
     headword: daughter
     pos: n
+    definition_en: "someone's female child"
     ipa: { uk: "/ˈdɔː.tə/", us: "/ˈdɑː.t̬ɚ/" }
     cefr: A1
     meaning_vi: [ con gái ]
@@ -23,6 +26,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/daughter, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/daughter, checked: 2026-09-30, field: ipa.uk }
@@ -31,6 +35,7 @@ entries:
   - id: date|n
     headword: date
     pos: n
+    definition_en: "a particular day of a month or year"
     ipa:
       uk: /deɪt/
       us: /deɪt/
@@ -43,6 +48,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/date, checked: 2026-09-30, field: cefr }
@@ -52,6 +58,7 @@ entries:
   - id: do-the-housework|colloc
     headword: do the housework
     pos: colloc
+    definition_en: "to do cleaning, washing and other jobs at home"
     ipa:
       uk: /duː ðə ˈhaʊs.wɜːk/
       us: /duː ðə ˈhaʊs.wɝːk/
@@ -65,6 +72,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -73,6 +81,7 @@ entries:
   - id: degree|n
     headword: degree
     pos: n
+    definition_en: "a unit for measuring heat; also a university qualification"
     ipa:
       uk: /dɪˈɡriː/
       us: /dɪˈɡriː/
@@ -92,6 +101,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/degree, checked: 2026-09-30, field: cefr }
@@ -101,6 +111,7 @@ entries:
   - id: different-from|colloc
     headword: different from
     pos: colloc
+    definition_en: "not the same as"
     ipa:
       uk: /ˈdɪf.ər.ənt frəm/
       us: /ˈdɪf.ɚ.ənt frəm/
@@ -113,6 +124,7 @@ entries:
       - comparison
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -121,6 +133,7 @@ entries:
   - id: diet|n
     headword: diet
     pos: n
+    definition_en: "the kind of food you usually eat"
     ipa:
       uk: /ˈdaɪ.ət/
       us: /ˈdaɪ.ət/
@@ -137,6 +150,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/diet, checked: 2026-09-30, field: cefr }
@@ -146,6 +160,7 @@ entries:
   - id: delicious|adj
     headword: delicious
     pos: adj
+    definition_en: "tasting very good"
     ipa:
       uk: /dɪˈlɪʃ.əs/
       us: /dɪˈlɪʃ.əs/
@@ -159,6 +174,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/delicious, checked: 2026-09-30, field: cefr }
@@ -168,6 +184,7 @@ entries:
   - id: discount|n
     headword: discount
     pos: n
+    definition_en: "an amount taken off the usual price"
     ipa:
       uk: /ˈdɪs.kaʊnt/
       us: /ˈdɪs.kaʊnt/
@@ -182,6 +199,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discount, checked: 2026-09-30, field: cefr }
@@ -191,6 +209,7 @@ entries:
   - id: driver|n
     headword: driver
     pos: n
+    definition_en: "a person who drives a vehicle"
     ipa:
       uk: /ˈdraɪ.və/
       us: /ˈdraɪ.vɚ/
@@ -203,6 +222,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/driver, checked: 2026-09-30, field: cefr }
@@ -212,6 +232,7 @@ entries:
   - id: decide|v
     headword: decide
     pos: v
+    definition_en: "to make a choice"
     forms:
       past: decided
     ipa:
@@ -226,6 +247,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decide, checked: 2026-09-30, field: cefr }
@@ -235,6 +257,7 @@ entries:
   - id: definitely|adv
     headword: definitely
     pos: adv
+    definition_en: "certainly; without doubt"
     ipa:
       uk: /ˈdef.ɪ.nət.li/
       us: /ˈdef.ən.ət.li/
@@ -246,6 +269,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -256,6 +280,7 @@ entries:
   - id: disappointed|adj
     headword: disappointed
     pos: adj
+    definition_en: "sad because something was not as good as you hoped"
     ipa:
       uk: /ˌdɪs.əˈpɔɪn.tɪd/
       us: /ˌdɪs.əˈpɔɪn.t̬ɪd/
@@ -269,6 +294,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disappointed, checked: 2026-09-30, field: cefr }
@@ -278,6 +304,7 @@ entries:
   - id: depend-on|phr-v
     headword: depend on
     pos: phr-v
+    definition_en: "to be decided by something else"
     ipa:
       uk: /dɪˈpend ɒn/
       us: /dɪˈpend ɑːn/
@@ -290,6 +317,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -298,6 +326,7 @@ entries:
   - id: discover|v
     headword: discover
     pos: v
+    definition_en: "to find something for the first time"
     ipa:
       uk: /dɪˈskʌv.ə/
       us: /dɪˈskʌv.ɚ/
@@ -309,6 +338,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discover, checked: 2026-09-30, field: cefr }
@@ -318,6 +348,7 @@ entries:
   - id: design|v
     headword: design
     pos: v
+    definition_en: "to plan how something will look and work"
     ipa:
       uk: /dɪˈzaɪn/
       us: /dɪˈzaɪn/
@@ -331,6 +362,7 @@ entries:
       - art
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/design_2, checked: 2026-09-30, field: cefr }
@@ -340,6 +372,7 @@ entries:
   - id: director|n
     headword: director
     pos: n
+    definition_en: "a person who manages a company; or who makes films"
     ipa:
       uk: /daɪˈrek.tə/
       us: /dəˈrek.tɚ/
@@ -355,6 +388,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/director, checked: 2026-09-30, field: cefr }
@@ -364,6 +398,7 @@ entries:
   - id: during|prep
     headword: during
     pos: prep
+    definition_en: "all through a period of time or event"
     ipa:
       uk: /ˈdʒʊə.rɪŋ/
       us: /ˈdʊr.ɪŋ/
@@ -376,6 +411,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/during, checked: 2026-09-30, field: cefr }
@@ -385,6 +421,7 @@ entries:
   - id: do-the-dishes|colloc
     headword: do the dishes
     pos: colloc
+    definition_en: "to wash plates, cups and pans after a meal"
     ipa:
       uk: /ˌduː ðə ˈdɪʃ.ɪz/
       us: /ˌduː ðə ˈdɪʃ.ɪz/
@@ -398,6 +435,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -406,6 +444,7 @@ entries:
   - id: do-your-best|colloc
     headword: do your best
     pos: colloc
+    definition_en: "to try as hard as you can"
     ipa:
       uk: /ˌduː jə ˈbest/
       us: /ˌduː jɚ ˈbest/
@@ -419,6 +458,7 @@ entries:
       - study
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -427,6 +467,7 @@ entries:
   - id: dog|n
     headword: dog
     pos: n
+    definition_en: "a pet animal that barks"
     ipa:
       uk: /dɒɡ/
       us: /dɑːɡ/
@@ -438,6 +479,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dog, checked: 2026-09-30, field: cefr }
@@ -447,6 +489,7 @@ entries:
   - id: dolphin|n
     headword: dolphin
     pos: n
+    definition_en: "a clever sea animal that looks like a large fish"
     ipa:
       uk: /ˈdɒl.fɪn/
       us: /ˈdɑːl.fɪn/
@@ -460,6 +503,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dolphin, checked: 2026-09-30, field: ipa.uk }
@@ -468,6 +512,7 @@ entries:
   - id: download|v
     headword: download
     pos: v
+    definition_en: "to copy a file from the internet onto your device"
     forms:
       past: downloaded
     ipa:
@@ -482,6 +527,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/download, checked: 2026-09-30, field: cefr }
@@ -491,6 +537,7 @@ entries:
   - id: disagree|v
     headword: disagree
     pos: v
+    definition_en: "to have a different opinion"
     ipa:
       uk: /ˌdɪs.əˈɡriː/
       us: /ˌdɪs.əˈɡriː/
@@ -509,6 +556,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disagree, checked: 2026-09-30, field: cefr }
@@ -518,6 +566,7 @@ entries:
   - id: drawback|n
     headword: drawback
     pos: n
+    definition_en: "a problem that makes something less attractive"
     ipa:
       uk: /ˈdrɔː.bæk/
       us: /ˈdrɑː.bæk/
@@ -535,6 +584,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/drawback, checked: 2026-09-30, field: ipa.uk }
@@ -543,6 +593,7 @@ entries:
   - id: develop|v
     headword: develop
     pos: v
+    definition_en: "to grow or make something grow stronger"
     ipa:
       uk: /dɪˈvel.əp/
       us: /dɪˈvel.əp/
@@ -561,6 +612,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/develop, checked: 2026-09-30, field: cefr }
@@ -570,6 +622,7 @@ entries:
   - id: deforestation|n
     headword: deforestation
     pos: n
+    definition_en: "cutting down large areas of trees"
     ipa:
       uk: /diːˌfɒr.ɪˈsteɪ.ʃən/
       us: /ˌdiːˌfɔːr.ɪˈsteɪ.ʃən/
@@ -584,6 +637,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deforestation, checked: 2026-09-30, field: ipa.uk }
@@ -592,6 +646,7 @@ entries:
   - id: device|n
     headword: device
     pos: n
+    definition_en: "a machine or tool, e.g. a phone or tablet"
     ipa:
       uk: /dɪˈvaɪs/
       us: /dɪˈvaɪs/
@@ -609,6 +664,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/device, checked: 2026-09-30, field: cefr }
@@ -618,6 +674,7 @@ entries:
   - id: digital-literacy|phr-n
     headword: digital literacy
     pos: phr-n
+    definition_en: "the ability to use computers and the internet well"
     ipa:
       uk: /ˌdɪdʒ.ɪ.təl ˈlɪt.ər.ə.si/
       us: /ˌdɪdʒ.ə.t̬əl ˈlɪt̬.ɚ.ə.si/
@@ -633,6 +690,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -641,6 +699,7 @@ entries:
   - id: data|n
     headword: data
     pos: n
+    definition_en: "facts and numbers, especially stored on computers"
     ipa:
       uk: /ˈdeɪ.tə/
       us: /ˈdeɪ.t̬ə/
@@ -657,6 +716,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/data, checked: 2026-09-30, field: cefr }
@@ -666,6 +726,7 @@ entries:
   - id: decrease|v
     headword: decrease
     pos: v
+    definition_en: "to become smaller in number or amount"
     ipa:
       uk: /dɪˈkriːs/
       us: /dɪˈkriːs/
@@ -682,6 +743,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/decrease, checked: 2026-09-30, field: cefr }
@@ -691,6 +753,7 @@ entries:
   - id: disadvantage|n
     headword: disadvantage
     pos: n
+    definition_en: "something that causes problems"
     ipa:
       uk: /ˌdɪs.ədˈvɑːn.tɪdʒ/
       us: /ˌdɪs.ədˈvæn.t̬ɪdʒ/
@@ -708,6 +771,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/disadvantage_2, checked: 2026-09-30, field: cefr }
@@ -717,6 +781,7 @@ entries:
   - id: deter|v
     headword: deter
     pos: v
+    definition_en: "to make someone decide not to do something"
     forms:
       past: deterred
       ing: deterring
@@ -737,6 +802,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deter, checked: 2026-09-30, field: ipa.uk }
@@ -745,6 +811,7 @@ entries:
   - id: discipline|n
     headword: discipline
     pos: n
+    definition_en: "training people to follow rules and control themselves"
     ipa:
       uk: /ˈdɪs.ə.plɪn/
       us: /ˈdɪs.ə.plɪn/
@@ -764,6 +831,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discipline, checked: 2026-09-30, field: cefr }
@@ -773,6 +841,7 @@ entries:
   - id: due-to|prep
     headword: due to
     pos: prep
+    definition_en: "because of"
     ipa:
       uk: /ˈdʒuː tuː/
       us: /ˈduː tuː/
@@ -789,6 +858,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -797,6 +867,7 @@ entries:
   - id: damage|v
     headword: damage
     pos: v
+    definition_en: "to harm or break something"
     ipa:
       uk: /ˈdæm.ɪdʒ/
       us: /ˈdæm.ɪdʒ/
@@ -814,6 +885,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/damage_2, checked: 2026-09-30, field: cefr }
@@ -823,6 +895,7 @@ entries:
   - id: destination|n
     headword: destination
     pos: n
+    definition_en: "the place where someone is going"
     ipa:
       uk: /ˌdes.tɪˈneɪ.ʃən/
       us: /ˌdes.təˈneɪ.ʃən/
@@ -837,6 +910,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -847,6 +921,7 @@ entries:
   - id: domestic|adj
     headword: domestic
     pos: adj
+    definition_en: "within one country"
     ipa:
       uk: /dəˈmes.tɪk/
       us: /dəˈmes.tɪk/
@@ -864,6 +939,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/domestic, checked: 2026-09-30, field: cefr }
@@ -873,6 +949,7 @@ entries:
   - id: double|v
     headword: double
     pos: v
+    definition_en: "to become twice as large"
     ipa:
       uk: /ˈdʌb.əl/
       us: /ˈdʌb.əl/
@@ -888,6 +965,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -897,6 +975,7 @@ entries:
   - id: district|n
     headword: district
     pos: n
+    definition_en: "an area of a city or country"
     ipa:
       uk: /ˈdɪs.trɪkt/
       us: /ˈdɪs.trɪkt/
@@ -914,6 +993,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/district, checked: 2026-09-30, field: cefr }
@@ -923,6 +1003,7 @@ entries:
   - id: despite|prep
     headword: despite
     pos: prep
+    definition_en: "without being stopped by (used before a noun)"
     ipa:
       uk: /dɪˈspaɪt/
       us: /dɪˈspaɪt/
@@ -937,6 +1018,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/despite, checked: 2026-09-30, field: cefr }
@@ -946,6 +1028,7 @@ entries:
   - id: diagram|n
     headword: diagram
     pos: n
+    definition_en: "a simple drawing that shows how something works"
     ipa:
       uk: /ˈdaɪ.ə.ɡræm/
       us: /ˈdaɪ.ə.ɡræm/
@@ -959,6 +1042,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/diagram_2, checked: 2026-09-30, field: cefr }
@@ -968,6 +1052,7 @@ entries:
   - id: deliver|v
     headword: deliver
     pos: v
+    definition_en: "to take goods to a person or place"
     ipa:
       uk: /dɪˈlɪv.ər/
       us: /dɪˈlɪv.ɚ/
@@ -983,6 +1068,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deliver, checked: 2026-09-30, field: cefr }
@@ -992,6 +1078,7 @@ entries:
   - id: demolish|v
     headword: demolish
     pos: v
+    definition_en: "to knock down a building"
     ipa:
       uk: /dɪˈmɒl.ɪʃ/
       us: /dɪˈmɑː.lɪʃ/
@@ -1009,6 +1096,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/demolish, checked: 2026-09-30, field: ipa.uk }
@@ -1017,6 +1105,7 @@ entries:
   - id: dramatic|adj
     headword: dramatic
     pos: adj
+    definition_en: "very great and sudden"
     ipa:
       uk: /drəˈmæt.ɪk/
       us: /drəˈmæt̬.ɪk/
@@ -1032,6 +1121,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dramatic, checked: 2026-09-30, field: cefr }
@@ -1041,6 +1131,7 @@ entries:
   - id: distance-learning|phr-n
     headword: distance learning
     pos: phr-n
+    definition_en: "studying from home using the internet or post"
     ipa:
       uk: /ˈdɪs.təns ˌlɜː.nɪŋ/
       us: /ˈdɪs.təns ˌlɝː.nɪŋ/
@@ -1054,6 +1145,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1062,6 +1154,7 @@ entries:
   - id: deadline|n
     headword: deadline
     pos: n
+    definition_en: "the time by which something must be finished"
     ipa:
       uk: /ˈded.laɪn/
       us: /ˈded.laɪn/
@@ -1077,6 +1170,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deadline, checked: 2026-09-30, field: cefr }
@@ -1086,6 +1180,7 @@ entries:
   - id: deterrent|n
     headword: deterrent
     pos: n
+    definition_en: "something that makes people afraid to do wrong"
     ipa:
       uk: /dɪˈter.ənt/
       us: /dɪˈtɝː.ənt/
@@ -1099,6 +1194,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deterrent, checked: 2026-09-30, field: ipa.uk }
@@ -1107,6 +1203,7 @@ entries:
   - id: death-penalty|phr-n
     headword: death penalty
     pos: phr-n
+    definition_en: "punishment by killing someone for a crime"
     ipa:
       uk: /ˈdeθ ˌpen.əl.ti/
       us: /ˈdeθ ˌpen.əl.t̬i/
@@ -1122,6 +1219,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1130,6 +1228,7 @@ entries:
   - id: deepfake|n
     headword: deepfake
     pos: n
+    definition_en: "a fake video or audio made with AI that looks real"
     ipa:
       uk: /ˈdiːp.feɪk/
       us: /ˈdiːp.feɪk/
@@ -1144,6 +1243,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/deepfake, checked: 2026-09-30, field: ipa.uk }
@@ -1152,6 +1252,7 @@ entries:
   - id: digital-divide|phr-n
     headword: digital divide
     pos: phr-n
+    definition_en: "the gap between people with and without technology access"
     ipa:
       uk: /ˌdɪdʒ.ɪ.təl dɪˈvaɪd/
       us: /ˌdɪdʒ.ə.t̬əl dɪˈvaɪd/
@@ -1166,6 +1267,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1175,6 +1277,7 @@ entries:
   - id: detrimental|adj
     headword: detrimental
     pos: adj
+    definition_en: "causing harm"
     ipa:
       uk: /ˌdet.rɪˈmen.təl/
       us: /ˌdet.rəˈmen.t̬əl/
@@ -1191,6 +1294,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1200,6 +1304,7 @@ entries:
   - id: dialect|n
     headword: dialect
     pos: n
+    definition_en: "a local form of a language"
     ipa:
       uk: /ˈdaɪ.ə.lekt/
       us: /ˈdaɪ.ə.lekt/
@@ -1214,6 +1319,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dialect, checked: 2026-09-30, field: ipa.uk }
@@ -1222,6 +1328,7 @@ entries:
   - id: descendant|n
     headword: descendant
     pos: n
+    definition_en: "a person related to someone who lived long ago"
     ipa:
       uk: /dɪˈsen.dənt/
       us: /dɪˈsen.dənt/
@@ -1239,6 +1346,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/descendant, checked: 2026-09-30, field: ipa.uk }
@@ -1247,6 +1355,7 @@ entries:
   - id: disposable-income|phr-n
     headword: disposable income
     pos: phr-n
+    definition_en: "money left after paying tax and basic costs"
     ipa:
       uk: /dɪˌspəʊ.zə.bəl ˈɪn.kʌm/
       us: /dɪˌspoʊ.zə.bəl ˈɪn.kʌm/
@@ -1260,6 +1369,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1268,6 +1378,7 @@ entries:
   - id: debt|n
     headword: debt
     pos: n
+    definition_en: "money that you owe"
     ipa:
       uk: /det/
       us: /det/
@@ -1285,6 +1396,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/debt, checked: 2026-09-30, field: cefr }
@@ -1294,6 +1406,7 @@ entries:
   - id: determination|n
     headword: determination
     pos: n
+    definition_en: "the quality of not giving up"
     ipa:
       uk: /dɪˌtɜː.mɪˈneɪ.ʃən/
       us: /dɪˌtɝː.məˈneɪ.ʃən/
@@ -1307,6 +1420,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1317,6 +1431,7 @@ entries:
   - id: dedication|n
     headword: dedication
     pos: n
+    definition_en: "hard work and commitment"
     ipa:
       uk: /ˌded.ɪˈkeɪ.ʃən/
       us: /ˌded.əˈkeɪ.ʃən/
@@ -1330,6 +1445,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1340,6 +1456,7 @@ entries:
   - id: dilemma|n
     headword: dilemma
     pos: n
+    definition_en: "a difficult choice between two options"
     ipa:
       uk: /dɪˈlem.ə/
       us: /dɪˈlem.ə/
@@ -1354,6 +1471,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/dilemma, checked: 2026-09-30, field: cefr }
@@ -1363,6 +1481,7 @@ entries:
   - id: discrimination|n
     headword: discrimination
     pos: n
+    definition_en: "treating people unfairly because of race, age or gender"
     ipa:
       uk: /dɪˌskrɪm.ɪˈneɪ.ʃən/
       us: /dɪˌskrɪm.əˈneɪ.ʃən/
@@ -1379,6 +1498,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/discrimination, checked: 2026-09-30, field: cefr }

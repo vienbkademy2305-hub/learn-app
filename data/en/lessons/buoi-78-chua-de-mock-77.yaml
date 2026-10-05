@@ -1,0 +1,247 @@
+# Buổi 78 — Chữa đề Mock 77 · Tìm bằng chứng, bài mẫu Writing, danh sách lỗi cần tránh ngày thi. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-78-chua-de-mock-77
+number: 78
+stage: 4
+title_vi: Chữa đề Mock 77 · Tìm bằng chứng, bài mẫu Writing, danh sách lỗi cần tránh ngày thi
+focus:
+  grammar: Không học điểm mới
+  skill: "Chữa đề chi tiết: truy câu bằng chứng cho từng câu sai, so bài viết với bài mẫu, nâng cấp câu trả lời Speaking; chốt danh sách lỗi ngày thi"
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: skill
+    skill: reading
+    title_vi: "Chữa đề đúng cách: không chỉ xem đáp án"
+    intro_vi: Xem đáp án rồi gật đầu 'à, ra vậy' là cách chữa đề kém hiệu quả nhất. Với mỗi câu sai trong Mock 77, bạn phải tìm được CÂU BẰNG CHỨNG trong bài đọc hoặc lời bài nghe, chỉ ra từ được paraphrase, và gọi tên nguyên nhân sai. Với Writing, so bài của bạn với bài mẫu theo từng tiêu chí. Kết quả cuối buổi là một danh sách ngắn — tối đa 10 dòng — những lỗi bạn KHÔNG ĐƯỢC mắc ngày thi.
+    steps:
+      - title_vi: "Listening/Reading: 4 cột cho mỗi câu sai"
+        text_vi: "Cột 1: số câu + dạng câu. Cột 2: câu bằng chứng (chép từ lời bài nghe/bài đọc). Cột 3: từ trong câu hỏi ↔ từ paraphrase trong bài (VD: 'unreinforced' ↔ 'without steel'). Cột 4: nguyên nhân (không nghe kịp · bẫy sửa · chính tả/-s · quá số từ · không nhận ra paraphrase · F/NG · nhầm chủ thể · hết giờ)."
+      - title_vi: Câu đúng nhờ đoán cũng phải chữa
+        text_vi: Đánh dấu câu bạn đoán (kể cả khi đúng) trong lúc làm. Câu đoán đúng là điểm 'may mắn' — ngày thi có thể không may như vậy.
+      - title_vi: "Writing: so với bài mẫu theo 4 tiêu chí"
+        text_vi: "Đặt bài của bạn cạnh bài mẫu Task 1 (trong phần Kỹ năng) và đoạn mẫu Task 2 (Bài tập 4). Với mỗi tiêu chí, tìm MỘT điều bài mẫu làm mà bài bạn chưa làm (VD: Overview có so sánh; mỗi đoạn có ví dụ cụ thể)."
+      - title_vi: "Speaking: nghe lại và nâng cấp một câu trả lời"
+        text_vi: Chọn câu trả lời Part 3 ngắn nhất trong bản ghi Mock 77. Viết lại theo A-R-E-A, nói lại và ghi âm. So sánh hai bản.
+      - title_vi: Danh sách lỗi ngày thi (tối đa 10 dòng)
+        text_vi: "Gộp nhật ký lỗi của mọi lần mock. Chỉ giữ lỗi đã xuất hiện ít nhất 2 lần. Viết mỗi lỗi thành một lời nhắc hành động: 'Đọc lại -s sau số đếm', 'Không có trong bài → NG', 'Task 1: viết Overview ngay sau mở bài'."
+    tips:
+      - Thời gian chữa đề nên gần bằng thời gian làm đề. Một đề Listening + Reading cần khoảng 60–90 phút chữa.
+      - Nếu không tìm được câu bằng chứng cho đáp án đúng, hãy đọc lại cả đoạn — paraphrase trong IELTS có thể trải dài 2–3 câu.
+      - Danh sách lỗi ngày thi phải đủ ngắn để đọc trong 1 phút trước khi vào phòng thi.
+    traps:
+      - trap_vi: Ghi nguyên nhân chung chung như 'không cẩn thận', 'từ vựng kém'.
+        fix_vi: "Ghi cụ thể: 'không biết unreinforced = không cốt thép', 'chọn F khi bài không nói'."
+      - trap_vi: Bỏ qua phần Writing vì 'không có đáp án'.
+        fix_vi: Dùng bài mẫu và 4 câu hỏi tự chấm ở Buổi 69. Writing là phần dễ tăng điểm nhất khi sửa đúng lỗi.
+    phrases:
+      - en: The evidence is in paragraph D, line 3.
+        vi: Bằng chứng nằm ở đoạn D, dòng 3.
+      - en: "'Unsettling' is a paraphrase of 'disturbing'."
+        vi: "'Unsettling' là cách diễn đạt khác của 'disturbing'."
+      - en: I chose False, but the passage doesn't mention it.
+        vi: Tôi chọn False, nhưng bài không đề cập điều đó.
+    demo:
+      title_vi: Bài mẫu Task 1 Mock 77 (biểu đồ cột phương tiện đi làm, khoảng band 7)
+      text_en: |-
+        The bar chart compares the proportion of people in one country who travelled to work by car, bus, bicycle and train in 2005 and 2025.
+
+        Overall, although the car remained the most common way to commute, its share fell considerably, as did that of the bus. In contrast, cycling and rail travel became more popular, with the bicycle showing the most dramatic growth.
+
+        In 2005, just over half of commuters (52%) drove to work, more than twice the proportion who took the bus (23%). Over the next twenty years, the figure for cars dropped by 11 percentage points to 41%, while bus use declined more modestly, to 19%.
+
+        Meanwhile, the percentage of people cycling to work rose from only 6% to 15%, an increase of two and a half times. Rail travel also grew, from 12% to 18%, so that by 2025 the train had overtaken the bus as the second most popular option. The share of other forms of transport remained unchanged at 7%.
+      notes:
+        - label: Overview
+          text_vi: "Hai nhóm xu hướng (giảm: ô tô, xe buýt / tăng: xe đạp, tàu) + đặc điểm nổi bật nhất (xe đạp tăng mạnh nhất)."
+        - label: Số liệu
+          text_vi: "'percentage points' khi nói chênh lệch giữa hai tỉ lệ phần trăm; 'two and a half times' để so sánh mức tăng."
+        - label: Điểm tinh tế
+          text_vi: "Chỉ ra một thay đổi thứ hạng: tàu vượt xe buýt — giám khảo đánh giá cao việc 'make comparisons where relevant'."
+  - type: exercises
+    items:
+      - id: b78-x1
+        bank_no: 10
+        kind: mcq
+        instructions_vi: TRUY BẰNG CHỨNG (Reading Mock 77). Chọn câu trong bài là bằng chứng cho đáp án.
+        questions:
+          - q: "Câu 1 (F): 'The Pantheon's dome contains steel reinforcement.' Bằng chứng là cụm nào?"
+            options:
+              - completed around 125 CE
+              - the largest unreinforced concrete dome in the world
+              - Many Roman structures have survived for two thousand years
+              - modern concrete … often begins to crack within decades
+            answer: b
+          - q: "Câu 7 (F): 'Self-repairing concrete is already used in most new buildings.' Từ nào cho thấy điều ngược lại?"
+            options:
+              - Some companies are now experimenting
+              - buildings might last longer
+              - carbon emissions
+              - Harbour concrete has a further secret
+            answer: a
+            explain_vi: "'experimenting' + 'If … could be produced' → mới thử nghiệm, chưa dùng phổ biến."
+          - q: "Câu 28 (Y): 'The writer finds the idea that memories change disturbing.' Từ nào trong bài là paraphrase của 'disturbing'?"
+            options:
+              - classic
+              - unsettling
+              - vivid
+              - persuasive
+            answer: b
+          - q: "Câu 30 (NG): 'Juries should not be allowed to hear eyewitness evidence.' Vì sao là NG, không phải N?"
+            options:
+              - Tác giả nói juries nên nghe nhân chứng.
+              - Tác giả nói về rủi ro của lời khai nhân chứng, nhưng không nêu quan điểm về việc cấm.
+              - Bài không nhắc đến juries.
+              - Tác giả đồng ý nên cấm.
+            answer: b
+      - id: b78-x2
+        bank_no: 10
+        kind: mcq
+        instructions_vi: PHÂN LOẠI NGUYÊN NHÂN. Mỗi tình huống là một câu sai thường gặp ở Mock 77. Chọn nguyên nhân đúng.
+        questions:
+          - q: "Câu 2 (Listening): ghi '9' thay vì '11'."
+            options:
+              - quá số từ
+              - bẫy sửa thông tin
+              - sai chính tả
+              - nhầm chủ thể
+            answer: b
+          - q: "Câu 16 (Listening): ghi 'map' thay vì 'maps'."
+            options:
+              - thiếu -s số nhiều
+              - không nghe kịp
+              - nhầm F/NG
+              - không nhận ra paraphrase
+            answer: a
+          - q: "Câu 25 (Reading): ghi 'warmer colour lights' cho chỗ trống 'KHÔNG QUÁ HAI TỪ'."
+            options:
+              - quá số từ
+              - nhầm chủ thể
+              - bẫy sửa thông tin
+              - hết giờ
+            answer: a
+          - q: "Câu 15 (Listening): chọn 'heavy rain' vì nghe thấy từ 'rain'."
+            options:
+              - chọn theo từ trùng, không theo nghĩa
+              - sai chính tả
+              - quá số từ
+              - không đọc câu hỏi
+            answer: a
+            explain_vi: "'We don't cancel for rain' — từ 'rain' xuất hiện nhưng mang nghĩa phủ định."
+      - id: b78-x3
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: Đoạn thân bài Task 2 Mock 77 (học phí đại học) ở mức band 5.5. Có 5 lỗi. Tìm và sửa.
+        text: Firstly, free education give everyone a equal chance. For example in my country many talented student from countryside cannot pay the fee. If university is free, they can study and contribute to economic.
+        errors:
+          - wrong: education give
+            right: education gives
+            why: Chủ ngữ không đếm được 'education' → động từ số ít.
+          - wrong: a equal chance
+            right: an equal chance
+            why: "'equal' bắt đầu bằng nguyên âm → an."
+          - wrong: For example in my country
+            right: For example, in my country
+            why: Dấu phẩy sau 'For example'.
+          - wrong: talented student from
+            right: talented students from
+            why: "'many' + danh từ số nhiều."
+          - wrong: contribute to economic
+            right: contribute to the economy
+            why: "Sau giới từ cần DANH TỪ: economy (economic là tính từ)."
+      - id: b78-x4
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "SO VỚI BÀI MẪU. Đoạn mẫu Task 2: 'Those who favour free tuition argue that it widens access to higher education. In many countries, talented students from rural or low-income families are discouraged by the prospect of large debts, and the economy loses their potential contribution.' Chọn đáp án đúng."
+        questions:
+          - q: So với đoạn band 5.5 ở Bài 3, đoạn mẫu tốt hơn chủ yếu vì
+            options:
+              - nó dài hơn.
+              - nó trình bày quan điểm khách quan ('Those who favour…') với từ vựng chính xác hơn và không có lỗi.
+              - nó có nhiều thành ngữ hơn.
+              - nó dùng 'I' nhiều hơn.
+            answer: b
+          - q: Cụm nào trong đoạn mẫu là paraphrase của 'cannot pay the fee'?
+            options:
+              - widens access
+              - are discouraged by the prospect of large debts
+              - potential contribution
+              - higher education
+            answer: b
+      - id: b78-x5
+        bank_no: 10
+        kind: mcq
+        instructions_vi: "NÂNG CẤP SPEAKING. Câu hỏi Part 3: 'Should governments spend public money on festivals?' Chọn câu trả lời tốt nhất và nhận diện vì sao."
+        questions:
+          - q: Which answer would get the highest score?
+            options:
+              - Yes, because festivals are good.
+              - Yes. Festivals is very important for culture and people like it very much and it is fun.
+              - To some extent, yes. Festivals help keep traditions alive and bring in tourism income, which benefits local businesses. Take the Huế Festival, for instance. But I think the money should be balanced against basic needs like hospitals, so smaller towns might need help from sponsors instead.
+              - I don't know about this topic, sorry.
+            answer: c
+          - q: What does the best answer include that the others don't?
+            options:
+              - a reason, an example and an alternative view
+              - more idioms
+              - a personal story about childhood
+              - very long words
+            answer: a
+      - id: b78-x6
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe một học viên trao đổi với giáo viên về kết quả Mock 77 (hai giọng). Chọn đáp án đúng.
+        audio_text: |-
+          Teacher: So, your overall band in Mock 77 was six point five. Congratulations.
+          Student: Thank you! But my Reading was lower than in the earlier mocks.
+          Teacher: Yes, you got twenty-four. What happened?
+          Student: I ran out of time in Passage 3. I left four questions blank.
+          Teacher: That's the main issue, then. Never leave a blank. A guess has at least some chance.
+          Student: True. I also got two Not Given questions wrong again.
+          Teacher: And your Writing?
+          Student: I think Task 2 was better. I finally wrote a clear opinion. But Task 1 was only a hundred and forty words.
+          Teacher: So two things for your list: manage time in Reading, and check the word count in Task 1.
+        questions:
+          - q: What was the student's overall band?
+            options:
+              - "6.0"
+              - "6.5"
+              - "7.0"
+              - "5.5"
+            answer: b
+          - q: Why was the student's Reading score lower?
+            options:
+              - The passages were harder.
+              - The student ran out of time and left questions blank.
+              - The student misread the instructions.
+              - The student did Passage 3 first.
+            answer: b
+          - q: What problem did the student have in Task 1?
+            options:
+              - no overview
+              - too few words
+              - wrong figures
+              - informal language
+            answer: b
+      - id: b78-x7
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe lời khuyên về việc chữa đề (độc thoại). Chọn Đúng (T) hoặc Sai (F).
+        audio_text: When you review a mock test, look at the questions you got right by guessing as carefully as the ones you got wrong. Find the exact sentence that gives the answer. And make your final list of mistakes short. A list of thirty problems is not useful on the morning of the exam; five to ten clear reminders are.
+        questions:
+          - q: You only need to review questions you got wrong.
+            answer: F
+          - q: You should find the exact sentence that contains the answer.
+            answer: T
+          - q: A long list of thirty problems is the most useful.
+            answer: F
+          - q: Five to ten clear reminders are recommended.
+            answer: T
+  - type: homework
+    kind: paragraph
+    prompt_vi: DANH SÁCH LỖI NGÀY THI. (1) Hoàn thành bảng 4 cột cho mọi câu sai Listening/Reading của Mock 77. (2) Gộp với nhật ký các lần mock trước, viết danh sách TỐI ĐA 10 lời nhắc hành động (tiếng Việt). (3) Viết một đoạn tiếng Anh giới thiệu 3 lời nhắc quan trọng nhất và vì sao. Giữ danh sách này để đọc lại trước Buổi 80 và trước ngày thi.
+    prompt_en: Write about the three most important reminders on your exam-day list and explain why each one matters for your score.
+    words:
+      min: 120
+      max: 160
+    minutes: 30

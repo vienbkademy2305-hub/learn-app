@@ -3,6 +3,7 @@ entries:
   - id: quarter|n
     headword: quarter
     pos: n
+    definition_en: "fifteen minutes; one of four equal parts"
     ipa:
       uk: /ˈkwɔː.tə/
       us: /ˈkwɔːr.t̬ɚ/
@@ -19,6 +20,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quarter, checked: 2026-09-30, field: cefr }
@@ -28,6 +30,7 @@ entries:
   - id: quickly|adv
     headword: quickly
     pos: adv
+    definition_en: "at a fast speed"
     ipa:
       uk: /ˈkwɪk.li/
       us: /ˈkwɪk.li/
@@ -40,6 +43,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quickly, checked: 2026-09-30, field: cefr }
@@ -49,6 +53,7 @@ entries:
   - id: quietly|adv
     headword: quietly
     pos: adv
+    definition_en: "making very little noise"
     ipa:
       uk: /ˈkwaɪ.ət.li/
       us: /ˈkwaɪ.ət.li/
@@ -62,6 +67,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quietly, checked: 2026-09-30, field: cefr }
@@ -71,6 +77,7 @@ entries:
   - id: qualification|n
     headword: qualification
     pos: n
+    definition_en: "an official record that you have passed a course"
     ipa:
       uk: /ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/
       us: /ˌkwɑː.lɪ.fɪˈkeɪ.ʃən/
@@ -89,6 +96,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/qualification, checked: 2026-09-30, field: cefr }
@@ -98,6 +106,7 @@ entries:
   - id: quality-of-life|phr-n
     headword: quality of life
     pos: phr-n
+    definition_en: "how good and comfortable a person's life is"
     ipa:
       uk: /ˌkwɒl.ə.ti əv ˈlaɪf/
       us: /ˌkwɑː.lə.t̬i əv ˈlaɪf/
@@ -112,6 +121,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quality-of-life, checked: 2026-09-30, field: ipa.uk }
@@ -120,6 +130,7 @@ entries:
   - id: quite|adv
     headword: quite
     pos: adv
+    definition_en: "to some degree; rather"
     ipa:
       uk: /kwaɪt/
       us: /kwaɪt/
@@ -135,6 +146,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/quite, checked: 2026-09-30, field: cefr }

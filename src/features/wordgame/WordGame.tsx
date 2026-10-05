@@ -36,6 +36,8 @@ export interface WordGameProps {
   speak: (text: string, slow?: boolean) => void;
   canListen: boolean;
   lessonLabel: string;
+  /** Inside a lesson (F4): only that lesson's words, no lesson picker. */
+  lockLesson?: number;
 }
 
 type Question = { id: string; kind: Kind; options: GameWord[]; review: boolean; level: number };
@@ -45,7 +47,7 @@ const rng = Math.random;
 const btn = "rounded-xl px-5 py-3 font-semibold";
 
 export function WordGame(props: WordGameProps) {
-  const { lang, words, lessons, studied, gp, update, speak, canListen, lessonLabel } = props;
+  const { lang, words, lessons, studied, gp, update, speak, canListen, lessonLabel, lockLesson } = props;
   const [scope, setScope] = useState<number | "studied" | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [question, setQuestion] = useState<Question | null>(null);
@@ -54,9 +56,10 @@ export function WordGame(props: WordGameProps) {
 
   useEffect(() => {
     if (scope !== null) return;
+    if (lockLesson !== undefined) return setScope(lockLesson);
     const q = Number(new URLSearchParams(window.location.search).get("lesson"));
     setScope(q ? q : studied.size ? "studied" : (lessons[0]?.number ?? 1));
-  }, [scope, studied, lessons]);
+  }, [scope, studied, lessons, lockLesson]);
   useEffect(() => setSession(null), [scope]);
 
   const inScope = words.filter((w) => (scope === "studied" ? studied.has(w.lesson) : w.lesson === scope));
@@ -108,12 +111,14 @@ export function WordGame(props: WordGameProps) {
     <div className="space-y-5">
       {!session && (
         <>
-          <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))} className={chip}>
-            <option value="studied" disabled={studied.size === 0}>Các {lessonLabel.toLowerCase()} đã học ({studied.size})</option>
-            {lessons.map((l) => (
-              <option key={l.number} value={l.number}>{lessonLabel} {l.number}: {l.title}</option>
-            ))}
-          </select>
+          {lockLesson === undefined && (
+            <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))} className={chip}>
+              <option value="studied" disabled={studied.size === 0}>Các {lessonLabel.toLowerCase()} đã học ({studied.size})</option>
+              {lessons.map((l) => (
+                <option key={l.number} value={l.number}>{lessonLabel} {l.number}: {l.title}</option>
+              ))}
+            </select>
+          )}
           <div className="grid grid-cols-2 gap-2 text-center text-xs sm:grid-cols-5">
             <Stat n={stats.passed} label="Đã thuộc" tone="text-jade-700" />
             <Stat n={stats.learning} label="Đang học" tone="text-sky-700" />
@@ -131,7 +136,7 @@ export function WordGame(props: WordGameProps) {
                 <button type="button" onClick={() => start()} className={`${btn} mt-4 bg-sky-700 text-white hover:bg-sky-800`}>Bắt đầu</button>
               </>
             ) : (
-              <p className="text-stone-700">Đã thuộc hết từ trong phạm vi này và chưa đến hạn ôn. Chọn buổi khác hoặc quay lại sau nhé!</p>
+              <p className="text-stone-700">Đã thuộc hết từ trong phạm vi này và chưa đến hạn ôn. {lockLesson === undefined ? "Chọn buổi khác hoặc quay lại sau nhé!" : "Quay lại sau để ôn nhé!"}</p>
             )}
             {hardWords.length > 0 && (
               <button type="button" onClick={() => start(true)} className={`${btn} ml-2 mt-4 bg-red-50 text-red-800 ring-1 ring-inset ring-red-200 hover:bg-red-100`}>

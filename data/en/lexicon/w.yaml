@@ -3,6 +3,7 @@ entries:
   - id: wife|n
     headword: wife
     pos: n
+    definition_en: "the woman that a man is married to"
     ipa: { uk: "/waɪf/", us: "/waɪf/" }
     cefr: A1
     meaning_vi: [ vợ ]
@@ -10,6 +11,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wife, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wife, checked: 2026-09-30, field: ipa.uk }
@@ -18,6 +20,7 @@ entries:
   - id: work-as|phr-v
     headword: work as
     pos: phr-v
+    definition_en: "to have a particular job"
     ipa: { uk: "/ˈwɜːk æz/", us: "/ˈwɝːk æz/" }
     cefr: null
     meaning_vi: [ làm nghề ]
@@ -26,12 +29,14 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: wardrobe|n
     headword: wardrobe
     pos: n
+    definition_en: "a tall cupboard where you hang clothes"
     ipa:
       uk: /ˈwɔː.drəʊb/
       us: /ˈwɔːr.droʊb/
@@ -44,6 +49,7 @@ entries:
       - furniture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wardrobe, checked: 2026-09-30, field: ipa.uk }
@@ -52,6 +58,7 @@ entries:
   - id: week|n
     headword: week
     pos: n
+    definition_en: "a period of seven days"
     ipa:
       uk: /wiːk/
       us: /wiːk/
@@ -66,6 +73,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/week, checked: 2026-09-30, field: cefr }
@@ -75,6 +83,7 @@ entries:
   - id: weekend|n
     headword: weekend
     pos: n
+    definition_en: "Saturday and Sunday"
     ipa:
       uk: /ˌwiːkˈend/
       us: /ˈwiːk.end/
@@ -87,6 +96,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weekend, checked: 2026-09-30, field: cefr }
@@ -96,6 +106,7 @@ entries:
   - id: wake-up|phr-v
     headword: wake up
     pos: phr-v
+    definition_en: "to stop sleeping"
     forms:
       past: woke up
     ipa:
@@ -110,6 +121,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -119,6 +131,7 @@ entries:
   - id: watch|v
     headword: watch
     pos: v
+    definition_en: "to look at something, e.g. TV or a film, for a time"
     forms:
       3sg: watches
     ipa:
@@ -137,6 +150,7 @@ entries:
       - free-time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/watch, checked: 2026-09-30, field: cefr }
@@ -146,6 +160,7 @@ entries:
   - id: weather|n
     headword: weather
     pos: n
+    definition_en: "conditions such as sun, rain and wind"
     ipa:
       uk: /ˈweð.ə/
       us: /ˈweð.ɚ/
@@ -158,6 +173,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/weather, checked: 2026-09-30, field: cefr }
@@ -167,6 +183,7 @@ entries:
   - id: windy|adj
     headword: windy
     pos: adj
+    definition_en: "with a lot of moving air"
     ipa:
       uk: /ˈwɪn.di/
       us: /ˈwɪn.di/
@@ -178,6 +195,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/windy, checked: 2026-09-30, field: ipa.uk }
@@ -186,6 +204,7 @@ entries:
   - id: winter|n
     headword: winter
     pos: n
+    definition_en: "the coldest season of the year"
     ipa:
       uk: /ˈwɪn.tə/
       us: /ˈwɪn.t̬ɚ/
@@ -198,6 +217,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/winter, checked: 2026-09-30, field: cefr }
@@ -207,6 +227,7 @@ entries:
   - id: worried-about|colloc
     headword: worried about
     pos: colloc
+    definition_en: "thinking about a problem and feeling anxious"
     ipa:
       uk: /ˈwʌr.id əˌbaʊt/
       us: /ˈwɝː.id əˌbaʊt/
@@ -217,6 +238,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -225,6 +247,7 @@ entries:
   - id: wallet|n
     headword: wallet
     pos: n
+    definition_en: "a small flat case for money and cards"
     ipa:
       uk: /ˈwɒl.ɪt/
       us: /ˈwɑː.lɪt/
@@ -235,6 +258,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wallet, checked: 2026-09-30, field: ipa.uk }
@@ -243,6 +267,7 @@ entries:
   - id: while|conj
     headword: while
     pos: conj
+    definition_en: "during the time that"
     ipa:
       uk: /waɪl/
       us: /waɪl/
@@ -256,6 +281,7 @@ entries:
       - linking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/while, checked: 2026-09-30, field: cefr }
@@ -265,6 +291,7 @@ entries:
   - id: wait-for|phr-v
     headword: wait for
     pos: phr-v
+    definition_en: "to stay until someone arrives or something happens"
     ipa:
       uk: /ˈweɪt fɔː/
       us: /ˈweɪt fɔːr/
@@ -278,6 +305,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -286,6 +314,7 @@ entries:
   - id: wood|n
     headword: wood
     pos: n
+    definition_en: "the hard material that trees are made of"
     ipa:
       uk: /wʊd/
       us: /wʊd/
@@ -298,6 +327,7 @@ entries:
       - industry
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wood, checked: 2026-09-30, field: cefr }
@@ -307,6 +337,7 @@ entries:
   - id: wide|adj
     headword: wide
     pos: adj
+    definition_en: "measuring a large distance from side to side"
     forms:
       comparative: wider
     ipa:
@@ -319,6 +350,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wide, checked: 2026-09-30, field: cefr }
@@ -328,6 +360,7 @@ entries:
   - id: west|n
     headword: west
     pos: n
+    definition_en: "the direction where the sun sets"
     ipa:
       uk: /west/
       us: /west/
@@ -340,6 +373,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/west, checked: 2026-09-30, field: cefr }
@@ -349,6 +383,7 @@ entries:
   - id: win|v
     headword: win
     pos: v
+    definition_en: "to be first or best in a game"
     forms:
       past: won
       pp: won
@@ -365,6 +400,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/win, checked: 2026-09-30, field: cefr }
@@ -374,6 +410,7 @@ entries:
   - id: well|adv
     headword: well
     pos: adv
+    definition_en: "in a good way"
     forms:
       comparative: better
       superlative: best
@@ -390,6 +427,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/well, checked: 2026-09-30, field: cefr }
@@ -399,6 +437,7 @@ entries:
   - id: website|n
     headword: website
     pos: n
+    definition_en: "a set of pages you visit online"
     ipa:
       uk: /ˈweb.saɪt/
       us: /ˈweb.saɪt/
@@ -412,6 +451,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/website, checked: 2026-09-30, field: cefr }
@@ -421,6 +461,7 @@ entries:
   - id: waste|n
     headword: waste
     pos: n
+    definition_en: "things that are thrown away because they are not needed"
     ipa:
       uk: /weɪst/
       us: /weɪst/
@@ -439,6 +480,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/waste, checked: 2026-09-30, field: cefr }
@@ -448,6 +490,7 @@ entries:
   - id: would-rather|colloc
     headword: would rather
     pos: colloc
+    definition_en: "used to say what you want to do more"
     ipa:
       uk: /wʊd ˈrɑː.ðər/
       us: /wʊd ˈræð.ɚ/
@@ -465,6 +508,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -473,6 +517,7 @@ entries:
   - id: work-out|phr-v
     headword: work out
     pos: phr-v
+    definition_en: "to do physical exercise to get stronger"
     ipa:
       uk: /ˌwɜːk ˈaʊt/
       us: /ˌwɝːk ˈaʊt/
@@ -489,6 +534,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/work_out, checked: 2026-09-30, field: ipa.uk }
@@ -497,6 +543,7 @@ entries:
   - id: witness|n
     headword: witness
     pos: n
+    definition_en: "a person who sees a crime or accident happen"
     ipa:
       uk: /ˈwɪt.nəs/
       us: /ˈwɪt.nəs/
@@ -510,6 +557,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/witness, checked: 2026-09-30, field: cefr }
@@ -519,6 +567,7 @@ entries:
   - id: work-life-balance|phr-n
     headword: work-life balance
     pos: phr-n
+    definition_en: "dividing time well between your job and personal life"
     ipa:
       uk: /ˌwɜːk ˈlaɪf ˌbæl.əns/
       us: /ˌwɝːk ˈlaɪf ˌbæl.əns/
@@ -533,6 +582,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -541,6 +591,7 @@ entries:
   - id: whereas|conj
     headword: whereas
     pos: conj
+    definition_en: "while; used to compare two different facts"
     ipa:
       uk: /weərˈæz/
       us: /werˈæz/
@@ -556,6 +607,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/whereas, checked: 2026-09-30, field: cefr }
@@ -565,6 +617,7 @@ entries:
   - id: walking-distance|phr-n
     headword: walking distance
     pos: phr-n
+    definition_en: "near enough to reach by walking"
     ipa:
       uk: /ˈwɔː.kɪŋ ˌdɪs.təns/
       us: /ˈwɑː.kɪŋ ˌdɪs.təns/
@@ -580,6 +633,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -588,6 +642,7 @@ entries:
   - id: wage|n
     headword: wage
     pos: n
+    definition_en: "money paid for work, usually per hour or week"
     ipa:
       uk: /weɪdʒ/
       us: /weɪdʒ/
@@ -605,6 +660,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wage, checked: 2026-09-30, field: cefr }
@@ -614,6 +670,7 @@ entries:
   - id: work-from-home|phr-v
     headword: work from home
     pos: phr-v
+    definition_en: "to do your job at your house instead of an office"
     ipa:
       uk: /ˌwɜːk frəm ˈhəʊm/
       us: /ˌwɝːk frəm ˈhoʊm/
@@ -629,6 +686,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -637,6 +695,7 @@ entries:
   - id: workplace|n
     headword: workplace
     pos: n
+    definition_en: "the place where you do your job"
     ipa:
       uk: /ˈwɜːk.pleɪs/
       us: /ˈwɝːk.pleɪs/
@@ -650,6 +709,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workplace, checked: 2026-09-30, field: cefr }
@@ -659,6 +719,7 @@ entries:
   - id: workforce|n
     headword: workforce
     pos: n
+    definition_en: "all the people who work in a country or company"
     ipa:
       uk: /ˈwɜːk.fɔːs/
       us: /ˈwɝːk.fɔːrs/
@@ -673,6 +734,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workforce, checked: 2026-09-30, field: cefr }
@@ -682,6 +744,7 @@ entries:
   - id: wealthy|adj
     headword: wealthy
     pos: adj
+    definition_en: "having a lot of money"
     ipa:
       uk: /ˈwel.θi/
       us: /ˈwel.θi/
@@ -697,6 +760,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/wealthy, checked: 2026-09-30, field: cefr }
@@ -706,6 +770,7 @@ entries:
   - id: welfare|n
     headword: welfare
     pos: n
+    definition_en: "help given by the state to people in need"
     ipa:
       uk: /ˈwel.feər/
       us: /ˈwel.fer/
@@ -721,6 +786,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/welfare, checked: 2026-09-30, field: cefr }
@@ -730,6 +796,7 @@ entries:
   - id: woodland|n
     headword: woodland
     pos: n
+    definition_en: "land covered with trees"
     ipa:
       uk: /ˈwʊd.lənd/
       us: /ˈwʊd.lənd/
@@ -744,6 +811,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/woodland, checked: 2026-09-30, field: ipa.uk }
@@ -752,6 +820,7 @@ entries:
   - id: well-rounded|adj
     headword: well-rounded
     pos: adj
+    definition_en: "having many different skills and interests"
     ipa:
       uk: /ˌwelˈraʊn.dɪd/
       us: /ˌwelˈraʊn.dɪd/
@@ -765,6 +834,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/well-rounded, checked: 2026-09-30, field: ipa.uk }
@@ -773,6 +843,7 @@ entries:
   - id: workload|n
     headword: workload
     pos: n
+    definition_en: "the amount of work you have to do"
     ipa:
       uk: /ˈwɜːk.ləʊd/
       us: /ˈwɝːk.loʊd/
@@ -790,6 +861,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/workload, checked: 2026-09-30, field: ipa.uk }
@@ -798,6 +870,7 @@ entries:
   - id: well-being|n
     headword: well-being
     pos: n
+    definition_en: "feeling healthy and happy"
     ipa:
       uk: /ˌwelˈbiː.ɪŋ/
       us: /ˌwelˈbiː.ɪŋ/
@@ -811,6 +884,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/well-being, checked: 2026-09-30, field: cefr }
@@ -820,6 +894,7 @@ entries:
   - id: worship|v
     headword: worship
     pos: v
+    definition_en: "to show respect and love for a god or spirit"
     forms:
       past: worshipped
       ing: worshipping
@@ -838,6 +913,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/worship_2, checked: 2026-09-30, field: cefr }

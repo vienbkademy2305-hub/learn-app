@@ -3,6 +3,7 @@ entries:
   - id: routine|n
     headword: routine
     pos: n
+    definition_en: "the things you do regularly every day"
     ipa:
       uk: /ruːˈtiːn/
       us: /ruːˈtiːn/
@@ -18,6 +19,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/routine, checked: 2026-09-30, field: cefr }
@@ -27,6 +29,7 @@ entries:
   - id: relax|v
     headword: relax
     pos: v
+    definition_en: "to rest and stop worrying"
     forms:
       3sg: relaxes
     ipa:
@@ -42,6 +45,7 @@ entries:
       - free-time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relax, checked: 2026-09-30, field: cefr }
@@ -51,6 +55,7 @@ entries:
   - id: rarely|adv
     headword: rarely
     pos: adv
+    definition_en: "not often; almost never"
     ipa:
       uk: /ˈreə.li/
       us: /ˈrer.li/
@@ -63,6 +68,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rarely, checked: 2026-09-30, field: cefr }
@@ -72,6 +78,7 @@ entries:
   - id: revise|v
     headword: revise
     pos: v
+    definition_en: "to study again before a test"
     forms:
       ing: revising
     ipa:
@@ -89,6 +96,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revise, checked: 2026-09-30, field: cefr }
@@ -98,6 +106,7 @@ entries:
   - id: rainy|adj
     headword: rainy
     pos: adj
+    definition_en: "with a lot of water falling from the sky"
     ipa:
       uk: /ˈreɪ.ni/
       us: /ˈreɪ.ni/
@@ -114,6 +123,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rainy, checked: 2026-09-30, field: ipa.uk }
@@ -122,6 +132,7 @@ entries:
   - id: rest|n
     headword: rest
     pos: n
+    definition_en: "a time when you relax or sleep"
     ipa:
       uk: /rest/
       us: /rest/
@@ -135,6 +146,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rest, checked: 2026-09-30, field: cefr }
@@ -144,6 +156,7 @@ entries:
   - id: rice|n
     headword: rice
     pos: n
+    definition_en: "small white or brown grains cooked as food"
     ipa:
       uk: /raɪs/
       us: /raɪs/
@@ -157,6 +170,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rice, checked: 2026-09-30, field: cefr }
@@ -166,6 +180,7 @@ entries:
   - id: receipt|n
     headword: receipt
     pos: n
+    definition_en: "a piece of paper showing what you have paid"
     ipa:
       uk: /rɪˈsiːt/
       us: /rɪˈsiːt/
@@ -180,6 +195,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receipt, checked: 2026-09-30, field: cefr }
@@ -189,6 +205,7 @@ entries:
   - id: rush-hour|phr-n
     headword: rush hour
     pos: phr-n
+    definition_en: "the busy time when people travel to and from work"
     ipa:
       uk: /ˈrʌʃ ˌaʊə/
       us: /ˈrʌʃ ˌaʊr/
@@ -202,6 +219,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -211,6 +229,7 @@ entries:
   - id: relaxed|adj
     headword: relaxed
     pos: adj
+    definition_en: "calm and not worried"
     ipa:
       uk: /rɪˈlækst/
       us: /rɪˈlækst/
@@ -224,6 +243,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relaxed, checked: 2026-09-30, field: cefr }
@@ -233,6 +253,7 @@ entries:
   - id: recycle|v
     headword: recycle
     pos: v
+    definition_en: "to process used things so they can be used again"
     ipa:
       uk: /ˌriːˈsaɪ.kəl/
       us: /ˌriːˈsaɪ.kəl/
@@ -244,6 +265,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recycle, checked: 2026-09-30, field: cefr }
@@ -253,6 +275,7 @@ entries:
   - id: receptionist|n
     headword: receptionist
     pos: n
+    definition_en: "a person who greets visitors at the front desk"
     ipa:
       uk: /rɪˈsep.ʃən.ɪst/
       us: /rɪˈsep.ʃən.ɪst/
@@ -266,6 +289,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/receptionist, checked: 2026-09-30, field: ipa.uk }
@@ -274,6 +298,7 @@ entries:
   - id: relative|n
     headword: relative
     pos: n
+    definition_en: "a member of your family"
     ipa:
       uk: /ˈrel.ə.tɪv/
       us: /ˈrel.ə.t̬ɪv/
@@ -286,6 +311,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relative_2, checked: 2026-09-30, field: cefr }
@@ -295,6 +321,7 @@ entries:
   - id: rabbit|n
     headword: rabbit
     pos: n
+    definition_en: "a small animal with long ears"
     ipa:
       uk: /ˈræb.ɪt/
       us: /ˈræb.ɪt/
@@ -306,6 +333,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rabbit, checked: 2026-09-30, field: ipa.uk }
@@ -314,6 +342,7 @@ entries:
   - id: rote-learning|phr-n
     headword: rote learning
     pos: phr-n
+    definition_en: "learning by repeating facts without understanding them"
     ipa:
       uk: /ˌrəʊt ˈlɜː.nɪŋ/
       us: /ˌroʊt ˈlɝː.nɪŋ/
@@ -328,6 +357,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -336,6 +366,7 @@ entries:
   - id: reason|n
     headword: reason
     pos: n
+    definition_en: "why something happens or why someone does something"
     ipa:
       uk: /ˈriː.zən/
       us: /ˈriː.zən/
@@ -353,6 +384,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reason, checked: 2026-09-30, field: cefr }
@@ -362,6 +394,7 @@ entries:
   - id: rubbish|n
     headword: rubbish
     pos: n
+    definition_en: "things you throw away (British English)"
     ipa:
       uk: /ˈrʌb.ɪʃ/
       us: /ˈrʌb.ɪʃ/
@@ -379,6 +412,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rubbish, checked: 2026-09-30, field: cefr }
@@ -388,6 +422,7 @@ entries:
   - id: renewable-energy|phr-n
     headword: renewable energy
     pos: phr-n
+    definition_en: "power from sources such as the sun and wind"
     ipa:
       uk: /rɪˌnjuː.ə.bəl ˈen.ə.dʒi/
       us: /rɪˌnuː.ə.bəl ˈen.ɚ.dʒi/
@@ -403,6 +438,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -411,6 +447,7 @@ entries:
   - id: reduce|v
     headword: reduce
     pos: v
+    definition_en: "to make something smaller in amount or size"
     ipa:
       uk: /rɪˈdʒuːs/
       us: /rɪˈduːs/
@@ -427,6 +464,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reduce, checked: 2026-09-30, field: cefr }
@@ -436,6 +474,7 @@ entries:
   - id: reusable|adj
     headword: reusable
     pos: adj
+    definition_en: "able to be used again"
     ipa:
       uk: /ˌriːˈjuː.zə.bəl/
       us: /ˌriːˈjuː.zə.bəl/
@@ -452,6 +491,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reusable, checked: 2026-09-30, field: ipa.uk }
@@ -460,6 +500,7 @@ entries:
   - id: robot|n
     headword: robot
     pos: n
+    definition_en: "a machine that can do tasks automatically"
     ipa:
       uk: /ˈrəʊ.bɒt/
       us: /ˈroʊ.bɑːt/
@@ -477,6 +518,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/robot, checked: 2026-09-30, field: cefr }
@@ -486,6 +528,7 @@ entries:
   - id: rise|v
     headword: rise
     pos: v
+    definition_en: "to go up (of numbers or prices)"
     forms:
       past: rose
       pp: risen
@@ -505,6 +548,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rise, checked: 2026-09-30, field: cefr }
@@ -514,6 +558,7 @@ entries:
   - id: remain-stable|colloc
     headword: remain stable
     pos: colloc
+    definition_en: "to stay at about the same level"
     ipa:
       uk: /rɪˌmeɪn ˈsteɪ.bəl/
       us: /rɪˌmeɪn ˈsteɪ.bəl/
@@ -529,6 +574,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -537,6 +583,7 @@ entries:
   - id: reach-a-peak|colloc
     headword: reach a peak
     pos: colloc
+    definition_en: "to arrive at the highest point"
     ipa:
       uk: /ˌriːtʃ ə ˈpiːk/
       us: /ˌriːtʃ ə ˈpiːk/
@@ -552,6 +599,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -560,6 +608,7 @@ entries:
   - id: reception|n
     headword: reception
     pos: n
+    definition_en: "the front desk where visitors are greeted"
     ipa:
       uk: /rɪˈsep.ʃən/
       us: /rɪˈsep.ʃən/
@@ -576,6 +625,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reception, checked: 2026-09-30, field: cefr }
@@ -585,6 +635,7 @@ entries:
   - id: running-track|phr-n
     headword: running track
     pos: phr-n
+    definition_en: "an oval path for races"
     ipa:
       uk: /ˈrʌn.ɪŋ ˌtræk/
       us: /ˈrʌn.ɪŋ ˌtræk/
@@ -595,6 +646,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -603,6 +655,7 @@ entries:
   - id: referee|n
     headword: referee
     pos: n
+    definition_en: "a person who makes sure players follow the rules"
     ipa:
       uk: /ˌref.əˈriː/
       us: /ˌref.əˈriː/
@@ -616,6 +669,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/referee, checked: 2026-09-30, field: cefr }
@@ -625,6 +679,7 @@ entries:
   - id: retire|v
     headword: retire
     pos: v
+    definition_en: "to stop working because of age"
     ipa:
       uk: /rɪˈtaɪər/
       us: /rɪˈtaɪr/
@@ -642,6 +697,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -652,6 +708,7 @@ entries:
   - id: responsibility|n
     headword: responsibility
     pos: n
+    definition_en: "a duty to take care of something"
     forms:
       plural: responsibilities
     ipa:
@@ -672,6 +729,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/responsibility, checked: 2026-09-30, field: cefr }
@@ -681,6 +739,7 @@ entries:
   - id: relationship|n
     headword: relationship
     pos: n
+    definition_en: "the way people are connected or behave towards each other"
     ipa:
       uk: /rɪˈleɪ.ʃən.ʃɪp/
       us: /rɪˈleɪ.ʃən.ʃɪp/
@@ -698,6 +757,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relationship, checked: 2026-09-30, field: cefr }
@@ -707,6 +767,7 @@ entries:
   - id: respect|v
     headword: respect
     pos: v
+    definition_en: "to admire someone and treat them politely"
     ipa:
       uk: /rɪˈspekt/
       us: /rɪˈspekt/
@@ -725,6 +786,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respect_2, checked: 2026-09-30, field: cefr }
@@ -734,6 +796,7 @@ entries:
   - id: role-model|phr-n
     headword: role model
     pos: phr-n
+    definition_en: "a person others admire and try to copy"
     ipa:
       uk: /ˈrəʊl ˌmɒd.əl/
       us: /ˈroʊl ˌmɑː.dəl/
@@ -750,6 +813,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/role-model, checked: 2026-09-30, field: ipa.uk }
@@ -758,6 +822,7 @@ entries:
   - id: restore|v
     headword: restore
     pos: v
+    definition_en: "to repair something old to its original condition"
     ipa:
       uk: /rɪˈstɔːr/
       us: /rɪˈstɔːr/
@@ -775,6 +840,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/restore, checked: 2026-09-30, field: cefr }
@@ -784,6 +850,7 @@ entries:
   - id: region|n
     headword: region
     pos: n
+    definition_en: "a large area of a country or the world"
     ipa:
       uk: /ˈriː.dʒən/
       us: /ˈriː.dʒən/
@@ -801,6 +868,7 @@ entries:
       - geography
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/region, checked: 2026-09-30, field: cefr }
@@ -810,6 +878,7 @@ entries:
   - id: respectively|adv
     headword: respectively
     pos: adv
+    definition_en: "in the same order as the things just mentioned"
     ipa:
       uk: /rɪˈspek.tɪv.li/
       us: /rɪˈspek.tɪv.li/
@@ -826,6 +895,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/respectively, checked: 2026-09-30, field: cefr }
@@ -835,6 +905,7 @@ entries:
   - id: rural|adj
     headword: rural
     pos: adj
+    definition_en: "connected with the countryside"
     ipa:
       uk: /ˈrʊə.rəl/
       us: /ˈrʊr.əl/
@@ -851,6 +922,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rural, checked: 2026-09-30, field: cefr }
@@ -860,6 +932,7 @@ entries:
   - id: rent|n
     headword: rent
     pos: n
+    definition_en: "money you pay regularly to live in someone's property"
     ipa:
       uk: /rent/
       us: /rent/
@@ -876,6 +949,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rent, checked: 2026-09-30, field: cefr }
@@ -885,6 +959,7 @@ entries:
   - id: reliable|adj
     headword: reliable
     pos: adj
+    definition_en: "able to be trusted"
     ipa:
       uk: /rɪˈlaɪ.ə.bəl/
       us: /rɪˈlaɪ.ə.bəl/
@@ -901,6 +976,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reliable, checked: 2026-09-30, field: cefr }
@@ -910,6 +986,7 @@ entries:
   - id: regulate|v
     headword: regulate
     pos: v
+    definition_en: "to control something with rules"
     ipa:
       uk: /ˈreɡ.jə.leɪt/
       us: /ˈreɡ.jə.leɪt/
@@ -928,6 +1005,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -938,6 +1016,7 @@ entries:
   - id: recruit|v
     headword: recruit
     pos: v
+    definition_en: "to find new people to join a company"
     ipa:
       uk: /rɪˈkruːt/
       us: /rɪˈkruːt/
@@ -954,6 +1033,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recruit, checked: 2026-09-30, field: cefr }
@@ -963,6 +1043,7 @@ entries:
   - id: resign|v
     headword: resign
     pos: v
+    definition_en: "to leave your job by choice"
     ipa:
       uk: /rɪˈzaɪn/
       us: /rɪˈzaɪn/
@@ -979,6 +1060,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/resign, checked: 2026-09-30, field: cefr }
@@ -988,6 +1070,7 @@ entries:
   - id: replace|v
     headword: replace
     pos: v
+    definition_en: "to put something new in the place of something else"
     ipa:
       uk: /rɪˈpleɪs/
       us: /rɪˈpleɪs/
@@ -1004,6 +1087,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/replace, checked: 2026-09-30, field: cefr }
@@ -1013,6 +1097,7 @@ entries:
   - id: retrain|v
     headword: retrain
     pos: v
+    definition_en: "to learn new skills for a different job"
     ipa:
       uk: /ˌriːˈtreɪn/
       us: /ˌriːˈtreɪn/
@@ -1027,6 +1112,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retrain, checked: 2026-09-30, field: ipa.uk }
@@ -1035,6 +1121,7 @@ entries:
   - id: represent|v
     headword: represent
     pos: v
+    definition_en: "to be equal to; to stand for"
     ipa:
       uk: /ˌrep.rɪˈzent/
       us: /ˌrep.rɪˈzent/
@@ -1049,6 +1136,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/represent, checked: 2026-09-30, field: cefr }
@@ -1058,6 +1146,7 @@ entries:
   - id: remainder|n
     headword: remainder
     pos: n
+    definition_en: "the part that is left"
     ipa:
       uk: /rɪˈmeɪn.dər/
       us: /rɪˈmeɪn.dɚ/
@@ -1073,6 +1162,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/remainder, checked: 2026-09-30, field: cefr }
@@ -1082,6 +1172,7 @@ entries:
   - id: result-in|phr-v
     headword: result in
     pos: phr-v
+    definition_en: "to have something as an effect"
     ipa:
       uk: /rɪˈzʌlt ɪn/
       us: /rɪˈzʌlt ɪn/
@@ -1098,6 +1189,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1106,6 +1198,7 @@ entries:
   - id: raise-awareness|colloc
     headword: raise awareness
     pos: colloc
+    definition_en: "to help people know more about a problem"
     ipa:
       uk: /ˌreɪz əˈweə.nəs/
       us: /ˌreɪz əˈwer.nəs/
@@ -1121,6 +1214,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1129,6 +1223,7 @@ entries:
   - id: raw-material|phr-n
     headword: raw material
     pos: phr-n
+    definition_en: "a natural substance used to make products"
     forms:
       plural: raw materials
     ipa:
@@ -1145,6 +1240,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/raw-material, checked: 2026-09-30, field: ipa.uk }
@@ -1153,6 +1249,7 @@ entries:
   - id: reservoir|n
     headword: reservoir
     pos: n
+    definition_en: "a large lake used to store water"
     ipa:
       uk: /ˈrez.ə.vwɑːr/
       us: /ˈrez.ɚ.vwɑːr/
@@ -1167,6 +1264,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reservoir, checked: 2026-09-30, field: ipa.uk }
@@ -1175,6 +1273,7 @@ entries:
   - id: relocate|v
     headword: relocate
     pos: v
+    definition_en: "to move to a new place"
     ipa:
       uk: /ˌriː.ləʊˈkeɪt/
       us: /ˌriːˈloʊ.keɪt/
@@ -1191,6 +1290,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/relocate, checked: 2026-09-30, field: ipa.uk }
@@ -1199,6 +1299,7 @@ entries:
   - id: remove|v
     headword: remove
     pos: v
+    definition_en: "to take something away"
     ipa:
       uk: /rɪˈmuːv/
       us: /rɪˈmuːv/
@@ -1213,6 +1314,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/remove, checked: 2026-09-30, field: cefr }
@@ -1222,6 +1324,7 @@ entries:
   - id: residential|adj
     headword: residential
     pos: adj
+    definition_en: "having houses rather than offices or factories"
     ipa:
       uk: /ˌrez.ɪˈden.ʃəl/
       us: /ˌrez.əˈden.ʃəl/
@@ -1237,6 +1340,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1247,6 +1351,7 @@ entries:
   - id: redevelopment|n
     headword: redevelopment
     pos: n
+    definition_en: "rebuilding an area to improve it"
     ipa:
       uk: /ˌriː.dɪˈvel.əp.mənt/
       us: /ˌriː.dɪˈvel.əp.mənt/
@@ -1262,6 +1367,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/redevelopment, checked: 2026-09-30, field: ipa.uk }
@@ -1270,6 +1376,7 @@ entries:
   - id: rehabilitate|v
     headword: rehabilitate
     pos: v
+    definition_en: "to help a criminal live a normal life again"
     ipa:
       uk: /ˌriː.həˈbɪl.ɪ.teɪt/
       us: /ˌriː.həˈbɪl.ə.teɪt/
@@ -1285,6 +1392,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1294,6 +1402,7 @@ entries:
   - id: rehabilitation|n
     headword: rehabilitation
     pos: n
+    definition_en: "helping someone return to normal life after prison"
     ipa:
       uk: /ˌriː.həˌbɪl.ɪˈteɪ.ʃən/
       us: /ˌriː.həˌbɪl.əˈteɪ.ʃən/
@@ -1309,6 +1418,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1318,6 +1428,7 @@ entries:
   - id: reoffend|v
     headword: reoffend
     pos: v
+    definition_en: "to commit another crime after being punished"
     ipa:
       uk: /ˌriː.əˈfend/
       us: /ˌriː.əˈfend/
@@ -1331,6 +1442,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reoffend, checked: 2026-09-30, field: ipa.uk }
@@ -1339,6 +1451,7 @@ entries:
   - id: root-cause|phr-n
     headword: root cause
     pos: phr-n
+    definition_en: "the basic reason behind a problem"
     ipa:
       uk: /ˌruːt ˈkɔːz/
       us: /ˌruːt ˈkɑːz/
@@ -1352,6 +1465,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1360,6 +1474,7 @@ entries:
   - id: reduction|n
     headword: reduction
     pos: n
+    definition_en: "making something smaller or less"
     ipa:
       uk: /rɪˈdʌk.ʃən/
       us: /rɪˈdʌk.ʃən/
@@ -1375,6 +1490,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reduction, checked: 2026-09-30, field: cefr }
@@ -1384,6 +1500,7 @@ entries:
   - id: rely-on|phr-v
     headword: rely on
     pos: phr-v
+    definition_en: "to need someone or something in order to work"
     forms:
       past: relied on
       3sg: relies on
@@ -1403,6 +1520,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1411,6 +1529,7 @@ entries:
   - id: reliance|n
     headword: reliance
     pos: n
+    definition_en: "the state of needing something to function"
     ipa:
       uk: /rɪˈlaɪ.əns/
       us: /rɪˈlaɪ.əns/
@@ -1424,6 +1543,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/reliance, checked: 2026-09-30, field: ipa.uk }
@@ -1432,6 +1552,7 @@ entries:
   - id: ritual|n
     headword: ritual
     pos: n
+    definition_en: "a set of actions done in the same way for a ceremony"
     ipa:
       uk: /ˈrɪtʃ.u.əl/
       us: /ˈrɪtʃ.u.əl/
@@ -1446,6 +1567,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ritual, checked: 2026-09-30, field: cefr }
@@ -1455,6 +1577,7 @@ entries:
   - id: revive|v
     headword: revive
     pos: v
+    definition_en: "to bring something back into use"
     ipa:
       uk: /rɪˈvaɪv/
       us: /rɪˈvaɪv/
@@ -1471,6 +1594,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revive, checked: 2026-09-30, field: cefr }
@@ -1480,6 +1604,7 @@ entries:
   - id: recession|n
     headword: recession
     pos: n
+    definition_en: "a period when the economy shrinks"
     ipa:
       uk: /rɪˈseʃ.ən/
       us: /rɪˈseʃ.ən/
@@ -1493,6 +1618,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/recession, checked: 2026-09-30, field: cefr }
@@ -1502,6 +1628,7 @@ entries:
   - id: retailer|n
     headword: retailer
     pos: n
+    definition_en: "a business that sells goods to the public"
     ipa:
       uk: /ˈriː.teɪ.lər/
       us: /ˈriː.teɪ.lɚ/
@@ -1515,6 +1642,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/retailer, checked: 2026-09-30, field: ipa.uk }
@@ -1523,6 +1651,7 @@ entries:
   - id: revenue|n
     headword: revenue
     pos: n
+    definition_en: "the money a business or government receives"
     ipa:
       uk: /ˈrev.ən.juː/
       us: /ˈrev.ə.nuː/
@@ -1537,6 +1666,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/revenue, checked: 2026-09-30, field: cefr }
@@ -1546,6 +1676,7 @@ entries:
   - id: review|n
     headword: review
     pos: n
+    definition_en: "an article giving an opinion of a film, book or show"
     ipa:
       uk: /rɪˈvjuː/
       us: /rɪˈvjuː/
@@ -1561,6 +1692,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/review, checked: 2026-09-30, field: cefr }
@@ -1570,6 +1702,7 @@ entries:
   - id: rehearse|v
     headword: rehearse
     pos: v
+    definition_en: "to practise a performance before the real show"
     ipa:
       uk: /rɪˈhɜːs/
       us: /rɪˈhɝːs/
@@ -1583,6 +1716,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rehearse, checked: 2026-09-30, field: ipa.uk }
@@ -1591,6 +1725,7 @@ entries:
   - id: rewarding|adj
     headword: rewarding
     pos: adj
+    definition_en: "giving satisfaction"
     ipa:
       uk: /rɪˈwɔː.dɪŋ/
       us: /rɪˈwɔːr.dɪŋ/
@@ -1605,6 +1740,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rewarding, checked: 2026-09-30, field: ipa.uk }
@@ -1613,6 +1749,7 @@ entries:
   - id: research|n
     headword: research
     pos: n
+    definition_en: "careful study to discover new facts"
     ipa:
       uk: /rɪˈsɜːtʃ/
       us: /ˈriː.sɝːtʃ/
@@ -1628,6 +1765,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/research, checked: 2026-09-30, field: cefr }
@@ -1637,6 +1775,7 @@ entries:
   - id: rocket|n
     headword: rocket
     pos: n
+    definition_en: "a vehicle that flies into space"
     ipa:
       uk: /ˈrɒk.ɪt/
       us: /ˈrɑː.kɪt/
@@ -1650,6 +1789,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/rocket, checked: 2026-09-30, field: cefr }
@@ -1659,6 +1799,7 @@ entries:
   - id: regulation|n
     headword: regulation
     pos: n
+    definition_en: "an official rule"
     ipa:
       uk: /ˌreɡ.jəˈleɪ.ʃən/
       us: /ˌreɡ.jəˈleɪ.ʃən/
@@ -1673,6 +1814,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

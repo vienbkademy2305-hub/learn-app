@@ -1,5 +1,6 @@
 "use client";
 import { isDue, noteKey } from "@/domain/progress";
+import { isPassed } from "@/domain/word-game";
 import { useProgress } from "@/features/progress/store";
 import type { PracticeType } from "./data";
 
@@ -13,6 +14,8 @@ export function PracticeHubStatus({ type, lessonSlug, words }: { type: PracticeT
     const due = words.filter((w) => isDue(state, w)).length;
     const saved = words.filter((w) => state.saved?.[w]).length;
     text = `${due} thẻ cần ôn${saved ? ` · ★ ${saved} đã lưu` : ""}`;
+  } else if (type === "game") {
+    text = `Đã thuộc ${words.filter((w) => isPassed(state.mastery?.[w])).length}/${words.length} từ`;
   } else if (type === "sentences") {
     text = `Đã đặt ${words.filter((w) => state.notes?.[noteKey.sentence(lessonSlug, w)]).length}/${words.length} câu`;
   } else if (type === "speaking") {

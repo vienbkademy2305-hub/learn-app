@@ -3,6 +3,7 @@ entries:
   - id: elder-brother|phr-n
     headword: elder brother
     pos: phr-n
+    definition_en: "a boy or man in your family who is older than you"
     ipa: { uk: "/ˌel.də ˈbrʌð.ə/", us: "/ˌel.dɚ ˈbrʌð.ɚ/" }
     cefr: null
     meaning_vi: [ anh trai ]
@@ -10,24 +11,28 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: elder-sister|phr-n
     headword: elder sister
     pos: phr-n
+    definition_en: "a girl or woman in your family who is older than you"
     ipa: { uk: "/ˌel.də ˈsɪs.tə/", us: "/ˌel.dɚ ˈsɪs.tɚ/" }
     cefr: null
     meaning_vi: [ chị gái ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: exam|n
     headword: exam
     pos: n
+    definition_en: "an important test of knowledge"
     ipa:
       uk: /ɪɡˈzæm/
       us: /ɪɡˈzæm/
@@ -44,6 +49,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exam, checked: 2026-09-30, field: cefr }
@@ -53,6 +59,7 @@ entries:
   - id: engineer|n
     headword: engineer
     pos: n
+    definition_en: "a person who designs machines, roads or buildings"
     ipa:
       uk: /ˌen.dʒɪˈnɪə/
       us: /ˌen.dʒɪˈnɪr/
@@ -66,6 +73,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/engineer, checked: 2026-09-30, field: cefr }
@@ -75,6 +83,7 @@ entries:
   - id: electrician|n
     headword: electrician
     pos: n
+    definition_en: "a person who fixes wires and electrical equipment"
     ipa:
       uk: /ˌel.ɪkˈtrɪʃ.ən/
       us: /ˌel.ɪkˈtrɪʃ.ən/
@@ -88,6 +97,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -97,6 +107,7 @@ entries:
   - id: earn|v
     headword: earn
     pos: v
+    definition_en: "to get money for work you do"
     ipa:
       uk: /ɜːn/
       us: /ɝːn/
@@ -113,6 +124,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/earn, checked: 2026-09-30, field: cefr }
@@ -122,6 +134,7 @@ entries:
   - id: exercise|v
     headword: exercise
     pos: v
+    definition_en: "to move your body to stay fit"
     ipa:
       uk: /ˈek.sə.saɪz/
       us: /ˈek.sɚ.saɪz/
@@ -137,6 +150,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exercise_2, checked: 2026-09-30, field: cefr }
@@ -146,6 +160,7 @@ entries:
   - id: egg|n
     headword: egg
     pos: n
+    definition_en: "the oval thing a hen lays, which we eat"
     ipa:
       uk: /eɡ/
       us: /eɡ/
@@ -158,6 +173,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/egg, checked: 2026-09-30, field: cefr }
@@ -167,6 +183,7 @@ entries:
   - id: expensive|adj
     headword: expensive
     pos: adj
+    definition_en: "costing a lot of money"
     forms:
       comparative: more expensive
       superlative: most expensive
@@ -182,6 +199,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expensive, checked: 2026-09-30, field: cefr }
@@ -191,6 +209,7 @@ entries:
   - id: enjoy|v
     headword: enjoy
     pos: v
+    definition_en: "to like doing something"
     ipa:
       uk: /ɪnˈdʒɔɪ/
       us: /ɪnˈdʒɔɪ/
@@ -204,6 +223,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enjoy, checked: 2026-09-30, field: cefr }
@@ -213,6 +233,7 @@ entries:
   - id: excited|adj
     headword: excited
     pos: adj
+    definition_en: "feeling very happy about something good that will happen"
     ipa:
       uk: /ɪkˈsaɪ.tɪd/
       us: /ɪkˈsaɪ.t̬ɪd/
@@ -226,6 +247,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/excited, checked: 2026-09-30, field: cefr }
@@ -235,6 +257,7 @@ entries:
   - id: exciting|adj
     headword: exciting
     pos: adj
+    definition_en: "making you feel very happy and full of energy"
     ipa:
       uk: /ɪkˈsaɪ.tɪŋ/
       us: /ɪkˈsaɪ.t̬ɪŋ/
@@ -246,6 +269,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exciting, checked: 2026-09-30, field: cefr }
@@ -255,6 +279,7 @@ entries:
   - id: embarrassed|adj
     headword: embarrassed
     pos: adj
+    definition_en: "feeling silly or ashamed in front of others"
     ipa:
       uk: /ɪmˈbær.əst/
       us: /ɪmˈber.əst/
@@ -269,6 +294,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassed, checked: 2026-09-30, field: cefr }
@@ -278,6 +304,7 @@ entries:
   - id: embarrassing|adj
     headword: embarrassing
     pos: adj
+    definition_en: "making you feel silly in front of others"
     ipa:
       uk: /ɪmˈbær.ə.sɪŋ/
       us: /ɪmˈber.ə.sɪŋ/
@@ -289,6 +316,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/embarrassing, checked: 2026-09-30, field: cefr }
@@ -298,6 +326,7 @@ entries:
   - id: export|v
     headword: export
     pos: v
+    definition_en: "to sell goods to another country"
     ipa:
       uk: /ɪkˈspɔːt/
       us: /ɪkˈspɔːrt/
@@ -312,6 +341,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/export_2, checked: 2026-09-30, field: cefr }
@@ -321,6 +351,7 @@ entries:
   - id: english|adj
     headword: English
     pos: adj
+    definition_en: "from or connected with England, or its language"
     ipa:
       uk: /ˈɪŋ.ɡlɪʃ/
       us: /ˈɪŋ.ɡlɪʃ/
@@ -333,6 +364,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/english_2, checked: 2026-09-30, field: ipa.uk }
@@ -341,6 +373,7 @@ entries:
   - id: enough|det
     headword: enough
     pos: det
+    definition_en: "as much or as many as you need"
     ipa:
       uk: /ɪˈnʌf/
       us: /ɪˈnʌf/
@@ -354,6 +387,7 @@ entries:
       - quantity
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enough, checked: 2026-09-30, field: cefr }
@@ -363,6 +397,7 @@ entries:
   - id: east|n
     headword: east
     pos: n
+    definition_en: "the direction where the sun rises"
     ipa:
       uk: /iːst/
       us: /iːst/
@@ -375,6 +410,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/east, checked: 2026-09-30, field: cefr }
@@ -384,6 +420,7 @@ entries:
   - id: eye|n
     headword: eye
     pos: n
+    definition_en: "the part of your body you see with"
     ipa:
       uk: /aɪ/
       us: /aɪ/
@@ -394,6 +431,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/eye, checked: 2026-09-30, field: cefr }
@@ -403,6 +441,7 @@ entries:
   - id: ear|n
     headword: ear
     pos: n
+    definition_en: "the part of your body you hear with"
     ipa:
       uk: /ɪə/
       us: /ɪr/
@@ -413,6 +452,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ear, checked: 2026-09-30, field: cefr }
@@ -422,6 +462,7 @@ entries:
   - id: easily|adv
     headword: easily
     pos: adv
+    definition_en: "without difficulty"
     ipa:
       uk: /ˈiː.zəl.i/
       us: /ˈiː.zəl.i/
@@ -434,6 +475,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/easily, checked: 2026-09-30, field: cefr }
@@ -443,6 +485,7 @@ entries:
   - id: education|n
     headword: education
     pos: n
+    definition_en: "the process of teaching and learning"
     ipa:
       uk: /ˌedʒ.uˈkeɪ.ʃən/
       us: /ˌedʒ.əˈkeɪ.ʃən/
@@ -462,6 +505,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/education, checked: 2026-09-30, field: cefr }
@@ -471,6 +515,7 @@ entries:
   - id: extracurricular-activity|phr-n
     headword: extracurricular activity
     pos: phr-n
+    definition_en: "an activity at school outside normal lessons"
     ipa:
       uk: /ˌek.strə.kəˈrɪk.jə.lər ækˈtɪv.ə.ti/
       us: /ˌek.strə.kəˈrɪk.jə.lɚ ækˈtɪv.ə.t̬i/
@@ -485,6 +530,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -493,6 +539,7 @@ entries:
   - id: essential|adj
     headword: essential
     pos: adj
+    definition_en: "absolutely necessary"
     ipa:
       uk: /ɪˈsen.ʃəl/
       us: /ɪˈsen.ʃəl/
@@ -511,6 +558,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/essential, checked: 2026-09-30, field: cefr }
@@ -520,6 +568,7 @@ entries:
   - id: environment|n
     headword: environment
     pos: n
+    definition_en: "the natural world of land, air, water, plants and animals"
     ipa:
       uk: /ɪnˈvaɪ.rən.mənt/
       us: /ɪnˈvaɪ.rən.mənt/
@@ -538,6 +587,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environment, checked: 2026-09-30, field: cefr }
@@ -547,6 +597,7 @@ entries:
   - id: endangered-species|phr-n
     headword: endangered species
     pos: phr-n
+    definition_en: "types of animals or plants that may soon disappear"
     ipa:
       uk: /ɪnˌdeɪn.dʒəd ˈspiː.ʃiːz/
       us: /ɪnˌdeɪn.dʒɚd ˈspiː.ʃiːz/
@@ -561,6 +612,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -569,6 +621,7 @@ entries:
   - id: environmentally-friendly|adj
     headword: environmentally friendly
     pos: adj
+    definition_en: "not harmful to nature"
     ipa:
       uk: /ɪnˌvaɪ.rən.men.təl.i ˈfrend.li/
       us: /ɪnˌvaɪ.rən.men.t̬əl.i ˈfrend.li/
@@ -583,6 +636,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/environmentally-friendly, checked: 2026-09-30, field: ipa.uk }
@@ -591,6 +645,7 @@ entries:
   - id: entrance|n
     headword: entrance
     pos: n
+    definition_en: "a door or gate where you go into a place"
     ipa:
       uk: /ˈen.trəns/
       us: /ˈen.trəns/
@@ -609,6 +664,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entrance_1, checked: 2026-09-30, field: cefr }
@@ -618,6 +674,7 @@ entries:
   - id: energetic|adj
     headword: energetic
     pos: adj
+    definition_en: "full of energy and very active"
     ipa:
       uk: /ˌen.əˈdʒet.ɪk/
       us: /ˌen.ɚˈdʒet̬.ɪk/
@@ -629,6 +686,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/energetic, checked: 2026-09-30, field: ipa.uk }
@@ -637,6 +695,7 @@ entries:
   - id: exhausted|adj
     headword: exhausted
     pos: adj
+    definition_en: "extremely tired"
     ipa:
       uk: /ɪɡˈzɔː.stɪd/
       us: /ɪɡˈzɑː.stɪd/
@@ -650,6 +709,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exhausted, checked: 2026-09-30, field: ipa.uk }
@@ -658,6 +718,7 @@ entries:
   - id: encourage|v
     headword: encourage
     pos: v
+    definition_en: "to give someone confidence or support to do something"
     ipa:
       uk: /ɪnˈkʌr.ɪdʒ/
       us: /ɪnˈkɝː.ɪdʒ/
@@ -674,6 +735,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/encourage, checked: 2026-09-30, field: cefr }
@@ -683,6 +745,7 @@ entries:
   - id: extended-family|phr-n
     headword: extended family
     pos: phr-n
+    definition_en: "a family including grandparents, aunts and uncles"
     ipa:
       uk: /ɪkˌsten.dɪd ˈfæm.əl.i/
       us: /ɪkˌsten.dɪd ˈfæm.əl.i/
@@ -697,6 +760,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/extended-family, checked: 2026-09-30, field: ipa.uk }
@@ -705,6 +769,7 @@ entries:
   - id: elderly|adj
     headword: elderly
     pos: adj
+    definition_en: "old (a polite word)"
     ipa:
       uk: /ˈel.dəl.i/
       us: /ˈel.dɚ.li/
@@ -723,6 +788,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/elderly, checked: 2026-09-30, field: cefr }
@@ -732,6 +798,7 @@ entries:
   - id: equality|n
     headword: equality
     pos: n
+    definition_en: "the same rights and chances for everyone"
     ipa:
       uk: /iˈkwɒl.ə.ti/
       us: /iˈkwɑː.lə.t̬i/
@@ -748,6 +815,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/equality, checked: 2026-09-30, field: cefr }
@@ -757,6 +825,7 @@ entries:
   - id: expectation|n
     headword: expectation
     pos: n
+    definition_en: "a belief about what should or will happen"
     ipa:
       uk: /ˌek.spekˈteɪ.ʃən/
       us: /ˌek.spekˈteɪ.ʃən/
@@ -775,6 +844,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expectation, checked: 2026-09-30, field: cefr }
@@ -784,6 +854,7 @@ entries:
   - id: expenditure|n
     headword: expenditure
     pos: n
+    definition_en: "the amount of money spent"
     ipa:
       uk: /ɪkˈspen.dɪ.tʃər/
       us: /ɪkˈspen.dɪ.tʃɚ/
@@ -802,6 +873,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expenditure, checked: 2026-09-30, field: cefr }
@@ -811,6 +883,7 @@ entries:
   - id: even-though|conj
     headword: even though
     pos: conj
+    definition_en: "a stronger way of saying 'although'"
     ipa:
       uk: /ˌiː.vən ˈðəʊ/
       us: /ˌiː.vən ˈðoʊ/
@@ -823,6 +896,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -831,6 +905,7 @@ entries:
   - id: entertainment|n
     headword: entertainment
     pos: n
+    definition_en: "films, music and shows that people enjoy"
     ipa:
       uk: /ˌen.təˈteɪn.mənt/
       us: /ˌen.t̬ɚˈteɪn.mənt/
@@ -847,6 +922,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/entertainment, checked: 2026-09-30, field: cefr }
@@ -856,6 +932,7 @@ entries:
   - id: educational|adj
     headword: educational
     pos: adj
+    definition_en: "helping people to learn"
     ipa:
       uk: /ˌedʒ.uˈkeɪ.ʃən.əl/
       us: /ˌedʒ.əˈkeɪ.ʃən.əl/
@@ -873,6 +950,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -883,6 +961,7 @@ entries:
   - id: employee|n
     headword: employee
     pos: n
+    definition_en: "a person who works for a company"
     ipa:
       uk: /ɪmˈplɔɪ.iː/
       us: /ɪmˈplɔɪ.iː/
@@ -901,6 +980,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employee, checked: 2026-09-30, field: cefr }
@@ -910,6 +990,7 @@ entries:
   - id: employer|n
     headword: employer
     pos: n
+    definition_en: "a person or company that pays people to work"
     ipa:
       uk: /ɪmˈplɔɪ.ər/
       us: /ɪmˈplɔɪ.ɚ/
@@ -925,6 +1006,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employer, checked: 2026-09-30, field: cefr }
@@ -934,6 +1016,7 @@ entries:
   - id: experience|n
     headword: experience
     pos: n
+    definition_en: "knowledge you gain by doing something"
     ipa:
       uk: /ɪkˈspɪə.ri.əns/
       us: /ɪkˈspɪr.i.əns/
@@ -952,6 +1035,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/experience, checked: 2026-09-30, field: cefr }
@@ -961,6 +1045,7 @@ entries:
   - id: economic-growth|phr-n
     headword: economic growth
     pos: phr-n
+    definition_en: "an increase in the goods and services a country produces"
     ipa:
       uk: /ˌiː.kəˌnɒm.ɪk ˈɡrəʊθ/
       us: /ˌiː.kəˌnɑː.mɪk ˈɡroʊθ/
@@ -976,6 +1061,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -984,6 +1070,7 @@ entries:
   - id: economy|n
     headword: economy
     pos: n
+    definition_en: "the system of money, trade and industry in a country"
     forms:
       plural: economies
     ipa:
@@ -1003,6 +1090,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/economy, checked: 2026-09-30, field: cefr }
@@ -1012,6 +1100,7 @@ entries:
   - id: enforce|v
     headword: enforce
     pos: v
+    definition_en: "to make people obey a law"
     ipa:
       uk: /ɪnˈfɔːs/
       us: /ɪnˈfɔːrs/
@@ -1027,6 +1116,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/enforce, checked: 2026-09-30, field: cefr }
@@ -1036,6 +1126,7 @@ entries:
   - id: effective|adj
     headword: effective
     pos: adj
+    definition_en: "working well; producing the result you want"
     ipa:
       uk: /ɪˈfek.tɪv/
       us: /ɪˈfek.tɪv/
@@ -1053,6 +1144,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/effective, checked: 2026-09-30, field: cefr }
@@ -1062,6 +1154,7 @@ entries:
   - id: extend|v
     headword: extend
     pos: v
+    definition_en: "to make something longer or larger"
     ipa:
       uk: /ɪkˈstend/
       us: /ɪkˈstend/
@@ -1078,6 +1171,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/extend, checked: 2026-09-30, field: cefr }
@@ -1087,6 +1181,7 @@ entries:
   - id: expand|v
     headword: expand
     pos: v
+    definition_en: "to become or make bigger in size"
     ipa:
       uk: /ɪkˈspænd/
       us: /ɪkˈspænd/
@@ -1101,6 +1196,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/expand, checked: 2026-09-30, field: cefr }
@@ -1110,6 +1206,7 @@ entries:
   - id: employability|n
     headword: employability
     pos: n
+    definition_en: "how likely someone is to get a job"
     ipa:
       uk: /ɪmˌplɔɪ.əˈbɪl.ə.ti/
       us: /ɪmˌplɔɪ.əˈbɪl.ə.t̬i/
@@ -1123,6 +1220,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/employability, checked: 2026-09-30, field: ipa.uk }
@@ -1131,6 +1229,7 @@ entries:
   - id: exam-oriented|adj
     headword: exam-oriented
     pos: adj
+    definition_en: "focused mainly on passing tests"
     ipa:
       uk: /ɪɡˈzæm ˌɔː.ri.en.tɪd/
       us: /ɪɡˈzæm ˌɔːr.i.en.t̬ɪd/
@@ -1143,6 +1242,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1151,6 +1251,7 @@ entries:
   - id: evidence|n
     headword: evidence
     pos: n
+    definition_en: "facts or objects that show something is true"
     ipa:
       uk: /ˈev.ɪ.dəns/
       us: /ˈev.ə.dəns/
@@ -1167,6 +1268,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1177,6 +1279,7 @@ entries:
   - id: ethical|adj
     headword: ethical
     pos: adj
+    definition_en: "morally right and fair"
     ipa:
       uk: /ˈeθ.ɪ.kəl/
       us: /ˈeθ.ɪ.kəl/
@@ -1195,6 +1298,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ethical, checked: 2026-09-30, field: cefr }
@@ -1204,6 +1308,7 @@ entries:
   - id: epidemic|n
     headword: epidemic
     pos: n
+    definition_en: "a disease affecting many people in one area at the same time"
     ipa:
       uk: /ˌep.ɪˈdem.ɪk/
       us: /ˌep.əˈdem.ɪk/
@@ -1220,6 +1325,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1230,6 +1336,7 @@ entries:
   - id: ethnic-minority|phr-n
     headword: ethnic minority
     pos: phr-n
+    definition_en: "a smaller group of people with a different culture in a country"
     forms:
       plural: ethnic minorities
     ipa:
@@ -1246,6 +1353,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ethnic-minority, checked: 2026-09-30, field: ipa.uk }
@@ -1254,6 +1362,7 @@ entries:
   - id: e-commerce|n
     headword: e-commerce
     pos: n
+    definition_en: "buying and selling online"
     ipa:
       uk: /ˈiːˌkɒm.ɜːs/
       us: /ˈiːˌkɑː.mɝːs/
@@ -1268,6 +1377,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/e-commerce, checked: 2026-09-30, field: cefr }
@@ -1277,6 +1387,7 @@ entries:
   - id: exceed|v
     headword: exceed
     pos: v
+    definition_en: "to be more than a certain amount"
     ipa:
       uk: /ɪkˈsiːd/
       us: /ɪkˈsiːd/
@@ -1292,6 +1403,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/exceed, checked: 2026-09-30, field: cefr }
@@ -1301,6 +1413,7 @@ entries:
   - id: exhibition|n
     headword: exhibition
     pos: n
+    definition_en: "a public show of art or other objects"
     ipa:
       uk: /ˌek.sɪˈbɪʃ.ən/
       us: /ˌek.səˈbɪʃ.ən/
@@ -1318,6 +1431,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1328,6 +1442,7 @@ entries:
   - id: experiment|n
     headword: experiment
     pos: n
+    definition_en: "a scientific test"
     ipa:
       uk: /ɪkˈsper.ɪ.mənt/
       us: /ɪkˈsper.ə.mənt/
@@ -1343,6 +1458,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/experiment, checked: 2026-09-30, field: cefr }

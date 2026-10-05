@@ -415,6 +415,7 @@ function checkExercise(w: string, ex: Exercise, err: (where: string, msg: string
     if (ex.kind === "mcq") {
       const n = q.options?.length ?? 0;
       if (n < 2) err(wq, "mcq needs options");
+      if (q.options?.some((o) => typeof o !== "string")) err(wq, 'an option is not text — quote options that contain ": "');
       const a = q.answer;
       const ok = typeof a === "number" ? a >= 0 && a < n : /^[a-z]$/i.test(a) && a.toLowerCase().charCodeAt(0) - 97 < n;
       if (!ok) err(wq, "mcq answer must be a letter or 0-based index within options");

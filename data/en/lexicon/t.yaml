@@ -3,6 +3,7 @@ entries:
   - id: tall|adj
     headword: tall
     pos: adj
+    definition_en: "having a greater height than most people"
     forms:
       comparative: taller
       superlative: tallest
@@ -18,6 +19,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tall, checked: 2026-09-30, field: cefr }
@@ -27,6 +29,7 @@ entries:
   - id: third|num
     headword: third
     pos: num
+    definition_en: "coming after the second"
     ipa:
       uk: /θɜːd/
       us: /θɝːd/
@@ -40,6 +43,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/third, checked: 2026-09-30, field: cefr }
@@ -49,6 +53,7 @@ entries:
   - id: twelfth|num
     headword: twelfth
     pos: num
+    definition_en: "number 12 in a series"
     ipa:
       uk: /twelfθ/
       us: /twelfθ/
@@ -62,6 +67,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twelfth, checked: 2026-09-30, field: ipa.uk }
@@ -70,6 +76,7 @@ entries:
   - id: twentieth|num
     headword: twentieth
     pos: num
+    definition_en: "number 20 in a series"
     ipa:
       uk: /ˈtwen.ti.əθ/
       us: /ˈtwen.t̬i.əθ/
@@ -83,6 +90,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twentieth, checked: 2026-09-30, field: ipa.uk }
@@ -91,6 +99,7 @@ entries:
   - id: thirteen|num
     headword: thirteen
     pos: num
+    definition_en: "the number 13"
     ipa:
       uk: /θɜːˈtiːn/
       us: /θɝːˈtiːn/
@@ -104,6 +113,7 @@ entries:
       - numbers
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thirteen, checked: 2026-09-30, field: cefr }
@@ -113,6 +123,7 @@ entries:
   - id: thirty|num
     headword: thirty
     pos: num
+    definition_en: "the number 30"
     ipa:
       uk: /ˈθɜː.ti/
       us: /ˈθɝː.t̬i/
@@ -126,6 +137,7 @@ entries:
       - numbers
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/thirty, checked: 2026-09-30, field: ipa.uk }
@@ -134,6 +146,7 @@ entries:
   - id: take-a-shower|colloc
     headword: take a shower
     pos: colloc
+    definition_en: "to wash your body under running water"
     ipa:
       uk: /teɪk ə ˈʃaʊ.ə/
       us: /teɪk ə ˈʃaʊ.ɚ/
@@ -146,6 +159,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -154,6 +168,7 @@ entries:
   - id: twice|adv
     headword: twice
     pos: adv
+    definition_en: "two times"
     ipa:
       uk: /twaɪs/
       us: /twaɪs/
@@ -169,6 +184,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/twice, checked: 2026-09-30, field: cefr }
@@ -178,6 +194,7 @@ entries:
   - id: timetable|n
     headword: timetable
     pos: n
+    definition_en: "a list showing when lessons, buses or trains happen"
     ipa:
       uk: /ˈtaɪmˌteɪ.bəl/
       us: /ˈtaɪmˌteɪ.bəl/
@@ -192,6 +209,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/timetable, checked: 2026-09-30, field: ipa.uk }
@@ -200,6 +218,7 @@ entries:
   - id: textbook|n
     headword: textbook
     pos: n
+    definition_en: "a book used for studying a subject"
     ipa:
       uk: /ˈtekst.bʊk/
       us: /ˈtekst.bʊk/
@@ -210,6 +229,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/textbook, checked: 2026-09-30, field: cefr }
@@ -219,6 +239,7 @@ entries:
   - id: take-notes|colloc
     headword: take notes
     pos: colloc
+    definition_en: "to write down important information while listening"
     ipa:
       uk: /ˌteɪk ˈnəʊts/
       us: /ˌteɪk ˈnoʊts/
@@ -231,6 +252,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -239,6 +261,7 @@ entries:
   - id: temperature|n
     headword: temperature
     pos: n
+    definition_en: "how hot or cold something is"
     ipa:
       uk: /ˈtem.prə.tʃə/
       us: /ˈtem.pɚ.ə.tʃɚ/
@@ -254,6 +277,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/temperature, checked: 2026-09-30, field: cefr }
@@ -263,6 +287,7 @@ entries:
   - id: trip|n
     headword: trip
     pos: n
+    definition_en: "a journey to a place and back again"
     ipa:
       uk: /trɪp/
       us: /trɪp/
@@ -279,6 +304,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trip, checked: 2026-09-30, field: cefr }
@@ -288,6 +314,7 @@ entries:
   - id: travel|v
     headword: travel
     pos: v
+    definition_en: "to go from one place to another, often far away"
     forms:
       past: travelled
       pp: travelled
@@ -304,6 +331,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/travel, checked: 2026-09-30, field: cefr }
@@ -313,6 +341,7 @@ entries:
   - id: tourist|n
     headword: tourist
     pos: n
+    definition_en: "a person who visits a place on holiday"
     ipa:
       uk: /ˈtʊə.rɪst/
       us: /ˈtʊr.ɪst/
@@ -325,6 +354,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourist, checked: 2026-09-30, field: cefr }
@@ -334,6 +364,7 @@ entries:
   - id: try-on|phr-v
     headword: try on
     pos: phr-v
+    definition_en: "to put on clothes to see if they fit"
     forms:
       3sg: tries on
       past: tried on
@@ -351,6 +382,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -359,6 +391,7 @@ entries:
   - id: then|adv
     headword: then
     pos: adv
+    definition_en: "after that; next"
     ipa:
       uk: /ðen/
       us: /ðen/
@@ -373,6 +406,7 @@ entries:
       - linking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/then, checked: 2026-09-30, field: cefr }
@@ -382,6 +416,7 @@ entries:
   - id: traffic|n
     headword: traffic
     pos: n
+    definition_en: "the cars and other vehicles on a road"
     ipa:
       uk: /ˈtræf.ɪk/
       us: /ˈtræf.ɪk/
@@ -397,6 +432,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic, checked: 2026-09-30, field: cefr }
@@ -406,6 +442,7 @@ entries:
   - id: traffic-jam|phr-n
     headword: traffic jam
     pos: phr-n
+    definition_en: "a long line of vehicles that cannot move"
     ipa:
       uk: /ˈtræf.ɪk ˌdʒæm/
       us: /ˈtræf.ɪk ˌdʒæm/
@@ -418,6 +455,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traffic-jam, checked: 2026-09-30, field: ipa.uk }
@@ -426,6 +464,7 @@ entries:
   - id: ticket|n
     headword: ticket
     pos: n
+    definition_en: "a piece of paper that allows you to travel or enter"
     ipa:
       uk: /ˈtɪk.ɪt/
       us: /ˈtɪk.ɪt/
@@ -440,6 +479,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ticket, checked: 2026-09-30, field: cefr }
@@ -449,6 +489,7 @@ entries:
   - id: tomorrow|adv
     headword: tomorrow
     pos: adv
+    definition_en: "on the day after today"
     ipa:
       uk: /təˈmɒr.əʊ/
       us: /təˈmɑːr.oʊ/
@@ -459,6 +500,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tomorrow, checked: 2026-09-30, field: cefr }
@@ -468,6 +510,7 @@ entries:
   - id: tonight|adv
     headword: tonight
     pos: adv
+    definition_en: "this evening or night"
     ipa:
       uk: /təˈnaɪt/
       us: /təˈnaɪt/
@@ -478,6 +521,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tonight, checked: 2026-09-30, field: cefr }
@@ -487,6 +531,7 @@ entries:
   - id: tired|adj
     headword: tired
     pos: adj
+    definition_en: "needing rest or sleep"
     ipa:
       uk: /taɪəd/
       us: /taɪrd/
@@ -502,6 +547,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -511,6 +557,7 @@ entries:
   - id: tiring|adj
     headword: tiring
     pos: adj
+    definition_en: "making you need rest"
     ipa:
       uk: /ˈtaɪə.rɪŋ/
       us: /ˈtaɪr.ɪŋ/
@@ -521,6 +568,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -530,6 +578,7 @@ entries:
   - id: talk-to|phr-v
     headword: talk to
     pos: phr-v
+    definition_en: "to have a conversation with someone"
     ipa:
       uk: /ˈtɔːk tuː/
       us: /ˈtɑːk tuː/
@@ -542,6 +591,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -550,6 +600,7 @@ entries:
   - id: talk-about|phr-v
     headword: talk about
     pos: phr-v
+    definition_en: "to discuss a topic"
     ipa:
       uk: /ˈtɔːk əˌbaʊt/
       us: /ˈtɑːk əˌbaʊt/
@@ -560,6 +611,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -568,6 +620,7 @@ entries:
   - id: think-about|phr-v
     headword: think about
     pos: phr-v
+    definition_en: "to consider something carefully"
     ipa:
       uk: /ˈθɪŋk əˌbaʊt/
       us: /ˈθɪŋk əˌbaʊt/
@@ -581,6 +634,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/think_about, checked: 2026-09-30, field: ipa.uk }
@@ -589,6 +643,7 @@ entries:
   - id: translate|v
     headword: translate
     pos: v
+    definition_en: "to change words into another language"
     ipa:
       uk: /trænzˈleɪt/
       us: /trænsˈleɪt/
@@ -603,6 +658,7 @@ entries:
       - communication
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -613,6 +669,7 @@ entries:
   - id: t-shirt|n
     headword: T-shirt
     pos: n
+    definition_en: "a simple cotton top with short sleeves"
     ipa:
       uk: /ˈtiː.ʃɜːt/
       us: /ˈtiː.ʃɝːt/
@@ -623,6 +680,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/t-shirt, checked: 2026-09-30, field: cefr }
@@ -632,6 +690,7 @@ entries:
   - id: trousers|n
     headword: trousers
     pos: n
+    definition_en: "clothing that covers each leg separately"
     ipa:
       uk: /ˈtraʊ.zəz/
       us: /ˈtraʊ.zɚz/
@@ -644,6 +703,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trousers, checked: 2026-09-30, field: cefr }
@@ -653,6 +713,7 @@ entries:
   - id: tell|v
     headword: tell
     pos: v
+    definition_en: "to say something to someone"
     forms:
       past: told
       pp: told
@@ -670,6 +731,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tell, checked: 2026-09-30, field: cefr }
@@ -679,6 +741,7 @@ entries:
   - id: turn-left|colloc
     headword: turn left
     pos: colloc
+    definition_en: "to change direction to the side opposite your right hand"
     ipa:
       uk: /ˌtɜːn ˈleft/
       us: /ˌtɝːn ˈleft/
@@ -691,6 +754,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -699,6 +763,7 @@ entries:
   - id: turn-right|colloc
     headword: turn right
     pos: colloc
+    definition_en: "to change direction to the side opposite your left hand"
     ipa:
       uk: /ˌtɜːn ˈraɪt/
       us: /ˌtɝːn ˈraɪt/
@@ -709,6 +774,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -717,6 +783,7 @@ entries:
   - id: through|prep
     headword: through
     pos: prep
+    definition_en: "into one side and out of the other side"
     ipa:
       uk: /θruː/
       us: /θruː/
@@ -733,6 +800,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/through, checked: 2026-09-30, field: cefr }
@@ -742,6 +810,7 @@ entries:
   - id: tooth|n
     headword: tooth
     pos: n
+    definition_en: "one of the hard white things in your mouth"
     forms:
       plural: teeth
     ipa:
@@ -757,6 +826,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tooth, checked: 2026-09-30, field: cefr }
@@ -766,6 +836,7 @@ entries:
   - id: team|n
     headword: team
     pos: n
+    definition_en: "a group of people who play or work together"
     ipa:
       uk: /tiːm/
       us: /tiːm/
@@ -780,6 +851,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/team, checked: 2026-09-30, field: cefr }
@@ -789,6 +861,7 @@ entries:
   - id: tuition-fee|phr-n
     headword: tuition fee
     pos: phr-n
+    definition_en: "the money you pay to study at a school or university"
     ipa:
       uk: /tjuˈɪʃ.ən fiː/
       us: /tuˈɪʃ.ən fiː/
@@ -806,6 +879,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -814,6 +888,7 @@ entries:
   - id: technology|n
     headword: technology
     pos: n
+    definition_en: "scientific knowledge used to make machines and tools"
     ipa:
       uk: /tekˈnɒl.ə.dʒi/
       us: /tekˈnɑː.lə.dʒi/
@@ -832,6 +907,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/technology, checked: 2026-09-30, field: cefr }
@@ -841,6 +917,7 @@ entries:
   - id: trend|n
     headword: trend
     pos: n
+    definition_en: "a general direction of change"
     ipa:
       uk: /trend/
       us: /trend/
@@ -855,6 +932,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trend, checked: 2026-09-30, field: cefr }
@@ -864,6 +942,7 @@ entries:
   - id: take-up|phr-v
     headword: take up
     pos: phr-v
+    definition_en: "to start a new hobby or sport"
     forms:
       past: took up
       pp: taken up
@@ -881,6 +960,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -889,6 +969,7 @@ entries:
   - id: tournament|n
     headword: tournament
     pos: n
+    definition_en: "a series of games to find the best player or team"
     ipa:
       uk: /ˈtʊə.nə.mənt/
       us: /ˈtɝː.nə.mənt/
@@ -903,6 +984,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tournament, checked: 2026-09-30, field: cefr }
@@ -912,6 +994,7 @@ entries:
   - id: thief|n
     headword: thief
     pos: n
+    definition_en: "a person who takes things that are not theirs"
     forms:
       plural: thieves
     ipa:
@@ -926,6 +1009,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thief, checked: 2026-09-30, field: cefr }
@@ -935,6 +1019,7 @@ entries:
   - id: therefore|adv
     headword: therefore
     pos: adv
+    definition_en: "for that reason; as a result"
     ipa:
       uk: /ˈðeə.fɔːr/
       us: /ˈðer.fɔːr/
@@ -949,6 +1034,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/therefore, checked: 2026-09-30, field: cefr }
@@ -958,6 +1044,7 @@ entries:
   - id: traditional|adj
     headword: traditional
     pos: adj
+    definition_en: "following customs from the past"
     ipa:
       uk: /trəˈdɪʃ.ən.əl/
       us: /trəˈdɪʃ.ən.əl/
@@ -976,6 +1063,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/traditional, checked: 2026-09-30, field: cefr }
@@ -985,6 +1073,7 @@ entries:
   - id: teenager|n
     headword: teenager
     pos: n
+    definition_en: "a person aged between 13 and 19"
     ipa:
       uk: /ˈtiːnˌeɪ.dʒər/
       us: /ˈtiːnˌeɪ.dʒɚ/
@@ -1000,6 +1089,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/teenager, checked: 2026-09-30, field: cefr }
@@ -1009,6 +1099,7 @@ entries:
   - id: tourism|n
     headword: tourism
     pos: n
+    definition_en: "the business of providing services for people on holiday"
     ipa:
       uk: /ˈtʊə.rɪ.zəm/
       us: /ˈtʊr.ɪ.zəm/
@@ -1027,6 +1118,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tourism, checked: 2026-09-30, field: cefr }
@@ -1036,6 +1128,7 @@ entries:
   - id: tradition|n
     headword: tradition
     pos: n
+    definition_en: "a custom passed from one generation to the next"
     ipa:
       uk: /trəˈdɪʃ.ən/
       us: /trəˈdɪʃ.ən/
@@ -1051,6 +1144,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tradition, checked: 2026-09-30, field: cefr }
@@ -1060,6 +1154,7 @@ entries:
   - id: tourist-attraction|phr-n
     headword: tourist attraction
     pos: phr-n
+    definition_en: "a place that many travellers visit"
     ipa:
       uk: /ˈtʊə.rɪst əˌtræk.ʃən/
       us: /ˈtʊr.ɪst əˌtræk.ʃən/
@@ -1073,6 +1168,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1081,6 +1177,7 @@ entries:
   - id: the-majority-of|colloc
     headword: the majority of
     pos: colloc
+    definition_en: "most of a group"
     ipa:
       uk: /ðə məˈdʒɒr.ə.ti əv/
       us: /ðə məˈdʒɔːr.ə.t̬i əv/
@@ -1097,6 +1194,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1105,6 +1203,7 @@ entries:
   - id: traffic-congestion|phr-n
     headword: traffic congestion
     pos: phr-n
+    definition_en: "too many vehicles on the roads, causing delays"
     ipa:
       uk: /ˈtræf.ɪk kənˌdʒes.tʃən/
       us: /ˈtræf.ɪk kənˌdʒes.tʃən/
@@ -1121,6 +1220,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1129,6 +1229,7 @@ entries:
   - id: to-be-honest|idiom
     headword: to be honest
     pos: idiom
+    definition_en: "used to say what you really think"
     ipa:
       uk: /tə bi ˈɒn.ɪst/
       us: /tə bi ˈɑː.nɪst/
@@ -1141,6 +1242,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1149,6 +1251,7 @@ entries:
   - id: trade|n
     headword: trade
     pos: n
+    definition_en: "buying and selling goods between countries"
     ipa:
       uk: /treɪd/
       us: /treɪd/
@@ -1167,6 +1270,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trade, checked: 2026-09-30, field: cefr }
@@ -1176,6 +1280,7 @@ entries:
   - id: trade-barrier|phr-n
     headword: trade barrier
     pos: phr-n
+    definition_en: "a tax or rule that limits imports"
     forms:
       plural: trade barriers
     ipa:
@@ -1192,6 +1297,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1200,6 +1306,7 @@ entries:
   - id: table|n
     headword: table
     pos: n
+    definition_en: "information arranged in rows and columns"
     ipa:
       uk: /ˈteɪ.bəl/
       us: /ˈteɪ.bəl/
@@ -1215,6 +1322,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/table, checked: 2026-09-30, field: cefr }
@@ -1224,6 +1332,7 @@ entries:
   - id: tax|n
     headword: tax
     pos: n
+    definition_en: "money people must pay to the government"
     ipa:
       uk: /tæks/
       us: /tæks/
@@ -1241,6 +1350,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tax, checked: 2026-09-30, field: cefr }
@@ -1250,6 +1360,7 @@ entries:
   - id: taxation|n
     headword: taxation
     pos: n
+    definition_en: "the system of collecting money for the state from people"
     ipa:
       uk: /tækˈseɪ.ʃən/
       us: /tækˈseɪ.ʃən/
@@ -1265,6 +1376,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/taxation, checked: 2026-09-30, field: ipa.uk }
@@ -1273,6 +1385,7 @@ entries:
   - id: tackle|v
     headword: tackle
     pos: v
+    definition_en: "to make an effort to deal with a difficult problem"
     ipa:
       uk: /ˈtæk.əl/
       us: /ˈtæk.əl/
@@ -1289,6 +1402,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tackle, checked: 2026-09-30, field: cefr }
@@ -1298,6 +1412,7 @@ entries:
   - id: transport|v
     headword: transport
     pos: v
+    definition_en: "to move goods or people from one place to another"
     ipa:
       uk: /trænˈspɔːt/
       us: /trænˈspɔːrt/
@@ -1314,6 +1429,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/transport_2, checked: 2026-09-30, field: cefr }
@@ -1323,6 +1439,7 @@ entries:
   - id: transform|v
     headword: transform
     pos: v
+    definition_en: "to change something completely"
     ipa:
       uk: /trænsˈfɔːm/
       us: /trænsˈfɔːrm/
@@ -1337,6 +1454,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/transform, checked: 2026-09-30, field: cefr }
@@ -1346,6 +1464,7 @@ entries:
   - id: tertiary-education|phr-n
     headword: tertiary education
     pos: phr-n
+    definition_en: "education at university or college level"
     ipa:
       uk: /ˈtɜː.ʃər.i ˌedʒ.uˈkeɪ.ʃən/
       us: /ˈtɝː.ʃi.er.i ˌedʒ.əˈkeɪ.ʃən/
@@ -1361,6 +1480,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1369,6 +1489,7 @@ entries:
   - id: theoretical|adj
     headword: theoretical
     pos: adj
+    definition_en: "based on ideas rather than practice"
     ipa:
       uk: /ˌθɪəˈret.ɪ.kəl/
       us: /ˌθiː.əˈret̬.ɪ.kəl/
@@ -1385,6 +1506,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/theoretical, checked: 2026-09-30, field: cefr }
@@ -1394,6 +1516,7 @@ entries:
   - id: tend-to|phr-v
     headword: tend to
     pos: phr-v
+    definition_en: "to usually do something"
     ipa:
       uk: /ˈtend tuː/
       us: /ˈtend tuː/
@@ -1409,6 +1532,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1417,6 +1541,7 @@ entries:
   - id: thus|adv
     headword: thus
     pos: adv
+    definition_en: "in this way; so"
     ipa:
       uk: /ðʌs/
       us: /ðʌs/
@@ -1432,6 +1557,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/thus, checked: 2026-09-30, field: cefr }
@@ -1441,6 +1567,7 @@ entries:
   - id: trial|n
     headword: trial
     pos: n
+    definition_en: "a legal process in court to decide if someone is guilty"
     ipa:
       uk: /traɪəl/
       us: /traɪəl/
@@ -1456,6 +1583,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1465,6 +1593,7 @@ entries:
   - id: transparency|n
     headword: transparency
     pos: n
+    definition_en: "being open and honest about how things are done"
     ipa:
       uk: /trænˈspær.ən.si/
       us: /trænˈsper.ən.si/
@@ -1480,6 +1609,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1489,6 +1619,7 @@ entries:
   - id: tech-savvy|adj
     headword: tech-savvy
     pos: adj
+    definition_en: "good at using modern technology"
     ipa:
       uk: /ˌtekˈsæv.i/
       us: /ˌtekˈsæv.i/
@@ -1501,6 +1632,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/tech-savvy, checked: 2026-09-30, field: ipa.uk }
@@ -1509,6 +1641,7 @@ entries:
   - id: trigger|v
     headword: trigger
     pos: v
+    definition_en: "to cause something to start suddenly"
     ipa:
       uk: /ˈtrɪɡ.ər/
       us: /ˈtrɪɡ.ɚ/
@@ -1524,6 +1657,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/trigger, checked: 2026-09-30, field: cefr }
@@ -1533,6 +1667,7 @@ entries:
   - id: take-for-granted|idiom
     headword: take for granted
     pos: idiom
+    definition_en: "to not appreciate something because it is always there"
     forms:
       past: took for granted
     ipa:
@@ -1550,6 +1685,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1558,6 +1694,7 @@ entries:
   - id: triple|v
     headword: triple
     pos: v
+    definition_en: "to become three times as large"
     ipa:
       uk: /ˈtrɪp.əl/
       us: /ˈtrɪp.əl/
@@ -1571,6 +1708,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/triple_3, checked: 2026-09-30, field: ipa.uk }
@@ -1579,6 +1717,7 @@ entries:
   - id: the-former|pron
     headword: the former
     pos: pron
+    definition_en: "the first of two things just mentioned"
     ipa:
       uk: /ðə ˈfɔː.mər/
       us: /ðə ˈfɔːr.mɚ/
@@ -1591,6 +1730,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1599,6 +1739,7 @@ entries:
   - id: the-latter|pron
     headword: the latter
     pos: pron
+    definition_en: "the second of two things just mentioned"
     ipa:
       uk: /ðə ˈlæt.ər/
       us: /ðə ˈlæt̬.ɚ/
@@ -1611,6 +1752,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1619,6 +1761,7 @@ entries:
   - id: turning-point|phr-n
     headword: turning point
     pos: phr-n
+    definition_en: "a moment when an important change happens"
     ipa:
       uk: /ˈtɜː.nɪŋ ˌpɔɪnt/
       us: /ˈtɝː.nɪŋ ˌpɔɪnt/
@@ -1632,6 +1775,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/turning-point, checked: 2026-09-30, field: ipa.uk }
@@ -1640,6 +1784,7 @@ entries:
   - id: telescope|n
     headword: telescope
     pos: n
+    definition_en: "an instrument for looking at distant objects"
     ipa:
       uk: /ˈtel.ɪ.skəʊp/
       us: /ˈtel.ə.skoʊp/
@@ -1653,6 +1798,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/telescope, checked: 2026-09-30, field: ipa.uk }
@@ -1661,6 +1807,7 @@ entries:
   - id: taxpayer|n
     headword: taxpayer
     pos: n
+    definition_en: "a person who pays money to the government"
     ipa:
       uk: /ˈtæksˌpeɪ.ər/
       us: /ˈtæksˌpeɪ.ɚ/
@@ -1675,6 +1822,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/taxpayer, checked: 2026-09-30, field: cefr }
@@ -1684,6 +1832,7 @@ entries:
   - id: task-response|phr-n
     headword: task response
     pos: phr-n
+    definition_en: "the IELTS criterion judging how fully an essay answers the question"
     ipa:
       uk: /ˈtɑːsk rɪˌspɒns/
       us: /ˈtæsk rɪˌspɑːns/
@@ -1696,6 +1845,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

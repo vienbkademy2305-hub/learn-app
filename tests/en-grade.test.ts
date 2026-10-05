@@ -67,6 +67,14 @@ describe("English snapshot", () => {
     }
   });
 
+  it("every word has a short English definition that does not give the word away (word game)", () => {
+    for (const w of Object.values(snap.words)) {
+      expect(w.definition_en, w.id).toBeTruthy();
+      expect(w.definition_en!.split(/\s+/).length, w.id).toBeLessThanOrEqual(15);
+      expect(` ${w.definition_en!.toLowerCase()} `, w.id).not.toContain(` ${w.headword.toLowerCase()} `);
+    }
+  });
+
   it("listening exercises never show their script in the visible passage", () => {
     for (const l of snap.lessons)
       for (const s of l.steps)

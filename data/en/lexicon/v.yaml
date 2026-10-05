@@ -3,6 +3,7 @@ entries:
   - id: vegetable|n
     headword: vegetable
     pos: n
+    definition_en: "a plant eaten as food, e.g. carrots or cabbage"
     forms:
       plural: vegetables
     ipa:
@@ -19,6 +20,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vegetable, checked: 2026-09-30, field: cefr }
@@ -28,6 +30,7 @@ entries:
   - id: visit|v
     headword: visit
     pos: v
+    definition_en: "to go to see a person or place"
     forms:
       past: visited
     ipa:
@@ -44,6 +47,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visit, checked: 2026-09-30, field: cefr }
@@ -53,6 +57,7 @@ entries:
   - id: vietnamese|adj
     headword: Vietnamese
     pos: adj
+    definition_en: "from or connected with Vietnam"
     ipa:
       uk: /ˌvjet.nəˈmiːz/
       us: /ˌvjet.nəˈmiːz/
@@ -67,6 +72,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -75,6 +81,7 @@ entries:
   - id: volunteer|n
     headword: volunteer
     pos: n
+    definition_en: "a person who works without being paid"
     ipa:
       uk: /ˌvɒl.ənˈtɪər/
       us: /ˌvɑː.lənˈtɪr/
@@ -91,6 +98,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/volunteer, checked: 2026-09-30, field: cefr }
@@ -100,6 +108,7 @@ entries:
   - id: victim|n
     headword: victim
     pos: n
+    definition_en: "a person who is hurt or harmed by a crime"
     ipa:
       uk: /ˈvɪk.tɪm/
       us: /ˈvɪk.tɪm/
@@ -114,6 +123,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/victim, checked: 2026-09-30, field: cefr }
@@ -123,6 +133,7 @@ entries:
   - id: value|n
     headword: value
     pos: n
+    definition_en: "a belief about what is important in life; or what something is worth"
     forms:
       plural: values
     ipa:
@@ -143,6 +154,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/value, checked: 2026-09-30, field: cefr }
@@ -152,6 +164,7 @@ entries:
   - id: visitor|n
     headword: visitor
     pos: n
+    definition_en: "a person who comes to see a place or person"
     ipa:
       uk: /ˈvɪz.ɪ.tər/
       us: /ˈvɪz.ɪ.t̬ɚ/
@@ -169,6 +182,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/visitor, checked: 2026-09-30, field: cefr }
@@ -178,6 +192,7 @@ entries:
   - id: vibrant|adj
     headword: vibrant
     pos: adj
+    definition_en: "full of energy and excitement"
     ipa:
       uk: /ˈvaɪ.brənt/
       us: /ˈvaɪ.brənt/
@@ -195,6 +210,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vibrant, checked: 2026-09-30, field: cefr }
@@ -204,6 +220,7 @@ entries:
   - id: viral|adj
     headword: viral
     pos: adj
+    definition_en: "spreading very quickly online"
     ipa:
       uk: /ˈvaɪə.rəl/
       us: /ˈvaɪ.rəl/
@@ -219,6 +236,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -229,6 +247,7 @@ entries:
   - id: view|n
     headword: view
     pos: n
+    definition_en: "an opinion"
     ipa:
       uk: /vjuː/
       us: /vjuː/
@@ -246,6 +265,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/view, checked: 2026-09-30, field: cefr }
@@ -255,6 +275,7 @@ entries:
   - id: vocational-training|phr-n
     headword: vocational training
     pos: phr-n
+    definition_en: "training for a particular job, e.g. plumbing"
     ipa:
       uk: /vəʊˌkeɪ.ʃən.əl ˈtreɪ.nɪŋ/
       us: /voʊˌkeɪ.ʃən.əl ˈtreɪ.nɪŋ/
@@ -269,6 +290,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -277,6 +299,7 @@ entries:
   - id: violent-crime|phr-n
     headword: violent crime
     pos: phr-n
+    definition_en: "illegal acts that physically hurt people"
     ipa:
       uk: /ˌvaɪə.lənt ˈkraɪm/
       us: /ˌvaɪ.lənt ˈkraɪm/
@@ -289,6 +312,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -297,6 +321,7 @@ entries:
   - id: valid|adj
     headword: valid
     pos: adj
+    definition_en: "based on good reasons; acceptable"
     ipa:
       uk: /ˈvæl.ɪd/
       us: /ˈvæl.ɪd/
@@ -311,6 +336,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/valid, checked: 2026-09-30, field: cefr }
@@ -320,6 +346,7 @@ entries:
   - id: vaccination|n
     headword: vaccination
     pos: n
+    definition_en: "giving people an injection to protect them from disease"
     ipa:
       uk: /ˌvæk.sɪˈneɪ.ʃən/
       us: /ˌvæk.səˈneɪ.ʃən/
@@ -336,6 +363,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -346,6 +374,7 @@ entries:
   - id: vulnerable|adj
     headword: vulnerable
     pos: adj
+    definition_en: "easily hurt or harmed"
     ipa:
       uk: /ˈvʌl.nər.ə.bəl/
       us: /ˈvʌl.nɚ.ə.bəl/
@@ -363,6 +392,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vulnerable, checked: 2026-09-30, field: cefr }
@@ -372,6 +402,7 @@ entries:
   - id: vividly|adv
     headword: vividly
     pos: adv
+    definition_en: "in a very clear and detailed way"
     ipa:
       uk: /ˈvɪv.ɪd.li/
       us: /ˈvɪv.ɪd.li/
@@ -386,6 +417,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/vividly, checked: 2026-09-30, field: ipa.uk }
@@ -394,6 +426,7 @@ entries:
   - id: violate|v
     headword: violate
     pos: v
+    definition_en: "to break a law or agreement"
     ipa:
       uk: /ˈvaɪə.leɪt/
       us: /ˈvaɪə.leɪt/
@@ -409,6 +442,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/violate, checked: 2026-09-30, field: cefr }

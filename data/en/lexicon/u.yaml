@@ -3,6 +3,7 @@ entries:
   - id: under|prep
     headword: under
     pos: prep
+    definition_en: "below something"
     ipa:
       uk: /ˈʌn.də/
       us: /ˈʌn.dɚ/
@@ -13,6 +14,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/under, checked: 2026-09-30, field: cefr }
@@ -22,6 +24,7 @@ entries:
   - id: usually|adv
     headword: usually
     pos: adv
+    definition_en: "in most cases; most of the time"
     ipa:
       uk: /ˈjuː.ʒu.ə.li/
       us: /ˈjuː.ʒu.ə.li/
@@ -33,6 +36,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/usually, checked: 2026-09-30, field: cefr }
@@ -42,6 +46,7 @@ entries:
   - id: uniform|n
     headword: uniform
     pos: n
+    definition_en: "special clothes that all students or workers wear"
     ipa:
       uk: /ˈjuː.nɪ.fɔːm/
       us: /ˈjuː.nə.fɔːrm/
@@ -58,6 +63,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -68,6 +74,7 @@ entries:
   - id: unemployed|adj
     headword: unemployed
     pos: adj
+    definition_en: "without a job"
     ipa:
       uk: /ˌʌn.ɪmˈplɔɪd/
       us: /ˌʌn.ɪmˈplɔɪd/
@@ -78,6 +85,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployed, checked: 2026-09-30, field: cefr }
@@ -87,6 +95,7 @@ entries:
   - id: uncle|n
     headword: uncle
     pos: n
+    definition_en: "the brother of your mother or father"
     ipa:
       uk: /ˈʌŋ.kəl/
       us: /ˈʌŋ.kəl/
@@ -100,6 +109,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/uncle, checked: 2026-09-30, field: cefr }
@@ -109,6 +119,7 @@ entries:
   - id: until|prep
     headword: until
     pos: prep
+    definition_en: "up to a particular time, and then stopping"
     ipa:
       uk: /ənˈtɪl/
       us: /ənˈtɪl/
@@ -123,6 +134,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/until, checked: 2026-09-30, field: ipa.uk }
@@ -131,6 +143,7 @@ entries:
   - id: user|n
     headword: user
     pos: n
+    definition_en: "a person who uses a product or service"
     ipa:
       uk: /ˈjuː.zər/
       us: /ˈjuː.zɚ/
@@ -145,6 +158,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/user, checked: 2026-09-30, field: cefr }
@@ -154,6 +168,7 @@ entries:
   - id: unless|conj
     headword: unless
     pos: conj
+    definition_en: "except if"
     ipa:
       uk: /ənˈles/
       us: /ənˈles/
@@ -171,6 +186,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unless, checked: 2026-09-30, field: cefr }
@@ -180,6 +196,7 @@ entries:
   - id: unique|adj
     headword: unique
     pos: adj
+    definition_en: "being the only one of its kind"
     ipa:
       uk: /juːˈniːk/
       us: /juːˈniːk/
@@ -198,6 +215,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unique, checked: 2026-09-30, field: cefr }
@@ -207,6 +225,7 @@ entries:
   - id: urbanisation|n
     headword: urbanisation
     pos: n
+    definition_en: "the process of more people moving to live in cities"
     ipa:
       uk: /ˌɜː.bən.aɪˈzeɪ.ʃən/
       us: /ˌɝː.bən.əˈzeɪ.ʃən/
@@ -223,6 +242,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -231,6 +251,7 @@ entries:
   - id: urban|adj
     headword: urban
     pos: adj
+    definition_en: "connected with towns or cities"
     ipa:
       uk: /ˈɜː.bən/
       us: /ˈɝː.bən/
@@ -248,6 +269,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/urban, checked: 2026-09-30, field: cefr }
@@ -257,6 +279,7 @@ entries:
   - id: urban-sprawl|phr-n
     headword: urban sprawl
     pos: phr-n
+    definition_en: "uncontrolled spread of a city into surrounding land"
     ipa:
       uk: /ˌɜː.bən ˈsprɔːl/
       us: /ˌɝː.bən ˈsprɑːl/
@@ -270,6 +293,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -278,6 +302,7 @@ entries:
   - id: unemployment|n
     headword: unemployment
     pos: n
+    definition_en: "the situation of not having a job"
     ipa:
       uk: /ˌʌn.ɪmˈplɔɪ.mənt/
       us: /ˌʌn.ɪmˈplɔɪ.mənt/
@@ -296,6 +321,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unemployment, checked: 2026-09-30, field: cefr }
@@ -305,6 +331,7 @@ entries:
   - id: unprecedented|adj
     headword: unprecedented
     pos: adj
+    definition_en: "never having happened before"
     ipa:
       uk: /ʌnˈpres.ɪ.den.tɪd/
       us: /ʌnˈpres.ə.den.t̬ɪd/
@@ -319,6 +346,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -329,6 +357,7 @@ entries:
   - id: upskill|v
     headword: upskill
     pos: v
+    definition_en: "to learn new skills for your job"
     ipa:
       uk: /ˈʌp.skɪl/
       us: /ˈʌp.skɪl/
@@ -344,6 +373,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/upskill, checked: 2026-09-30, field: ipa.uk }
@@ -352,6 +382,7 @@ entries:
   - id: utilities|n
     headword: utilities
     pos: n
+    definition_en: "services such as electricity, water and gas"
     ipa:
       uk: /juːˈtɪl.ə.tiz/
       us: /juːˈtɪl.ə.t̬iz/
@@ -365,6 +396,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -374,6 +406,7 @@ entries:
   - id: unforgettable|adj
     headword: unforgettable
     pos: adj
+    definition_en: "impossible to stop remembering"
     ipa:
       uk: /ˌʌn.fəˈɡet.ə.bəl/
       us: /ˌʌn.fɚˈɡet̬.ə.bəl/
@@ -387,6 +420,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unforgettable, checked: 2026-09-30, field: ipa.uk }
@@ -395,6 +429,7 @@ entries:
   - id: universe|n
     headword: universe
     pos: n
+    definition_en: "everything that exists, including all stars and planets"
     ipa:
       uk: /ˈjuː.nɪ.vɜːs/
       us: /ˈjuː.nə.vɝːs/
@@ -410,6 +445,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/universe, checked: 2026-09-30, field: cefr }
@@ -419,6 +455,7 @@ entries:
   - id: unethical|adj
     headword: unethical
     pos: adj
+    definition_en: "not morally acceptable"
     ipa:
       uk: /ʌnˈeθ.ɪ.kəl/
       us: /ʌnˈeθ.ɪ.kəl/
@@ -432,6 +469,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/unethical, checked: 2026-09-30, field: ipa.uk }
@@ -440,6 +478,7 @@ entries:
   - id: underdeveloped|adj
     headword: underdeveloped
     pos: adj
+    definition_en: "(of an idea) not explained fully"
     ipa:
       uk: /ˌʌn.də.dɪˈvel.əpt/
       us: /ˌʌn.dɚ.dɪˈvel.əpt/
@@ -452,6 +491,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/underdeveloped, checked: 2026-09-30, field: ipa.uk }

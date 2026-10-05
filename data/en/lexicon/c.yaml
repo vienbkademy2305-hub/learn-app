@@ -3,6 +3,7 @@ entries:
   - id: curly|adj
     headword: curly
     pos: adj
+    definition_en: "(of hair) forming round shapes, not straight"
     ipa:
       uk: /ˈkɜː.li/
       us: /ˈkɝː.li/
@@ -15,6 +16,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curly, checked: 2026-09-30, field: cefr }
@@ -24,6 +26,7 @@ entries:
   - id: confident|adj
     headword: confident
     pos: adj
+    definition_en: "feeling sure about yourself and your abilities"
     forms:
       comparative: more confident
     ipa:
@@ -37,6 +40,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -47,6 +51,7 @@ entries:
   - id: chair|n
     headword: chair
     pos: n
+    definition_en: "a seat for one person, with a back and four legs"
     ipa:
       uk: /tʃeə/
       us: /tʃer/
@@ -58,6 +63,7 @@ entries:
       - furniture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chair, checked: 2026-09-30, field: cefr }
@@ -67,6 +73,7 @@ entries:
   - id: cook|v
     headword: cook
     pos: v
+    definition_en: "to make food ready to eat by heating it"
     ipa:
       uk: /kʊk/
       us: /kʊk/
@@ -80,6 +87,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cook, checked: 2026-09-30, field: cefr }
@@ -89,6 +97,7 @@ entries:
   - id: classroom|n
     headword: classroom
     pos: n
+    definition_en: "a room in a school where lessons happen"
     ipa:
       uk: /ˈklɑːs.ruːm/
       us: /ˈklæs.ruːm/
@@ -99,6 +108,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classroom, checked: 2026-09-30, field: cefr }
@@ -108,6 +118,7 @@ entries:
   - id: classmate|n
     headword: classmate
     pos: n
+    definition_en: "a person in the same class as you"
     ipa:
       uk: /ˈklɑːs.meɪt/
       us: /ˈklæs.meɪt/
@@ -118,6 +129,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/classmate, checked: 2026-09-30, field: ipa.uk }
@@ -126,6 +138,7 @@ entries:
   - id: cloudy|adj
     headword: cloudy
     pos: adj
+    definition_en: "with a lot of grey or white clouds in the sky"
     ipa:
       uk: /ˈklaʊ.di/
       us: /ˈklaʊ.di/
@@ -137,6 +150,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cloudy, checked: 2026-09-30, field: ipa.uk }
@@ -145,6 +159,7 @@ entries:
   - id: company|n
     headword: company
     pos: n
+    definition_en: "a business that makes or sells things"
     forms:
       plural: companies
     ipa:
@@ -162,6 +177,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/company, checked: 2026-09-30, field: cefr }
@@ -171,6 +187,7 @@ entries:
   - id: colleague|n
     headword: colleague
     pos: n
+    definition_en: "a person you work with"
     ipa:
       uk: /ˈkɒl.iːɡ/
       us: /ˈkɑː.liːɡ/
@@ -184,6 +201,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colleague, checked: 2026-09-30, field: cefr }
@@ -193,6 +211,7 @@ entries:
   - id: customer|n
     headword: customer
     pos: n
+    definition_en: "a person who buys things from a shop or business"
     ipa:
       uk: /ˈkʌs.tə.mə/
       us: /ˈkʌs.tə.mɚ/
@@ -204,6 +223,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/customer, checked: 2026-09-30, field: cefr }
@@ -213,6 +233,7 @@ entries:
   - id: cough|n
     headword: cough
     pos: n
+    definition_en: "a sudden noisy push of air from your throat"
     ipa:
       uk: /kɒf/
       us: /kɑːf/
@@ -229,6 +250,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cough_2, checked: 2026-09-30, field: ipa.uk }
@@ -237,6 +259,7 @@ entries:
   - id: cold|n
     headword: cold
     pos: n
+    definition_en: "a common illness that gives you a runny nose"
     ipa:
       uk: /kəʊld/
       us: /koʊld/
@@ -252,6 +275,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cold_2, checked: 2026-09-30, field: cefr }
@@ -261,6 +285,7 @@ entries:
   - id: chicken|n
     headword: chicken
     pos: n
+    definition_en: "a farm bird, or its meat"
     ipa:
       uk: /ˈtʃɪk.ɪn/
       us: /ˈtʃɪk.ɪn/
@@ -275,6 +300,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chicken, checked: 2026-09-30, field: cefr }
@@ -284,6 +310,7 @@ entries:
   - id: cheese|n
     headword: cheese
     pos: n
+    definition_en: "a solid food made from milk"
     ipa:
       uk: /tʃiːz/
       us: /tʃiːz/
@@ -296,6 +323,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheese, checked: 2026-09-30, field: cefr }
@@ -305,6 +333,7 @@ entries:
   - id: cheap|adj
     headword: cheap
     pos: adj
+    definition_en: "costing little money"
     forms:
       comparative: cheaper
       superlative: cheapest
@@ -321,6 +350,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheap, checked: 2026-09-30, field: cefr }
@@ -330,6 +360,7 @@ entries:
   - id: cash|n
     headword: cash
     pos: n
+    definition_en: "money in coins and notes"
     ipa:
       uk: /kæʃ/
       us: /kæʃ/
@@ -343,6 +374,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cash, checked: 2026-09-30, field: cefr }
@@ -352,6 +384,7 @@ entries:
   - id: credit-card|phr-n
     headword: credit card
     pos: phr-n
+    definition_en: "a plastic card you use to buy things now and pay later"
     ipa:
       uk: /ˈkred.ɪt ˌkɑːd/
       us: /ˈkred.ɪt ˌkɑːrd/
@@ -365,6 +398,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/credit-card, checked: 2026-09-30, field: ipa.uk }
@@ -373,6 +407,7 @@ entries:
   - id: cost|v
     headword: cost
     pos: v
+    definition_en: "to have a price of"
     forms:
       past: cost
       pp: cost
@@ -390,6 +425,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cost_2, checked: 2026-09-30, field: cefr }
@@ -399,6 +435,7 @@ entries:
   - id: change|n
     headword: change
     pos: n
+    definition_en: "the money you get back when you pay too much"
     ipa:
       uk: /tʃeɪndʒ/
       us: /tʃeɪndʒ/
@@ -414,6 +451,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/change_2, checked: 2026-09-30, field: cefr }
@@ -423,6 +461,7 @@ entries:
   - id: crowded|adj
     headword: crowded
     pos: adj
+    definition_en: "full of people"
     ipa:
       uk: /ˈkraʊ.dɪd/
       us: /ˈkraʊ.dɪd/
@@ -437,6 +476,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crowded, checked: 2026-09-30, field: cefr }
@@ -446,6 +486,7 @@ entries:
   - id: convenient|adj
     headword: convenient
     pos: adj
+    definition_en: "easy to use and saving time"
     forms:
       comparative: more convenient
     ipa:
@@ -459,6 +500,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convenient, checked: 2026-09-30, field: cefr }
@@ -468,6 +510,7 @@ entries:
   - id: commute|v
     headword: commute
     pos: v
+    definition_en: "to travel regularly between home and work"
     ipa:
       uk: /kəˈmjuːt/
       us: /kəˈmjuːt/
@@ -481,6 +524,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commute, checked: 2026-09-30, field: ipa.uk }
@@ -489,6 +533,7 @@ entries:
   - id: career|n
     headword: career
     pos: n
+    definition_en: "the jobs you do over your working life"
     ipa:
       uk: /kəˈrɪə/
       us: /kəˈrɪr/
@@ -503,6 +548,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/career, checked: 2026-09-30, field: cefr }
@@ -512,6 +558,7 @@ entries:
   - id: collect|v
     headword: collect
     pos: v
+    definition_en: "to bring things of one kind together, e.g. stamps"
     ipa:
       uk: /kəˈlekt/
       us: /kəˈlekt/
@@ -526,6 +573,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/collect, checked: 2026-09-30, field: cefr }
@@ -535,6 +583,7 @@ entries:
   - id: camping|n
     headword: camping
     pos: n
+    definition_en: "staying outdoors in a tent"
     ipa:
       uk: /ˈkæm.pɪŋ/
       us: /ˈkæm.pɪŋ/
@@ -548,6 +597,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/camping, checked: 2026-09-30, field: cefr }
@@ -557,6 +607,7 @@ entries:
   - id: chess|n
     headword: chess
     pos: n
+    definition_en: "a game for two people with kings, queens and knights"
     ipa:
       uk: /tʃes/
       us: /tʃes/
@@ -571,6 +622,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chess, checked: 2026-09-30, field: ipa.uk }
@@ -579,6 +631,7 @@ entries:
   - id: concert|n
     headword: concert
     pos: n
+    definition_en: "a performance of music in front of an audience"
     ipa:
       uk: /ˈkɒn.sət/
       us: /ˈkɑːn.sɚt/
@@ -594,6 +647,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/concert, checked: 2026-09-30, field: cefr }
@@ -603,6 +657,7 @@ entries:
   - id: club|n
     headword: club
     pos: n
+    definition_en: "a group of people who meet to share an interest"
     ipa:
       uk: /klʌb/
       us: /klʌb/
@@ -613,6 +668,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/club, checked: 2026-09-30, field: cefr }
@@ -622,6 +678,7 @@ entries:
   - id: confused|adj
     headword: confused
     pos: adj
+    definition_en: "unable to understand something"
     ipa:
       uk: /kənˈfjuːzd/
       us: /kənˈfjuːzd/
@@ -633,6 +690,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confused, checked: 2026-09-30, field: cefr }
@@ -642,6 +700,7 @@ entries:
   - id: confusing|adj
     headword: confusing
     pos: adj
+    definition_en: "difficult to understand"
     ipa:
       uk: /kənˈfjuː.zɪŋ/
       us: /kənˈfjuː.zɪŋ/
@@ -653,6 +712,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/confusing, checked: 2026-09-30, field: cefr }
@@ -662,6 +722,7 @@ entries:
   - id: chemistry|n
     headword: chemistry
     pos: n
+    definition_en: "the science of substances and how they react"
     ipa:
       uk: /ˈkem.ɪ.stri/
       us: /ˈkem.ɪ.stri/
@@ -675,6 +736,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chemistry, checked: 2026-09-30, field: cefr }
@@ -684,6 +746,7 @@ entries:
   - id: calculator|n
     headword: calculator
     pos: n
+    definition_en: "a small machine for doing sums"
     ipa:
       uk: /ˈkæl.kjə.leɪ.tə/
       us: /ˈkæl.kjə.leɪ.t̬ɚ/
@@ -697,6 +760,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/calculator, checked: 2026-09-30, field: ipa.uk }
@@ -705,6 +769,7 @@ entries:
   - id: chef|n
     headword: chef
     pos: n
+    definition_en: "a professional cook in a restaurant"
     ipa:
       uk: /ʃef/
       us: /ʃef/
@@ -718,6 +783,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chef, checked: 2026-09-30, field: cefr }
@@ -727,6 +793,7 @@ entries:
   - id: clothes|n
     headword: clothes
     pos: n
+    definition_en: "things you wear, e.g. shirts and trousers"
     ipa:
       uk: /kləʊðz/
       us: /kloʊðz/
@@ -740,6 +807,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/clothes, checked: 2026-09-30, field: cefr }
@@ -749,6 +817,7 @@ entries:
   - id: coat|n
     headword: coat
     pos: n
+    definition_en: "a long warm piece of clothing worn outside"
     ipa:
       uk: /kəʊt/
       us: /koʊt/
@@ -761,6 +830,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coat, checked: 2026-09-30, field: cefr }
@@ -770,6 +840,7 @@ entries:
   - id: casual|adj
     headword: casual
     pos: adj
+    definition_en: "relaxed and informal, not for special occasions"
     ipa:
       uk: /ˈkæʒ.ju.əl/
       us: /ˈkæʒ.u.əl/
@@ -787,6 +858,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -797,6 +869,7 @@ entries:
   - id: cinema|n
     headword: cinema
     pos: n
+    definition_en: "a building where you watch films"
     ipa:
       uk: /ˈsɪn.ə.mə/
       us: /ˈsɪn.ə.mə/
@@ -810,6 +883,7 @@ entries:
       - entertainment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cinema, checked: 2026-09-30, field: cefr }
@@ -819,6 +893,7 @@ entries:
   - id: catchy|adj
     headword: catchy
     pos: adj
+    definition_en: "(of music) easy to remember and pleasant"
     forms:
       comparative: catchier
     ipa:
@@ -835,6 +910,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catchy, checked: 2026-09-30, field: ipa.uk }
@@ -843,6 +919,7 @@ entries:
   - id: country|n
     headword: country
     pos: n
+    definition_en: "an area of land with its own government, e.g. Vietnam or Japan"
     forms:
       plural: countries
     ipa:
@@ -859,6 +936,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/country, checked: 2026-09-30, field: cefr }
@@ -868,6 +946,7 @@ entries:
   - id: chinese|adj
     headword: Chinese
     pos: adj
+    definition_en: "from or connected with China"
     ipa:
       uk: /tʃaɪˈniːz/
       us: /tʃaɪˈniːz/
@@ -881,6 +960,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chinese, checked: 2026-09-30, field: ipa.uk }
@@ -889,6 +969,7 @@ entries:
   - id: cousin|n
     headword: cousin
     pos: n
+    definition_en: "a child of your aunt or uncle"
     ipa:
       uk: /ˈkʌz.ən/
       us: /ˈkʌz.ən/
@@ -902,6 +983,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cousin, checked: 2026-09-30, field: cefr }
@@ -911,6 +993,7 @@ entries:
   - id: cotton|n
     headword: cotton
     pos: n
+    definition_en: "a soft cloth made from a plant"
     ipa:
       uk: /ˈkɒt.ən/
       us: /ˈkɑː.t̬ən/
@@ -923,6 +1006,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cotton, checked: 2026-09-30, field: cefr }
@@ -932,6 +1016,7 @@ entries:
   - id: colour|n
     headword: colour
     pos: n
+    definition_en: "red, blue, green, yellow, etc."
     ipa:
       uk: /ˈkʌl.ə/
       us: /ˈkʌl.ɚ/
@@ -944,6 +1029,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/colour, checked: 2026-09-30, field: cefr }
@@ -953,6 +1039,7 @@ entries:
   - id: carpet|n
     headword: carpet
     pos: n
+    definition_en: "a thick cloth that covers a floor"
     ipa:
       uk: /ˈkɑː.pɪt/
       us: /ˈkɑːr.pɪt/
@@ -964,6 +1051,7 @@ entries:
       - furniture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carpet, checked: 2026-09-30, field: cefr }
@@ -973,6 +1061,7 @@ entries:
   - id: come-home|colloc
     headword: come home
     pos: colloc
+    definition_en: "to return to the place where you live"
     ipa:
       uk: /ˌkʌm ˈhəʊm/
       us: /ˌkʌm ˈhoʊm/
@@ -985,6 +1074,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -993,6 +1083,7 @@ entries:
   - id: corner|n
     headword: corner
     pos: n
+    definition_en: "the point where two streets or walls meet"
     ipa:
       uk: /ˈkɔː.nə/
       us: /ˈkɔːr.nɚ/
@@ -1006,6 +1097,7 @@ entries:
       - directions
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/corner, checked: 2026-09-30, field: cefr }
@@ -1015,6 +1107,7 @@ entries:
   - id: catch|v
     headword: catch
     pos: v
+    definition_en: "to get on a bus or train in time"
     forms:
       past: caught
       pp: caught
@@ -1034,6 +1127,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/catch, checked: 2026-09-30, field: cefr }
@@ -1043,6 +1137,7 @@ entries:
   - id: cat|n
     headword: cat
     pos: n
+    definition_en: "a small pet animal that says 'meow'"
     ipa:
       uk: /kæt/
       us: /kæt/
@@ -1056,6 +1151,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cat, checked: 2026-09-30, field: cefr }
@@ -1065,6 +1161,7 @@ entries:
   - id: cow|n
     headword: cow
     pos: n
+    definition_en: "a large farm animal that gives milk"
     ipa:
       uk: /kaʊ/
       us: /kaʊ/
@@ -1078,6 +1175,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cow, checked: 2026-09-30, field: cefr }
@@ -1087,6 +1185,7 @@ entries:
   - id: coach|n
     headword: coach
     pos: n
+    definition_en: "a person who trains a sports team"
     ipa:
       uk: /kəʊtʃ/
       us: /koʊtʃ/
@@ -1099,6 +1198,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coach, checked: 2026-09-30, field: cefr }
@@ -1108,6 +1208,7 @@ entries:
   - id: carefully|adv
     headword: carefully
     pos: adv
+    definition_en: "with attention, to avoid mistakes"
     ipa:
       uk: /ˈkeə.fəl.i/
       us: /ˈker.fəl.i/
@@ -1121,6 +1222,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/carefully, checked: 2026-09-30, field: cefr }
@@ -1130,6 +1232,7 @@ entries:
   - id: curriculum|n
     headword: curriculum
     pos: n
+    definition_en: "all the subjects taught at a school or course"
     forms:
       plural: curricula
     ipa:
@@ -1151,6 +1254,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/curriculum, checked: 2026-09-30, field: cefr }
@@ -1160,6 +1264,7 @@ entries:
   - id: compulsory|adj
     headword: compulsory
     pos: adj
+    definition_en: "required by a rule or law"
     ipa:
       uk: /kəmˈpʌl.sər.i/
       us: /kəmˈpʌl.sɚ.i/
@@ -1177,6 +1282,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compulsory, checked: 2026-09-30, field: cefr }
@@ -1186,6 +1292,7 @@ entries:
   - id: creativity|n
     headword: creativity
     pos: n
+    definition_en: "the ability to produce new and original ideas"
     ipa:
       uk: /ˌkriː.eɪˈtɪv.ə.ti/
       us: /ˌkriː.eɪˈtɪv.ə.t̬i/
@@ -1203,6 +1310,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/creativity, checked: 2026-09-30, field: cefr }
@@ -1212,6 +1320,7 @@ entries:
   - id: critical-thinking|phr-n
     headword: critical thinking
     pos: phr-n
+    definition_en: "the ability to judge information carefully and logically"
     ipa:
       uk: /ˌkrɪt.ɪ.kəl ˈθɪŋ.kɪŋ/
       us: /ˌkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ/
@@ -1225,6 +1334,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/critical-thinking, checked: 2026-09-30, field: ipa.uk }
@@ -1233,6 +1343,7 @@ entries:
   - id: climate-change|phr-n
     headword: climate change
     pos: phr-n
+    definition_en: "long-term changes in the Earth's weather patterns"
     ipa:
       uk: /ˈklaɪ.mət ˌtʃeɪndʒ/
       us: /ˈklaɪ.mət ˌtʃeɪndʒ/
@@ -1248,6 +1359,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/climate-change, checked: 2026-09-30, field: ipa.uk }
@@ -1256,6 +1368,7 @@ entries:
   - id: carbon-emissions|phr-n
     headword: carbon emissions
     pos: phr-n
+    definition_en: "gases released when fuel is burned"
     ipa:
       uk: /ˌkɑː.bən iˈmɪʃ.ənz/
       us: /ˌkɑːr.bən iˈmɪʃ.ənz/
@@ -1269,6 +1382,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1277,6 +1391,7 @@ entries:
   - id: countryside|n
     headword: countryside
     pos: n
+    definition_en: "land outside towns, with fields and farms"
     ipa:
       uk: /ˈkʌn.tri.saɪd/
       us: /ˈkʌn.tri.saɪd/
@@ -1294,6 +1409,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/countryside, checked: 2026-09-30, field: cefr }
@@ -1303,6 +1419,7 @@ entries:
   - id: changing-room|phr-n
     headword: changing room
     pos: phr-n
+    definition_en: "a room where you put on sports clothes"
     ipa:
       uk: /ˈtʃeɪn.dʒɪŋ ˌruːm/
       us: /ˈtʃeɪn.dʒɪŋ ˌruːm/
@@ -1315,6 +1432,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/changing-room, checked: 2026-09-30, field: ipa.uk }
@@ -1323,6 +1441,7 @@ entries:
   - id: car-park|phr-n
     headword: car park
     pos: phr-n
+    definition_en: "an area where you leave your car"
     ipa:
       uk: /ˈkɑː ˌpɑːk/
       us: /ˈkɑːr ˌpɑːrk/
@@ -1335,6 +1454,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/car-park, checked: 2026-09-30, field: ipa.uk }
@@ -1343,6 +1463,7 @@ entries:
   - id: court|n
     headword: court
     pos: n
+    definition_en: "an area marked with lines for tennis or basketball"
     ipa:
       uk: /kɔːt/
       us: /kɔːrt/
@@ -1359,6 +1480,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/court, checked: 2026-09-30, field: cefr }
@@ -1368,6 +1490,7 @@ entries:
   - id: compete|v
     headword: compete
     pos: v
+    definition_en: "to try to win against others"
     ipa:
       uk: /kəmˈpiːt/
       us: /kəmˈpiːt/
@@ -1384,6 +1507,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compete, checked: 2026-09-30, field: cefr }
@@ -1393,6 +1517,7 @@ entries:
   - id: competition|n
     headword: competition
     pos: n
+    definition_en: "an event in which people try to win"
     ipa:
       uk: /ˌkɒm.pəˈtɪʃ.ən/
       us: /ˌkɑːm.pəˈtɪʃ.ən/
@@ -1408,6 +1533,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/competition, checked: 2026-09-30, field: cefr }
@@ -1417,6 +1543,7 @@ entries:
   - id: champion|n
     headword: champion
     pos: n
+    definition_en: "a person or team that has won a competition"
     ipa:
       uk: /ˈtʃæm.pi.ən/
       us: /ˈtʃæm.pi.ən/
@@ -1431,6 +1558,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/champion, checked: 2026-09-30, field: cefr }
@@ -1440,6 +1568,7 @@ entries:
   - id: cheer|v
     headword: cheer
     pos: v
+    definition_en: "to shout to support a team or player"
     ipa:
       uk: /tʃɪər/
       us: /tʃɪr/
@@ -1454,6 +1583,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cheer, checked: 2026-09-30, field: cefr }
@@ -1463,6 +1593,7 @@ entries:
   - id: crime|n
     headword: crime
     pos: n
+    definition_en: "an action that is against the law"
     ipa:
       uk: /kraɪm/
       us: /kraɪm/
@@ -1482,6 +1613,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crime, checked: 2026-09-30, field: cefr }
@@ -1491,6 +1623,7 @@ entries:
   - id: criminal|n
     headword: criminal
     pos: n
+    definition_en: "a person who has broken the law"
     ipa:
       uk: /ˈkrɪm.ɪ.nəl/
       us: /ˈkrɪm.ə.nəl/
@@ -1504,6 +1637,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/criminal, checked: 2026-09-30, field: cefr }
@@ -1513,6 +1647,7 @@ entries:
   - id: commit|v
     headword: commit
     pos: v
+    definition_en: "to do something wrong or illegal"
     forms:
       past: committed
       ing: committing
@@ -1532,6 +1667,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commit, checked: 2026-09-30, field: cefr }
@@ -1541,6 +1677,7 @@ entries:
   - id: community-service|phr-n
     headword: community service
     pos: phr-n
+    definition_en: "unpaid work in the local area as a punishment"
     ipa:
       uk: /kəˌmjuː.nə.ti ˈsɜː.vɪs/
       us: /kəˌmjuː.nə.t̬i ˈsɝː.vɪs/
@@ -1554,6 +1691,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/community-service, checked: 2026-09-30, field: ipa.uk }
@@ -1562,6 +1700,7 @@ entries:
   - id: crime-rate|phr-n
     headword: crime rate
     pos: phr-n
+    definition_en: "the number of crimes in an area during a period"
     ipa:
       uk: /ˈkraɪm ˌreɪt/
       us: /ˈkraɪm ˌreɪt/
@@ -1575,6 +1714,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1583,6 +1723,7 @@ entries:
   - id: close-knit|adj
     headword: close-knit
     pos: adj
+    definition_en: "(of a group) whose members care about each other"
     ipa:
       uk: /ˌkləʊsˈnɪt/
       us: /ˌkloʊsˈnɪt/
@@ -1599,6 +1740,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/close-knit, checked: 2026-09-30, field: ipa.uk }
@@ -1607,6 +1749,7 @@ entries:
   - id: communicate|v
     headword: communicate
     pos: v
+    definition_en: "to share ideas or information with others"
     ipa:
       uk: /kəˈmjuː.nɪ.keɪt/
       us: /kəˈmjuː.nə.keɪt/
@@ -1625,6 +1768,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1635,6 +1779,7 @@ entries:
   - id: childhood|n
     headword: childhood
     pos: n
+    definition_en: "the period of your life when you are a child"
     ipa:
       uk: /ˈtʃaɪld.hʊd/
       us: /ˈtʃaɪld.hʊd/
@@ -1649,6 +1794,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/childhood, checked: 2026-09-30, field: cefr }
@@ -1658,6 +1804,7 @@ entries:
   - id: cultural-heritage|phr-n
     headword: cultural heritage
     pos: phr-n
+    definition_en: "traditions, buildings and art passed down from the past"
     ipa:
       uk: /ˌkʌl.tʃər.əl ˈher.ɪ.tɪdʒ/
       us: /ˌkʌl.tʃɚ.əl ˈher.ə.t̬ɪdʒ/
@@ -1675,6 +1822,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1683,6 +1831,7 @@ entries:
   - id: culture|n
     headword: culture
     pos: n
+    definition_en: "the customs, arts and beliefs of a group of people"
     ipa:
       uk: /ˈkʌl.tʃər/
       us: /ˈkʌl.tʃɚ/
@@ -1698,6 +1847,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/culture, checked: 2026-09-30, field: cefr }
@@ -1707,6 +1857,7 @@ entries:
   - id: cultural-identity|phr-n
     headword: cultural identity
     pos: phr-n
+    definition_en: "a sense of belonging to a group with shared traditions"
     ipa:
       uk: /ˌkʌl.tʃər.əl aɪˈden.tə.ti/
       us: /ˌkʌl.tʃɚ.əl aɪˈden.t̬ə.t̬i/
@@ -1720,6 +1871,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1728,6 +1880,7 @@ entries:
   - id: custom|n
     headword: custom
     pos: n
+    definition_en: "a usual way of doing something in a society"
     ipa:
       uk: /ˈkʌs.təm/
       us: /ˈkʌs.təm/
@@ -1743,6 +1896,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/custom, checked: 2026-09-30, field: cefr }
@@ -1752,6 +1906,7 @@ entries:
   - id: category|n
     headword: category
     pos: n
+    definition_en: "a group of things of the same type"
     forms:
       plural: categories
     ipa:
@@ -1769,6 +1924,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/category, checked: 2026-09-30, field: cefr }
@@ -1778,6 +1934,7 @@ entries:
   - id: compared-with|colloc
     headword: compared with
     pos: colloc
+    definition_en: "used to show how two things differ"
     ipa:
       uk: /kəmˈpeəd wɪð/
       us: /kəmˈperd wɪð/
@@ -1793,6 +1950,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1801,6 +1959,7 @@ entries:
   - id: city-centre|phr-n
     headword: city centre
     pos: phr-n
+    definition_en: "the main business and shopping area of a city"
     ipa:
       uk: /ˌsɪt.i ˈsen.tər/
       us: /ˌsɪt̬.i ˈsen.t̬ɚ/
@@ -1816,6 +1975,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/city-centre, checked: 2026-09-30, field: ipa.uk }
@@ -1824,6 +1984,7 @@ entries:
   - id: cost-of-living|phr-n
     headword: cost of living
     pos: phr-n
+    definition_en: "the money needed for food, housing and other basics"
     ipa:
       uk: /ˌkɒst əv ˈlɪv.ɪŋ/
       us: /ˌkɑːst əv ˈlɪv.ɪŋ/
@@ -1838,6 +1999,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1846,6 +2008,7 @@ entries:
   - id: censorship|n
     headword: censorship
     pos: n
+    definition_en: "blocking parts of books, films or news that officials dislike"
     ipa:
       uk: /ˈsen.sə.ʃɪp/
       us: /ˈsen.sɚ.ʃɪp/
@@ -1864,6 +2027,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/censorship, checked: 2026-09-30, field: ipa.uk }
@@ -1872,6 +2036,7 @@ entries:
   - id: claim|v
     headword: claim
     pos: v
+    definition_en: "to say something is true without proof"
     ipa:
       uk: /kleɪm/
       us: /kleɪm/
@@ -1888,6 +2053,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/claim, checked: 2026-09-30, field: cefr }
@@ -1897,6 +2063,7 @@ entries:
   - id: content|n
     headword: content
     pos: n
+    definition_en: "the information, videos or articles on a website"
     ipa:
       uk: /ˈkɒn.tent/
       us: /ˈkɑːn.tent/
@@ -1914,6 +2081,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/content_1, checked: 2026-09-30, field: cefr }
@@ -1923,6 +2091,7 @@ entries:
   - id: cultural-homogenisation|phr-n
     headword: cultural homogenisation
     pos: phr-n
+    definition_en: "the process of different cultures becoming similar"
     ipa:
       uk: /ˌkʌl.tʃər.əl həˌmɒdʒ.ən.aɪˈzeɪ.ʃən/
       us: /ˌkʌl.tʃɚ.əl həˌmɑː.dʒə.nəˈzeɪ.ʃən/
@@ -1938,6 +2107,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1946,6 +2116,7 @@ entries:
   - id: consumer|n
     headword: consumer
     pos: n
+    definition_en: "a person who buys goods or services"
     ipa:
       uk: /kənˈsjuː.mər/
       us: /kənˈsuː.mɚ/
@@ -1962,6 +2133,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumer, checked: 2026-09-30, field: cefr }
@@ -1971,6 +2143,7 @@ entries:
   - id: comprise|v
     headword: comprise
     pos: v
+    definition_en: "to consist of; to be made up of"
     ipa:
       uk: /kəmˈpraɪz/
       us: /kəmˈpraɪz/
@@ -1986,6 +2159,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/comprise, checked: 2026-09-30, field: cefr }
@@ -1995,6 +2169,7 @@ entries:
   - id: combined|adj
     headword: combined
     pos: adj
+    definition_en: "added together"
     ipa:
       uk: /kəmˈbaɪnd/
       us: /kəmˈbaɪnd/
@@ -2011,6 +2186,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/combined, checked: 2026-09-30, field: ipa.uk }
@@ -2019,6 +2195,7 @@ entries:
   - id: citizen|n
     headword: citizen
     pos: n
+    definition_en: "a person who legally belongs to a country"
     ipa:
       uk: /ˈsɪt.ɪ.zən/
       us: /ˈsɪt̬.ə.zən/
@@ -2033,6 +2210,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2043,6 +2221,7 @@ entries:
   - id: cause|n
     headword: cause
     pos: n
+    definition_en: "what makes something happen"
     ipa:
       uk: /kɔːz/
       us: /kɑːz/
@@ -2058,6 +2237,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cause, checked: 2026-09-30, field: cefr }
@@ -2067,6 +2247,7 @@ entries:
   - id: consequence|n
     headword: consequence
     pos: n
+    definition_en: "a result, often a bad one"
     ipa:
       uk: /ˈkɒn.sɪ.kwəns/
       us: /ˈkɑːn.sə.kwens/
@@ -2082,6 +2263,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2092,6 +2274,7 @@ entries:
   - id: campaign|n
     headword: campaign
     pos: n
+    definition_en: "a planned series of actions to achieve a goal"
     ipa:
       uk: /kæmˈpeɪn/
       us: /kæmˈpeɪn/
@@ -2109,6 +2292,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/campaign, checked: 2026-09-30, field: cefr }
@@ -2118,6 +2302,7 @@ entries:
   - id: crush|v
     headword: crush
     pos: v
+    definition_en: "to press something hard until it breaks into small pieces"
     ipa:
       uk: /krʌʃ/
       us: /krʌʃ/
@@ -2131,6 +2316,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/crush, checked: 2026-09-30, field: cefr }
@@ -2140,6 +2326,7 @@ entries:
   - id: compost|n
     headword: compost
     pos: n
+    definition_en: "decayed plant waste used to feed soil"
     ipa:
       uk: /ˈkɒm.pɒst/
       us: /ˈkɑːm.poʊst/
@@ -2153,6 +2340,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/compost, checked: 2026-09-30, field: ipa.uk }
@@ -2161,6 +2349,7 @@ entries:
   - id: construct|v
     headword: construct
     pos: v
+    definition_en: "to build something"
     ipa:
       uk: /kənˈstrʌkt/
       us: /kənˈstrʌkt/
@@ -2178,6 +2367,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/construct, checked: 2026-09-30, field: cefr }
@@ -2187,6 +2377,7 @@ entries:
   - id: convert|v
     headword: convert
     pos: v
+    definition_en: "to change something into a different form or use"
     ipa:
       uk: /kənˈvɜːt/
       us: /kənˈvɝːt/
@@ -2204,6 +2395,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convert, checked: 2026-09-30, field: cefr }
@@ -2213,6 +2405,7 @@ entries:
   - id: cycle-lane|phr-n
     headword: cycle lane
     pos: phr-n
+    definition_en: "part of a road only for bicycles"
     ipa:
       uk: /ˈsaɪ.kəl ˌleɪn/
       us: /ˈsaɪ.kəl ˌleɪn/
@@ -2224,6 +2417,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cycle-lane, checked: 2026-09-30, field: ipa.uk }
@@ -2232,6 +2426,7 @@ entries:
   - id: cram|v
     headword: cram
     pos: v
+    definition_en: "to study a lot just before an exam"
     forms:
       past: crammed
       ing: cramming
@@ -2250,6 +2445,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cram, checked: 2026-09-30, field: ipa.uk }
@@ -2258,6 +2454,7 @@ entries:
   - id: concentrate|v
     headword: concentrate
     pos: v
+    definition_en: "to give all your attention to something"
     ipa:
       uk: /ˈkɒn.sən.treɪt/
       us: /ˈkɑːn.sən.treɪt/
@@ -2274,6 +2471,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/concentrate, checked: 2026-09-30, field: cefr }
@@ -2283,6 +2481,7 @@ entries:
   - id: challenging|adj
     headword: challenging
     pos: adj
+    definition_en: "difficult in an interesting way"
     ipa:
       uk: /ˈtʃæl.ɪn.dʒɪŋ/
       us: /ˈtʃæl.ən.dʒɪŋ/
@@ -2299,6 +2498,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/challenging, checked: 2026-09-30, field: cefr }
@@ -2308,6 +2508,7 @@ entries:
   - id: cybercrime|n
     headword: cybercrime
     pos: n
+    definition_en: "illegal activity using computers or the internet"
     ipa:
       uk: /ˈsaɪ.bə.kraɪm/
       us: /ˈsaɪ.bɚ.kraɪm/
@@ -2322,6 +2523,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cybercrime, checked: 2026-09-30, field: ipa.uk }
@@ -2330,6 +2532,7 @@ entries:
   - id: crack-down-on|phr-v
     headword: crack down on
     pos: phr-v
+    definition_en: "to take strong action to stop something"
     forms:
       past: cracked down on
     ipa:
@@ -2347,6 +2550,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2355,6 +2559,7 @@ entries:
   - id: consequently|adv
     headword: consequently
     pos: adv
+    definition_en: "as a result"
     ipa:
       uk: /ˈkɒn.sɪ.kwənt.li/
       us: /ˈkɑːn.sə.kwənt.li/
@@ -2369,6 +2574,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2379,6 +2585,7 @@ entries:
   - id: conversely|adv
     headword: conversely
     pos: adv
+    definition_en: "in the opposite way"
     ipa:
       uk: /ˈkɒn.vɜːs.li/
       us: /ˈkɑːn.vɝːs.li/
@@ -2391,6 +2598,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/conversely, checked: 2026-09-30, field: ipa.uk }
@@ -2399,6 +2607,7 @@ entries:
   - id: corruption|n
     headword: corruption
     pos: n
+    definition_en: "dishonest behaviour by people in power, e.g. taking money"
     ipa:
       uk: /kəˈrʌp.ʃən/
       us: /kəˈrʌp.ʃən/
@@ -2413,6 +2622,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/corruption, checked: 2026-09-30, field: cefr }
@@ -2422,6 +2632,7 @@ entries:
   - id: capability|n
     headword: capability
     pos: n
+    definition_en: "the ability or power to do something"
     forms:
       plural: capabilities
     ipa:
@@ -2438,6 +2649,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/capability, checked: 2026-09-30, field: cefr }
@@ -2447,6 +2659,7 @@ entries:
   - id: chatbot|n
     headword: chatbot
     pos: n
+    definition_en: "a computer program that has conversations with people"
     ipa:
       uk: /ˈtʃæt.bɒt/
       us: /ˈtʃæt.bɑːt/
@@ -2461,6 +2674,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/chatbot, checked: 2026-09-30, field: ipa.uk }
@@ -2469,6 +2683,7 @@ entries:
   - id: convenience|n
     headword: convenience
     pos: n
+    definition_en: "the quality of being easy and saving time"
     ipa:
       uk: /kənˈviː.ni.əns/
       us: /kənˈviː.ni.əns/
@@ -2483,6 +2698,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/convenience, checked: 2026-09-30, field: cefr }
@@ -2492,6 +2708,7 @@ entries:
   - id: counterargument|n
     headword: counterargument
     pos: n
+    definition_en: "a reason against an idea"
     ipa:
       uk: /ˈkaʊn.təˌrɑːɡ.jə.mənt/
       us: /ˈkaʊn.t̬ɚˌɑːrɡ.jə.mənt/
@@ -2505,6 +2722,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2513,6 +2731,7 @@ entries:
   - id: chronic-disease|phr-n
     headword: chronic disease
     pos: phr-n
+    definition_en: "an illness that lasts a long time"
     forms:
       plural: chronic diseases
     ipa:
@@ -2529,6 +2748,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2537,6 +2757,7 @@ entries:
   - id: check-up|n
     headword: check-up
     pos: n
+    definition_en: "a general medical examination"
     ipa:
       uk: /ˈtʃek.ʌp/
       us: /ˈtʃek.ʌp/
@@ -2551,6 +2772,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/check-up, checked: 2026-09-30, field: ipa.uk }
@@ -2559,6 +2781,7 @@ entries:
   - id: consumption|n
     headword: consumption
     pos: n
+    definition_en: "the amount of something that is used or eaten"
     ipa:
       uk: /kənˈsʌmp.ʃən/
       us: /kənˈsʌmp.ʃən/
@@ -2574,6 +2797,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumption, checked: 2026-09-30, field: cefr }
@@ -2583,6 +2807,7 @@ entries:
   - id: contribute-to|phr-v
     headword: contribute to
     pos: phr-v
+    definition_en: "to be one of the causes of something"
     ipa:
       uk: /kənˈtrɪb.juːt tuː/
       us: /kənˈtrɪb.juːt tuː/
@@ -2599,6 +2824,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2607,6 +2833,7 @@ entries:
   - id: craftsmanship|n
     headword: craftsmanship
     pos: n
+    definition_en: "the skill of making things beautifully by hand"
     ipa:
       uk: /ˈkrɑːfts.mən.ʃɪp/
       us: /ˈkræfts.mən.ʃɪp/
@@ -2621,6 +2848,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/craftsmanship, checked: 2026-09-30, field: ipa.uk }
@@ -2629,6 +2857,7 @@ entries:
   - id: commercialise|v
     headword: commercialise
     pos: v
+    definition_en: "to use something mainly to make money"
     ipa:
       uk: /kəˈmɜː.ʃəl.aɪz/
       us: /kəˈmɝː.ʃəl.aɪz/
@@ -2644,6 +2873,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2652,6 +2882,7 @@ entries:
   - id: come-across|phr-v
     headword: come across
     pos: phr-v
+    definition_en: "to find or meet something by chance"
     forms:
       past: came across
     ipa:
@@ -2667,6 +2898,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2675,6 +2907,7 @@ entries:
   - id: catch-up-on|phr-v
     headword: catch up on
     pos: phr-v
+    definition_en: "to do things you did not have time to do before"
     forms:
       past: caught up on
     ipa:
@@ -2691,6 +2924,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2699,6 +2933,7 @@ entries:
   - id: culture-shock|phr-n
     headword: culture shock
     pos: phr-n
+    definition_en: "confusion felt when living in a very different place"
     ipa:
       uk: /ˈkʌl.tʃə ˌʃɒk/
       us: /ˈkʌl.tʃɚ ˌʃɑːk/
@@ -2713,6 +2948,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/culture-shock, checked: 2026-09-30, field: ipa.uk }
@@ -2721,6 +2957,7 @@ entries:
   - id: consumerism|n
     headword: consumerism
     pos: n
+    definition_en: "the belief that buying things makes people happy"
     ipa:
       uk: /kənˈsjuː.mə.rɪ.zəm/
       us: /kənˈsuː.mɚ.ɪ.zəm/
@@ -2736,6 +2973,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consumerism, checked: 2026-09-30, field: ipa.uk }
@@ -2744,6 +2982,7 @@ entries:
   - id: considerably|adv
     headword: considerably
     pos: adv
+    definition_en: "by a large amount"
     ipa:
       uk: /kənˈsɪd.ər.ə.bli/
       us: /kənˈsɪd.ɚ.ə.bli/
@@ -2761,6 +3000,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/considerably, checked: 2026-09-30, field: cefr }
@@ -2770,6 +3010,7 @@ entries:
   - id: comparable|adj
     headword: comparable
     pos: adj
+    definition_en: "similar in size or quality"
     ipa:
       uk: /ˈkɒm.pər.ə.bəl/
       us: /ˈkɑːm.pɚ.ə.bəl/
@@ -2787,6 +3028,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/comparable, checked: 2026-09-30, field: cefr }
@@ -2796,6 +3038,7 @@ entries:
   - id: critic|n
     headword: critic
     pos: n
+    definition_en: "a person who writes reviews of films, books or art"
     ipa:
       uk: /ˈkrɪt.ɪk/
       us: /ˈkrɪt̬.ɪk/
@@ -2809,6 +3052,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/critic, checked: 2026-09-30, field: cefr }
@@ -2818,6 +3062,7 @@ entries:
   - id: critically-acclaimed|adj
     headword: critically acclaimed
     pos: adj
+    definition_en: "praised by professional reviewers"
     ipa:
       uk: /ˌkrɪt.ɪ.kəl.i əˈkleɪmd/
       us: /ˌkrɪt̬.ɪ.kəl.i əˈkleɪmd/
@@ -2830,6 +3075,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2838,6 +3084,7 @@ entries:
   - id: colonise|v
     headword: colonise
     pos: v
+    definition_en: "to go and live in a new place and take control of it"
     ipa:
       uk: /ˈkɒl.ə.naɪz/
       us: /ˈkɑː.lə.naɪz/
@@ -2854,6 +3101,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2862,6 +3110,7 @@ entries:
   - id: cutting-edge|adj
     headword: cutting-edge
     pos: adj
+    definition_en: "the most advanced"
     ipa:
       uk: /ˌkʌt.ɪŋ ˈedʒ/
       us: /ˌkʌt̬.ɪŋ ˈedʒ/
@@ -2877,6 +3126,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cutting-edge_2, checked: 2026-09-30, field: ipa.uk }
@@ -2885,6 +3135,7 @@ entries:
   - id: commercial|adj
     headword: commercial
     pos: adj
+    definition_en: "connected with business and making money"
     ipa:
       uk: /kəˈmɜː.ʃəl/
       us: /kəˈmɝː.ʃəl/
@@ -2898,6 +3149,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/commercial, checked: 2026-09-30, field: cefr }
@@ -2907,6 +3159,7 @@ entries:
   - id: consent|n
     headword: consent
     pos: n
+    definition_en: "permission"
     ipa:
       uk: /kənˈsent/
       us: /kənˈsent/
@@ -2923,6 +3176,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/consent, checked: 2026-09-30, field: cefr }
@@ -2932,6 +3186,7 @@ entries:
   - id: comply-with|phr-v
     headword: comply with
     pos: phr-v
+    definition_en: "to obey a rule"
     ipa:
       uk: /kəmˈplaɪ wɪð/
       us: /kəmˈplaɪ wɪð/
@@ -2945,6 +3200,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2953,6 +3209,7 @@ entries:
   - id: coherence|n
     headword: coherence
     pos: n
+    definition_en: "ideas fitting together logically"
     ipa:
       uk: /kəʊˈhɪə.rəns/
       us: /koʊˈhɪr.əns/
@@ -2966,6 +3223,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/coherence, checked: 2026-09-30, field: ipa.uk }
@@ -2974,6 +3232,7 @@ entries:
   - id: cohesion|n
     headword: cohesion
     pos: n
+    definition_en: "links between sentences using linking words and pronouns"
     ipa:
       uk: /kəʊˈhiː.ʒən/
       us: /koʊˈhiː.ʒən/
@@ -2987,6 +3246,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/cohesion, checked: 2026-09-30, field: ipa.uk }

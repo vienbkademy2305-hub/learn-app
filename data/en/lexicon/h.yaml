@@ -3,6 +3,7 @@ entries:
   - id: hometown|n
     headword: hometown
     pos: n
+    definition_en: "the town or city where you were born or grew up"
     ipa: { uk: "/ˈhəʊm.taʊn/", us: "/ˈhoʊm.taʊn/" }
     cefr: null
     meaning_vi: [ quê quán, quê nhà ]
@@ -10,6 +11,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/hometown, checked: 2026-09-30, field: ipa.us }
@@ -17,12 +19,14 @@ entries:
   - id: husband|n
     headword: husband
     pos: n
+    definition_en: "the man that a woman is married to"
     ipa: { uk: "/ˈhʌz.bənd/", us: "/ˈhʌz.bənd/" }
     cefr: A1
     meaning_vi: [ chồng ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/husband, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/husband, checked: 2026-09-30, field: ipa.uk }
@@ -31,6 +35,7 @@ entries:
   - id: handsome|adj
     headword: handsome
     pos: adj
+    definition_en: "attractive (usually used about a man)"
     ipa:
       uk: /ˈhæn.səm/
       us: /ˈhæn.səm/
@@ -44,6 +49,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handsome, checked: 2026-09-30, field: ipa.uk }
@@ -52,6 +58,7 @@ entries:
   - id: hard-working|adj
     headword: hard-working
     pos: adj
+    definition_en: "putting a lot of effort into your work"
     forms:
       comparative: more hard-working
     ipa:
@@ -67,6 +74,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hard-working, checked: 2026-09-30, field: ipa.uk }
@@ -75,6 +83,7 @@ entries:
   - id: half-past|colloc
     headword: half past
     pos: colloc
+    definition_en: "thirty minutes after the hour"
     ipa:
       uk: /ˌhɑːf ˈpɑːst/
       us: /ˌhæf ˈpæst/
@@ -89,6 +98,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -97,6 +107,7 @@ entries:
   - id: holiday|n
     headword: holiday
     pos: n
+    definition_en: "a time when you do not work or go to school"
     ipa:
       uk: /ˈhɒl.ə.deɪ/
       us: /ˈhɑː.lə.deɪ/
@@ -113,6 +124,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/holiday, checked: 2026-09-30, field: cefr }
@@ -122,6 +134,7 @@ entries:
   - id: have-breakfast|colloc
     headword: have breakfast
     pos: colloc
+    definition_en: "to eat the first meal of the day"
     ipa:
       uk: /hæv ˈbrek.fəst/
       us: /hæv ˈbrek.fəst/
@@ -135,6 +148,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -143,6 +157,7 @@ entries:
   - id: history|n
     headword: history
     pos: n
+    definition_en: "the study of past events"
     ipa:
       uk: /ˈhɪs.tər.i/
       us: /ˈhɪs.tɚ.i/
@@ -155,6 +170,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -165,6 +181,7 @@ entries:
   - id: homework|n
     headword: homework
     pos: n
+    definition_en: "school work that you do at home"
     ipa:
       uk: /ˈhəʊm.wɜːk/
       us: /ˈhoʊm.wɝːk/
@@ -179,6 +196,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/homework, checked: 2026-09-30, field: cefr }
@@ -188,6 +206,7 @@ entries:
   - id: humid|adj
     headword: humid
     pos: adj
+    definition_en: "warm and wet, so the air feels heavy"
     ipa:
       uk: /ˈhjuː.mɪd/
       us: /ˈhjuː.mɪd/
@@ -201,6 +220,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/humid, checked: 2026-09-30, field: ipa.uk }
@@ -209,6 +229,7 @@ entries:
   - id: health|n
     headword: health
     pos: n
+    definition_en: "the condition of your body and mind"
     ipa:
       uk: /helθ/
       us: /helθ/
@@ -224,6 +245,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/health, checked: 2026-09-30, field: cefr }
@@ -233,6 +255,7 @@ entries:
   - id: healthy|adj
     headword: healthy
     pos: adj
+    definition_en: "well and strong; good for your body"
     forms:
       comparative: healthier
     ipa:
@@ -249,6 +272,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthy, checked: 2026-09-30, field: cefr }
@@ -258,6 +282,7 @@ entries:
   - id: headache|n
     headword: headache
     pos: n
+    definition_en: "a pain in your head"
     ipa:
       uk: /ˈhed.eɪk/
       us: /ˈhed.eɪk/
@@ -271,6 +296,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headache, checked: 2026-09-30, field: cefr }
@@ -280,6 +306,7 @@ entries:
   - id: have-to|v
     headword: have to
     pos: v
+    definition_en: "to be forced to do something by rules or situation"
     forms:
       3sg: has to
     ipa:
@@ -294,6 +321,7 @@ entries:
       - grammar-words
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -302,6 +330,7 @@ entries:
   - id: hotel|n
     headword: hotel
     pos: n
+    definition_en: "a building where you pay to stay for the night"
     ipa:
       uk: /həʊˈtel/
       us: /hoʊˈtel/
@@ -315,6 +344,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hotel, checked: 2026-09-30, field: cefr }
@@ -324,6 +354,7 @@ entries:
   - id: happen|v
     headword: happen
     pos: v
+    definition_en: "to take place"
     forms:
       past: happened
     ipa:
@@ -338,6 +369,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/happen, checked: 2026-09-30, field: cefr }
@@ -347,6 +379,7 @@ entries:
   - id: hear|v
     headword: hear
     pos: v
+    definition_en: "to notice sounds with your ears"
     forms:
       past: heard
       pp: heard
@@ -362,6 +395,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hear, checked: 2026-09-30, field: cefr }
@@ -371,6 +405,7 @@ entries:
   - id: helmet|n
     headword: helmet
     pos: n
+    definition_en: "a hard hat that protects your head"
     ipa:
       uk: /ˈhel.mət/
       us: /ˈhel.mət/
@@ -383,6 +418,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/helmet, checked: 2026-09-30, field: cefr }
@@ -392,6 +428,7 @@ entries:
   - id: hope|v
     headword: hope
     pos: v
+    definition_en: "to want something to happen"
     forms:
       past: hoped
     ipa:
@@ -406,6 +443,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hope, checked: 2026-09-30, field: cefr }
@@ -415,6 +453,7 @@ entries:
   - id: hobby|n
     headword: hobby
     pos: n
+    definition_en: "an activity you do for fun in your free time"
     forms:
       plural: hobbies
     ipa:
@@ -429,6 +468,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hobby, checked: 2026-09-30, field: cefr }
@@ -438,6 +478,7 @@ entries:
   - id: hang-out|phr-v
     headword: hang out
     pos: phr-v
+    definition_en: "to spend time relaxing with friends (informal)"
     forms:
       past: hung out
     ipa:
@@ -455,6 +496,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -463,6 +505,7 @@ entries:
   - id: handmade|adj
     headword: handmade
     pos: adj
+    definition_en: "made by a person, not a machine"
     ipa:
       uk: /ˌhændˈmeɪd/
       us: /ˌhændˈmeɪd/
@@ -475,6 +518,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handmade, checked: 2026-09-30, field: ipa.uk }
@@ -483,6 +527,7 @@ entries:
   - id: horse|n
     headword: horse
     pos: n
+    definition_en: "a large animal that people ride"
     ipa:
       uk: /hɔːs/
       us: /hɔːrs/
@@ -494,6 +539,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/horse, checked: 2026-09-30, field: cefr }
@@ -503,6 +549,7 @@ entries:
   - id: head|n
     headword: head
     pos: n
+    definition_en: "the top part of your body, above your neck"
     ipa:
       uk: /hed/
       us: /hed/
@@ -514,6 +561,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/head, checked: 2026-09-30, field: cefr }
@@ -523,6 +571,7 @@ entries:
   - id: hand|n
     headword: hand
     pos: n
+    definition_en: "the part at the end of your arm with five fingers"
     ipa:
       uk: /hænd/
       us: /hænd/
@@ -535,6 +584,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hand, checked: 2026-09-30, field: cefr }
@@ -544,6 +594,7 @@ entries:
   - id: higher-education|phr-n
     headword: higher education
     pos: phr-n
+    definition_en: "study at a university or college"
     ipa:
       uk: /ˌhaɪ.ər ˌedʒ.uˈkeɪ.ʃən/
       us: /ˌhaɪ.ɚ ˌedʒ.uˈkeɪ.ʃən/
@@ -560,6 +611,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/higher-education, checked: 2026-09-30, field: ipa.uk }
@@ -568,6 +620,7 @@ entries:
   - id: healthy-lifestyle|phr-n
     headword: healthy lifestyle
     pos: phr-n
+    definition_en: "a way of living with good food, exercise and sleep"
     ipa:
       uk: /ˌhel.θi ˈlaɪf.staɪl/
       us: /ˌhel.θi ˈlaɪf.staɪl/
@@ -581,6 +634,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -589,6 +643,7 @@ entries:
   - id: harsh|adj
     headword: harsh
     pos: adj
+    definition_en: "very severe or unkind"
     ipa:
       uk: /hɑːʃ/
       us: /hɑːrʃ/
@@ -603,6 +658,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harsh, checked: 2026-09-30, field: cefr }
@@ -612,6 +668,7 @@ entries:
   - id: however|adv
     headword: however
     pos: adv
+    definition_en: "but; used to show contrast"
     ipa:
       uk: /haʊˈev.ər/
       us: /haʊˈev.ɚ/
@@ -625,6 +682,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/however, checked: 2026-09-30, field: cefr }
@@ -634,6 +692,7 @@ entries:
   - id: household-chore|phr-n
     headword: household chore
     pos: phr-n
+    definition_en: "a regular job at home, e.g. washing dishes"
     forms:
       plural: household chores
     ipa:
@@ -651,6 +710,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -659,6 +719,7 @@ entries:
   - id: historic|adj
     headword: historic
     pos: adj
+    definition_en: "important in history"
     ipa:
       uk: /hɪˈstɒr.ɪk/
       us: /hɪˈstɔːr.ɪk/
@@ -677,6 +738,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/historic, checked: 2026-09-30, field: cefr }
@@ -686,6 +748,7 @@ entries:
   - id: housing|n
     headword: housing
     pos: n
+    definition_en: "houses and flats for people to live in"
     ipa:
       uk: /ˈhaʊ.zɪŋ/
       us: /ˈhaʊ.zɪŋ/
@@ -702,6 +765,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/housing, checked: 2026-09-30, field: cefr }
@@ -711,6 +775,7 @@ entries:
   - id: high-rise|adj
     headword: high-rise
     pos: adj
+    definition_en: "(of a building) very tall with many floors"
     ipa:
       uk: /ˈhaɪ.raɪz/
       us: /ˈhaɪ.raɪz/
@@ -724,6 +789,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/high-rise_2, checked: 2026-09-30, field: ipa.uk }
@@ -732,6 +798,7 @@ entries:
   - id: hustle-and-bustle|idiom
     headword: hustle and bustle
     pos: idiom
+    definition_en: "busy noisy activity"
     ipa:
       uk: /ˌhʌs.əl ən ˈbʌs.əl/
       us: /ˌhʌs.əl ən ˈbʌs.əl/
@@ -748,6 +815,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -756,6 +824,7 @@ entries:
   - id: headline|n
     headword: headline
     pos: n
+    definition_en: "the title of a news story in large letters"
     ipa:
       uk: /ˈhed.laɪn/
       us: /ˈhed.laɪn/
@@ -770,6 +839,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/headline, checked: 2026-09-30, field: cefr }
@@ -779,6 +849,7 @@ entries:
   - id: harmful|adj
     headword: harmful
     pos: adj
+    definition_en: "causing damage or injury"
     ipa:
       uk: /ˈhɑːm.fəl/
       us: /ˈhɑːrm.fəl/
@@ -795,6 +866,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/harmful, checked: 2026-09-30, field: cefr }
@@ -804,6 +876,7 @@ entries:
   - id: half|n
     headword: half
     pos: n
+    definition_en: "one of two equal parts"
     forms:
       plural: halves
     ipa:
@@ -822,6 +895,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/half, checked: 2026-09-30, field: cefr }
@@ -831,6 +905,7 @@ entries:
   - id: healthcare|n
     headword: healthcare
     pos: n
+    definition_en: "medical services for people"
     ipa:
       uk: /ˈhelθ.keər/
       us: /ˈhelθ.ker/
@@ -845,6 +920,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/healthcare, checked: 2026-09-30, field: cefr }
@@ -854,6 +930,7 @@ entries:
   - id: heat|v
     headword: heat
     pos: v
+    definition_en: "to make something warm or hot"
     ipa:
       uk: /hiːt/
       us: /hiːt/
@@ -868,6 +945,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/heat_2, checked: 2026-09-30, field: cefr }
@@ -877,6 +955,7 @@ entries:
   - id: hands-on|adj
     headword: hands-on
     pos: adj
+    definition_en: "involving doing things yourself, not just reading"
     ipa:
       uk: /ˌhændzˈɒn/
       us: /ˌhændzˈɑːn/
@@ -891,6 +970,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hands-on, checked: 2026-09-30, field: ipa.uk }
@@ -899,6 +979,7 @@ entries:
   - id: human-oversight|phr-n
     headword: human oversight
     pos: phr-n
+    definition_en: "people checking and controlling what machines do"
     ipa:
       uk: /ˌhjuː.mən ˈəʊ.və.saɪt/
       us: /ˌhjuː.mən ˈoʊ.vɚ.saɪt/
@@ -912,6 +993,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -920,6 +1002,7 @@ entries:
   - id: having-said-that|idiom
     headword: having said that
     pos: idiom
+    definition_en: "used before a point that contrasts with what came before"
     ipa:
       uk: /ˌhæv.ɪŋ ˈsed ðæt/
       us: /ˌhæv.ɪŋ ˈsed ðæt/
@@ -933,6 +1016,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -941,6 +1025,7 @@ entries:
   - id: hygiene|n
     headword: hygiene
     pos: n
+    definition_en: "keeping yourself and things clean to prevent disease"
     ipa:
       uk: /ˈhaɪ.dʒiːn/
       us: /ˈhaɪ.dʒiːn/
@@ -956,6 +1041,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hygiene, checked: 2026-09-30, field: ipa.uk }
@@ -964,6 +1050,7 @@ entries:
   - id: handicraft|n
     headword: handicraft
     pos: n
+    definition_en: "an object skilfully made by hand"
     ipa:
       uk: /ˈhæn.di.krɑːft/
       us: /ˈhæn.di.kræft/
@@ -978,6 +1065,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/handicraft, checked: 2026-09-30, field: ipa.uk }
@@ -986,6 +1074,7 @@ entries:
   - id: hand-down|phr-v
     headword: hand down
     pos: phr-v
+    definition_en: "to give traditions or objects to younger generations"
     forms:
       past: handed down
     ipa:
@@ -1002,6 +1091,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1010,6 +1100,7 @@ entries:
   - id: homesick|adj
     headword: homesick
     pos: adj
+    definition_en: "sad because you are away from your family and country"
     ipa:
       uk: /ˈhəʊm.sɪk/
       us: /ˈhoʊm.sɪk/
@@ -1024,6 +1115,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/homesick, checked: 2026-09-30, field: ipa.uk }
@@ -1032,6 +1124,7 @@ entries:
   - id: halve|v
     headword: halve
     pos: v
+    definition_en: "to reduce by fifty per cent"
     ipa:
       uk: /hɑːv/
       us: /hæv/
@@ -1047,6 +1140,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/halve, checked: 2026-09-30, field: ipa.uk }
@@ -1055,6 +1149,7 @@ entries:
   - id: hypothesis|n
     headword: hypothesis
     pos: n
+    definition_en: "an idea that needs to be tested"
     forms:
       plural: hypotheses
     ipa:
@@ -1071,6 +1166,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/hypothesis, checked: 2026-09-30, field: cefr }
@@ -1080,6 +1176,7 @@ entries:
   - id: habitable|adj
     headword: habitable
     pos: adj
+    definition_en: "suitable for living in"
     ipa:
       uk: /ˈhæb.ɪ.tə.bəl/
       us: /ˈhæb.ə.t̬ə.bəl/
@@ -1092,6 +1189,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1101,6 +1199,7 @@ entries:
   - id: humanity|n
     headword: humanity
     pos: n
+    definition_en: "all people"
     ipa:
       uk: /hjuːˈmæn.ə.ti/
       us: /hjuːˈmæn.ə.t̬i/
@@ -1114,6 +1213,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/humanity, checked: 2026-09-30, field: cefr }
@@ -1123,6 +1223,7 @@ entries:
   - id: human-rights|phr-n
     headword: human rights
     pos: phr-n
+    definition_en: "basic freedoms that every person should have"
     ipa:
       uk: /ˌhjuː.mən ˈraɪts/
       us: /ˌhjuː.mən ˈraɪts/
@@ -1137,6 +1238,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

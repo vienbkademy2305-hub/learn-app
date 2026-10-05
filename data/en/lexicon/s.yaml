@@ -3,6 +3,7 @@ entries:
   - id: sibling|n
     headword: sibling
     pos: n
+    definition_en: "a brother or sister"
     ipa: { uk: "/ˈsɪb.lɪŋ/", us: "/ˈsɪb.lɪŋ/" }
     cefr: B2
     meaning_vi: [ anh chị em ruột ]
@@ -12,6 +13,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sibling, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sibling, checked: 2026-09-30, field: ipa.uk }
@@ -20,12 +22,14 @@ entries:
   - id: single|adj
     headword: single
     pos: adj
+    definition_en: "not married and not in a serious relationship"
     ipa: { uk: "/ˈsɪŋ.ɡəl/", us: "/ˈsɪŋ.ɡəl/" }
     cefr: A2
     meaning_vi: [ độc thân ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single, checked: 2026-09-30, field: ipa.uk }
@@ -34,6 +38,7 @@ entries:
   - id: son|n
     headword: son
     pos: n
+    definition_en: "someone's male child"
     ipa: { uk: "/sʌn/", us: "/sʌn/" }
     cefr: A1
     meaning_vi: [ con trai ]
@@ -41,6 +46,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/son, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/son, checked: 2026-09-30, field: ipa.uk }
@@ -49,6 +55,7 @@ entries:
   - id: short|adj
     headword: short
     pos: adj
+    definition_en: "small in height or length"
     forms:
       comparative: shorter
       superlative: shortest
@@ -65,6 +72,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/short, checked: 2026-09-30, field: cefr }
@@ -74,6 +82,7 @@ entries:
   - id: slim|adj
     headword: slim
     pos: adj
+    definition_en: "thin in an attractive way"
     forms:
       comparative: slimmer
       superlative: slimmest
@@ -90,6 +99,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slim, checked: 2026-09-30, field: ipa.uk }
@@ -98,6 +108,7 @@ entries:
   - id: straight|adj
     headword: straight
     pos: adj
+    definition_en: "without curves or bends"
     ipa:
       uk: /streɪt/
       us: /streɪt/
@@ -112,6 +123,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/straight_2, checked: 2026-09-30, field: cefr }
@@ -121,6 +133,7 @@ entries:
   - id: shy|adj
     headword: shy
     pos: adj
+    definition_en: "nervous and uncomfortable with new people"
     forms:
       comparative: shyer
     ipa:
@@ -134,6 +147,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shy, checked: 2026-09-30, field: cefr }
@@ -143,6 +157,7 @@ entries:
   - id: sofa|n
     headword: sofa
     pos: n
+    definition_en: "a long soft seat for two or more people"
     ipa:
       uk: /ˈsəʊ.fə/
       us: /ˈsoʊ.fə/
@@ -154,6 +169,7 @@ entries:
       - furniture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sofa, checked: 2026-09-30, field: ipa.uk }
@@ -162,6 +178,7 @@ entries:
   - id: shelf|n
     headword: shelf
     pos: n
+    definition_en: "a flat board on a wall for putting things on"
     forms:
       plural: shelves
     ipa:
@@ -178,6 +195,7 @@ entries:
       - furniture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shelf, checked: 2026-09-30, field: cefr }
@@ -187,6 +205,7 @@ entries:
   - id: stairs|n
     headword: stairs
     pos: n
+    definition_en: "steps that go from one level of a building to another"
     ipa:
       uk: /steəz/
       us: /sterz/
@@ -199,6 +218,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stairs, checked: 2026-09-30, field: ipa.uk }
@@ -207,6 +227,7 @@ entries:
   - id: second|num
     headword: second
     pos: num
+    definition_en: "coming next after the first"
     ipa:
       uk: /ˈsek.ənd/
       us: /ˈsek.ənd/
@@ -220,6 +241,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/second_3, checked: 2026-09-30, field: cefr }
@@ -229,6 +251,7 @@ entries:
   - id: sometimes|adv
     headword: sometimes
     pos: adv
+    definition_en: "on some occasions, but not always"
     ipa:
       uk: /ˈsʌm.taɪmz/
       us: /ˈsʌm.taɪmz/
@@ -241,6 +264,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sometimes, checked: 2026-09-30, field: cefr }
@@ -250,6 +274,7 @@ entries:
   - id: subject|n
     headword: subject
     pos: n
+    definition_en: "something you study at school, e.g. maths"
     ipa:
       uk: /ˈsʌb.dʒekt/
       us: /ˈsʌb.dʒekt/
@@ -263,6 +288,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subject, checked: 2026-09-30, field: cefr }
@@ -272,6 +298,7 @@ entries:
   - id: science|n
     headword: science
     pos: n
+    definition_en: "the study of the natural world, e.g. physics or biology"
     ipa:
       uk: /ˈsaɪ.əns/
       us: /ˈsaɪ.əns/
@@ -285,6 +312,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/science, checked: 2026-09-30, field: cefr }
@@ -294,6 +322,7 @@ entries:
   - id: study|v
     headword: study
     pos: v
+    definition_en: "to spend time learning about a subject"
     forms:
       3sg: studies
       ing: studying
@@ -311,6 +340,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/study_2, checked: 2026-09-30, field: cefr }
@@ -320,6 +350,7 @@ entries:
   - id: season|n
     headword: season
     pos: n
+    definition_en: "one of the four parts of the year, e.g. summer"
     ipa:
       uk: /ˈsiː.zən/
       us: /ˈsiː.zən/
@@ -333,6 +364,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/season, checked: 2026-09-30, field: cefr }
@@ -342,6 +374,7 @@ entries:
   - id: sunny|adj
     headword: sunny
     pos: adj
+    definition_en: "with a lot of bright light from the sun"
     forms:
       comparative: sunnier
     ipa:
@@ -356,6 +389,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sunny, checked: 2026-09-30, field: cefr }
@@ -365,6 +399,7 @@ entries:
   - id: storm|n
     headword: storm
     pos: n
+    definition_en: "very bad weather with strong wind and rain"
     ipa:
       uk: /stɔːm/
       us: /stɔːrm/
@@ -378,6 +413,7 @@ entries:
       - weather
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/storm, checked: 2026-09-30, field: cefr }
@@ -387,6 +423,7 @@ entries:
   - id: salary|n
     headword: salary
     pos: n
+    definition_en: "money you receive for your job every month or year"
     ipa:
       uk: /ˈsæl.ər.i/
       us: /ˈsæl.ɚ.i/
@@ -401,6 +438,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salary, checked: 2026-09-30, field: cefr }
@@ -410,6 +448,7 @@ entries:
   - id: shop-assistant|phr-n
     headword: shop assistant
     pos: phr-n
+    definition_en: "a person who serves customers in a shop"
     ipa:
       uk: /ˈʃɒp əˌsɪs.tənt/
       us: /ˈʃɑːp əˌsɪs.tənt/
@@ -421,6 +460,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shop-assistant, checked: 2026-09-30, field: ipa.uk }
@@ -429,6 +469,7 @@ entries:
   - id: stomachache|n
     headword: stomachache
     pos: n
+    definition_en: "a pain in your stomach"
     ipa:
       uk: /ˈstʌm.ək.eɪk/
       us: /ˈstʌm.ək.eɪk/
@@ -441,6 +482,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/stomachache, checked: 2026-09-30, field: ipa.uk }
@@ -449,6 +491,7 @@ entries:
   - id: sore-throat|phr-n
     headword: sore throat
     pos: phr-n
+    definition_en: "pain at the back of your mouth when you swallow"
     ipa:
       uk: /ˌsɔː ˈθrəʊt/
       us: /ˌsɔːr ˈθroʊt/
@@ -461,6 +504,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sore-throat, checked: 2026-09-30, field: ipa.uk }
@@ -469,6 +513,7 @@ entries:
   - id: should|v
     headword: should
     pos: v
+    definition_en: "used to give advice"
     ipa:
       uk: /ʃʊd/
       us: /ʃʊd/
@@ -482,6 +527,7 @@ entries:
       - grammar-words
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/should, checked: 2026-09-30, field: ipa.uk }
@@ -490,6 +536,7 @@ entries:
   - id: salt|n
     headword: salt
     pos: n
+    definition_en: "a white substance that gives food flavour"
     ipa:
       uk: /sɔːlt/
       us: /sɑːlt/
@@ -500,6 +547,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/salt, checked: 2026-09-30, field: cefr }
@@ -509,6 +557,7 @@ entries:
   - id: sugar|n
     headword: sugar
     pos: n
+    definition_en: "a sweet white substance added to food and drinks"
     ipa:
       uk: /ˈʃʊɡ.ə/
       us: /ˈʃʊɡ.ɚ/
@@ -521,6 +570,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sugar, checked: 2026-09-30, field: cefr }
@@ -530,6 +580,7 @@ entries:
   - id: slice|n
     headword: slice
     pos: n
+    definition_en: "a thin flat piece cut from something, e.g. bread"
     ipa:
       uk: /slaɪs/
       us: /slaɪs/
@@ -544,6 +595,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slice, checked: 2026-09-30, field: cefr }
@@ -553,6 +605,7 @@ entries:
   - id: snack|n
     headword: snack
     pos: n
+    definition_en: "a small amount of food eaten between meals"
     ipa:
       uk: /snæk/
       us: /snæk/
@@ -564,6 +617,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/snack, checked: 2026-09-30, field: ipa.uk }
@@ -572,6 +626,7 @@ entries:
   - id: spicy|adj
     headword: spicy
     pos: adj
+    definition_en: "having a hot taste, e.g. with chilli"
     forms:
       comparative: spicier
     ipa:
@@ -584,6 +639,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spicy, checked: 2026-09-30, field: cefr }
@@ -593,6 +649,7 @@ entries:
   - id: sightseeing|n
     headword: sightseeing
     pos: n
+    definition_en: "visiting famous places as a tourist"
     ipa:
       uk: /ˈsaɪtˌsiː.ɪŋ/
       us: /ˈsaɪtˌsiː.ɪŋ/
@@ -606,6 +663,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sightseeing, checked: 2026-09-30, field: ipa.uk }
@@ -614,6 +672,7 @@ entries:
   - id: stay|v
     headword: stay
     pos: v
+    definition_en: "to live somewhere for a short time"
     forms:
       past: stayed
     ipa:
@@ -630,6 +689,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stay, checked: 2026-09-30, field: cefr }
@@ -639,6 +699,7 @@ entries:
   - id: souvenir|n
     headword: souvenir
     pos: n
+    definition_en: "something you buy to remember a place"
     ipa:
       uk: /ˌsuː.vənˈɪə/
       us: /ˌsuː.vəˈnɪr/
@@ -651,6 +712,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -660,6 +722,7 @@ entries:
   - id: sale|n
     headword: sale
     pos: n
+    definition_en: "a time when a shop sells things at lower prices"
     ipa:
       uk: /seɪl/
       us: /seɪl/
@@ -676,6 +739,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sale, checked: 2026-09-30, field: cefr }
@@ -685,6 +749,7 @@ entries:
   - id: supermarket|n
     headword: supermarket
     pos: n
+    definition_en: "a large shop selling food and household goods"
     ipa:
       uk: /ˈsuː.pəˌmɑː.kɪt/
       us: /ˈsuː.pɚˌmɑːr.kɪt/
@@ -696,6 +761,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supermarket, checked: 2026-09-30, field: cefr }
@@ -705,6 +771,7 @@ entries:
   - id: shopping-centre|phr-n
     headword: shopping centre
     pos: phr-n
+    definition_en: "a large building with many shops"
     ipa:
       uk: /ˈʃɒp.ɪŋ ˌsen.tə/
       us: /ˈʃɑː.pɪŋ ˌsen.t̬ɚ/
@@ -717,6 +784,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-centre, checked: 2026-09-30, field: ipa.uk }
@@ -725,6 +793,7 @@ entries:
   - id: size|n
     headword: size
     pos: n
+    definition_en: "how big or small something is"
     ipa:
       uk: /saɪz/
       us: /saɪz/
@@ -739,6 +808,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/size, checked: 2026-09-30, field: cefr }
@@ -748,6 +818,7 @@ entries:
   - id: story|n
     headword: story
     pos: n
+    definition_en: "a description of events, real or imagined"
     forms:
       plural: stories
     ipa:
@@ -765,6 +836,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/story, checked: 2026-09-30, field: cefr }
@@ -774,6 +846,7 @@ entries:
   - id: suddenly|adv
     headword: suddenly
     pos: adv
+    definition_en: "quickly and unexpectedly"
     ipa:
       uk: /ˈsʌd.ən.li/
       us: /ˈsʌd.ən.li/
@@ -784,6 +857,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suddenly, checked: 2026-09-30, field: cefr }
@@ -793,6 +867,7 @@ entries:
   - id: station|n
     headword: station
     pos: n
+    definition_en: "a place where trains or buses stop"
     ipa:
       uk: /ˈsteɪ.ʃən/
       us: /ˈsteɪ.ʃən/
@@ -807,6 +882,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/station, checked: 2026-09-30, field: cefr }
@@ -816,6 +892,7 @@ entries:
   - id: save|v
     headword: save
     pos: v
+    definition_en: "to keep money to use later"
     forms:
       past: saved
     ipa:
@@ -833,6 +910,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/save, checked: 2026-09-30, field: cefr }
@@ -842,6 +920,7 @@ entries:
   - id: soon|adv
     headword: soon
     pos: adv
+    definition_en: "in a short time from now"
     ipa:
       uk: /suːn/
       us: /suːn/
@@ -855,6 +934,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soon, checked: 2026-09-30, field: cefr }
@@ -864,6 +944,7 @@ entries:
   - id: surprised|adj
     headword: surprised
     pos: adj
+    definition_en: "feeling that something was not expected"
     ipa:
       uk: /səˈpraɪzd/
       us: /sɚˈpraɪzd/
@@ -876,6 +957,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprised, checked: 2026-09-30, field: cefr }
@@ -885,6 +967,7 @@ entries:
   - id: surprising|adj
     headword: surprising
     pos: adj
+    definition_en: "not expected"
     ipa:
       uk: /səˈpraɪ.zɪŋ/
       us: /sɚˈpraɪ.zɪŋ/
@@ -895,6 +978,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surprising, checked: 2026-09-30, field: cefr }
@@ -904,6 +988,7 @@ entries:
   - id: silk|n
     headword: silk
     pos: n
+    definition_en: "a smooth, shiny cloth made by insects"
     ipa:
       uk: /sɪlk/
       us: /sɪlk/
@@ -915,6 +1000,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/silk, checked: 2026-09-30, field: cefr }
@@ -924,6 +1010,7 @@ entries:
   - id: spend-time|colloc
     headword: spend time
     pos: colloc
+    definition_en: "to use hours or days doing something"
     forms:
       past: spent time
     ipa:
@@ -942,6 +1029,7 @@ entries:
       - free-time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -950,6 +1038,7 @@ entries:
   - id: secretary|n
     headword: secretary
     pos: n
+    definition_en: "a person who types letters and organises an office"
     forms:
       plural: secretaries
     ipa:
@@ -963,6 +1052,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/secretary, checked: 2026-09-30, field: cefr }
@@ -972,6 +1062,7 @@ entries:
   - id: staff|n
     headword: staff
     pos: n
+    definition_en: "all the people who work for an organisation"
     ipa:
       uk: /stɑːf/
       us: /stæf/
@@ -984,6 +1075,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/staff, checked: 2026-09-30, field: cefr }
@@ -993,6 +1085,7 @@ entries:
   - id: skirt|n
     headword: skirt
     pos: n
+    definition_en: "clothing for women that hangs from the waist"
     ipa:
       uk: /skɜːt/
       us: /skɝːt/
@@ -1005,6 +1098,7 @@ entries:
       - clothes
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skirt, checked: 2026-09-30, field: cefr }
@@ -1014,6 +1108,7 @@ entries:
   - id: special-effects|phr-n
     headword: special effects
     pos: phr-n
+    definition_en: "unusual images or sounds in a film made by technology"
     ipa:
       uk: /ˌspeʃ.əl ɪˈfekts/
       us: /ˌspeʃ.əl ɪˈfekts/
@@ -1025,6 +1120,7 @@ entries:
       - entertainment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1033,6 +1129,7 @@ entries:
   - id: singer|n
     headword: singer
     pos: n
+    definition_en: "a person who sings"
     ipa:
       uk: /ˈsɪŋ.ə/
       us: /ˈsɪŋ.ɚ/
@@ -1046,6 +1143,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/singer, checked: 2026-09-30, field: cefr }
@@ -1055,6 +1153,7 @@ entries:
   - id: send|v
     headword: send
     pos: v
+    definition_en: "to make a letter or message go to someone"
     forms:
       past: sent
       pp: sent
@@ -1071,6 +1170,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/send, checked: 2026-09-30, field: cefr }
@@ -1080,6 +1180,7 @@ entries:
   - id: show|v
     headword: show
     pos: v
+    definition_en: "to let someone see something"
     forms:
       past: showed
       pp: shown
@@ -1096,6 +1197,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/show, checked: 2026-09-30, field: cefr }
@@ -1105,6 +1207,7 @@ entries:
   - id: soft|adj
     headword: soft
     pos: adj
+    definition_en: "not hard; pleasant to touch"
     forms:
       comparative: softer
     ipa:
@@ -1119,6 +1222,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soft, checked: 2026-09-30, field: cefr }
@@ -1128,6 +1232,7 @@ entries:
   - id: south|n
     headword: south
     pos: n
+    definition_en: "the direction towards the bottom of a map"
     ipa:
       uk: /saʊθ/
       us: /saʊθ/
@@ -1140,6 +1245,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/south, checked: 2026-09-30, field: cefr }
@@ -1149,6 +1255,7 @@ entries:
   - id: spider|n
     headword: spider
     pos: n
+    definition_en: "a small creature with eight legs that makes webs"
     ipa:
       uk: /ˈspaɪ.də/
       us: /ˈspaɪ.dɚ/
@@ -1160,6 +1267,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spider, checked: 2026-09-30, field: cefr }
@@ -1169,6 +1277,7 @@ entries:
   - id: shoulder|n
     headword: shoulder
     pos: n
+    definition_en: "the part of your body where your arm joins it"
     ipa:
       uk: /ˈʃəʊl.də/
       us: /ˈʃoʊl.dɚ/
@@ -1179,6 +1288,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shoulder, checked: 2026-09-30, field: cefr }
@@ -1188,6 +1298,7 @@ entries:
   - id: swimming|n
     headword: swimming
     pos: n
+    definition_en: "moving through water using your arms and legs"
     ipa:
       uk: /ˈswɪm.ɪŋ/
       us: /ˈswɪm.ɪŋ/
@@ -1201,6 +1312,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming, checked: 2026-09-30, field: cefr }
@@ -1210,6 +1322,7 @@ entries:
   - id: score|v
     headword: score
     pos: v
+    definition_en: "to get a point or goal in a game"
     forms:
       past: scored
     ipa:
@@ -1225,6 +1338,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/score, checked: 2026-09-30, field: cefr }
@@ -1234,6 +1348,7 @@ entries:
   - id: slowly|adv
     headword: slowly
     pos: adv
+    definition_en: "at a low speed"
     ipa:
       uk: /ˈsləʊ.li/
       us: /ˈsloʊ.li/
@@ -1244,6 +1359,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slowly, checked: 2026-09-30, field: cefr }
@@ -1253,6 +1369,7 @@ entries:
   - id: smartphone|n
     headword: smartphone
     pos: n
+    definition_en: "a mobile phone that can use apps and the internet"
     ipa:
       uk: /ˈsmɑːt.fəʊn/
       us: /ˈsmɑːrt.foʊn/
@@ -1263,6 +1380,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/smartphone, checked: 2026-09-30, field: cefr }
@@ -1272,6 +1390,7 @@ entries:
   - id: screen|n
     headword: screen
     pos: n
+    definition_en: "the flat surface of a TV, computer or phone"
     ipa:
       uk: /skriːn/
       us: /skriːn/
@@ -1285,6 +1404,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen, checked: 2026-09-30, field: cefr }
@@ -1294,6 +1414,7 @@ entries:
   - id: skill|n
     headword: skill
     pos: n
+    definition_en: "an ability to do something well"
     ipa:
       uk: /skɪl/
       us: /skɪl/
@@ -1312,6 +1433,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skill, checked: 2026-09-30, field: cefr }
@@ -1321,6 +1443,7 @@ entries:
   - id: scholarship|n
     headword: scholarship
     pos: n
+    definition_en: "money given to a student to pay for studies"
     ipa:
       uk: /ˈskɒl.ə.ʃɪp/
       us: /ˈskɑː.lɚ.ʃɪp/
@@ -1337,6 +1460,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scholarship, checked: 2026-09-30, field: cefr }
@@ -1346,6 +1470,7 @@ entries:
   - id: single-use-plastic|phr-n
     headword: single-use plastic
     pos: phr-n
+    definition_en: "plastic items used once and then thrown away"
     ipa:
       uk: /ˌsɪŋ.ɡəl.juːs ˈplæs.tɪk/
       us: /ˌsɪŋ.ɡəl.juːs ˈplæs.tɪk/
@@ -1359,6 +1484,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1367,6 +1493,7 @@ entries:
   - id: social-media|phr-n
     headword: social media
     pos: phr-n
+    definition_en: "websites and apps where people share posts and messages"
     ipa:
       uk: /ˌsəʊ.ʃəl ˈmiː.di.ə/
       us: /ˌsoʊ.ʃəl ˈmiː.di.ə/
@@ -1383,6 +1510,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/social-media, checked: 2026-09-30, field: ipa.uk }
@@ -1391,6 +1519,7 @@ entries:
   - id: screen-time|phr-n
     headword: screen time
     pos: phr-n
+    definition_en: "the amount of time spent using phones, computers or TV"
     ipa:
       uk: /ˈskriːn ˌtaɪm/
       us: /ˈskriːn ˌtaɪm/
@@ -1404,6 +1533,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/screen-time, checked: 2026-09-30, field: ipa.uk }
@@ -1412,6 +1542,7 @@ entries:
   - id: software|n
     headword: software
     pos: n
+    definition_en: "programs that run on a computer"
     ipa:
       uk: /ˈsɒft.weər/
       us: /ˈsɑːft.wer/
@@ -1428,6 +1559,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/software, checked: 2026-09-30, field: cefr }
@@ -1437,6 +1569,7 @@ entries:
   - id: sharply|adv
     headword: sharply
     pos: adv
+    definition_en: "suddenly and by a large amount"
     ipa:
       uk: /ˈʃɑːp.li/
       us: /ˈʃɑːrp.li/
@@ -1453,6 +1586,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sharply, checked: 2026-09-30, field: ipa.uk }
@@ -1461,6 +1595,7 @@ entries:
   - id: significantly|adv
     headword: significantly
     pos: adv
+    definition_en: "by a large or important amount"
     ipa:
       uk: /sɪɡˈnɪf.ɪ.kənt.li/
       us: /sɪɡˈnɪf.ɪ.kənt.li/
@@ -1477,6 +1612,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/significantly, checked: 2026-09-30, field: cefr }
@@ -1486,6 +1622,7 @@ entries:
   - id: slightly|adv
     headword: slightly
     pos: adv
+    definition_en: "a little"
     ipa:
       uk: /ˈslaɪt.li/
       us: /ˈslaɪt.li/
@@ -1502,6 +1639,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/slightly, checked: 2026-09-30, field: cefr }
@@ -1511,6 +1649,7 @@ entries:
   - id: swimming-pool|phr-n
     headword: swimming pool
     pos: phr-n
+    definition_en: "an area of water built for people to swim in"
     ipa:
       uk: /ˈswɪm.ɪŋ ˌpuːl/
       us: /ˈswɪm.ɪŋ ˌpuːl/
@@ -1524,6 +1663,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/swimming-pool, checked: 2026-09-30, field: ipa.uk }
@@ -1532,6 +1672,7 @@ entries:
   - id: stretch|v
     headword: stretch
     pos: v
+    definition_en: "to make your arms or legs long to loosen them"
     ipa:
       uk: /stretʃ/
       us: /stretʃ/
@@ -1547,6 +1688,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stretch, checked: 2026-09-30, field: cefr }
@@ -1556,6 +1698,7 @@ entries:
   - id: steal|v
     headword: steal
     pos: v
+    definition_en: "to take something that is not yours"
     forms:
       past: stole
       pp: stolen
@@ -1575,6 +1718,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/steal, checked: 2026-09-30, field: cefr }
@@ -1584,6 +1728,7 @@ entries:
   - id: security-camera|phr-n
     headword: security camera
     pos: phr-n
+    definition_en: "a camera that records an area to prevent crime"
     ipa:
       uk: /sɪˈkjʊə.rə.ti ˌkæm.rə/
       us: /səˈkjʊr.ə.t̬i ˌkæm.rə/
@@ -1598,6 +1743,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1606,6 +1752,7 @@ entries:
   - id: society|n
     headword: society
     pos: n
+    definition_en: "people living together in a community or country"
     ipa:
       uk: /səˈsaɪ.ə.ti/
       us: /səˈsaɪ.ə.t̬i/
@@ -1623,6 +1770,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/society, checked: 2026-09-30, field: cefr }
@@ -1632,6 +1780,7 @@ entries:
   - id: support|v
     headword: support
     pos: v
+    definition_en: "to help someone, often with money"
     ipa:
       uk: /səˈpɔːt/
       us: /səˈpɔːrt/
@@ -1651,6 +1800,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/support, checked: 2026-09-30, field: cefr }
@@ -1660,6 +1810,7 @@ entries:
   - id: single-parent|phr-n
     headword: single parent
     pos: phr-n
+    definition_en: "a mother or father raising children alone"
     ipa:
       uk: /ˌsɪŋ.ɡəl ˈpeə.rənt/
       us: /ˌsɪŋ.ɡəl ˈper.ənt/
@@ -1674,6 +1825,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/single-parent, checked: 2026-09-30, field: ipa.uk }
@@ -1682,6 +1834,7 @@ entries:
   - id: strict|adj
     headword: strict
     pos: adj
+    definition_en: "demanding that rules are followed"
     ipa:
       uk: /strɪkt/
       us: /strɪkt/
@@ -1699,6 +1852,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/strict, checked: 2026-09-30, field: cefr }
@@ -1708,6 +1862,7 @@ entries:
   - id: spoil|v
     headword: spoil
     pos: v
+    definition_en: "to give a child everything they want, making them behave badly"
     forms:
       past: spoiled / spoilt
       pp: spoiled / spoilt
@@ -1727,6 +1882,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spoil, checked: 2026-09-30, field: cefr }
@@ -1736,6 +1892,7 @@ entries:
   - id: such-as|prep
     headword: such as
     pos: prep
+    definition_en: "used before giving examples"
     ipa:
       uk: /ˈsʌtʃ əz/
       us: /ˈsʌtʃ əz/
@@ -1750,6 +1907,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1758,6 +1916,7 @@ entries:
   - id: similarly|adv
     headword: similarly
     pos: adv
+    definition_en: "in the same way"
     ipa:
       uk: /ˈsɪm.ɪ.lə.li/
       us: /ˈsɪm.ə.lɚ.li/
@@ -1770,6 +1929,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1780,6 +1940,7 @@ entries:
   - id: suburb|n
     headword: suburb
     pos: n
+    definition_en: "an area where people live outside the centre of a city"
     ipa:
       uk: /ˈsʌb.ɜːb/
       us: /ˈsʌb.ɝːb/
@@ -1795,6 +1956,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/suburb, checked: 2026-09-30, field: cefr }
@@ -1804,6 +1966,7 @@ entries:
   - id: skyscraper|n
     headword: skyscraper
     pos: n
+    definition_en: "an extremely tall building"
     ipa:
       uk: /ˈskaɪˌskreɪ.pər/
       us: /ˈskaɪˌskreɪ.pɚ/
@@ -1814,6 +1977,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skyscraper, checked: 2026-09-30, field: ipa.uk }
@@ -1822,6 +1986,7 @@ entries:
   - id: street-food|phr-n
     headword: street food
     pos: phr-n
+    definition_en: "cheap meals sold from stalls by the road"
     ipa:
       uk: /ˈstriːt ˌfuːd/
       us: /ˈstriːt ˌfuːd/
@@ -1836,6 +2001,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/street-food, checked: 2026-09-30, field: ipa.uk }
@@ -1844,6 +2010,7 @@ entries:
   - id: spacious|adj
     headword: spacious
     pos: adj
+    definition_en: "having a lot of space"
     ipa:
       uk: /ˈspeɪ.ʃəs/
       us: /ˈspeɪ.ʃəs/
@@ -1858,6 +2025,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spacious, checked: 2026-09-30, field: ipa.uk }
@@ -1866,6 +2034,7 @@ entries:
   - id: shopping-mall|phr-n
     headword: shopping mall
     pos: phr-n
+    definition_en: "a large indoor building with many shops"
     ipa:
       uk: /ˈʃɒp.ɪŋ ˌmɔːl/
       us: /ˈʃɑː.pɪŋ ˌmɑːl/
@@ -1879,6 +2048,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/shopping-mall, checked: 2026-09-30, field: ipa.uk }
@@ -1887,6 +2057,7 @@ entries:
   - id: source|n
     headword: source
     pos: n
+    definition_en: "where information comes from"
     ipa:
       uk: /sɔːs/
       us: /sɔːrs/
@@ -1901,6 +2072,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/source, checked: 2026-09-30, field: cefr }
@@ -1910,6 +2082,7 @@ entries:
   - id: spread|v
     headword: spread
     pos: v
+    definition_en: "to move to more places or people"
     forms:
       past: spread
       pp: spread
@@ -1930,6 +2103,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spread, checked: 2026-09-30, field: cefr }
@@ -1939,6 +2113,7 @@ entries:
   - id: so-that|conj
     headword: so that
     pos: conj
+    definition_en: "in order to make something possible"
     ipa:
       uk: /ˈsəʊ ðæt/
       us: /ˈsoʊ ðæt/
@@ -1954,6 +2129,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1962,6 +2138,7 @@ entries:
   - id: skilled|adj
     headword: skilled
     pos: adj
+    definition_en: "trained and good at a job"
     ipa:
       uk: /skɪld/
       us: /skɪld/
@@ -1978,6 +2155,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/skilled, checked: 2026-09-30, field: cefr }
@@ -1987,6 +2165,7 @@ entries:
   - id: supply-chain|phr-n
     headword: supply chain
     pos: phr-n
+    definition_en: "the steps needed to make a product and get it to customers"
     ipa:
       uk: /səˈplaɪ ˌtʃeɪn/
       us: /səˈplaɪ ˌtʃeɪn/
@@ -2001,6 +2180,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/supply-chain, checked: 2026-09-30, field: ipa.uk }
@@ -2009,6 +2189,7 @@ entries:
   - id: segment|n
     headword: segment
     pos: n
+    definition_en: "one of the parts something is divided into"
     ipa:
       uk: /ˈseɡ.mənt/
       us: /ˈseɡ.mənt/
@@ -2023,6 +2204,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/segment, checked: 2026-09-30, field: cefr }
@@ -2032,6 +2214,7 @@ entries:
   - id: share|n
     headword: share
     pos: n
+    definition_en: "a part of something divided between people or groups"
     ipa:
       uk: /ʃeər/
       us: /ʃer/
@@ -2048,6 +2231,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/share_3, checked: 2026-09-30, field: cefr }
@@ -2057,6 +2241,7 @@ entries:
   - id: subsidy|n
     headword: subsidy
     pos: n
+    definition_en: "money the government pays to reduce costs"
     forms:
       plural: subsidies
     ipa:
@@ -2076,6 +2261,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/subsidy, checked: 2026-09-30, field: cefr }
@@ -2085,6 +2271,7 @@ entries:
   - id: scheme|n
     headword: scheme
     pos: n
+    definition_en: "an official plan or programme"
     ipa:
       uk: /skiːm/
       us: /skiːm/
@@ -2101,6 +2288,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scheme, checked: 2026-09-30, field: cefr }
@@ -2110,6 +2298,7 @@ entries:
   - id: solution|n
     headword: solution
     pos: n
+    definition_en: "a way of dealing with a problem"
     ipa:
       uk: /səˈluː.ʃən/
       us: /səˈluː.ʃən/
@@ -2127,6 +2316,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solution, checked: 2026-09-30, field: cefr }
@@ -2136,6 +2326,7 @@ entries:
   - id: solve|v
     headword: solve
     pos: v
+    definition_en: "to find an answer to a problem"
     ipa:
       uk: /sɒlv/
       us: /sɑːlv/
@@ -2149,6 +2340,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solve, checked: 2026-09-30, field: cefr }
@@ -2158,6 +2350,7 @@ entries:
   - id: stage|n
     headword: stage
     pos: n
+    definition_en: "one step in a process"
     ipa:
       uk: /steɪdʒ/
       us: /steɪdʒ/
@@ -2175,6 +2368,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stage, checked: 2026-09-30, field: cefr }
@@ -2184,6 +2378,7 @@ entries:
   - id: store|v
     headword: store
     pos: v
+    definition_en: "to keep something somewhere until it is needed"
     ipa:
       uk: /stɔːr/
       us: /stɔːr/
@@ -2198,6 +2393,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/store_2, checked: 2026-09-30, field: cefr }
@@ -2207,6 +2403,7 @@ entries:
   - id: sort|v
     headword: sort
     pos: v
+    definition_en: "to put things into groups"
     ipa:
       uk: /sɔːt/
       us: /sɔːrt/
@@ -2220,6 +2417,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sort_2, checked: 2026-09-30, field: cefr }
@@ -2229,6 +2427,7 @@ entries:
   - id: subsequently|adv
     headword: subsequently
     pos: adv
+    definition_en: "after that; later"
     ipa:
       uk: /ˈsʌb.sɪ.kwənt.li/
       us: /ˈsʌb.sə.kwənt.li/
@@ -2242,6 +2441,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2252,6 +2452,7 @@ entries:
   - id: standardised-test|phr-n
     headword: standardised test
     pos: phr-n
+    definition_en: "an exam that is the same and scored the same for everyone"
     forms:
       plural: standardised tests
     ipa:
@@ -2269,6 +2470,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2277,6 +2479,7 @@ entries:
   - id: soft-skills|phr-n
     headword: soft skills
     pos: phr-n
+    definition_en: "personal abilities such as teamwork and communication"
     ipa:
       uk: /ˈsɒft ˌskɪlz/
       us: /ˈsɑːft ˌskɪlz/
@@ -2290,6 +2493,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soft-skills, checked: 2026-09-30, field: ipa.uk }
@@ -2298,6 +2502,7 @@ entries:
   - id: self-study|n
     headword: self-study
     pos: n
+    definition_en: "learning on your own without a teacher"
     ipa:
       uk: /ˌselfˈstʌd.i/
       us: /ˌselfˈstʌd.i/
@@ -2311,6 +2516,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/self-study, checked: 2026-09-30, field: ipa.uk }
@@ -2319,6 +2525,7 @@ entries:
   - id: sentence|n
     headword: sentence
     pos: n
+    definition_en: "the punishment a court gives"
     ipa:
       uk: /ˈsen.təns/
       us: /ˈsen.təns/
@@ -2336,6 +2543,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sentence, checked: 2026-09-30, field: cefr }
@@ -2345,6 +2553,7 @@ entries:
   - id: surveillance|n
     headword: surveillance
     pos: n
+    definition_en: "careful watching of people, often with cameras"
     ipa:
       uk: /səˈveɪ.ləns/
       us: /sɚˈveɪ.ləns/
@@ -2362,6 +2571,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/surveillance, checked: 2026-09-30, field: cefr }
@@ -2371,6 +2581,7 @@ entries:
   - id: social-isolation|phr-n
     headword: social isolation
     pos: phr-n
+    definition_en: "having little contact with other people"
     ipa:
       uk: /ˌsəʊ.ʃəl ˌaɪ.səˈleɪ.ʃən/
       us: /ˌsoʊ.ʃəl ˌaɪ.səˈleɪ.ʃən/
@@ -2383,6 +2594,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2391,6 +2603,7 @@ entries:
   - id: sanitation|n
     headword: sanitation
     pos: n
+    definition_en: "systems for clean water and removing waste"
     ipa:
       uk: /ˌsæn.ɪˈteɪ.ʃən/
       us: /ˌsæn.əˈteɪ.ʃən/
@@ -2405,6 +2618,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2414,6 +2628,7 @@ entries:
   - id: sedentary|adj
     headword: sedentary
     pos: adj
+    definition_en: "involving a lot of sitting and little exercise"
     ipa:
       uk: /ˈsed.ən.tər.i/
       us: /ˈsed.ən.ter.i/
@@ -2428,6 +2643,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/sedentary, checked: 2026-09-30, field: ipa.uk }
@@ -2436,6 +2652,7 @@ entries:
   - id: sugary|adj
     headword: sugary
     pos: adj
+    definition_en: "containing a lot of sugar"
     ipa:
       uk: /ˈʃʊɡ.ər.i/
       us: /ˈʃʊɡ.ɚ.i/
@@ -2450,6 +2667,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sugary, checked: 2026-09-30, field: ipa.uk }
@@ -2458,6 +2676,7 @@ entries:
   - id: stem-from|phr-v
     headword: stem from
     pos: phr-v
+    definition_en: "to be caused by something"
     forms:
       past: stemmed from
     ipa:
@@ -2475,6 +2694,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2483,6 +2703,7 @@ entries:
   - id: sleep-deprivation|phr-n
     headword: sleep deprivation
     pos: phr-n
+    definition_en: "not getting enough rest at night"
     ipa:
       uk: /ˈsliːp ˌdep.rɪˈveɪ.ʃən/
       us: /ˈsliːp ˌdep.rəˈveɪ.ʃən/
@@ -2495,6 +2716,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2503,6 +2725,7 @@ entries:
   - id: stand-out|phr-v
     headword: stand out
     pos: phr-v
+    definition_en: "to be easy to notice because it is better or different"
     forms:
       past: stood out
     ipa:
@@ -2518,6 +2741,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2526,6 +2750,7 @@ entries:
   - id: status-symbol|phr-n
     headword: status symbol
     pos: phr-n
+    definition_en: "an item that shows a person's wealth or position"
     ipa:
       uk: /ˈsteɪ.təs ˌsɪm.bəl/
       us: /ˈsteɪ.t̬əs ˌsɪm.bəl/
@@ -2539,6 +2764,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/status-symbol, checked: 2026-09-30, field: ipa.uk }
@@ -2547,6 +2773,7 @@ entries:
   - id: splash-out|phr-v
     headword: splash out
     pos: phr-v
+    definition_en: "to spend a lot of money on something"
     ipa:
       uk: /ˌsplæʃ ˈaʊt/
       us: /ˌsplæʃ ˈaʊt/
@@ -2562,6 +2789,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2570,6 +2798,7 @@ entries:
   - id: second-hand|adj
     headword: second-hand
     pos: adj
+    definition_en: "owned by someone else before"
     ipa:
       uk: /ˌsek.ənd ˈhænd/
       us: /ˌsek.ənd ˈhænd/
@@ -2585,6 +2814,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/second-hand_2, checked: 2026-09-30, field: ipa.uk }
@@ -2593,6 +2823,7 @@ entries:
   - id: seldom|adv
     headword: seldom
     pos: adv
+    definition_en: "rarely; not often"
     ipa:
       uk: /ˈsel.dəm/
       us: /ˈsel.dəm/
@@ -2605,6 +2836,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/seldom, checked: 2026-09-30, field: ipa.uk }
@@ -2613,6 +2845,7 @@ entries:
   - id: substantially|adv
     headword: substantially
     pos: adv
+    definition_en: "by a large amount; greatly"
     ipa:
       uk: /səbˈstæn.ʃəl.i/
       us: /səbˈstæn.ʃəl.i/
@@ -2627,6 +2860,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/substantially, checked: 2026-09-30, field: cefr }
@@ -2636,6 +2870,7 @@ entries:
   - id: sculpture|n
     headword: sculpture
     pos: n
+    definition_en: "a piece of art made from stone, wood or metal"
     ipa:
       uk: /ˈskʌlp.tʃər/
       us: /ˈskʌlp.tʃɚ/
@@ -2650,6 +2885,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sculpture, checked: 2026-09-30, field: ipa.uk }
@@ -2658,6 +2894,7 @@ entries:
   - id: sequel|n
     headword: sequel
     pos: n
+    definition_en: "a film or book that continues the story of an earlier one"
     ipa:
       uk: /ˈsiː.kwəl/
       us: /ˈsiː.kwəl/
@@ -2671,6 +2908,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/sequel, checked: 2026-09-30, field: cefr }
@@ -2680,6 +2918,7 @@ entries:
   - id: soundtrack|n
     headword: soundtrack
     pos: n
+    definition_en: "the music played in a film"
     ipa:
       uk: /ˈsaʊnd.træk/
       us: /ˈsaʊnd.træk/
@@ -2692,6 +2931,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/soundtrack, checked: 2026-09-30, field: ipa.uk }
@@ -2700,6 +2940,7 @@ entries:
   - id: sold-out|adj
     headword: sold-out
     pos: adj
+    definition_en: "with no tickets left"
     ipa:
       uk: /ˌsəʊld ˈaʊt/
       us: /ˌsoʊld ˈaʊt/
@@ -2713,6 +2954,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2721,6 +2963,7 @@ entries:
   - id: stage-fright|phr-n
     headword: stage fright
     pos: phr-n
+    definition_en: "fear of performing in front of an audience"
     ipa:
       uk: /ˈsteɪdʒ ˌfraɪt/
       us: /ˈsteɪdʒ ˌfraɪt/
@@ -2736,6 +2979,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/stage-fright, checked: 2026-09-30, field: ipa.uk }
@@ -2744,6 +2988,7 @@ entries:
   - id: self-confidence|n
     headword: self-confidence
     pos: n
+    definition_en: "belief in your own abilities"
     ipa:
       uk: /ˌselfˈkɒn.fɪ.dəns/
       us: /ˌselfˈkɑːn.fə.dəns/
@@ -2757,6 +3002,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2766,6 +3012,7 @@ entries:
   - id: satellite|n
     headword: satellite
     pos: n
+    definition_en: "a machine sent into space to go around the Earth"
     ipa:
       uk: /ˈsæt.əl.aɪt/
       us: /ˈsæt̬.əl.aɪt/
@@ -2781,6 +3028,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/satellite, checked: 2026-09-30, field: cefr }
@@ -2790,6 +3038,7 @@ entries:
   - id: spacecraft|n
     headword: spacecraft
     pos: n
+    definition_en: "a vehicle that travels in space"
     forms:
       plural: spacecraft
     ipa:
@@ -2804,6 +3053,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spacecraft, checked: 2026-09-30, field: ipa.uk }
@@ -2812,6 +3062,7 @@ entries:
   - id: solar-system|phr-n
     headword: solar system
     pos: phr-n
+    definition_en: "the sun and the planets that move around it"
     ipa:
       uk: /ˈsəʊ.lə ˌsɪs.təm/
       us: /ˈsoʊ.lɚ ˌsɪs.təm/
@@ -2824,6 +3075,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/solar-system, checked: 2026-09-30, field: ipa.uk }
@@ -2832,6 +3084,7 @@ entries:
   - id: scientific|adj
     headword: scientific
     pos: adj
+    definition_en: "connected with science"
     ipa:
       uk: /ˌsaɪ.ənˈtɪf.ɪk/
       us: /ˌsaɪ.ənˈtɪf.ɪk/
@@ -2846,6 +3099,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/scientific, checked: 2026-09-30, field: cefr }
@@ -2855,6 +3109,7 @@ entries:
   - id: space-exploration|phr-n
     headword: space exploration
     pos: phr-n
+    definition_en: "travel and study beyond the Earth"
     ipa:
       uk: /ˈspeɪs ek.spləˌreɪ.ʃən/
       us: /ˈspeɪs ek.spləˌreɪ.ʃən/
@@ -2868,6 +3123,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2876,6 +3132,7 @@ entries:
   - id: space-debris|phr-n
     headword: space debris
     pos: phr-n
+    definition_en: "old pieces of rockets and satellites circling the Earth"
     ipa:
       uk: /ˈspeɪs ˌdeb.riː/
       us: /ˈspeɪs dəˌbriː/
@@ -2892,6 +3149,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2900,6 +3158,7 @@ entries:
   - id: spin-off|n
     headword: spin-off
     pos: n
+    definition_en: "a useful product that comes from other research"
     ipa:
       uk: /ˈspɪn.ɒf/
       us: /ˈspɪn.ɑːf/
@@ -2914,6 +3173,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/spin-off_2, checked: 2026-09-30, field: ipa.uk }

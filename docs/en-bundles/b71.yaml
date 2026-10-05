@@ -1,0 +1,214 @@
+lesson:
+  slug: buoi-71-mock-writing-3
+  number: 71
+  stage: 4
+  title_vi: "Mock Writing 3 · Task 1 bản đồ + Task 2 Causes & Solutions (60 phút)"
+  focus:
+    grammar: Không học điểm mới — thì hiện tại hoàn thành và bị động khi mô tả thay đổi
+    skill: "Writing — mock thứ ba: bản đồ (trước/sau) và đề hai câu hỏi (nguyên nhân + giải pháp); tổng kết 3 lần Mock Writing"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: writing
+      title_vi: "Bản đồ + đề hai câu hỏi — và tổng kết ba lần Mock Writing"
+      intro_vi: "Task 1 dạng bản đồ so sánh một nơi ở hai thời điểm: bạn mô tả cái gì được xây mới, bị phá bỏ, mở rộng hay chuyển chỗ. Task 2 dạng hai câu hỏi (VD: 'What are the causes? What can be done?') yêu cầu trả lời ĐỦ CẢ HAI câu, mỗi câu một đoạn thân bài. Sau buổi này, bạn có ba lần tự chấm để biết tiêu chí nào đang kéo điểm Writing xuống."
+      steps:
+        - title_vi: "Bản đồ: tìm thay đổi lớn nhất cho Overview"
+          text_vi: "So sánh hai hình và liệt kê: xây mới · phá bỏ · mở rộng · thay thế. Overview nêu xu hướng chung (VD: từ nông thôn thành khu dân cư, nhiều tiện ích hiện đại hơn) và một điều KHÔNG đổi nếu nổi bật."
+        - title_vi: "Bản đồ: đi theo hướng, dùng đúng thì"
+          text_vi: "Mô tả theo khu vực (phía bắc → phía nam, hoặc theo con đường chính). Dùng hiện tại hoàn thành bị động khi so sánh với hiện tại: 'has been replaced by', 'has been extended', 'were demolished' (quá khứ đơn nếu cả hai mốc đều ở quá khứ)."
+        - title_vi: "Đề hai câu hỏi: một đoạn cho mỗi câu"
+          text_vi: "Mở bài: paraphrase đề + nêu ngắn câu trả lời cho CẢ HAI câu hỏi. Thân bài 1: 2 nguyên nhân chính, có giải thích. Thân bài 2: giải pháp — tốt nhất là mỗi giải pháp ứng với một nguyên nhân đã nêu. Kết luận tóm tắt cả hai."
+        - title_vi: "Tổng kết 3 lần Mock Writing"
+          text_vi: "Lập bảng điểm tự chấm 4 tiêu chí × 3 lần. Tiêu chí thấp nhất ổn định là trọng tâm luyện. Đếm loại lỗi trong nhật ký: loại xuất hiện ở cả 3 lần cần một bài tập riêng ở Buổi 75–76."
+      tips:
+        - "Từ vựng bản đồ: demolish, construct, convert into, extend, relocate, replace, expand, residential area, footpath, car park."
+        - "Thêm vị trí: in the north-east, to the west of the river, next to the school, opposite the station."
+        - "Đề hai câu hỏi: giải pháp 'nên' cụ thể — ai làm (chính phủ, chủ nhà, doanh nghiệp) và làm như thế nào."
+      traps:
+        - trap_vi: "Bản đồ: chỉ liệt kê vật thể mà không nói thay đổi ở đâu."
+          fix_vi: "Mỗi câu có: cái gì + thay đổi gì + ở đâu. 'The farmland to the south of the river has been converted into a housing estate.'"
+        - trap_vi: "Đề hai câu hỏi: viết 3 đoạn nguyên nhân, giải pháp chỉ có một câu ở kết luận."
+          fix_vi: "Lập dàn ý đủ hai đoạn trước khi viết. Hai đoạn nên dài gần bằng nhau."
+        - trap_vi: "Thì sai khi mô tả thay đổi: 'The school is built in 2010.'"
+          fix_vi: "Mốc cụ thể trong quá khứ → 'was built'; so với bây giờ → 'has been built'."
+      phrases:
+        - en: "Over the period, the village has been transformed into a small town."
+          vi: "Trong khoảng thời gian đó, ngôi làng đã được biến thành một thị trấn nhỏ."
+        - en: "… was demolished to make way for …"
+          vi: "… bị phá bỏ để nhường chỗ cho …"
+        - en: "The main cause of this problem is …"
+          vi: "Nguyên nhân chính của vấn đề này là …"
+        - en: "One effective solution would be for the government to …"
+          vi: "Một giải pháp hiệu quả là chính phủ nên …"
+      demo:
+        title_vi: "Bài mẫu Task 1 bản đồ (khoảng band 7) cho đề ở phần Về nhà"
+        text_en: |-
+          The maps compare the village of Hollow Bridge in 2000 with its present layout.
+
+          Overall, the village has become much more developed, with farmland replaced by housing and several new facilities added. The river and the main road, however, have remained unchanged.
+
+          In the north of the village, the area that used to be farmland has been converted into a housing estate, and the old farmhouse has been demolished. A primary school has been built to the east of the new houses, next to the main road.
+
+          South of the river, the changes are equally significant. The small shop has been extended into a supermarket with a car park, while the woodland to the west has been partly cleared to create a park with a children's playground. Finally, a footbridge has been added across the river, linking the park with the housing estate.
+        notes:
+          - label: Overview
+            text_vi: "Một xu hướng chung (phát triển hơn) + điều không đổi (sông và đường chính)."
+          - label: Thân bài
+            text_vi: "Chia theo khu vực: phía bắc sông / phía nam sông, mỗi câu nói rõ vị trí."
+          - label: Ngữ pháp
+            text_vi: "Hiện tại hoàn thành bị động: has been converted, has been demolished, has been extended, has been added."
+          - label: Từ vựng
+            text_vi: "converted into, demolished, extended into, partly cleared, linking — không lặp 'build' ở mọi câu."
+    - type: exercises
+      items:
+        - id: b71-x1
+          bank_no: 6
+          kind: verb-form
+          instructions_vi: "So sánh bản đồ năm 2000 với hiện nay. Chia động từ trong ngoặc ở hiện tại hoàn thành BỊ ĐỘNG."
+          questions:
+            - q: "The farmland in the north (convert) ___ into a housing estate."
+              answer: has been converted
+            - q: "The old farmhouse (demolish) ___."
+              answer: has been demolished
+            - q: "Two new footpaths (add) ___ along the river."
+              answer: have been added
+              explain_vi: "Chủ ngữ số nhiều 'Two new footpaths' → have been."
+            - q: "The shop (extend) ___ into a supermarket."
+              answer: has been extended
+        - id: b71-x2
+          bank_no: 9
+          kind: combine
+          instructions_vi: "Nối hai câu thành một, dùng từ trong ngoặc. Không dùng dấu phẩy để nối hai câu đầy đủ."
+          questions:
+            - q: "The woodland has been partly cleared. A park has been created there. (to create)"
+              answer: The woodland has been partly cleared to create a park.
+            - q: "A footbridge has been added. It links the park with the housing estate. (which)"
+              answer: A footbridge has been added, which links the park with the housing estate.
+              accept:
+                - A footbridge which links the park with the housing estate has been added.
+            - q: "The river has not changed. The main road has not changed either. (Both … and … have remained unchanged)"
+              answer: Both the river and the main road have remained unchanged.
+              accept:
+                - Both the river and the main road remain unchanged.
+        - id: b71-x3
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Đề Task 2: 'In many cities, young people find it increasingly difficult to afford a home. What are the causes of this problem? What measures could be taken to solve it?' Chọn đáp án đúng."
+          questions:
+            - q: "Which introduction answers BOTH questions?"
+              options:
+                - "Housing is a big problem in many cities around the world today."
+                - "This essay will discuss the causes of high house prices."
+                - "Rising property prices and low starting salaries have made homes unaffordable for many young adults, but building more affordable housing and supporting first-time buyers could ease the problem."
+                - "I agree that young people cannot afford a home."
+              answer: c
+            - q: "Which solution matches the cause 'investors buy flats and leave them empty'?"
+              options:
+                - "Young people should save more money."
+                - "Governments could tax properties that are left empty for a long time."
+                - "Cities should build more schools."
+                - "Banks should lend more to investors."
+              answer: b
+              explain_vi: "Giải pháp tốt nhất đi kèm trực tiếp với nguyên nhân đã nêu."
+            - q: "Which sentence is NOT appropriate in the 'solutions' paragraph?"
+              options:
+                - "One effective measure would be to build more affordable rental housing."
+                - "Another option is to offer low-interest loans to first-time buyers."
+                - "Another cause is that salaries for graduates have not kept pace with prices."
+                - "Employers in expensive cities could also provide housing allowances."
+              answer: c
+              explain_vi: "Đây là một NGUYÊN NHÂN — đặt nhầm đoạn làm giảm điểm Coherence."
+        - id: b71-x4
+          bank_no: 7
+          kind: error-correction
+          instructions_vi: "Đoạn giải pháp có 4 lỗi. Tìm và sửa."
+          text: "One effective solution would be for government to build more affordable houses. Another option is offer cheap loans to a young buyers. Finally, employers could to provide housing allowances."
+          errors:
+            - wrong: "for government"
+              right: "for the government"
+              why: "Chỉ chính phủ của một nước cụ thể → 'the government'."
+            - wrong: "is offer"
+              right: "is to offer"
+              why: "'Another option is' + to V."
+            - wrong: "a young buyers"
+              right: "young buyers"
+              why: "Không dùng 'a' trước danh từ số nhiều (lỗi riêng của bạn: 'a students')."
+            - wrong: "could to provide"
+              right: "could provide"
+              why: "Sau động từ khuyết thiếu 'could' là động từ nguyên mẫu không 'to'."
+        - id: b71-x5
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe một giáo viên nhận xét bài Task 1 bản đồ (hai giọng). Chọn đáp án đúng."
+          audio_text: |-
+            Teacher: Your map description is much better organised than last time, Nam.
+            Student: Thanks. I went from north to south like you suggested.
+            Teacher: Yes, that works well. But in your overview, you only mentioned the new school. That's a detail, not a general trend.
+            Student: So what should I write?
+            Teacher: Something like 'the village has become more residential'. Then the details go in the body.
+            Student: OK. Were my tenses correct?
+            Teacher: Mostly. But you wrote 'the farmhouse is demolished'. It should be 'has been demolished', because you're comparing with the present.
+            Student: Right. And the word count?
+            Teacher: A hundred and forty. You need at least a hundred and fifty, so add one more detail about the park.
+          questions:
+            - q: "What has improved since the student's last essay?"
+              options:
+                - the overview
+                - the organisation
+                - the word count
+                - the tenses
+              answer: b
+            - q: "What was wrong with the overview?"
+              options:
+                - It was too long.
+                - It included numbers.
+                - It described a detail rather than a general trend.
+                - It was missing.
+              answer: c
+            - q: "Which correction did the teacher make?"
+              options:
+                - "'is demolished' → 'has been demolished'"
+                - "'was built' → 'is built'"
+                - "'park' → 'parks'"
+                - "'north' → 'the north'"
+              answer: a
+            - q: "How many words did the student write?"
+              options:
+                - "114"
+                - "140"
+                - "150"
+                - "160"
+              answer: b
+        - id: b71-x6
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe lời khuyên về đề hai câu hỏi (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "When an essay question contains two questions, examiners check whether you have answered both of them fully. It's not enough to mention solutions briefly in the conclusion. The safest plan is one body paragraph for causes and one for solutions, roughly the same length. And try to link them: if one cause is that wages are low, one solution could address wages directly."
+          questions:
+            - q: Mentioning solutions in the conclusion is enough.
+              answer: F
+            - q: The two body paragraphs should be about the same length.
+              answer: T
+            - q: Solutions should be connected to the causes you described.
+              answer: T
+            - q: Examiners only check the first question.
+              answer: F
+    - type: homework
+      kind: task2
+      prompt_vi: "MOCK WRITING 3 — làm ĐỦ HAI TASK liên tục trong 60 phút: Task 1 (≥ 150 từ, 20 phút), xuống dòng ghi 'TASK 2', rồi Task 2 (≥ 250 từ, 40 phút). Sau đó lập bảng tự chấm 4 tiêu chí × 3 lần Mock Writing và khoanh tiêu chí thấp nhất. Bản đồ được mô tả bằng lời; tên làng là giả định."
+      prompt_en: |-
+        TASK 1 (20 minutes, at least 150 words)
+        The maps show the village of Hollow Bridge in 2000 and today.
+        2000 — North of the river: farmland and an old farmhouse. South of the river: a small shop, woodland in the west. A main road runs north to south across a road bridge.
+        Today — North of the river: a housing estate (where the farmland was); the farmhouse is gone; a new primary school next to the main road, east of the houses. South of the river: the shop is now a supermarket with a car park; part of the woodland is now a park with a playground. A new footbridge crosses the river between the park and the housing estate. The river, the main road and the road bridge are unchanged.
+        Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+
+        TASK 2 (40 minutes, at least 250 words)
+        In many cities, young people find it increasingly difficult to afford a home.
+        What are the causes of this problem? What measures could be taken to solve it?
+        Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+      words:
+        min: 400
+        max: 520
+      minutes: 60

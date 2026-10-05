@@ -46,6 +46,7 @@ const PAGES = [
   ["practice-vocab", `/zh/lesson/${LESSON}/practice/vocab/`],
   ["practice-flashcards", `/zh/lesson/${LESSON}/practice/flashcards/`],
   ["practice-copy", `/zh/lesson/${LESSON}/practice/copy/`],
+  ["practice-game", `/zh/lesson/${LESSON}/practice/game/`],
   ["practice-sentences", `/zh/lesson/${LESSON}/practice/sentences/`],
   ["practice-paragraph", `/zh/lesson/${LESSON}/practice/paragraph/`],
   ["notebook", "/zh/flashcards/"],

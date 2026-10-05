@@ -3,30 +3,35 @@ entries:
   - id: younger-brother|phr-n
     headword: younger brother
     pos: phr-n
+    definition_en: "a boy in your family who was born after you"
     ipa: { uk: "/ˌjʌŋ.ɡə ˈbrʌð.ə/", us: "/ˌjʌŋ.ɡɚ ˈbrʌð.ɚ/" }
     cefr: null
     meaning_vi: [ em trai ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: younger-sister|phr-n
     headword: younger sister
     pos: phr-n
+    definition_en: "a girl in your family who was born after you"
     ipa: { uk: "/ˌjʌŋ.ɡə ˈsɪs.tə/", us: "/ˌjʌŋ.ɡɚ ˈsɪs.tɚ/" }
     cefr: null
     meaning_vi: [ em gái ]
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: ipa }
       - { source: ai-draft, field: meaning_vi }
     status: draft
   - id: yesterday|adv
     headword: yesterday
     pos: adv
+    definition_en: "on the day before today"
     ipa:
       uk: /ˈjes.tə.deɪ/
       us: /ˈjes.tɚ.deɪ/
@@ -37,6 +42,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/yesterday, checked: 2026-09-30, field: cefr }
@@ -46,6 +52,7 @@ entries:
   - id: young|adj
     headword: young
     pos: adj
+    definition_en: "not having lived for many years"
     forms:
       comparative: younger
       superlative: youngest
@@ -61,6 +68,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/young, checked: 2026-09-30, field: cefr }

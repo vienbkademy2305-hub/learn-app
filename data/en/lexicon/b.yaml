@@ -3,6 +3,7 @@ entries:
   - id: beautiful|adj
     headword: beautiful
     pos: adj
+    definition_en: "very attractive or pleasant to look at"
     forms:
       comparative: more beautiful
       superlative: most beautiful
@@ -19,6 +20,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -29,6 +31,7 @@ entries:
   - id: bedroom|n
     headword: bedroom
     pos: n
+    definition_en: "a room where you sleep"
     ipa:
       uk: /ˈbed.ruːm/
       us: /ˈbed.ruːm/
@@ -40,6 +43,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bedroom, checked: 2026-09-30, field: cefr }
@@ -49,6 +53,7 @@ entries:
   - id: bathroom|n
     headword: bathroom
     pos: n
+    definition_en: "a room with a shower or bath and a toilet"
     ipa:
       uk: /ˈbɑːθ.ruːm/
       us: /ˈbæθ.ruːm/
@@ -61,6 +66,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bathroom, checked: 2026-09-30, field: cefr }
@@ -70,6 +76,7 @@ entries:
   - id: balcony|n
     headword: balcony
     pos: n
+    definition_en: "a small area outside an upstairs window, with a wall or rail"
     forms:
       plural: balconies
     ipa:
@@ -83,6 +90,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/balcony, checked: 2026-09-30, field: ipa.uk }
@@ -91,6 +99,7 @@ entries:
   - id: behind|prep
     headword: behind
     pos: prep
+    definition_en: "at the back of something"
     ipa:
       uk: /bɪˈhaɪnd/
       us: /bɪˈhaɪnd/
@@ -102,6 +111,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behind, checked: 2026-09-30, field: cefr }
@@ -111,6 +121,7 @@ entries:
   - id: between|prep
     headword: between
     pos: prep
+    definition_en: "in the space in the middle of two things"
     ipa:
       uk: /bɪˈtwiːn/
       us: /bɪˈtwiːn/
@@ -124,6 +135,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/between, checked: 2026-09-30, field: cefr }
@@ -133,6 +145,7 @@ entries:
   - id: birthday|n
     headword: birthday
     pos: n
+    definition_en: "the day each year that is the anniversary of your birth"
     ipa:
       uk: /ˈbɜːθ.deɪ/
       us: /ˈbɝːθ.deɪ/
@@ -148,6 +161,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/birthday, checked: 2026-09-30, field: cefr }
@@ -157,6 +171,7 @@ entries:
   - id: break|n
     headword: break
     pos: n
+    definition_en: "a short rest between lessons or work"
     ipa:
       uk: /breɪk/
       us: /breɪk/
@@ -172,6 +187,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break_2, checked: 2026-09-30, field: cefr }
@@ -181,6 +197,7 @@ entries:
   - id: bread|n
     headword: bread
     pos: n
+    definition_en: "food made from flour and baked, often sliced"
     ipa:
       uk: /bred/
       us: /bred/
@@ -193,6 +210,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bread, checked: 2026-09-30, field: cefr }
@@ -202,6 +220,7 @@ entries:
   - id: beef|n
     headword: beef
     pos: n
+    definition_en: "meat from a cow"
     ipa:
       uk: /biːf/
       us: /biːf/
@@ -212,6 +231,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beef, checked: 2026-09-30, field: cefr }
@@ -221,6 +241,7 @@ entries:
   - id: bottle|n
     headword: bottle
     pos: n
+    definition_en: "a container for liquids with a narrow top"
     ipa:
       uk: /ˈbɒt.əl/
       us: /ˈbɑː.t̬əl/
@@ -233,6 +254,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bottle, checked: 2026-09-30, field: cefr }
@@ -242,6 +264,7 @@ entries:
   - id: book|v
     headword: book
     pos: v
+    definition_en: "to arrange to have a room, seat or ticket"
     forms:
       past: booked
     ipa:
@@ -260,6 +283,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/book_2, checked: 2026-09-30, field: cefr }
@@ -269,6 +293,7 @@ entries:
   - id: beach|n
     headword: beach
     pos: n
+    definition_en: "an area of sand next to the sea"
     ipa:
       uk: /biːtʃ/
       us: /biːtʃ/
@@ -283,6 +308,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/beach, checked: 2026-09-30, field: cefr }
@@ -292,6 +318,7 @@ entries:
   - id: bargain|n
     headword: bargain
     pos: n
+    definition_en: "something bought for much less than its usual price"
     ipa:
       uk: /ˈbɑː.ɡɪn/
       us: /ˈbɑːr.ɡɪn/
@@ -305,6 +332,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -314,6 +342,7 @@ entries:
   - id: brand|n
     headword: brand
     pos: n
+    definition_en: "the name of a product made by a particular company"
     ipa:
       uk: /brænd/
       us: /brænd/
@@ -327,6 +356,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/brand, checked: 2026-09-30, field: cefr }
@@ -336,6 +366,7 @@ entries:
   - id: break|v
     headword: break
     pos: v
+    definition_en: "to make something separate into pieces"
     forms:
       past: broke
       pp: broken
@@ -354,6 +385,7 @@ entries:
       - story
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/break, checked: 2026-09-30, field: cefr }
@@ -363,6 +395,7 @@ entries:
   - id: bicycle|n
     headword: bicycle
     pos: n
+    definition_en: "a two-wheeled vehicle you ride by pushing pedals"
     ipa:
       uk: /ˈbaɪ.sɪ.kəl/
       us: /ˈbaɪ.sɪ.kəl/
@@ -377,6 +410,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bicycle, checked: 2026-09-30, field: cefr }
@@ -386,6 +420,7 @@ entries:
   - id: bus-stop|phr-n
     headword: bus stop
     pos: phr-n
+    definition_en: "a place by the road where you wait to get on a public vehicle"
     ipa:
       uk: /ˈbʌs ˌstɒp/
       us: /ˈbʌs ˌstɑːp/
@@ -396,6 +431,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bus-stop, checked: 2026-09-30, field: ipa.uk }
@@ -404,6 +440,7 @@ entries:
   - id: board-game|phr-n
     headword: board game
     pos: phr-n
+    definition_en: "a game played by moving pieces on a printed surface"
     ipa:
       uk: /ˈbɔːd ˌɡeɪm/
       us: /ˈbɔːrd ˌɡeɪm/
@@ -414,6 +451,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/board-game, checked: 2026-09-30, field: ipa.uk }
@@ -422,6 +460,7 @@ entries:
   - id: bored|adj
     headword: bored
     pos: adj
+    definition_en: "feeling tired because nothing is interesting"
     ipa:
       uk: /bɔːd/
       us: /bɔːrd/
@@ -436,6 +475,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bored, checked: 2026-09-30, field: cefr }
@@ -445,6 +485,7 @@ entries:
   - id: boring|adj
     headword: boring
     pos: adj
+    definition_en: "not interesting"
     ipa:
       uk: /ˈbɔː.rɪŋ/
       us: /ˈbɔːr.ɪŋ/
@@ -456,6 +497,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/boring, checked: 2026-09-30, field: cefr }
@@ -465,6 +507,7 @@ entries:
   - id: belong-to|phr-v
     headword: belong to
     pos: phr-v
+    definition_en: "to be owned by someone"
     ipa:
       uk: /bɪˈlɒŋ tuː/
       us: /bɪˈlɑːŋ tuː/
@@ -475,6 +518,7 @@ entries:
       - daily-life
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -483,6 +527,7 @@ entries:
   - id: build|v
     headword: build
     pos: v
+    definition_en: "to make a house, road or bridge"
     forms:
       past: built
       pp: built
@@ -500,6 +545,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/build, checked: 2026-09-30, field: cefr }
@@ -509,6 +555,7 @@ entries:
   - id: biology|n
     headword: biology
     pos: n
+    definition_en: "the science of living things"
     ipa:
       uk: /baɪˈɒl.ə.dʒi/
       us: /baɪˈɑː.lə.dʒi/
@@ -520,6 +567,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biology, checked: 2026-09-30, field: cefr }
@@ -529,6 +577,7 @@ entries:
   - id: businessman|n
     headword: businessman
     pos: n
+    definition_en: "a man who works in business"
     forms:
       plural: businessmen
     ipa:
@@ -544,6 +593,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -553,6 +603,7 @@ entries:
   - id: band|n
     headword: band
     pos: n
+    definition_en: "a group of musicians who play together"
     ipa:
       uk: /bænd/
       us: /bænd/
@@ -568,6 +619,7 @@ entries:
       - music
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/band, checked: 2026-09-30, field: cefr }
@@ -577,6 +629,7 @@ entries:
   - id: buy|v
     headword: buy
     pos: v
+    definition_en: "to get something by paying money"
     forms:
       past: bought
       pp: bought
@@ -593,6 +646,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/buy, checked: 2026-09-30, field: cefr }
@@ -602,6 +656,7 @@ entries:
   - id: british|adj
     headword: British
     pos: adj
+    definition_en: "from or connected with the United Kingdom"
     ipa:
       uk: /ˈbrɪt.ɪʃ/
       us: /ˈbrɪt̬.ɪʃ/
@@ -614,6 +669,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/british, checked: 2026-09-30, field: ipa.uk }
@@ -622,6 +678,7 @@ entries:
   - id: bird|n
     headword: bird
     pos: n
+    definition_en: "an animal with feathers and wings"
     ipa:
       uk: /bɜːd/
       us: /bɝːd/
@@ -633,6 +690,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bird, checked: 2026-09-30, field: cefr }
@@ -642,6 +700,7 @@ entries:
   - id: bear|n
     headword: bear
     pos: n
+    definition_en: "a large, heavy wild animal with thick fur"
     ipa:
       uk: /beə/
       us: /ber/
@@ -655,6 +714,7 @@ entries:
       - animals
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bear_2, checked: 2026-09-30, field: cefr }
@@ -664,6 +724,7 @@ entries:
   - id: back|n
     headword: back
     pos: n
+    definition_en: "the part of your body behind you, from neck to bottom"
     ipa:
       uk: /bæk/
       us: /bæk/
@@ -677,6 +738,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/back, checked: 2026-09-30, field: cefr }
@@ -686,6 +748,7 @@ entries:
   - id: basketball|n
     headword: basketball
     pos: n
+    definition_en: "a game where players throw a ball through a high ring"
     ipa:
       uk: /ˈbɑː.skɪt.bɔːl/
       us: /ˈbæs.kət.bɑːl/
@@ -698,6 +761,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -708,6 +772,7 @@ entries:
   - id: badly|adv
     headword: badly
     pos: adv
+    definition_en: "in a poor way"
     ipa:
       uk: /ˈbæd.li/
       us: /ˈbæd.li/
@@ -719,6 +784,7 @@ entries:
       - manner
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badly, checked: 2026-09-30, field: cefr }
@@ -728,6 +794,7 @@ entries:
   - id: believe|v
     headword: believe
     pos: v
+    definition_en: "to think that something is true"
     ipa:
       uk: /bɪˈliːv/
       us: /bɪˈliːv/
@@ -746,6 +813,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/believe, checked: 2026-09-30, field: cefr }
@@ -755,6 +823,7 @@ entries:
   - id: benefit|n
     headword: benefit
     pos: n
+    definition_en: "a good effect or advantage"
     ipa:
       uk: /ˈben.ɪ.fɪt/
       us: /ˈben.ə.fɪt/
@@ -770,6 +839,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/benefit, checked: 2026-09-30, field: cefr }
@@ -779,6 +849,7 @@ entries:
   - id: badminton|n
     headword: badminton
     pos: n
+    definition_en: "a game where players hit a shuttlecock over a net"
     ipa:
       uk: /ˈbæd.mɪn.tən/
       us: /ˈbæd.mɪn.tən/
@@ -795,6 +866,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/badminton, checked: 2026-09-30, field: ipa.uk }
@@ -803,6 +875,7 @@ entries:
   - id: bring-up|phr-v
     headword: bring up
     pos: phr-v
+    definition_en: "to look after and educate a child until adulthood"
     forms:
       past: brought up
       pp: brought up
@@ -821,6 +894,7 @@ entries:
       - family
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -829,6 +903,7 @@ entries:
   - id: behaviour|n
     headword: behaviour
     pos: n
+    definition_en: "the way someone acts"
     ipa:
       uk: /bɪˈheɪ.vjər/
       us: /bɪˈheɪ.vjɚ/
@@ -848,6 +923,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/behaviour, checked: 2026-09-30, field: cefr }
@@ -857,6 +933,7 @@ entries:
   - id: bar-chart|phr-n
     headword: bar chart
     pos: phr-n
+    definition_en: "a graph that uses rectangles of different heights to compare amounts"
     ipa:
       uk: /ˈbɑː ˌtʃɑːt/
       us: /ˈbɑːr ˌtʃɑːrt/
@@ -872,6 +949,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bar-chart, checked: 2026-09-30, field: ipa.uk }
@@ -880,6 +958,7 @@ entries:
   - id: besides|adv
     headword: besides
     pos: adv
+    definition_en: "also; in addition"
     ipa:
       uk: /bɪˈsaɪdz/
       us: /bɪˈsaɪdz/
@@ -893,6 +972,7 @@ entries:
       - grammar
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/besides_2, checked: 2026-09-30, field: cefr }
@@ -902,6 +982,7 @@ entries:
   - id: biased|adj
     headword: biased
     pos: adj
+    definition_en: "unfairly supporting one side"
     ipa:
       uk: /ˈbaɪ.əst/
       us: /ˈbaɪ.əst/
@@ -918,6 +999,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/biased, checked: 2026-09-30, field: ipa.uk }
@@ -926,6 +1008,7 @@ entries:
   - id: benefit-from|phr-v
     headword: benefit from
     pos: phr-v
+    definition_en: "to get an advantage from something"
     ipa:
       uk: /ˈben.ɪ.fɪt frəm/
       us: /ˈben.ə.fɪt frəm/
@@ -941,6 +1024,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -949,6 +1033,7 @@ entries:
   - id: ban|v
     headword: ban
     pos: v
+    definition_en: "to officially forbid something"
     forms:
       past: banned
       ing: banning
@@ -967,6 +1052,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/ban, checked: 2026-09-30, field: cefr }
@@ -976,6 +1062,7 @@ entries:
   - id: budget|n
     headword: budget
     pos: n
+    definition_en: "a plan for how much money can be spent"
     ipa:
       uk: /ˈbʌdʒ.ɪt/
       us: /ˈbʌdʒ.ɪt/
@@ -990,6 +1077,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/budget, checked: 2026-09-30, field: cefr }
@@ -999,6 +1087,7 @@ entries:
   - id: bias|n
     headword: bias
     pos: n
+    definition_en: "an unfair preference for or against something"
     ipa:
       uk: /ˈbaɪ.əs/
       us: /ˈbaɪ.əs/
@@ -1015,6 +1104,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/bias, checked: 2026-09-30, field: cefr }
@@ -1024,6 +1114,7 @@ entries:
   - id: breakthrough|n
     headword: breakthrough
     pos: n
+    definition_en: "an important new discovery"
     ipa:
       uk: /ˈbreɪk.θruː/
       us: /ˈbreɪk.θruː/
@@ -1038,6 +1129,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/breakthrough, checked: 2026-09-30, field: cefr }
@@ -1047,6 +1139,7 @@ entries:
   - id: balanced-diet|phr-n
     headword: balanced diet
     pos: phr-n
+    definition_en: "eating the right amounts of different foods"
     ipa:
       uk: /ˌbæl.ənst ˈdaɪ.ət/
       us: /ˌbæl.ənst ˈdaɪ.ət/
@@ -1060,6 +1153,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1068,6 +1162,7 @@ entries:
   - id: burden|n
     headword: burden
     pos: n
+    definition_en: "a heavy responsibility or problem"
     ipa:
       uk: /ˈbɜː.dən/
       us: /ˈbɝː.dən/
@@ -1084,6 +1179,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/burden, checked: 2026-09-30, field: cefr }
@@ -1093,6 +1189,7 @@ entries:
   - id: bring-back-memories|idiom
     headword: bring back memories
     pos: idiom
+    definition_en: "to make you remember the past"
     forms:
       past: brought back memories
     ipa:
@@ -1107,6 +1204,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1115,6 +1213,7 @@ entries:
   - id: broaden-your-horizons|idiom
     headword: broaden your horizons
     pos: idiom
+    definition_en: "to experience new things and widen your understanding"
     ipa:
       uk: /ˌbrɔː.dən jɔː həˈraɪ.zənz/
       us: /ˌbrɑː.dən jɚ həˈraɪ.zənz/
@@ -1130,6 +1229,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1138,6 +1238,7 @@ entries:
   - id: by-far|idiom
     headword: by far
     pos: idiom
+    definition_en: "by a very large amount"
     ipa:
       uk: /ˌbaɪ ˈfɑːr/
       us: /ˌbaɪ ˈfɑːr/
@@ -1154,6 +1255,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1162,6 +1264,7 @@ entries:
   - id: box-office|phr-n
     headword: box office
     pos: phr-n
+    definition_en: "the place where tickets are sold; ticket sales"
     ipa:
       uk: /ˈbɒks ˌɒf.ɪs/
       us: /ˈbɑːks ˌɑː.fɪs/
@@ -1176,6 +1279,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/box-office, checked: 2026-09-30, field: ipa.uk }
@@ -1184,6 +1288,7 @@ entries:
   - id: blockbuster|n
     headword: blockbuster
     pos: n
+    definition_en: "a very successful film with a big budget"
     ipa:
       uk: /ˈblɒkˌbʌs.tər/
       us: /ˈblɑːkˌbʌs.tɚ/
@@ -1197,6 +1302,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/blockbuster, checked: 2026-09-30, field: ipa.uk }
@@ -1205,6 +1311,7 @@ entries:
   - id: band-descriptor|phr-n
     headword: band descriptor
     pos: phr-n
+    definition_en: "official descriptions of what each IELTS score means"
     ipa:
       uk: /ˈbænd dɪˌskrɪp.tər/
       us: /ˈbænd dɪˌskrɪp.tɚ/
@@ -1217,6 +1324,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

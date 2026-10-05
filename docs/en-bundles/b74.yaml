@@ -1,0 +1,155 @@
+lesson:
+  slug: buoi-74-mock-speaking-3
+  number: 74
+  stage: 4
+  title_vi: "Mock Speaking 3 · Đủ 3 Part — công nghệ hữu ích; xử lý câu hỏi Part 3 khó"
+  focus:
+    grammar: Không học điểm mới — câu phức (mệnh đề quan hệ, mệnh đề danh từ) khi nói
+    skill: "Speaking — mock thứ ba: kéo dài và nâng cấp câu trả lời Part 3; tổng kết 3 lần Mock Speaking"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: speaking
+      title_vi: "Mock 3 — Part 3 sâu hơn, và tổng kết Speaking"
+      intro_vi: "Part 3 là nơi phân biệt band 6 và band 7: câu hỏi trừu tượng, có so sánh quá khứ–hiện tại, dự đoán tương lai, hoặc hỏi về xã hội chứ không về bản thân bạn. Lần mock này tập trung vào bốn kiểu câu hỏi Part 3 hay gặp và cách mở rộng câu trả lời. Sau buổi này, bạn có ba bản ghi âm để chọn kỹ năng nói yếu nhất cho Buổi 75–76."
+      steps:
+        - title_vi: "Nhận diện 4 kiểu câu hỏi Part 3"
+          text_vi: "So sánh ('Is X better than Y?') → nêu điểm mạnh của cả hai rồi chọn. Quá khứ–hiện tại ('How has X changed?') → thì hiện tại hoàn thành + ví dụ cụ thể. Dự đoán ('Will X…in the future?') → will/might/is likely to + lý do. Ý kiến xã hội ('Should the government…?') → quan điểm + ai chịu trách nhiệm + điều kiện."
+        - title_vi: "Mở rộng: từ cá nhân lên xã hội"
+          text_vi: "Câu hỏi Part 3 hỏi về 'people' chứ không phải 'you'. Bắt đầu bằng xu hướng chung ('Most people nowadays…'), có thể dùng ví dụ cá nhân làm minh họa, rồi quay lại tầm xã hội."
+        - title_vi: "Câu phức tự nhiên khi nói"
+          text_vi: "Mệnh đề quan hệ ('people who work from home'), mệnh đề danh từ ('What worries me is…', 'I'm not sure whether…'), điều kiện ('as long as…', 'unless…'). Hai–ba câu phức đúng mỗi câu trả lời là đủ cho GRA band 6.5."
+        - title_vi: "Tổng kết 3 lần Mock Speaking"
+          text_vi: "Lập bảng 4 tiêu chí × 3 lần. Nghe lại bản ghi Mock 1 và Mock 3 liền nhau: tiến bộ rõ nhất ở đâu, tiêu chí nào đứng yên? Tiêu chí thấp nhất là ứng viên cho Buổi 75–76."
+      tips:
+        - "Không có ý kiến? Nói về hai phía: 'On the one hand… On the other hand… Overall, I lean towards…'"
+        - "Câu hỏi về tương lai: tránh 'will' ở mọi câu — dùng 'it's likely that', 'I can imagine that', 'there's a good chance that'."
+        - "Giám khảo có thể ngắt lời để hỏi tiếp — đó là chuyện bình thường của Part 3, không phải dấu hiệu bạn trả lời sai."
+      traps:
+        - trap_vi: "Trả lời Part 3 như Part 1: kể chuyện cá nhân rồi dừng."
+          fix_vi: "Sau ví dụ cá nhân, thêm một câu về xã hội: 'and I think that's true for many people of my generation'."
+        - trap_vi: "Câu hỏi 'Should the government…?' trả lời 'Yes, because it is important.'"
+          fix_vi: "Nói cụ thể chính phủ nên làm GÌ, vì sao, và trong điều kiện nào."
+        - trap_vi: "Dùng 'technology' lặp lại 10 lần (lỗi lặp danh từ của bạn)."
+          fix_vi: "Thay bằng: digital devices, smartphones, apps, these tools, it."
+      phrases:
+        - en: "Compared with twenty years ago, …"
+          vi: "So với hai mươi năm trước, …"
+        - en: "There's a good chance that…"
+          vi: "Rất có thể là…"
+        - en: "What worries me is that…"
+          vi: "Điều làm tôi lo là…"
+        - en: "As long as…, I don't see a problem."
+          vi: "Miễn là…, tôi không thấy có vấn đề gì."
+        - en: "On balance, I lean towards…"
+          vi: "Cân nhắc mọi mặt, tôi nghiêng về…"
+    - type: exercises
+      items:
+        - id: b74-x1
+          bank_no: 29
+          kind: speaking-part1
+          instructions_vi: "PART 1 (4–5 phút). Trả lời ngay 15–25 giây mỗi câu. Ghi âm liên tục."
+          questions:
+            - q: How do you usually travel to work or school?
+            - q: Is public transport good where you live?
+            - q: Let's talk about reading. Do you read more on paper or on a screen?
+            - q: What kind of things did you read as a child?
+            - q: Let's talk about friends. How often do you see your friends?
+            - q: Do you prefer having a few close friends or many friends?
+          sample: "Mostly on a screen these days, if I'm honest. I read news and articles on my phone during my commute, simply because it's convenient. But for novels, I still prefer paper — I find it easier to concentrate, and I like being able to see how much I've got left."
+        - id: b74-x2
+          bank_no: 30
+          kind: speaking-part2
+          instructions_vi: "PART 2. Chuẩn bị 1 phút, nói 2 phút. Dùng ít nhất 2 mệnh đề quan hệ. Ghi âm."
+          cue_card:
+            topic: Describe a piece of technology that you find useful.
+            points:
+              - what it is
+              - when you got it
+              - how you use it
+              - and explain why you find it useful
+          sample: "I'd like to talk about a small digital voice recorder that I bought about a year ago, when I started preparing seriously for IELTS. It's about the size of a lighter, and it has one button that starts recording immediately, which is much faster than opening an app on my phone. I use it in two ways. First, I record my answers to speaking questions while I'm walking to work, and then I listen back in the evening and write down the mistakes I notice. Second, I record short conversations with my colleague who studied in Australia, so I can listen to natural expressions again later. The reason I find it so useful is that it makes me hear myself the way an examiner would. When I first listened to my recordings, I was surprised to discover how often I dropped the endings of words, like the -s in 'he works'. I don't think I would have noticed that without it."
+        - id: b74-x3
+          bank_no: 31
+          kind: speaking-part3
+          instructions_vi: "PART 3 (4–5 phút). Nhận diện kiểu câu hỏi (so sánh · quá khứ–hiện tại · dự đoán · ý kiến xã hội) trước khi trả lời. Mỗi câu 30–45 giây. Ghi âm."
+          questions:
+            - q: How has technology changed the way people communicate with their families?
+            - q: Do you think older people find it difficult to use new technology? Why?
+            - q: Will people still need to learn foreign languages if translation apps keep improving?
+            - q: Should the government limit how much time children spend on screens?
+            - q: Is it better to repair old devices or replace them with new ones?
+          sample: "I don't think translation apps will completely replace language learning, at least not in the near future. There's a good chance they'll become good enough for simple situations, like ordering food or asking for directions. But what worries me is that a lot of communication depends on tone, humour and culture, which machines still struggle with. For example, in a job interview or a negotiation, you need to build trust, and that's hard to do through a phone screen. So on balance, I'd say people who speak a foreign language will still have a real advantage."
+        - id: b74-x4
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe một thí sinh trả lời hai câu Part 3 (giám khảo và thí sinh hai giọng). Chọn đáp án đúng."
+          audio_text: |-
+            Examiner: Do you think older people find it difficult to use new technology?
+            Candidate: Some do, but I think it's a mistake to generalise. Compared with twenty years ago, a lot of older people are now very confident online. My grandmother, for example, video-calls us every week. The ones who struggle are usually those who never used computers at work, so it's more about experience than age.
+            Examiner: Should the government limit how much time children spend on screens?
+            Candidate: I'm not sure that's really the government's job. As long as parents set clear rules at home, I don't see a problem. What the government could do, though, is run campaigns to inform parents about the risks, because many of them simply don't know.
+          questions:
+            - q: "According to the candidate, which older people struggle most with technology?"
+              options:
+                - all people over seventy
+                - those who never used computers at work
+                - those who live alone
+                - grandparents
+              answer: b
+            - q: "What example does the candidate give?"
+              options:
+                - her grandfather's smartphone
+                - her grandmother's weekly video calls
+                - a computer course for retired people
+                - her parents' online shopping
+              answer: b
+            - q: "What does the candidate think about government limits on screen time?"
+              options:
+                - They are essential.
+                - They should be strict.
+                - It is mainly the parents' responsibility.
+                - Schools should decide.
+              answer: c
+            - q: "What does the candidate suggest the government could do?"
+              options:
+                - ban phones in schools
+                - inform parents about the risks
+                - provide free devices
+                - nothing at all
+              answer: b
+        - id: b74-x5
+          bank_no: 9
+          kind: combine
+          instructions_vi: "Nâng cấp câu trả lời: nối hai câu ngắn thành một câu phức bằng từ trong ngoặc."
+          questions:
+            - q: "Some people never used computers at work. They often find new technology difficult. (who)"
+              answer: People who never used computers at work often find new technology difficult.
+              accept:
+                - Some people who never used computers at work often find new technology difficult.
+            - q: "Machines struggle with humour. That worries me. (What worries me is that …)"
+              answer: What worries me is that machines struggle with humour.
+            - q: "Parents set clear rules. Then screen time is not a problem. (As long as)"
+              answer: As long as parents set clear rules, screen time is not a problem.
+              accept:
+                - Screen time is not a problem as long as parents set clear rules.
+        - id: b74-x6
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe lời khuyên về Part 3 (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "In Part 3, the examiner wants to see whether you can discuss ideas, not just describe your own life. A personal example is fine, but it should support a more general point. Don't worry if the examiner interrupts you. It usually means they have heard enough to judge that answer and want to see how you deal with a new question. And if you really don't know anything about a topic, say so honestly, then give your opinion based on what you do know."
+          questions:
+            - q: Personal examples are not allowed in Part 3.
+              answer: F
+              explain_vi: "Ví dụ cá nhân được phép, miễn là phục vụ một ý chung."
+            - q: Being interrupted usually means your answer was wrong.
+              answer: F
+            - q: It is acceptable to admit you know little about a topic.
+              answer: T
+            - q: Part 3 tests whether you can discuss ideas.
+              answer: T
+    - type: homework
+      kind: speaking
+      prompt_vi: "MOCK SPEAKING 3 — ghi âm TOÀN BỘ bài thi (Part 1 → 2 → 3). Sau đó TỔNG KẾT: lập bảng 4 tiêu chí × 3 lần Mock Speaking, nghe liền bản ghi Mock 1 và Mock 3, ghi 1 tiến bộ rõ nhất và 1 tiêu chí thấp nhất. Kết hợp với tổng kết Listening/Reading (Buổi 68) và Writing (Buổi 71) để chọn kỹ năng luyện ở Buổi 75–76."
+      prompt_en: "Part 1: transport, reading, friends · Part 2: Describe a piece of technology that you find useful · Part 3: technology and families, older people and technology, translation apps, screen time, repair or replace"
+      minutes: 35

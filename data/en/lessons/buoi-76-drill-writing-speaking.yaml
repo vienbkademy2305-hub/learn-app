@@ -1,0 +1,209 @@
+# Buổi 76 — Luyện riêng 2 · Writing + Speaking: mạo từ, -s, câu dính dấu phẩy, từ loại, lặp danh từ, âm cuối. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-76-drill-writing-speaking
+number: 76
+stage: 4
+title_vi: "Luyện riêng 2 · Writing + Speaking: mạo từ, -s, câu dính dấu phẩy, từ loại, lặp danh từ, âm cuối"
+focus:
+  grammar: Không học điểm mới — phòng khám lỗi cá nhân
+  skill: Writing + Speaking — drill độ chính xác (GRA) và liên kết (CC) theo nhật ký lỗi; viết lại một bài Task 2 cũ
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: skill
+    skill: writing
+    title_vi: "Phòng khám lỗi: sửa những lỗi kéo điểm GRA và CC của bạn"
+    intro_vi: Ở band 6–6.5, giám khảo đếm xem có bao nhiêu câu KHÔNG CÓ LỖI. Vài lỗi nhỏ lặp đi lặp lại (mạo từ, -s, dấu phẩy nối câu) có thể giữ điểm GRA ở mức 5.5–6 dù bạn dùng cấu trúc khó. Buổi này luyện đúng những lỗi đã ghi trong hồ sơ của bạn từ Buổi 0 đến nay, rồi áp dụng bằng cách VIẾT LẠI một bài Task 2 cũ.
+    steps:
+      - title_vi: Lỗi 1 — mạo từ và số ít/số nhiều
+        text_vi: "Danh từ đếm được số ít luôn cần a/an/the/my… ('a student', không phải 'student'). 'a' không đi với số nhiều ('a students' ❌). Quốc tịch là tính từ: 'I am Vietnamese' (không 'a'). Nói chung về một loại: số nhiều không mạo từ ('Museums are…')."
+      - title_vi: Lỗi 2 — câu dính dấu phẩy (comma splice)
+        text_vi: "Hai mệnh đề đầy đủ không được nối chỉ bằng dấu phẩy. Sửa bằng: dấu chấm · liên từ (and, but, so, because) · mệnh đề quan hệ (which, who) · dấu chấm phẩy kèm trạng từ (; however,)."
+      - title_vi: Lỗi 3 — từ loại gần giống nhau
+        text_vi: "analysis (sự phân tích) / analyst (nhà phân tích) / analyse (phân tích); economy / economic / economical; success / succeed / successful. Mỗi khi viết một từ dài, hỏi: chỗ này cần danh từ, động từ hay tính từ?"
+      - title_vi: Lỗi 4 — lặp danh từ (điểm nghẽn CC + LR)
+        text_vi: Nhắc danh từ một lần, sau đó dùng đại từ (it, they, this), cụm thay thế (such people, these measures, the former/the latter) hoặc từ đồng nghĩa. Nhưng đại từ phải rõ đang chỉ cái gì.
+      - title_vi: Lỗi 5 — âm cuối khi nói
+        text_vi: "Âm cuối mang ngữ pháp: -s (works, students), -ed (changed, worked), và phụ âm cuối (/t/, /k/, /d/). Đọc chậm câu có nhiều âm cuối, phóng đại một chút khi luyện; khi thi nói ở tốc độ bình thường sẽ vừa đủ rõ."
+    tips:
+      - "Viết lại bài cũ hiệu quả hơn viết bài mới: bạn thấy rõ mình đã tiến bộ ở đâu."
+      - Ghi 5 lỗi của bạn lên một tờ giấy nhỏ và đặt cạnh bàn khi làm Mock 77.
+      - "Đọc to bài viết của mình: tai thường bắt được lỗi -s mà mắt bỏ qua."
+    traps:
+      - trap_vi: "Sửa quá tay: thêm -s vào danh từ không đếm được ('informations', 'advices', 'equipments')."
+        fix_vi: "Nhóm không đếm được hay gặp: information, advice, equipment, research, knowledge, furniture, traffic."
+      - trap_vi: "Đại từ mơ hồ: 'Parents and teachers should… They…' — 'they' chỉ ai?"
+        fix_vi: Nếu có hai nhóm, nhắc lại tên nhóm hoặc dùng 'the former/the latter'.
+    phrases:
+      - en: …; however, …
+        vi: …; tuy nhiên, …
+        note_vi: Dấu chấm phẩy + however + dấu phẩy nối hai mệnh đề đúng chuẩn.
+      - en: …, which means that…
+        vi: …, điều đó có nghĩa là…
+      - en: Such measures…
+        vi: Những biện pháp như vậy…
+      - en: The latter…
+        vi: Cái/người sau…
+  - type: exercises
+    items:
+      - id: b76-x1
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: Điền a / an / the hoặc — (không cần mạo từ). Gõ dấu gạch ngang '-' nếu không cần mạo từ.
+        bank:
+          - a
+          - an
+          - the
+          - "-"
+        questions:
+          - q: My brother is ___ engineer at a software company.
+            answer: an
+          - q: I am ___ Vietnamese, and I live in Đà Nẵng.
+            answer: "-"
+            accept:
+              - –
+              - no article
+              - x
+            explain_vi: Quốc tịch là tính từ → không mạo từ.
+          - q: In my view, ___ museums should be free for children.
+            answer: "-"
+            accept:
+              - –
+              - no article
+              - x
+            explain_vi: Nói chung về một loại → danh từ số nhiều không mạo từ.
+          - q: The graph shows ___ number of tourists who visited Hội An.
+            answer: the
+          - q: She gave me ___ useful piece of advice.
+            answer: a
+          - q: Air pollution is one of ___ biggest problems in big cities.
+            answer: the
+      - id: b76-x2
+        bank_no: 7
+        kind: error-correction
+        instructions_vi: "Đoạn văn Task 2 có 6 lỗi: mạo từ, -s số nhiều, comma splice và danh từ không đếm được. Tìm và sửa."
+        text: Many student today work part-time. This gives them a useful experience, it also helps them pay their fees. However, some students spend too much time at work. They have less time for a homework and they may need more advices from teachers. Universities should provide more informations about this problem.
+        errors:
+          - wrong: Many student
+            right: Many students
+            why: "'Many' + danh từ đếm được số nhiều."
+          - wrong: a useful experience
+            right: useful experience
+            why: "'experience' nghĩa là kinh nghiệm → không đếm được (an experience = một trải nghiệm)."
+          - wrong: experience, it also
+            right: experience, and it also
+            why: Comma splice → thêm 'and'.
+          - wrong: for a homework
+            right: for homework
+            why: homework không đếm được.
+          - wrong: more advices
+            right: more advice
+            why: advice không đếm được.
+          - wrong: more informations
+            right: more information
+            why: information không đếm được.
+      - id: b76-x3
+        bank_no: 9
+        kind: combine
+        instructions_vi: Sửa câu dính dấu phẩy bằng từ trong ngoặc.
+        questions:
+          - q: The city built more bus lanes, traffic became faster. (so)
+            answer: The city built more bus lanes, so traffic became faster.
+          - q: Online learning is flexible, it requires a lot of self-discipline. (; however,)
+            answer: Online learning is flexible; however, it requires a lot of self-discipline.
+          - q: My manager taught me to give feedback, this changed the way I work. (which)
+            answer: My manager taught me to give feedback, which changed the way I work.
+      - id: b76-x4
+        bank_no: 4
+        kind: word-form
+        instructions_vi: Viết dạng đúng của từ trong ngoặc (danh từ chỉ người, danh từ, động từ, tính từ hoặc trạng từ).
+        questions:
+          - q: A careful ___ of the data shows a clear upward trend.
+            base: analyse
+            answer: analysis
+          - q: She works as a financial ___ for a bank.
+            base: analyse
+            answer: analyst
+          - q: The country's ___ growth has slowed in recent years.
+            base: economy
+            answer: economic
+          - q: Many people believe hard work is the key to ___.
+            base: succeed
+            answer: success
+          - q: The new policy was implemented ___.
+            base: success
+            answer: successfully
+      - id: b76-x5
+        bank_no: 5
+        kind: paraphrase
+        instructions_vi: "Tránh lặp danh từ: viết lại câu thứ hai, thay phần bị lặp lại bằng cụm trong ngoặc."
+        questions:
+          - q: Governments should tax empty flats. Taxing empty flats would encourage owners to rent them out. (This measure)
+            answer: This measure would encourage owners to rent them out.
+          - q: Young people and older people use technology differently. Young people learn new apps very quickly. (The former)
+            answer: The former learn new apps very quickly.
+          - q: Some companies offer housing allowances. Companies that offer housing allowances attract more graduates. (Such companies)
+            answer: Such companies attract more graduates.
+      - id: b76-x6
+        bank_no: 23
+        kind: dictation
+        instructions_vi: Nghe chép chính tả. Chú ý mọi âm cuối -s, -ed. Nghe tối đa 3 lần.
+        text: She worked at a bank for three years, and she still helps her parents with their accounts.
+      - id: b76-x7
+        bank_no: 20
+        kind: mcq
+        instructions_vi: Nghe giáo viên và học viên xem lại bài viết lại (hai giọng). Chọn đáp án đúng.
+        audio_text: |-
+          Teacher: I've compared your original essay with the new version. There's a big difference.
+          Student: Really? I mostly changed small things.
+          Teacher: Exactly. In the first version, eight sentences had mistakes with articles or plurals. Now there are only two.
+          Student: I read it aloud this time. I could hear the missing -s.
+          Teacher: That's a great habit. Also, you've stopped joining sentences with commas.
+          Student: I used 'which' and 'however' instead.
+          Teacher: Good. The only thing I'd still work on is repetition. You used 'young people' nine times.
+          Student: I'll try 'the younger generation' or 'they'.
+        questions:
+          - q: How many sentences had article or plural mistakes in the first version?
+            options:
+              - two
+              - six
+              - eight
+              - nine
+            answer: c
+          - q: What helped the student hear the missing -s?
+            options:
+              - using a dictionary
+              - reading the essay aloud
+              - asking a friend
+              - writing more slowly
+            answer: b
+          - q: What does the teacher say the student should still work on?
+            options:
+              - comma splices
+              - articles
+              - repeating the same phrase
+              - essay length
+            answer: c
+      - id: b76-x8
+        bank_no: 20
+        kind: tf
+        instructions_vi: Nghe lời khuyên về danh từ không đếm được (độc thoại). Chọn Đúng (T) hoặc Sai (F).
+        audio_text: "Some nouns in English are uncountable, even though they are countable in Vietnamese. Information, advice and equipment never take an -s, and you can't use 'a' in front of them. If you want to count them, use 'a piece of': a piece of advice, two pieces of information. Research is also uncountable, so say 'a lot of research', not 'many researches'."
+        questions:
+          - q: You can say 'an advice'.
+            answer: F
+          - q: '"Two pieces of information" is correct.'
+            answer: T
+          - q: Research is a countable noun.
+            answer: F
+          - q: These nouns are uncountable in both English and Vietnamese.
+            answer: F
+            explain_vi: "'even though they are countable in Vietnamese' — trong tiếng Việt đếm được."
+  - type: homework
+    kind: task2
+    prompt_vi: "VIẾT LẠI một bài Task 2 của bạn từ Mock Writing 1, 2 hoặc 3 (chọn bài điểm thấp nhất). Giữ nguyên ý, chỉ sửa: mạo từ, -s, comma splice, từ loại, danh từ không đếm được, lặp danh từ. Đọc to bài mới một lần. Cuối bài, ghi số câu có lỗi ở bản cũ và bản mới."
+    prompt_en: Rewrite your weakest Task 2 essay from Mock Writing 1–3, correcting articles, plurals, comma splices, word forms and repetition.
+    words:
+      min: 250
+      max: 320
+    minutes: 40

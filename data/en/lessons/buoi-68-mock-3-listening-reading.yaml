@@ -1,0 +1,642 @@
+# Buổi 68 — Mock test 3 · Listening + Reading — bản đồ, nối câu, tóm tắt có hộp từ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-68-mock-3-listening-reading
+number: 68
+stage: 4
+title_vi: Mock test 3 · Listening + Reading — bản đồ, nối câu, tóm tắt có hộp từ
+focus:
+  grammar: Không học điểm mới — chữa lỗi phát sinh khi làm đề
+  skill: "Listening + Reading — đề thứ ba: bản đồ, matching headings, nối nửa câu, tóm tắt có hộp từ; chốt 2 dạng yếu nhất sau 3 lần mock"
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: skill
+    skill: listening
+    title_vi: Mock 3 — và chốt kỹ năng cần luyện riêng
+    intro_vi: "Đây là lần mock Listening + Reading cuối trước khi chuyển sang Writing (Buổi 69–71) và Speaking (Buổi 72–74). Đề có các dạng chưa xuất hiện ở Mock 1–2: định vị trên bản đồ (Listening Part 2), câu trả lời ngắn, nối nửa câu và tóm tắt có hộp từ (Reading). Sau khi chấm, bạn có ba lần kết quả để chọn ra HAI dạng câu yếu nhất cho Buổi 75–76."
+    steps:
+      - title_vi: "Bản đồ (Listening): định hướng trước khi nghe"
+        text_vi: "Trong 30 giây đọc đề, tìm điểm xuất phát (thường là lối vào hoặc 'You are here'), xác định Bắc/Nam và các mốc đã có tên. Khi nghe, dùng ngón tay đi theo lời người nói: 'go straight ahead', 'turn left', 'opposite', 'next to', 'in the corner'. Mỗi câu hỏi tương ứng một địa điểm theo đúng thứ tự trong bài nói."
+      - title_vi: "Nối nửa câu (Reading): ngữ pháp loại bớt đáp án"
+        text_vi: Đọc nửa đầu, đoán nửa sau cần gì (động từ, danh từ, mệnh đề). Loại các phần cuối không khớp ngữ pháp, rồi tìm trong bài để chọn giữa các phần còn lại. Có nhiều phần cuối hơn số câu hỏi.
+      - title_vi: "Tóm tắt có hộp từ: đoán loại từ trước"
+        text_vi: "Với mỗi chỗ trống, quyết định cần danh từ, tính từ hay động từ, số ít hay số nhiều. Từ trong hộp thường là TỪ ĐỒNG NGHĨA với từ trong bài, không phải từ chép nguyên văn. Hai từ trong hộp có thể cùng loại nhưng nghĩa ngược nhau (increase/decline): chọn theo bài."
+      - title_vi: Chọn 2 dạng yếu nhất cho Buổi 75–76
+        text_vi: Cộng số câu sai của từng dạng qua Mock 1–3. Chia cho tổng số câu của dạng đó để có tỉ lệ sai. Hai dạng có tỉ lệ sai cao nhất (và cùng một nguyên nhân lặp lại) là trọng tâm luyện riêng.
+    tips:
+      - "Bản đồ: 'opposite' = đối diện (bên kia đường/hành lang); 'next to' = sát bên; 'beyond' = đi quá; 'at the far end' = ở tận cùng."
+      - "Câu trả lời ngắn: câu hỏi What/Which/Where chỉ cần danh từ, không viết cả câu, không vượt số từ."
+      - "Matching headings: đọc câu đầu và câu cuối của đoạn trước, nhưng đừng chọn chỉ vì một từ trùng."
+    traps:
+      - trap_vi: "Bản đồ: người nói đi một hướng rồi đổi ý ('Actually, it's easier if you go round the back')."
+        fix_vi: Đi theo lộ trình CUỐI CÙNG. Đánh dấu nhẹ bằng bút chì để xóa được.
+      - trap_vi: "Tóm tắt có hộp từ: chọn từ xuất hiện nguyên văn trong bài nhưng sai nghĩa."
+        fix_vi: Đọc cả câu tóm tắt sau khi điền. Câu phải đúng ngữ pháp VÀ đúng ý bài.
+      - trap_vi: Nhầm F với NG khi bài nói về chủ đề gần giống (lỗi riêng của bạn).
+        fix_vi: F chỉ khi bài nói điều ngược lại. Bài không đề cập → NG, kể cả khi điều đó nghe rất hợp lý.
+    phrases:
+      - en: Go straight ahead and it's on your right.
+        vi: Đi thẳng, nó ở bên phải bạn.
+      - en: It's opposite the café.
+        vi: Nó đối diện quán cà phê.
+      - en: At the far end of the corridor.
+        vi: Ở tận cuối hành lang.
+      - en: Just beyond the car park.
+        vi: Ngay sau bãi đỗ xe (đi qua bãi xe một chút).
+  - type: exercises
+    items:
+      - id: b68-x1
+        bank_no: 18
+        kind: completion
+        instructions_vi: LISTENING PART 1 · Câu 1–10. Một người gọi điện báo mất đồ trên tàu. Hoàn thành ghi chú. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ cho mỗi chỗ trống. Chỉ nghe MỘT lần.
+        max_words: 3
+        audio_text: |-
+          Woman: Lost property office, Northern Rail. How can I help?
+          Man: Hello. I left a bag on a train yesterday, and I'm hoping someone found it.
+          Woman: I'll take some details. What kind of bag is it?
+          Man: It's a backpack. Dark blue, with a brown leather strap on the front.
+          Woman: And which train were you on?
+          Man: The four-fifteen from Leeds to York. I got off at York and only noticed when I got home.
+          Woman: Do you remember which part of the train you were in?
+          Man: I think I was in coach C. No, wait, it was coach D, the quiet coach.
+          Woman: OK. What was in the bag?
+          Man: My laptop, some books, and a jacket. Oh, and a water bottle.
+          Woman: Is there anything in it with your name on?
+          Man: Yes, there's a library card in the front pocket.
+          Woman: That will help. Can I have your name?
+          Man: Thomas Okafor. O-K-A-F-O-R.
+          Woman: And the best number to contact you on?
+          Man: My mobile, oh-seven-seven-one-two, four-five-nine, eight-oh-three.
+          Woman: Thank you. If it's found, it will be kept at York station for fourteen days. After that, it goes to our central office in Sheffield.
+          Man: Is there a charge to collect it?
+          Woman: Yes, there's a fee of five pounds for small items, but for bags it's eight pounds.
+          Man: That's fine. Can someone else collect it for me?
+          Woman: Yes, but they'll need a signed letter from you and some photo ID, like a passport or driving licence.
+        passage: |-
+          LOST PROPERTY REPORT
+          Item: backpack, dark blue with a brown (1) ___ strap
+          Train: (2) ___ from Leeds to York
+          Coach: (3) ___ (quiet coach)
+          Contents: laptop, books, a (4) ___, water bottle
+          Item with name: (5) ___ in front pocket
+          Name: Thomas (6) ___
+          Mobile: (7) ___
+          Kept at York station for (8) ___ days
+          Collection fee for bags: £(9) ___
+          Another person collecting: needs a signed letter and (10) ___
+        questions:
+          - q: (1)
+            answer: leather
+          - q: (2)
+            answer: "4.15"
+            accept:
+              - 4:15
+              - four-fifteen
+              - 16:15
+              - 4.15 pm
+          - q: (3)
+            answer: D
+            explain_vi: "Bẫy sửa thông tin: 'coach C. No, wait, it was coach D'."
+          - q: (4)
+            answer: jacket
+          - q: (5)
+            answer: library card
+            accept:
+              - a library card
+          - q: (6)
+            answer: Okafor
+          - q: (7)
+            answer: "07712459803"
+            accept:
+              - 07712 459 803
+              - 07712 459803
+          - q: (8)
+            answer: "14"
+            accept:
+              - fourteen
+          - q: (9)
+            answer: eight
+            accept:
+              - "8"
+            explain_vi: £5 là phí cho đồ nhỏ (small items); túi là £8.
+          - q: (10)
+            answer: photo ID
+            accept:
+              - photo identification
+      - id: b68-x2
+        bank_no: 19
+        kind: mcq
+        instructions_vi: LISTENING PART 2 · Câu 11–15. Nghe hướng dẫn viên giới thiệu khu bảo tàng mở rộng. Chọn đúng vị trí (A–H) trên bản đồ cho mỗi địa điểm.
+        passage: |-
+          MAP — HILLTOP MUSEUM GROUNDS (North is at the top. You are at the MAIN ENTRANCE, bottom centre.)
+
+          NORTH SIDE:      [ A ]        [ B ]        [ C ]
+          MIDDLE:          [ D ]     MAIN BUILDING   [ E ]
+          SOUTH SIDE:      [ F ]   MAIN ENTRANCE     [ G ]
+          BEHIND C (far north-east corner): [ H ]
+
+          A path runs all the way round the main building.
+        audio_text: Right, everyone, we're standing at the main entrance, and I'll explain where the new facilities are. First, the gift shop. As you come in, it's immediately on your left, so you can't miss it. If you want a coffee, the new café is on the east side of the main building, halfway along the path, so if you turn right here and follow the path, you'll reach it. Now, the children's playground. It used to be next to the café, but it was too noisy, so it's now been moved to the far west corner at the back, in the north-west. The picnic area is in the middle of the north side, directly behind the main building, so it's quite peaceful. And finally, the new sculpture garden. Follow the path past the café and keep going north. The sculpture garden is in the north-east corner. Actually, I should say it's beyond that corner, right at the very far end, behind the old storage building, which is the one in the north-east corner itself.
+        questions:
+          - q: 11 · Gift shop
+            options: &a1
+              - A
+              - B
+              - C
+              - D
+              - E
+              - F
+              - G
+              - H
+            answer: f
+            explain_vi: Từ lối vào (giữa phía nam), 'immediately on your left' → F.
+          - q: 12 · Café
+            options: *a1
+            answer: e
+          - q: 13 · Children's playground
+            options: *a1
+            answer: a
+            explain_vi: Vị trí cũ là cạnh quán cà phê; giờ chuyển ra góc tây bắc → A.
+          - q: 14 · Picnic area
+            options: *a1
+            answer: b
+          - q: 15 · Sculpture garden
+            options: *a1
+            answer: h
+            explain_vi: "Người nói sửa: không phải góc đông bắc (C — kho cũ) mà ở phía sau nó → H."
+      - id: b68-x3
+        bank_no: 18
+        kind: completion
+        instructions_vi: "LISTENING PART 2 · Câu 16–20. Phần tiếp theo: các hoạt động trong tháng. Hoàn thành bảng. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ."
+        max_words: 2
+        audio_text: Now, a few events coming up this month. On the first Saturday, there's a talk by a local historian about the town's old mills. It starts at two o'clock in the lecture room. On the following Wednesday evening, we're holding a workshop on making pottery. Places are limited to twelve, so please book in advance. In the third week, there's a family day with storytelling and face painting. Entry is free for children under five. And at the end of the month, we have an outdoor film night in the picnic area. Bring a blanket, because it can get cold, and if it rains, the film will be shown in the main hall instead.
+        passage: |-
+          EVENTS THIS MONTH
+          First Saturday: talk on the town's old (16) ___, 2 pm, lecture room
+          Wednesday evening: (17) ___ workshop — maximum of (18) ___ people
+          Third week: family day — free for children under (19) ___
+          End of month: outdoor film night — bring a (20) ___
+        questions:
+          - q: (16)
+            answer: mills
+          - q: (17)
+            answer: pottery
+          - q: (18)
+            answer: "12"
+            accept:
+              - twelve
+          - q: (19)
+            answer: "5"
+            accept:
+              - five
+          - q: (20)
+            answer: blanket
+      - id: b68-x4
+        bank_no: 20
+        kind: mcq
+        instructions_vi: LISTENING PART 3 · Câu 21–25. Hai sinh viên Lucy và Ahmed bàn về bài tập thực địa (field trip) môn địa lý. Chọn đáp án đúng.
+        audio_text: |-
+          Woman: Ahmed, have you started writing up the field trip to the river?
+          Man: A little. I'm still not sure what our main research question should be. Our original plan was to compare water quality upstream and downstream of the town.
+          Woman: I know, but we only got samples from three points in the end, because of the flooding.
+          Man: Right. So maybe we should focus on how the flooding affected the riverbank instead. We took loads of photos of that.
+          Woman: Good idea. That's more interesting anyway. What did you think was the most useful part of the trip?
+          Man: For me, talking to the farmer. He explained how the river had changed over thirty years, which we couldn't have found in any book.
+          Woman: I agree. Although I found the measurements more useful for the actual report.
+          Man: Fair point. What about the equipment? I thought the flow meter was really hard to use.
+          Woman: It wasn't the meter, it was the weather. It kept raining and the screen got wet.
+          Man: True. Next year they should run the trip in summer.
+          Woman: Definitely. Now, how should we present the data? A table?
+          Man: For the depth measurements, a line graph would show the changes along the river more clearly.
+          Woman: OK, a line graph it is.
+        questions:
+          - q: 21 · Why do the students change their research question?
+            options:
+              - Their tutor asked them to.
+              - They could not collect enough water samples.
+              - The water quality was the same everywhere.
+              - They lost some of their photos.
+            answer: b
+          - q: 22 · What will their new focus be?
+            options:
+              - pollution from the town
+              - the effect of flooding on the riverbank
+              - farming methods near the river
+              - changes in water depth over thirty years
+            answer: b
+          - q: 23 · Why did Ahmed value the conversation with the farmer?
+            options:
+              - The farmer gave information not available in books.
+              - The farmer helped them take measurements.
+              - The farmer showed them the flooded area.
+              - The farmer had studied geography.
+            answer: a
+          - q: 24 · According to Lucy, what caused the problem with the equipment?
+            options:
+              - It was too old.
+              - The students had not been trained.
+              - The rain.
+              - The strong current.
+            answer: c
+            explain_vi: "Ahmed nghĩ do máy khó dùng; Lucy sửa: 'It wasn't the meter, it was the weather'."
+          - q: 25 · How will they present the depth measurements?
+            options:
+              - in a table
+              - in a bar chart
+              - in a line graph
+              - on a map
+            answer: c
+      - id: b68-x5
+        bank_no: 22
+        kind: completion
+        instructions_vi: LISTENING PART 3 · Câu 26–30. Hoàn thành kế hoạch báo cáo. Viết KHÔNG QUÁ HAI TỪ.
+        max_words: 2
+        audio_text: |-
+          Woman: So, let's plan the report. We start with an introduction to the river and the town.
+          Man: And we should include a map there, showing where we took the samples.
+          Woman: Yes. Then the methods. We need to explain why we changed our focus, otherwise the marker will think we forgot the original question.
+          Man: Good point. Then the results, with the line graph and the photos. I'll write captions for each photo.
+          Woman: And the discussion. Here we should compare our findings with the farmer's description of how the river has changed.
+          Man: Then the conclusion. And we must remember the limitations, mainly the small number of samples.
+          Woman: Right, and the bad weather. Both of those.
+        passage: |-
+          REPORT PLAN
+          Introduction: the river and the town; include a (26) ___ of the sample points
+          Methods: explain why we changed our (27) ___
+          Results: line graph; photos with (28) ___
+          Discussion: compare findings with the (29) ___ description
+          Conclusion: limitations — small number of samples and the bad (30) ___
+        questions:
+          - q: (26)
+            answer: map
+          - q: (27)
+            answer: focus
+            accept:
+              - research question
+          - q: (28)
+            answer: captions
+          - q: (29)
+            answer: farmer's
+            accept:
+              - farmer’s
+          - q: (30)
+            answer: weather
+      - id: b68-x6
+        bank_no: 18
+        kind: completion
+        instructions_vi: LISTENING PART 4 · Câu 31–40. Bài giảng về phục hồi rạn san hô. Viết MỘT TỪ cho mỗi chỗ trống.
+        max_words: 1
+        audio_text: This afternoon I'm going to talk about efforts to restore coral reefs. Coral reefs cover less than one per cent of the ocean floor, but they support about a quarter of all marine species, so their loss is a serious concern. Corals are animals, not plants, although they live in partnership with tiny algae. The algae live inside the coral and provide it with food, and they also give the coral its colour. When the water becomes too warm, the coral pushes the algae out, and it turns white. This is known as bleaching. If temperatures return to normal quickly, the coral can recover, but if not, it starves. So what can be done? The most common method is coral gardening. Small pieces of healthy coral are collected and grown in underwater nurseries, often hanging from structures that look a bit like trees. After six to twelve months, they are large enough to be planted back onto the damaged reef. One problem with this method is scale. It is slow and labour-intensive, and it is very expensive to restore large areas. Another approach is to use sound. Scientists have found that a healthy reef is a noisy place, full of the sounds of fish and shrimp. When they placed underwater speakers playing these sounds on damaged reefs, more young fish arrived and stayed. A third, more controversial approach is selective breeding. Researchers choose corals that have survived heatwaves and breed from them, in the hope of producing corals that can tolerate higher temperatures. Critics worry that this could reduce genetic variety. Finally, it is important to remember that none of these methods addresses the main cause of the problem, which is rising ocean temperatures. Restoration can buy time, but it cannot replace action on climate change.
+        passage: |-
+          CORAL REEF RESTORATION
+          • Reefs: <1% of ocean floor, but support about a (31) ___ of marine species
+          • Corals live with algae, which provide food and (32) ___
+          • Bleaching: water too (33) ___ → coral pushes algae out and turns white; without recovery, it (34) ___
+          Method 1: coral gardening
+          • Pieces grown in underwater (35) ___, then planted on the reef after 6–12 months
+          • Problem: (36) ___ — slow, labour-intensive, expensive
+          Method 2: (37) ___
+          • Speakers play recordings of a healthy reef → more young (38) ___ arrive and stay
+          Method 3: selective breeding
+          • Breed from corals that survived (39) ___
+          • Critics: may reduce genetic (40) ___
+        questions:
+          - q: (31)
+            answer: quarter
+          - q: (32)
+            answer: colour
+            accept:
+              - color
+          - q: (33)
+            answer: warm
+          - q: (34)
+            answer: starves
+          - q: (35)
+            answer: nurseries
+          - q: (36)
+            answer: scale
+          - q: (37)
+            answer: sound
+          - q: (38)
+            answer: fish
+          - q: (39)
+            answer: heatwaves
+          - q: (40)
+            answer: variety
+      - id: b68-x7
+        bank_no: 19
+        kind: tf
+        instructions_vi: SAU KHI CHẤM · Luyện từ chỉ vị trí (dạng bản đồ). Nghe một lần, chọn Đúng (T) hoặc Sai (F). Không tính vào điểm 40 câu.
+        audio_text: As you come through the gate, the ticket office is straight ahead of you. The toilets are opposite the ticket office, on the other side of the courtyard. To get to the garden, go past the ticket office and turn left. The library is next to the garden, but the entrance is round the back.
+        questions:
+          - q: The ticket office is on the left of the gate.
+            answer: F
+            explain_vi: "'straight ahead' = ngay phía trước."
+          - q: The toilets are across the courtyard from the ticket office.
+            answer: T
+            explain_vi: "'opposite … on the other side' = đối diện."
+          - q: To reach the garden, you turn right after the ticket office.
+            answer: F
+          - q: The library entrance faces the garden.
+            answer: F
+            explain_vi: "'the entrance is round the back' = lối vào ở phía sau."
+      - id: b68-x8
+        bank_no: 13
+        kind: tfng
+        instructions_vi: READING PASSAGE 1 · Câu 1–8. Khoảng 20 phút cho cả bài 1 (câu 1–13). Chọn TRUE / FALSE / NOT GIVEN.
+        passage: |-
+          THE HUMBLE SHIPPING CONTAINER
+
+          In 1956, a converted oil tanker called the Ideal X sailed from New Jersey to Houston carrying fifty-eight metal boxes. It was not an impressive sight, but the voyage changed world trade. The man behind it was Malcom McLean, a trucking businessman who had become frustrated by how long it took to load and unload ships.
+
+          Before the container, goods were loaded one item at a time. Sacks, barrels and boxes of different sizes were carried onto ships by teams of dock workers, a process known as 'break-bulk' shipping. A ship could spend more time in port than at sea, and theft was common. McLean's idea was simple: put the goods into a standard box, and move the whole box from a lorry onto the ship and off again without opening it.
+
+          The idea was not entirely new — railways and some shipping lines had experimented with boxes before — but McLean was the first to build a complete system around it, including special cranes and ships. The results were dramatic. Loading costs fell from almost six dollars per ton to around sixteen cents, and ships could be turned around in hours rather than days.
+
+          For the first decade, however, progress was slow. Different companies used boxes of different sizes, so a container from one company could not be carried on another company's ship. It was not until the late 1960s that international standards were agreed, including the size that is still most familiar today: the twenty-foot box, which became the industry's unit of measurement, the 'TEU'.
+
+          Containers also needed a reason to spread, and the Vietnam War provided one. The US military was struggling to supply its troops, and McLean's company was contracted to carry supplies across the Pacific. On the way back, rather than return empty, the ships stopped in Japan and collected goods for the American market — an early sign of the trade routes that would later dominate the world economy.
+
+          Today, around 90 per cent of non-bulk cargo travels in containers, and the largest ships can carry more than 24,000 TEU. The change has not been good for everyone. Dock work, which once employed hundreds of thousands of people, is now largely automated, and many old port cities lost their main source of employment as new container ports were built in places with deeper water and more space.
+        questions:
+          - q: 1 · McLean worked in road transport before he became involved in shipping.
+            answer: T
+            explain_vi: "'a trucking businessman' — trucking = vận tải đường bộ bằng xe tải."
+          - q: 2 · The Ideal X was built specially to carry containers.
+            answer: F
+            explain_vi: "'a converted oil tanker' = tàu chở dầu được hoán cải, không phải đóng riêng."
+          - q: 3 · Theft from ships was a problem in the break-bulk system.
+            answer: T
+          - q: 4 · McLean was the first person to think of transporting goods in boxes.
+            answer: F
+            explain_vi: "'The idea was not entirely new' → người khác đã thử trước."
+          - q: 5 · McLean made a large personal fortune from his invention.
+            answer: NG
+            explain_vi: Bài không nói về tài sản của McLean.
+          - q: 6 · In the early years, containers from different companies were not compatible.
+            answer: T
+          - q: 7 · McLean's ships carried Japanese goods to America on their return journeys.
+            answer: T
+          - q: 8 · Most of the old port cities have now recovered economically.
+            answer: NG
+            explain_vi: Bài chỉ nói họ mất nguồn việc làm chính, không nói về sự phục hồi.
+      - id: b68-x9
+        bank_no: 16
+        kind: completion
+        instructions_vi: READING PASSAGE 1 · Câu 9–13. Trả lời câu hỏi. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ lấy từ bài đọc.
+        max_words: 2
+        passage: |-
+          THE HUMBLE SHIPPING CONTAINER
+
+          In 1956, a converted oil tanker called the Ideal X sailed from New Jersey to Houston carrying fifty-eight metal boxes. It was not an impressive sight, but the voyage changed world trade. The man behind it was Malcom McLean, a trucking businessman who had become frustrated by how long it took to load and unload ships.
+
+          Before the container, goods were loaded one item at a time. Sacks, barrels and boxes of different sizes were carried onto ships by teams of dock workers, a process known as 'break-bulk' shipping. A ship could spend more time in port than at sea, and theft was common. McLean's idea was simple: put the goods into a standard box, and move the whole box from a lorry onto the ship and off again without opening it.
+
+          The idea was not entirely new — railways and some shipping lines had experimented with boxes before — but McLean was the first to build a complete system around it, including special cranes and ships. The results were dramatic. Loading costs fell from almost six dollars per ton to around sixteen cents, and ships could be turned around in hours rather than days.
+
+          For the first decade, however, progress was slow. Different companies used boxes of different sizes, so a container from one company could not be carried on another company's ship. It was not until the late 1960s that international standards were agreed, including the size that is still most familiar today: the twenty-foot box, which became the industry's unit of measurement, the 'TEU'.
+
+          Containers also needed a reason to spread, and the Vietnam War provided one. The US military was struggling to supply its troops, and McLean's company was contracted to carry supplies across the Pacific. On the way back, rather than return empty, the ships stopped in Japan and collected goods for the American market — an early sign of the trade routes that would later dominate the world economy.
+
+          Today, around 90 per cent of non-bulk cargo travels in containers, and the largest ships can carry more than 24,000 TEU. The change has not been good for everyone. Dock work, which once employed hundreds of thousands of people, is now largely automated, and many old port cities lost their main source of employment as new container ports were built in places with deeper water and more space.
+        questions:
+          - q: (9) How many containers did the Ideal X carry on its first voyage? ___
+            answer: "58"
+            accept:
+              - fifty-eight
+          - q: (10) What was the old method of loading goods one item at a time called? ___
+            answer: break-bulk
+            accept:
+              - break-bulk shipping
+          - q: (11) Apart from ships, what did McLean's system include? ___
+            answer: cranes
+            accept:
+              - special cranes
+          - q: "(12) Which size of container became the industry's unit of measurement? (Answer: the ___ box)"
+            answer: twenty-foot
+            accept:
+              - 20-foot
+          - q: (13) What type of work is now largely automated? ___
+            answer: dock work
+      - id: b68-x10
+        bank_no: 14
+        kind: mcq
+        instructions_vi: READING PASSAGE 2 · Câu 14–19. Chọn tiêu đề đúng (i–viii) cho mỗi đoạn A–F. Có 2 tiêu đề thừa. Khoảng 20 phút cho bài 2 (câu 14–26).
+        passage: |-
+          THE FOUR-DAY WEEK
+
+          A  For most of the twentieth century, the five-day, forty-hour working week was treated as normal in industrialised countries. It was itself the result of long campaigns: in the nineteenth century, factory workers often worked six days a week, for ten hours or more a day. Now some employers and researchers are asking whether it is time for another reduction.
+
+          B  The most widely discussed model is not simply shorter hours but a '100-80-100' arrangement: employees receive 100 per cent of their pay for working 80 per cent of their previous time, on condition that they maintain 100 per cent of their output. Supporters argue that much time at work is wasted on unnecessary meetings, interruptions and tasks that add little value, and that a shorter week forces organisations to remove them.
+
+          C  Several large trials have been carried out since 2019. In one of the best known, organised in the United Kingdom in 2022, around sixty companies tried a four-day week for six months. At the end, the great majority chose to continue. Staff reported lower stress and better sleep, and the number of sick days fell. Importantly, most companies said that revenue had stayed roughly the same.
+
+          D  Critics, however, point to problems with how the evidence was collected. The companies in most trials volunteered to take part, so they were likely to be organisations that expected the system to work. Much of the data was based on what employees and managers reported about themselves, rather than on independent measurements. And six months may be too short to show whether the benefits last once the novelty wears off.
+
+          E  There are also types of work for which the model is difficult to apply. In hospitals, schools and shops, a service must be provided for a fixed number of hours, and productivity cannot easily be increased by removing meetings. For such organisations, a four-day week for each employee may simply mean hiring more staff, which raises costs.
+
+          F  Even so, the debate has already changed how many people think about work. Some companies that rejected a full four-day week have introduced 'focus time' with no meetings, or have allowed staff to work compressed hours. Whether or not the four-day week becomes standard, the assumption that productivity depends on hours spent at a desk is being questioned as never before.
+        questions:
+          - q: 14 · Paragraph A
+            options: &a2
+              - i. Doubts about the quality of the research
+              - ii. A historical background to current discussions
+              - iii. Sectors where the idea is harder to introduce
+              - iv. The specific terms of a popular proposal
+              - v. A lasting effect on attitudes
+              - vi. Encouraging results from a large experiment
+              - vii. Governments that have changed the law
+              - viii. Why workers prefer working from home
+            answer: b
+          - q: 15 · Paragraph B
+            options: *a2
+            answer: d
+          - q: 16 · Paragraph C
+            options: *a2
+            answer: f
+          - q: 17 · Paragraph D
+            options: *a2
+            answer: a
+          - q: 18 · Paragraph E
+            options: *a2
+            answer: c
+          - q: 19 · Paragraph F
+            options: *a2
+            answer: e
+      - id: b68-x11
+        bank_no: 17
+        kind: mcq
+        instructions_vi: READING PASSAGE 2 · Câu 20–23. Nối nửa đầu câu với phần kết thúc đúng (A–F).
+        passage: |-
+          THE FOUR-DAY WEEK
+
+          A  For most of the twentieth century, the five-day, forty-hour working week was treated as normal in industrialised countries. It was itself the result of long campaigns: in the nineteenth century, factory workers often worked six days a week, for ten hours or more a day. Now some employers and researchers are asking whether it is time for another reduction.
+
+          B  The most widely discussed model is not simply shorter hours but a '100-80-100' arrangement: employees receive 100 per cent of their pay for working 80 per cent of their previous time, on condition that they maintain 100 per cent of their output. Supporters argue that much time at work is wasted on unnecessary meetings, interruptions and tasks that add little value, and that a shorter week forces organisations to remove them.
+
+          C  Several large trials have been carried out since 2019. In one of the best known, organised in the United Kingdom in 2022, around sixty companies tried a four-day week for six months. At the end, the great majority chose to continue. Staff reported lower stress and better sleep, and the number of sick days fell. Importantly, most companies said that revenue had stayed roughly the same.
+
+          D  Critics, however, point to problems with how the evidence was collected. The companies in most trials volunteered to take part, so they were likely to be organisations that expected the system to work. Much of the data was based on what employees and managers reported about themselves, rather than on independent measurements. And six months may be too short to show whether the benefits last once the novelty wears off.
+
+          E  There are also types of work for which the model is difficult to apply. In hospitals, schools and shops, a service must be provided for a fixed number of hours, and productivity cannot easily be increased by removing meetings. For such organisations, a four-day week for each employee may simply mean hiring more staff, which raises costs.
+
+          F  Even so, the debate has already changed how many people think about work. Some companies that rejected a full four-day week have introduced 'focus time' with no meetings, or have allowed staff to work compressed hours. Whether or not the four-day week becomes standard, the assumption that productivity depends on hours spent at a desk is being questioned as never before.
+        questions:
+          - q: 20 · Under the '100-80-100' model, employees
+            options: &a3
+              - A must produce the same amount of work as before.
+              - B were chosen at random.
+              - C may need to employ extra workers.
+              - D relied mainly on self-reported information.
+              - E have introduced meeting-free periods.
+              - F received lower pay for fewer hours.
+            answer: a
+          - q: 21 · Many trials
+            options: *a3
+            answer: d
+          - q: 22 · Hospitals and schools
+            options: *a3
+            answer: c
+          - q: 23 · Some companies that did not adopt a four-day week
+            options: *a3
+            answer: e
+            explain_vi: B sai vì các công ty TÌNH NGUYỆN (volunteered), không được chọn ngẫu nhiên; F sai vì lương giữ 100%.
+      - id: b68-x12
+        bank_no: 16
+        kind: completion
+        instructions_vi: READING PASSAGE 2 · Câu 24–26. Hoàn thành câu. Viết MỘT TỪ lấy từ bài đọc.
+        max_words: 1
+        passage: |-
+          THE FOUR-DAY WEEK
+
+          A  For most of the twentieth century, the five-day, forty-hour working week was treated as normal in industrialised countries. It was itself the result of long campaigns: in the nineteenth century, factory workers often worked six days a week, for ten hours or more a day. Now some employers and researchers are asking whether it is time for another reduction.
+
+          B  The most widely discussed model is not simply shorter hours but a '100-80-100' arrangement: employees receive 100 per cent of their pay for working 80 per cent of their previous time, on condition that they maintain 100 per cent of their output. Supporters argue that much time at work is wasted on unnecessary meetings, interruptions and tasks that add little value, and that a shorter week forces organisations to remove them.
+
+          C  Several large trials have been carried out since 2019. In one of the best known, organised in the United Kingdom in 2022, around sixty companies tried a four-day week for six months. At the end, the great majority chose to continue. Staff reported lower stress and better sleep, and the number of sick days fell. Importantly, most companies said that revenue had stayed roughly the same.
+
+          D  Critics, however, point to problems with how the evidence was collected. The companies in most trials volunteered to take part, so they were likely to be organisations that expected the system to work. Much of the data was based on what employees and managers reported about themselves, rather than on independent measurements. And six months may be too short to show whether the benefits last once the novelty wears off.
+
+          E  There are also types of work for which the model is difficult to apply. In hospitals, schools and shops, a service must be provided for a fixed number of hours, and productivity cannot easily be increased by removing meetings. For such organisations, a four-day week for each employee may simply mean hiring more staff, which raises costs.
+
+          F  Even so, the debate has already changed how many people think about work. Some companies that rejected a full four-day week have introduced 'focus time' with no meetings, or have allowed staff to work compressed hours. Whether or not the four-day week becomes standard, the assumption that productivity depends on hours spent at a desk is being questioned as never before.
+        questions:
+          - q: (24) In the UK trial, staff said they had less stress and better ___.
+            answer: sleep
+          - q: (25) Most companies in the UK trial said their ___ had not changed much.
+            answer: revenue
+          - q: (26) Critics say benefits may disappear once the ___ wears off.
+            answer: novelty
+      - id: b68-x13
+        bank_no: 13
+        kind: ynng
+        instructions_vi: READING PASSAGE 3 · Câu 27–31. Câu nhận định có khớp với QUAN ĐIỂM của tác giả không? Chọn YES / NO / NOT GIVEN. Khoảng 22 phút cho bài 3 (câu 27–40).
+        passage: |-
+          THE MYTH OF THE LONE GENIUS
+
+          A  Popular history loves a lone genius. Newton sits under a tree and discovers gravity; Edison works through the night and invents the light bulb. These stories are memorable, and they are not entirely false. But in my view they give a seriously distorted picture of how new ideas actually come about.
+
+          B  Consider the light bulb. Edison did not invent it. More than twenty inventors had produced working electric lamps before him, and in Britain Joseph Swan was developing a very similar design at the same time. What Edison's laboratory achieved was a practical, long-lasting bulb and, just as importantly, a system of power stations and cables to make it useful. That achievement depended on a team of skilled assistants whose names are now almost forgotten.
+
+          C  The pattern is common. Historians of science have recorded hundreds of cases of 'multiple discovery', in which two or more people arrive at the same idea independently and at about the same time. Calculus was developed separately by Newton and Leibniz; the theory of evolution by natural selection occurred to both Darwin and Wallace. Such cases suggest that new ideas become possible when the necessary knowledge and tools are available, rather than appearing from nowhere in the mind of one exceptional person.
+
+          D  Why, then, does the myth survive? Part of the reason is that stories need heroes, and a single name is easier to remember than a network of contributors. Another is that the system of patents and prizes rewards individuals, so there are strong incentives to claim sole credit. I suspect, too, that the myth flatters us: it is pleasant to imagine that one brilliant mind can change the world.
+
+          E  The myth is not harmless. If young people believe that great work is done only by rare geniuses, those who do not see themselves in that way may decide that science or invention is not for them. It may also lead organisations to invest in finding 'stars' rather than in building teams in which people share ideas freely, which is where, I would argue, most progress actually happens.
+
+          F  None of this means that individuals do not matter. Darwin's years of careful observation shaped how his theory was presented and received, and not every member of a team contributes equally. The point is rather that talent works within a particular environment. Recognising this would give us a more accurate history — and perhaps a more productive future.
+        questions:
+          - q: 27 · Stories about lone geniuses are completely untrue.
+            answer: N
+            explain_vi: "'they are not entirely false' → tác giả KHÔNG cho là hoàn toàn sai."
+          - q: 28 · Edison's success depended on the work of other people.
+            answer: Y
+            explain_vi: "'That achievement depended on a team of skilled assistants'."
+          - q: 29 · Swan's bulb was more reliable than Edison's.
+            answer: NG
+            explain_vi: Bài chỉ nói Swan phát triển thiết kế tương tự, không so sánh độ bền.
+          - q: 30 · The patent system encourages people to claim individual credit.
+            answer: Y
+          - q: 31 · The lone genius myth may discourage some young people from science.
+            answer: Y
+      - id: b68-x14
+        bank_no: 17
+        kind: mcq
+        instructions_vi: READING PASSAGE 3 · Câu 32–35. Chọn đáp án đúng.
+        passage: |-
+          THE MYTH OF THE LONE GENIUS
+
+          A  Popular history loves a lone genius. Newton sits under a tree and discovers gravity; Edison works through the night and invents the light bulb. These stories are memorable, and they are not entirely false. But in my view they give a seriously distorted picture of how new ideas actually come about.
+
+          B  Consider the light bulb. Edison did not invent it. More than twenty inventors had produced working electric lamps before him, and in Britain Joseph Swan was developing a very similar design at the same time. What Edison's laboratory achieved was a practical, long-lasting bulb and, just as importantly, a system of power stations and cables to make it useful. That achievement depended on a team of skilled assistants whose names are now almost forgotten.
+
+          C  The pattern is common. Historians of science have recorded hundreds of cases of 'multiple discovery', in which two or more people arrive at the same idea independently and at about the same time. Calculus was developed separately by Newton and Leibniz; the theory of evolution by natural selection occurred to both Darwin and Wallace. Such cases suggest that new ideas become possible when the necessary knowledge and tools are available, rather than appearing from nowhere in the mind of one exceptional person.
+
+          D  Why, then, does the myth survive? Part of the reason is that stories need heroes, and a single name is easier to remember than a network of contributors. Another is that the system of patents and prizes rewards individuals, so there are strong incentives to claim sole credit. I suspect, too, that the myth flatters us: it is pleasant to imagine that one brilliant mind can change the world.
+
+          E  The myth is not harmless. If young people believe that great work is done only by rare geniuses, those who do not see themselves in that way may decide that science or invention is not for them. It may also lead organisations to invest in finding 'stars' rather than in building teams in which people share ideas freely, which is where, I would argue, most progress actually happens.
+
+          F  None of this means that individuals do not matter. Darwin's years of careful observation shaped how his theory was presented and received, and not every member of a team contributes equally. The point is rather that talent works within a particular environment. Recognising this would give us a more accurate history — and perhaps a more productive future.
+        questions:
+          - q: 32 · According to the writer, Edison's main achievement was
+            options:
+              - inventing the first electric lamp.
+              - working alone through the night.
+              - creating a practical bulb and the system to power it.
+              - copying Joseph Swan's design.
+            answer: c
+          - q: 33 · The writer mentions Darwin and Wallace as an example of
+            options:
+              - a dispute between two scientists.
+              - two people reaching the same idea independently.
+              - a discovery that was ignored for many years.
+              - a successful scientific team.
+            answer: b
+          - q: 34 · What does 'multiple discovery' suggest, according to paragraph C?
+            options:
+              - Most scientists copy each other.
+              - Ideas appear when the necessary knowledge exists.
+              - Exceptional individuals are very common.
+              - Discoveries are mostly accidental.
+            answer: b
+          - q: 35 · In the final paragraph, the writer
+            options:
+              - rejects the importance of individuals completely.
+              - accepts that individuals matter, within their environment.
+              - argues that Darwin's theory was wrong.
+              - says every team member contributes equally.
+            answer: b
+      - id: b68-x15
+        bank_no: 1
+        kind: gap-fill
+        instructions_vi: READING PASSAGE 3 · Câu 36–40. Hoàn thành tóm tắt bằng các từ trong hộp. Có nhiều từ hơn số chỗ trống.
+        bank:
+          - remember
+          - teams
+          - reward
+          - heroes
+          - harmless
+          - stars
+          - damaging
+          - patents
+          - forget
+        questions:
+          - q: (36) The myth survives partly because stories need ___.
+            answer: heroes
+          - q: (37) A single name is easier to ___ than many contributors.
+            answer: remember
+          - q: (38) Patents and prizes are systems that ___ individuals.
+            answer: reward
+          - q: (39) The writer believes the myth is ___, not harmless.
+            answer: damaging
+            explain_vi: "'The myth is not harmless' → chọn từ trái nghĩa với harmless: damaging."
+          - q: (40) Organisations may look for 'stars' instead of building ___.
+            answer: teams
+  - type: homework
+    kind: paragraph
+    prompt_vi: "TỔNG KẾT 3 LẦN MOCK LISTENING + READING. (1) Lập bảng: dạng câu · số câu sai Mock 1/2/3 · tỉ lệ sai. (2) Khoanh 2 dạng có tỉ lệ sai cao nhất — đó là trọng tâm Buổi 75–76. (3) Viết một đoạn tiếng Anh giải thích vì sao bạn chọn hai dạng đó và nguyên nhân chính khiến bạn mất điểm."
+    prompt_en: After three mock tests, which two question types are your weakest, and what is the main reason you lose marks on them?
+    words:
+      min: 120
+      max: 160
+    minutes: 25

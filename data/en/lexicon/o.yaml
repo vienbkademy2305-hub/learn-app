@@ -3,6 +3,7 @@ entries:
   - id: overweight|adj
     headword: overweight
     pos: adj
+    definition_en: "heavier than is healthy"
     ipa:
       uk: /ˌəʊ.vəˈweɪt/
       us: /ˌoʊ.vɚˈweɪt/
@@ -17,6 +18,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overweight, checked: 2026-09-30, field: ipa.uk }
@@ -25,6 +27,7 @@ entries:
   - id: outgoing|adj
     headword: outgoing
     pos: adj
+    definition_en: "enjoying meeting and talking to people"
     forms:
       comparative: more outgoing
     ipa:
@@ -40,6 +43,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -49,6 +53,7 @@ entries:
   - id: opposite|prep
     headword: opposite
     pos: prep
+    definition_en: "facing something on the other side"
     ipa:
       uk: /ˈɒp.ə.zɪt/
       us: /ˈɑː.pə.zɪt/
@@ -62,6 +67,7 @@ entries:
       - place
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opposite_3, checked: 2026-09-30, field: cefr }
@@ -71,6 +77,7 @@ entries:
   - id: o'clock|adv
     headword: o'clock
     pos: adv
+    definition_en: "used after a number to say an exact hour"
     ipa:
       uk: /əˈklɒk/
       us: /əˈklɑːk/
@@ -83,6 +90,7 @@ entries:
       - time
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/o'clock, checked: 2026-09-30, field: ipa.uk }
@@ -91,6 +99,7 @@ entries:
   - id: often|adv
     headword: often
     pos: adv
+    definition_en: "many times"
     ipa:
       uk: /ˈɒf.ən/
       us: /ˈɑː.fən/
@@ -104,6 +113,7 @@ entries:
       - frequency
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/often, checked: 2026-09-30, field: cefr }
@@ -113,6 +123,7 @@ entries:
   - id: office|n
     headword: office
     pos: n
+    definition_en: "a room or building where people work at desks"
     ipa:
       uk: /ˈɒf.ɪs/
       us: /ˈɑː.fɪs/
@@ -125,6 +136,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/office, checked: 2026-09-30, field: cefr }
@@ -134,6 +146,7 @@ entries:
   - id: occupation|n
     headword: occupation
     pos: n
+    definition_en: "your job (a formal word used on forms)"
     ipa:
       uk: /ˌɒk.jəˈpeɪ.ʃən/
       us: /ˌɑː.kjəˈpeɪ.ʃən/
@@ -147,6 +160,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/occupation, checked: 2026-09-30, field: cefr }
@@ -156,6 +170,7 @@ entries:
   - id: on-foot|idiom
     headword: on foot
     pos: idiom
+    definition_en: "by walking"
     ipa:
       uk: /ɒn ˈfʊt/
       us: /ɑːn ˈfʊt/
@@ -168,6 +183,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -176,6 +192,7 @@ entries:
   - id: old|adj
     headword: old
     pos: adj
+    definition_en: "having lived or existed for a long time"
     forms:
       comparative: older
       superlative: oldest
@@ -192,6 +209,7 @@ entries:
       - appearance
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/old, checked: 2026-09-30, field: cefr }
@@ -201,6 +219,7 @@ entries:
   - id: online|adv
     headword: online
     pos: adv
+    definition_en: "connected to or using the internet"
     ipa:
       uk: /ˌɒnˈlaɪn/
       us: /ˌɑːnˈlaɪn/
@@ -217,6 +236,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/online_2, checked: 2026-09-30, field: cefr }
@@ -226,6 +246,7 @@ entries:
   - id: opinion|n
     headword: opinion
     pos: n
+    definition_en: "what you think about something"
     ipa:
       uk: /əˈpɪn.jən/
       us: /əˈpɪn.jən/
@@ -246,6 +267,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/opinion, checked: 2026-09-30, field: cefr }
@@ -255,6 +277,7 @@ entries:
   - id: outdoor|adj
     headword: outdoor
     pos: adj
+    definition_en: "happening outside, not in a building"
     ipa:
       uk: /ˈaʊt.dɔː/
       us: /ˈaʊt.dɔːr/
@@ -271,6 +294,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/outdoor, checked: 2026-09-29, field: ipa.uk }
@@ -281,6 +305,7 @@ entries:
   - id: overall|adv
     headword: overall
     pos: adv
+    definition_en: "in general; considering everything"
     ipa:
       uk: /ˌəʊ.vərˈɔːl/
       us: /ˌoʊ.vɚˈɑːl/
@@ -296,6 +321,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overall_2, checked: 2026-09-30, field: cefr }
@@ -305,6 +331,7 @@ entries:
   - id: offender|n
     headword: offender
     pos: n
+    definition_en: "a person who has committed a crime (formal)"
     ipa:
       uk: /əˈfen.dər/
       us: /əˈfen.dɚ/
@@ -321,6 +348,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/offender, checked: 2026-09-30, field: cefr }
@@ -330,6 +358,7 @@ entries:
   - id: outweigh|v
     headword: outweigh
     pos: v
+    definition_en: "to be greater or more important than"
     ipa:
       uk: /ˌaʊtˈweɪ/
       us: /ˌaʊtˈweɪ/
@@ -346,6 +375,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outweigh, checked: 2026-09-30, field: ipa.uk }
@@ -354,6 +384,7 @@ entries:
   - id: on-the-other-hand|idiom
     headword: on the other hand
     pos: idiom
+    definition_en: "used to introduce an opposite point"
     ipa:
       uk: /ɒn ði ˈʌð.ər ˌhænd/
       us: /ɑːn ði ˈʌð.ɚ ˌhænd/
@@ -366,6 +397,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -374,6 +406,7 @@ entries:
   - id: overcrowded|adj
     headword: overcrowded
     pos: adj
+    definition_en: "having too many people"
     ipa:
       uk: /ˌəʊ.vəˈkraʊ.dɪd/
       us: /ˌoʊ.vɚˈkraʊ.dɪd/
@@ -391,6 +424,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overcrowded, checked: 2026-09-30, field: ipa.uk }
@@ -399,6 +433,7 @@ entries:
   - id: objective|adj
     headword: objective
     pos: adj
+    definition_en: "based on facts, not personal feelings"
     ipa:
       uk: /əbˈdʒek.tɪv/
       us: /əbˈdʒek.tɪv/
@@ -416,6 +451,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/objective_2, checked: 2026-09-30, field: cefr }
@@ -425,6 +461,7 @@ entries:
   - id: on-the-one-hand|idiom
     headword: on the one hand
     pos: idiom
+    definition_en: "used to introduce the first of two opposite ideas"
     ipa:
       uk: /ɒn ðə ˈwʌn ˌhænd/
       us: /ɑːn ðə ˈwʌn ˌhænd/
@@ -437,6 +474,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -445,6 +483,7 @@ entries:
   - id: outsource|v
     headword: outsource
     pos: v
+    definition_en: "to pay another company to do work for you"
     ipa:
       uk: /ˈaʊt.sɔːs/
       us: /ˈaʊt.sɔːrs/
@@ -459,6 +498,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outsource, checked: 2026-09-30, field: ipa.uk }
@@ -467,6 +507,7 @@ entries:
   - id: once|conj
     headword: once
     pos: conj
+    definition_en: "as soon as; after"
     ipa:
       uk: /wʌns/
       us: /wʌns/
@@ -482,6 +523,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/once_2, checked: 2026-09-30, field: cefr }
@@ -491,6 +533,7 @@ entries:
   - id: offence|n
     headword: offence
     pos: n
+    definition_en: "an illegal act; a crime"
     ipa:
       uk: /əˈfens/
       us: /əˈfens/
@@ -508,6 +551,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/offence, checked: 2026-09-30, field: cefr }
@@ -517,6 +561,7 @@ entries:
   - id: obsolete|adj
     headword: obsolete
     pos: adj
+    definition_en: "no longer used because something newer exists"
     ipa:
       uk: /ˈɒb.səl.iːt/
       us: /ˌɑːb.səlˈiːt/
@@ -531,6 +576,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -540,6 +586,7 @@ entries:
   - id: overestimate|v
     headword: overestimate
     pos: v
+    definition_en: "to think something is bigger or better than it is"
     ipa:
       uk: /ˌəʊ.vərˈes.tɪ.meɪt/
       us: /ˌoʊ.vɚˈes.tə.meɪt/
@@ -555,6 +602,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -564,6 +612,7 @@ entries:
   - id: outbreak|n
     headword: outbreak
     pos: n
+    definition_en: "a sudden start of a disease"
     ipa:
       uk: /ˈaʊt.breɪk/
       us: /ˈaʊt.breɪk/
@@ -577,6 +626,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outbreak, checked: 2026-09-30, field: cefr }
@@ -586,6 +636,7 @@ entries:
   - id: obesity|n
     headword: obesity
     pos: n
+    definition_en: "the condition of being very overweight"
     ipa:
       uk: /əʊˈbiː.sə.ti/
       us: /oʊˈbiː.sə.t̬i/
@@ -603,6 +654,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/obesity, checked: 2026-09-30, field: cefr }
@@ -612,6 +664,7 @@ entries:
   - id: owing-to|prep
     headword: owing to
     pos: prep
+    definition_en: "because of"
     ipa:
       uk: /ˈəʊ.ɪŋ tuː/
       us: /ˈoʊ.ɪŋ tuː/
@@ -627,6 +680,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -635,6 +689,7 @@ entries:
   - id: open-minded|adj
     headword: open-minded
     pos: adj
+    definition_en: "willing to accept new ideas"
     ipa:
       uk: /ˌəʊ.pənˈmaɪn.dɪd/
       us: /ˌoʊ.pənˈmaɪn.dɪd/
@@ -650,6 +705,7 @@ entries:
       - culture
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/open-minded, checked: 2026-09-30, field: ipa.uk }
@@ -658,6 +714,7 @@ entries:
   - id: overtake|v
     headword: overtake
     pos: v
+    definition_en: "to go past something that was ahead"
     forms:
       past: overtook
       pp: overtaken
@@ -675,6 +732,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overtake, checked: 2026-09-30, field: ipa.uk }
@@ -683,6 +741,7 @@ entries:
   - id: overcome|v
     headword: overcome
     pos: v
+    definition_en: "to succeed in dealing with a difficulty"
     forms:
       past: overcame
       pp: overcome
@@ -700,6 +759,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overcome, checked: 2026-09-30, field: cefr }
@@ -709,6 +769,7 @@ entries:
   - id: orbit|v
     headword: orbit
     pos: v
+    definition_en: "to move in a circle around a planet or star"
     ipa:
       uk: /ˈɔː.bɪt/
       us: /ˈɔːr.bɪt/
@@ -724,6 +785,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/orbit_2, checked: 2026-09-30, field: ipa.uk }
@@ -732,6 +794,7 @@ entries:
   - id: observe|v
     headword: observe
     pos: v
+    definition_en: "to watch carefully"
     ipa:
       uk: /əbˈzɜːv/
       us: /əbˈzɝːv/
@@ -745,6 +808,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/observe, checked: 2026-09-30, field: cefr }
@@ -754,6 +818,7 @@ entries:
   - id: outer-space|phr-n
     headword: outer space
     pos: phr-n
+    definition_en: "the area beyond the Earth's atmosphere"
     ipa:
       uk: /ˌaʊ.tə ˈspeɪs/
       us: /ˌaʊ.t̬ɚ ˈspeɪs/
@@ -766,6 +831,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/outer-space, checked: 2026-09-30, field: ipa.uk }
@@ -774,6 +840,7 @@ entries:
   - id: obligation|n
     headword: obligation
     pos: n
+    definition_en: "something you must do"
     ipa:
       uk: /ˌɒb.lɪˈɡeɪ.ʃən/
       us: /ˌɑː.bləˈɡeɪ.ʃən/
@@ -788,6 +855,7 @@ entries:
       - ethics
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -798,6 +866,7 @@ entries:
   - id: overview|n
     headword: overview
     pos: n
+    definition_en: "a summary of the main features of a chart"
     ipa:
       uk: /ˈəʊ.və.vjuː/
       us: /ˈoʊ.vɚ.vjuː/
@@ -811,6 +880,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/overview, checked: 2026-09-30, field: ipa.uk }

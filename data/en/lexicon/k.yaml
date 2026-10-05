@@ -3,6 +3,7 @@ entries:
   - id: kind|adj
     headword: kind
     pos: adj
+    definition_en: "caring about others and wanting to help them"
     forms:
       comparative: kinder
     ipa:
@@ -17,6 +18,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/kind_2, checked: 2026-09-30, field: cefr }
@@ -26,6 +28,7 @@ entries:
   - id: kitchen|n
     headword: kitchen
     pos: n
+    definition_en: "the room where you cook food"
     ipa:
       uk: /ˈkɪtʃ.ən/
       us: /ˈkɪtʃ.ən/
@@ -39,6 +42,7 @@ entries:
       - home
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -49,6 +53,7 @@ entries:
   - id: korean|adj
     headword: Korean
     pos: adj
+    definition_en: "from or connected with Korea"
     ipa:
       uk: /kəˈriː.ən/
       us: /kəˈriː.ən/
@@ -62,6 +67,7 @@ entries:
       - countries
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: wiktionary, ref: https://en.wiktionary.org/wiki/Korean, checked: 2026-09-30, field: ipa.uk }
@@ -70,6 +76,7 @@ entries:
   - id: knee|n
     headword: knee
     pos: n
+    definition_en: "the joint in the middle of your leg"
     ipa:
       uk: /niː/
       us: /niː/
@@ -82,6 +89,7 @@ entries:
       - body
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knee, checked: 2026-09-30, field: cefr }
@@ -91,6 +99,7 @@ entries:
   - id: knowledge|n
     headword: knowledge
     pos: n
+    definition_en: "information and understanding you have"
     ipa:
       uk: /ˈnɒl.ɪdʒ/
       us: /ˈnɑː.lɪdʒ/
@@ -110,6 +119,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/knowledge, checked: 2026-09-30, field: cefr }
@@ -119,6 +129,7 @@ entries:
   - id: keen-on|colloc
     headword: keen on
     pos: colloc
+    definition_en: "very interested in something"
     ipa:
       uk: /ˈkiːn ɒn/
       us: /ˈkiːn ɑːn/
@@ -137,6 +148,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -145,6 +157,7 @@ entries:
   - id: keep-fit|colloc
     headword: keep fit
     pos: colloc
+    definition_en: "to stay healthy by exercising"
     ipa:
       uk: /ˌkiːp ˈfɪt/
       us: /ˌkiːp ˈfɪt/
@@ -159,6 +172,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -167,6 +181,7 @@ entries:
   - id: keep-up-with|phr-v
     headword: keep up with
     pos: phr-v
+    definition_en: "to stay at the same level or speed as others"
     forms:
       past: kept up with
     ipa:
@@ -182,6 +197,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft

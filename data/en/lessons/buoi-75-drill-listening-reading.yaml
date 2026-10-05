@@ -1,0 +1,282 @@
+# Buổi 75 — Luyện riêng 1 · Listening + Reading: F hay NG, nhầm chủ thể, bẫy Part 1, giới hạn số từ. Tự soạn theo lo-trinh-ielts-6.5.md. BẢN NHÁP chờ duyệt.
+slug: buoi-75-drill-listening-reading
+number: 75
+stage: 4
+title_vi: "Luyện riêng 1 · Listening + Reading: F hay NG, nhầm chủ thể, bẫy Part 1, giới hạn số từ"
+focus:
+  grammar: Không học điểm mới
+  skill: Listening + Reading — drill có mục tiêu theo nhật ký lỗi của 3 lần mock; mỗi bài tập nhắm đúng một nguyên nhân mất điểm
+target_band: 6.0-6.5
+source: editorial
+status: draft
+steps:
+  - type: skill
+    skill: reading
+    title_vi: "Luyện có mục tiêu: một nguyên nhân, nhiều câu, phản hồi ngay"
+    intro_vi: "Làm thêm đề trọn bộ không giúp nhiều nếu lỗi vẫn lặp lại. Buổi 75 và 76 là 'phòng khám lỗi': mỗi bài tập chỉ luyện MỘT nguyên nhân mất điểm, với nhiều câu ngắn và phản hồi ngay sau từng câu. Buổi này dành cho Listening + Reading, Buổi 76 dành cho Writing + Speaking. Mở bảng tổng kết ở Buổi 68: làm KỸ các bài khớp với 2 dạng yếu nhất của bạn, các bài còn lại làm nhanh để ôn."
+    steps:
+      - title_vi: Chọn bài theo nhật ký lỗi
+        text_vi: Nhầm F/NG → Bài 1. Nhầm chủ thể → Bài 2. Mất điểm ở Part 1 vì bẫy sửa thông tin hoặc chính tả → Bài 3. Nhầm ý kiến trong Part 3 → Bài 4. Matching headings → Bài 6. Quá số từ → Bài 7.
+      - title_vi: Quy tắc 3 câu hỏi cho T/F/NG
+        text_vi: (1) Bài có nói về CHỦ THỂ này và KHÍA CẠNH này không? Không → NG. (2) Có → thông tin trong bài khớp hay ngược với câu hỏi? Khớp → T. (3) Ngược (hoặc mâu thuẫn rõ ràng) → F. Đừng bao giờ dựa vào hiểu biết bên ngoài bài đọc.
+      - title_vi: Chống nhầm chủ thể
+        text_vi: Trước khi tìm đáp án, khoanh chủ ngữ trong câu hỏi. Trong bài, khoanh MỌI lần chủ thể đó xuất hiện (kể cả đại từ they, the former, the latter). Chỉ so sánh động từ sau khi đã chắc đúng chủ thể.
+      - title_vi: "Sau mỗi bài: ghi một dòng vào nhật ký"
+        text_vi: "Ghi số câu đúng/tổng và một 'luật' mà bạn rút ra (VD: 'không nhắc đến giá → NG, kể cả khi nghe hợp lý'). Đọc lại các luật này trước Mock 77."
+    tips:
+      - Câu NG thường nghe 'rất hợp lý' — đó chính là cái bẫy. Câu hỏi càng hợp lý mà bài không nói, càng dễ là NG.
+      - Từ chỉ mức độ như 'all', 'only', 'always', 'first' trong câu hỏi thường biến câu T thành F.
+      - "Part 1: tên riêng và số được đánh vần/đọc chậm; sau 'Sorry,…', 'Actually,…' gần như luôn có đáp án mới."
+    traps:
+      - trap_vi: Chọn F vì bài không nói điều đó (lỗi riêng của bạn từ Buổi 1).
+        fix_vi: Không nói = NG. F chỉ khi bài nói NGƯỢC LẠI.
+      - trap_vi: Bài có hai đối tượng giống nhau (bố mẹ ruột / bố mẹ vợ; hai nhà khoa học).
+        fix_vi: Gạch chủ ngữ ở câu hỏi và ở bài trước khi so sánh.
+      - trap_vi: Điền đúng ý nhưng sai chính tả hoặc thiếu -s.
+        fix_vi: "Đọc lại từng đáp án: danh từ đếm được sau 'two', 'many', 'several' phải có -s."
+    phrases:
+      - en: The passage does not mention…
+        vi: Bài đọc không đề cập…
+        note_vi: → NOT GIVEN
+      - en: The passage states the opposite.
+        vi: Bài đọc nói điều ngược lại.
+        note_vi: → FALSE
+      - en: the former / the latter
+        vi: cái/người trước / cái/người sau
+        note_vi: Từ thay thế chủ thể hay gây nhầm.
+  - type: exercises
+    items:
+      - id: b75-x1
+        bank_no: 13
+        kind: tfng
+        instructions_vi: BÀI 1 · F hay NG? Đọc đoạn văn ngắn, chọn TRUE / FALSE / NOT GIVEN. Mỗi câu áp dụng quy tắc 3 câu hỏi.
+        passage: |-
+          THE NIGHT MARKET
+
+          The night market on Lan Street opened in 2018 with twenty stalls. It now has over sixty, most of which sell street food. The market operates from Thursday to Sunday, from 6 pm until midnight. It was originally planned as a weekend-only event, but demand from tourists led the organisers to add Thursdays and Fridays. Stallholders pay a monthly fee to the city council, which is responsible for cleaning the street each morning. Some local residents have complained about noise, and the council has agreed to review the closing time next year. Many visitors say the grilled seafood is the highlight, although vegetarian options have also become more common.
+        questions:
+          - q: 1 · The market had more stalls when it opened than it has today.
+            answer: F
+            explain_vi: "20 lúc mở → hơn 60 bây giờ: ngược lại."
+          - q: 2 · Most stalls sell food.
+            answer: T
+          - q: 3 · The market is the largest night market in the city.
+            answer: NG
+            explain_vi: Bài không so sánh với chợ khác.
+          - q: 4 · The organisers first intended the market to open only at weekends.
+            answer: T
+          - q: 5 · Most visitors to the market are tourists.
+            answer: NG
+            explain_vi: Bài nói nhu cầu từ khách du lịch khiến mở thêm ngày, nhưng không nói đa số khách là du lịch.
+          - q: 6 · Stallholders are responsible for cleaning the street.
+            answer: F
+            explain_vi: Hội đồng thành phố (city council) lo việc dọn dẹp — nhầm chủ thể sẽ chọn T.
+          - q: 7 · The council plans to look again at the closing time.
+            answer: T
+            explain_vi: "'agreed to review the closing time' = đồng ý xem xét lại."
+          - q: 8 · The grilled seafood is the most expensive food at the market.
+            answer: NG
+            explain_vi: Bài nói là món nổi bật (highlight), không nói về giá.
+      - id: b75-x2
+        bank_no: 13
+        kind: tfng
+        instructions_vi: BÀI 2 · Nhầm chủ thể. Bài có hai nhóm đối tượng giống nhau. Khoanh chủ ngữ trước khi trả lời.
+        passage: |-
+          TWO STUDIES ON HOMEWORK
+
+          Two research teams recently studied the effects of homework on secondary school students. The first, led by Dr Anna Kerr, followed 600 students in Scotland for three years. The second, led by Professor Ming Li, studied 1,200 students in Singapore for one year.
+
+          Kerr's team found that students who did about an hour of homework a night achieved better exam results than those who did none. However, students who did more than two hours a night did no better than the one-hour group, and they reported higher levels of stress. Li's study reached a similar conclusion about the benefits of moderate homework, but found no link between homework time and stress. The latter team suggested that this difference might be explained by the greater support that Singaporean students receive from tutors outside school.
+
+          Both teams agreed that the type of homework mattered more than the amount. The former recommended that teachers set tasks that review what was learned in class, whereas the latter emphasised tasks that prepare students for the next lesson.
+        questions:
+          - q: 1 · Dr Kerr's study lasted longer than Professor Li's.
+            answer: T
+          - q: 2 · Professor Li's study involved fewer students than Dr Kerr's.
+            answer: F
+            explain_vi: "Li: 1.200 học sinh; Kerr: 600 → nhiều hơn, không phải ít hơn."
+          - q: 3 · In Dr Kerr's study, students who did over two hours of homework felt more stressed.
+            answer: T
+          - q: 4 · Professor Li found that long homework hours increased stress.
+            answer: F
+            explain_vi: Li 'found no link between homework time and stress'.
+          - q: 5 · Professor Li's team believes private tutoring may explain their result.
+            answer: T
+            explain_vi: "'The latter team' = nhóm thứ hai = nhóm của Li."
+          - q: 6 · Dr Kerr recommended homework that prepares students for the next lesson.
+            answer: F
+            explain_vi: "'The former' (Kerr) khuyên ôn lại bài cũ; chuẩn bị bài mới là của 'the latter' (Li)."
+          - q: 7 · Both studies were funded by the same organisation.
+            answer: NG
+      - id: b75-x3
+        bank_no: 18
+        kind: completion
+        instructions_vi: BÀI 3 · Bẫy Part 1 + chính tả. Hoàn thành phiếu. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ. Nghe một lần.
+        max_words: 3
+        audio_text: |-
+          Man: Hi, I'm calling about the flat on Garden Street. Is it still available?
+          Woman: Yes, it is. Can I take your name?
+          Man: Peter Walsh. That's W-A-L-S-H.
+          Woman: Thanks. The rent is six hundred and fifty pounds a month. Oh, sorry, I'm reading the old advert. It's six hundred and eighty now.
+          Man: OK. Does that include bills?
+          Woman: It includes water, but not electricity.
+          Man: And is there parking?
+          Woman: There's no parking space, but there's a bicycle shed at the back.
+          Man: When could I see it?
+          Woman: Tuesday at five? Actually, no, I've got another viewing then. Let's say Wednesday at five.
+          Man: That's fine. What should I bring?
+          Woman: Two references, please. One from your employer and one from a previous landlord.
+        passage: |-
+          FLAT ENQUIRY — 14 GARDEN STREET
+          Name: Peter (1) ___
+          Rent: £(2) ___ per month
+          Rent includes: (3) ___
+          Storage at the back: a (4) ___
+          Viewing: (5) ___ at 5 pm
+          Bring: two (6) ___
+        questions:
+          - q: (1)
+            answer: Walsh
+          - q: (2)
+            answer: "680"
+            explain_vi: 650 là giá trong quảng cáo cũ.
+          - q: (3)
+            answer: water
+            explain_vi: Điện (electricity) KHÔNG bao gồm.
+          - q: (4)
+            answer: bicycle shed
+            accept:
+              - bike shed
+          - q: (5)
+            answer: Wednesday
+            explain_vi: Thứ Ba bị đổi sang thứ Tư.
+          - q: (6)
+            answer: references
+            explain_vi: Sau 'two' cần số nhiều -s.
+      - id: b75-x4
+        bank_no: 21
+        kind: mcq
+        instructions_vi: BÀI 4 · Ai nghĩ gì? (Listening Part 3). Chọn A (Jack), B (Mia) hoặc C (cả hai).
+        audio_text: |-
+          Man: I think the library should open on Sundays. A lot of students work part-time during the week.
+          Woman: I agree. That's exactly what I wrote in the survey.
+          Man: But I don't think it needs more computers. Most people bring their own laptops.
+          Woman: Really? My flatmate says there are never enough computers.
+          Man: Maybe. Personally, I'd rather they spent the money on more quiet rooms.
+          Woman: Hmm, I'd prefer a bigger café, actually. People need somewhere to relax.
+        questions:
+          - q: The library should open on Sundays.
+            options:
+              - Jack
+              - Mia
+              - both
+            answer: c
+          - q: The library does not need more computers.
+            options:
+              - Jack
+              - Mia
+              - both
+            answer: a
+            explain_vi: Mia chỉ kể lại ý kiến của bạn cùng phòng (my flatmate says) — không phải ý của cô.
+          - q: The library should have more quiet rooms.
+            options:
+              - Jack
+              - Mia
+              - both
+            answer: a
+          - q: The café should be bigger.
+            options:
+              - Jack
+              - Mia
+              - both
+            answer: b
+      - id: b75-x5
+        bank_no: 20
+        kind: tf
+        instructions_vi: BÀI 5 · Bẫy sửa thông tin (hội thoại). Chọn Đúng (T) hoặc Sai (F).
+        audio_text: |-
+          Woman: I'd like to book the tennis court for Saturday at ten.
+          Man: Saturday morning is full, I'm afraid. How about Sunday at ten?
+          Woman: Sunday's fine. For two people. Oh, actually, make it four — we're playing doubles.
+          Man: That's twelve pounds. Wait, sorry, for four players it's fifteen.
+          Woman: No problem. Can I pay by card?
+          Man: Cash only on weekends, I'm afraid.
+        questions:
+          - q: The court is booked for Saturday.
+            answer: F
+          - q: Four people will play.
+            answer: T
+          - q: The booking costs twelve pounds.
+            answer: F
+            explain_vi: "Sửa lại: bốn người là £15."
+          - q: The woman can pay by card.
+            answer: F
+      - id: b75-x6
+        bank_no: 14
+        kind: mcq
+        instructions_vi: BÀI 6 · Matching headings ngắn. Chọn tiêu đề đúng cho mỗi đoạn. Có 2 tiêu đề thừa.
+        passage: |-
+          URBAN TREES
+
+          A  City trees do far more than look attractive. A single mature tree can lower the temperature of the street beneath it by several degrees on a hot day, reducing the need for air conditioning in nearby buildings.
+
+          B  Despite this, many cities are losing trees faster than they plant them. New buildings, wider roads and underground cables all compete for space, and young trees often die within a few years because they are not watered.
+
+          C  Some cities are responding with new approaches. Melbourne gave every public tree an email address so that residents could report problems; to the council's surprise, thousands of people instead wrote love letters to their favourite trees.
+
+          D  The cost of planting is relatively low. The real expense is looking after trees for the first five years, which is why experts argue that budgets should include long-term care, not just planting.
+        questions:
+          - q: Paragraph A
+            options: &a1
+              - i. An unexpected public reaction
+              - ii. Benefits for the local climate
+              - iii. The real cost of urban trees
+              - iv. Why tree numbers are falling
+              - v. The most popular tree species
+              - vi. Laws protecting old trees
+            answer: b
+          - q: Paragraph B
+            options: *a1
+            answer: d
+          - q: Paragraph C
+            options: *a1
+            answer: a
+          - q: Paragraph D
+            options: *a1
+            answer: c
+            explain_vi: Đừng chọn chỉ vì từ 'cost' trùng — ý chính là chi phí THẬT nằm ở chăm sóc, nên iii đúng.
+      - id: b75-x7
+        bank_no: 10
+        kind: mcq
+        instructions_vi: BÀI 7 · Giới hạn số từ. Đề yêu cầu NO MORE THAN TWO WORDS. Chọn đáp án hợp lệ.
+        questions:
+          - q: "The museum was originally a ___. (Bài: 'The building first served as a railway station for goods trains.')"
+            options:
+              - railway station for goods
+              - a railway station
+              - railway station
+              - station for trains
+            answer: c
+            explain_vi: A quá số từ; B có 'a' thừa (3 từ) — câu hỏi đã có 'a'; D không lấy từ bài theo đúng cụm.
+          - q: "Visitors must wear ___. (Bài: 'Protective helmets are required at all times.')"
+            options:
+              - protective helmets
+              - helmets at all times
+              - a protective helmet
+              - the helmets
+            answer: a
+          - q: "Each group has a maximum of ___. (Bài: 'Groups are limited to fifteen people.')"
+            options:
+              - fifteen people
+              - 15 people only
+              - limited to fifteen
+              - the fifteen people
+            answer: a
+  - type: homework
+    kind: paragraph
+    prompt_vi: "Cập nhật NHẬT KÝ LUẬT: với mỗi bài tập bạn sai từ 2 câu trở lên, viết một 'luật' ngắn bằng tiếng Việt (VD: 'Bài không nói đến giá → NG'). Sau đó viết một đoạn tiếng Anh mô tả hai luật quan trọng nhất và cách bạn sẽ áp dụng chúng trong Mock 77."
+    prompt_en: Describe the two most important rules you have learned from today's drills, and explain how you will use them in the full mock test.
+    words:
+      min: 100
+      max: 140
+    minutes: 20

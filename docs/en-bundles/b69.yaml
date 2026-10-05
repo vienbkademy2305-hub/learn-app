@@ -1,0 +1,238 @@
+lesson:
+  slug: buoi-69-mock-writing-1
+  number: 69
+  stage: 4
+  title_vi: "Mock Writing 1 · Task 1 biểu đồ đường + Task 2 Agree/Disagree (60 phút)"
+  focus:
+    grammar: Không học điểm mới — soát lỗi ngữ pháp trong bài viết của chính mình
+    skill: "Writing — làm đủ hai Task đúng 20 + 40 phút, tự chấm theo 4 tiêu chí, lập nhật ký lỗi Writing"
+  target_band: 6.0-6.5
+  steps:
+    - type: skill
+      skill: writing
+      title_vi: "Một bài Writing đầy đủ trong 60 phút — và tự chấm như giám khảo"
+      intro_vi: "Thi thật bạn có 60 phút cho cả hai Task và tự chia thời gian. Task 2 chiếm gấp đôi điểm Task 1, nên quy tắc an toàn là: Task 1 tối đa 20 phút, Task 2 ít nhất 40 phút. Buổi 69–71 là ba lần Mock Writing, mỗi lần một cặp dạng đề khác nhau. Sau mỗi lần, bạn tự chấm theo 4 tiêu chí (Task Achievement/Response · Coherence & Cohesion · Lexical Resource · Grammatical Range & Accuracy) và ghi lỗi vào nhật ký Writing."
+      steps:
+        - title_vi: "Task 1 (20 phút): 3 phút phân tích, 14 phút viết, 3 phút soát"
+          text_vi: "Đọc đề, gạch: cái gì · ở đâu · đơn vị · thời gian. Tìm 2 đặc điểm lớn nhất cho Overview (xu hướng chung, đường cao nhất/thấp nhất). Chia số liệu thành 2 đoạn thân bài theo nhóm hợp lý. Viết: Introduction (paraphrase đề) → Overview → Body 1 → Body 2. Không nêu ý kiến, không giải thích nguyên nhân."
+        - title_vi: "Task 2 (40 phút): 5 phút lập dàn ý, 30 phút viết, 5 phút soát"
+          text_vi: "Xác định dạng đề và MỌI phần đề hỏi. Viết câu luận điểm (thesis) trả lời trực tiếp. Mỗi đoạn thân bài: 1 ý chính → giải thích → ví dụ cụ thể. Giữ quan điểm nhất quán từ mở bài đến kết luận. Kết luận nhắc lại quan điểm bằng từ khác, không thêm ý mới."
+        - title_vi: "Soát lỗi 3 lượt (Buổi 62) — lần này với lỗi CỦA BẠN"
+          text_vi: "Lượt 1: cấu trúc (có Overview? có trả lời đủ đề?). Lượt 2: lỗi ngữ pháp riêng của bạn — a/an/the, -s số nhiều, 'a + danh từ số nhiều', dấu phẩy nối hai câu. Lượt 3: chính tả và từ hay nhầm (form/from, analysis/analyst)."
+        - title_vi: Tự chấm theo 4 tiêu chí
+          text_vi: "Với mỗi tiêu chí, hỏi một câu. TA/TR: đã trả lời mọi phần đề và có Overview/quan điểm rõ chưa? CC: mỗi đoạn có một ý chính, từ nối đa dạng và đúng chỗ chưa? LR: có lặp từ nhiều không, có collocation tự nhiên không? GRA: có câu phức, và bao nhiêu câu không có lỗi? Band 6 ≈ 'đủ nhưng còn lỗi gây khựng'; band 7 ≈ 'rõ ràng, nhiều câu không lỗi, có từ ít phổ biến dùng đúng'."
+        - title_vi: Ghi nhật ký lỗi Writing
+          text_vi: "Ghi lại mỗi lỗi một dòng: câu sai → câu đúng → loại lỗi. Sau 3 lần mock, loại lỗi xuất hiện nhiều nhất là việc cần luyện ở Buổi 75–76."
+      tips:
+        - "Task 1 dưới 150 từ hoặc Task 2 dưới 250 từ sẽ bị trừ điểm. Đếm nhanh: dòng viết tay của bạn trung bình bao nhiêu từ × số dòng."
+        - "Overview là câu quan trọng nhất của Task 1: thiếu Overview thì Task Achievement khó vượt band 5."
+        - "Task 2: một ví dụ cụ thể (tên nơi, con số giả định nhưng hợp lý) thuyết phục hơn ba câu chung chung."
+        - "Ở phòng thi máy tính, ô viết có đếm từ; thi giấy thì không. Hãy tập ước lượng."
+      traps:
+        - trap_vi: "Task 1: liệt kê từng số liệu theo năm mà không so sánh."
+          fix_vi: "Nhóm số liệu, chọn điểm nổi bật (cao nhất, thấp nhất, thay đổi lớn nhất) và so sánh giữa các đường."
+        - trap_vi: "Task 2: mở bài 'agree', thân bài lại nghiêng về phía ngược lại."
+          fix_vi: "Viết câu thesis trước, đọc lại nó trước khi viết mỗi đoạn thân bài."
+        - trap_vi: "Lỗi riêng của bạn: 'a students', 'I am a Vietnamese', dấu phẩy nối hai câu."
+          fix_vi: "Lượt soát 2 chỉ tìm đúng ba lỗi này: a + danh từ số ít; quốc tịch không có 'a'; hai mệnh đề đầy đủ phải có dấu chấm hoặc liên từ."
+        - trap_vi: "Lặp danh từ thay vì dùng đại từ hoặc từ thay thế (điểm nghẽn CC + LR của bạn)."
+          fix_vi: "Sau khi nhắc một lần, dùng 'this figure', 'the latter', 'they', 'such attractions'."
+      phrases:
+        - en: "Overall, … while …"
+          vi: "Nhìn chung, … trong khi …"
+          note_vi: "Mẫu câu Overview nêu hai đặc điểm tương phản."
+        - en: "… rose steadily from … to …"
+          vi: "… tăng đều từ … lên …"
+        - en: "… peaked at … in … before falling to …"
+          vi: "… đạt đỉnh … vào năm … rồi giảm xuống …"
+        - en: "… remained relatively stable at around …"
+          vi: "… gần như ổn định ở mức khoảng …"
+        - en: "I largely agree that … because …"
+          vi: "Tôi phần lớn đồng ý rằng … vì …"
+          note_vi: "Câu thesis cho đề To what extent… — nêu rõ MỨC ĐỘ đồng ý."
+      demo:
+        title_vi: "Bài mẫu Task 1 (khoảng band 7) cho đề trong phần Về nhà"
+        text_en: |-
+          The line graph illustrates how many people visited three kinds of attractions in a city between 2005 and 2025.
+
+          Overall, museums and historic sites attracted more visitors over the period, whereas theme parks, despite remaining the most popular attraction, saw their visitor numbers rise and then fall back. Historic sites consistently drew the smallest number of visitors.
+
+          In 2005, theme parks welcomed 4 million visitors, almost twice as many as museums, at 2.1 million. Theme park attendance climbed rapidly to a peak of 6.1 million in 2015, before declining to 5.2 million in 2025.
+
+          By contrast, the figure for museums rose steadily throughout the period, reaching 3.4 million by the end. Historic sites showed the least change: their visitor numbers remained relatively stable at around 1.5 million, ending marginally higher at 1.6 million.
+        notes:
+          - label: Introduction
+            text_vi: "Paraphrase đề: 'shows the number of visitors' → 'illustrates how many people visited'; 'types' → 'kinds'."
+          - label: Overview
+            text_vi: "Hai ý lớn, không có số liệu: xu hướng tăng của hai loại, và đường cao nhất/thấp nhất."
+          - label: Body 1
+            text_vi: "Nhóm 'đường có thay đổi lớn nhất' (công viên giải trí) và so sánh với bảo tàng ở mốc đầu."
+          - label: Body 2
+            text_vi: "Hai đường còn lại; dùng 'By contrast', 'the figure for' để tránh lặp 'visitors'."
+          - label: Từ vựng
+            text_vi: "climbed rapidly, peak, declining, rose steadily, relatively stable, marginally higher — đa dạng động từ và trạng từ."
+    - type: exercises
+      items:
+        - id: b69-x1
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Đề Task 1 (Về nhà): lượt khách đến bảo tàng (2,1 → 3,4 triệu), công viên giải trí (4,0 → đỉnh 6,1 năm 2015 → 5,2 triệu), di tích lịch sử (khoảng 1,5 → 1,6 triệu), 2005–2025, số liệu giả định. Chọn câu Overview tốt nhất."
+          questions:
+            - q: "Which is the best overview?"
+              options:
+                - "Overall, theme parks had 4 million visitors in 2005 and 5.2 million in 2025."
+                - "Overall, theme parks remained the most popular attraction, while museums saw the most consistent growth and historic sites changed very little."
+                - "Overall, I think museums became more popular because they are educational."
+                - "Overall, the number of visitors went up and down."
+              answer: b
+              explain_vi: "A chỉ nêu số liệu (không phải tổng quan). C có ý kiến cá nhân và giải thích nguyên nhân — không được phép. D quá chung chung."
+            - q: "Which sentence about theme parks contains NO mistakes?"
+              options:
+                - "Theme park visitors peaked at 6.1 million in 2015."
+                - "Theme park visitors was peaked at 6.1 million in 2015."
+                - "Theme park visitors peak in 6.1 million at 2015."
+                - "The theme park visitor peaked 6.1 millions in 2015."
+              answer: a
+              explain_vi: "peak là nội động từ ('peaked at'); 'million' sau số không thêm -s."
+            - q: "Which body paragraph plan groups the data most logically?"
+              options:
+                - "Body 1: 2005 figures; Body 2: 2010 figures; Body 3: 2015 figures …"
+                - "Body 1: theme parks (largest change); Body 2: museums and historic sites"
+                - "Body 1: reasons for the changes; Body 2: predictions for 2030"
+                - "One long paragraph with all the numbers"
+              answer: b
+        - id: b69-x2
+          bank_no: 7
+          kind: error-correction
+          instructions_vi: "Đoạn thân bài Task 1 của một học viên có 5 lỗi (đúng các lỗi bạn hay mắc). Tìm và sửa."
+          text: "In 2005, museum had 2.1 million visitors, the figure rose steadily to 3.4 millions in 2025. The historic sites attracted a smallest number of visitor. There number remained stable at around 1.5 million."
+          errors:
+            - wrong: "museum had"
+              right: "museums had"
+              why: "Nói chung về loại hình → danh từ số nhiều."
+            - wrong: "visitors, the figure"
+              right: "visitors, and the figure"
+              why: "Dấu phẩy nối hai câu (comma splice) → thêm 'and' hoặc tách câu."
+            - wrong: "3.4 millions"
+              right: "3.4 million"
+              why: "Sau số, 'million' không thêm -s."
+            - wrong: "a smallest number of visitor"
+              right: "the smallest number of visitors"
+              why: "So sánh nhất dùng 'the'; 'number of' + danh từ số nhiều."
+            - wrong: "There number"
+              right: "Their number"
+              why: "Their (của chúng) ≠ There (ở đó)."
+        - id: b69-x3
+          bank_no: 5
+          kind: paraphrase
+          instructions_vi: "Viết lại câu đề bài (Task 2) theo gợi ý, giữ nguyên nghĩa — đây là câu mở bài của bạn."
+          questions:
+            - q: "All museums and historic sites should be free to visit. (Start: It has been suggested that … should not have to pay …)"
+              answer: "It has been suggested that visitors should not have to pay to enter museums and historic sites."
+              accept:
+                - It has been suggested that people should not have to pay to visit museums and historic sites.
+                - It has been suggested that visitors should not have to pay to visit museums and historic sites.
+                - It has been suggested that people should not have to pay to enter museums and historic sites.
+            - q: "Some people think that the government should pay for these places. (Start: Some argue that … should be funded …)"
+              answer: "Some argue that these places should be funded by the government."
+              accept:
+                - Some argue that such places should be funded by the government.
+                - Some argue that these places should be funded by the state.
+        - id: b69-x4
+          bank_no: 10
+          kind: mcq
+          instructions_vi: "Đề Task 2: 'Some people think that all museums and historic sites should be free to visit. To what extent do you agree or disagree?' Chọn câu thesis tốt nhất."
+          questions:
+            - q: "Which thesis statement answers the question most clearly?"
+              options:
+                - "This essay will discuss museums and historic sites."
+                - "There are both advantages and disadvantages of free museums."
+                - "I largely agree that entry should be free, although charging tourists a small fee may be justified to maintain historic sites."
+                - "Museums are very important for everyone in the world."
+              answer: c
+              explain_vi: "Đề 'To what extent' cần nêu rõ MỨC ĐỘ đồng ý. A và D không có quan điểm; B là dàn ý của dạng Discussion/Adv-Disadv."
+            - q: "Which body paragraph idea does NOT support the thesis in (c)?"
+              options:
+                - "Free entry allows low-income families and students to learn about their culture."
+                - "Visitor numbers often rise sharply when charges are removed."
+                - "Historic sites are expensive to repair, so international tourists could pay a modest fee."
+                - "Museums should charge everyone high prices to make a profit."
+              answer: d
+        - id: b69-x5
+          bank_no: 20
+          kind: mcq
+          instructions_vi: "Nghe một giáo viên nhận xét bài Task 1 của học viên (hai giọng). Chọn đáp án đúng."
+          audio_text: |-
+            Teacher: I've marked your Task 1, Linh. The good news is that your figures are all accurate.
+            Student: Thank you. So what was the main problem?
+            Teacher: You didn't include an overview. You described each line in detail, but you never said what the main trends were.
+            Student: Oh, I thought the conclusion at the end would be enough.
+            Teacher: Actually, you wrote a conclusion giving reasons why museums became popular. That's not required in Task 1, and it's not supported by the graph.
+            Student: I see. Was my vocabulary OK?
+            Teacher: Mostly, but you used 'increase' six times. Try 'rise', 'climb' or 'grow'.
+            Student: And the length?
+            Teacher: A hundred and sixty words, so that's fine. Next time, write the overview straight after the introduction.
+          questions:
+            - q: "What did the teacher praise?"
+              options:
+                - the overview
+                - the accuracy of the figures
+                - the range of vocabulary
+                - the conclusion
+              answer: b
+            - q: "What was the main problem?"
+              options:
+                - The essay was too short.
+                - The figures were wrong.
+                - There was no overview.
+                - The introduction copied the question.
+              answer: c
+            - q: "Why was the student's conclusion a problem?"
+              options:
+                - It was too long.
+                - It gave reasons that are not in the graph.
+                - It repeated the introduction.
+                - It had grammar mistakes.
+              answer: b
+            - q: "Where should the overview go next time?"
+              options:
+                - at the end
+                - straight after the introduction
+                - in the second body paragraph
+                - before the introduction
+              answer: b
+        - id: b69-x6
+          bank_no: 20
+          kind: tf
+          instructions_vi: "Nghe tiếp lời khuyên về thời gian làm bài (độc thoại). Chọn Đúng (T) hoặc Sai (F)."
+          audio_text: "Here's my advice on timing. Spend no more than twenty minutes on Task 1, because Task 2 is worth twice as many marks. Before you start Task 2, take about five minutes to plan. Many students skip planning because they feel nervous, but a clear plan actually saves time. Leave the last three to five minutes to check your writing. Focus on the mistakes you know you often make, rather than reading everything again slowly."
+          questions:
+            - q: Task 1 and Task 2 are worth the same number of marks.
+              answer: F
+              explain_vi: "'Task 2 is worth twice as many marks'."
+            - q: The speaker recommends planning Task 2 for about five minutes.
+              answer: T
+            - q: Planning wastes time for nervous students.
+              answer: F
+              explain_vi: "'a clear plan actually saves time'."
+            - q: When checking, you should focus on your usual mistakes.
+              answer: T
+    - type: homework
+      kind: task2
+      prompt_vi: "MOCK WRITING 1 — làm ĐỦ HAI TASK liên tục trong 60 phút, không tra từ điển. Viết Task 1 trước (≥ 150 từ, 20 phút), xuống dòng ghi 'TASK 2', rồi viết Task 2 (≥ 250 từ, 40 phút). Xong thì tự chấm 4 tiêu chí theo phần Kỹ năng và ghi lỗi vào nhật ký Writing. Số liệu Task 1 là giả định."
+      prompt_en: |-
+        TASK 1 (20 minutes, at least 150 words)
+        The line graph shows the number of visitors (in millions) to three types of attractions in a city between 2005 and 2025.
+        Museums: 2005: 2.1 · 2010: 2.4 · 2015: 2.8 · 2020: 3.1 · 2025: 3.4
+        Theme parks: 2005: 4.0 · 2010: 5.3 · 2015: 6.1 · 2020: 5.6 · 2025: 5.2
+        Historic sites: 2005: 1.5 · 2010: 1.4 · 2015: 1.5 · 2020: 1.5 · 2025: 1.6
+        Summarise the information by selecting and reporting the main features, and make comparisons where relevant.
+
+        TASK 2 (40 minutes, at least 250 words)
+        Some people think that all museums and historic sites should be free to visit.
+        To what extent do you agree or disagree?
+        Give reasons for your answer and include any relevant examples from your own knowledge or experience.
+      words:
+        min: 400
+        max: 520
+      minutes: 60

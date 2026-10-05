@@ -3,6 +3,7 @@ entries:
   - id: parent|n
     headword: parent
     pos: n
+    definition_en: "your mother or your father"
     ipa: { uk: "/ˈpeə.rənt/", us: "/ˈper.ənt/" }
     cefr: A1
     meaning_vi: [ bố hoặc mẹ ]
@@ -12,6 +13,7 @@ entries:
     topics: [ personal-info, family ]
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - { source: ai-draft, field: meaning_vi }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/parent, checked: 2026-09-30, field: cefr }
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/parent, checked: 2026-09-30, field: ipa.uk }
@@ -20,6 +22,7 @@ entries:
   - id: personality|n
     headword: personality
     pos: n
+    definition_en: "the type of person you are, shown by how you behave"
     ipa:
       uk: /ˌpɜː.sənˈæl.ə.ti/
       us: /ˌpɝː.sənˈæl.ə.t̬i/
@@ -31,6 +34,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -40,6 +44,7 @@ entries:
   - id: patient|adj
     headword: patient
     pos: adj
+    definition_en: "able to wait calmly without getting angry"
     forms:
       comparative: more patient
     ipa:
@@ -54,6 +59,7 @@ entries:
       - personality
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/patient_2, checked: 2026-09-30, field: cefr }
@@ -63,6 +69,7 @@ entries:
   - id: pass|v
     headword: pass
     pos: v
+    definition_en: "to succeed in a test"
     forms:
       3sg: passes
     ipa:
@@ -78,6 +85,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pass, checked: 2026-09-30, field: cefr }
@@ -87,6 +95,7 @@ entries:
   - id: police-officer|phr-n
     headword: police officer
     pos: phr-n
+    definition_en: "a member of the police"
     ipa:
       uk: /pəˈliːs ˌɒf.ɪ.sə/
       us: /pəˈliːs ˌɑː.fɪ.sɚ/
@@ -99,6 +108,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/police-officer, checked: 2026-09-30, field: ipa.uk }
@@ -107,6 +117,7 @@ entries:
   - id: part-time|adj
     headword: part-time
     pos: adj
+    definition_en: "working only some hours of the week"
     ipa:
       uk: /ˌpɑːtˈtaɪm/
       us: /ˌpɑːrtˈtaɪm/
@@ -119,6 +130,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/part-time, checked: 2026-09-30, field: cefr }
@@ -128,6 +140,7 @@ entries:
   - id: pharmacy|n
     headword: pharmacy
     pos: n
+    definition_en: "a shop where you can buy medicine"
     forms:
       plural: pharmacies
     ipa:
@@ -144,6 +157,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pharmacy, checked: 2026-09-30, field: cefr }
@@ -153,6 +167,7 @@ entries:
   - id: pain|n
     headword: pain
     pos: n
+    definition_en: "the feeling you have when part of your body hurts"
     ipa:
       uk: /peɪn/
       us: /peɪn/
@@ -167,6 +182,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pain, checked: 2026-09-30, field: cefr }
@@ -176,6 +192,7 @@ entries:
   - id: packet|n
     headword: packet
     pos: n
+    definition_en: "a small paper or plastic container for food"
     ipa:
       uk: /ˈpæk.ɪt/
       us: /ˈpæk.ɪt/
@@ -192,6 +209,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/packet, checked: 2026-09-30, field: cefr }
@@ -201,6 +219,7 @@ entries:
   - id: passport|n
     headword: passport
     pos: n
+    definition_en: "an official document you need to travel abroad"
     ipa:
       uk: /ˈpɑːs.pɔːt/
       us: /ˈpæs.pɔːrt/
@@ -211,6 +230,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passport, checked: 2026-09-30, field: cefr }
@@ -220,6 +240,7 @@ entries:
   - id: price|n
     headword: price
     pos: n
+    definition_en: "the amount of money you pay for something"
     ipa:
       uk: /praɪs/
       us: /praɪs/
@@ -238,6 +259,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/price, checked: 2026-09-30, field: cefr }
@@ -247,6 +269,7 @@ entries:
   - id: pay-for|phr-v
     headword: pay for
     pos: phr-v
+    definition_en: "to give money for something you buy"
     forms:
       past: paid for
     ipa:
@@ -262,6 +285,7 @@ entries:
       - money
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -270,6 +294,7 @@ entries:
   - id: passenger|n
     headword: passenger
     pos: n
+    definition_en: "a person travelling in a vehicle but not driving it"
     ipa:
       uk: /ˈpæs.ən.dʒə/
       us: /ˈpæs.ən.dʒɚ/
@@ -281,6 +306,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/passenger, checked: 2026-09-30, field: cefr }
@@ -290,6 +316,7 @@ entries:
   - id: public-transport|phr-n
     headword: public transport
     pos: phr-n
+    definition_en: "buses and trains that everyone can use"
     ipa:
       uk: /ˌpʌb.lɪk ˈtræn.spɔːt/
       us: /ˌpʌb.lɪk ˈtræn.spɔːrt/
@@ -303,6 +330,7 @@ entries:
       - city
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-transport, checked: 2026-09-30, field: ipa.uk }
@@ -311,6 +339,7 @@ entries:
   - id: plan|v
     headword: plan
     pos: v
+    definition_en: "to decide in advance what you will do"
     forms:
       past: planned
       ing: planning
@@ -330,6 +359,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plan_2, checked: 2026-09-30, field: cefr }
@@ -339,6 +369,7 @@ entries:
   - id: promise|v
     headword: promise
     pos: v
+    definition_en: "to say that you will certainly do something"
     forms:
       past: promised
     ipa:
@@ -354,6 +385,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promise, checked: 2026-09-30, field: cefr }
@@ -363,6 +395,7 @@ entries:
   - id: probably|adv
     headword: probably
     pos: adv
+    definition_en: "almost certainly; very likely"
     ipa:
       uk: /ˈprɒb.ə.bli/
       us: /ˈprɑː.bə.bli/
@@ -376,6 +409,7 @@ entries:
       - plans
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/probably, checked: 2026-09-30, field: cefr }
@@ -385,6 +419,7 @@ entries:
   - id: photography|n
     headword: photography
     pos: n
+    definition_en: "the art of taking pictures with a camera"
     ipa:
       uk: /fəˈtɒɡ.rə.fi/
       us: /fəˈtɑː.ɡrə.fi/
@@ -398,6 +433,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/photography, checked: 2026-09-30, field: cefr }
@@ -407,6 +443,7 @@ entries:
   - id: painting|n
     headword: painting
     pos: n
+    definition_en: "making pictures with paint; or a picture made this way"
     ipa:
       uk: /ˈpeɪn.tɪŋ/
       us: /ˈpeɪn.t̬ɪŋ/
@@ -419,6 +456,7 @@ entries:
       - art
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/painting, checked: 2026-09-30, field: cefr }
@@ -428,6 +466,7 @@ entries:
   - id: practise|v
     headword: practise
     pos: v
+    definition_en: "to do something again and again to improve"
     forms:
       ing: practising
     ipa:
@@ -443,6 +482,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practise, checked: 2026-09-30, field: cefr }
@@ -452,6 +492,7 @@ entries:
   - id: proud|adj
     headword: proud
     pos: adj
+    definition_en: "pleased about something you or others have done"
     ipa:
       uk: /praʊd/
       us: /praʊd/
@@ -466,6 +507,7 @@ entries:
       - feelings
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proud, checked: 2026-09-30, field: cefr }
@@ -475,6 +517,7 @@ entries:
   - id: produce|v
     headword: produce
     pos: v
+    definition_en: "to make goods, often in large numbers"
     ipa:
       uk: /prəˈdʒuːs/
       us: /prəˈduːs/
@@ -488,6 +531,7 @@ entries:
       - industry
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/produce, checked: 2026-09-30, field: cefr }
@@ -497,6 +541,7 @@ entries:
   - id: product|n
     headword: product
     pos: n
+    definition_en: "something that is made to be sold"
     ipa:
       uk: /ˈprɒd.ʌkt/
       us: /ˈprɑː.dʌkt/
@@ -511,6 +556,7 @@ entries:
       - shopping
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/product, checked: 2026-09-30, field: cefr }
@@ -520,6 +566,7 @@ entries:
   - id: plastic|n
     headword: plastic
     pos: n
+    definition_en: "a light, man-made material used for bottles and bags"
     ipa:
       uk: /ˈplæs.tɪk/
       us: /ˈplæs.tɪk/
@@ -534,6 +581,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plastic, checked: 2026-09-30, field: cefr }
@@ -543,6 +591,7 @@ entries:
   - id: physics|n
     headword: physics
     pos: n
+    definition_en: "the science of energy, force, light and heat"
     ipa:
       uk: /ˈfɪz.ɪks/
       us: /ˈfɪz.ɪks/
@@ -556,6 +605,7 @@ entries:
       - school
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/physics, checked: 2026-09-30, field: cefr }
@@ -565,6 +615,7 @@ entries:
   - id: plot|n
     headword: plot
     pos: n
+    definition_en: "the events that happen in a story"
     ipa:
       uk: /plɒt/
       us: /plɑːt/
@@ -578,6 +629,7 @@ entries:
       - entertainment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plot, checked: 2026-09-30, field: cefr }
@@ -587,6 +639,7 @@ entries:
   - id: pick-up|phr-v
     headword: pick up
     pos: phr-v
+    definition_en: "to collect someone in a car"
     ipa:
       uk: /ˌpɪk ˈʌp/
       us: /ˌpɪk ˈʌp/
@@ -601,6 +654,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -609,6 +663,7 @@ entries:
   - id: player|n
     headword: player
     pos: n
+    definition_en: "a person who takes part in a game or sport"
     ipa:
       uk: /ˈpleɪ.ə/
       us: /ˈpleɪ.ɚ/
@@ -622,6 +677,7 @@ entries:
       - sport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/player, checked: 2026-09-30, field: cefr }
@@ -631,6 +687,7 @@ entries:
   - id: password|n
     headword: password
     pos: n
+    definition_en: "a secret word you use to enter an account"
     ipa:
       uk: /ˈpɑːs.wɜːd/
       us: /ˈpæs.wɝːd/
@@ -641,6 +698,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/password, checked: 2026-09-30, field: cefr }
@@ -650,6 +708,7 @@ entries:
   - id: paragraph|n
     headword: paragraph
     pos: n
+    definition_en: "a part of a text that starts on a new line"
     ipa:
       uk: /ˈpær.ə.ɡrɑːf/
       us: /ˈper.ə.ɡræf/
@@ -667,6 +726,7 @@ entries:
       - reading
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/paragraph, checked: 2026-09-30, field: cefr }
@@ -676,6 +736,7 @@ entries:
   - id: practical|adj
     headword: practical
     pos: adj
+    definition_en: "connected with real situations rather than ideas"
     ipa:
       uk: /ˈpræk.tɪ.kəl/
       us: /ˈpræk.tɪ.kəl/
@@ -692,6 +753,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/practical, checked: 2026-09-30, field: cefr }
@@ -701,6 +763,7 @@ entries:
   - id: pressure|n
     headword: pressure
     pos: n
+    definition_en: "a feeling that you must do something, causing stress"
     ipa:
       uk: /ˈpreʃ.ər/
       us: /ˈpreʃ.ɚ/
@@ -718,6 +781,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pressure, checked: 2026-09-30, field: cefr }
@@ -727,6 +791,7 @@ entries:
   - id: positive|adj
     headword: positive
     pos: adj
+    definition_en: "good or helpful; hopeful"
     ipa:
       uk: /ˈpɒz.ə.tɪv/
       us: /ˈpɑː.zə.t̬ɪv/
@@ -741,6 +806,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/positive, checked: 2026-09-30, field: cefr }
@@ -750,6 +816,7 @@ entries:
   - id: pollution|n
     headword: pollution
     pos: n
+    definition_en: "damage to air, water or land by harmful substances"
     ipa:
       uk: /pəˈluː.ʃən/
       us: /pəˈluː.ʃən/
@@ -769,6 +836,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pollution, checked: 2026-09-30, field: cefr }
@@ -778,6 +846,7 @@ entries:
   - id: protect|v
     headword: protect
     pos: v
+    definition_en: "to keep someone or something safe from harm"
     ipa:
       uk: /prəˈtekt/
       us: /prəˈtekt/
@@ -795,6 +864,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/protect, checked: 2026-09-30, field: cefr }
@@ -804,6 +874,7 @@ entries:
   - id: peaceful|adj
     headword: peaceful
     pos: adj
+    definition_en: "quiet and calm"
     ipa:
       uk: /ˈpiːs.fəl/
       us: /ˈpiːs.fəl/
@@ -820,6 +891,7 @@ entries:
       - places
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peaceful, checked: 2026-09-30, field: cefr }
@@ -829,6 +901,7 @@ entries:
   - id: polluted|adj
     headword: polluted
     pos: adj
+    definition_en: "made dirty by harmful substances"
     ipa:
       uk: /pəˈluː.tɪd/
       us: /pəˈluː.t̬ɪd/
@@ -846,6 +919,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -854,6 +928,7 @@ entries:
   - id: plant|v
     headword: plant
     pos: v
+    definition_en: "to put seeds or young trees into the ground"
     ipa:
       uk: /plɑːnt/
       us: /plænt/
@@ -869,6 +944,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/plant_2, checked: 2026-09-30, field: cefr }
@@ -878,6 +954,7 @@ entries:
   - id: prefer|v
     headword: prefer
     pos: v
+    definition_en: "to like one thing more than another"
     forms:
       past: preferred
       ing: preferring
@@ -899,6 +976,7 @@ entries:
       - hobbies
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prefer, checked: 2026-09-30, field: cefr }
@@ -908,6 +986,7 @@ entries:
   - id: privacy|n
     headword: privacy
     pos: n
+    definition_en: "the right to keep personal information secret"
     ipa:
       uk: /ˈprɪv.ə.si/
       us: /ˈpraɪ.və.si/
@@ -925,6 +1004,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/privacy, checked: 2026-09-30, field: cefr }
@@ -934,6 +1014,7 @@ entries:
   - id: proportion|n
     headword: proportion
     pos: n
+    definition_en: "a part of a whole, often shown as a percentage"
     ipa:
       uk: /prəˈpɔː.ʃən/
       us: /prəˈpɔːr.ʃən/
@@ -951,6 +1032,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/proportion, checked: 2026-09-30, field: cefr }
@@ -960,6 +1042,7 @@ entries:
   - id: period|n
     headword: period
     pos: n
+    definition_en: "a length of time"
     ipa:
       uk: /ˈpɪə.ri.əd/
       us: /ˈpɪr.i.əd/
@@ -976,6 +1059,7 @@ entries:
       - writing-task1
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/period, checked: 2026-09-30, field: cefr }
@@ -985,6 +1069,7 @@ entries:
   - id: physical-activity|phr-n
     headword: physical activity
     pos: phr-n
+    definition_en: "any movement of the body that uses energy"
     ipa:
       uk: /ˌfɪz.ɪ.kəl ækˈtɪv.ə.ti/
       us: /ˌfɪz.ɪ.kəl ækˈtɪv.ə.t̬i/
@@ -1001,6 +1086,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1009,6 +1095,7 @@ entries:
   - id: prison|n
     headword: prison
     pos: n
+    definition_en: "a building where criminals are kept"
     ipa:
       uk: /ˈprɪz.ən/
       us: /ˈprɪz.ən/
@@ -1027,6 +1114,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prison, checked: 2026-09-30, field: cefr }
@@ -1036,6 +1124,7 @@ entries:
   - id: punishment|n
     headword: punishment
     pos: n
+    definition_en: "a penalty for doing something wrong"
     ipa:
       uk: /ˈpʌn.ɪʃ.mənt/
       us: /ˈpʌn.ɪʃ.mənt/
@@ -1053,6 +1142,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/punishment, checked: 2026-09-30, field: cefr }
@@ -1062,6 +1152,7 @@ entries:
   - id: public-safety|phr-n
     headword: public safety
     pos: phr-n
+    definition_en: "the protection of everyone from danger"
     ipa:
       uk: /ˌpʌb.lɪk ˈseɪf.ti/
       us: /ˌpʌb.lɪk ˈseɪf.ti/
@@ -1075,6 +1166,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1083,6 +1175,7 @@ entries:
   - id: prevent|v
     headword: prevent
     pos: v
+    definition_en: "to stop something from happening"
     ipa:
       uk: /prɪˈvent/
       us: /prɪˈvent/
@@ -1100,6 +1193,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevent, checked: 2026-09-30, field: cefr }
@@ -1109,6 +1203,7 @@ entries:
   - id: peer-pressure|phr-n
     headword: peer pressure
     pos: phr-n
+    definition_en: "pressure from people your age to behave like them"
     ipa:
       uk: /ˈpɪə ˌpreʃ.ər/
       us: /ˈpɪr ˌpreʃ.ɚ/
@@ -1125,6 +1220,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peer-pressure, checked: 2026-09-30, field: ipa.uk }
@@ -1133,6 +1229,7 @@ entries:
   - id: preserve|v
     headword: preserve
     pos: v
+    definition_en: "to keep something in its original state"
     ipa:
       uk: /prɪˈzɜːv/
       us: /prɪˈzɝːv/
@@ -1151,6 +1248,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/preserve, checked: 2026-09-30, field: cefr }
@@ -1160,6 +1258,7 @@ entries:
   - id: popular|adj
     headword: popular
     pos: adj
+    definition_en: "liked by many people"
     ipa:
       uk: /ˈpɒp.jə.lər/
       us: /ˈpɑː.pjə.lɚ/
@@ -1177,6 +1276,7 @@ entries:
       - travel
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/popular, checked: 2026-09-30, field: cefr }
@@ -1186,6 +1286,7 @@ entries:
   - id: population|n
     headword: population
     pos: n
+    definition_en: "the number of people living in an area"
     ipa:
       uk: /ˌpɒp.jəˈleɪ.ʃən/
       us: /ˌpɑː.pjəˈleɪ.ʃən/
@@ -1204,6 +1305,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1214,6 +1316,7 @@ entries:
   - id: pedestrian|n
     headword: pedestrian
     pos: n
+    definition_en: "a person who is walking in the street"
     ipa:
       uk: /pəˈdes.tri.ən/
       us: /pəˈdes.tri.ən/
@@ -1232,6 +1335,7 @@ entries:
       - transport
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pedestrian, checked: 2026-09-30, field: ipa.uk }
@@ -1240,6 +1344,7 @@ entries:
   - id: publish|v
     headword: publish
     pos: v
+    definition_en: "to make a book, article or post available to the public"
     ipa:
       uk: /ˈpʌb.lɪʃ/
       us: /ˈpʌb.lɪʃ/
@@ -1254,6 +1359,7 @@ entries:
       - media
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/publish, checked: 2026-09-30, field: cefr }
@@ -1263,6 +1369,7 @@ entries:
   - id: platform|n
     headword: platform
     pos: n
+    definition_en: "a website or app where people share content"
     ipa:
       uk: /ˈplæt.fɔːm/
       us: /ˈplæt.fɔːrm/
@@ -1277,6 +1384,7 @@ entries:
       - technology
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/platform, checked: 2026-09-30, field: cefr }
@@ -1286,6 +1394,7 @@ entries:
   - id: public-opinion|phr-n
     headword: public opinion
     pos: phr-n
+    definition_en: "what most people in a society think"
     ipa:
       uk: /ˌpʌb.lɪk əˈpɪn.jən/
       us: /ˌpʌb.lɪk əˈpɪn.jən/
@@ -1300,6 +1409,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-opinion, checked: 2026-09-30, field: ipa.uk }
@@ -1308,6 +1418,7 @@ entries:
   - id: point-of-view|phr-n
     headword: point of view
     pos: phr-n
+    definition_en: "a particular way of thinking about something"
     ipa:
       uk: /ˌpɔɪnt əv ˈvjuː/
       us: /ˌpɔɪnt əv ˈvjuː/
@@ -1324,6 +1435,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/point-of-view, checked: 2026-09-30, field: ipa.uk }
@@ -1332,6 +1444,7 @@ entries:
   - id: promotion|n
     headword: promotion
     pos: n
+    definition_en: "a move to a higher position at work"
     ipa:
       uk: /prəˈməʊ.ʃən/
       us: /prəˈmoʊ.ʃən/
@@ -1348,6 +1461,7 @@ entries:
       - work
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/promotion, checked: 2026-09-30, field: cefr }
@@ -1357,6 +1471,7 @@ entries:
   - id: poverty|n
     headword: poverty
     pos: n
+    definition_en: "the state of being very poor"
     ipa:
       uk: /ˈpɒv.ə.ti/
       us: /ˈpɑː.vɚ.t̬i/
@@ -1373,6 +1488,7 @@ entries:
       - society
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/poverty, checked: 2026-09-30, field: cefr }
@@ -1382,6 +1498,7 @@ entries:
   - id: pie-chart|phr-n
     headword: pie chart
     pos: phr-n
+    definition_en: "a circle divided into slices to show parts of a whole"
     ipa:
       uk: /ˈpaɪ ˌtʃɑːt/
       us: /ˈpaɪ ˌtʃɑːrt/
@@ -1395,6 +1512,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pie-chart, checked: 2026-09-30, field: ipa.uk }
@@ -1403,6 +1521,7 @@ entries:
   - id: percentage|n
     headword: percentage
     pos: n
+    definition_en: "an amount shown as a part of 100"
     ipa:
       uk: /pəˈsen.tɪdʒ/
       us: /pɚˈsen.t̬ɪdʒ/
@@ -1419,6 +1538,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/percentage, checked: 2026-09-30, field: cefr }
@@ -1428,6 +1548,7 @@ entries:
   - id: public-spending|phr-n
     headword: public spending
     pos: phr-n
+    definition_en: "money the government spends on services"
     ipa:
       uk: /ˌpʌb.lɪk ˈspen.dɪŋ/
       us: /ˌpʌb.lɪk ˈspen.dɪŋ/
@@ -1443,6 +1564,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-spending, checked: 2026-09-30, field: ipa.uk }
@@ -1451,6 +1573,7 @@ entries:
   - id: policy|n
     headword: policy
     pos: n
+    definition_en: "a plan of action agreed by a government or organisation"
     forms:
       plural: policies
     ipa:
@@ -1469,6 +1592,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/policy, checked: 2026-09-30, field: cefr }
@@ -1478,6 +1602,7 @@ entries:
   - id: public-service|phr-n
     headword: public service
     pos: phr-n
+    definition_en: "a service provided by the state, e.g. hospitals"
     forms:
       plural: public services
     ipa:
@@ -1493,6 +1618,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/public-service, checked: 2026-09-30, field: ipa.uk }
@@ -1501,6 +1627,7 @@ entries:
   - id: problem|n
     headword: problem
     pos: n
+    definition_en: "a difficult situation that needs dealing with"
     ipa:
       uk: /ˈprɒb.ləm/
       us: /ˈprɑː.bləm/
@@ -1517,6 +1644,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/problem, checked: 2026-09-30, field: cefr }
@@ -1526,6 +1654,7 @@ entries:
   - id: priority|n
     headword: priority
     pos: n
+    definition_en: "something that is more important than other things"
     forms:
       plural: priorities
     ipa:
@@ -1544,6 +1673,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/priority, checked: 2026-09-30, field: cefr }
@@ -1553,6 +1683,7 @@ entries:
   - id: penalty|n
     headword: penalty
     pos: n
+    definition_en: "a punishment for breaking a rule"
     forms:
       plural: penalties
     ipa:
@@ -1571,6 +1702,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/penalty, checked: 2026-09-30, field: cefr }
@@ -1580,6 +1712,7 @@ entries:
   - id: process|n
     headword: process
     pos: n
+    definition_en: "a series of actions to achieve a result"
     forms:
       plural: processes
     ipa:
@@ -1600,6 +1733,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/process_1, checked: 2026-09-30, field: cefr }
@@ -1609,6 +1743,7 @@ entries:
   - id: purify|v
     headword: purify
     pos: v
+    definition_en: "to make something clean and safe"
     forms:
       past: purified
       3sg: purifies
@@ -1627,6 +1762,7 @@ entries:
       - environment
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1636,6 +1772,7 @@ entries:
   - id: package|v
     headword: package
     pos: v
+    definition_en: "to put goods into boxes or wrappers"
     ipa:
       uk: /ˈpæk.ɪdʒ/
       us: /ˈpæk.ɪdʒ/
@@ -1649,6 +1786,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/package_2, checked: 2026-09-30, field: cefr }
@@ -1658,6 +1796,7 @@ entries:
   - id: peer|n
     headword: peer
     pos: n
+    definition_en: "a person of the same age or level as you"
     ipa:
       uk: /pɪər/
       us: /pɪr/
@@ -1672,6 +1811,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/peer, checked: 2026-09-30, field: cefr }
@@ -1681,6 +1821,7 @@ entries:
   - id: procrastinate|v
     headword: procrastinate
     pos: v
+    definition_en: "to delay doing something you should do"
     ipa:
       uk: /prəˈkræs.tɪ.neɪt/
       us: /proʊˈkræs.tə.neɪt/
@@ -1698,6 +1839,7 @@ entries:
       - education
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/procrastinate, checked: 2026-09-30, field: ipa.uk }
@@ -1706,6 +1848,7 @@ entries:
   - id: petty-crime|phr-n
     headword: petty crime
     pos: phr-n
+    definition_en: "small illegal acts like pickpocketing"
     ipa:
       uk: /ˌpet.i ˈkraɪm/
       us: /ˌpet̬.i ˈkraɪm/
@@ -1719,6 +1862,7 @@ entries:
       - crime
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1727,6 +1871,7 @@ entries:
   - id: prevention|n
     headword: prevention
     pos: n
+    definition_en: "stopping something bad from happening"
     ipa:
       uk: /prɪˈven.ʃən/
       us: /prɪˈven.ʃən/
@@ -1741,6 +1886,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prevention, checked: 2026-09-30, field: cefr }
@@ -1750,6 +1896,7 @@ entries:
   - id: potential|n
     headword: potential
     pos: n
+    definition_en: "qualities that could develop in the future"
     ipa:
       uk: /pəˈten.ʃəl/
       us: /pəˈten.ʃəl/
@@ -1765,6 +1912,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/potential_2, checked: 2026-09-30, field: cefr }
@@ -1774,6 +1922,7 @@ entries:
   - id: perspective|n
     headword: perspective
     pos: n
+    definition_en: "a particular way of seeing something"
     ipa:
       uk: /pəˈspek.tɪv/
       us: /pɚˈspek.tɪv/
@@ -1788,6 +1937,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/perspective, checked: 2026-09-30, field: cefr }
@@ -1797,6 +1947,7 @@ entries:
   - id: public-health|phr-n
     headword: public health
     pos: phr-n
+    definition_en: "the health of a whole population"
     ipa:
       uk: /ˌpʌb.lɪk ˈhelθ/
       us: /ˌpʌb.lɪk ˈhelθ/
@@ -1813,6 +1964,7 @@ entries:
       - government
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1821,6 +1973,7 @@ entries:
   - id: preventive|adj
     headword: preventive
     pos: adj
+    definition_en: "intended to stop something bad from happening"
     ipa:
       uk: /prɪˈven.tɪv/
       us: /prɪˈven.t̬ɪv/
@@ -1834,6 +1987,7 @@ entries:
       - health
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/preventive, checked: 2026-09-30, field: ipa.uk }
@@ -1842,6 +1996,7 @@ entries:
   - id: processed-food|phr-n
     headword: processed food
     pos: phr-n
+    definition_en: "food changed in factories, often with added salt or sugar"
     ipa:
       uk: /ˌprəʊ.sest ˈfuːd/
       us: /ˌprɑː.sest ˈfuːd/
@@ -1855,6 +2010,7 @@ entries:
       - food
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1863,6 +2019,7 @@ entries:
   - id: purchase|v
     headword: purchase
     pos: v
+    definition_en: "to buy (formal)"
     ipa:
       uk: /ˈpɜː.tʃəs/
       us: /ˈpɝː.tʃəs/
@@ -1880,6 +2037,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/purchase, checked: 2026-09-30, field: cefr }
@@ -1889,6 +2047,7 @@ entries:
   - id: performance|n
     headword: performance
     pos: n
+    definition_en: "the act of entertaining an audience"
     ipa:
       uk: /pəˈfɔː.məns/
       us: /pɚˈfɔːr.məns/
@@ -1905,6 +2064,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/performance, checked: 2026-09-30, field: cefr }
@@ -1914,6 +2074,7 @@ entries:
   - id: playwright|n
     headword: playwright
     pos: n
+    definition_en: "a person who writes plays"
     ipa:
       uk: /ˈpleɪ.raɪt/
       us: /ˈpleɪ.raɪt/
@@ -1926,6 +2087,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/playwright, checked: 2026-09-30, field: ipa.uk }
@@ -1934,6 +2096,7 @@ entries:
   - id: premiere|n
     headword: premiere
     pos: n
+    definition_en: "the first public showing of a film or play"
     ipa:
       uk: /ˈprem.i.eər/
       us: /prɪˈmɪr/
@@ -1947,6 +2110,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/premiere, checked: 2026-09-30, field: ipa.uk }
@@ -1955,6 +2119,7 @@ entries:
   - id: portrait|n
     headword: portrait
     pos: n
+    definition_en: "a painting or photo of a person"
     ipa:
       uk: /ˈpɔː.trət/
       us: /ˈpɔːr.trət/
@@ -1968,6 +2133,7 @@ entries:
       - arts
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -1978,6 +2144,7 @@ entries:
   - id: perseverance|n
     headword: perseverance
     pos: n
+    definition_en: "continuing to try despite difficulties"
     ipa:
       uk: /ˌpɜː.sɪˈvɪə.rəns/
       us: /ˌpɝː.səˈvɪr.əns/
@@ -1992,6 +2159,7 @@ entries:
       - speaking
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2001,6 +2169,7 @@ entries:
   - id: planet|n
     headword: planet
     pos: n
+    definition_en: "a large round object that moves around a star"
     ipa:
       uk: /ˈplæn.ɪt/
       us: /ˈplæn.ɪt/
@@ -2015,6 +2184,7 @@ entries:
       - science
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/planet, checked: 2026-09-30, field: cefr }
@@ -2024,6 +2194,7 @@ entries:
   - id: pressing|adj
     headword: pressing
     pos: adj
+    definition_en: "needing to be dealt with immediately"
     ipa:
       uk: /ˈpres.ɪŋ/
       us: /ˈpres.ɪŋ/
@@ -2037,6 +2208,7 @@ entries:
       - writing
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/pressing, checked: 2026-09-30, field: ipa.uk }
@@ -2045,6 +2217,7 @@ entries:
   - id: private-sector|phr-n
     headword: private sector
     pos: phr-n
+    definition_en: "businesses not owned by the government"
     ipa:
       uk: /ˈpraɪ.vət ˌsek.tər/
       us: /ˈpraɪ.vət ˌsek.tɚ/
@@ -2058,6 +2231,7 @@ entries:
       - economy
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: ipa
       - source: ai-draft
@@ -2066,6 +2240,7 @@ entries:
   - id: prohibit|v
     headword: prohibit
     pos: v
+    definition_en: "to officially forbid"
     ipa:
       uk: /prəˈhɪb.ɪt/
       us: /proʊˈhɪb.ɪt/
@@ -2081,6 +2256,7 @@ entries:
       - law
     source: editorial
     provenance:
+      - { source: ai-draft, field: definition_en }
       - source: ai-draft
         field: meaning_vi
       - { source: oxford-ld, ref: https://www.oxfordlearnersdictionaries.com/definition/english/prohibit, checked: 2026-09-30, field: cefr }

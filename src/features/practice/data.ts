@@ -7,6 +7,7 @@ import type { GameWord } from "@/domain/word-game";
 export const PRACTICE_TYPES = [
   { type: "vocab", path: "vocab", title: "Nhớ từ vựng", icon: "🧠", description: "Nhìn chữ chọn nghĩa, nhìn nghĩa hoặc pinyin chọn chữ." },
   { type: "flashcards", path: "flashcards", title: "Flashcard", icon: "🃏", description: "Lật thẻ để ôn từ, lưu từ khó vào Sổ từ. Máy nhắc ôn lại đúng lúc." },
+  { type: "game", path: "game", title: "Học thuộc (game)", icon: "🎯", description: "Nối từ, chọn từ, nghe chọn, nghĩa tiếng Anh → chữ Hán. Qua 3 bậc là thuộc." },
   { type: "copy", path: "copy", title: "Tập chép chữ", icon: "🖌️", description: "Chép mỗi chữ 3 lượt: có nét mờ → mờ dần → tự viết." },
   { type: "sentences", path: "sentences", title: "Đặt câu", icon: "💬", description: "Tự đặt câu có nghĩa với từ của bài, so với câu mẫu." },
   { type: "speaking", path: "speaking", title: "Luyện nói", icon: "🎙️", description: "Ghi âm giọng bạn — máy chấm thanh điệu của từ và ngữ điệu của câu." },

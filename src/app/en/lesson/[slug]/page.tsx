@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { enLesson, enLessons, enLessonWords, enSentencesFor, enStepNeighbors } from "@/content/en";
+import { enGameWords, enLesson, enLessons, enLessonWords, enSentencesFor, enStepNeighbors } from "@/content/en";
 import { EnWordCard } from "@/features/en/Cards";
+import { EnLessonGame } from "@/features/en/EnLessonGame";
 import { StepFooter } from "@/features/lesson/StepFooter";
 
 export const dynamicParams = false;
@@ -33,6 +34,7 @@ export default async function EnVocabularyPage({ params }: { params: Promise<{ s
           );
         })}
       </ul>
+      <EnLessonGame words={enGameWords().filter((w) => w.lesson <= lesson.number && w.lesson > lesson.number - 6)} lesson={{ number: lesson.number, title: lesson.title_vi }} />
       <p className="text-sm">
         <Link href={`/en/flashcards/?lesson=${lesson.number}`} className="font-medium text-sky-800 hover:underline">
           Ôn các từ này bằng flashcard →
