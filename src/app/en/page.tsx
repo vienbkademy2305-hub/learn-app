@@ -2,6 +2,7 @@ import Link from "next/link";
 import { enContent, enLessonSteps, enStep } from "@/content/en";
 import { enTestCards } from "@/content/en-tests";
 import { EnSyncNote } from "@/features/en/EnSync";
+import { EnVoicePicker } from "@/features/en/EnVoicePicker";
 import { TestList } from "@/features/en/TestRunner";
 import { EnLessonList } from "@/features/en/LessonChrome";
 
@@ -43,6 +44,8 @@ export default function EnglishHomePage() {
         </p>
         <p lang="en" className="mt-6 text-3xl font-semibold tracking-tight text-white/90">Nice to meet you!</p>
       </section>
+
+      <EnVoicePicker />
 
       {stages.map((stage) => (
         <section key={stage} className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">

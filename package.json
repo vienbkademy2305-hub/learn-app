@@ -30,7 +30,8 @@
     "content:export:en": "tsx importers/en/export.ts",
     "en:research": "tsx scripts/en-research.ts",
     "en:research:apply": "tsx scripts/en-research-apply.ts",
-    "en:audio": "tsx scripts/en-audio.ts"
+    "en:audio": "tsx scripts/en-audio.ts",
+    "tts:pregen": "tsx scripts/tts-pregen.ts"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.8",
