@@ -37,8 +37,22 @@ export function enStep<T extends Step["type"]>(lesson: EnLesson, type: T): StepO
   return lesson.steps.find((s) => s.type === type) as StepOf<T> | undefined;
 }
 
-/** The step tabs this lesson actually has. */
-export const enLessonSteps = (lesson: EnLesson) => EN_STEPS.filter((s) => lesson.steps.some((x) => x.type === s.type));
+const SPEAKING_SOURCES = ["vocabulary", "examples", "dialogue"];
+/** The step tabs this lesson actually has ("speaking" whenever there is something to read aloud). */
+export const enLessonSteps = (lesson: EnLesson) =>
+  EN_STEPS.filter((s) => lesson.steps.some((x) => x.type === s.type || (s.type === "speaking" && SPEAKING_SOURCES.includes(x.type))));
+
+/** What the "Luyện nói" step asks the learner to read aloud: lesson words, example sentences, dialogue lines. */
+export function enSpeakingItems(lesson: EnLesson): Array<{ group: "word" | "sentence" | "dialogue"; text: string; vi: string; extra?: string }> {
+  const words = enLessonWords(lesson).map((w) => ({ group: "word" as const, text: w.headword, vi: w.meaning_vi.join("; "), extra: w.ipa?.uk ?? w.ipa?.us ?? undefined }));
+  const sentences = (enStep(lesson, "examples")?.items ?? [])
+    .map((id) => enSentence(id))
+    .filter((x): x is EnSentence => !!x)
+    .map((x) => ({ group: "sentence" as const, text: x.text, vi: x.vi }));
+  const dialogue = (enStep(lesson, "dialogue")?.lines ?? []).map((l) => ({ group: "dialogue" as const, text: l.text, vi: l.vi, extra: l.speaker }));
+  const seen = new Set<string>();
+  return [...words, ...sentences, ...dialogue].filter((i) => i.text.trim() && !seen.has(i.text) && seen.add(i.text));
+}
 
 export function enStepNeighbors(lesson: EnLesson, type: EnStepType) {
   const steps = enLessonSteps(lesson);

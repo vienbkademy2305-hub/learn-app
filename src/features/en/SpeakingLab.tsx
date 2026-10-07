@@ -6,7 +6,7 @@ import { DEFAULT_PRONOUNCE_URL, getPronounceUrl, pronounceHealth, setPronounceUr
 
 export type LabSentence = { lesson: number; text: string; vi: string };
 
-function ServerStatus() {
+export function ServerStatus() {
   const [url, setUrl] = useState(DEFAULT_PRONOUNCE_URL);
   const [ok, setOk] = useState<boolean | null>(null);
   const check = async (u = getPronounceUrl()) => {

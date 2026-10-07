@@ -31,6 +31,8 @@ export const EN_STEPS = [
   { type: "skill", label: "Kỹ năng", path: "/skill" },
   { type: "examples", label: "Câu ví dụ", path: "/examples" },
   { type: "dialogue", label: "Hội thoại", path: "/dialogue" },
+  /** not in the data: built from the lesson words, examples and dialogue (docs/OPENPRONOUNCE_PLAN.md) */
+  { type: "speaking", label: "Luyện nói", path: "/luyen-noi" },
   { type: "exercises", label: "Bài tập", path: "/exercises" },
   { type: "homework", label: "Về nhà", path: "/homework" },
 ] as const;

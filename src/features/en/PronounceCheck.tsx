@@ -20,7 +20,7 @@ function micError(err: unknown): string {
 /** Rough reading time: 3 s + 0.7 s per word, at most 40 s. */
 const maxSeconds = (text: string) => Math.min(40, 3 + Math.ceil(text.split(/\s+/).length * 0.7));
 
-export function PronounceCheck({ text, compact = false }: { text: string; compact?: boolean }) {
+export function PronounceCheck({ text, compact = false, onScore }: { text: string; compact?: boolean; /** called with each new score (0–100) */ onScore?: (score: number) => void }) {
   const [open, setOpen] = useState(!compact);
   const [state, setState] = useState<State>("idle");
   const [error, setError] = useState("");
@@ -75,8 +75,10 @@ export function PronounceCheck({ text, compact = false }: { text: string; compac
       setMine(URL.createObjectURL(blob));
       setState("checking");
       try {
-        setResult(await assessPronunciation(blob, text));
+        const res = await assessPronunciation(blob, text);
+        setResult(res);
         setState("done");
+        onScore?.(res.score);
       } catch (err) {
         if (err instanceof PronounceOffline) setState("offline");
         else {

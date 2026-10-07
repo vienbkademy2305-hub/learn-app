@@ -26,6 +26,8 @@ export interface EnProgress {
   mastery: Record<string, Mastery>;
   /** days with word-game answers (YYYY-MM-DD) */
   gameDays: string[];
+  /** "<lesson slug>|<text>" → best pronunciation score (OpenPronounce, docs/OPENPRONOUNCE_PLAN.md) */
+  speaking: Record<string, { best: number; last: number; tries: number; at: string }>;
 }
 
 export interface TestAttempt {
@@ -41,7 +43,7 @@ export interface TestAttempt {
 
 const GUEST_KEY = "chinese-app:en:progress:v1";
 const userKey = (uid: string) => `${GUEST_KEY}:user:${uid}`;
-export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {}, tests: {}, mastery: {}, gameDays: [] };
+export const EMPTY_EN: EnProgress = { steps: {}, exercises: {}, homework: {}, cards: {}, tests: {}, mastery: {}, gameDays: [], speaking: {} };
 const listeners = new Set<() => void>();
 let scope: string | null = null;
 let current: EnProgress | null = null;
@@ -49,10 +51,10 @@ let changeHook: ((state: EnProgress, updatedAt: string) => void) | null = null;
 
 export function parseEnProgress(raw: unknown): EnProgress {
   const r = (raw && typeof raw === "object" ? raw : {}) as Partial<EnProgress>;
-  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {}, tests: r.tests ?? {}, mastery: r.mastery ?? {}, gameDays: Array.isArray(r.gameDays) ? r.gameDays : [] };
+  return { steps: r.steps ?? {}, exercises: r.exercises ?? {}, homework: r.homework ?? {}, cards: r.cards ?? {}, tests: r.tests ?? {}, mastery: r.mastery ?? {}, gameDays: Array.isArray(r.gameDays) ? r.gameDays : [], speaking: r.speaking ?? {} };
 }
 export const isEmptyEn = (p: EnProgress) =>
-  !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length && !Object.keys(p.tests).length && !Object.keys(p.mastery).length;
+  !Object.keys(p.steps).length && !Object.keys(p.exercises).length && !Object.keys(p.homework).length && !Object.keys(p.cards).length && !Object.keys(p.tests).length && !Object.keys(p.mastery).length && !Object.keys(p.speaking).length;
 
 export const saveTestAttempt = (id: string, attempt: TestAttempt) => (p: EnProgress): EnProgress => ({
   ...p,
@@ -150,6 +152,13 @@ export const saveScore = (id: string, correct: number, total: number) => (p: EnP
   const prev = p.exercises[id];
   if (prev && prev.correct > correct) return p;
   return { ...p, exercises: { ...p.exercises, [id]: { correct, total, at: new Date().toISOString() } } };
+};
+
+export const speakKey = (slug: string, text: string) => `${slug}|${text}`;
+export const saveSpeaking = (key: string, score: number, now = new Date()) => (p: EnProgress): EnProgress => {
+  const old = p.speaking[key];
+  const s = Math.round(score);
+  return { ...p, speaking: { ...p.speaking, [key]: { best: Math.max(old?.best ?? 0, s), last: s, tries: (old?.tries ?? 0) + 1, at: now.toISOString() } } };
 };
 
 export const saveHomework = (slug: string, text: string, done: boolean) => (p: EnProgress): EnProgress => ({
