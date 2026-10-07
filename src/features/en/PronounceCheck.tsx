@@ -107,7 +107,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
         aria-label={`Chấm phát âm: ${text}`}
         className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-1 text-xs font-medium text-rose-700 ring-1 ring-inset ring-rose-200 hover:bg-rose-50"
       >
-        🎤 Chấm
+        🎤 Nói
       </button>
     );
 

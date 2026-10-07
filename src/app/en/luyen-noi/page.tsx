@@ -17,7 +17,7 @@ export default function EnSpeakingLabPage() {
       <header>
         <h1 className="text-2xl font-bold text-stone-900">🎤 Luyện nói — chấm phát âm</h1>
         <p className="mt-1 text-stone-600">
-          Đọc to một câu, máy chấm cho điểm 0–100 và chỉ ra từ nào đọc sai, sai ở âm nào. Bạn cũng có thể bấm <strong>🎤 Chấm</strong> cạnh mọi câu ví dụ trong bài học.
+          Đọc to một câu, máy chấm cho điểm 0–100 và chỉ ra từ nào đọc sai, sai ở âm nào. Mỗi buổi học cũng có bước <strong>Luyện nói</strong> theo đúng lộ trình, và nút <strong>🎤 Nói</strong> cạnh mọi câu ví dụ.
         </p>
       </header>
       <SpeakingLab sentences={sentences} />

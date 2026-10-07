@@ -20,10 +20,10 @@ http://localhost:8765  ← OpenPronounce trên máy tính (D:\Lean - Ngoại ng�
 | File | Vai trò |
 |---|---|
 | `src/features/en/pronounce.ts` | gọi máy chấm, địa chỉ lưu localStorage (`chinese-app:pronounce-url`, mặc định `http://localhost:8765`) |
-| `src/features/en/PronounceCheck.tsx` | nút 🎤 Chấm / khung ghi âm → điểm, tô đỏ từ sai, danh sách IPA |
+| `src/features/en/PronounceCheck.tsx` | nút 🎤 Nói / khung ghi âm → điểm, tô đỏ từ sai, danh sách IPA |
 | `src/features/en/SpeakingLab.tsx`, `src/app/en/luyen-noi/page.tsx` | trang Luyện nói: trạng thái máy chấm, chọn câu theo buổi, câu tự gõ |
 | `src/app/en/lesson/[slug]/luyen-noi/page.tsx`, `src/features/en/LessonSpeaking.tsx` | bước **Luyện nói** trong MỖI buổi (sau Hội thoại): từ vựng → câu ví dụ → lời thoại; điểm cao nhất lưu ở `progress.speaking` (đồng bộ cùng tiến độ tiếng Anh), đạt ≥ 80. Bước ảo: `enLessonSteps` tự thêm khi buổi có từ/câu/hội thoại (`enSpeakingItems`) |
-| `src/features/en/Cards.tsx` (`EnSentenceRow`) | nút 🎤 Chấm cạnh mọi câu ví dụ (bước Câu ví dụ, ví dụ ngữ pháp) |
+| `src/features/en/Cards.tsx` (`EnSentenceRow`) | nút 🎤 Nói cạnh mọi câu ví dụ (bước Câu ví dụ, ví dụ ngữ pháp) |
 | `OpenPronounce\lean_server.py` (ngoài repo) | bọc `server.app` + CORS (`allow_private_network=True`), đặt đường dẫn espeak-ng DLL và HF_HOME |
 | `OpenPronounce\Chạy chấm phát âm.bat` (ngoài repo) | bật máy chấm ở cổng 8765 |
 
