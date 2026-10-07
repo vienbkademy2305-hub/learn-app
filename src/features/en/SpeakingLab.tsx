@@ -21,12 +21,18 @@ export function ServerStatus() {
   return (
     <section className="space-y-3 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
       <div className="flex flex-wrap items-center gap-3">
-        <h2 className="font-semibold text-stone-900">Máy chấm phát âm</h2>
+        <h2 className="font-semibold text-stone-900">Máy chấm chi tiết (OpenPronounce)</h2>
         {ok === null && <span className="text-sm text-stone-500">Đang kiểm tra…</span>}
         {ok === true && <span className="rounded-full bg-jade-100 px-2.5 py-0.5 text-sm font-medium text-jade-700">● Đang chạy</span>}
-        {ok === false && <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-medium text-amber-800">● Chưa kết nối</span>}
+        {ok === false && <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-medium text-amber-800">● Chưa bật</span>}
         <button type="button" onClick={() => void check()} className="text-sm text-sky-800 hover:underline">Kiểm tra lại</button>
       </div>
+      {ok === false && (
+        <p className="text-sm text-stone-700">
+          Vẫn luyện được bình thường (cả trên điện thoại): máy dùng <strong>nhận dạng giọng nói của trình duyệt</strong> để kiểm tra bạn nói đúng từ chưa.
+          Muốn chấm chi tiết <em>từng âm</em> thì cần máy chấm OpenPronounce trên máy tính:
+        </p>
+      )}
       {ok === false && (
         <ol className="list-decimal space-y-1 pl-5 text-sm text-stone-700">
           <li>

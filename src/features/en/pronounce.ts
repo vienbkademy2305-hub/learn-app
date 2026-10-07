@@ -46,11 +46,18 @@ export class PronounceOffline extends Error {}
 
 export async function pronounceHealth(url = getPronounceUrl()): Promise<boolean> {
   try {
-    const r = await fetch(`${url}/health`, { signal: AbortSignal.timeout(4000) });
+    const r = await fetch(`${url}/health`, { signal: AbortSignal.timeout(2500) });
     return r.ok;
   } catch {
     return false;
   }
+}
+
+let available: { at: number; ok: Promise<boolean> } | null = null;
+/** pronounceHealth() remembered for a minute, so each 🎤 press does not wait for a timeout. */
+export function pronounceAvailable(): Promise<boolean> {
+  if (!available || Date.now() - available.at > 60_000) available = { at: Date.now(), ok: pronounceHealth(getPronounceUrl()) };
+  return available.ok;
 }
 
 export async function assessPronunciation(blob: Blob, text: string): Promise<PronounceResult> {

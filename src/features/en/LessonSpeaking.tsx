@@ -3,6 +3,9 @@
  * "Luyện nói" step of an English lesson: read the lesson's words, example sentences and dialogue lines aloud,
  * each scored by OpenPronounce; the best score per item is kept in the English progress (./progress.ts).
  */
+import { firstLetterHint } from "@/domain/speech-match";
+import { SayItBackDeck } from "@/features/speaking/SayItBackDeck";
+import { DialogueRoleplay, type RoleLine } from "./DialogueRoleplay";
 import { PronounceCheck } from "./PronounceCheck";
 import { saveSpeaking, speakKey, useEnProgress } from "./progress";
 import { scoreTone } from "./pronounce";
@@ -14,12 +17,12 @@ export type SpeakItem = { group: "word" | "sentence" | "dialogue"; text: string;
 const GROUPS: Array<{ group: SpeakItem["group"]; title: string; hint: string }> = [
   { group: "word", title: "1. Từ vựng của buổi", hint: "Nghe mẫu, đọc từng từ thật rõ âm cuối và trọng âm." },
   { group: "sentence", title: "2. Câu ví dụ", hint: "Đọc cả câu liền mạch, không ngắt từng từ." },
-  { group: "dialogue", title: "3. Lời thoại", hint: "Đọc như đang nói chuyện thật — đóng vai từng nhân vật." },
+  { group: "dialogue", title: "3. Đọc lời thoại", hint: "Đọc theo từng câu của hội thoại, như đang nói chuyện thật." },
 ];
 /** A score at or above this counts the item as "đạt". */
 export const SPEAK_PASS = 80;
 
-export function LessonSpeaking({ slug, items }: { slug: string; items: SpeakItem[] }) {
+export function LessonSpeaking({ slug, items, dialogue = [] }: { slug: string; items: SpeakItem[]; dialogue?: RoleLine[] }) {
   const [progress, update, hydrated] = useEnProgress();
   const scores = items.map((i) => (hydrated ? progress.speaking[speakKey(slug, i.text)] : undefined));
   const tried = scores.filter(Boolean);
@@ -43,6 +46,31 @@ export function LessonSpeaking({ slug, items }: { slug: string; items: SpeakItem
         </div>
       </section>
 
+      {dialogue.length > 0 && (
+        <section className="space-y-3 rounded-2xl border border-sky-200 bg-white p-5 shadow-sm">
+          <div>
+            <h2 className="text-lg font-bold text-stone-900">🗣️ Hội thoại đóng vai</h2>
+            <p className="text-sm text-stone-500">Nói lời của bạn từ câu tiếng Việt. Chưa biết nói thế nào thì bấm 💡 Gợi ý (chữ cái đầu → cả câu).</p>
+          </div>
+          <DialogueRoleplay slug={slug} lines={dialogue} />
+        </section>
+      )}
+
+      {items.some((i) => i.group === "sentence") && (
+        <section className="space-y-3 rounded-2xl border border-amber-200 bg-white p-5 shadow-sm">
+          <div>
+            <h2 className="text-lg font-bold text-stone-900">🗣️ Nói từ tiếng Việt sang tiếng Anh</h2>
+            <p className="text-sm text-stone-500">Nhìn câu tiếng Việt, tự nói bằng tiếng Anh. Máy nghe và tô đỏ chỗ còn thiếu.</p>
+          </div>
+          <SayItBackDeck
+            lang="en"
+            items={items.filter((i) => i.group === "sentence").map((i) => ({ vi: i.vi, answer: i.text, hints: [firstLetterHint(i.text), i.text] }))}
+            onScore={(it, score) => update(saveSpeaking(speakKey(slug, `vi|${it.answer}`), score))}
+          />
+        </section>
+      )}
+
+      <h2 className="pt-2 text-lg font-bold text-stone-900">🎯 Đọc theo — chấm phát âm</h2>
       {GROUPS.map(({ group, title, hint }) => {
         const list = items.map((it, i) => ({ it, s: scores[i] })).filter(({ it }) => it.group === group);
         if (!list.length) return null;

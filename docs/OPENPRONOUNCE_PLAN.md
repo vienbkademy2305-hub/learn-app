@@ -44,3 +44,9 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
                    allow_private_network=True)
 ```
 `Chạy chấm phát âm.bat`: `.venv\Scripts\python.exe -m uvicorn lean_server:app --host 127.0.0.1 --port 8765`. Mô hình lưu ở `OpenPronounce\.models` (HF_HOME).
+
+## 6. Dùng trên điện thoại / khi máy chấm tắt (2026-10-07)
+- Trang https (GitHub Pages) gọi `http://localhost` bị Chrome chặn ("Permission was denied… loopback address space") nếu chưa cho phép → web tự chuyển sang **nhận dạng giọng nói của trình duyệt** (`src/features/speaking/recognize.ts`, Web Speech API, en-US / zh-CN; Chrome máy tính + Android, Safari iPhone; cần Internet). So khớp câu: `src/domain/speech-match.ts` (LCS theo từ / theo chữ Hán, số ↔ chữ, viết tắt). Cách này kiểm tra *nói đúng từ chưa*, không chấm từng âm.
+- Bước 6 tiếng Anh: **Hội thoại đóng vai** (`DialogueRoleplay.tsx`: chọn vai, máy đọc vai kia, lượt mình hiện câu tiếng Việt, 💡 gợi ý chữ cái đầu → cả câu) + **Nói từ tiếng Việt** (câu ví dụ) + Đọc theo (OpenPronounce nếu có, không thì trình duyệt).
+- Tiếng Trung: thẻ Luyện tập **"Nói từ tiếng Việt"** (`/zh/lesson/<slug>/practice/noi-tu-tieng-viet`), gợi ý pinyin → chữ Hán.
+- Muốn chấm từng âm trên điện thoại cần máy chấm có địa chỉ https công khai (đường hầm Cloudflare/HF Space) — CHƯA làm, chờ người dùng quyết; `supabase/app-config.sql` và `OpenPronounce\lean_start.py` là bản nháp cho hướng đó (chưa chạy).

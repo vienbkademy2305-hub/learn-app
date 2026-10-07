@@ -2,11 +2,14 @@
 /**
  * "Chấm phát âm": record one English sentence, send it to the OpenPronounce server on the learner's computer
  * (./pronounce.ts), show the score and the words that sounded wrong. The recording is not stored anywhere.
+ * Without that server (phone, server off) the browser's speech recognition checks which words were said.
  */
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { matchSpeech, type MatchResult } from "@/domain/speech-match";
+import { canRecognize, listen, recognizeError, type Listening } from "@/features/speaking/recognize";
 import { stopEnglish } from "./speech";
-import { assessPronunciation, normWord, PronounceOffline, scoreTone, type PronounceResult } from "./pronounce";
+import { assessPronunciation, normWord, PronounceOffline, pronounceAvailable, scoreTone, type PronounceResult } from "./pronounce";
 
 type State = "idle" | "recording" | "checking" | "done" | "offline" | "error";
 
@@ -27,18 +30,22 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
   const [result, setResult] = useState<PronounceResult | null>(null);
   const [mine, setMine] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
+  const [match, setMatch] = useState<{ m: MatchResult; heard: string } | null>(null);
   const rec = useRef<MediaRecorder | null>(null);
+  const live = useRef<Listening | null>(null);
   const timer = useRef<number | null>(null);
 
   useEffect(() => () => {
     if (timer.current) window.clearInterval(timer.current);
     if (rec.current?.state === "recording") rec.current.stop();
+    live.current?.stop();
   }, []);
   useEffect(() => () => void (mine && URL.revokeObjectURL(mine)), [mine]);
   // A new target sentence starts from scratch.
   useEffect(() => {
     setState("idle");
     setResult(null);
+    setMatch(null);
     setMine(null);
   }, [text]);
 
@@ -46,12 +53,39 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     if (timer.current) window.clearInterval(timer.current);
     timer.current = null;
     if (rec.current?.state === "recording") rec.current.stop();
+    live.current?.stop();
+  };
+
+  /** Browser speech recognition: which words were said (no sound-level detail). */
+  const startBrowser = async () => {
+    setState("recording");
+    setElapsed(0);
+    const began = performance.now();
+    timer.current = window.setInterval(() => setElapsed((performance.now() - began) / 1000), 100);
+    const l = listen("en");
+    live.current = l;
+    try {
+      const alts = await l.result;
+      const m = matchSpeech(text, alts, "en");
+      setMatch({ m, heard: alts[0] ?? "" });
+      setState("done");
+      onScore?.(m.score);
+    } catch (e) {
+      setState("error");
+      setError(recognizeError((e as Error).message));
+    } finally {
+      live.current = null;
+      if (timer.current) window.clearInterval(timer.current);
+      timer.current = null;
+    }
   };
 
   const start = async () => {
     stopEnglish();
     setError("");
     setResult(null);
+    setMatch(null);
+    if (canRecognize() && !(await pronounceAvailable())) return startBrowser();
     if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") {
       setState("error");
       setError("Trình duyệt này không hỗ trợ ghi âm. Hãy dùng Chrome hoặc Edge.");
@@ -103,7 +137,10 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     return (
       <button
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          void pronounceAvailable();
+          setOpen(true);
+        }}
         aria-label={`Chấm phát âm: ${text}`}
         className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-1 text-xs font-medium text-rose-700 ring-1 ring-inset ring-rose-200 hover:bg-rose-50"
       >
@@ -118,7 +155,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
       <div className="flex flex-wrap items-center gap-2">
         {state === "recording" ? (
           <button type="button" onClick={stop} className="inline-flex items-center gap-2 rounded-xl bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">
-            <span className="size-2.5 animate-pulse rounded-full bg-white" /> Dừng ({elapsed.toFixed(0)}s / {maxSeconds(text)}s)
+            <span className="size-2.5 animate-pulse rounded-full bg-white" /> Dừng ({elapsed.toFixed(0)}s)
           </button>
         ) : (
           <button
@@ -147,6 +184,23 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
           Chưa kết nối được máy chấm phát âm. Trên máy tính, mở <strong>Chạy chấm phát âm.bat</strong> (trong thư mục OpenPronounce) rồi thử lại.{" "}
           <Link href="/en/luyen-noi" className="font-medium underline">Hướng dẫn</Link>
         </p>
+      )}
+
+      {match && (
+        <div className="space-y-2">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className={`rounded-xl px-3 py-1.5 text-2xl font-bold ${scoreTone(match.m.score).cls}`}>{match.m.score}</span>
+            <span className="font-semibold text-stone-800">{match.m.score >= 80 ? "Nói đúng câu" : "Còn thiếu / sai từ"}</span>
+          </div>
+          <p lang="en" className="text-lg leading-relaxed">
+            {match.m.parts.map((p, i) => (
+              <span key={i} className={!p.token ? "" : p.ok ? "text-jade-700" : "rounded bg-red-100 px-0.5 text-red-700 underline decoration-wavy"}>{p.text}</span>
+            ))}
+          </p>
+          <p className="text-xs text-stone-500">
+            Máy nghe được: <span lang="en" className="font-mono">{match.heard}</span> · Chấm bằng nhận dạng giọng nói của trình duyệt (đúng/sai từ). Muốn chấm chi tiết từng âm: bật máy chấm OpenPronounce trên máy tính.
+          </p>
+        </div>
       )}
 
       {result && tone && (
