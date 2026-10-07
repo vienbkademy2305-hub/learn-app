@@ -28,7 +28,7 @@
 Gemini miễn phí (~20 lượt/ngày mỗi model, chuỗi 6 model). Đã cài và deploy hết; `.env.local` có `GEMINI_API_KEY` và `SUPABASE_ACCESS_TOKEN` (CLI: `npx supabase … --project-ref nxdjmkcnslhhbpvmrlju`). Gemini từ chối `enum`/`minItems`… trong schema (400) — đừng thêm lại. Việc tiếp: theo dõi độ ổn định band, chỉnh `SYSTEM_PROMPT` nếu lệch.
 
 ### 2.2b Chấm phát âm (OpenPronounce) — CHẠY 2026-10-07
-Máy chấm Python chạy trên máy người dùng (`D:Lean - Ngoại ngữOpenPronounce`, bật bằng `Chạy chấm phát âm.bat`, cổng 8765). Web: trang `/en/luyen-noi` + nút 🎤 Chấm cạnh câu ví dụ. Chi tiết: `OPENPRONOUNCE_PLAN.md`. Đã kiểm thật bằng Playwright (micro giả) → 92 điểm. CHƯA commit/deploy.
+Máy chấm Python chạy trên máy người dùng (`D:Lean - Ngoại ngữOpenPronounce`, bật bằng `Chạy chấm phát âm.bat`, cổng 8765). Web: bước "6. Luyện nói" trong mỗi buổi (điểm lưu progress.speaking), trang `/en/luyen-noi`, nút 🎤 Nói cạnh câu ví dụ. Chi tiết: `OPENPRONOUNCE_PLAN.md`. Kiểm thật Playwright OK; đã deploy c4f275e6.
 
 ### 2.3 Rà soát nội dung (khi người dùng có thời gian)
 - Mọi mục mới đều `draft`. Định nghĩa `definition_en` và đề mock GĐ4 là bản nháp AI — nên duyệt dần.
