@@ -31,6 +31,7 @@
     "en:research": "tsx scripts/en-research.ts",
     "en:research:apply": "tsx scripts/en-research-apply.ts",
     "en:audio": "tsx scripts/en-audio.ts",
+    "en:grade:try": "tsx scripts/en-grade-try.ts",
     "tts:pregen": "tsx scripts/tts-pregen.ts"
   },
   "dependencies": {

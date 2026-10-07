@@ -24,8 +24,8 @@
 - Kiểm tra: `EN_AUDIO_CHECK=1 pnpm vitest run tests/en-audio.test.ts`. Sau khi đủ âm thanh: deploy lại.
 - `public/assets/` không nằm trong git → deploy phải chạy từ máy đã có file.
 
-### 2.2 Tự chấm bài viết (`EN_WRITING_GRADER_PLAN.md`) — chờ người dùng
-Máy chủ chấm chỉ chấm cho danh sách tài khoản được phép (VD `vienthao`). Người dùng cần tạo khóa Claude API và lưu làm secret Supabase (`supabase secrets set ANTHROPIC_API_KEY=…`) — **không gửi khóa qua chat**. Sau đó làm W1 → W4.
+### 2.2 Tự chấm bài viết (`EN_WRITING_GRADER_PLAN.md`) — ĐÃ CHẠY 2026-10-07
+Gemini miễn phí (~20 lượt/ngày mỗi model, chuỗi 6 model). Đã cài và deploy hết; `.env.local` có `GEMINI_API_KEY` và `SUPABASE_ACCESS_TOKEN` (CLI: `npx supabase … --project-ref nxdjmkcnslhhbpvmrlju`). Gemini từ chối `enum`/`minItems`… trong schema (400) — đừng thêm lại. Việc tiếp: theo dõi độ ổn định band, chỉnh `SYSTEM_PROMPT` nếu lệch.
 
 ### 2.3 Rà soát nội dung (khi người dùng có thời gian)
 - Mọi mục mới đều `draft`. Định nghĩa `definition_en` và đề mock GĐ4 là bản nháp AI — nên duyệt dần.

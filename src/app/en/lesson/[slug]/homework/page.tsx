@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: lesson ? `Bài về nhà · Buổi ${lesson.number}` : "Bài về nhà" };
 }
 
-/** Step 7 — the writing homework: prompt, word counter, draft saved in this browser. */
+/** Step 7 — the writing homework: prompt, word counter, draft saved in this browser, AI grading when signed in. */
 export default async function EnHomeworkPage({ params }: { params: Promise<{ slug: string }> }) {
   const lesson = enLesson((await params).slug)!;
   const hw = enStep(lesson, "homework");
@@ -31,6 +31,14 @@ export default async function EnHomeworkPage({ params }: { params: Promise<{ slu
           words={hw.words}
           minutes={hw.minutes}
           vocabulary={enLessonWords(lesson).map((w) => w.headword)}
+          grading={{
+            kind: hw.kind,
+            lesson: { number: lesson.number, title: lesson.title_vi, grammar: lesson.focus?.grammar ?? null },
+            // lessons taught so far, so the grader can say where a rule was learnt ("a/an/the — Buổi 18")
+            syllabus: enLessons()
+              .filter((l) => l.number <= lesson.number && l.focus?.grammar)
+              .map((l) => ({ n: l.number, grammar: l.focus!.grammar! })),
+          }}
         />
       )}
       <StepFooter

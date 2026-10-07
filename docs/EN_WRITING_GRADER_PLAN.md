@@ -1,72 +1,76 @@
-# Kế hoạch: tự động chấm bài viết tiếng Anh
+# Tự động chấm bài viết tiếng Anh (AI miễn phí — Google Gemini)
 
-Trạng thái: **CHỜ DUYỆT** (2026-09-29). Chưa sửa code app.
+Trạng thái: **ĐÃ CHẠY** (2026-10-07): bảng `writing_grades` đã tạo, secret `GEMINI_API_KEY` + `GRADER_ALLOWED_EMAILS` đã đặt, function `grade-writing` đã deploy, web đã deploy. Người dùng chọn AI miễn phí (Gemini free tier) thay cho Claude API trả phí.
 
-## 1. Mục tiêu
+## 1. Chức năng
 
-Bấm "Chấm bài" ngay dưới ô bài về nhà (`HomeworkBox`) và nhận kết quả **giống cách gia sư chấm trong chat**:
-1. Band ước lượng cho 4 tiêu chí IELTS (TR/TA, CC, LR, GRA) + band tổng, kèm nhận xét tiếng Việt.
-2. **Bảng lỗi**: Bạn viết → Sửa đúng → Vì sao (có liên hệ buổi đã học, VD "a/an + danh từ số ít — Buổi 18").
-3. **Bản sửa hoàn chỉnh**, giữ ý của bạn.
-4. **Điểm yếu nhất và 3 việc cần làm**.
-5. Đánh dấu các **lỗi riêng của bạn** (viết hoa I, -s số nhiều, a/an, comma splice, nhầm từ loại, dịch word-by-word) để theo dõi tiến bộ.
-6. Lưu lịch sử bài đã chấm, xem lại được.
+Dưới ô "Bài viết về nhà" có khung **Chấm bài tự động** (chỉ hiện khi bật tài khoản; nút chỉ bấm được khi đã đăng nhập và viết ≥ 10 từ). Một lần bấm = **một lượt gọi AI**, kết quả chia tab:
 
-## 2. Vì sao không chấm được "tại chỗ" trong trình duyệt
+| Tab | Nội dung |
+|---|---|
+| (luôn hiện) | Band tổng + band từng tiêu chí (TR/TA, CC, LR, GRA; bài nói: FC, LR, GRA — không chấm phát âm) |
+| Chấm bài | Nhận xét chung, nhận xét từng tiêu chí, điểm nghẽn, 3–5 việc cần cải thiện |
+| Tìm lỗi | Bài làm với lỗi **tô đỏ, đánh số** trực tiếp; bảng Lỗi sai → Sửa → Giải thích, nhãn "Lỗi quen" và "Buổi N" (buổi dạy quy tắc đó) |
+| Sửa bài | 3–5 câu gốc → câu tốt hơn, giải thích từng chỗ đổi (important → essential…); bản sửa hoàn chỉnh giữ ý học viên |
+| Nâng band | Từ band hiện tại lên +1 cần thay đổi gì; 5 từ/cụm từ nâng band kèm nghĩa + ví dụ |
+| Ưu điểm | Đếm và trích collocation / từ vựng / từ nối / cấu trúc phức đã dùng tốt |
+| Bài mẫu | AI viết cho cùng đề, ở mức band mục tiêu kế tiếp |
 
-Site là trang tĩnh trên GitHub Pages. Chấm bài viết cần một mô hình ngôn ngữ lớn (Claude). **Khóa API không được đặt trong code trang web**: ai mở trang cũng lấy được khóa. Vì vậy cần một điểm trung gian phía máy chủ giữ khóa. Dự án đã có sẵn **Supabase** (tài khoản, bảng tiến độ `progress_en`).
+Lịch sử: mỗi lần chấm lưu vào bảng `writing_grades`; trong buổi học hiện các lần chấm trước (ngày giờ · band) để so sánh.
 
-## 3. Kiến trúc đề xuất
+## 2. Kiến trúc
 
 ```
-HomeworkBox (trình duyệt, đã đăng nhập)
-   │  POST { lesson, prompt_en, kind, text }  + token đăng nhập Supabase
+HomeworkBox → WritingGrader (trình duyệt, đã đăng nhập)
+   │ POST { slug, kind, lesson, prompt, text, syllabus } + token Supabase
    ▼
-Supabase Edge Function  grade-writing   (giữ ANTHROPIC_API_KEY dạng secret)
-   │  1. kiểm tra đăng nhập + hạn mức (VD 10 bài/ngày/người)
-   │  2. gọi Claude API (SDK @anthropic-ai/sdk)
-   │  3. lưu kết quả vào bảng writing_grades
+Supabase Edge Function grade-writing  (giữ GEMINI_API_KEY dạng secret)
+   │ 1. đăng nhập + email trong GRADER_ALLOWED_EMAILS (không có thì dùng TTS_ALLOWED_EMAILS)
+   │ 2. hạn mức GRADER_DAILY_LIMIT bài/ngày/người (mặc định 20)
+   │ 3. gọi Gemini generateContent, JSON schema bắt buộc; lỗi 429/5xx/404 → thử model tiếp theo
+   │ 4. lưu writing_grades
    ▼
-Kết quả JSON → UI hiển thị bảng lỗi, band, bản sửa
+Kết quả JSON → tab hiển thị
 ```
 
-- **Mô hình:** `claude-opus-5` (mặc định), thinking thích ứng (`{type: "adaptive"}`), effort `high`. Bật **refusal fallback** phía server (`fallbacks: "default"`) để một lần bị từ chối nhầm không làm hỏng lượt chấm.
-- **Đầu ra có cấu trúc:** `output_config.format` với JSON Schema → luôn trả đúng khuôn (band từng tiêu chí, mảng lỗi `{wrong, right, why_vi, type, lesson?}`, `corrected`, `weakest`, `actions[3]`, `word_count`, `personal_errors[]`).
-- **Prompt:** phần cố định (vai trò giám khảo, thang band descriptor tự viết từ `english-tutor/references/tieu-chi-cham-diem.md`, danh sách lỗi riêng của học viên, quy ước trả lời bằng tiếng Việt) đặt trong `system` và bật **prompt caching**. Phần thay đổi (đề bài, bài làm, buổi học, điểm ngữ pháp/từ vựng mục tiêu của buổi) nằm sau → chi phí phần cố định giảm ~90% từ lần thứ hai.
-- **Bảng mới** `writing_grades` (RLS: mỗi người chỉ đọc bài của mình): `user_id, lesson, prompt, text, result jsonb, model, created_at`.
-- **UI:** nút "Chấm bài" (chỉ hiện khi đã đăng nhập và đủ số từ tối thiểu), trạng thái "Đang chấm…" (30–90 giây), rồi hiển thị kết quả; trang "Bài viết đã chấm" liệt kê lịch sử và biểu đồ band theo thời gian.
+| File | Vai trò |
+|---|---|
+| `supabase/functions/grade-writing/grader.ts` | Lõi dùng chung (không import gì): prompt, JSON schema, gọi Gemini, làm sạch kết quả, làm tròn band kiểu IELTS, định vị lỗi để tô màu |
+| `supabase/functions/grade-writing/index.ts` | Edge Function (Deno) |
+| `supabase/writing-grades.sql` | Bảng + RLS (mỗi người chỉ đọc/xoá bài của mình; chỉ function ghi) |
+| `src/features/en/grader.ts`, `WritingGrader.tsx` | Phía trình duyệt |
+| `scripts/en-grade-try.ts` | `pnpm en:grade:try <buổi> <bài.txt>` — chấm thử trên máy, không cần Supabase |
+| `tests/en-writing-grader.test.ts` | Test lõi (fetch giả) |
 
-## 4. Chi phí ước tính (giá API Anthropic 2026)
+- **Model:** `GRADER_MODELS` (mặc định `gemini-3.8-flash,gemini-2.5-flash`). Đổi model chỉ cần đổi secret, không sửa code.
+- **Quyền riêng tư:** ở gói free, Google được dùng nội dung gửi lên để cải thiện sản phẩm. Chỉ gửi đề + bài làm + số/tên buổi học, không gửi tên tài khoản.
+- **Độ tin cậy:** band là ước lượng của AI. Nên chấm thử vài bài đã được gia sư chấm trong chat (`nhat-ky-hoc-tap/tieng-anh/`) để so sánh rồi chỉnh `SYSTEM_PROMPT`.
 
-| Mô hình | Giá vào / ra (USD cho 1 triệu token) | Ước tính mỗi bài Task 2 (~280 từ) |
-|---|---|---|
-| `claude-opus-5` (đề xuất) | $5 / $25 | ~0,10–0,15 USD (~2 500–4 000 đ) |
-| `claude-sonnet-5` (rẻ hơn, nếu bạn chọn) | $2 / $10 | ~0,04–0,06 USD (~1 000–1 500 đ) |
+## 3. Việc người dùng làm (một lần)
 
-Giả định: ~4 000 token vào (phần lớn được cache), ~4 000–5 000 token ra (gồm suy luận + bảng lỗi + bản sửa). Học 1 bài/ngày ≈ 3–4,5 USD/tháng với Opus 5. Có hạn mức ngày để tránh tốn ngoài ý muốn.
+1. **Lấy khóa miễn phí:** vào https://aistudio.google.com → đăng nhập Gmail → **Get API key** → **Create API key**. Không cần thẻ.
+2. **Chấm thử trên máy (khuyên làm):** mở `.env.local`, thêm dòng `GEMINI_API_KEY=<khóa>`. Lưu một bài viết ra file, VD `bai.txt`, rồi chạy:
+   ```
+   pnpm en:grade:try 1 bai.txt
+   ```
+   (`1` = số buổi có đề tương ứng.)
+3. **Supabase SQL:** SQL Editor → dán `supabase/writing-grades.sql` → Run.
+4. **Deploy máy chủ chấm** (PowerShell, trong thư mục chinese-app):
+   ```
+   npx supabase secrets set GEMINI_API_KEY=<khóa> GRADER_ALLOWED_EMAILS=vienthao@learn-app.local
+   npx supabase functions deploy grade-writing --no-verify-jwt
+   ```
+   `--no-verify-jwt`: function tự kiểm tra đăng nhập và danh sách được phép.
+5. `pnpm dev` → đăng nhập → mở bài về nhà một buổi → **Chấm bài**. Ổn thì `pnpm deploy:pages`.
 
-## 5. Độ tin cậy của điểm
+**Không gửi khóa qua chat. Không commit `.env.local`.**
 
-- Band là **ước lượng**, không thay giám khảo thật. Mỗi kết quả hiện ghi chú "Band ước lượng bởi AI".
-- Kiểm tra chất lượng trước khi mở cho dùng: chấm 10–15 bài mẫu (gồm bài bạn đã được chấm trong chat, VD bài Buổi 0/1 trong `nhat-ky-hoc-tap`) và so với nhận xét của gia sư; chỉnh prompt đến khi lệch không quá 0,5 band.
-- Không gửi thông tin cá nhân thừa: chỉ gửi đề + bài làm + mã buổi học.
+## 4. Thông báo lỗi trên web
 
-## 6. Điều kiện trước khi làm
-
-1. **Tài khoản phải bật trên web.** Hiện site deploy với tài khoản TẮT vì Supabase còn `disable_signup = false`. Người dùng quyết định GIỮ đăng ký tự do (2026-09-30) → máy chủ chấm bài chỉ chấm cho danh sách tài khoản được phép (allowlist), để người lạ không dùng chấm bài tốn tiền.
-2. **Khóa Claude API** (tạo ở console.anthropic.com, nạp tiền trả trước). Khóa chỉ lưu làm secret của Supabase (`supabase secrets set ANTHROPIC_API_KEY=…`), **không gửi qua chat**.
-3. Cài Supabase CLI để deploy Edge Function (hoặc dán code qua dashboard).
-
-## 7. Các bước
-
-| Bước | Việc | Kết quả |
-|---|---|---|
-| W0 | Bạn chốt: mô hình, hạn mức/ngày, có lưu lịch sử không | Chốt |
-| W1 | Viết prompt + JSON Schema; script thử `pnpm en:grade:try <file>` chạy trên máy với 10–15 bài mẫu | Bạn duyệt chất lượng chấm |
-| W2 | Edge Function `grade-writing` + bảng `writing_grades` + RLS (SQL để bạn chạy như `en-progress.sql`) | Chấm được qua API |
-| W3 | UI trong HomeworkBox + trang lịch sử | Chạy local |
-| W4 | Test (schema, lỗi mạng, hết hạn mức, bị từ chối) + commit + deploy khi bạn đồng ý | Lên web |
-
-## 8. Phương án không tốn tiền API (tạm thời)
-
-Nút "Gửi cho gia sư": lưu bài vào `nhat-ky-hoc-tap/tieng-anh/` rồi nhắn Claude trong chat (skill `english-tutor`) để chấm như hiện nay. Không tự động, nhưng không cần khóa API.
+| Máy chủ trả về | Người dùng thấy |
+|---|---|
+| 401 | Cần đăng nhập |
+| 403 | Tài khoản chưa được bật chấm bài (thêm email vào `GRADER_ALLOWED_EMAILS`) |
+| 429 `daily_limit` / `model_busy` | Hết lượt hôm nay / gói free đang hết lượt theo phút |
+| 503 `not_configured` | Chưa đặt `GEMINI_API_KEY` |
+| 404 | Function chưa deploy |

@@ -1,9 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import { countWords } from "@/domain/en-grade";
+import type { HomeworkKind } from "../../../supabase/functions/grade-writing/grader";
 import { saveHomework, useEnProgress } from "./progress";
+import { WritingGrader } from "./WritingGrader";
 
-/** Homework prompt + writing box with a live word count; the draft stays in this browser. */
+/** Homework prompt + writing box with a live word count; the draft stays in this browser. Below it: AI grading. */
 export function HomeworkBox({
   slug,
   prompt,
@@ -11,6 +13,7 @@ export function HomeworkBox({
   words,
   minutes,
   vocabulary,
+  grading,
 }: {
   slug: string;
   prompt: string;
@@ -18,6 +21,7 @@ export function HomeworkBox({
   words?: { min: number; max: number };
   minutes?: number;
   vocabulary: string[];
+  grading: { kind: string; lesson: { number: number; title: string; grammar: string | null }; syllabus: Array<{ n: number; grammar: string }> };
 }) {
   const [progress, update, hydrated] = useEnProgress();
   const saved = progress.homework[slug];
@@ -45,6 +49,7 @@ export function HomeworkBox({
   const used = vocabulary.filter((v) => lower.includes(v.toLowerCase()));
 
   return (
+    <>
     <section className="space-y-4 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
       <div>
         <h2 className="text-xl font-bold text-stone-900">Bài viết về nhà</h2>
@@ -85,7 +90,12 @@ export function HomeworkBox({
           {used.join(" · ")}
         </p>
       )}
-      <p className="text-xs text-stone-400">Bài viết chỉ lưu trên trình duyệt này. Muốn được chấm theo tiêu chí IELTS, dán bài vào buổi học với gia sư (skill english-tutor).</p>
+      <p className="text-xs text-stone-400">Bài viết lưu trên trình duyệt này (và theo tài khoản khi đã đăng nhập).</p>
     </section>
+    <WritingGrader
+      words={n}
+      request={{ slug, kind: grading.kind as HomeworkKind, lesson: grading.lesson, prompt_vi: prompt, prompt_en: promptEn, words, syllabus: grading.syllabus, text }}
+    />
+    </>
   );
 }

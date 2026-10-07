@@ -13,3 +13,6 @@ next-env.d.ts
 # Secrets (Supabase keys) — see .env.example
 .env*.local
 .env
+
+# Supabase CLI cache
+supabase/.temp/
