@@ -47,6 +47,14 @@ export default function EnglishHomePage() {
 
       <EnVoicePicker />
 
+      <Link href="/en/luyen-noi" className="flex items-center gap-4 rounded-2xl border border-rose-200 bg-rose-50 p-5 shadow-sm hover:bg-rose-100">
+        <span className="text-3xl">🎤</span>
+        <span>
+          <span className="block font-semibold text-stone-900">Luyện nói — chấm phát âm</span>
+          <span className="block text-sm text-stone-600">Đọc to một câu, máy chấm điểm và chỉ ra từ, âm bạn đọc sai.</span>
+        </span>
+      </Link>
+
       {stages.map((stage) => (
         <section key={stage} className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
           <div className="flex flex-wrap items-end justify-between gap-4">

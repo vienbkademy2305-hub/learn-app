@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Badge } from "@/components/Badge";
 import type { EnGrammar, EnSentence, EnSound, EnWord, SkillStep } from "@/content/en-types";
+import { PronounceCheck } from "./PronounceCheck";
 import { Say } from "./speech";
 
 const POS_VI: Record<string, string> = {
@@ -77,12 +78,13 @@ function highlight(text: string, heads: string[]) {
 
 export function EnSentenceRow({ sentence, heads = [] }: { sentence: EnSentence; heads?: string[] }) {
   return (
-    <li className="flex items-start gap-3 rounded-xl border border-stone-200 bg-white p-4">
+    <li className="flex flex-wrap items-start gap-3 rounded-xl border border-stone-200 bg-white p-4">
       <div className="min-w-0 flex-1">
         <p lang="en" className="text-lg text-stone-900">{highlight(sentence.text, heads)}</p>
         <p className="mt-1 text-stone-500">{sentence.vi}</p>
       </div>
       <Say text={sentence.text} slow />
+      <PronounceCheck text={sentence.text} compact />
     </li>
   );
 }
