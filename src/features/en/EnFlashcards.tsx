@@ -6,6 +6,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { MAX_BOX } from "@/domain/progress";
 import { isEnCardDue, reviewEnCard, useEnProgress } from "./progress";
+import { WordDrill } from "@/features/speaking/WordDrill";
 import { Say, speakEnglish } from "./speech";
 
 export type Card = { id: string; headword: string; pos: string; ipa: string | null; meaning: string; example: { text: string; vi: string } | null; lesson: number };
@@ -17,6 +18,8 @@ export function EnFlashcards({ cards, lessons }: { cards: Card[]; lessons: Array
   const [flipped, setFlipped] = useState(false);
   const [session, setSession] = useState<string[] | null>(null);
   const [done, setDone] = useState({ ok: 0, again: 0 });
+  /** the word is covered while the learner writes it (WordDrill) */
+  const [hideWord, setHideWord] = useState(false);
 
   // ?lesson=N from the lesson page; otherwise the lessons already opened (or lesson 1)
   useEffect(() => {
@@ -50,7 +53,8 @@ export function EnFlashcards({ cards, lessons }: { cards: Card[]; lessons: Array
     setFlipped(false);
   };
   useEffect(() => {
-    if (current && !reverse && !flipped) speakEnglish(current.headword, 0.9);
+    if (current && !reverse && !flipped && !hideWord) speakEnglish(current.headword, 0.9);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current, reverse, flipped]);
 
   const boxes = Array.from({ length: MAX_BOX }, (_, i) => inScope.filter((c) => (progress.cards[c.id]?.box ?? 0) === i + 1).length);
@@ -65,7 +69,7 @@ export function EnFlashcards({ cards, lessons }: { cards: Card[]; lessons: Array
         <select
           value={String(scope)}
           onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))}
-          className="rounded-lg bg-white px-3 py-2 text-sm ring-1 ring-inset ring-stone-300"
+          className="w-full max-w-full rounded-lg bg-white px-3 py-2 text-sm ring-1 ring-inset ring-stone-300 sm:w-auto"
         >
           <option value="studied" disabled={studiedNumbers.size === 0}>Các buổi đã học ({studiedNumbers.size})</option>
           {lessons.map((l) => (
@@ -112,14 +116,16 @@ export function EnFlashcards({ cards, lessons }: { cards: Card[]; lessons: Array
             onClick={() => setFlipped((f) => !f)}
             className="flex min-h-64 w-full flex-col items-center justify-center rounded-3xl border border-stone-200 bg-white p-6 text-center shadow-sm"
           >
-            {!reverse || flipped ? (
+            {hideWord ? (
+              <span className="text-4xl font-bold tracking-widest text-stone-300">{current.headword.replace(/S/g, "•")}</span>
+            ) : !reverse || flipped ? (
               <>
                 <span lang="en" className="text-4xl font-bold text-stone-900">{current.headword}</span>
                 {current.ipa && <span className="mt-2 font-mono text-stone-500">{current.ipa}</span>}
               </>
             ) : null}
             {(reverse || flipped) && <span className={`${!reverse || flipped ? "mt-4 text-xl" : "text-3xl font-semibold"} text-stone-800`}>{current.meaning}</span>}
-            {flipped && current.example && (
+            {flipped && !hideWord && current.example && (
               <span className="mt-4 text-sm text-stone-500">
                 <span lang="en" className="text-stone-700">{current.example.text}</span>
                 <br />
@@ -141,6 +147,7 @@ export function EnFlashcards({ cards, lessons }: { cards: Card[]; lessons: Array
               </>
             )}
           </div>
+          <WordDrill lang="en" word={current.headword} meaning={current.meaning} onHideWord={setHideWord} play={() => speakEnglish(current.headword, 0.9)} />
         </div>
       )}
     </div>

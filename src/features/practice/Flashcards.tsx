@@ -11,6 +11,8 @@ import { AudioButtons } from "@/features/audio/AudioButtons";
 import { SpeakButtons } from "@/features/audio/SpeakButtons";
 import { ProgressBar } from "@/features/progress/ProgressWidgets";
 import { useProgress } from "@/features/progress/store";
+import { speakChinese } from "@/features/audio/speech";
+import { WordDrill } from "@/features/speaking/WordDrill";
 import type { FlashWord } from "./data";
 
 type Filter = "due" | "all" | "saved";
@@ -37,12 +39,19 @@ export function SaveWordButton({ slug, compact = false }: { slug: string; compac
   );
 }
 
-function Card({ word, front, flipped, onFlip }: { word: FlashWord; front: Front; flipped: boolean; onFlip: () => void }) {
+function Card({ word, front, flipped, onFlip, hideWord = false }: { word: FlashWord; front: Front; flipped: boolean; onFlip: () => void; hideWord?: boolean }) {
   const hanzi = (
     <div className="text-center">
-      <p lang="zh-CN" className="font-han text-7xl leading-tight text-stone-900 sm:text-8xl">{word.simplified}</p>
+      <p lang="zh-CN" className={`font-han text-7xl leading-tight sm:text-8xl ${hideWord ? "text-stone-200" : "text-stone-900"}`}>{hideWord ? "？".repeat([...word.simplified].length) : word.simplified}</p>
     </div>
   );
+  if (hideWord)
+    return (
+      <div className="flex min-h-72 flex-col justify-center gap-4 rounded-3xl border border-stone-200 bg-white p-6 shadow-md">
+        {hanzi}
+        <p className="text-center text-2xl font-medium text-stone-800">{word.meanings.join("; ")}</p>
+      </div>
+    );
   const meaning = <p className="text-center text-2xl font-medium text-stone-800">{word.meanings.join("; ") || "chưa có nghĩa tiếng Việt"}</p>;
 
   return (
@@ -93,6 +102,7 @@ export function Flashcards({ words, emptyHint, savedFilter = true }: { words: Fl
   const [queue, setQueue] = useState<FlashWord[] | null>(null);
   const [flipped, setFlipped] = useState(false);
   const [done, setDone] = useState({ remembered: 0, forgot: 0 });
+  const [hideWord, setHideWord] = useState(false);
 
   const pool = (f: Filter) => words.filter((w) => (f === "all" ? true : f === "saved" ? state.saved?.[w.slug] : isDue(state, w.slug)));
   const counts = { due: pool("due").length, all: words.length, saved: pool("saved").length };
@@ -200,7 +210,15 @@ export function Flashcards({ words, emptyHint, savedFilter = true }: { words: Fl
         </div>
         <ProgressBar percent={Math.round((done.remembered / (done.remembered + queue.length)) * 100)} label="Tiến độ ôn thẻ" />
       </div>
-      <Card key={`${current.slug}-${reviewed}`} word={current} front={front} flipped={flipped} onFlip={() => setFlipped((f) => !f)} />
+      <Card key={`${current.slug}-${reviewed}`} word={current} front={front} flipped={flipped} onFlip={() => setFlipped((f) => !f)} hideWord={hideWord} />
+      <WordDrill
+        lang="zh"
+        word={current.simplified}
+        pinyin={current.pinyin}
+        meaning={current.meanings.slice(0, 2).join("; ") || "(chưa có nghĩa)"}
+        onHideWord={setHideWord}
+        play={() => speakChinese(current.simplified, 0.8)}
+      />
       <div className="flex flex-wrap items-center justify-between gap-3">
         <SaveWordButton slug={current.slug} />
         {flipped ? (
