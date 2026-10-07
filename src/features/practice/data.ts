@@ -11,6 +11,7 @@ export const PRACTICE_TYPES = [
   { type: "copy", path: "copy", title: "Tập chép chữ", icon: "🖌️", description: "Chép mỗi chữ 3 lượt: có nét mờ → mờ dần → tự viết." },
   { type: "sentences", path: "sentences", title: "Đặt câu", icon: "💬", description: "Tự đặt câu có nghĩa với từ của bài, so với câu mẫu." },
   { type: "speaking", path: "speaking", title: "Luyện nói", icon: "🎙️", description: "Ghi âm giọng bạn — máy chấm thanh điệu của từ và ngữ điệu của câu." },
+  { type: "dialogue", path: "hoi-thoai", title: "Hội thoại đóng vai", icon: "🎭", description: "Chọn vai, máy đọc lời người kia; đến lượt bạn thì nói bằng tiếng Trung từ câu tiếng Việt (có gợi ý)." },
   { type: "interpret", path: "noi-tu-tieng-viet", title: "Nói từ tiếng Việt", icon: "🗣️", description: "Nhìn câu tiếng Việt, tự nói bằng tiếng Trung. Có gợi ý pinyin → chữ Hán, máy nghe và chấm." },
   { type: "paragraph", path: "paragraph", title: "Viết đoạn văn", icon: "📄", description: "Viết một đoạn ngắn theo chủ đề bài, dùng từ vựng đã học." },
 ] as const;

@@ -50,3 +50,8 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 - Bước 6 tiếng Anh: **Hội thoại đóng vai** (`DialogueRoleplay.tsx`: chọn vai, máy đọc vai kia, lượt mình hiện câu tiếng Việt, 💡 gợi ý chữ cái đầu → cả câu) + **Nói từ tiếng Việt** (câu ví dụ) + Đọc theo (OpenPronounce nếu có, không thì trình duyệt).
 - Tiếng Trung: thẻ Luyện tập **"Nói từ tiếng Việt"** (`/zh/lesson/<slug>/practice/noi-tu-tieng-viet`), gợi ý pinyin → chữ Hán.
 - Muốn chấm từng âm trên điện thoại cần máy chấm có địa chỉ https công khai (đường hầm Cloudflare/HF Space) — CHƯA làm, chờ người dùng quyết; `supabase/app-config.sql` và `OpenPronounce\lean_start.py` là bản nháp cho hướng đó (chưa chạy).
+
+## 7. Hội thoại đóng vai tiếng Trung (2026-10-07)
+- Dữ liệu: `data/editorial/dialogues/hsk1.yaml` — 14 bài × 6–8 câu (chữ Hán, pinyin, nghĩa Việt), **bản nháp Claude soạn, chờ duyệt**. Nạp: `src/content/zh-dialogues.ts`; test `tests/zh-dialogues.test.ts` (đủ bài, 2 người nói, mỗi chữ Hán một âm tiết pinyin).
+- Trang: thẻ Luyện tập **"🎭 Hội thoại đóng vai"** (`/zh/lesson/<slug>/practice/hoi-thoai`). Thành phần dùng chung `src/features/speaking/DialogueRoleplay.tsx` (en + zh); gợi ý zh: pinyin → chữ Hán.
+- Flashcard (Anh + Trung): `WordDrill.tsx` — 🎤 Nói & chấm, ✍️ Viết & chấm (`src/domain/spelling.ts`).

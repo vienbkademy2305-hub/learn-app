@@ -1,0 +1,124 @@
+# Hội thoại đóng vai HSK1 (thẻ "Hội thoại đóng vai" trong Luyện tập, docs/OPENPRONOUNCE_PLAN.md §7).
+# Bản nháp do Claude soạn 2026-10-07 — chờ duyệt. Dùng từ/ngữ pháp của từng bài (thêm vài từ thông dụng
+# như tên riêng, 越南). Pinyin ghi biến điệu của 不 và 一 như giáo trình HSK (bú shì, yí ge).
+# Mỗi câu: s = người nói, zh = chữ Hán, py = pinyin, vi = nghĩa tiếng Việt.
+status: draft
+lessons:
+  hsk1-01-greetings:
+    - { s: 王方, zh: "你好！", py: "nǐ hǎo!", vi: "Chào bạn!" }
+    - { s: 李明, zh: "你好！你是老师吗？", py: "nǐ hǎo! nǐ shì lǎoshī ma?", vi: "Chào bạn! Bạn là giáo viên à?" }
+    - { s: 王方, zh: "不是，我是学生。", py: "bú shì, wǒ shì xuésheng.", vi: "Không phải, tôi là học sinh." }
+    - { s: 李明, zh: "认识你很高兴。", py: "rènshi nǐ hěn gāoxìng.", vi: "Rất vui được làm quen với bạn." }
+    - { s: 王方, zh: "我也很高兴。", py: "wǒ yě hěn gāoxìng.", vi: "Tôi cũng rất vui." }
+    - { s: 李明, zh: "谢谢你！再见！", py: "xièxie nǐ! zàijiàn!", vi: "Cảm ơn bạn! Tạm biệt!" }
+    - { s: 王方, zh: "不客气。再见！", py: "bú kèqi. zàijiàn!", vi: "Không có gì. Tạm biệt!" }
+  hsk1-02-identity:
+    - { s: 王方, zh: "你叫什么名字？", py: "nǐ jiào shénme míngzi?", vi: "Bạn tên là gì?" }
+    - { s: 李明, zh: "我叫李明。你呢？", py: "wǒ jiào Lǐ Míng. nǐ ne?", vi: "Tôi tên là Lý Minh. Còn bạn?" }
+    - { s: 王方, zh: "我叫王方。你是哪国人？", py: "wǒ jiào Wáng Fāng. nǐ shì nǎ guó rén?", vi: "Tôi tên là Vương Phương. Bạn là người nước nào?" }
+    - { s: 李明, zh: "我是中国人。你呢？", py: "wǒ shì Zhōngguó rén. nǐ ne?", vi: "Tôi là người Trung Quốc. Còn bạn?" }
+    - { s: 王方, zh: "我是越南人。", py: "wǒ shì Yuènán rén.", vi: "Tôi là người Việt Nam." }
+    - { s: 李明, zh: "你今年多大？", py: "nǐ jīnnián duō dà?", vi: "Năm nay bạn bao nhiêu tuổi?" }
+    - { s: 王方, zh: "我今年二十岁。", py: "wǒ jīnnián èrshí suì.", vi: "Năm nay tôi hai mươi tuổi." }
+  hsk1-03-family:
+    - { s: 王方, zh: "你家有几口人？", py: "nǐ jiā yǒu jǐ kǒu rén?", vi: "Nhà bạn có mấy người?" }
+    - { s: 李明, zh: "我家有四口人：爸爸、妈妈、姐姐和我。", py: "wǒ jiā yǒu sì kǒu rén：bàba, māma, jiějie hé wǒ.", vi: "Nhà tôi có bốn người: bố, mẹ, chị gái và tôi." }
+    - { s: 王方, zh: "你姐姐做什么工作？", py: "nǐ jiějie zuò shénme gōngzuò?", vi: "Chị gái bạn làm nghề gì?" }
+    - { s: 李明, zh: "她是医生。你有姐姐吗？", py: "tā shì yīshēng. nǐ yǒu jiějie ma?", vi: "Chị ấy là bác sĩ. Bạn có chị gái không?" }
+    - { s: 王方, zh: "我没有姐姐，有一个妹妹。", py: "wǒ méiyǒu jiějie, yǒu yí ge mèimei.", vi: "Tôi không có chị gái, có một em gái." }
+    - { s: 李明, zh: "你妹妹多大了？", py: "nǐ mèimei duō dà le?", vi: "Em gái bạn mấy tuổi rồi?" }
+    - { s: 王方, zh: "她八岁了。", py: "tā bā suì le.", vi: "Em ấy tám tuổi rồi." }
+  hsk1-04-numbers:
+    - { s: 王方, zh: "你有几个中国朋友？", py: "nǐ yǒu jǐ ge Zhōngguó péngyou?", vi: "Bạn có mấy người bạn Trung Quốc?" }
+    - { s: 李明, zh: "我有十个中国朋友。", py: "wǒ yǒu shí ge Zhōngguó péngyou.", vi: "Tôi có mười người bạn Trung Quốc." }
+    - { s: 王方, zh: "你们学校有多少老师？", py: "nǐmen xuéxiào yǒu duōshao lǎoshī?", vi: "Trường các bạn có bao nhiêu giáo viên?" }
+    - { s: 李明, zh: "有九十八个老师。", py: "yǒu jiǔshíbā ge lǎoshī.", vi: "Có chín mươi tám giáo viên." }
+    - { s: 王方, zh: "有多少学生？", py: "yǒu duōshao xuésheng?", vi: "Có bao nhiêu học sinh?" }
+    - { s: 李明, zh: "有三百个学生。", py: "yǒu sānbǎi ge xuésheng.", vi: "Có ba trăm học sinh." }
+    - { s: 王方, zh: "你的电话是多少？", py: "nǐ de diànhuà shì duōshao?", vi: "Số điện thoại của bạn là bao nhiêu?" }
+    - { s: 李明, zh: "一三八九七六五四三二一。", py: "yāo sān bā jiǔ qī liù wǔ sì sān èr yāo.", vi: "1-3-8-9-7-6-5-4-3-2-1." }
+  hsk1-05-time:
+    - { s: 王方, zh: "现在几点？", py: "xiànzài jǐ diǎn?", vi: "Bây giờ là mấy giờ?" }
+    - { s: 李明, zh: "现在八点十分。", py: "xiànzài bā diǎn shí fēn.", vi: "Bây giờ là tám giờ mười phút." }
+    - { s: 王方, zh: "今天几月几号？", py: "jīntiān jǐ yuè jǐ hào?", vi: "Hôm nay là ngày mấy tháng mấy?" }
+    - { s: 李明, zh: "今天九月一号，星期三。", py: "jīntiān jiǔ yuè yī hào, xīngqīsān.", vi: "Hôm nay là ngày mùng một tháng chín, thứ Tư." }
+    - { s: 王方, zh: "你明天上午做什么？", py: "nǐ míngtiān shàngwǔ zuò shénme?", vi: "Sáng mai bạn làm gì?" }
+    - { s: 李明, zh: "我明天上午去学校。", py: "wǒ míngtiān shàngwǔ qù xuéxiào.", vi: "Sáng mai tôi đi đến trường." }
+    - { s: 王方, zh: "我们中午一起吃饭，好吗？", py: "wǒmen zhōngwǔ yìqǐ chī fàn, hǎo ma?", vi: "Trưa chúng ta cùng ăn cơm nhé, được không?" }
+    - { s: 李明, zh: "好的，中午见！", py: "hǎo de, zhōngwǔ jiàn!", vi: "Được, hẹn gặp buổi trưa!" }
+  hsk1-06-daily-actions:
+    - { s: 王方, zh: "你每天几点起床？", py: "nǐ měitiān jǐ diǎn qǐchuáng?", vi: "Mỗi ngày bạn dậy lúc mấy giờ?" }
+    - { s: 李明, zh: "我每天六点起床。", py: "wǒ měitiān liù diǎn qǐchuáng.", vi: "Mỗi ngày tôi dậy lúc sáu giờ." }
+    - { s: 王方, zh: "你喜欢做什么？", py: "nǐ xǐhuan zuò shénme?", vi: "Bạn thích làm gì?" }
+    - { s: 李明, zh: "我喜欢看书，也喜欢看电视。", py: "wǒ xǐhuan kàn shū, yě xǐhuan kàn diànshì.", vi: "Tôi thích đọc sách, cũng thích xem ti vi." }
+    - { s: 王方, zh: "你会做中国菜吗？", py: "nǐ huì zuò Zhōngguó cài ma?", vi: "Bạn biết nấu món Trung Quốc không?" }
+    - { s: 李明, zh: "我不会，我妈妈会做。", py: "wǒ bú huì, wǒ māma huì zuò.", vi: "Tôi không biết, mẹ tôi biết nấu." }
+    - { s: 王方, zh: "下午我们去看电影吧。", py: "xiàwǔ wǒmen qù kàn diànyǐng ba.", vi: "Chiều nay chúng ta đi xem phim nhé." }
+    - { s: 李明, zh: "好啊！", py: "hǎo a!", vi: "Hay đấy!" }
+  hsk1-07-school-work:
+    - { s: 王方, zh: "你在哪儿工作？", py: "nǐ zài nǎr gōngzuò?", vi: "Bạn làm việc ở đâu?" }
+    - { s: 李明, zh: "我在医院工作，我是医生。你呢？", py: "wǒ zài yīyuàn gōngzuò, wǒ shì yīshēng. nǐ ne?", vi: "Tôi làm ở bệnh viện, tôi là bác sĩ. Còn bạn?" }
+    - { s: 王方, zh: "我是学生，在北京大学学习汉语。", py: "wǒ shì xuésheng, zài Běijīng Dàxué xuéxí Hànyǔ.", vi: "Tôi là sinh viên, học tiếng Trung ở Đại học Bắc Kinh." }
+    - { s: 李明, zh: "汉语难吗？", py: "Hànyǔ nán ma?", vi: "Tiếng Trung có khó không?" }
+    - { s: 王方, zh: "不太难，很有意思。", py: "bú tài nán, hěn yǒu yìsi.", vi: "Không khó lắm, rất thú vị." }
+    - { s: 李明, zh: "你的老师是哪国人？", py: "nǐ de lǎoshī shì nǎ guó rén?", vi: "Thầy cô của bạn là người nước nào?" }
+    - { s: 王方, zh: "我的老师是中国人。", py: "wǒ de lǎoshī shì Zhōngguó rén.", vi: "Thầy cô của tôi là người Trung Quốc." }
+  hsk1-08-location:
+    - { s: 王方, zh: "请问，商店在哪儿？", py: "qǐngwèn, shāngdiàn zài nǎr?", vi: "Xin hỏi, cửa hàng ở đâu?" }
+    - { s: 李明, zh: "商店在学校前面。", py: "shāngdiàn zài xuéxiào qiánmiàn.", vi: "Cửa hàng ở phía trước trường học." }
+    - { s: 王方, zh: "医院呢？", py: "yīyuàn ne?", vi: "Còn bệnh viện?" }
+    - { s: 李明, zh: "医院在商店后面，不太远。", py: "yīyuàn zài shāngdiàn hòumiàn, bú tài yuǎn.", vi: "Bệnh viện ở phía sau cửa hàng, không xa lắm." }
+    - { s: 王方, zh: "你家在哪儿？", py: "nǐ jiā zài nǎr?", vi: "Nhà bạn ở đâu?" }
+    - { s: 李明, zh: "我家在火车站旁边。", py: "wǒ jiā zài huǒchēzhàn pángbiān.", vi: "Nhà tôi ở bên cạnh ga tàu." }
+    - { s: 王方, zh: "谢谢！", py: "xièxie!", vi: "Cảm ơn!" }
+    - { s: 李明, zh: "不客气。", py: "bú kèqi.", vi: "Không có gì." }
+  hsk1-09-transport:
+    - { s: 王方, zh: "你怎么去学校？", py: "nǐ zěnme qù xuéxiào?", vi: "Bạn đến trường bằng cách nào?" }
+    - { s: 李明, zh: "我坐出租车去。你呢？", py: "wǒ zuò chūzūchē qù. nǐ ne?", vi: "Tôi đi taxi. Còn bạn?" }
+    - { s: 王方, zh: "我坐公共汽车去。", py: "wǒ zuò gōnggòng qìchē qù.", vi: "Tôi đi xe buýt." }
+    - { s: 李明, zh: "你明天去北京吗？", py: "nǐ míngtiān qù Běijīng ma?", vi: "Ngày mai bạn đi Bắc Kinh à?" }
+    - { s: 王方, zh: "去，我坐飞机去。", py: "qù, wǒ zuò fēijī qù.", vi: "Đi, tôi đi máy bay." }
+    - { s: 李明, zh: "几点的飞机？", py: "jǐ diǎn de fēijī?", vi: "Máy bay lúc mấy giờ?" }
+    - { s: 王方, zh: "下午三点的。", py: "xiàwǔ sān diǎn de.", vi: "Chuyến ba giờ chiều." }
+  hsk1-10-shopping:
+    - { s: 王方, zh: "你好，我想买苹果。", py: "nǐ hǎo, wǒ xiǎng mǎi píngguǒ.", vi: "Chào anh, tôi muốn mua táo." }
+    - { s: 李明, zh: "你要几个？", py: "nǐ yào jǐ ge?", vi: "Bạn muốn mấy quả?" }
+    - { s: 王方, zh: "五个。多少钱？", py: "wǔ ge. duōshao qián?", vi: "Năm quả. Bao nhiêu tiền?" }
+    - { s: 李明, zh: "十块钱。", py: "shí kuài qián.", vi: "Mười đồng." }
+    - { s: 王方, zh: "这个杯子多少钱？", py: "zhège bēizi duōshao qián?", vi: "Cái cốc này bao nhiêu tiền?" }
+    - { s: 李明, zh: "二十五块。", py: "èrshíwǔ kuài.", vi: "Hai mươi lăm đồng." }
+    - { s: 王方, zh: "我买一个。给你钱。", py: "wǒ mǎi yí ge. gěi nǐ qián.", vi: "Tôi mua một cái. Gửi anh tiền." }
+    - { s: 李明, zh: "谢谢！", py: "xièxie!", vi: "Cảm ơn!" }
+  hsk1-11-food:
+    - { s: 王方, zh: "你想吃什么？", py: "nǐ xiǎng chī shénme?", vi: "Bạn muốn ăn gì?" }
+    - { s: 李明, zh: "我想吃米饭和菜。", py: "wǒ xiǎng chī mǐfàn hé cài.", vi: "Tôi muốn ăn cơm và rau." }
+    - { s: 王方, zh: "你想喝什么？喝茶吗？", py: "nǐ xiǎng hē shénme? hē chá ma?", vi: "Bạn muốn uống gì? Uống trà không?" }
+    - { s: 李明, zh: "我不喝茶，我喝水。", py: "wǒ bù hē chá, wǒ hē shuǐ.", vi: "Tôi không uống trà, tôi uống nước." }
+    - { s: 王方, zh: "这个饭馆的菜很好吃。", py: "zhège fànguǎn de cài hěn hǎochī.", vi: "Món ăn của nhà hàng này rất ngon." }
+    - { s: 李明, zh: "是的，我很喜欢。", py: "shì de, wǒ hěn xǐhuan.", vi: "Đúng vậy, tôi rất thích." }
+  hsk1-12-weather-state:
+    - { s: 王方, zh: "今天天气怎么样？", py: "jīntiān tiānqì zěnmeyàng?", vi: "Thời tiết hôm nay thế nào?" }
+    - { s: 李明, zh: "今天很热。", py: "jīntiān hěn rè.", vi: "Hôm nay rất nóng." }
+    - { s: 王方, zh: "明天呢？", py: "míngtiān ne?", vi: "Còn ngày mai?" }
+    - { s: 李明, zh: "明天会下雨，有点儿冷。", py: "míngtiān huì xià yǔ, yǒudiǎnr lěng.", vi: "Ngày mai sẽ mưa, hơi lạnh." }
+    - { s: 王方, zh: "你身体怎么样？", py: "nǐ shēntǐ zěnmeyàng?", vi: "Sức khỏe bạn thế nào?" }
+    - { s: 李明, zh: "我很好，谢谢。你呢？", py: "wǒ hěn hǎo, xièxie. nǐ ne?", vi: "Tôi rất khỏe, cảm ơn. Còn bạn?" }
+    - { s: 王方, zh: "我有点儿累。", py: "wǒ yǒudiǎnr lèi.", vi: "Tôi hơi mệt." }
+  hsk1-13-questions:
+    - { s: 王方, zh: "这是什么？", py: "zhè shì shénme?", vi: "Đây là cái gì?" }
+    - { s: 李明, zh: "这是我的书。", py: "zhè shì wǒ de shū.", vi: "Đây là sách của tôi." }
+    - { s: 王方, zh: "那是谁的电脑？", py: "nà shì shéi de diànnǎo?", vi: "Kia là máy tính của ai?" }
+    - { s: 李明, zh: "那是我朋友的。", py: "nà shì wǒ péngyou de.", vi: "Đó là của bạn tôi." }
+    - { s: 王方, zh: "他在哪儿？", py: "tā zài nǎr?", vi: "Anh ấy ở đâu?" }
+    - { s: 李明, zh: "他在家里看电视。", py: "tā zài jiā li kàn diànshì.", vi: "Anh ấy đang xem ti vi ở nhà." }
+    - { s: 王方, zh: "他什么时候来？", py: "tā shénme shíhou lái?", vi: "Khi nào anh ấy đến?" }
+    - { s: 李明, zh: "他明天来。", py: "tā míngtiān lái.", vi: "Ngày mai anh ấy đến." }
+  hsk1-14-objects-misc:
+    - { s: 王方, zh: "桌子上有什么？", py: "zhuōzi shang yǒu shénme?", vi: "Trên bàn có gì?" }
+    - { s: 李明, zh: "桌子上有一本书和一个杯子。", py: "zhuōzi shang yǒu yì běn shū hé yí ge bēizi.", vi: "Trên bàn có một quyển sách và một cái cốc." }
+    - { s: 王方, zh: "椅子下面是什么？", py: "yǐzi xiàmiàn shì shénme?", vi: "Dưới ghế là gì?" }
+    - { s: 李明, zh: "椅子下面是一只小猫。", py: "yǐzi xiàmiàn shì yì zhī xiǎo māo.", vi: "Dưới ghế là một con mèo nhỏ." }
+    - { s: 王方, zh: "你的衣服在哪儿？", py: "nǐ de yīfu zài nǎr?", vi: "Quần áo của bạn ở đâu?" }
+    - { s: 李明, zh: "我的衣服在椅子上。", py: "wǒ de yīfu zài yǐzi shang.", vi: "Quần áo của tôi ở trên ghế." }
+    - { s: 王方, zh: "这些东西都是你的吗？", py: "zhèxiē dōngxi dōu shì nǐ de ma?", vi: "Những đồ này đều là của bạn à?" }
+    - { s: 李明, zh: "是，都是我的。", py: "shì, dōu shì wǒ de.", vi: "Vâng, đều là của tôi." }
