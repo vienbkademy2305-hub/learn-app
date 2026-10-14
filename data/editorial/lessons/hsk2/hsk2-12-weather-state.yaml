@@ -1,0 +1,65 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-12-weather-state
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Thời tiết và trạng thái
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:晴天|qing2tian1
+      - word:天上|tian1shang4
+      - word:云|yun2
+      - word:多云|duo1yun2
+      - word:阴天|yin1tian1
+      - word:阴|yin1
+      - word:可能|ke3neng2
+      - word:气温|qi4wen1
+      - word:低|di1
+      - word:出门|chu1men2
+      - word:温度|wen1du4
+      - word:零下|ling2xia4
+      - word:度|du4
+      - word:到处|dao4chu4
+      - word:白色|bai2se4
+      - word:吹|chui1
+      - word:得|de5
+      - word:空气|kong1qi4
+      - word:晴|qing2
+      - word:太阳|tai4yang5
+      - word:雪|xue3
+      - word:感觉|gan3jue2
+      - word:多数|duo1shu4
+      - word:场|chang2
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0233
+      - sentence:hsk-sentences-audio/hsk2-0234
+      - sentence:hsk-sentences-audio/hsk2-0235
+      - sentence:hsk-sentences-audio/hsk2-0236
+      - sentence:hsk-sentences-audio/hsk2-0237
+      - sentence:hsk-sentences-audio/hsk2-0238
+      - sentence:hsk-sentences-audio/hsk2-0239
+      - sentence:hsk-sentences-audio/hsk2-0240
+      - sentence:hsk-sentences-audio/hsk2-0241
+      - sentence:hsk-sentences-audio/hsk2-0444
+      - sentence:hsk-sentences-audio/hsk2-0478
+      - sentence:hsk-sentences-audio/hsk2-0499
+      - sentence:hsk-sentences-audio/hsk2-0517
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0233
+      - sentence:hsk-sentences-audio/hsk2-0234
+      - sentence:hsk-sentences-audio/hsk2-0235
+      - sentence:hsk-sentences-audio/hsk2-0236
+      - sentence:hsk-sentences-audio/hsk2-0237
+      - sentence:hsk-sentences-audio/hsk2-0238
+      - sentence:hsk-sentences-audio/hsk2-0239
+      - sentence:hsk-sentences-audio/hsk2-0240
+      - sentence:hsk-sentences-audio/hsk2-0241
+      - sentence:hsk-sentences-audio/hsk2-0444
+      - sentence:hsk-sentences-audio/hsk2-0478
+      - sentence:hsk-sentences-audio/hsk2-0499
+      - sentence:hsk-sentences-audio/hsk2-0517

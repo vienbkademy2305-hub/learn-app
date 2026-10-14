@@ -5,7 +5,7 @@ import { speakChinese, useChineseVoice } from "@/features/audio/speech";
 import { useProgress } from "@/features/progress/store";
 import { WordGame } from "@/features/wordgame/WordGame";
 
-export function ZhLessonGame({ words, lesson }: { words: GameWord[]; lesson: { number: number; title: string } }) {
+export function ZhLessonGame({ words, lesson }: { words: GameWord[]; lesson: { number: number; label?: string; title: string } }) {
   const [state, update, hydrated] = useProgress();
   const voice = useChineseVoice();
   if (!hydrated) return <p className="text-stone-400">Đang tải…</p>;

@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getWord } from "@/content/load";
 import { knownCharsUpTo, modelSentences } from "@/features/practice/data";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Đặt câu · Bài ${lesson.number}` : "Đặt câu" };
+  return { title: lesson ? `Đặt câu · ${lessonLabel(lesson)}` : "Đặt câu" };
 }
 
 export default async function SentencePracticePage({ params }: { params: Promise<{ slug: string }> }) {

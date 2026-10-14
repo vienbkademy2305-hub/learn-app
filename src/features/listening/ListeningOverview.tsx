@@ -7,11 +7,12 @@ import { useProgress } from "@/features/progress/store";
 interface LessonRow {
   slug: string;
   number: number;
+  hskLevel: string;
   title: string;
   sentences: string[];
 }
 
-/** HSK1 listening progress: sentences listened, answer accuracy and best "Bài nghe" score per lesson. */
+/** HSK listening progress: sentences listened, answer accuracy and best "Bài nghe" score per lesson. */
 export function ListeningOverview({ lessons }: { lessons: LessonRow[] }) {
   const [state, , hydrated] = useProgress();
   const all = listeningSummary(state, lessons.flatMap((l) => l.sentences));
@@ -36,7 +37,7 @@ export function ListeningOverview({ lessons }: { lessons: LessonRow[] }) {
           <p className="text-2xl font-bold text-stone-900">{all.attempts ? `${pct(all.correct, all.attempts)}%` : "—"}</p>
         </div>
         <div className="sm:col-span-3">
-          <ProgressBar percent={pct(all.listened, all.total)} label="Tiến độ luyện nghe HSK1" />
+          <ProgressBar percent={pct(all.listened, all.total)} label="Tiến độ luyện nghe" />
         </div>
       </div>
 
@@ -48,7 +49,7 @@ export function ListeningOverview({ lessons }: { lessons: LessonRow[] }) {
             <li key={l.slug} className="space-y-3 rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
               <div className="flex items-center gap-3">
                 <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-brand-50 font-bold text-brand-700">{l.number}</span>
-                <span className="font-semibold text-stone-900">{l.title}</span>
+                <span className="font-semibold text-stone-900">{l.hskLevel !== "1" && <span className="mr-1 text-sm font-medium text-stone-400">HSK{l.hskLevel}</span>}{l.title}</span>
               </div>
               <div className="flex flex-wrap justify-between gap-2 text-sm text-stone-600">
                 <span>
@@ -57,7 +58,7 @@ export function ListeningOverview({ lessons }: { lessons: LessonRow[] }) {
                 <span>Đúng: {s.attempts ? `${s.correct}/${s.attempts}` : "—"}</span>
                 <span>Bài nghe: {best ? `${best.best}/${best.total}` : "chưa làm"}</span>
               </div>
-              <ProgressBar percent={pct(s.listened, s.total)} label={`Tiến độ nghe bài ${l.number}`} />
+              <ProgressBar percent={pct(s.listened, s.total)} label={`Tiến độ nghe ${l.hskLevel === "1" ? "" : `HSK${l.hskLevel} `}bài ${l.number}`} />
               <div className="flex flex-wrap gap-2 text-sm">
                 <Link href={`/zh/lesson/${l.slug}/examples`} className="rounded-lg px-3 py-1.5 font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-stone-100">
                   🎧 Luyện nghe

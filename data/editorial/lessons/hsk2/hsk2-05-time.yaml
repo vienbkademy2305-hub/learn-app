@@ -1,0 +1,137 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-05-time
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Thời gian
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:春天|chun1tian1
+      - word:夏天|xia4tian1
+      - word:冬天|dong1tian1
+      - word:秋天|qiu1tian1
+      - word:爬山|pa2shan1
+      - word:春节|chun1jie2
+      - word:节日|jie2ri4
+      - word:周末|zhou1mo4
+      - word:上周|shang4zhou1
+      - word:海边|hai3bian1
+      - word:下周|xia4zhou1
+      - word:开学|kai1xue2
+      - word:复习|fu4xi2
+      - word:生词|sheng1ci2
+      - word:早晨|zao3chen2
+      - word:半夜|ban4ye4
+      - word:下雪|xia4xue3
+      - word:夜里|ye4li5
+      - word:刚才|gang1cai2
+      - word:有人|you3ren2
+      - word:特别|te4bie2
+      - word:后来|hou4lai2
+      - word:外地|wai4di4
+      - word:当时|dang1shi2
+      - word:假期|jia4qi1
+      - word:打算|da3suan4
+      - word:旅行|lv3xing2
+      - word:月份|yue4fen4
+      - word:前年|qian2nian2
+      - word:高中|gao1zhong1
+      - word:小时候|xiao3shi2hou5
+      - word:怕|pa4
+      - word:黑|hei1
+      - word:等到|deng3dao4
+      - word:面|mian4
+      - word:那时|na4shi2
+      - word:懂|dong3
+      - word:这时候|zhe4shíhòu
+      - word:行人|xing2ren2
+      - word:今后|jin1hou4
+      - word:周|zhou1
+      - word:正是|zheng4shi4
+      - word:刻|ke4
+      - word:节|jie2
+      - word:那会儿|na4hui4r5
+      - word:这时|zhe4shi2
+      - word:响|xiang3
+      - word:夜|ye4
+      - word:人们|ren2men5
+      - word:全年|quan2nian2
+      - word:同时|tong2shi2
+      - word:够|gou4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0063
+      - sentence:hsk-sentences-audio/hsk2-0064
+      - sentence:hsk-sentences-audio/hsk2-0065
+      - sentence:hsk-sentences-audio/hsk2-0066
+      - sentence:hsk-sentences-audio/hsk2-0067
+      - sentence:hsk-sentences-audio/hsk2-0068
+      - sentence:hsk-sentences-audio/hsk2-0069
+      - sentence:hsk-sentences-audio/hsk2-0070
+      - sentence:hsk-sentences-audio/hsk2-0071
+      - sentence:hsk-sentences-audio/hsk2-0072
+      - sentence:hsk-sentences-audio/hsk2-0073
+      - sentence:hsk-sentences-audio/hsk2-0074
+      - sentence:hsk-sentences-audio/hsk2-0075
+      - sentence:hsk-sentences-audio/hsk2-0076
+      - sentence:hsk-sentences-audio/hsk2-0077
+      - sentence:hsk-sentences-audio/hsk2-0078
+      - sentence:hsk-sentences-audio/hsk2-0079
+      - sentence:hsk-sentences-audio/hsk2-0080
+      - sentence:hsk-sentences-audio/hsk2-0081
+      - sentence:hsk-sentences-audio/hsk2-0082
+      - sentence:hsk-sentences-audio/hsk2-0083
+      - sentence:hsk-sentences-audio/hsk2-0084
+      - sentence:hsk-sentences-audio/hsk2-0085
+      - sentence:hsk-sentences-audio/hsk2-0086
+      - sentence:hsk-sentences-audio/hsk2-0087
+      - sentence:hsk-sentences-audio/hsk2-0492
+      - sentence:hsk-sentences-audio/hsk2-0502
+      - sentence:hsk-sentences-audio/hsk2-0503
+      - sentence:hsk-sentences-audio/hsk2-0504
+      - sentence:hsk-sentences-audio/hsk2-0506
+      - sentence:hsk-sentences-audio/hsk2-0509
+      - sentence:hsk-sentences-audio/hsk2-0516
+      - sentence:hsk-sentences-audio/hsk2-0518
+      - sentence:hsk-sentences-audio/hsk2-0527
+      - sentence:hsk-sentences-audio/hsk2-0536
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0063
+      - sentence:hsk-sentences-audio/hsk2-0064
+      - sentence:hsk-sentences-audio/hsk2-0065
+      - sentence:hsk-sentences-audio/hsk2-0066
+      - sentence:hsk-sentences-audio/hsk2-0067
+      - sentence:hsk-sentences-audio/hsk2-0068
+      - sentence:hsk-sentences-audio/hsk2-0069
+      - sentence:hsk-sentences-audio/hsk2-0070
+      - sentence:hsk-sentences-audio/hsk2-0071
+      - sentence:hsk-sentences-audio/hsk2-0072
+      - sentence:hsk-sentences-audio/hsk2-0073
+      - sentence:hsk-sentences-audio/hsk2-0074
+      - sentence:hsk-sentences-audio/hsk2-0075
+      - sentence:hsk-sentences-audio/hsk2-0076
+      - sentence:hsk-sentences-audio/hsk2-0077
+      - sentence:hsk-sentences-audio/hsk2-0078
+      - sentence:hsk-sentences-audio/hsk2-0079
+      - sentence:hsk-sentences-audio/hsk2-0080
+      - sentence:hsk-sentences-audio/hsk2-0081
+      - sentence:hsk-sentences-audio/hsk2-0082
+      - sentence:hsk-sentences-audio/hsk2-0083
+      - sentence:hsk-sentences-audio/hsk2-0084
+      - sentence:hsk-sentences-audio/hsk2-0085
+      - sentence:hsk-sentences-audio/hsk2-0086
+      - sentence:hsk-sentences-audio/hsk2-0087
+      - sentence:hsk-sentences-audio/hsk2-0492
+      - sentence:hsk-sentences-audio/hsk2-0502
+      - sentence:hsk-sentences-audio/hsk2-0503
+      - sentence:hsk-sentences-audio/hsk2-0504
+      - sentence:hsk-sentences-audio/hsk2-0506
+      - sentence:hsk-sentences-audio/hsk2-0509
+      - sentence:hsk-sentences-audio/hsk2-0516
+      - sentence:hsk-sentences-audio/hsk2-0518
+      - sentence:hsk-sentences-audio/hsk2-0527
+      - sentence:hsk-sentences-audio/hsk2-0536

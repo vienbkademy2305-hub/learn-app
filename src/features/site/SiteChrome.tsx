@@ -21,6 +21,7 @@ export function langOf(pathname: string | null): Lang | null {
 const NAV: Record<Lang, Array<{ href: string; short: string; long: string; desktopOnly?: boolean }>> = {
   zh: [
     { href: "/zh/hsk/1", short: "HSK1", long: "Lộ trình HSK1" },
+    { href: "/zh/hsk/2", short: "HSK2", long: "Lộ trình HSK2" },
     { href: "/zh/practice", short: "Bài tập", long: "Bài tập" },
     { href: "/zh/listening", short: "Nghe", long: "Luyện nghe" },
     { href: "/zh/flashcards", short: "Sổ từ", long: "Sổ từ" },

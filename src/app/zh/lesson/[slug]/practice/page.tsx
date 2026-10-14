@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLesson, getLessons } from "@/content/load";
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Luyện tập · Bài ${lesson.number}` : "Luyện tập" };
+  return { title: lesson ? `Luyện tập · ${lessonLabel(lesson)}` : "Luyện tập" };
 }
 
 /** Step 5 — practice hub: vocabulary recall, flashcards, copybook, own sentences, paragraph. Not scored. */

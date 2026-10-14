@@ -7,6 +7,7 @@
     "db:generate": "drizzle-kit generate",
     "sources:fetch": "tsx importers/fetch-sources.ts",
     "import:hsk1": "tsx importers/run.ts --level 1",
+    "import:hsk2": "tsx importers/run.ts --level 2",
     "validate": "tsx importers/validate/run.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",

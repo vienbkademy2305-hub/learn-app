@@ -55,12 +55,17 @@ export function readGrammar(text: string, snapshot: Pick<ContentSnapshot, "lesso
   return points;
 }
 
-/** Adds `grammar` and each lesson's grammar ids to the snapshot (no-op when the level has no file). */
+/** Adds the level's grammar points and each of its lessons' grammar ids to the snapshot (no-op when the level has no file). */
 export function attachGrammar(snapshot: ContentSnapshot, level: string): number {
   const file = grammarFile(level);
   if (!existsSync(file)) return 0;
   const points = readGrammar(readFileSync(file, "utf8"), snapshot);
-  snapshot.grammar = Object.fromEntries(points.map((p) => [p.id, p]));
-  for (const lesson of snapshot.lessons) lesson.grammar = points.filter((p) => p.lesson === lesson.slug).map((p) => p.id);
+  const clash = points.filter((p) => snapshot.grammar?.[p.id]).map((p) => p.id);
+  if (clash.length) throw new Error(`grammar-vi hsk${level}: ids already used by another level: ${clash.join(", ")}`);
+  snapshot.grammar = { ...snapshot.grammar, ...Object.fromEntries(points.map((p) => [p.id, p])) };
+  for (const lesson of snapshot.lessons) {
+    const own = points.filter((p) => p.lesson === lesson.slug).map((p) => p.id);
+    if (own.length || lesson.hskLevel === level) lesson.grammar = own;
+  }
   return points.length;
 }

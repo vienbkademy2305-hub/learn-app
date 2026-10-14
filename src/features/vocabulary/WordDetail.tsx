@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import Link from "next/link";
 import { Badge, HskBadge } from "@/components/Badge";
 import { getLesson, getSentence } from "@/content/load";
@@ -141,7 +142,7 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
               return lesson ? (
                 <Link key={slug} href={`/zh/lesson/${slug}`} className="hover:opacity-80">
                   <Badge tone="brand">
-                    Bài {lesson.number}: {lesson.title}
+                    {lessonLabel(lesson)}: {lesson.title}
                   </Badge>
                 </Link>
               ) : null;

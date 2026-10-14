@@ -1,0 +1,82 @@
+# Chia từ bản nháp sinh tự động (bài quá dài). status "split" để generator không ghi đè.
+slug: hsk2-15-feelings
+status: split
+source: derived
+hsk_level: "2"
+title_vi: Cảm xúc (1/2)
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:感到|gan3dao4
+      - word:快乐|kuai4le4
+      - word:礼物|li3wu4
+      - word:感谢|gan3xie4
+      - word:关心|guan1xin1
+      - word:一定|yi1ding4
+      - word:做到|zuo4dao4
+      - word:相信|xiang1xin4
+      - word:能够|neng2gou4
+      - word:以为|yi3wei2
+      - word:认为|ren4wei2
+      - word:态度|tai4du5
+      - word:只要|zhi3yao4
+      - word:努力|nu3li4
+      - word:实现|shi2xian4
+      - word:信心|xin4xin1
+      - word:虽然|sui1ran2
+      - word:但是|dan4shi4
+      - word:如果|ru2guo3
+      - word:的话|de5hua4
+      - word:因为|yin1wei4
+      - word:所以|suo3yi3
+      - word:停|ting2
+      - word:不但|bu4dan4
+      - word:而且|er2qie3
+      - word:或者|huo4zhe3
+      - word:忽然|hu1ran2
+      - word:站住|zhan4zhu4
+      - word:好像|hao3xiang4
+      - word:想起|xiang3qi3
+      - word:原来|yuan2lai2
+      - word:啊|a5
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0279
+      - sentence:hsk-sentences-audio/hsk2-0280
+      - sentence:hsk-sentences-audio/hsk2-0281
+      - sentence:hsk-sentences-audio/hsk2-0282
+      - sentence:hsk-sentences-audio/hsk2-0283
+      - sentence:hsk-sentences-audio/hsk2-0284
+      - sentence:hsk-sentences-audio/hsk2-0285
+      - sentence:hsk-sentences-audio/hsk2-0286
+      - sentence:hsk-sentences-audio/hsk2-0287
+      - sentence:hsk-sentences-audio/hsk2-0288
+      - sentence:hsk-sentences-audio/hsk2-0289
+      - sentence:hsk-sentences-audio/hsk2-0290
+      - sentence:hsk-sentences-audio/hsk2-0291
+      - sentence:hsk-sentences-audio/hsk2-0292
+      - sentence:hsk-sentences-audio/hsk2-0293
+      - sentence:hsk-sentences-audio/hsk2-0294
+      - sentence:hsk-sentences-audio/hsk2-0295
+      - sentence:hsk-sentences-audio/hsk2-0296
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0279
+      - sentence:hsk-sentences-audio/hsk2-0280
+      - sentence:hsk-sentences-audio/hsk2-0281
+      - sentence:hsk-sentences-audio/hsk2-0282
+      - sentence:hsk-sentences-audio/hsk2-0283
+      - sentence:hsk-sentences-audio/hsk2-0284
+      - sentence:hsk-sentences-audio/hsk2-0285
+      - sentence:hsk-sentences-audio/hsk2-0286
+      - sentence:hsk-sentences-audio/hsk2-0287
+      - sentence:hsk-sentences-audio/hsk2-0288
+      - sentence:hsk-sentences-audio/hsk2-0289
+      - sentence:hsk-sentences-audio/hsk2-0290
+      - sentence:hsk-sentences-audio/hsk2-0291
+      - sentence:hsk-sentences-audio/hsk2-0292
+      - sentence:hsk-sentences-audio/hsk2-0293
+      - sentence:hsk-sentences-audio/hsk2-0294
+      - sentence:hsk-sentences-audio/hsk2-0295
+      - sentence:hsk-sentences-audio/hsk2-0296

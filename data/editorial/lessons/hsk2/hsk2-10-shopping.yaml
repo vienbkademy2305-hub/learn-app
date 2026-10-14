@@ -1,0 +1,82 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-10-shopping
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Mua sắm
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:便宜|bian4yi2
+      - word:件|jian4
+      - word:大衣|da4yi1
+      - word:有点儿|you3dian3r5
+      - word:球鞋|qiu2xie2
+      - word:大小|da4xiao3
+      - word:正好|zheng4hao3
+      - word:信用卡|xin4yong4ka3
+      - word:银行卡|yin2hang2ka3
+      - word:换|huan4
+      - word:卖|mai4
+      - word:普通|pu3tong1
+      - word:顾客|gu4ke4
+      - word:广告|guang3gao4
+      - word:服务|fu2wu4
+      - word:满意|man3yi4
+      - word:租|zu1
+      - word:出租|chu1zu1
+      - word:满|man3
+      - word:辆|liang4
+      - word:称|cheng1
+      - word:名单|ming2dan1
+      - word:鞋|xie2
+      - word:黄|huang2
+      - word:送到|song4dao4
+      - word:合适|he2shi4
+      - word:同样|tong2yang4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0201
+      - sentence:hsk-sentences-audio/hsk2-0202
+      - sentence:hsk-sentences-audio/hsk2-0203
+      - sentence:hsk-sentences-audio/hsk2-0204
+      - sentence:hsk-sentences-audio/hsk2-0205
+      - sentence:hsk-sentences-audio/hsk2-0206
+      - sentence:hsk-sentences-audio/hsk2-0207
+      - sentence:hsk-sentences-audio/hsk2-0208
+      - sentence:hsk-sentences-audio/hsk2-0209
+      - sentence:hsk-sentences-audio/hsk2-0210
+      - sentence:hsk-sentences-audio/hsk2-0211
+      - sentence:hsk-sentences-audio/hsk2-0212
+      - sentence:hsk-sentences-audio/hsk2-0213
+      - sentence:hsk-sentences-audio/hsk2-0214
+      - sentence:hsk-sentences-audio/hsk2-0215
+      - sentence:hsk-sentences-audio/hsk2-0216
+      - sentence:hsk-sentences-audio/hsk2-0443
+      - sentence:hsk-sentences-audio/hsk2-0454
+      - sentence:hsk-sentences-audio/hsk2-0520
+      - sentence:hsk-sentences-audio/hsk2-0528
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0201
+      - sentence:hsk-sentences-audio/hsk2-0202
+      - sentence:hsk-sentences-audio/hsk2-0203
+      - sentence:hsk-sentences-audio/hsk2-0204
+      - sentence:hsk-sentences-audio/hsk2-0205
+      - sentence:hsk-sentences-audio/hsk2-0206
+      - sentence:hsk-sentences-audio/hsk2-0207
+      - sentence:hsk-sentences-audio/hsk2-0208
+      - sentence:hsk-sentences-audio/hsk2-0209
+      - sentence:hsk-sentences-audio/hsk2-0210
+      - sentence:hsk-sentences-audio/hsk2-0211
+      - sentence:hsk-sentences-audio/hsk2-0212
+      - sentence:hsk-sentences-audio/hsk2-0213
+      - sentence:hsk-sentences-audio/hsk2-0214
+      - sentence:hsk-sentences-audio/hsk2-0215
+      - sentence:hsk-sentences-audio/hsk2-0216
+      - sentence:hsk-sentences-audio/hsk2-0443
+      - sentence:hsk-sentences-audio/hsk2-0454
+      - sentence:hsk-sentences-audio/hsk2-0520
+      - sentence:hsk-sentences-audio/hsk2-0528

@@ -1,0 +1,61 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-03-family
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Gia đình
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:全家|quan2jia1
+      - word:饺子|jiao3zi5
+      - word:过年|guo4nian2
+      - word:院子|yuan4zi5
+      - word:漂亮|piao4liang5
+      - word:收入|shou1ru4
+      - word:以前|yi3qian2
+      - word:应该|ying1gai1
+      - word:照顾|zhao4gu5
+      - word:平时|ping2shi2
+      - word:报纸|bao4zhi3
+      - word:让|rang4
+      - word:家庭|jia1ting2
+      - word:影响|ying3xiang3
+      - word:家长|jia1zhang3
+      - word:见到|jian4dao4
+      - word:主人|zhu3ren2
+      - word:开心|kai1xin1
+      - word:客人|ke4ren2
+      - word:做饭|zuo4fan4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0029
+      - sentence:hsk-sentences-audio/hsk2-0030
+      - sentence:hsk-sentences-audio/hsk2-0031
+      - sentence:hsk-sentences-audio/hsk2-0032
+      - sentence:hsk-sentences-audio/hsk2-0033
+      - sentence:hsk-sentences-audio/hsk2-0034
+      - sentence:hsk-sentences-audio/hsk2-0035
+      - sentence:hsk-sentences-audio/hsk2-0036
+      - sentence:hsk-sentences-audio/hsk2-0037
+      - sentence:hsk-sentences-audio/hsk2-0038
+      - sentence:hsk-sentences-audio/hsk2-0039
+      - sentence:hsk-sentences-audio/hsk2-0040
+      - sentence:hsk-sentences-audio/hsk2-0467
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0029
+      - sentence:hsk-sentences-audio/hsk2-0030
+      - sentence:hsk-sentences-audio/hsk2-0031
+      - sentence:hsk-sentences-audio/hsk2-0032
+      - sentence:hsk-sentences-audio/hsk2-0033
+      - sentence:hsk-sentences-audio/hsk2-0034
+      - sentence:hsk-sentences-audio/hsk2-0035
+      - sentence:hsk-sentences-audio/hsk2-0036
+      - sentence:hsk-sentences-audio/hsk2-0037
+      - sentence:hsk-sentences-audio/hsk2-0038
+      - sentence:hsk-sentences-audio/hsk2-0039
+      - sentence:hsk-sentences-audio/hsk2-0040
+      - sentence:hsk-sentences-audio/hsk2-0467

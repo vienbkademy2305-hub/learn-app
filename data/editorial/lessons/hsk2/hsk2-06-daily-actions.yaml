@@ -1,0 +1,80 @@
+# Chia từ bản nháp sinh tự động (bài quá dài). status "split" để generator không ghi đè.
+slug: hsk2-06-daily-actions
+status: split
+source: derived
+hsk_level: "2"
+title_vi: Hoạt động hằng ngày (1/2)
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:洗澡|xi3zao3
+      - word:然后|ran2hou4
+      - word:午睡|wu3shui4
+      - word:习惯|xi2guan4
+      - word:出门|chu1men2
+      - word:灯|deng1
+      - word:音乐|yin1yue4
+      - word:干活儿|gan4huo2r5
+      - word:放下|fang4xia4
+      - word:拿出|na2chu1
+      - word:笔记本|bi3ji4ben3
+      - word:筷子|kuai4zi5
+      - word:方便|fang1bian4
+      - word:喊|han3
+      - word:过去|guo4qu4
+      - word:小声|xiao3sheng1
+      - word:大声|da4sheng1
+      - word:讲话|jiang3hua4
+      - word:推|tui1
+      - word:走进|zou3jin4
+      - word:教室|jiao4shi4
+      - word:拉|la1
+      - word:靠|kao4
+      - word:墙|qiang2
+      - word:闻|wen2
+      - word:味道|wei4dao5
+      - word:接|jie1
+      - word:碰到|peng4dao4
+      - word:街|jie1
+      - word:碰见|peng4jian4
+      - word:点头|dian3tou2
+      - word:答应|da1ying5
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0088
+      - sentence:hsk-sentences-audio/hsk2-0089
+      - sentence:hsk-sentences-audio/hsk2-0090
+      - sentence:hsk-sentences-audio/hsk2-0091
+      - sentence:hsk-sentences-audio/hsk2-0092
+      - sentence:hsk-sentences-audio/hsk2-0093
+      - sentence:hsk-sentences-audio/hsk2-0094
+      - sentence:hsk-sentences-audio/hsk2-0095
+      - sentence:hsk-sentences-audio/hsk2-0096
+      - sentence:hsk-sentences-audio/hsk2-0097
+      - sentence:hsk-sentences-audio/hsk2-0098
+      - sentence:hsk-sentences-audio/hsk2-0099
+      - sentence:hsk-sentences-audio/hsk2-0100
+      - sentence:hsk-sentences-audio/hsk2-0101
+      - sentence:hsk-sentences-audio/hsk2-0102
+      - sentence:hsk-sentences-audio/hsk2-0103
+      - sentence:hsk-sentences-audio/hsk2-0104
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0088
+      - sentence:hsk-sentences-audio/hsk2-0089
+      - sentence:hsk-sentences-audio/hsk2-0090
+      - sentence:hsk-sentences-audio/hsk2-0091
+      - sentence:hsk-sentences-audio/hsk2-0092
+      - sentence:hsk-sentences-audio/hsk2-0093
+      - sentence:hsk-sentences-audio/hsk2-0094
+      - sentence:hsk-sentences-audio/hsk2-0095
+      - sentence:hsk-sentences-audio/hsk2-0096
+      - sentence:hsk-sentences-audio/hsk2-0097
+      - sentence:hsk-sentences-audio/hsk2-0098
+      - sentence:hsk-sentences-audio/hsk2-0099
+      - sentence:hsk-sentences-audio/hsk2-0100
+      - sentence:hsk-sentences-audio/hsk2-0101
+      - sentence:hsk-sentences-audio/hsk2-0102
+      - sentence:hsk-sentences-audio/hsk2-0103
+      - sentence:hsk-sentences-audio/hsk2-0104

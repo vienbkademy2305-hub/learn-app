@@ -1,4 +1,5 @@
 "use client";
+import { lessonLabel } from "@/content/lesson-label";
 import Link from "next/link";
 import { isDue } from "@/domain/progress";
 import { SpeakButtons } from "@/features/audio/SpeakButtons";
@@ -6,7 +7,7 @@ import { useProgress } from "@/features/progress/store";
 import type { FlashWord } from "./data";
 import { Flashcards, SaveWordButton } from "./Flashcards";
 
-type NotebookWord = FlashWord & { lesson: { slug: string; number: number } | null };
+type NotebookWord = FlashWord & { lesson: { slug: string; number: number; hskLevel?: string } | null };
 
 /** The learner's saved words across all lessons, with a flashcard deck over them. */
 export function Notebook({ words }: { words: NotebookWord[] }) {
@@ -51,7 +52,7 @@ export function Notebook({ words }: { words: NotebookWord[] }) {
               <SpeakButtons text={w.simplified} compact />
               {w.lesson && (
                 <Link href={`/zh/lesson/${w.lesson.slug}/word/${w.slug}`} className="text-sm text-stone-500 hover:text-brand-700">
-                  Bài {w.lesson.number}
+                  {lessonLabel(w.lesson)}
                 </Link>
               )}
               <SaveWordButton slug={w.slug} compact />

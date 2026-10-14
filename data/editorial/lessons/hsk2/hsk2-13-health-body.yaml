@@ -1,0 +1,90 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-13-health-body
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Sức khỏe và cơ thể
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:腿|tui3
+      - word:脚|jiao3
+      - word:疼|teng2
+      - word:难受|nan2shou4
+      - word:头发|tou2fa5
+      - word:脸|lian3
+      - word:这么|zhe4me5
+      - word:红|hong2
+      - word:嘴|zui3
+      - word:检查|jian3cha2
+      - word:药|yao4
+      - word:药片|yao4pian4
+      - word:瓶子|ping2zi5
+      - word:装|zhuang1
+      - word:药水|yao4shui3
+      - word:住院|zhu4yuan4
+      - word:出院|chu1yuan4
+      - word:运动|yun4dong4
+      - word:健康|jian4kang1
+      - word:舒服|shu1fu5
+      - word:急|ji2
+      - word:全身|quan2shen1
+      - word:也许|ye3xu3
+      - word:眼|yan3
+      - word:弄|nong4
+      - word:短|duan3
+      - word:样子|yang4zi5
+      - word:科|ke1
+      - word:正常|zheng4chang2
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0242
+      - sentence:hsk-sentences-audio/hsk2-0243
+      - sentence:hsk-sentences-audio/hsk2-0244
+      - sentence:hsk-sentences-audio/hsk2-0245
+      - sentence:hsk-sentences-audio/hsk2-0246
+      - sentence:hsk-sentences-audio/hsk2-0247
+      - sentence:hsk-sentences-audio/hsk2-0248
+      - sentence:hsk-sentences-audio/hsk2-0249
+      - sentence:hsk-sentences-audio/hsk2-0250
+      - sentence:hsk-sentences-audio/hsk2-0251
+      - sentence:hsk-sentences-audio/hsk2-0252
+      - sentence:hsk-sentences-audio/hsk2-0253
+      - sentence:hsk-sentences-audio/hsk2-0254
+      - sentence:hsk-sentences-audio/hsk2-0255
+      - sentence:hsk-sentences-audio/hsk2-0256
+      - sentence:hsk-sentences-audio/hsk2-0257
+      - sentence:hsk-sentences-audio/hsk2-0258
+      - sentence:hsk-sentences-audio/hsk2-0259
+      - sentence:hsk-sentences-audio/hsk2-0449
+      - sentence:hsk-sentences-audio/hsk2-0450
+      - sentence:hsk-sentences-audio/hsk2-0473
+      - sentence:hsk-sentences-audio/hsk2-0491
+      - sentence:hsk-sentences-audio/hsk2-0521
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0242
+      - sentence:hsk-sentences-audio/hsk2-0243
+      - sentence:hsk-sentences-audio/hsk2-0244
+      - sentence:hsk-sentences-audio/hsk2-0245
+      - sentence:hsk-sentences-audio/hsk2-0246
+      - sentence:hsk-sentences-audio/hsk2-0247
+      - sentence:hsk-sentences-audio/hsk2-0248
+      - sentence:hsk-sentences-audio/hsk2-0249
+      - sentence:hsk-sentences-audio/hsk2-0250
+      - sentence:hsk-sentences-audio/hsk2-0251
+      - sentence:hsk-sentences-audio/hsk2-0252
+      - sentence:hsk-sentences-audio/hsk2-0253
+      - sentence:hsk-sentences-audio/hsk2-0254
+      - sentence:hsk-sentences-audio/hsk2-0255
+      - sentence:hsk-sentences-audio/hsk2-0256
+      - sentence:hsk-sentences-audio/hsk2-0257
+      - sentence:hsk-sentences-audio/hsk2-0258
+      - sentence:hsk-sentences-audio/hsk2-0259
+      - sentence:hsk-sentences-audio/hsk2-0449
+      - sentence:hsk-sentences-audio/hsk2-0450
+      - sentence:hsk-sentences-audio/hsk2-0473
+      - sentence:hsk-sentences-audio/hsk2-0491
+      - sentence:hsk-sentences-audio/hsk2-0521

@@ -60,19 +60,29 @@ async function main() {
   stats.cvdict_unparsed_lines = inputs.cvdictUnparsed;
   stats.hsk1_cl_excluded_personal_names = inputs.excludedNames;
 
-  const translations = loadSentenceTranslations(
-    graph,
-    path.join(PROJECT_ROOT, "data", "editorial", "sentences-vi", `hsk${level}.yaml`),
-    `sentences-vi/hsk${level}.yaml`,
-  );
+  // Every level up to `level` is (re)loaded so one database holds HSK1..level; drafts are generated for `level` only.
+  const translations = { loaded: 0, missingSentence: [] as string[], textMismatch: [] as string[], duplicateIds: [] as string[] };
+  const lessons = { lessons: 0, items: 0, unresolvedRefs: [] as string[] };
+  let drafts = { written: [] as string[], kept: [] as string[] };
+  for (let l = 1; l <= level; l++) {
+    const t = loadSentenceTranslations(graph, path.join(PROJECT_ROOT, "data", "editorial", "sentences-vi", `hsk${l}.yaml`), `sentences-vi/hsk${l}.yaml`);
+    translations.loaded += t.loaded;
+    translations.missingSentence.push(...t.missingSentence);
+    translations.textMismatch.push(...t.textMismatch);
+    translations.duplicateIds.push(...t.duplicateIds);
+  }
+  for (let l = 1; l <= level; l++) {
+    const lessonDir = path.join(PROJECT_ROOT, "data", "editorial", "lessons", `hsk${l}`);
+    if (l === level) drafts = generateLessonDrafts(graph, l, lessonDir);
+    const r = loadLessons(graph, lessonDir);
+    lessons.lessons += r.lessons;
+    lessons.items += r.items;
+    lessons.unresolvedRefs.push(...r.unresolvedRefs);
+  }
   stats.editorial_sentence_translations = translations.loaded;
   stats.editorial_missing_sentence = translations.missingSentence;
   stats.editorial_text_mismatch = translations.textMismatch;
   stats.editorial_duplicate_ids = translations.duplicateIds;
-
-  const lessonDir = path.join(PROJECT_ROOT, "data", "editorial", "lessons", `hsk${level}`);
-  const drafts = generateLessonDrafts(graph, level, lessonDir);
-  const lessons = loadLessons(graph, lessonDir);
   stats.lesson_drafts_written = drafts.written.length;
   stats.lesson_files_kept = drafts.kept.length;
   stats.lessons = lessons.lessons;

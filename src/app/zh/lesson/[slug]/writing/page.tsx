@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getWord } from "@/content/load";
 import { lessonCharacters } from "@/domain/display";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Luyện viết · Bài ${lesson.number}` : "Luyện viết" };
+  return { title: lesson ? `Luyện viết · ${lessonLabel(lesson)}` : "Luyện viết" };
 }
 
 /** Step 4 — stroke order and writing practice for every character of the lesson. */

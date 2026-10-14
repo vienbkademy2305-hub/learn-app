@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons } from "@/content/load";
 import { zhDialogue } from "@/content/zh-dialogues";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Hội thoại đóng vai · Bài ${lesson.number}` : "Hội thoại đóng vai" };
+  return { title: lesson ? `Hội thoại đóng vai · ${lessonLabel(lesson)}` : "Hội thoại đóng vai" };
 }
 
 /** Chinese role-play: the lesson dialogue, your lines prompted in Vietnamese (data/editorial/dialogues/hsk1.yaml). */

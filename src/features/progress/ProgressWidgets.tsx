@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { lessonLabel } from "@/content/lesson-label";
 import { useEffect } from "react";
 import { Badge } from "@/components/Badge";
 import {
@@ -50,7 +51,7 @@ export function LessonProgress({ slug, words, showBar = true }: { slug: string; 
 }
 
 /** Overall HSK progress across lessons. */
-export function LevelProgress({ lessons }: { lessons: Array<{ slug: string; words: string[] }> }) {
+export function LevelProgress({ lessons, level = "1" }: { lessons: Array<{ slug: string; words: string[] }>; level?: string }) {
   const [state, , hydrated] = useProgress();
   const allWords = [...new Set(lessons.flatMap((l) => l.words))];
   const done = lessons.filter((l) => lessonStatus(state, l.slug, l.words) === "completed").length;
@@ -65,20 +66,21 @@ export function LevelProgress({ lessons }: { lessons: Array<{ slug: string; word
           <strong className="text-stone-900">{learnedCount(state, allWords)}</strong>/{allWords.length} từ đã học
         </span>
       </div>
-      <ProgressBar percent={percent} label="Tiến độ HSK1" />
+      <ProgressBar percent={percent} label={`Tiến độ HSK${level}`} />
     </div>
   );
 }
 
 /** Links to the first lesson that is not completed yet. */
-export function ContinueLink({ lessons }: { lessons: Array<{ slug: string; number: number; title: string; words: string[] }> }) {
+export function ContinueLink({ lessons }: { lessons: Array<{ slug: string; number: number; title: string; words: string[]; hskLevel?: string }> }) {
   const [state, , hydrated] = useProgress();
   const next = lessons.find((l) => lessonStatus(state, l.slug, l.words) !== "completed") ?? lessons[0];
   if (!next) return null;
-  const started = hydrated && Object.keys(state.lessons).length + Object.keys(state.learned).length > 0;
+  // "Tiếp tục" once a lesson of this list was opened, or (HSK1, the first level) any word was learned.
+  const started = hydrated && (lessons.some((l) => state.lessons[l.slug]) || (lessons[0]?.hskLevel === "1" && Object.keys(state.learned).length > 0));
   return (
     <Link href={`/zh/lesson/${next.slug}`} className="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-sm hover:bg-brand-700">
-      {started ? "Tiếp tục" : "Bắt đầu"}: Bài {next.number} · {next.title} →
+      {started ? "Tiếp tục" : "Bắt đầu"}: {lessonLabel(next)} · {next.title} →
     </Link>
   );
 }

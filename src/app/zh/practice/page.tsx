@@ -6,7 +6,7 @@ import { ExerciseScoreRow } from "@/features/exercises/ExerciseScores";
 
 export const metadata: Metadata = { title: "Bài tập" };
 
-/** All exercises of HSK1: every lesson × listening / writing / character writing. */
+/** All exercises of every HSK level: every lesson × listening / writing / character writing. */
 export default function PracticePage() {
   const lessons = getLessons();
   return (
@@ -22,7 +22,7 @@ export default function PracticePage() {
           <li key={l.slug} className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
             <Link href={`/zh/lesson/${l.slug}/exercises`} className="mb-3 flex items-center gap-3 hover:text-brand-700">
               <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-brand-50 font-bold text-brand-700">{l.number}</span>
-              <span className="font-semibold">{l.title}</span>
+              <span className="font-semibold">{l.hskLevel !== "1" && <span className="mr-1 text-sm font-medium text-stone-400">HSK{l.hskLevel}</span>}{l.title}</span>
             </Link>
             <ExerciseScoreRow lessonSlug={l.slug} items={EXERCISE_TYPES} />
           </li>

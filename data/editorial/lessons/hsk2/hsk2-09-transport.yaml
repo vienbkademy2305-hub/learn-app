@@ -1,0 +1,112 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-09-transport
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Đi lại
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:地铁|di4tie3
+      - word:地铁站|di4tie3zhan4
+      - word:可以|ke3yi3
+      - word:公共汽车|gong1gong4qi4che1
+      - word:公交车|gong1jiao1che1
+      - word:出租车|chu1zu1che1
+      - word:骑|qi2
+      - word:自行车|zi4xing2che1
+      - word:骑车|qi2che1
+      - word:船|chuan2
+      - word:河|he2
+      - word:就要|jiu4yao4
+      - word:起飞|qi3fei1
+      - word:出国|chu1guo2
+      - word:带|dai4
+      - word:护照|hu4zhao4
+      - word:回国|hui2guo2
+      - word:顺利|shun4li4
+      - word:旅客|lv3ke4
+      - word:车辆|che1liang4
+      - word:交通|jiao1tong1
+      - word:方便|fang1bian4
+      - word:十分|shi2fen1
+      - word:停车场|ting2che1chang3
+      - word:酒店|jiu3dian4
+      - word:停车|ting2che1
+      - word:出发|chu1fa1
+      - word:问路|wen4lu4
+      - word:经过|jing1guo4
+      - word:公园|gong1yuan2
+      - word:走过|zou3guo4
+      - word:得|de2
+      - word:可怕|ke3pa4
+      - word:拿到|na2dao4
+      - word:取|qu3
+      - word:安全|an1quan2
+      - word:道路|dao4lu4
+      - word:又|you4
+      - word:平|ping2
+      - word:不要|bu4yao4
+      - word:以下|yi3xia4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0179
+      - sentence:hsk-sentences-audio/hsk2-0180
+      - sentence:hsk-sentences-audio/hsk2-0181
+      - sentence:hsk-sentences-audio/hsk2-0182
+      - sentence:hsk-sentences-audio/hsk2-0183
+      - sentence:hsk-sentences-audio/hsk2-0184
+      - sentence:hsk-sentences-audio/hsk2-0185
+      - sentence:hsk-sentences-audio/hsk2-0186
+      - sentence:hsk-sentences-audio/hsk2-0187
+      - sentence:hsk-sentences-audio/hsk2-0188
+      - sentence:hsk-sentences-audio/hsk2-0189
+      - sentence:hsk-sentences-audio/hsk2-0190
+      - sentence:hsk-sentences-audio/hsk2-0191
+      - sentence:hsk-sentences-audio/hsk2-0192
+      - sentence:hsk-sentences-audio/hsk2-0193
+      - sentence:hsk-sentences-audio/hsk2-0194
+      - sentence:hsk-sentences-audio/hsk2-0195
+      - sentence:hsk-sentences-audio/hsk2-0196
+      - sentence:hsk-sentences-audio/hsk2-0197
+      - sentence:hsk-sentences-audio/hsk2-0198
+      - sentence:hsk-sentences-audio/hsk2-0199
+      - sentence:hsk-sentences-audio/hsk2-0200
+      - sentence:hsk-sentences-audio/hsk2-0457
+      - sentence:hsk-sentences-audio/hsk2-0469
+      - sentence:hsk-sentences-audio/hsk2-0479
+      - sentence:hsk-sentences-audio/hsk2-0512
+      - sentence:hsk-sentences-audio/hsk2-0523
+      - sentence:hsk-sentences-audio/hsk2-0533
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0179
+      - sentence:hsk-sentences-audio/hsk2-0180
+      - sentence:hsk-sentences-audio/hsk2-0181
+      - sentence:hsk-sentences-audio/hsk2-0182
+      - sentence:hsk-sentences-audio/hsk2-0183
+      - sentence:hsk-sentences-audio/hsk2-0184
+      - sentence:hsk-sentences-audio/hsk2-0185
+      - sentence:hsk-sentences-audio/hsk2-0186
+      - sentence:hsk-sentences-audio/hsk2-0187
+      - sentence:hsk-sentences-audio/hsk2-0188
+      - sentence:hsk-sentences-audio/hsk2-0189
+      - sentence:hsk-sentences-audio/hsk2-0190
+      - sentence:hsk-sentences-audio/hsk2-0191
+      - sentence:hsk-sentences-audio/hsk2-0192
+      - sentence:hsk-sentences-audio/hsk2-0193
+      - sentence:hsk-sentences-audio/hsk2-0194
+      - sentence:hsk-sentences-audio/hsk2-0195
+      - sentence:hsk-sentences-audio/hsk2-0196
+      - sentence:hsk-sentences-audio/hsk2-0197
+      - sentence:hsk-sentences-audio/hsk2-0198
+      - sentence:hsk-sentences-audio/hsk2-0199
+      - sentence:hsk-sentences-audio/hsk2-0200
+      - sentence:hsk-sentences-audio/hsk2-0457
+      - sentence:hsk-sentences-audio/hsk2-0469
+      - sentence:hsk-sentences-audio/hsk2-0479
+      - sentence:hsk-sentences-audio/hsk2-0512
+      - sentence:hsk-sentences-audio/hsk2-0523
+      - sentence:hsk-sentences-audio/hsk2-0533

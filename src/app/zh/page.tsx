@@ -1,17 +1,20 @@
 import Link from "next/link";
-import { content } from "@/content/load";
+import { content, getLevels, lessonsOfLevel } from "@/content/load";
 import { ZhVoicePicker } from "@/features/audio/ZhVoicePicker";
 import { ContinueLink, LevelProgress } from "@/features/progress/ProgressWidgets";
 
 export default function HomePage() {
-  const { lessons, words, sentences } = content();
-  const curriculumWords = Object.values(words).filter((w) => w.inCurriculum).length;
+  const { words, sentences } = content();
+  const lessons = lessonsOfLevel("1");
+  const curriculumWords = Object.values(words).filter((w) => w.inCurriculum && w.hskLevel === "1").length;
+  const hsk1Sentences = Object.values(sentences).filter((s) => s.hskLevel === "1").length;
+  const higher = getLevels().filter((l) => l !== "1");
 
   return (
     <div className="space-y-8">
       <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 px-6 py-10 text-white shadow-md sm:px-10 sm:py-14">
         <p className="text-sm font-medium uppercase tracking-widest text-brand-100">Tiếng Trung cho người Việt</p>
-        <h1 className="mt-3 max-w-xl text-3xl font-bold leading-tight sm:text-4xl">Học HSK1 từng bước, giải thích bằng tiếng Việt</h1>
+        <h1 className="mt-3 max-w-xl text-3xl font-bold leading-tight sm:text-4xl">Học HSK1–HSK2 từng bước, giải thích bằng tiếng Việt</h1>
         <p className="mt-4 max-w-xl text-brand-50">
           Mỗi từ có chữ Hán, pinyin, âm Hán Việt, nghĩa tiếng Việt và câu ví dụ có audio thường và chậm.
         </p>
@@ -26,7 +29,7 @@ export default function HomePage() {
           <div>
             <h2 className="text-xl font-bold text-stone-900">Lộ trình HSK1</h2>
             <p className="mt-1 text-sm text-stone-500">
-              {lessons.length} bài · {curriculumWords} từ vựng · {Object.keys(sentences).length} câu ví dụ
+              {lessons.length} bài · {curriculumWords} từ vựng · {hsk1Sentences} câu ví dụ
             </p>
           </div>
           <Link href="/zh/hsk/1" className="text-sm font-medium text-brand-700 hover:underline">
@@ -46,6 +49,33 @@ export default function HomePage() {
           </Link>
         </p>
       </section>
+
+      {higher.map((level) => {
+        const list = lessonsOfLevel(level);
+        const nWords = Object.values(words).filter((w) => w.inCurriculum && w.hskLevel === level).length;
+        const nSentences = Object.values(sentences).filter((s) => s.hskLevel === level).length;
+        return (
+          <section key={level} className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-bold text-stone-900">Lộ trình HSK{level}</h2>
+                <p className="mt-1 text-sm text-stone-500">
+                  {list.length} bài · {nWords} từ vựng · {nSentences} câu ví dụ
+                </p>
+              </div>
+              <Link href={`/zh/hsk/${level}`} className="text-sm font-medium text-brand-700 hover:underline">
+                Xem tất cả bài →
+              </Link>
+            </div>
+            <div className="mt-5">
+              <LevelProgress lessons={list} level={level} />
+            </div>
+            <div className="mt-6">
+              <ContinueLink lessons={list} />
+            </div>
+          </section>
+        );
+      })}
 
       <p className="text-xs text-stone-400">
         Tiến độ học được lưu trên trình duyệt này. Các bản dịch câu hiện là bản nháp, đang chờ biên tập.

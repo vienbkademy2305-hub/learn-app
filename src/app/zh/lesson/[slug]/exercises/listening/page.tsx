@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons } from "@/content/load";
 import { lessonExerciseData } from "@/features/exercises/data";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Bài nghe · Bài ${lesson.number}` : "Bài nghe" };
+  return { title: lesson ? `Bài nghe · ${lessonLabel(lesson)}` : "Bài nghe" };
 }
 
 export default async function ListeningExercisePage({ params }: { params: Promise<{ slug: string }> }) {

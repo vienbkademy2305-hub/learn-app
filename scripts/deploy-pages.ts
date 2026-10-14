@@ -23,8 +23,8 @@ const run = (cmd: string, args: string[], cwd = ROOT, env: NodeJS.ProcessEnv = p
   execFileSync(cmd, args, { cwd, env, stdio: "inherit", shell: cmd === "pnpm" && process.platform === "win32" });
 const capture = (cmd: string, args: string[]) => execFileSync(cmd, args, { cwd: ROOT, encoding: "utf8" }).trim();
 
-if (!existsSync(path.join(ROOT, ".data", "content", "hsk1.json"))) {
-  throw new Error("Content snapshot missing — run `pnpm import:hsk1 && pnpm content:export` first.");
+if (!existsSync(path.join(ROOT, ".data", "content", "zh.json"))) {
+  throw new Error("Content snapshot missing — run `pnpm import:hsk2 && pnpm content:export` first.");
 }
 
 const remote = capture("git", ["remote", "get-url", "origin"]);

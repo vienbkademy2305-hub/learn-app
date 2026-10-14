@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence, lessonGrammar } from "@/content/load";
 import { GrammarPointCard } from "@/features/grammar/GrammarPointCard";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Ngữ pháp · Bài ${lesson.number}` : "Ngữ pháp" };
+  return { title: lesson ? `Ngữ pháp · ${lessonLabel(lesson)}` : "Ngữ pháp" };
 }
 
 /** Step 2 — grammar points of the lesson, with examples, common mistakes and a quick check. */

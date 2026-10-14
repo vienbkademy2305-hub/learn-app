@@ -1,0 +1,55 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-01-greetings
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Chào hỏi
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:欢迎|huan1ying2
+      - word:大家|da4jia1
+      - word:晚安|wan3an1
+      - word:不好意思|bu4hao3yi4si5
+      - word:帮助|bang1zhu4
+      - word:一路顺风|yi1lu4shun4feng1
+      - word:一路平安|yi1lu4ping2an1
+      - word:自己|zi4ji3
+      - word:安静|an1jing4
+      - word:讲|jiang3
+      - word:喂|wei4
+      - word:位|wei4
+      - word:好久|hao3jiu3
+      - word:姓|xing4
+      - word:最近|zui4jin4
+      - word:怎么样|zen3me5yang4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0001
+      - sentence:hsk-sentences-audio/hsk2-0002
+      - sentence:hsk-sentences-audio/hsk2-0003
+      - sentence:hsk-sentences-audio/hsk2-0004
+      - sentence:hsk-sentences-audio/hsk2-0005
+      - sentence:hsk-sentences-audio/hsk2-0006
+      - sentence:hsk-sentences-audio/hsk2-0007
+      - sentence:hsk-sentences-audio/hsk2-0008
+      - sentence:hsk-sentences-audio/hsk2-0009
+      - sentence:hsk-sentences-audio/hsk2-0010
+      - sentence:hsk-sentences-audio/hsk2-0462
+      - sentence:hsk-sentences-audio/hsk2-0475
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0001
+      - sentence:hsk-sentences-audio/hsk2-0002
+      - sentence:hsk-sentences-audio/hsk2-0003
+      - sentence:hsk-sentences-audio/hsk2-0004
+      - sentence:hsk-sentences-audio/hsk2-0005
+      - sentence:hsk-sentences-audio/hsk2-0006
+      - sentence:hsk-sentences-audio/hsk2-0007
+      - sentence:hsk-sentences-audio/hsk2-0008
+      - sentence:hsk-sentences-audio/hsk2-0009
+      - sentence:hsk-sentences-audio/hsk2-0010
+      - sentence:hsk-sentences-audio/hsk2-0462
+      - sentence:hsk-sentences-audio/hsk2-0475

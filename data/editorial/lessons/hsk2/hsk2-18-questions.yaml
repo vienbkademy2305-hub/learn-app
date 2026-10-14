@@ -1,0 +1,34 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-18-questions
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Đặt câu hỏi
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:叫作|jiao4zuo4
+      - word:为什么|wei4shen2me5
+      - word:那样|na4yang4
+      - word:这样|zhe4yang4
+      - word:才|cai2
+      - word:不行|bu4xing2
+      - word:主要|zhu3yao4
+      - word:问题|wen4ti2
+      - word:不够|bu4gou4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0470
+      - sentence:hsk-sentences-audio/hsk2-0476
+      - sentence:hsk-sentences-audio/hsk2-0501
+      - sentence:hsk-sentences-audio/hsk2-0522
+      - sentence:hsk-sentences-audio/hsk2-0529
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0470
+      - sentence:hsk-sentences-audio/hsk2-0476
+      - sentence:hsk-sentences-audio/hsk2-0501
+      - sentence:hsk-sentences-audio/hsk2-0522
+      - sentence:hsk-sentences-audio/hsk2-0529

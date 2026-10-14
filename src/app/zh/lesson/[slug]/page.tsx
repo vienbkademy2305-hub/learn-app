@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence, getWord } from "@/content/load";
 import { StepFooter } from "@/features/lesson/StepFooter";
@@ -11,7 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Bài ${lesson.number}: ${lesson.title}` : "Bài học" };
+  return { title: lesson ? `${lessonLabel(lesson)}: ${lesson.title}` : "Bài học" };
 }
 
 /** Step 1 — vocabulary. */

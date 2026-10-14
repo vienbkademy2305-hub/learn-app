@@ -1,0 +1,147 @@
+# Chia từ bản nháp sinh tự động (bài quá dài). status "split" để generator không ghi đè.
+slug: hsk2-17b-objects-misc
+status: split
+source: derived
+hsk_level: "2"
+title_vi: Đồ vật (2/3)
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:全体|quan2ti3
+      - word:借|jie4
+      - word:请求|qing3qiu2
+      - word:该|gai1
+      - word:改|gai3
+      - word:改变|gai3bian4
+      - word:加油|jia1you2
+      - word:选|xuan3
+      - word:中级|zhong1ji2
+      - word:高级|gao1ji2
+      - word:平等|ping2deng3
+      - word:公平|gong1ping2
+      - word:自由|zi4you2
+      - word:生活|sheng1huo2
+      - word:平安|ping2an1
+      - word:好事|hao3shi4
+      - word:句|ju4
+      - word:假|jia3
+      - word:轻|qing1
+      - word:平常|ping2chang2
+      - word:正确|zheng4que4
+      - word:准确|zhun3que4
+      - word:完全|wan2quan2
+      - word:相同|xiang1tong2
+      - word:常见|chang2jian4
+      - word:常用|chang2yong4
+      - word:水平|shui3ping2
+      - word:一般|yi1ban1
+      - word:难看|nan2kan4
+      - word:难听|nan2ting1
+      - word:直接|zhi2jie1
+      - word:通过|tong1guo4
+      - word:接受|jie1shou4
+      - word:接下来|jie1xia4lai2
+      - word:接到|jie1dao4
+      - word:得出|de2chu1
+      - word:结果|jie2guo3
+      - word:发现|fa1xian4
+      - word:例如|li4ru2
+      - word:比如|bi3ru2
+      - word:不如|bu4ru2
+      - word:经常|jing1chang2
+      - word:快要|kuai4yao4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0362
+      - sentence:hsk-sentences-audio/hsk2-0363
+      - sentence:hsk-sentences-audio/hsk2-0364
+      - sentence:hsk-sentences-audio/hsk2-0365
+      - sentence:hsk-sentences-audio/hsk2-0366
+      - sentence:hsk-sentences-audio/hsk2-0367
+      - sentence:hsk-sentences-audio/hsk2-0368
+      - sentence:hsk-sentences-audio/hsk2-0369
+      - sentence:hsk-sentences-audio/hsk2-0370
+      - sentence:hsk-sentences-audio/hsk2-0371
+      - sentence:hsk-sentences-audio/hsk2-0372
+      - sentence:hsk-sentences-audio/hsk2-0373
+      - sentence:hsk-sentences-audio/hsk2-0374
+      - sentence:hsk-sentences-audio/hsk2-0375
+      - sentence:hsk-sentences-audio/hsk2-0376
+      - sentence:hsk-sentences-audio/hsk2-0377
+      - sentence:hsk-sentences-audio/hsk2-0378
+      - sentence:hsk-sentences-audio/hsk2-0379
+      - sentence:hsk-sentences-audio/hsk2-0380
+      - sentence:hsk-sentences-audio/hsk2-0381
+      - sentence:hsk-sentences-audio/hsk2-0382
+      - sentence:hsk-sentences-audio/hsk2-0383
+      - sentence:hsk-sentences-audio/hsk2-0384
+      - sentence:hsk-sentences-audio/hsk2-0385
+      - sentence:hsk-sentences-audio/hsk2-0386
+      - sentence:hsk-sentences-audio/hsk2-0387
+      - sentence:hsk-sentences-audio/hsk2-0388
+      - sentence:hsk-sentences-audio/hsk2-0389
+      - sentence:hsk-sentences-audio/hsk2-0390
+      - sentence:hsk-sentences-audio/hsk2-0391
+      - sentence:hsk-sentences-audio/hsk2-0392
+      - sentence:hsk-sentences-audio/hsk2-0393
+      - sentence:hsk-sentences-audio/hsk2-0394
+      - sentence:hsk-sentences-audio/hsk2-0395
+      - sentence:hsk-sentences-audio/hsk2-0396
+      - sentence:hsk-sentences-audio/hsk2-0397
+      - sentence:hsk-sentences-audio/hsk2-0398
+      - sentence:hsk-sentences-audio/hsk2-0399
+      - sentence:hsk-sentences-audio/hsk2-0400
+      - sentence:hsk-sentences-audio/hsk2-0401
+      - sentence:hsk-sentences-audio/hsk2-0402
+      - sentence:hsk-sentences-audio/hsk2-0403
+      - sentence:hsk-sentences-audio/hsk2-0404
+      - sentence:hsk-sentences-audio/hsk2-0405
+      - sentence:hsk-sentences-audio/hsk2-0406
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0362
+      - sentence:hsk-sentences-audio/hsk2-0363
+      - sentence:hsk-sentences-audio/hsk2-0364
+      - sentence:hsk-sentences-audio/hsk2-0365
+      - sentence:hsk-sentences-audio/hsk2-0366
+      - sentence:hsk-sentences-audio/hsk2-0367
+      - sentence:hsk-sentences-audio/hsk2-0368
+      - sentence:hsk-sentences-audio/hsk2-0369
+      - sentence:hsk-sentences-audio/hsk2-0370
+      - sentence:hsk-sentences-audio/hsk2-0371
+      - sentence:hsk-sentences-audio/hsk2-0372
+      - sentence:hsk-sentences-audio/hsk2-0373
+      - sentence:hsk-sentences-audio/hsk2-0374
+      - sentence:hsk-sentences-audio/hsk2-0375
+      - sentence:hsk-sentences-audio/hsk2-0376
+      - sentence:hsk-sentences-audio/hsk2-0377
+      - sentence:hsk-sentences-audio/hsk2-0378
+      - sentence:hsk-sentences-audio/hsk2-0379
+      - sentence:hsk-sentences-audio/hsk2-0380
+      - sentence:hsk-sentences-audio/hsk2-0381
+      - sentence:hsk-sentences-audio/hsk2-0382
+      - sentence:hsk-sentences-audio/hsk2-0383
+      - sentence:hsk-sentences-audio/hsk2-0384
+      - sentence:hsk-sentences-audio/hsk2-0385
+      - sentence:hsk-sentences-audio/hsk2-0386
+      - sentence:hsk-sentences-audio/hsk2-0387
+      - sentence:hsk-sentences-audio/hsk2-0388
+      - sentence:hsk-sentences-audio/hsk2-0389
+      - sentence:hsk-sentences-audio/hsk2-0390
+      - sentence:hsk-sentences-audio/hsk2-0391
+      - sentence:hsk-sentences-audio/hsk2-0392
+      - sentence:hsk-sentences-audio/hsk2-0393
+      - sentence:hsk-sentences-audio/hsk2-0394
+      - sentence:hsk-sentences-audio/hsk2-0395
+      - sentence:hsk-sentences-audio/hsk2-0396
+      - sentence:hsk-sentences-audio/hsk2-0397
+      - sentence:hsk-sentences-audio/hsk2-0398
+      - sentence:hsk-sentences-audio/hsk2-0399
+      - sentence:hsk-sentences-audio/hsk2-0400
+      - sentence:hsk-sentences-audio/hsk2-0401
+      - sentence:hsk-sentences-audio/hsk2-0402
+      - sentence:hsk-sentences-audio/hsk2-0403
+      - sentence:hsk-sentences-audio/hsk2-0404
+      - sentence:hsk-sentences-audio/hsk2-0405
+      - sentence:hsk-sentences-audio/hsk2-0406

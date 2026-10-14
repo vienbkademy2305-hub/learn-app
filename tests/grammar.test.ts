@@ -33,12 +33,16 @@ points:
     expect(() => readGrammar(bad, snapshot)).toThrow(/4 problem\(s\)[\s\S]*unknown lesson nope[\s\S]*unknown sentence s9[\s\S]*duplicate[\s\S]*bad mistake pair/);
   });
 
-  it("the HSK1 file is valid against the exported snapshot", () => {
-    const snap = JSON.parse(readFileSync(path.join(process.cwd(), ".data", "content", "hsk1.json"), "utf8"));
-    const points = readGrammar(readFileSync(grammarFile("1"), "utf8"), snap);
-    expect(points.length).toBeGreaterThanOrEqual(40);
-    for (const lesson of snap.lessons) expect(points.some((p) => p.lesson === lesson.slug)).toBe(true);
+  it.each([
+    ["1", 40],
+    ["2", 50],
+  ])("the HSK%s file is valid against the exported snapshot", (level, min) => {
+    const snap = JSON.parse(readFileSync(path.join(process.cwd(), ".data", "content", "zh.json"), "utf8"));
+    const points = readGrammar(readFileSync(grammarFile(level), "utf8"), snap);
+    expect(points.length).toBeGreaterThanOrEqual(min);
+    for (const lesson of snap.lessons.filter((l: { hskLevel: string }) => l.hskLevel === level)) expect(points.some((p) => p.lesson === lesson.slug), lesson.slug).toBe(true);
     for (const p of points) expect(p.examples.length).toBeGreaterThan(0);
+    for (const p of points) for (const key of p.examples) expect(snap.sentences[key].hskLevel, `${p.id}: ${key}`).toBe(level);
   });
 });
 

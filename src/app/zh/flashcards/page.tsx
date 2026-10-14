@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getLessons } from "@/content/load";
+import { lessonLabel } from "@/content/lesson-label";
 import { allFlashWords, allGameWords } from "@/features/practice/data";
 import { ZhStudy } from "@/features/practice/ZhStudy";
 
@@ -8,9 +9,10 @@ export const metadata: Metadata = { title: "Sổ từ & học thuộc" };
 /** Word notebook (saved words as flashcards) and the word games over every HSK lesson. */
 export default function NotebookPage() {
   const words = allGameWords();
+  // Game lesson numbers are positions across all levels (allGameWords); the label keeps "HSK2 · Bài 3".
   const lessons = getLessons()
-    .filter((l) => words.some((w) => w.lesson === l.number))
-    .map((l) => ({ slug: l.slug, number: l.number, title: l.title }));
+    .map((l, i) => ({ slug: l.slug, number: i + 1, label: lessonLabel(l), title: l.title }))
+    .filter((l) => words.some((w) => w.lesson === l.number));
   return (
     <div className="space-y-6">
       <div>

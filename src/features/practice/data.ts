@@ -49,15 +49,15 @@ export function lessonFlashWords(slug: string): FlashWord[] {
 }
 
 /** Every curriculum word, for the notebook page (which words are saved is only known in the browser). */
-export function allFlashWords(): Array<FlashWord & { lesson: { slug: string; number: number } | null }> {
+export function allFlashWords(): Array<FlashWord & { lesson: { slug: string; number: number; hskLevel: string } | null }> {
   const seen = new Set<string>();
-  const out: Array<FlashWord & { lesson: { slug: string; number: number } | null }> = [];
+  const out: Array<FlashWord & { lesson: { slug: string; number: number; hskLevel: string } | null }> = [];
   for (const l of getLessons()) {
     for (const slug of l.words) {
       const w = getWord(slug);
       if (!w || seen.has(slug)) continue;
       seen.add(slug);
-      out.push({ ...toFlashWord(w), lesson: { slug: l.slug, number: l.number } });
+      out.push({ ...toFlashWord(w), lesson: { slug: l.slug, number: l.number, hskLevel: l.hskLevel } });
     }
   }
   return out;
@@ -91,13 +91,13 @@ export function modelSentences(slug: string, wordSlug: string, max = 3) {
 export function allGameWords(): GameWord[] {
   const seen = new Set<string>();
   const out: GameWord[] = [];
-  for (const l of getLessons())
+  for (const [i, l] of getLessons().entries())
     for (const slug of l.words) {
       const w = getWord(slug);
       if (!w || seen.has(slug) || !w.meanings.length) continue;
       seen.add(slug);
       const en = w.meaningsEn.slice(0, 2).join("; ");
-      out.push({ id: w.slug, term: w.simplified, reading: w.pinyin, meaning: w.meanings.slice(0, 2).join("; "), definitionEn: en || null, lesson: l.number });
+      out.push({ id: w.slug, term: w.simplified, reading: w.pinyin, meaning: w.meanings.slice(0, 2).join("; "), definitionEn: en || null, lesson: i + 1 }); // lessonOrdinal(): unique across HSK levels
     }
   return out;
 }

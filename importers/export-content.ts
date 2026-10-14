@@ -119,13 +119,16 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
 
   // ── Lessons ──────────────────────────────────────────────────────────────
   const lessonRows = await rows<{ id: number; slug: string; sort: number; title_vi: string; hsk_level: string; status: string }>(client, `
-    SELECT id, slug, sort, title_vi, hsk_level, status FROM content.lessons WHERE hsk_level = $1 ORDER BY sort`, [level]);
+    SELECT id, slug, sort, title_vi, hsk_level, status FROM content.lessons WHERE hsk_level::int <= $1::int ORDER BY hsk_level::int, sort`, [level]);
   const itemRows = await rows<{ lesson_id: number; step_type: string; entity_type: string; entity_id: number }>(client, `
     SELECT s.lesson_id, s.step_type, i.entity_type, i.entity_id FROM content.lesson_steps s
     JOIN content.lesson_step_items i ON i.step_id = s.id ORDER BY s.lesson_id, s.sort, i.sort`);
+  // Lessons are numbered within their level (HSK2 starts again at Bài 1).
+  const firstOfLevel = new Map<string, number>();
+  lessonRows.forEach((l, i) => firstOfLevel.has(l.hsk_level) || firstOfLevel.set(l.hsk_level, i));
   const lessons: LessonData[] = lessonRows.map((l, i) => ({
     slug: l.slug,
-    number: i + 1,
+    number: i - firstOfLevel.get(l.hsk_level)! + 1,
     title: l.title_vi,
     hskLevel: l.hsk_level,
     status: l.status,
@@ -192,7 +195,8 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
   const sources = await rows<{ id: string; name: string; url: string; license: string }>(client, `
     SELECT id, name, url, license FROM content.sources WHERE publishable AND id NOT IN ('derived') ORDER BY id`);
 
-  return { version: 1, generatedAt: new Date().toISOString(), level, sources, lessons, words, sentences };
+  const levels = [...new Set(lessons.map((l) => l.hskLevel))].sort((a, b) => Number(a) - Number(b));
+  return { version: 1, generatedAt: new Date().toISOString(), level, levels, sources, lessons, words, sentences };
 }
 
 /** Copies stroke files for every character in the snapshot, plus the Arphic license they require. */
@@ -241,13 +245,16 @@ export function copySnapshotAudio(snapshot: ContentSnapshot): { copied: number; 
 }
 
 async function main() {
-  const level = "1";
+  // Highest HSK level to export (all lower levels are included): `pnpm content:export --level 2`.
+  const i = process.argv.indexOf("--level");
+  const level = i >= 0 ? (process.argv[i + 1] ?? "2") : "2";
   const { client } = await openDb(DEFAULT_DB_DIR);
   try {
     const snapshot = await buildSnapshot(client, level);
-    const grammarPoints = attachGrammar(snapshot, level);
+    let grammarPoints = 0;
+    for (const l of snapshot.levels ?? [level]) grammarPoints += attachGrammar(snapshot, l);
     mkdirSync(CONTENT_DIR, { recursive: true });
-    writeFileSync(path.join(CONTENT_DIR, `hsk${level}.json`), JSON.stringify(snapshot));
+    writeFileSync(path.join(CONTENT_DIR, "zh.json"), JSON.stringify(snapshot));
     const audio = copySnapshotAudio(snapshot);
     const strokes = copyStrokeData(snapshot);
     console.log({

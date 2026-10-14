@@ -1,6 +1,6 @@
 /**
  * Server-side access to the content snapshot (build time only for the static
- * export). Generate it with `pnpm import:hsk1 && pnpm content:export`.
+ * export). Generate it with `pnpm import:hsk2 && pnpm content:export` (all levels up to 2).
  */
 import { readFileSync } from "node:fs";
 import path from "node:path";
@@ -10,11 +10,16 @@ let cache: ContentSnapshot | undefined;
 
 export function content(): ContentSnapshot {
   if (!cache) {
-    const file = path.join(process.cwd(), ".data", "content", "hsk1.json");
+    const dir = path.join(process.cwd(), ".data", "content");
+    const file = path.join(dir, "zh.json");
     try {
       cache = JSON.parse(readFileSync(file, "utf8")) as ContentSnapshot;
-    } catch (err) {
-      throw new Error(`Content snapshot not found at ${file}. Run \`pnpm import:hsk1 && pnpm content:export\` first.`, { cause: err });
+    } catch {
+      try {
+        cache = JSON.parse(readFileSync(path.join(dir, "hsk1.json"), "utf8")) as ContentSnapshot; // older single-level snapshot
+      } catch (err) {
+        throw new Error(`Content snapshot not found at ${file}. Run \`pnpm import:hsk2 && pnpm content:export\` first.`, { cause: err });
+      }
     }
   }
   return cache;
@@ -22,6 +27,20 @@ export function content(): ContentSnapshot {
 
 export function getLessons(): LessonData[] {
   return content().lessons;
+}
+
+/** HSK levels that have lessons, ascending ("1", "2", …). */
+export function getLevels(): string[] {
+  return content().levels ?? [content().level];
+}
+
+/** 1-based position of a lesson across all levels — a unique number for the word games (lesson numbers restart per level). */
+export function lessonOrdinal(slug: string): number {
+  return content().lessons.findIndex((l) => l.slug === slug) + 1;
+}
+
+export function lessonsOfLevel(level: string): LessonData[] {
+  return content().lessons.filter((l) => l.hskLevel === level);
 }
 
 export function getLesson(slug: string): LessonData | undefined {

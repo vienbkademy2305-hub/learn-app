@@ -1,0 +1,106 @@
+# Chia từ bản nháp sinh tự động (bài quá dài). status "split" để generator không ghi đè.
+slug: hsk2-07b-school-work
+status: split
+source: derived
+hsk_level: "2"
+title_vi: Trường học và công việc (2/2)
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:座位|zuo4wei4
+      - word:不够|bu4gou4
+      - word:听讲|ting1jiang3
+      - word:背|bei4
+      - word:经理|jing1li3
+      - word:办公室|ban4gong1shi4
+      - word:公司|gong1si1
+      - word:热情|re4qing2
+      - word:饭馆|fan4guan3
+      - word:打工|da3gong1
+      - word:实习|shi2xi2
+      - word:条件|tiao2jian4
+      - word:必须|bi4xu1
+      - word:完成|wan2cheng2
+      - word:计划|ji4hua4
+      - word:单位|dan1wei4
+      - word:离|li2
+      - word:近|jin4
+      - word:十分|shi2fen1
+      - word:出国|chu1guo2
+      - word:举行|ju3xing2
+      - word:组成|zu3cheng2
+      - word:休假|xiu1jia4
+      - word:市|shi4
+      - word:市长|shi4zhang3
+      - word:一生|yi1sheng1
+      - word:椅子|yi3zi5
+      - word:课堂|ke4tang2
+      - word:笔记|bi3ji4
+      - word:交|jiao1
+      - word:参观|can1guan1
+      - word:教育|jiao4yu4
+      - word:教学|jiao1xue2
+      - word:组|zu3
+      - word:全部|quan2bu4
+      - word:中小学|zhong1xiao3xue2
+      - word:生|sheng1
+      - word:接着|jie1zhe5
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0146
+      - sentence:hsk-sentences-audio/hsk2-0147
+      - sentence:hsk-sentences-audio/hsk2-0148
+      - sentence:hsk-sentences-audio/hsk2-0149
+      - sentence:hsk-sentences-audio/hsk2-0150
+      - sentence:hsk-sentences-audio/hsk2-0151
+      - sentence:hsk-sentences-audio/hsk2-0152
+      - sentence:hsk-sentences-audio/hsk2-0153
+      - sentence:hsk-sentences-audio/hsk2-0154
+      - sentence:hsk-sentences-audio/hsk2-0155
+      - sentence:hsk-sentences-audio/hsk2-0156
+      - sentence:hsk-sentences-audio/hsk2-0157
+      - sentence:hsk-sentences-audio/hsk2-0158
+      - sentence:hsk-sentences-audio/hsk2-0159
+      - sentence:hsk-sentences-audio/hsk2-0160
+      - sentence:hsk-sentences-audio/hsk2-0161
+      - sentence:hsk-sentences-audio/hsk2-0162
+      - sentence:hsk-sentences-audio/hsk2-0446
+      - sentence:hsk-sentences-audio/hsk2-0447
+      - sentence:hsk-sentences-audio/hsk2-0468
+      - sentence:hsk-sentences-audio/hsk2-0471
+      - sentence:hsk-sentences-audio/hsk2-0483
+      - sentence:hsk-sentences-audio/hsk2-0484
+      - sentence:hsk-sentences-audio/hsk2-0490
+      - sentence:hsk-sentences-audio/hsk2-0496
+      - sentence:hsk-sentences-audio/hsk2-0515
+      - sentence:hsk-sentences-audio/hsk2-0532
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0146
+      - sentence:hsk-sentences-audio/hsk2-0147
+      - sentence:hsk-sentences-audio/hsk2-0148
+      - sentence:hsk-sentences-audio/hsk2-0149
+      - sentence:hsk-sentences-audio/hsk2-0150
+      - sentence:hsk-sentences-audio/hsk2-0151
+      - sentence:hsk-sentences-audio/hsk2-0152
+      - sentence:hsk-sentences-audio/hsk2-0153
+      - sentence:hsk-sentences-audio/hsk2-0154
+      - sentence:hsk-sentences-audio/hsk2-0155
+      - sentence:hsk-sentences-audio/hsk2-0156
+      - sentence:hsk-sentences-audio/hsk2-0157
+      - sentence:hsk-sentences-audio/hsk2-0158
+      - sentence:hsk-sentences-audio/hsk2-0159
+      - sentence:hsk-sentences-audio/hsk2-0160
+      - sentence:hsk-sentences-audio/hsk2-0161
+      - sentence:hsk-sentences-audio/hsk2-0162
+      - sentence:hsk-sentences-audio/hsk2-0446
+      - sentence:hsk-sentences-audio/hsk2-0447
+      - sentence:hsk-sentences-audio/hsk2-0468
+      - sentence:hsk-sentences-audio/hsk2-0471
+      - sentence:hsk-sentences-audio/hsk2-0483
+      - sentence:hsk-sentences-audio/hsk2-0484
+      - sentence:hsk-sentences-audio/hsk2-0490
+      - sentence:hsk-sentences-audio/hsk2-0496
+      - sentence:hsk-sentences-audio/hsk2-0515
+      - sentence:hsk-sentences-audio/hsk2-0532

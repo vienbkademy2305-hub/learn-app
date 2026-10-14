@@ -79,7 +79,7 @@ const toPair = (w: any): Pair => ({ term: w.headword, meaning: (w.meaning_vi as 
 const enPairs: Pair[] = [...Object.values(words).map(toPair), ...vocab.map((id) => toPair(words[id]))];
 ok(vocab.length > 0, `en lesson 1 has ${vocab.length} words`);
 
-const snapZh = JSON.parse(readFileSync(".data/content/hsk1.json", "utf8"));
+const snapZh = JSON.parse(readFileSync(".data/content/zh.json", "utf8"));
 const zhPairs: Pair[] = (Array.isArray(snapZh.words) ? snapZh.words : Object.values(snapZh.words)).filter((w: any) => w.meanings?.length).map((w: any) => ({ term: w.simplified, meaning: w.meanings.slice(0, 2).join("; "), def: (w.meaningsEn ?? []).slice(0, 2).join("; ") || null }));
 
 const browser = await chromium.launch();

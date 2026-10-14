@@ -6,7 +6,10 @@
 export interface ContentSnapshot {
   version: 1;
   generatedAt: string;
+  /** highest HSK level in the snapshot */
   level: string;
+  /** every HSK level that has lessons, ascending (absent in older snapshots = [level]) */
+  levels?: string[];
   sources: Array<{ id: string; name: string; url: string; license: string }>;
   lessons: LessonData[];
   words: Record<string, WordData>;

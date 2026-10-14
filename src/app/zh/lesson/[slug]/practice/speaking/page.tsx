@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence, getWord } from "@/content/load";
 import { PracticeFrame } from "@/features/practice/PracticeFrame";
@@ -12,7 +13,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Luyện nói · Bài ${lesson.number}` : "Luyện nói" };
+  return { title: lesson ? `Luyện nói · ${lessonLabel(lesson)}` : "Luyện nói" };
 }
 
 /** Speaking practice: record words and sentences, scored on the device (docs/SPEAKING_PLAN.md). */

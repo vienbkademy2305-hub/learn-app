@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLesson, getLessons, getSentence } from "@/content/load";
@@ -14,7 +15,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Câu ví dụ & luyện nghe · Bài ${lesson.number}` : "Câu ví dụ" };
+  return { title: lesson ? `Câu ví dụ & luyện nghe · ${lessonLabel(lesson)}` : "Câu ví dụ" };
 }
 
 const LIST_ID = "example-sentences";

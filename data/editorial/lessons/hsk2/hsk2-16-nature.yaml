@@ -1,0 +1,79 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-16-nature
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Thiên nhiên
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:月亮|yue4liang5
+      - word:亮|liang4
+      - word:星星|xing1xing5
+      - word:大海|da4hai3
+      - word:蓝色|lan2se4
+      - word:湖|hu2
+      - word:边|bian1
+      - word:草|cao3
+      - word:绿|lv4
+      - word:流|liu2
+      - word:鸟|niao3
+      - word:动物园|dong4wu4yuan2
+      - word:动物|dong4wu4
+      - word:大自然|da4zi4ran2
+      - word:地球|di4qiu2
+      - word:花园|hua1yuan2
+      - word:鸡|ji1
+      - word:生|sheng1
+      - word:变成|bian4cheng2
+      - word:绿色|lv4se4
+      - word:海|hai3
+      - word:蓝|lan2
+      - word:爬|pa2
+      - word:出现|chu1xian4
+      - word:越|yue4
+      - word:东方|dong1fang1
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0310
+      - sentence:hsk-sentences-audio/hsk2-0311
+      - sentence:hsk-sentences-audio/hsk2-0312
+      - sentence:hsk-sentences-audio/hsk2-0313
+      - sentence:hsk-sentences-audio/hsk2-0314
+      - sentence:hsk-sentences-audio/hsk2-0315
+      - sentence:hsk-sentences-audio/hsk2-0316
+      - sentence:hsk-sentences-audio/hsk2-0317
+      - sentence:hsk-sentences-audio/hsk2-0318
+      - sentence:hsk-sentences-audio/hsk2-0319
+      - sentence:hsk-sentences-audio/hsk2-0320
+      - sentence:hsk-sentences-audio/hsk2-0321
+      - sentence:hsk-sentences-audio/hsk2-0322
+      - sentence:hsk-sentences-audio/hsk2-0442
+      - sentence:hsk-sentences-audio/hsk2-0445
+      - sentence:hsk-sentences-audio/hsk2-0453
+      - sentence:hsk-sentences-audio/hsk2-0461
+      - sentence:hsk-sentences-audio/hsk2-0505
+      - sentence:hsk-sentences-audio/hsk2-0510
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0310
+      - sentence:hsk-sentences-audio/hsk2-0311
+      - sentence:hsk-sentences-audio/hsk2-0312
+      - sentence:hsk-sentences-audio/hsk2-0313
+      - sentence:hsk-sentences-audio/hsk2-0314
+      - sentence:hsk-sentences-audio/hsk2-0315
+      - sentence:hsk-sentences-audio/hsk2-0316
+      - sentence:hsk-sentences-audio/hsk2-0317
+      - sentence:hsk-sentences-audio/hsk2-0318
+      - sentence:hsk-sentences-audio/hsk2-0319
+      - sentence:hsk-sentences-audio/hsk2-0320
+      - sentence:hsk-sentences-audio/hsk2-0321
+      - sentence:hsk-sentences-audio/hsk2-0322
+      - sentence:hsk-sentences-audio/hsk2-0442
+      - sentence:hsk-sentences-audio/hsk2-0445
+      - sentence:hsk-sentences-audio/hsk2-0453
+      - sentence:hsk-sentences-audio/hsk2-0461
+      - sentence:hsk-sentences-audio/hsk2-0505
+      - sentence:hsk-sentences-audio/hsk2-0510

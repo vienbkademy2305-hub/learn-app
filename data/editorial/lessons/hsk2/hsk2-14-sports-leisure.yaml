@@ -1,0 +1,98 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-14-sports-leisure
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Thể thao và giải trí
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:篮球|lan2qiu2
+      - word:网球|wang3qiu2
+      - word:排球|pai2qiu2
+      - word:队|dui4
+      - word:体育馆|ti3yu4guan3
+      - word:练习|lian4xi2
+      - word:体育场|ti3yu4chang3
+      - word:越来越|yue4lai2yue4
+      - word:草地|cao3di4
+      - word:流行|liu2xing2
+      - word:音乐会|yin1yue4hui4
+      - word:有意思|you3yi4si5
+      - word:新闻|xin1wen2
+      - word:明星|ming2xing1
+      - word:影片|ying3pian4
+      - word:笑话|xiao4hua5
+      - word:相机|xiang4ji1
+      - word:照片|zhao4pian4
+      - word:图片|tu2pian4
+      - word:画|hua4
+      - word:音乐|yin1yue4
+      - word:心情|xin1qing2
+      - word:变|bian4
+      - word:科学|ke1xue2
+      - word:当|dang1
+      - word:科学家|ke1xue2jia1
+      - word:国际|guo2ji4
+      - word:全国|quan2guo2
+      - word:体育|ti3yu4
+      - word:旅游|lv3you2
+      - word:球场|qiu2chang3
+      - word:少年|shao4nian2
+      - word:以外|yi3wai4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0260
+      - sentence:hsk-sentences-audio/hsk2-0261
+      - sentence:hsk-sentences-audio/hsk2-0262
+      - sentence:hsk-sentences-audio/hsk2-0263
+      - sentence:hsk-sentences-audio/hsk2-0264
+      - sentence:hsk-sentences-audio/hsk2-0265
+      - sentence:hsk-sentences-audio/hsk2-0266
+      - sentence:hsk-sentences-audio/hsk2-0267
+      - sentence:hsk-sentences-audio/hsk2-0268
+      - sentence:hsk-sentences-audio/hsk2-0269
+      - sentence:hsk-sentences-audio/hsk2-0270
+      - sentence:hsk-sentences-audio/hsk2-0271
+      - sentence:hsk-sentences-audio/hsk2-0272
+      - sentence:hsk-sentences-audio/hsk2-0273
+      - sentence:hsk-sentences-audio/hsk2-0274
+      - sentence:hsk-sentences-audio/hsk2-0275
+      - sentence:hsk-sentences-audio/hsk2-0276
+      - sentence:hsk-sentences-audio/hsk2-0277
+      - sentence:hsk-sentences-audio/hsk2-0278
+      - sentence:hsk-sentences-audio/hsk2-0482
+      - sentence:hsk-sentences-audio/hsk2-0485
+      - sentence:hsk-sentences-audio/hsk2-0487
+      - sentence:hsk-sentences-audio/hsk2-0493
+      - sentence:hsk-sentences-audio/hsk2-0508
+      - sentence:hsk-sentences-audio/hsk2-0534
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0260
+      - sentence:hsk-sentences-audio/hsk2-0261
+      - sentence:hsk-sentences-audio/hsk2-0262
+      - sentence:hsk-sentences-audio/hsk2-0263
+      - sentence:hsk-sentences-audio/hsk2-0264
+      - sentence:hsk-sentences-audio/hsk2-0265
+      - sentence:hsk-sentences-audio/hsk2-0266
+      - sentence:hsk-sentences-audio/hsk2-0267
+      - sentence:hsk-sentences-audio/hsk2-0268
+      - sentence:hsk-sentences-audio/hsk2-0269
+      - sentence:hsk-sentences-audio/hsk2-0270
+      - sentence:hsk-sentences-audio/hsk2-0271
+      - sentence:hsk-sentences-audio/hsk2-0272
+      - sentence:hsk-sentences-audio/hsk2-0273
+      - sentence:hsk-sentences-audio/hsk2-0274
+      - sentence:hsk-sentences-audio/hsk2-0275
+      - sentence:hsk-sentences-audio/hsk2-0276
+      - sentence:hsk-sentences-audio/hsk2-0277
+      - sentence:hsk-sentences-audio/hsk2-0278
+      - sentence:hsk-sentences-audio/hsk2-0482
+      - sentence:hsk-sentences-audio/hsk2-0485
+      - sentence:hsk-sentences-audio/hsk2-0487
+      - sentence:hsk-sentences-audio/hsk2-0493
+      - sentence:hsk-sentences-audio/hsk2-0508
+      - sentence:hsk-sentences-audio/hsk2-0534

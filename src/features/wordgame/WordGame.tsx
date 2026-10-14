@@ -28,7 +28,8 @@ import {
 export interface WordGameProps {
   lang: "en" | "zh";
   words: GameWord[];
-  lessons: Array<{ number: number; title: string }>;
+  /** `number` identifies the lesson in GameWord.lesson; `label` replaces "<lessonLabel> <number>" in the picker */
+  lessons: Array<{ number: number; label?: string; title: string }>;
   /** lesson numbers the learner has opened */
   studied: Set<number>;
   gp: GameProgress;
@@ -115,7 +116,7 @@ export function WordGame(props: WordGameProps) {
             <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))} className={chip}>
               <option value="studied" disabled={studied.size === 0}>Các {lessonLabel.toLowerCase()} đã học ({studied.size})</option>
               {lessons.map((l) => (
-                <option key={l.number} value={l.number}>{lessonLabel} {l.number}: {l.title}</option>
+                <option key={l.number} value={l.number}>{l.label ?? `${lessonLabel} ${l.number}`}: {l.title}</option>
               ))}
             </select>
           )}

@@ -73,7 +73,7 @@ async function checkUrls(origin: string, label: string, files: Map<string, FileR
 }
 
 async function main() {
-  const snapshot = JSON.parse(readFileSync(path.join(ROOT, ".data", "content", "hsk1.json"), "utf8")) as ContentSnapshot;
+  const snapshot = JSON.parse(readFileSync(path.join(ROOT, ".data", "content", "zh.json"), "utf8")) as ContentSnapshot;
   if (!existsSync(OUT)) throw new Error("out/ not found — run `pnpm build` first");
   const sentences = Object.values(snapshot.sentences);
 

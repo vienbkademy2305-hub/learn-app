@@ -1,8 +1,8 @@
 /**
- * Role-play dialogues of the HSK1 lessons (data/editorial/dialogues/hsk1.yaml, editorial draft).
+ * Role-play dialogues of the HSK lessons (data/editorial/dialogues/hsk<level>.yaml, editorial drafts).
  * Read at build time, like the content snapshot.
  */
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { parse } from "yaml";
 
@@ -13,10 +13,13 @@ let cache: Record<string, ZhDialogueLine[]> | undefined;
 
 export function zhDialogues(): Record<string, ZhDialogueLine[]> {
   if (!cache) {
-    const raw = parse(readFileSync(path.join(process.cwd(), "data", "editorial", "dialogues", "hsk1.yaml"), "utf8")) as Raw;
-    cache = Object.fromEntries(
-      Object.entries(raw.lessons ?? {}).map(([slug, lines]) => [slug, lines.map((l) => ({ speaker: String(l.s), text: String(l.zh), pinyin: String(l.py), vi: String(l.vi) }))]),
-    );
+    const dir = path.join(process.cwd(), "data", "editorial", "dialogues");
+    cache = {};
+    for (const file of readdirSync(dir).filter((f) => /^hsk\d+\.yaml$/.test(f)).sort()) {
+      const raw = parse(readFileSync(path.join(dir, file), "utf8")) as Raw;
+      for (const [slug, lines] of Object.entries(raw.lessons ?? {}))
+        cache[slug] = lines.map((l) => ({ speaker: String(l.s), text: String(l.zh), pinyin: String(l.py), vi: String(l.vi) }));
+    }
   }
   return cache;
 }

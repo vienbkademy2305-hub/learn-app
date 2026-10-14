@@ -1,22 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { content, getWord } from "@/content/load";
+import { getLevels, getWord, lessonsOfLevel } from "@/content/load";
 import { LessonProgress, LevelProgress } from "@/features/progress/ProgressWidgets";
 
 export const dynamicParams = false;
 
-/** Only HSK1 exists in PHASE 2; the route is level-generic for HSK2–6 later. */
 export function generateStaticParams() {
-  return [{ level: content().level }];
+  return getLevels().map((level) => ({ level }));
 }
 
-export const metadata: Metadata = { title: "Lộ trình HSK1" };
+export async function generateMetadata({ params }: { params: Promise<{ level: string }> }): Promise<Metadata> {
+  return { title: `Lộ trình HSK${(await params).level}` };
+}
 
 export default async function HskLevelPage({ params }: { params: Promise<{ level: string }> }) {
   const { level } = await params;
-  const { lessons } = content();
-  if (level !== content().level) notFound();
+  if (!getLevels().includes(level)) notFound();
+  const lessons = lessonsOfLevel(level);
 
   return (
     <div className="space-y-6">
@@ -27,10 +28,10 @@ export default async function HskLevelPage({ params }: { params: Promise<{ level
       </div>
 
       <div className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
-        <LevelProgress lessons={lessons} />
+        <LevelProgress lessons={lessons} level={level} />
       </div>
 
-      <Link
+      {level === "1" && <Link
         href="/zh/pinyin"
         className="flex items-center gap-4 rounded-2xl border border-brand-200 bg-brand-50/60 p-5 shadow-sm transition hover:border-brand-300 hover:shadow-md"
       >
@@ -40,7 +41,7 @@ export default async function HskLevelPage({ params }: { params: Promise<{ level
           <span className="block text-sm text-stone-600">Mới bắt đầu? Học cách đọc pinyin, 4 thanh điệu, thanh mẫu, vận mẫu và nét chữ cơ bản trước Bài 1.</span>
         </span>
         <span className="ml-auto hidden text-sm font-medium text-brand-700 sm:inline">Bắt đầu →</span>
-      </Link>
+      </Link>}
 
       <ol className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {lessons.map((lesson) => {

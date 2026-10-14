@@ -4,12 +4,12 @@ import { describe, expect, it } from "vitest";
 import { zhDialogues } from "@/content/zh-dialogues";
 import { splitPinyin } from "@/domain/spelling";
 
-const lessons = (JSON.parse(readFileSync(path.join(process.cwd(), ".data", "content", "hsk1.json"), "utf8")) as { lessons: Array<{ slug: string }> }).lessons;
+const lessons = (JSON.parse(readFileSync(path.join(process.cwd(), ".data", "content", "zh.json"), "utf8")) as { lessons: Array<{ slug: string }> }).lessons;
 
 /** Syllables in a pinyin string: vowel groups ("xuésheng" → 2). */
 const syllables = (py: string) => (splitPinyin(py.replace(/[^\p{L}\s]/gu, " ")).letters ? py.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "").match(/[aeiouv]+/g)?.length ?? 0 : 0);
 
-describe("HSK1 role-play dialogues", () => {
+describe("HSK role-play dialogues", () => {
   const all = zhDialogues();
   it("every lesson has a two-person dialogue", () => {
     for (const l of lessons) {

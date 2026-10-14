@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence, getWord } from "@/content/load";
 import { PracticeFrame } from "@/features/practice/PracticeFrame";
@@ -11,7 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Nói từ tiếng Việt · Bài ${lesson.number}` : "Nói từ tiếng Việt" };
+  return { title: lesson ? `Nói từ tiếng Việt · ${lessonLabel(lesson)}` : "Nói từ tiếng Việt" };
 }
 
 /** Vietnamese → spoken Chinese: lesson sentences then words, checked by the browser's speech recognition. */

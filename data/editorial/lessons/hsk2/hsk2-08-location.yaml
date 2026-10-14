@@ -1,0 +1,84 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-08-location
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Địa điểm và phương hướng
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:银行|yin2hang2
+      - word:对面|dui4mian4
+      - word:药店|yao4dian4
+      - word:超市|chao1shi4
+      - word:入口|ru4kou3
+      - word:大门|da4men2
+      - word:出口|chu1kou3
+      - word:往|wang3
+      - word:市|shi4
+      - word:中心|zhong1xin1
+      - word:街|jie1
+      - word:店|dian4
+      - word:面前|mian4qian2
+      - word:公路|gong1lu4
+      - word:路边|lu4bian1
+      - word:来自|lai2zi4
+      - word:东北|dong1bei3
+      - word:西南|xi1nan2
+      - word:不同|bu4tong2
+      - word:里头|li3tou5
+      - word:凉快|liang2kuai5
+      - word:心里|xin1li5
+      - word:身边|shen1bian1
+      - word:西方|xi1fang1
+      - word:做法|zuo4fa3
+      - word:进入|jin4ru4
+      - word:向|xiang4
+      - word:东南|dong1nan2
+      - word:省|sheng3
+      - word:西北|xi1bei3
+      - word:院|yuan4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0163
+      - sentence:hsk-sentences-audio/hsk2-0164
+      - sentence:hsk-sentences-audio/hsk2-0165
+      - sentence:hsk-sentences-audio/hsk2-0166
+      - sentence:hsk-sentences-audio/hsk2-0167
+      - sentence:hsk-sentences-audio/hsk2-0168
+      - sentence:hsk-sentences-audio/hsk2-0169
+      - sentence:hsk-sentences-audio/hsk2-0170
+      - sentence:hsk-sentences-audio/hsk2-0171
+      - sentence:hsk-sentences-audio/hsk2-0172
+      - sentence:hsk-sentences-audio/hsk2-0173
+      - sentence:hsk-sentences-audio/hsk2-0174
+      - sentence:hsk-sentences-audio/hsk2-0175
+      - sentence:hsk-sentences-audio/hsk2-0176
+      - sentence:hsk-sentences-audio/hsk2-0177
+      - sentence:hsk-sentences-audio/hsk2-0178
+      - sentence:hsk-sentences-audio/hsk2-0488
+      - sentence:hsk-sentences-audio/hsk2-0511
+      - sentence:hsk-sentences-audio/hsk2-0538
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0163
+      - sentence:hsk-sentences-audio/hsk2-0164
+      - sentence:hsk-sentences-audio/hsk2-0165
+      - sentence:hsk-sentences-audio/hsk2-0166
+      - sentence:hsk-sentences-audio/hsk2-0167
+      - sentence:hsk-sentences-audio/hsk2-0168
+      - sentence:hsk-sentences-audio/hsk2-0169
+      - sentence:hsk-sentences-audio/hsk2-0170
+      - sentence:hsk-sentences-audio/hsk2-0171
+      - sentence:hsk-sentences-audio/hsk2-0172
+      - sentence:hsk-sentences-audio/hsk2-0173
+      - sentence:hsk-sentences-audio/hsk2-0174
+      - sentence:hsk-sentences-audio/hsk2-0175
+      - sentence:hsk-sentences-audio/hsk2-0176
+      - sentence:hsk-sentences-audio/hsk2-0177
+      - sentence:hsk-sentences-audio/hsk2-0178
+      - sentence:hsk-sentences-audio/hsk2-0488
+      - sentence:hsk-sentences-audio/hsk2-0511
+      - sentence:hsk-sentences-audio/hsk2-0538

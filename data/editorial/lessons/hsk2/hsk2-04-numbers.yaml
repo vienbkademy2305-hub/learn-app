@@ -1,0 +1,116 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-04-numbers
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Số đếm
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:斤|jin1
+      - word:鱼|yu2
+      - word:公斤|gong1jin1
+      - word:条|tiao2
+      - word:长|zhang3
+      - word:公里|gong1li3
+      - word:千克|qian1ke4
+      - word:万|wan4
+      - word:亿|yi4
+      - word:人口|ren2kou3
+      - word:大部分|da4bu4fen5
+      - word:参加|can1jia1
+      - word:活动|huo2dong4
+      - word:许多|xu3duo1
+      - word:游客|you2ke4
+      - word:广场|guang3chang3
+      - word:照相|zhao4xiang4
+      - word:遍|bian4
+      - word:座|zuo4
+      - word:层|ceng2
+      - word:篇|pian1
+      - word:作文|zuo4wen2
+      - word:发|fa1
+      - word:短信|duan3xin4
+      - word:收到|shou1dao4
+      - word:封|feng1
+      - word:信|xin4
+      - word:套|tao4
+      - word:一共|yi1gong4
+      - word:少数|shao3shu4
+      - word:愿意|yuan4yi4
+      - word:好多|hao3duo1
+      - word:排队|pai2dui4
+      - word:人数|ren2shu4
+      - word:超过|chao1guo4
+      - word:数|shu4
+      - word:大量|da4liang4
+      - word:其中|qi2zhong1
+      - word:蛋|dan4
+      - word:克|ke4
+      - word:角|jiao3
+      - word:周年|zhou1nian2
+      - word:加|jia1
+      - word:等于|deng3yu2
+      - word:千|qian1
+      - word:不少|bu4shao3
+      - word:所有|suo3you3
+      - word:一部分|yi1bu4fen5
+      - word:留下|liu2xia4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0041
+      - sentence:hsk-sentences-audio/hsk2-0042
+      - sentence:hsk-sentences-audio/hsk2-0043
+      - sentence:hsk-sentences-audio/hsk2-0044
+      - sentence:hsk-sentences-audio/hsk2-0045
+      - sentence:hsk-sentences-audio/hsk2-0046
+      - sentence:hsk-sentences-audio/hsk2-0047
+      - sentence:hsk-sentences-audio/hsk2-0048
+      - sentence:hsk-sentences-audio/hsk2-0049
+      - sentence:hsk-sentences-audio/hsk2-0050
+      - sentence:hsk-sentences-audio/hsk2-0051
+      - sentence:hsk-sentences-audio/hsk2-0052
+      - sentence:hsk-sentences-audio/hsk2-0053
+      - sentence:hsk-sentences-audio/hsk2-0054
+      - sentence:hsk-sentences-audio/hsk2-0055
+      - sentence:hsk-sentences-audio/hsk2-0056
+      - sentence:hsk-sentences-audio/hsk2-0057
+      - sentence:hsk-sentences-audio/hsk2-0058
+      - sentence:hsk-sentences-audio/hsk2-0059
+      - sentence:hsk-sentences-audio/hsk2-0060
+      - sentence:hsk-sentences-audio/hsk2-0061
+      - sentence:hsk-sentences-audio/hsk2-0062
+      - sentence:hsk-sentences-audio/hsk2-0463
+      - sentence:hsk-sentences-audio/hsk2-0495
+      - sentence:hsk-sentences-audio/hsk2-0497
+      - sentence:hsk-sentences-audio/hsk2-0498
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0041
+      - sentence:hsk-sentences-audio/hsk2-0042
+      - sentence:hsk-sentences-audio/hsk2-0043
+      - sentence:hsk-sentences-audio/hsk2-0044
+      - sentence:hsk-sentences-audio/hsk2-0045
+      - sentence:hsk-sentences-audio/hsk2-0046
+      - sentence:hsk-sentences-audio/hsk2-0047
+      - sentence:hsk-sentences-audio/hsk2-0048
+      - sentence:hsk-sentences-audio/hsk2-0049
+      - sentence:hsk-sentences-audio/hsk2-0050
+      - sentence:hsk-sentences-audio/hsk2-0051
+      - sentence:hsk-sentences-audio/hsk2-0052
+      - sentence:hsk-sentences-audio/hsk2-0053
+      - sentence:hsk-sentences-audio/hsk2-0054
+      - sentence:hsk-sentences-audio/hsk2-0055
+      - sentence:hsk-sentences-audio/hsk2-0056
+      - sentence:hsk-sentences-audio/hsk2-0057
+      - sentence:hsk-sentences-audio/hsk2-0058
+      - sentence:hsk-sentences-audio/hsk2-0059
+      - sentence:hsk-sentences-audio/hsk2-0060
+      - sentence:hsk-sentences-audio/hsk2-0061
+      - sentence:hsk-sentences-audio/hsk2-0062
+      - sentence:hsk-sentences-audio/hsk2-0463
+      - sentence:hsk-sentences-audio/hsk2-0495
+      - sentence:hsk-sentences-audio/hsk2-0497
+      - sentence:hsk-sentences-audio/hsk2-0498

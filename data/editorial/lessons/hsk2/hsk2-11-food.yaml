@@ -1,0 +1,79 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-11-food
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Ăn uống
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:早餐|zao3can1
+      - word:午餐|wu3can1
+      - word:公司|gong1si1
+      - word:快餐|kuai4can1
+      - word:晚餐|wan3can1
+      - word:中餐|zhong1can1
+      - word:西餐|xi1can1
+      - word:熟|shu2
+      - word:请客|qing3ke4
+      - word:随便|sui2bian4
+      - word:菜单|cai4dan1
+      - word:为|wei4
+      - word:干杯|gan1bei1
+      - word:瓶|ping2
+      - word:酒|jiu3
+      - word:饱|bao3
+      - word:味道|wei4dao5
+      - word:方便面|fang1bian4mian4
+      - word:外卖|wai4mai4
+      - word:食物|shi2wu4
+      - word:凉|liang2
+      - word:好处|hao3chu3
+      - word:油|you2
+      - word:米|mi3
+      - word:带来|dai4lai2
+      - word:咱|zan2
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0217
+      - sentence:hsk-sentences-audio/hsk2-0218
+      - sentence:hsk-sentences-audio/hsk2-0219
+      - sentence:hsk-sentences-audio/hsk2-0220
+      - sentence:hsk-sentences-audio/hsk2-0221
+      - sentence:hsk-sentences-audio/hsk2-0222
+      - sentence:hsk-sentences-audio/hsk2-0223
+      - sentence:hsk-sentences-audio/hsk2-0224
+      - sentence:hsk-sentences-audio/hsk2-0225
+      - sentence:hsk-sentences-audio/hsk2-0226
+      - sentence:hsk-sentences-audio/hsk2-0227
+      - sentence:hsk-sentences-audio/hsk2-0228
+      - sentence:hsk-sentences-audio/hsk2-0229
+      - sentence:hsk-sentences-audio/hsk2-0230
+      - sentence:hsk-sentences-audio/hsk2-0231
+      - sentence:hsk-sentences-audio/hsk2-0232
+      - sentence:hsk-sentences-audio/hsk2-0448
+      - sentence:hsk-sentences-audio/hsk2-0456
+      - sentence:hsk-sentences-audio/hsk2-0500
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0217
+      - sentence:hsk-sentences-audio/hsk2-0218
+      - sentence:hsk-sentences-audio/hsk2-0219
+      - sentence:hsk-sentences-audio/hsk2-0220
+      - sentence:hsk-sentences-audio/hsk2-0221
+      - sentence:hsk-sentences-audio/hsk2-0222
+      - sentence:hsk-sentences-audio/hsk2-0223
+      - sentence:hsk-sentences-audio/hsk2-0224
+      - sentence:hsk-sentences-audio/hsk2-0225
+      - sentence:hsk-sentences-audio/hsk2-0226
+      - sentence:hsk-sentences-audio/hsk2-0227
+      - sentence:hsk-sentences-audio/hsk2-0228
+      - sentence:hsk-sentences-audio/hsk2-0229
+      - sentence:hsk-sentences-audio/hsk2-0230
+      - sentence:hsk-sentences-audio/hsk2-0231
+      - sentence:hsk-sentences-audio/hsk2-0232
+      - sentence:hsk-sentences-audio/hsk2-0448
+      - sentence:hsk-sentences-audio/hsk2-0456
+      - sentence:hsk-sentences-audio/hsk2-0500

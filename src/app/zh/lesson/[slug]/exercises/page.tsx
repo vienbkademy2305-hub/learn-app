@@ -1,3 +1,4 @@
+import { lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLesson, getLessons } from "@/content/load";
@@ -13,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const lesson = getLesson((await params).slug);
-  return { title: lesson ? `Bài tập · Bài ${lesson.number}` : "Bài tập" };
+  return { title: lesson ? `Bài tập · ${lessonLabel(lesson)}` : "Bài tập" };
 }
 
 /** Step 6 — exercise hub: listening, sentence writing, character writing. */

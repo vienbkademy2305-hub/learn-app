@@ -1,0 +1,113 @@
+# BẢN NHÁP sinh tự động từ topic của hsk-sentences-audio (DATA_MAPPING.md §3.6).
+# Đổi status khác "draft" sau khi biên tập để generator không ghi đè file này.
+slug: hsk2-02-identity
+status: draft
+source: derived
+hsk_level: "2"
+title_vi: Giới thiệu bản thân
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:班长|ban1zhang3
+      - word:友好|you3hao3
+      - word:组长|zu3zhang3
+      - word:老朋友|lao3peng2you5
+      - word:年轻|nian2qing1
+      - word:教师|jiao4shi1
+      - word:商人|shang1ren2
+      - word:爱人|ai4ren5
+      - word:太太|tai4tai5
+      - word:画家|hua4jia1
+      - word:作家|zuo4jia1
+      - word:小说|xiao3shuo1
+      - word:司机|si1ji1
+      - word:小心|xiao3xin1
+      - word:咱们|zan2men5
+      - word:同事|tong2shi4
+      - word:它|ta1
+      - word:猫|mao1
+      - word:它们|ta1men5
+      - word:狗|gou3
+      - word:大多数|da4duo1shu4
+      - word:考生|kao3sheng1
+      - word:成绩|cheng2ji4
+      - word:不错|bu4cuo4
+      - word:从小|cong2xiao3
+      - word:北方|bei3fang1
+      - word:长大|zhang3da4
+      - word:出生|chu1sheng1
+      - word:南方|nan2fang1
+      - word:青年|qing1nian2
+      - word:理想|li3xiang3
+      - word:球队|qiu2dui4
+      - word:队长|dui4zhang3
+      - word:大人|da4ren5
+      - word:节目|jie2mu4
+      - word:老年|lao3nian2
+      - word:网站|wang3zhan4
+      - word:青少年|qing1shao4nian2
+      - word:以后|yi3hou4
+      - word:成为|cheng2wei2
+      - word:名|ming2
+      - word:声音|sheng1yin1
+      - word:院长|yuan4zhang3
+      - word:中年|zhong1nian2
+      - word:事情|shi4qing5
+      - word:大大|da4da4
+      - word:眼睛|yan3jing5
+      - word:可爱|ke3ai4
+      - word:个子|ge4zi5
+      - word:挺|ting3
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0011
+      - sentence:hsk-sentences-audio/hsk2-0012
+      - sentence:hsk-sentences-audio/hsk2-0013
+      - sentence:hsk-sentences-audio/hsk2-0014
+      - sentence:hsk-sentences-audio/hsk2-0015
+      - sentence:hsk-sentences-audio/hsk2-0016
+      - sentence:hsk-sentences-audio/hsk2-0017
+      - sentence:hsk-sentences-audio/hsk2-0018
+      - sentence:hsk-sentences-audio/hsk2-0019
+      - sentence:hsk-sentences-audio/hsk2-0020
+      - sentence:hsk-sentences-audio/hsk2-0021
+      - sentence:hsk-sentences-audio/hsk2-0022
+      - sentence:hsk-sentences-audio/hsk2-0023
+      - sentence:hsk-sentences-audio/hsk2-0024
+      - sentence:hsk-sentences-audio/hsk2-0025
+      - sentence:hsk-sentences-audio/hsk2-0026
+      - sentence:hsk-sentences-audio/hsk2-0027
+      - sentence:hsk-sentences-audio/hsk2-0028
+      - sentence:hsk-sentences-audio/hsk2-0459
+      - sentence:hsk-sentences-audio/hsk2-0472
+      - sentence:hsk-sentences-audio/hsk2-0489
+      - sentence:hsk-sentences-audio/hsk2-0507
+      - sentence:hsk-sentences-audio/hsk2-0513
+      - sentence:hsk-sentences-audio/hsk2-0537
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0011
+      - sentence:hsk-sentences-audio/hsk2-0012
+      - sentence:hsk-sentences-audio/hsk2-0013
+      - sentence:hsk-sentences-audio/hsk2-0014
+      - sentence:hsk-sentences-audio/hsk2-0015
+      - sentence:hsk-sentences-audio/hsk2-0016
+      - sentence:hsk-sentences-audio/hsk2-0017
+      - sentence:hsk-sentences-audio/hsk2-0018
+      - sentence:hsk-sentences-audio/hsk2-0019
+      - sentence:hsk-sentences-audio/hsk2-0020
+      - sentence:hsk-sentences-audio/hsk2-0021
+      - sentence:hsk-sentences-audio/hsk2-0022
+      - sentence:hsk-sentences-audio/hsk2-0023
+      - sentence:hsk-sentences-audio/hsk2-0024
+      - sentence:hsk-sentences-audio/hsk2-0025
+      - sentence:hsk-sentences-audio/hsk2-0026
+      - sentence:hsk-sentences-audio/hsk2-0027
+      - sentence:hsk-sentences-audio/hsk2-0028
+      - sentence:hsk-sentences-audio/hsk2-0459
+      - sentence:hsk-sentences-audio/hsk2-0472
+      - sentence:hsk-sentences-audio/hsk2-0489
+      - sentence:hsk-sentences-audio/hsk2-0507
+      - sentence:hsk-sentences-audio/hsk2-0513
+      - sentence:hsk-sentences-audio/hsk2-0537
