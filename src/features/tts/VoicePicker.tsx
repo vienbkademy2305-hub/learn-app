@@ -28,7 +28,7 @@ export function VoicePicker({ lang, sample, speak }: { lang: TtsLang; sample: st
     <label className="flex flex-col gap-1 text-sm">
       <span className="font-medium text-stone-700">{label}</span>
       <select value={value} onChange={(e) => onChange(e.target.value)} className="rounded-lg bg-white px-3 py-2 ring-1 ring-inset ring-stone-300">
-        <option value="recorded">Giọng thu sẵn (mặc định)</option>
+        <option value="recorded">{lang === "zh" ? "Giọng của máy (ô phía trên)" : "Giọng thu sẵn (mặc định)"}</option>
         {groups.map((g) => (
           <optgroup key={g} label={ACCENT[g] ?? g}>
             {voices.filter((v) => v.lang === g).map((v) => (
@@ -44,17 +44,17 @@ export function VoicePicker({ lang, sample, speak }: { lang: TtsLang; sample: st
 
   return (
     <details className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm">
-      <summary className="cursor-pointer font-semibold text-stone-900">🔊 Giọng đọc</summary>
+      <summary className="cursor-pointer font-semibold text-stone-900">🔊 Giọng Google AI</summary>
       <div className="mt-3 grid gap-3 sm:grid-cols-2">
-        {select(choice.main, (main) => update({ ...choice, main }), "Giọng chính (từ, câu, bài nghe)")}
-        {select(choice.second, (second) => update({ ...choice, second }), "Giọng thứ hai (người còn lại trong hội thoại)")}
+        {select(choice.main, (main) => update({ ...choice, main }), lang === "zh" ? "Giọng đọc từ, chữ và hội thoại" : "Giọng chính (từ, câu, bài nghe)")}
+        {lang === "en" && select(choice.second, (second) => update({ ...choice, second }), "Giọng thứ hai (người còn lại trong hội thoại)")}
       </div>
       <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
         <button type="button" onClick={() => speak(sample)} className="rounded-xl bg-sky-700 px-4 py-2 font-semibold text-white hover:bg-sky-800">
           Nghe thử
         </button>
         <span className="text-stone-500">
-          Câu nào chưa có bản thu của giọng này thì tạm dùng giọng thu sẵn. Tháng này đã dùng {info.used.toLocaleString("vi-VN")}/{info.cap.toLocaleString("vi-VN")} ký tự.
+          {lang === "zh" ? "Câu ví dụ có bản thu sẵn vẫn phát bản thu; khi dịch vụ lỗi hoặc hết hạn mức thì tạm dùng giọng của máy." : "Câu nào chưa có bản thu của giọng này thì tạm dùng giọng thu sẵn."} Tháng này đã dùng {info.used.toLocaleString("vi-VN")}/{info.cap.toLocaleString("vi-VN")} ký tự.
         </span>
       </div>
     </details>
