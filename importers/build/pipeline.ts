@@ -22,6 +22,12 @@ export interface PipelineInputs {
   makemeahanzi: Map<string, MakemeahanziEntry>;
   /** index 0 = HSK level 1 */
   hskLists: HskListItem[][];
+  /** 2025 exam syllabus lists ("newest"), index 0 = level 1; stored under the standard "hsk-2026" */
+  examLists?: HskListItem[][];
+  /** hsk-sentences-audio ids above maxLevel that lessons reference (HSK3 examples taken from HSK4-6 sentences) */
+  extraSentenceIds?: Set<string>;
+  /** self-written example sentences (data/editorial/sentences-extra), no audio; `tokens` = "词|pīnyīn 词|pīnyīn …" */
+  editorialSentences?: Array<{ id: string; level: string; zh: string; tokens: string; vi: string; status?: string }>;
   hskSentences: HskSentence[];
   grammarPoints: HskGrammarPoint[];
   reviewFlags: ReviewFlag[];
@@ -107,18 +113,24 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
   };
 
   // ── 1. HSK word lists (complete-hsk-vocabulary) ────────────────────────────
-  const levelSentences = inputs.hskSentences.filter((s) => s.hsk_level <= maxLevel);
+  const levelSentences = inputs.hskSentences.filter((s) => s.hsk_level <= maxLevel || inputs.extraSentenceIds?.has(s.id));
   const attested = new Map<string, Set<string>>();
-  for (const s of levelSentences) {
+  // readings are decided by the level's own sentences only (extra HSK4-6 examples must not change HSK1-3 words)
+  for (const s of levelSentences.filter((x) => x.hsk_level <= maxLevel)) {
     for (const t of s.tokens) {
       if (!attested.has(t.word)) attested.set(t.word, new Set());
       attested.get(t.word)!.add(pinyinCompare(t.pinyin));
     }
   }
 
-  for (let level = 1; level <= maxLevel; level++) {
-    const list = inputs.hskLists[level - 1] ?? [];
-    count(`hsk${level}_list_items`, list.length);
+  // The 2021 standard ("new") gives the curriculum levels; the 2025 exam syllabus ("newest") only adds the
+  // "hsk-2026" level of a word (its exam level), creating the word when the 2021 lists do not have it.
+  const lists: Array<{ level: number; list: HskListItem[]; standard: string; prefix: string }> = [
+    ...Array.from({ length: maxLevel }, (_, i) => ({ level: i + 1, list: inputs.hskLists[i] ?? [], standard: "hsk3-2021", prefix: "new" })),
+    ...(inputs.examLists ?? []).map((list, i) => ({ level: i + 1, list, standard: "hsk-2026", prefix: "newest" })),
+  ];
+  for (const { level, list, standard, prefix } of lists) {
+    count(`${prefix}${level}_list_items`, list.length);
     for (const item of list) {
       const byKey = new Map<string, { numeric: string; traditional: string }>();
       const lower = item.forms.filter((f) => !/^[A-Z]/.test(f.transcriptions.numeric));
@@ -155,7 +167,7 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
             }).row;
         if (!group) count("hsk_words_not_in_cvdict");
         // English meanings of every form with this reading (complete-hsk-vocabulary, from CC-CEDICT).
-        const recordId = `new/${level}|${item.simplified}|${pinyinKey(r.numeric)}`;
+        const recordId = `${prefix}/${level}|${item.simplified}|${pinyinKey(r.numeric)}`;
         const isProper = (n: string) => /^[A-Z]/.test(n);
         const sameReading = item.forms.filter(
           (f) => pinyinKey(f.transcriptions.numeric) === pinyinKey(r.numeric) && isProper(f.transcriptions.numeric) === isProper(r.numeric),
@@ -164,8 +176,8 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
           for (const meaning of f.meanings) g.addSense(word.id, "en", meaning, "complete-hsk-vocabulary", recordId);
         }
         word.inCurriculum = true;
-        g.setHsk("word", word.id, String(level), "complete-hsk-vocabulary");
-        g.addSource("word", word.id, "complete-hsk-vocabulary", `new/${level}|${item.simplified}|${pinyinKey(r.numeric)}`, group ? "attribute" : "primary");
+        g.setHsk("word", word.id, String(level), "complete-hsk-vocabulary", false, standard);
+        g.addSource("word", word.id, "complete-hsk-vocabulary", recordId, group ? "attribute" : "primary");
       }
     }
   }
@@ -207,6 +219,28 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
   const tokenResolution: Record<string, number> = {};
   const unresolvedTokens = new Map<string, { reason: string; count: number; pinyin: string }>();
 
+  const addTokens = (sentenceId: number, tokens: Array<{ word: string; pinyin: string; gloss_en?: string | null }>) =>
+    tokens.forEach((t, position) => {
+      let resolution: (typeof g.tokens)[number]["resolution"];
+      let wordId: number | null = null;
+      if (![...t.word].some(isHan)) {
+        resolution = /^[\p{P}\p{S}\s]+$/u.test(t.word) ? "punct" : "non_han";
+      } else {
+        const result = matchByPinyin(t.pinyin, candidatesFor(t.word));
+        if (result.status === "unresolved") {
+          resolution = "unresolved";
+          const k = `${t.word}|${t.pinyin}`;
+          const prev = unresolvedTokens.get(k);
+          unresolvedTokens.set(k, { reason: result.reason, count: (prev?.count ?? 0) + 1, pinyin: t.pinyin });
+        } else {
+          resolution = result.status;
+          wordId = wordForKey(result.key).id;
+        }
+      }
+      tokenResolution[resolution] = (tokenResolution[resolution] ?? 0) + 1;
+      g.tokens.push({ sentenceId, position, surface: t.word, wordId, pinyin: t.pinyin || null, glossEn: t.gloss_en ?? null, resolution });
+    });
+
   for (const s of levelSentences) {
     const { row, created } = g.ensureSentence(s.chinese);
     g.addSource("sentence", row.id, "hsk-sentences-audio", s.id, created ? "primary" : "merged");
@@ -228,26 +262,7 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
       g.translations.push({ id: g.nextId("sentence_translations"), sentenceId: row.id, lang: "en", text: s.translation.en, status: "imported", sourceId: "hsk-sentences-audio", sourceRecordId: s.id });
     }
 
-    s.tokens.forEach((t, position) => {
-      let resolution: (typeof g.tokens)[number]["resolution"];
-      let wordId: number | null = null;
-      if (![...t.word].some(isHan)) {
-        resolution = /^[\p{P}\p{S}\s]+$/u.test(t.word) ? "punct" : "non_han";
-      } else {
-        const result = matchByPinyin(t.pinyin, candidatesFor(t.word));
-        if (result.status === "unresolved") {
-          resolution = "unresolved";
-          const k = `${t.word}|${t.pinyin}`;
-          const prev = unresolvedTokens.get(k);
-          unresolvedTokens.set(k, { reason: result.reason, count: (prev?.count ?? 0) + 1, pinyin: t.pinyin });
-        } else {
-          resolution = result.status;
-          wordId = wordForKey(result.key).id;
-        }
-      }
-      tokenResolution[resolution] = (tokenResolution[resolution] ?? 0) + 1;
-      g.tokens.push({ sentenceId: row.id, position, surface: t.word, wordId, pinyin: t.pinyin || null, glossEn: t.gloss_en ?? null, resolution });
-    });
+    addTokens(row.id, s.tokens);
 
     for (const tag of s.grammar_tags) {
       const gp = ensureGrammar(tag);
@@ -296,6 +311,25 @@ export function buildGraph(inputs: PipelineInputs, maxLevel: number) {
     g.review("token", null, "unmatched_token", { surface, pinyin: v.pinyin, reason: v.reason, occurrences: v.count });
   }
   stats.unresolved_token_types = unresolvedTokens.size;
+
+  // ── 3b. Self-written sentences (editorial, no audio: the site reads them with a TTS voice) ────────────
+  for (const e of inputs.editorialSentences ?? []) {
+    const tokens = e.tokens.trim().split(/\s+/).map((t) => {
+      const [word, pinyin] = t.split("|") as [string, string?];
+      // punctuation is written without "|": it is its own pinyin (keeps "，。" in the sentence pinyin)
+      return { word, pinyin: pinyin ?? ([...word].some(isHan) ? "" : word) };
+    });
+    const joined = tokens.map((t) => t.word).join("");
+    if (joined !== e.zh) throw new Error(`editorial sentence ${e.id}: tokens "${joined}" ≠ zh "${e.zh}"`);
+    const { row, created } = g.ensureSentence(e.zh);
+    g.addSource("sentence", row.id, "editorial", e.id, created ? "primary" : "merged");
+    if (!created) continue;
+    g.setHsk("sentence", row.id, e.level, "editorial");
+    row.pinyinMarked = tokens.map((t) => t.pinyin).filter(Boolean).join(" ").replace(/ ([，。！？、；：])/g, "$1");
+    addTokens(row.id, tokens);
+    g.translations.push({ id: g.nextId("sentence_translations"), sentenceId: row.id, lang: "vi", text: e.vi, status: e.status ?? "draft", sourceId: "editorial", sourceRecordId: e.id });
+    count("sentences_editorial");
+  }
 
   // ── 4. hsk1-chinese-learning (non-publishable, cross-links only) ───────────
   const hsk1Stats: Record<string, number> = {};

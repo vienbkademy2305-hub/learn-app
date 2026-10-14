@@ -1,0 +1,76 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-01-people
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Con người và gia đình
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:家人|jia1ren2
+      - word:们|men5
+      - word:女士|nv3shi4
+      - word:妻子|qi1zi5
+      - word:丈夫|zhang4fu5
+      - word:夫妻|fu1qi1
+      - word:阿姨|a1yi2
+      - word:叔叔|shu1shu5
+      - word:姐妹|jie3mei4
+      - word:邻居|lin2ju1
+      - word:名人|ming2ren2
+      - word:员|yuan2
+      - word:运动员|yun4dong4yuan2
+      - word:矮|ai3
+      - word:胖|pang4
+      - word:瘦|shou4
+      - word:身高|shen1gao1
+      - word:聪明|cong1ming5
+      - word:耳朵|er3duo5
+      - word:牙|ya2
+      - word:头|tou2
+      - word:认得|ren4de5
+      - word:不见|bu4jian4
+      - word:结婚|jie2hun1
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk6-0953
+      - sentence:hsk-sentences-audio/hsk6-0040
+      - sentence:hsk-sentences-audio/hsk2-0191
+      - sentence:hsk-sentences-audio/hsk2-0144
+      - sentence:hsk-sentences-audio/hsk4-0020
+      - sentence:hsk-sentences-audio/hsk4-0006
+      - sentence:hsk-sentences-audio/hsk4-0051
+      - sentence:hsk-sentences-audio/hsk4-0007
+      - sentence:hsk-sentences-audio/hsk4-0004
+      - sentence:hsk-sentences-audio/hsk4-0001
+      - sentence:hsk-sentences-audio/hsk4-0024
+      - sentence:hsk-sentences-audio/hsk5-0035
+      - sentence:hsk-sentences-audio/hsk5-0022
+      - sentence:hsk-sentences-audio/hsk4-0022
+      - sentence:hsk-sentences-audio/hsk3-0076
+      - sentence:hsk-sentences-audio/hsk3-0372
+      - sentence:hsk-sentences-audio/hsk4-0729
+      - sentence:hsk-sentences-audio/hsk4-0747
+      - sentence:hsk-sentences-audio/hsk4-0034
+      - sentence:hsk-sentences-audio/hsk4-0629
+      - sentence:hsk-sentences-audio/hsk3-0646
+      - sentence:hsk-sentences-audio/hsk4-0798
+      - sentence:hsk-sentences-audio/hsk5-0728
+      - sentence:hsk-sentences-audio/hsk4-0057
+      - sentence:hsk-sentences-audio/hsk5-0796
+      - sentence:hsk-sentences-audio/hsk5-0019
+      - sentence:hsk-sentences-audio/hsk5-0782
+      - sentence:hsk-sentences-audio/hsk4-0254
+      - sentence:hsk-sentences-audio/hsk4-0048
+      - sentence:hsk-sentences-audio/hsk3-0178
+      - sentence:hsk-sentences-audio/hsk5-0542
+      - sentence:hsk-sentences-audio/hsk3-0664
+      - sentence:hsk-sentences-audio/hsk5-0955
+      - sentence:hsk-sentences-audio/hsk2-0010
+      - sentence:hsk-sentences-audio/hsk5-0669
+      - sentence:hsk-sentences-audio/hsk3-0032
+      - sentence:hsk-sentences-audio/hsk3-0030
+  - type: listening
+    items: *a1

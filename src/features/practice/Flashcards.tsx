@@ -85,7 +85,7 @@ function Card({ word, front, flipped, onFlip, hideWord = false }: { word: FlashW
               {word.example.pinyin && <p className="text-sm text-brand-700">{word.example.pinyin}</p>}
               {word.example.vi && <p className="text-sm text-stone-600">{word.example.vi}</p>}
               <div className="mt-2">
-                <AudioButtons audio={word.example.audio} durations={word.example.audioMs} compact />
+                <AudioButtons audio={word.example.audio} durations={word.example.audioMs} compact text={word.example.simplified} />
               </div>
             </div>
           )}

@@ -35,7 +35,7 @@ export function WordDetail({ word, lessonSlug }: { word: WordData; lessonSlug?: 
             )}
           </div>
           <div className="flex flex-col items-end gap-3">
-            <HskBadge level={word.hskLevel} />
+            <HskBadge level={word.hskLevel} exam={word.examLevel} />
             <LearnedToggle word={word.slug} size="lg" />
           </div>
         </div>

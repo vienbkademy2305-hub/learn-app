@@ -53,6 +53,8 @@ export interface WordData {
   traditional: string | null;
   pinyin: string;
   hskLevel: string | null;
+  /** level in the 2025 exam syllabus (HSK 考试大纲, exam from 2026-12); null = not an exam word up to HSK3 */
+  examLevel?: string | null;
   inCurriculum: boolean;
   /** `stroke`: storage key of the hanzi-writer stroke data, null when the character has none. */
   chars: Array<{ hanzi: string; pinyin: string | null; sinoViet: string[]; stroke: string | null }>;

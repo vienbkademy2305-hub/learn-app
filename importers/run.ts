@@ -3,16 +3,17 @@
  * Verifies pinned inputs, builds the canonical graph, (re)generates lesson
  * drafts, writes the local database and copies audio assets.
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { DEFAULT_DB_DIR, PROJECT_ROOT } from "../src/db/client";
-import { HSK_LIST_FILE, readHskList } from "./adapters/complete-hsk-vocabulary";
+import { EXAM_LEVELS, HSK_EXAM_LIST_FILE, HSK_LIST_FILE, readHskList } from "./adapters/complete-hsk-vocabulary";
 import { HSK_SENTENCES_FILES, readGrammarPoints, readReviewFlags, readSentences } from "./adapters/hsk-sentences-audio";
 import { HSK1_CL_FILES, readSentenceCourses, readVocabulary } from "./adapters/hsk1-chinese-learning";
 import { readCvdict, readMakemeahanzi, readSinoVietMap, XUE_HANZI_FILES } from "./adapters/xue-hanzi";
 import { loadSentenceTranslations } from "./build/editorial";
 import { generateLessonDrafts, loadLessons } from "./build/lessons";
 import { buildGraph, type PipelineInputs } from "./build/pipeline";
+import YAML from "yaml";
 import { copyAudio, writeGraph } from "./build/write";
 import { downloadPath, loadManifest, repoPath, verifyInputs, type Manifest } from "./lib/manifest";
 
@@ -36,6 +37,7 @@ export function loadInputs(manifest: Manifest, maxLevel: number): PipelineInputs
     sinoVietOverrides: readSinoVietMap(xue(XUE_HANZI_FILES.sinoVietOverrides)),
     makemeahanzi: readMakemeahanzi(xue(XUE_HANZI_FILES.makemeahanzi)),
     hskLists: Array.from({ length: maxLevel }, (_, i) => readHskList(downloadPath("complete-hsk-vocabulary", hskPin.commit, HSK_LIST_FILE(i + 1)))),
+    examLists: Array.from({ length: EXAM_LEVELS }, (_, i) => readHskList(downloadPath("complete-hsk-vocabulary", hskPin.commit, HSK_EXAM_LIST_FILE(i + 1)))),
     hskSentences: readSentences(hsa(HSK_SENTENCES_FILES.sentences)),
     grammarPoints: readGrammarPoints(hsa(HSK_SENTENCES_FILES.grammar)),
     reviewFlags: readReviewFlags(hsa(HSK_SENTENCES_FILES.reviewFlags)),
@@ -46,14 +48,42 @@ export function loadInputs(manifest: Manifest, maxLevel: number): PipelineInputs
   };
 }
 
+/** Every hsk-sentences-audio id referenced by the lesson files of levels 1..level (any sentence level). */
+function lessonSentenceIds(level: number): Set<string> {
+  const ids = new Set<string>();
+  for (let l = 1; l <= level; l++) {
+    const dir = path.join(PROJECT_ROOT, "data", "editorial", "lessons", `hsk${l}`);
+    if (!existsSync(dir)) continue;
+    for (const f of readdirSync(dir).filter((n) => n.endsWith(".yaml")))
+      for (const m of readFileSync(path.join(dir, f), "utf8").matchAll(/sentence:hsk-sentences-audio\/(hsk\d-\d+)/g)) ids.add(m[1]!);
+  }
+  return ids;
+}
+
+/** Self-written example sentences of levels 1..level (data/editorial/sentences-extra/hsk<l>.yaml). */
+function editorialSentences(level: number) {
+  const out: NonNullable<PipelineInputs["editorialSentences"]> = [];
+  for (let l = 1; l <= level; l++) {
+    const file = path.join(PROJECT_ROOT, "data", "editorial", "sentences-extra", `hsk${l}.yaml`);
+    if (!existsSync(file)) continue;
+    const doc = YAML.parse(readFileSync(file, "utf8")) as { default_status?: string; sentences: Array<{ id: string; zh: string; t: string; vi: string; status?: string }> };
+    for (const e of doc.sentences) out.push({ id: e.id, level: String(l), zh: e.zh, tokens: e.t, vi: e.vi, status: e.status ?? doc.default_status });
+  }
+  return out;
+}
+
 async function main() {
   const level = Number(arg("level", "1"));
+  // --no-drafts: do not generate topic drafts for `level` (HSK3 lessons follow the exam syllabus, written by hand)
+  const drafts_ = !process.argv.includes("--no-drafts");
   const dbDir = arg("db", DEFAULT_DB_DIR);
   const startedAt = new Date();
 
   const manifest = loadManifest();
   verifyInputs(manifest);
   const inputs = loadInputs(manifest, level);
+  inputs.extraSentenceIds = lessonSentenceIds(level);
+  inputs.editorialSentences = editorialSentences(level);
 
   const { graph, stats } = buildGraph(inputs, level);
   stats.cvdict_lines = inputs.cvdict.length;
@@ -73,7 +103,7 @@ async function main() {
   }
   for (let l = 1; l <= level; l++) {
     const lessonDir = path.join(PROJECT_ROOT, "data", "editorial", "lessons", `hsk${l}`);
-    if (l === level) drafts = generateLessonDrafts(graph, l, lessonDir);
+    if (l === level && drafts_) drafts = generateLessonDrafts(graph, l, lessonDir);
     const r = loadLessons(graph, lessonDir);
     lessons.lessons += r.lessons;
     lessons.items += r.items;

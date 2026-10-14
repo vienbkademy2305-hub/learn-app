@@ -1,0 +1,300 @@
+# Bản dịch tiếng Việt cho câu ví dụ của bài HSK3 (theo đề thi 2026) — câu của hsk-sentences-audio các cấp 3–6.
+# BẢN NHÁP do Claude (AI) dịch ngày 2026-10-14 — CẦN NGƯỜI DUYỆT. Đổi `status` thành `reviewed` khi đã duyệt.
+# `zh` là câu gốc để importer phát hiện khi dữ liệu nguồn thay đổi.
+source: editorial
+default_status: draft
+sentences:
+  - { id: hsk3-0030, zh: "他们两个人去年结婚了。", vi: "Hai người họ đã kết hôn năm ngoái." }
+  - { id: hsk3-0032, zh: "她还没有结婚的对象。", vi: "Cô ấy vẫn chưa có đối tượng để kết hôn." }
+  - { id: hsk3-0034, zh: "我家买了新家具和沙发。", vi: "Nhà tôi đã mua đồ nội thất mới và ghế sô pha." }
+  - { id: hsk3-0035, zh: "屋子里安装了空调。", vi: "Trong phòng đã lắp điều hòa." }
+  - { id: hsk3-0038, zh: "我的家乡是一个小村子。", vi: "Quê tôi là một ngôi làng nhỏ." }
+  - { id: hsk3-0041, zh: "搬家的时候，家具都要搬走。", vi: "Khi chuyển nhà, đồ đạc đều phải chuyển đi hết." }
+  - { id: hsk3-0044, zh: "我买了两张电影票。", vi: "Tôi đã mua hai vé xem phim." }
+  - { id: hsk3-0045, zh: "她有一双漂亮的鞋。", vi: "Cô ấy có một đôi giày đẹp." }
+  - { id: hsk3-0046, zh: "这种水果很甜。", vi: "Loại hoa quả này rất ngọt." }
+  - { id: hsk3-0047, zh: "每个人有两千块钱左右。", vi: "Mỗi người có khoảng hai nghìn đồng." }
+  - { id: hsk3-0054, zh: "大概有一千万人观看了直播。", vi: "Khoảng mười triệu người đã xem buổi phát trực tiếp." }
+  - { id: hsk3-0071, zh: "后年我打算去留学。", vi: "Năm sau nữa tôi định đi du học." }
+  - { id: hsk3-0072, zh: "近期天气变化很大。", vi: "Thời gian gần đây thời tiết thay đổi rất nhiều." }
+  - { id: hsk3-0074, zh: "自从搬家以后，我很少见到他。", vi: "Từ khi chuyển nhà, tôi rất ít khi gặp anh ấy." }
+  - { id: hsk3-0076, zh: "他曾经是一名队员。", vi: "Anh ấy từng là một thành viên của đội." }
+  - { id: hsk3-0082, zh: "我上初中一年级，功课不少。", vi: "Tôi đang học lớp 6 (năm đầu cấp hai), bài vở khá nhiều." }
+  - { id: hsk3-0102, zh: "把电子邮件发到我的邮箱。", vi: "Hãy gửi email vào hộp thư của tôi." }
+  - { id: hsk3-0108, zh: "他去国外留学，学习先进技术。", vi: "Anh ấy đi du học nước ngoài để học kỹ thuật tiên tiến." }
+  - { id: hsk3-0119, zh: "书的上面有一张图。", vi: "Bên trên cuốn sách có một bức tranh." }
+  - { id: hsk3-0120, zh: "桌子下面和底下都很干净。", vi: "Bên dưới cái bàn rất sạch sẽ." }
+  - { id: hsk3-0121, zh: "房子里面很暖和，外面很冷。", vi: "Trong nhà rất ấm, bên ngoài thì rất lạnh." }
+  - { id: hsk3-0122, zh: "学校前面有一座桥。", vi: "Phía trước trường có một cây cầu." }
+  - { id: hsk3-0137, zh: "请把行李放在上面。", vi: "Hãy đặt hành lý lên trên." }
+  - { id: hsk3-0138, zh: "过海关要打开行李。", vi: "Qua hải quan phải mở hành lý ra." }
+  - { id: hsk3-0144, zh: "路上要注意安全。", vi: "Đi đường phải chú ý an toàn." }
+  - { id: hsk3-0146, zh: "前面发生了交通事故。", vi: "Phía trước đã xảy ra tai nạn giao thông." }
+  - { id: hsk3-0151, zh: "这件衬衫的价格很合理。", vi: "Giá của chiếc áo sơ mi này rất hợp lý." }
+  - { id: hsk3-0152, zh: "她买了一条裙子和一条短裤。", vi: "Cô ấy đã mua một chiếc váy và một chiếc quần đùi." }
+  - { id: hsk3-0153, zh: "这件上衣是有名的牌子。", vi: "Chiếc áo này là của một thương hiệu nổi tiếng." }
+  - { id: hsk3-0162, zh: "我早上喝咖啡，晚上喝绿茶。", vi: "Buổi sáng tôi uống cà phê, buổi tối uống trà xanh." }
+  - { id: hsk3-0163, zh: "请来一杯奶茶和一杯果汁。", vi: "Cho một cốc trà sữa và một cốc nước hoa quả." }
+  - { id: hsk3-0164, zh: "苹果和香蕉都很有营养。", vi: "Táo và chuối đều rất bổ dưỡng." }
+  - { id: hsk3-0165, zh: "这个汤有点儿甜。", vi: "Món canh này hơi ngọt." }
+  - { id: hsk3-0166, zh: "少吃糖对身体好。", vi: "Ăn ít đường thì tốt cho sức khỏe." }
+  - { id: hsk3-0167, zh: "他喝了一杯啤酒和一杯红酒。", vi: "Anh ấy đã uống một cốc bia và một ly rượu vang đỏ." }
+  - { id: hsk3-0169, zh: "红茶和可乐，你要哪个？", vi: "Hồng trà và cô-ca, bạn muốn cái nào?" }
+  - { id: hsk3-0173, zh: "天空中一片光明。", vi: "Bầu trời sáng rực." }
+  - { id: hsk3-0174, zh: "这里的气候比较暖和。", vi: "Khí hậu ở đây tương đối ấm áp." }
+  - { id: hsk3-0175, zh: "突然下起了大雨。", vi: "Đột nhiên trời đổ mưa to." }
+  - { id: hsk3-0178, zh: "我感冒了，头很痛。", vi: "Tôi bị cảm rồi, đau đầu lắm." }
+  - { id: hsk3-0185, zh: "卫生间要保持卫生。", vi: "Nhà vệ sinh phải luôn giữ sạch sẽ." }
+  - { id: hsk3-0186, zh: "他每天跑步，身体结实。", vi: "Anh ấy chạy bộ mỗi ngày, cơ thể rất khỏe mạnh." }
+  - { id: hsk3-0188, zh: "今晚有一场足球比赛。", vi: "Tối nay có một trận bóng đá." }
+  - { id: hsk3-0192, zh: "他在世界杯上得分最多。", vi: "Anh ấy ghi nhiều bàn nhất tại World Cup." }
+  - { id: hsk3-0195, zh: "我周末去游泳，你去跳舞吗？", vi: "Cuối tuần tôi đi bơi, bạn có đi nhảy không?" }
+  - { id: hsk3-0204, zh: "这个游戏很受欢迎。", vi: "Trò chơi này rất được ưa chuộng." }
+  - { id: hsk3-0211, zh: "我希望你能成功。", vi: "Tôi hy vọng bạn có thể thành công." }
+  - { id: hsk3-0222, zh: "我支持他的决定。", vi: "Tôi ủng hộ quyết định của anh ấy." }
+  - { id: hsk3-0230, zh: "他对将来充满希望。", vi: "Anh ấy tràn đầy hy vọng vào tương lai." }
+  - { id: hsk3-0244, zh: "他的行为很奇怪。", vi: "Hành vi của anh ấy rất kỳ lạ." }
+  - { id: hsk3-0247, zh: "为了理想，他不断努力。", vi: "Vì lý tưởng, anh ấy không ngừng cố gắng." }
+  - { id: hsk3-0251, zh: "农民养了马、牛、羊和猪。", vi: "Người nông dân nuôi ngựa, bò, cừu và lợn." }
+  - { id: hsk3-0252, zh: "龙是中国文化中的形象。", vi: "Rồng là một hình tượng trong văn hóa Trung Quốc." }
+  - { id: hsk3-0259, zh: "保护环境是每个人的责任。", vi: "Bảo vệ môi trường là trách nhiệm của mỗi người." }
+  - { id: hsk3-0269, zh: "我收到了一个重要邮件。", vi: "Tôi đã nhận được một email quan trọng." }
+  - { id: hsk3-0275, zh: "有关部门公开了文件。", vi: "Cơ quan liên quan đã công bố văn bản." }
+  - { id: hsk3-0276, zh: "互联网改变了世界。", vi: "Internet đã thay đổi thế giới." }
+  - { id: hsk3-0279, zh: "游戏的规定很简单。", vi: "Luật chơi của trò chơi rất đơn giản." }
+  - { id: hsk3-0283, zh: "各位，请注意！", vi: "Thưa mọi người, xin chú ý!" }
+  - { id: hsk3-0289, zh: "这两个方法，比较一下。", vi: "Hai cách này, hãy so sánh một chút." }
+  - { id: hsk3-0290, zh: "你不必害怕。", vi: "Bạn không cần phải sợ." }
+  - { id: hsk3-0291, zh: "我不得不同意。", vi: "Tôi đành phải đồng ý." }
+  - { id: hsk3-0293, zh: "当然可以！", vi: "Tất nhiên là được!" }
+  - { id: hsk3-0294, zh: "到底发生了什么？", vi: "Rốt cuộc đã xảy ra chuyện gì?" }
+  - { id: hsk3-0312, zh: "屋子里很乱。", vi: "Trong phòng rất bừa bộn." }
+  - { id: hsk3-0314, zh: "其实我早就知道了。", vi: "Thật ra tôi đã biết từ lâu rồi." }
+  - { id: hsk3-0316, zh: "实际上，问题很简单。", vi: "Trên thực tế, vấn đề rất đơn giản." }
+  - { id: hsk3-0317, zh: "他始终坚持着。", vi: "Anh ấy trước sau vẫn kiên trì." }
+  - { id: hsk3-0321, zh: "两国相互理解，关系相当友好。", vi: "Hai nước hiểu nhau, quan hệ khá hữu nghị." }
+  - { id: hsk3-0326, zh: "我只是开个玩笑。", vi: "Tôi chỉ nói đùa thôi." }
+  - { id: hsk3-0328, zh: "他终于成功了。", vi: "Cuối cùng anh ấy đã thành công." }
+  - { id: hsk3-0331, zh: "他总是第一个到。", vi: "Anh ấy luôn là người đến đầu tiên." }
+  - { id: hsk3-0332, zh: "城市在快速发展。", vi: "Thành phố đang phát triển nhanh chóng." }
+  - { id: hsk3-0335, zh: "他的成绩被大家认可了。", vi: "Thành tích của anh ấy đã được mọi người công nhận." }
+  - { id: hsk3-0336, zh: "除了他，大家都来了。", vi: "Ngoài anh ấy ra, mọi người đều đến rồi." }
+  - { id: hsk3-0342, zh: "他不仅会唱歌，而且会跳舞。", vi: "Anh ấy không chỉ biết hát mà còn biết nhảy." }
+  - { id: hsk3-0346, zh: "只有努力，才能成功。", vi: "Chỉ có nỗ lực mới có thể thành công." }
+  - { id: hsk3-0350, zh: "天气好极了！", vi: "Thời tiết đẹp tuyệt!" }
+  - { id: hsk3-0354, zh: "你先上去，我马上上来。", vi: "Bạn lên trước đi, tôi lên ngay đây." }
+  - { id: hsk3-0355, zh: "他走下去了，一会儿再下来。", vi: "Anh ấy đi xuống rồi, lát nữa sẽ lại xuống." }
+  - { id: hsk3-0360, zh: "我们等了很久。", vi: "Chúng tôi đã đợi rất lâu." }
+  - { id: hsk3-0368, zh: "请到前面交费。", vi: "Xin mời lên phía trước nộp tiền." }
+  - { id: hsk3-0372, zh: "工作人员都到齐了。", vi: "Nhân viên đã có mặt đầy đủ." }
+  - { id: hsk3-0387, zh: "文化在民间传播。", vi: "Văn hóa được lan truyền trong dân gian." }
+  - { id: hsk3-0402, zh: "周末我们去朋友家做客。", vi: "Cuối tuần chúng tôi đến nhà bạn chơi." }
+  - { id: hsk3-0408, zh: "媒体都在关注这个话题。", vi: "Truyền thông đều đang quan tâm đến chủ đề này." }
+  - { id: hsk3-0413, zh: "他内心其实很紧张。", vi: "Trong lòng anh ấy thật ra rất căng thẳng." }
+  - { id: hsk3-0443, zh: "我住三号楼二单元。", vi: "Tôi ở tòa nhà số 3, đơn nguyên 2." }
+  - { id: hsk3-0446, zh: "双方同意合作。", vi: "Hai bên đồng ý hợp tác." }
+  - { id: hsk3-0449, zh: "机器发出奇怪的声音。", vi: "Máy phát ra âm thanh kỳ lạ." }
+  - { id: hsk3-0455, zh: "小村子变为了大城市。", vi: "Ngôi làng nhỏ đã trở thành thành phố lớn." }
+  - { id: hsk3-0459, zh: "两家公司决定合作开发。", vi: "Hai công ty quyết định hợp tác phát triển." }
+  - { id: hsk3-0460, zh: "请把书合上。", vi: "Hãy gấp sách lại." }
+  - { id: hsk3-0477, zh: "他会三种外文。", vi: "Anh ấy biết ba thứ tiếng nước ngoài." }
+  - { id: hsk3-0479, zh: "如何解决这个难题？", vi: "Làm thế nào để giải quyết vấn đề khó này?" }
+  - { id: hsk3-0480, zh: "把钱存起来吧。", vi: "Cất tiền đi để dành nhé." }
+  - { id: hsk3-0484, zh: "世界上没有完美的人。", vi: "Trên thế giới không có người hoàn hảo." }
+  - { id: hsk3-0486, zh: "我们要客观地判断。", vi: "Chúng ta phải đánh giá một cách khách quan." }
+  - { id: hsk3-0488, zh: "他宣布比赛开始。", vi: "Ông ấy tuyên bố trận đấu bắt đầu." }
+  - { id: hsk3-0489, zh: "会议在三号会议室举行。", vi: "Cuộc họp được tổ chức ở phòng họp số 3." }
+  - { id: hsk3-0490, zh: "病人的家属在外面等待。", vi: "Người nhà bệnh nhân đang chờ ở bên ngoài." }
+  - { id: hsk3-0491, zh: "这个题目很容易。", vi: "Đề bài này rất dễ." }
+  - { id: hsk3-0498, zh: "我属马，你属什么？", vi: "Tôi tuổi Ngọ (tuổi con ngựa), bạn tuổi gì?" }
+  - { id: hsk3-0500, zh: "他带动大家一起跑步。", vi: "Anh ấy kéo mọi người cùng chạy bộ." }
+  - { id: hsk3-0508, zh: "大楼终于建成了。", vi: "Tòa nhà cuối cùng đã xây xong." }
+  - { id: hsk3-0515, zh: "请把这段话录下来。", vi: "Hãy ghi âm đoạn văn này lại." }
+  - { id: hsk3-0518, zh: "他形成了早起的好习惯。", vi: "Anh ấy đã hình thành thói quen tốt là dậy sớm." }
+  - { id: hsk3-0519, zh: "云的形状像马。", vi: "Đám mây có hình dạng giống con ngựa." }
+  - { id: hsk3-0524, zh: "没有必要害怕。", vi: "Không cần phải sợ." }
+  - { id: hsk3-0528, zh: "写表格时要写性别。", vi: "Khi điền bảng biểu phải ghi giới tính." }
+  - { id: hsk3-0529, zh: "总人数超过了一百。", vi: "Tổng số người đã vượt quá một trăm." }
+  - { id: hsk3-0532, zh: "他是我们班级的成员。", vi: "Cậu ấy là thành viên của lớp chúng tôi." }
+  - { id: hsk3-0536, zh: "这里的房屋都很旧。", vi: "Nhà cửa ở đây đều rất cũ." }
+  - { id: hsk3-0542, zh: "爷爷每天看报。", vi: "Ông nội ngày nào cũng đọc báo." }
+  - { id: hsk3-0551, zh: "科技推动社会发展。", vi: "Khoa học công nghệ thúc đẩy xã hội phát triển." }
+  - { id: hsk3-0558, zh: "方法需要改进。", vi: "Phương pháp cần được cải tiến." }
+  - { id: hsk3-0564, zh: "他的房间总是很整齐。", vi: "Phòng của anh ấy lúc nào cũng gọn gàng." }
+  - { id: hsk3-0569, zh: "这件衣服太旧了。", vi: "Bộ quần áo này cũ quá rồi." }
+  - { id: hsk3-0570, zh: "上课时不要说话。", vi: "Trong giờ học đừng nói chuyện." }
+  - { id: hsk3-0581, zh: "会议正式开始。", vi: "Cuộc họp chính thức bắt đầu." }
+  - { id: hsk3-0588, zh: "他消失在人群中。", vi: "Anh ấy biến mất giữa đám đông." }
+  - { id: hsk3-0591, zh: "鱼在水里游来游去。", vi: "Cá bơi qua bơi lại trong nước." }
+  - { id: hsk3-0595, zh: "阳光照进了屋子。", vi: "Ánh nắng chiếu vào trong phòng." }
+  - { id: hsk3-0601, zh: "我们班级很团结。", vi: "Lớp chúng tôi rất đoàn kết." }
+  - { id: hsk3-0603, zh: "香蕉皮要放好。", vi: "Vỏ chuối phải để đúng chỗ." }
+  - { id: hsk3-0606, zh: "直到半夜他才睡。", vi: "Mãi đến nửa đêm anh ấy mới ngủ." }
+  - { id: hsk3-0607, zh: "这和天气变化相关。", vi: "Điều này có liên quan đến sự thay đổi của thời tiết." }
+  - { id: hsk3-0609, zh: "他看上去很亲切。", vi: "Trông anh ấy rất thân thiện." }
+  - { id: hsk3-0614, zh: "裤子破了，要补一补。", vi: "Quần rách rồi, phải vá lại." }
+  - { id: hsk3-0615, zh: "不要破坏环境。", vi: "Đừng phá hoại môi trường." }
+  - { id: hsk3-0625, zh: "有空儿来我家做客。", vi: "Lúc nào rảnh thì đến nhà tôi chơi nhé." }
+  - { id: hsk3-0637, zh: "会议下午五点结束。", vi: "Cuộc họp kết thúc lúc năm giờ chiều." }
+  - { id: hsk3-0646, zh: "他最近胖了。", vi: "Dạo này anh ấy béo lên rồi." }
+  - { id: hsk3-0654, zh: "孩子们表演了节目。", vi: "Các em nhỏ đã biểu diễn tiết mục." }
+  - { id: hsk3-0657, zh: "这件衬衣配这条裤子很好看。", vi: "Chiếc áo sơ mi này phối với chiếc quần này rất đẹp." }
+  - { id: hsk3-0664, zh: "我认得去车站的路。", vi: "Tôi biết đường đến nhà ga." }
+  - { id: hsk3-0665, zh: "请把会议内容记录下来。", vi: "Hãy ghi lại nội dung cuộc họp." }
+  - { id: hsk3-0672, zh: "计划需要调整。", vi: "Kế hoạch cần được điều chỉnh." }
+  - { id: hsk3-0673, zh: "我们谈了很久。", vi: "Chúng tôi đã nói chuyện rất lâu." }
+  - { id: hsk3-0680, zh: "他高兴得跳了起来。", vi: "Anh ấy vui đến mức nhảy cẫng lên." }
+  - { id: hsk3-0681, zh: "到路口向左转。", vi: "Đến ngã tư thì rẽ trái." }
+  - { id: hsk3-0693, zh: "我想退这张票。", vi: "Tôi muốn trả lại vé này." }
+  - { id: hsk3-0694, zh: "他退出了比赛。", vi: "Anh ấy đã rút khỏi cuộc thi." }
+  - { id: hsk3-0705, zh: "要长期坚持运动。", vi: "Phải kiên trì tập thể dục lâu dài." }
+  - { id: hsk3-0707, zh: "多洗手，防止感冒。", vi: "Rửa tay thường xuyên để phòng cảm cúm." }
+  - { id: hsk3-0713, zh: "我们队领先两分。", vi: "Đội chúng tôi dẫn trước hai điểm." }
+  - { id: hsk3-0721, zh: "车站后面有一家小店。", vi: "Phía sau nhà ga có một cửa hàng nhỏ." }
+  - { id: hsk4-0001, zh: "阿姨和叔叔都来参加婚礼了。", vi: "Cả dì và chú đều đến dự đám cưới." }
+  - { id: hsk4-0004, zh: "这对夫妻是我的好友。", vi: "Cặp vợ chồng này là bạn thân của tôi." }
+  - { id: hsk4-0006, zh: "他的妻子是一名护士。", vi: "Vợ anh ấy là một y tá." }
+  - { id: hsk4-0007, zh: "我丈夫是一位律师。", vi: "Chồng tôi là một luật sư." }
+  - { id: hsk4-0008, zh: "老公，帮我拿一下伞。", vi: "Anh ơi, đưa giúp em cái ô." }
+  - { id: hsk4-0014, zh: "秘书替我回复了邮件。", vi: "Thư ký đã trả lời email thay tôi." }
+  - { id: hsk4-0020, zh: "男士和女士们，晚上好！", vi: "Thưa quý ông quý bà, chào buổi tối!" }
+  - { id: hsk4-0022, zh: "他是一位名人，也是诗人。", vi: "Ông ấy là một người nổi tiếng, cũng là một nhà thơ." }
+  - { id: hsk4-0024, zh: "兄弟姐妹要互相帮助。", vi: "Anh chị em phải giúp đỡ lẫn nhau." }
+  - { id: hsk4-0027, zh: "居民们对小区的设施很满意。", vi: "Cư dân rất hài lòng với cơ sở vật chất của khu dân cư." }
+  - { id: hsk4-0034, zh: "他个子矮，但是很勇敢。", vi: "Anh ấy thấp nhưng rất dũng cảm." }
+  - { id: hsk4-0039, zh: "冰箱里有酸奶和矿泉水。", vi: "Trong tủ lạnh có sữa chua và nước khoáng." }
+  - { id: hsk4-0045, zh: "大楼里有电梯，也有楼梯。", vi: "Trong tòa nhà có thang máy, cũng có cầu thang bộ." }
+  - { id: hsk4-0048, zh: "每天早上刷牙要用牙刷。", vi: "Mỗi sáng đánh răng phải dùng bàn chải đánh răng." }
+  - { id: hsk4-0050, zh: "周末我在家打扫房间、做家务。", vi: "Cuối tuần tôi ở nhà dọn phòng, làm việc nhà." }
+  - { id: hsk4-0051, zh: "他每天帮妻子擦桌子。", vi: "Ngày nào anh ấy cũng lau bàn giúp vợ." }
+  - { id: hsk4-0053, zh: "我家附近有一个幼儿园。", vi: "Gần nhà tôi có một trường mẫu giáo." }
+  - { id: hsk4-0056, zh: "妈妈提醒我出门带伞。", vi: "Mẹ nhắc tôi ra ngoài nhớ mang ô." }
+  - { id: hsk4-0057, zh: "他的身高一米八，体重七十公斤。", vi: "Anh ấy cao một mét tám, nặng bảy mươi cân." }
+  - { id: hsk4-0066, zh: "三分之一的学生参加了运动会。", vi: "Một phần ba số học sinh đã tham gia hội thao." }
+  - { id: hsk4-0083, zh: "春季开花，秋季结果实。", vi: "Mùa xuân nở hoa, mùa thu kết trái." }
+  - { id: hsk4-0084, zh: "冬季寒冷，夏季很热。", vi: "Mùa đông lạnh giá, mùa hè rất nóng." }
+  - { id: hsk4-0088, zh: "近代的历史很重要。", vi: "Lịch sử cận đại rất quan trọng." }
+  - { id: hsk4-0089, zh: "公元两千年以后，北京举办过运动会。", vi: "Sau năm 2000, Bắc Kinh đã từng tổ chức Thế vận hội." }
+  - { id: hsk4-0098, zh: "这个季节最适合登山。", vi: "Mùa này thích hợp nhất để leo núi." }
+  - { id: hsk4-0099, zh: "他今天上班迟到了。", vi: "Hôm nay anh ấy đi làm muộn." }
+  - { id: hsk4-0103, zh: "半夜他突然醒了。", vi: "Nửa đêm anh ấy đột nhiên tỉnh giấc." }
+  - { id: hsk4-0116, zh: "他用刷子刷鞋。", vi: "Anh ấy dùng bàn chải để chải giày." }
+  - { id: hsk4-0117, zh: "地面湿了，我来扫一扫。", vi: "Mặt sàn ướt rồi, để tôi quét một chút." }
+  - { id: hsk4-0124, zh: "我戴上耳机听音乐。", vi: "Tôi đeo tai nghe để nghe nhạc." }
+  - { id: hsk4-0141, zh: "汉语的语法和语音都不容易。", vi: "Ngữ pháp và ngữ âm tiếng Hán đều không dễ." }
+  - { id: hsk4-0143, zh: "请把试卷交上来。", vi: "Hãy nộp bài thi lên đây." }
+  - { id: hsk4-0150, zh: "面试前先准备好简历。", vi: "Trước khi phỏng vấn hãy chuẩn bị sẵn sơ yếu lý lịch." }
+  - { id: hsk4-0179, zh: "这只是第一阶段。", vi: "Đây chỉ là giai đoạn đầu tiên." }
+  - { id: hsk4-0181, zh: "邮局就在附近。", vi: "Bưu điện ở ngay gần đây." }
+  - { id: hsk4-0195, zh: "月末我们搬到市区。", vi: "Cuối tháng chúng tôi chuyển vào nội thành." }
+  - { id: hsk4-0196, zh: "航班晚点了两个小时。", vi: "Chuyến bay bị trễ hai tiếng." }
+  - { id: hsk4-0197, zh: "我坐高铁去，比大巴快。", vi: "Tôi đi tàu cao tốc, nhanh hơn xe khách." }
+  - { id: hsk4-0217, zh: "他购买了一台新型冰箱。", vi: "Anh ấy đã mua một chiếc tủ lạnh đời mới." }
+  - { id: hsk4-0233, zh: "夏天吃西瓜最痛快。", vi: "Mùa hè ăn dưa hấu là đã nhất." }
+  - { id: hsk4-0252, zh: "他发烧了，要去打针。", vi: "Anh ấy bị sốt, phải đi tiêm." }
+  - { id: hsk4-0254, zh: "牙疼也要去医院。", vi: "Đau răng cũng phải đi bệnh viện." }
+  - { id: hsk4-0260, zh: "要经常锻炼身体。", vi: "Phải thường xuyên rèn luyện sức khỏe." }
+  - { id: hsk4-0265, zh: "呼吸新鲜空气对身体好。", vi: "Hít thở không khí trong lành tốt cho sức khỏe." }
+  - { id: hsk4-0274, zh: "快点儿，不然要迟到了。", vi: "Nhanh lên, không thì sẽ muộn đấy." }
+  - { id: hsk4-0289, zh: "我很了解他。", vi: "Tôi rất hiểu anh ấy." }
+  - { id: hsk4-0296, zh: "多吃些水果吧。", vi: "Ăn thêm chút hoa quả đi." }
+  - { id: hsk4-0315, zh: "他作出了正确的选择。", vi: "Anh ấy đã đưa ra lựa chọn đúng đắn." }
+  - { id: hsk4-0329, zh: "关于这个问题，我们再谈。", vi: "Về vấn đề này, chúng ta sẽ bàn thêm sau." }
+  - { id: hsk4-0332, zh: "我对京剧很感兴趣。", vi: "Tôi rất hứng thú với Kinh kịch." }
+  - { id: hsk4-0333, zh: "他的兴趣是画画儿。", vi: "Sở thích của anh ấy là vẽ tranh." }
+  - { id: hsk4-0340, zh: "湖上结了冰。", vi: "Mặt hồ đã đóng băng." }
+  - { id: hsk4-0343, zh: "我几乎忘了这件事。", vi: "Tôi suýt nữa thì quên mất chuyện này." }
+  - { id: hsk4-0350, zh: "把西瓜切开。", vi: "Bổ quả dưa hấu ra." }
+  - { id: hsk4-0376, zh: "吃药后反而更疼了。", vi: "Uống thuốc xong lại càng đau hơn." }
+  - { id: hsk4-0381, zh: "请留下电话号码。", vi: "Hãy để lại số điện thoại." }
+  - { id: hsk4-0388, zh: "糖的含量太高。", vi: "Hàm lượng đường quá cao." }
+  - { id: hsk4-0396, zh: "大家都喜爱这个节目。", vi: "Mọi người đều yêu thích chương trình này." }
+  - { id: hsk4-0402, zh: "会议圆满结束。", vi: "Cuộc họp đã kết thúc tốt đẹp." }
+  - { id: hsk4-0410, zh: "门被堵住了。", vi: "Cửa bị chặn rồi." }
+  - { id: hsk4-0413, zh: "这是大众喜爱的节目。", vi: "Đây là chương trình được công chúng yêu thích." }
+  - { id: hsk4-0414, zh: "小区里有大型活动。", vi: "Trong khu dân cư có một hoạt động lớn." }
+  - { id: hsk4-0423, zh: "一年有四季。", vi: "Một năm có bốn mùa." }
+  - { id: hsk4-0435, zh: "两国关系密切。", vi: "Quan hệ giữa hai nước rất mật thiết." }
+  - { id: hsk4-0460, zh: "他身体弱，要多锻炼。", vi: "Anh ấy sức khỏe yếu, phải tập luyện nhiều hơn." }
+  - { id: hsk4-0465, zh: "要彻底解决问题。", vi: "Phải giải quyết vấn đề một cách triệt để." }
+  - { id: hsk4-0495, zh: "书放在箱子的底下。", vi: "Sách để ở dưới đáy thùng." }
+  - { id: hsk4-0507, zh: "妈妈担心我的健康。", vi: "Mẹ lo lắng cho sức khỏe của tôi." }
+  - { id: hsk4-0509, zh: "我们在公园拍照。", vi: "Chúng tôi chụp ảnh ở công viên." }
+  - { id: hsk4-0526, zh: "他对政治很感兴趣。", vi: "Anh ấy rất hứng thú với chính trị." }
+  - { id: hsk4-0559, zh: "根据天气决定去不去。", vi: "Dựa vào thời tiết để quyết định có đi hay không." }
+  - { id: hsk4-0571, zh: "箱子很沉重。", vi: "Cái thùng rất nặng." }
+  - { id: hsk4-0615, zh: "这个厕所分男女。", vi: "Nhà vệ sinh này chia khu nam và nữ." }
+  - { id: hsk4-0621, zh: "盘子里放着水果。", vi: "Trên đĩa có để hoa quả." }
+  - { id: hsk4-0626, zh: "看来今天要下雨。", vi: "Xem ra hôm nay trời sẽ mưa." }
+  - { id: hsk4-0627, zh: "时间到了，他很着急。", vi: "Hết giờ rồi, anh ấy rất sốt ruột." }
+  - { id: hsk4-0629, zh: "这个小伙子长得矮小。", vi: "Chàng trai này dáng người thấp nhỏ." }
+  - { id: hsk4-0701, zh: "历史上记载了这件事。", vi: "Lịch sử có ghi chép lại sự việc này." }
+  - { id: hsk4-0729, zh: "运动员们在训练。", vi: "Các vận động viên đang tập luyện." }
+  - { id: hsk4-0741, zh: "路上遇到了老朋友。", vi: "Trên đường tôi gặp một người bạn cũ." }
+  - { id: hsk4-0742, zh: "我在街上遇见了他。", vi: "Tôi tình cờ gặp anh ấy trên phố." }
+  - { id: hsk4-0747, zh: "记者采访了运动员。", vi: "Phóng viên đã phỏng vấn vận động viên." }
+  - { id: hsk4-0759, zh: "开空调降温。", vi: "Bật điều hòa cho mát." }
+  - { id: hsk4-0765, zh: "他面临一个选择。", vi: "Anh ấy đang đứng trước một sự lựa chọn." }
+  - { id: hsk4-0785, zh: "盘子里有一个苹果。", vi: "Trên đĩa có một quả táo." }
+  - { id: hsk4-0790, zh: "路上遇到了大雨。", vi: "Trên đường chúng tôi gặp mưa to." }
+  - { id: hsk4-0798, zh: "那个胖子很爱笑。", vi: "Anh chàng béo đó rất hay cười." }
+  - { id: hsk4-0801, zh: "他极爱运动。", vi: "Anh ấy cực kỳ thích thể thao." }
+  - { id: hsk5-0019, zh: "这个人很聪明，但有点儿主观。", vi: "Người này rất thông minh, nhưng hơi chủ quan." }
+  - { id: hsk5-0022, zh: "邻居是一位退休的军人。", vi: "Hàng xóm là một quân nhân đã nghỉ hưu." }
+  - { id: hsk5-0035, zh: "隔壁的邻居很客气。", vi: "Người hàng xóm sát vách rất lịch sự." }
+  - { id: hsk5-0043, zh: "这个宾馆的房间很干净。", vi: "Phòng của khách sạn này rất sạch sẽ." }
+  - { id: hsk5-0049, zh: "他点了一份盒饭和一瓶饮料。", vi: "Anh ấy gọi một suất cơm hộp và một chai đồ uống." }
+  - { id: hsk5-0060, zh: "把蛋糕切成八块。", vi: "Cắt bánh ngọt thành tám miếng." }
+  - { id: hsk5-0061, zh: "他尝了一口，觉得味道不错。", vi: "Anh ấy nếm thử một miếng, thấy vị khá ngon." }
+  - { id: hsk5-0062, zh: "水产品要吃新鲜的。", vi: "Hải sản phải ăn đồ tươi." }
+  - { id: hsk5-0102, zh: "工作日他很少休息。", vi: "Ngày làm việc anh ấy rất ít khi nghỉ ngơi." }
+  - { id: hsk5-0107, zh: "他在这个行业干了一辈子。", vi: "Anh ấy đã làm nghề này cả đời." }
+  - { id: hsk5-0117, zh: "他扫了一下二维码。", vi: "Anh ấy quét mã QR một cái." }
+  - { id: hsk5-0133, zh: "草原上有牛和羊。", vi: "Trên thảo nguyên có bò và cừu." }
+  - { id: hsk5-0152, zh: "大熊猫是国家的宝贝。", vi: "Gấu trúc lớn là báu vật quốc gia." }
+  - { id: hsk5-0164, zh: "雨水多的季节，河水会涨。", vi: "Vào mùa mưa nhiều, nước sông sẽ dâng lên." }
+  - { id: hsk5-0233, zh: "他把钱包丢了。", vi: "Anh ấy đã làm mất ví." }
+  - { id: hsk5-0254, zh: "他乘坐高铁去出差。", vi: "Anh ấy đi tàu cao tốc đi công tác." }
+  - { id: hsk5-0277, zh: "安全优先，别着急。", vi: "An toàn là trên hết, đừng vội." }
+  - { id: hsk5-0288, zh: "根据依据来判断。", vi: "Hãy phán đoán dựa trên căn cứ." }
+  - { id: hsk5-0336, zh: "把蛋糕分成四份。", vi: "Chia bánh ngọt thành bốn phần." }
+  - { id: hsk5-0400, zh: "他被吓了一跳。", vi: "Anh ấy bị giật mình." }
+  - { id: hsk5-0432, zh: "违规要受处罚。", vi: "Vi phạm quy định sẽ bị xử phạt." }
+  - { id: hsk5-0433, zh: "外界对此很关注。", vi: "Dư luận bên ngoài rất quan tâm đến chuyện này." }
+  - { id: hsk5-0451, zh: "这块布只有一寸。", vi: "Mảnh vải này chỉ dài có một tấc." }
+  - { id: hsk5-0458, zh: "他尝试了新方法。", vi: "Anh ấy đã thử phương pháp mới." }
+  - { id: hsk5-0542, zh: "他抬起头看着我。", vi: "Anh ấy ngẩng đầu lên nhìn tôi." }
+  - { id: hsk5-0565, zh: "上下楼要走楼梯。", vi: "Lên xuống tầng phải đi cầu thang bộ." }
+  - { id: hsk5-0577, zh: "他咳了几声。", vi: "Anh ấy ho mấy tiếng." }
+  - { id: hsk5-0669, zh: "气体看不见。", vi: "Chất khí thì không nhìn thấy được." }
+  - { id: hsk5-0691, zh: "小区有一个游泳池。", vi: "Trong khu dân cư có một bể bơi." }
+  - { id: hsk5-0692, zh: "他在冰上滑了一下。", vi: "Anh ấy bị trượt chân trên mặt băng." }
+  - { id: hsk5-0693, zh: "球滚到了桌子下面。", vi: "Quả bóng lăn xuống dưới gầm bàn." }
+  - { id: hsk5-0719, zh: "他了解公司的现状。", vi: "Anh ấy nắm rõ tình hình hiện tại của công ty." }
+  - { id: hsk5-0728, zh: "他最近瘦了。", vi: "Dạo này anh ấy gầy đi." }
+  - { id: hsk5-0730, zh: "他穿着一双皮鞋。", vi: "Anh ấy đi một đôi giày da." }
+  - { id: hsk5-0779, zh: "他喜欢打羽毛球。", vi: "Anh ấy thích chơi cầu lông." }
+  - { id: hsk5-0782, zh: "他用手挡住耳朵。", vi: "Anh ấy lấy tay bịt tai lại." }
+  - { id: hsk5-0796, zh: "他脑子很聪明。", vi: "Đầu óc anh ấy rất thông minh." }
+  - { id: hsk5-0815, zh: "他解除了大家的疑问。", vi: "Anh ấy đã giải đáp thắc mắc của mọi người." }
+  - { id: hsk5-0923, zh: "这件事可大可小。", vi: "Chuyện này có thể to cũng có thể nhỏ." }
+  - { id: hsk5-0955, zh: "我不认得这个字。", vi: "Tôi không nhận ra chữ này." }
+  - { id: hsk6-0019, zh: "清洁工每天打扫写字楼。", vi: "Nhân viên vệ sinh ngày nào cũng dọn dẹp tòa nhà văn phòng." }
+  - { id: hsk6-0040, zh: "他把宠物当成家人。", vi: "Anh ấy coi thú cưng như người nhà." }
+  - { id: hsk6-0169, zh: "这是天然的矿泉水。", vi: "Đây là nước khoáng thiên nhiên." }
+  - { id: hsk6-0209, zh: "一路上我们聊了很多。", vi: "Suốt dọc đường chúng tôi đã trò chuyện rất nhiều." }
+  - { id: hsk6-0323, zh: "做生意是为了利。", vi: "Làm kinh doanh là vì lợi nhuận." }
+  - { id: hsk6-0324, zh: "大风刮了一夜。", vi: "Gió to thổi suốt một đêm." }
+  - { id: hsk6-0325, zh: "到路口往右拐。", vi: "Đến ngã tư thì rẽ phải." }
+  - { id: hsk6-0375, zh: "他一口吞了下去。", vi: "Anh ấy nuốt chửng trong một ngụm." }
+  - { id: hsk6-0419, zh: "他站在门外头。", vi: "Anh ấy đứng ở ngoài cửa." }
+  - { id: hsk6-0428, zh: "他是驻外的大使。", vi: "Ông ấy là đại sứ đang công tác ở nước ngoài." }
+  - { id: hsk6-0620, zh: "这和天气有关。", vi: "Điều này có liên quan đến thời tiết." }
+  - { id: hsk6-0687, zh: "孩子玩游戏机。", vi: "Đứa trẻ chơi máy chơi game." }
+  - { id: hsk6-0799, zh: "孩子踢皮球。", vi: "Đứa trẻ đá quả bóng." }
+  - { id: hsk6-0847, zh: "我们聊天儿聊了很久。", vi: "Chúng tôi nói chuyện phiếm rất lâu." }
+  - { id: hsk6-0850, zh: "他看足球联赛。", vi: "Anh ấy xem giải bóng đá." }
+  - { id: hsk6-0943, zh: "过节要送礼。", vi: "Dịp lễ Tết thì phải tặng quà." }
+  - { id: hsk6-0953, zh: "他和家人通话。", vi: "Anh ấy nói chuyện điện thoại với người nhà." }
+  - { id: hsk6-0974, zh: "他用铅笔写字。", vi: "Anh ấy viết chữ bằng bút chì." }
+  - { id: hsk6-0999, zh: "下雨他穿雨衣。", vi: "Trời mưa anh ấy mặc áo mưa." }

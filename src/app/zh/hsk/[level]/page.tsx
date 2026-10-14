@@ -25,6 +25,12 @@ export default async function HskLevelPage({ params }: { params: Promise<{ level
         <p className="text-sm font-medium text-brand-700">Lộ trình</p>
         <h1 className="text-3xl font-bold text-stone-900">HSK {level}</h1>
         <p className="mt-1 text-stone-500">{lessons.length} bài học theo chủ đề. Học từ vựng, xem câu ví dụ, rồi tổng kết từng bài.</p>
+        {level === "3" && (
+          <p className="mt-3 rounded-xl bg-amber-50 p-3 text-sm text-amber-900 ring-1 ring-inset ring-amber-200">
+            HSK3 ở đây theo <strong>Đề cương HSK 2025</strong> (dùng cho kỳ thi HSK mới từ 12/2026): gồm những từ cấp 1–3 của đề thi mà
+            bài HSK1–2 chưa dạy, cùng ngữ pháp cấp 3. Từ có trong đề thi được đánh dấu <strong>⭐ Đề thi</strong> ở mọi cấp.
+          </p>
+        )}
       </div>
 
       <div className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">

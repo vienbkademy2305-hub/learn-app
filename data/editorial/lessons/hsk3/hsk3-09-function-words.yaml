@@ -1,0 +1,90 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-09-function-words
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: "Từ chức năng: 把, 被, 除了, 为了…"
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:把|ba3
+      - word:被|bei4
+      - word:比较|bi3jiao4
+      - word:除了|chu2le5
+      - word:为了|wei4le5
+      - word:只有|zhi3you3
+      - word:只是|zhi3shi4
+      - word:其实|qi2shi2
+      - word:当然|dang1ran2
+      - word:大概|da4gai4
+      - word:几乎|ji1hu1
+      - word:极|ji2
+      - word:看来|kan4lai5
+      - word:简单|jian3dan1
+      - word:容易|rong2yi4
+      - word:可|ke3
+      - word:差|cha4
+      - word:干|gan4
+      - word:关系|guan1xi5
+      - word:有的|you3de5
+      - word:些|xie1
+      - word:不客气|bu4ke4qi5
+      - word:打|da3
+      - word:开|kai1
+      - word:正|zheng4
+      - word:子|zi5
+      - word:种|zhong3
+      - word:地|di4
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk3-0460
+      - sentence:hsk-sentences-audio/hsk3-0480
+      - sentence:hsk-sentences-audio/hsk3-0335
+      - sentence:hsk-sentences-audio/hsk4-0410
+      - sentence:hsk-sentences-audio/hsk3-0174
+      - sentence:hsk-sentences-audio/hsk3-0289
+      - sentence:hsk-sentences-audio/hsk3-0336
+      - sentence:hsk-sentences-audio/hsk5-0815
+      - sentence:hsk-sentences-audio/hsk3-0247
+      - sentence:hsk-sentences-audio/hsk6-0323
+      - sentence:hsk-sentences-audio/hsk3-0346
+      - sentence:hsk-sentences-audio/hsk5-0451
+      - sentence:hsk-sentences-audio/hsk3-0326
+      - sentence:hsk-sentences-audio/hsk4-0179
+      - sentence:hsk-sentences-audio/hsk3-0314
+      - sentence:hsk-sentences-audio/hsk3-0413
+      - sentence:hsk-sentences-audio/hsk3-0293
+      - sentence:hsk-sentences-audio/hsk3-0054
+      - sentence:hsk-sentences-audio/hsk4-0343
+      - sentence:hsk-sentences-audio/hsk4-0801
+      - sentence:hsk-sentences-audio/hsk3-0350
+      - sentence:hsk-sentences-audio/hsk4-0626
+      - sentence:hsk-sentences-audio/hsk3-0316
+      - sentence:hsk-sentences-audio/hsk3-0491
+      - sentence:hsk-sentences-audio/hsk4-0141
+      - sentence:hsk-sentences-audio/hsk5-0923
+      - sentence:hsk-sentences-audio/hsk2-0525
+      - sentence:hsk-sentences-audio/hsk1-0281
+      - sentence:hsk-sentences-audio/hsk2-0348
+      - sentence:hsk-sentences-audio/hsk5-0107
+      - sentence:hsk-sentences-audio/hsk1-0147
+      - sentence:hsk-sentences-audio/hsk3-0321
+      - sentence:hsk-sentences-audio/hsk4-0435
+      - sentence:hsk-sentences-audio/hsk1-0225
+      - sentence:hsk-sentences-audio/hsk2-0497
+      - sentence:hsk-sentences-audio/hsk4-0296
+      - sentence:hsk-sentences-audio/hsk1-0274
+      - sentence:hsk-sentences-audio/hsk1-0003
+      - sentence:hsk-sentences-audio/hsk2-0038
+      - sentence:hsk-sentences-audio/hsk2-0260
+      - sentence:hsk-sentences-audio/hsk2-0063
+      - sentence:hsk-sentences-audio/hsk1-0060
+      - sentence:hsk-sentences-audio/hsk2-0349
+      - sentence:hsk-sentences-audio/hsk3-0038
+      - sentence:hsk-sentences-audio/hsk3-0477
+      - sentence:hsk-sentences-audio/hsk2-0117
+      - sentence:hsk-sentences-audio/hsk3-0486
+  - type: listening
+    items: *a1

@@ -1,0 +1,67 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-04-position
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Vị trí và phương hướng
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:前|qian2
+      - word:后|hou4
+      - word:外|wai4
+      - word:左|zuo3
+      - word:右|you4
+      - word:上面|shang4mian4
+      - word:下面|xia4mian4
+      - word:前面|qian2mian4
+      - word:后面|hou4mian5
+      - word:里面|li3mian4
+      - word:外面|wai4mian4
+      - word:中|zhong1
+      - word:上来|shang4lai2
+      - word:上去|shang4qu4
+      - word:下来|xia4lai5
+      - word:下去|xia4qu4
+      - word:出|chu1
+      - word:回|hui2
+      - word:起|qi3
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk2-0165
+      - sentence:hsk-sentences-audio/hsk4-0150
+      - sentence:hsk-sentences-audio/hsk3-0071
+      - sentence:hsk-sentences-audio/hsk4-0376
+      - sentence:hsk-sentences-audio/hsk6-0419
+      - sentence:hsk-sentences-audio/hsk6-0428
+      - sentence:hsk-sentences-audio/hsk3-0681
+      - sentence:hsk-sentences-audio/hsk1-0198
+      - sentence:hsk-sentences-audio/hsk6-0325
+      - sentence:hsk-sentences-audio/hsk3-0119
+      - sentence:hsk-sentences-audio/hsk3-0137
+      - sentence:hsk-sentences-audio/hsk3-0120
+      - sentence:hsk-sentences-audio/hsk5-0693
+      - sentence:hsk-sentences-audio/hsk3-0368
+      - sentence:hsk-sentences-audio/hsk3-0122
+      - sentence:hsk-sentences-audio/hsk3-0721
+      - sentence:hsk-sentences-audio/hsk3-0121
+      - sentence:hsk-sentences-audio/hsk3-0490
+      - sentence:hsk-sentences-audio/hsk3-0173
+      - sentence:hsk-sentences-audio/hsk3-0588
+      - sentence:hsk-sentences-audio/hsk3-0354
+      - sentence:hsk-sentences-audio/hsk4-0143
+      - sentence:hsk-sentences-audio/hsk3-0609
+      - sentence:hsk-sentences-audio/hsk3-0515
+      - sentence:hsk-sentences-audio/hsk3-0665
+      - sentence:hsk-sentences-audio/hsk3-0355
+      - sentence:hsk-sentences-audio/hsk6-0375
+      - sentence:hsk-sentences-audio/hsk2-0307
+      - sentence:hsk-sentences-audio/hsk2-0486
+      - sentence:hsk-sentences-audio/hsk1-0052
+      - sentence:hsk-sentences-audio/hsk1-0193
+      - sentence:hsk-sentences-audio/hsk3-0175
+      - sentence:hsk-sentences-audio/hsk3-0518
+  - type: listening
+    items: *a1

@@ -89,7 +89,7 @@ function SentenceEditor({ lessonSlug, word, words, known }: { lessonSlug: string
                     {m.pinyin && <p className="text-brand-700">{m.pinyin}</p>}
                     {m.vi && <p className="text-stone-600">{m.vi}</p>}
                     <div className="mt-1.5">
-                      <AudioButtons audio={m.audio} durations={m.audioMs} compact />
+                      <AudioButtons audio={m.audio} durations={m.audioMs} compact text={m.simplified} />
                     </div>
                   </li>
                 ))}

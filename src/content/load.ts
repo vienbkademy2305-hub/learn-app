@@ -1,6 +1,6 @@
 /**
  * Server-side access to the content snapshot (build time only for the static
- * export). Generate it with `pnpm import:hsk2 && pnpm content:export` (all levels up to 2).
+ * export). Generate it with `pnpm import:hsk3 && pnpm content:export` (all levels up to 3).
  */
 import { readFileSync } from "node:fs";
 import path from "node:path";
@@ -18,7 +18,7 @@ export function content(): ContentSnapshot {
       try {
         cache = JSON.parse(readFileSync(path.join(dir, "hsk1.json"), "utf8")) as ContentSnapshot; // older single-level snapshot
       } catch (err) {
-        throw new Error(`Content snapshot not found at ${file}. Run \`pnpm import:hsk2 && pnpm content:export\` first.`, { cause: err });
+        throw new Error(`Content snapshot not found at ${file}. Run \`pnpm import:hsk3 && pnpm content:export\` first.`, { cause: err });
       }
     }
   }

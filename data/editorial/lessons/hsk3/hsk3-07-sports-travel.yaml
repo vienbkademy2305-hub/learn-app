@@ -1,0 +1,84 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-07-sports-travel
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Thể thao, giải trí và du lịch
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:比赛|bi3sai4
+      - word:得分|de2fen1
+      - word:运动会|yun4dong4hui4
+      - word:足球|zu2qiu2
+      - word:踢|ti1
+      - word:跑步|pao3bu4
+      - word:游|you2
+      - word:游泳|you2yong3
+      - word:羽毛球|yu3mao2qiu2
+      - word:锻炼|duan4lian4
+      - word:跳|tiao4
+      - word:跳舞|tiao4wu3
+      - word:表演|biao3yan3
+      - word:游戏|you2xi4
+      - word:玩|wan2
+      - word:拍照|pai1zhao4
+      - word:照|zhao4
+      - word:聊|liao2
+      - word:聊天儿|liao2tian1r5
+      - word:做客|zuo4ke4
+      - word:宾馆|bin1guan3
+      - word:行李|xing2li5
+      - word:高铁|gao1tie3
+      - word:大熊猫|da4xiong2mao1
+      - word:马|ma3
+      - word:牛|niu2
+      - word:羊|yang2
+      - word:园|yuan2
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk3-0694
+      - sentence:hsk-sentences-audio/hsk3-0192
+      - sentence:hsk-sentences-audio/hsk4-0066
+      - sentence:hsk-sentences-audio/hsk4-0089
+      - sentence:hsk-sentences-audio/hsk3-0188
+      - sentence:hsk-sentences-audio/hsk6-0850
+      - sentence:hsk-sentences-audio/hsk6-0799
+      - sentence:hsk-sentences-audio/hsk3-0500
+      - sentence:hsk-sentences-audio/hsk3-0186
+      - sentence:hsk-sentences-audio/hsk3-0591
+      - sentence:hsk-sentences-audio/hsk2-0359
+      - sentence:hsk-sentences-audio/hsk3-0195
+      - sentence:hsk-sentences-audio/hsk5-0691
+      - sentence:hsk-sentences-audio/hsk5-0779
+      - sentence:hsk-sentences-audio/hsk4-0260
+      - sentence:hsk-sentences-audio/hsk4-0460
+      - sentence:hsk-sentences-audio/hsk3-0680
+      - sentence:hsk-sentences-audio/hsk5-0400
+      - sentence:hsk-sentences-audio/hsk3-0342
+      - sentence:hsk-sentences-audio/hsk3-0654
+      - sentence:hsk-sentences-audio/hsk3-0204
+      - sentence:hsk-sentences-audio/hsk3-0279
+      - sentence:hsk-sentences-audio/hsk6-0687
+      - sentence:hsk-sentences-audio/hsk1-0249
+      - sentence:hsk-sentences-audio/hsk4-0509
+      - sentence:hsk-sentences-audio/hsk2-0188
+      - sentence:hsk-sentences-audio/hsk6-0209
+      - sentence:hsk-sentences-audio/hsk6-0847
+      - sentence:hsk-sentences-audio/hsk3-0625
+      - sentence:hsk-sentences-audio/hsk3-0402
+      - sentence:hsk-sentences-audio/hsk5-0043
+      - sentence:hsk-sentences-audio/hsk3-0138
+      - sentence:hsk-sentences-audio/hsk4-0197
+      - sentence:hsk-sentences-audio/hsk5-0254
+      - sentence:hsk-sentences-audio/hsk5-0152
+      - sentence:hsk-sentences-audio/hsk3-0519
+      - sentence:hsk-sentences-audio/hsk3-0498
+      - sentence:hsk-sentences-audio/hsk3-0251
+      - sentence:hsk-sentences-audio/hsk5-0133
+      - sentence:hsk-sentences-audio/hsk2-0145
+      - sentence:hsk-sentences-audio/hsk2-0320
+  - type: listening
+    items: *a1

@@ -63,7 +63,7 @@ export function SentenceCard({
         </p>
       )}
       <div className="flex flex-wrap items-center gap-2 pt-1">
-        <AudioButtons audio={sentence.audio} durations={sentence.audioMs} compact={size === "sm"} sentenceKey={sentence.key} />
+        <AudioButtons audio={sentence.audio} durations={sentence.audioMs} compact={size === "sm"} sentenceKey={sentence.key} text={sentence.simplified} />
         <HskBadge level={sentence.hskLevel} />
       </div>
     </div>

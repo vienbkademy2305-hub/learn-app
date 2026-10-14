@@ -8,6 +8,7 @@
     "sources:fetch": "tsx importers/fetch-sources.ts",
     "import:hsk1": "tsx importers/run.ts --level 1",
     "import:hsk2": "tsx importers/run.ts --level 2",
+    "import:hsk3": "tsx importers/run.ts --level 3 --no-drafts",
     "validate": "tsx importers/validate/run.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",

@@ -33,10 +33,11 @@ const PUBLISHABLE = (type: string, alias: string) => `EXISTS (
 
 export async function buildSnapshot(client: PGlite, level: string): Promise<ContentSnapshot> {
   // ── Words ────────────────────────────────────────────────────────────────
-  const wordRows = await rows<{ id: number; simplified: string; traditional: string | null; pinyin_key: string; pinyin_marked: string; in_curriculum: boolean; level: string | null }>(client, `
-    SELECT w.id, w.simplified, w.traditional, w.pinyin_key, w.pinyin_marked, w.in_curriculum, h.level
+  const wordRows = await rows<{ id: number; simplified: string; traditional: string | null; pinyin_key: string; pinyin_marked: string; in_curriculum: boolean; level: string | null; exam_level: string | null }>(client, `
+    SELECT w.id, w.simplified, w.traditional, w.pinyin_key, w.pinyin_marked, w.in_curriculum, h.level, x.level AS exam_level
     FROM content.words w
     LEFT JOIN content.hsk_assignments h ON h.entity_type = 'word' AND h.entity_id = w.id AND h.standard = 'hsk3-2021'
+    LEFT JOIN content.hsk_assignments x ON x.entity_type = 'word' AND x.entity_id = w.id AND x.standard = 'hsk-2026'
     WHERE ${PUBLISHABLE("word", "w")} ORDER BY w.id`);
   const slugById = new Map(wordRows.map((w) => [w.id, wordSlug(w.simplified, w.pinyin_key)]));
 
@@ -77,11 +78,11 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
   const sentenceRows = (await rows<{ id: number; key: string; simplified: string; pinyin_marked: string | null; level: string | null }>(client, `
     SELECT s.id, s.simplified, s.pinyin_marked, h.level,
       (SELECT es.source_record_id FROM content.entity_sources es WHERE es.entity_type = 'sentence' AND es.entity_id = s.id
-         AND es.source_id = 'hsk-sentences-audio' ORDER BY es.id LIMIT 1) AS key
+         AND es.source_id IN ('hsk-sentences-audio', 'editorial') ORDER BY (es.source_id = 'hsk-sentences-audio') DESC, es.id LIMIT 1) AS key
     FROM content.sentences s
     LEFT JOIN content.hsk_assignments h ON h.entity_type = 'sentence' AND h.entity_id = s.id AND h.standard = 'hsk3-2021'
     WHERE ${PUBLISHABLE("sentence", "s")} ORDER BY s.id`)
-  ).filter((s) => s.key !== null); // the site shows the hsk-sentences-audio corpus (tokens, audio, level)
+  ).filter((s) => s.key !== null); // the hsk-sentences-audio corpus (tokens, audio, level) + self-written sentences (ed3-…)
   const keyBySentence = new Map(sentenceRows.map((s) => [s.id, s.key]));
 
   const tokenRows = await rows<{ sentence_id: number; surface: string; word_id: number | null }>(client, `
@@ -183,6 +184,7 @@ export async function buildSnapshot(client: PGlite, level: string): Promise<Cont
       traditional: w.traditional,
       pinyin: w.pinyin_marked,
       hskLevel: w.level,
+      examLevel: w.exam_level,
       inCurriculum: w.in_curriculum,
       chars: charsByWord.get(w.id) ?? [],
       ...splitSenses(sensesByWord.get(w.id) ?? []),
@@ -245,9 +247,9 @@ export function copySnapshotAudio(snapshot: ContentSnapshot): { copied: number; 
 }
 
 async function main() {
-  // Highest HSK level to export (all lower levels are included): `pnpm content:export --level 2`.
+  // Highest HSK level to export (all lower levels are included): `pnpm content:export --level 3`.
   const i = process.argv.indexOf("--level");
-  const level = i >= 0 ? (process.argv[i + 1] ?? "2") : "2";
+  const level = i >= 0 ? (process.argv[i + 1] ?? "3") : "3";
   const { client } = await openDb(DEFAULT_DB_DIR);
   try {
     const snapshot = await buildSnapshot(client, level);

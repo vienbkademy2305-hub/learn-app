@@ -5,6 +5,10 @@
 import { readFileSync } from "node:fs";
 
 export const HSK_LIST_FILE = (level: number) => `wordlists/exclusive/new/${level}.json`;
+/** Word lists of the 2025 exam syllabus (HSK 考试大纲, CLEC 2025-11, used by the exam from 2026-12): "newest" in the repo. */
+export const HSK_EXAM_LIST_FILE = (level: number) => `wordlists/exclusive/newest/${level}.json`;
+/** Levels of the exam syllabus imported so far (the app teaches up to HSK3). */
+export const EXAM_LEVELS = 3;
 
 export interface HskListForm {
   traditional: string;

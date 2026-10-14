@@ -1,0 +1,471 @@
+# Ngữ pháp HSK3 theo bài học — giải thích tiếng Việt (cùng khuôn với hsk1.yaml, hsk2.yaml).
+# BẢN NHÁP do Claude (AI) viết ngày 2026-10-14 — CẦN NGƯỜI DUYỆT.
+#
+# - Chọn điểm theo "HSK 语法大纲 · 三级" của Đề cương HSK (CLEC, 2025-11, áp dụng cho đề thi từ 2026), bỏ các điểm
+#   đã dạy ở HSK1–2. `hsk_code` để trống: đề cương mới không đánh mã.
+# - `examples`: khóa câu của hsk-sentences-audio (có audio, kể cả câu cấp 4–6) hoặc câu tự soạn `ed3-…`
+#   (data/editorial/sentences-extra/hsk3.yaml, đọc bằng giọng máy).
+source: editorial
+default_status: draft
+points:
+  # ── Bài 1 · Con người và gia đình ────────────────────────────────────────────
+  - id: g3-01
+    lesson: hsk3-01-people
+    hsk_code: null
+    title: Tiền tố 老 và hậu tố 家, 子, 员
+    structures:
+      - "老 + họ / danh từ: 老王, 老同学, 老师"
+      - "Danh từ + 家 / 员: 作家, 画家, 运动员"
+      - "Danh từ + 子: 屋子, 箱子, 盘子"
+    explain: >-
+      Một số chữ gắn vào trước hoặc sau để tạo từ mới. 老 trước họ là cách gọi thân mật người ngang tuổi hoặc lớn hơn (老王 = anh/chị Vương),
+      trước danh từ là "cũ, lâu năm" (老同学 = bạn học cũ). 家 chỉ người giỏi một lĩnh vực (作家, 画家, 科学家), 员 chỉ người làm một
+      công việc (运动员, 服务员). 子 là hậu tố của nhiều danh từ đồ vật, đọc nhẹ (zi): 屋子, 箱子, 盘子.
+    notes:
+      - "Gặp từ mới có 家 / 员 ở cuối, thường là chỉ người: đoán nghĩa từ chữ phía trước."
+    mistakes:
+      - { wrong: "他是一个运动家。", right: "他是一名运动员。", why: "Vận động viên là 运动员; 家 dùng cho chuyên gia, nghệ sĩ." }
+    examples: [ed3-042, hsk4-0729, hsk4-0022, hsk3-0312]
+
+  - id: g3-02
+    lesson: hsk3-01-people
+    hsk_code: null
+    title: Từ ly hợp — 结婚, 见面, 洗澡
+    structures:
+      - "结婚 → 结过婚 · 见面 → 见过面 / 跟…见面 · 洗澡 → 洗个澡"
+    explain: >-
+      Một số động từ hai chữ thực ra là "động từ + tân ngữ" nên có thể TÁCH ra: 了 / 过 / 个 chen vào giữa (见过面, 洗个澡).
+      Vì đã có tân ngữ bên trong, chúng KHÔNG mang thêm tân ngữ phía sau: không nói 见面他, mà nói 跟他见面; không nói 结婚她, mà nói 跟她结婚.
+    notes:
+      - "Thời gian kéo dài đặt sau từ ly hợp: 他们结婚三年了。"
+    mistakes:
+      - { wrong: "我明天见面他。", right: "我明天跟他见面。", why: "见面 đã có tân ngữ 面; người gặp đặt sau 跟." }
+      - { wrong: "他结婚了她。", right: "他跟她结婚了。", why: "结婚 không mang tân ngữ: 跟 + người + 结婚." }
+    examples: [ed3-001, ed3-002, ed3-003, hsk3-0030]
+
+  # ── Bài 2 · Nhà ở và đồ dùng ─────────────────────────────────────────────────
+  - id: g3-03
+    lesson: hsk3-02-home
+    hsk_code: null
+    title: Câu chữ 把 (1) — đặt / để vật ở đâu
+    structures:
+      - "Chủ ngữ + 把 + vật + Động từ + 在 / 到 + nơi chốn"
+    explain: >-
+      Câu chữ 把 nói ta XỬ LÝ một vật cụ thể (đã biết) và nó thay đổi thế nào. Khuôn hay gặp nhất: đặt / để / cất vật vào đâu.
+      请把行李放在上面 = Hãy để hành lý lên trên. Vật sau 把 phải xác định (cái đó, của tôi…), và động từ không đứng một mình.
+    notes:
+      - "Trong khuôn 放在 / 放到 + nơi chốn, gần như bắt buộc dùng 把."
+    mistakes:
+      - { wrong: "我放书在桌子上。", right: "我把书放在桌子上。", why: "Đặt vật vào đâu dùng 把 + vật + 放在 + nơi chốn." }
+      - { wrong: "请把一本书放在这儿。", right: "请把书放在这儿。", why: "Vật sau 把 phải xác định, không dùng 一本." }
+    examples: [hsk3-0137, hsk3-0560, hsk3-0036]
+
+  - id: g3-04
+    lesson: hsk3-02-home
+    hsk_code: null
+    title: Câu chữ 把 (2) — làm cho vật có kết quả
+    structures:
+      - "Chủ ngữ + 把 + vật + Động từ + kết quả / xu hướng (+ 了)"
+      - "别 / 没 + 把 + vật + Động từ…"
+    explain: >-
+      Sau động từ luôn có thêm thành phần cho biết kết quả: 把作业写完了 (làm xong bài), 把书合上 (gấp sách lại), 把钱存起来 (cất tiền đi),
+      把西瓜切开 (bổ dưa ra). Phủ định và năng nguyện đặt TRƯỚC 把: 别把…, 没把…, 要把….
+    notes:
+      - "Động từ cảm giác, nhận thức (看见, 知道, 喜欢) không dùng trong câu 把."
+    mistakes:
+      - { wrong: "他把作业写。", right: "他把作业写完了。", why: "Sau động từ phải có kết quả (完, 好, 上…)." }
+      - { wrong: "他把作业没写完。", right: "他没把作业写完。", why: "没 / 别 đứng trước 把." }
+    examples: [ed3-005, hsk3-0460, hsk3-0480, hsk4-0350]
+
+  # ── Bài 3 · Ăn uống và quần áo ──────────────────────────────────────────────
+  - id: g3-05
+    lesson: hsk3-03-food-clothes
+    hsk_code: null
+    title: Lượng từ 双, 张, 种 và lặp lượng từ (个个, 人人)
+    structures:
+      - "一双鞋 · 两张票 · 这种水果"
+      - "Lượng từ lặp lại + 都 = mỗi… đều, ai… cũng"
+    explain: >-
+      双 (shuāng) đếm vật đi thành đôi (giày, đũa), 张 (zhāng) đếm vật phẳng (vé, giấy, bàn), 种 (zhǒng) là "loại". Lặp lượng từ
+      (个个, 张张, 天天, 人人) nghĩa là "từng… một, tất cả", thường đi với 都: 人人都热爱和平.
+    notes:
+      - "这种 / 那种 + danh từ: loại này, loại kia."
+    mistakes:
+      - { wrong: "一个双鞋", right: "一双鞋", why: "双 đã là lượng từ, không thêm 个." }
+      - { wrong: "人人很喜欢他。", right: "人人都喜欢他。", why: "Lượng từ lặp lại thường đi với 都." }
+    examples: [hsk3-0045, hsk3-0044, hsk3-0046, ed3-006]
+
+  - id: g3-06
+    lesson: hsk3-03-food-clothes
+    hsk_code: null
+    title: Bổ ngữ mức độ — 极了, 得很, 坏了
+    structures:
+      - "Tính từ + 极了"
+      - "Tính từ + 得很"
+      - "Tính từ / Động từ + 坏了 (… quá, … chết đi được)"
+    explain: >-
+      Muốn nói mức độ rất cao, đặt bổ ngữ SAU tính từ: 好极了 (tuyệt vời), 热得很 (nóng lắm), 累坏了 (mệt rã rời), 饿坏了 (đói lả).
+      Đây là cách nói mạnh hơn và tự nhiên hơn 很 / 非常 trong khẩu ngữ.
+    notes:
+      - "Câu có 极了 / 得很 không thêm 很 phía trước: không nói 很好极了."
+    mistakes:
+      - { wrong: "这个蛋糕很好吃极了。", right: "这个蛋糕好吃极了。", why: "极了 đã chỉ mức độ, bỏ 很." }
+      - { wrong: "今天极热了。", right: "今天热极了。", why: "极了 đứng sau tính từ." }
+    examples: [hsk3-0350, ed3-007, ed3-008, ed3-009]
+
+  # ── Bài 4 · Vị trí và phương hướng ──────────────────────────────────────────
+  - id: g3-07
+    lesson: hsk3-04-position
+    hsk_code: null
+    title: Bổ ngữ xu hướng mở rộng — 起来, 下去, 下来
+    structures:
+      - "Động từ + 起来 (bắt đầu, bật lên)"
+      - "Động từ + 下去 (tiếp tục)"
+      - "Động từ + 下来 (giữ lại, ghi lại)"
+    explain: >-
+      Ngoài nghĩa chỉ hướng (lên, xuống), các bổ ngữ này còn có nghĩa mở rộng: 笑了起来 (bật cười, bắt đầu cười), 说下去 (nói tiếp),
+      记下来 / 录下来 (ghi lại, giữ lại), 站了起来 (đứng dậy).
+    notes:
+      - "Tân ngữ thường chen giữa 起 và 来: 下起雨来 / 唱起歌来."
+    mistakes:
+      - { wrong: "你说下来吧。", right: "你说下去吧。", why: "Tiếp tục làm gì dùng 下去." }
+    examples: [ed3-010, ed3-011, ed3-012, hsk3-0311]
+
+  - id: g3-08
+    lesson: hsk3-04-position
+    hsk_code: null
+    title: Bổ ngữ kết quả 2 — 到, 住, 走, 上
+    structures:
+      - "Động từ + 到 (được, tới)"
+      - "Động từ + 住 (giữ chặt)"
+      - "Động từ + 走 (đi mất)"
+      - "Động từ + 上 (khép lại, đạt được)"
+    explain: >-
+      找到 (tìm thấy), 买到 (mua được), 记住 (nhớ kỹ), 站住 (đứng lại), 搬走 (chuyển đi), 借走 (mượn mất), 关上 (đóng lại),
+      戴上 (đeo vào). Bổ ngữ đứng ngay sau động từ và cho biết hành động có kết quả gì.
+    notes:
+      - "Phủ định dùng 没: 没找到 (chưa tìm thấy)."
+    mistakes:
+      - { wrong: "我不找到我的手机。", right: "我没找到我的手机。", why: "Phủ định bổ ngữ kết quả dùng 没." }
+    examples: [ed3-013, hsk3-0041, hsk4-0124, hsk1-0076]
+
+  - id: g3-09
+    lesson: hsk3-04-position
+    hsk_code: null
+    title: Câu tồn hiện — xuất hiện / biến mất
+    structures:
+      - "Nơi chốn + Động từ + 过来 / 来 / 走 + 了 + số lượng + người, vật"
+    explain: >-
+      Muốn nói ở đâu xuất hiện hoặc mất đi ai / cái gì (chưa xác định), đặt NƠI CHỐN lên đầu, người / vật mới xuất hiện đứng sau động từ:
+      前面走过来一个人 (phía trước có một người đi tới), 我们班走了两个同学 (lớp chúng tôi đi mất hai bạn).
+    notes:
+      - "Mở rộng của câu tồn tại 有 ở HSK2."
+    mistakes:
+      - { wrong: "一个人从前面走过来了。", right: "前面走过来一个人。", why: "Người chưa xác định không đặt đầu câu; nơi chốn đứng đầu." }
+    examples: [ed3-014, ed3-015, hsk3-0175]
+
+  # ── Bài 5 · Thời gian, mùa và thời tiết ─────────────────────────────────────
+  - id: g3-10
+    lesson: hsk3-05-time-weather
+    hsk_code: null
+    title: 一…就… và …了…就… (vừa… là…, xong… là…)
+    structures:
+      - "Chủ ngữ + 一 + Việc 1 + 就 + Việc 2"
+      - "Chủ ngữ + Việc 1 + 了 + (tân ngữ) + 就 + Việc 2"
+    explain: >-
+      一…就… diễn tả hai việc nối tiếp ngay: việc 1 vừa xảy ra là việc 2 đến (他一回家就打开电视). Cũng dùng cho thói quen
+      "hễ… là…". …了…就… nhấn vào việc 1 làm XONG rồi mới làm việc 2 (吃了饭就去看电影).
+    notes:
+      - "一 và 就 đều đứng sau chủ ngữ của vế mình."
+    mistakes:
+      - { wrong: "一他回家就打开电视。", right: "他一回家就打开电视。", why: "一 đứng sau chủ ngữ 他." }
+    examples: [ed3-016, ed3-017, ed3-047, hsk2-0250]
+
+  - id: g3-11
+    lesson: hsk3-05-time-weather
+    hsk_code: null
+    title: 直到…才…, 终于 (mãi đến… mới…, cuối cùng)
+    structures:
+      - "直到 + thời điểm，Chủ ngữ + 才 + Động từ"
+      - "Chủ ngữ + 终于 + Động từ + 了"
+    explain: >-
+      直到 (zhídào) nhấn mạnh việc kéo dài mãi tới một thời điểm, thường đi với 才: 直到半夜他才睡 (mãi đến nửa đêm anh ấy mới ngủ).
+      终于 (zhōngyú) = "cuối cùng thì" sau một thời gian chờ đợi hoặc cố gắng: 他终于成功了.
+    notes:
+      - "终于 mang ý mong đợi; kết quả xấu thì không dùng 终于."
+    mistakes:
+      - { wrong: "直到半夜他就睡了。", right: "直到半夜他才睡。", why: "直到 đi với 才 (muộn), không đi với 就." }
+    examples: [hsk3-0606, hsk3-0328, hsk3-0508, ed3-013]
+
+  - id: g3-12
+    lesson: hsk3-05-time-weather
+    hsk_code: null
+    title: 从…起 (kể từ…) và thời gian đã trôi qua (…年了)
+    structures:
+      - "从 + thời điểm + 起，…"
+      - "Chủ ngữ + Động từ (+ tân ngữ) + khoảng thời gian + 了"
+    explain: >-
+      从明天起 = kể từ ngày mai. Để nói một việc đã xong được bao lâu, đặt khoảng thời gian SAU động từ (và tân ngữ):
+      他大学毕业两年了 (tốt nghiệp được hai năm), 我来中国半年了 (đến Trung Quốc được nửa năm).
+    notes:
+      - "Khác thời lượng hành động kéo dài (学了两年) — ở đây việc đã xong, đếm thời gian từ lúc đó."
+    mistakes:
+      - { wrong: "他两年大学毕业了。", right: "他大学毕业两年了。", why: "Khoảng thời gian đứng sau động từ, cuối câu." }
+    examples: [ed3-018, ed3-019, ed3-020, hsk3-0074]
+
+  # ── Bài 6 · Học tập, công việc và xã hội ────────────────────────────────────
+  - id: g3-13
+    lesson: hsk3-06-study-work
+    hsk_code: null
+    title: 关于, 根据, 对…来说 (về…, căn cứ vào…, đối với…)
+    structures:
+      - "关于 + chủ đề，…"
+      - "根据 + căn cứ + Động từ"
+      - "对 + người + 来说，…"
+    explain: >-
+      关于 (guānyú) nêu chủ đề được nói tới, thường đứng đầu câu. 根据 (gēnjù) = "căn cứ vào, dựa trên". 对…来说 = "đối với ai thì…",
+      nêu góc nhìn của một người: 对我来说，汉字不太难.
+    notes:
+      - "有关 / 关于: 有关 có thể làm định ngữ (有关部门 = cơ quan liên quan)."
+    mistakes:
+      - { wrong: "对我说，汉字不太难。", right: "对我来说，汉字不太难。", why: "Nói theo góc nhìn của ai cần đủ 对…来说." }
+    examples: [hsk4-0329, ed3-044, hsk4-0559, ed3-021]
+
+  - id: g3-14
+    lesson: hsk3-06-study-work
+    hsk_code: null
+    title: 为了 (để, nhằm) — nói mục đích
+    structures:
+      - "为了 + mục đích，Chủ ngữ + hành động"
+    explain: >-
+      为了 (wèile) đứng đầu câu để nêu MỤC ĐÍCH, vế sau là việc làm để đạt mục đích đó: 为了学好汉语，他每天听写.
+      Khác 因为 (vì — nguyên nhân).
+    notes:
+      - "做生意是为了利 — 是为了 + mục đích ở cuối câu."
+    mistakes:
+      - { wrong: "因为学好汉语，他每天听写。", right: "为了学好汉语，他每天听写。", why: "Nói mục đích dùng 为了, nguyên nhân mới dùng 因为." }
+    examples: [hsk3-0247, ed3-048, hsk6-0323]
+
+  - id: g3-15
+    lesson: hsk3-06-study-work
+    hsk_code: null
+    title: 只有…才… (chỉ có… mới…)
+    structures:
+      - "只有 + điều kiện duy nhất，(Chủ ngữ) + 才 + kết quả"
+    explain: >-
+      Nêu điều kiện DUY NHẤT: không có nó thì không có kết quả. 只有努力，才能成功. So sánh với 只要…就… (HSK2): điều kiện đủ, dễ đạt.
+    notes:
+      - "只有 đi với 才; 只要 đi với 就."
+    mistakes:
+      - { wrong: "只有多练习，就能说得好。", right: "只有多练习，才能说得好。", why: "只有 đi với 才." }
+    examples: [hsk3-0346, ed3-045]
+
+  # ── Bài 7 · Thể thao, giải trí và du lịch ───────────────────────────────────
+  - id: g3-16
+    lesson: hsk3-07-sports-travel
+    hsk_code: null
+    title: Bổ ngữ khả năng — Động từ + 得 / 不 + kết quả
+    structures:
+      - "Động từ + 得 + kết quả (làm được)"
+      - "Động từ + 不 + kết quả (không làm được)"
+    explain: >-
+      Chen 得 vào giữa động từ và bổ ngữ để nói CÓ THỂ đạt kết quả, chen 不 để nói KHÔNG THỂ: 看得见 (nhìn thấy được), 听不懂 (nghe không hiểu),
+      买不到 (không mua được), 想不出来 (nghĩ không ra). Đây là cách nói tự nhiên hơn 不能 + động từ.
+    notes:
+      - "Hỏi: 你听得懂吗？ / 你听得懂听不懂？"
+    mistakes:
+      - { wrong: "我不能听懂。", right: "我听不懂。", why: "Không hiểu do năng lực nghe dùng bổ ngữ khả năng 听不懂." }
+      - { wrong: "我看不得见。", right: "我看不见。", why: "Phủ định chỉ thay 得 bằng 不." }
+    examples: [ed3-022, ed3-023, ed3-024, hsk5-0669]
+
+  - id: g3-17
+    lesson: hsk3-07-sports-travel
+    hsk_code: null
+    title: Câu lặp động từ — 说汉语说得很好
+    structures:
+      - "Chủ ngữ + Động từ + Tân ngữ + Động từ (lặp lại) + 得 + bổ ngữ"
+    explain: >-
+      Khi động từ có tân ngữ mà vẫn muốn thêm bổ ngữ 得, ta LẶP LẠI động từ: 她说汉语说得很好, 他游泳游得很快.
+      Động từ thứ nhất đi với tân ngữ, động từ thứ hai đi với 得.
+    notes:
+      - "Có thể bỏ động từ đầu: 她汉语说得很好."
+    mistakes:
+      - { wrong: "她说汉语得很好。", right: "她说汉语说得很好。", why: "得 phải đứng ngay sau động từ; có tân ngữ thì lặp động từ." }
+    examples: [ed3-025, ed3-026]
+
+  # ── Bài 8 · Cảm xúc, sức khỏe và sự việc ────────────────────────────────────
+  - id: g3-18
+    lesson: hsk3-08-feelings-health
+    hsk_code: null
+    title: Câu bị động với 被
+    structures:
+      - "Vật / người + 被 + (người làm) + Động từ + kết quả"
+    explain: >-
+      被 (bèi) đưa vật bị tác động lên đầu câu, người gây ra đứng sau 被 (có thể lược). Thường dùng cho việc không như ý:
+      我的自行车被朋友借走了, 他把钱包丢了 → 钱包被（他）丢了. Sau động từ thường có kết quả hoặc 了.
+    notes:
+      - "Phủ định: 没 + 被: 门没被关上。"
+    mistakes:
+      - { wrong: "我的自行车被借。", right: "我的自行车被借走了。", why: "Câu 被 cần thành phần kết quả sau động từ." }
+    examples: [ed3-027, hsk4-0410, hsk5-0400, hsk3-0335]
+
+  - id: g3-19
+    lesson: hsk3-08-feelings-health
+    hsk_code: null
+    title: Câu hỏi tu từ 不是…吗？ (chẳng phải… sao?)
+    structures:
+      - "(Chủ ngữ) + 不是 + … + 吗？"
+    explain: >-
+      Hình thức là câu hỏi nhưng ý là KHẲNG ĐỊNH mạnh, thường kèm ngạc nhiên hoặc nhắc nhở: 你不是去过北京吗？ = Bạn đã đến Bắc Kinh rồi mà!
+      Người nói chờ người nghe xác nhận.
+    notes:
+      - "Trả lời: 是啊 / 对，我去过。"
+    mistakes:
+      - { wrong: "你是不去过北京吗？", right: "你不是去过北京吗？", why: "Cấu trúc cố định 不是…吗." }
+    examples: [ed3-028, ed3-029]
+
+  - id: g3-20
+    lesson: hsk3-08-feelings-health
+    hsk_code: null
+    title: 一点儿也不 / 一…也没 (chẳng… chút nào)
+    structures:
+      - "Chủ ngữ + 一点儿也 / 都 + 不 + Tính từ / Động từ"
+      - "一 + lượng từ + danh từ + 也 + 没 / 不 + Động từ"
+    explain: >-
+      Phủ định tuyệt đối: 我一点儿也不累 (chẳng mệt chút nào), 一分钱也没花 (không tiêu một xu). 也 có thể thay bằng 都.
+    notes:
+      - "Việc đã xảy ra dùng 没, tính chất / ý muốn dùng 不."
+    mistakes:
+      - { wrong: "我也一点儿不累。", right: "我一点儿也不累。", why: "Thứ tự cố định: 一点儿 + 也 + 不." }
+    examples: [ed3-030, ed3-031]
+
+  - id: g3-21
+    lesson: hsk3-08-feelings-health
+    hsk_code: null
+    title: Từ để hỏi + 都 / 也 (ai cũng, gì cũng)
+    structures:
+      - "谁 / 什么 / 哪儿 + 都 / 也 + Động từ"
+    explain: >-
+      Từ để hỏi không dùng để hỏi mà chỉ "bất kỳ": 这件事谁都知道 (chuyện này ai cũng biết), 他什么都想知道 (cái gì cũng muốn biết),
+      我哪儿也不去 (tôi chẳng đi đâu cả).
+    notes:
+      - "Câu không có dấu hỏi: đây là câu kể."
+    mistakes:
+      - { wrong: "谁知道都这件事。", right: "这件事谁都知道。", why: "都 đứng ngay sau từ để hỏi, trước động từ." }
+    examples: [ed3-032, hsk3-0215]
+
+  # ── Bài 9 · Từ chức năng ─────────────────────────────────────────────────────
+  - id: g3-22
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: 除了…(以外)，还 / 都… (ngoài… ra)
+    structures:
+      - "除了 A，(Chủ ngữ) + 还 / 也 + B (thêm vào)"
+      - "除了 A，(Chủ ngữ) + 都 + … (loại trừ)"
+    explain: >-
+      Có hai nghĩa tùy từ ở vế sau: với 还 / 也 là "ngoài A ra còn B" (除了汉语，他还会说英语); với 都 là "trừ A ra thì tất cả"
+      (除了他，大家都来了 — chỉ anh ấy không đến).
+    notes:
+      - "以外 có thể thêm: 除了他以外。"
+    mistakes:
+      - { wrong: "除了汉语，他都会说英语。", right: "除了汉语，他还会说英语。", why: "Bổ sung thêm dùng 还, không dùng 都." }
+    examples: [ed3-033, hsk3-0336]
+
+  - id: g3-23
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: So sánh 2 — 更 / 还, 不比, 比…早 / 多 + động từ + số lượng
+    structures:
+      - "A + 比 + B + 更 / 还 + Tính từ"
+      - "A + 不比 + B + Tính từ"
+      - "A + 比 + B + 早 / 晚 / 多 / 少 + Động từ + số lượng"
+    explain: >-
+      更 / 还 nhấn mạnh "còn… hơn". A 不比 B 高 nghĩa là A KHÔNG cao hơn B (gần bằng hoặc thấp hơn), khác A 没有 B 高 (A không cao bằng B).
+      Muốn so ai làm sớm / nhiều hơn bao nhiêu: 他比我早来了十分钟.
+    notes:
+      - "Số lượng chênh lệch đứng cuối câu."
+    mistakes:
+      - { wrong: "他比我来早了十分钟。", right: "他比我早来了十分钟。", why: "早 / 晚 đứng trước động từ." }
+      - { wrong: "今天比昨天很冷。", right: "今天比昨天还冷。", why: "Câu 比 không dùng 很; nhấn mạnh thì dùng 还 / 更." }
+    examples: [hsk2-0357, ed3-034, ed3-035, ed3-037]
+
+  - id: g3-24
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: 看起来 / 看上去 / 看来 / 一般来说
+    structures:
+      - "Chủ ngữ + 看起来 / 看上去 + Tính từ"
+      - "看来，… · 一般来说，…"
+    explain: >-
+      看起来 / 看上去 = "trông có vẻ" (nhận xét dựa vào vẻ ngoài): 他看上去很亲切. 看来 = "xem ra" (suy đoán từ tình hình): 看来今天要下雨.
+      一般来说 = "nói chung, thường thì".
+    notes:
+      - "Mấy cụm này hay đứng đầu câu trong bài đọc HSK3."
+    mistakes:
+      - { wrong: "他看很累。", right: "他看起来很累。", why: "'Trông có vẻ' cần 看起来 / 看上去." }
+    examples: [hsk3-0609, ed3-046, hsk4-0626, ed3-037]
+
+  - id: g3-25
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: Ước lượng — 大概, 左右, hai số liền nhau
+    structures:
+      - "大概 + số lượng"
+      - "Số lượng + 左右"
+      - "两三个 · 三四十个"
+    explain: >-
+      Nói con số gần đúng: 大概 (khoảng) đứng trước, 左右 (chừng) đứng sau con số. Đặt hai số liền nhau cũng là ước lượng:
+      两三个小时 (hai ba tiếng), 三四十个学生 (ba bốn mươi học sinh) — không có dấu phẩy giữa hai số.
+    notes:
+      - "Không dùng 大概 và 左右 cùng lúc."
+    mistakes:
+      - { wrong: "大概两千块钱左右", right: "两千块钱左右", why: "大概 và 左右 trùng nghĩa, chỉ dùng một." }
+    examples: [hsk3-0054, hsk3-0047, ed3-038, ed3-039]
+
+  - id: g3-26
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: 一会儿…一会儿… và 该…了
+    structures:
+      - "一会儿 + A，一会儿 + B (lúc A lúc B)"
+      - "(Thời gian) + 该 + Động từ + 了 (đến lúc… rồi)"
+    explain: >-
+      一会儿…一会儿… diễn tả hai trạng thái thay nhau liên tục: 天气一会儿冷一会儿热. 该…了 = "đến lúc phải… rồi":
+      十二点了，该吃饭了.
+    notes:
+      - "该 = 应该 (nên) ở HSK2; 该…了 nhấn vào thời điểm đã đến."
+    mistakes:
+      - { wrong: "十二点了，该吃饭。", right: "十二点了，该吃饭了。", why: "Cấu trúc cần 了 ở cuối." }
+    examples: [ed3-040, ed3-041, hsk2-0365]
+
+  - id: g3-27
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: 其实, 当然, 几乎 — phó từ ngữ khí
+    structures:
+      - "其实 + sự thật (trái với điều tưởng)"
+      - "当然 + khẳng định"
+      - "几乎 + Động từ / 都 (gần như)"
+    explain: >-
+      其实 (qíshí) = "thật ra" — sự thật khác với điều người ta nghĩ: 其实我早就知道了. 当然 = "đương nhiên": 当然可以！
+      几乎 (jīhū) = "gần như, suýt": 我几乎忘了这件事.
+    notes:
+      - "Phó từ đứng sau chủ ngữ, trước động từ; 其实 / 当然 có thể đứng đầu câu."
+    mistakes:
+      - { wrong: "我忘了几乎这件事。", right: "我几乎忘了这件事。", why: "几乎 là phó từ, đứng trước động từ." }
+    examples: [hsk3-0314, hsk3-0293, hsk4-0343, hsk3-0413]
+
+  - id: g3-28
+    lesson: hsk3-09-function-words
+    hsk_code: null
+    title: Bổ ngữ khả năng với 出来 / 下 — 想不出来, 放不下
+    structures:
+      - "Động từ + 得 / 不 + 出来 / 下 / 了"
+    explain: >-
+      Mở rộng bổ ngữ khả năng (Bài 7): 想不出来 (nghĩ không ra), 放不下 (để không vừa), 吃不了 (ăn không hết). Trong đề mẫu HSK3 chính thức
+      có câu 洗手间小，放不下那么大的洗衣机 — chỗ quá nhỏ nên "để không lọt".
+    notes:
+      - "了 (liǎo) trong 吃不了 đọc liǎo, không đọc le."
+    mistakes:
+      - { wrong: "这个问题我不想出来。", right: "这个问题我想不出来。", why: "不 chen giữa động từ và bổ ngữ." }
+    examples: [ed3-050]

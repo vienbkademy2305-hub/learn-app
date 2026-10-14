@@ -1,0 +1,75 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-02-home
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Nhà ở và đồ dùng
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:楼|lou2
+      - word:楼梯|lou2ti1
+      - word:电梯|dian4ti1
+      - word:屋子|wu1zi5
+      - word:室|shi4
+      - word:卫生间|wei4sheng1jian1
+      - word:沙发|sha1fa1
+      - word:空调|kong1tiao2
+      - word:冰箱|bing1xiang1
+      - word:箱子|xiang1zi5
+      - word:盘子|pan2zi5
+      - word:勺子|shao2zi5
+      - word:牙刷|ya2shua1
+      - word:伞|san3
+      - word:铅笔|qian1bi3
+      - word:耳机|er3ji1
+      - word:搬|ban1
+      - word:搬家|ban1jia1
+      - word:打扫|da3sao3
+      - word:扫|sao3
+      - word:刷|shua1
+      - word:小区|xiao3qu1
+      - word:附近|fu4jin4
+      - word:旧|jiu4
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk2-0049
+      - sentence:hsk-sentences-audio/hsk3-0443
+      - sentence:hsk-sentences-audio/hsk4-0045
+      - sentence:hsk-sentences-audio/hsk5-0565
+      - sentence:hsk-sentences-audio/hsk3-0312
+      - sentence:hsk-sentences-audio/hsk3-0595
+      - sentence:hsk-sentences-audio/hsk3-0489
+      - sentence:hsk-sentences-audio/hsk2-0097
+      - sentence:hsk-sentences-audio/hsk3-0185
+      - sentence:hsk-sentences-audio/hsk3-0034
+      - sentence:hsk-sentences-audio/hsk3-0035
+      - sentence:hsk-sentences-audio/hsk4-0759
+      - sentence:hsk-sentences-audio/hsk4-0039
+      - sentence:hsk-sentences-audio/hsk4-0217
+      - sentence:hsk-sentences-audio/hsk4-0571
+      - sentence:hsk-sentences-audio/hsk4-0495
+      - sentence:hsk-sentences-audio/hsk4-0621
+      - sentence:hsk-sentences-audio/hsk4-0785
+      - sentence:hsk-sentences-audio/hsk4-0008
+      - sentence:hsk-sentences-audio/hsk4-0056
+      - sentence:hsk-sentences-audio/hsk6-0974
+      - sentence:hsk-sentences-audio/hsk4-0124
+      - sentence:hsk-sentences-audio/hsk3-0041
+      - sentence:hsk-sentences-audio/hsk4-0195
+      - sentence:hsk-sentences-audio/hsk3-0074
+      - sentence:hsk-sentences-audio/hsk4-0050
+      - sentence:hsk-sentences-audio/hsk6-0019
+      - sentence:hsk-sentences-audio/hsk4-0117
+      - sentence:hsk-sentences-audio/hsk5-0117
+      - sentence:hsk-sentences-audio/hsk4-0116
+      - sentence:hsk-sentences-audio/hsk4-0414
+      - sentence:hsk-sentences-audio/hsk4-0027
+      - sentence:hsk-sentences-audio/hsk4-0181
+      - sentence:hsk-sentences-audio/hsk4-0053
+      - sentence:hsk-sentences-audio/hsk3-0569
+      - sentence:hsk-sentences-audio/hsk3-0536
+  - type: listening
+    items: *a1

@@ -1,0 +1,69 @@
+# HSK3 theo đề thi 2026: từ của Đề cương HSK (CLEC 2025-11) cấp 1–3 mà bài HSK1–2 chưa dạy, chia theo chủ đề.
+# Câu ví dụ: hsk-sentences-audio (có audio), ưu tiên câu ≤ HSK3. Sinh bằng scratchpad/tools/build-hsk3.mjs rồi biên tập tay.
+slug: hsk3-05-time-weather
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Thời gian, mùa và thời tiết
+summary_vi: null
+steps:
+  - type: vocabulary
+    items:
+      - word:时|shi2
+      - word:有时|you3shi2
+      - word:后年|hou4nian2
+      - word:工作日|gong1zuo4ri4
+      - word:季|ji4
+      - word:季节|ji4jie2
+      - word:四季|si4ji4
+      - word:开花|kai1hua1
+      - word:刮|gua1
+      - word:晚点|wan3dian3
+      - word:迟到|chi2dao4
+      - word:久|jiu3
+      - word:直到|zhi2dao4
+      - word:终于|zhong1yu2
+      - word:突然|tu1ran2
+      - word:开始|kai1shi3
+      - word:结束|jie2shu4
+      - word:过节|guo4jie2
+      - word:分|fen1
+      - word:总|zong3
+      - word:总是|zong3shi4
+      - word:每|mei3
+  - type: examples
+    items: &a1
+      - sentence:hsk-sentences-audio/hsk3-0570
+      - sentence:hsk-sentences-audio/hsk3-0528
+      - sentence:hsk-sentences-audio/hsk1-0158
+      - sentence:hsk-sentences-audio/hsk1-0053
+      - sentence:hsk-sentences-audio/hsk5-0102
+      - sentence:hsk-sentences-audio/hsk4-0423
+      - sentence:hsk-sentences-audio/hsk4-0084
+      - sentence:hsk-sentences-audio/hsk4-0098
+      - sentence:hsk-sentences-audio/hsk5-0164
+      - sentence:hsk-sentences-audio/hsk4-0083
+      - sentence:hsk-sentences-audio/hsk6-0324
+      - sentence:hsk-sentences-audio/hsk4-0196
+      - sentence:hsk-sentences-audio/hsk4-0099
+      - sentence:hsk-sentences-audio/hsk4-0274
+      - sentence:hsk-sentences-audio/hsk3-0360
+      - sentence:hsk-sentences-audio/hsk3-0673
+      - sentence:hsk-sentences-audio/hsk3-0606
+      - sentence:hsk-sentences-audio/hsk3-0328
+      - sentence:hsk-sentences-audio/hsk3-0508
+      - sentence:hsk-sentences-audio/hsk4-0103
+      - sentence:hsk-sentences-audio/hsk3-0581
+      - sentence:hsk-sentences-audio/hsk3-0488
+      - sentence:hsk-sentences-audio/hsk3-0637
+      - sentence:hsk-sentences-audio/hsk4-0402
+      - sentence:hsk-sentences-audio/hsk6-0943
+      - sentence:hsk-sentences-audio/hsk3-0713
+      - sentence:hsk-sentences-audio/hsk4-0615
+      - sentence:hsk-sentences-audio/hsk3-0529
+      - sentence:hsk-sentences-audio/hsk3-0331
+      - sentence:hsk-sentences-audio/hsk3-0564
+      - sentence:hsk-sentences-audio/hsk3-0542
+      - sentence:hsk-sentences-audio/hsk3-0047
+  - type: listening
+    items: *a1
