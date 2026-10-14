@@ -3,10 +3,12 @@
  * English audio, in this order:
  * 1. the voice the learner picked from the TTS service (docs/TTS_SERVICE_PLAN.md; src/features/tts/client.ts);
  * 2. MP3 files made by `pnpm en:audio` (docs/EN_AUDIO_PLAN.md), listed in assets/en-audio/manifest.json;
- * 3. the browser's voices (ENGLISH_SPLIT_PLAN Q3), preferring British, then American, then any English voice.
+ * 3. the browser's voices (ENGLISH_SPLIT_PLAN Q3), best ranked first (src/features/audio/browser-voices.ts).
+ * The learner can put the browser voice before the files (BrowserVoicePicker); with no pick, a natural device voice wins.
  */
 import { useEffect, useState } from "react";
 import { castSpeakers } from "@/domain/tts-cast";
+import { chosenVoice, getBrowserVoicePick, isNaturalVoice, secondVoice } from "@/features/audio/browser-voices";
 import { SpeakerIcon } from "@/features/audio/SpeakerIcon";
 import { getVoiceChoice, loadTtsVoices, ttsUrl } from "@/features/tts/client";
 import { assetUrl } from "@/lib/storage-url";
@@ -73,14 +75,20 @@ function playFile(text: string, rate: number, onEnd?: () => void): boolean {
 }
 
 function findEnglishVoice(): SpeechSynthesisVoice | null {
-  const voices = window.speechSynthesis.getVoices();
-  return (
-    voices.find((v) => v.lang === "en-GB" && /natural|online/i.test(v.name)) ??
-    voices.find((v) => v.lang === "en-GB") ??
-    voices.find((v) => v.lang === "en-US") ??
-    voices.find((v) => /^en[-_]/i.test(v.lang)) ??
-    null
-  );
+  return chosenVoice("en");
+}
+
+/**
+ * Browser voice instead of the recorded files? Yes when the learner picked a voice, or (pick "auto") when the device
+ * has a natural one (Edge "Online (Natural)", Chrome "Google …", iPhone "Enhanced"); "recorded" keeps the files first.
+ */
+function preferBrowserVoice(): boolean {
+  if (!("speechSynthesis" in window)) return false;
+  const pick = getBrowserVoicePick("en");
+  if (pick === "recorded") return false;
+  const voice = findEnglishVoice();
+  if (!voice) return false;
+  return pick !== "auto" || isNaturalVoice(voice, "en");
 }
 
 export function useEnglishVoice(): VoiceState {
@@ -120,7 +128,7 @@ export function speakEnglish(text: string, rate = 1, onEnd?: () => void) {
 
 /** Recorded file, else the browser voice. */
 function speakRecorded(text: string, rate: number, onEnd?: () => void) {
-  if (playFile(text, rate, onEnd)) return;
+  if (!preferBrowserVoice() && playFile(text, rate, onEnd)) return;
   if (!("speechSynthesis" in window)) return onEnd?.();
   const synth = window.speechSynthesis;
   const voice = findEnglishVoice();
@@ -177,15 +185,14 @@ async function castTts(speakers: string[]): Promise<Map<string, string>> {
 }
 
 function speakDialogueRecorded(text: string, turns: Array<{ speaker: string; text: string }>, rate: number, onEnd?: () => void) {
-  if (manifest?.[text]) {
+  if (manifest?.[text] && !preferBrowserVoice()) {
     stopEnglish();
     return speakRecorded(text, rate, onEnd);
   }
   stopEnglish();
   const synth = window.speechSynthesis;
   const first = findEnglishVoice();
-  const english = synth.getVoices().filter((v) => /^en[-_]/i.test(v.lang));
-  const second = english.find((v) => v.name !== first?.name && v.lang !== first?.lang) ?? english.find((v) => v.name !== first?.name) ?? null;
+  const second = secondVoice("en", first);
   const speakers = [...new Set(turns.map((t) => t.speaker))];
   synth.cancel();
   turns.forEach((t, i) => {

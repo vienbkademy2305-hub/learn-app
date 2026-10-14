@@ -3,19 +3,15 @@
  * Browser text-to-speech for words and characters, which have no recorded
  * audio in any source (REPO_AUDIT §9). Only used when the device has a
  * Mandarin voice — otherwise the default voice would mispronounce Chinese.
+ * The voice is the learner's pick or the most natural one on the device (./browser-voices.ts).
  */
 import { useEffect, useState } from "react";
+import { chosenVoice } from "./browser-voices";
 
 export type VoiceState = "loading" | "available" | "unavailable";
 
 function findChineseVoice(): SpeechSynthesisVoice | null {
-  const voices = window.speechSynthesis.getVoices();
-  return (
-    voices.find((v) => v.lang === "zh-CN") ??
-    voices.find((v) => /^zh[-_](CN|Hans)/i.test(v.lang)) ??
-    voices.find((v) => /^(zh|cmn)/i.test(v.lang) && !/HK|yue/i.test(v.lang)) ??
-    null
-  );
+  return chosenVoice("zh");
 }
 
 export function useChineseVoice(): VoiceState {

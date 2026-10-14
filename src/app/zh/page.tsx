@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { content } from "@/content/load";
+import { ZhVoicePicker } from "@/features/audio/ZhVoicePicker";
 import { ContinueLink, LevelProgress } from "@/features/progress/ProgressWidgets";
 
 export default function HomePage() {
@@ -17,6 +18,8 @@ export default function HomePage() {
         <p lang="zh-CN" className="font-han mt-6 text-5xl tracking-widest text-white/90">你好！</p>
         <p className="mt-1 text-brand-100">nǐ hǎo · nhĩ hảo · Xin chào</p>
       </section>
+
+      <ZhVoicePicker />
 
       <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
