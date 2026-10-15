@@ -1,0 +1,75 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-07r-leisure-nature
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Giải trí và thiên nhiên — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:变|bian4
+      - word:变成|bian4cheng2
+      - word:草|cao3
+      - word:草地|cao3di4
+      - word:东方|dong1fang1
+      - word:动物|dong4wu4
+      - word:动物园|dong4wu4yuan2
+      - word:海|hai3
+      - word:花园|hua1yuan2
+      - word:鸡|ji1
+      - word:蓝|lan2
+      - word:爬|pa2
+      - word:球场|qiu2chang3
+      - word:体育|ti3yu4
+      - word:体育馆|ti3yu4guan3
+      - word:网球|wang3qiu2
+      - word:相机|xiang4ji1
+      - word:新闻|xin1wen2
+      - word:以外|yi3wai4
+      - word:月亮|yue4liang5
+      - word:越|yue4
+      - word:照片|zhao4pian4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0275
+      - sentence:hsk-sentences-audio/hsk2-0442
+      - sentence:hsk-sentences-audio/hsk2-0314
+      - sentence:hsk-sentences-audio/hsk2-0265
+      - sentence:hsk-sentences-audio/hsk2-0510
+      - sentence:hsk-sentences-audio/hsk2-0317
+      - sentence:hsk-sentences-audio/hsk2-0445
+      - sentence:hsk-sentences-audio/hsk2-0320
+      - sentence:hsk-sentences-audio/hsk2-0322
+      - sentence:hsk-sentences-audio/hsk2-0453
+      - sentence:hsk-sentences-audio/hsk2-0493
+      - sentence:hsk-sentences-audio/hsk2-0482
+      - sentence:hsk-sentences-audio/hsk2-0261
+      - sentence:hsk-sentences-audio/hsk2-0260
+      - sentence:hsk-sentences-audio/hsk2-0272
+      - sentence:hsk-sentences-audio/hsk2-0269
+      - sentence:hsk-sentences-audio/hsk2-0534
+      - sentence:hsk-sentences-audio/hsk2-0310
+      - sentence:hsk-sentences-audio/hsk2-0505
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0275
+      - sentence:hsk-sentences-audio/hsk2-0442
+      - sentence:hsk-sentences-audio/hsk2-0314
+      - sentence:hsk-sentences-audio/hsk2-0265
+      - sentence:hsk-sentences-audio/hsk2-0510
+      - sentence:hsk-sentences-audio/hsk2-0317
+      - sentence:hsk-sentences-audio/hsk2-0445
+      - sentence:hsk-sentences-audio/hsk2-0320
+      - sentence:hsk-sentences-audio/hsk2-0322
+      - sentence:hsk-sentences-audio/hsk2-0453
+      - sentence:hsk-sentences-audio/hsk2-0493
+      - sentence:hsk-sentences-audio/hsk2-0482
+      - sentence:hsk-sentences-audio/hsk2-0261
+      - sentence:hsk-sentences-audio/hsk2-0260
+      - sentence:hsk-sentences-audio/hsk2-0272
+      - sentence:hsk-sentences-audio/hsk2-0269
+      - sentence:hsk-sentences-audio/hsk2-0534
+      - sentence:hsk-sentences-audio/hsk2-0310
+      - sentence:hsk-sentences-audio/hsk2-0505

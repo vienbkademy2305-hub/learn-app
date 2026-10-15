@@ -1,0 +1,103 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-08r-feelings-health
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Cảm xúc và sức khỏe — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:不但|bu4dan4
+      - word:出院|chu1yuan4
+      - word:的话|de5hua4
+      - word:短|duan3
+      - word:而且|er2qie3
+      - word:放心|fang4xin1
+      - word:感到|gan3dao4
+      - word:故事|gu4shi4
+      - word:关心|guan1xin1
+      - word:好像|hao3xiang4
+      - word:或|huo4
+      - word:或者|huo4zhe3
+      - word:机会|ji1hui4
+      - word:急|ji2
+      - word:健康|jian4kang1
+      - word:脚|jiao3
+      - word:可是|ke3shi4
+      - word:礼物|li3wu4
+      - word:脸|lian3
+      - word:难过|nan2guo4
+      - word:努力|nu3li4
+      - word:认为|ren4wei2
+      - word:如果|ru2guo3
+      - word:收|shou1
+      - word:头发|tou2fa5
+      - word:腿|tui3
+      - word:相信|xiang1xin4
+      - word:一定|yi1ding4
+      - word:以为|yi3wei2
+      - word:只要|zhi3yao4
+      - word:住院|zhu4yuan4
+      - word:嘴|zui3
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0292
+      - sentence:hsk-sentences-audio/hsk2-0254
+      - sentence:hsk-sentences-audio/hsk2-0290
+      - sentence:hsk-sentences-audio/hsk2-0450
+      - sentence:hsk-sentences-audio/hsk2-0477
+      - sentence:hsk-sentences-audio/hsk2-0279
+      - sentence:hsk-sentences-audio/hsk2-0297
+      - sentence:hsk-sentences-audio/hsk2-0281
+      - sentence:hsk-sentences-audio/hsk2-0295
+      - sentence:hsk-sentences-audio/hsk2-0531
+      - sentence:hsk-sentences-audio/hsk2-0293
+      - sentence:hsk-sentences-audio/hsk2-0306
+      - sentence:hsk-sentences-audio/hsk2-0257
+      - sentence:hsk-sentences-audio/hsk2-0255
+      - sentence:hsk-sentences-audio/hsk2-0243
+      - sentence:hsk-sentences-audio/hsk2-0525
+      - sentence:hsk-sentences-audio/hsk2-0280
+      - sentence:hsk-sentences-audio/hsk2-0247
+      - sentence:hsk-sentences-audio/hsk2-0302
+      - sentence:hsk-sentences-audio/hsk2-0287
+      - sentence:hsk-sentences-audio/hsk2-0285
+      - sentence:hsk-sentences-audio/hsk2-0458
+      - sentence:hsk-sentences-audio/hsk2-0245
+      - sentence:hsk-sentences-audio/hsk2-0283
+      - sentence:hsk-sentences-audio/hsk2-0282
+      - sentence:hsk-sentences-audio/hsk2-0284
+      - sentence:hsk-sentences-audio/hsk2-0253
+      - sentence:hsk-sentences-audio/hsk2-0248
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0292
+      - sentence:hsk-sentences-audio/hsk2-0254
+      - sentence:hsk-sentences-audio/hsk2-0290
+      - sentence:hsk-sentences-audio/hsk2-0450
+      - sentence:hsk-sentences-audio/hsk2-0477
+      - sentence:hsk-sentences-audio/hsk2-0279
+      - sentence:hsk-sentences-audio/hsk2-0297
+      - sentence:hsk-sentences-audio/hsk2-0281
+      - sentence:hsk-sentences-audio/hsk2-0295
+      - sentence:hsk-sentences-audio/hsk2-0531
+      - sentence:hsk-sentences-audio/hsk2-0293
+      - sentence:hsk-sentences-audio/hsk2-0306
+      - sentence:hsk-sentences-audio/hsk2-0257
+      - sentence:hsk-sentences-audio/hsk2-0255
+      - sentence:hsk-sentences-audio/hsk2-0243
+      - sentence:hsk-sentences-audio/hsk2-0525
+      - sentence:hsk-sentences-audio/hsk2-0280
+      - sentence:hsk-sentences-audio/hsk2-0247
+      - sentence:hsk-sentences-audio/hsk2-0302
+      - sentence:hsk-sentences-audio/hsk2-0287
+      - sentence:hsk-sentences-audio/hsk2-0285
+      - sentence:hsk-sentences-audio/hsk2-0458
+      - sentence:hsk-sentences-audio/hsk2-0245
+      - sentence:hsk-sentences-audio/hsk2-0283
+      - sentence:hsk-sentences-audio/hsk2-0282
+      - sentence:hsk-sentences-audio/hsk2-0284
+      - sentence:hsk-sentences-audio/hsk2-0253
+      - sentence:hsk-sentences-audio/hsk2-0248

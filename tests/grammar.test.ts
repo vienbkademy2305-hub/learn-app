@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import { isReviewLesson } from "@/content/lesson-label";
 import { describe, expect, it } from "vitest";
 import { grammarFile, readGrammar } from "../importers/editorial/grammar-vi";
 import { buildGrammarQuiz, structureParts } from "../src/domain/grammar";
@@ -41,7 +42,8 @@ points:
     const snap = JSON.parse(readFileSync(path.join(process.cwd(), ".data", "content", "zh.json"), "utf8"));
     const points = readGrammar(readFileSync(grammarFile(level), "utf8"), snap);
     expect(points.length).toBeGreaterThanOrEqual(min);
-    for (const lesson of snap.lessons.filter((l: { hskLevel: string }) => l.hskLevel === level)) expect(points.some((p) => p.lesson === lesson.slug), lesson.slug).toBe(true);
+    for (const lesson of snap.lessons.filter((l: { hskLevel: string; slug: string }) => l.hskLevel === level && !isReviewLesson(l.slug)))
+      expect(points.some((p) => p.lesson === lesson.slug), lesson.slug).toBe(true);
     for (const p of points) expect(p.examples.length).toBeGreaterThan(0);
     // HSK1–2 examples come from their own level; HSK3 (exam syllabus) also uses HSK4–6 recordings and self-written ed3-… sentences
     if (level !== "3") for (const p of points) for (const key of p.examples) expect(snap.sentences[key].hskLevel, `${p.id}: ${key}`).toBe(level);

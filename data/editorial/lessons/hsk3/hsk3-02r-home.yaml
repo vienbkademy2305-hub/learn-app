@@ -1,0 +1,99 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-02r-home
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Sinh hoạt hằng ngày — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:关|guan1
+      - word:马上|ma3shang4
+      - word:明白|ming2bai5
+      - word:难|nan2
+      - word:试|shi4
+      - word:忘记|wang4ji4
+      - word:先|xian1
+      - word:行|xing2
+      - word:一边|yi1bian1
+      - word:一块儿|yi1kuai4r5
+      - word:办|ban4
+      - word:笔记本|bi3ji4ben3
+      - word:灯|deng1
+      - word:方便|fang1bian4
+      - word:分开|fen1kai1
+      - word:接|jie1
+      - word:街|jie1
+      - word:卡|ka3
+      - word:哭|ku1
+      - word:筷子|kuai4zi5
+      - word:离开|li2kai1
+      - word:瓶子|ping2zi5
+      - word:清楚|qing1chu5
+      - word:然后|ran2hou4
+      - word:碗|wan3
+      - word:习惯|xi2guan4
+      - word:洗澡|xi3zao3
+      - word:养|yang3
+      - word:音乐|yin1yue4
+      - word:脏|zang1
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0250
+      - sentence:hsk-sentences-audio/hsk1-0082
+      - sentence:hsk-sentences-audio/hsk1-0078
+      - sentence:hsk-sentences-audio/hsk1-0263
+      - sentence:hsk-sentences-audio/hsk1-0210
+      - sentence:hsk-sentences-audio/hsk1-0075
+      - sentence:hsk-sentences-audio/hsk1-0221
+      - sentence:hsk-sentences-audio/hsk1-0258
+      - sentence:hsk-sentences-audio/hsk1-0266
+      - sentence:hsk-sentences-audio/hsk2-0124
+      - sentence:hsk-sentences-audio/hsk2-0093
+      - sentence:hsk-sentences-audio/hsk2-0090
+      - sentence:hsk-sentences-audio/hsk2-0094
+      - sentence:hsk-sentences-audio/hsk2-0116
+      - sentence:hsk-sentences-audio/hsk2-0101
+      - sentence:hsk-sentences-audio/hsk2-0103
+      - sentence:hsk-sentences-audio/hsk2-0122
+      - sentence:hsk-sentences-audio/hsk2-0107
+      - sentence:hsk-sentences-audio/hsk2-0452
+      - sentence:hsk-sentences-audio/hsk2-0451
+      - sentence:hsk-sentences-audio/hsk2-0474
+      - sentence:hsk-sentences-audio/hsk2-0088
+      - sentence:hsk-sentences-audio/hsk2-0114
+      - sentence:hsk-sentences-audio/hsk2-0089
+      - sentence:hsk-sentences-audio/hsk2-0111
+      - sentence:hsk-sentences-audio/hsk2-0091
+      - sentence:hsk-sentences-audio/hsk2-0113
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0250
+      - sentence:hsk-sentences-audio/hsk1-0082
+      - sentence:hsk-sentences-audio/hsk1-0078
+      - sentence:hsk-sentences-audio/hsk1-0263
+      - sentence:hsk-sentences-audio/hsk1-0210
+      - sentence:hsk-sentences-audio/hsk1-0075
+      - sentence:hsk-sentences-audio/hsk1-0221
+      - sentence:hsk-sentences-audio/hsk1-0258
+      - sentence:hsk-sentences-audio/hsk1-0266
+      - sentence:hsk-sentences-audio/hsk2-0124
+      - sentence:hsk-sentences-audio/hsk2-0093
+      - sentence:hsk-sentences-audio/hsk2-0090
+      - sentence:hsk-sentences-audio/hsk2-0094
+      - sentence:hsk-sentences-audio/hsk2-0116
+      - sentence:hsk-sentences-audio/hsk2-0101
+      - sentence:hsk-sentences-audio/hsk2-0103
+      - sentence:hsk-sentences-audio/hsk2-0122
+      - sentence:hsk-sentences-audio/hsk2-0107
+      - sentence:hsk-sentences-audio/hsk2-0452
+      - sentence:hsk-sentences-audio/hsk2-0451
+      - sentence:hsk-sentences-audio/hsk2-0474
+      - sentence:hsk-sentences-audio/hsk2-0088
+      - sentence:hsk-sentences-audio/hsk2-0114
+      - sentence:hsk-sentences-audio/hsk2-0089
+      - sentence:hsk-sentences-audio/hsk2-0111
+      - sentence:hsk-sentences-audio/hsk2-0091
+      - sentence:hsk-sentences-audio/hsk2-0113

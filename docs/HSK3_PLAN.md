@@ -17,7 +17,8 @@ Người dùng: "biên soạn HSK3 … phải dựa vào các đề thi thực t
 ## Đã làm
 | Phần | File | Trạng thái |
 |---|---|---|
-| 9 bài, 214 từ = từ đề thi cấp 1–3 mà HSK1–2 chưa dạy (lọc theo pinyin đề cương) | `data/editorial/lessons/hsk3/` (status `exam`) | bản nháp |
+| 9 bài từ mới, 214 từ = từ đề thi cấp 1–3 mà HSK1–2 chưa dạy (lọc theo pinyin đề cương) | `data/editorial/lessons/hsk3/hsk3-0N-*.yaml` (status `exam`) | bản nháp |
+| 10 bài ôn, 324 từ = từ cấp 3 của đề thi đã dạy ở HSK1–2 (người dùng: "cả cấp 3") → HSK3 phủ đủ 487/487 từ cấp 3 | `hsk3-0Nr-*.yaml`, `hsk3-09s-*.yaml`; không có ngữ pháp mới (`isReviewLesson`) | bản nháp |
 | 329 câu ví dụ có audio (≤ HSK3 trước, rồi HSK4–6 ngắn nhất) | importer nhập mọi câu được bài học tham chiếu | xong |
 | Dịch 294 câu | `sentences-vi/hsk3.yaml` | bản nháp |
 | 28 điểm ngữ pháp cấp 3 (把, 被, bổ ngữ khả năng, 除了, 只有…才…) | `grammar-vi/hsk3.yaml` | bản nháp |

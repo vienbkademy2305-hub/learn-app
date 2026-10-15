@@ -1,0 +1,83 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-03r-food-shopping
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Ăn uống và mua sắm — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:别的|bie2de5
+      - word:常|chang2
+      - word:饿|e4
+      - word:渴|ke3
+      - word:毛|mao2
+      - word:饱|bao3
+      - word:菜单|cai4dan1
+      - word:大小|da4xiao3
+      - word:大衣|da4yi1
+      - word:方便面|fang1bian4mian4
+      - word:服务|fu2wu4
+      - word:合适|he2shi4
+      - word:换|huan4
+      - word:酒|jiu3
+      - word:辆|liang4
+      - word:满意|man3yi4
+      - word:米|mi3
+      - word:名单|ming2dan1
+      - word:请客|qing3ke4
+      - word:外卖|wai4mai4
+      - word:为|wei4
+      - word:鞋|xie2
+      - word:信用卡|xin4yong4ka3
+      - word:银行卡|yin2hang2ka3
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0227
+      - sentence:hsk-sentences-audio/hsk1-0280
+      - sentence:hsk-sentences-audio/hsk1-0137
+      - sentence:hsk-sentences-audio/hsk1-0239
+      - sentence:hsk-sentences-audio/hsk2-0225
+      - sentence:hsk-sentences-audio/hsk2-0222
+      - sentence:hsk-sentences-audio/hsk2-0204
+      - sentence:hsk-sentences-audio/hsk2-0202
+      - sentence:hsk-sentences-audio/hsk2-0227
+      - sentence:hsk-sentences-audio/hsk2-0211
+      - sentence:hsk-sentences-audio/hsk2-0520
+      - sentence:hsk-sentences-audio/hsk2-0207
+      - sentence:hsk-sentences-audio/hsk2-0224
+      - sentence:hsk-sentences-audio/hsk2-0214
+      - sentence:hsk-sentences-audio/hsk2-0448
+      - sentence:hsk-sentences-audio/hsk2-0216
+      - sentence:hsk-sentences-audio/hsk2-0221
+      - sentence:hsk-sentences-audio/hsk2-0228
+      - sentence:hsk-sentences-audio/hsk2-0223
+      - sentence:hsk-sentences-audio/hsk2-0443
+      - sentence:hsk-sentences-audio/hsk2-0205
+      - sentence:hsk-sentences-audio/hsk2-0206
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0227
+      - sentence:hsk-sentences-audio/hsk1-0280
+      - sentence:hsk-sentences-audio/hsk1-0137
+      - sentence:hsk-sentences-audio/hsk1-0239
+      - sentence:hsk-sentences-audio/hsk2-0225
+      - sentence:hsk-sentences-audio/hsk2-0222
+      - sentence:hsk-sentences-audio/hsk2-0204
+      - sentence:hsk-sentences-audio/hsk2-0202
+      - sentence:hsk-sentences-audio/hsk2-0227
+      - sentence:hsk-sentences-audio/hsk2-0211
+      - sentence:hsk-sentences-audio/hsk2-0520
+      - sentence:hsk-sentences-audio/hsk2-0207
+      - sentence:hsk-sentences-audio/hsk2-0224
+      - sentence:hsk-sentences-audio/hsk2-0214
+      - sentence:hsk-sentences-audio/hsk2-0448
+      - sentence:hsk-sentences-audio/hsk2-0216
+      - sentence:hsk-sentences-audio/hsk2-0221
+      - sentence:hsk-sentences-audio/hsk2-0228
+      - sentence:hsk-sentences-audio/hsk2-0223
+      - sentence:hsk-sentences-audio/hsk2-0443
+      - sentence:hsk-sentences-audio/hsk2-0205
+      - sentence:hsk-sentences-audio/hsk2-0206

@@ -1,0 +1,138 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-09s-common-words
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Phó từ và từ thường dùng — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:办法|ban4fa3
+      - word:比如|bi3ru2
+      - word:不久|bu4jiu3
+      - word:才|cai2
+      - word:差不多|cha4bu5duo1
+      - word:常见|chang2jian4
+      - word:常用|chang2yong4
+      - word:懂得|dong3de5
+      - word:段|duan4
+      - word:对话|dui4hua4
+      - word:发现|fa1xian4
+      - word:方法|fang1fa3
+      - word:方向|fang1xiang4
+      - word:该|gai1
+      - word:刚|gang1
+      - word:刚刚|gang1gang5
+      - word:更|geng4
+      - word:关机|guan1ji1
+      - word:黄色|huang2se4
+      - word:借|jie4
+      - word:句|ju4
+      - word:句子|ju4zi5
+      - word:开机|kai1ji1
+      - word:练|lian4
+      - word:难看|nan2kan4
+      - word:难听|nan2ting1
+      - word:其他|qi2ta1
+      - word:生活|sheng1huo2
+      - word:受到|shou4dao4
+      - word:水平|shui3ping2
+      - word:听说|ting1shuo1
+      - word:洗衣机|xi3yi1ji1
+      - word:像|xiang4
+      - word:选|xuan3
+      - word:一般|yi1ban1
+      - word:一直|yi1zhi2
+      - word:以上|yi3shang4
+      - word:语言|yu3yan2
+      - word:怎么办|zen3me5ban4
+      - word:怎样|zen3yang4
+      - word:只能|zhi3neng2
+      - word:纸|zhi3
+      - word:字典|zi4dian3
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0345
+      - sentence:hsk-sentences-audio/hsk2-0400
+      - sentence:hsk-sentences-audio/hsk2-0418
+      - sentence:hsk-sentences-audio/hsk2-0352
+      - sentence:hsk-sentences-audio/hsk2-0348
+      - sentence:hsk-sentences-audio/hsk2-0384
+      - sentence:hsk-sentences-audio/hsk2-0385
+      - sentence:hsk-sentences-audio/hsk2-0361
+      - sentence:hsk-sentences-audio/hsk2-0420
+      - sentence:hsk-sentences-audio/hsk2-0438
+      - sentence:hsk-sentences-audio/hsk2-0396
+      - sentence:hsk-sentences-audio/hsk2-0342
+      - sentence:hsk-sentences-audio/hsk2-0434
+      - sentence:hsk-sentences-audio/hsk2-0365
+      - sentence:hsk-sentences-audio/hsk2-0350
+      - sentence:hsk-sentences-audio/hsk2-0351
+      - sentence:hsk-sentences-audio/hsk2-0357
+      - sentence:hsk-sentences-audio/hsk2-0327
+      - sentence:hsk-sentences-audio/hsk2-0441
+      - sentence:hsk-sentences-audio/hsk2-0363
+      - sentence:hsk-sentences-audio/hsk2-0377
+      - sentence:hsk-sentences-audio/hsk2-0336
+      - sentence:hsk-sentences-audio/hsk2-0328
+      - sentence:hsk-sentences-audio/hsk2-0426
+      - sentence:hsk-sentences-audio/hsk2-0387
+      - sentence:hsk-sentences-audio/hsk2-0388
+      - sentence:hsk-sentences-audio/hsk2-0414
+      - sentence:hsk-sentences-audio/hsk2-0375
+      - sentence:hsk-sentences-audio/hsk2-0360
+      - sentence:hsk-sentences-audio/hsk2-0386
+      - sentence:hsk-sentences-audio/hsk2-0407
+      - sentence:hsk-sentences-audio/hsk2-0332
+      - sentence:hsk-sentences-audio/hsk2-0339
+      - sentence:hsk-sentences-audio/hsk2-0371
+      - sentence:hsk-sentences-audio/hsk2-0358
+      - sentence:hsk-sentences-audio/hsk2-0359
+      - sentence:hsk-sentences-audio/hsk2-0410
+      - sentence:hsk-sentences-audio/hsk2-0411
+      - sentence:hsk-sentences-audio/hsk2-0325
+      - sentence:hsk-sentences-audio/hsk2-0333
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk2-0345
+      - sentence:hsk-sentences-audio/hsk2-0400
+      - sentence:hsk-sentences-audio/hsk2-0418
+      - sentence:hsk-sentences-audio/hsk2-0352
+      - sentence:hsk-sentences-audio/hsk2-0348
+      - sentence:hsk-sentences-audio/hsk2-0384
+      - sentence:hsk-sentences-audio/hsk2-0385
+      - sentence:hsk-sentences-audio/hsk2-0361
+      - sentence:hsk-sentences-audio/hsk2-0420
+      - sentence:hsk-sentences-audio/hsk2-0438
+      - sentence:hsk-sentences-audio/hsk2-0396
+      - sentence:hsk-sentences-audio/hsk2-0342
+      - sentence:hsk-sentences-audio/hsk2-0434
+      - sentence:hsk-sentences-audio/hsk2-0365
+      - sentence:hsk-sentences-audio/hsk2-0350
+      - sentence:hsk-sentences-audio/hsk2-0351
+      - sentence:hsk-sentences-audio/hsk2-0357
+      - sentence:hsk-sentences-audio/hsk2-0327
+      - sentence:hsk-sentences-audio/hsk2-0441
+      - sentence:hsk-sentences-audio/hsk2-0363
+      - sentence:hsk-sentences-audio/hsk2-0377
+      - sentence:hsk-sentences-audio/hsk2-0336
+      - sentence:hsk-sentences-audio/hsk2-0328
+      - sentence:hsk-sentences-audio/hsk2-0426
+      - sentence:hsk-sentences-audio/hsk2-0387
+      - sentence:hsk-sentences-audio/hsk2-0388
+      - sentence:hsk-sentences-audio/hsk2-0414
+      - sentence:hsk-sentences-audio/hsk2-0375
+      - sentence:hsk-sentences-audio/hsk2-0360
+      - sentence:hsk-sentences-audio/hsk2-0386
+      - sentence:hsk-sentences-audio/hsk2-0407
+      - sentence:hsk-sentences-audio/hsk2-0332
+      - sentence:hsk-sentences-audio/hsk2-0339
+      - sentence:hsk-sentences-audio/hsk2-0371
+      - sentence:hsk-sentences-audio/hsk2-0358
+      - sentence:hsk-sentences-audio/hsk2-0359
+      - sentence:hsk-sentences-audio/hsk2-0410
+      - sentence:hsk-sentences-audio/hsk2-0411
+      - sentence:hsk-sentences-audio/hsk2-0325
+      - sentence:hsk-sentences-audio/hsk2-0333

@@ -1,0 +1,95 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-05r-time-weather
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Thời gian và thời tiết — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:半天|ban4tian1
+      - word:病人|bing4ren2
+      - word:常常|chang2chang2
+      - word:风|feng1
+      - word:干净|gan1jing4
+      - word:后天|hou4tian1
+      - word:前天|qian2tian1
+      - word:生气|sheng1qi4
+      - word:新年|xin1nian2
+      - word:春天|chun1tian1
+      - word:打算|da3suan4
+      - word:到处|dao4chu4
+      - word:冬天|dong1tian1
+      - word:复习|fu4xi2
+      - word:刚才|gang1cai2
+      - word:后来|hou4lai2
+      - word:假期|jia4qi1
+      - word:节|jie2
+      - word:节日|jie2ri4
+      - word:刻|ke4
+      - word:怕|pa4
+      - word:前年|qian2nian2
+      - word:秋天|qiu1tian1
+      - word:太阳|tai4yang5
+      - word:特别|te4bie2
+      - word:外地|wai4di4
+      - word:夏天|xia4tian1
+      - word:周末|zhou1mo4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0218
+      - sentence:hsk-sentences-audio/hsk1-0149
+      - sentence:hsk-sentences-audio/hsk1-0047
+      - sentence:hsk-sentences-audio/hsk1-0144
+      - sentence:hsk-sentences-audio/hsk1-0147
+      - sentence:hsk-sentences-audio/hsk2-0234
+      - sentence:hsk-sentences-audio/hsk1-0051
+      - sentence:hsk-sentences-audio/hsk1-0146
+      - sentence:hsk-sentences-audio/hsk1-0048
+      - sentence:hsk-sentences-audio/hsk2-0081
+      - sentence:hsk-sentences-audio/hsk2-0077
+      - sentence:hsk-sentences-audio/hsk2-0238
+      - sentence:hsk-sentences-audio/hsk2-0506
+      - sentence:hsk-sentences-audio/hsk2-0069
+      - sentence:hsk-sentences-audio/hsk2-0073
+      - sentence:hsk-sentences-audio/hsk2-0075
+      - sentence:hsk-sentences-audio/hsk2-0492
+      - sentence:hsk-sentences-audio/hsk2-0066
+      - sentence:hsk-sentences-audio/hsk2-0087
+      - sentence:hsk-sentences-audio/hsk2-0080
+      - sentence:hsk-sentences-audio/hsk2-0079
+      - sentence:hsk-sentences-audio/hsk2-0065
+      - sentence:hsk-sentences-audio/hsk2-0241
+      - sentence:hsk-sentences-audio/hsk2-0074
+      - sentence:hsk-sentences-audio/hsk2-0064
+      - sentence:hsk-sentences-audio/hsk2-0067
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0218
+      - sentence:hsk-sentences-audio/hsk1-0149
+      - sentence:hsk-sentences-audio/hsk1-0047
+      - sentence:hsk-sentences-audio/hsk1-0144
+      - sentence:hsk-sentences-audio/hsk1-0147
+      - sentence:hsk-sentences-audio/hsk2-0234
+      - sentence:hsk-sentences-audio/hsk1-0051
+      - sentence:hsk-sentences-audio/hsk1-0146
+      - sentence:hsk-sentences-audio/hsk1-0048
+      - sentence:hsk-sentences-audio/hsk2-0081
+      - sentence:hsk-sentences-audio/hsk2-0077
+      - sentence:hsk-sentences-audio/hsk2-0238
+      - sentence:hsk-sentences-audio/hsk2-0506
+      - sentence:hsk-sentences-audio/hsk2-0069
+      - sentence:hsk-sentences-audio/hsk2-0073
+      - sentence:hsk-sentences-audio/hsk2-0075
+      - sentence:hsk-sentences-audio/hsk2-0492
+      - sentence:hsk-sentences-audio/hsk2-0066
+      - sentence:hsk-sentences-audio/hsk2-0087
+      - sentence:hsk-sentences-audio/hsk2-0080
+      - sentence:hsk-sentences-audio/hsk2-0079
+      - sentence:hsk-sentences-audio/hsk2-0065
+      - sentence:hsk-sentences-audio/hsk2-0241
+      - sentence:hsk-sentences-audio/hsk2-0074
+      - sentence:hsk-sentences-audio/hsk2-0064
+      - sentence:hsk-sentences-audio/hsk2-0067

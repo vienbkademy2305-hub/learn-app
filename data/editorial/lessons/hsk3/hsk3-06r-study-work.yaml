@@ -1,0 +1,98 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-06r-study-work
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Học tập và công việc — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:不用|bu4yong4
+      - word:放假|fang4jia4
+      - word:放学|fang4xue2
+      - word:开会|kai1hui4
+      - word:课本|ke4ben3
+      - word:图书馆|tu2shu1guan3
+      - word:外语|wai4yu3
+      - word:办公室|ban4gong1shi4
+      - word:笔记|bi3ji4
+      - word:必须|bi4xu1
+      - word:不同|bu4tong2
+      - word:查|cha2
+      - word:词典|ci2dian3
+      - word:黑板|hei1ban3
+      - word:检查|jian3cha2
+      - word:经理|jing1li3
+      - word:练习|lian4xi2
+      - word:留学生|liu2xue2sheng1
+      - word:难题|nan2ti2
+      - word:年级|nian2ji2
+      - word:热情|re4qing2
+      - word:市|shi4
+      - word:提高|ti2gao1
+      - word:完成|wan2cheng2
+      - word:晚会|wan3hui4
+      - word:校园|xiao4yuan2
+      - word:校长|xiao4zhang3
+      - word:休假|xiu1jia4
+      - word:学期|xue2qi1
+      - word:要求|yao1qiu2
+      - word:作业|zuo4ye4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0090
+      - sentence:hsk-sentences-audio/hsk2-0515
+      - sentence:hsk-sentences-audio/hsk1-0272
+      - sentence:hsk-sentences-audio/hsk1-0248
+      - sentence:hsk-sentences-audio/hsk1-0232
+      - sentence:hsk-sentences-audio/hsk1-0093
+      - sentence:hsk-sentences-audio/hsk1-0206
+      - sentence:hsk-sentences-audio/hsk2-0149
+      - sentence:hsk-sentences-audio/hsk2-0447
+      - sentence:hsk-sentences-audio/hsk2-0154
+      - sentence:hsk-sentences-audio/hsk2-0143
+      - sentence:hsk-sentences-audio/hsk2-0129
+      - sentence:hsk-sentences-audio/hsk2-0127
+      - sentence:hsk-sentences-audio/hsk2-0133
+      - sentence:hsk-sentences-audio/hsk2-0134
+      - sentence:hsk-sentences-audio/hsk2-0144
+      - sentence:hsk-sentences-audio/hsk2-0140
+      - sentence:hsk-sentences-audio/hsk2-0126
+      - sentence:hsk-sentences-audio/hsk2-0150
+      - sentence:hsk-sentences-audio/hsk2-0161
+      - sentence:hsk-sentences-audio/hsk2-0132
+      - sentence:hsk-sentences-audio/hsk2-0138
+      - sentence:hsk-sentences-audio/hsk2-0145
+      - sentence:hsk-sentences-audio/hsk2-0160
+      - sentence:hsk-sentences-audio/hsk2-0125
+      - sentence:hsk-sentences-audio/hsk2-0135
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0090
+      - sentence:hsk-sentences-audio/hsk2-0515
+      - sentence:hsk-sentences-audio/hsk1-0272
+      - sentence:hsk-sentences-audio/hsk1-0248
+      - sentence:hsk-sentences-audio/hsk1-0232
+      - sentence:hsk-sentences-audio/hsk1-0093
+      - sentence:hsk-sentences-audio/hsk1-0206
+      - sentence:hsk-sentences-audio/hsk2-0149
+      - sentence:hsk-sentences-audio/hsk2-0447
+      - sentence:hsk-sentences-audio/hsk2-0154
+      - sentence:hsk-sentences-audio/hsk2-0143
+      - sentence:hsk-sentences-audio/hsk2-0129
+      - sentence:hsk-sentences-audio/hsk2-0127
+      - sentence:hsk-sentences-audio/hsk2-0133
+      - sentence:hsk-sentences-audio/hsk2-0134
+      - sentence:hsk-sentences-audio/hsk2-0144
+      - sentence:hsk-sentences-audio/hsk2-0140
+      - sentence:hsk-sentences-audio/hsk2-0126
+      - sentence:hsk-sentences-audio/hsk2-0150
+      - sentence:hsk-sentences-audio/hsk2-0161
+      - sentence:hsk-sentences-audio/hsk2-0132
+      - sentence:hsk-sentences-audio/hsk2-0138
+      - sentence:hsk-sentences-audio/hsk2-0145
+      - sentence:hsk-sentences-audio/hsk2-0160
+      - sentence:hsk-sentences-audio/hsk2-0125
+      - sentence:hsk-sentences-audio/hsk2-0135

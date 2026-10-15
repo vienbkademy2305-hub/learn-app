@@ -1,4 +1,4 @@
-import { lessonLabel } from "@/content/lesson-label";
+import { isReviewLesson, lessonLabel } from "@/content/lesson-label";
 import type { Metadata } from "next";
 import { getLesson, getLessons, getSentence, lessonGrammar } from "@/content/load";
 import { GrammarPointCard } from "@/features/grammar/GrammarPointCard";
@@ -33,7 +33,9 @@ export default async function LessonGrammarPage({ params }: { params: Promise<{ 
       </div>
 
       {points.length === 0 ? (
-        <p className="rounded-2xl bg-white p-6 text-center text-stone-500">Bài này chưa có nội dung ngữ pháp.</p>
+        <p className="rounded-2xl bg-white p-6 text-center text-stone-500">
+          {isReviewLesson(slug) ? "Bài ôn từ vựng: không có điểm ngữ pháp mới. Ngữ pháp cấp 3 nằm ở các bài HSK3 học từ mới." : "Bài này chưa có nội dung ngữ pháp."}
+        </p>
       ) : (
         <>
           <nav aria-label="Các điểm ngữ pháp" className="flex flex-wrap gap-2 text-sm">

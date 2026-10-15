@@ -1,0 +1,117 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-09r-things-numbers
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Đồ vật và số lượng — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:地图|di4tu2
+      - word:得到|de2dao4
+      - word:电|dian4
+      - word:房子|fang2zi5
+      - word:放|fang4
+      - word:国家|guo2jia1
+      - word:回答|hui2da2
+      - word:课文|ke4wen2
+      - word:老人|lao3ren2
+      - word:请假|qing3jia4
+      - word:页|ye4
+      - word:一样|yi1yang4
+      - word:用|yong4
+      - word:有名|you3ming2
+      - word:有用|you3yong4
+      - word:重要|zhong4yao4
+      - word:最好|zui4hao3
+      - word:最后|zui4hou4
+      - word:遍|bian4
+      - word:不行|bu4xing2
+      - word:参加|can1jia1
+      - word:层|ceng2
+      - word:发|fa1
+      - word:封|feng1
+      - word:公斤|gong1jin1
+      - word:好多|hao3duo1
+      - word:加|jia1
+      - word:角|jiao3
+      - word:斤|jin1
+      - word:收到|shou1dao4
+      - word:信|xin4
+      - word:一共|yi1gong4
+      - word:游客|you2ke4
+      - word:愿意|yuan4yi4
+      - word:照相|zhao4xiang4
+      - word:主要|zhu3yao4
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0167
+      - sentence:hsk-sentences-audio/hsk1-0241
+      - sentence:hsk-sentences-audio/hsk1-0231
+      - sentence:hsk-sentences-audio/hsk1-0228
+      - sentence:hsk-sentences-audio/hsk1-0169
+      - sentence:hsk-sentences-audio/hsk1-0171
+      - sentence:hsk-sentences-audio/hsk1-0186
+      - sentence:hsk-sentences-audio/hsk1-0166
+      - sentence:hsk-sentences-audio/hsk1-0181
+      - sentence:hsk-sentences-audio/hsk1-0187
+      - sentence:hsk-sentences-audio/hsk1-0188
+      - sentence:hsk-sentences-audio/hsk1-0222
+      - sentence:hsk-sentences-audio/hsk2-0437
+      - sentence:hsk-sentences-audio/hsk1-0173
+      - sentence:hsk-sentences-audio/hsk2-0333
+      - sentence:hsk-sentences-audio/hsk1-0176
+      - sentence:hsk-sentences-audio/hsk1-0189
+      - sentence:hsk-sentences-audio/hsk2-0048
+      - sentence:hsk-sentences-audio/hsk2-0522
+      - sentence:hsk-sentences-audio/hsk2-0046
+      - sentence:hsk-sentences-audio/hsk2-0049
+      - sentence:hsk-sentences-audio/hsk2-0051
+      - sentence:hsk-sentences-audio/hsk2-0052
+      - sentence:hsk-sentences-audio/hsk2-0043
+      - sentence:hsk-sentences-audio/hsk2-0055
+      - sentence:hsk-sentences-audio/hsk2-0463
+      - sentence:hsk-sentences-audio/hsk2-0061
+      - sentence:hsk-sentences-audio/hsk2-0041
+      - sentence:hsk-sentences-audio/hsk2-0053
+      - sentence:hsk-sentences-audio/hsk2-0047
+      - sentence:hsk-sentences-audio/hsk2-0054
+      - sentence:hsk-sentences-audio/hsk2-0485
+      - sentence:hsk-sentences-audio/hsk2-0529
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0167
+      - sentence:hsk-sentences-audio/hsk1-0241
+      - sentence:hsk-sentences-audio/hsk1-0231
+      - sentence:hsk-sentences-audio/hsk1-0228
+      - sentence:hsk-sentences-audio/hsk1-0169
+      - sentence:hsk-sentences-audio/hsk1-0171
+      - sentence:hsk-sentences-audio/hsk1-0186
+      - sentence:hsk-sentences-audio/hsk1-0166
+      - sentence:hsk-sentences-audio/hsk1-0181
+      - sentence:hsk-sentences-audio/hsk1-0187
+      - sentence:hsk-sentences-audio/hsk1-0188
+      - sentence:hsk-sentences-audio/hsk1-0222
+      - sentence:hsk-sentences-audio/hsk2-0437
+      - sentence:hsk-sentences-audio/hsk1-0173
+      - sentence:hsk-sentences-audio/hsk2-0333
+      - sentence:hsk-sentences-audio/hsk1-0176
+      - sentence:hsk-sentences-audio/hsk1-0189
+      - sentence:hsk-sentences-audio/hsk2-0048
+      - sentence:hsk-sentences-audio/hsk2-0522
+      - sentence:hsk-sentences-audio/hsk2-0046
+      - sentence:hsk-sentences-audio/hsk2-0049
+      - sentence:hsk-sentences-audio/hsk2-0051
+      - sentence:hsk-sentences-audio/hsk2-0052
+      - sentence:hsk-sentences-audio/hsk2-0043
+      - sentence:hsk-sentences-audio/hsk2-0055
+      - sentence:hsk-sentences-audio/hsk2-0463
+      - sentence:hsk-sentences-audio/hsk2-0061
+      - sentence:hsk-sentences-audio/hsk2-0041
+      - sentence:hsk-sentences-audio/hsk2-0053
+      - sentence:hsk-sentences-audio/hsk2-0047
+      - sentence:hsk-sentences-audio/hsk2-0054
+      - sentence:hsk-sentences-audio/hsk2-0485
+      - sentence:hsk-sentences-audio/hsk2-0529

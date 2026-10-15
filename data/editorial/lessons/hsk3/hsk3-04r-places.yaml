@@ -1,0 +1,115 @@
+# HSK3 theo đề thi 2026 — bài ÔN: từ cấp 3 của Đề cương HSK 2025 đã dạy ở HSK1–2 (gom theo chủ đề bài gốc).
+# Sinh bằng scratchpad/tools/build-hsk3-review.mjs.
+slug: hsk3-04r-places
+status: exam
+source: derived
+hsk_level: "3"
+title_vi: Địa điểm và đi lại — ôn từ đã học
+summary_vi: "Từ cấp 3 của đề thi HSK 2026 mà bạn đã gặp ở HSK1–2: ôn lại để thuộc đủ 500 từ cấp 3."
+steps:
+  - type: vocabulary
+    items:
+      - word:北|bei3
+      - word:地点|di4dian3
+      - word:地方|di4fang5
+      - word:东|dong1
+      - word:见面|jian4mian4
+      - word:路口|lu4kou3
+      - word:马路|ma3lu4
+      - word:南|nan2
+      - word:汽车|qi4che1
+      - word:山|shan1
+      - word:树|shu4
+      - word:西|xi1
+      - word:中间|zhong1jian1
+      - word:安全|an1quan2
+      - word:出发|chu1fa1
+      - word:船|chuan2
+      - word:带|dai4
+      - word:东北|dong1bei3
+      - word:东南|dong1nan2
+      - word:公园|gong1yuan2
+      - word:河|he2
+      - word:护照|hu4zhao4
+      - word:经过|jing1guo4
+      - word:来自|lai2zi4
+      - word:凉快|liang2kuai5
+      - word:路边|lu4bian1
+      - word:面前|mian4qian2
+      - word:骑|qi2
+      - word:起飞|qi3fei1
+      - word:身边|shen1bian1
+      - word:西北|xi1bei3
+      - word:西方|xi1fang1
+      - word:西南|xi1nan2
+      - word:向|xiang4
+      - word:心里|xin1li5
+      - word:以下|yi3xia4
+      - word:银行|yin2hang2
+      - word:又|you4
+      - word:自行车|zi4xing2che1
+  - type: examples
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0277
+      - sentence:hsk-sentences-audio/hsk1-0233
+      - sentence:hsk-sentences-audio/hsk2-0340
+      - sentence:hsk-sentences-audio/hsk2-0315
+      - sentence:hsk-sentences-audio/hsk1-0120
+      - sentence:hsk-sentences-audio/hsk1-0117
+      - sentence:hsk-sentences-audio/hsk1-0111
+      - sentence:hsk-sentences-audio/hsk1-0200
+      - sentence:hsk-sentences-audio/hsk1-0108
+      - sentence:hsk-sentences-audio/hsk2-0479
+      - sentence:hsk-sentences-audio/hsk2-0196
+      - sentence:hsk-sentences-audio/hsk2-0186
+      - sentence:hsk-sentences-audio/hsk2-0188
+      - sentence:hsk-sentences-audio/hsk2-0170
+      - sentence:hsk-sentences-audio/hsk2-0177
+      - sentence:hsk-sentences-audio/hsk2-0198
+      - sentence:hsk-sentences-audio/hsk2-0172
+      - sentence:hsk-sentences-audio/hsk2-0169
+      - sentence:hsk-sentences-audio/hsk2-0168
+      - sentence:hsk-sentences-audio/hsk2-0184
+      - sentence:hsk-sentences-audio/hsk2-0187
+      - sentence:hsk-sentences-audio/hsk2-0174
+      - sentence:hsk-sentences-audio/hsk2-0511
+      - sentence:hsk-sentences-audio/hsk2-0175
+      - sentence:hsk-sentences-audio/hsk2-0171
+      - sentence:hsk-sentences-audio/hsk2-0197
+      - sentence:hsk-sentences-audio/hsk2-0173
+      - sentence:hsk-sentences-audio/hsk2-0533
+      - sentence:hsk-sentences-audio/hsk2-0163
+      - sentence:hsk-sentences-audio/hsk2-0512
+      - sentence:editorial/ed3-027
+  - type: listening
+    items:
+      - sentence:hsk-sentences-audio/hsk1-0277
+      - sentence:hsk-sentences-audio/hsk1-0233
+      - sentence:hsk-sentences-audio/hsk2-0340
+      - sentence:hsk-sentences-audio/hsk2-0315
+      - sentence:hsk-sentences-audio/hsk1-0120
+      - sentence:hsk-sentences-audio/hsk1-0117
+      - sentence:hsk-sentences-audio/hsk1-0111
+      - sentence:hsk-sentences-audio/hsk1-0200
+      - sentence:hsk-sentences-audio/hsk1-0108
+      - sentence:hsk-sentences-audio/hsk2-0479
+      - sentence:hsk-sentences-audio/hsk2-0196
+      - sentence:hsk-sentences-audio/hsk2-0186
+      - sentence:hsk-sentences-audio/hsk2-0188
+      - sentence:hsk-sentences-audio/hsk2-0170
+      - sentence:hsk-sentences-audio/hsk2-0177
+      - sentence:hsk-sentences-audio/hsk2-0198
+      - sentence:hsk-sentences-audio/hsk2-0172
+      - sentence:hsk-sentences-audio/hsk2-0169
+      - sentence:hsk-sentences-audio/hsk2-0168
+      - sentence:hsk-sentences-audio/hsk2-0184
+      - sentence:hsk-sentences-audio/hsk2-0187
+      - sentence:hsk-sentences-audio/hsk2-0174
+      - sentence:hsk-sentences-audio/hsk2-0511
+      - sentence:hsk-sentences-audio/hsk2-0175
+      - sentence:hsk-sentences-audio/hsk2-0171
+      - sentence:hsk-sentences-audio/hsk2-0197
+      - sentence:hsk-sentences-audio/hsk2-0173
+      - sentence:hsk-sentences-audio/hsk2-0533
+      - sentence:hsk-sentences-audio/hsk2-0163
+      - sentence:hsk-sentences-audio/hsk2-0512
