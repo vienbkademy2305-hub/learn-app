@@ -85,3 +85,22 @@ describe("chat()", () => {
     expect(n).toBe(1);
   });
 });
+
+describe("Săn từ", () => {
+  it("parses at most 5 distinct targets", () => {
+    const p = parseChatInput({ scenario: "en-cafe", turns: [], targets: ["a", "a", "bb", "c", "d", "e", "f", ""] })!;
+    expect(p.targets).toEqual(["a", "bb", "c", "d", "e"]);
+  });
+  it("adds the targets to the prompt", () => {
+    const p = parseChatInput({ scenario: "en-cafe", turns: [], targets: ["receipt"] })!;
+    expect(geminiRequest(p).systemInstruction.parts[0]!.text).toContain('"receipt"');
+  });
+  it("keeps a claimed target only when the message really contains it", async () => {
+    const { usedTargets } = await import("../supabase/functions/chat-ai/chat");
+    expect(usedTargets(["receipt", "menu"], ["receipt", "menu", "bill"], "Can I have the receipt?", "en")).toEqual(["receipt"]);
+    expect(usedTargets(["going"], ["go"], "I am going home", "en")).toEqual([]); // not claimed by that exact form
+    expect(usedTargets(["go"], ["go"], "I am going home", "en")).toEqual(["go"]);
+    expect(usedTargets(["你好"], ["你好", "再见"], "你好，我叫河", "zh")).toEqual(["你好"]);
+    expect(usedTargets(["再见"], ["再见"], "你好", "zh")).toEqual([]);
+  });
+});

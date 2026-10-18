@@ -8,8 +8,16 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { isCorrect } from "@/domain/en-grade";
 import { shuffle } from "@/domain/exercises";
+import { earnXp } from "@/features/activity/store";
+import { Blitz } from "./Blitz";
+import { playRight, playWin, playWrong } from "./feedback";
 import {
   applyAnswer,
+  BLITZ_MIN_WORDS,
+  BOSS_HEARTS,
+  BOSS_HITS,
+  BOSS_XP,
+  bossHp,
   dayStreak,
   distractors,
   type GameProgress,
@@ -42,7 +50,17 @@ export interface WordGameProps {
 }
 
 type Question = { id: string; kind: Kind; options: GameWord[]; review: boolean; level: number };
-type Session = { queue: string[]; review: Set<string>; wrong: Record<string, number>; asked: number; correct: number; passedNow: string[]; match: string[] | null };
+type Session = {
+  queue: string[];
+  review: Set<string>;
+  wrong: Record<string, number>;
+  asked: number;
+  correct: number;
+  passedNow: string[];
+  match: string[] | null;
+  /** 👾 boss battle over the hard words: hearts left, queue length at the start, result */
+  boss?: { hearts: number; /** hits needed to win: BOSS_HITS per word */ total: number; hits: Record<string, number>; won?: boolean };
+};
 
 const rng = Math.random;
 const btn = "rounded-xl px-5 py-3 font-semibold";
@@ -51,6 +69,7 @@ export function WordGame(props: WordGameProps) {
   const { lang, words, lessons, studied, gp, update, speak, canListen, lessonLabel, lockLesson } = props;
   const [scope, setScope] = useState<number | "studied" | null>(null);
   const [session, setSession] = useState<Session | null>(null);
+  const [blitz, setBlitz] = useState(false);
   const [question, setQuestion] = useState<Question | null>(null);
   const [feedback, setFeedback] = useState<{ ok: boolean; word: GameWord } | null>(null);
   const byId = useMemo(() => new Map(words.map((w) => [w.id, w])), [words]);
@@ -72,13 +91,23 @@ export function WordGame(props: WordGameProps) {
     const p = hardOnly ? planSession(inScope, gp, { hardOnly: true }) : plan;
     const queue = [...p.review, ...p.learn];
     const level0 = queue.filter((id) => !p.review.includes(id) && (gp.mastery[id]?.level ?? 0) === 0).slice(0, 5);
-    setSession({ queue, review: new Set(p.review), wrong: {}, asked: 0, correct: 0, passedNow: [], match: level0.length >= 3 ? level0 : null });
+    setSession({
+      queue,
+      review: new Set(p.review),
+      wrong: {},
+      asked: 0,
+      correct: 0,
+      passedNow: [],
+      match: level0.length >= 3 ? level0 : null,
+      boss: hardOnly ? { hearts: BOSS_HEARTS, total: queue.length * BOSS_HITS, hits: {} } : undefined,
+    });
     setQuestion(null);
     setFeedback(null);
   };
 
   // next question whenever the head of the queue changes
-  const head = session && !session.match && session.asked < MAX_QUESTIONS ? session.queue[0] : undefined;
+  const bossOver = !!session?.boss && (session.boss.hearts <= 0 || session.boss.won === true);
+  const head = session && !session.match && !bossOver && session.asked < MAX_QUESTIONS ? session.queue[0] : undefined;
   useEffect(() => {
     if (!head || feedback) return;
     const word = byId.get(head)!;
@@ -102,7 +131,23 @@ export function WordGame(props: WordGameProps) {
     if (wasReview) review.delete(question.id);
     const wrong = correct ? session.wrong : { ...session.wrong, [question.id]: (session.wrong[question.id] ?? 0) + 1 };
     setFeedback({ ok: correct, word });
-    setSession({ ...session, review, wrong, passedNow, asked: session.asked + 1, correct: session.correct + (correct ? 1 : 0), queue: nextQueue(session.queue, after, wasReview, correct, wrong[question.id] ?? 0) });
+    let queue = nextQueue(session.queue, after, wasReview, correct, wrong[question.id] ?? 0);
+    let boss = session.boss;
+    if (boss) {
+      // Boss battle: a word is beaten after BOSS_HITS right answers in this battle, whatever its level.
+      const hits = correct ? { ...boss.hits, [question.id]: (boss.hits[question.id] ?? 0) + 1 } : boss.hits;
+      if ((hits[question.id] ?? 0) >= BOSS_HITS) queue = session.queue.slice(1);
+      const hearts = boss.hearts - (correct ? 0 : 1);
+      const won = queue.length === 0 && hearts > 0;
+      boss = { ...boss, hearts, hits, won: won || undefined };
+      if (won) {
+        earnXp(BOSS_XP);
+        playWin();
+      } else if (correct) playRight(0);
+      else playWrong();
+    } else if (correct) playRight(0);
+    else playWrong();
+    setSession({ ...session, boss, review, wrong, passedNow, asked: session.asked + 1, correct: session.correct + (correct ? 1 : 0), queue });
   };
 
   if (scope === null) return <p className="text-stone-500">Đang tải…</p>;
@@ -110,7 +155,9 @@ export function WordGame(props: WordGameProps) {
 
   return (
     <div className="space-y-5">
-      {!session && (
+      {blitz && <Blitz lang={lang} words={inScope} gp={gp} update={update} speak={speak} onExit={() => setBlitz(false)} />}
+
+      {!session && !blitz && (
         <>
           {lockLesson === undefined && (
             <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))} className={chip}>
@@ -139,11 +186,18 @@ export function WordGame(props: WordGameProps) {
             ) : (
               <p className="text-stone-700">Đã thuộc hết từ trong phạm vi này và chưa đến hạn ôn. {lockLesson === undefined ? "Chọn buổi khác hoặc quay lại sau nhé!" : "Quay lại sau để ôn nhé!"}</p>
             )}
-            {hardWords.length > 0 && (
-              <button type="button" onClick={() => start(true)} className={`${btn} ml-2 mt-4 bg-red-50 text-red-800 ring-1 ring-inset ring-red-200 hover:bg-red-100`}>
-                Học lại Từ khó ({hardWords.length})
-              </button>
-            )}
+            <div className="mt-4 flex flex-wrap justify-center gap-2">
+              {inScope.length >= BLITZ_MIN_WORDS && (
+                <button type="button" onClick={() => setBlitz(true)} className={`${btn} bg-orange-500 text-white hover:bg-orange-600`}>
+                  ⚡ Đua 60 giây
+                </button>
+              )}
+              {hardWords.length > 0 && (
+                <button type="button" onClick={() => start(true)} className={`${btn} bg-red-50 text-red-800 ring-1 ring-inset ring-red-200 hover:bg-red-100`}>
+                  👾 Đánh boss: Từ khó ({hardWords.length})
+                </button>
+              )}
+            </div>
             <p className="mx-auto mt-4 max-w-xl text-left text-xs text-stone-500">
               Mỗi từ qua 3 bậc — {LEVEL_NAMES[0]} (nối / chọn từ) → {LEVEL_NAMES[1]} (nghe chọn) → {LEVEL_NAMES[2]} ({lang === "en" ? "nghe gõ lại, gõ từ theo nghĩa" : "nghĩa tiếng Anh → chọn chữ"}); mỗi bậc đúng liền 2 lần. Từ đã thuộc được hẹn ôn sau 3 ngày và không hiện trong lượt lật thẻ đến hạn đó. Sai 3 lần → vào mục Từ khó.
             </p>
@@ -160,9 +214,19 @@ export function WordGame(props: WordGameProps) {
         />
       )}
 
+      {session?.boss && !session.match && <BossBar boss={session.boss} />}
+
       {session && !session.match && (head === undefined || session.asked >= MAX_QUESTIONS) && !feedback && (
         <div className="rounded-2xl border border-stone-200 bg-white p-6 text-center shadow-sm">
-          <p className="text-xl font-bold text-jade-700">Xong lượt học!</p>
+          {session.boss ? (
+            session.boss.won ? (
+              <p className="text-xl font-bold text-jade-700">🏆 Hạ boss! +{BOSS_XP} XP</p>
+            ) : (
+              <p className="text-xl font-bold text-red-700">💀 Boss thắng — hết tim. Đánh lại nhé!</p>
+            )
+          ) : (
+            <p className="text-xl font-bold text-jade-700">Xong lượt học!</p>
+          )}
           <p className="mt-1 text-stone-600">
             Đúng {session.correct}/{session.asked} câu · thuộc thêm {session.passedNow.length} từ
             {session.queue.length ? ` · còn ${session.queue.length} từ học tiếp lần sau` : ""}.
@@ -187,6 +251,29 @@ export function WordGame(props: WordGameProps) {
           onNext={() => setFeedback(null)}
         />
       )}
+    </div>
+  );
+}
+
+function BossBar({ boss }: { boss: NonNullable<Session["boss"]> }) {
+  const done = Object.values(boss.hits).reduce((a, b) => a + b, 0);
+  const hp = bossHp(boss.total - done, boss.total);
+  return (
+    <div className="flex items-center gap-3 rounded-2xl bg-stone-900 px-4 py-3 text-white">
+      <span className="text-3xl" aria-hidden>👾</span>
+      <div className="min-w-0 flex-1">
+        <div className="flex justify-between text-xs font-semibold">
+          <span>Boss Từ khó</span>
+          <span>{Math.round(hp * 100)}% máu</span>
+        </div>
+        <div className="mt-1 h-2.5 overflow-hidden rounded-full bg-stone-700" role="progressbar" aria-valuenow={Math.round(hp * 100)} aria-valuemax={100} aria-label="Máu của boss">
+          <div className="h-full rounded-full bg-red-500 transition-[width] duration-300" style={{ width: `${hp * 100}%` }} />
+        </div>
+      </div>
+      <span className="text-lg tracking-widest" aria-label={`${boss.hearts} tim`}>
+        {"❤️".repeat(Math.max(0, boss.hearts))}
+        {"🖤".repeat(Math.max(0, BOSS_HEARTS - boss.hearts))}
+      </span>
     </div>
   );
 }

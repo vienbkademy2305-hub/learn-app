@@ -175,3 +175,77 @@ export function summary(words: GameWord[], gp: GameProgress) {
   }
   return { passed, learning, hard, fresh: words.length - passed - learning, total: words.length };
 }
+
+/* ---------- ⚡ Đua 60 giây (Blitz) ---------- */
+
+export const BLITZ_SECONDS = 60;
+/** A wrong answer takes this many seconds off the clock. */
+export const BLITZ_PENALTY = 3;
+export const BLITZ_MIN_WORDS = 4;
+
+/** Combo x1 → x5: every 3 right answers in a row add one to the multiplier. */
+export const blitzMultiplier = (combo: number) => Math.min(5, 1 + Math.floor(combo / 3));
+
+/** Points for a right answer when the combo before it was `combo`. */
+export const blitzPoints = (combo: number) => 10 * blitzMultiplier(combo);
+
+/**
+ * Next word of the race: hard words come up most, words still being learnt next, passed words least
+ * (they are only kept warm). Never the word just asked, unless it is the only one.
+ */
+export function blitzPick(words: GameWord[], gp: GameProgress, rng: Rng, lastId?: string): GameWord {
+  const pool = words.length > 1 ? words.filter((w) => w.id !== lastId) : words;
+  const weight = (w: GameWord) => {
+    const m = gp.mastery[w.id];
+    return isHard(m) ? 5 : isPassed(m) ? 1 : 3;
+  };
+  let r = rng() * pool.reduce((a, w) => a + weight(w), 0);
+  for (const w of pool) {
+    r -= weight(w);
+    if (r < 0) return w;
+  }
+  return pool[pool.length - 1]!;
+}
+
+/** XP for a finished race: 2 per right answer, at most 40. */
+export const blitzXp = (correct: number) => Math.min(40, correct * 2);
+
+/* ---------- 👾 Đánh boss ---------- */
+
+export const BOSS_HEARTS = 5;
+/** Right answers needed against each hard word to beat it in a boss battle. */
+export const BOSS_HITS = 2;
+/** XP for beating the boss. */
+export const BOSS_XP = 15;
+
+/** Boss HP left, 0–1: the share of the opening queue that is still waiting. */
+export const bossHp = (queueLength: number, opening: number) => (opening > 0 ? Math.max(0, Math.min(1, queueLength / opening)) : 0);
+
+/* ---------- 🗣️ Săn từ cùng AI ---------- */
+
+export const HUNT_TARGETS = 5;
+/** XP for each target the learner manages to use in the conversation. */
+export const HUNT_XP = 5;
+
+/**
+ * Words to hunt in an AI conversation: hard words first (most wrong answers first), then words being
+ * learnt, then random words from the lessons the learner has reached (at least the first three).
+ */
+export function pickHuntTargets(words: GameWord[], mastery: Record<string, Mastery>, rng: Rng, n = HUNT_TARGETS, exclude: string[] = []): GameWord[] {
+  const skip = new Set(exclude);
+  const usable = words.filter((w) => w.term.length <= 30 && !skip.has(w.id));
+  const started = usable.filter((w) => mastery[w.id] && !isPassed(mastery[w.id]));
+  const hard = started.filter((w) => isHard(mastery[w.id])).sort((a, b) => mastery[b.id]!.wrong - mastery[a.id]!.wrong);
+  const learning = shuffle(started.filter((w) => !isHard(mastery[w.id])), rng);
+  const reached = Math.max(3, ...usable.filter((w) => mastery[w.id]).map((w) => w.lesson));
+  const rest = shuffle(usable.filter((w) => !mastery[w.id] && w.lesson <= reached), rng);
+  const seen = new Set<string>();
+  const out: GameWord[] = [];
+  for (const w of [...hard, ...learning, ...rest]) {
+    if (seen.has(w.term)) continue;
+    seen.add(w.term);
+    out.push(w);
+    if (out.length === n) break;
+  }
+  return out;
+}

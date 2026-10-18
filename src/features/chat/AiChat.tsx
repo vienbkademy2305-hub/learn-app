@@ -6,6 +6,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { XP } from "@/domain/activity";
+import { HUNT_TARGETS, HUNT_XP, pickHuntTargets, type GameWord, type Mastery } from "@/domain/word-game";
 import { useAccount } from "@/features/account/account";
 import { earnXp } from "@/features/activity/store";
 import { speakChinese, stopSpeaking } from "@/features/audio/speech";
@@ -49,7 +50,7 @@ function Feedback({ fb }: { fb: ChatReply["feedback"] }) {
   );
 }
 
-export function AiChat({ lang }: { lang: ChatLang }) {
+export function AiChat({ lang, words = [], mastery = {} }: { lang: ChatLang; /** the learner's vocabulary, for "Săn từ" */ words?: GameWord[]; mastery?: Record<string, Mastery> }) {
   const account = useAccount();
   const accent = lang === "zh" ? "bg-brand-600 hover:bg-brand-700" : "bg-sky-700 hover:bg-sky-800";
   const [scenario, setScenario] = useState<Scenario | null>(null);
@@ -63,6 +64,12 @@ export function AiChat({ lang }: { lang: ChatLang }) {
   const [left, setLeft] = useState<number | null>(null);
   const [autoSpeak, setAutoSpeak] = useState(true);
   const [rec, setRec] = useState<Listening | null>(null);
+  const [hunt, setHunt] = useState(false);
+  const [targets, setTargets] = useState<GameWord[]>([]);
+  const [found, setFound] = useState<string[]>([]);
+  const [huntDone, setHuntDone] = useState(false);
+  const targetTerms = hunt ? targets.map((t) => t.term) : [];
+  const roll = (exclude: string[] = []) => setTargets(pickHuntTargets(words, mastery, Math.random, HUNT_TARGETS, exclude));
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => endRef.current?.scrollIntoView({ behavior: "smooth", block: "end" }), [msgs, busy]);
@@ -79,12 +86,12 @@ export function AiChat({ lang }: { lang: ChatLang }) {
   }
 
   /** Ask the AI for the next line given the conversation (a user message already added, or none for the opening). */
-  async function turn(sc: Scenario, lv: string, history: Msg[]) {
+  async function turn(sc: Scenario, lv: string, history: Msg[], terms: string[] = targetTerms) {
     setBusy(true);
     setError(null);
     setSuggestions([]);
     const turns = history.map((m) => (m.role === "ai" ? { role: "ai" as const, text: m.reply.reply } : { role: "user" as const, text: m.text }));
-    const r = await askAi(sc.id, lv, turns);
+    const r = await askAi(sc.id, lv, turns, terms);
     setBusy(false);
     if ("error" in r) return setError(r.error);
     const { answer } = r;
@@ -97,6 +104,16 @@ export function AiChat({ lang }: { lang: ChatLang }) {
     });
     setSuggestions(answer.suggestions);
     if (history.length) earnXp(XP.chat);
+    const fresh = answer.used.filter((u) => !found.includes(u));
+    if (fresh.length) {
+      const all = [...found, ...fresh];
+      setFound(all);
+      earnXp(HUNT_XP * fresh.length);
+      if (terms.length && all.length >= terms.length) {
+        setHuntDone(true);
+        earnXp(10);
+      }
+    }
     if (autoSpeak) speak(lang, answer.reply);
   }
 
@@ -104,7 +121,9 @@ export function AiChat({ lang }: { lang: ChatLang }) {
     setScenario(sc);
     setMsgs([]);
     setShown({});
-    void turn(sc, level, []);
+    setFound([]);
+    setHuntDone(false);
+    void turn(sc, level, [], hunt ? targets.map((t) => t.term) : []);
   }
 
   function send(text: string) {
@@ -148,6 +167,35 @@ export function AiChat({ lang }: { lang: ChatLang }) {
             ))}
           </div>
         </div>
+        {words.length > 0 && (
+          <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
+            <label className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                checked={hunt}
+                onChange={(e) => {
+                  setHunt(e.target.checked);
+                  if (e.target.checked && !targets.length) roll();
+                }}
+                className="mt-1.5 size-4"
+              />
+              <span>
+                <span className="block font-semibold text-stone-900">🎯 Săn từ: dùng {HUNT_TARGETS} từ của bạn trong cuộc trò chuyện</span>
+                <span className="block text-sm text-stone-600">AI khéo dẫn dắt để bạn có dịp dùng các từ đang học (ưu tiên từ khó). Dùng đúng mỗi từ +{HUNT_XP} XP.</span>
+              </span>
+            </label>
+            {hunt && (
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                {targets.map((t) => (
+                  <span key={t.id} lang={lang === "zh" ? "zh-CN" : "en"} title={t.meaning} className={`rounded-full bg-white px-3 py-1 text-sm font-semibold text-stone-800 ring-1 ring-amber-300 ${lang === "zh" ? "font-han text-base" : ""}`}>
+                    {t.term} <span className="font-normal text-stone-500">· {t.meaning}</span>
+                  </span>
+                ))}
+                <button type="button" onClick={() => roll(targets.map((t) => t.id))} className="rounded-full px-3 py-1 text-sm font-medium text-amber-800 ring-1 ring-amber-300 hover:bg-white">🔄 Đổi từ</button>
+              </div>
+            )}
+          </div>
+        )}
         <div>
           <h2 className="font-semibold text-stone-900">2. Chọn tình huống</h2>
           <ul className="mt-2 grid gap-3 sm:grid-cols-2">
@@ -195,6 +243,25 @@ export function AiChat({ lang }: { lang: ChatLang }) {
           Đổi tình huống
         </button>
       </div>
+
+      {targetTerms.length > 0 && (
+        <div className="rounded-2xl border border-amber-200 bg-amber-50 px-4 py-2">
+          <p className="text-xs font-semibold text-amber-900">
+            🎯 Săn từ: {found.length}/{targetTerms.length}
+            {huntDone && " — săn đủ rồi! +10 XP 🎉"}
+          </p>
+          <div className="mt-1 flex flex-wrap gap-1.5">
+            {targets.map((t) => {
+              const ok = found.includes(t.term);
+              return (
+                <span key={t.id} lang={lang === "zh" ? "zh-CN" : "en"} title={t.meaning} className={`rounded-full px-2.5 py-0.5 text-sm ${ok ? "bg-jade-600 font-semibold text-white" : "bg-white text-stone-700 ring-1 ring-amber-300"} ${lang === "zh" ? "font-han" : ""}`}>
+                  {ok ? "✓ " : ""}{t.term}{ok ? "" : <span className="text-xs text-stone-400"> · {t.meaning}</span>}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       <div className="space-y-3 rounded-2xl bg-stone-50 p-3 sm:p-4" aria-live="polite">
         {msgs.map((m, i) =>

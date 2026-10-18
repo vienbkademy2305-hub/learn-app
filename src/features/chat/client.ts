@@ -19,7 +19,7 @@ const MESSAGES: Record<string, string> = {
   bad_request: "Yêu cầu không hợp lệ.",
 };
 
-export async function askAi(scenario: string, level: string, turns: ChatTurn[]): Promise<{ answer: ChatAnswer } | { error: string }> {
+export async function askAi(scenario: string, level: string, turns: ChatTurn[], targets: string[] = []): Promise<{ answer: ChatAnswer } | { error: string }> {
   try {
     const { data } = await supabase().auth.getSession();
     const token = data.session?.access_token;
@@ -27,7 +27,7 @@ export async function askAi(scenario: string, level: string, turns: ChatTurn[]):
     const r = await fetch(FUNCTION_URL, {
       method: "POST",
       headers: { "content-type": "application/json", apikey: SUPABASE_KEY, authorization: `Bearer ${token}` },
-      body: JSON.stringify({ scenario, level, turns }),
+      body: JSON.stringify({ scenario, level, turns, targets }),
     });
     const body = (await r.json().catch(() => ({}))) as Partial<ChatAnswer> & { error?: string };
     if (!r.ok || !body.reply) {

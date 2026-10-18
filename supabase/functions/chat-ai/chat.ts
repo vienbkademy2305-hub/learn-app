@@ -15,6 +15,8 @@ export interface ChatInput {
   level: string;
   /** the conversation so far, oldest first; empty = the AI opens the conversation */
   turns: ChatTurn[];
+  /** "Săn từ": words/phrases the learner wants to use in this conversation (at most MAX_TARGETS) */
+  targets: string[];
 }
 
 export interface ChatReply {
@@ -32,10 +34,13 @@ export interface ChatReply {
   };
   /** 2–3 things the learner could say next, in the target language */
   suggestions: string[];
+  /** "Săn từ": the targets the learner used correctly in their last message (a subset of the targets sent) */
+  used: string[];
 }
 
 export const MAX_TURNS = 30;
 export const MAX_TURN_CHARS = 1000;
+export const MAX_TARGETS = 5;
 
 const SYSTEM_PROMPT = `Bạn là bạn hội thoại kiêm gia sư ngoại ngữ cho một học viên người Việt. Bạn nhập vai một nhân vật trong tình huống cho trước và trò chuyện qua tin nhắn để học viên luyện nói/viết.
 
@@ -68,6 +73,12 @@ function systemText(input: ChatInput): string {
     `Ngôn ngữ đích: ${lang}.`,
     `Bạn đóng vai: ${scenario.role}`,
     `Trình độ học viên: ${lv.id} — ${lv.guide}`,
+    input.targets.length
+      ? `
+## Săn từ
+Học viên đang luyện dùng các từ/cụm từ sau: ${input.targets.map((t) => `"${t}"`).join(", ")}.
+Hãy khéo dẫn dắt (đặt câu hỏi, tạo tình huống) để học viên có cơ hội DÙNG từng từ này. KHÔNG tự nói ra các từ đó trong reply và không liệt kê chúng. Trường "used" liệt kê (chép đúng như trong danh sách trên) những từ mục tiêu mà học viên đã DÙNG ĐÚNG NGHĨA trong lượt gần nhất của họ; không tính từ chỉ có mặt trong lời bạn.`
+      : "",
     input.turns.length === 0 ? `Đây là lượt MỞ ĐẦU: học viên chưa nói gì. reply phải là chính xác câu này: "${scenario.opening}"` : "",
   ]
     .filter((l) => l !== "")
@@ -92,8 +103,9 @@ export function resultSchema() {
         required: ["fixed", "notes", "praise_vi"],
       },
       suggestions: { type: "array", items: str },
+      used: { type: "array", items: str },
     },
-    required: ["reply", "reply_vi", "pinyin", "feedback", "suggestions"],
+    required: ["reply", "reply_vi", "pinyin", "feedback", "suggestions", "used"],
   };
 }
 
@@ -110,6 +122,20 @@ export function geminiRequest(input: ChatInput) {
 }
 
 const str = (v: unknown, max = 600) => (typeof v === "string" ? v.trim().slice(0, max) : "");
+
+/**
+ * The targets the model says were used, kept only if they really appear in the learner's message: English allows a
+ * different ending ("go" ~ "going", "cafe" ~ "cafes"), Chinese needs the exact characters.
+ */
+export function usedTargets(claimed: unknown, targets: string[], message: string, lang: ChatLang): string[] {
+  const said = (Array.isArray(claimed) ? claimed : []).map((c) => str(c, 60).toLowerCase());
+  const text = message.toLowerCase();
+  return targets.filter((t) => {
+    const w = t.toLowerCase();
+    if (!said.includes(w)) return false;
+    return lang === "zh" ? text.includes(w) : text.includes(w.length > 4 ? w.slice(0, w.length - 2) : w);
+  });
+}
 
 /** Model JSON → a reply the UI can trust. */
 export function normaliseReply(raw: unknown, input: ChatInput): ChatReply {
@@ -135,6 +161,7 @@ export function normaliseReply(raw: unknown, input: ChatInput): ChatReply {
       praise_vi: lastUser ? str(fb.praise_vi, 400) : "",
     },
     suggestions: (Array.isArray(r.suggestions) ? r.suggestions : []).map((s) => str(s, 200)).filter(Boolean).slice(0, 3),
+    used: usedTargets(r.used, input.targets, lastUser, input.scenario.lang),
   };
 }
 
@@ -151,7 +178,8 @@ export function parseChatInput(b: Record<string, unknown>): ChatInput | null {
     .filter((t) => t.text);
   // The transcript must end with the learner's turn.
   if (turns.length && turns[turns.length - 1]!.role !== "user") return null;
-  return { scenario, level, turns };
+  const targets = [...new Set((Array.isArray(b.targets) ? b.targets : []).map((t) => str(t, 40)).filter(Boolean))].slice(0, MAX_TARGETS);
+  return { scenario, level, turns, targets };
 }
 
 export async function chatWithModel(input: ChatInput, model: string, apiKey: string, fetchFn: typeof fetch = fetch): Promise<ChatReply> {

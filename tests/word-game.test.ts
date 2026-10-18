@@ -111,3 +111,54 @@ describe("word game — session", () => {
     expect(summary([w("a"), w("b"), w("c")], gp)).toEqual({ passed: 1, learning: 1, hard: 1, fresh: 1, total: 3 });
   });
 });
+
+describe("blitz and boss helpers", () => {
+  const mk = (id: string): import("@/domain/word-game").GameWord => ({ id, term: id, reading: null, meaning: `m-${id}`, definitionEn: null, lesson: 1 });
+  const empty = { mastery: {}, cards: {}, days: [] };
+  it("combo multiplier grows every 3 and stops at x5", async () => {
+    const { blitzMultiplier, blitzPoints } = await import("@/domain/word-game");
+    expect([0, 2, 3, 6, 11, 12, 40].map(blitzMultiplier)).toEqual([1, 1, 2, 3, 4, 5, 5]);
+    expect(blitzPoints(3)).toBe(20);
+  });
+  it("never repeats the last word and favours hard words", async () => {
+    const { blitzPick } = await import("@/domain/word-game");
+    const words = ["a", "b", "c"].map(mk);
+    const gp = { ...empty, mastery: { a: { level: 0, streak: 0, wrong: 5, at: "" } } };
+    for (let i = 0; i < 30; i++) expect(blitzPick(words, gp, Math.random, "a").id).not.toBe("a");
+    let hard = 0;
+    for (let i = 0; i < 600; i++) if (blitzPick(words, gp, Math.random).id === "a") hard++;
+    expect(hard).toBeGreaterThan(200); // weight 5 of 5+3+3
+    expect(blitzPick([mk("only")], empty, Math.random, "only").id).toBe("only");
+  });
+  it("blitz xp is capped, boss hp is a share of the queue", async () => {
+    const { blitzXp, bossHp } = await import("@/domain/word-game");
+    expect([0, 5, 30].map(blitzXp)).toEqual([0, 10, 40]);
+    expect(bossHp(3, 6)).toBe(0.5);
+    expect(bossHp(0, 0)).toBe(0);
+  });
+});
+
+describe("pickHuntTargets", () => {
+  const mk = (id: string, lesson = 1): import("@/domain/word-game").GameWord => ({ id, term: id, reading: null, meaning: id, definitionEn: null, lesson });
+  it("hard words first, then learning words, passed words never, no repeats", async () => {
+    const { pickHuntTargets } = await import("@/domain/word-game");
+    const words = ["a", "b", "c", "d", "e", "f", "g"].map((id) => mk(id));
+    const mastery = {
+      a: { level: 0, streak: 0, wrong: 3, at: "" },
+      b: { level: 1, streak: 0, wrong: 6, at: "" },
+      c: { level: 3, streak: 0, wrong: 9, at: "", passedAt: "x" },
+      d: { level: 1, streak: 0, wrong: 1, at: "" },
+    };
+    const t = pickHuntTargets(words, mastery, seededRng(1), 5).map((w) => w.id);
+    expect(t.slice(0, 3)).toEqual(["b", "a", "d"]);
+    expect(t).not.toContain("c");
+    expect(new Set(t).size).toBe(t.length);
+    expect(t).toHaveLength(5);
+  });
+  it("skips excluded ids and stays within reached lessons", async () => {
+    const { pickHuntTargets } = await import("@/domain/word-game");
+    const words = [mk("x", 1), mk("y", 2), mk("z", 40)];
+    const t = pickHuntTargets(words, {}, seededRng(2), 5, ["x"]).map((w) => w.id);
+    expect(t).toEqual(["y"]);
+  });
+});
