@@ -6,7 +6,7 @@
  */
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { matchSpeech, type MatchResult } from "@/domain/speech-match";
+import { assessSpeech, type SpeechAssessment } from "@/domain/speech-match";
 import { canRecognize, listen, recognizeError, type Listening } from "@/features/speaking/recognize";
 import { stopEnglish } from "./speech";
 import { assessPronunciation, normWord, PronounceOffline, pronounceAvailable, scoreTone, type PronounceResult } from "./pronounce";
@@ -30,7 +30,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
   const [result, setResult] = useState<PronounceResult | null>(null);
   const [mine, setMine] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
-  const [match, setMatch] = useState<{ m: MatchResult; heard: string } | null>(null);
+  const [match, setMatch] = useState<{ m: SpeechAssessment; heard: string } | null>(null);
   const rec = useRef<MediaRecorder | null>(null);
   const live = useRef<Listening | null>(null);
   const timer = useRef<number | null>(null);
@@ -66,7 +66,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     live.current = l;
     try {
       const alts = await l.result;
-      const m = matchSpeech(text, alts, "en");
+      const m = assessSpeech(text, alts, "en", l.meta);
       setMatch({ m, heard: alts[0] ?? "" });
       setState("done");
       onScore?.(m.score);
@@ -192,6 +192,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
             <span className={`rounded-xl px-3 py-1.5 text-2xl font-bold ${scoreTone(match.m.score).cls}`}>{match.m.score}</span>
             <span className="font-semibold text-stone-800">{match.m.score >= 80 ? "Nói đúng câu" : "Còn thiếu / sai từ"}</span>
           </div>
+          {match.m.tip && <p className="text-sm text-amber-800">💡 {match.m.tip}</p>}
           <p lang="en" className="text-lg leading-relaxed">
             {match.m.parts.map((p, i) => (
               <span key={i} className={!p.token ? "" : p.ok ? "text-jade-700" : "rounded bg-red-100 px-0.5 text-red-700 underline decoration-wavy"}>{p.text}</span>

@@ -23,7 +23,12 @@
   color-scheme: light;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
+  overscroll-behavior-y: none;
   background: var(--color-stone-50);
   color: var(--color-stone-900);
   -webkit-tap-highlight-color: transparent;
@@ -60,4 +65,11 @@ body {
 /* The list is rendered with data-hide="all", so "Hiện" buttons start hidden. */
 [data-hide="all"] [data-reveal-btn] {
   display: none;
+}
+
+/* Điện thoại: chạm nhanh không zoom đúp; ô nhập >=16px để iOS không tự phóng to; nút đủ lớn. */
+button, a, [role="button"], label, summary { touch-action: manipulation; }
+@media (max-width: 639px) {
+  input, select, textarea { font-size: 16px; }
+  main { padding-bottom: calc(8rem + env(safe-area-inset-bottom)); }
 }

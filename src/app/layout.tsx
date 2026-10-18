@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { BottomNav } from "@/features/site/BottomNav";
 import { RegisterSW } from "@/features/site/RegisterSW";
 import { SiteFooter, SiteHeader } from "@/features/site/SiteChrome";
 import "./globals.css";
@@ -15,6 +16,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   themeColor: "#c73c27",
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -25,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main className="mx-auto max-w-5xl px-4 pb-10 pt-6 sm:pt-8">{children}</main>
         <SiteFooter />
+        <BottomNav />
       </body>
     </html>
   );

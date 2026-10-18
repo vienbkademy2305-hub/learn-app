@@ -13,7 +13,7 @@ const when = (iso: string) =>
  * "Chấm bài" under the homework box — one AI call, shown in tabs: bands + comments, errors highlighted in the text,
  * sentence upgrades + corrected text, how to reach the next band, strengths, a sample answer. History of this lesson.
  */
-export function WritingGrader({ request, words }: { request: GradeRequest; words: number }) {
+export function WritingGrader({ request, words, blockedReason }: { request: GradeRequest; words: number; /** why grading would be wasted right now (empty, Vietnamese…) */ blockedReason?: string }) {
   const account = useAccount();
   const signedIn = account.status === "signed-in";
   const [grades, setGrades] = useState<WritingGrade[]>([]);
@@ -33,6 +33,7 @@ export function WritingGrader({ request, words }: { request: GradeRequest; words
   if (account.status === "disabled" || account.status === "loading") return null;
 
   async function run() {
+    if (blockedReason) return setError(blockedReason);
     setBusy(true);
     setError(null);
     const r = await gradeHomework(request);
@@ -55,11 +56,12 @@ export function WritingGrader({ request, words }: { request: GradeRequest; words
         {signedIn ? (
           <button
             type="button"
-            disabled={busy || words < MIN_WORDS}
+            disabled={busy || words < MIN_WORDS || !!blockedReason || (!!current && !changed)}
+            title={blockedReason ?? (current && !changed ? "Bài chưa thay đổi so với lần chấm gần nhất — sửa bài rồi chấm lại." : undefined)}
             onClick={run}
             className="rounded-xl bg-sky-700 px-4 py-2 font-semibold text-white hover:bg-sky-800 disabled:bg-stone-300"
           >
-            {busy ? "Đang chấm…" : grades.length ? "Chấm lại" : "Chấm bài"}
+            {busy ? "Đang chấm…" : !grades.length ? "Chấm bài" : changed ? "Chấm lại bản đã sửa" : "Sửa bài để chấm lại"}
           </button>
         ) : (
           <span className="text-sm text-stone-500">Đăng nhập để chấm bài.</span>

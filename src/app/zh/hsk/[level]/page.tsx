@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getLevels, getWord, lessonsOfLevel } from "@/content/load";
+import { Study4Hint } from "@/features/site/Study4Hint";
 import { LessonProgress, LevelProgress } from "@/features/progress/ProgressWidgets";
 
 export const dynamicParams = false;
@@ -36,6 +37,8 @@ export default async function HskLevelPage({ params }: { params: Promise<{ level
       <div className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
         <LevelProgress lessons={lessons} level={level} />
       </div>
+
+      <Study4Hint group={`HSK ${level}`} />
 
       {level === "1" && <Link
         href="/zh/pinyin"

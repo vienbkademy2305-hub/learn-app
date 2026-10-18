@@ -296,7 +296,7 @@ export function geminiRequest(input: GradeInput) {
   return {
     systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
     contents: [{ role: "user", parts: [{ text: userPrompt(input) }] }],
-    generationConfig: { responseMimeType: "application/json", responseJsonSchema: resultSchema(input.kind), maxOutputTokens: 32768 },
+    generationConfig: { responseMimeType: "application/json", responseJsonSchema: resultSchema(input.kind), maxOutputTokens: 32768, temperature: 0.2 },
   };
 }
 
@@ -336,6 +336,21 @@ export function locateErrors(text: string, errors: Array<{ wrong: string }>): Ar
   return found.sort((a, b) => a.start - b.start);
 }
 
+/**
+ * Band ceilings the prompt asks for but a model does not always respect: under the minimum length Task 1/2 cannot
+ * pass band 5 for the task criterion (4 when far under), and an essentially empty text (under 5 words) cannot pass band 1.
+ */
+export function lengthCap(input: GradeInput, wordCount: number): { task: number; all: number } {
+  const none = { task: 9, all: 9 };
+  if (wordCount < 5) return { task: 1, all: 1 };
+  if ((input.kind !== "task1" && input.kind !== "task2") || !input.words) return none;
+  const min = input.words.min;
+  if (wordCount < min * 0.5) return { task: 3.5, all: 9 };
+  if (wordCount < min * 0.8) return { task: 4.5, all: 9 };
+  if (wordCount < min) return { task: 5, all: 9 };
+  return none;
+}
+
 /** Model JSON → a result the UI can trust (missing criteria, out-of-range bands and unknown tags are fixed here). */
 export function normaliseResult(raw: unknown, input: GradeInput): GradeResult {
   const r = (raw && typeof raw === "object" ? raw : {}) as Record<string, unknown>;
@@ -355,9 +370,13 @@ export function normaliseResult(raw: unknown, input: GradeInput): GradeResult {
       next_vi: str(c.next_vi, 600),
     };
   });
+  const cap = lengthCap(input, countWords(input.text));
+  for (const c of criteria) c.band = Math.min(c.band, cap.all, c.code === "TR" || c.code === "TA" ? cap.task : 9);
   const lessonMax = input.lesson.number;
+  const haystack = input.text.replace(/\s+/g, " ").toLowerCase();
   const errors = (Array.isArray(r.errors) ? (r.errors as Array<Record<string, unknown>>) : [])
     .filter((e) => e && str(e.wrong) && str(e.right) && str(e.wrong) !== str(e.right))
+    .filter((e) => haystack.includes(str(e.wrong, 300).replace(/\s+/g, " ").toLowerCase()))
     .slice(0, 25)
     .map((e) => {
       const lesson = Math.trunc(Number(e.lesson));

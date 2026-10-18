@@ -13,7 +13,9 @@ type Rec = {
   start(): void;
   stop(): void;
   abort(): void;
-  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string }> & { isFinal: boolean }> }) => void) | null;
+  onresult: ((e: { results: ArrayLike<ArrayLike<{ transcript: string; confidence?: number }> & { isFinal: boolean }> }) => void) | null;
+  onspeechstart: (() => void) | null;
+  onspeechend: (() => void) | null;
   onerror: ((e: { error: string }) => void) | null;
   onend: (() => void) | null;
 };
@@ -34,7 +36,16 @@ export function recognizeError(code: string): string {
   return "Không nhận dạng được. Hãy thử lại.";
 }
 
+/** What the recognizer reported besides the text. 0/undefined confidence = the engine does not give one (Safari). */
+export interface ListenMeta {
+  confidence?: number;
+  /** time between the first and the last sound, ms */
+  speechMs?: number;
+}
+
 export interface Listening {
+  /** filled in by the time `result` resolves */
+  meta: ListenMeta;
   /** resolves with the recognizer's alternatives (best first); rejects with an error code */
   result: Promise<string[]>;
   stop(): void;
@@ -43,13 +54,19 @@ export interface Listening {
 /** Listens once (stops by itself after a pause, or when stop() is called). */
 export function listen(lang: SpeechLang): Listening {
   const C = ctor();
-  if (!C) return { result: Promise.reject(new Error("unsupported")), stop() {} };
+  if (!C) return { result: Promise.reject(new Error("unsupported")), meta: {}, stop() {} };
   const rec = new C();
   rec.lang = lang === "zh" ? "zh-CN" : "en-US";
   rec.interimResults = false;
   rec.maxAlternatives = 5;
   rec.continuous = false;
   let alts: string[] = [];
+  const meta: ListenMeta = {};
+  let began = 0;
+  rec.onspeechstart = () => (began = performance.now());
+  rec.onspeechend = () => {
+    if (began) meta.speechMs = performance.now() - began;
+  };
   const result = new Promise<string[]>((resolve, reject) => {
     let failed = false;
     rec.onresult = (e) => {
@@ -58,6 +75,8 @@ export function listen(lang: SpeechLang): Listening {
       const head = segs.slice(0, -1).map((r) => r[0]?.transcript ?? "").join(" ");
       const last = segs[segs.length - 1];
       alts = last ? Array.from(last).map((a) => `${head} ${a.transcript}`.trim()) : [];
+      const conf = segs.map((r) => r[0]?.confidence ?? 0).filter((c) => c > 0);
+      meta.confidence = conf.length ? conf.reduce((a, b) => a + b, 0) / conf.length : undefined;
     };
     rec.onerror = (e) => {
       if (e.error === "aborted") return;
@@ -71,5 +90,5 @@ export function listen(lang: SpeechLang): Listening {
     };
   });
   rec.start();
-  return { result, stop: () => rec.stop() };
+  return { result, meta, stop: () => rec.stop() };
 }

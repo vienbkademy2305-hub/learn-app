@@ -4,7 +4,7 @@
  * Hints come one level at a time; the browser's speech recognition checks what was said (./recognize.ts).
  */
 import { useEffect, useRef, useState } from "react";
-import { matchSpeech, type MatchResult, type SpeechLang } from "@/domain/speech-match";
+import { assessSpeech, type SpeechAssessment, type SpeechLang } from "@/domain/speech-match";
 import { canRecognize, listen, recognizeError, type Listening } from "./recognize";
 
 export type SayItBackProps = {
@@ -31,7 +31,7 @@ export function SayItBack({ lang, vi, answer, hints = [], play, answerNote, onSc
   const [state, setState] = useState<"idle" | "listening" | "done" | "error">("idle");
   const [error, setError] = useState("");
   const [heard, setHeard] = useState("");
-  const [match, setMatch] = useState<MatchResult | null>(null);
+  const [match, setMatch] = useState<SpeechAssessment | null>(null);
   const [shown, setShown] = useState(false);
   const [supported, setSupported] = useState(true);
   const live = useRef<Listening | null>(null);
@@ -53,7 +53,7 @@ export function SayItBack({ lang, vi, answer, hints = [], play, answerNote, onSc
     live.current = l;
     try {
       const alts = await l.result;
-      const m = matchSpeech(answer, alts, lang);
+      const m = assessSpeech(answer, alts, lang, l.meta);
       setHeard(alts[0] ?? "");
       setMatch(m);
       setState("done");
@@ -117,6 +117,7 @@ export function SayItBack({ lang, vi, answer, hints = [], play, answerNote, onSc
         <div className="flex flex-wrap items-center gap-2 text-sm">
           <span className={`rounded-lg px-2.5 py-1 text-lg font-bold text-white ${ok ? "bg-jade-600" : match.score >= 50 ? "bg-amber-500" : "bg-red-600"}`}>{match.score}</span>
           <span className="font-medium text-stone-800">{ok ? "Đúng rồi!" : match.score >= 50 ? "Gần đúng — xem chỗ tô đỏ" : "Chưa đúng — nghe mẫu rồi nói lại"}</span>
+          {match.tip && <span className="basis-full text-amber-800">💡 {match.tip}</span>}
           <span className="text-stone-500">· Máy nghe được: <span lang={lang === "zh" ? "zh-CN" : "en"} className="font-mono">{heard}</span></span>
         </div>
       )}

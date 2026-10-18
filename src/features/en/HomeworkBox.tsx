@@ -1,6 +1,7 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { countWords } from "@/domain/en-grade";
+import { precheck, worthGrading } from "@/domain/en-precheck";
 import type { HomeworkKind } from "../../../supabase/functions/grade-writing/grader";
 import { saveHomework, useEnProgress } from "./progress";
 import { WritingGrader } from "./WritingGrader";
@@ -46,6 +47,8 @@ export function HomeworkBox({
   const n = countWords(text);
   const inRange = words ? n >= words.min && n <= words.max : n > 0;
   const lower = text.toLowerCase();
+  const checks = useMemo(() => precheck(text, words), [text, words]);
+  const gate = worthGrading(checks, n);
   const used = vocabulary.filter((v) => lower.includes(v.toLowerCase()));
 
   return (
@@ -90,10 +93,23 @@ export function HomeworkBox({
           {used.join(" · ")}
         </p>
       )}
+      {checks.length > 0 && (
+        <div className="rounded-xl bg-stone-50 p-3 ring-1 ring-inset ring-stone-200">
+          <p className="text-sm font-semibold text-stone-800">Kiểm tra nhanh (chưa cần AI)</p>
+          <ul className="mt-1 space-y-1 text-sm">
+            {checks.map((c) => (
+              <li key={c.id} className={c.level === "ok" ? "text-jade-700" : c.level === "bad" ? "text-red-700" : "text-amber-800"}>
+                {c.level === "ok" ? "✓" : c.level === "bad" ? "✗" : "•"} {c.text}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <p className="text-xs text-stone-400">Bài viết lưu trên trình duyệt này (và theo tài khoản khi đã đăng nhập).</p>
     </section>
     <WritingGrader
       words={n}
+      blockedReason={gate.ok ? undefined : gate.why}
       request={{ slug, kind: grading.kind as HomeworkKind, lesson: grading.lesson, prompt_vi: prompt, prompt_en: promptEn, words, syllabus: grading.syllabus, text }}
     />
     </>

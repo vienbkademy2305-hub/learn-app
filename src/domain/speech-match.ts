@@ -99,3 +99,51 @@ function matchZh(expected: string, heard: string): MatchResult {
 export function firstLetterHint(text: string): string {
   return text.replace(/[A-Za-z][A-Za-z']*/g, (w) => w[0] + "_".repeat(w.length - 1));
 }
+
+export type Pace = "slow" | "ok" | "fast";
+export interface SpeechAssessment extends MatchResult {
+  /** score from the text match alone */
+  rawScore: number;
+  confidence?: number;
+  pace?: Pace;
+  /** one short Vietnamese tip, "" when there is nothing to add */
+  tip: string;
+}
+
+/**
+ * matchSpeech + what the recognizer says about itself: a low confidence lowers the score a little (the engine
+ * guessed), a correct reading found only in a lower-ranked alternative cannot reach 100, and the speaking
+ * speed (tokens per second between first and last sound) gives a pace hint. Engines without confidence
+ * (Safari reports 0) are scored on the text match alone.
+ */
+export function assessSpeech(
+  expected: string,
+  heard: string | string[],
+  lang: SpeechLang,
+  meta: { confidence?: number; speechMs?: number } = {},
+): SpeechAssessment {
+  const alts = (Array.isArray(heard) ? heard : [heard]).filter(Boolean);
+  const m = matchSpeech(expected, alts, lang);
+  const top = alts.length > 1 ? matchSpeech(expected, alts[0]!, lang).score : m.score;
+  let score = m.score;
+  if (top < m.score) score = Math.min(score, 95);
+  const conf = meta.confidence && meta.confidence > 0 && meta.confidence <= 1 ? meta.confidence : undefined;
+  if (conf !== undefined && conf < 0.8) score = Math.round(score * (0.7 + 0.375 * conf));
+
+  const tokens = m.parts.filter((p) => p.token).length;
+  let pace: Pace | undefined;
+  if (meta.speechMs && meta.speechMs > 300 && tokens >= (lang === "zh" ? 6 : 4)) {
+    const perSec = tokens / (meta.speechMs / 1000);
+    const [lo, hi] = lang === "zh" ? [1.8, 6.5] : [0.9, 4.2];
+    pace = perSec < lo ? "slow" : perSec > hi ? "fast" : "ok";
+  }
+  const tip =
+    conf !== undefined && conf < 0.6
+      ? "Máy nghe chưa chắc — nói to, rõ từng từ và ở chỗ yên tĩnh hơn."
+      : pace === "slow"
+        ? "Bạn nói hơi chậm/ngắt quãng — thử nói liền mạch cả câu."
+        : pace === "fast"
+          ? "Bạn nói hơi nhanh — chậm lại để phát âm rõ từng từ."
+          : "";
+  return { ...m, score, rawScore: m.score, confidence: conf, pace, tip };
+}

@@ -46,22 +46,21 @@ export function SiteHeader() {
   const lang = langOf(usePathname());
   const brand = BRAND[lang ?? "all"];
   return (
-    <header className="sticky top-0 z-30 border-b border-stone-200 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-30 border-b border-stone-200 bg-white/90 backdrop-blur" style={{ paddingTop: "env(safe-area-inset-top)" }}>
       <div className="mx-auto flex h-14 max-w-5xl items-center gap-3 px-4">
         <Link href={brand.home} className="flex items-center gap-2 font-semibold text-stone-900">
           <span className={`grid size-8 place-items-center rounded-lg text-lg text-white ${brand.tile}`}>{brand.mark}</span>
-          <span className="hidden sm:inline">{brand.title}</span>
+          <span className="max-sm:text-sm sm:inline">{brand.title}</span>
         </Link>
-        <nav className="ml-auto flex items-center gap-0.5 text-sm sm:gap-1">
+        <nav className="ml-auto flex items-center gap-1 text-sm">
           {lang &&
             NAV[lang].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className={`${item.desktopOnly ? "hidden sm:inline" : ""} rounded-md px-2 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:px-3`}
+                className={`hidden rounded-md px-3 py-2 font-medium whitespace-nowrap text-stone-700 hover:bg-stone-100 sm:inline`}
               >
-                <span className="sm:hidden">{item.short}</span>
-                <span className="hidden sm:inline">{item.long}</span>
+                {item.long}
               </Link>
             ))}
           <Link

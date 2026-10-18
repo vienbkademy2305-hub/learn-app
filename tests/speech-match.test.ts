@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { firstLetterHint, matchSpeech } from "@/domain/speech-match";
+import { assessSpeech, firstLetterHint, matchSpeech } from "@/domain/speech-match";
 
 describe("matchSpeech", () => {
   it("English: full match despite case, punctuation, digits and contractions", () => {
@@ -27,5 +27,20 @@ describe("matchSpeech", () => {
 describe("firstLetterHint", () => {
   it("keeps first letters and punctuation", () => {
     expect(firstLetterHint("My name's Lan.")).toBe("M_ n_____ L__.");
+  });
+});
+
+describe("assessSpeech", () => {
+  it("scores like matchSpeech when the engine gives no confidence", () => {
+    expect(assessSpeech("Nice to meet you.", "nice to meet you", "en", {}).score).toBe(100);
+  });
+  it("lowers the score when confidence is low and caps a reading found only in a lower alternative", () => {
+    expect(assessSpeech("Nice to meet you.", "nice to meet you", "en", { confidence: 0.4 }).score).toBeLessThan(100);
+    expect(assessSpeech("Nice to meet you.", ["nice to eat you", "nice to meet you"], "en", {}).score).toBe(95);
+  });
+  it("flags slow and fast speech", () => {
+    expect(assessSpeech("I live in Hanoi with my family.", "i live in hanoi with my family", "en", { speechMs: 15000 }).pace).toBe("slow");
+    expect(assessSpeech("I live in Hanoi with my family.", "i live in hanoi with my family", "en", { speechMs: 1000 }).pace).toBe("fast");
+    expect(assessSpeech("I live in Hanoi with my family.", "i live in hanoi with my family", "en", { speechMs: 3500 }).pace).toBe("ok");
   });
 });
