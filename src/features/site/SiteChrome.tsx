@@ -84,6 +84,10 @@ export function SiteFooter() {
     <footer className="mx-auto max-w-5xl px-4 pb-24 text-xs text-stone-400 sm:pb-8">
       {lang === "zh" && <>Dữ liệu mở: CVDICT, CC-CEDICT, hsk-sentences-audio (CC BY-SA 4.0), Unihan, Hanzi Writer. </>}
       {lang === "en" && <>Nội dung tiếng Anh tự biên soạn (bản nháp, CC BY-SA 4.0); âm thanh bằng giọng đọc của trình duyệt. </>}
+      <Link href="/de-them" className="font-medium text-stone-500 underline-offset-2 hover:underline">
+        Đề luyện thêm
+      </Link>
+      {" · "}
       <Link href="/sources" className="font-medium text-stone-500 underline-offset-2 hover:underline">
         Nguồn dữ liệu & giấy phép
       </Link>
