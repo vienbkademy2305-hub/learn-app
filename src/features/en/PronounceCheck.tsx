@@ -7,9 +7,10 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { assessSpeech, type SpeechAssessment } from "@/domain/speech-match";
+import { acquireMic, releaseMicSoon } from "@/features/speaking/recorder";
 import { canRecognize, listen, recognizeError, type Listening } from "@/features/speaking/recognize";
 import { stopEnglish } from "./speech";
-import { assessPronunciation, normWord, PronounceOffline, pronounceAvailable, scoreTone, type PronounceResult } from "./pronounce";
+import { assessPronunciation, normWord, PronounceOffline, pronounceAvailable, pronounceEnabled, scoreTone, type PronounceResult } from "./pronounce";
 
 type State = "idle" | "recording" | "checking" | "done" | "offline" | "error";
 
@@ -64,6 +65,8 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     timer.current = window.setInterval(() => setElapsed((performance.now() - began) / 1000), 100);
     const l = listen("en");
     live.current = l;
+    // Never stay on "recording" forever (e.g. the permission prompt was ignored): stop a little after the longest reading time.
+    const giveUp = window.setTimeout(() => l.stop(), (maxSeconds(text) + 6) * 1000);
     try {
       const alts = await l.result;
       const m = assessSpeech(text, alts, "en", l.meta);
@@ -74,6 +77,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
       setState("error");
       setError(recognizeError((e as Error).message));
     } finally {
+      window.clearTimeout(giveUp);
       live.current = null;
       if (timer.current) window.clearInterval(timer.current);
       timer.current = null;
@@ -85,6 +89,8 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     setError("");
     setResult(null);
     setMatch(null);
+    // The server is off by default: go straight to the browser's recognition, inside the tap (Safari drops the tap after an await).
+    if (canRecognize() && !pronounceEnabled()) return startBrowser();
     if (canRecognize() && !(await pronounceAvailable())) return startBrowser();
     if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") {
       setState("error");
@@ -93,7 +99,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     }
     let stream: MediaStream;
     try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, channelCount: 1 } });
+      stream = await acquireMic();
     } catch (err) {
       setState("error");
       setError(micError(err));
@@ -104,7 +110,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     rec.current = r;
     r.ondataavailable = (e) => e.data.size && chunks.push(e.data);
     r.onstop = async () => {
-      stream.getTracks().forEach((t) => t.stop());
+      releaseMicSoon();
       const blob = new Blob(chunks, { type: r.mimeType || "audio/webm" });
       setMine(URL.createObjectURL(blob));
       setState("checking");
@@ -181,7 +187,8 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
       {state === "error" && <p className="text-sm text-red-700">{error}</p>}
       {state === "offline" && (
         <p className="text-sm text-amber-800">
-          Chưa kết nối được máy chấm phát âm. Trên máy tính, mở <strong>Chạy chấm phát âm.bat</strong> (trong thư mục OpenPronounce) rồi thử lại.{" "}
+          Chưa kết nối được máy chấm chi tiết (cần chạy <strong>Chạy chấm phát âm.bat</strong> trên máy tính).{" "}
+          <button type="button" onClick={() => void startBrowser()} className="font-semibold text-rose-700 underline">Chấm bằng nhận dạng giọng nói của trình duyệt</button>{" "}
           <Link href="/en/luyen-noi" className="font-medium underline">Hướng dẫn</Link>
         </p>
       )}

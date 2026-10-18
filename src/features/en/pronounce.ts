@@ -44,6 +44,33 @@ export type PronounceResult = {
 /** Thrown when the server cannot be reached at all (not started, wrong address, blocked by the browser). */
 export class PronounceOffline extends Error {}
 
+const ENABLED_KEY = "chinese-app:pronounce-on";
+
+/**
+ * Whether the page may talk to the OpenPronounce server at all. Off by default on the hosted site: every request
+ * from an https page to a server on the learner's own computer makes Chrome ask for "local network" permission
+ * (on each visit), and a phone has no such server. The learner turns it on in "Máy chấm chi tiết"; on a local
+ * development page (http://localhost) it is on.
+ */
+export function pronounceEnabled(): boolean {
+  try {
+    const v = localStorage.getItem(ENABLED_KEY);
+    if (v !== null) return v === "1";
+    return location.hostname === "localhost" || location.hostname === "127.0.0.1";
+  } catch {
+    return false;
+  }
+}
+
+export function setPronounceEnabled(on: boolean) {
+  try {
+    localStorage.setItem(ENABLED_KEY, on ? "1" : "0");
+  } catch {
+    /* ignore */
+  }
+  available = null;
+}
+
 export async function pronounceHealth(url = getPronounceUrl()): Promise<boolean> {
   try {
     const r = await fetch(`${url}/health`, { signal: AbortSignal.timeout(2500) });
@@ -54,8 +81,9 @@ export async function pronounceHealth(url = getPronounceUrl()): Promise<boolean>
 }
 
 let available: { at: number; ok: Promise<boolean> } | null = null;
-/** pronounceHealth() remembered for a minute, so each 🎤 press does not wait for a timeout. */
+/** pronounceHealth() remembered for a minute, so each 🎤 press does not wait for a timeout. False without any request when the server is switched off. */
 export function pronounceAvailable(): Promise<boolean> {
+  if (!pronounceEnabled()) return Promise.resolve(false);
   if (!available || Date.now() - available.at > 60_000) available = { at: Date.now(), ok: pronounceHealth(getPronounceUrl()) };
   return available.ok;
 }

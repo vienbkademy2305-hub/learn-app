@@ -7,7 +7,9 @@
  * account copy simply stays in this browser.
  */
 import { useCallback, useSyncExternalStore } from "react";
+import { enChangeXp } from "@/domain/activity";
 import type { Cached } from "@/domain/en-sync";
+import { earnXp } from "@/features/activity/store";
 import { BOX_INTERVAL_DAYS, MAX_BOX } from "@/domain/progress";
 import type { Mastery } from "@/domain/word-game";
 
@@ -99,6 +101,7 @@ function notify() {
 }
 
 function write(next: EnProgress) {
+  earnXp(enChangeXp(current ?? EMPTY_EN, next));
   current = next;
   if (scope) {
     const updatedAt = new Date().toISOString();

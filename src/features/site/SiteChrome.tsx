@@ -7,6 +7,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { AccountMenu } from "@/features/account/AccountMenu";
+import { StreakChip } from "@/features/activity/StreakChip";
 
 export type Lang = "zh" | "en";
 export const LAST_LANG_KEY = "learn-app:last-lang";
@@ -26,10 +27,12 @@ const NAV: Record<Lang, Array<{ href: string; short: string; long: string; deskt
     { href: "/zh/practice", short: "Bài tập", long: "Bài tập" },
     { href: "/zh/listening", short: "Nghe", long: "Luyện nghe" },
     { href: "/zh/flashcards", short: "Sổ từ", long: "Sổ từ" },
+    { href: "/zh/hoi-thoai-ai", short: "AI", long: "Hội thoại AI" },
     { href: "/sources", short: "Nguồn", long: "Nguồn dữ liệu", desktopOnly: true },
   ],
   en: [
     { href: "/en", short: "Lộ trình", long: "Lộ trình IELTS" },
+    { href: "/en/hoi-thoai-ai", short: "AI", long: "Hội thoại AI" },
     { href: "/en/words", short: "Kho từ", long: "Kho từ vựng" },
     { href: "/en/flashcards", short: "Ôn từ", long: "Ôn flashcard" },
     { href: "/en/kiem-tra", short: "Kiểm tra", long: "Kiểm tra", desktopOnly: true },
@@ -70,6 +73,7 @@ export function SiteHeader() {
           >
             {lang === "zh" ? "→ Anh" : "→ Trung"}
           </Link>
+          <StreakChip />
           <AccountMenu />
         </nav>
       </div>

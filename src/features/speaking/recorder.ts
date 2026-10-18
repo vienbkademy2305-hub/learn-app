@@ -53,6 +53,32 @@ export function referenceFrames(url: string): Promise<PitchFrame[]> {
   return p;
 }
 
+/**
+ * One microphone stream shared by every recording on the page and released 90 s after the last one, so a practice
+ * session asks for permission once (phones ask again on every getUserMedia call) and the mic indicator goes off soon after.
+ */
+const MIC_IDLE_MS = 90_000;
+let micStream: MediaStream | null = null;
+let micIdle: number | null = null;
+
+export async function acquireMic(): Promise<MediaStream> {
+  if (micIdle !== null) window.clearTimeout(micIdle);
+  micIdle = null;
+  if (micStream && micStream.getAudioTracks().some((t) => t.readyState === "live")) return micStream;
+  micStream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, channelCount: 1 } });
+  return micStream;
+}
+
+/** Call when a recording ends: the stream stays open for a while for the next one. */
+export function releaseMicSoon() {
+  if (micIdle !== null) window.clearTimeout(micIdle);
+  micIdle = window.setTimeout(() => {
+    micStream?.getTracks().forEach((t) => t.stop());
+    micStream = null;
+    micIdle = null;
+  }, MIC_IDLE_MS);
+}
+
 function errorMessage(err: unknown): string {
   const name = (err as { name?: string })?.name;
   if (name === "NotAllowedError" || name === "SecurityError") return "Bạn chưa cho phép dùng micro. Bấm vào biểu tượng ổ khóa cạnh địa chỉ trang để cho phép, rồi thử lại.";
@@ -99,7 +125,7 @@ export function useRecorder() {
     setState("requesting");
     let stream: MediaStream;
     try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true, channelCount: 1 } });
+      stream = await acquireMic();
     } catch (err) {
       setState("error");
       setError(errorMessage(err));
@@ -110,7 +136,7 @@ export function useRecorder() {
     media.current = recorder;
     recorder.ondataavailable = (e) => e.data.size && chunks.push(e.data);
     recorder.onstop = async () => {
-      stream.getTracks().forEach((t) => t.stop());
+      releaseMicSoon();
       setState("processing");
       try {
         const blob = new Blob(chunks, { type: recorder.mimeType || "audio/webm" });

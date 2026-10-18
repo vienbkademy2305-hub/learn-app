@@ -57,7 +57,8 @@ export function listen(lang: SpeechLang): Listening {
   if (!C) return { result: Promise.reject(new Error("unsupported")), meta: {}, stop() {} };
   const rec = new C();
   rec.lang = lang === "zh" ? "zh-CN" : "en-US";
-  rec.interimResults = false;
+  // Interim results too: when the engine ends early (a pause, a dropped connection) the words heard so far still count.
+  rec.interimResults = true;
   rec.maxAlternatives = 5;
   rec.continuous = false;
   let alts: string[] = [];

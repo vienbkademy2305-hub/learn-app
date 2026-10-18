@@ -45,15 +45,41 @@ function zhNumber(n: number): string {
 const isHan = (c: string) => /\p{Script=Han}/u.test(c);
 const zhHeard = (s: string) => [...s.replace(/\d+/g, (d) => zhNumber(Number(d)))].filter(isHan);
 
+/** Edit distance, for telling a near miss of the recognizer from a wrong word. */
+function editDistance(a: string, b: string): number {
+  const prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    let diag = prev[0]!;
+    prev[0] = i;
+    for (let j = 1; j <= b.length; j++) {
+      const up = prev[j]!;
+      prev[j] = Math.min(up + 1, prev[j - 1]! + 1, diag + (a[i - 1] === b[j - 1] ? 0 : 1));
+      diag = up;
+    }
+  }
+  return prev[b.length]!;
+}
+
+/**
+ * English tokens count as the same word when the recognizer was one letter off on a long word
+ * (two on a very long one): "restaurant" heard as "restaurent". Short words must match exactly.
+ */
+function sameWord(a: string, b: string): boolean {
+  if (a === b) return true;
+  const len = Math.min(a.length, b.length);
+  if (len < 5 || Math.abs(a.length - b.length) > 1) return false;
+  return editDistance(a, b) <= (len >= 9 ? 2 : 1);
+}
+
 /** Longest common subsequence: which expected tokens appear, in order, in the heard ones. */
-function lcsMarks(expected: string[], heard: string[]): boolean[] {
+function lcsMarks(expected: string[], heard: string[], same: (a: string, b: string) => boolean = (a, b) => a === b): boolean[] {
   const n = expected.length, m = heard.length;
   const dp = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
   for (let i = n - 1; i >= 0; i--)
-    for (let j = m - 1; j >= 0; j--) dp[i]![j] = expected[i] === heard[j] ? dp[i + 1]![j + 1]! + 1 : Math.max(dp[i + 1]![j]!, dp[i]![j + 1]!);
+    for (let j = m - 1; j >= 0; j--) dp[i]![j] = same(expected[i]!, heard[j]!) ? dp[i + 1]![j + 1]! + 1 : Math.max(dp[i + 1]![j]!, dp[i]![j + 1]!);
   const marks = new Array<boolean>(n).fill(false);
   for (let i = 0, j = 0; i < n && j < m; ) {
-    if (expected[i] === heard[j]) (marks[i] = true), i++, j++;
+    if (same(expected[i]!, heard[j]!)) (marks[i] = true), i++, j++;
     else if (dp[i + 1]![j]! >= dp[i]![j + 1]!) i++;
     else j++;
   }
@@ -75,7 +101,7 @@ function matchEn(expected: string, heard: string): MatchResult {
   const pieces = expected.split(/(\s+)/).filter((p) => p !== "");
   const tokenOf = pieces.map((p) => (/\s/.test(p) ? [] : enTokens(p)));
   const flat = tokenOf.flat();
-  const marks = lcsMarks(flat, heard.split(/\s+/).flatMap(enTokens));
+  const marks = lcsMarks(flat, heard.split(/\s+/).flatMap(enTokens), sameWord);
   let k = 0;
   const parts = pieces.map((p, i) => {
     const toks = tokenOf[i]!;

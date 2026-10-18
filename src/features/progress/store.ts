@@ -9,7 +9,9 @@
  * keeps progress in memory for the session.
  */
 import { useCallback, useSyncExternalStore } from "react";
+import { zhChangeXp } from "@/domain/activity";
 import type { CachedProgress } from "@/domain/account";
+import { earnXp } from "@/features/activity/store";
 import { EMPTY_PROGRESS, parseProgress, type ProgressState } from "@/domain/progress";
 
 const GUEST_KEY = "chinese-app:progress:v1";
@@ -63,6 +65,7 @@ function notify() {
 }
 
 function write(next: ProgressState) {
+  earnXp(zhChangeXp(current ?? EMPTY_PROGRESS, next));
   current = next;
   if (scope) {
     const prev = readUserCache(scope);

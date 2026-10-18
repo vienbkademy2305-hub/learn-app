@@ -11,16 +11,16 @@ const TABS: Record<Lang, Tab[]> = {
   zh: [
     { href: "/zh", icon: "📚", label: "HSK", match: /^\/zh(\/(hsk|lesson|word|pinyin)(\/.*)?)?$/ },
     { href: "/zh/practice", icon: "✏️", label: "Bài tập", match: /^\/zh\/practice/ },
-    { href: "/zh/listening", icon: "🎧", label: "Nghe", match: /^\/zh\/listening/ },
+    { href: "/zh/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/zh\/hoi-thoai-ai/ },
     { href: "/zh/flashcards", icon: "🃏", label: "Sổ từ", match: /^\/zh\/flashcards/ },
-    { href: "/de-them", icon: "📝", label: "Đề thêm", match: /^\/de-them/ },
+    { href: "/zh/listening", icon: "🎧", label: "Nghe", match: /^\/zh\/listening/ },
   ],
   en: [
     { href: "/en", icon: "🗺️", label: "Lộ trình", match: /^\/en(\/lesson(\/.*)?)?$/ },
-    { href: "/en/words", icon: "📖", label: "Kho từ", match: /^\/en\/(words|word)/ },
+    { href: "/en/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/en\/hoi-thoai-ai/ },
     { href: "/en/flashcards", icon: "🃏", label: "Ôn từ", match: /^\/en\/flashcards/ },
     { href: "/en/luyen-noi", icon: "🎤", label: "Nói", match: /^\/en\/luyen-noi/ },
-    { href: "/en/kiem-tra", icon: "✅", label: "Kiểm tra", match: /^\/en\/kiem-tra/ },
+    { href: "/en/words", icon: "📖", label: "Kho từ", match: /^\/en\/(words|word)/ },
   ],
 };
 

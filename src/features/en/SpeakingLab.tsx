@@ -2,38 +2,57 @@
 import { useEffect, useMemo, useState } from "react";
 import { PronounceCheck } from "./PronounceCheck";
 import { Say } from "./speech";
-import { DEFAULT_PRONOUNCE_URL, getPronounceUrl, pronounceHealth, setPronounceUrl } from "./pronounce";
+import { DEFAULT_PRONOUNCE_URL, getPronounceUrl, pronounceEnabled, pronounceHealth, setPronounceEnabled, setPronounceUrl } from "./pronounce";
 
 export type LabSentence = { lesson: number; text: string; vi: string };
 
 export function ServerStatus() {
   const [url, setUrl] = useState(DEFAULT_PRONOUNCE_URL);
   const [ok, setOk] = useState<boolean | null>(null);
+  const [on, setOn] = useState(false);
   const check = async (u = getPronounceUrl()) => {
     setOk(null);
     setOk(await pronounceHealth(u));
   };
   useEffect(() => {
     setUrl(getPronounceUrl());
-    void check();
+    const enabled = pronounceEnabled();
+    setOn(enabled);
+    // Only talk to the server when the learner switched it on: each request from the hosted site makes Chrome ask for local-network permission.
+    if (enabled) void check();
   }, []);
+  const toggle = (value: boolean) => {
+    setPronounceEnabled(value);
+    setOn(value);
+    if (value) void check();
+    else setOk(null);
+  };
 
   return (
     <section className="space-y-3 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
       <div className="flex flex-wrap items-center gap-3">
         <h2 className="font-semibold text-stone-900">Máy chấm chi tiết (OpenPronounce)</h2>
-        {ok === null && <span className="text-sm text-stone-500">Đang kiểm tra…</span>}
-        {ok === true && <span className="rounded-full bg-jade-100 px-2.5 py-0.5 text-sm font-medium text-jade-700">● Đang chạy</span>}
-        {ok === false && <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-medium text-amber-800">● Chưa bật</span>}
-        <button type="button" onClick={() => void check()} className="text-sm text-sky-800 hover:underline">Kiểm tra lại</button>
+        {on && ok === null && <span className="text-sm text-stone-500">Đang kiểm tra…</span>}
+        {on && ok === true && <span className="rounded-full bg-jade-100 px-2.5 py-0.5 text-sm font-medium text-jade-700">● Đang chạy</span>}
+        {on && ok === false && <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-sm font-medium text-amber-800">● Chưa bật</span>}
+        {on && <button type="button" onClick={() => void check()} className="text-sm text-sky-800 hover:underline">Kiểm tra lại</button>}
       </div>
-      {ok === false && (
+      <label className="flex items-start gap-2 text-sm text-stone-700">
+        <input type="checkbox" checked={on} onChange={(e) => toggle(e.target.checked)} className="mt-1" />
+        <span>
+          Dùng máy chấm chi tiết từng âm. <span className="text-stone-500">Chỉ bật khi bạn đang ngồi máy tính và đã chạy OpenPronounce. Tắt thì chấm bằng nhận dạng giọng nói của trình duyệt (dùng được cả trên điện thoại, không hỏi quyền mạng cục bộ).</span>
+        </span>
+      </label>
+      {!on && (
+        <p className="text-sm text-stone-700">Đang dùng <strong>nhận dạng giọng nói của trình duyệt</strong>: kiểm tra bạn nói đúng từ chưa và tô đỏ từ thiếu/sai.</p>
+      )}
+      {on && ok === false && (
         <p className="text-sm text-stone-700">
           Vẫn luyện được bình thường (cả trên điện thoại): máy dùng <strong>nhận dạng giọng nói của trình duyệt</strong> để kiểm tra bạn nói đúng từ chưa.
           Muốn chấm chi tiết <em>từng âm</em> thì cần máy chấm OpenPronounce trên máy tính:
         </p>
       )}
-      {ok === false && (
+      {on && ok === false && (
         <ol className="list-decimal space-y-1 pl-5 text-sm text-stone-700">
           <li>
             Trên máy tính, mở thư mục <code className="rounded bg-stone-100 px-1">D:\Lean - Ngoại ngữ\OpenPronounce</code> và chạy{" "}

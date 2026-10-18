@@ -44,3 +44,14 @@ describe("assessSpeech", () => {
     expect(assessSpeech("I live in Hanoi with my family.", "i live in hanoi with my family", "en", { speechMs: 3500 }).pace).toBe("ok");
   });
 });
+
+describe("near misses of the recognizer", () => {
+  it("one wrong letter on a long word still counts", () => {
+    expect(matchSpeech("I like the restaurant", "I like the restaurent", "en").score).toBe(100);
+  });
+  it("short words and real different words do not", () => {
+    expect(matchSpeech("The cat sat", "The cut sat", "en").score).toBeLessThan(100);
+    expect(matchSpeech("I live in Hanoi", "I leave in Hanoi", "en").score).toBeLessThan(100);
+    expect(matchSpeech("They are happy", "They are unhappy", "en").score).toBeLessThan(100);
+  });
+});
