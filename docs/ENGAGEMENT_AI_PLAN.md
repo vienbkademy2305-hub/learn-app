@@ -30,3 +30,19 @@ Trạng thái: **code xong, test PASS (228), function `chat-ai` đã deploy và 
 - Nội dung gõ vào được gửi tới Google (gói free có thể dùng để cải thiện sản phẩm).
 - Thanh tab dưới (điện thoại) tối đa 5 mục nên thêm “AI” thì bỏ “Kiểm tra” (Anh) và “Đề thêm” (Trung) khỏi thanh dưới; vẫn truy cập được từ menu trên/ trang chủ.
 - Chấm phát âm trên điện thoại, nhắc học bằng push thật: chưa làm.
+
+## 4. Cập nhật tối 2026-10-18
+
+### 4.1 Sửa chấm nói (lỗi “xin quyền mãi, ghi âm không lên điểm”)
+Nguyên nhân tìm được trong code:
+1. `ServerStatus` gọi `http://localhost:8765` mỗi lần mở trang Luyện nói, và nút 🎤 thăm dò lại sau 60 giây → Chrome hỏi quyền “mạng cục bộ” liên tục.
+2. `start()` có `await` thăm dò mạng (tới 2,5 giây) trước khi gọi micro → Safari/iPhone coi như hết thao tác bấm, hỏi lại hoặc từ chối.
+3. Ghi âm xong mới báo “chưa kết nối máy chấm” → không có điểm, không có đường lui.
+4. Nhận dạng giọng nói chấm quá khắt khe (sai một chữ cái là mất cả từ) và bỏ kết quả khi trình duyệt cắt sớm.
+
+Đã sửa: máy chấm OpenPronounce **tắt mặc định** trên web (bật bằng ô chọn ở “Máy chấm chi tiết”; trên `localhost` vẫn tự bật), không thăm dò mạng khi tắt; nút 🎤 vào nhận dạng của trình duyệt ngay trong lần bấm; nếu máy chấm lỗi có nút “Chấm bằng nhận dạng giọng nói của trình duyệt”; nhận kết quả tạm (interim) khi trình duyệt cắt sớm; từ dài sai 1–2 chữ cái vẫn tính đúng (`sameWord`); tự dừng sau thời gian đọc tối đa + 6 giây; giữ một luồng micro 90 giây để lượt luyện chỉ xin quyền một lần (`acquireMic`, cả tiếng Trung lẫn tiếng Anh).
+
+### 4.2 Game học từ (trong tab “Học thuộc” của Ôn từ / Sổ từ)
+- **⚡ Đua 60 giây** (`Blitz.tsx`): combo x1–x5, sai trừ 3 giây, kỷ lục lưu trên máy, từ sai vào “Từ khó”, +2 XP mỗi từ đúng (tối đa 40); âm thanh + rung (`feedback.ts`, có ô tắt).
+- **👾 Đánh boss: Từ khó**: trận 5 tim, thanh máu; mỗi từ khó cần 2 đòn trúng; thắng +15 XP.
+- **🎯 Săn từ** (trong Hội thoại AI): chọn 5 từ (ưu tiên từ khó → đang học → từ trong các buổi đã tới); AI dẫn dắt để bạn dùng; chỉ tính từ thật sự có trong câu của bạn; +5 XP mỗi từ, +10 khi đủ 5.
