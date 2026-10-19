@@ -27,6 +27,7 @@ const NAV: Record<Lang, Array<{ href: string; short: string; long: string; deskt
     { href: "/zh/practice", short: "Bài tập", long: "Bài tập" },
     { href: "/zh/listening", short: "Nghe", long: "Luyện nghe" },
     { href: "/zh/flashcards", short: "Sổ từ", long: "Sổ từ" },
+    { href: "/zh/kiem-tra", short: "Đề thi", long: "Đề luyện thi" },
     { href: "/zh/hoi-thoai-ai", short: "AI", long: "Hội thoại AI" },
     { href: "/sources", short: "Nguồn", long: "Nguồn dữ liệu", desktopOnly: true },
   ],

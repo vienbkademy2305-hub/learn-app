@@ -14,6 +14,7 @@ const TABS: Record<Lang, Tab[]> = {
     { href: "/zh/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/zh\/hoi-thoai-ai/ },
     { href: "/zh/flashcards", icon: "🃏", label: "Sổ từ", match: /^\/zh\/flashcards/ },
     { href: "/zh/listening", icon: "🎧", label: "Nghe", match: /^\/zh\/listening/ },
+    { href: "/zh/kiem-tra", icon: "📝", label: "Đề thi", match: /^\/zh\/kiem-tra/ },
   ],
   en: [
     { href: "/en", icon: "🗺️", label: "Lộ trình", match: /^\/en(\/lesson(\/.*)?)?$/ },
@@ -44,7 +45,7 @@ export function BottomNav() {
       className="fixed inset-x-0 bottom-0 z-40 border-t border-stone-200 bg-white/95 backdrop-blur sm:hidden"
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
-      <ul className="grid grid-cols-5">
+      <ul className="grid" style={{ gridTemplateColumns: `repeat(${TABS[lang].length}, minmax(0, 1fr))` }}>
         {TABS[lang].map((t) => {
           const active = t.match.test(path.replace(/\/$/, "") || "/");
           return (
