@@ -1,0 +1,88 @@
+# Sự thật: chiếc ô của thầy bị lấy. Hung thủ: Tiểu Hồng (小红). Bằng chứng: cô nói sáng nay không mưa; bạn thấy sáng cô cầm ô ướt vào lớp.
+id: zh-hsk2-umbrella
+level: HSK2
+lesson_range: [15, 30]
+status: draft
+title_vi: Chiếc ô biến mất
+cover: "☂️"
+premise_vi: >-
+  Thầy Lý để chiếc ô màu xanh ở cửa lớp. Giờ tan học, chiếc ô không còn nữa. Ba người có thể biết chuyện.
+
+clues:
+  - id: wet-umbrella
+    witness: tongxue
+    text: "早上我看见小红拿着一把很湿的雨伞进教室。"
+    text_vi: "Sáng nay mình thấy Tiểu Hồng cầm một chiếc ô rất ướt vào lớp."
+  - id: no-rain
+    witness: xiaohong
+    text: "今天早上没有下雨，所以我没有带伞。"
+    text_vi: "Sáng nay trời không mưa nên mình không mang ô."
+  - id: rain-morning
+    witness: li
+    text: "今天早上七点下了雨。"
+    text_vi: "Bảy giờ sáng nay trời có mưa."
+
+witnesses:
+  - id: li
+    name: 李老师
+    role: 老师
+    avatar: "🧑‍🏫"
+    segments:
+      - text: "我的伞是蓝色的，我早上放在教室门口。"
+        vi: "Ô của thầy màu xanh, sáng thầy để ở cửa lớp."
+        focus: ["蓝色", "门口"]
+      - text: "今天早上七点下了雨，后来雨就停了。"
+        vi: "Bảy giờ sáng nay trời mưa, sau đó mưa tạnh."
+        clues: [rain-morning]
+      - text: "下午我要回家，可是我的伞不见了。"
+        vi: "Chiều thầy định về nhà, nhưng ô của thầy không thấy đâu."
+    checks:
+      - claim_vi: "Ô của thầy màu xanh."
+        answer: true
+        explain_vi: "Đúng: “我的伞是蓝色的”."
+      - claim_vi: "Sáng nay không mưa."
+        answer: false
+        explain_vi: "Sai: bảy giờ trời có mưa."
+  - id: tongxue
+    name: 王明
+    role: 同学
+    avatar: "🧒"
+    segments:
+      - text: "我八点到教室，教室里有五六个同学。"
+        vi: "Tám giờ mình đến lớp, trong lớp có năm sáu bạn."
+      - text: "早上我看见小红拿着一把很湿的雨伞进教室。"
+        vi: "Sáng nay mình thấy Tiểu Hồng cầm một chiếc ô rất ướt vào lớp."
+        clues: [wet-umbrella]
+        focus: ["很湿", "进教室"]
+    checks:
+      - claim_vi: "Vương Minh thấy Tiểu Hồng cầm ô ướt."
+        answer: true
+        explain_vi: "Đúng: “拿着一把很湿的雨伞”."
+      - claim_vi: "Vương Minh đến lớp lúc bảy giờ."
+        answer: false
+        explain_vi: "Sai: bạn đến lúc tám giờ."
+  - id: xiaohong
+    name: 小红
+    role: 同学
+    avatar: "👧"
+    segments:
+      - text: "今天早上没有下雨，所以我没有带伞。"
+        vi: "Sáng nay trời không mưa nên mình không mang ô."
+        clues: [no-rain]
+        focus: ["没有下雨", "没有带伞"]
+      - text: "我没有拿老师的伞，我下午就回家了。"
+        vi: "Mình không lấy ô của thầy, buổi chiều mình về nhà luôn."
+    checks:
+      - claim_vi: "Tiểu Hồng nói mình không mang ô."
+        answer: true
+        explain_vi: "Đúng: “我没有带伞”."
+      - claim_vi: "Tiểu Hồng nói sáng nay trời mưa."
+        answer: false
+        explain_vi: "Sai: cô nói không mưa."
+solution:
+  culprit: xiaohong
+  evidence: [wet-umbrella, rain-morning]
+  explain_vi: >-
+    Tiểu Hồng nói sáng không mưa nên không mang ô, nhưng thầy nói bảy giờ có mưa và bạn thấy cô cầm chiếc ô ướt vào lớp.
+  confession: "对不起，李老师。早上下雨，我没有带伞，所以我拿了您的伞。"
+  confession_vi: "Em xin lỗi thầy Lý. Sáng trời mưa, em không mang ô nên em đã lấy ô của thầy."

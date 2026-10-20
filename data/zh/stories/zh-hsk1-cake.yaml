@@ -1,0 +1,107 @@
+# Sự thật: chiếc bánh kem trong tủ lạnh bị ăn mất. Hung thủ: em trai (弟弟). Bằng chứng: bé nói không thích bánh nhưng hôm qua nói rất thích; chị thấy tay em có kem.
+id: zh-hsk1-cake
+level: HSK1
+lesson_range: [1, 14]
+status: draft
+title_vi: Chiếc bánh kem biến mất
+cover: "🎂"
+premise_vi: >-
+  Mẹ để một chiếc bánh kem trong tủ lạnh. Buổi tối, bánh chỉ còn một nửa. Mẹ hỏi chị gái, bố và em trai. Ai đã ăn bánh?
+
+clues:
+  - id: loves-cake
+    witness: mama
+    text: "昨天弟弟说：我很喜欢吃蛋糕。"
+    text_vi: "Hôm qua em trai nói: con rất thích ăn bánh."
+  - id: cream-hand
+    witness: jiejie
+    text: "我看见弟弟的手上有奶油。"
+    text_vi: "Chị thấy trên tay em trai có kem."
+  - id: papa-work
+    witness: baba
+    text: "我今天一直在工作。"
+    text_vi: "Hôm nay bố làm việc suốt."
+
+witnesses:
+  - id: mama
+    name: 妈妈
+    role: 妈妈
+    avatar: "👩"
+    segments:
+      - text: "我买了一个蛋糕，放在冰箱里。"
+        vi: "Mẹ mua một chiếc bánh và để trong tủ lạnh."
+        focus: ["蛋糕", "冰箱"]
+      - text: "昨天弟弟说：我很喜欢吃蛋糕。"
+        vi: "Hôm qua em trai nói: con rất thích ăn bánh."
+        clues: [loves-cake]
+      - text: "晚上我打开冰箱，蛋糕只有一半了。"
+        vi: "Buổi tối mẹ mở tủ lạnh, bánh chỉ còn một nửa."
+    checks:
+      - claim_vi: "Mẹ để bánh trong tủ lạnh."
+        answer: true
+        explain_vi: "Đúng: “放在冰箱里”."
+      - claim_vi: "Bánh còn nguyên."
+        answer: false
+        explain_vi: "Sai: bánh chỉ còn một nửa."
+  - id: jiejie
+    name: 姐姐
+    role: 姐姐
+    avatar: "👧"
+    segments:
+      - text: "下午我在房间看书，没有去厨房。"
+        vi: "Buổi chiều chị đọc sách trong phòng, không vào bếp."
+        focus: ["看书", "厨房"]
+      - text: "五点我去喝水，我看见弟弟的手上有奶油。"
+        vi: "Năm giờ chị đi uống nước, chị thấy trên tay em trai có kem."
+        clues: [cream-hand]
+      - text: "我不吃蛋糕，因为我不饿。"
+        vi: "Chị không ăn bánh vì chị không đói."
+    checks:
+      - claim_vi: "Chị đọc sách trong phòng buổi chiều."
+        answer: true
+        explain_vi: "Đúng: “我在房间看书”."
+      - claim_vi: "Chị thấy tay em trai có kem."
+        answer: true
+        explain_vi: "Đúng: “弟弟的手上有奶油”."
+  - id: baba
+    name: 爸爸
+    role: 爸爸
+    avatar: "👨"
+    segments:
+      - text: "我今天一直在工作，八点才回家。"
+        vi: "Hôm nay bố làm việc suốt, tám giờ mới về nhà."
+        clues: [papa-work]
+        focus: ["工作", "八点"]
+      - text: "我回家的时候，蛋糕已经没有了。"
+        vi: "Lúc bố về nhà thì bánh đã hết rồi."
+    checks:
+      - claim_vi: "Bố về nhà lúc tám giờ."
+        answer: true
+        explain_vi: "Đúng: “八点才回家”."
+      - claim_vi: "Bố ở nhà cả ngày."
+        answer: false
+        explain_vi: "Sai: bố làm việc suốt."
+  - id: didi
+    name: 弟弟
+    role: 弟弟
+    avatar: "👦"
+    segments:
+      - text: "我没有吃蛋糕。我不喜欢吃蛋糕。"
+        vi: "Em không ăn bánh. Em không thích ăn bánh."
+        focus: ["不喜欢"]
+      - text: "下午我在玩，不在厨房。"
+        vi: "Buổi chiều em chơi, không ở trong bếp."
+    checks:
+      - claim_vi: "Em trai nói em không thích bánh."
+        answer: true
+        explain_vi: "Đúng: “我不喜欢吃蛋糕”."
+      - claim_vi: "Em trai nói em đã ăn bánh."
+        answer: false
+        explain_vi: "Sai: em nói không ăn."
+solution:
+  culprit: didi
+  evidence: [loves-cake, cream-hand]
+  explain_vi: >-
+    Em trai nói không thích bánh, nhưng hôm qua em nói rất thích; và chị thấy trên tay em có kem.
+  confession: "对不起，妈妈。蛋糕很好吃，我吃了一半。"
+  confession_vi: "Con xin lỗi mẹ. Bánh rất ngon, con ăn mất một nửa."
