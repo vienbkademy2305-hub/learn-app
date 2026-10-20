@@ -88,7 +88,9 @@ function preferBrowserVoice(): boolean {
   if (pick === "recorded") return false;
   const voice = findEnglishVoice();
   if (!voice) return false;
-  return pick !== "auto" || isNaturalVoice(voice, "en");
+  // Phone voices (Google / Samsung / Siri) sound better than the Kokoro files, like the Chinese ones the learner likes.
+  const phone = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  return pick !== "auto" || phone || isNaturalVoice(voice, "en");
 }
 
 export function useEnglishVoice(): VoiceState {
