@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,37561,t=>{"use strict";var s=t.i(33588),e=t.i(14963),r=t.i(55205);t.s(["ZhAiChat",0,function({words:t}){let[i]=(0,e.useProgress)();return(0,s.jsx)(r.AiChat,{lang:"zh",words:t,mastery:i.mastery??{}})}])}]);

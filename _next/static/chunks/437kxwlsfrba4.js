@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,12114,t=>{"use strict";var e=t.i(33588),s=t.i(99763),r=t.i(55205);t.s(["EnAiChat",0,function({words:t}){let[i]=(0,s.useEnProgress)();return(0,e.jsx)(r.AiChat,{lang:"en",words:t,mastery:i.mastery})}])}]);
