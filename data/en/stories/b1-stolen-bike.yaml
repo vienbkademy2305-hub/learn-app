@@ -1,0 +1,109 @@
+# Sự thật: xe đạp của Ruth bị mất trước thư viện lúc ~5:00. Ali nói đã lên xe buýt 4:45 từ trạm bên kia đường và về nhà;
+# bảo vệ Pike: xe buýt số 12 hôm nay chạy muộn, 5:15 mới đến trạm; Ruth: chiếc khóa bị cắt, và thấy Ali đứng cạnh xe lúc 4:50 cầm kìm cắt. Hung thủ: Ali.
+id: b1-stolen-bike
+level: B1
+lesson_range: [20, 28]
+status: draft
+title_vi: Chiếc xe đạp bị lấy mất
+cover: "🚲"
+premise_vi: >-
+  Ruth khóa xe đạp trước thư viện thành phố. Một tiếng sau, chiếc xe biến mất. Ba người ở gần đó, ai đã lấy xe?
+
+clues:
+  - id: bus-late
+    witness: pike
+    text_en: "The number 12 bus was late and arrived at the stop at a quarter past five."
+    text_vi: "Xe buýt số 12 bị trễ và đến trạm lúc năm giờ mười lăm."
+  - id: ali-cutters
+    witness: ruth
+    text_en: "Ruth saw Ali next to her bike at ten to five with a pair of metal cutters."
+    text_vi: "Ruth thấy Ali đứng cạnh xe của cô lúc năm giờ kém mười với một cái kìm cắt."
+  - id: lock-cut
+    witness: pike
+    text_en: "The lock was cut, not opened."
+    text_vi: "Ổ khóa bị cắt chứ không phải mở."
+  - id: ruth-library
+    witness: ruth
+    text_en: "Ruth was inside the library from four until five."
+    text_vi: "Ruth ở trong thư viện từ bốn giờ đến năm giờ."
+
+witnesses:
+  - id: ruth
+    name: Ruth
+    role_en: The owner of the bike
+    avatar: "📖"
+    segments:
+      - text_en: "I locked my bike to the railing outside the library at four o'clock and went inside to study. I came out at five."
+        vi: "Tôi khoá xe vào lan can ngoài thư viện lúc bốn giờ rồi vào học. Tôi ra lúc năm giờ."
+        clues: [ruth-library]
+      - text_en: "Just before five, I looked out of the window of the reading room. At ten to five I saw Ali standing next to my bike. He was holding a pair of metal cutters."
+        vi: "Ngay trước năm giờ, tôi nhìn ra cửa sổ phòng đọc. Lúc năm giờ kém mười tôi thấy Ali đứng cạnh xe của tôi. Anh ta cầm một cái kìm cắt kim loại."
+        clues: [ali-cutters]
+        focus: ["looked out of", "holding"]
+      - text_en: "I thought he was a workman, so I didn't go outside. Now I feel stupid."
+        vi: "Tôi tưởng anh ta là thợ nên không ra ngoài. Giờ tôi thấy mình thật ngốc."
+    checks:
+      - claim_vi: "Ruth khóa xe lúc bốn giờ."
+        answer: true
+        explain_vi: "Đúng: “I locked my bike… at four o'clock.”"
+      - claim_vi: "Ruth thấy Ali đứng cạnh xe lúc năm giờ kém mười."
+        answer: true
+        explain_vi: "Đúng: “At ten to five I saw Ali standing next to my bike.”"
+      - claim_vi: "Ruth ra ngoài ngay khi thấy Ali."
+        answer: false
+        explain_vi: "Sai: “I didn't go outside.”"
+  - id: pike
+    name: Mr Pike
+    role_en: The security guard
+    avatar: "🔦"
+    segments:
+      - text_en: "I checked the railing at five past five. The bike had gone. On the ground there was a piece of the lock, so it had been cut, not opened with a key."
+        vi: "Tôi kiểm tra lan can lúc năm giờ năm phút. Chiếc xe đã biến mất. Dưới đất có một mảnh ổ khóa, nên nó đã bị cắt chứ không phải mở bằng chìa."
+        clues: [lock-cut]
+        focus: ["had gone", "cut, not opened"]
+      - text_en: "The bus stop is opposite the library. The number 12 bus was late today because of an accident. It didn't arrive until a quarter past five."
+        vi: "Trạm xe buýt ở đối diện thư viện. Hôm nay xe số 12 bị trễ vì một vụ tai nạn. Mãi đến năm giờ mười lăm nó mới đến."
+        clues: [bus-late]
+        focus: ["because of", "didn't arrive until"]
+      - text_en: "A lot of people waited for it. Before that, the stop was almost empty."
+        vi: "Rất nhiều người đã đợi nó. Trước đó trạm gần như trống."
+    checks:
+      - claim_vi: "Ổ khóa được mở bằng chìa."
+        answer: false
+        explain_vi: "Sai: ổ khóa bị cắt."
+      - claim_vi: "Xe buýt số 12 đến muộn hôm nay."
+        answer: true
+        explain_vi: "Đúng: “The number 12 bus was late today.”"
+      - claim_vi: "Trạm xe buýt ở cách thư viện rất xa."
+        answer: false
+        explain_vi: "Sai: trạm ở đối diện thư viện."
+  - id: ali
+    name: Ali
+    role_en: A passer-by
+    avatar: "🧢"
+    segments:
+      - text_en: "I was at the bus stop opposite the library at a quarter to five. I got on the bus and went straight home."
+        vi: "Tôi ở trạm xe buýt đối diện thư viện lúc năm giờ kém mười lăm. Tôi lên xe buýt và về thẳng nhà."
+        focus: ["got on", "straight home"]
+      - text_en: "I didn't go near the library. I don't even know whose bike it was."
+        vi: "Tôi không đến gần thư viện. Tôi còn không biết chiếc xe đó của ai."
+      - text_en: "I don't carry tools. I'm a student, and I only have books in my bag."
+        vi: "Tôi không mang dụng cụ. Tôi là sinh viên và trong ba lô tôi chỉ có sách."
+    checks:
+      - claim_vi: "Ali nói anh lên xe buýt lúc năm giờ kém mười lăm."
+        answer: true
+        explain_vi: "Đúng: “I got on the bus and went straight home.”"
+      - claim_vi: "Ali nói anh biết chiếc xe của ai."
+        answer: false
+        explain_vi: "Sai: “I don't even know whose bike it was.”"
+      - claim_vi: "Ali nói anh mang theo dụng cụ."
+        answer: false
+        explain_vi: "Sai: “I don't carry tools.”"
+solution:
+  culprit: ali
+  evidence: [bus-late, ali-cutters]
+  explain_vi: >-
+    Ali nói anh lên xe buýt lúc 4:45 rồi về nhà. Nhưng xe buýt hôm đó chỉ đến lúc 5:15, và Ruth thấy anh đứng cạnh
+    chiếc xe lúc 4:50 với một cái kìm cắt.
+  confession_en: "I'm sorry. I needed a bike to get to work, and I didn't have any money. I cut the lock and rode away. I'll give it back tomorrow."
+  confession_vi: "Tôi xin lỗi. Tôi cần một chiếc xe đạp để đi làm mà không có tiền. Tôi cắt ổ khóa rồi đạp xe đi. Ngày mai tôi sẽ trả lại."

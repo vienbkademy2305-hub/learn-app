@@ -1,14 +1,50 @@
 import Link from "next/link";
 import { content, getLevels, lessonsOfLevel } from "@/content/load";
 import { ZhVoicePicker } from "@/features/audio/ZhVoicePicker";
-import { ContinueLink, LevelProgress } from "@/features/progress/ProgressWidgets";
+import { groupIntoStages, ZH_PINYIN_STAGE, ZH_STAGES } from "@/content/stages";
+import { zhTestCards } from "@/content/zh-tests";
+import { lessonLabel } from "@/content/lesson-label";
+import { StageMap, type MapStage } from "@/features/stages/StageMap";
 
 export default function HomePage() {
   const { words, sentences } = content();
-  const lessons = lessonsOfLevel("1");
-  const curriculumWords = Object.values(words).filter((w) => w.inCurriculum && w.hskLevel === "1").length;
-  const hsk1Sentences = Object.values(sentences).filter((s) => s.hskLevel === "1").length;
-  const higher = getLevels().filter((l) => l !== "1");
+  const all = getLevels().flatMap((l) => lessonsOfLevel(l));
+  let n = 0;
+  const zhTests = zhTestCards();
+  const mapStages: MapStage[] = [
+    {
+      id: ZH_PINYIN_STAGE.id,
+      title: ZH_PINYIN_STAGE.title,
+      icon: ZH_PINYIN_STAGE.icon,
+      blurb: ZH_PINYIN_STAGE.blurb,
+      tag: "Khởi động",
+      group: "HSK 1",
+      items: [{ slug: "pinyin", href: "/zh/pinyin", label: "Bài 0", title: "Nhập môn phát âm & pinyin", untracked: true }],
+    },
+    ...groupIntoStages(ZH_STAGES, all).map(({ def, lessons: ls }) => ({
+      id: def.id,
+      title: def.title,
+      icon: def.icon,
+      blurb: def.blurb,
+      tag: `Chặng ${++n}`,
+      group: `HSK ${def.level}`,
+      // the practice tests of a level sit in its last stage
+      tests: ZH_STAGES.filter((d) => d.level === def.level).at(-1)?.id === def.id
+        ? zhTests
+            .filter((t) => String(t.level) === def.level)
+            .map((t) => ({ id: t.id, href: `/zh/kiem-tra/${t.id}`, title: t.title, meta: `${t.minutes} phút · ${t.items} câu · đạt từ ${t.pass}%`, kind: "exam" as const }))
+        : [],
+      items: ls.map((l) => ({
+        slug: l.slug,
+        href: `/zh/lesson/${l.slug}`,
+        label: lessonLabel(l),
+        title: l.title,
+        sub: `${l.words.length} từ · ${l.sentences.length} câu`,
+        words: l.words,
+      })),
+    })),
+  ];
+  const levels = getLevels();
 
   return (
     <div className="space-y-8">
@@ -24,58 +60,22 @@ export default function HomePage() {
 
       <ZhVoicePicker />
 
-      <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
-        <div className="flex flex-wrap items-end justify-between gap-4">
-          <div>
-            <h2 className="text-xl font-bold text-stone-900">Lộ trình HSK1</h2>
-            <p className="mt-1 text-sm text-stone-500">
-              {lessons.length} bài · {curriculumWords} từ vựng · {hsk1Sentences} câu ví dụ
-            </p>
-          </div>
-          <Link href="/zh/hsk/1" className="text-sm font-medium text-brand-700 hover:underline">
-            Xem tất cả bài →
-          </Link>
-        </div>
-        <div className="mt-5">
-          <LevelProgress lessons={lessons} />
-        </div>
-        <div className="mt-6">
-          <ContinueLink lessons={lessons} />
-        </div>
+      <section>
+        <h2 className="mb-1 text-xl font-bold text-stone-900">Bản đồ lộ trình HSK1 → HSK3</h2>
+        <p className="mb-4 text-sm text-stone-500">
+          {Object.values(words).filter((w) => w.inCurriculum).length} từ vựng · {Object.keys(sentences).length} câu ví dụ. Chạm vào một chặng để xem các bài học.
+        </p>
+        <StageMap lang="zh" stages={mapStages} />
         <p className="mt-4 text-sm text-stone-600">
-          Mới học lần đầu?{" "}
-          <Link href="/zh/pinyin" className="font-medium text-brand-700 hover:underline">
-            Học Bài 0: Nhập môn phát âm & pinyin →
-          </Link>
+          Thích xem dạng danh sách?{" "}
+          {levels.map((l, i) => (
+            <span key={l}>
+              {i > 0 && " · "}
+              <Link href={`/zh/hsk/${l}`} className="font-medium text-brand-700 hover:underline">HSK{l}</Link>
+            </span>
+          ))}
         </p>
       </section>
-
-      {higher.map((level) => {
-        const list = lessonsOfLevel(level);
-        const nWords = Object.values(words).filter((w) => w.inCurriculum && w.hskLevel === level).length;
-        const nSentences = Object.values(sentences).filter((s) => s.hskLevel === level).length;
-        return (
-          <section key={level} className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm sm:p-6">
-            <div className="flex flex-wrap items-end justify-between gap-4">
-              <div>
-                <h2 className="text-xl font-bold text-stone-900">Lộ trình HSK{level}</h2>
-                <p className="mt-1 text-sm text-stone-500">
-                  {list.length} bài · {nWords} từ vựng · {nSentences} câu ví dụ
-                </p>
-              </div>
-              <Link href={`/zh/hsk/${level}`} className="text-sm font-medium text-brand-700 hover:underline">
-                Xem tất cả bài →
-              </Link>
-            </div>
-            <div className="mt-5">
-              <LevelProgress lessons={list} level={level} />
-            </div>
-            <div className="mt-6">
-              <ContinueLink lessons={list} />
-            </div>
-          </section>
-        );
-      })}
 
       <p className="text-xs text-stone-400">
         Tiến độ học được lưu trên trình duyệt này. Các bản dịch câu hiện là bản nháp, đang chờ biên tập.

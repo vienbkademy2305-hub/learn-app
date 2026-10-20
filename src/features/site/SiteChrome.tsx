@@ -7,6 +7,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { AccountMenu } from "@/features/account/AccountMenu";
+import { PushSync } from "@/features/activity/PushSync";
+import { ThemeToggle } from "@/features/site/ThemeToggle";
+import { StudyTimer } from "@/features/activity/StudyTimer";
 import { StreakChip } from "@/features/activity/StreakChip";
 
 export type Lang = "zh" | "en";
@@ -24,6 +27,7 @@ const NAV: Record<Lang, Array<{ href: string; short: string; long: string; deskt
     { href: "/zh/hsk/1", short: "HSK1", long: "HSK1" },
     { href: "/zh/hsk/2", short: "HSK2", long: "HSK2", desktopOnly: true },
     { href: "/zh/hsk/3", short: "HSK3", long: "HSK3", desktopOnly: true },
+    { href: "/zh/luyen-tap", short: "Luyện", long: "Luyện tập" },
     { href: "/zh/practice", short: "Bài tập", long: "Bài tập" },
     { href: "/zh/listening", short: "Nghe", long: "Luyện nghe" },
     { href: "/zh/flashcards", short: "Sổ từ", long: "Sổ từ" },
@@ -33,6 +37,8 @@ const NAV: Record<Lang, Array<{ href: string; short: string; long: string; deskt
   ],
   en: [
     { href: "/en", short: "Lộ trình", long: "Lộ trình IELTS" },
+    { href: "/en/luyen-tap", short: "Luyện", long: "Luyện tập" },
+    { href: "/en/truyen", short: "Truyện", long: "Truyện trinh thám" },
     { href: "/en/hoi-thoai-ai", short: "AI", long: "Hội thoại AI" },
     { href: "/en/words", short: "Kho từ", long: "Kho từ vựng" },
     { href: "/en/flashcards", short: "Ôn từ", long: "Ôn flashcard" },
@@ -75,6 +81,9 @@ export function SiteHeader() {
             {lang === "zh" ? "→ Anh" : "→ Trung"}
           </Link>
           <StreakChip />
+          <PushSync />
+          <StudyTimer />
+          <ThemeToggle />
           <AccountMenu />
         </nav>
       </div>

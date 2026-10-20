@@ -1,0 +1,108 @@
+# Sự thật: điện thoại của Mia biến mất trên xe buýt trường lúc dừng đèn đỏ. Jake nói cậu ngồi cuối xe không rời chỗ;
+# Nina thấy Jake ở hàng ghế đầu cạnh balô của Mia; bác tài thấy qua gương một cậu bé áo khoác xanh lá ở phía trước (Jake mặc xanh lá, Nina mặc đỏ). Hung thủ: Jake.
+id: a2-bus-phone
+level: A2
+lesson_range: [10, 14]
+status: draft
+title_vi: Chiếc điện thoại trên xe buýt
+cover: "🚌"
+premise_vi: >-
+  Trên đường về từ chuyến đi chơi, điện thoại của Mia biến mất khỏi balô. Ba người ở gần ghế của Mia. Ai đã lấy nó?
+
+clues:
+  - id: front-seat
+    witness: nina
+    text_en: "Nina saw Jake in the front seats next to Mia's bag."
+    text_vi: "Nina thấy Jake ở hàng ghế đầu, cạnh balô của Mia."
+  - id: green-coat
+    witness: dean
+    text_en: "The driver saw a boy in a green coat at the front of the bus."
+    text_vi: "Bác tài thấy một cậu bé mặc áo khoác xanh lá ở phía trước xe."
+  - id: nina-red
+    witness: nina
+    text_en: "Nina wears a red coat."
+    text_vi: "Nina mặc áo khoác đỏ."
+  - id: lights
+    witness: dean
+    text_en: "The bus stopped at the traffic lights for two minutes."
+    text_vi: "Xe buýt dừng ở đèn giao thông hai phút."
+
+witnesses:
+  - id: dean
+    name: Mr Dean
+    role_en: The bus driver
+    avatar: "🚍"
+    segments:
+      - text_en: "I drive this bus every day. We stopped at the traffic lights for two minutes."
+        vi: "Ngày nào bác cũng lái chiếc xe này. Chúng tôi dừng ở đèn giao thông hai phút."
+        clues: [lights]
+      - text_en: "I looked in my mirror. I saw a boy in a green coat at the front of the bus. He was standing near a bag."
+        vi: "Bác nhìn vào gương. Bác thấy một cậu bé mặc áo khoác xanh lá ở phía trước xe. Cậu ấy đang đứng gần một cái balô."
+        clues: [green-coat]
+        focus: ["mirror", "near"]
+      - text_en: "I didn't see his face. I only remember the green coat."
+        vi: "Bác không thấy mặt cậu ấy. Bác chỉ nhớ chiếc áo khoác xanh lá."
+    checks:
+      - claim_vi: "Xe buýt dừng ở đèn giao thông."
+        answer: true
+        explain_vi: "Đúng: “We stopped at the traffic lights.”"
+      - claim_vi: "Bác tài nhìn rõ mặt cậu bé."
+        answer: false
+        explain_vi: "Sai: “I didn't see his face.”"
+      - claim_vi: "Cậu bé mặc áo khoác xanh lá."
+        answer: true
+        explain_vi: "Đúng: “a boy in a green coat.”"
+  - id: nina
+    name: Nina
+    role_en: A classmate
+    avatar: "🧣"
+    segments:
+      - text_en: "I sat in the middle of the bus. I wore my red coat because it was cold."
+        vi: "Em ngồi ở giữa xe. Em mặc áo khoác đỏ vì trời lạnh."
+        clues: [nina-red]
+      - text_en: "When the bus stopped at the lights, I looked at the front seats. I saw Jake there, next to Mia's bag."
+        vi: "Khi xe dừng ở đèn, em nhìn lên các ghế phía trước. Em thấy Jake ở đó, cạnh balô của Mia."
+        clues: [front-seat]
+        focus: ["looked at", "next to"]
+      - text_en: "He put his hand in the bag. Then he walked back quickly."
+        vi: "Cậu ấy thò tay vào balô. Rồi cậu ấy đi nhanh về phía sau."
+    checks:
+      - claim_vi: "Nina mặc áo khoác xanh."
+        answer: false
+        explain_vi: "Sai: áo khoác đỏ."
+      - claim_vi: "Nina thấy Jake cạnh balô của Mia."
+        answer: true
+        explain_vi: "Đúng: “I saw Jake there, next to Mia's bag.”"
+      - claim_vi: "Jake đi chậm về chỗ ngồi."
+        answer: false
+        explain_vi: "Sai: “he walked back quickly.”"
+  - id: jake
+    name: Jake
+    role_en: A classmate
+    avatar: "🎧"
+    segments:
+      - text_en: "I sat at the back of the bus with my headphones. I listened to music all the way."
+        vi: "Em ngồi ở cuối xe với tai nghe. Em nghe nhạc suốt đường."
+      - text_en: "I never moved from my seat. I didn't go to the front."
+        vi: "Em không hề rời chỗ. Em không đi lên phía trước."
+        focus: ["never moved", "front"]
+      - text_en: "I don't need Mia's phone. I have a new phone, and it's in my pocket."
+        vi: "Em không cần điện thoại của Mia. Em có điện thoại mới, nó ở trong túi em."
+    checks:
+      - claim_vi: "Jake ngồi ở cuối xe."
+        answer: true
+        explain_vi: "Đúng: “I sat at the back of the bus.”"
+      - claim_vi: "Jake nói cậu đã đi lên phía trước."
+        answer: false
+        explain_vi: "Sai: “I didn't go to the front.”"
+      - claim_vi: "Jake nghe nhạc bằng tai nghe."
+        answer: true
+        explain_vi: "Đúng: “with my headphones.”"
+solution:
+  culprit: jake
+  evidence: [front-seat, green-coat]
+  explain_vi: >-
+    Jake nói cậu ngồi cuối xe và không lên phía trước. Nhưng Nina thấy cậu ở ghế đầu cạnh balô của Mia,
+    và bác tài thấy một cậu bé mặc áo khoác xanh lá ở đó (Nina mặc áo đỏ).
+  confession_en: "I'm sorry. I wanted to play a game on it, so I took it when the bus stopped. I was going to give it back."
+  confession_vi: "Em xin lỗi. Em muốn chơi trò chơi trên nó nên đã lấy khi xe dừng. Em định trả lại."

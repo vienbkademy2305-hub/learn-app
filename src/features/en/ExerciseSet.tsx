@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import type { Exercise } from "@/content/en-types";
 import { gradeCorrection, gradeDictation, isCorrect, mcqIndex } from "@/domain/en-grade";
 import { DICTATION_POINTS } from "@/domain/en-test";
+import { ExerciseQuiz, quizSupported } from "./ExerciseQuiz";
 import { saveScore, useEnProgress } from "./progress";
 import { Say } from "./speech";
 
@@ -47,6 +48,7 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
   const [text, setText] = useState(ex.kind === "error-correction" ? (ex.text ?? "") : "");
   const [result, setResult] = useState<Result | null>(null);
   const [attempt, setAttempt] = useState(0);
+  const [quiz, setQuiz] = useState(false);
   const qs = ex.questions ?? [];
   const set = (i: number, v: string) => setAnswers((a) => ({ ...a, [i]: v }));
   const speaking = ex.kind.startsWith("speaking");
@@ -110,6 +112,17 @@ export function ExerciseCard({ ex, index, best, test }: { ex: Exercise; index: n
           </span>
         )}
       </header>
+
+      {!test && quizSupported(ex) && (
+        <button
+          type="button"
+          onClick={() => setQuiz(true)}
+          className="flex w-full items-center justify-center gap-2 rounded-2xl bg-sky-700 px-5 py-3 text-base font-bold text-white shadow-sm hover:bg-sky-800 sm:w-auto"
+        >
+          ▶ Làm từng câu <span className="text-sm font-medium text-sky-100">(khuyên dùng trên điện thoại)</span>
+        </button>
+      )}
+      {quiz && <ExerciseQuiz ex={ex} onClose={() => setQuiz(false)} />}
 
       {ex.bank && (
         <div className="flex flex-wrap gap-2" lang="en">

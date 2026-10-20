@@ -1,0 +1,128 @@
+# Bảng sự thật (không hiển thị):
+#   - Tiền thu cuối tuần trong két ở văn phòng quán cà phê biến mất giữa 10 giờ tối thứ Bảy và 7 giờ sáng Chủ nhật. Không có dấu phá khóa.
+#   - Chìa dự phòng cửa sau để dưới chậu hoa; Nora kể cho Leo (tài xế giao sữa) từ hồi tháng Ba.
+#   - Leo nói: "Tôi không bao giờ vào trong quán, chỉ để sữa ở cửa sau."
+#   - Bà Kim (lao công) đến 6:30 sáng Chủ nhật: các thùng sữa nằm TRONG bếp, cửa sau đã khóa lại -> ai đó mang vào trong.
+#   - Nora: chìa của cô ở trong túi suốt cuối tuần; cô ở nhà chị gái cả đêm.
+#   - Hung thủ duy nhất: Leo.
+id: b1-cafe-safe
+level: B1
+lesson_range: [28, 36]
+status: draft
+title_vi: Chiếc két trống rỗng
+cover: "☕"
+premise_vi: >-
+  Sáng Chủ nhật, chủ quán cà phê phát hiện số tiền thu cả cuối tuần trong két đã biến mất.
+  Cửa không bị phá. Ba người từng có mặt quanh quán, ai đã lấy tiền?
+
+clues:
+  - id: milk-inside
+    witness: kim
+    text_en: "The milk crates were inside the kitchen, but the back door was locked."
+    text_vi: "Các thùng sữa nằm trong bếp, nhưng cửa sau đã khóa."
+  - id: leo-knew-key
+    witness: nora
+    text_en: "Nora told Leo about the spare key under the flowerpot in March."
+    text_vi: "Nora đã kể cho Leo về chìa dự phòng dưới chậu hoa hồi tháng Ba."
+  - id: nora-sister
+    witness: nora
+    text_en: "Nora stayed at her sister's house all night."
+    text_vi: "Nora ở nhà chị gái cả đêm."
+  - id: kim-saturday
+    witness: kim
+    text_en: "Mrs Kim finished cleaning at eleven on Saturday."
+    text_vi: "Bà Kim dọn xong lúc mười một giờ tối thứ Bảy."
+  - id: leo-delivery
+    witness: leo
+    text_en: "Leo delivers the milk at about five forty every Sunday."
+    text_vi: "Leo giao sữa vào khoảng năm giờ bốn mươi mỗi sáng Chủ nhật."
+
+witnesses:
+  - id: nora
+    name: Nora
+    role_en: The barista
+    avatar: "🛵"
+    segments:
+      - text_en: "I closed the café at ten o'clock on Saturday and I locked the front door myself. My key was in my bag all weekend."
+        vi: "Tôi đóng quán lúc mười giờ tối thứ Bảy và tự khóa cửa trước. Chìa của tôi nằm trong túi suốt cuối tuần."
+        focus: ["locked", "all weekend"]
+      - text_en: "After that, I rode my scooter to my sister's house. I stayed there all night. We were watching films until two in the morning."
+        vi: "Sau đó tôi chạy xe máy đến nhà chị gái. Tôi ở đó cả đêm. Chúng tôi xem phim đến hai giờ sáng."
+        clues: [nora-sister]
+        focus: ["were watching", "until"]
+      - text_en: "There's a spare key under the flowerpot by the back door. I told Leo about it in March, when I forgot my own key. I trusted him."
+        vi: "Có một chìa dự phòng dưới chậu hoa cạnh cửa sau. Tôi đã nói với Leo về nó hồi tháng Ba khi tôi quên chìa của mình. Tôi tin anh ấy."
+        clues: [leo-knew-key]
+        focus: ["spare key", "I trusted"]
+    checks:
+      - claim_vi: "Nora tự khóa cửa trước lúc mười giờ tối thứ Bảy."
+        answer: true
+        explain_vi: "Đúng: “I closed the café at ten o'clock… and I locked the front door myself.”"
+      - claim_vi: "Nora ở quán cả đêm."
+        answer: false
+        explain_vi: "Sai: cô ở nhà chị gái cả đêm."
+      - claim_vi: "Nora từng kể cho Leo về chìa dự phòng."
+        answer: true
+        explain_vi: "Đúng: “I told Leo about it in March.”"
+
+  - id: kim
+    name: Mrs Kim
+    role_en: The cleaner
+    avatar: "🧹"
+    segments:
+      - text_en: "I clean the café every Saturday night. I finished at eleven o'clock and then I went straight home by bus."
+        vi: "Tôi dọn quán mỗi tối thứ Bảy. Tôi dọn xong lúc mười một giờ rồi về thẳng nhà bằng xe buýt."
+        clues: [kim-saturday]
+        focus: ["every Saturday", "straight home"]
+      - text_en: "On Sunday I came back early, at half past six, to wash the floor. The back door was locked, but when I went into the kitchen, I saw three crates of milk standing next to the office door."
+        vi: "Sáng Chủ nhật tôi quay lại sớm, lúc sáu giờ rưỡi, để lau sàn. Cửa sau đã khóa, nhưng khi vào bếp tôi thấy ba thùng sữa đặt cạnh cửa văn phòng."
+        clues: [milk-inside]
+        focus: ["came back", "standing next to"]
+      - text_en: "I thought it was strange. The milk is usually left outside the back door, so someone must have carried it in."
+        vi: "Tôi thấy lạ. Sữa thường để ngoài cửa sau, nên chắc có người đã mang nó vào."
+        focus: ["usually", "must have carried"]
+    checks:
+      - claim_vi: "Bà Kim dọn quán vào mỗi tối thứ Bảy."
+        answer: true
+        explain_vi: "Đúng: “I clean the café every Saturday night.”"
+      - claim_vi: "Sáng Chủ nhật cửa sau bị mở."
+        answer: false
+        explain_vi: "Sai: “The back door was locked.”"
+      - claim_vi: "Bà Kim thấy các thùng sữa trong bếp."
+        answer: true
+        explain_vi: "Đúng: “I saw three crates of milk standing next to the office door.”"
+
+  - id: leo
+    name: Leo
+    role_en: The milk delivery driver
+    avatar: "🚚"
+    segments:
+      - text_en: "I deliver milk to the café every Sunday at about twenty to six. I've been doing this job for two years."
+        vi: "Tôi giao sữa cho quán mỗi sáng Chủ nhật vào khoảng sáu giờ kém hai mươi. Tôi làm công việc này được hai năm rồi."
+        clues: [leo-delivery]
+        focus: ["twenty to six", "I've been doing"]
+      - text_en: "I never go inside the café. I just leave the crates by the back door and drive away. That's what I did this Sunday too."
+        vi: "Tôi không bao giờ vào trong quán. Tôi chỉ để các thùng sữa cạnh cửa sau rồi lái xe đi. Chủ nhật này tôi cũng làm như vậy."
+        focus: ["never", "just leave"]
+      - text_en: "I don't know anything about a spare key or a safe. I'm only a delivery driver, and I'm not interested in the café's money."
+        vi: "Tôi không biết gì về chìa dự phòng hay cái két nào cả. Tôi chỉ là tài xế giao hàng, tôi không quan tâm tiền của quán."
+        focus: ["anything about", "interested in"]
+    checks:
+      - claim_vi: "Leo giao sữa vào sáng Chủ nhật."
+        answer: true
+        explain_vi: "Đúng: “I deliver milk to the café every Sunday.”"
+      - claim_vi: "Leo nói rằng anh thường vào trong quán."
+        answer: false
+        explain_vi: "Sai: “I never go inside the café.”"
+      - claim_vi: "Leo nói anh biết về chiếc két."
+        answer: false
+        explain_vi: "Sai: “I don't know anything about a spare key or a safe.”"
+
+solution:
+  culprit: leo
+  evidence: [milk-inside, leo-knew-key]
+  explain_vi: >-
+    Leo nói anh không bao giờ vào trong quán và chỉ để sữa ngoài cửa sau. Nhưng bà Kim thấy các thùng sữa nằm trong bếp
+    dù cửa sau đã khóa, và Nora từng kể cho Leo về chìa dự phòng dưới chậu hoa. Leo đã mở cửa bằng chìa đó.
+  confession_en: "I'm sorry. I needed money for my car. I remembered the key under the flowerpot, so I opened the door, took the money from the safe and locked the door again. I put the milk inside to hide the footprints."
+  confession_vi: "Tôi xin lỗi. Tôi cần tiền sửa xe. Tôi nhớ chiếc chìa dưới chậu hoa nên mở cửa, lấy tiền trong két rồi khóa lại. Tôi bê sữa vào trong để che dấu chân."

@@ -9,7 +9,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { isCorrect } from "@/domain/en-grade";
 import { shuffle } from "@/domain/exercises";
 import { earnXp } from "@/features/activity/store";
+import { QuizKeyboard } from "@/features/quiz/QuizKeyboard";
+import { FeedbackPanel, QuizButton, QuizShell, QuizTile } from "@/features/quiz/QuizShell";
 import { Blitz } from "./Blitz";
+import { AudioMatch, FlipGame } from "./MiniGames";
 import { playRight, playWin, playWrong } from "./feedback";
 import {
   applyAnswer,
@@ -18,6 +21,7 @@ import {
   BOSS_HITS,
   BOSS_XP,
   bossHp,
+  clozeParts,
   dayStreak,
   distractors,
   type GameProgress,
@@ -28,8 +32,10 @@ import {
   kindsFor,
   LEVEL_NAMES,
   MAX_QUESTIONS,
+  NEW_PER_SESSION,
   nextQueue,
   planSession,
+  scrambleOf,
   summary,
 } from "@/domain/word-game";
 
@@ -49,7 +55,7 @@ export interface WordGameProps {
   lockLesson?: number;
 }
 
-type Question = { id: string; kind: Kind; options: GameWord[]; review: boolean; level: number };
+type Question = { id: string; kind: Kind; options: GameWord[]; review: boolean; level: number; /** true-false: the meaning shown (right or wrong) */ shown?: GameWord; /** scramble: the letters in a different order */ scramble?: string[] };
 type Session = {
   queue: string[];
   review: Set<string>;
@@ -67,7 +73,9 @@ const btn = "rounded-xl px-5 py-3 font-semibold";
 
 export function WordGame(props: WordGameProps) {
   const { lang, words, lessons, studied, gp, update, speak, canListen, lessonLabel, lockLesson } = props;
-  const [scope, setScope] = useState<number | "studied" | null>(null);
+  const [scope, setScope] = useState<number | "studied" | "all" | null>(null);
+  const [perSession, setPerSession] = useState(NEW_PER_SESSION);
+  const [mode, setMode] = useState<null | "flip" | "audio">(null);
   const [session, setSession] = useState<Session | null>(null);
   const [blitz, setBlitz] = useState(false);
   const [question, setQuestion] = useState<Question | null>(null);
@@ -82,8 +90,9 @@ export function WordGame(props: WordGameProps) {
   }, [scope, studied, lessons, lockLesson]);
   useEffect(() => setSession(null), [scope]);
 
-  const inScope = words.filter((w) => (scope === "studied" ? studied.has(w.lesson) : w.lesson === scope));
-  const plan = planSession(inScope, gp);
+  const inScope = words.filter((w) => (scope === "all" ? true : scope === "studied" ? studied.has(w.lesson) : w.lesson === scope));
+  const plan = planSession(inScope, gp, { newCount: perSession });
+  const maxQuestions = Math.max(MAX_QUESTIONS, perSession * 6);
   const hardWords = inScope.filter((w) => isHard(gp.mastery[w.id]));
   const stats = summary(inScope, gp);
 
@@ -107,15 +116,18 @@ export function WordGame(props: WordGameProps) {
 
   // next question whenever the head of the queue changes
   const bossOver = !!session?.boss && (session.boss.hearts <= 0 || session.boss.won === true);
-  const head = session && !session.match && !bossOver && session.asked < MAX_QUESTIONS ? session.queue[0] : undefined;
+  const head = session && !session.match && !bossOver && session.asked < maxQuestions ? session.queue[0] : undefined;
   useEffect(() => {
     if (!head || feedback) return;
     const word = byId.get(head)!;
     const level = session!.review.has(head) ? 2 : Math.min(gp.mastery[head]?.level ?? 0, 2);
     const kinds = kindsFor(level, lang, word, canListen);
     const kind = kinds[Math.floor(rng() * kinds.length)]!;
-    const options = kind.endsWith("type") || kind === "type-term" ? [] : shuffle([word, ...distractors(word, words, 3, rng)], rng);
-    setQuestion({ id: head, kind, options, review: session!.review.has(head), level });
+    const noOptions = kind.endsWith("type") || kind === "type-term" || kind === "true-false" || kind === "scramble";
+    const options = noOptions ? [] : shuffle([word, ...distractors(word, words, 3, rng)], rng);
+    const shown = kind === "true-false" ? (rng() < 0.5 ? word : (distractors(word, words, 1, rng)[0] ?? word)) : undefined;
+    const scramble = kind === "scramble" ? (scrambleOf(word.term, rng) ?? undefined) : undefined;
+    setQuestion({ id: head, kind: kind === "scramble" && !scramble ? "type-term" : kind, options, review: session!.review.has(head), level, shown, scramble });
     if (kind === "listen-choose" || kind === "listen-type") speak(word.term);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [head, session?.asked, feedback]);
@@ -155,12 +167,17 @@ export function WordGame(props: WordGameProps) {
 
   return (
     <div className="space-y-5">
+      {mode === "flip" && <FlipGame lang={lang} words={inScope} onExit={() => setMode(null)} />}
+      {mode === "audio" && canListen && (
+        <AudioMatch words={inScope} speak={speak} onPair={(id, ok) => update((g) => applyAnswer(g, id, ok))} onExit={() => setMode(null)} />
+      )}
       {blitz && <Blitz lang={lang} words={inScope} gp={gp} update={update} speak={speak} onExit={() => setBlitz(false)} />}
 
-      {!session && !blitz && (
+      {!session && !blitz && !mode && (
         <>
           {lockLesson === undefined && (
-            <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : Number(e.target.value))} className={chip}>
+            <select value={String(scope)} onChange={(e) => setScope(e.target.value === "studied" ? "studied" : e.target.value === "all" ? "all" : Number(e.target.value))} className={chip}>
+              <option value="all">Tất cả từ vựng ({words.length} từ)</option>
               <option value="studied" disabled={studied.size === 0}>Các {lessonLabel.toLowerCase()} đã học ({studied.size})</option>
               {lessons.map((l) => (
                 <option key={l.number} value={l.number}>{l.label ?? `${lessonLabel} ${l.number}`}: {l.title}</option>
@@ -186,7 +203,21 @@ export function WordGame(props: WordGameProps) {
             ) : (
               <p className="text-stone-700">Đã thuộc hết từ trong phạm vi này và chưa đến hạn ôn. {lockLesson === undefined ? "Chọn buổi khác hoặc quay lại sau nhé!" : "Quay lại sau để ôn nhé!"}</p>
             )}
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-2 text-sm text-stone-600">
+              Từ mới mỗi lượt:
+              {[10, 20, 30].map((n) => (
+                <button key={n} type="button" aria-pressed={perSession === n} onClick={() => setPerSession(n)} className={`rounded-lg px-3 py-1.5 font-semibold ring-1 ring-inset ${perSession === n ? "bg-sky-700 text-white ring-sky-700" : "bg-white text-stone-700 ring-stone-300 hover:bg-stone-50"}`}>{n}</button>
+              ))}
+            </div>
             <div className="mt-4 flex flex-wrap justify-center gap-2">
+              {inScope.length >= 6 && (
+                <button type="button" onClick={() => setMode("flip")} className={`${btn} bg-violet-600 text-white hover:bg-violet-700`}>🃏 Lật thẻ ghép đôi</button>
+              )}
+              {canListen && inScope.length >= 4 && (
+                <button type="button" onClick={() => setMode("audio")} className={`${btn} bg-sky-600 text-white hover:bg-sky-700`}>🔊 Ghép âm thanh</button>
+              )}
+            </div>
+            <div className="mt-2 flex flex-wrap justify-center gap-2">
               {inScope.length >= BLITZ_MIN_WORDS && (
                 <button type="button" onClick={() => setBlitz(true)} className={`${btn} bg-orange-500 text-white hover:bg-orange-600`}>
                   ⚡ Đua 60 giây
@@ -205,52 +236,52 @@ export function WordGame(props: WordGameProps) {
         </>
       )}
 
-      {session?.match && (
-        <MatchRound
-          lang={lang}
-          words={session.match.map((id) => byId.get(id)!)}
-          onPair={(id, ok) => update((g) => applyAnswer(g, id, ok))}
-          onDone={() => setSession((s) => (s ? { ...s, match: null } : s))}
-        />
-      )}
-
-      {session?.boss && !session.match && <BossBar boss={session.boss} />}
-
-      {session && !session.match && (head === undefined || session.asked >= MAX_QUESTIONS) && !feedback && (
-        <div className="rounded-2xl border border-stone-200 bg-white p-6 text-center shadow-sm">
-          {session.boss ? (
-            session.boss.won ? (
-              <p className="text-xl font-bold text-jade-700">🏆 Hạ boss! +{BOSS_XP} XP</p>
-            ) : (
-              <p className="text-xl font-bold text-red-700">💀 Boss thắng — hết tim. Đánh lại nhé!</p>
-            )
-          ) : (
-            <p className="text-xl font-bold text-jade-700">Xong lượt học!</p>
-          )}
-          <p className="mt-1 text-stone-600">
-            Đúng {session.correct}/{session.asked} câu · thuộc thêm {session.passedNow.length} từ
-            {session.queue.length ? ` · còn ${session.queue.length} từ học tiếp lần sau` : ""}.
-          </p>
-          {session.passedNow.length > 0 && (
-            <p lang={lang === "zh" ? "zh-CN" : "en"} className="mt-2 text-stone-800">{session.passedNow.map((id) => byId.get(id)!.term).join(" · ")}</p>
-          )}
-          <button type="button" onClick={() => setSession(null)} className={`${btn} mt-4 text-sm font-medium ring-1 ring-inset ring-stone-300 hover:bg-stone-100`}>Về trang đầu</button>
-        </div>
-      )}
-
-      {session && !session.match && question && (head !== undefined || feedback) && (
-        <QuestionCard
-          key={`${question.id}-${session.asked - (feedback ? 1 : 0)}`}
-          lang={lang}
-          q={question}
-          word={byId.get(question.id)!}
-          remaining={session.queue.length}
-          feedback={feedback}
-          speak={speak}
-          onAnswer={answer}
-          onNext={() => setFeedback(null)}
-        />
-      )}
+      {session && !blitz && (() => {
+        const total = session.asked + session.queue.length;
+        const shell = { progress: total ? session.asked / total : 0, badge: session.correct, onExit: () => setSession(null), top: session.boss ? <BossBar boss={session.boss} /> : undefined };
+        if (session.match) {
+          return (
+            <MatchRound
+              lang={lang}
+              shell={shell}
+              words={session.match.map((id) => byId.get(id)!)}
+              onPair={(id, ok) => update((g) => applyAnswer(g, id, ok))}
+              onDone={() => setSession((s) => (s ? { ...s, match: null } : s))}
+            />
+          );
+        }
+        if ((head === undefined || session.asked >= maxQuestions) && !feedback) {
+          const lost = session.boss && !session.boss.won;
+          return (
+            <QuizShell {...shell} progress={1} title={session.boss ? (lost ? "💀 Boss thắng" : "🏆 Hạ boss!") : "Xong lượt học!"} footer={<QuizButton state="ok" onClick={() => setSession(null)}>Về trang đầu</QuizButton>}>
+              <p className="text-xl text-neutral-300">
+                {session.boss?.won ? `+${BOSS_XP} XP. ` : lost ? "Hết tim — đánh lại nhé! " : ""}
+                Đúng <strong className="text-emerald-400">{session.correct}</strong>/{session.asked} câu · thuộc thêm <strong className="text-amber-300">{session.passedNow.length}</strong> từ
+                {session.queue.length ? ` · còn ${session.queue.length} từ học tiếp lần sau` : ""}.
+              </p>
+              {session.passedNow.length > 0 && (
+                <p lang={lang === "zh" ? "zh-CN" : "en"} className="mt-4 text-2xl leading-relaxed text-white">{session.passedNow.map((id) => byId.get(id)!.term).join(" · ")}</p>
+              )}
+            </QuizShell>
+          );
+        }
+        if (question && (head !== undefined || feedback)) {
+          return (
+            <QuestionCard
+              key={`${question.id}-${session.asked - (feedback ? 1 : 0)}`}
+              lang={lang}
+              shell={shell}
+              q={question}
+              word={byId.get(question.id)!}
+              feedback={feedback}
+              speak={speak}
+              onAnswer={answer}
+              onNext={() => setFeedback(null)}
+            />
+          );
+        }
+        return null;
+      })()}
     </div>
   );
 }
@@ -289,39 +320,65 @@ function Stat({ n, label, tone }: { n: number; label: string; tone: string }) {
 
 function Term({ lang, word, big = false }: { lang: "en" | "zh"; word: GameWord; big?: boolean }) {
   return lang === "zh" ? (
-    <span lang="zh-CN" className={`font-han ${big ? "text-6xl" : "text-3xl"} text-stone-900`}>{word.term}</span>
+    <span lang="zh-CN" className={`font-han ${big ? "text-6xl" : "text-3xl"} text-white`}>{word.term}</span>
   ) : (
-    <span lang="en" className={`${big ? "text-4xl" : "text-lg"} font-bold text-stone-900`}>{word.term}</span>
+    <span lang="en" className={`${big ? "text-4xl" : "text-xl"} font-bold text-white`}>{word.term}</span>
   );
 }
 
 const PROMPTS: Record<Kind, string> = {
   "choose-term": "Chọn từ đúng với nghĩa",
-  "choose-meaning": "Chọn nghĩa đúng",
+  "choose-meaning": "Chọn bản dịch",
   "listen-choose": "Nghe rồi chọn từ",
   "listen-type": "Nghe rồi gõ lại từ",
-  "type-term": "Gõ từ tiếng Anh có nghĩa",
+  "type-term": "Nhập vào bản dịch",
   definition: "Đọc nghĩa tiếng Anh, chọn từ",
+  "true-false": "Đúng hay sai?",
+  scramble: "Sắp xếp lại các chữ cái",
+  cloze: "Điền từ vào câu",
+  "cloze-type": "Gõ từ còn thiếu trong câu",
 };
+
+type ShellProps = { progress: number; badge: number; onExit: () => void; top?: React.ReactNode };
+
+const BLANK = "＿＿＿＿";
+
+/** The example sentence with the term replaced by a blank (or, after answering, highlighted). */
+function ClozeSentence({ word, lang, reveal }: { word: GameWord; lang: "en" | "zh"; reveal: boolean }) {
+  const parts = clozeParts(word, lang);
+  if (!parts) return null;
+  return (
+    <div className="rounded-3xl bg-neutral-900 p-5">
+      <p lang={lang === "zh" ? "zh-CN" : "en"} className={`${lang === "zh" ? "font-han text-3xl" : "text-2xl"} font-bold leading-snug`}>
+        {parts.before}
+        <span className={reveal ? "rounded-lg bg-emerald-900 px-1.5 text-emerald-300" : "text-sky-300"}>{reveal ? parts.match : BLANK}</span>
+        {parts.after}
+      </p>
+      {word.example?.vi && <p className="mt-3 text-neutral-400">{word.example.vi}</p>}
+    </div>
+  );
+}
 
 function QuestionCard(props: {
   lang: "en" | "zh";
+  shell: ShellProps;
   q: Question;
   word: GameWord;
-  remaining: number;
   feedback: { ok: boolean; word: GameWord } | null;
   speak: (text: string, slow?: boolean) => void;
   onAnswer: (ok: boolean) => void;
   onNext: () => void;
 }) {
-  const { lang, q, word, remaining, feedback, speak, onAnswer, onNext } = props;
+  const { lang, shell, q, word, feedback, speak, onAnswer, onNext } = props;
   const [picked, setPicked] = useState<string | null>(null);
   const [typed, setTyped] = useState("");
+  const [helped, setHelped] = useState(0);
+  const [built, setBuilt] = useState<number[]>([]);
   const nextRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
     if (feedback) nextRef.current?.focus();
     if (feedback?.ok) {
-      const t = setTimeout(onNext, 900);
+      const t = setTimeout(onNext, 1100);
       return () => clearTimeout(t);
     }
   }, [feedback, onNext]);
@@ -331,95 +388,192 @@ function QuestionCard(props: {
     setPicked(w.id);
     onAnswer(w.id === word.id);
   };
+  const answerTf = (saysTrue: boolean) => {
+    if (feedback) return;
+    setPicked(saysTrue ? "yes" : "no");
+    onAnswer(saysTrue === (q.shown?.id === word.id));
+  };
+  const typing = q.kind === "listen-type" || q.kind === "type-term" || q.kind === "cloze-type";
+  const letters = q.scramble ?? [];
+  const target = word.term.toLowerCase();
   const submit = () => {
-    if (feedback || !typed.trim()) return;
-    onAnswer(isCorrect(typed, word.term));
+    if (feedback) return;
+    if (q.kind === "scramble") {
+      if (built.length !== letters.length) return;
+      return onAnswer(built.map((i) => letters[i]).join("") === target);
+    }
+    if (!typed.trim()) return;
+    // using "Trợ giúp" counts as a miss: the word comes back later
+    onAnswer(helped === 0 && isCorrect(typed, word.term));
+  };
+  const hint = () => {
+    if (feedback) return;
+    const n = Math.min(word.term.length, helped + 1);
+    setHelped(n);
+    setTyped(word.term.slice(0, n));
   };
   const listen = q.kind === "listen-choose" || q.kind === "listen-type";
-  const optionLabel = (w: GameWord) => (q.kind === "choose-meaning" ? <span className="text-stone-800">{w.meaning}</span> : <Term lang={lang} word={w} />);
+  const optionLabel = (w: GameWord) => (q.kind === "choose-meaning" ? <span>{w.meaning}</span> : <Term lang={lang} word={w} />);
+  const slotCount = word.term.replace(/[\s-]/g, "").length;
+  const ready = q.kind === "scramble" ? built.length === letters.length : !!typed.trim();
+
+  const footer = feedback ? (
+    <QuizButton buttonRef={nextRef} state={feedback.ok ? "ok" : "bad"} onClick={onNext}>Tiếp theo</QuizButton>
+  ) : typing || q.kind === "scramble" ? (
+    <QuizButton state={ready ? "idle" : "disabled"} onClick={submit}>Kiểm tra</QuizButton>
+  ) : (
+    <QuizButton state="disabled">Tiếp theo</QuizButton>
+  );
+  const speakers = (
+    <div className="mt-5 flex gap-3">
+      <button type="button" onClick={() => speak(word.term)} className="grid h-14 min-w-14 place-items-center rounded-full bg-sky-500/15 px-5 text-lg font-bold text-sky-300 ring-1 ring-sky-500/40 hover:bg-sky-500/25">🔊 Nghe</button>
+      <button type="button" onClick={() => speak(word.term, true)} className="grid h-14 min-w-14 place-items-center rounded-full bg-sky-500/15 px-5 text-lg font-bold text-sky-300 ring-1 ring-sky-500/40 hover:bg-sky-500/25">🐢 Chậm</button>
+    </div>
+  );
 
   return (
-    <div className="space-y-4">
-      <p className="text-sm text-stone-500">
-        Còn {remaining} từ trong lượt · {q.review ? "ôn từ đã thuộc" : `bậc ${LEVEL_NAMES[q.level]}`}
-      </p>
-      <div className="rounded-3xl border border-stone-200 bg-white p-6 text-center shadow-sm">
-        <p className="text-sm font-medium text-stone-500">{PROMPTS[q.kind]}</p>
-        <div className="mt-3 flex min-h-24 flex-col items-center justify-center gap-2">
-          {q.kind === "choose-term" || q.kind === "type-term" ? <p className="text-2xl font-semibold text-stone-800">{word.meaning}</p> : null}
+    <QuizShell {...shell} tag={q.review ? "Đã đến lúc để ôn lại" : undefined} title={PROMPTS[q.kind]} footer={footer}>
+      <div className="space-y-5">
+        <div>
+          {(q.kind === "choose-term" || q.kind === "type-term" || q.kind === "scramble") && <p className="text-2xl font-semibold text-neutral-200">{word.meaning}</p>}
           {q.kind === "choose-meaning" && (
             <>
               <Term lang={lang} word={word} big />
-              {word.reading && <span className="font-mono text-stone-500">{word.reading}</span>}
+              {word.reading && <p className="mt-1 font-mono text-lg text-neutral-400">{word.reading}</p>}
             </>
           )}
-          {q.kind === "definition" && <p lang="en" className="text-xl italic text-stone-800">“{word.definitionEn}”</p>}
-          {q.kind === "type-term" && (
-            <p className="font-mono text-stone-500">{word.term[0]}{word.term.slice(1).replace(/[^\s-]/g, "_")} ({word.term.replace(/[\s-]/g, "").length} chữ cái)</p>
-          )}
-          {(listen || q.kind === "choose-meaning") && (
-            <div className="flex gap-2">
-              <button type="button" onClick={() => speak(word.term)} className="rounded-full bg-sky-50 px-4 py-2 text-sky-800 ring-1 ring-inset ring-sky-200 hover:bg-sky-100">🔊 Nghe</button>
-              <button type="button" onClick={() => speak(word.term, true)} className="rounded-full bg-sky-50 px-4 py-2 text-sky-800 ring-1 ring-inset ring-sky-200 hover:bg-sky-100">🐢 Chậm</button>
+          {q.kind === "definition" && <p lang="en" className="text-2xl italic text-neutral-200">“{word.definitionEn}”</p>}
+          {q.kind === "true-false" && q.shown && (
+            <div className="rounded-3xl bg-neutral-900 p-5 text-center">
+              <Term lang={lang} word={word} big />
+              {word.reading && <p className="mt-1 font-mono text-lg text-neutral-400">{word.reading}</p>}
+              <p className="my-3 text-3xl text-neutral-600" aria-hidden>=</p>
+              <p className="text-2xl font-semibold text-neutral-100">{q.shown.meaning}</p>
             </div>
           )}
+          {(q.kind === "cloze" || q.kind === "cloze-type") && <ClozeSentence word={word} lang={lang} reveal={!!feedback} />}
+          {(listen || q.kind === "choose-meaning") && speakers}
         </div>
 
+        {q.kind === "true-false" && (
+          <div className="grid grid-cols-2 gap-3">
+            <QuizTile outline state={feedback ? ((q.shown?.id === word.id) ? "right" : picked === "yes" ? "wrong" : "dim") : "idle"} disabled={!!feedback} onClick={() => answerTf(true)}>
+              <span className="flex items-center gap-2"><span className="grid size-8 place-items-center rounded-full bg-emerald-500 text-white">✓</span> Đúng</span>
+            </QuizTile>
+            <QuizTile outline state={feedback ? ((q.shown?.id !== word.id) ? "right" : picked === "no" ? "wrong" : "dim") : "idle"} disabled={!!feedback} onClick={() => answerTf(false)}>
+              <span className="flex items-center gap-2"><span className="grid size-8 place-items-center rounded-full bg-red-100 text-red-600">✕</span> Sai</span>
+            </QuizTile>
+          </div>
+        )}
+
         {q.options.length > 0 && (
-          <div className="mt-5 grid gap-2 sm:grid-cols-2">
+          <div className={`grid gap-3 ${q.kind === "choose-meaning" ? "grid-cols-1" : "grid-cols-2"}`}>
             {q.options.map((o) => {
-              const state = feedback ? (o.id === word.id ? "ring-jade-500 bg-jade-50" : o.id === picked ? "ring-red-400 bg-red-50" : "ring-stone-200 opacity-60") : "ring-stone-300 hover:bg-stone-50";
+              const state = feedback ? (o.id === word.id ? "right" : o.id === picked ? "wrong" : "dim") : "idle";
               return (
-                <button key={o.id} type="button" disabled={!!feedback} onClick={() => choose(o)} className={`min-h-14 rounded-2xl bg-white px-4 py-3 ring-1 ring-inset ${state}`}>
+                <QuizTile key={o.id} state={state} outline={q.kind === "choose-meaning"} disabled={!!feedback} onClick={() => choose(o)}>
                   {optionLabel(o)}
-                </button>
+                </QuizTile>
               );
             })}
           </div>
         )}
 
-        {(q.kind === "listen-type" || q.kind === "type-term") && (
+        {q.kind === "scramble" && (
+          <div className="space-y-4">
+            <p className="flex min-h-16 flex-wrap justify-center gap-2 rounded-3xl bg-neutral-900 p-3" aria-label="Từ đang xếp">
+              {letters.map((_, slot) => {
+                const idx = built[slot];
+                return (
+                  <button
+                    key={slot}
+                    type="button"
+                    disabled={!!feedback || idx === undefined}
+                    onClick={() => setBuilt((b) => b.slice(0, slot))}
+                    className="grid size-12 place-items-center rounded-xl border-b-4 border-neutral-600 bg-neutral-800 text-2xl font-bold uppercase text-white"
+                  >
+                    {idx === undefined ? "" : letters[idx]}
+                  </button>
+                );
+              })}
+            </p>
+            <div className="flex flex-wrap justify-center gap-2">
+              {letters.map((ch, i) => (
+                <button
+                  key={i}
+                  type="button"
+                  disabled={!!feedback || built.includes(i)}
+                  onClick={() => setBuilt((b) => [...b, i])}
+                  className="grid size-14 place-items-center rounded-2xl bg-sky-500 text-3xl font-extrabold uppercase text-white transition active:scale-95 disabled:bg-neutral-900 disabled:text-neutral-700"
+                >
+                  {ch}
+                </button>
+              ))}
+            </div>
+            {!feedback && built.length > 0 && (
+              <div className="flex justify-center">
+                <button type="button" onClick={() => setBuilt((b) => b.slice(0, -1))} className="h-12 rounded-full bg-neutral-900 px-8 text-lg font-bold text-sky-400 hover:bg-neutral-800">⌫ Xóa chữ cuối</button>
+              </div>
+            )}
+          </div>
+        )}
+
+        {typing && (
           <form
-            className="mx-auto mt-5 flex max-w-md gap-2"
+            className="space-y-4"
             onSubmit={(e) => {
               e.preventDefault();
               submit();
             }}
           >
+            {q.kind !== "cloze-type" && (
+              <p className="flex flex-wrap justify-center gap-x-1 font-mono text-3xl tracking-widest text-neutral-300" aria-hidden>
+                {[...word.term].map((ch, i) =>
+                  /[\s-]/.test(ch) ? <span key={i} className="w-4" /> : <span key={i} className="border-b-2 border-neutral-600 px-1 text-white">{typed[i] ?? " "}</span>,
+                )}
+              </p>
+            )}
             <input
               autoFocus
-              lang="en"
+              lang={lang === "zh" ? "zh-CN" : "en"}
+              aria-label="Gõ từ"
               value={typed}
               onChange={(e) => setTyped(e.target.value)}
               disabled={!!feedback}
               autoComplete="off"
               autoCapitalize="off"
               spellCheck={false}
-              className="min-w-0 flex-1 rounded-xl px-4 py-3 text-lg ring-1 ring-inset ring-stone-300 focus:outline-none focus:ring-2 focus:ring-sky-500"
-              placeholder="Gõ từ…"
+              inputMode={lang === "en" ? "none" : undefined}
+              placeholder={`Gõ từ (${slotCount} ${lang === "zh" ? "chữ" : "chữ cái"})…`}
+              className="h-14 w-full rounded-2xl bg-neutral-900 px-4 text-center text-xl text-white ring-1 ring-neutral-700 placeholder:text-neutral-600 focus:outline-none focus:ring-2 focus:ring-sky-400"
             />
-            <button type="submit" disabled={!!feedback} className={`${btn} bg-sky-700 text-white hover:bg-sky-800 disabled:opacity-50`}>Kiểm tra</button>
+            {!feedback && (
+              <div className="flex justify-center">
+                <button type="button" onClick={hint} className="h-14 rounded-full bg-neutral-900 px-10 text-xl font-bold text-sky-400 hover:bg-neutral-800">Trợ giúp</button>
+              </div>
+            )}
+            {lang === "en" && !feedback && (
+              <QuizKeyboard answer={word.term} onKey={(k) => setTyped((t) => t + k)} onBackspace={() => setTyped((t) => t.slice(0, -1))} />
+            )}
           </form>
         )}
 
         {feedback && (
-          <div className={`mt-5 rounded-2xl p-4 text-left ${feedback.ok ? "bg-jade-50" : "bg-red-50"}`}>
-            <p className={`font-semibold ${feedback.ok ? "text-jade-800" : "text-red-800"}`}>{feedback.ok ? "Đúng rồi!" : "Chưa đúng — đáp án:"}</p>
-            <p className="mt-1">
-              <Term lang={lang} word={word} /> {word.reading && <span className="ml-2 font-mono text-stone-500">{word.reading}</span>}
+          <FeedbackPanel ok={feedback.ok}>
+            <p>
+              <Term lang={lang} word={word} /> {word.reading && <span className="ml-2 font-mono text-neutral-400">{word.reading}</span>}
             </p>
-            <p className="text-stone-700">{word.meaning}</p>
-            {!feedback.ok && <p className="mt-1 text-xs text-stone-500">Từ này sẽ quay lại sau vài câu.</p>}
-            <button ref={nextRef} type="button" onClick={onNext} className={`${btn} mt-3 bg-stone-900 text-sm text-white hover:bg-stone-700`}>Tiếp →</button>
-          </div>
+            <p className="text-neutral-300">{word.meaning}</p>
+            {!feedback.ok && <p className="mt-1 text-sm text-neutral-500">Từ này sẽ quay lại sau vài câu.</p>}
+          </FeedbackPanel>
         )}
       </div>
-    </div>
+    </QuizShell>
   );
 }
 
-/** Nối từ: pick a word on the left, then its meaning on the right. First try right = a correct answer. */
-function MatchRound({ lang, words, onPair, onDone }: { lang: "en" | "zh"; words: GameWord[]; onPair: (id: string, ok: boolean) => void; onDone: () => void }) {
+/** Ghép từ tương ứng: pick a word on the left, then its meaning on the right. First try right = a correct answer. */
+function MatchRound({ lang, shell, words, onPair, onDone }: { lang: "en" | "zh"; shell: ShellProps; words: GameWord[]; onPair: (id: string, ok: boolean) => void; onDone: () => void }) {
   const [right] = useState(() => shuffle(words, rng));
   const [left] = useState(() => shuffle(words, rng));
   const [sel, setSel] = useState<string | null>(null);
@@ -434,46 +588,33 @@ function MatchRound({ lang, words, onPair, onDone }: { lang: "en" | "zh"; words:
       const next = new Set(done).add(sel);
       setDone(next);
       setSel(null);
-      if (next.size === words.length) setTimeout(onDone, 600);
+      if (next.size === words.length) setTimeout(onDone, 700);
     } else {
       if (!missed.has(sel)) setMissed(new Set(missed).add(sel));
       setFlash(id);
       setTimeout(() => setFlash(null), 500);
     }
   };
-  const cell = "w-full rounded-2xl bg-white px-3 py-3 ring-1 ring-inset text-left";
 
   return (
-    <div className="space-y-3">
-      <p className="text-sm text-stone-500">Nối từ với nghĩa: bấm một từ bên trái, rồi bấm nghĩa của nó bên phải.</p>
+    <QuizShell {...shell} title="Ghép từ tương ứng" footer={<QuizButton state={done.size === words.length ? "ok" : "disabled"} onClick={onDone}>Tiếp theo</QuizButton>}>
+      <p className="mb-4 text-neutral-400">Chạm một từ bên trái, rồi chạm nghĩa của nó bên phải.</p>
       <div className="grid grid-cols-2 gap-3">
-        <div className="space-y-2">
+        <div className="space-y-3">
           {left.map((w) => (
-            <button
-              key={w.id}
-              type="button"
-              disabled={done.has(w.id)}
-              onClick={() => setSel(w.id)}
-              className={`${cell} ${done.has(w.id) ? "bg-jade-50 ring-jade-400 opacity-60" : sel === w.id ? "ring-2 ring-sky-500" : "ring-stone-300 hover:bg-stone-50"}`}
-            >
+            <QuizTile key={w.id} state={done.has(w.id) ? "done" : sel === w.id ? "selected" : "idle"} disabled={done.has(w.id)} onClick={() => setSel(w.id)}>
               <Term lang={lang} word={w} />
-            </button>
+            </QuizTile>
           ))}
         </div>
-        <div className="space-y-2">
+        <div className="space-y-3">
           {right.map((w) => (
-            <button
-              key={w.id}
-              type="button"
-              disabled={done.has(w.id)}
-              onClick={() => pick(w.id)}
-              className={`${cell} text-sm ${done.has(w.id) ? "bg-jade-50 ring-jade-400 opacity-60" : flash === w.id ? "bg-red-50 ring-red-400" : "ring-stone-300 hover:bg-stone-50"}`}
-            >
-              {w.meaning}
-            </button>
+            <QuizTile key={w.id} state={done.has(w.id) ? "done" : flash === w.id ? "wrong" : "idle"} disabled={done.has(w.id)} onClick={() => pick(w.id)}>
+              <span className="text-base">{w.meaning}</span>
+            </QuizTile>
           ))}
         </div>
       </div>
-    </div>
+    </QuizShell>
   );
 }

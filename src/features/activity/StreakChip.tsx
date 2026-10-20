@@ -11,7 +11,7 @@ export function StreakChip() {
   const pct = Math.min(100, Math.round((xp / activity.goal) * 100));
   const label = !hydrated
     ? "Chuỗi ngày học"
-    : `Chuỗi ${streak.current} ngày · hôm nay ${xp}/${activity.goal} XP${streak.todayDone ? " (đã đạt mục tiêu)" : ""}`;
+    : `Chuỗi ${streak.current} ngày · hôm nay ${xp}/${activity.goal} XP${streak.goalDone ? " (đã đạt mục tiêu)" : ""} · tổng ${streak.totalDays} ngày đã học`;
   return (
     <Link
       href="/hom-nay"

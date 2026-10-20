@@ -20,6 +20,7 @@ import {
   type GameWord,
 } from "@/domain/word-game";
 import { earnXp } from "@/features/activity/store";
+import { QuizButton, QuizShell, QuizTile } from "@/features/quiz/QuizShell";
 import { playRight, playWin, playWrong, setSoundOn, soundOn } from "./feedback";
 
 type Q = { word: GameWord; options: GameWord[]; mode: "term" | "meaning" };
@@ -43,9 +44,9 @@ const saveBest = (lang: string, n: number) => {
 
 function Term({ lang, w, big }: { lang: "en" | "zh"; w: GameWord; big?: boolean }) {
   return lang === "zh" ? (
-    <span lang="zh-CN" className={`font-han ${big ? "text-6xl" : "text-3xl"} text-stone-900`}>{w.term}</span>
+    <span lang="zh-CN" className={`font-han ${big ? "text-6xl" : "text-3xl"} text-white`}>{w.term}</span>
   ) : (
-    <span lang="en" className={`${big ? "text-4xl" : "text-xl"} font-bold text-stone-900`}>{w.term}</span>
+    <span lang="en" className={`${big ? "text-4xl" : "text-xl"} font-bold text-white`}>{w.term}</span>
   );
 }
 
@@ -159,101 +160,106 @@ export function Blitz({
 
   const mult = blitzMultiplier(combo);
   const pct = Math.max(0, Math.min(100, (left / BLITZ_SECONDS) * 100));
+
   if (phase === "ready") {
     return (
-      <div className="rounded-2xl border border-orange-200 bg-gradient-to-br from-orange-50 to-amber-50 p-6 text-center shadow-sm">
-        <p className="text-4xl" aria-hidden>⚡</p>
-        <h2 className="mt-1 text-2xl font-extrabold text-stone-900">Đua {BLITZ_SECONDS} giây</h2>
-        <p className="mx-auto mt-2 max-w-md text-sm text-stone-700">
+      <QuizShell
+        progress={0}
+        onExit={onExit}
+        title={`⚡ Đua ${BLITZ_SECONDS} giây`}
+        footer={<QuizButton onClick={start}>Bắt đầu!</QuizButton>}
+      >
+        <p className="text-lg text-neutral-300">
           Trả lời càng nhanh càng tốt. Đúng 3 câu liên tiếp thì điểm nhân thêm (tối đa x5). Sai bị trừ {BLITZ_PENALTY} giây và mất combo.
         </p>
-        <p className="mt-2 text-sm text-stone-600">Kỷ lục của bạn: <strong>{best}</strong> điểm</p>
-        <div className="mt-4 flex flex-wrap justify-center gap-2">
-          <button type="button" onClick={start} className="rounded-xl bg-orange-600 px-8 py-3 text-lg font-bold text-white hover:bg-orange-700">Bắt đầu!</button>
-          <button type="button" onClick={onExit} className="rounded-xl px-5 py-3 font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-white">Quay lại</button>
-        </div>
-        <label className="mt-3 flex items-center justify-center gap-2 text-xs text-stone-600">
-          <input type="checkbox" checked={sound} onChange={(e) => { setSound(e.target.checked); setSoundOn(e.target.checked); }} /> Âm thanh và rung
+        <p className="mt-4 text-neutral-400">Kỷ lục của bạn: <strong className="text-amber-300">{best}</strong> điểm</p>
+        <label className="mt-6 flex items-center gap-3 text-neutral-300">
+          <input type="checkbox" className="size-5" checked={sound} onChange={(e) => { setSound(e.target.checked); setSoundOn(e.target.checked); }} /> Âm thanh và rung
         </label>
-      </div>
+      </QuizShell>
     );
   }
 
   if (phase === "over") {
     const isBest = score > 0 && score >= best;
     return (
-      <div className="space-y-4 rounded-2xl border border-stone-200 bg-white p-6 text-center shadow-sm">
-        <p className="text-sm font-semibold uppercase tracking-widest text-stone-500">Hết giờ!</p>
-        <p className="text-6xl font-extrabold text-orange-600">{score}</p>
-        <p className="text-stone-700">
-          Đúng <strong>{correct}</strong> từ · combo cao nhất <strong>x{blitzMultiplier(bestCombo)}</strong> ({bestCombo} liền) · +{blitzXp(correct)} XP
-        </p>
-        {isBest && score > 0 && <p className="font-bold text-jade-700">🏆 Kỷ lục mới!</p>}
+      <QuizShell
+        progress={1}
+        onExit={onExit}
+        title="Hết giờ!"
+        footer={
+          <div className="flex w-full flex-col gap-1">
+            <QuizButton onClick={start}>Chơi lại</QuizButton>
+            <button type="button" onClick={onExit} className="h-10 text-lg font-bold text-neutral-500 hover:text-neutral-300">Xong</button>
+          </div>
+        }
+      >
+        <div className="text-center">
+          <p className="text-7xl font-extrabold text-amber-300">{score}</p>
+          <p className="mt-3 text-lg text-neutral-300">
+            Đúng <strong className="text-emerald-400">{correct}</strong> từ · combo cao nhất <strong className="text-amber-300">x{blitzMultiplier(bestCombo)}</strong> ({bestCombo} liền) · +{blitzXp(correct)} XP
+          </p>
+          {isBest && score > 0 && <p className="mt-3 text-xl font-extrabold text-emerald-400">🏆 Kỷ lục mới!</p>}
+        </div>
         {misses.length > 0 && (
-          <div className="mx-auto max-w-md rounded-xl bg-red-50 p-3 text-left">
-            <p className="text-sm font-semibold text-red-800">Từ cần ôn lại ({misses.length}) — đã tính vào “Từ khó”:</p>
-            <ul className="mt-1 space-y-1 text-sm">
+          <div className="mt-6 rounded-3xl bg-red-950 p-4">
+            <p className="font-bold text-red-300">Từ cần ôn lại ({misses.length}) — đã tính vào “Từ khó”:</p>
+            <ul className="mt-2 space-y-2 text-lg">
               {misses.map(({ word }) => (
-                <li key={word.id} className="flex items-center gap-2">
-                  <button type="button" onClick={() => speak(word.term)} aria-label={`Nghe ${word.term}`} className="rounded-full px-1.5 hover:bg-white">🔊</button>
-                  <span lang={lang === "zh" ? "zh-CN" : "en"} className="font-semibold">{word.term}</span>
-                  {word.reading && <span className="font-mono text-stone-500">{word.reading}</span>}
-                  <span className="text-stone-700">— {word.meaning}</span>
+                <li key={word.id} className="flex flex-wrap items-center gap-2">
+                  <button type="button" onClick={() => speak(word.term)} aria-label={`Nghe ${word.term}`} className="rounded-full px-1.5 hover:bg-black/30">🔊</button>
+                  <span lang={lang === "zh" ? "zh-CN" : "en"} className="font-bold text-white">{word.term}</span>
+                  {word.reading && <span className="font-mono text-neutral-400">{word.reading}</span>}
+                  <span className="text-neutral-300">— {word.meaning}</span>
                 </li>
               ))}
             </ul>
           </div>
         )}
-        <div className="flex flex-wrap justify-center gap-2">
-          <button type="button" onClick={start} className="rounded-xl bg-orange-600 px-6 py-3 font-bold text-white hover:bg-orange-700">Chơi lại</button>
-          <button type="button" onClick={onExit} className="rounded-xl px-5 py-3 font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-stone-50">Xong</button>
-        </div>
-      </div>
+      </QuizShell>
     );
   }
 
   return (
-    <div className="space-y-3">
-      <div className="flex items-center justify-between text-sm font-semibold">
-        <span className="text-stone-700">Điểm <span className="text-xl text-orange-600">{score}</span></span>
-        <span className={`rounded-full px-3 py-0.5 ${mult > 1 ? "bg-orange-100 text-orange-700" : "bg-stone-100 text-stone-600"}`}>Combo {combo} · x{mult}</span>
-        <span className={penalty ? "text-red-600" : "text-stone-700"}>{penalty ? `−${BLITZ_PENALTY}s ` : ""}{Math.ceil(left)}s</span>
-      </div>
-      <div className="h-2.5 overflow-hidden rounded-full bg-stone-200" role="progressbar" aria-valuenow={Math.ceil(left)} aria-valuemax={BLITZ_SECONDS} aria-label="Thời gian còn lại">
-        <div className={`h-full rounded-full transition-[width] duration-100 ${left < 10 ? "bg-red-500" : "bg-orange-500"}`} style={{ width: `${pct}%` }} />
-      </div>
+    <QuizShell
+      progress={pct / 100}
+      badge={correct}
+      onExit={onExit}
+      top={
+        <div className="flex items-center justify-between text-lg font-bold">
+          <span>Điểm <span className="text-2xl text-amber-300">{score}</span></span>
+          <span className={`rounded-full px-3 py-0.5 text-base ${mult > 1 ? "bg-amber-400 text-black" : "bg-neutral-800 text-neutral-300"}`}>Combo {combo} · x{mult}</span>
+          <span className={penalty ? "text-red-400" : "text-neutral-200"}>{penalty ? `−${BLITZ_PENALTY}s ` : ""}{Math.ceil(left)}s</span>
+        </div>
+      }
+      title={q ? (q.mode === "term" ? "Chọn từ đúng với nghĩa" : "Chọn nghĩa đúng") : undefined}
+      footer={<QuizButton state="disabled">Tiếp theo</QuizButton>}
+    >
       {q && (
-        <div className="rounded-3xl border border-stone-200 bg-white p-5 text-center shadow-sm">
-          <p className="text-xs font-medium text-stone-500">{q.mode === "term" ? "Chọn từ đúng với nghĩa" : "Chọn nghĩa đúng"}</p>
-          <div className="mt-2 flex min-h-20 flex-col items-center justify-center gap-1">
+        <div className="space-y-5">
+          <div className="min-h-20">
             {q.mode === "term" ? (
-              <p className="text-2xl font-semibold text-stone-800">{q.word.meaning}</p>
+              <p className="text-2xl font-semibold text-neutral-200">{q.word.meaning}</p>
             ) : (
               <>
                 <Term lang={lang} w={q.word} big />
-                {q.word.reading && <span className="font-mono text-stone-500">{q.word.reading}</span>}
+                {q.word.reading && <p className="mt-1 font-mono text-lg text-neutral-400">{q.word.reading}</p>}
               </>
             )}
           </div>
-          <div className="mt-4 grid gap-2 sm:grid-cols-2">
+          <div className={`grid gap-3 ${q.mode === "term" ? "grid-cols-2" : "grid-cols-1"}`}>
             {q.options.map((o) => {
-              const state = picked
-                ? o.id === q.word.id
-                  ? "bg-jade-50 ring-jade-500"
-                  : o.id === picked.id
-                    ? "bg-red-50 ring-red-400"
-                    : "opacity-50 ring-stone-200"
-                : "ring-stone-300 hover:bg-stone-50 active:bg-stone-100";
+              const state = picked ? (o.id === q.word.id ? "right" : o.id === picked.id ? "wrong" : "dim") : "idle";
               return (
-                <button key={o.id} type="button" disabled={!!picked} onClick={() => choose(o)} className={`min-h-14 rounded-2xl bg-white px-4 py-3 text-left ring-1 ring-inset ${state}`}>
-                  {q.mode === "term" ? <Term lang={lang} w={o} /> : <span className="text-stone-800">{o.meaning}</span>}
-                </button>
+                <QuizTile key={o.id} state={state} outline={q.mode !== "term"} disabled={!!picked} onClick={() => choose(o)}>
+                  {q.mode === "term" ? <Term lang={lang} w={o} /> : <span>{o.meaning}</span>}
+                </QuizTile>
               );
             })}
           </div>
+          <p className="text-center text-sm text-neutral-500">Trả lời sai sẽ được ghi vào Từ khó để ôn lại.</p>
         </div>
       )}
-      <p className="text-center text-xs text-stone-400">Trả lời sai sẽ được ghi vào Từ khó để ôn lại.</p>
-    </div>
+    </QuizShell>
   );
 }

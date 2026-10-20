@@ -1,0 +1,138 @@
+# Sự thật: số liệu trong báo cáo thí nghiệm bị sửa. Oscar nói không mở file dữ liệu từ thứ Hai; nhật ký phòng thí nghiệm: file mở tối thứ Tư 10 giờ
+# từ Bàn 4; Ines thấy Oscar làm việc ở Bàn 4 tối thứ Tư và anh dặn cô đừng nói với Tiến sĩ Fenn. Hung thủ: Oscar.
+id: b2-altered-report
+level: B2
+lesson_range: [54, 64]
+status: draft
+title_vi: Số liệu bị sửa
+cover: "🔬"
+premise_vi: >-
+  Sắp gửi bài báo khoa học thì Tiến sĩ Fenn phát hiện một nhóm số liệu quan trọng đã bị sửa so với bản gốc.
+  Bốn thành viên của nhóm nghiên cứu được hỏi. Ai đã sửa số liệu?
+
+clues:
+  - id: access-log
+    witness: lara
+    text_en: "The data file was opened on Wednesday at 10 pm from Bench 4."
+    text_vi: "File dữ liệu được mở vào tối thứ Tư lúc 10 giờ từ Bàn 4."
+  - id: ines-saw
+    witness: ines
+    text_en: "Ines saw Oscar working at Bench 4 on Wednesday evening."
+    text_vi: "Ines thấy Oscar làm việc ở Bàn 4 vào tối thứ Tư."
+  - id: oscar-monday
+    witness: oscar
+    text_en: "Oscar says he has not opened the data since Monday."
+    text_vi: "Oscar nói anh chưa mở dữ liệu kể từ thứ Hai."
+  - id: fenn-deadline
+    witness: fenn
+    text_en: "The paper had to be sent to the journal by Friday."
+    text_vi: "Bài báo phải được gửi cho tạp chí trước thứ Sáu."
+
+witnesses:
+  - id: fenn
+    name: Dr Fenn
+    role_en: The research supervisor
+    avatar: "🧑‍🔬"
+    segments:
+      - text_en: "Our paper had to be sent to the journal by Friday. On Thursday morning I compared the final figures with the original ones."
+        vi: "Bài báo của chúng tôi phải gửi cho tạp chí trước thứ Sáu. Sáng thứ Năm tôi so sánh số liệu cuối cùng với số liệu gốc."
+        clues: [fenn-deadline]
+        focus: ["had to be sent", "compared"]
+      - text_en: "Three values in the results table had been changed. The new values made our results look stronger than they really were."
+        vi: "Ba giá trị trong bảng kết quả đã bị thay đổi. Giá trị mới khiến kết quả của chúng tôi trông mạnh hơn thực tế."
+        focus: ["had been changed", "look stronger"]
+      - text_en: "If this had been sent to the journal, we would have faced serious consequences. Fortunately we noticed it in time."
+        vi: "Nếu nó đã được gửi cho tạp chí, chúng tôi sẽ phải đối mặt với hậu quả nghiêm trọng. May mắn là chúng tôi phát hiện kịp thời."
+        focus: ["had been sent", "would have faced"]
+    checks:
+      - claim_vi: "Bài báo phải được gửi trước thứ Sáu."
+        answer: true
+        explain_vi: "Đúng: “had to be sent to the journal by Friday.”"
+      - claim_vi: "Các giá trị mới làm kết quả trông yếu hơn."
+        answer: false
+        explain_vi: "Sai: chúng làm kết quả trông mạnh hơn."
+      - claim_vi: "Bài báo đã được gửi đi trước khi phát hiện lỗi."
+        answer: false
+        explain_vi: "Sai: họ phát hiện kịp thời."
+  - id: lara
+    name: Lara
+    role_en: The lab technician
+    avatar: "🧪"
+    segments:
+      - text_en: "Every computer in the lab records who opens a file and when. I looked at the access log for the data file."
+        vi: "Mọi máy tính trong phòng thí nghiệm đều ghi lại ai mở file và vào lúc nào. Tôi đã xem nhật ký truy cập của file dữ liệu."
+        focus: ["records", "access log"]
+      - text_en: "It shows that the file was opened on Wednesday at 10 pm from Bench 4, and that it was saved again forty minutes later."
+        vi: "Nó cho thấy file được mở vào tối thứ Tư lúc 10 giờ từ Bàn 4 và được lưu lại bốn mươi phút sau đó."
+        clues: [access-log]
+        focus: ["was opened", "saved again"]
+      - text_en: "Unfortunately, Bench 4 is a shared computer, and the log doesn't say which user was logged in. That's why I can't name anyone."
+        vi: "Đáng tiếc, Bàn 4 là máy dùng chung và nhật ký không ghi người dùng nào đã đăng nhập. Vì vậy tôi không thể nêu tên ai."
+        focus: ["Unfortunately", "That's why"]
+    checks:
+      - claim_vi: "File dữ liệu được mở vào tối thứ Tư."
+        answer: true
+        explain_vi: "Đúng: “opened on Wednesday at 10 pm.”"
+      - claim_vi: "Nhật ký ghi rõ tên người dùng."
+        answer: false
+        explain_vi: "Sai: nhật ký không ghi người dùng nào đăng nhập."
+      - claim_vi: "File được lưu lại bốn mươi phút sau khi mở."
+        answer: true
+        explain_vi: "Đúng: “saved again forty minutes later.”"
+  - id: ines
+    name: Ines
+    role_en: A postdoctoral researcher
+    avatar: "📈"
+    segments:
+      - text_en: "On Wednesday I stayed in the lab until eleven because my cells needed to be checked. I was working at the far end of the room."
+        vi: "Thứ Tư tôi ở lại phòng thí nghiệm đến mười một giờ vì phải kiểm tra các tế bào. Tôi làm việc ở cuối phòng."
+        focus: ["needed to be checked", "far end"]
+      - text_en: "Around ten o'clock I noticed Oscar at Bench 4, typing quickly. When I walked past, he closed the window on the screen."
+        vi: "Khoảng mười giờ tôi thấy Oscar ở Bàn 4, đang gõ rất nhanh. Khi tôi đi ngang, anh ấy đóng cửa sổ trên màn hình lại."
+        clues: [ines-saw]
+        focus: ["noticed", "closed the window"]
+      - text_en: "He asked me not to mention it to Dr Fenn, and said he was only checking his own figures. I didn't think much of it until today."
+        vi: "Anh ấy nhờ tôi đừng nhắc với Tiến sĩ Fenn và nói chỉ đang kiểm tra số liệu của mình. Tôi không nghĩ nhiều cho đến hôm nay."
+        focus: ["asked me not to", "didn't think much of it"]
+    checks:
+      - claim_vi: "Ines ở lại phòng thí nghiệm đến mười một giờ."
+        answer: true
+        explain_vi: "Đúng: “I stayed in the lab until eleven.”"
+      - claim_vi: "Oscar để cửa sổ màn hình mở khi Ines đi qua."
+        answer: false
+        explain_vi: "Sai: “he closed the window on the screen.”"
+      - claim_vi: "Oscar nhờ Ines đừng nhắc với Tiến sĩ Fenn."
+        answer: true
+        explain_vi: "Đúng: “He asked me not to mention it to Dr Fenn.”"
+  - id: oscar
+    name: Oscar
+    role_en: A PhD student
+    avatar: "🎧"
+    segments:
+      - text_en: "I haven't opened the main data file since Monday. After that I only used the copies that Lara had prepared for us."
+        vi: "Tôi chưa mở file dữ liệu chính kể từ thứ Hai. Sau đó tôi chỉ dùng các bản sao mà Lara đã chuẩn bị cho chúng tôi."
+        clues: [oscar-monday]
+        focus: ["haven't opened", "had prepared"]
+      - text_en: "On Wednesday evening I was at home, revising for my own exam. I didn't come to the lab after six."
+        vi: "Tối thứ Tư tôi ở nhà ôn bài cho kỳ thi của mình. Tôi không đến phòng thí nghiệm sau sáu giờ."
+      - text_en: "Our results were already good. I would never have taken such a risk."
+        vi: "Kết quả của chúng ta vốn đã tốt. Tôi sẽ không bao giờ liều lĩnh như vậy."
+        focus: ["would never have taken", "risk"]
+    checks:
+      - claim_vi: "Oscar nói anh vẫn mở file dữ liệu chính hằng ngày."
+        answer: false
+        explain_vi: "Sai: “I haven't opened the main data file since Monday.”"
+      - claim_vi: "Oscar nói anh ở nhà vào tối thứ Tư."
+        answer: true
+        explain_vi: "Đúng: “On Wednesday evening I was at home.”"
+      - claim_vi: "Oscar nói anh đến phòng thí nghiệm sau sáu giờ."
+        answer: false
+        explain_vi: "Sai: “I didn't come to the lab after six.”"
+solution:
+  culprit: oscar
+  evidence: [access-log, ines-saw]
+  explain_vi: >-
+    Oscar nói anh ở nhà tối thứ Tư và chưa mở dữ liệu từ thứ Hai. Nhưng nhật ký cho thấy file được mở lúc 10 giờ tối thứ Tư
+    từ Bàn 4, và Ines thấy anh làm việc ở chính chiếc bàn đó, rồi nhờ cô giữ kín.
+  confession_en: "I changed the values because I was afraid we would lose the funding. I told myself I'd correct them later, but I never did. I should have talked to Dr Fenn instead."
+  confession_vi: "Tôi sửa các giá trị vì sợ nhóm sẽ mất kinh phí. Tôi tự nhủ sẽ sửa lại sau nhưng không làm. Lẽ ra tôi nên nói chuyện với Tiến sĩ Fenn."

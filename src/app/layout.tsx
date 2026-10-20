@@ -21,7 +21,11 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
+      <head>
+        {/* apply the saved theme before the first paint (no flash of the light page) */}
+        <script dangerouslySetInnerHTML={{ __html: `try{var t=localStorage.getItem("learn-app:theme");if(t==="dark")document.documentElement.dataset.theme="dark"}catch(e){}` }} />
+      </head>
       <body className="min-h-dvh font-sans antialiased">
         <RegisterSW />
         <SiteHeader />

@@ -21,6 +21,8 @@ export interface GameWord {
   definitionEn: string | null;
   lesson: number;
   pos?: string;
+  /** a sentence that contains the term, for the fill-in-the-blank games */
+  example?: { text: string; vi: string | null };
 }
 
 export interface Mastery {
@@ -51,7 +53,7 @@ export const RETRY_GAP = 3;
 export const NEW_PER_SESSION = 10;
 export const MAX_QUESTIONS = 60;
 
-export type Kind = "choose-term" | "choose-meaning" | "listen-choose" | "listen-type" | "type-term" | "definition";
+export type Kind = "choose-term" | "choose-meaning" | "listen-choose" | "listen-type" | "type-term" | "definition" | "true-false" | "scramble" | "cloze" | "cloze-type";
 
 export const LEVEL_NAMES = ["Nhận ra", "Nghe ra", "Nhớ lại", "Đã thuộc"] as const;
 
@@ -60,13 +62,49 @@ export const isHard = (m: Mastery | undefined) => !!m && !isPassed(m) && m.wrong
 
 const day = (now: Date) => now.toISOString().slice(0, 10);
 
+/** The example sentence split around the term (case-insensitive, whole word for English); null when it does not fit. */
+export function clozeParts(word: GameWord, lang: "en" | "zh"): { before: string; match: string; after: string } | null {
+  const text = word.example?.text;
+  if (!text) return null;
+  if (lang === "zh") {
+    const i = text.indexOf(word.term);
+    return i < 0 ? null : { before: text.slice(0, i), match: word.term, after: text.slice(i + word.term.length) };
+  }
+  if (!/^[A-Za-z]+$/.test(word.term)) return null;
+  const m = new RegExp(`(^|[^A-Za-z'])(${word.term})(?![A-Za-z'])`, "i").exec(text);
+  if (!m) return null;
+  const start = m.index + (m[1]?.length ?? 0);
+  return { before: text.slice(0, start), match: m[2]!, after: text.slice(start + m[2]!.length) };
+}
+
+/** Letters of a single English word in a different order (4–12 letters), or null. */
+export function scrambleOf(term: string, rng: Rng): string[] | null {
+  if (!/^[A-Za-z]{4,12}$/.test(term)) return null;
+  const letters = [...term.toLowerCase()];
+  if (new Set(letters).size < 3) return null;
+  for (let i = 0; i < 8; i++) {
+    const out = shuffle(letters, rng);
+    if (out.join("") !== letters.join("")) return out;
+  }
+  return null;
+}
+
 /** Game kinds that test a word at its level. `canListen` false (no voice) replaces listening by reading. */
 export function kindsFor(level: number, lang: "en" | "zh", word: GameWord, canListen: boolean): Kind[] {
-  if (level <= 0) return ["choose-term", "choose-meaning"];
-  if (level === 1) return canListen ? ["listen-choose"] : ["choose-term"];
+  const cloze = clozeParts(word, lang) !== null;
+  if (level <= 0) return ["choose-term", "choose-meaning", "true-false", ...(cloze ? (["cloze"] as Kind[]) : [])];
+  if (level === 1) return [...(canListen ? (["listen-choose"] as Kind[]) : ["choose-term" as Kind]), ...(cloze ? (["cloze"] as Kind[]) : [])];
   // recall
-  if (lang === "en") return [...(canListen ? (["listen-type"] as Kind[]) : []), "type-term", ...(word.definitionEn ? (["definition"] as Kind[]) : [])];
-  return word.definitionEn ? ["definition"] : ["choose-term"];
+  if (lang === "en") {
+    return [
+      ...(canListen ? (["listen-type"] as Kind[]) : []),
+      "type-term",
+      ...(word.definitionEn ? (["definition"] as Kind[]) : []),
+      ...(/^[A-Za-z]{4,12}$/.test(word.term) ? (["scramble"] as Kind[]) : []),
+      ...(cloze ? (["cloze-type"] as Kind[]) : []),
+    ];
+  }
+  return [...(word.definitionEn ? (["definition"] as Kind[]) : ["choose-term" as Kind]), ...(cloze ? (["cloze"] as Kind[]) : [])];
 }
 
 /** Up to n wrong options: same lesson and part of speech first, never the same term or meaning. */

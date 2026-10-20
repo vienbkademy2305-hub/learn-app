@@ -1,0 +1,108 @@
+# Sự thật: túi bữa trưa của Ben (có hình khủng long) bị lấy trong chuyến đi sở thú. Sofia nói cô tự mang bữa trưa;
+# cô Park: mẹ Sofia gọi điện báo Sofia quên mang bữa trưa; Ben thấy Sofia ăn từ túi có hình khủng long. Hung thủ: Sofia.
+id: a2-zoo-lunch
+level: A2
+lesson_range: [8, 12]
+status: draft
+title_vi: Bữa trưa ở sở thú
+cover: "🦁"
+premise_vi: >-
+  Trong chuyến đi sở thú, túi bữa trưa của Ben biến mất khỏi ghế dài. Ba người ngồi gần đó. Ai đã lấy bữa trưa của Ben?
+
+clues:
+  - id: forgot-lunch
+    witness: park
+    text_en: "Sofia's mother phoned: Sofia forgot her lunch at home."
+    text_vi: "Mẹ của Sofia gọi điện: Sofia để quên bữa trưa ở nhà."
+  - id: dino-bag
+    witness: ben
+    text_en: "Ben saw Sofia eating from a bag with a dinosaur on it."
+    text_vi: "Ben thấy Sofia ăn từ một chiếc túi có hình khủng long."
+  - id: park-bench
+    witness: park
+    text_en: "The lunch break was at twelve o'clock at the picnic tables."
+    text_vi: "Giờ nghỉ trưa là mười hai giờ ở các bàn picnic."
+  - id: ben-sticker
+    witness: ben
+    text_en: "Ben's bag has a dinosaur sticker."
+    text_vi: "Túi của Ben có hình dán khủng long."
+
+witnesses:
+  - id: park
+    name: Miss Park
+    role_en: The teacher
+    avatar: "🧑‍🏫"
+    segments:
+      - text_en: "The lunch break was at twelve o'clock at the picnic tables. We saw the lions before lunch."
+        vi: "Giờ nghỉ trưa là mười hai giờ ở các bàn picnic. Chúng ta xem sư tử trước bữa trưa."
+        clues: [park-bench]
+      - text_en: "In the morning, Sofia's mother phoned the school. She said, 'Sofia forgot her lunch at home.' So I gave Sofia some fruit."
+        vi: "Buổi sáng, mẹ của Sofia gọi điện cho trường. Bà nói: “Sofia để quên bữa trưa ở nhà.” Vì vậy cô cho Sofia ít trái cây."
+        clues: [forgot-lunch]
+        focus: ["forgot", "fruit"]
+      - text_en: "At lunchtime, I counted the children. Everyone was at the tables."
+        vi: "Giờ ăn trưa, cô đếm các em. Ai cũng ngồi ở các bàn."
+    checks:
+      - claim_vi: "Giờ nghỉ trưa là mười hai giờ."
+        answer: true
+        explain_vi: "Đúng: “at twelve o'clock.”"
+      - claim_vi: "Sofia mang theo bữa trưa từ nhà."
+        answer: false
+        explain_vi: "Sai: mẹ Sofia báo Sofia đã để quên."
+      - claim_vi: "Cô Park cho Sofia ít trái cây."
+        answer: true
+        explain_vi: "Đúng: “I gave Sofia some fruit.”"
+  - id: ben
+    name: Ben
+    role_en: A classmate
+    avatar: "🦖"
+    segments:
+      - text_en: "My lunch bag has a green dinosaur sticker. My mum made me a cheese sandwich and an apple."
+        vi: "Túi bữa trưa của em có hình dán khủng long xanh. Mẹ làm cho em một chiếc sandwich phô mai và một quả táo."
+        clues: [ben-sticker]
+      - text_en: "I left the bag on the bench near the lions. When I came back, it was gone."
+        vi: "Em để túi trên ghế dài gần chuồng sư tử. Khi quay lại, nó không còn."
+        focus: ["left", "gone"]
+      - text_en: "Later, I saw Sofia at the picnic table. She was eating a cheese sandwich from a bag with a green dinosaur."
+        vi: "Sau đó em thấy Sofia ở bàn picnic. Cô ấy đang ăn sandwich phô mai từ chiếc túi có hình khủng long xanh."
+        clues: [dino-bag]
+        focus: ["eating", "from a bag"]
+    checks:
+      - claim_vi: "Mẹ Ben làm cho cậu một chiếc sandwich phô mai."
+        answer: true
+        explain_vi: "Đúng: “a cheese sandwich and an apple.”"
+      - claim_vi: "Ben để túi trong lớp học."
+        answer: false
+        explain_vi: "Sai: em để túi trên ghế dài gần sư tử."
+      - claim_vi: "Sofia ăn từ chiếc túi có khủng long."
+        answer: true
+        explain_vi: "Đúng: “from a bag with a green dinosaur.”"
+  - id: sofia
+    name: Sofia
+    role_en: A classmate
+    avatar: "🍉"
+    segments:
+      - text_en: "I brought my own lunch today. My dad made it for me."
+        vi: "Hôm nay em tự mang bữa trưa. Bố làm cho em."
+      - text_en: "I ate my sandwich at the picnic table. It was a cheese sandwich, too."
+        vi: "Em ăn sandwich ở bàn picnic. Đó cũng là sandwich phô mai."
+        focus: ["ate", "too"]
+      - text_en: "I didn't see Ben's bag. I was watching the lions."
+        vi: "Em không thấy túi của Ben. Em đang ngắm sư tử."
+    checks:
+      - claim_vi: "Sofia nói bố cô làm bữa trưa."
+        answer: true
+        explain_vi: "Đúng: “My dad made it for me.”"
+      - claim_vi: "Sofia nói cô quên mang bữa trưa."
+        answer: false
+        explain_vi: "Sai: cô nói cô tự mang bữa trưa."
+      - claim_vi: "Sofia nói cô đang ngắm sư tử."
+        answer: true
+        explain_vi: "Đúng: “I was watching the lions.”"
+solution:
+  culprit: sofia
+  evidence: [forgot-lunch, dino-bag]
+  explain_vi: >-
+    Sofia nói cô tự mang bữa trưa. Nhưng mẹ cô báo cô để quên, và Ben thấy cô ăn từ chiếc túi có hình khủng long xanh của cậu.
+  confession_en: "I'm sorry, Ben. I was very hungry, and I didn't have any lunch. I saw your bag and took it. I'll give you my fruit tomorrow."
+  confession_vi: "Mình xin lỗi Ben. Mình đói quá mà không có bữa trưa. Mình thấy túi của bạn và lấy nó. Mai mình sẽ đưa bạn trái cây của mình."

@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { seededRng } from "../src/domain/exercises";
 import {
   applyAnswer,
+  clozeParts,
   dayStreak,
   distractors,
   type GameProgress,
@@ -13,6 +14,7 @@ import {
   nextQueue,
   PASS_BOX,
   planSession,
+  scrambleOf,
   summary,
 } from "../src/domain/word-game";
 
@@ -89,10 +91,36 @@ describe("word game — session", () => {
 
   it("chooses the game by level and falls back when there is no voice or definition", () => {
     const word = w("a");
-    expect(kindsFor(0, "en", word, true)).toEqual(["choose-term", "choose-meaning"]);
+    expect(kindsFor(0, "en", word, true)).toEqual(["choose-term", "choose-meaning", "true-false"]);
     expect(kindsFor(1, "zh", word, false)).toEqual(["choose-term"]);
+    // "a" has fewer than 4 letters: no scramble
     expect(kindsFor(2, "en", word, true)).toEqual(["listen-type", "type-term"]);
     expect(kindsFor(2, "zh", { ...word, definitionEn: "to eat" }, true)).toEqual(["definition"]);
+  });
+
+  it("adds the sentence and spelling games when the word allows them", () => {
+    const word: GameWord = { ...w("a"), term: "address", example: { text: "What is your address?", vi: "Địa chỉ của bạn là gì?" } };
+    expect(kindsFor(0, "en", word, true)).toContain("cloze");
+    expect(kindsFor(1, "en", word, true)).toEqual(["listen-choose", "cloze"]);
+    expect(kindsFor(2, "en", word, true)).toEqual(["listen-type", "type-term", "scramble", "cloze-type"]);
+    expect(kindsFor(2, "zh", { ...word, term: "地址", example: { text: "你的地址是什么？", vi: null } }, true)).toEqual(["choose-term", "cloze"]);
+  });
+
+  it("splits an example sentence around the term, whole words only", () => {
+    const word: GameWord = { ...w("a"), term: "cat", example: { text: "The Cat sat on the mat. Concatenate.", vi: null } };
+    expect(clozeParts(word, "en")).toEqual({ before: "The ", match: "Cat", after: " sat on the mat. Concatenate." });
+    expect(clozeParts({ ...word, example: { text: "Concatenate it.", vi: null } }, "en")).toBeNull();
+    expect(clozeParts({ ...word, example: undefined }, "en")).toBeNull();
+    expect(clozeParts({ ...word, term: "你好", example: { text: "他说：你好！", vi: null } }, "zh")).toEqual({ before: "他说：", match: "你好", after: "！" });
+  });
+
+  it("scrambles single words into a different order", () => {
+    const out = scrambleOf("address", seededRng(3))!;
+    expect(out.slice().sort().join("")).toBe([..."address"].sort().join(""));
+    expect(out.join("")).not.toBe("address");
+    expect(scrambleOf("ice cream", seededRng(1))).toBeNull();
+    expect(scrambleOf("cat", seededRng(1))).toBeNull();
+    expect(scrambleOf("aaaa", seededRng(1))).toBeNull();
   });
 
   it("picks distinct wrong options, same lesson first", () => {

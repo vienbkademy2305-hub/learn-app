@@ -30,3 +30,59 @@ self.addEventListener("fetch", (e) => {
     }),
   );
 });
+
+// Nhắc học (Web Push): hiện thông báo và mở trang "Hôm nay" khi bấm.
+self.addEventListener("push", (e) => {
+  let d = {};
+  try {
+    d = e.data ? e.data.json() : {};
+  } catch {}
+  const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+  e.waitUntil(
+    self.registration.showNotification(d.title || "Đến giờ học rồi 🔥", {
+      body: d.body || "Hôm nay bạn chưa học.",
+      icon: `${base}/icons/icon-192.png`,
+      tag: "nhac-hoc",
+      data: { url: `${base}${d.url || "/hom-nay/"}` },
+    }),
+  );
+});
+
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = e.notification.data?.url || "/";
+  e.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+      for (const c of list) if ("focus" in c) return c.navigate(url).then(() => c.focus());
+      return self.clients.openWindow(url);
+    }),
+  );
+});
+
+// Nhắc học (Web Push): hiện thông báo và mở trang "Hôm nay" khi bấm.
+self.addEventListener("push", (e) => {
+  let d = {};
+  try {
+    d = e.data ? e.data.json() : {};
+  } catch {}
+  const base = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+  e.waitUntil(
+    self.registration.showNotification(d.title || "Đến giờ học rồi 🔥", {
+      body: d.body || "Hôm nay bạn chưa học.",
+      icon: `${base}/icons/icon-192.png`,
+      tag: "nhac-hoc",
+      data: { url: `${base}${d.url || "/hom-nay/"}` },
+    }),
+  );
+});
+
+self.addEventListener("notificationclick", (e) => {
+  e.notification.close();
+  const url = e.notification.data?.url || "/";
+  e.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((list) => {
+      for (const c of list) if ("focus" in c) return c.navigate(url).then(() => c.focus());
+      return self.clients.openWindow(url);
+    }),
+  );
+});

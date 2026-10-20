@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/Badge";
-import { enLessonLinks, enTest, enTests } from "@/content/en-tests";
+import { enLessonLinks, enTest, enTestNext, enTests } from "@/content/en-tests";
 import { TestRunner } from "@/features/en/TestRunner";
 
 export const dynamicParams = false;
@@ -28,7 +28,7 @@ export default async function EnTestPage({ params }: { params: Promise<{ id: str
         </p>
         <h1 className="text-2xl font-bold text-stone-900 sm:text-3xl">{test.title_vi}</h1>
       </header>
-      <TestRunner test={test} lessons={enLessonLinks()} />
+      <TestRunner test={test} lessons={enLessonLinks()} next={enTestNext(test.id)} />
     </div>
   );
 }

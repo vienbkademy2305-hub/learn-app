@@ -1,0 +1,108 @@
+# Sự thật: hoa tulip vàng của bà Green bị hái. Ruby nói cô học múa ba lê từ 3 đến 5 giờ; bà Green: lớp ba lê hôm nay bị hủy (biển ở cửa);
+# Pete thấy một cô bé cầm hoa tulip vàng đi vào nhà số 12 (nhà Ruby). Hung thủ: Ruby.
+id: a2-tulips
+level: A2
+lesson_range: [10, 14]
+status: draft
+title_vi: Những bông tulip bị hái
+cover: "🌷"
+premise_vi: >-
+  Những bông tulip vàng đẹp nhất trong vườn của bà Green đã bị hái mất lúc chiều. Ba người ở gần vườn. Ai đã hái hoa?
+
+clues:
+  - id: ballet-cancelled
+    witness: green
+    text_en: "The ballet class was cancelled today."
+    text_vi: "Lớp múa ba lê hôm nay bị hủy."
+  - id: tulips-no12
+    witness: pete
+    text_en: "Pete saw a girl with yellow tulips go into number twelve."
+    text_vi: "Pete thấy một cô bé cầm hoa tulip vàng đi vào nhà số mười hai."
+  - id: ruby-house
+    witness: ruby
+    text_en: "Ruby lives at number twelve."
+    text_vi: "Ruby sống ở nhà số mười hai."
+  - id: pete-paper
+    witness: pete
+    text_en: "Pete delivers newspapers at four o'clock."
+    text_vi: "Pete giao báo lúc bốn giờ."
+
+witnesses:
+  - id: green
+    name: Mrs Green
+    role_en: The owner of the garden
+    avatar: "👵"
+    segments:
+      - text_en: "I have many beautiful flowers in my garden. The yellow tulips were the best ones."
+        vi: "Bà có nhiều bông hoa đẹp trong vườn. Những bông tulip vàng là đẹp nhất."
+      - text_en: "At five o'clock the tulips were gone. There were only green stems."
+        vi: "Lúc năm giờ những bông tulip không còn. Chỉ còn những cuống xanh."
+        focus: ["gone", "stems"]
+      - text_en: "I went to the ballet school across the road. There was a sign on the door: 'Closed today'. The ballet class was cancelled."
+        vi: "Bà đi đến trường múa ba lê bên kia đường. Có một tấm biển trên cửa: “Hôm nay đóng cửa”. Lớp ba lê đã bị hủy."
+        clues: [ballet-cancelled]
+        focus: ["sign", "cancelled"]
+    checks:
+      - claim_vi: "Những bông tulip màu vàng."
+        answer: true
+        explain_vi: "Đúng: “The yellow tulips.”"
+      - claim_vi: "Lớp ba lê hôm nay vẫn diễn ra."
+        answer: false
+        explain_vi: "Sai: lớp ba lê bị hủy."
+      - claim_vi: "Lúc năm giờ chỉ còn những cuống hoa."
+        answer: true
+        explain_vi: "Đúng: “There were only green stems.”"
+  - id: pete
+    name: Pete
+    role_en: The newspaper boy
+    avatar: "🚲"
+    segments:
+      - text_en: "I deliver newspapers on this street at four o'clock every day."
+        vi: "Ngày nào em cũng giao báo ở con phố này lúc bốn giờ."
+        clues: [pete-paper]
+      - text_en: "At about ten past four I saw a girl near Mrs Green's garden. She had a bunch of yellow tulips in her hand."
+        vi: "Khoảng bốn giờ mười em thấy một cô bé gần vườn của bà Green. Cô bé cầm một bó hoa tulip vàng trong tay."
+        focus: ["a bunch of", "in her hand"]
+      - text_en: "She walked across the road and went into number twelve."
+        vi: "Cô bé đi sang bên kia đường và vào nhà số mười hai."
+        clues: [tulips-no12]
+    checks:
+      - claim_vi: "Pete giao báo lúc bốn giờ."
+        answer: true
+        explain_vi: "Đúng: “at four o'clock every day.”"
+      - claim_vi: "Cô bé cầm hoa hồng đỏ."
+        answer: false
+        explain_vi: "Sai: hoa tulip vàng."
+      - claim_vi: "Cô bé vào nhà số mười hai."
+        answer: true
+        explain_vi: "Đúng: “went into number twelve.”"
+  - id: ruby
+    name: Ruby
+    role_en: A neighbour's daughter
+    avatar: "🩰"
+    segments:
+      - text_en: "I live at number twelve with my mum and dad."
+        vi: "Em sống ở nhà số mười hai với bố mẹ."
+        clues: [ruby-house]
+      - text_en: "I had my ballet class from three o'clock to five o'clock. I was there all afternoon."
+        vi: "Em có lớp múa ba lê từ ba giờ đến năm giờ. Em ở đó cả buổi chiều."
+        focus: ["from … to", "all afternoon"]
+      - text_en: "I like flowers, but I never pick them from other people's gardens."
+        vi: "Em thích hoa nhưng em không bao giờ hái hoa trong vườn của người khác."
+    checks:
+      - claim_vi: "Ruby sống ở nhà số mười hai."
+        answer: true
+        explain_vi: "Đúng: “I live at number twelve.”"
+      - claim_vi: "Ruby nói cô ở nhà cả buổi chiều."
+        answer: false
+        explain_vi: "Sai: cô nói cô ở lớp ba lê."
+      - claim_vi: "Ruby nói cô không hái hoa của người khác."
+        answer: true
+        explain_vi: "Đúng: “I never pick them from other people's gardens.”"
+solution:
+  culprit: ruby
+  evidence: [ballet-cancelled, tulips-no12]
+  explain_vi: >-
+    Ruby nói cô học ba lê cả buổi chiều. Nhưng lớp ba lê đã bị hủy, và Pete thấy một cô bé cầm tulip vàng đi vào nhà số mười hai, nhà của Ruby.
+  confession_en: "I'm sorry, Mrs Green. It was my mum's birthday, and I wanted to give her something beautiful. I should have asked you."
+  confession_vi: "Cháu xin lỗi bà Green. Hôm đó là sinh nhật mẹ cháu và cháu muốn tặng mẹ thứ gì đó thật đẹp. Lẽ ra cháu nên hỏi bà."

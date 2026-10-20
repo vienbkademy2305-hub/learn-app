@@ -5,7 +5,7 @@
  * through `earnXp`; pages read it with `useActivity`.
  */
 import { useCallback, useSyncExternalStore } from "react";
-import { addXp, EMPTY_ACTIVITY, GOALS, parseActivity, type ActivityState } from "@/domain/activity";
+import { addSeconds, addXp, EMPTY_ACTIVITY, GOALS, parseActivity, type ActivityState } from "@/domain/activity";
 
 const KEY = "learn-app:activity:v1";
 const listeners = new Set<() => void>();
@@ -35,6 +35,12 @@ function write(next: ActivityState) {
 export function earnXp(xp: number) {
   if (typeof window === "undefined" || !(xp > 0)) return;
   write(addXp(read(), xp));
+}
+
+/** Seconds of active study (see StudyTimer); called every few seconds while the learner is using the app. */
+export function addStudySeconds(seconds: number) {
+  if (typeof window === "undefined" || !(seconds > 0)) return;
+  write(addSeconds(read(), seconds));
 }
 
 function subscribe(listener: () => void) {

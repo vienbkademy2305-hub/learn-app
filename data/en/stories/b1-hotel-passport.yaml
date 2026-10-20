@@ -1,0 +1,109 @@
+# Sự thật: hộ chiếu của khách phòng 214 mất lúc 2:50–3:10 chiều. Ivan (nhân viên khuân vác) nói anh chỉ làm ở sảnh tầng một, không lên tầng trên thứ Năm;
+# Lena (lễ tân): nhật ký thẻ ghi thẻ chủ cho Ivan lúc 2:50; Rosa (buồng phòng): thấy Ivan mang vali đến phòng 212 lúc 3 giờ, đi thang máy dịch vụ. Hung thủ: Ivan.
+id: b1-hotel-passport
+level: B1
+lesson_range: [26, 34]
+status: draft
+title_vi: Hộ chiếu mất ở khách sạn
+cover: "🏨"
+premise_vi: >-
+  Một vị khách ở phòng 214 phát hiện hộ chiếu của mình biến mất khỏi két phòng. Ba nhân viên khách sạn có thể ra vào các tầng.
+  Ai đã lấy hộ chiếu?
+
+clues:
+  - id: master-key-log
+    witness: lena
+    text_en: "The key log shows a master key was given to Ivan at ten to three."
+    text_vi: "Nhật ký chìa khóa ghi một thẻ chủ được đưa cho Ivan lúc ba giờ kém mười."
+  - id: suitcase-212
+    witness: rosa
+    text_en: "Rosa saw Ivan take a suitcase to room 212 at three o'clock by the service lift."
+    text_vi: "Rosa thấy Ivan mang vali đến phòng 212 lúc ba giờ bằng thang máy dịch vụ."
+  - id: lena-desk
+    witness: lena
+    text_en: "Lena was at the reception desk all afternoon."
+    text_vi: "Lena ngồi ở quầy lễ tân cả buổi chiều."
+  - id: rosa-floor2
+    witness: rosa
+    text_en: "Rosa cleaned the rooms on the second floor."
+    text_vi: "Rosa dọn các phòng ở tầng hai."
+
+witnesses:
+  - id: lena
+    name: Lena
+    role_en: The receptionist
+    avatar: "🛎️"
+    segments:
+      - text_en: "I was at the reception desk all afternoon. I give out every key and every master card, and I write it in the log."
+        vi: "Tôi ngồi ở quầy lễ tân cả buổi chiều. Tôi đưa mọi chìa khóa và thẻ chủ và ghi vào nhật ký."
+        clues: [lena-desk]
+      - text_en: "Today's log shows that at ten to three a master card was given to Ivan. He said he needed it for a delivery."
+        vi: "Nhật ký hôm nay ghi lúc ba giờ kém mười một thẻ chủ đã đưa cho Ivan. Anh ta nói cần nó để giao hàng."
+        clues: [master-key-log]
+        focus: ["was given to", "delivery"]
+      - text_en: "He brought it back at ten past three. I didn't ask any questions, because it's normal for porters."
+        vi: "Anh ta trả lại lúc ba giờ mười. Tôi không hỏi gì vì việc đó bình thường với nhân viên khuân vác."
+    checks:
+      - claim_vi: "Lena ghi lại mọi chìa khóa vào nhật ký."
+        answer: true
+        explain_vi: "Đúng: “I write it in the log.”"
+      - claim_vi: "Thẻ chủ được đưa cho Rosa lúc ba giờ kém mười."
+        answer: false
+        explain_vi: "Sai: đưa cho Ivan."
+      - claim_vi: "Ivan trả lại thẻ lúc ba giờ mười."
+        answer: true
+        explain_vi: "Đúng: “He brought it back at ten past three.”"
+  - id: rosa
+    name: Rosa
+    role_en: The housekeeper
+    avatar: "🧺"
+    segments:
+      - text_en: "On Thursdays I clean the rooms on the second floor, from two until four."
+        vi: "Thứ Năm tôi dọn các phòng ở tầng hai, từ hai giờ đến bốn giờ."
+        clues: [rosa-floor2]
+      - text_en: "At about three o'clock I was in the corridor when the service lift opened. Ivan came out with a suitcase and went to room 212."
+        vi: "Khoảng ba giờ tôi đang ở hành lang thì thang máy dịch vụ mở. Ivan đi ra với một chiếc vali và đến phòng 212."
+        clues: [suitcase-212]
+        focus: ["service lift", "came out with"]
+      - text_en: "Room 212 is next to room 214. I thought he was delivering luggage, so I said nothing."
+        vi: "Phòng 212 ở cạnh phòng 214. Tôi tưởng anh ta đang giao hành lý nên không nói gì."
+    checks:
+      - claim_vi: "Rosa dọn các phòng ở tầng một."
+        answer: false
+        explain_vi: "Sai: tầng hai."
+      - claim_vi: "Ivan đi ra từ thang máy dịch vụ."
+        answer: true
+        explain_vi: "Đúng: “the service lift opened. Ivan came out.”"
+      - claim_vi: "Phòng 212 ở cạnh phòng 214."
+        answer: true
+        explain_vi: "Đúng: “Room 212 is next to room 214.”"
+  - id: ivan
+    name: Ivan
+    role_en: The porter
+    avatar: "🧳"
+    segments:
+      - text_en: "I work in the lobby on the ground floor. On Thursdays I never go to the upper floors."
+        vi: "Tôi làm việc ở sảnh tầng trệt. Thứ Năm tôi không bao giờ lên các tầng trên."
+        focus: ["lobby", "never go"]
+      - text_en: "I carried bags for guests at the entrance all afternoon. I didn't use the service lift."
+        vi: "Tôi xách hành lý cho khách ở cửa vào cả buổi chiều. Tôi không dùng thang máy dịch vụ."
+      - text_en: "I don't have a master card. Only the receptionist does."
+        vi: "Tôi không có thẻ chủ. Chỉ lễ tân mới có."
+    checks:
+      - claim_vi: "Ivan làm việc ở sảnh tầng trệt."
+        answer: true
+        explain_vi: "Đúng: “I work in the lobby on the ground floor.”"
+      - claim_vi: "Ivan nói anh dùng thang máy dịch vụ."
+        answer: false
+        explain_vi: "Sai: “I didn't use the service lift.”"
+      - claim_vi: "Ivan nói anh có thẻ chủ."
+        answer: false
+        explain_vi: "Sai: “I don't have a master card.”"
+solution:
+  culprit: ivan
+  evidence: [master-key-log, suitcase-212]
+  explain_vi: >-
+    Ivan nói anh chỉ ở sảnh và không có thẻ chủ. Nhưng nhật ký ghi một thẻ chủ đã đưa cho anh lúc 2:50,
+    và Rosa thấy anh mang vali đến cạnh phòng 214 bằng thang máy dịch vụ lúc ba giờ.
+  confession_en: "I'm sorry. A man offered me money for the passport. I took the master card, opened the safe in room 214 and returned the card. I'll tell the police everything."
+  confession_vi: "Tôi xin lỗi. Một người đàn ông đề nghị trả tiền cho cuốn hộ chiếu. Tôi lấy thẻ chủ, mở két phòng 214 rồi trả thẻ. Tôi sẽ nói hết với cảnh sát."

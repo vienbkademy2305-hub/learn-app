@@ -6,11 +6,22 @@
  */
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { assessSpeech, type SpeechAssessment } from "@/domain/speech-match";
+import { browserReport, serverReport, type IpaDictionary, type Report } from "@/domain/pron-report";
+import { assessSpeech } from "@/domain/speech-match";
 import { acquireMic, releaseMicSoon } from "@/features/speaking/recorder";
 import { canRecognize, listen, recognizeError, type Listening } from "@/features/speaking/recognize";
+import { PronounceReport } from "./PronounceReport";
 import { stopEnglish } from "./speech";
-import { assessPronunciation, normWord, PronounceOffline, pronounceAvailable, pronounceEnabled, scoreTone, type PronounceResult } from "./pronounce";
+import { assessPronunciation, PronounceOffline, pronounceAvailable, pronounceEnabled } from "./pronounce";
+
+let ipaPromise: Promise<IpaDictionary> | null = null;
+/** word → IPA, used to compare the sounds of a wrong word with the word the recognizer heard (public/assets/en-ipa.json). */
+function loadIpa(): Promise<IpaDictionary> {
+  ipaPromise ??= fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/assets/en-ipa.json`)
+    .then((r) => (r.ok ? (r.json() as Promise<IpaDictionary>) : {}))
+    .catch(() => ({}));
+  return ipaPromise;
+}
 
 type State = "idle" | "recording" | "checking" | "done" | "offline" | "error";
 
@@ -24,14 +35,13 @@ function micError(err: unknown): string {
 /** Rough reading time: 3 s + 0.7 s per word, at most 40 s. */
 const maxSeconds = (text: string) => Math.min(40, 3 + Math.ceil(text.split(/\s+/).length * 0.7));
 
-export function PronounceCheck({ text, compact = false, onScore }: { text: string; compact?: boolean; /** called with each new score (0–100) */ onScore?: (score: number) => void }) {
+export function PronounceCheck({ text, compact = false, onScore, nested = false }: { text: string; compact?: boolean; /** the check inside a word sheet: no further retry */ nested?: boolean; /** called with each new score (0–100) */ onScore?: (score: number) => void }) {
   const [open, setOpen] = useState(!compact);
   const [state, setState] = useState<State>("idle");
   const [error, setError] = useState("");
-  const [result, setResult] = useState<PronounceResult | null>(null);
+  const [report, setReport] = useState<Report | null>(null);
   const [mine, setMine] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
-  const [match, setMatch] = useState<{ m: SpeechAssessment; heard: string } | null>(null);
   const rec = useRef<MediaRecorder | null>(null);
   const live = useRef<Listening | null>(null);
   const timer = useRef<number | null>(null);
@@ -45,8 +55,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
   // A new target sentence starts from scratch.
   useEffect(() => {
     setState("idle");
-    setResult(null);
-    setMatch(null);
+    setReport(null);
     setMine(null);
   }, [text]);
 
@@ -70,7 +79,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
     try {
       const alts = await l.result;
       const m = assessSpeech(text, alts, "en", l.meta);
-      setMatch({ m, heard: alts[0] ?? "" });
+      setReport(browserReport(text, m, alts[0] ?? "", await loadIpa()));
       setState("done");
       onScore?.(m.score);
     } catch (e) {
@@ -87,8 +96,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
   const start = async () => {
     stopEnglish();
     setError("");
-    setResult(null);
-    setMatch(null);
+    setReport(null);
     // The server is off by default: go straight to the browser's recognition, inside the tap (Safari drops the tap after an await).
     if (canRecognize() && !pronounceEnabled()) return startBrowser();
     if (canRecognize() && !(await pronounceAvailable())) return startBrowser();
@@ -116,7 +124,7 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
       setState("checking");
       try {
         const res = await assessPronunciation(blob, text);
-        setResult(res);
+        setReport(serverReport(text, res));
         setState("done");
         onScore?.(res.score);
       } catch (err) {
@@ -154,8 +162,6 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
       </button>
     );
 
-  const bad = new Set((result?.differences.words_with_errors ?? []).map(normWord));
-  const tone = result ? scoreTone(result.score) : null;
   return (
     <div className="mt-3 w-full space-y-3 rounded-xl border border-rose-100 bg-rose-50/40 p-3">
       <div className="flex flex-wrap items-center gap-2">
@@ -193,58 +199,12 @@ export function PronounceCheck({ text, compact = false, onScore }: { text: strin
         </p>
       )}
 
-      {match && (
-        <div className="space-y-2">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className={`rounded-xl px-3 py-1.5 text-2xl font-bold ${scoreTone(match.m.score).cls}`}>{match.m.score}</span>
-            <span className="font-semibold text-stone-800">{match.m.score >= 80 ? "Nói đúng câu" : "Còn thiếu / sai từ"}</span>
-          </div>
-          {match.m.tip && <p className="text-sm text-amber-800">💡 {match.m.tip}</p>}
-          <p lang="en" className="text-lg leading-relaxed">
-            {match.m.parts.map((p, i) => (
-              <span key={i} className={!p.token ? "" : p.ok ? "text-jade-700" : "rounded bg-red-100 px-0.5 text-red-700 underline decoration-wavy"}>{p.text}</span>
-            ))}
-          </p>
-          <p className="text-xs text-stone-500">
-            Máy nghe được: <span lang="en" className="font-mono">{match.heard}</span> · Chấm bằng nhận dạng giọng nói của trình duyệt (đúng/sai từ). Muốn chấm chi tiết từng âm: bật máy chấm OpenPronounce trên máy tính.
-          </p>
-        </div>
-      )}
-
-      {result && tone && (
-        <div className="space-y-2">
-          <div className="flex flex-wrap items-center gap-3">
-            <span className={`rounded-xl px-3 py-1.5 text-2xl font-bold ${tone.cls}`}>{Math.round(result.score)}</span>
-            <span className="font-semibold text-stone-800">{tone.label}</span>
-          </div>
-          <p lang="en" className="text-lg leading-relaxed">
-            {text.split(/(\s+)/).map((w, i) =>
-              /\s/.test(w) ? w : (
-                <span key={i} className={bad.has(normWord(w)) ? "rounded bg-red-100 px-0.5 text-red-700 underline decoration-wavy" : "text-jade-700"}>{w}</span>
-              ),
-            )}
-          </p>
-          {result.differences.errors.length > 0 ? (
-            <ul className="space-y-1 text-sm">
-              {result.differences.errors.map((e) => (
-                <li key={`${e.position}-${e.word}`} className="rounded-lg bg-white px-3 py-2 ring-1 ring-stone-200">
-                  <span lang="en" className="font-semibold">{e.word}</span>: cần đọc <span className="font-mono text-jade-700">/{e.expected}/</span>, máy nghe thấy{" "}
-                  <span className="font-mono text-red-700">{e.actual ? `/${e.actual}/` : "(bị nuốt mất)"}</span>
-                  {e.phones && e.phones.length > 0 && (
-                    <span className="text-stone-500">
-                      {" "}· âm sai: {e.phones.map((p) => `${p.expected || "∅"} → ${p.heard || "∅"}`).join(", ")}
-                    </span>
-                  )}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="text-sm text-jade-700">Không phát hiện từ nào đọc sai. 🎉</p>
-          )}
-          <p className="text-xs text-stone-500">
-            Máy nghe được: <span lang="en" className="font-mono">{result.transcribe.toLowerCase()}</span> · Máy chấm có thể báo nhầm với từ ngắn — nghe lại bản ghi của bạn để tự đối chiếu.
-          </p>
-        </div>
+      {report && (
+        <PronounceReport
+          report={report}
+          mineUrl={mine}
+          retry={nested ? undefined : (word) => <PronounceCheck text={word} compact={false} nested />}
+        />
       )}
     </div>
   );

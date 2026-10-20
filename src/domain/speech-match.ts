@@ -27,7 +27,7 @@ const CONTRACTIONS: Record<string, string[]> = {
 };
 
 /** Comparable English tokens of one written word ("twenty-six" → twenty, six; "26" → twenty, six; "I'm" → i, am). */
-function enTokens(word: string): string[] {
+export function enTokens(word: string): string[] {
   const w = word.toLowerCase().replace(/[’‘]/g, "'").replace(/[^a-z0-9'-]/g, "");
   if (!w) return [];
   if (CONTRACTIONS[w]) return CONTRACTIONS[w];
@@ -46,7 +46,7 @@ const isHan = (c: string) => /\p{Script=Han}/u.test(c);
 const zhHeard = (s: string) => [...s.replace(/\d+/g, (d) => zhNumber(Number(d)))].filter(isHan);
 
 /** Edit distance, for telling a near miss of the recognizer from a wrong word. */
-function editDistance(a: string, b: string): number {
+export function editDistance(a: string, b: string): number {
   const prev = Array.from({ length: b.length + 1 }, (_, j) => j);
   for (let i = 1; i <= a.length; i++) {
     let diag = prev[0]!;
@@ -64,7 +64,7 @@ function editDistance(a: string, b: string): number {
  * English tokens count as the same word when the recognizer was one letter off on a long word
  * (two on a very long one): "restaurant" heard as "restaurent". Short words must match exactly.
  */
-function sameWord(a: string, b: string): boolean {
+export function sameWord(a: string, b: string): boolean {
   if (a === b) return true;
   const len = Math.min(a.length, b.length);
   if (len < 5 || Math.abs(a.length - b.length) > 1) return false;

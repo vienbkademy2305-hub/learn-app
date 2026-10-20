@@ -1,10 +1,11 @@
 "use client";
 /** The "Hôm nay" page: streak, daily-goal ring, week strip, level, goal choice and the calendar reminder. */
 import Link from "next/link";
-import { GOALS, dateKey, levelOf, reminderIcs, streakOf, totalXp, weekOf, xpOn } from "@/domain/activity";
+import { GOALS, dateKey, levelOf, reminderIcs, streakOf, totalXp, xpOn } from "@/domain/activity";
+import { HistoryPanel } from "./HistoryPanel";
+import { StudyTimeChart } from "./StudyTimeChart";
+import { PushPanel } from "./PushPanel";
 import { useActivity } from "./store";
-
-const WEEKDAY = ["CN", "T2", "T3", "T4", "T5", "T6", "T7"];
 
 function downloadReminder(time: string) {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -45,27 +46,26 @@ export function TodayPanel() {
             <p className="mt-2 text-sm text-orange-50">
               {!hydrated
                 ? ""
-                : streak.todayDone
+                : streak.goalDone
                   ? "Hôm nay đã đạt mục tiêu — chuỗi được giữ! 🎉"
-                  : `Còn ${activity.goal - today} XP nữa để ${streak.current > 0 ? "giữ chuỗi" : "bắt đầu chuỗi"} hôm nay.`}
+                  : streak.todayDone
+                    ? `Chuỗi đã được giữ hôm nay. Còn ${activity.goal - today} XP nữa để đạt mục tiêu.`
+                    : `Học một chút để ${streak.current > 0 ? "giữ chuỗi" : "bắt đầu chuỗi"} hôm nay.`}
             </p>
-            <p className="mt-1 text-xs text-orange-100">Chuỗi dài nhất: {hydrated ? streak.best : 0} ngày</p>
+            <p className="mt-1 text-xs text-orange-100">
+              Chuỗi dài nhất: {hydrated ? streak.best : 0} ngày · Tổng số ngày đã học: {hydrated ? streak.totalDays : 0}
+            </p>
           </div>
         </div>
       </section>
 
+      <HistoryPanel />
+
+      <StudyTimeChart />
+
       <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
-        <h2 className="font-semibold text-stone-900">7 ngày gần nhất</h2>
-        <ul className="mt-3 grid grid-cols-7 gap-1.5 text-center text-xs">
-          {weekOf(activity).map((d) => (
-            <li key={d.key} className={`rounded-xl py-2 ${d.today ? "ring-2 ring-orange-400" : ""} ${d.done ? "bg-orange-100 text-orange-700" : "bg-stone-100 text-stone-500"}`}>
-              <span className="block font-semibold">{WEEKDAY[d.weekday]}</span>
-              <span className="mt-1 block text-lg" aria-hidden>{d.done ? "🔥" : d.xp > 0 ? "•" : "–"}</span>
-              <span className="block">{hydrated ? d.xp : 0} XP</span>
-            </li>
-          ))}
-        </ul>
-        <p className="mt-4 text-sm text-stone-600">
+        <h2 className="font-semibold text-stone-900">Cấp độ</h2>
+        <p className="mt-3 text-sm text-stone-600">
           Cấp {level.level} · tổng {hydrated ? totalXp(activity) : 0} XP
         </p>
         <div className="mt-1.5 h-2 overflow-hidden rounded-full bg-stone-100" role="progressbar" aria-valuenow={level.into} aria-valuemax={level.need} aria-label="Tiến độ lên cấp">
@@ -96,6 +96,8 @@ export function TodayPanel() {
           Dữ liệu chuỗi ngày lưu trên trình duyệt này.
         </p>
       </section>
+
+      <PushPanel />
 
       <section className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
         <h2 className="font-semibold text-stone-900">Nhắc học mỗi ngày</h2>

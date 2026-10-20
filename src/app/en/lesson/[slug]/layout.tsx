@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Badge } from "@/components/Badge";
 import { enLesson, enLessonNeighbors, enLessons, enLessonSteps } from "@/content/en";
+import { enTests } from "@/content/en-tests";
 import { EnStepTabs } from "@/features/en/LessonChrome";
 
 export const dynamicParams = false;
@@ -16,6 +17,8 @@ export default async function EnLessonLayout({ children, params }: { children: R
   if (!lesson) notFound();
   const { prev, next } = enLessonNeighbors(slug);
   const steps = enLessonSteps(lesson).map(({ type, label, path }) => ({ type, label, path }));
+  // after Buổi 5/10/15… the next thing is the test of that block, then the next lesson
+  const dueTest = enTests().find((t) => t.after_lesson === lesson.number);
   const nav = "rounded-lg px-3 py-1.5 text-stone-600 ring-1 ring-inset ring-stone-300 hover:bg-stone-100";
 
   return (
@@ -44,10 +47,16 @@ export default async function EnLessonLayout({ children, params }: { children: R
                 ← Buổi {prev.number}
               </Link>
             )}
-            {next && (
-              <Link href={`/en/lesson/${next.slug}`} className={nav} title={next.title_vi}>
-                Buổi {next.number} →
+            {dueTest ? (
+              <Link href={`/en/kiem-tra/${dueTest.id}`} className={`${nav} bg-sky-50 font-semibold text-sky-900 ring-sky-300`} title={dueTest.title_vi}>
+                📝 Kiểm tra →
               </Link>
+            ) : (
+              next && (
+                <Link href={`/en/lesson/${next.slug}`} className={nav} title={next.title_vi}>
+                  Buổi {next.number} →
+                </Link>
+              )
             )}
           </div>
         </div>

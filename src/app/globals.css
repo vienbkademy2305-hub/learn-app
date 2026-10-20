@@ -73,3 +73,69 @@ button, a, [role="button"], label, summary { touch-action: manipulation; }
   input, select, textarea { font-size: 16px; }
   main { padding-bottom: calc(8rem + env(safe-area-inset-bottom)); }
 }
+
+@keyframes sheet-up {
+  from { transform: translateY(2rem); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
+
+/* Khung bài tập tối (QuizShell): đổi màu các lớp sáng của câu hỏi bên trong sang nền tối. */
+.quiz-dark .text-stone-900, .quiz-dark .text-stone-800, .quiz-dark .text-stone-700 { color: #fff; }
+.quiz-dark .text-stone-600, .quiz-dark .text-stone-500, .quiz-dark .text-stone-400 { color: #a3a3a3; }
+.quiz-dark .text-brand-700, .quiz-dark .text-brand-800 { color: #fca5a5; }
+.quiz-dark .text-jade-700, .quiz-dark .text-jade-800 { color: #6ee7b7; }
+.quiz-dark .bg-white, .quiz-dark .bg-stone-50 { background-color: #171717; }
+.quiz-dark .bg-stone-100 { background-color: #262626; }
+.quiz-dark .bg-jade-50 { background-color: #022c22; }
+.quiz-dark .bg-brand-50 { background-color: #450a0a; }
+.quiz-dark .ring-stone-300, .quiz-dark .ring-stone-200, .quiz-dark .border-stone-300, .quiz-dark .border-stone-200 { --tw-ring-color: #404040; border-color: #404040; }
+.quiz-dark input, .quiz-dark textarea { background-color: #171717; color: #fff; }
+.quiz-dark input::placeholder, .quiz-dark textarea::placeholder { color: #737373; }
+.quiz-dark .bg-stone-900 { background-color: #0ea5e9; }
+.quiz-dark .bg-stone-700 { background-color: #0284c7; }
+
+/* ---------- Chế độ nền tối (nút 🌙 trên thanh trên; mặc định sáng) ---------- */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  /* thang xám đảo ngược: nền tối, chữ sáng */
+  --color-stone-50: #141211;
+  --color-stone-100: #1f1c1a;
+  --color-stone-200: #2c2825;
+  --color-stone-300: #47423e;
+  --color-stone-400: #8a837c;
+  --color-stone-500: #a8a29e;
+  --color-stone-600: #c4bfba;
+  --color-stone-700: #dbd7d3;
+  --color-stone-800: #ece9e6;
+  --color-stone-900: #faf9f8;
+}
+html[data-theme="dark"] body { background: var(--color-stone-50); color: var(--color-stone-900); }
+html[data-theme="dark"] .bg-white { background-color: #1c1917; }
+html[data-theme="dark"] .bg-white\/95, html[data-theme="dark"] .bg-white\/90 { background-color: rgb(28 25 23 / 0.95); }
+/* nút nền xám đậm chữ trắng: giữ nền tối vừa phải */
+html[data-theme="dark"] .bg-stone-900, html[data-theme="dark"] .bg-stone-800 { background-color: #57534e; }
+html[data-theme="dark"] .bg-stone-700 { background-color: #6b6560; }
+/* nền màu nhạt → nền màu tối */
+html[data-theme="dark"] .bg-brand-50, html[data-theme="dark"] .bg-brand-50\/60, html[data-theme="dark"] .bg-brand-100 { background-color: #3a1812; }
+html[data-theme="dark"] .bg-jade-50, html[data-theme="dark"] .bg-jade-50\/50, html[data-theme="dark"] .bg-jade-100 { background-color: #0f2a20; }
+html[data-theme="dark"] .bg-sky-50, html[data-theme="dark"] .bg-sky-100 { background-color: #0c2536; }
+html[data-theme="dark"] .bg-amber-50 { background-color: #33260a; }
+html[data-theme="dark"] .bg-rose-50, html[data-theme="dark"] .bg-rose-100 { background-color: #3a1420; }
+html[data-theme="dark"] .bg-red-50, html[data-theme="dark"] .bg-red-100 { background-color: #3b1212; }
+html[data-theme="dark"] .bg-orange-50 { background-color: #33200e; }
+/* chữ màu đậm → chữ màu sáng */
+html[data-theme="dark"] .text-brand-700, html[data-theme="dark"] .text-brand-800 { color: #fca5a5; }
+html[data-theme="dark"] .text-jade-700 { color: #6ee7b7; }
+html[data-theme="dark"] .text-sky-700, html[data-theme="dark"] .text-sky-800, html[data-theme="dark"] .text-sky-900, html[data-theme="dark"] .text-sky-950 { color: #7dd3fc; }
+html[data-theme="dark"] .text-amber-700, html[data-theme="dark"] .text-amber-800, html[data-theme="dark"] .text-amber-900 { color: #fcd34d; }
+html[data-theme="dark"] .text-red-700, html[data-theme="dark"] .text-red-800 { color: #fca5a5; }
+html[data-theme="dark"] .text-rose-700, html[data-theme="dark"] .text-rose-800 { color: #fda4af; }
+html[data-theme="dark"] .text-orange-700 { color: #fdba74; }
+/* viền/vòng màu nhạt */
+html[data-theme="dark"] .ring-brand-200, html[data-theme="dark"] .ring-brand-300, html[data-theme="dark"] .border-brand-300 { --tw-ring-color: #7a2c20; border-color: #7a2c20; }
+html[data-theme="dark"] .ring-sky-200, html[data-theme="dark"] .border-sky-200, html[data-theme="dark"] .border-sky-300 { --tw-ring-color: #155e75; border-color: #155e75; }
+html[data-theme="dark"] .ring-amber-200, html[data-theme="dark"] .ring-amber-300, html[data-theme="dark"] .border-amber-200 { --tw-ring-color: #713f12; border-color: #713f12; }
+html[data-theme="dark"] .ring-jade-100, html[data-theme="dark"] .border-jade-100 { --tw-ring-color: #14532d; border-color: #14532d; }
+/* bảng điều khiển / ô nhập */
+html[data-theme="dark"] input, html[data-theme="dark"] select, html[data-theme="dark"] textarea { background-color: #1c1917; color: #faf9f8; }
+html[data-theme="dark"] ::placeholder { color: #8a837c; }

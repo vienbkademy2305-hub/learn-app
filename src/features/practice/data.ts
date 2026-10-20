@@ -97,7 +97,20 @@ export function allGameWords(): GameWord[] {
       if (!w || seen.has(slug) || !w.meanings.length) continue;
       seen.add(slug);
       const en = w.meaningsEn.slice(0, 2).join("; ");
-      out.push({ id: w.slug, term: w.simplified, reading: w.pinyin, meaning: w.meanings.slice(0, 2).join("; "), definitionEn: en || null, lesson: i + 1 }); // lessonOrdinal(): unique across HSK levels
+      // the shortest example sentence that really contains the word (fill-in-the-blank games)
+      const sentence = w.examples
+        .map(getSentence)
+        .filter((x) => x !== undefined && x.simplified.includes(w.simplified))
+        .sort((a, b) => a!.simplified.length - b!.simplified.length)[0];
+      out.push({
+        id: w.slug,
+        term: w.simplified,
+        reading: w.pinyin,
+        meaning: w.meanings.slice(0, 2).join("; "),
+        definitionEn: en || null,
+        lesson: i + 1,
+        ...(sentence ? { example: { text: sentence.simplified, vi: sentence.vi?.text ?? null } } : {}),
+      }); // lessonOrdinal(): unique across HSK levels
     }
   return out;
 }

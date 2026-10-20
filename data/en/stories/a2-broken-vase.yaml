@@ -1,0 +1,109 @@
+# Sự thật: bình hoa của dì Joan vỡ. Tom nói cậu sơn hàng rào cả buổi; Mia: cọ khô sạch, hộp sơn đóng kín;
+# dì Joan: quả bóng nằm dưới ghế sofa có tên TOM. Hung thủ: Tom.
+id: a2-broken-vase
+level: A2
+lesson_range: [9, 13]
+status: draft
+title_vi: Chiếc bình bị vỡ
+cover: "🏺"
+premise_vi: >-
+  Chiếc bình hoa đẹp của dì Joan bị vỡ trong phòng khách. Không ai thừa nhận. Hãy nghe ba người và tìm ra ai làm vỡ nó.
+
+clues:
+  - id: dry-brush
+    witness: mia
+    text_en: "The paint tin was closed and Tom's brush was dry."
+    text_vi: "Hộp sơn đã đóng và cọ của Tom khô cong."
+  - id: ball-tom
+    witness: joan
+    text_en: "The football under the sofa had TOM written on it."
+    text_vi: "Quả bóng đá dưới ghế sofa có viết chữ TOM."
+  - id: joan-kitchen
+    witness: joan
+    text_en: "Aunt Joan was cooking in the kitchen."
+    text_vi: "Dì Joan đang nấu ăn trong bếp."
+  - id: mia-reading
+    witness: mia
+    text_en: "Mia was reading in her room."
+    text_vi: "Mia đang đọc sách trong phòng."
+
+witnesses:
+  - id: joan
+    name: Aunt Joan
+    role_en: The owner of the house
+    avatar: "👩‍🍳"
+    segments:
+      - text_en: "I was cooking in the kitchen all afternoon. I heard a loud noise at four o'clock."
+        vi: "Dì nấu ăn trong bếp cả buổi chiều. Lúc bốn giờ dì nghe một tiếng động lớn."
+        clues: [joan-kitchen]
+      - text_en: "I ran to the living room. The vase was on the floor in many pieces. Nobody was there."
+        vi: "Dì chạy vào phòng khách. Chiếc bình nằm trên sàn thành nhiều mảnh. Không có ai ở đó."
+        focus: ["pieces", "Nobody"]
+      - text_en: "Then I found a football under the sofa. There was a name on the ball: TOM."
+        vi: "Rồi dì thấy một quả bóng đá dưới ghế sofa. Trên quả bóng có một cái tên: TOM."
+        clues: [ball-tom]
+        focus: ["under", "name"]
+    checks:
+      - claim_vi: "Dì Joan nấu ăn trong bếp."
+        answer: true
+        explain_vi: "Đúng: “I was cooking in the kitchen.”"
+      - claim_vi: "Có người đứng trong phòng khách khi dì chạy vào."
+        answer: false
+        explain_vi: "Sai: “Nobody was there.”"
+      - claim_vi: "Quả bóng có tên TOM."
+        answer: true
+        explain_vi: "Đúng: “There was a name on the ball: TOM.”"
+  - id: mia
+    name: Mia
+    role_en: Tom's cousin
+    avatar: "📖"
+    segments:
+      - text_en: "I was reading a story in my room upstairs. My door was open."
+        vi: "Em đang đọc truyện trong phòng ở trên lầu. Cửa phòng em mở."
+        clues: [mia-reading]
+      - text_en: "At three o'clock Tom said, 'I'm going to paint the fence.' He went into the garden."
+        vi: "Lúc ba giờ Tom nói: “Anh đi sơn hàng rào đây.” Anh ấy ra vườn."
+        focus: ["going to", "fence"]
+      - text_en: "After the noise, I went to the garden. The paint tin was closed and the brush was dry. Nobody painted the fence today."
+        vi: "Sau tiếng động, em ra vườn. Hộp sơn đã đóng và cái cọ khô cong. Hôm nay không ai sơn hàng rào cả."
+        clues: [dry-brush]
+        focus: ["closed", "dry"]
+    checks:
+      - claim_vi: "Mia đọc truyện trong phòng."
+        answer: true
+        explain_vi: "Đúng: “I was reading a story in my room.”"
+      - claim_vi: "Tom nói anh sẽ sơn hàng rào."
+        answer: true
+        explain_vi: "Đúng: “I'm going to paint the fence.”"
+      - claim_vi: "Cái cọ còn ướt sơn."
+        answer: false
+        explain_vi: "Sai: “the brush was dry.”"
+  - id: tom
+    name: Tom
+    role_en: The cousin
+    avatar: "⚽"
+    segments:
+      - text_en: "I painted the fence all afternoon. It was hard work, and I didn't stop."
+        vi: "Anh sơn hàng rào cả buổi chiều. Việc đó rất vất vả và anh không nghỉ."
+        focus: ["all afternoon", "didn't stop"]
+      - text_en: "I never went into the living room. I don't play with my football in the house."
+        vi: "Anh không hề vào phòng khách. Anh không chơi bóng trong nhà."
+      - text_en: "Perhaps the cat broke the vase. Cats like to jump on tables!"
+        vi: "Có lẽ con mèo làm vỡ bình. Mèo thích nhảy lên bàn!"
+    checks:
+      - claim_vi: "Tom nói anh sơn hàng rào cả buổi chiều."
+        answer: true
+        explain_vi: "Đúng: “I painted the fence all afternoon.”"
+      - claim_vi: "Tom nói anh chơi bóng trong nhà."
+        answer: false
+        explain_vi: "Sai: “I don't play with my football in the house.”"
+      - claim_vi: "Tom nghĩ con mèo có thể làm vỡ bình."
+        answer: true
+        explain_vi: "Đúng: “Perhaps the cat broke the vase.”"
+solution:
+  culprit: tom
+  evidence: [dry-brush, ball-tom]
+  explain_vi: >-
+    Tom nói anh sơn hàng rào cả buổi chiều. Nhưng hộp sơn đóng kín và cọ khô, và quả bóng có tên TOM nằm dưới ghế sofa.
+  confession_en: "I'm sorry, Aunt Joan. I was playing with my ball in the living room. It hit the vase. I was afraid, so I went to the garden."
+  confession_vi: "Cháu xin lỗi dì Joan. Cháu chơi bóng trong phòng khách. Quả bóng trúng chiếc bình. Cháu sợ nên chạy ra vườn."

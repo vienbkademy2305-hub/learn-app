@@ -1,0 +1,111 @@
+# Sự thật: thanh năng lượng và đồ ăn trong lều bị lấy khi cả nhóm đi bộ ra hồ (9 giờ). Omar nói anh đi cùng nhóm cả buổi sáng;
+# Hana: Omar quay lại sau 20 phút vì đau chân; Chris: tìm thấy giấy gói thanh năng lượng trong túi hông ba lô của Omar. Hung thủ: Omar.
+id: b1-camping-food
+level: B1
+lesson_range: [22, 32]
+status: draft
+title_vi: Đồ ăn biến mất ở khu cắm trại
+cover: "⛺"
+premise_vi: >-
+  Cả nhóm đi bộ ra hồ và để đồ trong lều. Khi quay về, hộp thanh năng lượng và đồ ăn dự trữ đã biến mất.
+  Ba người trong nhóm bị hỏi. Ai đã lấy đồ ăn?
+
+clues:
+  - id: turned-back
+    witness: hana
+    text_en: "Omar turned back after twenty minutes because his foot hurt."
+    text_vi: "Omar quay lại sau hai mươi phút vì đau chân."
+  - id: wrappers
+    witness: chris
+    text_en: "Chris found energy bar wrappers in the side pocket of Omar's backpack."
+    text_vi: "Chris tìm thấy giấy gói thanh năng lượng trong túi hông ba lô của Omar."
+  - id: left-nine
+    witness: hana
+    text_en: "The group left the camp at nine o'clock."
+    text_vi: "Cả nhóm rời khu cắm trại lúc chín giờ."
+  - id: chris-lake
+    witness: chris
+    text_en: "Chris walked to the lake with the group."
+    text_vi: "Chris đi bộ ra hồ cùng nhóm."
+
+witnesses:
+  - id: hana
+    name: Hana
+    role_en: The group leader
+    avatar: "🧭"
+    segments:
+      - text_en: "We left the camp at nine o'clock. We took water and maps, but we left the food in the big tent."
+        vi: "Chúng tôi rời khu cắm trại lúc chín giờ. Chúng tôi mang nước và bản đồ nhưng để đồ ăn trong lều lớn."
+        clues: [left-nine]
+        focus: ["left", "took"]
+      - text_en: "After about twenty minutes, Omar said his foot was hurting. He turned back to the camp, and the rest of us carried on to the lake."
+        vi: "Sau khoảng hai mươi phút, Omar nói chân anh ấy đau. Anh ấy quay lại khu cắm trại, còn chúng tôi đi tiếp đến hồ."
+        clues: [turned-back]
+        focus: ["turned back", "carried on"]
+      - text_en: "We got back at one o'clock. The food was gone, and there was a plate on the floor of the tent."
+        vi: "Chúng tôi về lúc một giờ. Đồ ăn đã mất và có một cái đĩa trên sàn lều."
+    checks:
+      - claim_vi: "Cả nhóm rời khu cắm trại lúc chín giờ."
+        answer: true
+        explain_vi: "Đúng: “We left the camp at nine o'clock.”"
+      - claim_vi: "Omar đi hết đường đến hồ cùng cả nhóm."
+        answer: false
+        explain_vi: "Sai: anh quay lại sau hai mươi phút."
+      - claim_vi: "Cả nhóm về lúc một giờ."
+        answer: true
+        explain_vi: "Đúng: “We got back at one o'clock.”"
+  - id: chris
+    name: Chris
+    role_en: A member of the group
+    avatar: "🎒"
+    segments:
+      - text_en: "I walked to the lake with Hana and the others. It was a beautiful walk, and we took lots of photos."
+        vi: "Tôi đi bộ ra hồ cùng Hana và mọi người. Đó là một chuyến đi đẹp và chúng tôi chụp rất nhiều ảnh."
+        clues: [chris-lake]
+      - text_en: "When we came back, I checked the tents. Everything was in a mess. We looked for a clue."
+        vi: "Khi quay về, tôi kiểm tra các lều. Mọi thứ lộn xộn. Chúng tôi tìm manh mối."
+        focus: ["checked", "in a mess"]
+      - text_en: "Later, I borrowed Omar's backpack to carry water. In the side pocket I found three empty energy bar wrappers."
+        vi: "Sau đó, tôi mượn ba lô của Omar để mang nước. Trong túi hông tôi tìm thấy ba giấy gói thanh năng lượng đã ăn hết."
+        clues: [wrappers]
+        focus: ["borrowed", "empty"]
+    checks:
+      - claim_vi: "Chris đi ra hồ cùng nhóm."
+        answer: true
+        explain_vi: "Đúng: “I walked to the lake with Hana and the others.”"
+      - claim_vi: "Chris tìm thấy giấy gói trong ba lô của Hana."
+        answer: false
+        explain_vi: "Sai: trong ba lô của Omar."
+      - claim_vi: "Có ba giấy gói thanh năng lượng."
+        answer: true
+        explain_vi: "Đúng: “three empty energy bar wrappers.”"
+  - id: omar
+    name: Omar
+    role_en: A member of the group
+    avatar: "🥾"
+    segments:
+      - text_en: "I walked with the group all morning. We went to the lake and back, and I took lots of photos too."
+        vi: "Tôi đi cùng nhóm cả buổi sáng. Chúng tôi đi ra hồ và quay về, tôi cũng chụp nhiều ảnh."
+        focus: ["all morning", "and back"]
+      - text_en: "I never went back to the camp on my own. I wouldn't leave the others."
+        vi: "Tôi không hề tự quay lại khu cắm trại. Tôi sẽ không bỏ mọi người."
+      - text_en: "I don't like energy bars. I only eat fruit when I'm hiking."
+        vi: "Tôi không thích thanh năng lượng. Khi đi bộ đường dài tôi chỉ ăn trái cây."
+    checks:
+      - claim_vi: "Omar nói anh đi cùng nhóm cả buổi sáng."
+        answer: true
+        explain_vi: "Đúng: “I walked with the group all morning.”"
+      - claim_vi: "Omar nói anh đã quay lại khu cắm trại một mình."
+        answer: false
+        explain_vi: "Sai: “I never went back to the camp on my own.”"
+      - claim_vi: "Omar nói anh thích thanh năng lượng."
+        answer: false
+        explain_vi: "Sai: “I don't like energy bars.”"
+solution:
+  culprit: omar
+  evidence: [turned-back, wrappers]
+  explain_vi: >-
+    Omar nói anh đi cùng nhóm cả buổi sáng và không thích thanh năng lượng. Nhưng Hana nói anh quay lại sau hai mươi phút,
+    và Chris tìm thấy giấy gói thanh năng lượng trong ba lô của anh.
+  confession_en: "I'm sorry. I forgot my breakfast and my foot really hurt, so I went back to the tent. I was so hungry that I ate the energy bars and the biscuits. I'll buy new food."
+  confession_vi: "Tôi xin lỗi. Tôi quên bữa sáng và chân tôi thực sự đau nên tôi quay lại lều. Tôi đói đến mức ăn hết thanh năng lượng và bánh quy. Tôi sẽ mua đồ ăn mới."

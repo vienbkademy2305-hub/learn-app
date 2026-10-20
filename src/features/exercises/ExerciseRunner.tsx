@@ -4,10 +4,11 @@
  * Questions are generated on "Bắt đầu" (client-side randomness keeps the site
  * static). Each question view reports its result once through `onResult`.
  */
-import Link from "next/link";
-import { useState, type ReactNode } from "react";
+import { useRef, useState, type ReactNode } from "react";
 import { recordExercise, type ExerciseType } from "@/domain/progress";
-import { ProgressBar } from "@/features/progress/ProgressWidgets";
+import { XP } from "@/domain/activity";
+import { QuizResult } from "@/features/quiz/QuizResult";
+import { QuizButton, QuizShell } from "@/features/quiz/QuizShell";
 import { useProgress } from "@/features/progress/store";
 
 export function ExerciseRunner<Q>({
@@ -16,12 +17,14 @@ export function ExerciseRunner<Q>({
   build,
   renderQuestion,
   emptyMessage = "Bài học này chưa đủ dữ liệu để tạo bài tập.",
-  back = { href: `/zh/lesson/${lessonSlug}/exercises`, label: "Bài tập khác" },
+  title = "Bài tập",
 }: {
   lessonSlug: string;
   /** scores are saved only when a type is given (practice rounds are not scored) */
   type?: ExerciseType;
+  /** kept for callers; the score screen now offers "Thử lại" / "Bỏ qua" instead of a link */
   back?: { href: string; label: string };
+  title?: string;
   build: () => Q[];
   renderQuestion: (q: Q, onResult: (correct: boolean) => void) => ReactNode;
   emptyMessage?: string;
@@ -31,12 +34,16 @@ export function ExerciseRunner<Q>({
   const [index, setIndex] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
   const [round, setRound] = useState(0);
+  const startedAt = useRef(0);
+  const [showResult, setShowResult] = useState(false);
 
   const start = () => {
     setQuestions(build());
     setIndex(0);
     setResults([]);
+    setShowResult(false);
     setRound((r) => r + 1);
+    startedAt.current = Date.now();
   };
 
   if (!questions) {
@@ -54,7 +61,7 @@ export function ExerciseRunner<Q>({
 
   const answered = results.length > index;
   const correctCount = results.filter(Boolean).length;
-  const finished = results.length === questions.length;
+  const finished = results.length === questions.length && showResult;
 
   const onResult = (correct: boolean) => {
     if (results.length > index) return;
@@ -65,57 +72,37 @@ export function ExerciseRunner<Q>({
     }
   };
 
+  const exit = () => setQuestions(null);
+  if (finished) {
+    return <QuizResult correct={correctCount} total={questions.length} seconds={(Date.now() - startedAt.current) / 1000} xp={XP.exercise} onRetry={start} onSkip={exit} />;
+  }
+
+  const last = results[results.length - 1];
   return (
-    <div className="space-y-4">
-      <div className="space-y-2">
-        <div className="flex justify-between text-sm text-stone-500">
-          <span>
-            Câu {Math.min(index + 1, questions.length)}/{questions.length}
-          </span>
-          <span>
-            Đúng <strong className="text-jade-700">{correctCount}</strong>
-          </span>
-        </div>
-        <ProgressBar percent={Math.round((results.length / questions.length) * 100)} label="Tiến độ bài tập" />
-      </div>
-
-      <div key={`${round}-${index}`} className="rounded-2xl border border-stone-200 bg-white p-4 shadow-sm sm:p-6">
-        {renderQuestion(questions[index]!, onResult)}
-      </div>
-
-      {answered && !finished && (
-        <div className="flex justify-end">
-          <button type="button" onClick={() => setIndex((i) => i + 1)} className="rounded-xl bg-brand-600 px-5 py-2.5 font-semibold text-white hover:bg-brand-700">
-            Câu tiếp →
-          </button>
-        </div>
-      )}
-
-      {finished && <ScoreCard score={correctCount} total={questions.length} onRetry={start} back={back} />}
-    </div>
-  );
-}
-
-function ScoreCard({ score, total, onRetry, back }: { score: number; total: number; onRetry: () => void; back: { href: string; label: string } }) {
-  const ratio = score / total;
-  const message = ratio === 1 ? "Xuất sắc! Đúng hết." : ratio >= 0.8 ? "Rất tốt!" : ratio >= 0.5 ? "Khá lắm, ôn thêm một chút nhé." : "Cần ôn lại bài rồi làm lại nhé.";
-  return (
-    <div className="rounded-2xl border border-jade-100 bg-jade-50 p-5 text-center" role="status">
-      <p className="text-sm text-jade-700">Kết quả</p>
-      <p className="text-4xl font-bold text-stone-900">
-        {score}
-        <span className="text-xl text-stone-400">/{total}</span>
-      </p>
-      <p className="mt-1 font-medium text-stone-700">{message}</p>
-      <div className="mt-4 flex flex-wrap justify-center gap-2">
-        <button type="button" onClick={onRetry} className="rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-semibold text-white hover:bg-brand-700">
-          Làm lại (câu hỏi mới)
-        </button>
-        <Link href={back.href} className="rounded-xl bg-white px-4 py-2.5 text-sm font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-stone-100">
-          {back.label}
-        </Link>
-      </div>
-    </div>
+    <QuizShell
+      progress={results.length / questions.length}
+      badge={correctCount}
+      title={title}
+      top={
+        <p className="text-center text-lg font-bold">
+          <span className="text-emerald-400">✓ {correctCount}</span>
+          <span className="ml-5 text-red-400">✗ {results.length - correctCount}</span>
+          <span className="ml-5 text-neutral-500">{Math.min(index + 1, questions.length)}/{questions.length}</span>
+        </p>
+      }
+      footer={
+        answered ? (
+          <QuizButton state={last ? "ok" : "bad"} onClick={() => (index + 1 >= questions.length ? setShowResult(true) : setIndex((i) => i + 1))}>
+            {index + 1 >= questions.length ? "Xem kết quả" : "Tiếp theo"}
+          </QuizButton>
+        ) : (
+          <QuizButton state="disabled">Tiếp theo</QuizButton>
+        )
+      }
+      onExit={exit}
+    >
+      <div key={`${round}-${index}`}>{renderQuestion(questions[index]!, onResult)}</div>
+    </QuizShell>
   );
 }
 

@@ -3,27 +3,34 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { dueReviewed } from "@/domain/hub";
+import { useEnProgress } from "@/features/en/progress";
+import { useProgress } from "@/features/progress/store";
 import { LAST_LANG_KEY, langOf, type Lang } from "./SiteChrome";
 
 type Tab = { href: string; icon: string; label: string; match: RegExp };
 
 const TABS: Record<Lang, Tab[]> = {
   zh: [
-    { href: "/zh", icon: "📚", label: "HSK", match: /^\/zh(\/(hsk|lesson|word|pinyin)(\/.*)?)?$/ },
-    { href: "/zh/practice", icon: "✏️", label: "Bài tập", match: /^\/zh\/practice/ },
+    { href: "/zh", icon: "🗺️", label: "Học", match: /^\/zh(\/(hsk|lesson|word|pinyin)(\/.*)?)?$/ },
+    { href: "/zh/luyen-tap", icon: "💪", label: "Luyện", match: /^\/zh\/(luyen-tap|practice|flashcards|listening|kiem-tra)/ },
     { href: "/zh/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/zh\/hoi-thoai-ai/ },
-    { href: "/zh/flashcards", icon: "🃏", label: "Sổ từ", match: /^\/zh\/flashcards/ },
-    { href: "/zh/listening", icon: "🎧", label: "Nghe", match: /^\/zh\/listening/ },
-    { href: "/zh/kiem-tra", icon: "📝", label: "Đề thi", match: /^\/zh\/kiem-tra/ },
+    { href: "/hom-nay", icon: "🔥", label: "Hôm nay", match: /^\/hom-nay/ },
   ],
   en: [
-    { href: "/en", icon: "🗺️", label: "Lộ trình", match: /^\/en(\/lesson(\/.*)?)?$/ },
-    { href: "/en/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/en\/hoi-thoai-ai/ },
-    { href: "/en/flashcards", icon: "🃏", label: "Ôn từ", match: /^\/en\/flashcards/ },
-    { href: "/en/luyen-noi", icon: "🎤", label: "Nói", match: /^\/en\/luyen-noi/ },
-    { href: "/en/words", icon: "📖", label: "Kho từ", match: /^\/en\/(words|word)/ },
+    { href: "/en", icon: "🗺️", label: "Học", match: /^\/en(\/lesson(\/.*)?)?$/ },
+    { href: "/en/luyen-tap", icon: "💪", label: "Luyện", match: /^\/en\/(luyen-tap|flashcards|luyen-noi|words|word|kiem-tra)/ },
+    { href: "/en/truyen", icon: "🕵️", label: "Truyện", match: /^\/en\/truyen/ },
+    { href: "/hom-nay", icon: "🔥", label: "Hôm nay", match: /^\/hom-nay/ },
   ],
 };
+
+/** Red dot on "Luyện" while words are waiting for review. */
+function useDue(lang: Lang): boolean {
+  const [zh, , zhH] = useProgress();
+  const [en, , enH] = useEnProgress();
+  return lang === "en" ? enH && dueReviewed(en.cards) > 0 : zhH && dueReviewed(zh.cards) > 0;
+}
 
 export function BottomNav() {
   const path = usePathname() ?? "";
@@ -37,8 +44,12 @@ export function BottomNav() {
     }
   }, []);
   // Trang chung (/de-them) dùng bộ tab của ngôn ngữ học gần nhất.
-  const lang = langOf(path) ?? (path.startsWith("/de-them") ? stored : null);
-  if (!lang) return null;
+  const lang = langOf(path) ?? (path.startsWith("/de-them") || path.startsWith("/hom-nay") ? stored : null);
+  return lang ? <Bar lang={lang} path={path} /> : null;
+}
+
+function Bar({ lang, path }: { lang: Lang; path: string }) {
+  const due = useDue(lang);
   return (
     <nav
       aria-label="Điều hướng chính"
@@ -57,7 +68,10 @@ export function BottomNav() {
                   active ? (lang === "zh" ? "text-brand-600" : "text-sky-700") : "text-stone-500"
                 }`}
               >
-                <span aria-hidden className="text-xl leading-none">{t.icon}</span>
+                <span aria-hidden className="relative text-xl leading-none">
+                  {t.icon}
+                  {due && t.href.endsWith("/luyen-tap") && <span className="absolute -right-1.5 -top-1 size-2.5 rounded-full bg-red-500 ring-2 ring-white" />}
+                </span>
                 {t.label}
               </Link>
             </li>

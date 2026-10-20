@@ -74,15 +74,26 @@ export function enLessonWords(lesson: EnLesson): EnWord[] {
   return (enStep(lesson, "vocabulary")?.items ?? []).map((id) => enWord(id)).filter((w): w is EnWord => !!w);
 }
 
+/** For each single-word headword the shortest sentence that contains it (for the fill-in-the-blank games). */
+function exampleIndex(): Map<string, { text: string; vi: string | null }> {
+  const tokens = (t: string) => new Set(t.toLowerCase().match(/[a-z]+(?:'[a-z]+)?/g) ?? []);
+  const byLength = Object.values(enContent().sentences).sort((a, b) => a.text.length - b.text.length);
+  const index = new Map<string, { text: string; vi: string | null }>();
+  for (const s of byLength) for (const t of tokens(s.text)) if (!index.has(t)) index.set(t, { text: s.text, vi: s.vi ?? null });
+  return index;
+}
+
 /** Every vocabulary word as a word-game item, under the lesson that first teaches it (later lessons only review). */
 export function enGameWords(): GameWord[] {
   const seen = new Set<string>();
   const out: GameWord[] = [];
+  const examples = exampleIndex();
   for (const l of enLessons())
     for (const w of enLessonWords(l)) {
       if (seen.has(w.id)) continue;
       seen.add(w.id);
-      out.push({ id: w.id, term: w.headword, reading: w.ipa?.uk ?? w.ipa?.us ?? null, meaning: w.meaning_vi.slice(0, 2).join("; "), definitionEn: w.definition_en ?? null, lesson: l.number, pos: w.pos });
+      const example = /^[A-Za-z]+$/.test(w.headword) ? examples.get(w.headword.toLowerCase()) : undefined;
+      out.push({ id: w.id, term: w.headword, reading: w.ipa?.uk ?? w.ipa?.us ?? null, meaning: w.meaning_vi.slice(0, 2).join("; "), definitionEn: w.definition_en ?? null, lesson: l.number, pos: w.pos, ...(example ? { example } : {}) });
     }
   return out;
 }

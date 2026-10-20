@@ -16,7 +16,7 @@ type LessonLink = { number: number; slug: string; title: string };
 
 const mmss = (s: number) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
 
-export function TestRunner({ test, lessons }: { test: EnTest; lessons: LessonLink[] }) {
+export function TestRunner({ test, lessons, next }: { test: EnTest; lessons: LessonLink[]; next?: { href: string; label: string } }) {
   const [progress, update, hydrated] = useEnProgress();
   const [phase, setPhase] = useState<"intro" | "doing" | "done">("intro");
   const [run, setRun] = useState(0);
@@ -149,6 +149,14 @@ export function TestRunner({ test, lessons }: { test: EnTest; lessons: LessonLin
             </div>
           ) : (
             <p className="text-sm text-stone-700">Không có buổi nào dưới {test.pass_percent}% — rất tốt!</p>
+          )}
+          {next && (
+            <Link
+              href={next.href}
+              className={`block rounded-2xl px-5 py-3.5 text-center text-base font-bold shadow-sm ${summary.passed ? "bg-jade-600 text-white hover:bg-jade-700" : "bg-white text-stone-800 ring-1 ring-inset ring-stone-300 hover:bg-stone-50"}`}
+            >
+              {summary.passed ? next.label : `Vẫn đi tiếp — ${next.label}`} →
+            </Link>
           )}
           <p className="text-sm text-stone-600">Xem đáp án từng câu bên dưới.</p>
           <button type="button" onClick={start} className="rounded-xl px-4 py-2 text-sm font-medium text-stone-700 ring-1 ring-inset ring-stone-300 hover:bg-white">

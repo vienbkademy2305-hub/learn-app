@@ -1,0 +1,111 @@
+# Sự thật: email giả mạo giám đốc thông báo hủy thưởng gửi lúc 3:20 chiều từ máy trong phòng kế toán, chỉ kế toán có mật khẩu.
+# Carlos nói anh họp với khách 3–4 giờ; Joy: khách đã hủy cuộc hẹn lúc 2:30, phòng họp trống; Mike: log gửi từ máy kế toán 3:20. Hung thủ: Carlos.
+id: b1-fake-email
+level: B1
+lesson_range: [24, 32]
+status: draft
+title_vi: Email giả mạo
+cover: "📧"
+premise_vi: >-
+  Cả công ty nhận được một email "từ giám đốc" thông báo hủy tiền thưởng cuối năm. Giám đốc khẳng định bà không gửi nó.
+  Ba nhân viên bị hỏi. Ai đã gửi email giả?
+
+clues:
+  - id: meeting-cancelled
+    witness: joy
+    text_en: "The client cancelled the meeting at half past two."
+    text_vi: "Khách hàng đã hủy cuộc họp lúc hai giờ rưỡi."
+  - id: sent-from-accounts
+    witness: mike
+    text_en: "The email was sent at 3:20 from a computer in the accounts office."
+    text_vi: "Email được gửi lúc 3:20 từ một máy tính trong phòng kế toán."
+  - id: only-accountants
+    witness: mike
+    text_en: "Only the accountants know that computer's password."
+    text_vi: "Chỉ nhân viên kế toán biết mật khẩu của máy đó."
+  - id: joy-desk
+    witness: joy
+    text_en: "Joy was at the reception desk all afternoon."
+    text_vi: "Joy ngồi ở quầy lễ tân cả buổi chiều."
+
+witnesses:
+  - id: mike
+    name: Mike
+    role_en: The IT technician
+    avatar: "💻"
+    segments:
+      - text_en: "I've checked the company's mail records. The fake email was sent at 3:20 pm this afternoon."
+        vi: "Tôi đã kiểm tra nhật ký thư của công ty. Email giả được gửi lúc 3:20 chiều nay."
+        focus: ["mail records", "sent"]
+      - text_en: "It was sent from a computer in the accounts office, which is on the second floor."
+        vi: "Nó được gửi từ một máy tính trong phòng kế toán ở tầng hai."
+        clues: [sent-from-accounts]
+      - text_en: "That computer needs a password, and only the accountants know it. Carlos is the only accountant in the office this week, because Mrs Park is on holiday."
+        vi: "Máy đó cần mật khẩu và chỉ nhân viên kế toán biết. Tuần này Carlos là kế toán duy nhất ở văn phòng vì bà Park đang nghỉ phép."
+        clues: [only-accountants]
+        focus: ["needs", "on holiday"]
+    checks:
+      - claim_vi: "Email giả được gửi lúc 3:20 chiều."
+        answer: true
+        explain_vi: "Đúng: “sent at 3:20 pm this afternoon.”"
+      - claim_vi: "Email được gửi từ tầng một."
+        answer: false
+        explain_vi: "Sai: phòng kế toán ở tầng hai."
+      - claim_vi: "Tuần này bà Park đi làm bình thường."
+        answer: false
+        explain_vi: "Sai: bà Park đang nghỉ phép."
+  - id: joy
+    name: Joy
+    role_en: The receptionist
+    avatar: "☎️"
+    segments:
+      - text_en: "I was at the reception desk all afternoon. Everybody who comes in or goes out passes my desk."
+        vi: "Tôi ngồi ở quầy lễ tân cả buổi chiều. Ai ra vào cũng đi qua quầy của tôi."
+        clues: [joy-desk]
+      - text_en: "At half past two a client phoned. He said the meeting at three was cancelled because his train was late. I told Carlos immediately."
+        vi: "Lúc hai giờ rưỡi một khách hàng gọi. Ông ấy nói cuộc họp lúc ba giờ bị hủy vì tàu của ông bị trễ. Tôi báo cho Carlos ngay lập tức."
+        clues: [meeting-cancelled]
+        focus: ["was cancelled", "immediately"]
+      - text_en: "After that, the meeting room stayed empty until five. Carlos went upstairs to his office and I didn't see him come down."
+        vi: "Sau đó phòng họp trống đến năm giờ. Carlos lên văn phòng của anh ấy và tôi không thấy anh ấy đi xuống."
+        focus: ["stayed empty", "upstairs"]
+    checks:
+      - claim_vi: "Khách hàng gọi lúc hai giờ rưỡi."
+        answer: true
+        explain_vi: "Đúng: “At half past two a client phoned.”"
+      - claim_vi: "Joy không báo cho Carlos về cuộc gọi."
+        answer: false
+        explain_vi: "Sai: “I told Carlos immediately.”"
+      - claim_vi: "Phòng họp bị dùng cho cuộc họp đó."
+        answer: false
+        explain_vi: "Sai: cuộc họp bị hủy, phòng họp trống đến năm giờ."
+  - id: carlos
+    name: Carlos
+    role_en: The accountant
+    avatar: "🧮"
+    segments:
+      - text_en: "I was in a meeting with a client from three o'clock to four o'clock. I couldn't have sent any emails."
+        vi: "Tôi họp với một khách hàng từ ba giờ đến bốn giờ. Tôi không thể gửi email nào cả."
+        focus: ["couldn't have sent", "from … to"]
+      - text_en: "Many people know my password. I write it on a note, and the note is on my screen. Anybody could use my computer."
+        vi: "Nhiều người biết mật khẩu của tôi. Tôi viết nó ra giấy và dán trên màn hình. Ai cũng có thể dùng máy của tôi."
+      - text_en: "I like my job, and I always get a bonus. I wouldn't want to upset my colleagues."
+        vi: "Tôi thích công việc của mình và lúc nào tôi cũng có thưởng. Tôi sẽ không muốn làm đồng nghiệp buồn."
+    checks:
+      - claim_vi: "Carlos nói anh họp với khách từ ba đến bốn giờ."
+        answer: true
+        explain_vi: "Đúng: “a meeting with a client from three o'clock to four o'clock.”"
+      - claim_vi: "Carlos nói chỉ mình anh biết mật khẩu."
+        answer: false
+        explain_vi: "Sai: “Many people know my password.”"
+      - claim_vi: "Carlos nói anh muốn làm đồng nghiệp buồn."
+        answer: false
+        explain_vi: "Sai: “I wouldn't want to upset my colleagues.”"
+solution:
+  culprit: carlos
+  evidence: [meeting-cancelled, sent-from-accounts]
+  explain_vi: >-
+    Carlos nói anh đang họp với khách lúc ba giờ. Nhưng khách đã hủy cuộc họp từ hai giờ rưỡi, và email được gửi
+    lúc 3:20 từ máy trong phòng kế toán, nơi tuần đó chỉ có anh.
+  confession_en: "I'm sorry. The company didn't give me the promotion I wanted, and I was angry. When the meeting was cancelled, I went to my office and wrote the email. I didn't think it through."
+  confession_vi: "Tôi xin lỗi. Công ty không thăng chức cho tôi như tôi mong và tôi rất tức giận. Khi cuộc họp bị hủy, tôi về văn phòng và viết email đó. Tôi đã không suy nghĩ kỹ."

@@ -1,22 +1,26 @@
 import { describe, expect, it } from "vitest";
-import { addDays, addXp, EMPTY_ACTIVITY, enChangeXp, levelOf, parseActivity, reminderIcs, streakOf, weekOf, zhChangeXp, type ActivityState } from "@/domain/activity";
+import { addDays, addXp, EMPTY_ACTIVITY, enChangeXp, levelOf, parseActivity, monthPeriod, reminderIcs, streakOf, weekOf, weekPeriod, zhChangeXp, type ActivityState } from "@/domain/activity";
 import { EMPTY_PROGRESS, reviewCard, setLearned, setLessonCompleted } from "@/domain/progress";
 
 const noon = (key: string) => new Date(`${key}T12:00:00`);
 const withDays = (days: Record<string, number>, goal = 50): ActivityState => ({ v: 1, days, goal });
 
 describe("streak", () => {
-  it("counts consecutive days that reached the goal", () => {
+  it("counts consecutive study days", () => {
     const s = withDays({ "2026-10-16": 60, "2026-10-17": 50, "2026-10-18": 70 });
-    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 3, best: 3, todayDone: true });
+    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 3, best: 3, todayDone: true, goalDone: true, totalDays: 3 });
+  });
+  it("counts a day as studied before the goal is reached", () => {
+    const s = withDays({ "2026-10-16": 60, "2026-10-17": 50, "2026-10-18": 10 });
+    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 3, best: 3, todayDone: true, goalDone: false, totalDays: 3 });
   });
   it("keeps yesterday's streak while today is still open", () => {
-    const s = withDays({ "2026-10-16": 60, "2026-10-17": 50, "2026-10-18": 10 });
-    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 2, best: 2, todayDone: false });
+    const s = withDays({ "2026-10-16": 60, "2026-10-17": 5 });
+    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 2, best: 2, todayDone: false, goalDone: false, totalDays: 2 });
   });
   it("breaks after a missed day and remembers the best run", () => {
     const s = withDays({ "2026-10-10": 50, "2026-10-11": 50, "2026-10-12": 50, "2026-10-15": 50, "2026-10-18": 50 });
-    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 1, best: 3, todayDone: true });
+    expect(streakOf(s, noon("2026-10-18"))).toEqual({ current: 1, best: 3, todayDone: true, goalDone: true, totalDays: 5 });
     expect(streakOf(s, noon("2026-10-20")).current).toBe(0);
   });
   it("crosses month and year ends", () => {
@@ -72,5 +76,56 @@ describe("storage and reminder", () => {
     expect(ics).toContain("DTSTART:20261018T203000");
     expect(ics).toContain("BEGIN:VALARM");
     expect(ics.split("\r\n")[0]).toBe("BEGIN:VCALENDAR");
+  });
+});
+
+describe("history periods", () => {
+  const s = withDays({ "2026-10-19": 30, "2026-10-20": 60, "2026-09-30": 10 });
+  it("week starts on Monday and counts study days", () => {
+    const w = weekPeriod(s, 0, noon("2026-10-21"));
+    expect(w.cells.map((c) => c?.key)[0]).toBe("2026-10-19");
+    expect(w.cells).toHaveLength(7);
+    expect(w).toMatchObject({ label: "19/10 – 25/10", studiedDays: 2, xp: 90 });
+    expect(w.cells[2]).toMatchObject({ today: true });
+    expect(w.cells[3]).toMatchObject({ future: true });
+    expect(weekPeriod(s, -1, noon("2026-10-21")).label).toBe("12/10 – 18/10");
+  });
+  it("month pads to Monday and handles previous months", () => {
+    const m = monthPeriod(s, 0, noon("2026-10-21"));
+    expect(m.label).toBe("Tháng 10/2026");
+    expect(m.cells.slice(0, 3)).toEqual([null, null, null]); // 1 Oct 2026 is a Thursday
+    expect(m.cells.filter(Boolean)).toHaveLength(31);
+    expect(m).toMatchObject({ studiedDays: 2, xp: 90 });
+    expect(monthPeriod(s, -1, noon("2026-10-21"))).toMatchObject({ label: "Tháng 9/2026", studiedDays: 1, xp: 10 });
+  });
+});
+
+import { addSeconds, formatMinutes, niceMax, timeSeries } from "@/domain/activity";
+
+describe("study time", () => {
+  it("adds seconds to today, capped at a day, and ignores junk", () => {
+    const now = noon("2026-10-20");
+    let s = addSeconds(EMPTY_ACTIVITY, 90, now);
+    s = addSeconds(s, 30, now);
+    expect(s.time).toEqual({ "2026-10-20": 120 });
+    expect(addSeconds(s, -5, now)).toBe(s);
+    expect(addSeconds(s, 999_999, now).time!["2026-10-20"]).toBe(86_400);
+    expect(parseActivity({ v: 1, days: {}, goal: 50, time: { "2026-10-20": 120, bad: 5, "2026-10-19": -1 } }).time).toEqual({ "2026-10-20": 120 });
+    expect(parseActivity({ v: 1, days: {}, goal: 50 }).time).toBeUndefined();
+  });
+  it("builds a series ending today with minutes per day", () => {
+    const s: ActivityState = { v: 1, days: {}, goal: 50, time: { "2026-10-20": 600, "2026-10-18": 90 } };
+    const series = timeSeries(s, 4, noon("2026-10-20"));
+    expect(series.map((p) => p.key)).toEqual(["2026-10-17", "2026-10-18", "2026-10-19", "2026-10-20"]);
+    expect(series.map((p) => p.minutes)).toEqual([0, 1.5, 0, 10]);
+  });
+  it("picks round axis maxima and formats durations", () => {
+    expect(niceMax(0)).toBe(5);
+    expect(niceMax(12)).toBe(15);
+    expect(niceMax(61)).toBe(90);
+    expect(niceMax(900)).toBe(900);
+    expect(formatMinutes(42)).toBe("42 phút");
+    expect(formatMinutes(65)).toBe("1 giờ 05 phút");
+    expect(formatMinutes(0)).toBe("0 phút");
   });
 });

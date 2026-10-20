@@ -33,10 +33,12 @@ const commit = capture("git", ["rev-parse", "--short", "HEAD"]);
 run("pnpm", ["build"], ROOT, { ...process.env, NEXT_PUBLIC_BASE_PATH: BASE_PATH, MSYS_NO_PATHCONV: "1" });
 
 rmSync(path.join(OUT, ".git"), { recursive: true, force: true });
+// The site is thousands of tiny files: no line-ending conversion and no automatic gc/repack (they made a deploy take 20+ minutes).
+const FAST = ["-c", "core.autocrlf=false", "-c", "gc.auto=0", "-c", "maintenance.auto=false"];
 run("git", ["init", "-q", "-b", "gh-pages"], OUT);
-run("git", ["add", "-A"], OUT);
-run("git", ["commit", "-q", "-m", `Deploy site from ${commit}`], OUT);
-run("git", ["push", "--force", remote, "gh-pages:gh-pages"], OUT);
+run("git", [...FAST, "add", "-A"], OUT);
+run("git", [...FAST, "commit", "-q", "-m", `Deploy site from ${commit}`], OUT);
+run("git", [...FAST, "-c", "http.postBuffer=524288000", "push", "--force", remote, "gh-pages:gh-pages"], OUT);
 rmSync(path.join(OUT, ".git"), { recursive: true, force: true });
 
 console.log(`Deployed ${commit} to gh-pages → https://vienbkademy2305-hub.github.io${BASE_PATH}/`);
