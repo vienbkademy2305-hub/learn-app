@@ -17,38 +17,38 @@ premise_vi: >-
 clues:
   - id: practice-cancelled
     witness: anna
-    text_en: "Football practice was cancelled today."
+    text: "Football practice was cancelled today."
     text_vi: "Buổi tập bóng hôm nay bị hủy."
   - id: red-cap-boy
     witness: green
-    text_en: "A boy in a red cap ran away from the garden."
+    text: "A boy in a red cap ran away from the garden."
     text_vi: "Một cậu bé đội mũ đỏ chạy ra khỏi khu vườn."
   - id: ben-says-practice
     witness: ben
-    text_en: "Ben says he was at football practice."
+    text: "Ben says he was at football practice."
     text_vi: "Ben nói cậu ở buổi tập bóng."
   - id: shop-closes
     witness: green
-    text_en: "Mr Green's shop closes at six."
+    text: "Mr Green's shop closes at six."
     text_vi: "Cửa hàng của ông Green đóng cửa lúc sáu giờ."
   - id: anna-reading
     witness: anna
-    text_en: "Anna was reading at home."
+    text: "Anna was reading at home."
     text_vi: "Anna đọc sách ở nhà."
 
 witnesses:
   - id: green
     name: Mr Green
-    role_en: The shopkeeper
+    role: The shopkeeper
     avatar: "🧔"
     segments:
-      - text_en: "My shop is opposite Mr Evans' house. I was at the door at three o'clock."
+      - text: "My shop is opposite Mr Evans' house. I was at the door at three o'clock."
         vi: "Cửa hàng của tôi ở đối diện nhà ông Evans. Lúc ba giờ tôi đang đứng ở cửa."
-      - text_en: "I heard a loud noise. Then I saw a boy in a red cap. He ran out of the garden with a ball."
+      - text: "I heard a loud noise. Then I saw a boy in a red cap. He ran out of the garden with a ball."
         vi: "Tôi nghe một tiếng động lớn. Rồi tôi thấy một cậu bé đội mũ đỏ. Cậu ấy chạy ra khỏi vườn, tay cầm quả bóng."
         clues: [red-cap-boy]
         focus: ["red cap", "ran out of"]
-      - text_en: "I couldn't see his face. My shop closes at six, so I went back inside to help a customer."
+      - text: "I couldn't see his face. My shop closes at six, so I went back inside to help a customer."
         vi: "Tôi không nhìn thấy mặt cậu ấy. Cửa hàng tôi đóng cửa lúc sáu giờ nên tôi vào trong giúp một khách hàng."
         clues: [shop-closes]
     checks:
@@ -64,16 +64,16 @@ witnesses:
 
   - id: anna
     name: Anna
-    role_en: Ben's sister
+    role: Ben's sister
     avatar: "📚"
     segments:
-      - text_en: "I stayed at home this afternoon. I was reading a book in the living room."
+      - text: "I stayed at home this afternoon. I was reading a book in the living room."
         vi: "Chiều nay em ở nhà. Em đọc sách trong phòng khách."
         clues: [anna-reading]
-      - text_en: "My brother Ben left at two o'clock with his ball. Mum said, 'Don't be late!'"
+      - text: "My brother Ben left at two o'clock with his ball. Mum said, 'Don't be late!'"
         vi: "Anh Ben của em ra khỏi nhà lúc hai giờ với quả bóng. Mẹ nói: “Đừng về muộn nhé!”"
         focus: ["left", "late"]
-      - text_en: "Football practice was cancelled today because the coach was ill. Ben came home at half past three. He hid his red cap under his bed."
+      - text: "Football practice was cancelled today because the coach was ill. Ben came home at half past three. He hid his red cap under his bed."
         vi: "Hôm nay buổi tập bóng bị hủy vì huấn luyện viên bị ốm. Anh Ben về nhà lúc ba giờ rưỡi. Anh ấy giấu chiếc mũ đỏ dưới gầm giường."
         clues: [practice-cancelled]
         focus: ["cancelled", "hid"]
@@ -90,16 +90,16 @@ witnesses:
 
   - id: ben
     name: Ben
-    role_en: A boy from the street
+    role: A boy from the street
     avatar: "⚽"
     segments:
-      - text_en: "It wasn't me! I was at football practice at school from two to four. Coach Dan was there."
+      - text: "It wasn't me! I was at football practice at school from two to four. Coach Dan was there."
         vi: "Không phải tôi! Tôi ở buổi tập bóng ở trường từ hai đến bốn giờ. Huấn luyện viên Dan cũng ở đó."
         clues: [ben-says-practice]
         focus: ["It wasn't me", "from two to four"]
-      - text_en: "I don't have a red cap. I have a blue one. I never wear red."
+      - text: "I don't have a red cap. I have a blue one. I never wear red."
         vi: "Tôi không có mũ đỏ. Tôi có một chiếc mũ xanh. Tôi không bao giờ đội màu đỏ."
-      - text_en: "I like Mr Evans. I would never break his window! Maybe some other boy did it."
+      - text: "I like Mr Evans. I would never break his window! Maybe some other boy did it."
         vi: "Tôi quý ông Evans. Tôi sẽ không bao giờ làm vỡ cửa sổ của ông! Có lẽ một cậu bé khác đã làm."
     checks:
       - claim_vi: "Ben nói rằng cậu ở buổi tập bóng."
@@ -118,5 +118,5 @@ solution:
   explain_vi: >-
     Ben nói cậu ở buổi tập bóng và không có mũ đỏ. Nhưng Anna nói buổi tập đã bị hủy và Ben giấu chiếc mũ đỏ dưới giường,
     còn ông Green thấy một cậu bé đội mũ đỏ chạy ra khỏi vườn. Ben đã nói dối.
-  confession_en: "I'm sorry, Mr Evans. We didn't have practice, so I kicked my ball in the street. It hit your window. I was afraid, so I ran away."
+  confession: "I'm sorry, Mr Evans. We didn't have practice, so I kicked my ball in the street. It hit your window. I was afraid, so I ran away."
   confession_vi: "Cháu xin lỗi ông Evans. Hôm nay không có buổi tập nên cháu đá bóng ngoài đường. Quả bóng trúng cửa sổ nhà ông. Cháu sợ nên đã chạy đi."

@@ -13,34 +13,34 @@ premise_vi: >-
 clues:
   - id: swings-closed
     witness: ella
-    text_en: "The swings were closed with yellow tape."
+    text: "The swings were closed with yellow tape."
     text_vi: "Xích đu bị căng dây băng vàng, không cho chơi."
   - id: mayo-shirt
     witness: grandpa
-    text_en: "Ben had mayonnaise on his shirt."
+    text: "Ben had mayonnaise on his shirt."
     text_vi: "Áo của Ben dính sốt mayonnaise."
   - id: grandpa-bench
     witness: grandpa
-    text_en: "Grandpa sat on a bench near the lake."
+    text: "Grandpa sat on a bench near the lake."
     text_vi: "Ông ngồi trên ghế dài gần hồ."
   - id: ella-ice-cream
     witness: ella
-    text_en: "Ella bought an ice cream at the kiosk."
+    text: "Ella bought an ice cream at the kiosk."
     text_vi: "Ella mua một cây kem ở quầy."
 
 witnesses:
   - id: grandpa
     name: Grandpa
-    role_en: Ben and Ella's grandfather
+    role: Ben and Ella's grandfather
     avatar: "👴"
     segments:
-      - text_en: "I sat on a bench near the lake and read my newspaper. I didn't walk around."
+      - text: "I sat on a bench near the lake and read my newspaper. I didn't walk around."
         vi: "Ông ngồi trên ghế dài gần hồ và đọc báo. Ông không đi loanh quanh."
         clues: [grandpa-bench]
-      - text_en: "At half past twelve Ben came to the bench. He said, 'I'm not hungry.' He smiled a lot."
+      - text: "At half past twelve Ben came to the bench. He said, 'I'm not hungry.' He smiled a lot."
         vi: "Mười hai giờ rưỡi Ben đến chỗ ghế dài. Cháu nói: “Cháu không đói.” Cháu cười rất nhiều."
         focus: ["not hungry", "smiled"]
-      - text_en: "I looked at his shirt. There was white mayonnaise on it, near the pocket. I said nothing."
+      - text: "I looked at his shirt. There was white mayonnaise on it, near the pocket. I said nothing."
         vi: "Ông nhìn áo của cháu. Có sốt mayonnaise màu trắng dính gần túi áo. Ông không nói gì."
         clues: [mayo-shirt]
         focus: ["mayonnaise", "pocket"]
@@ -56,17 +56,17 @@ witnesses:
         explain_vi: "Đúng: “There was white mayonnaise on it.”"
   - id: ella
     name: Ella
-    role_en: Ben's sister
+    role: Ben's sister
     avatar: "🍦"
     segments:
-      - text_en: "I went to the kiosk and bought an ice cream. It was chocolate and very cold."
+      - text: "I went to the kiosk and bought an ice cream. It was chocolate and very cold."
         vi: "Em đến quầy và mua một cây kem. Đó là kem sô-cô-la và rất lạnh."
         clues: [ella-ice-cream]
-      - text_en: "On my way back, I walked past the playground. The swings were closed. There was yellow tape around them because of the rain last night."
+      - text: "On my way back, I walked past the playground. The swings were closed. There was yellow tape around them because of the rain last night."
         vi: "Trên đường về, em đi ngang sân chơi. Xích đu bị đóng. Có băng vàng quanh chúng vì cơn mưa đêm qua."
         clues: [swings-closed]
         focus: ["closed", "because of"]
-      - text_en: "I saw Ben sitting behind a big tree, near the picnic basket. He was eating something."
+      - text: "I saw Ben sitting behind a big tree, near the picnic basket. He was eating something."
         vi: "Em thấy Ben ngồi sau một cái cây lớn, gần giỏ picnic. Cậu ấy đang ăn gì đó."
         focus: ["behind", "eating"]
     checks:
@@ -81,15 +81,15 @@ witnesses:
         explain_vi: "Đúng: “I saw Ben sitting behind a big tree.”"
   - id: ben
     name: Ben
-    role_en: The little brother
+    role: The little brother
     avatar: "🛝"
     segments:
-      - text_en: "I played on the swings all afternoon. I didn't go near the basket."
+      - text: "I played on the swings all afternoon. I didn't go near the basket."
         vi: "Cháu chơi xích đu cả buổi chiều. Cháu không đến gần cái giỏ."
         focus: ["all afternoon", "near"]
-      - text_en: "I wasn't hungry because I ate a big breakfast. I don't like sandwiches anyway."
+      - text: "I wasn't hungry because I ate a big breakfast. I don't like sandwiches anyway."
         vi: "Cháu không đói vì cháu đã ăn sáng rất nhiều. Dù sao cháu cũng không thích sandwich."
-      - text_en: "Maybe a dog ate them. There are a lot of dogs in the park!"
+      - text: "Maybe a dog ate them. There are a lot of dogs in the park!"
         vi: "Có lẽ một con chó đã ăn chúng. Trong công viên có rất nhiều chó!"
     checks:
       - claim_vi: "Ben nói cậu chơi xích đu cả buổi chiều."
@@ -106,5 +106,5 @@ solution:
   evidence: [swings-closed, mayo-shirt]
   explain_vi: >-
     Ben nói cậu chơi xích đu cả buổi chiều. Nhưng xích đu đã bị đóng vì mưa, và áo cậu dính sốt mayonnaise như đã ăn sandwich.
-  confession_en: "I'm sorry. I was very hungry, and the sandwiches looked so good. I ate them behind the tree. I'll buy you new ones."
+  confession: "I'm sorry. I was very hungry, and the sandwiches looked so good. I ate them behind the tree. I'll buy you new ones."
   confession_vi: "Cháu xin lỗi. Cháu đói quá và mấy chiếc sandwich trông ngon quá. Cháu ăn sau gốc cây. Cháu sẽ mua cái mới."

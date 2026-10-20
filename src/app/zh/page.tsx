@@ -28,20 +28,29 @@ export default function HomePage() {
       blurb: def.blurb,
       tag: `Chặng ${++n}`,
       group: `HSK ${def.level}`,
-      // the practice tests of a level sit in its last stage
-      tests: ZH_STAGES.filter((d) => d.level === def.level).at(-1)?.id === def.id
-        ? zhTests
-            .filter((t) => String(t.level) === def.level)
-            .map((t) => ({ id: t.id, href: `/zh/kiem-tra/${t.id}`, title: t.title, meta: `${t.minutes} phút · ${t.items} câu · đạt từ ${t.pass}%`, kind: "exam" as const }))
-        : [],
       items: ls.map((l) => ({
         slug: l.slug,
         href: `/zh/lesson/${l.slug}`,
         label: lessonLabel(l),
         title: l.title,
+        number: l.number,
         sub: `${l.words.length} từ · ${l.sentences.length} câu`,
         words: l.words,
       })),
+      // short tests sit after the lesson they follow; the exam-style tests of a level in its last stage
+      tests: zhTests
+        .filter((t) => String(t.level) === def.level)
+        .filter((t) => (t.after !== undefined && t.kind !== "exam" ? t.after >= def.from && t.after <= def.to : ZH_STAGES.filter((d) => d.level === def.level).at(-1)?.id === def.id))
+        .map((t) => ({
+          id: t.id,
+          href: `/zh/kiem-tra/${t.id}`,
+          title: t.title,
+          meta: `${t.kind === "final" ? "Bài đầu ra" : t.kind === "mini" ? `Sau bài ${t.after}` : "Đề luyện thi"} · ${t.minutes} phút · ${t.items} câu · đạt từ ${t.pass}%`,
+          kind: t.kind,
+          after: t.kind === "exam" ? undefined : t.after,
+          trackZh: true,
+          pass: t.pass,
+        })),
     })),
   ];
   const levels = getLevels();

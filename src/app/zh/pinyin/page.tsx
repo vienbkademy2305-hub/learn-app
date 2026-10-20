@@ -5,6 +5,7 @@ import { BASIC_STROKES, FINALS, INITIALS, PRONUNCIATION_DRAFT, SPELLING_RULES, S
 import { lessonCharacters } from "@/domain/display";
 import { tonePool } from "@/domain/pronunciation";
 import { Badge } from "@/components/Badge";
+import { PinyinPlay } from "@/features/pinyin/PinyinPlay";
 import { ListenQuiz } from "@/features/pronunciation/ListenQuiz";
 import { SoundTile, SpeakChip, VoiceNotice } from "@/features/pronunciation/SoundTile";
 import { TONE_COLORS, ToneChart } from "@/features/pronunciation/ToneChart";
@@ -79,6 +80,7 @@ export default function PinyinIntroPage() {
           Trước khi học từ, hãy làm quen với <strong>pinyin</strong> — cách viết âm đọc tiếng Trung bằng chữ Latinh. Bấm vào từng ô để nghe chữ ví dụ, đọc theo nhiều lần.
         </p>
         <VoiceNotice />
+        <PinyinPlay pool={pool.slice(0, 160)} />
         <nav aria-label="Các phần của bài" className="-mx-4 overflow-x-auto px-4">
           <ol className="flex w-max gap-2 text-sm">
             {SECTIONS.map(([id, label]) => (

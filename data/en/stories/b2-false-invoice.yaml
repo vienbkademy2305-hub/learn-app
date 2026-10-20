@@ -15,35 +15,35 @@ premise_vi: >-
 clues:
   - id: same-address
     witness: ben
-    text_en: "The bank account that received the money has the same home address as Dana."
+    text: "The bank account that received the money has the same home address as Dana."
     text_vi: "Tài khoản ngân hàng nhận tiền có cùng địa chỉ nhà với Dana."
   - id: kate-meeting
     witness: kate
-    text_en: "Dana booked a meeting with \"Mr Bright\" for Kate last month."
+    text: "Dana booked a meeting with \"Mr Bright\" for Kate last month."
     text_vi: "Tháng trước Dana nhờ Kate đặt lịch gặp \"ông Bright\"."
   - id: signature
     witness: ben
-    text_en: "The approval signature looked like Dana's."
+    text: "The approval signature looked like Dana's."
     text_vi: "Chữ ký duyệt trông giống chữ ký của Dana."
   - id: kate-holiday
     witness: kate
-    text_en: "Kate was on holiday on Monday."
+    text: "Kate was on holiday on Monday."
     text_vi: "Thứ Hai Kate nghỉ phép."
 
 witnesses:
   - id: ben
     name: Ben
-    role_en: The accountant
+    role: The accountant
     avatar: "💷"
     segments:
-      - text_en: "I process about two hundred invoices a month. This one arrived on Friday with an approval signature, so I paid it on Monday morning."
+      - text: "I process about two hundred invoices a month. This one arrived on Friday with an approval signature, so I paid it on Monday morning."
         vi: "Tôi xử lý khoảng hai trăm hóa đơn mỗi tháng. Hóa đơn này đến hôm thứ Sáu và có chữ ký duyệt nên tôi thanh toán sáng thứ Hai."
         focus: ["process", "approval"]
-      - text_en: "The signature looked like Dana's. Of course, a signature can be copied, so I can't be completely sure."
+      - text: "The signature looked like Dana's. Of course, a signature can be copied, so I can't be completely sure."
         vi: "Chữ ký trông giống của Dana. Tất nhiên chữ ký có thể bị sao chép nên tôi không thể hoàn toàn chắc chắn."
         clues: [signature]
         focus: ["can be copied", "completely"]
-      - text_en: "After the payment, I checked the bank details. The account is registered at an address in Greenfield Road, which is also Dana's home address in our staff records."
+      - text: "After the payment, I checked the bank details. The account is registered at an address in Greenfield Road, which is also Dana's home address in our staff records."
         vi: "Sau khi thanh toán, tôi kiểm tra thông tin ngân hàng. Tài khoản đăng ký tại một địa chỉ ở đường Greenfield, cũng là địa chỉ nhà của Dana trong hồ sơ nhân viên."
         clues: [same-address]
         focus: ["registered", "staff records"]
@@ -59,17 +59,17 @@ witnesses:
         explain_vi: "Đúng: “also Dana's home address.”"
   - id: kate
     name: Kate
-    role_en: The executive assistant
+    role: The executive assistant
     avatar: "📅"
     segments:
-      - text_en: "I manage the diaries of the whole department. Last month, Dana asked me to book a meeting with a Mr Bright from Bright Supplies."
+      - text: "I manage the diaries of the whole department. Last month, Dana asked me to book a meeting with a Mr Bright from Bright Supplies."
         vi: "Tôi quản lý lịch làm việc của cả phòng. Tháng trước Dana nhờ tôi đặt một cuộc gặp với ông Bright của Bright Supplies."
         clues: [kate-meeting]
         focus: ["manage", "book a meeting"]
-      - text_en: "I remember it clearly, because there was no phone number, only an email address, and Dana told me to write 'private' next to it."
+      - text: "I remember it clearly, because there was no phone number, only an email address, and Dana told me to write 'private' next to it."
         vi: "Tôi nhớ rất rõ vì không có số điện thoại, chỉ có địa chỉ email và Dana dặn tôi ghi chữ “riêng tư” bên cạnh."
         focus: ["clearly", "private"]
-      - text_en: "On Monday I was on holiday, so I wasn't in the office when the payment was approved."
+      - text: "On Monday I was on holiday, so I wasn't in the office when the payment was approved."
         vi: "Thứ Hai tôi nghỉ phép nên không ở văn phòng khi khoản thanh toán được duyệt."
         clues: [kate-holiday]
     checks:
@@ -84,16 +84,16 @@ witnesses:
         explain_vi: "Sai: “On Monday I was on holiday.”"
   - id: dana
     name: Dana
-    role_en: The head of purchasing
+    role: The head of purchasing
     avatar: "🧑‍💼"
     segments:
-      - text_en: "I've never heard of Bright Supplies. We have fifty approved suppliers, and that company isn't one of them."
+      - text: "I've never heard of Bright Supplies. We have fifty approved suppliers, and that company isn't one of them."
         vi: "Tôi chưa từng nghe tên Bright Supplies. Chúng ta có năm mươi nhà cung cấp được duyệt và công ty đó không nằm trong số đó."
         focus: ["never heard of", "approved"]
-      - text_en: "My signature is on hundreds of documents. Anyone with a scanner could copy it, and I have nothing to hide."
+      - text: "My signature is on hundreds of documents. Anyone with a scanner could copy it, and I have nothing to hide."
         vi: "Chữ ký của tôi nằm trên hàng trăm tài liệu. Ai có máy quét cũng có thể sao chép nó và tôi không có gì để giấu."
         focus: ["could copy", "nothing to hide"]
-      - text_en: "I live with my parents in Greenfield Road, and a lot of post is delivered to the house. That doesn't prove anything."
+      - text: "I live with my parents in Greenfield Road, and a lot of post is delivered to the house. That doesn't prove anything."
         vi: "Tôi sống cùng bố mẹ ở đường Greenfield và rất nhiều thư được gửi đến nhà. Điều đó không chứng minh được gì."
         focus: ["post", "prove"]
     checks:
@@ -112,5 +112,5 @@ solution:
   explain_vi: >-
     Dana nói cô chưa từng nghe tên Bright Supplies. Nhưng tháng trước cô nhờ Kate đặt lịch gặp "ông Bright",
     và tài khoản nhận 12.000 bảng cùng địa chỉ với nhà cô.
-  confession_en: "I owed a lot of money, and I saw an easy way out. I created the company, wrote the invoice and approved it. I thought nobody checked the small suppliers. I'm sorry; I'll return everything."
+  confession: "I owed a lot of money, and I saw an easy way out. I created the company, wrote the invoice and approved it. I thought nobody checked the small suppliers. I'm sorry; I'll return everything."
   confession_vi: "Tôi nợ rất nhiều tiền và thấy một lối thoát dễ dàng. Tôi lập công ty, viết hóa đơn rồi tự duyệt. Tôi nghĩ không ai kiểm tra các nhà cung cấp nhỏ. Tôi xin lỗi; tôi sẽ hoàn trả tất cả."

@@ -3,7 +3,7 @@
  * Two extra word games (docs/UI_POLISH_PLAN.md): "Lật thẻ ghép đôi" (memory: find each word's meaning among face-down
  * cards) and "Ghép âm thanh" (hear a word, match it with its meaning). Both use the same dark QuizShell as the rest.
  */
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { shuffle } from "@/domain/exercises";
 import type { GameWord } from "@/domain/word-game";
 import { earnXp } from "@/features/activity/store";
@@ -26,7 +26,7 @@ const pick = (words: GameWord[], n: number) => shuffle(words, rng).slice(0, n);
 type Card = { key: string; id: string; side: "term" | "meaning" };
 
 /** Memory game: 6 words → 12 cards. */
-export function FlipGame({ lang, words, onExit }: { lang: "en" | "zh"; words: GameWord[]; onExit: () => void }) {
+export function FlipGame({ lang, words, onExit, onDone }: { lang: "en" | "zh"; words: GameWord[]; onExit: () => void; /** called once per round when every pair is found, with the number of flips */ onDone?: (moves: number) => void }) {
   const [round, setRound] = useState(0);
   const deck = useMemo<{ cards: Card[]; byId: Map<string, GameWord> }>(() => {
     const chosen = pick(words, FLIP_PAIRS);
@@ -49,6 +49,11 @@ export function FlipGame({ lang, words, onExit }: { lang: "en" | "zh"; words: Ga
     paid.current = round;
     earnXp(FLIP_XP);
   }
+
+  useEffect(() => {
+    if (done) onDone?.(moves);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- once per finished round
+  }, [done, round]);
 
   const flip = (c: Card) => {
     if (open.length >= 2 || open.includes(c.key) || found.has(c.id)) return;

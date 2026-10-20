@@ -13,36 +13,36 @@ premise_vi: >-
 clues:
   - id: deleted-510
     witness: nia
-    text_en: "The camera's log shows the photos were deleted at 5:10 pm."
+    text: "The camera's log shows the photos were deleted at 5:10 pm."
     text_vi: "Nhật ký của máy ảnh cho thấy ảnh bị xóa lúc 5:10 chiều."
   - id: theo-bag
     witness: pia
-    text_en: "Pia saw Theo holding the camera bag near the cake table at five o'clock."
+    text: "Pia saw Theo holding the camera bag near the cake table at five o'clock."
     text_vi: "Pia thấy Theo cầm túi máy ảnh gần bàn bánh lúc năm giờ."
   - id: gift-table
     witness: nia
-    text_en: "Nia left the camera on the gift table."
+    text: "Nia left the camera on the gift table."
     text_vi: "Nia để máy ảnh trên bàn quà."
   - id: pia-speech
     witness: pia
-    text_en: "Pia gave a speech at half past five."
+    text: "Pia gave a speech at half past five."
     text_vi: "Pia phát biểu lúc năm giờ rưỡi."
 
 witnesses:
   - id: nia
     name: Nia
-    role_en: The photographer
+    role: The photographer
     avatar: "📷"
     segments:
-      - text_en: "I took about four hundred photos during the ceremony. At five o'clock I put the camera on the gift table and went to take some pictures of the garden."
+      - text: "I took about four hundred photos during the ceremony. At five o'clock I put the camera on the gift table and went to take some pictures of the garden."
         vi: "Tôi chụp khoảng bốn trăm bức ảnh trong buổi lễ. Lúc năm giờ tôi để máy ảnh trên bàn quà và ra vườn chụp vài tấm."
         clues: [gift-table]
         focus: ["took", "went to"]
-      - text_en: "When I came back at a quarter past five, the memory card was empty. The camera's log says the photos were deleted at 5:10 pm."
+      - text: "When I came back at a quarter past five, the memory card was empty. The camera's log says the photos were deleted at 5:10 pm."
         vi: "Khi tôi quay lại lúc năm giờ mười lăm, thẻ nhớ đã trống. Nhật ký của máy ảnh ghi ảnh bị xóa lúc 5:10 chiều."
         clues: [deleted-510]
         focus: ["empty", "log"]
-      - text_en: "Luckily, I had saved part of the photos on my laptop. But the best pictures of the first dance were lost."
+      - text: "Luckily, I had saved part of the photos on my laptop. But the best pictures of the first dance were lost."
         vi: "May mắn là tôi đã lưu một phần ảnh vào máy tính xách tay. Nhưng những bức đẹp nhất của điệu nhảy đầu tiên đã mất."
         focus: ["Luckily", "were lost"]
     checks:
@@ -57,17 +57,17 @@ witnesses:
         explain_vi: "Đúng: “I had saved part of the photos on my laptop.”"
   - id: pia
     name: Pia
-    role_en: A bridesmaid
+    role: A bridesmaid
     avatar: "💐"
     segments:
-      - text_en: "I gave a speech at half past five, so I was nervous and watched the room before that."
+      - text: "I gave a speech at half past five, so I was nervous and watched the room before that."
         vi: "Tôi phát biểu lúc năm giờ rưỡi nên tôi hồi hộp và quan sát căn phòng trước đó."
         clues: [pia-speech]
-      - text_en: "At five o'clock I was standing near the cake table. I saw Theo there, holding the camera bag in both hands."
+      - text: "At five o'clock I was standing near the cake table. I saw Theo there, holding the camera bag in both hands."
         vi: "Lúc năm giờ tôi đứng gần bàn bánh. Tôi thấy Theo ở đó, hai tay cầm túi máy ảnh."
         clues: [theo-bag]
         focus: ["near", "in both hands"]
-      - text_en: "I thought he was looking after it for Nia. I didn't see him open it, though."
+      - text: "I thought he was looking after it for Nia. I didn't see him open it, though."
         vi: "Tôi tưởng anh ấy đang giữ hộ Nia. Tuy nhiên tôi không thấy anh ấy mở nó."
         focus: ["looking after", "though"]
     checks:
@@ -82,15 +82,15 @@ witnesses:
         explain_vi: "Đúng: “I saw Theo there, holding the camera bag.”"
   - id: theo
     name: Theo
-    role_en: The groom's cousin
+    role: The groom's cousin
     avatar: "🥂"
     segments:
-      - text_en: "I never touched Nia's camera. I stayed at the bar with my friends for the whole afternoon."
+      - text: "I never touched Nia's camera. I stayed at the bar with my friends for the whole afternoon."
         vi: "Tôi không hề đụng vào máy ảnh của Nia. Tôi ở quầy bar với bạn bè cả buổi chiều."
         focus: ["never touched", "the whole afternoon"]
-      - text_en: "I don't even know how a professional camera works. I only use my phone."
+      - text: "I don't even know how a professional camera works. I only use my phone."
         vi: "Tôi còn không biết máy ảnh chuyên nghiệp hoạt động thế nào. Tôi chỉ dùng điện thoại."
-      - text_en: "Maybe a guest deleted the photos by accident."
+      - text: "Maybe a guest deleted the photos by accident."
         vi: "Có lẽ một vị khách đã xóa ảnh do nhầm."
     checks:
       - claim_vi: "Theo nói anh đã đụng vào máy ảnh."
@@ -107,5 +107,5 @@ solution:
   evidence: [deleted-510, theo-bag]
   explain_vi: >-
     Theo nói anh ở quầy bar và không đụng vào máy ảnh. Nhưng ảnh bị xóa lúc 5:10 khi máy ở bàn quà, và Pia thấy anh cầm túi máy ảnh gần bàn bánh lúc năm giờ.
-  confession_en: "I'm sorry. I wanted to see the photos, and I pressed the wrong button. I panicked and deleted everything. I should have told Nia at once."
+  confession: "I'm sorry. I wanted to see the photos, and I pressed the wrong button. I panicked and deleted everything. I should have told Nia at once."
   confession_vi: "Tôi xin lỗi. Tôi muốn xem ảnh và bấm nhầm nút. Tôi hoảng quá và xóa hết. Lẽ ra tôi nên nói với Nia ngay."

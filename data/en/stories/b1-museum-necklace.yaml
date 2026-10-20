@@ -13,35 +13,35 @@ premise_vi: >-
 clues:
   - id: guide-was-sue
     witness: ivy
-    text_en: "The school group's guide was Sue; they never met Rob."
+    text: "The school group's guide was Sue; they never met Rob."
     text_vi: "Hướng dẫn viên của đoàn học sinh là chị Sue; họ chưa từng gặp Rob."
   - id: rob-room2
     witness: bell
-    text_en: "Mrs Bell saw Rob in Room 2 at 11:25, holding a bunch of keys."
+    text: "Mrs Bell saw Rob in Room 2 at 11:25, holding a bunch of keys."
     text_vi: "Bà Bell thấy Rob ở Phòng 2 lúc 11:25, tay cầm một chùm chìa khóa."
   - id: cases-security
     witness: kim
-    text_en: "Only security and the guides' manager can open the display cases."
+    text: "Only security and the guides' manager can open the display cases."
     text_vi: "Chỉ bảo vệ và quản lý hướng dẫn viên mới mở được các tủ trưng bày."
   - id: ivy-room5
     witness: ivy
-    text_en: "Ivy's group visited Room 5 from eleven to twelve."
+    text: "Ivy's group visited Room 5 from eleven to twelve."
     text_vi: "Đoàn của cô Ivy tham quan Phòng 5 từ mười một đến mười hai giờ."
 
 witnesses:
   - id: kim
     name: Kim
-    role_en: The security guard
+    role: The security guard
     avatar: "🛡️"
     segments:
-      - text_en: "At 11:30 the alarm for Room 2 rang. When I arrived, the case was open, but the glass wasn't broken."
+      - text: "At 11:30 the alarm for Room 2 rang. When I arrived, the case was open, but the glass wasn't broken."
         vi: "Lúc 11:30 chuông báo của Phòng 2 reo. Khi tôi đến, tủ đã mở nhưng kính không vỡ."
         focus: ["rang", "wasn't broken"]
-      - text_en: "That means somebody opened it with a key. Only security and the guides' manager have keys to the display cases."
+      - text: "That means somebody opened it with a key. Only security and the guides' manager have keys to the display cases."
         vi: "Nghĩa là có người mở nó bằng chìa khóa. Chỉ bảo vệ và quản lý hướng dẫn viên có chìa tủ trưng bày."
         clues: [cases-security]
         focus: ["with a key", "Only"]
-      - text_en: "My own keys were in my pocket the whole time, and the manager is on holiday. I have no idea how this happened."
+      - text: "My own keys were in my pocket the whole time, and the manager is on holiday. I have no idea how this happened."
         vi: "Chìa của tôi nằm trong túi suốt thời gian đó và người quản lý đang nghỉ phép. Tôi không biết chuyện này xảy ra thế nào."
     checks:
       - claim_vi: "Kính của tủ bị vỡ."
@@ -55,16 +55,16 @@ witnesses:
         explain_vi: "Sai: chỉ bảo vệ và quản lý."
   - id: bell
     name: Mrs Bell
-    role_en: The cleaner
+    role: The cleaner
     avatar: "🧹"
     segments:
-      - text_en: "I clean the museum every morning from ten to twelve. I was working in Room 2 when it happened."
+      - text: "I clean the museum every morning from ten to twelve. I was working in Room 2 when it happened."
         vi: "Tôi dọn bảo tàng mỗi sáng từ mười đến mười hai giờ. Tôi đang làm việc ở Phòng 2 khi chuyện xảy ra."
-      - text_en: "At 11:25 I saw Rob standing next to the necklace case. He was holding a bunch of keys and looking around."
+      - text: "At 11:25 I saw Rob standing next to the necklace case. He was holding a bunch of keys and looking around."
         vi: "Lúc 11:25 tôi thấy Rob đứng cạnh tủ vòng cổ. Anh ta cầm một chùm chìa khóa và nhìn quanh."
         clues: [rob-room2]
         focus: ["standing next to", "looking around"]
-      - text_en: "I didn't think it was strange, because Rob works here. I only realised later that he shouldn't have been there."
+      - text: "I didn't think it was strange, because Rob works here. I only realised later that he shouldn't have been there."
         vi: "Tôi không thấy lạ vì Rob làm việc ở đây. Mãi sau này tôi mới nhận ra anh ta không nên ở đó."
         focus: ["shouldn't have been", "realised"]
     checks:
@@ -79,17 +79,17 @@ witnesses:
         explain_vi: "Sai: “I didn't think it was strange.”"
   - id: ivy
     name: Ms Ivy
-    role_en: A visiting teacher
+    role: A visiting teacher
     avatar: "🎒"
     segments:
-      - text_en: "I brought thirty students to the museum today. We visited Room 5 from eleven to twelve to see the old maps."
+      - text: "I brought thirty students to the museum today. We visited Room 5 from eleven to twelve to see the old maps."
         vi: "Hôm nay tôi đưa ba mươi học sinh đến bảo tàng. Chúng tôi tham quan Phòng 5 từ mười một đến mười hai giờ để xem các bản đồ cổ."
         clues: [ivy-room5]
-      - text_en: "Our guide was a woman called Sue. She was very friendly and she stayed with us the whole hour."
+      - text: "Our guide was a woman called Sue. She was very friendly and she stayed with us the whole hour."
         vi: "Hướng dẫn viên của chúng tôi là một chị tên Sue. Chị rất thân thiện và ở với chúng tôi suốt một tiếng."
         clues: [guide-was-sue]
         focus: ["called", "the whole hour"]
-      - text_en: "I've never met anybody called Rob here. Nobody else came into our room."
+      - text: "I've never met anybody called Rob here. Nobody else came into our room."
         vi: "Tôi chưa từng gặp ai tên Rob ở đây. Không ai khác vào phòng của chúng tôi."
     checks:
       - claim_vi: "Cô Ivy đưa ba mươi học sinh đến bảo tàng."
@@ -103,15 +103,15 @@ witnesses:
         explain_vi: "Đúng: “from eleven to twelve.”"
   - id: rob
     name: Rob
-    role_en: A museum guide
+    role: A museum guide
     avatar: "🧭"
     segments:
-      - text_en: "I led a school group around the museum from eleven to twelve. We spent most of the time in Room 5."
+      - text: "I led a school group around the museum from eleven to twelve. We spent most of the time in Room 5."
         vi: "Tôi dẫn một đoàn học sinh đi quanh bảo tàng từ mười một đến mười hai giờ. Chúng tôi ở Phòng 5 gần hết thời gian."
         focus: ["led", "most of the time"]
-      - text_en: "I was never in Room 2 this morning. I haven't touched any display case."
+      - text: "I was never in Room 2 this morning. I haven't touched any display case."
         vi: "Sáng nay tôi không hề ở Phòng 2. Tôi chưa đụng vào tủ trưng bày nào."
-      - text_en: "I've worked here for ten years and I love this museum. I would never steal from it."
+      - text: "I've worked here for ten years and I love this museum. I would never steal from it."
         vi: "Tôi làm việc ở đây mười năm và yêu bảo tàng này. Tôi sẽ không bao giờ lấy trộm từ nó."
     checks:
       - claim_vi: "Rob nói anh dẫn đoàn học sinh."
@@ -129,5 +129,5 @@ solution:
   explain_vi: >-
     Rob nói anh dẫn đoàn học sinh ở Phòng 5. Nhưng cô Ivy nói hướng dẫn viên của đoàn là chị Sue và họ chưa gặp Rob,
     còn bà Bell thấy Rob cạnh tủ vòng cổ ở Phòng 2 với chùm chìa khóa lúc 11:25.
-  confession_en: "I'm sorry. I owe a lot of money, and I borrowed the manager's spare keys. I thought I could sell the necklace and replace it with a copy. I never wanted to hurt the museum."
+  confession: "I'm sorry. I owe a lot of money, and I borrowed the manager's spare keys. I thought I could sell the necklace and replace it with a copy. I never wanted to hurt the museum."
   confession_vi: "Tôi xin lỗi. Tôi nợ rất nhiều tiền và tôi đã mượn chùm chìa dự phòng của quản lý. Tôi nghĩ có thể bán chiếc vòng rồi thay bằng một bản sao. Tôi chưa bao giờ muốn làm hại bảo tàng."

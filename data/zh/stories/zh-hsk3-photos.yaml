@@ -1,0 +1,113 @@
+# Sự thật: ảnh du lịch bị xóa khỏi máy ảnh lúc 9 giờ tối. Tiểu Chu nói anh chưa hề đụng vào máy ảnh, tối đó anh ở trong phòng xem phim;
+# hướng dẫn viên: nhật ký máy ảnh ghi ảnh bị xóa lúc 9 giờ, khi đó máy đặt trên bàn ăn; Tiểu Lâm: 9 giờ thấy Tiểu Chu ngồi cạnh bàn ăn, vừa uống trà vừa xem máy ảnh. Hung thủ: Tiểu Chu.
+id: zh-hsk3-photos
+level: HSK3
+lesson_range: [1, 19]
+status: draft
+title_vi: Những tấm ảnh bị xóa
+cover: "📷"
+premise_vi: >-
+  Sau chuyến du lịch, hơn hai trăm tấm ảnh trong máy ảnh của cả nhóm bị xóa mất. Ba người có mặt gần chiếc máy ảnh tối đó.
+  Ai đã xóa ảnh?
+
+clues:
+  - id: deleted-nine
+    witness: daoyou
+    text: "照片是晚上九点被删除的，那时相机放在餐桌上。"
+    text_vi: "Ảnh bị xóa lúc chín giờ tối, khi đó máy ảnh đặt trên bàn ăn."
+  - id: saw-camera
+    witness: xiaolin
+    text: "九点的时候，小林看见小周坐在餐桌旁边，一边喝茶一边看相机。"
+    text_vi: "Lúc chín giờ, Tiểu Lâm thấy Tiểu Chu ngồi cạnh bàn ăn, vừa uống trà vừa xem máy ảnh."
+  - id: camera-table
+    witness: daoyou
+    text: "相机放在餐桌上。"
+    text_vi: "Máy ảnh để trên bàn ăn."
+  - id: xiaolin-bath
+    witness: xiaolin
+    text: "小林八点半去洗澡。"
+    text_vi: "Tám giờ rưỡi Tiểu Lâm đi tắm."
+
+witnesses:
+  - id: daoyou
+    name: 导游
+    role: 旅行团的导游
+    avatar: "🧭"
+    segments:
+      - text: "今天晚上我把相机放在餐桌上，然后去给客人们准备明天的旅行。"
+        vi: "Tối nay tôi để máy ảnh trên bàn ăn rồi đi chuẩn bị chuyến đi ngày mai cho khách."
+        clues: [camera-table]
+        focus: ["餐桌", "准备"]
+      - text: "我回来的时候，发现相机里的照片都被删除了，一共两百多张。"
+        vi: "Khi quay lại, tôi phát hiện ảnh trong máy ảnh đều đã bị xóa, tổng cộng hơn hai trăm tấm."
+        focus: ["被删除了", "两百多张"]
+      - text: "我看了相机的记录：照片是晚上九点被删除的，那时相机放在餐桌上。"
+        vi: "Tôi xem nhật ký của máy ảnh: ảnh bị xóa lúc chín giờ tối, khi đó máy ảnh đang đặt trên bàn ăn."
+        clues: [deleted-nine]
+        focus: ["记录", "九点"]
+    checks:
+      - claim_vi: "Hướng dẫn viên để máy ảnh trên bàn ăn."
+        answer: true
+        explain_vi: "Đúng: “我把相机放在餐桌上。”"
+      - claim_vi: "Ảnh bị xóa lúc tám giờ."
+        answer: false
+        explain_vi: "Sai: chín giờ tối."
+      - claim_vi: "Có hơn hai trăm tấm ảnh bị xóa."
+        answer: true
+        explain_vi: "Đúng: “一共两百多张。”"
+  - id: xiaolin
+    name: 小林
+    role: 游客
+    avatar: "🍵"
+    segments:
+      - text: "晚上八点半，我去洗澡了。我洗了半个小时。"
+        vi: "Tám giờ rưỡi tối em đi tắm. Em tắm nửa tiếng."
+        clues: [xiaolin-bath]
+      - text: "洗完澡我去餐厅喝水。九点的时候，我看见小周坐在餐桌旁边。"
+        vi: "Tắm xong em ra phòng ăn uống nước. Lúc chín giờ, em thấy Tiểu Chu ngồi cạnh bàn ăn."
+        focus: ["餐厅", "旁边"]
+      - text: "他一边喝茶，一边看着相机。他看见我，就把相机放下了。"
+        vi: "Anh ấy vừa uống trà vừa nhìn máy ảnh. Thấy em, anh ấy liền đặt máy ảnh xuống."
+        clues: [saw-camera]
+        focus: ["一边", "放下了"]
+    checks:
+      - claim_vi: "Tiểu Lâm đi tắm lúc tám giờ rưỡi."
+        answer: true
+        explain_vi: "Đúng: “晚上八点半，我去洗澡了。”"
+      - claim_vi: "Tiểu Lâm thấy Tiểu Chu ngồi cạnh bàn ăn lúc chín giờ."
+        answer: true
+        explain_vi: "Đúng: “九点的时候，我看见小周坐在餐桌旁边。”"
+      - claim_vi: "Tiểu Chu tiếp tục xem máy ảnh khi thấy Tiểu Lâm."
+        answer: false
+        explain_vi: "Sai: “他看见我，就把相机放下了。”"
+  - id: xiaozhou
+    name: 小周
+    role: 游客
+    avatar: "🎬"
+    segments:
+      - text: "我从来没有碰过导游的相机。我不喜欢拍照。"
+        vi: "Tôi chưa từng đụng vào máy ảnh của hướng dẫn viên. Tôi không thích chụp ảnh."
+        focus: ["从来没有", "碰过"]
+      - text: "今天晚上我一直在房间里看电影，九点以后才睡觉。"
+        vi: "Tối nay tôi luôn ở trong phòng xem phim, sau chín giờ mới đi ngủ."
+        focus: ["一直", "看电影"]
+      - text: "也许是别的客人不小心删除了照片。"
+        vi: "Có lẽ một vị khách khác vô ý xóa mất ảnh."
+    checks:
+      - claim_vi: "Tiểu Chu nói anh từng đụng vào máy ảnh."
+        answer: false
+        explain_vi: "Sai: “我从来没有碰过导游的相机。”"
+      - claim_vi: "Tiểu Chu nói tối đó anh xem phim trong phòng."
+        answer: true
+        explain_vi: "Đúng: “我一直在房间里看电影。”"
+      - claim_vi: "Tiểu Chu nghĩ có khách khác xóa ảnh do vô ý."
+        answer: true
+        explain_vi: "Đúng: “别的客人不小心删除了照片。”"
+solution:
+  culprit: xiaozhou
+  evidence: [deleted-nine, saw-camera]
+  explain_vi: >-
+    Tiểu Chu nói anh ở trong phòng xem phim và không đụng vào máy ảnh. Nhưng ảnh bị xóa lúc chín giờ khi máy đặt trên bàn ăn,
+    và Tiểu Lâm thấy đúng lúc đó anh ngồi cạnh bàn ăn, vừa uống trà vừa xem máy ảnh.
+  confession: "对不起。我想看大家的照片，不小心按错了键，把照片都删除了。我很害怕，所以没有说实话。"
+  confession_vi: "Tôi xin lỗi. Tôi muốn xem ảnh của mọi người, lỡ bấm nhầm nút và xóa hết ảnh. Tôi sợ quá nên không nói thật."

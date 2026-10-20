@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { stories, story } from "@/content/stories";
+import { storiesOf, story } from "@/content/stories";
 import { StoryPlayer } from "@/features/stories/StoryPlayer";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return stories().map((s) => ({ id: s.id }));
+  return storiesOf("en").map((s) => ({ id: s.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
@@ -16,6 +16,6 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function StoryPage({ params }: { params: Promise<{ id: string }> }) {
   const s = story((await params).id);
-  if (!s) notFound();
+  if (!s || s.lang !== "en") notFound();
   return <StoryPlayer story={s} />;
 }

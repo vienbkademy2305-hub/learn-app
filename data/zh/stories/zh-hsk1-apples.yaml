@@ -1,0 +1,109 @@
+# Sự thật: 5 quả táo trong tủ lạnh biến mất. Em trai nói em không thích táo và sáng nay chỉ uống nước, không mở tủ lạnh;
+# chị: hôm qua em nói "em muốn ăn táo"; bố: sáng nay 7 giờ thấy em đứng trước tủ lạnh, trong tay có một quả táo. Hung thủ: em trai.
+id: zh-hsk1-apples
+level: HSK1
+lesson_range: [1, 14]
+status: draft
+title_vi: Ai đã ăn táo?
+cover: "🍎"
+premise_vi: >-
+  Hôm qua chị mua năm quả táo để trong tủ lạnh. Sáng nay không còn quả nào. Ba người trong nhà đều nói mình không ăn.
+  Ai đã ăn hết táo?
+
+clues:
+  - id: said-want
+    witness: jiejie
+    text: "弟弟昨天说：我想吃苹果。"
+    text_vi: "Hôm qua em trai nói: em muốn ăn táo."
+  - id: fridge-saw
+    witness: baba
+    text: "爸爸看见弟弟在冰箱前面，他手里有一个苹果。"
+    text_vi: "Bố thấy em trai đứng trước tủ lạnh, trong tay có một quả táo."
+  - id: five-apples
+    witness: jiejie
+    text: "冰箱里有五个苹果。"
+    text_vi: "Trong tủ lạnh có năm quả táo."
+  - id: seven
+    witness: baba
+    text: "爸爸早上七点喝水。"
+    text_vi: "Bảy giờ sáng bố uống nước."
+
+witnesses:
+  - id: baba
+    name: 爸爸
+    role: 爸爸
+    avatar: "👨"
+    segments:
+      - text: "今天早上七点，我去喝水。"
+        vi: "Bảy giờ sáng nay, bố đi uống nước."
+        clues: [seven]
+      - text: "我看见弟弟在冰箱前面，他手里有一个苹果。"
+        vi: "Bố thấy em trai đứng trước tủ lạnh, trong tay có một quả táo."
+        clues: [fridge-saw]
+        focus: ["冰箱前面", "手里"]
+      - text: "我没有吃苹果。我今天只喝水。"
+        vi: "Bố không ăn táo. Hôm nay bố chỉ uống nước."
+    checks:
+      - claim_vi: "Bố uống nước lúc bảy giờ sáng."
+        answer: true
+        explain_vi: "Đúng: “今天早上七点，我去喝水。”"
+      - claim_vi: "Bố thấy chị đứng trước tủ lạnh."
+        answer: false
+        explain_vi: "Sai: bố thấy em trai."
+      - claim_vi: "Bố đã ăn táo."
+        answer: false
+        explain_vi: "Sai: “我没有吃苹果。”"
+  - id: jiejie
+    name: 姐姐
+    role: 姐姐
+    avatar: "👧"
+    segments:
+      - text: "昨天我买了苹果。冰箱里有五个苹果。"
+        vi: "Hôm qua chị mua táo. Trong tủ lạnh có năm quả táo."
+        clues: [five-apples]
+        focus: ["买了", "五个"]
+      - text: "今天一个也没有了，我很不高兴。"
+        vi: "Hôm nay không còn quả nào, chị rất không vui."
+      - text: "昨天弟弟说：“我想吃苹果。”"
+        vi: "Hôm qua em trai nói: “Em muốn ăn táo.”"
+        clues: [said-want]
+        focus: ["想吃"]
+    checks:
+      - claim_vi: "Chị mua năm quả táo."
+        answer: true
+        explain_vi: "Đúng: “冰箱里有五个苹果。”"
+      - claim_vi: "Hôm nay vẫn còn táo trong tủ lạnh."
+        answer: false
+        explain_vi: "Sai: “今天一个也没有了。”"
+      - claim_vi: "Em trai nói em muốn ăn táo."
+        answer: true
+        explain_vi: "Đúng: “我想吃苹果。”"
+  - id: didi
+    name: 弟弟
+    role: 弟弟
+    avatar: "👦"
+    segments:
+      - text: "我不喜欢吃苹果。我喜欢吃面包。"
+        vi: "Em không thích ăn táo. Em thích ăn bánh mì."
+        focus: ["不喜欢", "面包"]
+      - text: "今天早上我只喝水，没有开冰箱。"
+        vi: "Sáng nay em chỉ uống nước, không mở tủ lạnh."
+      - text: "也许是猫吃了苹果。"
+        vi: "Có lẽ con mèo đã ăn táo."
+    checks:
+      - claim_vi: "Em trai nói em thích ăn táo."
+        answer: false
+        explain_vi: "Sai: “我不喜欢吃苹果。”"
+      - claim_vi: "Em trai nói sáng nay em không mở tủ lạnh."
+        answer: true
+        explain_vi: "Đúng: “没有开冰箱。”"
+      - claim_vi: "Em trai nghĩ con mèo có thể ăn táo."
+        answer: true
+        explain_vi: "Đúng: “也许是猫吃了苹果。”"
+solution:
+  culprit: didi
+  evidence: [said-want, fridge-saw]
+  explain_vi: >-
+    Em trai nói em không thích táo và không mở tủ lạnh. Nhưng hôm qua em nói muốn ăn táo, và sáng nay bố thấy em đứng trước tủ lạnh với một quả táo trong tay.
+  confession: "对不起，姐姐。我很想吃苹果，早上就吃了五个。我明天给你买。"
+  confession_vi: "Em xin lỗi chị. Em rất muốn ăn táo nên sáng đã ăn hết năm quả. Ngày mai em mua cho chị."

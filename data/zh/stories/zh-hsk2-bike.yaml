@@ -1,0 +1,110 @@
+# Sự thật: xe đạp của tiểu Trương bị mất trước công ty lúc 6 giờ. Tiểu Lý nói anh ngồi xe buýt lúc 6 giờ về nhà;
+# bảo vệ: hôm nay vì mưa lớn xe buýt dừng chạy, 6 giờ rưỡi mới có xe; tiểu Trương: 6 giờ thấy tiểu Lý đứng cạnh xe đạp, tay cầm một cái kìm. Hung thủ: tiểu Lý.
+id: zh-hsk2-bike
+level: HSK2
+lesson_range: [1, 23]
+status: draft
+title_vi: Chiếc xe đạp bị mất
+cover: "🚲"
+premise_vi: >-
+  Tiểu Trương khóa xe đạp trước cửa công ty. Lúc tan làm, chiếc xe đã biến mất và ổ khóa bị cắt.
+  Ba người ở gần đó, ai đã lấy xe?
+
+clues:
+  - id: bus-stopped
+    witness: baoan
+    text: "因为下大雨，公共汽车六点不开，六点半才有车。"
+    text_vi: "Vì mưa lớn, xe buýt sáu giờ không chạy, sáu giờ rưỡi mới có xe."
+  - id: scissors
+    witness: xiaozhang
+    text: "小李站在自行车旁边，手里有一把剪刀。"
+    text_vi: "Tiểu Lý đứng cạnh xe đạp, trong tay có một cái kìm."
+  - id: lock-cut
+    witness: baoan
+    text: "车锁被剪开了。"
+    text_vi: "Ổ khóa xe bị cắt."
+  - id: work-late
+    witness: xiaozhang
+    text: "小张工作到六点。"
+    text_vi: "Tiểu Trương làm việc đến sáu giờ."
+
+witnesses:
+  - id: baoan
+    name: 保安
+    role: 公司的保安
+    avatar: "🔦"
+    segments:
+      - text: "我在公司门口工作。下午六点，我看见自行车没有了。"
+        vi: "Tôi làm việc ở cổng công ty. Sáu giờ chiều tôi thấy chiếc xe đạp không còn."
+        focus: ["门口", "没有了"]
+      - text: "地上有一把车锁，车锁被剪开了。"
+        vi: "Dưới đất có một ổ khóa xe, ổ khóa bị cắt."
+        clues: [lock-cut]
+      - text: "今天因为下大雨，公共汽车六点不开，六点半才有车。"
+        vi: "Hôm nay vì mưa lớn, xe buýt sáu giờ không chạy, sáu giờ rưỡi mới có xe."
+        clues: [bus-stopped]
+        focus: ["因为", "六点半才有车"]
+    checks:
+      - claim_vi: "Bảo vệ làm việc ở cổng công ty."
+        answer: true
+        explain_vi: "Đúng: “我在公司门口工作。”"
+      - claim_vi: "Ổ khóa xe được mở bằng chìa."
+        answer: false
+        explain_vi: "Sai: “车锁被剪开了。”"
+      - claim_vi: "Hôm nay xe buýt sáu giờ vẫn chạy."
+        answer: false
+        explain_vi: "Sai: sáu giờ không chạy, sáu giờ rưỡi mới có xe."
+  - id: xiaozhang
+    name: 小张
+    role: 自行车的主人
+    avatar: "🧑‍💼"
+    segments:
+      - text: "我今天工作到六点。我的自行车在公司门口。"
+        vi: "Hôm nay tôi làm việc đến sáu giờ. Xe đạp của tôi để ở cổng công ty."
+        clues: [work-late]
+      - text: "六点我从窗户看出去，看见小李站在我的自行车旁边，手里有一把剪刀。"
+        vi: "Sáu giờ tôi nhìn ra từ cửa sổ, thấy tiểu Lý đứng cạnh xe đạp của tôi, trong tay có một cái kìm."
+        clues: [scissors]
+        focus: ["窗户", "剪刀"]
+      - text: "我以为他是工人，所以没有下楼。现在我觉得很后悔。"
+        vi: "Tôi tưởng anh ta là thợ nên không xuống lầu. Bây giờ tôi thấy rất hối hận."
+    checks:
+      - claim_vi: "Tiểu Trương làm việc đến sáu giờ."
+        answer: true
+        explain_vi: "Đúng: “我今天工作到六点。”"
+      - claim_vi: "Tiểu Trương thấy tiểu Lý cầm một cái kìm."
+        answer: true
+        explain_vi: "Đúng: “手里有一把剪刀。”"
+      - claim_vi: "Tiểu Trương xuống lầu ngay khi thấy tiểu Lý."
+        answer: false
+        explain_vi: "Sai: “所以没有下楼。”"
+  - id: xiaoli
+    name: 小李
+    role: 同事
+    avatar: "🧢"
+    segments:
+      - text: "我今天六点下班，坐公共汽车回家。"
+        vi: "Hôm nay tôi tan làm lúc sáu giờ, đi xe buýt về nhà."
+        focus: ["下班", "公共汽车"]
+      - text: "我没有去过自行车旁边。我不知道那是谁的车。"
+        vi: "Tôi chưa hề đến gần chiếc xe đạp. Tôi không biết đó là xe của ai."
+      - text: "我没有剪刀。我的包里只有书。"
+        vi: "Tôi không có kìm. Trong túi tôi chỉ có sách."
+    checks:
+      - claim_vi: "Tiểu Lý nói anh đi xe buýt về nhà."
+        answer: true
+        explain_vi: "Đúng: “坐公共汽车回家。”"
+      - claim_vi: "Tiểu Lý nói anh có một cái kìm."
+        answer: false
+        explain_vi: "Sai: “我没有剪刀。”"
+      - claim_vi: "Tiểu Lý nói anh biết chiếc xe là của ai."
+        answer: false
+        explain_vi: "Sai: “我不知道那是谁的车。”"
+solution:
+  culprit: xiaoli
+  evidence: [bus-stopped, scissors]
+  explain_vi: >-
+    Tiểu Lý nói anh đi xe buýt lúc sáu giờ. Nhưng hôm đó vì mưa lớn xe buýt đến sáu giờ rưỡi mới chạy,
+    và tiểu Trương thấy anh đứng cạnh xe đạp với một cái kìm lúc sáu giờ.
+  confession: "对不起。我今天要早点回家，可是没有车。我看见一辆自行车，就用剪刀剪开了车锁。明天我还给你。"
+  confession_vi: "Xin lỗi. Hôm nay tôi cần về nhà sớm mà không có xe. Tôi thấy một chiếc xe đạp nên đã dùng kìm cắt ổ khóa. Ngày mai tôi sẽ trả lại bạn."

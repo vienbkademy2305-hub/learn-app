@@ -13,35 +13,35 @@ premise_vi: >-
 clues:
   - id: boots-door
     witness: anna
-    text_en: "Tom's boots were wet by the back door, not in the garage."
+    text: "Tom's boots were wet by the back door, not in the garage."
     text_vi: "Ủng của Tom ướt cạnh cửa sau, không nằm trong gara."
   - id: small-prints
     witness: dad
-    text_en: "The footprints were small, size four. Dad's boots are size ten."
+    text: "The footprints were small, size four. Dad's boots are size ten."
     text_vi: "Các dấu chân nhỏ, cỡ bốn. Giày của bố cỡ mười."
   - id: anna-garage
     witness: anna
-    text_en: "Anna tidied the garage in the morning."
+    text: "Anna tidied the garage in the morning."
     text_vi: "Anna dọn gara vào buổi sáng."
   - id: dad-shed
     witness: dad
-    text_en: "Dad was working in the shed."
+    text: "Dad was working in the shed."
     text_vi: "Bố đang làm việc trong nhà kho."
 
 witnesses:
   - id: dad
     name: Dad
-    role_en: The father
+    role: The father
     avatar: "🧰"
     segments:
-      - text_en: "I was working in the shed all afternoon. I only came in for a drink of water."
+      - text: "I was working in the shed all afternoon. I only came in for a drink of water."
         vi: "Bố làm việc trong nhà kho cả buổi chiều. Bố chỉ vào nhà uống nước."
         clues: [dad-shed]
-      - text_en: "I looked at the footprints on the kitchen floor. They were very small. My boots are size ten, so they aren't mine."
+      - text: "I looked at the footprints on the kitchen floor. They were very small. My boots are size ten, so they aren't mine."
         vi: "Bố nhìn các dấu chân trên sàn bếp. Chúng rất nhỏ. Giày của bố cỡ mười nên không phải của bố."
         clues: [small-prints]
         focus: ["small", "size ten"]
-      - text_en: "They were size four, like Tom's boots."
+      - text: "They were size four, like Tom's boots."
         vi: "Chúng cỡ bốn, giống ủng của Tom."
     checks:
       - claim_vi: "Bố làm việc trong nhà kho."
@@ -55,17 +55,17 @@ witnesses:
         explain_vi: "Đúng: “They were very small.”"
   - id: anna
     name: Anna
-    role_en: Tom's sister
+    role: Tom's sister
     avatar: "🎀"
     segments:
-      - text_en: "I tidied the garage this morning. I put all the shoes and boots on the shelf."
+      - text: "I tidied the garage this morning. I put all the shoes and boots on the shelf."
         vi: "Sáng nay em dọn gara. Em xếp tất cả giày và ủng lên kệ."
         clues: [anna-garage]
-      - text_en: "Tom's boots weren't in the garage. They were by the back door, and they were wet."
+      - text: "Tom's boots weren't in the garage. They were by the back door, and they were wet."
         vi: "Ủng của Tom không ở trong gara. Chúng ở cạnh cửa sau và còn ướt."
         clues: [boots-door]
         focus: ["by the back door", "wet"]
-      - text_en: "Tom said, 'I'm going to do my homework.' He went upstairs."
+      - text: "Tom said, 'I'm going to do my homework.' He went upstairs."
         vi: "Tom nói: “Anh đi làm bài tập đây.” Anh ấy lên lầu."
     checks:
       - claim_vi: "Anna dọn gara vào buổi sáng."
@@ -79,15 +79,15 @@ witnesses:
         explain_vi: "Đúng: “He went upstairs.”"
   - id: tom
     name: Tom
-    role_en: The brother
+    role: The brother
     avatar: "📚"
     segments:
-      - text_en: "I did my homework in my room all afternoon. I never went outside."
+      - text: "I did my homework in my room all afternoon. I never went outside."
         vi: "Anh làm bài tập trong phòng cả buổi chiều. Anh không hề ra ngoài."
         focus: ["all afternoon", "never"]
-      - text_en: "My boots are in the garage. I didn't wear them today."
+      - text: "My boots are in the garage. I didn't wear them today."
         vi: "Ủng của anh ở trong gara. Hôm nay anh không đi chúng."
-      - text_en: "Maybe the dog brought mud into the kitchen."
+      - text: "Maybe the dog brought mud into the kitchen."
         vi: "Có lẽ con chó mang bùn vào bếp."
     checks:
       - claim_vi: "Tom nói cậu làm bài tập trong phòng."
@@ -104,5 +104,5 @@ solution:
   evidence: [boots-door, small-prints]
   explain_vi: >-
     Tom nói cậu ở trong phòng và ủng để trong gara. Nhưng ủng của cậu ướt cạnh cửa sau, và dấu chân nhỏ cỡ bốn giống ủng của cậu.
-  confession_en: "I'm sorry, Mum. I went outside to play in the rain. I came in through the kitchen with my boots on. I was afraid you'd be angry."
+  confession: "I'm sorry, Mum. I went outside to play in the rain. I came in through the kitchen with my boots on. I was afraid you'd be angry."
   confession_vi: "Con xin lỗi mẹ. Con ra ngoài chơi dưới mưa. Con đi ủng vào bếp. Con sợ mẹ giận."

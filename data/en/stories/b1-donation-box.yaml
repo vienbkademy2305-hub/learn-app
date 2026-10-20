@@ -13,36 +13,36 @@ premise_vi: >-
 clues:
   - id: raffle-closed
     witness: rao
-    text_en: "The raffle table was closed from one to two because of lunch."
+    text: "The raffle table was closed from one to two because of lunch."
     text_vi: "Bàn vé số đóng cửa từ một đến hai giờ vì nghỉ trưa."
   - id: jacket-box
     witness: fran
-    text_en: "Fran saw Eli walk towards the donation box at 1:15 with a jacket over his arm."
+    text: "Fran saw Eli walk towards the donation box at 1:15 with a jacket over his arm."
     text_vi: "Fran thấy Eli đi về phía hộp quyên góp lúc 1:15, áo khoác vắt trên tay."
   - id: box-position
     witness: rao
-    text_en: "The donation box stood next to the main door."
+    text: "The donation box stood next to the main door."
     text_vi: "Hộp quyên góp đặt cạnh cửa chính."
   - id: fran-cakes
     witness: fran
-    text_en: "Fran sold cakes at table 5."
+    text: "Fran sold cakes at table 5."
     text_vi: "Fran bán bánh ở bàn số 5."
 
 witnesses:
   - id: rao
     name: Ms Rao
-    role_en: The fair organiser
+    role: The fair organiser
     avatar: "📋"
     segments:
-      - text_en: "I organised the whole fair. The donation box stood next to the main door, and there were about two hundred pounds in it."
+      - text: "I organised the whole fair. The donation box stood next to the main door, and there were about two hundred pounds in it."
         vi: "Tôi tổ chức cả hội chợ. Hộp quyên góp đặt cạnh cửa chính và bên trong có khoảng hai trăm bảng."
         clues: [box-position]
         focus: ["organised", "next to"]
-      - text_en: "At one o'clock I closed the raffle table myself, because the volunteers needed a lunch break. It stayed closed until two."
+      - text: "At one o'clock I closed the raffle table myself, because the volunteers needed a lunch break. It stayed closed until two."
         vi: "Lúc một giờ chính tôi đóng bàn vé số vì các tình nguyện viên cần nghỉ trưa. Nó đóng đến hai giờ."
         clues: [raffle-closed]
         focus: ["closed", "stayed closed"]
-      - text_en: "At a quarter to two I opened the box to count the money, and it was empty."
+      - text: "At a quarter to two I opened the box to count the money, and it was empty."
         vi: "Lúc hai giờ kém mười lăm tôi mở hộp để đếm tiền và nó trống rỗng."
     checks:
       - claim_vi: "Hộp quyên góp đặt cạnh cửa chính."
@@ -56,17 +56,17 @@ witnesses:
         explain_vi: "Đúng: “At a quarter to two I opened the box.”"
   - id: fran
     name: Fran
-    role_en: A volunteer
+    role: A volunteer
     avatar: "🍰"
     segments:
-      - text_en: "I sold cakes at table 5, which is opposite the main door. I had a perfect view of the entrance."
+      - text: "I sold cakes at table 5, which is opposite the main door. I had a perfect view of the entrance."
         vi: "Tôi bán bánh ở bàn số 5, đối diện cửa chính. Tôi nhìn rất rõ lối vào."
         clues: [fran-cakes]
-      - text_en: "At about a quarter past one, Eli left his table. He walked towards the donation box with a jacket over his arm."
+      - text: "At about a quarter past one, Eli left his table. He walked towards the donation box with a jacket over his arm."
         vi: "Khoảng một giờ mười lăm, Eli rời bàn của mình. Anh ấy đi về phía hộp quyên góp với áo khoác vắt trên tay."
         clues: [jacket-box]
         focus: ["towards", "over his arm"]
-      - text_en: "I couldn't see what he did, because a group of parents stood in front of me. When they left, Eli had already gone."
+      - text: "I couldn't see what he did, because a group of parents stood in front of me. When they left, Eli had already gone."
         vi: "Tôi không thấy anh ấy làm gì vì một nhóm phụ huynh đứng chắn trước mặt. Khi họ đi, Eli đã đi mất."
         focus: ["in front of", "had already gone"]
     checks:
@@ -81,15 +81,15 @@ witnesses:
         explain_vi: "Đúng: “with a jacket over his arm.”"
   - id: gus
     name: Gus
-    role_en: The caretaker
+    role: The caretaker
     avatar: "🔑"
     segments:
-      - text_en: "I opened the hall at eight o'clock this morning. I stayed in the boiler room most of the afternoon."
+      - text: "I opened the hall at eight o'clock this morning. I stayed in the boiler room most of the afternoon."
         vi: "Tôi mở hội trường lúc tám giờ sáng nay. Tôi ở trong phòng nồi hơi gần hết buổi chiều."
-      - text_en: "I only came out once, at two o'clock, to carry some chairs. By then, everybody was talking about the money."
+      - text: "I only came out once, at two o'clock, to carry some chairs. By then, everybody was talking about the money."
         vi: "Tôi chỉ ra ngoài một lần, lúc hai giờ, để bê ghế. Khi đó mọi người đang bàn tán về số tiền."
         focus: ["only", "By then"]
-      - text_en: "The cleaner found nothing near the door. I don't know anything else."
+      - text: "The cleaner found nothing near the door. I don't know anything else."
         vi: "Nhân viên dọn dẹp không thấy gì gần cửa. Tôi không biết thêm điều gì."
     checks:
       - claim_vi: "Gus mở hội trường lúc tám giờ sáng."
@@ -103,15 +103,15 @@ witnesses:
         explain_vi: "Sai: “I don't know anything else.”"
   - id: eli
     name: Eli
-    role_en: A volunteer
+    role: A volunteer
     avatar: "🎟️"
     segments:
-      - text_en: "I sold raffle tickets at table 3 from one to three o'clock. I didn't leave the table once."
+      - text: "I sold raffle tickets at table 3 from one to three o'clock. I didn't leave the table once."
         vi: "Tôi bán vé số ở bàn 3 từ một đến ba giờ. Tôi không rời bàn lần nào."
         focus: ["from … to", "didn't leave"]
-      - text_en: "I was never near the donation box. I even gave my own money to the library this morning."
+      - text: "I was never near the donation box. I even gave my own money to the library this morning."
         vi: "Tôi không hề lại gần hộp quyên góp. Sáng nay tôi còn tự đóng tiền cho thư viện."
-      - text_en: "Perhaps somebody came in through the side door. It's possible."
+      - text: "Perhaps somebody came in through the side door. It's possible."
         vi: "Có lẽ ai đó vào bằng cửa hông. Có thể lắm."
     checks:
       - claim_vi: "Eli nói anh bán vé số từ một đến ba giờ."
@@ -129,5 +129,5 @@ solution:
   explain_vi: >-
     Eli nói anh bán vé số từ một đến ba giờ và không rời bàn. Nhưng bàn vé số đóng từ một đến hai giờ,
     và Fran thấy anh đi về phía hộp quyên góp lúc 1:15 với áo khoác vắt trên tay.
-  confession_en: "I'm sorry. I lost my phone last week, and I needed money for a new one. I put my hand in the box under my jacket. I'll pay everything back, I promise."
+  confession: "I'm sorry. I lost my phone last week, and I needed money for a new one. I put my hand in the box under my jacket. I'll pay everything back, I promise."
   confession_vi: "Tôi xin lỗi. Tuần trước tôi mất điện thoại và cần tiền mua cái mới. Tôi thò tay vào hộp dưới chiếc áo khoác. Tôi hứa sẽ trả lại hết."

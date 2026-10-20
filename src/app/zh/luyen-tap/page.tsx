@@ -17,7 +17,8 @@ export default function ChinesePracticeHubPage() {
         { href: "/zh/flashcards", icon: "🃏", title: "Sổ từ & học thuộc", hint: "Flashcard và game nối từ" },
         { href: "/zh/hoi-thoai-ai", icon: "💬", title: "Hội thoại AI", hint: "Trò chuyện theo tình huống" },
         { href: "/zh/kiem-tra", icon: "📝", title: "Đề luyện thi", hint: "Đề HSK theo cấp" },
-        { href: "/zh/pinyin", icon: "🔤", title: "Pinyin & thanh điệu", hint: "Nhập môn phát âm" },
+        { href: "/zh/pinyin#choi", icon: "🎮", title: "Phát âm bằng game", hint: "9 màn ngắn có mẹo nhớ: thanh điệu, thanh mẫu…" },
+        { href: "/zh/pinyin", icon: "🔤", title: "Pinyin & thanh điệu", hint: "Bài 0: nhập môn phát âm" },
       ]}
     />
   );

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { stories } from "@/content/stories";
+import { stories, storiesOf, toPinyin } from "@/content/stories";
 import {
   EMPTY_STORIES,
   heardClues,
@@ -40,7 +40,7 @@ describe("validation", () => {
     expect(errs.some((e) => e.includes('"x"'))).toBe(true);
   });
   it("rejects a clue that no statement gives", () => {
-    const bad: Story = { ...sample, clues: [...sample.clues, { id: "ghost", witness: "jack", text_en: "x", text_vi: "x" }] };
+    const bad: Story = { ...sample, clues: [...sample.clues, { id: "ghost", witness: "jack", text: "x", text_vi: "x" }] };
     expect(validateStory(bad).some((e) => e.includes("never given"))).toBe(true);
   });
 });
@@ -120,5 +120,33 @@ describe("merging copies", () => {
     const a = setSuspicion(recordInterview(EMPTY_STORIES, sample.id, "jack", { correct: 1, total: 3, seconds: 20 }).state, sample.id, "jack", "suspect");
     const b = recordInterview(EMPTY_STORIES, sample.id, "jack", { correct: 3, total: 3, seconds: 20 }).state;
     expect(mergeStories(a, b).stories[sample.id]!.witnesses.jack).toMatchObject({ stars: 3, suspicion: "suspect" });
+  });
+});
+
+describe("Chinese stories", () => {
+  const zh = storiesOf("zh");
+  it("has stories for each HSK level, all valid, with pinyin made from the characters", () => {
+    expect(zh.length).toBeGreaterThanOrEqual(6);
+    expect(new Set(zh.map((s) => s.level))).toEqual(new Set(["HSK1", "HSK2", "HSK3"]));
+    for (const s of zh) {
+      expect(s.lang).toBe("zh");
+      expect(s.id.startsWith("zh-")).toBe(true);
+      expect(validateStory(s)).toEqual([]);
+      for (const w of s.witnesses) {
+        expect(w.name_pinyin).toBeTruthy();
+        for (const g of w.segments) expect(g.pinyin).toMatch(/\p{L}/u);
+      }
+      for (const c of s.clues) expect(c.pinyin).toBeTruthy();
+      expect(s.solution.confession_pinyin).toBeTruthy();
+    }
+  });
+  it("keeps English and Chinese stories apart and ids unique", () => {
+    expect(storiesOf("en").every((s) => s.lang === "en")).toBe(true);
+    const ids = stories().map((s) => s.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+  it("writes pinyin with tone marks and plain punctuation", () => {
+    expect(toPinyin("你好，我是小明。")).toBe("nǐ hǎo, wǒ shì xiǎo míng.");
+    expect(toPinyin("他说：“我想吃苹果。”")).toBe("tā shuō: wǒ xiǎng chī píng guǒ.");
   });
 });

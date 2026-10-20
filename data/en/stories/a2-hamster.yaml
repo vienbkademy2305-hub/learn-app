@@ -12,34 +12,34 @@ premise_vi: >-
 clues:
   - id: seeds-desk
     witness: lee
-    text_en: "There were sunflower seeds on Ella's desk."
+    text: "There were sunflower seeds on Ella's desk."
     text_vi: "Có hạt hướng dương trên bàn của Ella."
   - id: wanted-hold
     witness: max
-    text_en: "Ella said she wanted to hold Coco."
+    text: "Ella said she wanted to hold Coco."
     text_vi: "Ella nói cô muốn bế Coco."
   - id: lee-early
     witness: lee
-    text_en: "Mr Lee came to school at eight o'clock."
+    text: "Mr Lee came to school at eight o'clock."
     text_vi: "Thầy Lee đến trường lúc tám giờ."
   - id: max-late
     witness: max
-    text_en: "Max arrived at ten past eight."
+    text: "Max arrived at ten past eight."
     text_vi: "Max đến lúc tám giờ mười."
 
 witnesses:
   - id: lee
     name: Mr Lee
-    role_en: The class teacher
+    role: The class teacher
     avatar: "🍎"
     segments:
-      - text_en: "I came to school at eight o'clock. The cage was closed at that time."
+      - text: "I came to school at eight o'clock. The cage was closed at that time."
         vi: "Thầy đến trường lúc tám giờ. Khi đó lồng vẫn đóng."
         clues: [lee-early]
-      - text_en: "At half past eight the cage was open. Coco wasn't there."
+      - text: "At half past eight the cage was open. Coco wasn't there."
         vi: "Lúc tám giờ rưỡi lồng đã mở. Coco không còn ở đó."
         focus: ["open", "wasn't there"]
-      - text_en: "Then I looked around the room. I saw some sunflower seeds on Ella's desk. Coco loves sunflower seeds."
+      - text: "Then I looked around the room. I saw some sunflower seeds on Ella's desk. Coco loves sunflower seeds."
         vi: "Rồi thầy nhìn quanh lớp. Thầy thấy vài hạt hướng dương trên bàn của Ella. Coco rất thích hạt hướng dương."
         clues: [seeds-desk]
         focus: ["looked around", "loves"]
@@ -55,17 +55,17 @@ witnesses:
         explain_vi: "Đúng: “sunflower seeds on Ella's desk.”"
   - id: max
     name: Max
-    role_en: A classmate
+    role: A classmate
     avatar: "🏃"
     segments:
-      - text_en: "I arrived at ten past eight. I put my bag on my desk and went to the toilet."
+      - text: "I arrived at ten past eight. I put my bag on my desk and went to the toilet."
         vi: "Em đến lúc tám giờ mười. Em đặt balô lên bàn rồi đi vệ sinh."
         clues: [max-late]
-      - text_en: "Yesterday, in the playground, Ella said, 'I want to hold Coco. He is so cute!'"
+      - text: "Yesterday, in the playground, Ella said, 'I want to hold Coco. He is so cute!'"
         vi: "Hôm qua, ở sân chơi, Ella nói: “Mình muốn bế Coco. Nó dễ thương quá!”"
         clues: [wanted-hold]
         focus: ["hold", "cute"]
-      - text_en: "But Mr Lee says only the teacher can open the cage."
+      - text: "But Mr Lee says only the teacher can open the cage."
         vi: "Nhưng thầy Lee nói chỉ giáo viên mới được mở lồng."
     checks:
       - claim_vi: "Max đến lúc tám giờ mười."
@@ -79,15 +79,15 @@ witnesses:
         explain_vi: "Sai: chỉ giáo viên được mở lồng."
   - id: ella
     name: Ella
-    role_en: A classmate
+    role: A classmate
     avatar: "🌻"
     segments:
-      - text_en: "I came to school early today. I read a book at my desk."
+      - text: "I came to school early today. I read a book at my desk."
         vi: "Hôm nay em đến trường sớm. Em đọc sách ở bàn."
-      - text_en: "I didn't touch the cage. I love animals, so I would never hurt Coco."
+      - text: "I didn't touch the cage. I love animals, so I would never hurt Coco."
         vi: "Em không đụng vào lồng. Em yêu động vật nên sẽ không bao giờ làm đau Coco."
         focus: ["didn't touch", "never"]
-      - text_en: "Maybe Coco opened the door by himself. Hamsters are clever."
+      - text: "Maybe Coco opened the door by himself. Hamsters are clever."
         vi: "Có lẽ Coco tự mở cửa. Chuột hamster thông minh lắm."
     checks:
       - claim_vi: "Ella đọc sách ở bàn."
@@ -104,5 +104,5 @@ solution:
   evidence: [seeds-desk, wanted-hold]
   explain_vi: >-
     Ella nói cô không đụng vào lồng. Nhưng trên bàn cô có hạt hướng dương (Coco thích loại hạt đó) và hôm qua cô nói muốn bế Coco.
-  confession_en: "I'm sorry, Mr Lee. I only wanted to hold Coco for a minute. He ran under the cupboard, and I was afraid to tell you."
+  confession: "I'm sorry, Mr Lee. I only wanted to hold Coco for a minute. He ran under the cupboard, and I was afraid to tell you."
   confession_vi: "Em xin lỗi thầy Lee. Em chỉ muốn bế Coco một phút. Nó chạy vào gầm tủ và em sợ nói với thầy."

@@ -1,0 +1,112 @@
+# Sự thật: tiền quỹ lớp (200 tệ) trong hộp ở bàn giáo viên biến mất tối qua. Tiểu Lưu nói anh sốt, ở nhà ngủ cả ngày;
+# thầy giáo: 7 giờ tối qua thấy Tiểu Lưu ở cổng trường, tay cầm túi đen; lớp trưởng Tiểu Vương: 6 giờ rưỡi nhận tin nhắn của Tiểu Lưu hỏi cửa lớp đã khóa chưa. Hung thủ: Tiểu Lưu.
+id: zh-hsk2-class-money
+level: HSK2
+lesson_range: [1, 23]
+status: draft
+title_vi: Tiền quỹ lớp biến mất
+cover: "💴"
+premise_vi: >-
+  Tiền quỹ lớp để trong hộp trên bàn giáo viên, hôm nay không còn nữa. Cửa lớp không bị phá.
+  Ba người biết chuyện, ai đã lấy tiền?
+
+clues:
+  - id: saw-school
+    witness: teacher
+    text: "昨天晚上七点，老师在学校门口看见小刘，他拿着一个黑色的包。"
+    text_vi: "Bảy giờ tối qua, thầy thấy Tiểu Lưu ở cổng trường, tay cầm một chiếc túi đen."
+  - id: asked-door
+    witness: xiaowang
+    text: "昨天六点半，小刘给小王发信息：“教室的门锁了没有？”"
+    text_vi: "Sáu giờ rưỡi tối qua, Tiểu Lưu nhắn cho Tiểu Vương: “Cửa lớp đã khóa chưa?”"
+  - id: money-box
+    witness: teacher
+    text: "钱在老师桌子上的盒子里。"
+    text_vi: "Tiền ở trong hộp trên bàn giáo viên."
+  - id: last-leave
+    witness: xiaowang
+    text: "小王是最后一个离开教室的人。"
+    text_vi: "Tiểu Vương là người cuối cùng rời lớp."
+
+witnesses:
+  - id: teacher
+    name: 张老师
+    role: 班主任
+    avatar: "🧑‍🏫"
+    segments:
+      - text: "班里的钱在我桌子上的盒子里，一共两百块。"
+        vi: "Tiền của lớp ở trong hộp trên bàn tôi, tổng cộng hai trăm tệ."
+        clues: [money-box]
+        focus: ["盒子", "两百块"]
+      - text: "今天早上我来教室，盒子是打开的，钱已经没有了，可是门没有坏。"
+        vi: "Sáng nay tôi đến lớp, hộp đã mở, tiền không còn nữa, nhưng cửa không bị hỏng."
+        focus: ["已经", "没有坏"]
+      - text: "昨天晚上七点，我在学校门口看见小刘，他拿着一个黑色的包。"
+        vi: "Bảy giờ tối qua, tôi thấy Tiểu Lưu ở cổng trường, tay cầm một chiếc túi đen."
+        clues: [saw-school]
+        focus: ["看见", "黑色的包"]
+    checks:
+      - claim_vi: "Tiền ở trong hộp trên bàn giáo viên."
+        answer: true
+        explain_vi: "Đúng: “钱在我桌子上的盒子里。”"
+      - claim_vi: "Cửa lớp bị phá hỏng."
+        answer: false
+        explain_vi: "Sai: “门没有坏。”"
+      - claim_vi: "Thầy thấy Tiểu Lưu ở cổng trường lúc bảy giờ tối."
+        answer: true
+        explain_vi: "Đúng: “昨天晚上七点，我在学校门口看见小刘。”"
+  - id: xiaowang
+    name: 小王
+    role: 班长
+    avatar: "📋"
+    segments:
+      - text: "昨天放学以后，我是最后一个离开教室的人。我五点半锁了门。"
+        vi: "Hôm qua sau giờ học, tôi là người cuối cùng rời lớp. Năm giờ rưỡi tôi khóa cửa."
+        clues: [last-leave]
+        focus: ["最后一个", "锁了门"]
+      - text: "六点半，小刘给我发信息：“教室的门锁了没有？”"
+        vi: "Sáu giờ rưỡi, Tiểu Lưu nhắn tin cho tôi: “Cửa lớp đã khóa chưa?”"
+        clues: [asked-door]
+        focus: ["发信息", "锁了没有"]
+      - text: "我回答：“锁了。”以后他没有再说话。"
+        vi: "Tôi trả lời: “Khóa rồi.” Sau đó cậu ấy không nói gì nữa."
+    checks:
+      - claim_vi: "Tiểu Vương khóa cửa lớp lúc năm giờ rưỡi."
+        answer: true
+        explain_vi: "Đúng: “我五点半锁了门。”"
+      - claim_vi: "Tiểu Lưu hỏi tiền để ở đâu."
+        answer: false
+        explain_vi: "Sai: cậu hỏi cửa lớp đã khóa chưa."
+      - claim_vi: "Tiểu Vương là người cuối cùng rời lớp."
+        answer: true
+        explain_vi: "Đúng: “我是最后一个离开教室的人。”"
+  - id: xiaoliu
+    name: 小刘
+    role: 同学
+    avatar: "🤒"
+    segments:
+      - text: "昨天我发烧了，一整天都在家睡觉，没有去学校。"
+        vi: "Hôm qua em bị sốt, ngủ ở nhà cả ngày, không đến trường."
+        focus: ["发烧", "一整天"]
+      - text: "我晚上也没有出门，所以我不知道班里的钱怎么了。"
+        vi: "Buổi tối em cũng không ra ngoài, nên em không biết tiền của lớp thế nào."
+      - text: "我很喜欢我们班，我不会拿大家的钱。"
+        vi: "Em rất quý lớp mình, em sẽ không lấy tiền của mọi người."
+    checks:
+      - claim_vi: "Tiểu Lưu nói hôm qua cậu bị sốt."
+        answer: true
+        explain_vi: "Đúng: “昨天我发烧了。”"
+      - claim_vi: "Tiểu Lưu nói tối qua cậu đến trường."
+        answer: false
+        explain_vi: "Sai: “我晚上也没有出门。”"
+      - claim_vi: "Tiểu Lưu nói cậu sẽ lấy tiền của lớp."
+        answer: false
+        explain_vi: "Sai: “我不会拿大家的钱。”"
+solution:
+  culprit: xiaoliu
+  evidence: [saw-school, asked-door]
+  explain_vi: >-
+    Tiểu Lưu nói cậu bị sốt và ở nhà cả ngày. Nhưng thầy thấy cậu ở cổng trường lúc bảy giờ tối với một chiếc túi đen,
+    và lớp trưởng nói cậu nhắn tin hỏi cửa lớp đã khóa chưa.
+  confession: "对不起，老师。我妈妈生病了，我需要钱。我知道窗户没有关好，晚上从窗户进了教室，拿了盒子里的钱。我明天一定还给大家。"
+  confession_vi: "Em xin lỗi thầy. Mẹ em bị bệnh, em cần tiền. Em biết cửa sổ chưa đóng kỹ nên tối đó trèo qua cửa sổ vào lớp, lấy tiền trong hộp. Ngày mai em nhất định trả lại mọi người."

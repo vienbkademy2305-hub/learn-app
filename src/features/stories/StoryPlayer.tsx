@@ -12,7 +12,7 @@ import {
   interviewed,
   maxStars,
   nextStep,
-  readingWpm,
+  readingSpeed,
   starsEarned,
   storyStats,
   XP_WITNESS,
@@ -21,6 +21,7 @@ import {
 } from "@/domain/story";
 import { StreakCelebration } from "@/features/activity/StreakCelebration";
 import { useActivity } from "@/features/activity/store";
+import { speakChinese } from "@/features/audio/speech";
 import { speakEnglish } from "@/features/en/speech";
 import { FeedbackPanel, QuizButton, QuizShell, QuizTile, type TileState } from "@/features/quiz/QuizShell";
 import { QuizResult } from "@/features/quiz/QuizResult";
@@ -72,7 +73,7 @@ export function StoryPlayer({ story }: { story: Story }) {
     <div className="-mx-4 -mt-6 sm:mx-0 sm:mt-0">
       <div className="overflow-hidden bg-black pb-8 text-white sm:rounded-3xl">
         <header className="relative bg-gradient-to-br from-violet-700 via-indigo-700 to-sky-600 px-5 pb-6 pt-8 sm:rounded-t-3xl">
-          <Link href="/en/truyen" className="text-sm font-semibold text-white/80 hover:text-white">← Truyện trinh thám</Link>
+          <Link href={`/${story.lang}/truyen`} className="text-sm font-semibold text-white/80 hover:text-white">← Truyện trinh thám{story.lang === "zh" ? " tiếng Trung" : ""}</Link>
           <div className="mt-3 flex items-center gap-4">
             <span className="grid size-20 shrink-0 place-items-center rounded-3xl bg-black/25 text-5xl" aria-hidden>{story.cover}</span>
             <div className="min-w-0">
@@ -96,7 +97,7 @@ export function StoryPlayer({ story }: { story: Story }) {
           <div className="grid grid-cols-2 gap-3">
             <div className="rounded-3xl bg-neutral-900 p-4">
               <p className="text-3xl font-extrabold">{stats.wpm ?? "–"}</p>
-              <p className="text-neutral-400">Đọc từ <span className="text-xs">(từ/phút)</span></p>
+              <p className="text-neutral-400">{story.lang === "zh" ? "Đọc chữ" : "Đọc từ"} <span className="text-xs">({story.lang === "zh" ? "chữ/phút" : "từ/phút"})</span></p>
             </div>
             <div className="rounded-3xl bg-neutral-900 p-4">
               <p className="text-3xl font-extrabold">{stats.comprehension === null ? "–" : `${stats.comprehension}%`}</p>
@@ -124,7 +125,7 @@ export function StoryPlayer({ story }: { story: Story }) {
                       <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-black px-1 text-base leading-none"><Stars n={wp?.stars ?? 0} size="text-base" /></span>
                     </button>
                     <p className="mt-4 text-sm font-bold">{w.name}</p>
-                    <p className="text-xs text-neutral-500">{w.role_en}</p>
+                    <p className="text-xs text-neutral-500">{w.role}</p>
                     {wp?.suspicion && (
                       <p className={`mt-1 text-xs font-bold ${wp.suspicion === "suspect" ? "text-red-400" : "text-emerald-400"}`}>{wp.suspicion === "suspect" ? "Nghi ngờ" : "Vô tội"}</p>
                     )}
@@ -213,9 +214,10 @@ function Interview({
   const stored = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => () => void (stored.current && clearTimeout(stored.current)), []);
 
-  const text = useMemo(() => witness.segments.map((s) => s.text_en).join(" "), [witness]);
+  const text = useMemo(() => witness.segments.map((s) => s.text).join(" "), [witness]);
   const shell = { progress: phase === "check" ? qi / totalQ : phase === "read" ? (shown - 1) / last : 0, badge: right, onExit: onClose };
-  const say = (t: string) => speakEnglish(t, 0.9);
+  const zh = story.lang === "zh";
+  const say = (t: string) => (zh ? speakChinese(t, 0.75) : speakEnglish(t, 0.9));
 
   const begin = () => {
     startedAt.current = Date.now();
@@ -226,7 +228,7 @@ function Interview({
     setPicked(null);
     setRight(0);
     setPhase("read");
-    say(witness.segments[0]!.text_en);
+    say(witness.segments[0]!.text);
   };
 
   if (phase === "intro") {
@@ -235,7 +237,7 @@ function Interview({
         <div className="flex flex-col items-center pt-6 text-center">
           <span className="grid size-44 place-items-center rounded-[3rem] bg-neutral-900 text-8xl" aria-hidden>{witness.avatar}</span>
           <p className="mt-5 text-2xl font-bold">{witness.name}</p>
-          <p lang="en" className="text-xl text-neutral-400">{witness.role_en}</p>
+          <p lang={zh ? "zh-CN" : "en"} className="text-xl text-neutral-400">{witness.role}{zh && witness.role_pinyin ? <span className="ml-2 text-base text-sky-300">{witness.role_pinyin}</span> : null}</p>
           <p className="mt-6 max-w-sm text-lg text-neutral-300">{story.premise_vi}</p>
         </div>
       </QuizShell>
@@ -255,7 +257,7 @@ function Interview({
                 const nextSeg = witness.segments[shown]!;
                 setShown(shown + 1);
                 setMore(null);
-                say(nextSeg.text_en);
+                say(nextSeg.text);
               } else {
                 readSeconds.current = (Date.now() - readStart.current) / 1000;
                 setPhase("check");
@@ -272,8 +274,11 @@ function Interview({
             return (
               <li key={i} className={current ? "" : "opacity-60"}>
                 <div className="flex items-start gap-3">
-                  <button type="button" onClick={() => say(s.text_en)} aria-label="Nghe lại" className="mt-1 grid size-11 shrink-0 place-items-center rounded-full bg-sky-500 text-xl text-white hover:bg-sky-400">🔊</button>
-                  <p lang="en" className="text-2xl leading-snug"><Highlight text={s.text_en} focus={s.focus} /></p>
+                  <button type="button" onClick={() => say(s.text)} aria-label="Nghe lại" className="mt-1 grid size-11 shrink-0 place-items-center rounded-full bg-sky-500 text-xl text-white hover:bg-sky-400">🔊</button>
+                  <div>
+                    <p lang={zh ? "zh-CN" : "en"} className={zh ? "font-han text-3xl leading-snug" : "text-2xl leading-snug"}><Highlight text={s.text} focus={s.focus} /></p>
+                    {zh && s.pinyin && <p className="mt-1 text-lg leading-snug text-sky-300">{s.pinyin}</p>}
+                  </div>
                 </div>
                 {current && (
                   <div className="ml-14 mt-3">
@@ -304,7 +309,7 @@ function Interview({
       if (qi + 1 >= totalQ) {
         const seconds = (Date.now() - startedAt.current) / 1000;
         doneAt.current = seconds;
-        const wpm = readingWpm(text, readSeconds.current) ?? undefined;
+        const wpm = readingSpeed(story.lang, text, readSeconds.current) ?? undefined;
         firstToday.current = xpOn(activity, dateKey()) === 0;
         finish({ correct: right, total: totalQ, seconds, wpm });
         setPhase("result");
@@ -363,7 +368,7 @@ function Interview({
               <span className="absolute -bottom-5 rounded-full bg-black px-2"><Stars n={starsFor(right, totalQ)} size="text-4xl" /></span>
             </div>
             <p className="mt-10 text-3xl font-bold">{witness.name}</p>
-            <p lang="en" className="text-xl text-neutral-400">{witness.role_en}</p>
+            <p lang={zh ? "zh-CN" : "en"} className="text-xl text-neutral-400">{witness.role}{zh && witness.role_pinyin ? <span className="ml-2 text-base text-sky-300">{witness.role_pinyin}</span> : null}</p>
           </div>
           <div className="mt-10 w-full space-y-3">
             <h2 className="text-2xl font-extrabold">Bạn đã đặt câu hỏi cho nhân chứng</h2>
@@ -405,8 +410,11 @@ function Accuse({ story, onClose, accuse }: { story: Story; onClose: () => void;
           <p className="text-lg text-neutral-300">{story.solution.explain_vi}</p>
           <div className="rounded-3xl bg-neutral-900 p-5">
             <div className="flex items-start gap-3">
-              <button type="button" onClick={() => speakEnglish(story.solution.confession_en, 0.9)} aria-label="Nghe lời thú tội" className="grid size-11 shrink-0 place-items-center rounded-full bg-sky-500 text-xl text-white">🔊</button>
-              <p lang="en" className="text-xl leading-snug">“{story.solution.confession_en}”</p>
+              <button type="button" onClick={() => (story.lang === "zh" ? speakChinese(story.solution.confession, 0.75) : speakEnglish(story.solution.confession, 0.9))} aria-label="Nghe lời thú tội" className="grid size-11 shrink-0 place-items-center rounded-full bg-sky-500 text-xl text-white">🔊</button>
+              <div>
+                <p lang={story.lang === "zh" ? "zh-CN" : "en"} className={story.lang === "zh" ? "font-han text-2xl leading-snug" : "text-xl leading-snug"}>“{story.solution.confession}”</p>
+                {story.lang === "zh" && story.solution.confession_pinyin && <p className="mt-1 text-base text-sky-300">{story.solution.confession_pinyin}</p>}
+              </div>
             </div>
             <p className="mt-3 text-neutral-400">{story.solution.confession_vi}</p>
           </div>
@@ -448,7 +456,8 @@ function Accuse({ story, onClose, accuse }: { story: Story; onClose: () => void;
             {clues.map((c) => (
               <li key={c.id}>
                 <QuizTile outline state={evidence.includes(c.id) ? "selected" : "idle"} onClick={() => toggle(c.id)} disabled={!!outcome} className="flex-col items-start text-left">
-                  <span lang="en" className="text-lg font-semibold">{c.text_en}</span>
+                  <span lang={story.lang === "zh" ? "zh-CN" : "en"} className={story.lang === "zh" ? "font-han text-xl font-semibold" : "text-lg font-semibold"}>{c.text}</span>
+                  {story.lang === "zh" && c.pinyin && <span className="text-sm text-sky-300">{c.pinyin}</span>}
                   <span className="text-base text-neutral-400">{c.text_vi}</span>
                 </QuizTile>
               </li>

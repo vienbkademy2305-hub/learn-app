@@ -17,27 +17,11 @@ import {
   type ZhTestSummary,
 } from "@/domain/zh-test";
 import { speakChinese, stopSpeaking } from "@/features/audio/speech";
+import { readZhAttempts, saveZhAttempt, type ZhAttempt } from "./attempts";
 
-const KEY = "chinese-app:zh-tests:v1";
-type Attempt = { at: string; percent: number; correct: number; total: number; passed: boolean };
-
-function readAttempts(id: string): Attempt[] {
-  try {
-    const all = JSON.parse(localStorage.getItem(KEY) ?? "{}") as Record<string, Attempt[]>;
-    return all[id] ?? [];
-  } catch {
-    return [];
-  }
-}
-function saveAttempt(id: string, a: Attempt) {
-  try {
-    const all = JSON.parse(localStorage.getItem(KEY) ?? "{}") as Record<string, Attempt[]>;
-    all[id] = [a, ...(all[id] ?? [])].slice(0, 10);
-    localStorage.setItem(KEY, JSON.stringify(all));
-  } catch {
-    // storage blocked: the result is still shown
-  }
-}
+const readAttempts = readZhAttempts;
+const saveAttempt = saveZhAttempt;
+type Attempt = ZhAttempt;
 
 const LETTERS = "ABCDEF";
 const han = "font-han";

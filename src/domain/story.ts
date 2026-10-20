@@ -5,10 +5,13 @@
  */
 import { starsFor } from "./quiz";
 
-export type StoryLevel = "A2" | "B1" | "B2";
+export type StoryLevel = "A2" | "B1" | "B2" | "HSK1" | "HSK2" | "HSK3";
+export type StoryLang = "en" | "zh";
 
 export interface StorySegment {
-  text_en: string;
+  text: string;
+  /** Chinese stories: pinyin of the statement (filled in by the loader) */
+  pinyin?: string;
   vi: string;
   /** ids of the clues this statement gives */
   clues?: string[];
@@ -23,7 +26,10 @@ export interface StoryCheck {
 export interface StoryWitness {
   id: string;
   name: string;
-  role_en: string;
+  role: string;
+  /** Chinese stories: pinyin of the name and the role (filled in by the loader) */
+  name_pinyin?: string;
+  role_pinyin?: string;
   avatar: string;
   segments: StorySegment[];
   checks: StoryCheck[];
@@ -31,11 +37,14 @@ export interface StoryWitness {
 export interface StoryClue {
   id: string;
   witness: string;
-  text_en: string;
+  text: string;
+  pinyin?: string;
   text_vi: string;
 }
 export interface Story {
   id: string;
+  /** language of the statements; set by the loader from the folder the file is in */
+  lang: StoryLang;
   level: StoryLevel;
   lesson_range: [number, number];
   status: string;
@@ -44,7 +53,7 @@ export interface Story {
   premise_vi: string;
   clues: StoryClue[];
   witnesses: StoryWitness[];
-  solution: { culprit: string; evidence: string[]; explain_vi: string; confession_en: string; confession_vi: string };
+  solution: { culprit: string; evidence: string[]; explain_vi: string; confession: string; confession_pinyin?: string; confession_vi: string };
 }
 
 export const MIN_WITNESSES = 2;
@@ -73,7 +82,7 @@ export function validateStory(s: Story): string[] {
     if (w.segments.length < 2) err(`${w.id}: needs at least 2 statements`);
     if (w.checks.length < 2) err(`${w.id}: needs at least 2 true/false checks`);
     for (const seg of w.segments) {
-      if (!seg.text_en.trim() || !seg.vi.trim()) err(`${w.id}: empty statement`);
+      if (!seg.text.trim() || !seg.vi.trim()) err(`${w.id}: empty statement`);
       for (const c of seg.clues ?? []) {
         if (!cids.includes(c)) err(`${w.id}: statement gives unknown clue "${c}"`);
         given.set(c, w.id);
@@ -198,6 +207,17 @@ export function readingWpm(text: string, seconds: number): number | null {
   const wpm = Math.round((words / seconds) * 60);
   return wpm >= 20 && wpm <= 600 ? wpm : null;
 }
+
+/** Characters (Han) per minute of a reading phase, for Chinese stories; null when it means nothing. */
+export function readingCpm(text: string, seconds: number): number | null {
+  const chars = [...text].filter((c) => /\p{Script=Han}/u.test(c)).length;
+  if (chars < 8 || seconds < 3 || seconds > 600) return null;
+  const cpm = Math.round((chars / seconds) * 60);
+  return cpm >= 15 && cpm <= 500 ? cpm : null;
+}
+
+/** Reading speed in the unit of the story's language (words or characters per minute). */
+export const readingSpeed = (lang: StoryLang, text: string, seconds: number) => (lang === "zh" ? readingCpm(text, seconds) : readingWpm(text, seconds));
 
 /** Totals shown on the story page: average reading speed and reading-comprehension percent over the interviews so far. */
 export function storyStats(p: StoryProgress | undefined): { wpm: number | null; comprehension: number | null } {

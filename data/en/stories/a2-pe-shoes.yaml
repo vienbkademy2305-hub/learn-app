@@ -12,35 +12,35 @@ premise_vi: >-
 clues:
   - id: field-closed
     witness: cole
-    text_en: "The football field was closed because the grass was wet."
+    text: "The football field was closed because the grass was wet."
     text_vi: "Sân bóng đóng cửa vì cỏ ướt."
   - id: zack-lockers
     witness: rita
-    text_en: "Rita saw Zack at the lockers at a quarter past ten."
+    text: "Rita saw Zack at the lockers at a quarter past ten."
     text_vi: "Rita thấy Zack ở dãy tủ khóa lúc mười giờ mười lăm."
   - id: cole-gym
     witness: cole
-    text_en: "The class played basketball in the gym."
+    text: "The class played basketball in the gym."
     text_vi: "Cả lớp chơi bóng rổ trong nhà thi đấu."
   - id: rita-sick
     witness: rita
-    text_en: "Rita went to change her shirt."
+    text: "Rita went to change her shirt."
     text_vi: "Rita vào thay áo."
 
 witnesses:
   - id: cole
     name: Mr Cole
-    role_en: The PE teacher
+    role: The PE teacher
     avatar: "🏀"
     segments:
-      - text_en: "Today the class played basketball in the gym. We started at ten o'clock."
+      - text: "Today the class played basketball in the gym. We started at ten o'clock."
         vi: "Hôm nay cả lớp chơi bóng rổ trong nhà thi đấu. Chúng tôi bắt đầu lúc mười giờ."
         clues: [cole-gym]
-      - text_en: "The football field was closed. The grass was wet after the rain, so nobody played outside."
+      - text: "The football field was closed. The grass was wet after the rain, so nobody played outside."
         vi: "Sân bóng đóng cửa. Cỏ ướt sau cơn mưa nên không ai chơi ngoài trời."
         clues: [field-closed]
         focus: ["closed", "nobody"]
-      - text_en: "At the end of the lesson, Lily couldn't find her new shoes."
+      - text: "At the end of the lesson, Lily couldn't find her new shoes."
         vi: "Cuối giờ, Lily không tìm thấy đôi giày mới của mình."
     checks:
       - claim_vi: "Cả lớp chơi bóng rổ trong nhà thi đấu."
@@ -54,17 +54,17 @@ witnesses:
         explain_vi: "Đúng: “Lily couldn't find her new shoes.”"
   - id: rita
     name: Rita
-    role_en: A classmate
+    role: A classmate
     avatar: "🧦"
     segments:
-      - text_en: "I went to the changing room at ten past ten to change my shirt. I was very hot."
+      - text: "I went to the changing room at ten past ten to change my shirt. I was very hot."
         vi: "Em vào phòng thay đồ lúc mười giờ mười để thay áo. Em rất nóng."
         clues: [rita-sick]
-      - text_en: "At a quarter past ten, I saw Zack at the lockers. He was alone."
+      - text: "At a quarter past ten, I saw Zack at the lockers. He was alone."
         vi: "Lúc mười giờ mười lăm, em thấy Zack ở dãy tủ khóa. Cậu ấy đi một mình."
         clues: [zack-lockers]
         focus: ["at the lockers", "alone"]
-      - text_en: "He said he needed the toilet. But the toilet is on the other side of the gym."
+      - text: "He said he needed the toilet. But the toilet is on the other side of the gym."
         vi: "Cậu ấy nói cần đi vệ sinh. Nhưng nhà vệ sinh ở phía bên kia nhà thi đấu."
     checks:
       - claim_vi: "Rita vào phòng thay đồ để thay áo."
@@ -78,15 +78,15 @@ witnesses:
         explain_vi: "Sai: ở phía bên kia nhà thi đấu."
   - id: zack
     name: Zack
-    role_en: A classmate
+    role: A classmate
     avatar: "⚽"
     segments:
-      - text_en: "I played football on the field with my friends for the whole lesson."
+      - text: "I played football on the field with my friends for the whole lesson."
         vi: "Em chơi bóng đá ngoài sân với bạn suốt cả tiết học."
         focus: ["the whole lesson", "on the field"]
-      - text_en: "I never went into the changing room. My shoes are on my feet!"
+      - text: "I never went into the changing room. My shoes are on my feet!"
         vi: "Em không hề vào phòng thay đồ. Giày của em đang ở chân em!"
-      - text_en: "Perhaps somebody from another class took Lily's shoes."
+      - text: "Perhaps somebody from another class took Lily's shoes."
         vi: "Có lẽ ai đó ở lớp khác đã lấy giày của Lily."
     checks:
       - claim_vi: "Zack nói cậu chơi bóng đá cả tiết học."
@@ -103,5 +103,5 @@ solution:
   evidence: [field-closed, zack-lockers]
   explain_vi: >-
     Zack nói cậu chơi bóng đá ngoài sân cả tiết. Nhưng sân đóng cửa vì cỏ ướt, và Rita thấy cậu ở dãy tủ khóa lúc 10:15.
-  confession_en: "I'm sorry, Lily. Your shoes were so cool. I put them in my bag, but I'll give them back now."
+  confession: "I'm sorry, Lily. Your shoes were so cool. I put them in my bag, but I'll give them back now."
   confession_vi: "Mình xin lỗi Lily. Đôi giày của bạn đẹp quá. Mình bỏ chúng vào balô nhưng giờ mình trả lại bạn."

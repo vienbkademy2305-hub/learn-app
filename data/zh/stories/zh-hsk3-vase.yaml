@@ -1,0 +1,112 @@
+# Sự thật: bình hoa của bà bị đánh vỡ trong phòng khách lúc 4 giờ. Tiểu Hoa nói cậu ngồi viết bài ngoài sân cả buổi, chưa vào phòng khách;
+# Tiểu Mỹ: nhìn qua cửa sổ thấy quả bóng của Tiểu Hoa bay vào phòng khách; bà: trên sàn phòng khách có một quả bóng đá, trên bóng viết chữ "华". Hung thủ: Tiểu Hoa.
+id: zh-hsk3-vase
+level: HSK3
+lesson_range: [1, 19]
+status: draft
+title_vi: Chiếc bình hoa bị vỡ
+cover: "🏺"
+premise_vi: >-
+  Chiếc bình hoa quý của bà bị đánh vỡ trong phòng khách. Hai đứa cháu và bà đều ở nhà.
+  Ai đã làm vỡ chiếc bình?
+
+clues:
+  - id: ball-hua
+    witness: nainai
+    text: "地上有一个足球，球上写着一个“华”字。"
+    text_vi: "Trên sàn có một quả bóng đá, trên bóng viết một chữ “华”."
+  - id: window-saw
+    witness: xiaomei
+    text: "小美从窗户看见小华的足球飞进了客厅。"
+    text_vi: "Tiểu Mỹ nhìn qua cửa sổ thấy quả bóng của Tiểu Hoa bay vào phòng khách."
+  - id: nainai-kitchen
+    witness: nainai
+    text: "奶奶在厨房做饭。"
+    text_vi: "Bà đang nấu cơm trong bếp."
+  - id: xiaomei-room
+    witness: xiaomei
+    text: "小美在房间里看书。"
+    text_vi: "Tiểu Mỹ đọc sách trong phòng."
+
+witnesses:
+  - id: nainai
+    name: 奶奶
+    role: 花瓶的主人
+    avatar: "👵"
+    segments:
+      - text: "下午我一直在厨房做饭，没有去客厅。"
+        vi: "Buổi chiều bà luôn nấu cơm trong bếp, không đến phòng khách."
+        clues: [nainai-kitchen]
+        focus: ["一直", "厨房"]
+      - text: "四点的时候，我听见一个很大的声音。我跑到客厅，看见我的花瓶被打破了。"
+        vi: "Lúc bốn giờ, bà nghe một tiếng động rất lớn. Bà chạy ra phòng khách, thấy bình hoa của bà đã bị đánh vỡ."
+        focus: ["被打破了", "听见"]
+      - text: "地上有一个足球，球上写着一个“华”字，可是客厅里一个人也没有。"
+        vi: "Trên sàn có một quả bóng đá, trên bóng viết chữ “华”, nhưng trong phòng khách không có ai."
+        clues: [ball-hua]
+        focus: ["足球", "华"]
+    checks:
+      - claim_vi: "Bà nấu cơm trong bếp cả buổi chiều."
+        answer: true
+        explain_vi: "Đúng: “我一直在厨房做饭。”"
+      - claim_vi: "Bình hoa còn nguyên vẹn."
+        answer: false
+        explain_vi: "Sai: “花瓶被打破了。”"
+      - claim_vi: "Trên quả bóng viết chữ “华”."
+        answer: true
+        explain_vi: "Đúng: “球上写着一个‘华’字。”"
+  - id: xiaomei
+    name: 小美
+    role: 妹妹
+    avatar: "📖"
+    segments:
+      - text: "我下午在房间里看书，房间的窗户在院子旁边。"
+        vi: "Buổi chiều em đọc sách trong phòng, cửa sổ phòng em ở cạnh sân."
+        clues: [xiaomei-room]
+      - text: "四点的时候，我听见院子里有声音，就从窗户往外看。"
+        vi: "Lúc bốn giờ, em nghe tiếng động ngoài sân nên nhìn ra ngoài qua cửa sổ."
+        focus: ["窗户", "往外看"]
+      - text: "我看见小华的足球飞进了客厅，然后小华很快地跑了。"
+        vi: "Em thấy quả bóng của Tiểu Hoa bay vào phòng khách, rồi Tiểu Hoa nhanh chóng chạy đi."
+        clues: [window-saw]
+        focus: ["飞进了", "很快地"]
+    checks:
+      - claim_vi: "Tiểu Mỹ đọc sách trong phòng."
+        answer: true
+        explain_vi: "Đúng: “我下午在房间里看书。”"
+      - claim_vi: "Tiểu Mỹ thấy quả bóng bay vào phòng khách."
+        answer: true
+        explain_vi: "Đúng: “我看见小华的足球飞进了客厅。”"
+      - claim_vi: "Sau đó Tiểu Hoa đứng lại chờ bà."
+        answer: false
+        explain_vi: "Sai: “小华很快地跑了。”"
+  - id: xiaohua
+    name: 小华
+    role: 哥哥
+    avatar: "⚽"
+    segments:
+      - text: "我下午一直坐在院子里写作业，一步也没有离开。"
+        vi: "Buổi chiều em luôn ngồi viết bài ngoài sân, không rời đi một bước."
+        focus: ["写作业", "一步也没有"]
+      - text: "我没有进过客厅。我也没有玩足球，因为今天作业很多。"
+        vi: "Em chưa hề vào phòng khách. Em cũng không chơi bóng vì hôm nay bài tập rất nhiều."
+      - text: "也许是风把花瓶吹倒了。"
+        vi: "Có lẽ gió đã thổi đổ bình hoa."
+    checks:
+      - claim_vi: "Tiểu Hoa nói em viết bài tập ngoài sân."
+        answer: true
+        explain_vi: "Đúng: “我下午一直坐在院子里写作业。”"
+      - claim_vi: "Tiểu Hoa nói hôm nay em chơi bóng."
+        answer: false
+        explain_vi: "Sai: “我也没有玩足球。”"
+      - claim_vi: "Tiểu Hoa nghĩ gió có thể làm đổ bình."
+        answer: true
+        explain_vi: "Đúng: “也许是风把花瓶吹倒了。”"
+solution:
+  culprit: xiaohua
+  evidence: [ball-hua, window-saw]
+  explain_vi: >-
+    Tiểu Hoa nói em chỉ ngồi viết bài ngoài sân và không chơi bóng. Nhưng trên quả bóng trong phòng khách có chữ “华”,
+    và Tiểu Mỹ thấy quả bóng của em bay vào phòng khách qua cửa sổ.
+  confession: "对不起，奶奶。我作业写完了，就在院子里踢足球。球飞进了客厅，把花瓶打破了。我很害怕，所以跑了。"
+  confession_vi: "Cháu xin lỗi bà. Cháu làm xong bài tập thì ra sân đá bóng. Quả bóng bay vào phòng khách làm vỡ bình hoa. Cháu sợ nên chạy đi."

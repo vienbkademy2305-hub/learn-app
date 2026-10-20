@@ -37,6 +37,9 @@ export interface ZhTest {
   pass_percent: number;
   status: string;
   intro_vi: string;
+  /** generated block tests: the lesson (number within the level) the test follows, and its kind */
+  after_lesson?: number;
+  kind?: "mini" | "final" | "exam";
   sections: Array<{ id: string; title_vi: string; parts: ZhTestPart[] }>;
 }
 

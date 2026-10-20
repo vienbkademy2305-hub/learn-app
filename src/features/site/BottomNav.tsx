@@ -15,11 +15,13 @@ const TABS: Record<Lang, Tab[]> = {
     { href: "/zh", icon: "🗺️", label: "Học", match: /^\/zh(\/(hsk|lesson|word|pinyin)(\/.*)?)?$/ },
     { href: "/zh/luyen-tap", icon: "💪", label: "Luyện", match: /^\/zh\/(luyen-tap|practice|flashcards|listening|kiem-tra)/ },
     { href: "/zh/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/zh\/hoi-thoai-ai/ },
+    { href: "/zh/truyen", icon: "🕵️", label: "Truyện", match: /^\/zh\/truyen/ },
     { href: "/hom-nay", icon: "🔥", label: "Hôm nay", match: /^\/hom-nay/ },
   ],
   en: [
     { href: "/en", icon: "🗺️", label: "Học", match: /^\/en(\/lesson(\/.*)?)?$/ },
     { href: "/en/luyen-tap", icon: "💪", label: "Luyện", match: /^\/en\/(luyen-tap|flashcards|luyen-noi|words|word|kiem-tra)/ },
+    { href: "/en/hoi-thoai-ai", icon: "💬", label: "AI", match: /^\/en\/hoi-thoai-ai/ },
     { href: "/en/truyen", icon: "🕵️", label: "Truyện", match: /^\/en\/truyen/ },
     { href: "/hom-nay", icon: "🔥", label: "Hôm nay", match: /^\/hom-nay/ },
   ],

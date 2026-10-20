@@ -9,6 +9,7 @@ import { currentStageIndex, interleave, summariseStage, type ItemState, type Sta
 import { lessonStatus } from "@/domain/progress";
 import { bestAttempt, useEnProgress } from "@/features/en/progress";
 import { useProgress } from "@/features/progress/store";
+import { bestZhAttempt } from "@/features/zh-test/attempts";
 
 export interface MapItem {
   slug: string;
@@ -40,6 +41,10 @@ export interface MapTest {
   after?: number;
   /** English tests keep their attempts in the English progress store */
   trackEn?: boolean;
+  /** Chinese tests keep their attempts in localStorage (features/zh-test/attempts.ts) */
+  trackZh?: boolean;
+  /** pass mark in percent */
+  pass?: number;
 }
 
 export interface MapStage {
@@ -115,6 +120,16 @@ export function StageMap({ lang, stages }: { lang: "en" | "zh"; stages: MapStage
   const current = hydrated ? currentStageIndex(view.map((v) => v.summary)) : -1;
 
   const [openId, setOpenId] = useState<string | null>(null);
+  const [zhBest, setZhBest] = useState<Record<string, { percent: number; passed: boolean }>>({});
+  // best result of every Chinese test of this map, read once in the browser
+  useEffect(() => {
+    const next: Record<string, { percent: number; passed: boolean }> = {};
+    for (const st of stages) for (const t of st.tests ?? []) if (t.trackZh) {
+      const b = bestZhAttempt(t.id);
+      if (b) next[t.id] = b;
+    }
+    setZhBest(next);
+  }, [stages, openId]);
   const opener = useRef<HTMLElement | null>(null);
 
   // the open stage lives in the URL hash so the phone's Back button closes the sheet
@@ -159,7 +174,7 @@ export function StageMap({ lang, stages }: { lang: "en" | "zh"; stages: MapStage
         if (!row.item.untracked && openView.states[row.index] !== "done") {
           return { href: row.item.href, label: openView.summary.done === 0 && openView.summary.state === "todo" ? "Bắt đầu chặng" : "Học tiếp" };
         }
-      } else if (row.test.trackEn && !(hydrated && bestAttempt(en, row.test.id)?.passed)) {
+      } else if ((row.test.trackEn && !(hydrated && bestAttempt(en, row.test.id)?.passed)) || (row.test.trackZh && row.test.kind !== "exam" && !zhBest[row.test.id]?.passed)) {
         return { href: row.test.href, label: `Làm bài kiểm tra: ${row.test.title}` };
       }
     }
@@ -236,7 +251,9 @@ export function StageMap({ lang, stages }: { lang: "en" | "zh"; stages: MapStage
               {interleave(openView.stage.items, openView.stage.tests ?? []).map((row) => {
                 if (row.kind === "test") {
                   const t = row.test;
-                  const best = hydrated && t.trackEn ? bestAttempt(en, t.id) : undefined;
+                  const bestEn = hydrated && t.trackEn ? bestAttempt(en, t.id) : undefined;
+                  const bestZh = t.trackZh ? zhBest[t.id] : undefined;
+                  const best = bestEn ?? bestZh;
                   return (
                     <li key={t.id}>
                       <Link href={t.href} className="flex min-h-14 items-center gap-3 rounded-2xl border-2 border-sky-300 bg-sky-50 p-3 hover:border-sky-500">
@@ -246,7 +263,7 @@ export function StageMap({ lang, stages }: { lang: "en" | "zh"; stages: MapStage
                           <span className="block font-semibold leading-snug text-stone-900">{t.title}</span>
                           <span className="block text-xs text-stone-500">
                             {t.meta}
-                            {best ? ` · tốt nhất ${best.percent}%${best.passed ? " (đạt)" : ""}` : t.trackEn ? " · chưa làm" : ""}
+                            {best ? ` · tốt nhất ${best.percent}%${best.passed ? " (đạt)" : ""}` : t.trackEn || t.trackZh ? " · chưa làm" : ""}
                           </span>
                         </span>
                       </Link>

@@ -13,34 +13,34 @@ premise_vi: >-
 clues:
   - id: account-name
     witness: joe
-    text_en: "The money went to an account in the name of Z. Hughes."
+    text: "The money went to an account in the name of Z. Hughes."
     text_vi: "Tiền được chuyển vào một tài khoản tên Z. Hughes."
   - id: asked-setup
     witness: marta
-    text_en: "Zane once asked Marta how to set up a payment account."
+    text: "Zane once asked Marta how to set up a payment account."
     text_vi: "Zane từng hỏi Marta cách lập tài khoản thanh toán."
   - id: zane-surname
     witness: zane
-    text_en: "Zane's full name is Zane Hughes."
+    text: "Zane's full name is Zane Hughes."
     text_vi: "Tên đầy đủ của Zane là Zane Hughes."
   - id: marta-post
     witness: marta
-    text_en: "Marta posted the advert on Monday."
+    text: "Marta posted the advert on Monday."
     text_vi: "Marta đăng bài rao vào thứ Hai."
 
 witnesses:
   - id: marta
     name: Marta
-    role_en: The real seller
+    role: The real seller
     avatar: "🚲"
     segments:
-      - text_en: "I posted an advert for my old bike on Monday. I wanted to sell it for a hundred pounds."
+      - text: "I posted an advert for my old bike on Monday. I wanted to sell it for a hundred pounds."
         vi: "Tôi đăng bài rao bán chiếc xe đạp cũ vào thứ Hai. Tôi muốn bán nó một trăm bảng."
         clues: [marta-post]
-      - text_en: "I haven't sold it, and I haven't received any money. I still have the bike in my garage."
+      - text: "I haven't sold it, and I haven't received any money. I still have the bike in my garage."
         vi: "Tôi chưa bán nó và chưa nhận đồng nào. Chiếc xe vẫn ở trong gara của tôi."
         focus: ["haven't sold", "still"]
-      - text_en: "A few weeks ago Zane asked me how to set up a payment account online. I explained it to him, but I didn't think much about it."
+      - text: "A few weeks ago Zane asked me how to set up a payment account online. I explained it to him, but I didn't think much about it."
         vi: "Vài tuần trước Zane hỏi tôi cách lập tài khoản thanh toán trên mạng. Tôi giải thích cho cậu ấy nhưng không nghĩ nhiều."
         clues: [asked-setup]
         focus: ["set up", "didn't think much"]
@@ -56,17 +56,17 @@ witnesses:
         explain_vi: "Đúng: “Zane asked me how to set up a payment account.”"
   - id: joe
     name: Joe
-    role_en: The buyer
+    role: The buyer
     avatar: "💳"
     segments:
-      - text_en: "I found the advert on Tuesday and wrote to the seller. A person answered very quickly and asked me to pay in advance."
+      - text: "I found the advert on Tuesday and wrote to the seller. A person answered very quickly and asked me to pay in advance."
         vi: "Tôi thấy bài rao hôm thứ Ba và nhắn cho người bán. Một người trả lời rất nhanh và yêu cầu tôi trả tiền trước."
         focus: ["answered", "in advance"]
-      - text_en: "I sent a hundred pounds. The bank told me the money went to an account in the name of Z. Hughes."
+      - text: "I sent a hundred pounds. The bank told me the money went to an account in the name of Z. Hughes."
         vi: "Tôi chuyển một trăm bảng. Ngân hàng cho tôi biết tiền được chuyển vào một tài khoản tên Z. Hughes."
         clues: [account-name]
         focus: ["went to", "in the name of"]
-      - text_en: "I never received the bike, and the seller stopped answering my messages. I reported it to the police."
+      - text: "I never received the bike, and the seller stopped answering my messages. I reported it to the police."
         vi: "Tôi không bao giờ nhận được xe và người bán ngừng trả lời tin nhắn. Tôi đã báo cảnh sát."
     checks:
       - claim_vi: "Joe chuyển một trăm bảng."
@@ -80,16 +80,16 @@ witnesses:
         explain_vi: "Sai: “I never received the bike.”"
   - id: zane
     name: Zane
-    role_en: A friend of Marta's
+    role: A friend of Marta's
     avatar: "🎮"
     segments:
-      - text_en: "My name is Zane Hughes. I'm a friend of Marta's, and I know her bike very well."
+      - text: "My name is Zane Hughes. I'm a friend of Marta's, and I know her bike very well."
         vi: "Tên tôi là Zane Hughes. Tôi là bạn của Marta và tôi biết rất rõ chiếc xe của cô ấy."
         clues: [zane-surname]
-      - text_en: "I don't have any online accounts for selling things. I've never used a payment account in my life."
+      - text: "I don't have any online accounts for selling things. I've never used a payment account in my life."
         vi: "Tôi không có tài khoản bán hàng trên mạng nào. Cả đời tôi chưa từng dùng tài khoản thanh toán."
         focus: ["any", "in my life"]
-      - text_en: "Many people are called Hughes. It doesn't prove anything."
+      - text: "Many people are called Hughes. It doesn't prove anything."
         vi: "Có rất nhiều người họ Hughes. Điều đó không chứng minh được gì."
     checks:
       - claim_vi: "Zane nói anh có tài khoản bán hàng."
@@ -106,5 +106,5 @@ solution:
   evidence: [account-name, asked-setup]
   explain_vi: >-
     Zane nói anh chưa từng dùng tài khoản thanh toán. Nhưng tiền chuyển vào tài khoản tên Z. Hughes (Zane Hughes) và anh từng hỏi Marta cách lập tài khoản đó.
-  confession_en: "I'm sorry. I copied Marta's advert and sold the bike again with my own account. I needed the money for my rent. I'll send Joe his money back today."
+  confession: "I'm sorry. I copied Marta's advert and sold the bike again with my own account. I needed the money for my rent. I'll send Joe his money back today."
   confession_vi: "Tôi xin lỗi. Tôi sao chép bài rao của Marta và bán lại chiếc xe bằng tài khoản của mình. Tôi cần tiền trả tiền nhà. Hôm nay tôi sẽ gửi lại tiền cho Joe."

@@ -14,39 +14,39 @@ premise_vi: >-
 clues:
   - id: door-log
     witness: adams
-    text_en: "After eight o'clock the door log showed only two staff cards, the professor's and Tariq's."
+    text: "After eight o'clock the door log showed only two staff cards, the professor's and Tariq's."
     text_vi: "Sau tám giờ, nhật ký cửa chỉ ghi hai thẻ nhân viên: của giáo sư và của Tariq."
   - id: typing-heard
     witness: maya
-    text_en: "Maya heard someone typing in Tariq's office at about half past nine."
+    text: "Maya heard someone typing in Tariq's office at about half past nine."
     text_vi: "Maya nghe có người gõ phím trong phòng Tariq lúc khoảng chín giờ rưỡi."
   - id: file-opened
     witness: adams
-    text_en: "The exam file was opened at 9:40 pm on the department network."
+    text: "The exam file was opened at 9:40 pm on the department network."
     text_vi: "File đề thi được mở lúc 9:40 tối trên mạng của khoa."
   - id: chloe-message
     witness: chloe
-    text_en: "Chloe received the paper from an anonymous account at 9:47 pm."
+    text: "Chloe received the paper from an anonymous account at 9:47 pm."
     text_vi: "Chloe nhận được đề thi từ một tài khoản ẩn danh lúc 9:47 tối."
   - id: tariq-left
     witness: tariq
-    text_en: "Tariq says he left the department at six and did not come back."
+    text: "Tariq says he left the department at six and did not come back."
     text_vi: "Tariq nói anh rời khoa lúc sáu giờ và không quay lại."
 
 witnesses:
   - id: adams
     name: Prof Adams
-    role_en: The course leader
+    role: The course leader
     avatar: "🎓"
     segments:
-      - text_en: "I wrote the paper myself, and it was saved in one file on the department network. I left the building at eight o'clock."
+      - text: "I wrote the paper myself, and it was saved in one file on the department network. I left the building at eight o'clock."
         vi: "Chính tôi soạn đề và nó được lưu trong một file trên mạng của khoa. Tôi rời tòa nhà lúc tám giờ."
         focus: ["was saved", "left the building"]
-      - text_en: "According to the IT report, the file was opened at 9:40 pm by someone who used a staff login. It hadn't been opened since Wednesday."
+      - text: "According to the IT report, the file was opened at 9:40 pm by someone who used a staff login. It hadn't been opened since Wednesday."
         vi: "Theo báo cáo của IT, file được mở lúc 9:40 tối bởi một người dùng tài khoản nhân viên. Từ thứ Tư nó chưa hề được mở."
         clues: [file-opened]
         focus: ["According to", "hadn't been opened"]
-      - text_en: "I also checked the door log. It shows that after eight o'clock only two staff cards were used to enter the floor: mine, when I left, and one other."
+      - text: "I also checked the door log. It shows that after eight o'clock only two staff cards were used to enter the floor: mine, when I left, and one other."
         vi: "Tôi cũng kiểm tra nhật ký cửa. Nó cho thấy sau tám giờ chỉ có hai thẻ nhân viên được dùng để vào tầng này: thẻ của tôi khi tôi rời đi và một thẻ khác."
         clues: [door-log]
         focus: ["was used", "one other"]
@@ -62,17 +62,17 @@ witnesses:
         explain_vi: "Sai: “It hadn't been opened since Wednesday.”"
   - id: maya
     name: Maya
-    role_en: The department secretary
+    role: The department secretary
     avatar: "🗂️"
     segments:
-      - text_en: "I usually leave at five, but on Thursday I stayed until half past nine to finish the budget report."
+      - text: "I usually leave at five, but on Thursday I stayed until half past nine to finish the budget report."
         vi: "Thường tôi về lúc năm giờ, nhưng thứ Năm tôi ở lại đến chín giờ rưỡi để hoàn thành báo cáo ngân sách."
         focus: ["usually", "to finish"]
-      - text_en: "At about half past nine I walked along the corridor to collect my umbrella. There was a light under the door of Tariq's office, and I clearly heard someone typing."
+      - text: "At about half past nine I walked along the corridor to collect my umbrella. There was a light under the door of Tariq's office, and I clearly heard someone typing."
         vi: "Khoảng chín giờ rưỡi tôi đi dọc hành lang để lấy chiếc ô. Có ánh đèn dưới cửa phòng Tariq và tôi nghe rõ có người đang gõ phím."
         clues: [typing-heard]
         focus: ["collect", "clearly heard"]
-      - text_en: "I didn't knock because I didn't want to disturb him. Tariq's always working late, so I thought nothing of it."
+      - text: "I didn't knock because I didn't want to disturb him. Tariq's always working late, so I thought nothing of it."
         vi: "Tôi không gõ cửa vì không muốn làm phiền. Tariq luôn làm việc muộn nên tôi không nghĩ gì."
         focus: ["disturb", "thought nothing of it"]
     checks:
@@ -87,17 +87,17 @@ witnesses:
         explain_vi: "Đúng: “I clearly heard someone typing.”"
   - id: chloe
     name: Chloe
-    role_en: A student representative
+    role: A student representative
     avatar: "💬"
     segments:
-      - text_en: "On Thursday evening I received a message on my phone at 9:47 pm. It came from an anonymous account and contained the whole exam paper."
+      - text: "On Thursday evening I received a message on my phone at 9:47 pm. It came from an anonymous account and contained the whole exam paper."
         vi: "Tối thứ Năm tôi nhận được một tin nhắn trên điện thoại lúc 9:47. Nó đến từ một tài khoản ẩn danh và chứa toàn bộ đề thi."
         clues: [chloe-message]
         focus: ["anonymous", "contained"]
-      - text_en: "I didn't open the file at first. I reported it to Professor Adams the next morning, as soon as I realised what it was."
+      - text: "I didn't open the file at first. I reported it to Professor Adams the next morning, as soon as I realised what it was."
         vi: "Ban đầu tôi không mở file. Sáng hôm sau tôi báo cho Giáo sư Adams ngay khi nhận ra nó là gì."
         focus: ["reported", "as soon as"]
-      - text_en: "I have no idea who sent it. Some students said that the message had also been posted in a larger group chat."
+      - text: "I have no idea who sent it. Some students said that the message had also been posted in a larger group chat."
         vi: "Tôi không biết ai gửi nó. Một số sinh viên nói rằng tin nhắn đó cũng đã được đăng trong một nhóm chat lớn hơn."
         focus: ["have no idea", "had also been posted"]
     checks:
@@ -112,17 +112,17 @@ witnesses:
         explain_vi: "Sai: “I have no idea who sent it.”"
   - id: tariq
     name: Tariq
-    role_en: The teaching assistant
+    role: The teaching assistant
     avatar: "🏀"
     segments:
-      - text_en: "I left the department at six o'clock to play basketball with my friends, and I didn't come back that evening."
+      - text: "I left the department at six o'clock to play basketball with my friends, and I didn't come back that evening."
         vi: "Tôi rời khoa lúc sáu giờ để chơi bóng rổ với bạn bè và tối đó tôi không quay lại."
         clues: [tariq-left]
         focus: ["to play", "didn't come back"]
-      - text_en: "Anyone could have used my login, because I've never changed my password. It's the same as my birthday."
+      - text: "Anyone could have used my login, because I've never changed my password. It's the same as my birthday."
         vi: "Ai cũng có thể dùng tài khoản của tôi vì tôi chưa bao giờ đổi mật khẩu. Nó trùng với ngày sinh của tôi."
         focus: ["could have used", "never changed"]
-      - text_en: "I respect Professor Adams too much to do something like that. I wouldn't risk my career."
+      - text: "I respect Professor Adams too much to do something like that. I wouldn't risk my career."
         vi: "Tôi quá kính trọng Giáo sư Adams để làm điều như vậy. Tôi sẽ không liều với sự nghiệp của mình."
     checks:
       - claim_vi: "Tariq nói anh quay lại khoa vào buổi tối."
@@ -140,5 +140,5 @@ solution:
   explain_vi: >-
     Tariq nói anh rời khoa lúc sáu giờ và không quay lại. Nhưng nhật ký cửa cho thấy thẻ của anh được dùng sau tám giờ,
     và Maya nghe có người gõ phím trong phòng anh lúc chín giờ rưỡi, ngay trước khi file đề bị mở.
-  confession_en: "I made a terrible mistake. A friend asked me for help, and I thought it was only one question. I opened the file, sent the paper, and it quickly spread. I'm so sorry."
+  confession: "I made a terrible mistake. A friend asked me for help, and I thought it was only one question. I opened the file, sent the paper, and it quickly spread. I'm so sorry."
   confession_vi: "Tôi đã phạm một sai lầm khủng khiếp. Một người bạn nhờ tôi giúp và tôi nghĩ chỉ là một câu hỏi. Tôi mở file, gửi đề và nó lan ra rất nhanh. Tôi vô cùng xin lỗi."

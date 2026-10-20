@@ -13,36 +13,36 @@ premise_vi: >-
 clues:
   - id: phone-tuesday
     witness: kai
-    text_en: "Jess showed Kai some photos on her phone on Tuesday."
+    text: "Jess showed Kai some photos on her phone on Tuesday."
     text_vi: "Thứ Ba Jess đã cho Kai xem ảnh trên điện thoại của cô."
   - id: number-47
     witness: lena
-    text_en: "The message came from a number ending in 47, which is Jess's number."
+    text: "The message came from a number ending in 47, which is Jess's number."
     text_vi: "Tin nhắn đến từ số điện thoại kết thúc bằng 47, đó là số của Jess."
   - id: kai-cake
     witness: kai
-    text_en: "Kai ordered the cake."
+    text: "Kai ordered the cake."
     text_vi: "Kai đặt bánh."
   - id: lena-decor
     witness: lena
-    text_en: "Lena bought the decorations."
+    text: "Lena bought the decorations."
     text_vi: "Lena mua đồ trang trí."
 
 witnesses:
   - id: kai
     name: Kai
-    role_en: Hana's friend
+    role: Hana's friend
     avatar: "🎂"
     segments:
-      - text_en: "I ordered the cake last week. It's chocolate, and Hana loves chocolate. I've told nobody the name of the bakery."
+      - text: "I ordered the cake last week. It's chocolate, and Hana loves chocolate. I've told nobody the name of the bakery."
         vi: "Tuần trước tôi đã đặt bánh. Đó là bánh sô-cô-la và Hana rất thích sô-cô-la. Tôi chưa nói cho ai tên tiệm bánh."
         clues: [kai-cake]
         focus: ["I've told nobody", "bakery"]
-      - text_en: "On Tuesday afternoon I met Jess at the café on Main Street. She was happy, and she showed me some photos on her phone."
+      - text: "On Tuesday afternoon I met Jess at the café on Main Street. She was happy, and she showed me some photos on her phone."
         vi: "Chiều thứ Ba tôi gặp Jess ở quán cà phê trên phố Main. Cô ấy rất vui và cho tôi xem vài bức ảnh trên điện thoại."
         clues: [phone-tuesday]
         focus: ["showed me", "photos"]
-      - text_en: "So I was surprised when she said later that her phone had been broken all week."
+      - text: "So I was surprised when she said later that her phone had been broken all week."
         vi: "Vì vậy tôi rất ngạc nhiên khi sau đó cô ấy nói điện thoại của cô ấy hỏng cả tuần."
         focus: ["had been broken", "surprised"]
     checks:
@@ -57,16 +57,16 @@ witnesses:
         explain_vi: "Đúng: “she showed me some photos on her phone.”"
   - id: lena
     name: Lena
-    role_en: Hana's friend
+    role: Hana's friend
     avatar: "🎈"
     segments:
-      - text_en: "I bought the decorations: balloons, a banner and some lights. I kept everything in my garage."
+      - text: "I bought the decorations: balloons, a banner and some lights. I kept everything in my garage."
         vi: "Tôi mua đồ trang trí: bóng bay, băng rôn và vài dây đèn. Tôi giữ mọi thứ trong gara."
         clues: [lena-decor]
-      - text_en: "Yesterday Hana called me. She said she had received a message about the party, and she showed it to me."
+      - text: "Yesterday Hana called me. She said she had received a message about the party, and she showed it to me."
         vi: "Hôm qua Hana gọi cho tôi. Cô ấy nói đã nhận được một tin nhắn về bữa tiệc và cho tôi xem."
         focus: ["had received", "showed it"]
-      - text_en: "The message came from a number that ended in 47. That's Jess's number. I know it because I've called her a hundred times."
+      - text: "The message came from a number that ended in 47. That's Jess's number. I know it because I've called her a hundred times."
         vi: "Tin nhắn đến từ một số kết thúc bằng 47. Đó là số của Jess. Tôi biết vì tôi đã gọi cho cô ấy cả trăm lần."
         clues: [number-47]
         focus: ["ended in", "a hundred times"]
@@ -82,15 +82,15 @@ witnesses:
         explain_vi: "Đúng: “I've called her a hundred times.”"
   - id: jess
     name: Jess
-    role_en: Hana's best friend
+    role: Hana's best friend
     avatar: "📱"
     segments:
-      - text_en: "I couldn't have sent that message. My phone has been broken since last Sunday, and I haven't been able to text anyone."
+      - text: "I couldn't have sent that message. My phone has been broken since last Sunday, and I haven't been able to text anyone."
         vi: "Tôi không thể gửi tin nhắn đó. Điện thoại của tôi hỏng từ Chủ nhật tuần trước và tôi không nhắn được cho ai."
         focus: ["couldn't have sent", "has been broken since"]
-      - text_en: "I only use my laptop to chat with friends this week. Ask anybody!"
+      - text: "I only use my laptop to chat with friends this week. Ask anybody!"
         vi: "Tuần này tôi chỉ dùng máy tính xách tay để trò chuyện với bạn bè. Cứ hỏi bất kỳ ai!"
-      - text_en: "Hana is my best friend. I wanted her party to be perfect, so I would never spoil it."
+      - text: "Hana is my best friend. I wanted her party to be perfect, so I would never spoil it."
         vi: "Hana là bạn thân nhất của tôi. Tôi muốn bữa tiệc của cô ấy thật hoàn hảo nên tôi sẽ không bao giờ phá hỏng nó."
     checks:
       - claim_vi: "Jess nói điện thoại của cô hỏng từ Chủ nhật."
@@ -108,5 +108,5 @@ solution:
   explain_vi: >-
     Jess nói điện thoại cô hỏng cả tuần nên không thể nhắn tin. Nhưng thứ Ba cô cho Kai xem ảnh trên điện thoại,
     và tin nhắn gửi cho Hana đến từ số kết thúc bằng 47, chính là số của Jess.
-  confession_en: "I'm sorry. I was so excited that I couldn't keep the secret. I only wanted to tell Hana something nice, and I forgot it was a surprise. Please don't be angry."
+  confession: "I'm sorry. I was so excited that I couldn't keep the secret. I only wanted to tell Hana something nice, and I forgot it was a surprise. Please don't be angry."
   confession_vi: "Tôi xin lỗi. Tôi háo hức quá nên không giữ nổi bí mật. Tôi chỉ muốn nói với Hana một điều tốt đẹp và quên mất đó là bất ngờ. Xin đừng giận tôi."
