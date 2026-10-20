@@ -17,6 +17,7 @@ export default function EnglishPracticeHubPage() {
       lessons={lessons}
       tools={[
         { href: "/en/luyen-noi", icon: "🎤", title: "Luyện nói", hint: "Đọc to một câu, máy chấm phát âm" },
+        { href: "/en/am-cua-toi", icon: "🔬", title: "Âm của tôi", hint: "Âm nào hay sai, mẹo và cặp từ để luyện" },
         { href: "/en/hoi-thoai-ai", icon: "💬", title: "Hội thoại AI", hint: "Trò chuyện theo tình huống" },
         { href: "/en/flashcards", icon: "🃏", title: "Ôn flashcard", hint: "Thẻ từ và game học thuộc" },
         { href: "/en/words", icon: "📖", title: "Kho từ vựng", hint: "Tra từ, IPA, ví dụ" },

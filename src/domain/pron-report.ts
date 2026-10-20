@@ -96,12 +96,12 @@ export function alignPhones(expected: string[], heard: string[]): PhoneReport[] 
 
 /* ---------- Vietnamese tips ---------- */
 
-interface Tip {
+export interface Tip {
   /** the sound to make */
   say: string;
   how: string;
 }
-const TIPS: Record<string, Tip> = {
+export const TIPS: Record<string, Tip> = {
   θ: { say: "/θ/ (th trong think)", how: "Đặt đầu lưỡi nhẹ giữa hai hàm răng rồi thổi hơi ra, không rung dây thanh. Đừng đọc thành “s” hay “t”." },
   ð: { say: "/ð/ (th trong this)", how: "Đặt đầu lưỡi giữa hai hàm răng như /θ/ nhưng có rung cổ họng. Đừng đọc thành “d” hay “z”." },
   ʃ: { say: "/ʃ/ (sh)", how: "Chu môi, đưa lưỡi lùi lại một chút, thổi hơi như tiếng “suỵt”. Không đọc là “s”." },
@@ -131,6 +131,13 @@ const TIPS: Record<string, Tip> = {
   "ɜː": { say: "/ɜː/ (er)", how: "Kéo dài “ơ”, môi thả lỏng, lưỡi giữa." },
 };
 
+/** The English sounds shown on the "Âm của tôi" board. */
+export const PHONE_GROUPS: Array<{ title: string; sounds: string[] }> = [
+  { title: "Phụ âm", sounds: ["p", "b", "t", "d", "k", "g", "f", "v", "θ", "ð", "s", "z", "ʃ", "ʒ", "tʃ", "dʒ", "h", "m", "n", "ŋ", "l", "r", "w", "j"] },
+  { title: "Nguyên âm", sounds: ["iː", "ɪ", "e", "æ", "ɑː", "ɒ", "ɔː", "ʊ", "uː", "ʌ", "ɜː", "ə"] },
+  { title: "Nguyên âm đôi", sounds: ["eɪ", "aɪ", "ɔɪ", "aʊ", "əʊ", "ɪə", "eə", "ʊə"] },
+];
+
 /** A short Vietnamese tip for one wrong sound (what to do with the mouth), or "" when there is nothing specific. */
 export function tipFor(expected: string, heard: string | null): string {
   const t = TIPS[expected];
@@ -157,31 +164,25 @@ export function wordTip(phones: PhoneReport[]): string {
 
 export type IpaDictionary = Record<string, string>;
 
-/** Pairs expected words with heard words: LCS anchors, then substitutions inside the gaps. */
+/**
+ * Pairs expected words with heard words by edit distance over the word sequences: a heard word that replaces an expected one
+ * counts as a substitution (think → sink), a missing one as dropped, an extra one is ignored.
+ */
 export function alignWords(expected: string[], heard: string[]): Array<{ heard: string | null; exact: boolean }> {
   const n = expected.length;
   const m = heard.length;
-  const dp = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
-  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--) dp[i]![j] = sameWord(expected[i]!, heard[j]!) ? dp[i + 1]![j + 1]! + 1 : Math.max(dp[i + 1]![j]!, dp[i]![j + 1]!);
-  const result: Array<{ heard: string | null; exact: boolean }> = new Array(n).fill(null).map(() => ({ heard: null, exact: false }));
-  const anchors: Array<[number, number]> = [];
-  for (let i = 0, j = 0; i < n && j < m; ) {
-    if (sameWord(expected[i]!, heard[j]!)) {
-      anchors.push([i, j]);
-      result[i] = { heard: heard[j]!, exact: expected[i] === heard[j] };
-      i++;
-      j++;
-    } else if (dp[i + 1]![j]! >= dp[i]![j + 1]!) i++;
-    else j++;
-  }
-  // substitutions: unmatched expected words and unmatched heard words between two anchors, in order
-  const bounds: Array<[number, number]> = [[-1, -1], ...anchors, [n, m]];
-  for (let a = 0; a < bounds.length - 1; a++) {
-    const [ei, hj] = bounds[a]!;
-    const [ei2, hj2] = bounds[a + 1]!;
-    const es = Array.from({ length: Math.max(0, ei2 - ei - 1) }, (_, k) => ei + 1 + k);
-    const hs = Array.from({ length: Math.max(0, hj2 - hj - 1) }, (_, k) => hj + 1 + k);
-    for (let k = 0; k < Math.min(es.length, hs.length); k++) result[es[k]!] = { heard: heard[hs[k]!]!, exact: false };
+  const d = Array.from({ length: n + 1 }, (_, i) => Array.from({ length: m + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0)));
+  const same = (i: number, j: number) => sameWord(expected[i]!, heard[j]!);
+  for (let i = 1; i <= n; i++) for (let j = 1; j <= m; j++) d[i]![j] = Math.min(d[i - 1]![j]! + 1, d[i]![j - 1]! + 1, d[i - 1]![j - 1]! + (same(i - 1, j - 1) ? 0 : 1));
+  const result: Array<{ heard: string | null; exact: boolean }> = Array.from({ length: n }, () => ({ heard: null, exact: false }));
+  for (let i = n, j = m; i > 0; ) {
+    const diag = j > 0 ? d[i - 1]![j - 1]! + (same(i - 1, j - 1) ? 0 : 1) : Infinity;
+    if (j > 0 && d[i]![j] === diag) {
+      result[i - 1] = { heard: heard[j - 1]!, exact: expected[i - 1] === heard[j - 1] };
+      i--;
+      j--;
+    } else if (d[i]![j] === d[i - 1]![j]! + 1) i--; // expected word not heard
+    else j--; // extra heard word
   }
   return result;
 }

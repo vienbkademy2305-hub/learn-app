@@ -4,24 +4,21 @@
  * (./pronounce.ts), show the score and the words that sounded wrong. The recording is not stored anywhere.
  * Without that server (phone, server off) the browser's speech recognition checks which words were said.
  */
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { browserReport, serverReport, type IpaDictionary, type Report } from "@/domain/pron-report";
+import { browserReport, serverReport, type Report, type WordReport } from "@/domain/pron-report";
 import { assessSpeech } from "@/domain/speech-match";
 import { acquireMic, releaseMicSoon } from "@/features/speaking/recorder";
 import { canRecognize, listen, recognizeError, type Listening } from "@/features/speaking/recognize";
+import { loadIpa } from "./ipa";
+import { addReportToPhones } from "./phone-store";
 import { PronounceReport } from "./PronounceReport";
 import { stopEnglish } from "./speech";
 import { assessPronunciation, PronounceOffline, pronounceAvailable, pronounceEnabled } from "./pronounce";
 
-let ipaPromise: Promise<IpaDictionary> | null = null;
-/** word → IPA, used to compare the sounds of a wrong word with the word the recognizer heard (public/assets/en-ipa.json). */
-function loadIpa(): Promise<IpaDictionary> {
-  ipaPromise ??= fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/assets/en-ipa.json`)
-    .then((r) => (r.ok ? (r.json() as Promise<IpaDictionary>) : {}))
-    .catch(() => ({}));
-  return ipaPromise;
-}
+// loaded on demand: the practice mode itself uses this component, so a static import would be circular
+const WeakPractice = dynamic(() => import("./WeakPractice").then((m) => m.WeakPractice), { ssr: false });
 
 type State = "idle" | "recording" | "checking" | "done" | "offline" | "error";
 
@@ -40,6 +37,7 @@ export function PronounceCheck({ text, compact = false, onScore, nested = false 
   const [state, setState] = useState<State>("idle");
   const [error, setError] = useState("");
   const [report, setReport] = useState<Report | null>(null);
+  const [practice, setPractice] = useState<WordReport[] | null>(null);
   const [mine, setMine] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const rec = useRef<MediaRecorder | null>(null);
@@ -79,7 +77,9 @@ export function PronounceCheck({ text, compact = false, onScore, nested = false 
     try {
       const alts = await l.result;
       const m = assessSpeech(text, alts, "en", l.meta);
-      setReport(browserReport(text, m, alts[0] ?? "", await loadIpa()));
+      const rep = browserReport(text, m, alts[0] ?? "", await loadIpa());
+      setReport(rep);
+      void addReportToPhones(rep);
       setState("done");
       onScore?.(m.score);
     } catch (e) {
@@ -124,7 +124,9 @@ export function PronounceCheck({ text, compact = false, onScore, nested = false 
       setState("checking");
       try {
         const res = await assessPronunciation(blob, text);
-        setReport(serverReport(text, res));
+        const rep = serverReport(text, res);
+        setReport(rep);
+        void addReportToPhones(rep);
         setState("done");
         onScore?.(res.score);
       } catch (err) {
@@ -204,8 +206,10 @@ export function PronounceCheck({ text, compact = false, onScore, nested = false 
           report={report}
           mineUrl={mine}
           retry={nested ? undefined : (word) => <PronounceCheck text={word} compact={false} nested />}
+          onPractice={nested ? undefined : setPractice}
         />
       )}
+      {practice && <WeakPractice words={practice} onClose={() => setPractice(null)} />}
     </div>
   );
 }

@@ -4,6 +4,7 @@
  * a list of the words to practise, and a bottom sheet per word with the sounds, what was heard instead, a Vietnamese tip, the model
  * voice, the learner's own recording and a retry. One component for both sources (phone: browser recognition; computer: server).
  */
+import Link from "next/link";
 import { useEffect, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { levelOf, weakWords, type Level, type Report, type WordReport } from "@/domain/pron-report";
@@ -107,7 +108,7 @@ function WordSheet({ w, mineUrl, retry, onClose }: { w: WordReport; mineUrl: str
   );
 }
 
-export function PronounceReport({ report, mineUrl, retry }: { report: Report; mineUrl: string | null; retry?: (word: string) => ReactNode }) {
+export function PronounceReport({ report, mineUrl, retry, onPractice }: { report: Report; mineUrl: string | null; retry?: (word: string) => ReactNode; /** start the practice mode with these words */ onPractice?: (words: WordReport[]) => void }) {
   const [open, setOpen] = useState<WordReport | null>(null);
   const weak = weakWords(report);
   const level = levelOf(report.overall);
@@ -143,6 +144,12 @@ export function PronounceReport({ report, mineUrl, retry }: { report: Report; mi
 
       {report.note && <p className="rounded-xl bg-amber-50 p-3 text-sm text-amber-900">💡 {report.note}</p>}
 
+      {weak.length > 0 && onPractice && (
+        <button type="button" onClick={() => onPractice(weak)} className="w-full rounded-2xl bg-rose-700 px-5 py-3 text-base font-bold text-white shadow-sm hover:bg-rose-800">
+          🎯 Luyện lại {weak.length} từ sai
+        </button>
+      )}
+
       {weak.length > 0 && (
         <div>
           <p className="mb-1.5 text-sm font-semibold text-stone-900">Từ cần luyện (thấp nhất trước)</p>
@@ -164,6 +171,12 @@ export function PronounceReport({ report, mineUrl, retry }: { report: Report; mi
         Máy nghe được: <span lang="en" className="font-mono">{report.heardText || "(không có)"}</span>
         {report.source === "browser" && " · Trên điện thoại, app dùng nhận dạng giọng nói của trình duyệt để tìm từ bạn đọc sai và so sánh âm của từ đó với từ máy nghe được. Muốn chấm chi tiết từng âm, dùng máy chấm trên máy tính."}
       </p>
+
+      {retry && (
+        <p className="text-sm">
+          <Link href="/en/am-cua-toi" className="font-semibold text-sky-800 hover:underline">📊 Xem các âm tôi hay đọc sai →</Link>
+        </p>
+      )}
 
       {open && <WordSheet w={open} mineUrl={mineUrl} retry={retry} onClose={() => setOpen(null)} />}
     </div>
